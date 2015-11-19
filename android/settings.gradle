@@ -1,0 +1,16 @@
+rootProject.name = 'yunapp'
+
+include ':app'
+
+//Add the following two lines:
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+
+include ':yunsdk'
+project(':yunsdk').projectDir = new File(rootProject.projectDir, '../Libraries/YunSdk/android')
+
+include ':dzhchart'
+project(':dzhchart').projectDir = new File(rootProject.projectDir, '../Libraries/DzhChart/android')
+
+include ':dzhwebview'
+project(':dzhwebview').projectDir = new File(rootProject.projectDir, '../Libraries/DzhWebView/android')

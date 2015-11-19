@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DzhChart</string>
+    <string name="dzhChartKLine">kline</string>
+    <string name="dzhChartMin">min</string>
+    <string name="kline">
+    </string>
+    <string name="min">
+    </string>
+</resources>

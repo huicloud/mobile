@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="dzhChartBgColor">#FFF</color>
+    <color name="dzhChartBorderColor">#FFF</color>
+    <color name="dzhChartGridLineColor">#d3d7d4</color>
+    <color name="dzhChartGridFontColor">#5B5B5B</color>
+    <color name="dzhChartDropColor">#0f0</color>
+    <color name="dzhChartRiseColor">#f00</color>
+    <color name="dzhChartMinLineColor">#33a3dc</color>
+    <color name="dzhChartAvgLineColor">#fcaf17</color>
+    <color name="dzhChartZuoShouColor">#8B8378</color>
+    <color name="dzhChartMinFillColor">#2f7bbfea</color>
+</resources>

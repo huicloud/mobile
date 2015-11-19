@@ -1,0 +1,18 @@
+{
+  "name": "huicloud-mobile",
+  "description": "huicloud/mobile",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-native start"
+  },
+  "dependencies": {
+    "event-target-shim": "^1.0.5",
+    "moment": "^2.10.6",
+    "react-native": "^0.14.1",
+    "react-native-button": "^1.2.1",
+    "react-native-tab-navigator": "^0.2.11",
+    "react-native-vector-icons": "^0.8.4",
+    "react-timer-mixin": "^0.13.3"
+  }
+}

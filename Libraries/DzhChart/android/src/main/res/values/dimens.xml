@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dzhChartBorderLineWidth">1dp</dimen>
+    <dimen name="dzhChartGridLineWidth">1dp</dimen>
+    <dimen name="dzhChartLeftRulerWidth">0dp</dimen>
+    <dimen name="dzhChartRightRulerWidth">0dp</dimen>
+    <dimen name="dzhChartBottomRulerHeight">20dp</dimen>
+    <dimen name="dzhChartKLineWidth">1dp</dimen>
+    <dimen name="dzhChartMinLineWidth">2dp</dimen>
+    <dimen name="dzhChartAvgLineWidth">1dp</dimen>
+    <dimen name="dzhChartFontSize">12dp</dimen>
+</resources>
