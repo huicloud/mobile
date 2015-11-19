@@ -1,6 +1,8 @@
 # 大智慧金融云APP
 
-大智慧金融云APP是基于大智慧云服务的开源APP，它提供一个具有行情、资讯功能的APP，可日常使用也可定制。APP 支持的平台为 IOS/Android
+大智慧金融云APP是基于大智慧云服务的开源APP，它提供一个具有行情、资讯功能的APP，可日常使用也可定制。APP 支持的平台为 IOS/Android。
+
+[大智慧金融云服务文档](https://www.gitbook.com/book/elsejj/dzhyun/details)
 
 ## 技术路线
 
