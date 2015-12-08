@@ -1875,6 +1875,195 @@ ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS
   return ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_descriptor_;
 }
 
+J2OBJC_INITIALIZED_DEFN(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD);
+
+ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_descriptor_;
+
+@implementation ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD
+
+typedef struct ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Storage {
+  uint32_t hasBits[1];
+  long long int gdrs_;
+  long long int xh_;
+  NSString *gdmc_;
+  double cgs_;
+  double zzgs_;
+  NSString *zjqk_;
+  NSString *gbxz_;
+  NSString *gsdm_;
+} ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Storage;
+
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor {
+  return ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_descriptor_;
+}
+
++ (void)initialize {
+  if (self == [ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD class]) {
+    static CGPFieldData fields[] = {
+      {
+        .name = "gdrs",
+        .javaName = "Gdrs",
+        .number = 1,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Storage, gdrs_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD",
+        .optionsData = NULL,
+      },
+      {
+        .name = "xh",
+        .javaName = "Xh",
+        .number = 2,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 1,
+        .offset = offsetof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Storage, xh_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD",
+        .optionsData = NULL,
+      },
+      {
+        .name = "gdmc",
+        .javaName = "Gdmc",
+        .number = 3,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
+        .defaultValue.valueId = @"",
+        .hasBitIndex = 2,
+        .offset = offsetof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Storage, gdmc_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD",
+        .optionsData = NULL,
+      },
+      {
+        .name = "cgs",
+        .javaName = "Cgs",
+        .number = 4,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_DOUBLE,
+        .defaultValue.valueDouble = 0,
+        .hasBitIndex = 3,
+        .offset = offsetof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Storage, cgs_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD",
+        .optionsData = NULL,
+      },
+      {
+        .name = "zzgs",
+        .javaName = "Zzgs",
+        .number = 5,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_DOUBLE,
+        .defaultValue.valueDouble = 0,
+        .hasBitIndex = 4,
+        .offset = offsetof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Storage, zzgs_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD",
+        .optionsData = NULL,
+      },
+      {
+        .name = "zjqk",
+        .javaName = "Zjqk",
+        .number = 6,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
+        .defaultValue.valueId = @"",
+        .hasBitIndex = 5,
+        .offset = offsetof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Storage, zjqk_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD",
+        .optionsData = NULL,
+      },
+      {
+        .name = "gbxz",
+        .javaName = "Gbxz",
+        .number = 7,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
+        .defaultValue.valueId = @"",
+        .hasBitIndex = 6,
+        .offset = offsetof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Storage, gbxz_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD",
+        .optionsData = NULL,
+      },
+      {
+        .name = "gsdm",
+        .javaName = "Gsdm",
+        .number = 8,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
+        .defaultValue.valueId = @"",
+        .hasBitIndex = 7,
+        .offset = offsetof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Storage, gsdm_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD",
+        .optionsData = NULL,
+      },
+    };
+    CGPInitDescriptor(&ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_descriptor_, self, [ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder class], 0, sizeof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Storage), 8, fields);
+    J2OBJC_SET_INITIALIZED(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD)
+  }
+}
+
+@end
+
+J2OBJC_CLASS_TYPE_LITERAL_SOURCE(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD)
+
+ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_getDefaultInstance() {
+  ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_initialize();
+  return (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *)[CGPNewMessage(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_descriptor_) autorelease];
+}
+
+ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_newBuilder() {
+  ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_initialize();
+  return (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *)[CGPNewBuilder(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_descriptor_) autorelease];
+}
+
+ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_newBuilderWithComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *message) {
+  ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_initialize();
+  return (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *)CGPBuilderFromPrototype(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_descriptor_, message);
+}
+
+ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_getDescriptor() {
+  ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_initialize();
+  return ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_descriptor_;
+}
+
+ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry) {
+  ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_initialize();
+  return (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *)CGPParseFromByteArray(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_descriptor_, bytes, registry);
+}
+
+ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry) {
+  ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_initialize();
+  return (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *)CGPParseFromInputStream(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_descriptor_, input, registry);
+}
+ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry) {
+  ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_initialize();
+  return (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *)CGPParseDelimitedFromInputStream(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_descriptor_, input, registry);
+}
+
+@implementation ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder
+
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor {
+  return [ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD getDescriptor];
+}
+
+@end
+
+J2OBJC_CLASS_TYPE_LITERAL_SOURCE(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder)
+J2OBJC_INTERFACE_TYPE_LITERAL_SOURCE(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDOrBuilder)
+
+ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder_getDescriptor() {
+  ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_initialize();
+  return ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_descriptor_;
+}
+
 J2OBJC_INITIALIZED_DEFN(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD);
 
 ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_descriptor_;
@@ -1885,14 +2074,7 @@ typedef struct ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Storage {
   uint32_t hasBits[1];
   NSString *obj_;
   NSString *date_;
-  long long int gdrs_;
-  long long int xh_;
-  NSString *gdmc_;
-  double cgs_;
-  double zzgs_;
-  NSString *zjqk_;
-  NSString *gbxz_;
-  NSString *gsdm_;
+  CGPRepeatedField data_;
 } ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Storage;
 
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor {
@@ -1929,111 +2111,20 @@ typedef struct ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Storage {
         .optionsData = NULL,
       },
       {
-        .name = "gdrs",
-        .javaName = "Gdrs",
+        .name = "data",
+        .javaName = "Data",
         .number = 3,
-        .flags = 0,
-        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
-        .defaultValue.valueLong = 0LL,
-        .hasBitIndex = 2,
-        .offset = offsetof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Storage, gdrs_),
-        .className = NULL,
-        .containingType = "ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD",
-        .optionsData = NULL,
-      },
-      {
-        .name = "xh",
-        .javaName = "Xh",
-        .number = 4,
-        .flags = 0,
-        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
-        .defaultValue.valueLong = 0LL,
-        .hasBitIndex = 3,
-        .offset = offsetof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Storage, xh_),
-        .className = NULL,
-        .containingType = "ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD",
-        .optionsData = NULL,
-      },
-      {
-        .name = "gdmc",
-        .javaName = "Gdmc",
-        .number = 5,
-        .flags = 0,
-        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
-        .defaultValue.valueId = @"",
-        .hasBitIndex = 4,
-        .offset = offsetof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Storage, gdmc_),
-        .className = NULL,
-        .containingType = "ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD",
-        .optionsData = NULL,
-      },
-      {
-        .name = "cgs",
-        .javaName = "Cgs",
-        .number = 6,
-        .flags = 0,
-        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_DOUBLE,
-        .defaultValue.valueDouble = 0,
-        .hasBitIndex = 5,
-        .offset = offsetof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Storage, cgs_),
-        .className = NULL,
-        .containingType = "ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD",
-        .optionsData = NULL,
-      },
-      {
-        .name = "zzgs",
-        .javaName = "Zzgs",
-        .number = 7,
-        .flags = 0,
-        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_DOUBLE,
-        .defaultValue.valueDouble = 0,
-        .hasBitIndex = 6,
-        .offset = offsetof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Storage, zzgs_),
-        .className = NULL,
-        .containingType = "ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD",
-        .optionsData = NULL,
-      },
-      {
-        .name = "zjqk",
-        .javaName = "Zjqk",
-        .number = 8,
-        .flags = 0,
-        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
-        .defaultValue.valueId = @"",
-        .hasBitIndex = 7,
-        .offset = offsetof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Storage, zjqk_),
-        .className = NULL,
-        .containingType = "ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD",
-        .optionsData = NULL,
-      },
-      {
-        .name = "gbxz",
-        .javaName = "Gbxz",
-        .number = 9,
-        .flags = 0,
-        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
-        .defaultValue.valueId = @"",
-        .hasBitIndex = 8,
-        .offset = offsetof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Storage, gbxz_),
-        .className = NULL,
-        .containingType = "ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD",
-        .optionsData = NULL,
-      },
-      {
-        .name = "gsdm",
-        .javaName = "Gsdm",
-        .number = 10,
-        .flags = 0,
-        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
-        .defaultValue.valueId = @"",
-        .hasBitIndex = 9,
-        .offset = offsetof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Storage, gsdm_),
-        .className = NULL,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Storage, data_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD",
         .containingType = "ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD",
         .optionsData = NULL,
       },
     };
-    CGPInitDescriptor(&ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_descriptor_, self, [ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Builder class], 0, sizeof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Storage), 10, fields);
+    CGPInitDescriptor(&ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_descriptor_, self, [ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Builder class], 0, sizeof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Storage), 3, fields);
     J2OBJC_SET_INITIALIZED(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD)
   }
 }
@@ -2102,14 +2193,7 @@ typedef struct ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Storage {
   uint32_t hasBits[1];
   NSString *obj_;
   NSString *date_;
-  long long int gdrs_;
-  long long int xh_;
-  NSString *gdmc_;
-  double cgs_;
-  double zzgs_;
-  NSString *zjqk_;
-  NSString *gbxz_;
-  NSString *gsdm_;
+  CGPRepeatedField data_;
 } ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Storage;
 
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor {
@@ -2146,111 +2230,20 @@ typedef struct ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Storage {
         .optionsData = NULL,
       },
       {
-        .name = "gdrs",
-        .javaName = "Gdrs",
+        .name = "data",
+        .javaName = "Data",
         .number = 3,
-        .flags = 0,
-        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
-        .defaultValue.valueLong = 0LL,
-        .hasBitIndex = 2,
-        .offset = offsetof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Storage, gdrs_),
-        .className = NULL,
-        .containingType = "ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD",
-        .optionsData = NULL,
-      },
-      {
-        .name = "xh",
-        .javaName = "Xh",
-        .number = 4,
-        .flags = 0,
-        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
-        .defaultValue.valueLong = 0LL,
-        .hasBitIndex = 3,
-        .offset = offsetof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Storage, xh_),
-        .className = NULL,
-        .containingType = "ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD",
-        .optionsData = NULL,
-      },
-      {
-        .name = "gdmc",
-        .javaName = "Gdmc",
-        .number = 5,
-        .flags = 0,
-        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
-        .defaultValue.valueId = @"",
-        .hasBitIndex = 4,
-        .offset = offsetof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Storage, gdmc_),
-        .className = NULL,
-        .containingType = "ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD",
-        .optionsData = NULL,
-      },
-      {
-        .name = "cgs",
-        .javaName = "Cgs",
-        .number = 6,
-        .flags = 0,
-        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_DOUBLE,
-        .defaultValue.valueDouble = 0,
-        .hasBitIndex = 5,
-        .offset = offsetof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Storage, cgs_),
-        .className = NULL,
-        .containingType = "ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD",
-        .optionsData = NULL,
-      },
-      {
-        .name = "zzgs",
-        .javaName = "Zzgs",
-        .number = 7,
-        .flags = 0,
-        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_DOUBLE,
-        .defaultValue.valueDouble = 0,
-        .hasBitIndex = 6,
-        .offset = offsetof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Storage, zzgs_),
-        .className = NULL,
-        .containingType = "ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD",
-        .optionsData = NULL,
-      },
-      {
-        .name = "zjqk",
-        .javaName = "Zjqk",
-        .number = 8,
-        .flags = 0,
-        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
-        .defaultValue.valueId = @"",
-        .hasBitIndex = 7,
-        .offset = offsetof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Storage, zjqk_),
-        .className = NULL,
-        .containingType = "ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD",
-        .optionsData = NULL,
-      },
-      {
-        .name = "gbxz",
-        .javaName = "Gbxz",
-        .number = 9,
-        .flags = 0,
-        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
-        .defaultValue.valueId = @"",
-        .hasBitIndex = 8,
-        .offset = offsetof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Storage, gbxz_),
-        .className = NULL,
-        .containingType = "ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD",
-        .optionsData = NULL,
-      },
-      {
-        .name = "gsdm",
-        .javaName = "Gsdm",
-        .number = 10,
-        .flags = 0,
-        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
-        .defaultValue.valueId = @"",
-        .hasBitIndex = 9,
-        .offset = offsetof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Storage, gsdm_),
-        .className = NULL,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Storage, data_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD",
         .containingType = "ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD",
         .optionsData = NULL,
       },
     };
-    CGPInitDescriptor(&ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_descriptor_, self, [ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Builder class], 0, sizeof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Storage), 10, fields);
+    CGPInitDescriptor(&ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_descriptor_, self, [ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Builder class], 0, sizeof(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Storage), 3, fields);
     J2OBJC_SET_INITIALIZED(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD)
   }
 }

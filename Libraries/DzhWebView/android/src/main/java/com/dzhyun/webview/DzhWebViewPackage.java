@@ -17,6 +17,8 @@ public class DzhWebViewPackage implements ReactPackage {
     @Override
     public List<NativeModule> createNativeModules( ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
+
+        modules.add(new PDFModule(reactContext));
         return modules;
     }
 

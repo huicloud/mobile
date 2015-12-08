@@ -17039,6 +17039,1593 @@ public final class CldF10ShuJu {
     // @@protoc_insertion_point(class_scope:dzhyun.F10_GDJC_GDHS)
   }
 
+  public interface F10_GDJC_GDOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:dzhyun.F10_GDJC_GD)
+      com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>optional int64 gdrs = 1;</code>
+     *
+     * <pre>
+     * 股东人数 
+     * </pre>
+     */
+    boolean hasGdrs();
+    /**
+     * <code>optional int64 gdrs = 1;</code>
+     *
+     * <pre>
+     * 股东人数 
+     * </pre>
+     */
+    long getGdrs();
+
+    /**
+     * <code>optional int64 xh = 2;</code>
+     *
+     * <pre>
+     * 序号 
+     * </pre>
+     */
+    boolean hasXh();
+    /**
+     * <code>optional int64 xh = 2;</code>
+     *
+     * <pre>
+     * 序号 
+     * </pre>
+     */
+    long getXh();
+
+    /**
+     * <code>optional string gdmc = 3;</code>
+     *
+     * <pre>
+     * 股东名称 
+     * </pre>
+     */
+    boolean hasGdmc();
+    /**
+     * <code>optional string gdmc = 3;</code>
+     *
+     * <pre>
+     * 股东名称 
+     * </pre>
+     */
+    java.lang.String getGdmc();
+    /**
+     * <code>optional string gdmc = 3;</code>
+     *
+     * <pre>
+     * 股东名称 
+     * </pre>
+     */
+    com.google.protobuf.ByteString
+        getGdmcBytes();
+
+    /**
+     * <code>optional double cgs = 4;</code>
+     *
+     * <pre>
+     * 持股数(万股) 
+     * </pre>
+     */
+    boolean hasCgs();
+    /**
+     * <code>optional double cgs = 4;</code>
+     *
+     * <pre>
+     * 持股数(万股) 
+     * </pre>
+     */
+    double getCgs();
+
+    /**
+     * <code>optional double zzgs = 5;</code>
+     *
+     * <pre>
+     * 占总股数(%) 
+     * </pre>
+     */
+    boolean hasZzgs();
+    /**
+     * <code>optional double zzgs = 5;</code>
+     *
+     * <pre>
+     * 占总股数(%) 
+     * </pre>
+     */
+    double getZzgs();
+
+    /**
+     * <code>optional string zjqk = 6;</code>
+     *
+     * <pre>
+     * 增减情况(万股) 
+     * </pre>
+     */
+    boolean hasZjqk();
+    /**
+     * <code>optional string zjqk = 6;</code>
+     *
+     * <pre>
+     * 增减情况(万股) 
+     * </pre>
+     */
+    java.lang.String getZjqk();
+    /**
+     * <code>optional string zjqk = 6;</code>
+     *
+     * <pre>
+     * 增减情况(万股) 
+     * </pre>
+     */
+    com.google.protobuf.ByteString
+        getZjqkBytes();
+
+    /**
+     * <code>optional string gbxz = 7;</code>
+     *
+     * <pre>
+     * 股本性质 
+     * </pre>
+     */
+    boolean hasGbxz();
+    /**
+     * <code>optional string gbxz = 7;</code>
+     *
+     * <pre>
+     * 股本性质 
+     * </pre>
+     */
+    java.lang.String getGbxz();
+    /**
+     * <code>optional string gbxz = 7;</code>
+     *
+     * <pre>
+     * 股本性质 
+     * </pre>
+     */
+    com.google.protobuf.ByteString
+        getGbxzBytes();
+
+    /**
+     * <code>optional string gsdm = 8;</code>
+     *
+     * <pre>
+     * 公司代码
+     * </pre>
+     */
+    boolean hasGsdm();
+    /**
+     * <code>optional string gsdm = 8;</code>
+     *
+     * <pre>
+     * 公司代码
+     * </pre>
+     */
+    java.lang.String getGsdm();
+    /**
+     * <code>optional string gsdm = 8;</code>
+     *
+     * <pre>
+     * 公司代码
+     * </pre>
+     */
+    com.google.protobuf.ByteString
+        getGsdmBytes();
+  }
+  /**
+   * Protobuf type {@code dzhyun.F10_GDJC_GD}
+   *
+   * <pre>
+   *十大股东/流通股东数据项
+   * </pre>
+   */
+  public static final class F10_GDJC_GD extends
+      com.google.protobuf.GeneratedMessage implements
+      // @@protoc_insertion_point(message_implements:dzhyun.F10_GDJC_GD)
+      F10_GDJC_GDOrBuilder {
+    // Use F10_GDJC_GD.newBuilder() to construct.
+    private F10_GDJC_GD(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      super(builder);
+      this.unknownFields = builder.getUnknownFields();
+    }
+    private F10_GDJC_GD(boolean noInit) { this.unknownFields = com.google.protobuf.UnknownFieldSet.getDefaultInstance(); }
+
+    private static final F10_GDJC_GD defaultInstance;
+    public static F10_GDJC_GD getDefaultInstance() {
+      return defaultInstance;
+    }
+
+    public F10_GDJC_GD getDefaultInstanceForType() {
+      return defaultInstance;
+    }
+
+    private final com.google.protobuf.UnknownFieldSet unknownFields;
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+        getUnknownFields() {
+      return this.unknownFields;
+    }
+    private F10_GDJC_GD(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      initFields();
+      int mutable_bitField0_ = 0;
+      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+          com.google.protobuf.UnknownFieldSet.newBuilder();
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!parseUnknownField(input, unknownFields,
+                                     extensionRegistry, tag)) {
+                done = true;
+              }
+              break;
+            }
+            case 8: {
+              bitField0_ |= 0x00000001;
+              gdrs_ = input.readInt64();
+              break;
+            }
+            case 16: {
+              bitField0_ |= 0x00000002;
+              xh_ = input.readInt64();
+              break;
+            }
+            case 26: {
+              com.google.protobuf.ByteString bs = input.readBytes();
+              bitField0_ |= 0x00000004;
+              gdmc_ = bs;
+              break;
+            }
+            case 33: {
+              bitField0_ |= 0x00000008;
+              cgs_ = input.readDouble();
+              break;
+            }
+            case 41: {
+              bitField0_ |= 0x00000010;
+              zzgs_ = input.readDouble();
+              break;
+            }
+            case 50: {
+              com.google.protobuf.ByteString bs = input.readBytes();
+              bitField0_ |= 0x00000020;
+              zjqk_ = bs;
+              break;
+            }
+            case 58: {
+              com.google.protobuf.ByteString bs = input.readBytes();
+              bitField0_ |= 0x00000040;
+              gbxz_ = bs;
+              break;
+            }
+            case 66: {
+              com.google.protobuf.ByteString bs = input.readBytes();
+              bitField0_ |= 0x00000080;
+              gsdm_ = bs;
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e.getMessage()).setUnfinishedMessage(this);
+      } finally {
+        this.unknownFields = unknownFields.build();
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return com.dzhyun.proto.CldF10ShuJu.internal_static_dzhyun_F10_GDJC_GD_descriptor;
+    }
+
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return com.dzhyun.proto.CldF10ShuJu.internal_static_dzhyun_F10_GDJC_GD_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.class, com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.Builder.class);
+    }
+
+    public static com.google.protobuf.Parser<F10_GDJC_GD> PARSER =
+        new com.google.protobuf.AbstractParser<F10_GDJC_GD>() {
+      public F10_GDJC_GD parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return new F10_GDJC_GD(input, extensionRegistry);
+      }
+    };
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<F10_GDJC_GD> getParserForType() {
+      return PARSER;
+    }
+
+    private int bitField0_;
+    public static final int GDRS_FIELD_NUMBER = 1;
+    private long gdrs_;
+    /**
+     * <code>optional int64 gdrs = 1;</code>
+     *
+     * <pre>
+     * 股东人数 
+     * </pre>
+     */
+    public boolean hasGdrs() {
+      return ((bitField0_ & 0x00000001) == 0x00000001);
+    }
+    /**
+     * <code>optional int64 gdrs = 1;</code>
+     *
+     * <pre>
+     * 股东人数 
+     * </pre>
+     */
+    public long getGdrs() {
+      return gdrs_;
+    }
+
+    public static final int XH_FIELD_NUMBER = 2;
+    private long xh_;
+    /**
+     * <code>optional int64 xh = 2;</code>
+     *
+     * <pre>
+     * 序号 
+     * </pre>
+     */
+    public boolean hasXh() {
+      return ((bitField0_ & 0x00000002) == 0x00000002);
+    }
+    /**
+     * <code>optional int64 xh = 2;</code>
+     *
+     * <pre>
+     * 序号 
+     * </pre>
+     */
+    public long getXh() {
+      return xh_;
+    }
+
+    public static final int GDMC_FIELD_NUMBER = 3;
+    private java.lang.Object gdmc_;
+    /**
+     * <code>optional string gdmc = 3;</code>
+     *
+     * <pre>
+     * 股东名称 
+     * </pre>
+     */
+    public boolean hasGdmc() {
+      return ((bitField0_ & 0x00000004) == 0x00000004);
+    }
+    /**
+     * <code>optional string gdmc = 3;</code>
+     *
+     * <pre>
+     * 股东名称 
+     * </pre>
+     */
+    public java.lang.String getGdmc() {
+      java.lang.Object ref = gdmc_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          gdmc_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>optional string gdmc = 3;</code>
+     *
+     * <pre>
+     * 股东名称 
+     * </pre>
+     */
+    public com.google.protobuf.ByteString
+        getGdmcBytes() {
+      java.lang.Object ref = gdmc_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        gdmc_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    public static final int CGS_FIELD_NUMBER = 4;
+    private double cgs_;
+    /**
+     * <code>optional double cgs = 4;</code>
+     *
+     * <pre>
+     * 持股数(万股) 
+     * </pre>
+     */
+    public boolean hasCgs() {
+      return ((bitField0_ & 0x00000008) == 0x00000008);
+    }
+    /**
+     * <code>optional double cgs = 4;</code>
+     *
+     * <pre>
+     * 持股数(万股) 
+     * </pre>
+     */
+    public double getCgs() {
+      return cgs_;
+    }
+
+    public static final int ZZGS_FIELD_NUMBER = 5;
+    private double zzgs_;
+    /**
+     * <code>optional double zzgs = 5;</code>
+     *
+     * <pre>
+     * 占总股数(%) 
+     * </pre>
+     */
+    public boolean hasZzgs() {
+      return ((bitField0_ & 0x00000010) == 0x00000010);
+    }
+    /**
+     * <code>optional double zzgs = 5;</code>
+     *
+     * <pre>
+     * 占总股数(%) 
+     * </pre>
+     */
+    public double getZzgs() {
+      return zzgs_;
+    }
+
+    public static final int ZJQK_FIELD_NUMBER = 6;
+    private java.lang.Object zjqk_;
+    /**
+     * <code>optional string zjqk = 6;</code>
+     *
+     * <pre>
+     * 增减情况(万股) 
+     * </pre>
+     */
+    public boolean hasZjqk() {
+      return ((bitField0_ & 0x00000020) == 0x00000020);
+    }
+    /**
+     * <code>optional string zjqk = 6;</code>
+     *
+     * <pre>
+     * 增减情况(万股) 
+     * </pre>
+     */
+    public java.lang.String getZjqk() {
+      java.lang.Object ref = zjqk_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          zjqk_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>optional string zjqk = 6;</code>
+     *
+     * <pre>
+     * 增减情况(万股) 
+     * </pre>
+     */
+    public com.google.protobuf.ByteString
+        getZjqkBytes() {
+      java.lang.Object ref = zjqk_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        zjqk_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    public static final int GBXZ_FIELD_NUMBER = 7;
+    private java.lang.Object gbxz_;
+    /**
+     * <code>optional string gbxz = 7;</code>
+     *
+     * <pre>
+     * 股本性质 
+     * </pre>
+     */
+    public boolean hasGbxz() {
+      return ((bitField0_ & 0x00000040) == 0x00000040);
+    }
+    /**
+     * <code>optional string gbxz = 7;</code>
+     *
+     * <pre>
+     * 股本性质 
+     * </pre>
+     */
+    public java.lang.String getGbxz() {
+      java.lang.Object ref = gbxz_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          gbxz_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>optional string gbxz = 7;</code>
+     *
+     * <pre>
+     * 股本性质 
+     * </pre>
+     */
+    public com.google.protobuf.ByteString
+        getGbxzBytes() {
+      java.lang.Object ref = gbxz_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        gbxz_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    public static final int GSDM_FIELD_NUMBER = 8;
+    private java.lang.Object gsdm_;
+    /**
+     * <code>optional string gsdm = 8;</code>
+     *
+     * <pre>
+     * 公司代码
+     * </pre>
+     */
+    public boolean hasGsdm() {
+      return ((bitField0_ & 0x00000080) == 0x00000080);
+    }
+    /**
+     * <code>optional string gsdm = 8;</code>
+     *
+     * <pre>
+     * 公司代码
+     * </pre>
+     */
+    public java.lang.String getGsdm() {
+      java.lang.Object ref = gsdm_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          gsdm_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>optional string gsdm = 8;</code>
+     *
+     * <pre>
+     * 公司代码
+     * </pre>
+     */
+    public com.google.protobuf.ByteString
+        getGsdmBytes() {
+      java.lang.Object ref = gsdm_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        gsdm_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    private void initFields() {
+      gdrs_ = 0L;
+      xh_ = 0L;
+      gdmc_ = "";
+      cgs_ = 0D;
+      zzgs_ = 0D;
+      zjqk_ = "";
+      gbxz_ = "";
+      gsdm_ = "";
+    }
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      getSerializedSize();
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        output.writeInt64(1, gdrs_);
+      }
+      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+        output.writeInt64(2, xh_);
+      }
+      if (((bitField0_ & 0x00000004) == 0x00000004)) {
+        output.writeBytes(3, getGdmcBytes());
+      }
+      if (((bitField0_ & 0x00000008) == 0x00000008)) {
+        output.writeDouble(4, cgs_);
+      }
+      if (((bitField0_ & 0x00000010) == 0x00000010)) {
+        output.writeDouble(5, zzgs_);
+      }
+      if (((bitField0_ & 0x00000020) == 0x00000020)) {
+        output.writeBytes(6, getZjqkBytes());
+      }
+      if (((bitField0_ & 0x00000040) == 0x00000040)) {
+        output.writeBytes(7, getGbxzBytes());
+      }
+      if (((bitField0_ & 0x00000080) == 0x00000080)) {
+        output.writeBytes(8, getGsdmBytes());
+      }
+      getUnknownFields().writeTo(output);
+    }
+
+    private int memoizedSerializedSize = -1;
+    public int getSerializedSize() {
+      int size = memoizedSerializedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(1, gdrs_);
+      }
+      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(2, xh_);
+      }
+      if (((bitField0_ & 0x00000004) == 0x00000004)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(3, getGdmcBytes());
+      }
+      if (((bitField0_ & 0x00000008) == 0x00000008)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeDoubleSize(4, cgs_);
+      }
+      if (((bitField0_ & 0x00000010) == 0x00000010)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeDoubleSize(5, zzgs_);
+      }
+      if (((bitField0_ & 0x00000020) == 0x00000020)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(6, getZjqkBytes());
+      }
+      if (((bitField0_ & 0x00000040) == 0x00000040)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(7, getGbxzBytes());
+      }
+      if (((bitField0_ & 0x00000080) == 0x00000080)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(8, getGsdmBytes());
+      }
+      size += getUnknownFields().getSerializedSize();
+      memoizedSerializedSize = size;
+      return size;
+    }
+
+    private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    protected java.lang.Object writeReplace()
+        throws java.io.ObjectStreamException {
+      return super.writeReplace();
+    }
+
+    public static com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+    public static com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input);
+    }
+    public static com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+    }
+    public static com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+
+    public static Builder newBuilder() { return Builder.create(); }
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder(com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD prototype) {
+      return newBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() { return newBuilder(this); }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code dzhyun.F10_GDJC_GD}
+     *
+     * <pre>
+     *十大股东/流通股东数据项
+     * </pre>
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:dzhyun.F10_GDJC_GD)
+        com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GDOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return com.dzhyun.proto.CldF10ShuJu.internal_static_dzhyun_F10_GDJC_GD_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return com.dzhyun.proto.CldF10ShuJu.internal_static_dzhyun_F10_GDJC_GD_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.class, com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.Builder.class);
+      }
+
+      // Construct using com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        }
+      }
+      private static Builder create() {
+        return new Builder();
+      }
+
+      public Builder clear() {
+        super.clear();
+        gdrs_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000001);
+        xh_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000002);
+        gdmc_ = "";
+        bitField0_ = (bitField0_ & ~0x00000004);
+        cgs_ = 0D;
+        bitField0_ = (bitField0_ & ~0x00000008);
+        zzgs_ = 0D;
+        bitField0_ = (bitField0_ & ~0x00000010);
+        zjqk_ = "";
+        bitField0_ = (bitField0_ & ~0x00000020);
+        gbxz_ = "";
+        bitField0_ = (bitField0_ & ~0x00000040);
+        gsdm_ = "";
+        bitField0_ = (bitField0_ & ~0x00000080);
+        return this;
+      }
+
+      public Builder clone() {
+        return create().mergeFrom(buildPartial());
+      }
+
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return com.dzhyun.proto.CldF10ShuJu.internal_static_dzhyun_F10_GDJC_GD_descriptor;
+      }
+
+      public com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD getDefaultInstanceForType() {
+        return com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.getDefaultInstance();
+      }
+
+      public com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD build() {
+        com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      public com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD buildPartial() {
+        com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD result = new com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD(this);
+        int from_bitField0_ = bitField0_;
+        int to_bitField0_ = 0;
+        if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
+          to_bitField0_ |= 0x00000001;
+        }
+        result.gdrs_ = gdrs_;
+        if (((from_bitField0_ & 0x00000002) == 0x00000002)) {
+          to_bitField0_ |= 0x00000002;
+        }
+        result.xh_ = xh_;
+        if (((from_bitField0_ & 0x00000004) == 0x00000004)) {
+          to_bitField0_ |= 0x00000004;
+        }
+        result.gdmc_ = gdmc_;
+        if (((from_bitField0_ & 0x00000008) == 0x00000008)) {
+          to_bitField0_ |= 0x00000008;
+        }
+        result.cgs_ = cgs_;
+        if (((from_bitField0_ & 0x00000010) == 0x00000010)) {
+          to_bitField0_ |= 0x00000010;
+        }
+        result.zzgs_ = zzgs_;
+        if (((from_bitField0_ & 0x00000020) == 0x00000020)) {
+          to_bitField0_ |= 0x00000020;
+        }
+        result.zjqk_ = zjqk_;
+        if (((from_bitField0_ & 0x00000040) == 0x00000040)) {
+          to_bitField0_ |= 0x00000040;
+        }
+        result.gbxz_ = gbxz_;
+        if (((from_bitField0_ & 0x00000080) == 0x00000080)) {
+          to_bitField0_ |= 0x00000080;
+        }
+        result.gsdm_ = gsdm_;
+        result.bitField0_ = to_bitField0_;
+        onBuilt();
+        return result;
+      }
+
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD) {
+          return mergeFrom((com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD other) {
+        if (other == com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.getDefaultInstance()) return this;
+        if (other.hasGdrs()) {
+          setGdrs(other.getGdrs());
+        }
+        if (other.hasXh()) {
+          setXh(other.getXh());
+        }
+        if (other.hasGdmc()) {
+          bitField0_ |= 0x00000004;
+          gdmc_ = other.gdmc_;
+          onChanged();
+        }
+        if (other.hasCgs()) {
+          setCgs(other.getCgs());
+        }
+        if (other.hasZzgs()) {
+          setZzgs(other.getZzgs());
+        }
+        if (other.hasZjqk()) {
+          bitField0_ |= 0x00000020;
+          zjqk_ = other.zjqk_;
+          onChanged();
+        }
+        if (other.hasGbxz()) {
+          bitField0_ |= 0x00000040;
+          gbxz_ = other.gbxz_;
+          onChanged();
+        }
+        if (other.hasGsdm()) {
+          bitField0_ |= 0x00000080;
+          gsdm_ = other.gsdm_;
+          onChanged();
+        }
+        this.mergeUnknownFields(other.getUnknownFields());
+        return this;
+      }
+
+      public final boolean isInitialized() {
+        return true;
+      }
+
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD) e.getUnfinishedMessage();
+          throw e;
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+      private int bitField0_;
+
+      private long gdrs_ ;
+      /**
+       * <code>optional int64 gdrs = 1;</code>
+       *
+       * <pre>
+       * 股东人数 
+       * </pre>
+       */
+      public boolean hasGdrs() {
+        return ((bitField0_ & 0x00000001) == 0x00000001);
+      }
+      /**
+       * <code>optional int64 gdrs = 1;</code>
+       *
+       * <pre>
+       * 股东人数 
+       * </pre>
+       */
+      public long getGdrs() {
+        return gdrs_;
+      }
+      /**
+       * <code>optional int64 gdrs = 1;</code>
+       *
+       * <pre>
+       * 股东人数 
+       * </pre>
+       */
+      public Builder setGdrs(long value) {
+        bitField0_ |= 0x00000001;
+        gdrs_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 gdrs = 1;</code>
+       *
+       * <pre>
+       * 股东人数 
+       * </pre>
+       */
+      public Builder clearGdrs() {
+        bitField0_ = (bitField0_ & ~0x00000001);
+        gdrs_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long xh_ ;
+      /**
+       * <code>optional int64 xh = 2;</code>
+       *
+       * <pre>
+       * 序号 
+       * </pre>
+       */
+      public boolean hasXh() {
+        return ((bitField0_ & 0x00000002) == 0x00000002);
+      }
+      /**
+       * <code>optional int64 xh = 2;</code>
+       *
+       * <pre>
+       * 序号 
+       * </pre>
+       */
+      public long getXh() {
+        return xh_;
+      }
+      /**
+       * <code>optional int64 xh = 2;</code>
+       *
+       * <pre>
+       * 序号 
+       * </pre>
+       */
+      public Builder setXh(long value) {
+        bitField0_ |= 0x00000002;
+        xh_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 xh = 2;</code>
+       *
+       * <pre>
+       * 序号 
+       * </pre>
+       */
+      public Builder clearXh() {
+        bitField0_ = (bitField0_ & ~0x00000002);
+        xh_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private java.lang.Object gdmc_ = "";
+      /**
+       * <code>optional string gdmc = 3;</code>
+       *
+       * <pre>
+       * 股东名称 
+       * </pre>
+       */
+      public boolean hasGdmc() {
+        return ((bitField0_ & 0x00000004) == 0x00000004);
+      }
+      /**
+       * <code>optional string gdmc = 3;</code>
+       *
+       * <pre>
+       * 股东名称 
+       * </pre>
+       */
+      public java.lang.String getGdmc() {
+        java.lang.Object ref = gdmc_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          if (bs.isValidUtf8()) {
+            gdmc_ = s;
+          }
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string gdmc = 3;</code>
+       *
+       * <pre>
+       * 股东名称 
+       * </pre>
+       */
+      public com.google.protobuf.ByteString
+          getGdmcBytes() {
+        java.lang.Object ref = gdmc_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          gdmc_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string gdmc = 3;</code>
+       *
+       * <pre>
+       * 股东名称 
+       * </pre>
+       */
+      public Builder setGdmc(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000004;
+        gdmc_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string gdmc = 3;</code>
+       *
+       * <pre>
+       * 股东名称 
+       * </pre>
+       */
+      public Builder clearGdmc() {
+        bitField0_ = (bitField0_ & ~0x00000004);
+        gdmc_ = getDefaultInstance().getGdmc();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string gdmc = 3;</code>
+       *
+       * <pre>
+       * 股东名称 
+       * </pre>
+       */
+      public Builder setGdmcBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000004;
+        gdmc_ = value;
+        onChanged();
+        return this;
+      }
+
+      private double cgs_ ;
+      /**
+       * <code>optional double cgs = 4;</code>
+       *
+       * <pre>
+       * 持股数(万股) 
+       * </pre>
+       */
+      public boolean hasCgs() {
+        return ((bitField0_ & 0x00000008) == 0x00000008);
+      }
+      /**
+       * <code>optional double cgs = 4;</code>
+       *
+       * <pre>
+       * 持股数(万股) 
+       * </pre>
+       */
+      public double getCgs() {
+        return cgs_;
+      }
+      /**
+       * <code>optional double cgs = 4;</code>
+       *
+       * <pre>
+       * 持股数(万股) 
+       * </pre>
+       */
+      public Builder setCgs(double value) {
+        bitField0_ |= 0x00000008;
+        cgs_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional double cgs = 4;</code>
+       *
+       * <pre>
+       * 持股数(万股) 
+       * </pre>
+       */
+      public Builder clearCgs() {
+        bitField0_ = (bitField0_ & ~0x00000008);
+        cgs_ = 0D;
+        onChanged();
+        return this;
+      }
+
+      private double zzgs_ ;
+      /**
+       * <code>optional double zzgs = 5;</code>
+       *
+       * <pre>
+       * 占总股数(%) 
+       * </pre>
+       */
+      public boolean hasZzgs() {
+        return ((bitField0_ & 0x00000010) == 0x00000010);
+      }
+      /**
+       * <code>optional double zzgs = 5;</code>
+       *
+       * <pre>
+       * 占总股数(%) 
+       * </pre>
+       */
+      public double getZzgs() {
+        return zzgs_;
+      }
+      /**
+       * <code>optional double zzgs = 5;</code>
+       *
+       * <pre>
+       * 占总股数(%) 
+       * </pre>
+       */
+      public Builder setZzgs(double value) {
+        bitField0_ |= 0x00000010;
+        zzgs_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional double zzgs = 5;</code>
+       *
+       * <pre>
+       * 占总股数(%) 
+       * </pre>
+       */
+      public Builder clearZzgs() {
+        bitField0_ = (bitField0_ & ~0x00000010);
+        zzgs_ = 0D;
+        onChanged();
+        return this;
+      }
+
+      private java.lang.Object zjqk_ = "";
+      /**
+       * <code>optional string zjqk = 6;</code>
+       *
+       * <pre>
+       * 增减情况(万股) 
+       * </pre>
+       */
+      public boolean hasZjqk() {
+        return ((bitField0_ & 0x00000020) == 0x00000020);
+      }
+      /**
+       * <code>optional string zjqk = 6;</code>
+       *
+       * <pre>
+       * 增减情况(万股) 
+       * </pre>
+       */
+      public java.lang.String getZjqk() {
+        java.lang.Object ref = zjqk_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          if (bs.isValidUtf8()) {
+            zjqk_ = s;
+          }
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string zjqk = 6;</code>
+       *
+       * <pre>
+       * 增减情况(万股) 
+       * </pre>
+       */
+      public com.google.protobuf.ByteString
+          getZjqkBytes() {
+        java.lang.Object ref = zjqk_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          zjqk_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string zjqk = 6;</code>
+       *
+       * <pre>
+       * 增减情况(万股) 
+       * </pre>
+       */
+      public Builder setZjqk(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000020;
+        zjqk_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string zjqk = 6;</code>
+       *
+       * <pre>
+       * 增减情况(万股) 
+       * </pre>
+       */
+      public Builder clearZjqk() {
+        bitField0_ = (bitField0_ & ~0x00000020);
+        zjqk_ = getDefaultInstance().getZjqk();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string zjqk = 6;</code>
+       *
+       * <pre>
+       * 增减情况(万股) 
+       * </pre>
+       */
+      public Builder setZjqkBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000020;
+        zjqk_ = value;
+        onChanged();
+        return this;
+      }
+
+      private java.lang.Object gbxz_ = "";
+      /**
+       * <code>optional string gbxz = 7;</code>
+       *
+       * <pre>
+       * 股本性质 
+       * </pre>
+       */
+      public boolean hasGbxz() {
+        return ((bitField0_ & 0x00000040) == 0x00000040);
+      }
+      /**
+       * <code>optional string gbxz = 7;</code>
+       *
+       * <pre>
+       * 股本性质 
+       * </pre>
+       */
+      public java.lang.String getGbxz() {
+        java.lang.Object ref = gbxz_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          if (bs.isValidUtf8()) {
+            gbxz_ = s;
+          }
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string gbxz = 7;</code>
+       *
+       * <pre>
+       * 股本性质 
+       * </pre>
+       */
+      public com.google.protobuf.ByteString
+          getGbxzBytes() {
+        java.lang.Object ref = gbxz_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          gbxz_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string gbxz = 7;</code>
+       *
+       * <pre>
+       * 股本性质 
+       * </pre>
+       */
+      public Builder setGbxz(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000040;
+        gbxz_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string gbxz = 7;</code>
+       *
+       * <pre>
+       * 股本性质 
+       * </pre>
+       */
+      public Builder clearGbxz() {
+        bitField0_ = (bitField0_ & ~0x00000040);
+        gbxz_ = getDefaultInstance().getGbxz();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string gbxz = 7;</code>
+       *
+       * <pre>
+       * 股本性质 
+       * </pre>
+       */
+      public Builder setGbxzBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000040;
+        gbxz_ = value;
+        onChanged();
+        return this;
+      }
+
+      private java.lang.Object gsdm_ = "";
+      /**
+       * <code>optional string gsdm = 8;</code>
+       *
+       * <pre>
+       * 公司代码
+       * </pre>
+       */
+      public boolean hasGsdm() {
+        return ((bitField0_ & 0x00000080) == 0x00000080);
+      }
+      /**
+       * <code>optional string gsdm = 8;</code>
+       *
+       * <pre>
+       * 公司代码
+       * </pre>
+       */
+      public java.lang.String getGsdm() {
+        java.lang.Object ref = gsdm_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          if (bs.isValidUtf8()) {
+            gsdm_ = s;
+          }
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string gsdm = 8;</code>
+       *
+       * <pre>
+       * 公司代码
+       * </pre>
+       */
+      public com.google.protobuf.ByteString
+          getGsdmBytes() {
+        java.lang.Object ref = gsdm_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          gsdm_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string gsdm = 8;</code>
+       *
+       * <pre>
+       * 公司代码
+       * </pre>
+       */
+      public Builder setGsdm(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000080;
+        gsdm_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string gsdm = 8;</code>
+       *
+       * <pre>
+       * 公司代码
+       * </pre>
+       */
+      public Builder clearGsdm() {
+        bitField0_ = (bitField0_ & ~0x00000080);
+        gsdm_ = getDefaultInstance().getGsdm();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string gsdm = 8;</code>
+       *
+       * <pre>
+       * 公司代码
+       * </pre>
+       */
+      public Builder setGsdmBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000080;
+        gsdm_ = value;
+        onChanged();
+        return this;
+      }
+
+      // @@protoc_insertion_point(builder_scope:dzhyun.F10_GDJC_GD)
+    }
+
+    static {
+      defaultInstance = new F10_GDJC_GD(true);
+      defaultInstance.initFields();
+    }
+
+    // @@protoc_insertion_point(class_scope:dzhyun.F10_GDJC_GD)
+  }
+
   public interface F10_GDJC_SDGDOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dzhyun.F10_GDJC_SDGD)
       com.google.protobuf.MessageOrBuilder {
@@ -17096,176 +18683,48 @@ public final class CldF10ShuJu {
         getDateBytes();
 
     /**
-     * <code>optional int64 gdrs = 3;</code>
+     * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
      *
      * <pre>
-     * 股东人数 
+     * 十大股东数据
      * </pre>
      */
-    boolean hasGdrs();
+    java.util.List<com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD> 
+        getDataList();
     /**
-     * <code>optional int64 gdrs = 3;</code>
+     * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
      *
      * <pre>
-     * 股东人数 
+     * 十大股东数据
      * </pre>
      */
-    long getGdrs();
-
+    com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD getData(int index);
     /**
-     * <code>optional int64 xh = 4;</code>
+     * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
      *
      * <pre>
-     * 序号 
+     * 十大股东数据
      * </pre>
      */
-    boolean hasXh();
+    int getDataCount();
     /**
-     * <code>optional int64 xh = 4;</code>
+     * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
      *
      * <pre>
-     * 序号 
+     * 十大股东数据
      * </pre>
      */
-    long getXh();
-
+    java.util.List<? extends com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GDOrBuilder> 
+        getDataOrBuilderList();
     /**
-     * <code>optional string gdmc = 5;</code>
+     * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
      *
      * <pre>
-     * 股东名称 
+     * 十大股东数据
      * </pre>
      */
-    boolean hasGdmc();
-    /**
-     * <code>optional string gdmc = 5;</code>
-     *
-     * <pre>
-     * 股东名称 
-     * </pre>
-     */
-    java.lang.String getGdmc();
-    /**
-     * <code>optional string gdmc = 5;</code>
-     *
-     * <pre>
-     * 股东名称 
-     * </pre>
-     */
-    com.google.protobuf.ByteString
-        getGdmcBytes();
-
-    /**
-     * <code>optional double cgs = 6;</code>
-     *
-     * <pre>
-     * 持股数(万股) 
-     * </pre>
-     */
-    boolean hasCgs();
-    /**
-     * <code>optional double cgs = 6;</code>
-     *
-     * <pre>
-     * 持股数(万股) 
-     * </pre>
-     */
-    double getCgs();
-
-    /**
-     * <code>optional double zzgs = 7;</code>
-     *
-     * <pre>
-     * 占总股数(%) 
-     * </pre>
-     */
-    boolean hasZzgs();
-    /**
-     * <code>optional double zzgs = 7;</code>
-     *
-     * <pre>
-     * 占总股数(%) 
-     * </pre>
-     */
-    double getZzgs();
-
-    /**
-     * <code>optional string zjqk = 8;</code>
-     *
-     * <pre>
-     * 增减情况(万股) 
-     * </pre>
-     */
-    boolean hasZjqk();
-    /**
-     * <code>optional string zjqk = 8;</code>
-     *
-     * <pre>
-     * 增减情况(万股) 
-     * </pre>
-     */
-    java.lang.String getZjqk();
-    /**
-     * <code>optional string zjqk = 8;</code>
-     *
-     * <pre>
-     * 增减情况(万股) 
-     * </pre>
-     */
-    com.google.protobuf.ByteString
-        getZjqkBytes();
-
-    /**
-     * <code>optional string gbxz = 9;</code>
-     *
-     * <pre>
-     * 股本性质 
-     * </pre>
-     */
-    boolean hasGbxz();
-    /**
-     * <code>optional string gbxz = 9;</code>
-     *
-     * <pre>
-     * 股本性质 
-     * </pre>
-     */
-    java.lang.String getGbxz();
-    /**
-     * <code>optional string gbxz = 9;</code>
-     *
-     * <pre>
-     * 股本性质 
-     * </pre>
-     */
-    com.google.protobuf.ByteString
-        getGbxzBytes();
-
-    /**
-     * <code>optional string gsdm = 10;</code>
-     *
-     * <pre>
-     * 公司代码
-     * </pre>
-     */
-    boolean hasGsdm();
-    /**
-     * <code>optional string gsdm = 10;</code>
-     *
-     * <pre>
-     * 公司代码
-     * </pre>
-     */
-    java.lang.String getGsdm();
-    /**
-     * <code>optional string gsdm = 10;</code>
-     *
-     * <pre>
-     * 公司代码
-     * </pre>
-     */
-    com.google.protobuf.ByteString
-        getGsdmBytes();
+    com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GDOrBuilder getDataOrBuilder(
+        int index);
   }
   /**
    * Protobuf type {@code dzhyun.F10_GDJC_SDGD}
@@ -17335,48 +18794,12 @@ public final class CldF10ShuJu {
               date_ = bs;
               break;
             }
-            case 24: {
-              bitField0_ |= 0x00000004;
-              gdrs_ = input.readInt64();
-              break;
-            }
-            case 32: {
-              bitField0_ |= 0x00000008;
-              xh_ = input.readInt64();
-              break;
-            }
-            case 42: {
-              com.google.protobuf.ByteString bs = input.readBytes();
-              bitField0_ |= 0x00000010;
-              gdmc_ = bs;
-              break;
-            }
-            case 49: {
-              bitField0_ |= 0x00000020;
-              cgs_ = input.readDouble();
-              break;
-            }
-            case 57: {
-              bitField0_ |= 0x00000040;
-              zzgs_ = input.readDouble();
-              break;
-            }
-            case 66: {
-              com.google.protobuf.ByteString bs = input.readBytes();
-              bitField0_ |= 0x00000080;
-              zjqk_ = bs;
-              break;
-            }
-            case 74: {
-              com.google.protobuf.ByteString bs = input.readBytes();
-              bitField0_ |= 0x00000100;
-              gbxz_ = bs;
-              break;
-            }
-            case 82: {
-              com.google.protobuf.ByteString bs = input.readBytes();
-              bitField0_ |= 0x00000200;
-              gsdm_ = bs;
+            case 26: {
+              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+                data_ = new java.util.ArrayList<com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD>();
+                mutable_bitField0_ |= 0x00000004;
+              }
+              data_.add(input.readMessage(com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.PARSER, extensionRegistry));
               break;
             }
           }
@@ -17387,6 +18810,9 @@ public final class CldF10ShuJu {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e.getMessage()).setUnfinishedMessage(this);
       } finally {
+        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+          data_ = java.util.Collections.unmodifiableList(data_);
+        }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
       }
@@ -17527,325 +18953,65 @@ public final class CldF10ShuJu {
       }
     }
 
-    public static final int GDRS_FIELD_NUMBER = 3;
-    private long gdrs_;
+    public static final int DATA_FIELD_NUMBER = 3;
+    private java.util.List<com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD> data_;
     /**
-     * <code>optional int64 gdrs = 3;</code>
+     * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
      *
      * <pre>
-     * 股东人数 
+     * 十大股东数据
      * </pre>
      */
-    public boolean hasGdrs() {
-      return ((bitField0_ & 0x00000004) == 0x00000004);
+    public java.util.List<com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD> getDataList() {
+      return data_;
     }
     /**
-     * <code>optional int64 gdrs = 3;</code>
+     * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
      *
      * <pre>
-     * 股东人数 
+     * 十大股东数据
      * </pre>
      */
-    public long getGdrs() {
-      return gdrs_;
-    }
-
-    public static final int XH_FIELD_NUMBER = 4;
-    private long xh_;
-    /**
-     * <code>optional int64 xh = 4;</code>
-     *
-     * <pre>
-     * 序号 
-     * </pre>
-     */
-    public boolean hasXh() {
-      return ((bitField0_ & 0x00000008) == 0x00000008);
+    public java.util.List<? extends com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GDOrBuilder> 
+        getDataOrBuilderList() {
+      return data_;
     }
     /**
-     * <code>optional int64 xh = 4;</code>
+     * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
      *
      * <pre>
-     * 序号 
+     * 十大股东数据
      * </pre>
      */
-    public long getXh() {
-      return xh_;
-    }
-
-    public static final int GDMC_FIELD_NUMBER = 5;
-    private java.lang.Object gdmc_;
-    /**
-     * <code>optional string gdmc = 5;</code>
-     *
-     * <pre>
-     * 股东名称 
-     * </pre>
-     */
-    public boolean hasGdmc() {
-      return ((bitField0_ & 0x00000010) == 0x00000010);
+    public int getDataCount() {
+      return data_.size();
     }
     /**
-     * <code>optional string gdmc = 5;</code>
+     * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
      *
      * <pre>
-     * 股东名称 
+     * 十大股东数据
      * </pre>
      */
-    public java.lang.String getGdmc() {
-      java.lang.Object ref = gdmc_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          gdmc_ = s;
-        }
-        return s;
-      }
+    public com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD getData(int index) {
+      return data_.get(index);
     }
     /**
-     * <code>optional string gdmc = 5;</code>
+     * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
      *
      * <pre>
-     * 股东名称 
+     * 十大股东数据
      * </pre>
      */
-    public com.google.protobuf.ByteString
-        getGdmcBytes() {
-      java.lang.Object ref = gdmc_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        gdmc_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-
-    public static final int CGS_FIELD_NUMBER = 6;
-    private double cgs_;
-    /**
-     * <code>optional double cgs = 6;</code>
-     *
-     * <pre>
-     * 持股数(万股) 
-     * </pre>
-     */
-    public boolean hasCgs() {
-      return ((bitField0_ & 0x00000020) == 0x00000020);
-    }
-    /**
-     * <code>optional double cgs = 6;</code>
-     *
-     * <pre>
-     * 持股数(万股) 
-     * </pre>
-     */
-    public double getCgs() {
-      return cgs_;
-    }
-
-    public static final int ZZGS_FIELD_NUMBER = 7;
-    private double zzgs_;
-    /**
-     * <code>optional double zzgs = 7;</code>
-     *
-     * <pre>
-     * 占总股数(%) 
-     * </pre>
-     */
-    public boolean hasZzgs() {
-      return ((bitField0_ & 0x00000040) == 0x00000040);
-    }
-    /**
-     * <code>optional double zzgs = 7;</code>
-     *
-     * <pre>
-     * 占总股数(%) 
-     * </pre>
-     */
-    public double getZzgs() {
-      return zzgs_;
-    }
-
-    public static final int ZJQK_FIELD_NUMBER = 8;
-    private java.lang.Object zjqk_;
-    /**
-     * <code>optional string zjqk = 8;</code>
-     *
-     * <pre>
-     * 增减情况(万股) 
-     * </pre>
-     */
-    public boolean hasZjqk() {
-      return ((bitField0_ & 0x00000080) == 0x00000080);
-    }
-    /**
-     * <code>optional string zjqk = 8;</code>
-     *
-     * <pre>
-     * 增减情况(万股) 
-     * </pre>
-     */
-    public java.lang.String getZjqk() {
-      java.lang.Object ref = zjqk_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          zjqk_ = s;
-        }
-        return s;
-      }
-    }
-    /**
-     * <code>optional string zjqk = 8;</code>
-     *
-     * <pre>
-     * 增减情况(万股) 
-     * </pre>
-     */
-    public com.google.protobuf.ByteString
-        getZjqkBytes() {
-      java.lang.Object ref = zjqk_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        zjqk_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-
-    public static final int GBXZ_FIELD_NUMBER = 9;
-    private java.lang.Object gbxz_;
-    /**
-     * <code>optional string gbxz = 9;</code>
-     *
-     * <pre>
-     * 股本性质 
-     * </pre>
-     */
-    public boolean hasGbxz() {
-      return ((bitField0_ & 0x00000100) == 0x00000100);
-    }
-    /**
-     * <code>optional string gbxz = 9;</code>
-     *
-     * <pre>
-     * 股本性质 
-     * </pre>
-     */
-    public java.lang.String getGbxz() {
-      java.lang.Object ref = gbxz_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          gbxz_ = s;
-        }
-        return s;
-      }
-    }
-    /**
-     * <code>optional string gbxz = 9;</code>
-     *
-     * <pre>
-     * 股本性质 
-     * </pre>
-     */
-    public com.google.protobuf.ByteString
-        getGbxzBytes() {
-      java.lang.Object ref = gbxz_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        gbxz_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-
-    public static final int GSDM_FIELD_NUMBER = 10;
-    private java.lang.Object gsdm_;
-    /**
-     * <code>optional string gsdm = 10;</code>
-     *
-     * <pre>
-     * 公司代码
-     * </pre>
-     */
-    public boolean hasGsdm() {
-      return ((bitField0_ & 0x00000200) == 0x00000200);
-    }
-    /**
-     * <code>optional string gsdm = 10;</code>
-     *
-     * <pre>
-     * 公司代码
-     * </pre>
-     */
-    public java.lang.String getGsdm() {
-      java.lang.Object ref = gsdm_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          gsdm_ = s;
-        }
-        return s;
-      }
-    }
-    /**
-     * <code>optional string gsdm = 10;</code>
-     *
-     * <pre>
-     * 公司代码
-     * </pre>
-     */
-    public com.google.protobuf.ByteString
-        getGsdmBytes() {
-      java.lang.Object ref = gsdm_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        gsdm_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
+    public com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GDOrBuilder getDataOrBuilder(
+        int index) {
+      return data_.get(index);
     }
 
     private void initFields() {
       obj_ = "";
       date_ = "";
-      gdrs_ = 0L;
-      xh_ = 0L;
-      gdmc_ = "";
-      cgs_ = 0D;
-      zzgs_ = 0D;
-      zjqk_ = "";
-      gbxz_ = "";
-      gsdm_ = "";
+      data_ = java.util.Collections.emptyList();
     }
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
@@ -17874,29 +19040,8 @@ public final class CldF10ShuJu {
       if (((bitField0_ & 0x00000002) == 0x00000002)) {
         output.writeBytes(2, getDateBytes());
       }
-      if (((bitField0_ & 0x00000004) == 0x00000004)) {
-        output.writeInt64(3, gdrs_);
-      }
-      if (((bitField0_ & 0x00000008) == 0x00000008)) {
-        output.writeInt64(4, xh_);
-      }
-      if (((bitField0_ & 0x00000010) == 0x00000010)) {
-        output.writeBytes(5, getGdmcBytes());
-      }
-      if (((bitField0_ & 0x00000020) == 0x00000020)) {
-        output.writeDouble(6, cgs_);
-      }
-      if (((bitField0_ & 0x00000040) == 0x00000040)) {
-        output.writeDouble(7, zzgs_);
-      }
-      if (((bitField0_ & 0x00000080) == 0x00000080)) {
-        output.writeBytes(8, getZjqkBytes());
-      }
-      if (((bitField0_ & 0x00000100) == 0x00000100)) {
-        output.writeBytes(9, getGbxzBytes());
-      }
-      if (((bitField0_ & 0x00000200) == 0x00000200)) {
-        output.writeBytes(10, getGsdmBytes());
+      for (int i = 0; i < data_.size(); i++) {
+        output.writeMessage(3, data_.get(i));
       }
       getUnknownFields().writeTo(output);
     }
@@ -17915,37 +19060,9 @@ public final class CldF10ShuJu {
         size += com.google.protobuf.CodedOutputStream
           .computeBytesSize(2, getDateBytes());
       }
-      if (((bitField0_ & 0x00000004) == 0x00000004)) {
+      for (int i = 0; i < data_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(3, gdrs_);
-      }
-      if (((bitField0_ & 0x00000008) == 0x00000008)) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(4, xh_);
-      }
-      if (((bitField0_ & 0x00000010) == 0x00000010)) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(5, getGdmcBytes());
-      }
-      if (((bitField0_ & 0x00000020) == 0x00000020)) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeDoubleSize(6, cgs_);
-      }
-      if (((bitField0_ & 0x00000040) == 0x00000040)) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeDoubleSize(7, zzgs_);
-      }
-      if (((bitField0_ & 0x00000080) == 0x00000080)) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(8, getZjqkBytes());
-      }
-      if (((bitField0_ & 0x00000100) == 0x00000100)) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(9, getGbxzBytes());
-      }
-      if (((bitField0_ & 0x00000200) == 0x00000200)) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(10, getGsdmBytes());
+          .computeMessageSize(3, data_.get(i));
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
@@ -18060,6 +19177,7 @@ public final class CldF10ShuJu {
       }
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          getDataFieldBuilder();
         }
       }
       private static Builder create() {
@@ -18072,22 +19190,12 @@ public final class CldF10ShuJu {
         bitField0_ = (bitField0_ & ~0x00000001);
         date_ = "";
         bitField0_ = (bitField0_ & ~0x00000002);
-        gdrs_ = 0L;
-        bitField0_ = (bitField0_ & ~0x00000004);
-        xh_ = 0L;
-        bitField0_ = (bitField0_ & ~0x00000008);
-        gdmc_ = "";
-        bitField0_ = (bitField0_ & ~0x00000010);
-        cgs_ = 0D;
-        bitField0_ = (bitField0_ & ~0x00000020);
-        zzgs_ = 0D;
-        bitField0_ = (bitField0_ & ~0x00000040);
-        zjqk_ = "";
-        bitField0_ = (bitField0_ & ~0x00000080);
-        gbxz_ = "";
-        bitField0_ = (bitField0_ & ~0x00000100);
-        gsdm_ = "";
-        bitField0_ = (bitField0_ & ~0x00000200);
+        if (dataBuilder_ == null) {
+          data_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000004);
+        } else {
+          dataBuilder_.clear();
+        }
         return this;
       }
 
@@ -18124,38 +19232,15 @@ public final class CldF10ShuJu {
           to_bitField0_ |= 0x00000002;
         }
         result.date_ = date_;
-        if (((from_bitField0_ & 0x00000004) == 0x00000004)) {
-          to_bitField0_ |= 0x00000004;
+        if (dataBuilder_ == null) {
+          if (((bitField0_ & 0x00000004) == 0x00000004)) {
+            data_ = java.util.Collections.unmodifiableList(data_);
+            bitField0_ = (bitField0_ & ~0x00000004);
+          }
+          result.data_ = data_;
+        } else {
+          result.data_ = dataBuilder_.build();
         }
-        result.gdrs_ = gdrs_;
-        if (((from_bitField0_ & 0x00000008) == 0x00000008)) {
-          to_bitField0_ |= 0x00000008;
-        }
-        result.xh_ = xh_;
-        if (((from_bitField0_ & 0x00000010) == 0x00000010)) {
-          to_bitField0_ |= 0x00000010;
-        }
-        result.gdmc_ = gdmc_;
-        if (((from_bitField0_ & 0x00000020) == 0x00000020)) {
-          to_bitField0_ |= 0x00000020;
-        }
-        result.cgs_ = cgs_;
-        if (((from_bitField0_ & 0x00000040) == 0x00000040)) {
-          to_bitField0_ |= 0x00000040;
-        }
-        result.zzgs_ = zzgs_;
-        if (((from_bitField0_ & 0x00000080) == 0x00000080)) {
-          to_bitField0_ |= 0x00000080;
-        }
-        result.zjqk_ = zjqk_;
-        if (((from_bitField0_ & 0x00000100) == 0x00000100)) {
-          to_bitField0_ |= 0x00000100;
-        }
-        result.gbxz_ = gbxz_;
-        if (((from_bitField0_ & 0x00000200) == 0x00000200)) {
-          to_bitField0_ |= 0x00000200;
-        }
-        result.gsdm_ = gsdm_;
         result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
@@ -18182,37 +19267,31 @@ public final class CldF10ShuJu {
           date_ = other.date_;
           onChanged();
         }
-        if (other.hasGdrs()) {
-          setGdrs(other.getGdrs());
-        }
-        if (other.hasXh()) {
-          setXh(other.getXh());
-        }
-        if (other.hasGdmc()) {
-          bitField0_ |= 0x00000010;
-          gdmc_ = other.gdmc_;
-          onChanged();
-        }
-        if (other.hasCgs()) {
-          setCgs(other.getCgs());
-        }
-        if (other.hasZzgs()) {
-          setZzgs(other.getZzgs());
-        }
-        if (other.hasZjqk()) {
-          bitField0_ |= 0x00000080;
-          zjqk_ = other.zjqk_;
-          onChanged();
-        }
-        if (other.hasGbxz()) {
-          bitField0_ |= 0x00000100;
-          gbxz_ = other.gbxz_;
-          onChanged();
-        }
-        if (other.hasGsdm()) {
-          bitField0_ |= 0x00000200;
-          gsdm_ = other.gsdm_;
-          onChanged();
+        if (dataBuilder_ == null) {
+          if (!other.data_.isEmpty()) {
+            if (data_.isEmpty()) {
+              data_ = other.data_;
+              bitField0_ = (bitField0_ & ~0x00000004);
+            } else {
+              ensureDataIsMutable();
+              data_.addAll(other.data_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.data_.isEmpty()) {
+            if (dataBuilder_.isEmpty()) {
+              dataBuilder_.dispose();
+              dataBuilder_ = null;
+              data_ = other.data_;
+              bitField0_ = (bitField0_ & ~0x00000004);
+              dataBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getDataFieldBuilder() : null;
+            } else {
+              dataBuilder_.addAllMessages(other.data_);
+            }
+          }
         }
         this.mergeUnknownFields(other.getUnknownFields());
         return this;
@@ -18449,596 +19528,316 @@ public final class CldF10ShuJu {
         return this;
       }
 
-      private long gdrs_ ;
-      /**
-       * <code>optional int64 gdrs = 3;</code>
-       *
-       * <pre>
-       * 股东人数 
-       * </pre>
-       */
-      public boolean hasGdrs() {
-        return ((bitField0_ & 0x00000004) == 0x00000004);
-      }
-      /**
-       * <code>optional int64 gdrs = 3;</code>
-       *
-       * <pre>
-       * 股东人数 
-       * </pre>
-       */
-      public long getGdrs() {
-        return gdrs_;
-      }
-      /**
-       * <code>optional int64 gdrs = 3;</code>
-       *
-       * <pre>
-       * 股东人数 
-       * </pre>
-       */
-      public Builder setGdrs(long value) {
-        bitField0_ |= 0x00000004;
-        gdrs_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional int64 gdrs = 3;</code>
-       *
-       * <pre>
-       * 股东人数 
-       * </pre>
-       */
-      public Builder clearGdrs() {
-        bitField0_ = (bitField0_ & ~0x00000004);
-        gdrs_ = 0L;
-        onChanged();
-        return this;
+      private java.util.List<com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD> data_ =
+        java.util.Collections.emptyList();
+      private void ensureDataIsMutable() {
+        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
+          data_ = new java.util.ArrayList<com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD>(data_);
+          bitField0_ |= 0x00000004;
+         }
       }
 
-      private long xh_ ;
-      /**
-       * <code>optional int64 xh = 4;</code>
-       *
-       * <pre>
-       * 序号 
-       * </pre>
-       */
-      public boolean hasXh() {
-        return ((bitField0_ & 0x00000008) == 0x00000008);
-      }
-      /**
-       * <code>optional int64 xh = 4;</code>
-       *
-       * <pre>
-       * 序号 
-       * </pre>
-       */
-      public long getXh() {
-        return xh_;
-      }
-      /**
-       * <code>optional int64 xh = 4;</code>
-       *
-       * <pre>
-       * 序号 
-       * </pre>
-       */
-      public Builder setXh(long value) {
-        bitField0_ |= 0x00000008;
-        xh_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional int64 xh = 4;</code>
-       *
-       * <pre>
-       * 序号 
-       * </pre>
-       */
-      public Builder clearXh() {
-        bitField0_ = (bitField0_ & ~0x00000008);
-        xh_ = 0L;
-        onChanged();
-        return this;
-      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD, com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.Builder, com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GDOrBuilder> dataBuilder_;
 
-      private java.lang.Object gdmc_ = "";
       /**
-       * <code>optional string gdmc = 5;</code>
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
        *
        * <pre>
-       * 股东名称 
+       * 十大股东数据
        * </pre>
        */
-      public boolean hasGdmc() {
-        return ((bitField0_ & 0x00000010) == 0x00000010);
+      public java.util.List<com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD> getDataList() {
+        if (dataBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(data_);
+        } else {
+          return dataBuilder_.getMessageList();
+        }
       }
       /**
-       * <code>optional string gdmc = 5;</code>
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
        *
        * <pre>
-       * 股东名称 
+       * 十大股东数据
        * </pre>
        */
-      public java.lang.String getGdmc() {
-        java.lang.Object ref = gdmc_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            gdmc_ = s;
+      public int getDataCount() {
+        if (dataBuilder_ == null) {
+          return data_.size();
+        } else {
+          return dataBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
+       *
+       * <pre>
+       * 十大股东数据
+       * </pre>
+       */
+      public com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD getData(int index) {
+        if (dataBuilder_ == null) {
+          return data_.get(index);
+        } else {
+          return dataBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
+       *
+       * <pre>
+       * 十大股东数据
+       * </pre>
+       */
+      public Builder setData(
+          int index, com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD value) {
+        if (dataBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
           }
-          return s;
+          ensureDataIsMutable();
+          data_.set(index, value);
+          onChanged();
         } else {
-          return (java.lang.String) ref;
+          dataBuilder_.setMessage(index, value);
         }
+        return this;
       }
       /**
-       * <code>optional string gdmc = 5;</code>
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
        *
        * <pre>
-       * 股东名称 
+       * 十大股东数据
        * </pre>
        */
-      public com.google.protobuf.ByteString
-          getGdmcBytes() {
-        java.lang.Object ref = gdmc_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          gdmc_ = b;
-          return b;
+      public Builder setData(
+          int index, com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.Builder builderForValue) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          data_.set(index, builderForValue.build());
+          onChanged();
         } else {
-          return (com.google.protobuf.ByteString) ref;
+          dataBuilder_.setMessage(index, builderForValue.build());
         }
-      }
-      /**
-       * <code>optional string gdmc = 5;</code>
-       *
-       * <pre>
-       * 股东名称 
-       * </pre>
-       */
-      public Builder setGdmc(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000010;
-        gdmc_ = value;
-        onChanged();
         return this;
       }
       /**
-       * <code>optional string gdmc = 5;</code>
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
        *
        * <pre>
-       * 股东名称 
+       * 十大股东数据
        * </pre>
        */
-      public Builder clearGdmc() {
-        bitField0_ = (bitField0_ & ~0x00000010);
-        gdmc_ = getDefaultInstance().getGdmc();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string gdmc = 5;</code>
-       *
-       * <pre>
-       * 股东名称 
-       * </pre>
-       */
-      public Builder setGdmcBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000010;
-        gdmc_ = value;
-        onChanged();
-        return this;
-      }
-
-      private double cgs_ ;
-      /**
-       * <code>optional double cgs = 6;</code>
-       *
-       * <pre>
-       * 持股数(万股) 
-       * </pre>
-       */
-      public boolean hasCgs() {
-        return ((bitField0_ & 0x00000020) == 0x00000020);
-      }
-      /**
-       * <code>optional double cgs = 6;</code>
-       *
-       * <pre>
-       * 持股数(万股) 
-       * </pre>
-       */
-      public double getCgs() {
-        return cgs_;
-      }
-      /**
-       * <code>optional double cgs = 6;</code>
-       *
-       * <pre>
-       * 持股数(万股) 
-       * </pre>
-       */
-      public Builder setCgs(double value) {
-        bitField0_ |= 0x00000020;
-        cgs_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional double cgs = 6;</code>
-       *
-       * <pre>
-       * 持股数(万股) 
-       * </pre>
-       */
-      public Builder clearCgs() {
-        bitField0_ = (bitField0_ & ~0x00000020);
-        cgs_ = 0D;
-        onChanged();
-        return this;
-      }
-
-      private double zzgs_ ;
-      /**
-       * <code>optional double zzgs = 7;</code>
-       *
-       * <pre>
-       * 占总股数(%) 
-       * </pre>
-       */
-      public boolean hasZzgs() {
-        return ((bitField0_ & 0x00000040) == 0x00000040);
-      }
-      /**
-       * <code>optional double zzgs = 7;</code>
-       *
-       * <pre>
-       * 占总股数(%) 
-       * </pre>
-       */
-      public double getZzgs() {
-        return zzgs_;
-      }
-      /**
-       * <code>optional double zzgs = 7;</code>
-       *
-       * <pre>
-       * 占总股数(%) 
-       * </pre>
-       */
-      public Builder setZzgs(double value) {
-        bitField0_ |= 0x00000040;
-        zzgs_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional double zzgs = 7;</code>
-       *
-       * <pre>
-       * 占总股数(%) 
-       * </pre>
-       */
-      public Builder clearZzgs() {
-        bitField0_ = (bitField0_ & ~0x00000040);
-        zzgs_ = 0D;
-        onChanged();
-        return this;
-      }
-
-      private java.lang.Object zjqk_ = "";
-      /**
-       * <code>optional string zjqk = 8;</code>
-       *
-       * <pre>
-       * 增减情况(万股) 
-       * </pre>
-       */
-      public boolean hasZjqk() {
-        return ((bitField0_ & 0x00000080) == 0x00000080);
-      }
-      /**
-       * <code>optional string zjqk = 8;</code>
-       *
-       * <pre>
-       * 增减情况(万股) 
-       * </pre>
-       */
-      public java.lang.String getZjqk() {
-        java.lang.Object ref = zjqk_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            zjqk_ = s;
+      public Builder addData(com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD value) {
+        if (dataBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
           }
-          return s;
+          ensureDataIsMutable();
+          data_.add(value);
+          onChanged();
         } else {
-          return (java.lang.String) ref;
+          dataBuilder_.addMessage(value);
         }
-      }
-      /**
-       * <code>optional string zjqk = 8;</code>
-       *
-       * <pre>
-       * 增减情况(万股) 
-       * </pre>
-       */
-      public com.google.protobuf.ByteString
-          getZjqkBytes() {
-        java.lang.Object ref = zjqk_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          zjqk_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>optional string zjqk = 8;</code>
-       *
-       * <pre>
-       * 增减情况(万股) 
-       * </pre>
-       */
-      public Builder setZjqk(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000080;
-        zjqk_ = value;
-        onChanged();
         return this;
       }
       /**
-       * <code>optional string zjqk = 8;</code>
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
        *
        * <pre>
-       * 增减情况(万股) 
+       * 十大股东数据
        * </pre>
        */
-      public Builder clearZjqk() {
-        bitField0_ = (bitField0_ & ~0x00000080);
-        zjqk_ = getDefaultInstance().getZjqk();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string zjqk = 8;</code>
-       *
-       * <pre>
-       * 增减情况(万股) 
-       * </pre>
-       */
-      public Builder setZjqkBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000080;
-        zjqk_ = value;
-        onChanged();
-        return this;
-      }
-
-      private java.lang.Object gbxz_ = "";
-      /**
-       * <code>optional string gbxz = 9;</code>
-       *
-       * <pre>
-       * 股本性质 
-       * </pre>
-       */
-      public boolean hasGbxz() {
-        return ((bitField0_ & 0x00000100) == 0x00000100);
-      }
-      /**
-       * <code>optional string gbxz = 9;</code>
-       *
-       * <pre>
-       * 股本性质 
-       * </pre>
-       */
-      public java.lang.String getGbxz() {
-        java.lang.Object ref = gbxz_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            gbxz_ = s;
+      public Builder addData(
+          int index, com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD value) {
+        if (dataBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
           }
-          return s;
+          ensureDataIsMutable();
+          data_.add(index, value);
+          onChanged();
         } else {
-          return (java.lang.String) ref;
+          dataBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
+       *
+       * <pre>
+       * 十大股东数据
+       * </pre>
+       */
+      public Builder addData(
+          com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.Builder builderForValue) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          data_.add(builderForValue.build());
+          onChanged();
+        } else {
+          dataBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
+       *
+       * <pre>
+       * 十大股东数据
+       * </pre>
+       */
+      public Builder addData(
+          int index, com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.Builder builderForValue) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          data_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          dataBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
+       *
+       * <pre>
+       * 十大股东数据
+       * </pre>
+       */
+      public Builder addAllData(
+          java.lang.Iterable<? extends com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD> values) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, data_);
+          onChanged();
+        } else {
+          dataBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
+       *
+       * <pre>
+       * 十大股东数据
+       * </pre>
+       */
+      public Builder clearData() {
+        if (dataBuilder_ == null) {
+          data_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000004);
+          onChanged();
+        } else {
+          dataBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
+       *
+       * <pre>
+       * 十大股东数据
+       * </pre>
+       */
+      public Builder removeData(int index) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          data_.remove(index);
+          onChanged();
+        } else {
+          dataBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
+       *
+       * <pre>
+       * 十大股东数据
+       * </pre>
+       */
+      public com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.Builder getDataBuilder(
+          int index) {
+        return getDataFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
+       *
+       * <pre>
+       * 十大股东数据
+       * </pre>
+       */
+      public com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GDOrBuilder getDataOrBuilder(
+          int index) {
+        if (dataBuilder_ == null) {
+          return data_.get(index);  } else {
+          return dataBuilder_.getMessageOrBuilder(index);
         }
       }
       /**
-       * <code>optional string gbxz = 9;</code>
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
        *
        * <pre>
-       * 股本性质 
+       * 十大股东数据
        * </pre>
        */
-      public com.google.protobuf.ByteString
-          getGbxzBytes() {
-        java.lang.Object ref = gbxz_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          gbxz_ = b;
-          return b;
+      public java.util.List<? extends com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GDOrBuilder> 
+           getDataOrBuilderList() {
+        if (dataBuilder_ != null) {
+          return dataBuilder_.getMessageOrBuilderList();
         } else {
-          return (com.google.protobuf.ByteString) ref;
+          return java.util.Collections.unmodifiableList(data_);
         }
       }
       /**
-       * <code>optional string gbxz = 9;</code>
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
        *
        * <pre>
-       * 股本性质 
+       * 十大股东数据
        * </pre>
        */
-      public Builder setGbxz(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000100;
-        gbxz_ = value;
-        onChanged();
-        return this;
+      public com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.Builder addDataBuilder() {
+        return getDataFieldBuilder().addBuilder(
+            com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.getDefaultInstance());
       }
       /**
-       * <code>optional string gbxz = 9;</code>
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
        *
        * <pre>
-       * 股本性质 
+       * 十大股东数据
        * </pre>
        */
-      public Builder clearGbxz() {
-        bitField0_ = (bitField0_ & ~0x00000100);
-        gbxz_ = getDefaultInstance().getGbxz();
-        onChanged();
-        return this;
+      public com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.Builder addDataBuilder(
+          int index) {
+        return getDataFieldBuilder().addBuilder(
+            index, com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.getDefaultInstance());
       }
       /**
-       * <code>optional string gbxz = 9;</code>
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
        *
        * <pre>
-       * 股本性质 
+       * 十大股东数据
        * </pre>
        */
-      public Builder setGbxzBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000100;
-        gbxz_ = value;
-        onChanged();
-        return this;
+      public java.util.List<com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.Builder> 
+           getDataBuilderList() {
+        return getDataFieldBuilder().getBuilderList();
       }
-
-      private java.lang.Object gsdm_ = "";
-      /**
-       * <code>optional string gsdm = 10;</code>
-       *
-       * <pre>
-       * 公司代码
-       * </pre>
-       */
-      public boolean hasGsdm() {
-        return ((bitField0_ & 0x00000200) == 0x00000200);
-      }
-      /**
-       * <code>optional string gsdm = 10;</code>
-       *
-       * <pre>
-       * 公司代码
-       * </pre>
-       */
-      public java.lang.String getGsdm() {
-        java.lang.Object ref = gsdm_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            gsdm_ = s;
-          }
-          return s;
-        } else {
-          return (java.lang.String) ref;
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD, com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.Builder, com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GDOrBuilder> 
+          getDataFieldBuilder() {
+        if (dataBuilder_ == null) {
+          dataBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD, com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.Builder, com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GDOrBuilder>(
+                  data_,
+                  ((bitField0_ & 0x00000004) == 0x00000004),
+                  getParentForChildren(),
+                  isClean());
+          data_ = null;
         }
-      }
-      /**
-       * <code>optional string gsdm = 10;</code>
-       *
-       * <pre>
-       * 公司代码
-       * </pre>
-       */
-      public com.google.protobuf.ByteString
-          getGsdmBytes() {
-        java.lang.Object ref = gsdm_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          gsdm_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>optional string gsdm = 10;</code>
-       *
-       * <pre>
-       * 公司代码
-       * </pre>
-       */
-      public Builder setGsdm(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000200;
-        gsdm_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string gsdm = 10;</code>
-       *
-       * <pre>
-       * 公司代码
-       * </pre>
-       */
-      public Builder clearGsdm() {
-        bitField0_ = (bitField0_ & ~0x00000200);
-        gsdm_ = getDefaultInstance().getGsdm();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string gsdm = 10;</code>
-       *
-       * <pre>
-       * 公司代码
-       * </pre>
-       */
-      public Builder setGsdmBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000200;
-        gsdm_ = value;
-        onChanged();
-        return this;
+        return dataBuilder_;
       }
 
       // @@protoc_insertion_point(builder_scope:dzhyun.F10_GDJC_SDGD)
@@ -19109,176 +19908,48 @@ public final class CldF10ShuJu {
         getDateBytes();
 
     /**
-     * <code>optional int64 gdrs = 3;</code>
+     * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
      *
      * <pre>
-     * 股东人数 
+     * 十大流通股东数据
      * </pre>
      */
-    boolean hasGdrs();
+    java.util.List<com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD> 
+        getDataList();
     /**
-     * <code>optional int64 gdrs = 3;</code>
+     * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
      *
      * <pre>
-     * 股东人数 
+     * 十大流通股东数据
      * </pre>
      */
-    long getGdrs();
-
+    com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD getData(int index);
     /**
-     * <code>optional int64 xh = 4;</code>
+     * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
      *
      * <pre>
-     * 序号 
+     * 十大流通股东数据
      * </pre>
      */
-    boolean hasXh();
+    int getDataCount();
     /**
-     * <code>optional int64 xh = 4;</code>
+     * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
      *
      * <pre>
-     * 序号 
+     * 十大流通股东数据
      * </pre>
      */
-    long getXh();
-
+    java.util.List<? extends com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GDOrBuilder> 
+        getDataOrBuilderList();
     /**
-     * <code>optional string gdmc = 5;</code>
+     * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
      *
      * <pre>
-     * 股东名称 
+     * 十大流通股东数据
      * </pre>
      */
-    boolean hasGdmc();
-    /**
-     * <code>optional string gdmc = 5;</code>
-     *
-     * <pre>
-     * 股东名称 
-     * </pre>
-     */
-    java.lang.String getGdmc();
-    /**
-     * <code>optional string gdmc = 5;</code>
-     *
-     * <pre>
-     * 股东名称 
-     * </pre>
-     */
-    com.google.protobuf.ByteString
-        getGdmcBytes();
-
-    /**
-     * <code>optional double cgs = 6;</code>
-     *
-     * <pre>
-     * 持股数(万股) 
-     * </pre>
-     */
-    boolean hasCgs();
-    /**
-     * <code>optional double cgs = 6;</code>
-     *
-     * <pre>
-     * 持股数(万股) 
-     * </pre>
-     */
-    double getCgs();
-
-    /**
-     * <code>optional double zzgs = 7;</code>
-     *
-     * <pre>
-     * 占总股数(%) 
-     * </pre>
-     */
-    boolean hasZzgs();
-    /**
-     * <code>optional double zzgs = 7;</code>
-     *
-     * <pre>
-     * 占总股数(%) 
-     * </pre>
-     */
-    double getZzgs();
-
-    /**
-     * <code>optional string zjqk = 8;</code>
-     *
-     * <pre>
-     * 增减情况(万股) 
-     * </pre>
-     */
-    boolean hasZjqk();
-    /**
-     * <code>optional string zjqk = 8;</code>
-     *
-     * <pre>
-     * 增减情况(万股) 
-     * </pre>
-     */
-    java.lang.String getZjqk();
-    /**
-     * <code>optional string zjqk = 8;</code>
-     *
-     * <pre>
-     * 增减情况(万股) 
-     * </pre>
-     */
-    com.google.protobuf.ByteString
-        getZjqkBytes();
-
-    /**
-     * <code>optional string gbxz = 9;</code>
-     *
-     * <pre>
-     * 股本性质 
-     * </pre>
-     */
-    boolean hasGbxz();
-    /**
-     * <code>optional string gbxz = 9;</code>
-     *
-     * <pre>
-     * 股本性质 
-     * </pre>
-     */
-    java.lang.String getGbxz();
-    /**
-     * <code>optional string gbxz = 9;</code>
-     *
-     * <pre>
-     * 股本性质 
-     * </pre>
-     */
-    com.google.protobuf.ByteString
-        getGbxzBytes();
-
-    /**
-     * <code>optional string gsdm = 10;</code>
-     *
-     * <pre>
-     * 公司代码
-     * </pre>
-     */
-    boolean hasGsdm();
-    /**
-     * <code>optional string gsdm = 10;</code>
-     *
-     * <pre>
-     * 公司代码
-     * </pre>
-     */
-    java.lang.String getGsdm();
-    /**
-     * <code>optional string gsdm = 10;</code>
-     *
-     * <pre>
-     * 公司代码
-     * </pre>
-     */
-    com.google.protobuf.ByteString
-        getGsdmBytes();
+    com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GDOrBuilder getDataOrBuilder(
+        int index);
   }
   /**
    * Protobuf type {@code dzhyun.F10_GDJC_SDLTGD}
@@ -19348,48 +20019,12 @@ public final class CldF10ShuJu {
               date_ = bs;
               break;
             }
-            case 24: {
-              bitField0_ |= 0x00000004;
-              gdrs_ = input.readInt64();
-              break;
-            }
-            case 32: {
-              bitField0_ |= 0x00000008;
-              xh_ = input.readInt64();
-              break;
-            }
-            case 42: {
-              com.google.protobuf.ByteString bs = input.readBytes();
-              bitField0_ |= 0x00000010;
-              gdmc_ = bs;
-              break;
-            }
-            case 49: {
-              bitField0_ |= 0x00000020;
-              cgs_ = input.readDouble();
-              break;
-            }
-            case 57: {
-              bitField0_ |= 0x00000040;
-              zzgs_ = input.readDouble();
-              break;
-            }
-            case 66: {
-              com.google.protobuf.ByteString bs = input.readBytes();
-              bitField0_ |= 0x00000080;
-              zjqk_ = bs;
-              break;
-            }
-            case 74: {
-              com.google.protobuf.ByteString bs = input.readBytes();
-              bitField0_ |= 0x00000100;
-              gbxz_ = bs;
-              break;
-            }
-            case 82: {
-              com.google.protobuf.ByteString bs = input.readBytes();
-              bitField0_ |= 0x00000200;
-              gsdm_ = bs;
+            case 26: {
+              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+                data_ = new java.util.ArrayList<com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD>();
+                mutable_bitField0_ |= 0x00000004;
+              }
+              data_.add(input.readMessage(com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.PARSER, extensionRegistry));
               break;
             }
           }
@@ -19400,6 +20035,9 @@ public final class CldF10ShuJu {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e.getMessage()).setUnfinishedMessage(this);
       } finally {
+        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+          data_ = java.util.Collections.unmodifiableList(data_);
+        }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
       }
@@ -19540,325 +20178,65 @@ public final class CldF10ShuJu {
       }
     }
 
-    public static final int GDRS_FIELD_NUMBER = 3;
-    private long gdrs_;
+    public static final int DATA_FIELD_NUMBER = 3;
+    private java.util.List<com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD> data_;
     /**
-     * <code>optional int64 gdrs = 3;</code>
+     * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
      *
      * <pre>
-     * 股东人数 
+     * 十大流通股东数据
      * </pre>
      */
-    public boolean hasGdrs() {
-      return ((bitField0_ & 0x00000004) == 0x00000004);
+    public java.util.List<com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD> getDataList() {
+      return data_;
     }
     /**
-     * <code>optional int64 gdrs = 3;</code>
+     * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
      *
      * <pre>
-     * 股东人数 
+     * 十大流通股东数据
      * </pre>
      */
-    public long getGdrs() {
-      return gdrs_;
-    }
-
-    public static final int XH_FIELD_NUMBER = 4;
-    private long xh_;
-    /**
-     * <code>optional int64 xh = 4;</code>
-     *
-     * <pre>
-     * 序号 
-     * </pre>
-     */
-    public boolean hasXh() {
-      return ((bitField0_ & 0x00000008) == 0x00000008);
+    public java.util.List<? extends com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GDOrBuilder> 
+        getDataOrBuilderList() {
+      return data_;
     }
     /**
-     * <code>optional int64 xh = 4;</code>
+     * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
      *
      * <pre>
-     * 序号 
+     * 十大流通股东数据
      * </pre>
      */
-    public long getXh() {
-      return xh_;
-    }
-
-    public static final int GDMC_FIELD_NUMBER = 5;
-    private java.lang.Object gdmc_;
-    /**
-     * <code>optional string gdmc = 5;</code>
-     *
-     * <pre>
-     * 股东名称 
-     * </pre>
-     */
-    public boolean hasGdmc() {
-      return ((bitField0_ & 0x00000010) == 0x00000010);
+    public int getDataCount() {
+      return data_.size();
     }
     /**
-     * <code>optional string gdmc = 5;</code>
+     * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
      *
      * <pre>
-     * 股东名称 
+     * 十大流通股东数据
      * </pre>
      */
-    public java.lang.String getGdmc() {
-      java.lang.Object ref = gdmc_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          gdmc_ = s;
-        }
-        return s;
-      }
+    public com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD getData(int index) {
+      return data_.get(index);
     }
     /**
-     * <code>optional string gdmc = 5;</code>
+     * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
      *
      * <pre>
-     * 股东名称 
+     * 十大流通股东数据
      * </pre>
      */
-    public com.google.protobuf.ByteString
-        getGdmcBytes() {
-      java.lang.Object ref = gdmc_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        gdmc_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-
-    public static final int CGS_FIELD_NUMBER = 6;
-    private double cgs_;
-    /**
-     * <code>optional double cgs = 6;</code>
-     *
-     * <pre>
-     * 持股数(万股) 
-     * </pre>
-     */
-    public boolean hasCgs() {
-      return ((bitField0_ & 0x00000020) == 0x00000020);
-    }
-    /**
-     * <code>optional double cgs = 6;</code>
-     *
-     * <pre>
-     * 持股数(万股) 
-     * </pre>
-     */
-    public double getCgs() {
-      return cgs_;
-    }
-
-    public static final int ZZGS_FIELD_NUMBER = 7;
-    private double zzgs_;
-    /**
-     * <code>optional double zzgs = 7;</code>
-     *
-     * <pre>
-     * 占总股数(%) 
-     * </pre>
-     */
-    public boolean hasZzgs() {
-      return ((bitField0_ & 0x00000040) == 0x00000040);
-    }
-    /**
-     * <code>optional double zzgs = 7;</code>
-     *
-     * <pre>
-     * 占总股数(%) 
-     * </pre>
-     */
-    public double getZzgs() {
-      return zzgs_;
-    }
-
-    public static final int ZJQK_FIELD_NUMBER = 8;
-    private java.lang.Object zjqk_;
-    /**
-     * <code>optional string zjqk = 8;</code>
-     *
-     * <pre>
-     * 增减情况(万股) 
-     * </pre>
-     */
-    public boolean hasZjqk() {
-      return ((bitField0_ & 0x00000080) == 0x00000080);
-    }
-    /**
-     * <code>optional string zjqk = 8;</code>
-     *
-     * <pre>
-     * 增减情况(万股) 
-     * </pre>
-     */
-    public java.lang.String getZjqk() {
-      java.lang.Object ref = zjqk_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          zjqk_ = s;
-        }
-        return s;
-      }
-    }
-    /**
-     * <code>optional string zjqk = 8;</code>
-     *
-     * <pre>
-     * 增减情况(万股) 
-     * </pre>
-     */
-    public com.google.protobuf.ByteString
-        getZjqkBytes() {
-      java.lang.Object ref = zjqk_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        zjqk_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-
-    public static final int GBXZ_FIELD_NUMBER = 9;
-    private java.lang.Object gbxz_;
-    /**
-     * <code>optional string gbxz = 9;</code>
-     *
-     * <pre>
-     * 股本性质 
-     * </pre>
-     */
-    public boolean hasGbxz() {
-      return ((bitField0_ & 0x00000100) == 0x00000100);
-    }
-    /**
-     * <code>optional string gbxz = 9;</code>
-     *
-     * <pre>
-     * 股本性质 
-     * </pre>
-     */
-    public java.lang.String getGbxz() {
-      java.lang.Object ref = gbxz_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          gbxz_ = s;
-        }
-        return s;
-      }
-    }
-    /**
-     * <code>optional string gbxz = 9;</code>
-     *
-     * <pre>
-     * 股本性质 
-     * </pre>
-     */
-    public com.google.protobuf.ByteString
-        getGbxzBytes() {
-      java.lang.Object ref = gbxz_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        gbxz_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-
-    public static final int GSDM_FIELD_NUMBER = 10;
-    private java.lang.Object gsdm_;
-    /**
-     * <code>optional string gsdm = 10;</code>
-     *
-     * <pre>
-     * 公司代码
-     * </pre>
-     */
-    public boolean hasGsdm() {
-      return ((bitField0_ & 0x00000200) == 0x00000200);
-    }
-    /**
-     * <code>optional string gsdm = 10;</code>
-     *
-     * <pre>
-     * 公司代码
-     * </pre>
-     */
-    public java.lang.String getGsdm() {
-      java.lang.Object ref = gsdm_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          gsdm_ = s;
-        }
-        return s;
-      }
-    }
-    /**
-     * <code>optional string gsdm = 10;</code>
-     *
-     * <pre>
-     * 公司代码
-     * </pre>
-     */
-    public com.google.protobuf.ByteString
-        getGsdmBytes() {
-      java.lang.Object ref = gsdm_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        gsdm_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
+    public com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GDOrBuilder getDataOrBuilder(
+        int index) {
+      return data_.get(index);
     }
 
     private void initFields() {
       obj_ = "";
       date_ = "";
-      gdrs_ = 0L;
-      xh_ = 0L;
-      gdmc_ = "";
-      cgs_ = 0D;
-      zzgs_ = 0D;
-      zjqk_ = "";
-      gbxz_ = "";
-      gsdm_ = "";
+      data_ = java.util.Collections.emptyList();
     }
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
@@ -19887,29 +20265,8 @@ public final class CldF10ShuJu {
       if (((bitField0_ & 0x00000002) == 0x00000002)) {
         output.writeBytes(2, getDateBytes());
       }
-      if (((bitField0_ & 0x00000004) == 0x00000004)) {
-        output.writeInt64(3, gdrs_);
-      }
-      if (((bitField0_ & 0x00000008) == 0x00000008)) {
-        output.writeInt64(4, xh_);
-      }
-      if (((bitField0_ & 0x00000010) == 0x00000010)) {
-        output.writeBytes(5, getGdmcBytes());
-      }
-      if (((bitField0_ & 0x00000020) == 0x00000020)) {
-        output.writeDouble(6, cgs_);
-      }
-      if (((bitField0_ & 0x00000040) == 0x00000040)) {
-        output.writeDouble(7, zzgs_);
-      }
-      if (((bitField0_ & 0x00000080) == 0x00000080)) {
-        output.writeBytes(8, getZjqkBytes());
-      }
-      if (((bitField0_ & 0x00000100) == 0x00000100)) {
-        output.writeBytes(9, getGbxzBytes());
-      }
-      if (((bitField0_ & 0x00000200) == 0x00000200)) {
-        output.writeBytes(10, getGsdmBytes());
+      for (int i = 0; i < data_.size(); i++) {
+        output.writeMessage(3, data_.get(i));
       }
       getUnknownFields().writeTo(output);
     }
@@ -19928,37 +20285,9 @@ public final class CldF10ShuJu {
         size += com.google.protobuf.CodedOutputStream
           .computeBytesSize(2, getDateBytes());
       }
-      if (((bitField0_ & 0x00000004) == 0x00000004)) {
+      for (int i = 0; i < data_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(3, gdrs_);
-      }
-      if (((bitField0_ & 0x00000008) == 0x00000008)) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(4, xh_);
-      }
-      if (((bitField0_ & 0x00000010) == 0x00000010)) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(5, getGdmcBytes());
-      }
-      if (((bitField0_ & 0x00000020) == 0x00000020)) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeDoubleSize(6, cgs_);
-      }
-      if (((bitField0_ & 0x00000040) == 0x00000040)) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeDoubleSize(7, zzgs_);
-      }
-      if (((bitField0_ & 0x00000080) == 0x00000080)) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(8, getZjqkBytes());
-      }
-      if (((bitField0_ & 0x00000100) == 0x00000100)) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(9, getGbxzBytes());
-      }
-      if (((bitField0_ & 0x00000200) == 0x00000200)) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(10, getGsdmBytes());
+          .computeMessageSize(3, data_.get(i));
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
@@ -20073,6 +20402,7 @@ public final class CldF10ShuJu {
       }
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          getDataFieldBuilder();
         }
       }
       private static Builder create() {
@@ -20085,22 +20415,12 @@ public final class CldF10ShuJu {
         bitField0_ = (bitField0_ & ~0x00000001);
         date_ = "";
         bitField0_ = (bitField0_ & ~0x00000002);
-        gdrs_ = 0L;
-        bitField0_ = (bitField0_ & ~0x00000004);
-        xh_ = 0L;
-        bitField0_ = (bitField0_ & ~0x00000008);
-        gdmc_ = "";
-        bitField0_ = (bitField0_ & ~0x00000010);
-        cgs_ = 0D;
-        bitField0_ = (bitField0_ & ~0x00000020);
-        zzgs_ = 0D;
-        bitField0_ = (bitField0_ & ~0x00000040);
-        zjqk_ = "";
-        bitField0_ = (bitField0_ & ~0x00000080);
-        gbxz_ = "";
-        bitField0_ = (bitField0_ & ~0x00000100);
-        gsdm_ = "";
-        bitField0_ = (bitField0_ & ~0x00000200);
+        if (dataBuilder_ == null) {
+          data_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000004);
+        } else {
+          dataBuilder_.clear();
+        }
         return this;
       }
 
@@ -20137,38 +20457,15 @@ public final class CldF10ShuJu {
           to_bitField0_ |= 0x00000002;
         }
         result.date_ = date_;
-        if (((from_bitField0_ & 0x00000004) == 0x00000004)) {
-          to_bitField0_ |= 0x00000004;
+        if (dataBuilder_ == null) {
+          if (((bitField0_ & 0x00000004) == 0x00000004)) {
+            data_ = java.util.Collections.unmodifiableList(data_);
+            bitField0_ = (bitField0_ & ~0x00000004);
+          }
+          result.data_ = data_;
+        } else {
+          result.data_ = dataBuilder_.build();
         }
-        result.gdrs_ = gdrs_;
-        if (((from_bitField0_ & 0x00000008) == 0x00000008)) {
-          to_bitField0_ |= 0x00000008;
-        }
-        result.xh_ = xh_;
-        if (((from_bitField0_ & 0x00000010) == 0x00000010)) {
-          to_bitField0_ |= 0x00000010;
-        }
-        result.gdmc_ = gdmc_;
-        if (((from_bitField0_ & 0x00000020) == 0x00000020)) {
-          to_bitField0_ |= 0x00000020;
-        }
-        result.cgs_ = cgs_;
-        if (((from_bitField0_ & 0x00000040) == 0x00000040)) {
-          to_bitField0_ |= 0x00000040;
-        }
-        result.zzgs_ = zzgs_;
-        if (((from_bitField0_ & 0x00000080) == 0x00000080)) {
-          to_bitField0_ |= 0x00000080;
-        }
-        result.zjqk_ = zjqk_;
-        if (((from_bitField0_ & 0x00000100) == 0x00000100)) {
-          to_bitField0_ |= 0x00000100;
-        }
-        result.gbxz_ = gbxz_;
-        if (((from_bitField0_ & 0x00000200) == 0x00000200)) {
-          to_bitField0_ |= 0x00000200;
-        }
-        result.gsdm_ = gsdm_;
         result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
@@ -20195,37 +20492,31 @@ public final class CldF10ShuJu {
           date_ = other.date_;
           onChanged();
         }
-        if (other.hasGdrs()) {
-          setGdrs(other.getGdrs());
-        }
-        if (other.hasXh()) {
-          setXh(other.getXh());
-        }
-        if (other.hasGdmc()) {
-          bitField0_ |= 0x00000010;
-          gdmc_ = other.gdmc_;
-          onChanged();
-        }
-        if (other.hasCgs()) {
-          setCgs(other.getCgs());
-        }
-        if (other.hasZzgs()) {
-          setZzgs(other.getZzgs());
-        }
-        if (other.hasZjqk()) {
-          bitField0_ |= 0x00000080;
-          zjqk_ = other.zjqk_;
-          onChanged();
-        }
-        if (other.hasGbxz()) {
-          bitField0_ |= 0x00000100;
-          gbxz_ = other.gbxz_;
-          onChanged();
-        }
-        if (other.hasGsdm()) {
-          bitField0_ |= 0x00000200;
-          gsdm_ = other.gsdm_;
-          onChanged();
+        if (dataBuilder_ == null) {
+          if (!other.data_.isEmpty()) {
+            if (data_.isEmpty()) {
+              data_ = other.data_;
+              bitField0_ = (bitField0_ & ~0x00000004);
+            } else {
+              ensureDataIsMutable();
+              data_.addAll(other.data_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.data_.isEmpty()) {
+            if (dataBuilder_.isEmpty()) {
+              dataBuilder_.dispose();
+              dataBuilder_ = null;
+              data_ = other.data_;
+              bitField0_ = (bitField0_ & ~0x00000004);
+              dataBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getDataFieldBuilder() : null;
+            } else {
+              dataBuilder_.addAllMessages(other.data_);
+            }
+          }
         }
         this.mergeUnknownFields(other.getUnknownFields());
         return this;
@@ -20462,596 +20753,316 @@ public final class CldF10ShuJu {
         return this;
       }
 
-      private long gdrs_ ;
-      /**
-       * <code>optional int64 gdrs = 3;</code>
-       *
-       * <pre>
-       * 股东人数 
-       * </pre>
-       */
-      public boolean hasGdrs() {
-        return ((bitField0_ & 0x00000004) == 0x00000004);
-      }
-      /**
-       * <code>optional int64 gdrs = 3;</code>
-       *
-       * <pre>
-       * 股东人数 
-       * </pre>
-       */
-      public long getGdrs() {
-        return gdrs_;
-      }
-      /**
-       * <code>optional int64 gdrs = 3;</code>
-       *
-       * <pre>
-       * 股东人数 
-       * </pre>
-       */
-      public Builder setGdrs(long value) {
-        bitField0_ |= 0x00000004;
-        gdrs_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional int64 gdrs = 3;</code>
-       *
-       * <pre>
-       * 股东人数 
-       * </pre>
-       */
-      public Builder clearGdrs() {
-        bitField0_ = (bitField0_ & ~0x00000004);
-        gdrs_ = 0L;
-        onChanged();
-        return this;
+      private java.util.List<com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD> data_ =
+        java.util.Collections.emptyList();
+      private void ensureDataIsMutable() {
+        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
+          data_ = new java.util.ArrayList<com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD>(data_);
+          bitField0_ |= 0x00000004;
+         }
       }
 
-      private long xh_ ;
-      /**
-       * <code>optional int64 xh = 4;</code>
-       *
-       * <pre>
-       * 序号 
-       * </pre>
-       */
-      public boolean hasXh() {
-        return ((bitField0_ & 0x00000008) == 0x00000008);
-      }
-      /**
-       * <code>optional int64 xh = 4;</code>
-       *
-       * <pre>
-       * 序号 
-       * </pre>
-       */
-      public long getXh() {
-        return xh_;
-      }
-      /**
-       * <code>optional int64 xh = 4;</code>
-       *
-       * <pre>
-       * 序号 
-       * </pre>
-       */
-      public Builder setXh(long value) {
-        bitField0_ |= 0x00000008;
-        xh_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional int64 xh = 4;</code>
-       *
-       * <pre>
-       * 序号 
-       * </pre>
-       */
-      public Builder clearXh() {
-        bitField0_ = (bitField0_ & ~0x00000008);
-        xh_ = 0L;
-        onChanged();
-        return this;
-      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD, com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.Builder, com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GDOrBuilder> dataBuilder_;
 
-      private java.lang.Object gdmc_ = "";
       /**
-       * <code>optional string gdmc = 5;</code>
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
        *
        * <pre>
-       * 股东名称 
+       * 十大流通股东数据
        * </pre>
        */
-      public boolean hasGdmc() {
-        return ((bitField0_ & 0x00000010) == 0x00000010);
+      public java.util.List<com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD> getDataList() {
+        if (dataBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(data_);
+        } else {
+          return dataBuilder_.getMessageList();
+        }
       }
       /**
-       * <code>optional string gdmc = 5;</code>
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
        *
        * <pre>
-       * 股东名称 
+       * 十大流通股东数据
        * </pre>
        */
-      public java.lang.String getGdmc() {
-        java.lang.Object ref = gdmc_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            gdmc_ = s;
+      public int getDataCount() {
+        if (dataBuilder_ == null) {
+          return data_.size();
+        } else {
+          return dataBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
+       *
+       * <pre>
+       * 十大流通股东数据
+       * </pre>
+       */
+      public com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD getData(int index) {
+        if (dataBuilder_ == null) {
+          return data_.get(index);
+        } else {
+          return dataBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
+       *
+       * <pre>
+       * 十大流通股东数据
+       * </pre>
+       */
+      public Builder setData(
+          int index, com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD value) {
+        if (dataBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
           }
-          return s;
+          ensureDataIsMutable();
+          data_.set(index, value);
+          onChanged();
         } else {
-          return (java.lang.String) ref;
+          dataBuilder_.setMessage(index, value);
         }
+        return this;
       }
       /**
-       * <code>optional string gdmc = 5;</code>
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
        *
        * <pre>
-       * 股东名称 
+       * 十大流通股东数据
        * </pre>
        */
-      public com.google.protobuf.ByteString
-          getGdmcBytes() {
-        java.lang.Object ref = gdmc_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          gdmc_ = b;
-          return b;
+      public Builder setData(
+          int index, com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.Builder builderForValue) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          data_.set(index, builderForValue.build());
+          onChanged();
         } else {
-          return (com.google.protobuf.ByteString) ref;
+          dataBuilder_.setMessage(index, builderForValue.build());
         }
-      }
-      /**
-       * <code>optional string gdmc = 5;</code>
-       *
-       * <pre>
-       * 股东名称 
-       * </pre>
-       */
-      public Builder setGdmc(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000010;
-        gdmc_ = value;
-        onChanged();
         return this;
       }
       /**
-       * <code>optional string gdmc = 5;</code>
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
        *
        * <pre>
-       * 股东名称 
+       * 十大流通股东数据
        * </pre>
        */
-      public Builder clearGdmc() {
-        bitField0_ = (bitField0_ & ~0x00000010);
-        gdmc_ = getDefaultInstance().getGdmc();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string gdmc = 5;</code>
-       *
-       * <pre>
-       * 股东名称 
-       * </pre>
-       */
-      public Builder setGdmcBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000010;
-        gdmc_ = value;
-        onChanged();
-        return this;
-      }
-
-      private double cgs_ ;
-      /**
-       * <code>optional double cgs = 6;</code>
-       *
-       * <pre>
-       * 持股数(万股) 
-       * </pre>
-       */
-      public boolean hasCgs() {
-        return ((bitField0_ & 0x00000020) == 0x00000020);
-      }
-      /**
-       * <code>optional double cgs = 6;</code>
-       *
-       * <pre>
-       * 持股数(万股) 
-       * </pre>
-       */
-      public double getCgs() {
-        return cgs_;
-      }
-      /**
-       * <code>optional double cgs = 6;</code>
-       *
-       * <pre>
-       * 持股数(万股) 
-       * </pre>
-       */
-      public Builder setCgs(double value) {
-        bitField0_ |= 0x00000020;
-        cgs_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional double cgs = 6;</code>
-       *
-       * <pre>
-       * 持股数(万股) 
-       * </pre>
-       */
-      public Builder clearCgs() {
-        bitField0_ = (bitField0_ & ~0x00000020);
-        cgs_ = 0D;
-        onChanged();
-        return this;
-      }
-
-      private double zzgs_ ;
-      /**
-       * <code>optional double zzgs = 7;</code>
-       *
-       * <pre>
-       * 占总股数(%) 
-       * </pre>
-       */
-      public boolean hasZzgs() {
-        return ((bitField0_ & 0x00000040) == 0x00000040);
-      }
-      /**
-       * <code>optional double zzgs = 7;</code>
-       *
-       * <pre>
-       * 占总股数(%) 
-       * </pre>
-       */
-      public double getZzgs() {
-        return zzgs_;
-      }
-      /**
-       * <code>optional double zzgs = 7;</code>
-       *
-       * <pre>
-       * 占总股数(%) 
-       * </pre>
-       */
-      public Builder setZzgs(double value) {
-        bitField0_ |= 0x00000040;
-        zzgs_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional double zzgs = 7;</code>
-       *
-       * <pre>
-       * 占总股数(%) 
-       * </pre>
-       */
-      public Builder clearZzgs() {
-        bitField0_ = (bitField0_ & ~0x00000040);
-        zzgs_ = 0D;
-        onChanged();
-        return this;
-      }
-
-      private java.lang.Object zjqk_ = "";
-      /**
-       * <code>optional string zjqk = 8;</code>
-       *
-       * <pre>
-       * 增减情况(万股) 
-       * </pre>
-       */
-      public boolean hasZjqk() {
-        return ((bitField0_ & 0x00000080) == 0x00000080);
-      }
-      /**
-       * <code>optional string zjqk = 8;</code>
-       *
-       * <pre>
-       * 增减情况(万股) 
-       * </pre>
-       */
-      public java.lang.String getZjqk() {
-        java.lang.Object ref = zjqk_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            zjqk_ = s;
+      public Builder addData(com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD value) {
+        if (dataBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
           }
-          return s;
+          ensureDataIsMutable();
+          data_.add(value);
+          onChanged();
         } else {
-          return (java.lang.String) ref;
+          dataBuilder_.addMessage(value);
         }
-      }
-      /**
-       * <code>optional string zjqk = 8;</code>
-       *
-       * <pre>
-       * 增减情况(万股) 
-       * </pre>
-       */
-      public com.google.protobuf.ByteString
-          getZjqkBytes() {
-        java.lang.Object ref = zjqk_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          zjqk_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>optional string zjqk = 8;</code>
-       *
-       * <pre>
-       * 增减情况(万股) 
-       * </pre>
-       */
-      public Builder setZjqk(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000080;
-        zjqk_ = value;
-        onChanged();
         return this;
       }
       /**
-       * <code>optional string zjqk = 8;</code>
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
        *
        * <pre>
-       * 增减情况(万股) 
+       * 十大流通股东数据
        * </pre>
        */
-      public Builder clearZjqk() {
-        bitField0_ = (bitField0_ & ~0x00000080);
-        zjqk_ = getDefaultInstance().getZjqk();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string zjqk = 8;</code>
-       *
-       * <pre>
-       * 增减情况(万股) 
-       * </pre>
-       */
-      public Builder setZjqkBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000080;
-        zjqk_ = value;
-        onChanged();
-        return this;
-      }
-
-      private java.lang.Object gbxz_ = "";
-      /**
-       * <code>optional string gbxz = 9;</code>
-       *
-       * <pre>
-       * 股本性质 
-       * </pre>
-       */
-      public boolean hasGbxz() {
-        return ((bitField0_ & 0x00000100) == 0x00000100);
-      }
-      /**
-       * <code>optional string gbxz = 9;</code>
-       *
-       * <pre>
-       * 股本性质 
-       * </pre>
-       */
-      public java.lang.String getGbxz() {
-        java.lang.Object ref = gbxz_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            gbxz_ = s;
+      public Builder addData(
+          int index, com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD value) {
+        if (dataBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
           }
-          return s;
+          ensureDataIsMutable();
+          data_.add(index, value);
+          onChanged();
         } else {
-          return (java.lang.String) ref;
+          dataBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
+       *
+       * <pre>
+       * 十大流通股东数据
+       * </pre>
+       */
+      public Builder addData(
+          com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.Builder builderForValue) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          data_.add(builderForValue.build());
+          onChanged();
+        } else {
+          dataBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
+       *
+       * <pre>
+       * 十大流通股东数据
+       * </pre>
+       */
+      public Builder addData(
+          int index, com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.Builder builderForValue) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          data_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          dataBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
+       *
+       * <pre>
+       * 十大流通股东数据
+       * </pre>
+       */
+      public Builder addAllData(
+          java.lang.Iterable<? extends com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD> values) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, data_);
+          onChanged();
+        } else {
+          dataBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
+       *
+       * <pre>
+       * 十大流通股东数据
+       * </pre>
+       */
+      public Builder clearData() {
+        if (dataBuilder_ == null) {
+          data_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000004);
+          onChanged();
+        } else {
+          dataBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
+       *
+       * <pre>
+       * 十大流通股东数据
+       * </pre>
+       */
+      public Builder removeData(int index) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          data_.remove(index);
+          onChanged();
+        } else {
+          dataBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
+       *
+       * <pre>
+       * 十大流通股东数据
+       * </pre>
+       */
+      public com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.Builder getDataBuilder(
+          int index) {
+        return getDataFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
+       *
+       * <pre>
+       * 十大流通股东数据
+       * </pre>
+       */
+      public com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GDOrBuilder getDataOrBuilder(
+          int index) {
+        if (dataBuilder_ == null) {
+          return data_.get(index);  } else {
+          return dataBuilder_.getMessageOrBuilder(index);
         }
       }
       /**
-       * <code>optional string gbxz = 9;</code>
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
        *
        * <pre>
-       * 股本性质 
+       * 十大流通股东数据
        * </pre>
        */
-      public com.google.protobuf.ByteString
-          getGbxzBytes() {
-        java.lang.Object ref = gbxz_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          gbxz_ = b;
-          return b;
+      public java.util.List<? extends com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GDOrBuilder> 
+           getDataOrBuilderList() {
+        if (dataBuilder_ != null) {
+          return dataBuilder_.getMessageOrBuilderList();
         } else {
-          return (com.google.protobuf.ByteString) ref;
+          return java.util.Collections.unmodifiableList(data_);
         }
       }
       /**
-       * <code>optional string gbxz = 9;</code>
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
        *
        * <pre>
-       * 股本性质 
+       * 十大流通股东数据
        * </pre>
        */
-      public Builder setGbxz(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000100;
-        gbxz_ = value;
-        onChanged();
-        return this;
+      public com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.Builder addDataBuilder() {
+        return getDataFieldBuilder().addBuilder(
+            com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.getDefaultInstance());
       }
       /**
-       * <code>optional string gbxz = 9;</code>
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
        *
        * <pre>
-       * 股本性质 
+       * 十大流通股东数据
        * </pre>
        */
-      public Builder clearGbxz() {
-        bitField0_ = (bitField0_ & ~0x00000100);
-        gbxz_ = getDefaultInstance().getGbxz();
-        onChanged();
-        return this;
+      public com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.Builder addDataBuilder(
+          int index) {
+        return getDataFieldBuilder().addBuilder(
+            index, com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.getDefaultInstance());
       }
       /**
-       * <code>optional string gbxz = 9;</code>
+       * <code>repeated .dzhyun.F10_GDJC_GD data = 3;</code>
        *
        * <pre>
-       * 股本性质 
+       * 十大流通股东数据
        * </pre>
        */
-      public Builder setGbxzBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000100;
-        gbxz_ = value;
-        onChanged();
-        return this;
+      public java.util.List<com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.Builder> 
+           getDataBuilderList() {
+        return getDataFieldBuilder().getBuilderList();
       }
-
-      private java.lang.Object gsdm_ = "";
-      /**
-       * <code>optional string gsdm = 10;</code>
-       *
-       * <pre>
-       * 公司代码
-       * </pre>
-       */
-      public boolean hasGsdm() {
-        return ((bitField0_ & 0x00000200) == 0x00000200);
-      }
-      /**
-       * <code>optional string gsdm = 10;</code>
-       *
-       * <pre>
-       * 公司代码
-       * </pre>
-       */
-      public java.lang.String getGsdm() {
-        java.lang.Object ref = gsdm_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            gsdm_ = s;
-          }
-          return s;
-        } else {
-          return (java.lang.String) ref;
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD, com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.Builder, com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GDOrBuilder> 
+          getDataFieldBuilder() {
+        if (dataBuilder_ == null) {
+          dataBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD, com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GD.Builder, com.dzhyun.proto.CldF10ShuJu.F10_GDJC_GDOrBuilder>(
+                  data_,
+                  ((bitField0_ & 0x00000004) == 0x00000004),
+                  getParentForChildren(),
+                  isClean());
+          data_ = null;
         }
-      }
-      /**
-       * <code>optional string gsdm = 10;</code>
-       *
-       * <pre>
-       * 公司代码
-       * </pre>
-       */
-      public com.google.protobuf.ByteString
-          getGsdmBytes() {
-        java.lang.Object ref = gsdm_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          gsdm_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>optional string gsdm = 10;</code>
-       *
-       * <pre>
-       * 公司代码
-       * </pre>
-       */
-      public Builder setGsdm(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000200;
-        gsdm_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string gsdm = 10;</code>
-       *
-       * <pre>
-       * 公司代码
-       * </pre>
-       */
-      public Builder clearGsdm() {
-        bitField0_ = (bitField0_ & ~0x00000200);
-        gsdm_ = getDefaultInstance().getGsdm();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string gsdm = 10;</code>
-       *
-       * <pre>
-       * 公司代码
-       * </pre>
-       */
-      public Builder setGsdmBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000200;
-        gsdm_ = value;
-        onChanged();
-        return this;
+        return dataBuilder_;
       }
 
       // @@protoc_insertion_point(builder_scope:dzhyun.F10_GDJC_SDLTGD)
@@ -26847,6 +26858,11 @@ public final class CldF10ShuJu {
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dzhyun_F10_GDJC_GDHS_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_dzhyun_F10_GDJC_GD_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_dzhyun_F10_GDJC_GD_fieldAccessorTable;
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dzhyun_F10_GDJC_SDGD_descriptor;
   private static
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
@@ -26914,32 +26930,31 @@ public final class CldF10ShuJu {
       " \001(\001\022\016\n\006mgzjlr\030\020 \001(\001\022\016\n\006ssgdsy\030\021 \001(\001\"s\n\r" +
       "F10_GDJC_GDHS\022\013\n\003obj\030\001 \002(\t\022\014\n\004date\030\002 \002(\t" +
       "\022\r\n\005gdzhs\030\003 \001(\003\022\014\n\004hbzj\030\004 \001(\003\022\014\n\004hbbh\030\005 " +
-      "\001(\001\022\014\n\004rjcg\030\006 \001(\003\022\016\n\006ltgdhs\030\007 \001(\003\"\227\001\n\rF1",
-      "0_GDJC_SDGD\022\013\n\003obj\030\001 \002(\t\022\014\n\004date\030\002 \002(\t\022\014" +
-      "\n\004gdrs\030\003 \001(\003\022\n\n\002xh\030\004 \001(\003\022\014\n\004gdmc\030\005 \001(\t\022\013" +
-      "\n\003cgs\030\006 \001(\001\022\014\n\004zzgs\030\007 \001(\001\022\014\n\004zjqk\030\010 \001(\t\022" +
-      "\014\n\004gbxz\030\t \001(\t\022\014\n\004gsdm\030\n \001(\t\"\231\001\n\017F10_GDJC" +
-      "_SDLTGD\022\013\n\003obj\030\001 \002(\t\022\014\n\004date\030\002 \002(\t\022\014\n\004gd" +
-      "rs\030\003 \001(\003\022\n\n\002xh\030\004 \001(\003\022\014\n\004gdmc\030\005 \001(\t\022\013\n\003cg" +
-      "s\030\006 \001(\001\022\014\n\004zzgs\030\007 \001(\001\022\014\n\004zjqk\030\010 \001(\t\022\014\n\004g" +
-      "bxz\030\t \001(\t\022\014\n\004gsdm\030\n \001(\t\"\276\003\n\rF10_GBFH_GBJ" +
-      "G\022\013\n\003obj\030\001 \002(\t\022\014\n\004date\030\002 \002(\t\022\013\n\003zgb\030\003 \001(" +
-      "\001\022\014\n\004ltgf\030\004 \001(\001\022\014\n\004ltag\030\005 \001(\001\022\014\n\004ltbg\030\006 ",
-      "\001(\001\022\014\n\004lthg\030\007 \001(\001\022\016\n\006qtltgf\030\010 \001(\001\022\r\n\005xsl" +
-      "tg\030\t \001(\001\022\016\n\006xsltag\030\n \001(\001\022\016\n\006xsltbg\030\013 \001(\001" +
-      "\022\016\n\006xslthg\030\014 \001(\001\022\016\n\006xsgjcg\030\r \001(\001\022\020\n\010xsgy" +
-      "frcg\030\016 \001(\001\022\020\n\010xsjnfrcg\030\017 \001(\001\022\021\n\txsjnzrrc" +
-      "g\030\020 \001(\001\022\016\n\006xsggcg\030\021 \001(\001\022\020\n\010xsjwfrcg\030\022 \001(" +
-      "\001\022\021\n\txsjwzrrcg\030\023 \001(\001\022\014\n\004wltg\030\024 \001(\001\022\013\n\003gj" +
-      "g\030\025 \001(\001\022\r\n\005gyfrg\030\026 \001(\001\022\017\n\007jnfgyfr\030\027 \001(\001\022" +
-      "\013\n\003zpg\030\030 \001(\001\022\r\n\005nbzgg\030\031 \001(\001\022\013\n\003yxg\030\032 \001(\001" +
-      "\022\r\n\005jwfrg\030\033 \001(\001\022\017\n\007qtwltgf\030\034 \001(\001\"\272\001\n\rF10" +
-      "_GBFH_FHKG\022\013\n\003obj\030\001 \002(\t\022\014\n\004date\030\002 \002(\t\022\014\n",
-      "\004mgsg\030\003 \001(\001\022\014\n\004mgzz\030\004 \001(\001\022\014\n\004mgfh\030\005 \001(\001\022" +
-      "\013\n\003mgp\030\006 \001(\001\022\014\n\004pgjg\030\007 \001(\001\022\016\n\006zfgfsl\030\010 \001" +
-      "(\001\022\014\n\004zfjg\030\t \001(\001\022\r\n\005gqdjr\030\n \001(\t\022\r\n\005cqcxr" +
-      "\030\013 \001(\t\022\r\n\005zhjyr\030\014 \001(\tB\022\n\020com.dzhyun.prot" +
-      "o"
+      "\001(\001\022\014\n\004rjcg\030\006 \001(\003\022\016\n\006ltgdhs\030\007 \001(\003\"z\n\013F10",
+      "_GDJC_GD\022\014\n\004gdrs\030\001 \001(\003\022\n\n\002xh\030\002 \001(\003\022\014\n\004gd" +
+      "mc\030\003 \001(\t\022\013\n\003cgs\030\004 \001(\001\022\014\n\004zzgs\030\005 \001(\001\022\014\n\004z" +
+      "jqk\030\006 \001(\t\022\014\n\004gbxz\030\007 \001(\t\022\014\n\004gsdm\030\010 \001(\t\"M\n" +
+      "\rF10_GDJC_SDGD\022\013\n\003obj\030\001 \002(\t\022\014\n\004date\030\002 \002(" +
+      "\t\022!\n\004data\030\003 \003(\0132\023.dzhyun.F10_GDJC_GD\"O\n\017" +
+      "F10_GDJC_SDLTGD\022\013\n\003obj\030\001 \002(\t\022\014\n\004date\030\002 \002" +
+      "(\t\022!\n\004data\030\003 \003(\0132\023.dzhyun.F10_GDJC_GD\"\276\003" +
+      "\n\rF10_GBFH_GBJG\022\013\n\003obj\030\001 \002(\t\022\014\n\004date\030\002 \002" +
+      "(\t\022\013\n\003zgb\030\003 \001(\001\022\014\n\004ltgf\030\004 \001(\001\022\014\n\004ltag\030\005 " +
+      "\001(\001\022\014\n\004ltbg\030\006 \001(\001\022\014\n\004lthg\030\007 \001(\001\022\016\n\006qtltg",
+      "f\030\010 \001(\001\022\r\n\005xsltg\030\t \001(\001\022\016\n\006xsltag\030\n \001(\001\022\016" +
+      "\n\006xsltbg\030\013 \001(\001\022\016\n\006xslthg\030\014 \001(\001\022\016\n\006xsgjcg" +
+      "\030\r \001(\001\022\020\n\010xsgyfrcg\030\016 \001(\001\022\020\n\010xsjnfrcg\030\017 \001" +
+      "(\001\022\021\n\txsjnzrrcg\030\020 \001(\001\022\016\n\006xsggcg\030\021 \001(\001\022\020\n" +
+      "\010xsjwfrcg\030\022 \001(\001\022\021\n\txsjwzrrcg\030\023 \001(\001\022\014\n\004wl" +
+      "tg\030\024 \001(\001\022\013\n\003gjg\030\025 \001(\001\022\r\n\005gyfrg\030\026 \001(\001\022\017\n\007" +
+      "jnfgyfr\030\027 \001(\001\022\013\n\003zpg\030\030 \001(\001\022\r\n\005nbzgg\030\031 \001(" +
+      "\001\022\013\n\003yxg\030\032 \001(\001\022\r\n\005jwfrg\030\033 \001(\001\022\017\n\007qtwltgf" +
+      "\030\034 \001(\001\"\272\001\n\rF10_GBFH_FHKG\022\013\n\003obj\030\001 \002(\t\022\014\n" +
+      "\004date\030\002 \002(\t\022\014\n\004mgsg\030\003 \001(\001\022\014\n\004mgzz\030\004 \001(\001\022",
+      "\014\n\004mgfh\030\005 \001(\001\022\013\n\003mgp\030\006 \001(\001\022\014\n\004pgjg\030\007 \001(\001" +
+      "\022\016\n\006zfgfsl\030\010 \001(\001\022\014\n\004zfjg\030\t \001(\001\022\r\n\005gqdjr\030" +
+      "\n \001(\t\022\r\n\005cqcxr\030\013 \001(\t\022\r\n\005zhjyr\030\014 \001(\tB\022\n\020c" +
+      "om.dzhyun.proto"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -26989,26 +27004,32 @@ public final class CldF10ShuJu {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dzhyun_F10_GDJC_GDHS_descriptor,
         new java.lang.String[] { "Obj", "Date", "Gdzhs", "Hbzj", "Hbbh", "Rjcg", "Ltgdhs", });
-    internal_static_dzhyun_F10_GDJC_SDGD_descriptor =
+    internal_static_dzhyun_F10_GDJC_GD_descriptor =
       getDescriptor().getMessageTypes().get(6);
+    internal_static_dzhyun_F10_GDJC_GD_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_dzhyun_F10_GDJC_GD_descriptor,
+        new java.lang.String[] { "Gdrs", "Xh", "Gdmc", "Cgs", "Zzgs", "Zjqk", "Gbxz", "Gsdm", });
+    internal_static_dzhyun_F10_GDJC_SDGD_descriptor =
+      getDescriptor().getMessageTypes().get(7);
     internal_static_dzhyun_F10_GDJC_SDGD_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dzhyun_F10_GDJC_SDGD_descriptor,
-        new java.lang.String[] { "Obj", "Date", "Gdrs", "Xh", "Gdmc", "Cgs", "Zzgs", "Zjqk", "Gbxz", "Gsdm", });
+        new java.lang.String[] { "Obj", "Date", "Data", });
     internal_static_dzhyun_F10_GDJC_SDLTGD_descriptor =
-      getDescriptor().getMessageTypes().get(7);
+      getDescriptor().getMessageTypes().get(8);
     internal_static_dzhyun_F10_GDJC_SDLTGD_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dzhyun_F10_GDJC_SDLTGD_descriptor,
-        new java.lang.String[] { "Obj", "Date", "Gdrs", "Xh", "Gdmc", "Cgs", "Zzgs", "Zjqk", "Gbxz", "Gsdm", });
+        new java.lang.String[] { "Obj", "Date", "Data", });
     internal_static_dzhyun_F10_GBFH_GBJG_descriptor =
-      getDescriptor().getMessageTypes().get(8);
+      getDescriptor().getMessageTypes().get(9);
     internal_static_dzhyun_F10_GBFH_GBJG_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dzhyun_F10_GBFH_GBJG_descriptor,
         new java.lang.String[] { "Obj", "Date", "Zgb", "Ltgf", "Ltag", "Ltbg", "Lthg", "Qtltgf", "Xsltg", "Xsltag", "Xsltbg", "Xslthg", "Xsgjcg", "Xsgyfrcg", "Xsjnfrcg", "Xsjnzrrcg", "Xsggcg", "Xsjwfrcg", "Xsjwzrrcg", "Wltg", "Gjg", "Gyfrg", "Jnfgyfr", "Zpg", "Nbzgg", "Yxg", "Jwfrg", "Qtwltgf", });
     internal_static_dzhyun_F10_GBFH_FHKG_descriptor =
-      getDescriptor().getMessageTypes().get(9);
+      getDescriptor().getMessageTypes().get(10);
     internal_static_dzhyun_F10_GBFH_FHKG_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dzhyun_F10_GBFH_FHKG_descriptor,

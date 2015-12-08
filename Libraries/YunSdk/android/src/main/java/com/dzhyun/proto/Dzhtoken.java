@@ -13,18 +13,13 @@ public final class Dzhtoken {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>required string result = 1 [default = "0"];</code>
+     * <code>required int32 result = 1 [default = 0];</code>
      */
     boolean hasResult();
     /**
-     * <code>required string result = 1 [default = "0"];</code>
+     * <code>required int32 result = 1 [default = 0];</code>
      */
-    java.lang.String getResult();
-    /**
-     * <code>required string result = 1 [default = "0"];</code>
-     */
-    com.google.protobuf.ByteString
-        getResultBytes();
+    int getResult();
 
     /**
      * <code>optional string token = 2;</code>
@@ -41,60 +36,40 @@ public final class Dzhtoken {
         getTokenBytes();
 
     /**
-     * <code>optional string version = 3;</code>
+     * <code>optional int64 version = 3;</code>
      */
     boolean hasVersion();
     /**
-     * <code>optional string version = 3;</code>
+     * <code>optional int64 version = 3;</code>
      */
-    java.lang.String getVersion();
-    /**
-     * <code>optional string version = 3;</code>
-     */
-    com.google.protobuf.ByteString
-        getVersionBytes();
+    long getVersion();
 
     /**
-     * <code>optional string create_time = 4;</code>
+     * <code>optional int64 create_time = 4;</code>
      */
     boolean hasCreateTime();
     /**
-     * <code>optional string create_time = 4;</code>
+     * <code>optional int64 create_time = 4;</code>
      */
-    java.lang.String getCreateTime();
-    /**
-     * <code>optional string create_time = 4;</code>
-     */
-    com.google.protobuf.ByteString
-        getCreateTimeBytes();
+    long getCreateTime();
 
     /**
-     * <code>optional string refresh_time = 5;</code>
+     * <code>optional int64 refresh_time = 5;</code>
      */
     boolean hasRefreshTime();
     /**
-     * <code>optional string refresh_time = 5;</code>
+     * <code>optional int64 refresh_time = 5;</code>
      */
-    java.lang.String getRefreshTime();
-    /**
-     * <code>optional string refresh_time = 5;</code>
-     */
-    com.google.protobuf.ByteString
-        getRefreshTimeBytes();
+    long getRefreshTime();
 
     /**
-     * <code>optional string duration = 6;</code>
+     * <code>optional int64 duration = 6;</code>
      */
     boolean hasDuration();
     /**
-     * <code>optional string duration = 6;</code>
+     * <code>optional int64 duration = 6;</code>
      */
-    java.lang.String getDuration();
-    /**
-     * <code>optional string duration = 6;</code>
-     */
-    com.google.protobuf.ByteString
-        getDurationBytes();
+    long getDuration();
 
     /**
      * <code>optional string appid = 7;</code>
@@ -190,10 +165,9 @@ public final class Dzhtoken {
               }
               break;
             }
-            case 10: {
-              com.google.protobuf.ByteString bs = input.readBytes();
+            case 8: {
               bitField0_ |= 0x00000001;
-              result_ = bs;
+              result_ = input.readInt32();
               break;
             }
             case 18: {
@@ -202,28 +176,24 @@ public final class Dzhtoken {
               token_ = bs;
               break;
             }
-            case 26: {
-              com.google.protobuf.ByteString bs = input.readBytes();
+            case 24: {
               bitField0_ |= 0x00000004;
-              version_ = bs;
+              version_ = input.readInt64();
               break;
             }
-            case 34: {
-              com.google.protobuf.ByteString bs = input.readBytes();
+            case 32: {
               bitField0_ |= 0x00000008;
-              createTime_ = bs;
+              createTime_ = input.readInt64();
               break;
             }
-            case 42: {
-              com.google.protobuf.ByteString bs = input.readBytes();
+            case 40: {
               bitField0_ |= 0x00000010;
-              refreshTime_ = bs;
+              refreshTime_ = input.readInt64();
               break;
             }
-            case 50: {
-              com.google.protobuf.ByteString bs = input.readBytes();
+            case 48: {
               bitField0_ |= 0x00000020;
-              duration_ = bs;
+              duration_ = input.readInt64();
               break;
             }
             case 58: {
@@ -285,45 +255,18 @@ public final class Dzhtoken {
 
     private int bitField0_;
     public static final int RESULT_FIELD_NUMBER = 1;
-    private java.lang.Object result_;
+    private int result_;
     /**
-     * <code>required string result = 1 [default = "0"];</code>
+     * <code>required int32 result = 1 [default = 0];</code>
      */
     public boolean hasResult() {
       return ((bitField0_ & 0x00000001) == 0x00000001);
     }
     /**
-     * <code>required string result = 1 [default = "0"];</code>
+     * <code>required int32 result = 1 [default = 0];</code>
      */
-    public java.lang.String getResult() {
-      java.lang.Object ref = result_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          result_ = s;
-        }
-        return s;
-      }
-    }
-    /**
-     * <code>required string result = 1 [default = "0"];</code>
-     */
-    public com.google.protobuf.ByteString
-        getResultBytes() {
-      java.lang.Object ref = result_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        result_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
+    public int getResult() {
+      return result_;
     }
 
     public static final int TOKEN_FIELD_NUMBER = 2;
@@ -369,171 +312,63 @@ public final class Dzhtoken {
     }
 
     public static final int VERSION_FIELD_NUMBER = 3;
-    private java.lang.Object version_;
+    private long version_;
     /**
-     * <code>optional string version = 3;</code>
+     * <code>optional int64 version = 3;</code>
      */
     public boolean hasVersion() {
       return ((bitField0_ & 0x00000004) == 0x00000004);
     }
     /**
-     * <code>optional string version = 3;</code>
+     * <code>optional int64 version = 3;</code>
      */
-    public java.lang.String getVersion() {
-      java.lang.Object ref = version_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          version_ = s;
-        }
-        return s;
-      }
-    }
-    /**
-     * <code>optional string version = 3;</code>
-     */
-    public com.google.protobuf.ByteString
-        getVersionBytes() {
-      java.lang.Object ref = version_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        version_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
+    public long getVersion() {
+      return version_;
     }
 
     public static final int CREATE_TIME_FIELD_NUMBER = 4;
-    private java.lang.Object createTime_;
+    private long createTime_;
     /**
-     * <code>optional string create_time = 4;</code>
+     * <code>optional int64 create_time = 4;</code>
      */
     public boolean hasCreateTime() {
       return ((bitField0_ & 0x00000008) == 0x00000008);
     }
     /**
-     * <code>optional string create_time = 4;</code>
+     * <code>optional int64 create_time = 4;</code>
      */
-    public java.lang.String getCreateTime() {
-      java.lang.Object ref = createTime_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          createTime_ = s;
-        }
-        return s;
-      }
-    }
-    /**
-     * <code>optional string create_time = 4;</code>
-     */
-    public com.google.protobuf.ByteString
-        getCreateTimeBytes() {
-      java.lang.Object ref = createTime_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        createTime_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
+    public long getCreateTime() {
+      return createTime_;
     }
 
     public static final int REFRESH_TIME_FIELD_NUMBER = 5;
-    private java.lang.Object refreshTime_;
+    private long refreshTime_;
     /**
-     * <code>optional string refresh_time = 5;</code>
+     * <code>optional int64 refresh_time = 5;</code>
      */
     public boolean hasRefreshTime() {
       return ((bitField0_ & 0x00000010) == 0x00000010);
     }
     /**
-     * <code>optional string refresh_time = 5;</code>
+     * <code>optional int64 refresh_time = 5;</code>
      */
-    public java.lang.String getRefreshTime() {
-      java.lang.Object ref = refreshTime_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          refreshTime_ = s;
-        }
-        return s;
-      }
-    }
-    /**
-     * <code>optional string refresh_time = 5;</code>
-     */
-    public com.google.protobuf.ByteString
-        getRefreshTimeBytes() {
-      java.lang.Object ref = refreshTime_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        refreshTime_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
+    public long getRefreshTime() {
+      return refreshTime_;
     }
 
     public static final int DURATION_FIELD_NUMBER = 6;
-    private java.lang.Object duration_;
+    private long duration_;
     /**
-     * <code>optional string duration = 6;</code>
+     * <code>optional int64 duration = 6;</code>
      */
     public boolean hasDuration() {
       return ((bitField0_ & 0x00000020) == 0x00000020);
     }
     /**
-     * <code>optional string duration = 6;</code>
+     * <code>optional int64 duration = 6;</code>
      */
-    public java.lang.String getDuration() {
-      java.lang.Object ref = duration_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          duration_ = s;
-        }
-        return s;
-      }
-    }
-    /**
-     * <code>optional string duration = 6;</code>
-     */
-    public com.google.protobuf.ByteString
-        getDurationBytes() {
-      java.lang.Object ref = duration_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        duration_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
+    public long getDuration() {
+      return duration_;
     }
 
     public static final int APPID_FIELD_NUMBER = 7;
@@ -663,12 +498,12 @@ public final class Dzhtoken {
     }
 
     private void initFields() {
-      result_ = "0";
+      result_ = 0;
       token_ = "";
-      version_ = "";
-      createTime_ = "";
-      refreshTime_ = "";
-      duration_ = "";
+      version_ = 0L;
+      createTime_ = 0L;
+      refreshTime_ = 0L;
+      duration_ = 0L;
       appid_ = "";
       device_ = "";
       uid_ = "";
@@ -691,22 +526,22 @@ public final class Dzhtoken {
                         throws java.io.IOException {
       getSerializedSize();
       if (((bitField0_ & 0x00000001) == 0x00000001)) {
-        output.writeBytes(1, getResultBytes());
+        output.writeInt32(1, result_);
       }
       if (((bitField0_ & 0x00000002) == 0x00000002)) {
         output.writeBytes(2, getTokenBytes());
       }
       if (((bitField0_ & 0x00000004) == 0x00000004)) {
-        output.writeBytes(3, getVersionBytes());
+        output.writeInt64(3, version_);
       }
       if (((bitField0_ & 0x00000008) == 0x00000008)) {
-        output.writeBytes(4, getCreateTimeBytes());
+        output.writeInt64(4, createTime_);
       }
       if (((bitField0_ & 0x00000010) == 0x00000010)) {
-        output.writeBytes(5, getRefreshTimeBytes());
+        output.writeInt64(5, refreshTime_);
       }
       if (((bitField0_ & 0x00000020) == 0x00000020)) {
-        output.writeBytes(6, getDurationBytes());
+        output.writeInt64(6, duration_);
       }
       if (((bitField0_ & 0x00000040) == 0x00000040)) {
         output.writeBytes(7, getAppidBytes());
@@ -728,7 +563,7 @@ public final class Dzhtoken {
       size = 0;
       if (((bitField0_ & 0x00000001) == 0x00000001)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(1, getResultBytes());
+          .computeInt32Size(1, result_);
       }
       if (((bitField0_ & 0x00000002) == 0x00000002)) {
         size += com.google.protobuf.CodedOutputStream
@@ -736,19 +571,19 @@ public final class Dzhtoken {
       }
       if (((bitField0_ & 0x00000004) == 0x00000004)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(3, getVersionBytes());
+          .computeInt64Size(3, version_);
       }
       if (((bitField0_ & 0x00000008) == 0x00000008)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(4, getCreateTimeBytes());
+          .computeInt64Size(4, createTime_);
       }
       if (((bitField0_ & 0x00000010) == 0x00000010)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(5, getRefreshTimeBytes());
+          .computeInt64Size(5, refreshTime_);
       }
       if (((bitField0_ & 0x00000020) == 0x00000020)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(6, getDurationBytes());
+          .computeInt64Size(6, duration_);
       }
       if (((bitField0_ & 0x00000040) == 0x00000040)) {
         size += com.google.protobuf.CodedOutputStream
@@ -879,17 +714,17 @@ public final class Dzhtoken {
 
       public Builder clear() {
         super.clear();
-        result_ = "0";
+        result_ = 0;
         bitField0_ = (bitField0_ & ~0x00000001);
         token_ = "";
         bitField0_ = (bitField0_ & ~0x00000002);
-        version_ = "";
+        version_ = 0L;
         bitField0_ = (bitField0_ & ~0x00000004);
-        createTime_ = "";
+        createTime_ = 0L;
         bitField0_ = (bitField0_ & ~0x00000008);
-        refreshTime_ = "";
+        refreshTime_ = 0L;
         bitField0_ = (bitField0_ & ~0x00000010);
-        duration_ = "";
+        duration_ = 0L;
         bitField0_ = (bitField0_ & ~0x00000020);
         appid_ = "";
         bitField0_ = (bitField0_ & ~0x00000040);
@@ -978,9 +813,7 @@ public final class Dzhtoken {
       public Builder mergeFrom(com.dzhyun.proto.Dzhtoken.Token other) {
         if (other == com.dzhyun.proto.Dzhtoken.Token.getDefaultInstance()) return this;
         if (other.hasResult()) {
-          bitField0_ |= 0x00000001;
-          result_ = other.result_;
-          onChanged();
+          setResult(other.getResult());
         }
         if (other.hasToken()) {
           bitField0_ |= 0x00000002;
@@ -988,24 +821,16 @@ public final class Dzhtoken {
           onChanged();
         }
         if (other.hasVersion()) {
-          bitField0_ |= 0x00000004;
-          version_ = other.version_;
-          onChanged();
+          setVersion(other.getVersion());
         }
         if (other.hasCreateTime()) {
-          bitField0_ |= 0x00000008;
-          createTime_ = other.createTime_;
-          onChanged();
+          setCreateTime(other.getCreateTime());
         }
         if (other.hasRefreshTime()) {
-          bitField0_ |= 0x00000010;
-          refreshTime_ = other.refreshTime_;
-          onChanged();
+          setRefreshTime(other.getRefreshTime());
         }
         if (other.hasDuration()) {
-          bitField0_ |= 0x00000020;
-          duration_ = other.duration_;
-          onChanged();
+          setDuration(other.getDuration());
         }
         if (other.hasAppid()) {
           bitField0_ |= 0x00000040;
@@ -1053,78 +878,34 @@ public final class Dzhtoken {
       }
       private int bitField0_;
 
-      private java.lang.Object result_ = "0";
+      private int result_ ;
       /**
-       * <code>required string result = 1 [default = "0"];</code>
+       * <code>required int32 result = 1 [default = 0];</code>
        */
       public boolean hasResult() {
         return ((bitField0_ & 0x00000001) == 0x00000001);
       }
       /**
-       * <code>required string result = 1 [default = "0"];</code>
+       * <code>required int32 result = 1 [default = 0];</code>
        */
-      public java.lang.String getResult() {
-        java.lang.Object ref = result_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            result_ = s;
-          }
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
+      public int getResult() {
+        return result_;
       }
       /**
-       * <code>required string result = 1 [default = "0"];</code>
+       * <code>required int32 result = 1 [default = 0];</code>
        */
-      public com.google.protobuf.ByteString
-          getResultBytes() {
-        java.lang.Object ref = result_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          result_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>required string result = 1 [default = "0"];</code>
-       */
-      public Builder setResult(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000001;
+      public Builder setResult(int value) {
+        bitField0_ |= 0x00000001;
         result_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>required string result = 1 [default = "0"];</code>
+       * <code>required int32 result = 1 [default = 0];</code>
        */
       public Builder clearResult() {
         bitField0_ = (bitField0_ & ~0x00000001);
-        result_ = getDefaultInstance().getResult();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>required string result = 1 [default = "0"];</code>
-       */
-      public Builder setResultBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000001;
-        result_ = value;
+        result_ = 0;
         onChanged();
         return this;
       }
@@ -1205,306 +986,130 @@ public final class Dzhtoken {
         return this;
       }
 
-      private java.lang.Object version_ = "";
+      private long version_ ;
       /**
-       * <code>optional string version = 3;</code>
+       * <code>optional int64 version = 3;</code>
        */
       public boolean hasVersion() {
         return ((bitField0_ & 0x00000004) == 0x00000004);
       }
       /**
-       * <code>optional string version = 3;</code>
+       * <code>optional int64 version = 3;</code>
        */
-      public java.lang.String getVersion() {
-        java.lang.Object ref = version_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            version_ = s;
-          }
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
+      public long getVersion() {
+        return version_;
       }
       /**
-       * <code>optional string version = 3;</code>
+       * <code>optional int64 version = 3;</code>
        */
-      public com.google.protobuf.ByteString
-          getVersionBytes() {
-        java.lang.Object ref = version_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          version_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>optional string version = 3;</code>
-       */
-      public Builder setVersion(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000004;
+      public Builder setVersion(long value) {
+        bitField0_ |= 0x00000004;
         version_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>optional string version = 3;</code>
+       * <code>optional int64 version = 3;</code>
        */
       public Builder clearVersion() {
         bitField0_ = (bitField0_ & ~0x00000004);
-        version_ = getDefaultInstance().getVersion();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string version = 3;</code>
-       */
-      public Builder setVersionBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000004;
-        version_ = value;
+        version_ = 0L;
         onChanged();
         return this;
       }
 
-      private java.lang.Object createTime_ = "";
+      private long createTime_ ;
       /**
-       * <code>optional string create_time = 4;</code>
+       * <code>optional int64 create_time = 4;</code>
        */
       public boolean hasCreateTime() {
         return ((bitField0_ & 0x00000008) == 0x00000008);
       }
       /**
-       * <code>optional string create_time = 4;</code>
+       * <code>optional int64 create_time = 4;</code>
        */
-      public java.lang.String getCreateTime() {
-        java.lang.Object ref = createTime_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            createTime_ = s;
-          }
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
+      public long getCreateTime() {
+        return createTime_;
       }
       /**
-       * <code>optional string create_time = 4;</code>
+       * <code>optional int64 create_time = 4;</code>
        */
-      public com.google.protobuf.ByteString
-          getCreateTimeBytes() {
-        java.lang.Object ref = createTime_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          createTime_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>optional string create_time = 4;</code>
-       */
-      public Builder setCreateTime(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000008;
+      public Builder setCreateTime(long value) {
+        bitField0_ |= 0x00000008;
         createTime_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>optional string create_time = 4;</code>
+       * <code>optional int64 create_time = 4;</code>
        */
       public Builder clearCreateTime() {
         bitField0_ = (bitField0_ & ~0x00000008);
-        createTime_ = getDefaultInstance().getCreateTime();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string create_time = 4;</code>
-       */
-      public Builder setCreateTimeBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000008;
-        createTime_ = value;
+        createTime_ = 0L;
         onChanged();
         return this;
       }
 
-      private java.lang.Object refreshTime_ = "";
+      private long refreshTime_ ;
       /**
-       * <code>optional string refresh_time = 5;</code>
+       * <code>optional int64 refresh_time = 5;</code>
        */
       public boolean hasRefreshTime() {
         return ((bitField0_ & 0x00000010) == 0x00000010);
       }
       /**
-       * <code>optional string refresh_time = 5;</code>
+       * <code>optional int64 refresh_time = 5;</code>
        */
-      public java.lang.String getRefreshTime() {
-        java.lang.Object ref = refreshTime_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            refreshTime_ = s;
-          }
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
+      public long getRefreshTime() {
+        return refreshTime_;
       }
       /**
-       * <code>optional string refresh_time = 5;</code>
+       * <code>optional int64 refresh_time = 5;</code>
        */
-      public com.google.protobuf.ByteString
-          getRefreshTimeBytes() {
-        java.lang.Object ref = refreshTime_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          refreshTime_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>optional string refresh_time = 5;</code>
-       */
-      public Builder setRefreshTime(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000010;
+      public Builder setRefreshTime(long value) {
+        bitField0_ |= 0x00000010;
         refreshTime_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>optional string refresh_time = 5;</code>
+       * <code>optional int64 refresh_time = 5;</code>
        */
       public Builder clearRefreshTime() {
         bitField0_ = (bitField0_ & ~0x00000010);
-        refreshTime_ = getDefaultInstance().getRefreshTime();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string refresh_time = 5;</code>
-       */
-      public Builder setRefreshTimeBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000010;
-        refreshTime_ = value;
+        refreshTime_ = 0L;
         onChanged();
         return this;
       }
 
-      private java.lang.Object duration_ = "";
+      private long duration_ ;
       /**
-       * <code>optional string duration = 6;</code>
+       * <code>optional int64 duration = 6;</code>
        */
       public boolean hasDuration() {
         return ((bitField0_ & 0x00000020) == 0x00000020);
       }
       /**
-       * <code>optional string duration = 6;</code>
+       * <code>optional int64 duration = 6;</code>
        */
-      public java.lang.String getDuration() {
-        java.lang.Object ref = duration_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            duration_ = s;
-          }
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
+      public long getDuration() {
+        return duration_;
       }
       /**
-       * <code>optional string duration = 6;</code>
+       * <code>optional int64 duration = 6;</code>
        */
-      public com.google.protobuf.ByteString
-          getDurationBytes() {
-        java.lang.Object ref = duration_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          duration_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>optional string duration = 6;</code>
-       */
-      public Builder setDuration(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000020;
+      public Builder setDuration(long value) {
+        bitField0_ |= 0x00000020;
         duration_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>optional string duration = 6;</code>
+       * <code>optional int64 duration = 6;</code>
        */
       public Builder clearDuration() {
         bitField0_ = (bitField0_ & ~0x00000020);
-        duration_ = getDefaultInstance().getDuration();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string duration = 6;</code>
-       */
-      public Builder setDurationBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000020;
-        duration_ = value;
+        duration_ = 0L;
         onChanged();
         return this;
       }
@@ -1763,9 +1368,9 @@ public final class Dzhtoken {
   static {
     java.lang.String[] descriptorData = {
       "\n\016dzhtoken.proto\022\006dzhyun\"\243\001\n\005Token\022\021\n\006re" +
-      "sult\030\001 \002(\t:\0010\022\r\n\005token\030\002 \001(\t\022\017\n\007version\030" +
-      "\003 \001(\t\022\023\n\013create_time\030\004 \001(\t\022\024\n\014refresh_ti" +
-      "me\030\005 \001(\t\022\020\n\010duration\030\006 \001(\t\022\r\n\005appid\030\007 \001(" +
+      "sult\030\001 \002(\005:\0010\022\r\n\005token\030\002 \001(\t\022\017\n\007version\030" +
+      "\003 \001(\003\022\023\n\013create_time\030\004 \001(\003\022\024\n\014refresh_ti" +
+      "me\030\005 \001(\003\022\020\n\010duration\030\006 \001(\003\022\r\n\005appid\030\007 \001(" +
       "\t\022\016\n\006device\030\010 \001(\t\022\013\n\003uid\030\t \001(\tB\022\n\020com.dz" +
       "hyun.proto"
     };

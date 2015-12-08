@@ -20,6 +20,8 @@
 @class ComDzhyunProtoDzhBlock_BlockObjOutput_Builder;
 @class ComDzhyunProtoDzhBlock_BlockPropOutput;
 @class ComDzhyunProtoDzhBlock_BlockPropOutput_Builder;
+@class ComDzhyunProtoDzhMessageChSubtype_MessageChannelSubtype;
+@class ComDzhyunProtoDzhMessageChSubtype_MessageChannelSubtype_Builder;
 @class ComDzhyunProtoDzhNewsInfo_NewsInfoValue;
 @class ComDzhyunProtoDzhNewsInfo_NewsInfoValue_Builder;
 @class ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput;
@@ -46,6 +48,8 @@
 @class ComDzhyunProtoDzhmsg_MsgGetOutput_Builder;
 @class ComDzhyunProtoDzhmsg_MsgPutOutput;
 @class ComDzhyunProtoDzhmsg_MsgPutOutput_Builder;
+@class ComDzhyunProtoDzhoutput_QuoteBOrderSingle;
+@class ComDzhyunProtoDzhoutput_QuoteBOrderSingle_Builder;
 @class ComDzhyunProtoDzhoutput_QuoteDynaSingle;
 @class ComDzhyunProtoDzhoutput_QuoteDynaSingle_Builder;
 @class ComDzhyunProtoDzhoutput_QuoteKlineSingle;
@@ -72,6 +76,10 @@
 @class ComDzhyunProtoDzhyunAlarm_AlarmEvent_Builder;
 @class ComDzhyunProtoDzhyunAlarm_AlarmTask;
 @class ComDzhyunProtoDzhyunAlarm_AlarmTask_Builder;
+@class ComDzhyunProtoDzhyunBlockstatistics_TongJiApp;
+@class ComDzhyunProtoDzhyunBlockstatistics_TongJiApp_Builder;
+@class ComDzhyunProtoDzhyunDxspirit_DXSpirit;
+@class ComDzhyunProtoDzhyunDxspirit_DXSpirit_Builder;
 @class ComDzhyunProtoDzhyunF10_F10CwtsXjllbzyOutput;
 @class ComDzhyunProtoDzhyunF10_F10CwtsXjllbzyOutput_Builder;
 @class ComDzhyunProtoDzhyunF10_F10CwtsZycwzbOutput;
@@ -100,12 +108,16 @@
 @class ComDzhyunProtoDzhyunPaixu_PaiXu_Builder;
 @class ComDzhyunProtoDzhyunStkdata_StkData;
 @class ComDzhyunProtoDzhyunStkdata_StkData_Builder;
+@class ComDzhyunProtoDzhyunStockpool_StkPoolOuput;
+@class ComDzhyunProtoDzhyunStockpool_StkPoolOuput_Builder;
 @class ComDzhyunProtoDzhyunTopicinvest_TopicInvest;
 @class ComDzhyunProtoDzhyunTopicinvest_TopicInvestHistory;
 @class ComDzhyunProtoDzhyunTopicinvest_TopicInvestHistory_Builder;
 @class ComDzhyunProtoDzhyunTopicinvest_TopicInvestInfo;
 @class ComDzhyunProtoDzhyunTopicinvest_TopicInvestInfo_Builder;
 @class ComDzhyunProtoDzhyunTopicinvest_TopicInvest_Builder;
+@class ComDzhyunProtoDzhyunUserGetprop_UserGetPropResponse;
+@class ComDzhyunProtoDzhyunUserGetprop_UserGetPropResponse_Builder;
 @class ComDzhyunProtoDzhyunUserGroup_UserGroup;
 @class ComDzhyunProtoDzhyunUserGroup_UserGroupResponse;
 @class ComDzhyunProtoDzhyunUserGroup_UserGroupResponse_Builder;
@@ -118,6 +130,8 @@
 @class ComDzhyunProtoDzhyunZhibiaojisuan_ZhiBiaoShuChu_Builder;
 @class ComGoogleProtobufDescriptors_Descriptor;
 @class ComGoogleProtobufExtensionRegistry;
+@class DzhyunCldEventNewsShuJu_EventNews;
+@class DzhyunCldEventNewsShuJu_EventNews_Builder;
 @protocol JavaLangIterable;
 @protocol JavaUtilList;
 
@@ -125,64 +139,73 @@ typedef NS_ENUM(NSUInteger, ComDzhyunProtoAutoMsg_EnumID) {
   ComDzhyunProtoAutoMsg_EnumID_IDId = 0,
   ComDzhyunProtoAutoMsg_EnumID_IDObj = 1,
   ComDzhyunProtoAutoMsg_EnumID_IDTbl = 2,
-  ComDzhyunProtoAutoMsg_EnumID_IDQuoteDynaSingle = 3,
-  ComDzhyunProtoAutoMsg_EnumID_IDQuoteKlineSingle = 4,
-  ComDzhyunProtoAutoMsg_EnumID_IDQuoteTickSingle = 5,
-  ComDzhyunProtoAutoMsg_EnumID_IDQuoteMinSingle = 6,
-  ComDzhyunProtoAutoMsg_EnumID_IDNewsInfoValue = 7,
-  ComDzhyunProtoAutoMsg_EnumID_IDZhiBiaoShuChu = 8,
-  ComDzhyunProtoAutoMsg_EnumID_IDZhiBiao = 9,
-  ComDzhyunProtoAutoMsg_EnumID_IDStkData = 10,
-  ComDzhyunProtoAutoMsg_EnumID_IDPaiXu = 11,
-  ComDzhyunProtoAutoMsg_EnumID_IDJianPanBaoShuChu = 12,
-  ComDzhyunProtoAutoMsg_EnumID_IDFenJiJiJin = 13,
-  ComDzhyunProtoAutoMsg_EnumID_IDMsgGetOutput = 14,
-  ComDzhyunProtoAutoMsg_EnumID_IDMsgPutOutput = 15,
-  ComDzhyunProtoAutoMsg_EnumID_IDBlockObjOutput = 16,
-  ComDzhyunProtoAutoMsg_EnumID_IDBlockPropOutput = 17,
-  ComDzhyunProtoAutoMsg_EnumID_IDSelfStockGetOutput = 18,
-  ComDzhyunProtoAutoMsg_EnumID_IDSelfStockPutOutput = 19,
-  ComDzhyunProtoAutoMsg_EnumID_IDAppKey = 20,
-  ComDzhyunProtoAutoMsg_EnumID_IDAppInfo = 21,
-  ComDzhyunProtoAutoMsg_EnumID_IDAppValue = 22,
-  ComDzhyunProtoAutoMsg_EnumID_IDServiceAuth = 23,
-  ComDzhyunProtoAutoMsg_EnumID_IDAppServiceAuth = 24,
-  ComDzhyunProtoAutoMsg_EnumID_IDTokenAuth = 25,
-  ComDzhyunProtoAutoMsg_EnumID_IDAccOpResponse = 26,
-  ComDzhyunProtoAutoMsg_EnumID_IDToken = 27,
-  ComDzhyunProtoAutoMsg_EnumID_IDPrivilege = 28,
-  ComDzhyunProtoAutoMsg_EnumID_IDAlarmEvent = 29,
-  ComDzhyunProtoAutoMsg_EnumID_IDAlarmTask = 30,
-  ComDzhyunProtoAutoMsg_EnumID_IDADPutResponse = 31,
-  ComDzhyunProtoAutoMsg_EnumID_IDADGetResponse = 32,
-  ComDzhyunProtoAutoMsg_EnumID_IDUserGroup = 33,
-  ComDzhyunProtoAutoMsg_EnumID_IDUserGroupResponse = 34,
-  ComDzhyunProtoAutoMsg_EnumID_IDUserPropsMessage = 35,
-  ComDzhyunProtoAutoMsg_EnumID_IDTopicInvest = 36,
-  ComDzhyunProtoAutoMsg_EnumID_IDTopicInvestHistory = 37,
-  ComDzhyunProtoAutoMsg_EnumID_IDF10GsgkOutput = 38,
-  ComDzhyunProtoAutoMsg_EnumID_IDF10CwtsZycwzbOutput = 39,
-  ComDzhyunProtoAutoMsg_EnumID_IDF10CwtsXjllbzyOutput = 40,
-  ComDzhyunProtoAutoMsg_EnumID_IDF10ZxjbDjdcwzbOutput = 41,
-  ComDzhyunProtoAutoMsg_EnumID_IDF10ZxjbdjdlebOutput = 42,
-  ComDzhyunProtoAutoMsg_EnumID_IDF10GdjcGdhsOutput = 43,
-  ComDzhyunProtoAutoMsg_EnumID_IDF10GdjcSdgdOutput = 44,
-  ComDzhyunProtoAutoMsg_EnumID_IDF10GdjcSdltgdOutput = 45,
-  ComDzhyunProtoAutoMsg_EnumID_IDF10GbfhFhkgOutput = 46,
-  ComDzhyunProtoAutoMsg_EnumID_IDF10GbfhGbjgOutput = 47,
-  ComDzhyunProtoAutoMsg_EnumID_IDXinWenXinXiOutput = 48,
-  ComDzhyunProtoAutoMsg_EnumID_IDXinWenXinXiZhongXinOutput = 49,
-  ComDzhyunProtoAutoMsg_EnumID_IDTopicInvestInfo = 50,
-  ComDzhyunProtoAutoMsg_EnumID_IDYiZhiXinYeJiYuCeOutPut = 51,
-  ComDzhyunProtoAutoMsg_EnumID_IDYiZhiXinTouZiPinJiOutPut = 52,
-  ComDzhyunProtoAutoMsg_EnumID_IDGeGuYeJiYuCeOutPut = 53,
-  ComDzhyunProtoAutoMsg_EnumID_IDGeGuTouZiYanBaoOutPut = 54,
-  ComDzhyunProtoAutoMsg_EnumID_IDDSToken = 55,
+  ComDzhyunProtoAutoMsg_EnumID_IDJsonTbl = 3,
+  ComDzhyunProtoAutoMsg_EnumID_IDQuoteDynaSingle = 4,
+  ComDzhyunProtoAutoMsg_EnumID_IDQuoteKlineSingle = 5,
+  ComDzhyunProtoAutoMsg_EnumID_IDQuoteTickSingle = 6,
+  ComDzhyunProtoAutoMsg_EnumID_IDQuoteMinSingle = 7,
+  ComDzhyunProtoAutoMsg_EnumID_IDNewsInfoValue = 8,
+  ComDzhyunProtoAutoMsg_EnumID_IDZhiBiaoShuChu = 9,
+  ComDzhyunProtoAutoMsg_EnumID_IDZhiBiao = 10,
+  ComDzhyunProtoAutoMsg_EnumID_IDStkData = 11,
+  ComDzhyunProtoAutoMsg_EnumID_IDPaiXu = 12,
+  ComDzhyunProtoAutoMsg_EnumID_IDJianPanBaoShuChu = 13,
+  ComDzhyunProtoAutoMsg_EnumID_IDFenJiJiJin = 14,
+  ComDzhyunProtoAutoMsg_EnumID_IDMsgGetOutput = 15,
+  ComDzhyunProtoAutoMsg_EnumID_IDMsgPutOutput = 16,
+  ComDzhyunProtoAutoMsg_EnumID_IDBlockObjOutput = 17,
+  ComDzhyunProtoAutoMsg_EnumID_IDBlockPropOutput = 18,
+  ComDzhyunProtoAutoMsg_EnumID_IDSelfStockGetOutput = 19,
+  ComDzhyunProtoAutoMsg_EnumID_IDSelfStockPutOutput = 20,
+  ComDzhyunProtoAutoMsg_EnumID_IDAppKey = 21,
+  ComDzhyunProtoAutoMsg_EnumID_IDAppInfo = 22,
+  ComDzhyunProtoAutoMsg_EnumID_IDAppValue = 23,
+  ComDzhyunProtoAutoMsg_EnumID_IDServiceAuth = 24,
+  ComDzhyunProtoAutoMsg_EnumID_IDAppServiceAuth = 25,
+  ComDzhyunProtoAutoMsg_EnumID_IDTokenAuth = 26,
+  ComDzhyunProtoAutoMsg_EnumID_IDAccOpResponse = 27,
+  ComDzhyunProtoAutoMsg_EnumID_IDToken = 28,
+  ComDzhyunProtoAutoMsg_EnumID_IDPrivilege = 29,
+  ComDzhyunProtoAutoMsg_EnumID_IDAlarmEvent = 30,
+  ComDzhyunProtoAutoMsg_EnumID_IDAlarmTask = 31,
+  ComDzhyunProtoAutoMsg_EnumID_IDADPutResponse = 32,
+  ComDzhyunProtoAutoMsg_EnumID_IDADGetResponse = 33,
+  ComDzhyunProtoAutoMsg_EnumID_IDUserGroup = 34,
+  ComDzhyunProtoAutoMsg_EnumID_IDUserGroupResponse = 35,
+  ComDzhyunProtoAutoMsg_EnumID_IDUserPropsMessage = 36,
+  ComDzhyunProtoAutoMsg_EnumID_IDTopicInvest = 37,
+  ComDzhyunProtoAutoMsg_EnumID_IDTopicInvestHistory = 38,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10GsgkOutput = 39,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10CwtsZycwzbOutput = 40,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10CwtsXjllbzyOutput = 41,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10ZxjbDjdcwzbOutput = 42,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10ZxjbdjdlebOutput = 43,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10GdjcGdhsOutput = 44,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10GdjcSdgdOutput = 45,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10GdjcSdltgdOutput = 46,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10GbfhFhkgOutput = 47,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10GbfhGbjgOutput = 48,
+  ComDzhyunProtoAutoMsg_EnumID_IDXinWenXinXiOutput = 49,
+  ComDzhyunProtoAutoMsg_EnumID_IDXinWenXinXiZhongXinOutput = 50,
+  ComDzhyunProtoAutoMsg_EnumID_IDTopicInvestInfo = 51,
+  ComDzhyunProtoAutoMsg_EnumID_IDYiZhiXinYeJiYuCeOutPut = 52,
+  ComDzhyunProtoAutoMsg_EnumID_IDYiZhiXinTouZiPinJiOutPut = 53,
+  ComDzhyunProtoAutoMsg_EnumID_IDGeGuYeJiYuCeOutPut = 54,
+  ComDzhyunProtoAutoMsg_EnumID_IDGeGuTouZiYanBaoOutPut = 55,
+  ComDzhyunProtoAutoMsg_EnumID_IDDSToken = 56,
+  ComDzhyunProtoAutoMsg_EnumID_IDTongJiApp = 57,
+  ComDzhyunProtoAutoMsg_EnumID_IDMessageChannelSubtype = 58,
+  ComDzhyunProtoAutoMsg_EnumID_IDUserGetPropResponse = 59,
+  ComDzhyunProtoAutoMsg_EnumID_IDQuoteBOrderSingle = 60,
+  ComDzhyunProtoAutoMsg_EnumID_IDDXSpirit = 61,
+  ComDzhyunProtoAutoMsg_EnumID_IDStkPoolOuput = 62,
+  ComDzhyunProtoAutoMsg_EnumID_IDEventNews = 63,
 };
 
 #define ComDzhyunProtoAutoMsg_EnumIDEnum_IDId_VALUE 1
 #define ComDzhyunProtoAutoMsg_EnumIDEnum_IDObj_VALUE 2
 #define ComDzhyunProtoAutoMsg_EnumIDEnum_IDTbl_VALUE 3
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDJsonTbl_VALUE 4
 #define ComDzhyunProtoAutoMsg_EnumIDEnum_IDQuoteDynaSingle_VALUE 20
 #define ComDzhyunProtoAutoMsg_EnumIDEnum_IDQuoteKlineSingle_VALUE 21
 #define ComDzhyunProtoAutoMsg_EnumIDEnum_IDQuoteTickSingle_VALUE 22
@@ -236,6 +259,13 @@ typedef NS_ENUM(NSUInteger, ComDzhyunProtoAutoMsg_EnumID) {
 #define ComDzhyunProtoAutoMsg_EnumIDEnum_IDGeGuYeJiYuCeOutPut_VALUE 70
 #define ComDzhyunProtoAutoMsg_EnumIDEnum_IDGeGuTouZiYanBaoOutPut_VALUE 71
 #define ComDzhyunProtoAutoMsg_EnumIDEnum_IDDSToken_VALUE 72
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDTongJiApp_VALUE 73
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDMessageChannelSubtype_VALUE 74
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDUserGetPropResponse_VALUE 75
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDQuoteBOrderSingle_VALUE 76
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDDXSpirit_VALUE 77
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDStkPoolOuput_VALUE 78
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDEventNews_VALUE 79
 
 @interface ComDzhyunProtoAutoMsg_EnumIDEnum : JavaLangEnum<ComGoogleProtobufProtocolMessageEnum> {
  @private
@@ -265,6 +295,8 @@ J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDId)
 J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDObj)
 #define ComDzhyunProtoAutoMsg_EnumIDEnum_IDTbl ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDTbl]
 J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDTbl)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDJsonTbl ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDJsonTbl]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDJsonTbl)
 #define ComDzhyunProtoAutoMsg_EnumIDEnum_IDQuoteDynaSingle ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDQuoteDynaSingle]
 J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDQuoteDynaSingle)
 #define ComDzhyunProtoAutoMsg_EnumIDEnum_IDQuoteKlineSingle ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDQuoteKlineSingle]
@@ -371,6 +403,20 @@ J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDGeGuYeJiYuCeOutP
 J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDGeGuTouZiYanBaoOutPut)
 #define ComDzhyunProtoAutoMsg_EnumIDEnum_IDDSToken ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDDSToken]
 J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDDSToken)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDTongJiApp ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDTongJiApp]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDTongJiApp)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDMessageChannelSubtype ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDMessageChannelSubtype]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDMessageChannelSubtype)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDUserGetPropResponse ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDUserGetPropResponse]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDUserGetPropResponse)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDQuoteBOrderSingle ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDQuoteBOrderSingle]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDQuoteBOrderSingle)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDDXSpirit ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDDXSpirit]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDDXSpirit)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDStkPoolOuput ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDStkPoolOuput]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDStkPoolOuput)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDEventNews ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDEventNews]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDEventNews)
 
 @interface ComDzhyunProtoAutoMsg : NSObject
 
@@ -394,6 +440,9 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoAutoMsg)
 
 - (BOOL)hasTbl;
 - (ComDzhyunProtoDzhpbtable_Table *)getTbl;
+
+- (BOOL)hasJsonTbl;
+- (NSString *)getJsonTbl;
 
 - (int)getRepDataQuoteDynaSingleCount;
 - (id<JavaUtilList>)getRepDataQuoteDynaSingleList;
@@ -607,6 +656,34 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoAutoMsg)
 - (id<JavaUtilList>)getRepDataDSTokenList;
 - (ComDzhyunProtoDzhdstoken_DSToken *)getRepDataDSTokenWithInt:(int)index;
 
+- (int)getRepDataTongJiAppCount;
+- (id<JavaUtilList>)getRepDataTongJiAppList;
+- (ComDzhyunProtoDzhyunBlockstatistics_TongJiApp *)getRepDataTongJiAppWithInt:(int)index;
+
+- (int)getRepDataMessageChannelSubtypeCount;
+- (id<JavaUtilList>)getRepDataMessageChannelSubtypeList;
+- (ComDzhyunProtoDzhMessageChSubtype_MessageChannelSubtype *)getRepDataMessageChannelSubtypeWithInt:(int)index;
+
+- (int)getRepDataUserGetPropResponseCount;
+- (id<JavaUtilList>)getRepDataUserGetPropResponseList;
+- (ComDzhyunProtoDzhyunUserGetprop_UserGetPropResponse *)getRepDataUserGetPropResponseWithInt:(int)index;
+
+- (int)getRepDataQuoteBOrderSingleCount;
+- (id<JavaUtilList>)getRepDataQuoteBOrderSingleList;
+- (ComDzhyunProtoDzhoutput_QuoteBOrderSingle *)getRepDataQuoteBOrderSingleWithInt:(int)index;
+
+- (int)getRepDataDXSpiritCount;
+- (id<JavaUtilList>)getRepDataDXSpiritList;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpirit *)getRepDataDXSpiritWithInt:(int)index;
+
+- (int)getRepDataStkPoolOuputCount;
+- (id<JavaUtilList>)getRepDataStkPoolOuputList;
+- (ComDzhyunProtoDzhyunStockpool_StkPoolOuput *)getRepDataStkPoolOuputWithInt:(int)index;
+
+- (int)getRepDataEventNewsCount;
+- (id<JavaUtilList>)getRepDataEventNewsList;
+- (DzhyunCldEventNewsShuJu_EventNews *)getRepDataEventNewsWithInt:(int)index;
+
 @end
 
 J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoAutoMsg_MSGOrBuilder)
@@ -634,6 +711,7 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoAutoMsg_MSGOrBuilder)
 #define ComDzhyunProtoAutoMsg_MSG_ID_FIELD_NUMBER 1
 #define ComDzhyunProtoAutoMsg_MSG_OBJ_FIELD_NUMBER 2
 #define ComDzhyunProtoAutoMsg_MSG_TBL_FIELD_NUMBER 3
+#define ComDzhyunProtoAutoMsg_MSG_JSONTBL_FIELD_NUMBER 4
 #define ComDzhyunProtoAutoMsg_MSG_REPDATAQUOTEDYNASINGLE_FIELD_NUMBER 20
 #define ComDzhyunProtoAutoMsg_MSG_REPDATAQUOTEKLINESINGLE_FIELD_NUMBER 21
 #define ComDzhyunProtoAutoMsg_MSG_REPDATAQUOTETICKSINGLE_FIELD_NUMBER 22
@@ -687,6 +765,13 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoAutoMsg_MSGOrBuilder)
 #define ComDzhyunProtoAutoMsg_MSG_REPDATAGEGUYEJIYUCEOUTPUT_FIELD_NUMBER 70
 #define ComDzhyunProtoAutoMsg_MSG_REPDATAGEGUTOUZIYANBAOOUTPUT_FIELD_NUMBER 71
 #define ComDzhyunProtoAutoMsg_MSG_REPDATADSTOKEN_FIELD_NUMBER 72
+#define ComDzhyunProtoAutoMsg_MSG_REPDATATONGJIAPP_FIELD_NUMBER 73
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAMESSAGECHANNELSUBTYPE_FIELD_NUMBER 74
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAUSERGETPROPRESPONSE_FIELD_NUMBER 75
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAQUOTEBORDERSINGLE_FIELD_NUMBER 76
+#define ComDzhyunProtoAutoMsg_MSG_REPDATADXSPIRIT_FIELD_NUMBER 77
+#define ComDzhyunProtoAutoMsg_MSG_REPDATASTKPOOLOUPUT_FIELD_NUMBER 78
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAEVENTNEWS_FIELD_NUMBER 79
 
 @end
 
@@ -736,6 +821,10 @@ FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoAutoMsg
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)
     setTblWithComDzhyunProtoDzhpbtable_Table_Builder:
     (ComDzhyunProtoDzhpbtable_Table_Builder *)value;
+
+- (ComDzhyunProtoAutoMsg_MSG_Builder *)setJsonTblWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder *)clearJsonTbl;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataQuoteDynaSingleWithInt:(int)index
     withComDzhyunProtoDzhoutput_QuoteDynaSingle:(ComDzhyunProtoDzhoutput_QuoteDynaSingle *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataQuoteDynaSingleWithComDzhyunProtoDzhoutput_QuoteDynaSingle:
@@ -1266,6 +1355,76 @@ FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoAutoMsg
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)
     addRepDataDSTokenWithComDzhyunProtoDzhdstoken_DSToken_Builder:
     (ComDzhyunProtoDzhdstoken_DSToken_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataTongJiAppWithInt:(int)index
+    withComDzhyunProtoDzhyunBlockstatistics_TongJiApp:(ComDzhyunProtoDzhyunBlockstatistics_TongJiApp *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataTongJiAppWithComDzhyunProtoDzhyunBlockstatistics_TongJiApp:
+    (ComDzhyunProtoDzhyunBlockstatistics_TongJiApp *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataTongJiAppWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataTongJiApp;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataTongJiAppWithComDzhyunProtoDzhyunBlockstatistics_TongJiApp_Builder:
+    (ComDzhyunProtoDzhyunBlockstatistics_TongJiApp_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataMessageChannelSubtypeWithInt:(int)index
+    withComDzhyunProtoDzhMessageChSubtype_MessageChannelSubtype:(ComDzhyunProtoDzhMessageChSubtype_MessageChannelSubtype *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataMessageChannelSubtypeWithComDzhyunProtoDzhMessageChSubtype_MessageChannelSubtype:
+    (ComDzhyunProtoDzhMessageChSubtype_MessageChannelSubtype *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataMessageChannelSubtypeWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataMessageChannelSubtype;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataMessageChannelSubtypeWithComDzhyunProtoDzhMessageChSubtype_MessageChannelSubtype_Builder:
+    (ComDzhyunProtoDzhMessageChSubtype_MessageChannelSubtype_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataUserGetPropResponseWithInt:(int)index
+    withComDzhyunProtoDzhyunUserGetprop_UserGetPropResponse:(ComDzhyunProtoDzhyunUserGetprop_UserGetPropResponse *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataUserGetPropResponseWithComDzhyunProtoDzhyunUserGetprop_UserGetPropResponse:
+    (ComDzhyunProtoDzhyunUserGetprop_UserGetPropResponse *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataUserGetPropResponseWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataUserGetPropResponse;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataUserGetPropResponseWithComDzhyunProtoDzhyunUserGetprop_UserGetPropResponse_Builder:
+    (ComDzhyunProtoDzhyunUserGetprop_UserGetPropResponse_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataQuoteBOrderSingleWithInt:(int)index
+    withComDzhyunProtoDzhoutput_QuoteBOrderSingle:(ComDzhyunProtoDzhoutput_QuoteBOrderSingle *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataQuoteBOrderSingleWithComDzhyunProtoDzhoutput_QuoteBOrderSingle:
+    (ComDzhyunProtoDzhoutput_QuoteBOrderSingle *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataQuoteBOrderSingleWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataQuoteBOrderSingle;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataQuoteBOrderSingleWithComDzhyunProtoDzhoutput_QuoteBOrderSingle_Builder:
+    (ComDzhyunProtoDzhoutput_QuoteBOrderSingle_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataDXSpiritWithInt:(int)index
+    withComDzhyunProtoDzhyunDxspirit_DXSpirit:(ComDzhyunProtoDzhyunDxspirit_DXSpirit *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataDXSpiritWithComDzhyunProtoDzhyunDxspirit_DXSpirit:
+    (ComDzhyunProtoDzhyunDxspirit_DXSpirit *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataDXSpiritWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataDXSpirit;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataDXSpiritWithComDzhyunProtoDzhyunDxspirit_DXSpirit_Builder:
+    (ComDzhyunProtoDzhyunDxspirit_DXSpirit_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataStkPoolOuputWithInt:(int)index
+    withComDzhyunProtoDzhyunStockpool_StkPoolOuput:(ComDzhyunProtoDzhyunStockpool_StkPoolOuput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataStkPoolOuputWithComDzhyunProtoDzhyunStockpool_StkPoolOuput:
+    (ComDzhyunProtoDzhyunStockpool_StkPoolOuput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataStkPoolOuputWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataStkPoolOuput;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataStkPoolOuputWithComDzhyunProtoDzhyunStockpool_StkPoolOuput_Builder:
+    (ComDzhyunProtoDzhyunStockpool_StkPoolOuput_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataEventNewsWithInt:(int)index
+    withDzhyunCldEventNewsShuJu_EventNews:(DzhyunCldEventNewsShuJu_EventNews *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataEventNewsWithDzhyunCldEventNewsShuJu_EventNews:
+    (DzhyunCldEventNewsShuJu_EventNews *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataEventNewsWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataEventNews;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataEventNewsWithDzhyunCldEventNewsShuJu_EventNews_Builder:
+    (DzhyunCldEventNewsShuJu_EventNews_Builder *)value;
 
 @end
 

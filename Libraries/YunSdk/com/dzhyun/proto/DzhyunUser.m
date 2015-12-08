@@ -9,7 +9,6 @@
 #import "com/google/protobuf/RepeatedField.h"
 #import "java/lang/IllegalArgumentException.h"
 
-
 #pragma GCC diagnostic ignored "-Wprotocol"
 #pragma clang diagnostic ignored "-Wprotocol"
 #pragma GCC diagnostic ignored "-Wincomplete-implementation"

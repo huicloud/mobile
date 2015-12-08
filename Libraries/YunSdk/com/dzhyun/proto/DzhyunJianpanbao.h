@@ -22,11 +22,13 @@ typedef NS_ENUM(NSUInteger, ComDzhyunProtoDzhyunJianpanbao_JPBLeiXing) {
   ComDzhyunProtoDzhyunJianpanbao_JPBLeiXing_TYPE_OBJ = 0,
   ComDzhyunProtoDzhyunJianpanbao_JPBLeiXing_TYPE_INDI = 1,
   ComDzhyunProtoDzhyunJianpanbao_JPBLeiXing_TYPE_TOPIC = 2,
+  ComDzhyunProtoDzhyunJianpanbao_JPBLeiXing_TYPE_LHB = 3,
 };
 
 #define ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_TYPE_OBJ_VALUE 0
 #define ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_TYPE_INDI_VALUE 1
 #define ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_TYPE_TOPIC_VALUE 2
+#define ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_TYPE_LHB_VALUE 3
 
 @interface ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum : JavaLangEnum<ComGoogleProtobufProtocolMessageEnum> {
  @private
@@ -56,6 +58,8 @@ J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum, TYPE_
 J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum, TYPE_INDI)
 #define ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_TYPE_TOPIC ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_values_[ComDzhyunProtoDzhyunJianpanbao_JPBLeiXing_TYPE_TOPIC]
 J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum, TYPE_TOPIC)
+#define ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_TYPE_LHB ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_values_[ComDzhyunProtoDzhyunJianpanbao_JPBLeiXing_TYPE_LHB]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum, TYPE_LHB)
 
 @interface ComDzhyunProtoDzhyunJianpanbao : NSObject
 

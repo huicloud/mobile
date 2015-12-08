@@ -1,25 +1,22 @@
 package com.dzhyun.webview;
 
 
-import javax.annotation.Nullable;
-
 import android.os.Build;
+import android.webkit.CookieManager;
 import android.webkit.CookieSyncManager;
 import android.webkit.WebChromeClient;
-import android.webkit.CookieManager;
-import android.webkit.WebView;
 
 import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.common.MapBuilder;
-import com.facebook.react.uimanager.SimpleViewManager;
-import com.facebook.react.uimanager.ViewGroupManager;
-import com.facebook.react.uimanager.ThemedReactContext;
-import com.facebook.react.uimanager.ReactProp;
-
 import com.facebook.react.common.annotations.VisibleForTesting;
+import com.facebook.react.uimanager.ReactProp;
+import com.facebook.react.uimanager.ThemedReactContext;
+import com.facebook.react.uimanager.ViewGroupManager;
 
 import java.util.HashMap;
 import java.util.Map;
+
+import javax.annotation.Nullable;
 
 public class DzhWebViewManager extends ViewGroupManager<DzhWebView> {
 

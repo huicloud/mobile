@@ -47,29 +47,35 @@ export class DZHMinChart extends DZHYunComponent {
     this.defaultParams = {
       sub: 1
     };
+  }
 
-    this.state = {
-      loading: true
-    }
+  _requestLastClose(props) {
+    return new Promise((resolve, reject) => connection.request('/stkdata', {obj: props.params.obj, field: ['ZuoShou', 'ZhongWenJianCheng']}, (data) => {
+      data = data[0];
+      if (data) {
+        this.setState({stkInfo: {Obj: props.params.obj, MingCheng: data.ZhongWenJianCheng, ZuoShou: data.ZuoShou || 0}});
+        resolve();
+      }
+    }));
   }
 
   _query(props) {
 
     // 先查询昨收和其它股票信息，查询完成后再订阅分时数据
     if (props.params) {
-      connection.request('/stkdata', {obj: props.params.obj, field: ['ZuoShou', 'ZhongWenJianCheng']}, (data) => {
-        data = data[0];
-        if (data) {
-          this.setState({stkInfo: {Obj: props.params.obj, MingCheng: data.ZhongWenJianCheng, ZuoShou: data.ZuoShou}});
-          super._query(props);
-        }
-      });
+      this._requestLastClose(props).then(() => super._query(props));
     }
   }
 
   adapt(data) {
 
     if (data.length > 0) {
+
+      // 当请求到分时数据时,判断当昨收为0时,重新请求昨收
+      if (this.state.stkInfo.ZuoShou === 0) {
+        this._requestLastClose(this.props);
+      }
+
       data = data[0].Data || [];
 
       // 将查询出的分时数据转换成chart需要的完整数据
@@ -115,14 +121,16 @@ export class DZHMinChart extends DZHYunComponent {
           this._minData[index] = eachData;
         }
       });
-      this.setState({loading: false});
       return Object.assign([], this._minData);
     }
-    this.setState({loading: false});
+    return false;
   }
 
+  shouldComponentUpdate(nextProps, nextState) {
+    return true;
+  }
   render() {
-    if (this.state.loading === true) {
+    if (!this.state.data) {
       return <Loading></Loading>;
     } else {
       return <MinChart style={this.props.style} chartData={this.state.data} stkInfo={this.state.stkInfo}></MinChart>;

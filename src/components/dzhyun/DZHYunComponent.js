@@ -13,10 +13,10 @@ export default class DZHYunComponent extends Component {
     propName: 'data'
   };
 
+  defaultParams = {};
+
   constructor(props) {
     super(props);
-
-    this.defaultParams = {};
 
     this.state = {}
   }
@@ -37,11 +37,17 @@ export default class DZHYunComponent extends Component {
     return result;
   }
 
+  // 重新请求数据后渲染
+  refresh() {
+    this._lastQueryProps && this._query(this._lastQueryProps);
+  }
+
   cancel() {
     this._request && this._request.cancel();
     this._request = null;
   }
 
+  // 返回false则表示不更新
   adapt(data) {
     let {adapt} = this.props;
     return (typeof adapt === 'function') ? adapt(data) : data;
@@ -54,14 +60,20 @@ export default class DZHYunComponent extends Component {
 
     // 重新请求
     if (props.params) {
+
+      // 记录上一次请求参数
+      this._lastQueryProps = props;
       this._request = connection.request(props.serviceUrl, this._formatQueryParams(Object.assign({}, this.defaultParams, props.params)), (data) => {
         if (!(data instanceof Error)) {
           Promise.resolve(this.adapt(data)).then((data) => {
-            this.setState({data});
+            if (data !== false) {
 
-            // 触发事件
-            let onData = this.props.onData;
-            (typeof onData === 'function') && onData(data);
+              this.setState({data});
+
+              // 触发事件
+              let onData = this.props.onData;
+              (typeof onData === 'function') && onData(data);
+            }
           });
         }
       });

@@ -35,12 +35,12 @@ ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhtoken_Token_descriptor
 
 typedef struct ComDzhyunProtoDzhtoken_Token_Storage {
   uint32_t hasBits[1];
-  NSString *result_;
+  int result_;
   NSString *token_;
-  NSString *version_;
-  NSString *createTime_;
-  NSString *refreshTime_;
-  NSString *duration_;
+  long long int version_;
+  long long int createTime_;
+  long long int refreshTime_;
+  long long int duration_;
   NSString *appid_;
   NSString *device_;
   NSString *uid_;
@@ -58,8 +58,8 @@ typedef struct ComDzhyunProtoDzhtoken_Token_Storage {
         .javaName = "Result",
         .number = 1,
         .flags = CGPFieldFlagRequired,
-        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
-        .defaultValue.valueId = @"0",
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT32,
+        .defaultValue.valueInt = 0,
         .hasBitIndex = 0,
         .offset = offsetof(ComDzhyunProtoDzhtoken_Token_Storage, result_),
         .className = NULL,
@@ -84,8 +84,8 @@ typedef struct ComDzhyunProtoDzhtoken_Token_Storage {
         .javaName = "Version",
         .number = 3,
         .flags = 0,
-        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
-        .defaultValue.valueId = @"",
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
         .hasBitIndex = 2,
         .offset = offsetof(ComDzhyunProtoDzhtoken_Token_Storage, version_),
         .className = NULL,
@@ -97,8 +97,8 @@ typedef struct ComDzhyunProtoDzhtoken_Token_Storage {
         .javaName = "CreateTime",
         .number = 4,
         .flags = 0,
-        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
-        .defaultValue.valueId = @"",
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
         .hasBitIndex = 3,
         .offset = offsetof(ComDzhyunProtoDzhtoken_Token_Storage, createTime_),
         .className = NULL,
@@ -110,8 +110,8 @@ typedef struct ComDzhyunProtoDzhtoken_Token_Storage {
         .javaName = "RefreshTime",
         .number = 5,
         .flags = 0,
-        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
-        .defaultValue.valueId = @"",
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
         .hasBitIndex = 4,
         .offset = offsetof(ComDzhyunProtoDzhtoken_Token_Storage, refreshTime_),
         .className = NULL,
@@ -123,8 +123,8 @@ typedef struct ComDzhyunProtoDzhtoken_Token_Storage {
         .javaName = "Duration",
         .number = 6,
         .flags = 0,
-        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
-        .defaultValue.valueId = @"",
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
         .hasBitIndex = 5,
         .offset = offsetof(ComDzhyunProtoDzhtoken_Token_Storage, duration_),
         .className = NULL,

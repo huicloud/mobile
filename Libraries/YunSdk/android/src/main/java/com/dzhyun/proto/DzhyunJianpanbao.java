@@ -41,6 +41,14 @@ public final class DzhyunJianpanbao {
      * </pre>
      */
     TYPE_TOPIC(2, 2),
+    /**
+     * <code>TYPE_LHB = 3;</code>
+     *
+     * <pre>
+     *龙虎榜
+     * </pre>
+     */
+    TYPE_LHB(3, 3),
     ;
 
     /**
@@ -67,6 +75,14 @@ public final class DzhyunJianpanbao {
      * </pre>
      */
     public static final int TYPE_TOPIC_VALUE = 2;
+    /**
+     * <code>TYPE_LHB = 3;</code>
+     *
+     * <pre>
+     *龙虎榜
+     * </pre>
+     */
+    public static final int TYPE_LHB_VALUE = 3;
 
 
     public final int getNumber() { return value; }
@@ -76,6 +92,7 @@ public final class DzhyunJianpanbao {
         case 0: return TYPE_OBJ;
         case 1: return TYPE_INDI;
         case 2: return TYPE_TOPIC;
+        case 3: return TYPE_LHB;
         default: return null;
       }
     }
@@ -3266,9 +3283,10 @@ public final class DzhyunJianpanbao {
       "ShuChu\022#\n\007LeiXing\030\001 \002(\0162\022.dzhyun.JPBLeiX" +
       "ing\022\037\n\005ShuJu\030\002 \003(\0132\020.dzhyun.JPBShuJu\"I\n\020" +
       "JianPanBaoShuChu\022\022\n\nGuanJianZi\030\001 \002(\t\022!\n\006" +
-      "JieGuo\030\002 \003(\0132\021.dzhyun.JPBShuChu*9\n\nJPBLe" +
+      "JieGuo\030\002 \003(\0132\021.dzhyun.JPBShuChu*G\n\nJPBLe" +
       "iXing\022\014\n\010TYPE_OBJ\020\000\022\r\n\tTYPE_INDI\020\001\022\016\n\nTY" +
-      "PE_TOPIC\020\002B\022\n\020com.dzhyun.proto"
+      "PE_TOPIC\020\002\022\014\n\010TYPE_LHB\020\003B\022\n\020com.dzhyun.p" +
+      "roto"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -1643,6 +1643,660 @@ public final class DzhyunGupiaoqiepian {
      * </pre>
      */
     long getFenZhongZhangFu5();
+
+    /**
+     * <code>optional int64 WeiTuoMaiRuJia1 = 32;</code>
+     *
+     * <pre>
+     *买卖盘
+     * </pre>
+     */
+    boolean hasWeiTuoMaiRuJia1();
+    /**
+     * <code>optional int64 WeiTuoMaiRuJia1 = 32;</code>
+     *
+     * <pre>
+     *买卖盘
+     * </pre>
+     */
+    long getWeiTuoMaiRuJia1();
+
+    /**
+     * <code>optional int64 WeiTuoMaiRuLiang1 = 33;</code>
+     *
+     * <pre>
+     *委托买入量1，单位股
+     * </pre>
+     */
+    boolean hasWeiTuoMaiRuLiang1();
+    /**
+     * <code>optional int64 WeiTuoMaiRuLiang1 = 33;</code>
+     *
+     * <pre>
+     *委托买入量1，单位股
+     * </pre>
+     */
+    long getWeiTuoMaiRuLiang1();
+
+    /**
+     * <code>optional int64 WeiTuoMaiRuJia2 = 34;</code>
+     *
+     * <pre>
+     *委托买入价2
+     * </pre>
+     */
+    boolean hasWeiTuoMaiRuJia2();
+    /**
+     * <code>optional int64 WeiTuoMaiRuJia2 = 34;</code>
+     *
+     * <pre>
+     *委托买入价2
+     * </pre>
+     */
+    long getWeiTuoMaiRuJia2();
+
+    /**
+     * <code>optional int64 WeiTuoMaiRuLiang2 = 35;</code>
+     *
+     * <pre>
+     *委托买入量2，单位股
+     * </pre>
+     */
+    boolean hasWeiTuoMaiRuLiang2();
+    /**
+     * <code>optional int64 WeiTuoMaiRuLiang2 = 35;</code>
+     *
+     * <pre>
+     *委托买入量2，单位股
+     * </pre>
+     */
+    long getWeiTuoMaiRuLiang2();
+
+    /**
+     * <code>optional int64 WeiTuoMaiRuJia3 = 36;</code>
+     *
+     * <pre>
+     *委托买入价3
+     * </pre>
+     */
+    boolean hasWeiTuoMaiRuJia3();
+    /**
+     * <code>optional int64 WeiTuoMaiRuJia3 = 36;</code>
+     *
+     * <pre>
+     *委托买入价3
+     * </pre>
+     */
+    long getWeiTuoMaiRuJia3();
+
+    /**
+     * <code>optional int64 WeiTuoMaiRuLiang3 = 37;</code>
+     *
+     * <pre>
+     *委托买入量3，单位股
+     * </pre>
+     */
+    boolean hasWeiTuoMaiRuLiang3();
+    /**
+     * <code>optional int64 WeiTuoMaiRuLiang3 = 37;</code>
+     *
+     * <pre>
+     *委托买入量3，单位股
+     * </pre>
+     */
+    long getWeiTuoMaiRuLiang3();
+
+    /**
+     * <code>optional int64 WeiTuoMaiRuJia4 = 38;</code>
+     *
+     * <pre>
+     *委托买入价4
+     * </pre>
+     */
+    boolean hasWeiTuoMaiRuJia4();
+    /**
+     * <code>optional int64 WeiTuoMaiRuJia4 = 38;</code>
+     *
+     * <pre>
+     *委托买入价4
+     * </pre>
+     */
+    long getWeiTuoMaiRuJia4();
+
+    /**
+     * <code>optional int64 WeiTuoMaiRuLiang4 = 39;</code>
+     *
+     * <pre>
+     *委托买入量4，单位股
+     * </pre>
+     */
+    boolean hasWeiTuoMaiRuLiang4();
+    /**
+     * <code>optional int64 WeiTuoMaiRuLiang4 = 39;</code>
+     *
+     * <pre>
+     *委托买入量4，单位股
+     * </pre>
+     */
+    long getWeiTuoMaiRuLiang4();
+
+    /**
+     * <code>optional int64 WeiTuoMaiRuJia5 = 40;</code>
+     *
+     * <pre>
+     *委托买入价5
+     * </pre>
+     */
+    boolean hasWeiTuoMaiRuJia5();
+    /**
+     * <code>optional int64 WeiTuoMaiRuJia5 = 40;</code>
+     *
+     * <pre>
+     *委托买入价5
+     * </pre>
+     */
+    long getWeiTuoMaiRuJia5();
+
+    /**
+     * <code>optional int64 WeiTuoMaiRuLiang5 = 41;</code>
+     *
+     * <pre>
+     *委托买入量5，单位股
+     * </pre>
+     */
+    boolean hasWeiTuoMaiRuLiang5();
+    /**
+     * <code>optional int64 WeiTuoMaiRuLiang5 = 41;</code>
+     *
+     * <pre>
+     *委托买入量5，单位股
+     * </pre>
+     */
+    long getWeiTuoMaiRuLiang5();
+
+    /**
+     * <code>optional int64 WeiTuoMaiChuJia1 = 42;</code>
+     *
+     * <pre>
+     *委托卖出价1
+     * </pre>
+     */
+    boolean hasWeiTuoMaiChuJia1();
+    /**
+     * <code>optional int64 WeiTuoMaiChuJia1 = 42;</code>
+     *
+     * <pre>
+     *委托卖出价1
+     * </pre>
+     */
+    long getWeiTuoMaiChuJia1();
+
+    /**
+     * <code>optional int64 WeiTuoMaiChuLiang1 = 43;</code>
+     *
+     * <pre>
+     *委托卖出量1，单位股
+     * </pre>
+     */
+    boolean hasWeiTuoMaiChuLiang1();
+    /**
+     * <code>optional int64 WeiTuoMaiChuLiang1 = 43;</code>
+     *
+     * <pre>
+     *委托卖出量1，单位股
+     * </pre>
+     */
+    long getWeiTuoMaiChuLiang1();
+
+    /**
+     * <code>optional int64 WeiTuoMaiChuJia2 = 44;</code>
+     *
+     * <pre>
+     *委托卖出价2
+     * </pre>
+     */
+    boolean hasWeiTuoMaiChuJia2();
+    /**
+     * <code>optional int64 WeiTuoMaiChuJia2 = 44;</code>
+     *
+     * <pre>
+     *委托卖出价2
+     * </pre>
+     */
+    long getWeiTuoMaiChuJia2();
+
+    /**
+     * <code>optional int64 WeiTuoMaiChuLiang2 = 45;</code>
+     *
+     * <pre>
+     *委托卖出量2，单位股
+     * </pre>
+     */
+    boolean hasWeiTuoMaiChuLiang2();
+    /**
+     * <code>optional int64 WeiTuoMaiChuLiang2 = 45;</code>
+     *
+     * <pre>
+     *委托卖出量2，单位股
+     * </pre>
+     */
+    long getWeiTuoMaiChuLiang2();
+
+    /**
+     * <code>optional int64 WeiTuoMaiChuJia3 = 46;</code>
+     *
+     * <pre>
+     *委托卖出价3
+     * </pre>
+     */
+    boolean hasWeiTuoMaiChuJia3();
+    /**
+     * <code>optional int64 WeiTuoMaiChuJia3 = 46;</code>
+     *
+     * <pre>
+     *委托卖出价3
+     * </pre>
+     */
+    long getWeiTuoMaiChuJia3();
+
+    /**
+     * <code>optional int64 WeiTuoMaiChuLiang3 = 47;</code>
+     *
+     * <pre>
+     *委托卖出量3，单位股
+     * </pre>
+     */
+    boolean hasWeiTuoMaiChuLiang3();
+    /**
+     * <code>optional int64 WeiTuoMaiChuLiang3 = 47;</code>
+     *
+     * <pre>
+     *委托卖出量3，单位股
+     * </pre>
+     */
+    long getWeiTuoMaiChuLiang3();
+
+    /**
+     * <code>optional int64 WeiTuoMaiChuJia4 = 48;</code>
+     *
+     * <pre>
+     *委托卖出价4
+     * </pre>
+     */
+    boolean hasWeiTuoMaiChuJia4();
+    /**
+     * <code>optional int64 WeiTuoMaiChuJia4 = 48;</code>
+     *
+     * <pre>
+     *委托卖出价4
+     * </pre>
+     */
+    long getWeiTuoMaiChuJia4();
+
+    /**
+     * <code>optional int64 WeiTuoMaiChuLiang4 = 49;</code>
+     *
+     * <pre>
+     *委托卖出量4，单位股
+     * </pre>
+     */
+    boolean hasWeiTuoMaiChuLiang4();
+    /**
+     * <code>optional int64 WeiTuoMaiChuLiang4 = 49;</code>
+     *
+     * <pre>
+     *委托卖出量4，单位股
+     * </pre>
+     */
+    long getWeiTuoMaiChuLiang4();
+
+    /**
+     * <code>optional int64 WeiTuoMaiChuJia5 = 50;</code>
+     *
+     * <pre>
+     *委托卖出价5
+     * </pre>
+     */
+    boolean hasWeiTuoMaiChuJia5();
+    /**
+     * <code>optional int64 WeiTuoMaiChuJia5 = 50;</code>
+     *
+     * <pre>
+     *委托卖出价5
+     * </pre>
+     */
+    long getWeiTuoMaiChuJia5();
+
+    /**
+     * <code>optional int64 WeiTuoMaiChuLiang5 = 51;</code>
+     *
+     * <pre>
+     *委托卖出量5，单位股
+     * </pre>
+     */
+    boolean hasWeiTuoMaiChuLiang5();
+    /**
+     * <code>optional int64 WeiTuoMaiChuLiang5 = 51;</code>
+     *
+     * <pre>
+     *委托卖出量5，单位股
+     * </pre>
+     */
+    long getWeiTuoMaiChuLiang5();
+
+    /**
+     * <code>optional int64 WeiBi = 52;</code>
+     *
+     * <pre>
+     *委比
+     * </pre>
+     */
+    boolean hasWeiBi();
+    /**
+     * <code>optional int64 WeiBi = 52;</code>
+     *
+     * <pre>
+     *委比
+     * </pre>
+     */
+    long getWeiBi();
+
+    /**
+     * <code>optional int64 WeiCha = 53;</code>
+     *
+     * <pre>
+     *委差
+     * </pre>
+     */
+    boolean hasWeiCha();
+    /**
+     * <code>optional int64 WeiCha = 53;</code>
+     *
+     * <pre>
+     *委差
+     * </pre>
+     */
+    long getWeiCha();
+
+    /**
+     * <code>optional int64 JiaQuanPingJunWeiTuoMaiRuJia = 54;</code>
+     *
+     * <pre>
+     *扩展买卖盘
+     * </pre>
+     */
+    boolean hasJiaQuanPingJunWeiTuoMaiRuJia();
+    /**
+     * <code>optional int64 JiaQuanPingJunWeiTuoMaiRuJia = 54;</code>
+     *
+     * <pre>
+     *扩展买卖盘
+     * </pre>
+     */
+    long getJiaQuanPingJunWeiTuoMaiRuJia();
+
+    /**
+     * <code>optional int64 WeiTuoMaiRuZongLiang = 55;</code>
+     *
+     * <pre>
+     *allbuyvol f   委买总量
+     * </pre>
+     */
+    boolean hasWeiTuoMaiRuZongLiang();
+    /**
+     * <code>optional int64 WeiTuoMaiRuZongLiang = 55;</code>
+     *
+     * <pre>
+     *allbuyvol f   委买总量
+     * </pre>
+     */
+    long getWeiTuoMaiRuZongLiang();
+
+    /**
+     * <code>optional int64 JiaQuanPingJunWeiTuoMaiChuJia = 56;</code>
+     *
+     * <pre>
+     *avgsellprice  f   加权平均委卖总量
+     * </pre>
+     */
+    boolean hasJiaQuanPingJunWeiTuoMaiChuJia();
+    /**
+     * <code>optional int64 JiaQuanPingJunWeiTuoMaiChuJia = 56;</code>
+     *
+     * <pre>
+     *avgsellprice  f   加权平均委卖总量
+     * </pre>
+     */
+    long getJiaQuanPingJunWeiTuoMaiChuJia();
+
+    /**
+     * <code>optional int64 WeiTuoMaiChuZongLiang = 57;</code>
+     *
+     * <pre>
+     *allselvol f   委卖总量
+     * </pre>
+     */
+    boolean hasWeiTuoMaiChuZongLiang();
+    /**
+     * <code>optional int64 WeiTuoMaiChuZongLiang = 57;</code>
+     *
+     * <pre>
+     *allselvol f   委卖总量
+     * </pre>
+     */
+    long getWeiTuoMaiChuZongLiang();
+
+    /**
+     * <code>optional int64 KuoZhanMaiRuJia1 = 58;</code>
+     *
+     * <pre>
+     *buyprice  5f  委买价
+     * </pre>
+     */
+    boolean hasKuoZhanMaiRuJia1();
+    /**
+     * <code>optional int64 KuoZhanMaiRuJia1 = 58;</code>
+     *
+     * <pre>
+     *buyprice  5f  委买价
+     * </pre>
+     */
+    long getKuoZhanMaiRuJia1();
+
+    /**
+     * <code>optional int64 KuoZhanMaiRuJia2 = 59;</code>
+     */
+    boolean hasKuoZhanMaiRuJia2();
+    /**
+     * <code>optional int64 KuoZhanMaiRuJia2 = 59;</code>
+     */
+    long getKuoZhanMaiRuJia2();
+
+    /**
+     * <code>optional int64 KuoZhanMaiRuJia3 = 60;</code>
+     */
+    boolean hasKuoZhanMaiRuJia3();
+    /**
+     * <code>optional int64 KuoZhanMaiRuJia3 = 60;</code>
+     */
+    long getKuoZhanMaiRuJia3();
+
+    /**
+     * <code>optional int64 KuoZhanMaiRuJia4 = 61;</code>
+     */
+    boolean hasKuoZhanMaiRuJia4();
+    /**
+     * <code>optional int64 KuoZhanMaiRuJia4 = 61;</code>
+     */
+    long getKuoZhanMaiRuJia4();
+
+    /**
+     * <code>optional int64 KuoZhanMaiRuJia5 = 62;</code>
+     */
+    boolean hasKuoZhanMaiRuJia5();
+    /**
+     * <code>optional int64 KuoZhanMaiRuJia5 = 62;</code>
+     */
+    long getKuoZhanMaiRuJia5();
+
+    /**
+     * <code>optional int64 KuoZhanMaiRuLiang1 = 63;</code>
+     *
+     * <pre>
+     *buyvol    5f  委买量
+     * </pre>
+     */
+    boolean hasKuoZhanMaiRuLiang1();
+    /**
+     * <code>optional int64 KuoZhanMaiRuLiang1 = 63;</code>
+     *
+     * <pre>
+     *buyvol    5f  委买量
+     * </pre>
+     */
+    long getKuoZhanMaiRuLiang1();
+
+    /**
+     * <code>optional int64 KuoZhanMaiRuLiang2 = 64;</code>
+     */
+    boolean hasKuoZhanMaiRuLiang2();
+    /**
+     * <code>optional int64 KuoZhanMaiRuLiang2 = 64;</code>
+     */
+    long getKuoZhanMaiRuLiang2();
+
+    /**
+     * <code>optional int64 KuoZhanMaiRuLiang3 = 65;</code>
+     */
+    boolean hasKuoZhanMaiRuLiang3();
+    /**
+     * <code>optional int64 KuoZhanMaiRuLiang3 = 65;</code>
+     */
+    long getKuoZhanMaiRuLiang3();
+
+    /**
+     * <code>optional int64 KuoZhanMaiRuLiang4 = 66;</code>
+     */
+    boolean hasKuoZhanMaiRuLiang4();
+    /**
+     * <code>optional int64 KuoZhanMaiRuLiang4 = 66;</code>
+     */
+    long getKuoZhanMaiRuLiang4();
+
+    /**
+     * <code>optional int64 KuoZhanMaiRuLiang5 = 67;</code>
+     */
+    boolean hasKuoZhanMaiRuLiang5();
+    /**
+     * <code>optional int64 KuoZhanMaiRuLiang5 = 67;</code>
+     */
+    long getKuoZhanMaiRuLiang5();
+
+    /**
+     * <code>optional int64 KuoZhanMaiChuJia1 = 68;</code>
+     *
+     * <pre>
+     *sellprice 5f  委卖价
+     * </pre>
+     */
+    boolean hasKuoZhanMaiChuJia1();
+    /**
+     * <code>optional int64 KuoZhanMaiChuJia1 = 68;</code>
+     *
+     * <pre>
+     *sellprice 5f  委卖价
+     * </pre>
+     */
+    long getKuoZhanMaiChuJia1();
+
+    /**
+     * <code>optional int64 KuoZhanMaiChuJia2 = 69;</code>
+     */
+    boolean hasKuoZhanMaiChuJia2();
+    /**
+     * <code>optional int64 KuoZhanMaiChuJia2 = 69;</code>
+     */
+    long getKuoZhanMaiChuJia2();
+
+    /**
+     * <code>optional int64 KuoZhanMaiChuJia3 = 70;</code>
+     */
+    boolean hasKuoZhanMaiChuJia3();
+    /**
+     * <code>optional int64 KuoZhanMaiChuJia3 = 70;</code>
+     */
+    long getKuoZhanMaiChuJia3();
+
+    /**
+     * <code>optional int64 KuoZhanMaiChuJia4 = 71;</code>
+     */
+    boolean hasKuoZhanMaiChuJia4();
+    /**
+     * <code>optional int64 KuoZhanMaiChuJia4 = 71;</code>
+     */
+    long getKuoZhanMaiChuJia4();
+
+    /**
+     * <code>optional int64 KuoZhanMaiChuJia5 = 72;</code>
+     */
+    boolean hasKuoZhanMaiChuJia5();
+    /**
+     * <code>optional int64 KuoZhanMaiChuJia5 = 72;</code>
+     */
+    long getKuoZhanMaiChuJia5();
+
+    /**
+     * <code>optional int64 KuoZhanMaiChuLiang1 = 73;</code>
+     *
+     * <pre>
+     *sellvol   5f  委卖量
+     * </pre>
+     */
+    boolean hasKuoZhanMaiChuLiang1();
+    /**
+     * <code>optional int64 KuoZhanMaiChuLiang1 = 73;</code>
+     *
+     * <pre>
+     *sellvol   5f  委卖量
+     * </pre>
+     */
+    long getKuoZhanMaiChuLiang1();
+
+    /**
+     * <code>optional int64 KuoZhanMaiChuLiang2 = 74;</code>
+     */
+    boolean hasKuoZhanMaiChuLiang2();
+    /**
+     * <code>optional int64 KuoZhanMaiChuLiang2 = 74;</code>
+     */
+    long getKuoZhanMaiChuLiang2();
+
+    /**
+     * <code>optional int64 KuoZhanMaiChuLiang3 = 75;</code>
+     */
+    boolean hasKuoZhanMaiChuLiang3();
+    /**
+     * <code>optional int64 KuoZhanMaiChuLiang3 = 75;</code>
+     */
+    long getKuoZhanMaiChuLiang3();
+
+    /**
+     * <code>optional int64 KuoZhanMaiChuLiang4 = 76;</code>
+     */
+    boolean hasKuoZhanMaiChuLiang4();
+    /**
+     * <code>optional int64 KuoZhanMaiChuLiang4 = 76;</code>
+     */
+    long getKuoZhanMaiChuLiang4();
+
+    /**
+     * <code>optional int64 KuoZhanMaiChuLiang5 = 77;</code>
+     */
+    boolean hasKuoZhanMaiChuLiang5();
+    /**
+     * <code>optional int64 KuoZhanMaiChuLiang5 = 77;</code>
+     */
+    long getKuoZhanMaiChuLiang5();
   }
   /**
    * Protobuf type {@code dzhyun.GeGuDongTai}
@@ -1679,6 +2333,8 @@ public final class DzhyunGupiaoqiepian {
         throws com.google.protobuf.InvalidProtocolBufferException {
       initFields();
       int mutable_bitField0_ = 0;
+      int mutable_bitField1_ = 0;
+      int mutable_bitField2_ = 0;
       com.google.protobuf.UnknownFieldSet.Builder unknownFields =
           com.google.protobuf.UnknownFieldSet.newBuilder();
       try {
@@ -1851,6 +2507,236 @@ public final class DzhyunGupiaoqiepian {
               fenZhongZhangFu5_ = input.readInt64();
               break;
             }
+            case 256: {
+              bitField0_ |= 0x80000000;
+              weiTuoMaiRuJia1_ = input.readInt64();
+              break;
+            }
+            case 264: {
+              bitField1_ |= 0x00000001;
+              weiTuoMaiRuLiang1_ = input.readInt64();
+              break;
+            }
+            case 272: {
+              bitField1_ |= 0x00000002;
+              weiTuoMaiRuJia2_ = input.readInt64();
+              break;
+            }
+            case 280: {
+              bitField1_ |= 0x00000004;
+              weiTuoMaiRuLiang2_ = input.readInt64();
+              break;
+            }
+            case 288: {
+              bitField1_ |= 0x00000008;
+              weiTuoMaiRuJia3_ = input.readInt64();
+              break;
+            }
+            case 296: {
+              bitField1_ |= 0x00000010;
+              weiTuoMaiRuLiang3_ = input.readInt64();
+              break;
+            }
+            case 304: {
+              bitField1_ |= 0x00000020;
+              weiTuoMaiRuJia4_ = input.readInt64();
+              break;
+            }
+            case 312: {
+              bitField1_ |= 0x00000040;
+              weiTuoMaiRuLiang4_ = input.readInt64();
+              break;
+            }
+            case 320: {
+              bitField1_ |= 0x00000080;
+              weiTuoMaiRuJia5_ = input.readInt64();
+              break;
+            }
+            case 328: {
+              bitField1_ |= 0x00000100;
+              weiTuoMaiRuLiang5_ = input.readInt64();
+              break;
+            }
+            case 336: {
+              bitField1_ |= 0x00000200;
+              weiTuoMaiChuJia1_ = input.readInt64();
+              break;
+            }
+            case 344: {
+              bitField1_ |= 0x00000400;
+              weiTuoMaiChuLiang1_ = input.readInt64();
+              break;
+            }
+            case 352: {
+              bitField1_ |= 0x00000800;
+              weiTuoMaiChuJia2_ = input.readInt64();
+              break;
+            }
+            case 360: {
+              bitField1_ |= 0x00001000;
+              weiTuoMaiChuLiang2_ = input.readInt64();
+              break;
+            }
+            case 368: {
+              bitField1_ |= 0x00002000;
+              weiTuoMaiChuJia3_ = input.readInt64();
+              break;
+            }
+            case 376: {
+              bitField1_ |= 0x00004000;
+              weiTuoMaiChuLiang3_ = input.readInt64();
+              break;
+            }
+            case 384: {
+              bitField1_ |= 0x00008000;
+              weiTuoMaiChuJia4_ = input.readInt64();
+              break;
+            }
+            case 392: {
+              bitField1_ |= 0x00010000;
+              weiTuoMaiChuLiang4_ = input.readInt64();
+              break;
+            }
+            case 400: {
+              bitField1_ |= 0x00020000;
+              weiTuoMaiChuJia5_ = input.readInt64();
+              break;
+            }
+            case 408: {
+              bitField1_ |= 0x00040000;
+              weiTuoMaiChuLiang5_ = input.readInt64();
+              break;
+            }
+            case 416: {
+              bitField1_ |= 0x00080000;
+              weiBi_ = input.readInt64();
+              break;
+            }
+            case 424: {
+              bitField1_ |= 0x00100000;
+              weiCha_ = input.readInt64();
+              break;
+            }
+            case 432: {
+              bitField1_ |= 0x00200000;
+              jiaQuanPingJunWeiTuoMaiRuJia_ = input.readInt64();
+              break;
+            }
+            case 440: {
+              bitField1_ |= 0x00400000;
+              weiTuoMaiRuZongLiang_ = input.readInt64();
+              break;
+            }
+            case 448: {
+              bitField1_ |= 0x00800000;
+              jiaQuanPingJunWeiTuoMaiChuJia_ = input.readInt64();
+              break;
+            }
+            case 456: {
+              bitField1_ |= 0x01000000;
+              weiTuoMaiChuZongLiang_ = input.readInt64();
+              break;
+            }
+            case 464: {
+              bitField1_ |= 0x02000000;
+              kuoZhanMaiRuJia1_ = input.readInt64();
+              break;
+            }
+            case 472: {
+              bitField1_ |= 0x04000000;
+              kuoZhanMaiRuJia2_ = input.readInt64();
+              break;
+            }
+            case 480: {
+              bitField1_ |= 0x08000000;
+              kuoZhanMaiRuJia3_ = input.readInt64();
+              break;
+            }
+            case 488: {
+              bitField1_ |= 0x10000000;
+              kuoZhanMaiRuJia4_ = input.readInt64();
+              break;
+            }
+            case 496: {
+              bitField1_ |= 0x20000000;
+              kuoZhanMaiRuJia5_ = input.readInt64();
+              break;
+            }
+            case 504: {
+              bitField1_ |= 0x40000000;
+              kuoZhanMaiRuLiang1_ = input.readInt64();
+              break;
+            }
+            case 512: {
+              bitField1_ |= 0x80000000;
+              kuoZhanMaiRuLiang2_ = input.readInt64();
+              break;
+            }
+            case 520: {
+              bitField2_ |= 0x00000001;
+              kuoZhanMaiRuLiang3_ = input.readInt64();
+              break;
+            }
+            case 528: {
+              bitField2_ |= 0x00000002;
+              kuoZhanMaiRuLiang4_ = input.readInt64();
+              break;
+            }
+            case 536: {
+              bitField2_ |= 0x00000004;
+              kuoZhanMaiRuLiang5_ = input.readInt64();
+              break;
+            }
+            case 544: {
+              bitField2_ |= 0x00000008;
+              kuoZhanMaiChuJia1_ = input.readInt64();
+              break;
+            }
+            case 552: {
+              bitField2_ |= 0x00000010;
+              kuoZhanMaiChuJia2_ = input.readInt64();
+              break;
+            }
+            case 560: {
+              bitField2_ |= 0x00000020;
+              kuoZhanMaiChuJia3_ = input.readInt64();
+              break;
+            }
+            case 568: {
+              bitField2_ |= 0x00000040;
+              kuoZhanMaiChuJia4_ = input.readInt64();
+              break;
+            }
+            case 576: {
+              bitField2_ |= 0x00000080;
+              kuoZhanMaiChuJia5_ = input.readInt64();
+              break;
+            }
+            case 584: {
+              bitField2_ |= 0x00000100;
+              kuoZhanMaiChuLiang1_ = input.readInt64();
+              break;
+            }
+            case 592: {
+              bitField2_ |= 0x00000200;
+              kuoZhanMaiChuLiang2_ = input.readInt64();
+              break;
+            }
+            case 600: {
+              bitField2_ |= 0x00000400;
+              kuoZhanMaiChuLiang3_ = input.readInt64();
+              break;
+            }
+            case 608: {
+              bitField2_ |= 0x00000800;
+              kuoZhanMaiChuLiang4_ = input.readInt64();
+              break;
+            }
+            case 616: {
+              bitField2_ |= 0x00001000;
+              kuoZhanMaiChuLiang5_ = input.readInt64();
+              break;
+            }
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
@@ -1891,6 +2777,8 @@ public final class DzhyunGupiaoqiepian {
     }
 
     private int bitField0_;
+    private int bitField1_;
+    private int bitField2_;
     public static final int ID_FIELD_NUMBER = 1;
     private long id_;
     /**
@@ -2604,6 +3492,936 @@ public final class DzhyunGupiaoqiepian {
       return fenZhongZhangFu5_;
     }
 
+    public static final int WEITUOMAIRUJIA1_FIELD_NUMBER = 32;
+    private long weiTuoMaiRuJia1_;
+    /**
+     * <code>optional int64 WeiTuoMaiRuJia1 = 32;</code>
+     *
+     * <pre>
+     *买卖盘
+     * </pre>
+     */
+    public boolean hasWeiTuoMaiRuJia1() {
+      return ((bitField0_ & 0x80000000) == 0x80000000);
+    }
+    /**
+     * <code>optional int64 WeiTuoMaiRuJia1 = 32;</code>
+     *
+     * <pre>
+     *买卖盘
+     * </pre>
+     */
+    public long getWeiTuoMaiRuJia1() {
+      return weiTuoMaiRuJia1_;
+    }
+
+    public static final int WEITUOMAIRULIANG1_FIELD_NUMBER = 33;
+    private long weiTuoMaiRuLiang1_;
+    /**
+     * <code>optional int64 WeiTuoMaiRuLiang1 = 33;</code>
+     *
+     * <pre>
+     *委托买入量1，单位股
+     * </pre>
+     */
+    public boolean hasWeiTuoMaiRuLiang1() {
+      return ((bitField1_ & 0x00000001) == 0x00000001);
+    }
+    /**
+     * <code>optional int64 WeiTuoMaiRuLiang1 = 33;</code>
+     *
+     * <pre>
+     *委托买入量1，单位股
+     * </pre>
+     */
+    public long getWeiTuoMaiRuLiang1() {
+      return weiTuoMaiRuLiang1_;
+    }
+
+    public static final int WEITUOMAIRUJIA2_FIELD_NUMBER = 34;
+    private long weiTuoMaiRuJia2_;
+    /**
+     * <code>optional int64 WeiTuoMaiRuJia2 = 34;</code>
+     *
+     * <pre>
+     *委托买入价2
+     * </pre>
+     */
+    public boolean hasWeiTuoMaiRuJia2() {
+      return ((bitField1_ & 0x00000002) == 0x00000002);
+    }
+    /**
+     * <code>optional int64 WeiTuoMaiRuJia2 = 34;</code>
+     *
+     * <pre>
+     *委托买入价2
+     * </pre>
+     */
+    public long getWeiTuoMaiRuJia2() {
+      return weiTuoMaiRuJia2_;
+    }
+
+    public static final int WEITUOMAIRULIANG2_FIELD_NUMBER = 35;
+    private long weiTuoMaiRuLiang2_;
+    /**
+     * <code>optional int64 WeiTuoMaiRuLiang2 = 35;</code>
+     *
+     * <pre>
+     *委托买入量2，单位股
+     * </pre>
+     */
+    public boolean hasWeiTuoMaiRuLiang2() {
+      return ((bitField1_ & 0x00000004) == 0x00000004);
+    }
+    /**
+     * <code>optional int64 WeiTuoMaiRuLiang2 = 35;</code>
+     *
+     * <pre>
+     *委托买入量2，单位股
+     * </pre>
+     */
+    public long getWeiTuoMaiRuLiang2() {
+      return weiTuoMaiRuLiang2_;
+    }
+
+    public static final int WEITUOMAIRUJIA3_FIELD_NUMBER = 36;
+    private long weiTuoMaiRuJia3_;
+    /**
+     * <code>optional int64 WeiTuoMaiRuJia3 = 36;</code>
+     *
+     * <pre>
+     *委托买入价3
+     * </pre>
+     */
+    public boolean hasWeiTuoMaiRuJia3() {
+      return ((bitField1_ & 0x00000008) == 0x00000008);
+    }
+    /**
+     * <code>optional int64 WeiTuoMaiRuJia3 = 36;</code>
+     *
+     * <pre>
+     *委托买入价3
+     * </pre>
+     */
+    public long getWeiTuoMaiRuJia3() {
+      return weiTuoMaiRuJia3_;
+    }
+
+    public static final int WEITUOMAIRULIANG3_FIELD_NUMBER = 37;
+    private long weiTuoMaiRuLiang3_;
+    /**
+     * <code>optional int64 WeiTuoMaiRuLiang3 = 37;</code>
+     *
+     * <pre>
+     *委托买入量3，单位股
+     * </pre>
+     */
+    public boolean hasWeiTuoMaiRuLiang3() {
+      return ((bitField1_ & 0x00000010) == 0x00000010);
+    }
+    /**
+     * <code>optional int64 WeiTuoMaiRuLiang3 = 37;</code>
+     *
+     * <pre>
+     *委托买入量3，单位股
+     * </pre>
+     */
+    public long getWeiTuoMaiRuLiang3() {
+      return weiTuoMaiRuLiang3_;
+    }
+
+    public static final int WEITUOMAIRUJIA4_FIELD_NUMBER = 38;
+    private long weiTuoMaiRuJia4_;
+    /**
+     * <code>optional int64 WeiTuoMaiRuJia4 = 38;</code>
+     *
+     * <pre>
+     *委托买入价4
+     * </pre>
+     */
+    public boolean hasWeiTuoMaiRuJia4() {
+      return ((bitField1_ & 0x00000020) == 0x00000020);
+    }
+    /**
+     * <code>optional int64 WeiTuoMaiRuJia4 = 38;</code>
+     *
+     * <pre>
+     *委托买入价4
+     * </pre>
+     */
+    public long getWeiTuoMaiRuJia4() {
+      return weiTuoMaiRuJia4_;
+    }
+
+    public static final int WEITUOMAIRULIANG4_FIELD_NUMBER = 39;
+    private long weiTuoMaiRuLiang4_;
+    /**
+     * <code>optional int64 WeiTuoMaiRuLiang4 = 39;</code>
+     *
+     * <pre>
+     *委托买入量4，单位股
+     * </pre>
+     */
+    public boolean hasWeiTuoMaiRuLiang4() {
+      return ((bitField1_ & 0x00000040) == 0x00000040);
+    }
+    /**
+     * <code>optional int64 WeiTuoMaiRuLiang4 = 39;</code>
+     *
+     * <pre>
+     *委托买入量4，单位股
+     * </pre>
+     */
+    public long getWeiTuoMaiRuLiang4() {
+      return weiTuoMaiRuLiang4_;
+    }
+
+    public static final int WEITUOMAIRUJIA5_FIELD_NUMBER = 40;
+    private long weiTuoMaiRuJia5_;
+    /**
+     * <code>optional int64 WeiTuoMaiRuJia5 = 40;</code>
+     *
+     * <pre>
+     *委托买入价5
+     * </pre>
+     */
+    public boolean hasWeiTuoMaiRuJia5() {
+      return ((bitField1_ & 0x00000080) == 0x00000080);
+    }
+    /**
+     * <code>optional int64 WeiTuoMaiRuJia5 = 40;</code>
+     *
+     * <pre>
+     *委托买入价5
+     * </pre>
+     */
+    public long getWeiTuoMaiRuJia5() {
+      return weiTuoMaiRuJia5_;
+    }
+
+    public static final int WEITUOMAIRULIANG5_FIELD_NUMBER = 41;
+    private long weiTuoMaiRuLiang5_;
+    /**
+     * <code>optional int64 WeiTuoMaiRuLiang5 = 41;</code>
+     *
+     * <pre>
+     *委托买入量5，单位股
+     * </pre>
+     */
+    public boolean hasWeiTuoMaiRuLiang5() {
+      return ((bitField1_ & 0x00000100) == 0x00000100);
+    }
+    /**
+     * <code>optional int64 WeiTuoMaiRuLiang5 = 41;</code>
+     *
+     * <pre>
+     *委托买入量5，单位股
+     * </pre>
+     */
+    public long getWeiTuoMaiRuLiang5() {
+      return weiTuoMaiRuLiang5_;
+    }
+
+    public static final int WEITUOMAICHUJIA1_FIELD_NUMBER = 42;
+    private long weiTuoMaiChuJia1_;
+    /**
+     * <code>optional int64 WeiTuoMaiChuJia1 = 42;</code>
+     *
+     * <pre>
+     *委托卖出价1
+     * </pre>
+     */
+    public boolean hasWeiTuoMaiChuJia1() {
+      return ((bitField1_ & 0x00000200) == 0x00000200);
+    }
+    /**
+     * <code>optional int64 WeiTuoMaiChuJia1 = 42;</code>
+     *
+     * <pre>
+     *委托卖出价1
+     * </pre>
+     */
+    public long getWeiTuoMaiChuJia1() {
+      return weiTuoMaiChuJia1_;
+    }
+
+    public static final int WEITUOMAICHULIANG1_FIELD_NUMBER = 43;
+    private long weiTuoMaiChuLiang1_;
+    /**
+     * <code>optional int64 WeiTuoMaiChuLiang1 = 43;</code>
+     *
+     * <pre>
+     *委托卖出量1，单位股
+     * </pre>
+     */
+    public boolean hasWeiTuoMaiChuLiang1() {
+      return ((bitField1_ & 0x00000400) == 0x00000400);
+    }
+    /**
+     * <code>optional int64 WeiTuoMaiChuLiang1 = 43;</code>
+     *
+     * <pre>
+     *委托卖出量1，单位股
+     * </pre>
+     */
+    public long getWeiTuoMaiChuLiang1() {
+      return weiTuoMaiChuLiang1_;
+    }
+
+    public static final int WEITUOMAICHUJIA2_FIELD_NUMBER = 44;
+    private long weiTuoMaiChuJia2_;
+    /**
+     * <code>optional int64 WeiTuoMaiChuJia2 = 44;</code>
+     *
+     * <pre>
+     *委托卖出价2
+     * </pre>
+     */
+    public boolean hasWeiTuoMaiChuJia2() {
+      return ((bitField1_ & 0x00000800) == 0x00000800);
+    }
+    /**
+     * <code>optional int64 WeiTuoMaiChuJia2 = 44;</code>
+     *
+     * <pre>
+     *委托卖出价2
+     * </pre>
+     */
+    public long getWeiTuoMaiChuJia2() {
+      return weiTuoMaiChuJia2_;
+    }
+
+    public static final int WEITUOMAICHULIANG2_FIELD_NUMBER = 45;
+    private long weiTuoMaiChuLiang2_;
+    /**
+     * <code>optional int64 WeiTuoMaiChuLiang2 = 45;</code>
+     *
+     * <pre>
+     *委托卖出量2，单位股
+     * </pre>
+     */
+    public boolean hasWeiTuoMaiChuLiang2() {
+      return ((bitField1_ & 0x00001000) == 0x00001000);
+    }
+    /**
+     * <code>optional int64 WeiTuoMaiChuLiang2 = 45;</code>
+     *
+     * <pre>
+     *委托卖出量2，单位股
+     * </pre>
+     */
+    public long getWeiTuoMaiChuLiang2() {
+      return weiTuoMaiChuLiang2_;
+    }
+
+    public static final int WEITUOMAICHUJIA3_FIELD_NUMBER = 46;
+    private long weiTuoMaiChuJia3_;
+    /**
+     * <code>optional int64 WeiTuoMaiChuJia3 = 46;</code>
+     *
+     * <pre>
+     *委托卖出价3
+     * </pre>
+     */
+    public boolean hasWeiTuoMaiChuJia3() {
+      return ((bitField1_ & 0x00002000) == 0x00002000);
+    }
+    /**
+     * <code>optional int64 WeiTuoMaiChuJia3 = 46;</code>
+     *
+     * <pre>
+     *委托卖出价3
+     * </pre>
+     */
+    public long getWeiTuoMaiChuJia3() {
+      return weiTuoMaiChuJia3_;
+    }
+
+    public static final int WEITUOMAICHULIANG3_FIELD_NUMBER = 47;
+    private long weiTuoMaiChuLiang3_;
+    /**
+     * <code>optional int64 WeiTuoMaiChuLiang3 = 47;</code>
+     *
+     * <pre>
+     *委托卖出量3，单位股
+     * </pre>
+     */
+    public boolean hasWeiTuoMaiChuLiang3() {
+      return ((bitField1_ & 0x00004000) == 0x00004000);
+    }
+    /**
+     * <code>optional int64 WeiTuoMaiChuLiang3 = 47;</code>
+     *
+     * <pre>
+     *委托卖出量3，单位股
+     * </pre>
+     */
+    public long getWeiTuoMaiChuLiang3() {
+      return weiTuoMaiChuLiang3_;
+    }
+
+    public static final int WEITUOMAICHUJIA4_FIELD_NUMBER = 48;
+    private long weiTuoMaiChuJia4_;
+    /**
+     * <code>optional int64 WeiTuoMaiChuJia4 = 48;</code>
+     *
+     * <pre>
+     *委托卖出价4
+     * </pre>
+     */
+    public boolean hasWeiTuoMaiChuJia4() {
+      return ((bitField1_ & 0x00008000) == 0x00008000);
+    }
+    /**
+     * <code>optional int64 WeiTuoMaiChuJia4 = 48;</code>
+     *
+     * <pre>
+     *委托卖出价4
+     * </pre>
+     */
+    public long getWeiTuoMaiChuJia4() {
+      return weiTuoMaiChuJia4_;
+    }
+
+    public static final int WEITUOMAICHULIANG4_FIELD_NUMBER = 49;
+    private long weiTuoMaiChuLiang4_;
+    /**
+     * <code>optional int64 WeiTuoMaiChuLiang4 = 49;</code>
+     *
+     * <pre>
+     *委托卖出量4，单位股
+     * </pre>
+     */
+    public boolean hasWeiTuoMaiChuLiang4() {
+      return ((bitField1_ & 0x00010000) == 0x00010000);
+    }
+    /**
+     * <code>optional int64 WeiTuoMaiChuLiang4 = 49;</code>
+     *
+     * <pre>
+     *委托卖出量4，单位股
+     * </pre>
+     */
+    public long getWeiTuoMaiChuLiang4() {
+      return weiTuoMaiChuLiang4_;
+    }
+
+    public static final int WEITUOMAICHUJIA5_FIELD_NUMBER = 50;
+    private long weiTuoMaiChuJia5_;
+    /**
+     * <code>optional int64 WeiTuoMaiChuJia5 = 50;</code>
+     *
+     * <pre>
+     *委托卖出价5
+     * </pre>
+     */
+    public boolean hasWeiTuoMaiChuJia5() {
+      return ((bitField1_ & 0x00020000) == 0x00020000);
+    }
+    /**
+     * <code>optional int64 WeiTuoMaiChuJia5 = 50;</code>
+     *
+     * <pre>
+     *委托卖出价5
+     * </pre>
+     */
+    public long getWeiTuoMaiChuJia5() {
+      return weiTuoMaiChuJia5_;
+    }
+
+    public static final int WEITUOMAICHULIANG5_FIELD_NUMBER = 51;
+    private long weiTuoMaiChuLiang5_;
+    /**
+     * <code>optional int64 WeiTuoMaiChuLiang5 = 51;</code>
+     *
+     * <pre>
+     *委托卖出量5，单位股
+     * </pre>
+     */
+    public boolean hasWeiTuoMaiChuLiang5() {
+      return ((bitField1_ & 0x00040000) == 0x00040000);
+    }
+    /**
+     * <code>optional int64 WeiTuoMaiChuLiang5 = 51;</code>
+     *
+     * <pre>
+     *委托卖出量5，单位股
+     * </pre>
+     */
+    public long getWeiTuoMaiChuLiang5() {
+      return weiTuoMaiChuLiang5_;
+    }
+
+    public static final int WEIBI_FIELD_NUMBER = 52;
+    private long weiBi_;
+    /**
+     * <code>optional int64 WeiBi = 52;</code>
+     *
+     * <pre>
+     *委比
+     * </pre>
+     */
+    public boolean hasWeiBi() {
+      return ((bitField1_ & 0x00080000) == 0x00080000);
+    }
+    /**
+     * <code>optional int64 WeiBi = 52;</code>
+     *
+     * <pre>
+     *委比
+     * </pre>
+     */
+    public long getWeiBi() {
+      return weiBi_;
+    }
+
+    public static final int WEICHA_FIELD_NUMBER = 53;
+    private long weiCha_;
+    /**
+     * <code>optional int64 WeiCha = 53;</code>
+     *
+     * <pre>
+     *委差
+     * </pre>
+     */
+    public boolean hasWeiCha() {
+      return ((bitField1_ & 0x00100000) == 0x00100000);
+    }
+    /**
+     * <code>optional int64 WeiCha = 53;</code>
+     *
+     * <pre>
+     *委差
+     * </pre>
+     */
+    public long getWeiCha() {
+      return weiCha_;
+    }
+
+    public static final int JIAQUANPINGJUNWEITUOMAIRUJIA_FIELD_NUMBER = 54;
+    private long jiaQuanPingJunWeiTuoMaiRuJia_;
+    /**
+     * <code>optional int64 JiaQuanPingJunWeiTuoMaiRuJia = 54;</code>
+     *
+     * <pre>
+     *扩展买卖盘
+     * </pre>
+     */
+    public boolean hasJiaQuanPingJunWeiTuoMaiRuJia() {
+      return ((bitField1_ & 0x00200000) == 0x00200000);
+    }
+    /**
+     * <code>optional int64 JiaQuanPingJunWeiTuoMaiRuJia = 54;</code>
+     *
+     * <pre>
+     *扩展买卖盘
+     * </pre>
+     */
+    public long getJiaQuanPingJunWeiTuoMaiRuJia() {
+      return jiaQuanPingJunWeiTuoMaiRuJia_;
+    }
+
+    public static final int WEITUOMAIRUZONGLIANG_FIELD_NUMBER = 55;
+    private long weiTuoMaiRuZongLiang_;
+    /**
+     * <code>optional int64 WeiTuoMaiRuZongLiang = 55;</code>
+     *
+     * <pre>
+     *allbuyvol f   委买总量
+     * </pre>
+     */
+    public boolean hasWeiTuoMaiRuZongLiang() {
+      return ((bitField1_ & 0x00400000) == 0x00400000);
+    }
+    /**
+     * <code>optional int64 WeiTuoMaiRuZongLiang = 55;</code>
+     *
+     * <pre>
+     *allbuyvol f   委买总量
+     * </pre>
+     */
+    public long getWeiTuoMaiRuZongLiang() {
+      return weiTuoMaiRuZongLiang_;
+    }
+
+    public static final int JIAQUANPINGJUNWEITUOMAICHUJIA_FIELD_NUMBER = 56;
+    private long jiaQuanPingJunWeiTuoMaiChuJia_;
+    /**
+     * <code>optional int64 JiaQuanPingJunWeiTuoMaiChuJia = 56;</code>
+     *
+     * <pre>
+     *avgsellprice  f   加权平均委卖总量
+     * </pre>
+     */
+    public boolean hasJiaQuanPingJunWeiTuoMaiChuJia() {
+      return ((bitField1_ & 0x00800000) == 0x00800000);
+    }
+    /**
+     * <code>optional int64 JiaQuanPingJunWeiTuoMaiChuJia = 56;</code>
+     *
+     * <pre>
+     *avgsellprice  f   加权平均委卖总量
+     * </pre>
+     */
+    public long getJiaQuanPingJunWeiTuoMaiChuJia() {
+      return jiaQuanPingJunWeiTuoMaiChuJia_;
+    }
+
+    public static final int WEITUOMAICHUZONGLIANG_FIELD_NUMBER = 57;
+    private long weiTuoMaiChuZongLiang_;
+    /**
+     * <code>optional int64 WeiTuoMaiChuZongLiang = 57;</code>
+     *
+     * <pre>
+     *allselvol f   委卖总量
+     * </pre>
+     */
+    public boolean hasWeiTuoMaiChuZongLiang() {
+      return ((bitField1_ & 0x01000000) == 0x01000000);
+    }
+    /**
+     * <code>optional int64 WeiTuoMaiChuZongLiang = 57;</code>
+     *
+     * <pre>
+     *allselvol f   委卖总量
+     * </pre>
+     */
+    public long getWeiTuoMaiChuZongLiang() {
+      return weiTuoMaiChuZongLiang_;
+    }
+
+    public static final int KUOZHANMAIRUJIA1_FIELD_NUMBER = 58;
+    private long kuoZhanMaiRuJia1_;
+    /**
+     * <code>optional int64 KuoZhanMaiRuJia1 = 58;</code>
+     *
+     * <pre>
+     *buyprice  5f  委买价
+     * </pre>
+     */
+    public boolean hasKuoZhanMaiRuJia1() {
+      return ((bitField1_ & 0x02000000) == 0x02000000);
+    }
+    /**
+     * <code>optional int64 KuoZhanMaiRuJia1 = 58;</code>
+     *
+     * <pre>
+     *buyprice  5f  委买价
+     * </pre>
+     */
+    public long getKuoZhanMaiRuJia1() {
+      return kuoZhanMaiRuJia1_;
+    }
+
+    public static final int KUOZHANMAIRUJIA2_FIELD_NUMBER = 59;
+    private long kuoZhanMaiRuJia2_;
+    /**
+     * <code>optional int64 KuoZhanMaiRuJia2 = 59;</code>
+     */
+    public boolean hasKuoZhanMaiRuJia2() {
+      return ((bitField1_ & 0x04000000) == 0x04000000);
+    }
+    /**
+     * <code>optional int64 KuoZhanMaiRuJia2 = 59;</code>
+     */
+    public long getKuoZhanMaiRuJia2() {
+      return kuoZhanMaiRuJia2_;
+    }
+
+    public static final int KUOZHANMAIRUJIA3_FIELD_NUMBER = 60;
+    private long kuoZhanMaiRuJia3_;
+    /**
+     * <code>optional int64 KuoZhanMaiRuJia3 = 60;</code>
+     */
+    public boolean hasKuoZhanMaiRuJia3() {
+      return ((bitField1_ & 0x08000000) == 0x08000000);
+    }
+    /**
+     * <code>optional int64 KuoZhanMaiRuJia3 = 60;</code>
+     */
+    public long getKuoZhanMaiRuJia3() {
+      return kuoZhanMaiRuJia3_;
+    }
+
+    public static final int KUOZHANMAIRUJIA4_FIELD_NUMBER = 61;
+    private long kuoZhanMaiRuJia4_;
+    /**
+     * <code>optional int64 KuoZhanMaiRuJia4 = 61;</code>
+     */
+    public boolean hasKuoZhanMaiRuJia4() {
+      return ((bitField1_ & 0x10000000) == 0x10000000);
+    }
+    /**
+     * <code>optional int64 KuoZhanMaiRuJia4 = 61;</code>
+     */
+    public long getKuoZhanMaiRuJia4() {
+      return kuoZhanMaiRuJia4_;
+    }
+
+    public static final int KUOZHANMAIRUJIA5_FIELD_NUMBER = 62;
+    private long kuoZhanMaiRuJia5_;
+    /**
+     * <code>optional int64 KuoZhanMaiRuJia5 = 62;</code>
+     */
+    public boolean hasKuoZhanMaiRuJia5() {
+      return ((bitField1_ & 0x20000000) == 0x20000000);
+    }
+    /**
+     * <code>optional int64 KuoZhanMaiRuJia5 = 62;</code>
+     */
+    public long getKuoZhanMaiRuJia5() {
+      return kuoZhanMaiRuJia5_;
+    }
+
+    public static final int KUOZHANMAIRULIANG1_FIELD_NUMBER = 63;
+    private long kuoZhanMaiRuLiang1_;
+    /**
+     * <code>optional int64 KuoZhanMaiRuLiang1 = 63;</code>
+     *
+     * <pre>
+     *buyvol    5f  委买量
+     * </pre>
+     */
+    public boolean hasKuoZhanMaiRuLiang1() {
+      return ((bitField1_ & 0x40000000) == 0x40000000);
+    }
+    /**
+     * <code>optional int64 KuoZhanMaiRuLiang1 = 63;</code>
+     *
+     * <pre>
+     *buyvol    5f  委买量
+     * </pre>
+     */
+    public long getKuoZhanMaiRuLiang1() {
+      return kuoZhanMaiRuLiang1_;
+    }
+
+    public static final int KUOZHANMAIRULIANG2_FIELD_NUMBER = 64;
+    private long kuoZhanMaiRuLiang2_;
+    /**
+     * <code>optional int64 KuoZhanMaiRuLiang2 = 64;</code>
+     */
+    public boolean hasKuoZhanMaiRuLiang2() {
+      return ((bitField1_ & 0x80000000) == 0x80000000);
+    }
+    /**
+     * <code>optional int64 KuoZhanMaiRuLiang2 = 64;</code>
+     */
+    public long getKuoZhanMaiRuLiang2() {
+      return kuoZhanMaiRuLiang2_;
+    }
+
+    public static final int KUOZHANMAIRULIANG3_FIELD_NUMBER = 65;
+    private long kuoZhanMaiRuLiang3_;
+    /**
+     * <code>optional int64 KuoZhanMaiRuLiang3 = 65;</code>
+     */
+    public boolean hasKuoZhanMaiRuLiang3() {
+      return ((bitField2_ & 0x00000001) == 0x00000001);
+    }
+    /**
+     * <code>optional int64 KuoZhanMaiRuLiang3 = 65;</code>
+     */
+    public long getKuoZhanMaiRuLiang3() {
+      return kuoZhanMaiRuLiang3_;
+    }
+
+    public static final int KUOZHANMAIRULIANG4_FIELD_NUMBER = 66;
+    private long kuoZhanMaiRuLiang4_;
+    /**
+     * <code>optional int64 KuoZhanMaiRuLiang4 = 66;</code>
+     */
+    public boolean hasKuoZhanMaiRuLiang4() {
+      return ((bitField2_ & 0x00000002) == 0x00000002);
+    }
+    /**
+     * <code>optional int64 KuoZhanMaiRuLiang4 = 66;</code>
+     */
+    public long getKuoZhanMaiRuLiang4() {
+      return kuoZhanMaiRuLiang4_;
+    }
+
+    public static final int KUOZHANMAIRULIANG5_FIELD_NUMBER = 67;
+    private long kuoZhanMaiRuLiang5_;
+    /**
+     * <code>optional int64 KuoZhanMaiRuLiang5 = 67;</code>
+     */
+    public boolean hasKuoZhanMaiRuLiang5() {
+      return ((bitField2_ & 0x00000004) == 0x00000004);
+    }
+    /**
+     * <code>optional int64 KuoZhanMaiRuLiang5 = 67;</code>
+     */
+    public long getKuoZhanMaiRuLiang5() {
+      return kuoZhanMaiRuLiang5_;
+    }
+
+    public static final int KUOZHANMAICHUJIA1_FIELD_NUMBER = 68;
+    private long kuoZhanMaiChuJia1_;
+    /**
+     * <code>optional int64 KuoZhanMaiChuJia1 = 68;</code>
+     *
+     * <pre>
+     *sellprice 5f  委卖价
+     * </pre>
+     */
+    public boolean hasKuoZhanMaiChuJia1() {
+      return ((bitField2_ & 0x00000008) == 0x00000008);
+    }
+    /**
+     * <code>optional int64 KuoZhanMaiChuJia1 = 68;</code>
+     *
+     * <pre>
+     *sellprice 5f  委卖价
+     * </pre>
+     */
+    public long getKuoZhanMaiChuJia1() {
+      return kuoZhanMaiChuJia1_;
+    }
+
+    public static final int KUOZHANMAICHUJIA2_FIELD_NUMBER = 69;
+    private long kuoZhanMaiChuJia2_;
+    /**
+     * <code>optional int64 KuoZhanMaiChuJia2 = 69;</code>
+     */
+    public boolean hasKuoZhanMaiChuJia2() {
+      return ((bitField2_ & 0x00000010) == 0x00000010);
+    }
+    /**
+     * <code>optional int64 KuoZhanMaiChuJia2 = 69;</code>
+     */
+    public long getKuoZhanMaiChuJia2() {
+      return kuoZhanMaiChuJia2_;
+    }
+
+    public static final int KUOZHANMAICHUJIA3_FIELD_NUMBER = 70;
+    private long kuoZhanMaiChuJia3_;
+    /**
+     * <code>optional int64 KuoZhanMaiChuJia3 = 70;</code>
+     */
+    public boolean hasKuoZhanMaiChuJia3() {
+      return ((bitField2_ & 0x00000020) == 0x00000020);
+    }
+    /**
+     * <code>optional int64 KuoZhanMaiChuJia3 = 70;</code>
+     */
+    public long getKuoZhanMaiChuJia3() {
+      return kuoZhanMaiChuJia3_;
+    }
+
+    public static final int KUOZHANMAICHUJIA4_FIELD_NUMBER = 71;
+    private long kuoZhanMaiChuJia4_;
+    /**
+     * <code>optional int64 KuoZhanMaiChuJia4 = 71;</code>
+     */
+    public boolean hasKuoZhanMaiChuJia4() {
+      return ((bitField2_ & 0x00000040) == 0x00000040);
+    }
+    /**
+     * <code>optional int64 KuoZhanMaiChuJia4 = 71;</code>
+     */
+    public long getKuoZhanMaiChuJia4() {
+      return kuoZhanMaiChuJia4_;
+    }
+
+    public static final int KUOZHANMAICHUJIA5_FIELD_NUMBER = 72;
+    private long kuoZhanMaiChuJia5_;
+    /**
+     * <code>optional int64 KuoZhanMaiChuJia5 = 72;</code>
+     */
+    public boolean hasKuoZhanMaiChuJia5() {
+      return ((bitField2_ & 0x00000080) == 0x00000080);
+    }
+    /**
+     * <code>optional int64 KuoZhanMaiChuJia5 = 72;</code>
+     */
+    public long getKuoZhanMaiChuJia5() {
+      return kuoZhanMaiChuJia5_;
+    }
+
+    public static final int KUOZHANMAICHULIANG1_FIELD_NUMBER = 73;
+    private long kuoZhanMaiChuLiang1_;
+    /**
+     * <code>optional int64 KuoZhanMaiChuLiang1 = 73;</code>
+     *
+     * <pre>
+     *sellvol   5f  委卖量
+     * </pre>
+     */
+    public boolean hasKuoZhanMaiChuLiang1() {
+      return ((bitField2_ & 0x00000100) == 0x00000100);
+    }
+    /**
+     * <code>optional int64 KuoZhanMaiChuLiang1 = 73;</code>
+     *
+     * <pre>
+     *sellvol   5f  委卖量
+     * </pre>
+     */
+    public long getKuoZhanMaiChuLiang1() {
+      return kuoZhanMaiChuLiang1_;
+    }
+
+    public static final int KUOZHANMAICHULIANG2_FIELD_NUMBER = 74;
+    private long kuoZhanMaiChuLiang2_;
+    /**
+     * <code>optional int64 KuoZhanMaiChuLiang2 = 74;</code>
+     */
+    public boolean hasKuoZhanMaiChuLiang2() {
+      return ((bitField2_ & 0x00000200) == 0x00000200);
+    }
+    /**
+     * <code>optional int64 KuoZhanMaiChuLiang2 = 74;</code>
+     */
+    public long getKuoZhanMaiChuLiang2() {
+      return kuoZhanMaiChuLiang2_;
+    }
+
+    public static final int KUOZHANMAICHULIANG3_FIELD_NUMBER = 75;
+    private long kuoZhanMaiChuLiang3_;
+    /**
+     * <code>optional int64 KuoZhanMaiChuLiang3 = 75;</code>
+     */
+    public boolean hasKuoZhanMaiChuLiang3() {
+      return ((bitField2_ & 0x00000400) == 0x00000400);
+    }
+    /**
+     * <code>optional int64 KuoZhanMaiChuLiang3 = 75;</code>
+     */
+    public long getKuoZhanMaiChuLiang3() {
+      return kuoZhanMaiChuLiang3_;
+    }
+
+    public static final int KUOZHANMAICHULIANG4_FIELD_NUMBER = 76;
+    private long kuoZhanMaiChuLiang4_;
+    /**
+     * <code>optional int64 KuoZhanMaiChuLiang4 = 76;</code>
+     */
+    public boolean hasKuoZhanMaiChuLiang4() {
+      return ((bitField2_ & 0x00000800) == 0x00000800);
+    }
+    /**
+     * <code>optional int64 KuoZhanMaiChuLiang4 = 76;</code>
+     */
+    public long getKuoZhanMaiChuLiang4() {
+      return kuoZhanMaiChuLiang4_;
+    }
+
+    public static final int KUOZHANMAICHULIANG5_FIELD_NUMBER = 77;
+    private long kuoZhanMaiChuLiang5_;
+    /**
+     * <code>optional int64 KuoZhanMaiChuLiang5 = 77;</code>
+     */
+    public boolean hasKuoZhanMaiChuLiang5() {
+      return ((bitField2_ & 0x00001000) == 0x00001000);
+    }
+    /**
+     * <code>optional int64 KuoZhanMaiChuLiang5 = 77;</code>
+     */
+    public long getKuoZhanMaiChuLiang5() {
+      return kuoZhanMaiChuLiang5_;
+    }
+
     private void initFields() {
       id_ = 0L;
       shiJian_ = 0L;
@@ -2636,6 +4454,52 @@ public final class DzhyunGupiaoqiepian {
       fenZhongZhangFu3_ = 0L;
       fenZhongZhangFu4_ = 0L;
       fenZhongZhangFu5_ = 0L;
+      weiTuoMaiRuJia1_ = 0L;
+      weiTuoMaiRuLiang1_ = 0L;
+      weiTuoMaiRuJia2_ = 0L;
+      weiTuoMaiRuLiang2_ = 0L;
+      weiTuoMaiRuJia3_ = 0L;
+      weiTuoMaiRuLiang3_ = 0L;
+      weiTuoMaiRuJia4_ = 0L;
+      weiTuoMaiRuLiang4_ = 0L;
+      weiTuoMaiRuJia5_ = 0L;
+      weiTuoMaiRuLiang5_ = 0L;
+      weiTuoMaiChuJia1_ = 0L;
+      weiTuoMaiChuLiang1_ = 0L;
+      weiTuoMaiChuJia2_ = 0L;
+      weiTuoMaiChuLiang2_ = 0L;
+      weiTuoMaiChuJia3_ = 0L;
+      weiTuoMaiChuLiang3_ = 0L;
+      weiTuoMaiChuJia4_ = 0L;
+      weiTuoMaiChuLiang4_ = 0L;
+      weiTuoMaiChuJia5_ = 0L;
+      weiTuoMaiChuLiang5_ = 0L;
+      weiBi_ = 0L;
+      weiCha_ = 0L;
+      jiaQuanPingJunWeiTuoMaiRuJia_ = 0L;
+      weiTuoMaiRuZongLiang_ = 0L;
+      jiaQuanPingJunWeiTuoMaiChuJia_ = 0L;
+      weiTuoMaiChuZongLiang_ = 0L;
+      kuoZhanMaiRuJia1_ = 0L;
+      kuoZhanMaiRuJia2_ = 0L;
+      kuoZhanMaiRuJia3_ = 0L;
+      kuoZhanMaiRuJia4_ = 0L;
+      kuoZhanMaiRuJia5_ = 0L;
+      kuoZhanMaiRuLiang1_ = 0L;
+      kuoZhanMaiRuLiang2_ = 0L;
+      kuoZhanMaiRuLiang3_ = 0L;
+      kuoZhanMaiRuLiang4_ = 0L;
+      kuoZhanMaiRuLiang5_ = 0L;
+      kuoZhanMaiChuJia1_ = 0L;
+      kuoZhanMaiChuJia2_ = 0L;
+      kuoZhanMaiChuJia3_ = 0L;
+      kuoZhanMaiChuJia4_ = 0L;
+      kuoZhanMaiChuJia5_ = 0L;
+      kuoZhanMaiChuLiang1_ = 0L;
+      kuoZhanMaiChuLiang2_ = 0L;
+      kuoZhanMaiChuLiang3_ = 0L;
+      kuoZhanMaiChuLiang4_ = 0L;
+      kuoZhanMaiChuLiang5_ = 0L;
     }
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
@@ -2750,6 +4614,144 @@ public final class DzhyunGupiaoqiepian {
       }
       if (((bitField0_ & 0x40000000) == 0x40000000)) {
         output.writeInt64(31, fenZhongZhangFu5_);
+      }
+      if (((bitField0_ & 0x80000000) == 0x80000000)) {
+        output.writeInt64(32, weiTuoMaiRuJia1_);
+      }
+      if (((bitField1_ & 0x00000001) == 0x00000001)) {
+        output.writeInt64(33, weiTuoMaiRuLiang1_);
+      }
+      if (((bitField1_ & 0x00000002) == 0x00000002)) {
+        output.writeInt64(34, weiTuoMaiRuJia2_);
+      }
+      if (((bitField1_ & 0x00000004) == 0x00000004)) {
+        output.writeInt64(35, weiTuoMaiRuLiang2_);
+      }
+      if (((bitField1_ & 0x00000008) == 0x00000008)) {
+        output.writeInt64(36, weiTuoMaiRuJia3_);
+      }
+      if (((bitField1_ & 0x00000010) == 0x00000010)) {
+        output.writeInt64(37, weiTuoMaiRuLiang3_);
+      }
+      if (((bitField1_ & 0x00000020) == 0x00000020)) {
+        output.writeInt64(38, weiTuoMaiRuJia4_);
+      }
+      if (((bitField1_ & 0x00000040) == 0x00000040)) {
+        output.writeInt64(39, weiTuoMaiRuLiang4_);
+      }
+      if (((bitField1_ & 0x00000080) == 0x00000080)) {
+        output.writeInt64(40, weiTuoMaiRuJia5_);
+      }
+      if (((bitField1_ & 0x00000100) == 0x00000100)) {
+        output.writeInt64(41, weiTuoMaiRuLiang5_);
+      }
+      if (((bitField1_ & 0x00000200) == 0x00000200)) {
+        output.writeInt64(42, weiTuoMaiChuJia1_);
+      }
+      if (((bitField1_ & 0x00000400) == 0x00000400)) {
+        output.writeInt64(43, weiTuoMaiChuLiang1_);
+      }
+      if (((bitField1_ & 0x00000800) == 0x00000800)) {
+        output.writeInt64(44, weiTuoMaiChuJia2_);
+      }
+      if (((bitField1_ & 0x00001000) == 0x00001000)) {
+        output.writeInt64(45, weiTuoMaiChuLiang2_);
+      }
+      if (((bitField1_ & 0x00002000) == 0x00002000)) {
+        output.writeInt64(46, weiTuoMaiChuJia3_);
+      }
+      if (((bitField1_ & 0x00004000) == 0x00004000)) {
+        output.writeInt64(47, weiTuoMaiChuLiang3_);
+      }
+      if (((bitField1_ & 0x00008000) == 0x00008000)) {
+        output.writeInt64(48, weiTuoMaiChuJia4_);
+      }
+      if (((bitField1_ & 0x00010000) == 0x00010000)) {
+        output.writeInt64(49, weiTuoMaiChuLiang4_);
+      }
+      if (((bitField1_ & 0x00020000) == 0x00020000)) {
+        output.writeInt64(50, weiTuoMaiChuJia5_);
+      }
+      if (((bitField1_ & 0x00040000) == 0x00040000)) {
+        output.writeInt64(51, weiTuoMaiChuLiang5_);
+      }
+      if (((bitField1_ & 0x00080000) == 0x00080000)) {
+        output.writeInt64(52, weiBi_);
+      }
+      if (((bitField1_ & 0x00100000) == 0x00100000)) {
+        output.writeInt64(53, weiCha_);
+      }
+      if (((bitField1_ & 0x00200000) == 0x00200000)) {
+        output.writeInt64(54, jiaQuanPingJunWeiTuoMaiRuJia_);
+      }
+      if (((bitField1_ & 0x00400000) == 0x00400000)) {
+        output.writeInt64(55, weiTuoMaiRuZongLiang_);
+      }
+      if (((bitField1_ & 0x00800000) == 0x00800000)) {
+        output.writeInt64(56, jiaQuanPingJunWeiTuoMaiChuJia_);
+      }
+      if (((bitField1_ & 0x01000000) == 0x01000000)) {
+        output.writeInt64(57, weiTuoMaiChuZongLiang_);
+      }
+      if (((bitField1_ & 0x02000000) == 0x02000000)) {
+        output.writeInt64(58, kuoZhanMaiRuJia1_);
+      }
+      if (((bitField1_ & 0x04000000) == 0x04000000)) {
+        output.writeInt64(59, kuoZhanMaiRuJia2_);
+      }
+      if (((bitField1_ & 0x08000000) == 0x08000000)) {
+        output.writeInt64(60, kuoZhanMaiRuJia3_);
+      }
+      if (((bitField1_ & 0x10000000) == 0x10000000)) {
+        output.writeInt64(61, kuoZhanMaiRuJia4_);
+      }
+      if (((bitField1_ & 0x20000000) == 0x20000000)) {
+        output.writeInt64(62, kuoZhanMaiRuJia5_);
+      }
+      if (((bitField1_ & 0x40000000) == 0x40000000)) {
+        output.writeInt64(63, kuoZhanMaiRuLiang1_);
+      }
+      if (((bitField1_ & 0x80000000) == 0x80000000)) {
+        output.writeInt64(64, kuoZhanMaiRuLiang2_);
+      }
+      if (((bitField2_ & 0x00000001) == 0x00000001)) {
+        output.writeInt64(65, kuoZhanMaiRuLiang3_);
+      }
+      if (((bitField2_ & 0x00000002) == 0x00000002)) {
+        output.writeInt64(66, kuoZhanMaiRuLiang4_);
+      }
+      if (((bitField2_ & 0x00000004) == 0x00000004)) {
+        output.writeInt64(67, kuoZhanMaiRuLiang5_);
+      }
+      if (((bitField2_ & 0x00000008) == 0x00000008)) {
+        output.writeInt64(68, kuoZhanMaiChuJia1_);
+      }
+      if (((bitField2_ & 0x00000010) == 0x00000010)) {
+        output.writeInt64(69, kuoZhanMaiChuJia2_);
+      }
+      if (((bitField2_ & 0x00000020) == 0x00000020)) {
+        output.writeInt64(70, kuoZhanMaiChuJia3_);
+      }
+      if (((bitField2_ & 0x00000040) == 0x00000040)) {
+        output.writeInt64(71, kuoZhanMaiChuJia4_);
+      }
+      if (((bitField2_ & 0x00000080) == 0x00000080)) {
+        output.writeInt64(72, kuoZhanMaiChuJia5_);
+      }
+      if (((bitField2_ & 0x00000100) == 0x00000100)) {
+        output.writeInt64(73, kuoZhanMaiChuLiang1_);
+      }
+      if (((bitField2_ & 0x00000200) == 0x00000200)) {
+        output.writeInt64(74, kuoZhanMaiChuLiang2_);
+      }
+      if (((bitField2_ & 0x00000400) == 0x00000400)) {
+        output.writeInt64(75, kuoZhanMaiChuLiang3_);
+      }
+      if (((bitField2_ & 0x00000800) == 0x00000800)) {
+        output.writeInt64(76, kuoZhanMaiChuLiang4_);
+      }
+      if (((bitField2_ & 0x00001000) == 0x00001000)) {
+        output.writeInt64(77, kuoZhanMaiChuLiang5_);
       }
       getUnknownFields().writeTo(output);
     }
@@ -2883,6 +4885,190 @@ public final class DzhyunGupiaoqiepian {
       if (((bitField0_ & 0x40000000) == 0x40000000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(31, fenZhongZhangFu5_);
+      }
+      if (((bitField0_ & 0x80000000) == 0x80000000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(32, weiTuoMaiRuJia1_);
+      }
+      if (((bitField1_ & 0x00000001) == 0x00000001)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(33, weiTuoMaiRuLiang1_);
+      }
+      if (((bitField1_ & 0x00000002) == 0x00000002)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(34, weiTuoMaiRuJia2_);
+      }
+      if (((bitField1_ & 0x00000004) == 0x00000004)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(35, weiTuoMaiRuLiang2_);
+      }
+      if (((bitField1_ & 0x00000008) == 0x00000008)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(36, weiTuoMaiRuJia3_);
+      }
+      if (((bitField1_ & 0x00000010) == 0x00000010)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(37, weiTuoMaiRuLiang3_);
+      }
+      if (((bitField1_ & 0x00000020) == 0x00000020)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(38, weiTuoMaiRuJia4_);
+      }
+      if (((bitField1_ & 0x00000040) == 0x00000040)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(39, weiTuoMaiRuLiang4_);
+      }
+      if (((bitField1_ & 0x00000080) == 0x00000080)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(40, weiTuoMaiRuJia5_);
+      }
+      if (((bitField1_ & 0x00000100) == 0x00000100)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(41, weiTuoMaiRuLiang5_);
+      }
+      if (((bitField1_ & 0x00000200) == 0x00000200)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(42, weiTuoMaiChuJia1_);
+      }
+      if (((bitField1_ & 0x00000400) == 0x00000400)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(43, weiTuoMaiChuLiang1_);
+      }
+      if (((bitField1_ & 0x00000800) == 0x00000800)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(44, weiTuoMaiChuJia2_);
+      }
+      if (((bitField1_ & 0x00001000) == 0x00001000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(45, weiTuoMaiChuLiang2_);
+      }
+      if (((bitField1_ & 0x00002000) == 0x00002000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(46, weiTuoMaiChuJia3_);
+      }
+      if (((bitField1_ & 0x00004000) == 0x00004000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(47, weiTuoMaiChuLiang3_);
+      }
+      if (((bitField1_ & 0x00008000) == 0x00008000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(48, weiTuoMaiChuJia4_);
+      }
+      if (((bitField1_ & 0x00010000) == 0x00010000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(49, weiTuoMaiChuLiang4_);
+      }
+      if (((bitField1_ & 0x00020000) == 0x00020000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(50, weiTuoMaiChuJia5_);
+      }
+      if (((bitField1_ & 0x00040000) == 0x00040000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(51, weiTuoMaiChuLiang5_);
+      }
+      if (((bitField1_ & 0x00080000) == 0x00080000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(52, weiBi_);
+      }
+      if (((bitField1_ & 0x00100000) == 0x00100000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(53, weiCha_);
+      }
+      if (((bitField1_ & 0x00200000) == 0x00200000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(54, jiaQuanPingJunWeiTuoMaiRuJia_);
+      }
+      if (((bitField1_ & 0x00400000) == 0x00400000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(55, weiTuoMaiRuZongLiang_);
+      }
+      if (((bitField1_ & 0x00800000) == 0x00800000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(56, jiaQuanPingJunWeiTuoMaiChuJia_);
+      }
+      if (((bitField1_ & 0x01000000) == 0x01000000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(57, weiTuoMaiChuZongLiang_);
+      }
+      if (((bitField1_ & 0x02000000) == 0x02000000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(58, kuoZhanMaiRuJia1_);
+      }
+      if (((bitField1_ & 0x04000000) == 0x04000000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(59, kuoZhanMaiRuJia2_);
+      }
+      if (((bitField1_ & 0x08000000) == 0x08000000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(60, kuoZhanMaiRuJia3_);
+      }
+      if (((bitField1_ & 0x10000000) == 0x10000000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(61, kuoZhanMaiRuJia4_);
+      }
+      if (((bitField1_ & 0x20000000) == 0x20000000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(62, kuoZhanMaiRuJia5_);
+      }
+      if (((bitField1_ & 0x40000000) == 0x40000000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(63, kuoZhanMaiRuLiang1_);
+      }
+      if (((bitField1_ & 0x80000000) == 0x80000000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(64, kuoZhanMaiRuLiang2_);
+      }
+      if (((bitField2_ & 0x00000001) == 0x00000001)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(65, kuoZhanMaiRuLiang3_);
+      }
+      if (((bitField2_ & 0x00000002) == 0x00000002)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(66, kuoZhanMaiRuLiang4_);
+      }
+      if (((bitField2_ & 0x00000004) == 0x00000004)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(67, kuoZhanMaiRuLiang5_);
+      }
+      if (((bitField2_ & 0x00000008) == 0x00000008)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(68, kuoZhanMaiChuJia1_);
+      }
+      if (((bitField2_ & 0x00000010) == 0x00000010)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(69, kuoZhanMaiChuJia2_);
+      }
+      if (((bitField2_ & 0x00000020) == 0x00000020)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(70, kuoZhanMaiChuJia3_);
+      }
+      if (((bitField2_ & 0x00000040) == 0x00000040)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(71, kuoZhanMaiChuJia4_);
+      }
+      if (((bitField2_ & 0x00000080) == 0x00000080)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(72, kuoZhanMaiChuJia5_);
+      }
+      if (((bitField2_ & 0x00000100) == 0x00000100)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(73, kuoZhanMaiChuLiang1_);
+      }
+      if (((bitField2_ & 0x00000200) == 0x00000200)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(74, kuoZhanMaiChuLiang2_);
+      }
+      if (((bitField2_ & 0x00000400) == 0x00000400)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(75, kuoZhanMaiChuLiang3_);
+      }
+      if (((bitField2_ & 0x00000800) == 0x00000800)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(76, kuoZhanMaiChuLiang4_);
+      }
+      if (((bitField2_ & 0x00001000) == 0x00001000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(77, kuoZhanMaiChuLiang5_);
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
@@ -3063,6 +5249,98 @@ public final class DzhyunGupiaoqiepian {
         bitField0_ = (bitField0_ & ~0x20000000);
         fenZhongZhangFu5_ = 0L;
         bitField0_ = (bitField0_ & ~0x40000000);
+        weiTuoMaiRuJia1_ = 0L;
+        bitField0_ = (bitField0_ & ~0x80000000);
+        weiTuoMaiRuLiang1_ = 0L;
+        bitField1_ = (bitField1_ & ~0x00000001);
+        weiTuoMaiRuJia2_ = 0L;
+        bitField1_ = (bitField1_ & ~0x00000002);
+        weiTuoMaiRuLiang2_ = 0L;
+        bitField1_ = (bitField1_ & ~0x00000004);
+        weiTuoMaiRuJia3_ = 0L;
+        bitField1_ = (bitField1_ & ~0x00000008);
+        weiTuoMaiRuLiang3_ = 0L;
+        bitField1_ = (bitField1_ & ~0x00000010);
+        weiTuoMaiRuJia4_ = 0L;
+        bitField1_ = (bitField1_ & ~0x00000020);
+        weiTuoMaiRuLiang4_ = 0L;
+        bitField1_ = (bitField1_ & ~0x00000040);
+        weiTuoMaiRuJia5_ = 0L;
+        bitField1_ = (bitField1_ & ~0x00000080);
+        weiTuoMaiRuLiang5_ = 0L;
+        bitField1_ = (bitField1_ & ~0x00000100);
+        weiTuoMaiChuJia1_ = 0L;
+        bitField1_ = (bitField1_ & ~0x00000200);
+        weiTuoMaiChuLiang1_ = 0L;
+        bitField1_ = (bitField1_ & ~0x00000400);
+        weiTuoMaiChuJia2_ = 0L;
+        bitField1_ = (bitField1_ & ~0x00000800);
+        weiTuoMaiChuLiang2_ = 0L;
+        bitField1_ = (bitField1_ & ~0x00001000);
+        weiTuoMaiChuJia3_ = 0L;
+        bitField1_ = (bitField1_ & ~0x00002000);
+        weiTuoMaiChuLiang3_ = 0L;
+        bitField1_ = (bitField1_ & ~0x00004000);
+        weiTuoMaiChuJia4_ = 0L;
+        bitField1_ = (bitField1_ & ~0x00008000);
+        weiTuoMaiChuLiang4_ = 0L;
+        bitField1_ = (bitField1_ & ~0x00010000);
+        weiTuoMaiChuJia5_ = 0L;
+        bitField1_ = (bitField1_ & ~0x00020000);
+        weiTuoMaiChuLiang5_ = 0L;
+        bitField1_ = (bitField1_ & ~0x00040000);
+        weiBi_ = 0L;
+        bitField1_ = (bitField1_ & ~0x00080000);
+        weiCha_ = 0L;
+        bitField1_ = (bitField1_ & ~0x00100000);
+        jiaQuanPingJunWeiTuoMaiRuJia_ = 0L;
+        bitField1_ = (bitField1_ & ~0x00200000);
+        weiTuoMaiRuZongLiang_ = 0L;
+        bitField1_ = (bitField1_ & ~0x00400000);
+        jiaQuanPingJunWeiTuoMaiChuJia_ = 0L;
+        bitField1_ = (bitField1_ & ~0x00800000);
+        weiTuoMaiChuZongLiang_ = 0L;
+        bitField1_ = (bitField1_ & ~0x01000000);
+        kuoZhanMaiRuJia1_ = 0L;
+        bitField1_ = (bitField1_ & ~0x02000000);
+        kuoZhanMaiRuJia2_ = 0L;
+        bitField1_ = (bitField1_ & ~0x04000000);
+        kuoZhanMaiRuJia3_ = 0L;
+        bitField1_ = (bitField1_ & ~0x08000000);
+        kuoZhanMaiRuJia4_ = 0L;
+        bitField1_ = (bitField1_ & ~0x10000000);
+        kuoZhanMaiRuJia5_ = 0L;
+        bitField1_ = (bitField1_ & ~0x20000000);
+        kuoZhanMaiRuLiang1_ = 0L;
+        bitField1_ = (bitField1_ & ~0x40000000);
+        kuoZhanMaiRuLiang2_ = 0L;
+        bitField1_ = (bitField1_ & ~0x80000000);
+        kuoZhanMaiRuLiang3_ = 0L;
+        bitField2_ = (bitField2_ & ~0x00000001);
+        kuoZhanMaiRuLiang4_ = 0L;
+        bitField2_ = (bitField2_ & ~0x00000002);
+        kuoZhanMaiRuLiang5_ = 0L;
+        bitField2_ = (bitField2_ & ~0x00000004);
+        kuoZhanMaiChuJia1_ = 0L;
+        bitField2_ = (bitField2_ & ~0x00000008);
+        kuoZhanMaiChuJia2_ = 0L;
+        bitField2_ = (bitField2_ & ~0x00000010);
+        kuoZhanMaiChuJia3_ = 0L;
+        bitField2_ = (bitField2_ & ~0x00000020);
+        kuoZhanMaiChuJia4_ = 0L;
+        bitField2_ = (bitField2_ & ~0x00000040);
+        kuoZhanMaiChuJia5_ = 0L;
+        bitField2_ = (bitField2_ & ~0x00000080);
+        kuoZhanMaiChuLiang1_ = 0L;
+        bitField2_ = (bitField2_ & ~0x00000100);
+        kuoZhanMaiChuLiang2_ = 0L;
+        bitField2_ = (bitField2_ & ~0x00000200);
+        kuoZhanMaiChuLiang3_ = 0L;
+        bitField2_ = (bitField2_ & ~0x00000400);
+        kuoZhanMaiChuLiang4_ = 0L;
+        bitField2_ = (bitField2_ & ~0x00000800);
+        kuoZhanMaiChuLiang5_ = 0L;
+        bitField2_ = (bitField2_ & ~0x00001000);
         return this;
       }
 
@@ -3090,7 +5368,11 @@ public final class DzhyunGupiaoqiepian {
       public com.dzhyun.proto.DzhyunGupiaoqiepian.GeGuDongTai buildPartial() {
         com.dzhyun.proto.DzhyunGupiaoqiepian.GeGuDongTai result = new com.dzhyun.proto.DzhyunGupiaoqiepian.GeGuDongTai(this);
         int from_bitField0_ = bitField0_;
+        int from_bitField1_ = bitField1_;
+        int from_bitField2_ = bitField2_;
         int to_bitField0_ = 0;
+        int to_bitField1_ = 0;
+        int to_bitField2_ = 0;
         if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
           to_bitField0_ |= 0x00000001;
         }
@@ -3215,7 +5497,193 @@ public final class DzhyunGupiaoqiepian {
           to_bitField0_ |= 0x40000000;
         }
         result.fenZhongZhangFu5_ = fenZhongZhangFu5_;
+        if (((from_bitField0_ & 0x80000000) == 0x80000000)) {
+          to_bitField0_ |= 0x80000000;
+        }
+        result.weiTuoMaiRuJia1_ = weiTuoMaiRuJia1_;
+        if (((from_bitField1_ & 0x00000001) == 0x00000001)) {
+          to_bitField1_ |= 0x00000001;
+        }
+        result.weiTuoMaiRuLiang1_ = weiTuoMaiRuLiang1_;
+        if (((from_bitField1_ & 0x00000002) == 0x00000002)) {
+          to_bitField1_ |= 0x00000002;
+        }
+        result.weiTuoMaiRuJia2_ = weiTuoMaiRuJia2_;
+        if (((from_bitField1_ & 0x00000004) == 0x00000004)) {
+          to_bitField1_ |= 0x00000004;
+        }
+        result.weiTuoMaiRuLiang2_ = weiTuoMaiRuLiang2_;
+        if (((from_bitField1_ & 0x00000008) == 0x00000008)) {
+          to_bitField1_ |= 0x00000008;
+        }
+        result.weiTuoMaiRuJia3_ = weiTuoMaiRuJia3_;
+        if (((from_bitField1_ & 0x00000010) == 0x00000010)) {
+          to_bitField1_ |= 0x00000010;
+        }
+        result.weiTuoMaiRuLiang3_ = weiTuoMaiRuLiang3_;
+        if (((from_bitField1_ & 0x00000020) == 0x00000020)) {
+          to_bitField1_ |= 0x00000020;
+        }
+        result.weiTuoMaiRuJia4_ = weiTuoMaiRuJia4_;
+        if (((from_bitField1_ & 0x00000040) == 0x00000040)) {
+          to_bitField1_ |= 0x00000040;
+        }
+        result.weiTuoMaiRuLiang4_ = weiTuoMaiRuLiang4_;
+        if (((from_bitField1_ & 0x00000080) == 0x00000080)) {
+          to_bitField1_ |= 0x00000080;
+        }
+        result.weiTuoMaiRuJia5_ = weiTuoMaiRuJia5_;
+        if (((from_bitField1_ & 0x00000100) == 0x00000100)) {
+          to_bitField1_ |= 0x00000100;
+        }
+        result.weiTuoMaiRuLiang5_ = weiTuoMaiRuLiang5_;
+        if (((from_bitField1_ & 0x00000200) == 0x00000200)) {
+          to_bitField1_ |= 0x00000200;
+        }
+        result.weiTuoMaiChuJia1_ = weiTuoMaiChuJia1_;
+        if (((from_bitField1_ & 0x00000400) == 0x00000400)) {
+          to_bitField1_ |= 0x00000400;
+        }
+        result.weiTuoMaiChuLiang1_ = weiTuoMaiChuLiang1_;
+        if (((from_bitField1_ & 0x00000800) == 0x00000800)) {
+          to_bitField1_ |= 0x00000800;
+        }
+        result.weiTuoMaiChuJia2_ = weiTuoMaiChuJia2_;
+        if (((from_bitField1_ & 0x00001000) == 0x00001000)) {
+          to_bitField1_ |= 0x00001000;
+        }
+        result.weiTuoMaiChuLiang2_ = weiTuoMaiChuLiang2_;
+        if (((from_bitField1_ & 0x00002000) == 0x00002000)) {
+          to_bitField1_ |= 0x00002000;
+        }
+        result.weiTuoMaiChuJia3_ = weiTuoMaiChuJia3_;
+        if (((from_bitField1_ & 0x00004000) == 0x00004000)) {
+          to_bitField1_ |= 0x00004000;
+        }
+        result.weiTuoMaiChuLiang3_ = weiTuoMaiChuLiang3_;
+        if (((from_bitField1_ & 0x00008000) == 0x00008000)) {
+          to_bitField1_ |= 0x00008000;
+        }
+        result.weiTuoMaiChuJia4_ = weiTuoMaiChuJia4_;
+        if (((from_bitField1_ & 0x00010000) == 0x00010000)) {
+          to_bitField1_ |= 0x00010000;
+        }
+        result.weiTuoMaiChuLiang4_ = weiTuoMaiChuLiang4_;
+        if (((from_bitField1_ & 0x00020000) == 0x00020000)) {
+          to_bitField1_ |= 0x00020000;
+        }
+        result.weiTuoMaiChuJia5_ = weiTuoMaiChuJia5_;
+        if (((from_bitField1_ & 0x00040000) == 0x00040000)) {
+          to_bitField1_ |= 0x00040000;
+        }
+        result.weiTuoMaiChuLiang5_ = weiTuoMaiChuLiang5_;
+        if (((from_bitField1_ & 0x00080000) == 0x00080000)) {
+          to_bitField1_ |= 0x00080000;
+        }
+        result.weiBi_ = weiBi_;
+        if (((from_bitField1_ & 0x00100000) == 0x00100000)) {
+          to_bitField1_ |= 0x00100000;
+        }
+        result.weiCha_ = weiCha_;
+        if (((from_bitField1_ & 0x00200000) == 0x00200000)) {
+          to_bitField1_ |= 0x00200000;
+        }
+        result.jiaQuanPingJunWeiTuoMaiRuJia_ = jiaQuanPingJunWeiTuoMaiRuJia_;
+        if (((from_bitField1_ & 0x00400000) == 0x00400000)) {
+          to_bitField1_ |= 0x00400000;
+        }
+        result.weiTuoMaiRuZongLiang_ = weiTuoMaiRuZongLiang_;
+        if (((from_bitField1_ & 0x00800000) == 0x00800000)) {
+          to_bitField1_ |= 0x00800000;
+        }
+        result.jiaQuanPingJunWeiTuoMaiChuJia_ = jiaQuanPingJunWeiTuoMaiChuJia_;
+        if (((from_bitField1_ & 0x01000000) == 0x01000000)) {
+          to_bitField1_ |= 0x01000000;
+        }
+        result.weiTuoMaiChuZongLiang_ = weiTuoMaiChuZongLiang_;
+        if (((from_bitField1_ & 0x02000000) == 0x02000000)) {
+          to_bitField1_ |= 0x02000000;
+        }
+        result.kuoZhanMaiRuJia1_ = kuoZhanMaiRuJia1_;
+        if (((from_bitField1_ & 0x04000000) == 0x04000000)) {
+          to_bitField1_ |= 0x04000000;
+        }
+        result.kuoZhanMaiRuJia2_ = kuoZhanMaiRuJia2_;
+        if (((from_bitField1_ & 0x08000000) == 0x08000000)) {
+          to_bitField1_ |= 0x08000000;
+        }
+        result.kuoZhanMaiRuJia3_ = kuoZhanMaiRuJia3_;
+        if (((from_bitField1_ & 0x10000000) == 0x10000000)) {
+          to_bitField1_ |= 0x10000000;
+        }
+        result.kuoZhanMaiRuJia4_ = kuoZhanMaiRuJia4_;
+        if (((from_bitField1_ & 0x20000000) == 0x20000000)) {
+          to_bitField1_ |= 0x20000000;
+        }
+        result.kuoZhanMaiRuJia5_ = kuoZhanMaiRuJia5_;
+        if (((from_bitField1_ & 0x40000000) == 0x40000000)) {
+          to_bitField1_ |= 0x40000000;
+        }
+        result.kuoZhanMaiRuLiang1_ = kuoZhanMaiRuLiang1_;
+        if (((from_bitField1_ & 0x80000000) == 0x80000000)) {
+          to_bitField1_ |= 0x80000000;
+        }
+        result.kuoZhanMaiRuLiang2_ = kuoZhanMaiRuLiang2_;
+        if (((from_bitField2_ & 0x00000001) == 0x00000001)) {
+          to_bitField2_ |= 0x00000001;
+        }
+        result.kuoZhanMaiRuLiang3_ = kuoZhanMaiRuLiang3_;
+        if (((from_bitField2_ & 0x00000002) == 0x00000002)) {
+          to_bitField2_ |= 0x00000002;
+        }
+        result.kuoZhanMaiRuLiang4_ = kuoZhanMaiRuLiang4_;
+        if (((from_bitField2_ & 0x00000004) == 0x00000004)) {
+          to_bitField2_ |= 0x00000004;
+        }
+        result.kuoZhanMaiRuLiang5_ = kuoZhanMaiRuLiang5_;
+        if (((from_bitField2_ & 0x00000008) == 0x00000008)) {
+          to_bitField2_ |= 0x00000008;
+        }
+        result.kuoZhanMaiChuJia1_ = kuoZhanMaiChuJia1_;
+        if (((from_bitField2_ & 0x00000010) == 0x00000010)) {
+          to_bitField2_ |= 0x00000010;
+        }
+        result.kuoZhanMaiChuJia2_ = kuoZhanMaiChuJia2_;
+        if (((from_bitField2_ & 0x00000020) == 0x00000020)) {
+          to_bitField2_ |= 0x00000020;
+        }
+        result.kuoZhanMaiChuJia3_ = kuoZhanMaiChuJia3_;
+        if (((from_bitField2_ & 0x00000040) == 0x00000040)) {
+          to_bitField2_ |= 0x00000040;
+        }
+        result.kuoZhanMaiChuJia4_ = kuoZhanMaiChuJia4_;
+        if (((from_bitField2_ & 0x00000080) == 0x00000080)) {
+          to_bitField2_ |= 0x00000080;
+        }
+        result.kuoZhanMaiChuJia5_ = kuoZhanMaiChuJia5_;
+        if (((from_bitField2_ & 0x00000100) == 0x00000100)) {
+          to_bitField2_ |= 0x00000100;
+        }
+        result.kuoZhanMaiChuLiang1_ = kuoZhanMaiChuLiang1_;
+        if (((from_bitField2_ & 0x00000200) == 0x00000200)) {
+          to_bitField2_ |= 0x00000200;
+        }
+        result.kuoZhanMaiChuLiang2_ = kuoZhanMaiChuLiang2_;
+        if (((from_bitField2_ & 0x00000400) == 0x00000400)) {
+          to_bitField2_ |= 0x00000400;
+        }
+        result.kuoZhanMaiChuLiang3_ = kuoZhanMaiChuLiang3_;
+        if (((from_bitField2_ & 0x00000800) == 0x00000800)) {
+          to_bitField2_ |= 0x00000800;
+        }
+        result.kuoZhanMaiChuLiang4_ = kuoZhanMaiChuLiang4_;
+        if (((from_bitField2_ & 0x00001000) == 0x00001000)) {
+          to_bitField2_ |= 0x00001000;
+        }
+        result.kuoZhanMaiChuLiang5_ = kuoZhanMaiChuLiang5_;
         result.bitField0_ = to_bitField0_;
+        result.bitField1_ = to_bitField1_;
+        result.bitField2_ = to_bitField2_;
         onBuilt();
         return result;
       }
@@ -3324,6 +5792,144 @@ public final class DzhyunGupiaoqiepian {
         if (other.hasFenZhongZhangFu5()) {
           setFenZhongZhangFu5(other.getFenZhongZhangFu5());
         }
+        if (other.hasWeiTuoMaiRuJia1()) {
+          setWeiTuoMaiRuJia1(other.getWeiTuoMaiRuJia1());
+        }
+        if (other.hasWeiTuoMaiRuLiang1()) {
+          setWeiTuoMaiRuLiang1(other.getWeiTuoMaiRuLiang1());
+        }
+        if (other.hasWeiTuoMaiRuJia2()) {
+          setWeiTuoMaiRuJia2(other.getWeiTuoMaiRuJia2());
+        }
+        if (other.hasWeiTuoMaiRuLiang2()) {
+          setWeiTuoMaiRuLiang2(other.getWeiTuoMaiRuLiang2());
+        }
+        if (other.hasWeiTuoMaiRuJia3()) {
+          setWeiTuoMaiRuJia3(other.getWeiTuoMaiRuJia3());
+        }
+        if (other.hasWeiTuoMaiRuLiang3()) {
+          setWeiTuoMaiRuLiang3(other.getWeiTuoMaiRuLiang3());
+        }
+        if (other.hasWeiTuoMaiRuJia4()) {
+          setWeiTuoMaiRuJia4(other.getWeiTuoMaiRuJia4());
+        }
+        if (other.hasWeiTuoMaiRuLiang4()) {
+          setWeiTuoMaiRuLiang4(other.getWeiTuoMaiRuLiang4());
+        }
+        if (other.hasWeiTuoMaiRuJia5()) {
+          setWeiTuoMaiRuJia5(other.getWeiTuoMaiRuJia5());
+        }
+        if (other.hasWeiTuoMaiRuLiang5()) {
+          setWeiTuoMaiRuLiang5(other.getWeiTuoMaiRuLiang5());
+        }
+        if (other.hasWeiTuoMaiChuJia1()) {
+          setWeiTuoMaiChuJia1(other.getWeiTuoMaiChuJia1());
+        }
+        if (other.hasWeiTuoMaiChuLiang1()) {
+          setWeiTuoMaiChuLiang1(other.getWeiTuoMaiChuLiang1());
+        }
+        if (other.hasWeiTuoMaiChuJia2()) {
+          setWeiTuoMaiChuJia2(other.getWeiTuoMaiChuJia2());
+        }
+        if (other.hasWeiTuoMaiChuLiang2()) {
+          setWeiTuoMaiChuLiang2(other.getWeiTuoMaiChuLiang2());
+        }
+        if (other.hasWeiTuoMaiChuJia3()) {
+          setWeiTuoMaiChuJia3(other.getWeiTuoMaiChuJia3());
+        }
+        if (other.hasWeiTuoMaiChuLiang3()) {
+          setWeiTuoMaiChuLiang3(other.getWeiTuoMaiChuLiang3());
+        }
+        if (other.hasWeiTuoMaiChuJia4()) {
+          setWeiTuoMaiChuJia4(other.getWeiTuoMaiChuJia4());
+        }
+        if (other.hasWeiTuoMaiChuLiang4()) {
+          setWeiTuoMaiChuLiang4(other.getWeiTuoMaiChuLiang4());
+        }
+        if (other.hasWeiTuoMaiChuJia5()) {
+          setWeiTuoMaiChuJia5(other.getWeiTuoMaiChuJia5());
+        }
+        if (other.hasWeiTuoMaiChuLiang5()) {
+          setWeiTuoMaiChuLiang5(other.getWeiTuoMaiChuLiang5());
+        }
+        if (other.hasWeiBi()) {
+          setWeiBi(other.getWeiBi());
+        }
+        if (other.hasWeiCha()) {
+          setWeiCha(other.getWeiCha());
+        }
+        if (other.hasJiaQuanPingJunWeiTuoMaiRuJia()) {
+          setJiaQuanPingJunWeiTuoMaiRuJia(other.getJiaQuanPingJunWeiTuoMaiRuJia());
+        }
+        if (other.hasWeiTuoMaiRuZongLiang()) {
+          setWeiTuoMaiRuZongLiang(other.getWeiTuoMaiRuZongLiang());
+        }
+        if (other.hasJiaQuanPingJunWeiTuoMaiChuJia()) {
+          setJiaQuanPingJunWeiTuoMaiChuJia(other.getJiaQuanPingJunWeiTuoMaiChuJia());
+        }
+        if (other.hasWeiTuoMaiChuZongLiang()) {
+          setWeiTuoMaiChuZongLiang(other.getWeiTuoMaiChuZongLiang());
+        }
+        if (other.hasKuoZhanMaiRuJia1()) {
+          setKuoZhanMaiRuJia1(other.getKuoZhanMaiRuJia1());
+        }
+        if (other.hasKuoZhanMaiRuJia2()) {
+          setKuoZhanMaiRuJia2(other.getKuoZhanMaiRuJia2());
+        }
+        if (other.hasKuoZhanMaiRuJia3()) {
+          setKuoZhanMaiRuJia3(other.getKuoZhanMaiRuJia3());
+        }
+        if (other.hasKuoZhanMaiRuJia4()) {
+          setKuoZhanMaiRuJia4(other.getKuoZhanMaiRuJia4());
+        }
+        if (other.hasKuoZhanMaiRuJia5()) {
+          setKuoZhanMaiRuJia5(other.getKuoZhanMaiRuJia5());
+        }
+        if (other.hasKuoZhanMaiRuLiang1()) {
+          setKuoZhanMaiRuLiang1(other.getKuoZhanMaiRuLiang1());
+        }
+        if (other.hasKuoZhanMaiRuLiang2()) {
+          setKuoZhanMaiRuLiang2(other.getKuoZhanMaiRuLiang2());
+        }
+        if (other.hasKuoZhanMaiRuLiang3()) {
+          setKuoZhanMaiRuLiang3(other.getKuoZhanMaiRuLiang3());
+        }
+        if (other.hasKuoZhanMaiRuLiang4()) {
+          setKuoZhanMaiRuLiang4(other.getKuoZhanMaiRuLiang4());
+        }
+        if (other.hasKuoZhanMaiRuLiang5()) {
+          setKuoZhanMaiRuLiang5(other.getKuoZhanMaiRuLiang5());
+        }
+        if (other.hasKuoZhanMaiChuJia1()) {
+          setKuoZhanMaiChuJia1(other.getKuoZhanMaiChuJia1());
+        }
+        if (other.hasKuoZhanMaiChuJia2()) {
+          setKuoZhanMaiChuJia2(other.getKuoZhanMaiChuJia2());
+        }
+        if (other.hasKuoZhanMaiChuJia3()) {
+          setKuoZhanMaiChuJia3(other.getKuoZhanMaiChuJia3());
+        }
+        if (other.hasKuoZhanMaiChuJia4()) {
+          setKuoZhanMaiChuJia4(other.getKuoZhanMaiChuJia4());
+        }
+        if (other.hasKuoZhanMaiChuJia5()) {
+          setKuoZhanMaiChuJia5(other.getKuoZhanMaiChuJia5());
+        }
+        if (other.hasKuoZhanMaiChuLiang1()) {
+          setKuoZhanMaiChuLiang1(other.getKuoZhanMaiChuLiang1());
+        }
+        if (other.hasKuoZhanMaiChuLiang2()) {
+          setKuoZhanMaiChuLiang2(other.getKuoZhanMaiChuLiang2());
+        }
+        if (other.hasKuoZhanMaiChuLiang3()) {
+          setKuoZhanMaiChuLiang3(other.getKuoZhanMaiChuLiang3());
+        }
+        if (other.hasKuoZhanMaiChuLiang4()) {
+          setKuoZhanMaiChuLiang4(other.getKuoZhanMaiChuLiang4());
+        }
+        if (other.hasKuoZhanMaiChuLiang5()) {
+          setKuoZhanMaiChuLiang5(other.getKuoZhanMaiChuLiang5());
+        }
         this.mergeUnknownFields(other.getUnknownFields());
         return this;
       }
@@ -3358,6 +5964,8 @@ public final class DzhyunGupiaoqiepian {
         return this;
       }
       private int bitField0_;
+      private int bitField1_;
+      private int bitField2_;
 
       private long id_ ;
       /**
@@ -4843,6 +7451,1958 @@ public final class DzhyunGupiaoqiepian {
       public Builder clearFenZhongZhangFu5() {
         bitField0_ = (bitField0_ & ~0x40000000);
         fenZhongZhangFu5_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiTuoMaiRuJia1_ ;
+      /**
+       * <code>optional int64 WeiTuoMaiRuJia1 = 32;</code>
+       *
+       * <pre>
+       *买卖盘
+       * </pre>
+       */
+      public boolean hasWeiTuoMaiRuJia1() {
+        return ((bitField0_ & 0x80000000) == 0x80000000);
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuJia1 = 32;</code>
+       *
+       * <pre>
+       *买卖盘
+       * </pre>
+       */
+      public long getWeiTuoMaiRuJia1() {
+        return weiTuoMaiRuJia1_;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuJia1 = 32;</code>
+       *
+       * <pre>
+       *买卖盘
+       * </pre>
+       */
+      public Builder setWeiTuoMaiRuJia1(long value) {
+        bitField0_ |= 0x80000000;
+        weiTuoMaiRuJia1_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuJia1 = 32;</code>
+       *
+       * <pre>
+       *买卖盘
+       * </pre>
+       */
+      public Builder clearWeiTuoMaiRuJia1() {
+        bitField0_ = (bitField0_ & ~0x80000000);
+        weiTuoMaiRuJia1_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiTuoMaiRuLiang1_ ;
+      /**
+       * <code>optional int64 WeiTuoMaiRuLiang1 = 33;</code>
+       *
+       * <pre>
+       *委托买入量1，单位股
+       * </pre>
+       */
+      public boolean hasWeiTuoMaiRuLiang1() {
+        return ((bitField1_ & 0x00000001) == 0x00000001);
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuLiang1 = 33;</code>
+       *
+       * <pre>
+       *委托买入量1，单位股
+       * </pre>
+       */
+      public long getWeiTuoMaiRuLiang1() {
+        return weiTuoMaiRuLiang1_;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuLiang1 = 33;</code>
+       *
+       * <pre>
+       *委托买入量1，单位股
+       * </pre>
+       */
+      public Builder setWeiTuoMaiRuLiang1(long value) {
+        bitField1_ |= 0x00000001;
+        weiTuoMaiRuLiang1_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuLiang1 = 33;</code>
+       *
+       * <pre>
+       *委托买入量1，单位股
+       * </pre>
+       */
+      public Builder clearWeiTuoMaiRuLiang1() {
+        bitField1_ = (bitField1_ & ~0x00000001);
+        weiTuoMaiRuLiang1_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiTuoMaiRuJia2_ ;
+      /**
+       * <code>optional int64 WeiTuoMaiRuJia2 = 34;</code>
+       *
+       * <pre>
+       *委托买入价2
+       * </pre>
+       */
+      public boolean hasWeiTuoMaiRuJia2() {
+        return ((bitField1_ & 0x00000002) == 0x00000002);
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuJia2 = 34;</code>
+       *
+       * <pre>
+       *委托买入价2
+       * </pre>
+       */
+      public long getWeiTuoMaiRuJia2() {
+        return weiTuoMaiRuJia2_;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuJia2 = 34;</code>
+       *
+       * <pre>
+       *委托买入价2
+       * </pre>
+       */
+      public Builder setWeiTuoMaiRuJia2(long value) {
+        bitField1_ |= 0x00000002;
+        weiTuoMaiRuJia2_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuJia2 = 34;</code>
+       *
+       * <pre>
+       *委托买入价2
+       * </pre>
+       */
+      public Builder clearWeiTuoMaiRuJia2() {
+        bitField1_ = (bitField1_ & ~0x00000002);
+        weiTuoMaiRuJia2_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiTuoMaiRuLiang2_ ;
+      /**
+       * <code>optional int64 WeiTuoMaiRuLiang2 = 35;</code>
+       *
+       * <pre>
+       *委托买入量2，单位股
+       * </pre>
+       */
+      public boolean hasWeiTuoMaiRuLiang2() {
+        return ((bitField1_ & 0x00000004) == 0x00000004);
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuLiang2 = 35;</code>
+       *
+       * <pre>
+       *委托买入量2，单位股
+       * </pre>
+       */
+      public long getWeiTuoMaiRuLiang2() {
+        return weiTuoMaiRuLiang2_;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuLiang2 = 35;</code>
+       *
+       * <pre>
+       *委托买入量2，单位股
+       * </pre>
+       */
+      public Builder setWeiTuoMaiRuLiang2(long value) {
+        bitField1_ |= 0x00000004;
+        weiTuoMaiRuLiang2_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuLiang2 = 35;</code>
+       *
+       * <pre>
+       *委托买入量2，单位股
+       * </pre>
+       */
+      public Builder clearWeiTuoMaiRuLiang2() {
+        bitField1_ = (bitField1_ & ~0x00000004);
+        weiTuoMaiRuLiang2_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiTuoMaiRuJia3_ ;
+      /**
+       * <code>optional int64 WeiTuoMaiRuJia3 = 36;</code>
+       *
+       * <pre>
+       *委托买入价3
+       * </pre>
+       */
+      public boolean hasWeiTuoMaiRuJia3() {
+        return ((bitField1_ & 0x00000008) == 0x00000008);
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuJia3 = 36;</code>
+       *
+       * <pre>
+       *委托买入价3
+       * </pre>
+       */
+      public long getWeiTuoMaiRuJia3() {
+        return weiTuoMaiRuJia3_;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuJia3 = 36;</code>
+       *
+       * <pre>
+       *委托买入价3
+       * </pre>
+       */
+      public Builder setWeiTuoMaiRuJia3(long value) {
+        bitField1_ |= 0x00000008;
+        weiTuoMaiRuJia3_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuJia3 = 36;</code>
+       *
+       * <pre>
+       *委托买入价3
+       * </pre>
+       */
+      public Builder clearWeiTuoMaiRuJia3() {
+        bitField1_ = (bitField1_ & ~0x00000008);
+        weiTuoMaiRuJia3_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiTuoMaiRuLiang3_ ;
+      /**
+       * <code>optional int64 WeiTuoMaiRuLiang3 = 37;</code>
+       *
+       * <pre>
+       *委托买入量3，单位股
+       * </pre>
+       */
+      public boolean hasWeiTuoMaiRuLiang3() {
+        return ((bitField1_ & 0x00000010) == 0x00000010);
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuLiang3 = 37;</code>
+       *
+       * <pre>
+       *委托买入量3，单位股
+       * </pre>
+       */
+      public long getWeiTuoMaiRuLiang3() {
+        return weiTuoMaiRuLiang3_;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuLiang3 = 37;</code>
+       *
+       * <pre>
+       *委托买入量3，单位股
+       * </pre>
+       */
+      public Builder setWeiTuoMaiRuLiang3(long value) {
+        bitField1_ |= 0x00000010;
+        weiTuoMaiRuLiang3_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuLiang3 = 37;</code>
+       *
+       * <pre>
+       *委托买入量3，单位股
+       * </pre>
+       */
+      public Builder clearWeiTuoMaiRuLiang3() {
+        bitField1_ = (bitField1_ & ~0x00000010);
+        weiTuoMaiRuLiang3_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiTuoMaiRuJia4_ ;
+      /**
+       * <code>optional int64 WeiTuoMaiRuJia4 = 38;</code>
+       *
+       * <pre>
+       *委托买入价4
+       * </pre>
+       */
+      public boolean hasWeiTuoMaiRuJia4() {
+        return ((bitField1_ & 0x00000020) == 0x00000020);
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuJia4 = 38;</code>
+       *
+       * <pre>
+       *委托买入价4
+       * </pre>
+       */
+      public long getWeiTuoMaiRuJia4() {
+        return weiTuoMaiRuJia4_;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuJia4 = 38;</code>
+       *
+       * <pre>
+       *委托买入价4
+       * </pre>
+       */
+      public Builder setWeiTuoMaiRuJia4(long value) {
+        bitField1_ |= 0x00000020;
+        weiTuoMaiRuJia4_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuJia4 = 38;</code>
+       *
+       * <pre>
+       *委托买入价4
+       * </pre>
+       */
+      public Builder clearWeiTuoMaiRuJia4() {
+        bitField1_ = (bitField1_ & ~0x00000020);
+        weiTuoMaiRuJia4_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiTuoMaiRuLiang4_ ;
+      /**
+       * <code>optional int64 WeiTuoMaiRuLiang4 = 39;</code>
+       *
+       * <pre>
+       *委托买入量4，单位股
+       * </pre>
+       */
+      public boolean hasWeiTuoMaiRuLiang4() {
+        return ((bitField1_ & 0x00000040) == 0x00000040);
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuLiang4 = 39;</code>
+       *
+       * <pre>
+       *委托买入量4，单位股
+       * </pre>
+       */
+      public long getWeiTuoMaiRuLiang4() {
+        return weiTuoMaiRuLiang4_;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuLiang4 = 39;</code>
+       *
+       * <pre>
+       *委托买入量4，单位股
+       * </pre>
+       */
+      public Builder setWeiTuoMaiRuLiang4(long value) {
+        bitField1_ |= 0x00000040;
+        weiTuoMaiRuLiang4_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuLiang4 = 39;</code>
+       *
+       * <pre>
+       *委托买入量4，单位股
+       * </pre>
+       */
+      public Builder clearWeiTuoMaiRuLiang4() {
+        bitField1_ = (bitField1_ & ~0x00000040);
+        weiTuoMaiRuLiang4_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiTuoMaiRuJia5_ ;
+      /**
+       * <code>optional int64 WeiTuoMaiRuJia5 = 40;</code>
+       *
+       * <pre>
+       *委托买入价5
+       * </pre>
+       */
+      public boolean hasWeiTuoMaiRuJia5() {
+        return ((bitField1_ & 0x00000080) == 0x00000080);
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuJia5 = 40;</code>
+       *
+       * <pre>
+       *委托买入价5
+       * </pre>
+       */
+      public long getWeiTuoMaiRuJia5() {
+        return weiTuoMaiRuJia5_;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuJia5 = 40;</code>
+       *
+       * <pre>
+       *委托买入价5
+       * </pre>
+       */
+      public Builder setWeiTuoMaiRuJia5(long value) {
+        bitField1_ |= 0x00000080;
+        weiTuoMaiRuJia5_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuJia5 = 40;</code>
+       *
+       * <pre>
+       *委托买入价5
+       * </pre>
+       */
+      public Builder clearWeiTuoMaiRuJia5() {
+        bitField1_ = (bitField1_ & ~0x00000080);
+        weiTuoMaiRuJia5_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiTuoMaiRuLiang5_ ;
+      /**
+       * <code>optional int64 WeiTuoMaiRuLiang5 = 41;</code>
+       *
+       * <pre>
+       *委托买入量5，单位股
+       * </pre>
+       */
+      public boolean hasWeiTuoMaiRuLiang5() {
+        return ((bitField1_ & 0x00000100) == 0x00000100);
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuLiang5 = 41;</code>
+       *
+       * <pre>
+       *委托买入量5，单位股
+       * </pre>
+       */
+      public long getWeiTuoMaiRuLiang5() {
+        return weiTuoMaiRuLiang5_;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuLiang5 = 41;</code>
+       *
+       * <pre>
+       *委托买入量5，单位股
+       * </pre>
+       */
+      public Builder setWeiTuoMaiRuLiang5(long value) {
+        bitField1_ |= 0x00000100;
+        weiTuoMaiRuLiang5_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuLiang5 = 41;</code>
+       *
+       * <pre>
+       *委托买入量5，单位股
+       * </pre>
+       */
+      public Builder clearWeiTuoMaiRuLiang5() {
+        bitField1_ = (bitField1_ & ~0x00000100);
+        weiTuoMaiRuLiang5_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiTuoMaiChuJia1_ ;
+      /**
+       * <code>optional int64 WeiTuoMaiChuJia1 = 42;</code>
+       *
+       * <pre>
+       *委托卖出价1
+       * </pre>
+       */
+      public boolean hasWeiTuoMaiChuJia1() {
+        return ((bitField1_ & 0x00000200) == 0x00000200);
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuJia1 = 42;</code>
+       *
+       * <pre>
+       *委托卖出价1
+       * </pre>
+       */
+      public long getWeiTuoMaiChuJia1() {
+        return weiTuoMaiChuJia1_;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuJia1 = 42;</code>
+       *
+       * <pre>
+       *委托卖出价1
+       * </pre>
+       */
+      public Builder setWeiTuoMaiChuJia1(long value) {
+        bitField1_ |= 0x00000200;
+        weiTuoMaiChuJia1_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuJia1 = 42;</code>
+       *
+       * <pre>
+       *委托卖出价1
+       * </pre>
+       */
+      public Builder clearWeiTuoMaiChuJia1() {
+        bitField1_ = (bitField1_ & ~0x00000200);
+        weiTuoMaiChuJia1_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiTuoMaiChuLiang1_ ;
+      /**
+       * <code>optional int64 WeiTuoMaiChuLiang1 = 43;</code>
+       *
+       * <pre>
+       *委托卖出量1，单位股
+       * </pre>
+       */
+      public boolean hasWeiTuoMaiChuLiang1() {
+        return ((bitField1_ & 0x00000400) == 0x00000400);
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuLiang1 = 43;</code>
+       *
+       * <pre>
+       *委托卖出量1，单位股
+       * </pre>
+       */
+      public long getWeiTuoMaiChuLiang1() {
+        return weiTuoMaiChuLiang1_;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuLiang1 = 43;</code>
+       *
+       * <pre>
+       *委托卖出量1，单位股
+       * </pre>
+       */
+      public Builder setWeiTuoMaiChuLiang1(long value) {
+        bitField1_ |= 0x00000400;
+        weiTuoMaiChuLiang1_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuLiang1 = 43;</code>
+       *
+       * <pre>
+       *委托卖出量1，单位股
+       * </pre>
+       */
+      public Builder clearWeiTuoMaiChuLiang1() {
+        bitField1_ = (bitField1_ & ~0x00000400);
+        weiTuoMaiChuLiang1_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiTuoMaiChuJia2_ ;
+      /**
+       * <code>optional int64 WeiTuoMaiChuJia2 = 44;</code>
+       *
+       * <pre>
+       *委托卖出价2
+       * </pre>
+       */
+      public boolean hasWeiTuoMaiChuJia2() {
+        return ((bitField1_ & 0x00000800) == 0x00000800);
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuJia2 = 44;</code>
+       *
+       * <pre>
+       *委托卖出价2
+       * </pre>
+       */
+      public long getWeiTuoMaiChuJia2() {
+        return weiTuoMaiChuJia2_;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuJia2 = 44;</code>
+       *
+       * <pre>
+       *委托卖出价2
+       * </pre>
+       */
+      public Builder setWeiTuoMaiChuJia2(long value) {
+        bitField1_ |= 0x00000800;
+        weiTuoMaiChuJia2_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuJia2 = 44;</code>
+       *
+       * <pre>
+       *委托卖出价2
+       * </pre>
+       */
+      public Builder clearWeiTuoMaiChuJia2() {
+        bitField1_ = (bitField1_ & ~0x00000800);
+        weiTuoMaiChuJia2_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiTuoMaiChuLiang2_ ;
+      /**
+       * <code>optional int64 WeiTuoMaiChuLiang2 = 45;</code>
+       *
+       * <pre>
+       *委托卖出量2，单位股
+       * </pre>
+       */
+      public boolean hasWeiTuoMaiChuLiang2() {
+        return ((bitField1_ & 0x00001000) == 0x00001000);
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuLiang2 = 45;</code>
+       *
+       * <pre>
+       *委托卖出量2，单位股
+       * </pre>
+       */
+      public long getWeiTuoMaiChuLiang2() {
+        return weiTuoMaiChuLiang2_;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuLiang2 = 45;</code>
+       *
+       * <pre>
+       *委托卖出量2，单位股
+       * </pre>
+       */
+      public Builder setWeiTuoMaiChuLiang2(long value) {
+        bitField1_ |= 0x00001000;
+        weiTuoMaiChuLiang2_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuLiang2 = 45;</code>
+       *
+       * <pre>
+       *委托卖出量2，单位股
+       * </pre>
+       */
+      public Builder clearWeiTuoMaiChuLiang2() {
+        bitField1_ = (bitField1_ & ~0x00001000);
+        weiTuoMaiChuLiang2_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiTuoMaiChuJia3_ ;
+      /**
+       * <code>optional int64 WeiTuoMaiChuJia3 = 46;</code>
+       *
+       * <pre>
+       *委托卖出价3
+       * </pre>
+       */
+      public boolean hasWeiTuoMaiChuJia3() {
+        return ((bitField1_ & 0x00002000) == 0x00002000);
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuJia3 = 46;</code>
+       *
+       * <pre>
+       *委托卖出价3
+       * </pre>
+       */
+      public long getWeiTuoMaiChuJia3() {
+        return weiTuoMaiChuJia3_;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuJia3 = 46;</code>
+       *
+       * <pre>
+       *委托卖出价3
+       * </pre>
+       */
+      public Builder setWeiTuoMaiChuJia3(long value) {
+        bitField1_ |= 0x00002000;
+        weiTuoMaiChuJia3_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuJia3 = 46;</code>
+       *
+       * <pre>
+       *委托卖出价3
+       * </pre>
+       */
+      public Builder clearWeiTuoMaiChuJia3() {
+        bitField1_ = (bitField1_ & ~0x00002000);
+        weiTuoMaiChuJia3_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiTuoMaiChuLiang3_ ;
+      /**
+       * <code>optional int64 WeiTuoMaiChuLiang3 = 47;</code>
+       *
+       * <pre>
+       *委托卖出量3，单位股
+       * </pre>
+       */
+      public boolean hasWeiTuoMaiChuLiang3() {
+        return ((bitField1_ & 0x00004000) == 0x00004000);
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuLiang3 = 47;</code>
+       *
+       * <pre>
+       *委托卖出量3，单位股
+       * </pre>
+       */
+      public long getWeiTuoMaiChuLiang3() {
+        return weiTuoMaiChuLiang3_;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuLiang3 = 47;</code>
+       *
+       * <pre>
+       *委托卖出量3，单位股
+       * </pre>
+       */
+      public Builder setWeiTuoMaiChuLiang3(long value) {
+        bitField1_ |= 0x00004000;
+        weiTuoMaiChuLiang3_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuLiang3 = 47;</code>
+       *
+       * <pre>
+       *委托卖出量3，单位股
+       * </pre>
+       */
+      public Builder clearWeiTuoMaiChuLiang3() {
+        bitField1_ = (bitField1_ & ~0x00004000);
+        weiTuoMaiChuLiang3_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiTuoMaiChuJia4_ ;
+      /**
+       * <code>optional int64 WeiTuoMaiChuJia4 = 48;</code>
+       *
+       * <pre>
+       *委托卖出价4
+       * </pre>
+       */
+      public boolean hasWeiTuoMaiChuJia4() {
+        return ((bitField1_ & 0x00008000) == 0x00008000);
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuJia4 = 48;</code>
+       *
+       * <pre>
+       *委托卖出价4
+       * </pre>
+       */
+      public long getWeiTuoMaiChuJia4() {
+        return weiTuoMaiChuJia4_;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuJia4 = 48;</code>
+       *
+       * <pre>
+       *委托卖出价4
+       * </pre>
+       */
+      public Builder setWeiTuoMaiChuJia4(long value) {
+        bitField1_ |= 0x00008000;
+        weiTuoMaiChuJia4_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuJia4 = 48;</code>
+       *
+       * <pre>
+       *委托卖出价4
+       * </pre>
+       */
+      public Builder clearWeiTuoMaiChuJia4() {
+        bitField1_ = (bitField1_ & ~0x00008000);
+        weiTuoMaiChuJia4_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiTuoMaiChuLiang4_ ;
+      /**
+       * <code>optional int64 WeiTuoMaiChuLiang4 = 49;</code>
+       *
+       * <pre>
+       *委托卖出量4，单位股
+       * </pre>
+       */
+      public boolean hasWeiTuoMaiChuLiang4() {
+        return ((bitField1_ & 0x00010000) == 0x00010000);
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuLiang4 = 49;</code>
+       *
+       * <pre>
+       *委托卖出量4，单位股
+       * </pre>
+       */
+      public long getWeiTuoMaiChuLiang4() {
+        return weiTuoMaiChuLiang4_;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuLiang4 = 49;</code>
+       *
+       * <pre>
+       *委托卖出量4，单位股
+       * </pre>
+       */
+      public Builder setWeiTuoMaiChuLiang4(long value) {
+        bitField1_ |= 0x00010000;
+        weiTuoMaiChuLiang4_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuLiang4 = 49;</code>
+       *
+       * <pre>
+       *委托卖出量4，单位股
+       * </pre>
+       */
+      public Builder clearWeiTuoMaiChuLiang4() {
+        bitField1_ = (bitField1_ & ~0x00010000);
+        weiTuoMaiChuLiang4_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiTuoMaiChuJia5_ ;
+      /**
+       * <code>optional int64 WeiTuoMaiChuJia5 = 50;</code>
+       *
+       * <pre>
+       *委托卖出价5
+       * </pre>
+       */
+      public boolean hasWeiTuoMaiChuJia5() {
+        return ((bitField1_ & 0x00020000) == 0x00020000);
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuJia5 = 50;</code>
+       *
+       * <pre>
+       *委托卖出价5
+       * </pre>
+       */
+      public long getWeiTuoMaiChuJia5() {
+        return weiTuoMaiChuJia5_;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuJia5 = 50;</code>
+       *
+       * <pre>
+       *委托卖出价5
+       * </pre>
+       */
+      public Builder setWeiTuoMaiChuJia5(long value) {
+        bitField1_ |= 0x00020000;
+        weiTuoMaiChuJia5_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuJia5 = 50;</code>
+       *
+       * <pre>
+       *委托卖出价5
+       * </pre>
+       */
+      public Builder clearWeiTuoMaiChuJia5() {
+        bitField1_ = (bitField1_ & ~0x00020000);
+        weiTuoMaiChuJia5_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiTuoMaiChuLiang5_ ;
+      /**
+       * <code>optional int64 WeiTuoMaiChuLiang5 = 51;</code>
+       *
+       * <pre>
+       *委托卖出量5，单位股
+       * </pre>
+       */
+      public boolean hasWeiTuoMaiChuLiang5() {
+        return ((bitField1_ & 0x00040000) == 0x00040000);
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuLiang5 = 51;</code>
+       *
+       * <pre>
+       *委托卖出量5，单位股
+       * </pre>
+       */
+      public long getWeiTuoMaiChuLiang5() {
+        return weiTuoMaiChuLiang5_;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuLiang5 = 51;</code>
+       *
+       * <pre>
+       *委托卖出量5，单位股
+       * </pre>
+       */
+      public Builder setWeiTuoMaiChuLiang5(long value) {
+        bitField1_ |= 0x00040000;
+        weiTuoMaiChuLiang5_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuLiang5 = 51;</code>
+       *
+       * <pre>
+       *委托卖出量5，单位股
+       * </pre>
+       */
+      public Builder clearWeiTuoMaiChuLiang5() {
+        bitField1_ = (bitField1_ & ~0x00040000);
+        weiTuoMaiChuLiang5_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiBi_ ;
+      /**
+       * <code>optional int64 WeiBi = 52;</code>
+       *
+       * <pre>
+       *委比
+       * </pre>
+       */
+      public boolean hasWeiBi() {
+        return ((bitField1_ & 0x00080000) == 0x00080000);
+      }
+      /**
+       * <code>optional int64 WeiBi = 52;</code>
+       *
+       * <pre>
+       *委比
+       * </pre>
+       */
+      public long getWeiBi() {
+        return weiBi_;
+      }
+      /**
+       * <code>optional int64 WeiBi = 52;</code>
+       *
+       * <pre>
+       *委比
+       * </pre>
+       */
+      public Builder setWeiBi(long value) {
+        bitField1_ |= 0x00080000;
+        weiBi_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiBi = 52;</code>
+       *
+       * <pre>
+       *委比
+       * </pre>
+       */
+      public Builder clearWeiBi() {
+        bitField1_ = (bitField1_ & ~0x00080000);
+        weiBi_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiCha_ ;
+      /**
+       * <code>optional int64 WeiCha = 53;</code>
+       *
+       * <pre>
+       *委差
+       * </pre>
+       */
+      public boolean hasWeiCha() {
+        return ((bitField1_ & 0x00100000) == 0x00100000);
+      }
+      /**
+       * <code>optional int64 WeiCha = 53;</code>
+       *
+       * <pre>
+       *委差
+       * </pre>
+       */
+      public long getWeiCha() {
+        return weiCha_;
+      }
+      /**
+       * <code>optional int64 WeiCha = 53;</code>
+       *
+       * <pre>
+       *委差
+       * </pre>
+       */
+      public Builder setWeiCha(long value) {
+        bitField1_ |= 0x00100000;
+        weiCha_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiCha = 53;</code>
+       *
+       * <pre>
+       *委差
+       * </pre>
+       */
+      public Builder clearWeiCha() {
+        bitField1_ = (bitField1_ & ~0x00100000);
+        weiCha_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long jiaQuanPingJunWeiTuoMaiRuJia_ ;
+      /**
+       * <code>optional int64 JiaQuanPingJunWeiTuoMaiRuJia = 54;</code>
+       *
+       * <pre>
+       *扩展买卖盘
+       * </pre>
+       */
+      public boolean hasJiaQuanPingJunWeiTuoMaiRuJia() {
+        return ((bitField1_ & 0x00200000) == 0x00200000);
+      }
+      /**
+       * <code>optional int64 JiaQuanPingJunWeiTuoMaiRuJia = 54;</code>
+       *
+       * <pre>
+       *扩展买卖盘
+       * </pre>
+       */
+      public long getJiaQuanPingJunWeiTuoMaiRuJia() {
+        return jiaQuanPingJunWeiTuoMaiRuJia_;
+      }
+      /**
+       * <code>optional int64 JiaQuanPingJunWeiTuoMaiRuJia = 54;</code>
+       *
+       * <pre>
+       *扩展买卖盘
+       * </pre>
+       */
+      public Builder setJiaQuanPingJunWeiTuoMaiRuJia(long value) {
+        bitField1_ |= 0x00200000;
+        jiaQuanPingJunWeiTuoMaiRuJia_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 JiaQuanPingJunWeiTuoMaiRuJia = 54;</code>
+       *
+       * <pre>
+       *扩展买卖盘
+       * </pre>
+       */
+      public Builder clearJiaQuanPingJunWeiTuoMaiRuJia() {
+        bitField1_ = (bitField1_ & ~0x00200000);
+        jiaQuanPingJunWeiTuoMaiRuJia_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiTuoMaiRuZongLiang_ ;
+      /**
+       * <code>optional int64 WeiTuoMaiRuZongLiang = 55;</code>
+       *
+       * <pre>
+       *allbuyvol f   委买总量
+       * </pre>
+       */
+      public boolean hasWeiTuoMaiRuZongLiang() {
+        return ((bitField1_ & 0x00400000) == 0x00400000);
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuZongLiang = 55;</code>
+       *
+       * <pre>
+       *allbuyvol f   委买总量
+       * </pre>
+       */
+      public long getWeiTuoMaiRuZongLiang() {
+        return weiTuoMaiRuZongLiang_;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuZongLiang = 55;</code>
+       *
+       * <pre>
+       *allbuyvol f   委买总量
+       * </pre>
+       */
+      public Builder setWeiTuoMaiRuZongLiang(long value) {
+        bitField1_ |= 0x00400000;
+        weiTuoMaiRuZongLiang_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRuZongLiang = 55;</code>
+       *
+       * <pre>
+       *allbuyvol f   委买总量
+       * </pre>
+       */
+      public Builder clearWeiTuoMaiRuZongLiang() {
+        bitField1_ = (bitField1_ & ~0x00400000);
+        weiTuoMaiRuZongLiang_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long jiaQuanPingJunWeiTuoMaiChuJia_ ;
+      /**
+       * <code>optional int64 JiaQuanPingJunWeiTuoMaiChuJia = 56;</code>
+       *
+       * <pre>
+       *avgsellprice  f   加权平均委卖总量
+       * </pre>
+       */
+      public boolean hasJiaQuanPingJunWeiTuoMaiChuJia() {
+        return ((bitField1_ & 0x00800000) == 0x00800000);
+      }
+      /**
+       * <code>optional int64 JiaQuanPingJunWeiTuoMaiChuJia = 56;</code>
+       *
+       * <pre>
+       *avgsellprice  f   加权平均委卖总量
+       * </pre>
+       */
+      public long getJiaQuanPingJunWeiTuoMaiChuJia() {
+        return jiaQuanPingJunWeiTuoMaiChuJia_;
+      }
+      /**
+       * <code>optional int64 JiaQuanPingJunWeiTuoMaiChuJia = 56;</code>
+       *
+       * <pre>
+       *avgsellprice  f   加权平均委卖总量
+       * </pre>
+       */
+      public Builder setJiaQuanPingJunWeiTuoMaiChuJia(long value) {
+        bitField1_ |= 0x00800000;
+        jiaQuanPingJunWeiTuoMaiChuJia_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 JiaQuanPingJunWeiTuoMaiChuJia = 56;</code>
+       *
+       * <pre>
+       *avgsellprice  f   加权平均委卖总量
+       * </pre>
+       */
+      public Builder clearJiaQuanPingJunWeiTuoMaiChuJia() {
+        bitField1_ = (bitField1_ & ~0x00800000);
+        jiaQuanPingJunWeiTuoMaiChuJia_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiTuoMaiChuZongLiang_ ;
+      /**
+       * <code>optional int64 WeiTuoMaiChuZongLiang = 57;</code>
+       *
+       * <pre>
+       *allselvol f   委卖总量
+       * </pre>
+       */
+      public boolean hasWeiTuoMaiChuZongLiang() {
+        return ((bitField1_ & 0x01000000) == 0x01000000);
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuZongLiang = 57;</code>
+       *
+       * <pre>
+       *allselvol f   委卖总量
+       * </pre>
+       */
+      public long getWeiTuoMaiChuZongLiang() {
+        return weiTuoMaiChuZongLiang_;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuZongLiang = 57;</code>
+       *
+       * <pre>
+       *allselvol f   委卖总量
+       * </pre>
+       */
+      public Builder setWeiTuoMaiChuZongLiang(long value) {
+        bitField1_ |= 0x01000000;
+        weiTuoMaiChuZongLiang_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChuZongLiang = 57;</code>
+       *
+       * <pre>
+       *allselvol f   委卖总量
+       * </pre>
+       */
+      public Builder clearWeiTuoMaiChuZongLiang() {
+        bitField1_ = (bitField1_ & ~0x01000000);
+        weiTuoMaiChuZongLiang_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long kuoZhanMaiRuJia1_ ;
+      /**
+       * <code>optional int64 KuoZhanMaiRuJia1 = 58;</code>
+       *
+       * <pre>
+       *buyprice  5f  委买价
+       * </pre>
+       */
+      public boolean hasKuoZhanMaiRuJia1() {
+        return ((bitField1_ & 0x02000000) == 0x02000000);
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuJia1 = 58;</code>
+       *
+       * <pre>
+       *buyprice  5f  委买价
+       * </pre>
+       */
+      public long getKuoZhanMaiRuJia1() {
+        return kuoZhanMaiRuJia1_;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuJia1 = 58;</code>
+       *
+       * <pre>
+       *buyprice  5f  委买价
+       * </pre>
+       */
+      public Builder setKuoZhanMaiRuJia1(long value) {
+        bitField1_ |= 0x02000000;
+        kuoZhanMaiRuJia1_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuJia1 = 58;</code>
+       *
+       * <pre>
+       *buyprice  5f  委买价
+       * </pre>
+       */
+      public Builder clearKuoZhanMaiRuJia1() {
+        bitField1_ = (bitField1_ & ~0x02000000);
+        kuoZhanMaiRuJia1_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long kuoZhanMaiRuJia2_ ;
+      /**
+       * <code>optional int64 KuoZhanMaiRuJia2 = 59;</code>
+       */
+      public boolean hasKuoZhanMaiRuJia2() {
+        return ((bitField1_ & 0x04000000) == 0x04000000);
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuJia2 = 59;</code>
+       */
+      public long getKuoZhanMaiRuJia2() {
+        return kuoZhanMaiRuJia2_;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuJia2 = 59;</code>
+       */
+      public Builder setKuoZhanMaiRuJia2(long value) {
+        bitField1_ |= 0x04000000;
+        kuoZhanMaiRuJia2_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuJia2 = 59;</code>
+       */
+      public Builder clearKuoZhanMaiRuJia2() {
+        bitField1_ = (bitField1_ & ~0x04000000);
+        kuoZhanMaiRuJia2_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long kuoZhanMaiRuJia3_ ;
+      /**
+       * <code>optional int64 KuoZhanMaiRuJia3 = 60;</code>
+       */
+      public boolean hasKuoZhanMaiRuJia3() {
+        return ((bitField1_ & 0x08000000) == 0x08000000);
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuJia3 = 60;</code>
+       */
+      public long getKuoZhanMaiRuJia3() {
+        return kuoZhanMaiRuJia3_;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuJia3 = 60;</code>
+       */
+      public Builder setKuoZhanMaiRuJia3(long value) {
+        bitField1_ |= 0x08000000;
+        kuoZhanMaiRuJia3_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuJia3 = 60;</code>
+       */
+      public Builder clearKuoZhanMaiRuJia3() {
+        bitField1_ = (bitField1_ & ~0x08000000);
+        kuoZhanMaiRuJia3_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long kuoZhanMaiRuJia4_ ;
+      /**
+       * <code>optional int64 KuoZhanMaiRuJia4 = 61;</code>
+       */
+      public boolean hasKuoZhanMaiRuJia4() {
+        return ((bitField1_ & 0x10000000) == 0x10000000);
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuJia4 = 61;</code>
+       */
+      public long getKuoZhanMaiRuJia4() {
+        return kuoZhanMaiRuJia4_;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuJia4 = 61;</code>
+       */
+      public Builder setKuoZhanMaiRuJia4(long value) {
+        bitField1_ |= 0x10000000;
+        kuoZhanMaiRuJia4_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuJia4 = 61;</code>
+       */
+      public Builder clearKuoZhanMaiRuJia4() {
+        bitField1_ = (bitField1_ & ~0x10000000);
+        kuoZhanMaiRuJia4_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long kuoZhanMaiRuJia5_ ;
+      /**
+       * <code>optional int64 KuoZhanMaiRuJia5 = 62;</code>
+       */
+      public boolean hasKuoZhanMaiRuJia5() {
+        return ((bitField1_ & 0x20000000) == 0x20000000);
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuJia5 = 62;</code>
+       */
+      public long getKuoZhanMaiRuJia5() {
+        return kuoZhanMaiRuJia5_;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuJia5 = 62;</code>
+       */
+      public Builder setKuoZhanMaiRuJia5(long value) {
+        bitField1_ |= 0x20000000;
+        kuoZhanMaiRuJia5_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuJia5 = 62;</code>
+       */
+      public Builder clearKuoZhanMaiRuJia5() {
+        bitField1_ = (bitField1_ & ~0x20000000);
+        kuoZhanMaiRuJia5_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long kuoZhanMaiRuLiang1_ ;
+      /**
+       * <code>optional int64 KuoZhanMaiRuLiang1 = 63;</code>
+       *
+       * <pre>
+       *buyvol    5f  委买量
+       * </pre>
+       */
+      public boolean hasKuoZhanMaiRuLiang1() {
+        return ((bitField1_ & 0x40000000) == 0x40000000);
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuLiang1 = 63;</code>
+       *
+       * <pre>
+       *buyvol    5f  委买量
+       * </pre>
+       */
+      public long getKuoZhanMaiRuLiang1() {
+        return kuoZhanMaiRuLiang1_;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuLiang1 = 63;</code>
+       *
+       * <pre>
+       *buyvol    5f  委买量
+       * </pre>
+       */
+      public Builder setKuoZhanMaiRuLiang1(long value) {
+        bitField1_ |= 0x40000000;
+        kuoZhanMaiRuLiang1_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuLiang1 = 63;</code>
+       *
+       * <pre>
+       *buyvol    5f  委买量
+       * </pre>
+       */
+      public Builder clearKuoZhanMaiRuLiang1() {
+        bitField1_ = (bitField1_ & ~0x40000000);
+        kuoZhanMaiRuLiang1_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long kuoZhanMaiRuLiang2_ ;
+      /**
+       * <code>optional int64 KuoZhanMaiRuLiang2 = 64;</code>
+       */
+      public boolean hasKuoZhanMaiRuLiang2() {
+        return ((bitField1_ & 0x80000000) == 0x80000000);
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuLiang2 = 64;</code>
+       */
+      public long getKuoZhanMaiRuLiang2() {
+        return kuoZhanMaiRuLiang2_;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuLiang2 = 64;</code>
+       */
+      public Builder setKuoZhanMaiRuLiang2(long value) {
+        bitField1_ |= 0x80000000;
+        kuoZhanMaiRuLiang2_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuLiang2 = 64;</code>
+       */
+      public Builder clearKuoZhanMaiRuLiang2() {
+        bitField1_ = (bitField1_ & ~0x80000000);
+        kuoZhanMaiRuLiang2_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long kuoZhanMaiRuLiang3_ ;
+      /**
+       * <code>optional int64 KuoZhanMaiRuLiang3 = 65;</code>
+       */
+      public boolean hasKuoZhanMaiRuLiang3() {
+        return ((bitField2_ & 0x00000001) == 0x00000001);
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuLiang3 = 65;</code>
+       */
+      public long getKuoZhanMaiRuLiang3() {
+        return kuoZhanMaiRuLiang3_;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuLiang3 = 65;</code>
+       */
+      public Builder setKuoZhanMaiRuLiang3(long value) {
+        bitField2_ |= 0x00000001;
+        kuoZhanMaiRuLiang3_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuLiang3 = 65;</code>
+       */
+      public Builder clearKuoZhanMaiRuLiang3() {
+        bitField2_ = (bitField2_ & ~0x00000001);
+        kuoZhanMaiRuLiang3_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long kuoZhanMaiRuLiang4_ ;
+      /**
+       * <code>optional int64 KuoZhanMaiRuLiang4 = 66;</code>
+       */
+      public boolean hasKuoZhanMaiRuLiang4() {
+        return ((bitField2_ & 0x00000002) == 0x00000002);
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuLiang4 = 66;</code>
+       */
+      public long getKuoZhanMaiRuLiang4() {
+        return kuoZhanMaiRuLiang4_;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuLiang4 = 66;</code>
+       */
+      public Builder setKuoZhanMaiRuLiang4(long value) {
+        bitField2_ |= 0x00000002;
+        kuoZhanMaiRuLiang4_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuLiang4 = 66;</code>
+       */
+      public Builder clearKuoZhanMaiRuLiang4() {
+        bitField2_ = (bitField2_ & ~0x00000002);
+        kuoZhanMaiRuLiang4_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long kuoZhanMaiRuLiang5_ ;
+      /**
+       * <code>optional int64 KuoZhanMaiRuLiang5 = 67;</code>
+       */
+      public boolean hasKuoZhanMaiRuLiang5() {
+        return ((bitField2_ & 0x00000004) == 0x00000004);
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuLiang5 = 67;</code>
+       */
+      public long getKuoZhanMaiRuLiang5() {
+        return kuoZhanMaiRuLiang5_;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuLiang5 = 67;</code>
+       */
+      public Builder setKuoZhanMaiRuLiang5(long value) {
+        bitField2_ |= 0x00000004;
+        kuoZhanMaiRuLiang5_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiRuLiang5 = 67;</code>
+       */
+      public Builder clearKuoZhanMaiRuLiang5() {
+        bitField2_ = (bitField2_ & ~0x00000004);
+        kuoZhanMaiRuLiang5_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long kuoZhanMaiChuJia1_ ;
+      /**
+       * <code>optional int64 KuoZhanMaiChuJia1 = 68;</code>
+       *
+       * <pre>
+       *sellprice 5f  委卖价
+       * </pre>
+       */
+      public boolean hasKuoZhanMaiChuJia1() {
+        return ((bitField2_ & 0x00000008) == 0x00000008);
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuJia1 = 68;</code>
+       *
+       * <pre>
+       *sellprice 5f  委卖价
+       * </pre>
+       */
+      public long getKuoZhanMaiChuJia1() {
+        return kuoZhanMaiChuJia1_;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuJia1 = 68;</code>
+       *
+       * <pre>
+       *sellprice 5f  委卖价
+       * </pre>
+       */
+      public Builder setKuoZhanMaiChuJia1(long value) {
+        bitField2_ |= 0x00000008;
+        kuoZhanMaiChuJia1_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuJia1 = 68;</code>
+       *
+       * <pre>
+       *sellprice 5f  委卖价
+       * </pre>
+       */
+      public Builder clearKuoZhanMaiChuJia1() {
+        bitField2_ = (bitField2_ & ~0x00000008);
+        kuoZhanMaiChuJia1_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long kuoZhanMaiChuJia2_ ;
+      /**
+       * <code>optional int64 KuoZhanMaiChuJia2 = 69;</code>
+       */
+      public boolean hasKuoZhanMaiChuJia2() {
+        return ((bitField2_ & 0x00000010) == 0x00000010);
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuJia2 = 69;</code>
+       */
+      public long getKuoZhanMaiChuJia2() {
+        return kuoZhanMaiChuJia2_;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuJia2 = 69;</code>
+       */
+      public Builder setKuoZhanMaiChuJia2(long value) {
+        bitField2_ |= 0x00000010;
+        kuoZhanMaiChuJia2_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuJia2 = 69;</code>
+       */
+      public Builder clearKuoZhanMaiChuJia2() {
+        bitField2_ = (bitField2_ & ~0x00000010);
+        kuoZhanMaiChuJia2_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long kuoZhanMaiChuJia3_ ;
+      /**
+       * <code>optional int64 KuoZhanMaiChuJia3 = 70;</code>
+       */
+      public boolean hasKuoZhanMaiChuJia3() {
+        return ((bitField2_ & 0x00000020) == 0x00000020);
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuJia3 = 70;</code>
+       */
+      public long getKuoZhanMaiChuJia3() {
+        return kuoZhanMaiChuJia3_;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuJia3 = 70;</code>
+       */
+      public Builder setKuoZhanMaiChuJia3(long value) {
+        bitField2_ |= 0x00000020;
+        kuoZhanMaiChuJia3_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuJia3 = 70;</code>
+       */
+      public Builder clearKuoZhanMaiChuJia3() {
+        bitField2_ = (bitField2_ & ~0x00000020);
+        kuoZhanMaiChuJia3_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long kuoZhanMaiChuJia4_ ;
+      /**
+       * <code>optional int64 KuoZhanMaiChuJia4 = 71;</code>
+       */
+      public boolean hasKuoZhanMaiChuJia4() {
+        return ((bitField2_ & 0x00000040) == 0x00000040);
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuJia4 = 71;</code>
+       */
+      public long getKuoZhanMaiChuJia4() {
+        return kuoZhanMaiChuJia4_;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuJia4 = 71;</code>
+       */
+      public Builder setKuoZhanMaiChuJia4(long value) {
+        bitField2_ |= 0x00000040;
+        kuoZhanMaiChuJia4_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuJia4 = 71;</code>
+       */
+      public Builder clearKuoZhanMaiChuJia4() {
+        bitField2_ = (bitField2_ & ~0x00000040);
+        kuoZhanMaiChuJia4_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long kuoZhanMaiChuJia5_ ;
+      /**
+       * <code>optional int64 KuoZhanMaiChuJia5 = 72;</code>
+       */
+      public boolean hasKuoZhanMaiChuJia5() {
+        return ((bitField2_ & 0x00000080) == 0x00000080);
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuJia5 = 72;</code>
+       */
+      public long getKuoZhanMaiChuJia5() {
+        return kuoZhanMaiChuJia5_;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuJia5 = 72;</code>
+       */
+      public Builder setKuoZhanMaiChuJia5(long value) {
+        bitField2_ |= 0x00000080;
+        kuoZhanMaiChuJia5_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuJia5 = 72;</code>
+       */
+      public Builder clearKuoZhanMaiChuJia5() {
+        bitField2_ = (bitField2_ & ~0x00000080);
+        kuoZhanMaiChuJia5_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long kuoZhanMaiChuLiang1_ ;
+      /**
+       * <code>optional int64 KuoZhanMaiChuLiang1 = 73;</code>
+       *
+       * <pre>
+       *sellvol   5f  委卖量
+       * </pre>
+       */
+      public boolean hasKuoZhanMaiChuLiang1() {
+        return ((bitField2_ & 0x00000100) == 0x00000100);
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuLiang1 = 73;</code>
+       *
+       * <pre>
+       *sellvol   5f  委卖量
+       * </pre>
+       */
+      public long getKuoZhanMaiChuLiang1() {
+        return kuoZhanMaiChuLiang1_;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuLiang1 = 73;</code>
+       *
+       * <pre>
+       *sellvol   5f  委卖量
+       * </pre>
+       */
+      public Builder setKuoZhanMaiChuLiang1(long value) {
+        bitField2_ |= 0x00000100;
+        kuoZhanMaiChuLiang1_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuLiang1 = 73;</code>
+       *
+       * <pre>
+       *sellvol   5f  委卖量
+       * </pre>
+       */
+      public Builder clearKuoZhanMaiChuLiang1() {
+        bitField2_ = (bitField2_ & ~0x00000100);
+        kuoZhanMaiChuLiang1_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long kuoZhanMaiChuLiang2_ ;
+      /**
+       * <code>optional int64 KuoZhanMaiChuLiang2 = 74;</code>
+       */
+      public boolean hasKuoZhanMaiChuLiang2() {
+        return ((bitField2_ & 0x00000200) == 0x00000200);
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuLiang2 = 74;</code>
+       */
+      public long getKuoZhanMaiChuLiang2() {
+        return kuoZhanMaiChuLiang2_;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuLiang2 = 74;</code>
+       */
+      public Builder setKuoZhanMaiChuLiang2(long value) {
+        bitField2_ |= 0x00000200;
+        kuoZhanMaiChuLiang2_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuLiang2 = 74;</code>
+       */
+      public Builder clearKuoZhanMaiChuLiang2() {
+        bitField2_ = (bitField2_ & ~0x00000200);
+        kuoZhanMaiChuLiang2_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long kuoZhanMaiChuLiang3_ ;
+      /**
+       * <code>optional int64 KuoZhanMaiChuLiang3 = 75;</code>
+       */
+      public boolean hasKuoZhanMaiChuLiang3() {
+        return ((bitField2_ & 0x00000400) == 0x00000400);
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuLiang3 = 75;</code>
+       */
+      public long getKuoZhanMaiChuLiang3() {
+        return kuoZhanMaiChuLiang3_;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuLiang3 = 75;</code>
+       */
+      public Builder setKuoZhanMaiChuLiang3(long value) {
+        bitField2_ |= 0x00000400;
+        kuoZhanMaiChuLiang3_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuLiang3 = 75;</code>
+       */
+      public Builder clearKuoZhanMaiChuLiang3() {
+        bitField2_ = (bitField2_ & ~0x00000400);
+        kuoZhanMaiChuLiang3_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long kuoZhanMaiChuLiang4_ ;
+      /**
+       * <code>optional int64 KuoZhanMaiChuLiang4 = 76;</code>
+       */
+      public boolean hasKuoZhanMaiChuLiang4() {
+        return ((bitField2_ & 0x00000800) == 0x00000800);
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuLiang4 = 76;</code>
+       */
+      public long getKuoZhanMaiChuLiang4() {
+        return kuoZhanMaiChuLiang4_;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuLiang4 = 76;</code>
+       */
+      public Builder setKuoZhanMaiChuLiang4(long value) {
+        bitField2_ |= 0x00000800;
+        kuoZhanMaiChuLiang4_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuLiang4 = 76;</code>
+       */
+      public Builder clearKuoZhanMaiChuLiang4() {
+        bitField2_ = (bitField2_ & ~0x00000800);
+        kuoZhanMaiChuLiang4_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long kuoZhanMaiChuLiang5_ ;
+      /**
+       * <code>optional int64 KuoZhanMaiChuLiang5 = 77;</code>
+       */
+      public boolean hasKuoZhanMaiChuLiang5() {
+        return ((bitField2_ & 0x00001000) == 0x00001000);
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuLiang5 = 77;</code>
+       */
+      public long getKuoZhanMaiChuLiang5() {
+        return kuoZhanMaiChuLiang5_;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuLiang5 = 77;</code>
+       */
+      public Builder setKuoZhanMaiChuLiang5(long value) {
+        bitField2_ |= 0x00001000;
+        kuoZhanMaiChuLiang5_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 KuoZhanMaiChuLiang5 = 77;</code>
+       */
+      public Builder clearKuoZhanMaiChuLiang5() {
+        bitField2_ = (bitField2_ & ~0x00001000);
+        kuoZhanMaiChuLiang5_ = 0L;
         onChanged();
         return this;
       }
@@ -15154,6 +19714,1873 @@ public final class DzhyunGupiaoqiepian {
     // @@protoc_insertion_point(class_scope:dzhyun.WeiTuoDuiLie)
   }
 
+  public interface Level2TongJiOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:dzhyun.Level2TongJi)
+      com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>optional int64 Id = 1;</code>
+     *
+     * <pre>
+     * 序号
+     * </pre>
+     */
+    boolean hasId();
+    /**
+     * <code>optional int64 Id = 1;</code>
+     *
+     * <pre>
+     * 序号
+     * </pre>
+     */
+    long getId();
+
+    /**
+     * <code>optional int64 ShiJian = 2;</code>
+     *
+     * <pre>
+     *时间
+     * </pre>
+     */
+    boolean hasShiJian();
+    /**
+     * <code>optional int64 ShiJian = 2;</code>
+     *
+     * <pre>
+     *时间
+     * </pre>
+     */
+    long getShiJian();
+
+    /**
+     * <code>optional int64 WeiTuoMaiRu = 3;</code>
+     *
+     * <pre>
+     * 委托单买入数量
+     * </pre>
+     */
+    boolean hasWeiTuoMaiRu();
+    /**
+     * <code>optional int64 WeiTuoMaiRu = 3;</code>
+     *
+     * <pre>
+     * 委托单买入数量
+     * </pre>
+     */
+    long getWeiTuoMaiRu();
+
+    /**
+     * <code>optional int64 WeiTuoMaiChu = 4;</code>
+     *
+     * <pre>
+     * 委托单卖出数量
+     * </pre>
+     */
+    boolean hasWeiTuoMaiChu();
+    /**
+     * <code>optional int64 WeiTuoMaiChu = 4;</code>
+     *
+     * <pre>
+     * 委托单卖出数量
+     * </pre>
+     */
+    long getWeiTuoMaiChu();
+
+    /**
+     * <code>optional int64 MaiRuZhongDanBiLi = 5;</code>
+     *
+     * <pre>
+     * 买入中单比例，1/1000
+     * </pre>
+     */
+    boolean hasMaiRuZhongDanBiLi();
+    /**
+     * <code>optional int64 MaiRuZhongDanBiLi = 5;</code>
+     *
+     * <pre>
+     * 买入中单比例，1/1000
+     * </pre>
+     */
+    long getMaiRuZhongDanBiLi();
+
+    /**
+     * <code>optional int64 MaiRuDaDanBiLi = 6;</code>
+     *
+     * <pre>
+     * 买入大单比例，1/1000
+     * </pre>
+     */
+    boolean hasMaiRuDaDanBiLi();
+    /**
+     * <code>optional int64 MaiRuDaDanBiLi = 6;</code>
+     *
+     * <pre>
+     * 买入大单比例，1/1000
+     * </pre>
+     */
+    long getMaiRuDaDanBiLi();
+
+    /**
+     * <code>optional int64 MaiRuTeDaDanBiLi = 7;</code>
+     *
+     * <pre>
+     * 买入特大单比例，1/1000
+     * </pre>
+     */
+    boolean hasMaiRuTeDaDanBiLi();
+    /**
+     * <code>optional int64 MaiRuTeDaDanBiLi = 7;</code>
+     *
+     * <pre>
+     * 买入特大单比例，1/1000
+     * </pre>
+     */
+    long getMaiRuTeDaDanBiLi();
+
+    /**
+     * <code>optional int64 MaiChuZhongDanBiLi = 8;</code>
+     *
+     * <pre>
+     * 卖出中单比例，1/1000
+     * </pre>
+     */
+    boolean hasMaiChuZhongDanBiLi();
+    /**
+     * <code>optional int64 MaiChuZhongDanBiLi = 8;</code>
+     *
+     * <pre>
+     * 卖出中单比例，1/1000
+     * </pre>
+     */
+    long getMaiChuZhongDanBiLi();
+
+    /**
+     * <code>optional int64 MaiChuDaDanBiLi = 9;</code>
+     *
+     * <pre>
+     * 卖出大单比例，1/1000
+     * </pre>
+     */
+    boolean hasMaiChuDaDanBiLi();
+    /**
+     * <code>optional int64 MaiChuDaDanBiLi = 9;</code>
+     *
+     * <pre>
+     * 卖出大单比例，1/1000
+     * </pre>
+     */
+    long getMaiChuDaDanBiLi();
+
+    /**
+     * <code>optional int64 MaiChuTeDaDanBiLi = 10;</code>
+     *
+     * <pre>
+     * 卖出特大单比例，1/1000
+     * </pre>
+     */
+    boolean hasMaiChuTeDaDanBiLi();
+    /**
+     * <code>optional int64 MaiChuTeDaDanBiLi = 10;</code>
+     *
+     * <pre>
+     * 卖出特大单比例，1/1000
+     * </pre>
+     */
+    long getMaiChuTeDaDanBiLi();
+
+    /**
+     * <code>optional int64 DuanXianMaiRu = 11;</code>
+     *
+     * <pre>
+     * 短线精灵买入大单统计
+     * </pre>
+     */
+    boolean hasDuanXianMaiRu();
+    /**
+     * <code>optional int64 DuanXianMaiRu = 11;</code>
+     *
+     * <pre>
+     * 短线精灵买入大单统计
+     * </pre>
+     */
+    long getDuanXianMaiRu();
+
+    /**
+     * <code>optional int64 DuanXianMaiChu = 12;</code>
+     *
+     * <pre>
+     * 短线精灵卖出大单统计
+     * </pre>
+     */
+    boolean hasDuanXianMaiChu();
+    /**
+     * <code>optional int64 DuanXianMaiChu = 12;</code>
+     *
+     * <pre>
+     * 短线精灵卖出大单统计
+     * </pre>
+     */
+    long getDuanXianMaiChu();
+
+    /**
+     * <code>optional int64 DuanXianChiHuo = 13;</code>
+     *
+     * <pre>
+     * 短线精灵吃货大单统计
+     * </pre>
+     */
+    boolean hasDuanXianChiHuo();
+    /**
+     * <code>optional int64 DuanXianChiHuo = 13;</code>
+     *
+     * <pre>
+     * 短线精灵吃货大单统计
+     * </pre>
+     */
+    long getDuanXianChiHuo();
+
+    /**
+     * <code>optional int64 DuanXianTuHuo = 14;</code>
+     *
+     * <pre>
+     * 短线精灵吐货大单统计
+     * </pre>
+     */
+    boolean hasDuanXianTuHuo();
+    /**
+     * <code>optional int64 DuanXianTuHuo = 14;</code>
+     *
+     * <pre>
+     * 短线精灵吐货大单统计
+     * </pre>
+     */
+    long getDuanXianTuHuo();
+  }
+  /**
+   * Protobuf type {@code dzhyun.Level2TongJi}
+   *
+   * <pre>
+   * Level2统计数据
+   * </pre>
+   */
+  public static final class Level2TongJi extends
+      com.google.protobuf.GeneratedMessage implements
+      // @@protoc_insertion_point(message_implements:dzhyun.Level2TongJi)
+      Level2TongJiOrBuilder {
+    // Use Level2TongJi.newBuilder() to construct.
+    private Level2TongJi(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      super(builder);
+      this.unknownFields = builder.getUnknownFields();
+    }
+    private Level2TongJi(boolean noInit) { this.unknownFields = com.google.protobuf.UnknownFieldSet.getDefaultInstance(); }
+
+    private static final Level2TongJi defaultInstance;
+    public static Level2TongJi getDefaultInstance() {
+      return defaultInstance;
+    }
+
+    public Level2TongJi getDefaultInstanceForType() {
+      return defaultInstance;
+    }
+
+    private final com.google.protobuf.UnknownFieldSet unknownFields;
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+        getUnknownFields() {
+      return this.unknownFields;
+    }
+    private Level2TongJi(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      initFields();
+      int mutable_bitField0_ = 0;
+      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+          com.google.protobuf.UnknownFieldSet.newBuilder();
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!parseUnknownField(input, unknownFields,
+                                     extensionRegistry, tag)) {
+                done = true;
+              }
+              break;
+            }
+            case 8: {
+              bitField0_ |= 0x00000001;
+              id_ = input.readInt64();
+              break;
+            }
+            case 16: {
+              bitField0_ |= 0x00000002;
+              shiJian_ = input.readInt64();
+              break;
+            }
+            case 24: {
+              bitField0_ |= 0x00000004;
+              weiTuoMaiRu_ = input.readInt64();
+              break;
+            }
+            case 32: {
+              bitField0_ |= 0x00000008;
+              weiTuoMaiChu_ = input.readInt64();
+              break;
+            }
+            case 40: {
+              bitField0_ |= 0x00000010;
+              maiRuZhongDanBiLi_ = input.readInt64();
+              break;
+            }
+            case 48: {
+              bitField0_ |= 0x00000020;
+              maiRuDaDanBiLi_ = input.readInt64();
+              break;
+            }
+            case 56: {
+              bitField0_ |= 0x00000040;
+              maiRuTeDaDanBiLi_ = input.readInt64();
+              break;
+            }
+            case 64: {
+              bitField0_ |= 0x00000080;
+              maiChuZhongDanBiLi_ = input.readInt64();
+              break;
+            }
+            case 72: {
+              bitField0_ |= 0x00000100;
+              maiChuDaDanBiLi_ = input.readInt64();
+              break;
+            }
+            case 80: {
+              bitField0_ |= 0x00000200;
+              maiChuTeDaDanBiLi_ = input.readInt64();
+              break;
+            }
+            case 88: {
+              bitField0_ |= 0x00000400;
+              duanXianMaiRu_ = input.readInt64();
+              break;
+            }
+            case 96: {
+              bitField0_ |= 0x00000800;
+              duanXianMaiChu_ = input.readInt64();
+              break;
+            }
+            case 104: {
+              bitField0_ |= 0x00001000;
+              duanXianChiHuo_ = input.readInt64();
+              break;
+            }
+            case 112: {
+              bitField0_ |= 0x00002000;
+              duanXianTuHuo_ = input.readInt64();
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e.getMessage()).setUnfinishedMessage(this);
+      } finally {
+        this.unknownFields = unknownFields.build();
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return com.dzhyun.proto.DzhyunGupiaoqiepian.internal_static_dzhyun_Level2TongJi_descriptor;
+    }
+
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return com.dzhyun.proto.DzhyunGupiaoqiepian.internal_static_dzhyun_Level2TongJi_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi.class, com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi.Builder.class);
+    }
+
+    public static com.google.protobuf.Parser<Level2TongJi> PARSER =
+        new com.google.protobuf.AbstractParser<Level2TongJi>() {
+      public Level2TongJi parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return new Level2TongJi(input, extensionRegistry);
+      }
+    };
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<Level2TongJi> getParserForType() {
+      return PARSER;
+    }
+
+    private int bitField0_;
+    public static final int ID_FIELD_NUMBER = 1;
+    private long id_;
+    /**
+     * <code>optional int64 Id = 1;</code>
+     *
+     * <pre>
+     * 序号
+     * </pre>
+     */
+    public boolean hasId() {
+      return ((bitField0_ & 0x00000001) == 0x00000001);
+    }
+    /**
+     * <code>optional int64 Id = 1;</code>
+     *
+     * <pre>
+     * 序号
+     * </pre>
+     */
+    public long getId() {
+      return id_;
+    }
+
+    public static final int SHIJIAN_FIELD_NUMBER = 2;
+    private long shiJian_;
+    /**
+     * <code>optional int64 ShiJian = 2;</code>
+     *
+     * <pre>
+     *时间
+     * </pre>
+     */
+    public boolean hasShiJian() {
+      return ((bitField0_ & 0x00000002) == 0x00000002);
+    }
+    /**
+     * <code>optional int64 ShiJian = 2;</code>
+     *
+     * <pre>
+     *时间
+     * </pre>
+     */
+    public long getShiJian() {
+      return shiJian_;
+    }
+
+    public static final int WEITUOMAIRU_FIELD_NUMBER = 3;
+    private long weiTuoMaiRu_;
+    /**
+     * <code>optional int64 WeiTuoMaiRu = 3;</code>
+     *
+     * <pre>
+     * 委托单买入数量
+     * </pre>
+     */
+    public boolean hasWeiTuoMaiRu() {
+      return ((bitField0_ & 0x00000004) == 0x00000004);
+    }
+    /**
+     * <code>optional int64 WeiTuoMaiRu = 3;</code>
+     *
+     * <pre>
+     * 委托单买入数量
+     * </pre>
+     */
+    public long getWeiTuoMaiRu() {
+      return weiTuoMaiRu_;
+    }
+
+    public static final int WEITUOMAICHU_FIELD_NUMBER = 4;
+    private long weiTuoMaiChu_;
+    /**
+     * <code>optional int64 WeiTuoMaiChu = 4;</code>
+     *
+     * <pre>
+     * 委托单卖出数量
+     * </pre>
+     */
+    public boolean hasWeiTuoMaiChu() {
+      return ((bitField0_ & 0x00000008) == 0x00000008);
+    }
+    /**
+     * <code>optional int64 WeiTuoMaiChu = 4;</code>
+     *
+     * <pre>
+     * 委托单卖出数量
+     * </pre>
+     */
+    public long getWeiTuoMaiChu() {
+      return weiTuoMaiChu_;
+    }
+
+    public static final int MAIRUZHONGDANBILI_FIELD_NUMBER = 5;
+    private long maiRuZhongDanBiLi_;
+    /**
+     * <code>optional int64 MaiRuZhongDanBiLi = 5;</code>
+     *
+     * <pre>
+     * 买入中单比例，1/1000
+     * </pre>
+     */
+    public boolean hasMaiRuZhongDanBiLi() {
+      return ((bitField0_ & 0x00000010) == 0x00000010);
+    }
+    /**
+     * <code>optional int64 MaiRuZhongDanBiLi = 5;</code>
+     *
+     * <pre>
+     * 买入中单比例，1/1000
+     * </pre>
+     */
+    public long getMaiRuZhongDanBiLi() {
+      return maiRuZhongDanBiLi_;
+    }
+
+    public static final int MAIRUDADANBILI_FIELD_NUMBER = 6;
+    private long maiRuDaDanBiLi_;
+    /**
+     * <code>optional int64 MaiRuDaDanBiLi = 6;</code>
+     *
+     * <pre>
+     * 买入大单比例，1/1000
+     * </pre>
+     */
+    public boolean hasMaiRuDaDanBiLi() {
+      return ((bitField0_ & 0x00000020) == 0x00000020);
+    }
+    /**
+     * <code>optional int64 MaiRuDaDanBiLi = 6;</code>
+     *
+     * <pre>
+     * 买入大单比例，1/1000
+     * </pre>
+     */
+    public long getMaiRuDaDanBiLi() {
+      return maiRuDaDanBiLi_;
+    }
+
+    public static final int MAIRUTEDADANBILI_FIELD_NUMBER = 7;
+    private long maiRuTeDaDanBiLi_;
+    /**
+     * <code>optional int64 MaiRuTeDaDanBiLi = 7;</code>
+     *
+     * <pre>
+     * 买入特大单比例，1/1000
+     * </pre>
+     */
+    public boolean hasMaiRuTeDaDanBiLi() {
+      return ((bitField0_ & 0x00000040) == 0x00000040);
+    }
+    /**
+     * <code>optional int64 MaiRuTeDaDanBiLi = 7;</code>
+     *
+     * <pre>
+     * 买入特大单比例，1/1000
+     * </pre>
+     */
+    public long getMaiRuTeDaDanBiLi() {
+      return maiRuTeDaDanBiLi_;
+    }
+
+    public static final int MAICHUZHONGDANBILI_FIELD_NUMBER = 8;
+    private long maiChuZhongDanBiLi_;
+    /**
+     * <code>optional int64 MaiChuZhongDanBiLi = 8;</code>
+     *
+     * <pre>
+     * 卖出中单比例，1/1000
+     * </pre>
+     */
+    public boolean hasMaiChuZhongDanBiLi() {
+      return ((bitField0_ & 0x00000080) == 0x00000080);
+    }
+    /**
+     * <code>optional int64 MaiChuZhongDanBiLi = 8;</code>
+     *
+     * <pre>
+     * 卖出中单比例，1/1000
+     * </pre>
+     */
+    public long getMaiChuZhongDanBiLi() {
+      return maiChuZhongDanBiLi_;
+    }
+
+    public static final int MAICHUDADANBILI_FIELD_NUMBER = 9;
+    private long maiChuDaDanBiLi_;
+    /**
+     * <code>optional int64 MaiChuDaDanBiLi = 9;</code>
+     *
+     * <pre>
+     * 卖出大单比例，1/1000
+     * </pre>
+     */
+    public boolean hasMaiChuDaDanBiLi() {
+      return ((bitField0_ & 0x00000100) == 0x00000100);
+    }
+    /**
+     * <code>optional int64 MaiChuDaDanBiLi = 9;</code>
+     *
+     * <pre>
+     * 卖出大单比例，1/1000
+     * </pre>
+     */
+    public long getMaiChuDaDanBiLi() {
+      return maiChuDaDanBiLi_;
+    }
+
+    public static final int MAICHUTEDADANBILI_FIELD_NUMBER = 10;
+    private long maiChuTeDaDanBiLi_;
+    /**
+     * <code>optional int64 MaiChuTeDaDanBiLi = 10;</code>
+     *
+     * <pre>
+     * 卖出特大单比例，1/1000
+     * </pre>
+     */
+    public boolean hasMaiChuTeDaDanBiLi() {
+      return ((bitField0_ & 0x00000200) == 0x00000200);
+    }
+    /**
+     * <code>optional int64 MaiChuTeDaDanBiLi = 10;</code>
+     *
+     * <pre>
+     * 卖出特大单比例，1/1000
+     * </pre>
+     */
+    public long getMaiChuTeDaDanBiLi() {
+      return maiChuTeDaDanBiLi_;
+    }
+
+    public static final int DUANXIANMAIRU_FIELD_NUMBER = 11;
+    private long duanXianMaiRu_;
+    /**
+     * <code>optional int64 DuanXianMaiRu = 11;</code>
+     *
+     * <pre>
+     * 短线精灵买入大单统计
+     * </pre>
+     */
+    public boolean hasDuanXianMaiRu() {
+      return ((bitField0_ & 0x00000400) == 0x00000400);
+    }
+    /**
+     * <code>optional int64 DuanXianMaiRu = 11;</code>
+     *
+     * <pre>
+     * 短线精灵买入大单统计
+     * </pre>
+     */
+    public long getDuanXianMaiRu() {
+      return duanXianMaiRu_;
+    }
+
+    public static final int DUANXIANMAICHU_FIELD_NUMBER = 12;
+    private long duanXianMaiChu_;
+    /**
+     * <code>optional int64 DuanXianMaiChu = 12;</code>
+     *
+     * <pre>
+     * 短线精灵卖出大单统计
+     * </pre>
+     */
+    public boolean hasDuanXianMaiChu() {
+      return ((bitField0_ & 0x00000800) == 0x00000800);
+    }
+    /**
+     * <code>optional int64 DuanXianMaiChu = 12;</code>
+     *
+     * <pre>
+     * 短线精灵卖出大单统计
+     * </pre>
+     */
+    public long getDuanXianMaiChu() {
+      return duanXianMaiChu_;
+    }
+
+    public static final int DUANXIANCHIHUO_FIELD_NUMBER = 13;
+    private long duanXianChiHuo_;
+    /**
+     * <code>optional int64 DuanXianChiHuo = 13;</code>
+     *
+     * <pre>
+     * 短线精灵吃货大单统计
+     * </pre>
+     */
+    public boolean hasDuanXianChiHuo() {
+      return ((bitField0_ & 0x00001000) == 0x00001000);
+    }
+    /**
+     * <code>optional int64 DuanXianChiHuo = 13;</code>
+     *
+     * <pre>
+     * 短线精灵吃货大单统计
+     * </pre>
+     */
+    public long getDuanXianChiHuo() {
+      return duanXianChiHuo_;
+    }
+
+    public static final int DUANXIANTUHUO_FIELD_NUMBER = 14;
+    private long duanXianTuHuo_;
+    /**
+     * <code>optional int64 DuanXianTuHuo = 14;</code>
+     *
+     * <pre>
+     * 短线精灵吐货大单统计
+     * </pre>
+     */
+    public boolean hasDuanXianTuHuo() {
+      return ((bitField0_ & 0x00002000) == 0x00002000);
+    }
+    /**
+     * <code>optional int64 DuanXianTuHuo = 14;</code>
+     *
+     * <pre>
+     * 短线精灵吐货大单统计
+     * </pre>
+     */
+    public long getDuanXianTuHuo() {
+      return duanXianTuHuo_;
+    }
+
+    private void initFields() {
+      id_ = 0L;
+      shiJian_ = 0L;
+      weiTuoMaiRu_ = 0L;
+      weiTuoMaiChu_ = 0L;
+      maiRuZhongDanBiLi_ = 0L;
+      maiRuDaDanBiLi_ = 0L;
+      maiRuTeDaDanBiLi_ = 0L;
+      maiChuZhongDanBiLi_ = 0L;
+      maiChuDaDanBiLi_ = 0L;
+      maiChuTeDaDanBiLi_ = 0L;
+      duanXianMaiRu_ = 0L;
+      duanXianMaiChu_ = 0L;
+      duanXianChiHuo_ = 0L;
+      duanXianTuHuo_ = 0L;
+    }
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      getSerializedSize();
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        output.writeInt64(1, id_);
+      }
+      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+        output.writeInt64(2, shiJian_);
+      }
+      if (((bitField0_ & 0x00000004) == 0x00000004)) {
+        output.writeInt64(3, weiTuoMaiRu_);
+      }
+      if (((bitField0_ & 0x00000008) == 0x00000008)) {
+        output.writeInt64(4, weiTuoMaiChu_);
+      }
+      if (((bitField0_ & 0x00000010) == 0x00000010)) {
+        output.writeInt64(5, maiRuZhongDanBiLi_);
+      }
+      if (((bitField0_ & 0x00000020) == 0x00000020)) {
+        output.writeInt64(6, maiRuDaDanBiLi_);
+      }
+      if (((bitField0_ & 0x00000040) == 0x00000040)) {
+        output.writeInt64(7, maiRuTeDaDanBiLi_);
+      }
+      if (((bitField0_ & 0x00000080) == 0x00000080)) {
+        output.writeInt64(8, maiChuZhongDanBiLi_);
+      }
+      if (((bitField0_ & 0x00000100) == 0x00000100)) {
+        output.writeInt64(9, maiChuDaDanBiLi_);
+      }
+      if (((bitField0_ & 0x00000200) == 0x00000200)) {
+        output.writeInt64(10, maiChuTeDaDanBiLi_);
+      }
+      if (((bitField0_ & 0x00000400) == 0x00000400)) {
+        output.writeInt64(11, duanXianMaiRu_);
+      }
+      if (((bitField0_ & 0x00000800) == 0x00000800)) {
+        output.writeInt64(12, duanXianMaiChu_);
+      }
+      if (((bitField0_ & 0x00001000) == 0x00001000)) {
+        output.writeInt64(13, duanXianChiHuo_);
+      }
+      if (((bitField0_ & 0x00002000) == 0x00002000)) {
+        output.writeInt64(14, duanXianTuHuo_);
+      }
+      getUnknownFields().writeTo(output);
+    }
+
+    private int memoizedSerializedSize = -1;
+    public int getSerializedSize() {
+      int size = memoizedSerializedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(1, id_);
+      }
+      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(2, shiJian_);
+      }
+      if (((bitField0_ & 0x00000004) == 0x00000004)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(3, weiTuoMaiRu_);
+      }
+      if (((bitField0_ & 0x00000008) == 0x00000008)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(4, weiTuoMaiChu_);
+      }
+      if (((bitField0_ & 0x00000010) == 0x00000010)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(5, maiRuZhongDanBiLi_);
+      }
+      if (((bitField0_ & 0x00000020) == 0x00000020)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(6, maiRuDaDanBiLi_);
+      }
+      if (((bitField0_ & 0x00000040) == 0x00000040)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(7, maiRuTeDaDanBiLi_);
+      }
+      if (((bitField0_ & 0x00000080) == 0x00000080)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(8, maiChuZhongDanBiLi_);
+      }
+      if (((bitField0_ & 0x00000100) == 0x00000100)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(9, maiChuDaDanBiLi_);
+      }
+      if (((bitField0_ & 0x00000200) == 0x00000200)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(10, maiChuTeDaDanBiLi_);
+      }
+      if (((bitField0_ & 0x00000400) == 0x00000400)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(11, duanXianMaiRu_);
+      }
+      if (((bitField0_ & 0x00000800) == 0x00000800)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(12, duanXianMaiChu_);
+      }
+      if (((bitField0_ & 0x00001000) == 0x00001000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(13, duanXianChiHuo_);
+      }
+      if (((bitField0_ & 0x00002000) == 0x00002000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(14, duanXianTuHuo_);
+      }
+      size += getUnknownFields().getSerializedSize();
+      memoizedSerializedSize = size;
+      return size;
+    }
+
+    private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    protected java.lang.Object writeReplace()
+        throws java.io.ObjectStreamException {
+      return super.writeReplace();
+    }
+
+    public static com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input);
+    }
+    public static com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+
+    public static Builder newBuilder() { return Builder.create(); }
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder(com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi prototype) {
+      return newBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() { return newBuilder(this); }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code dzhyun.Level2TongJi}
+     *
+     * <pre>
+     * Level2统计数据
+     * </pre>
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:dzhyun.Level2TongJi)
+        com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJiOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return com.dzhyun.proto.DzhyunGupiaoqiepian.internal_static_dzhyun_Level2TongJi_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return com.dzhyun.proto.DzhyunGupiaoqiepian.internal_static_dzhyun_Level2TongJi_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi.class, com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi.Builder.class);
+      }
+
+      // Construct using com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        }
+      }
+      private static Builder create() {
+        return new Builder();
+      }
+
+      public Builder clear() {
+        super.clear();
+        id_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000001);
+        shiJian_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000002);
+        weiTuoMaiRu_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000004);
+        weiTuoMaiChu_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000008);
+        maiRuZhongDanBiLi_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000010);
+        maiRuDaDanBiLi_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000020);
+        maiRuTeDaDanBiLi_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000040);
+        maiChuZhongDanBiLi_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000080);
+        maiChuDaDanBiLi_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000100);
+        maiChuTeDaDanBiLi_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000200);
+        duanXianMaiRu_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000400);
+        duanXianMaiChu_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000800);
+        duanXianChiHuo_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00001000);
+        duanXianTuHuo_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00002000);
+        return this;
+      }
+
+      public Builder clone() {
+        return create().mergeFrom(buildPartial());
+      }
+
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return com.dzhyun.proto.DzhyunGupiaoqiepian.internal_static_dzhyun_Level2TongJi_descriptor;
+      }
+
+      public com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi getDefaultInstanceForType() {
+        return com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi.getDefaultInstance();
+      }
+
+      public com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi build() {
+        com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      public com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi buildPartial() {
+        com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi result = new com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi(this);
+        int from_bitField0_ = bitField0_;
+        int to_bitField0_ = 0;
+        if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
+          to_bitField0_ |= 0x00000001;
+        }
+        result.id_ = id_;
+        if (((from_bitField0_ & 0x00000002) == 0x00000002)) {
+          to_bitField0_ |= 0x00000002;
+        }
+        result.shiJian_ = shiJian_;
+        if (((from_bitField0_ & 0x00000004) == 0x00000004)) {
+          to_bitField0_ |= 0x00000004;
+        }
+        result.weiTuoMaiRu_ = weiTuoMaiRu_;
+        if (((from_bitField0_ & 0x00000008) == 0x00000008)) {
+          to_bitField0_ |= 0x00000008;
+        }
+        result.weiTuoMaiChu_ = weiTuoMaiChu_;
+        if (((from_bitField0_ & 0x00000010) == 0x00000010)) {
+          to_bitField0_ |= 0x00000010;
+        }
+        result.maiRuZhongDanBiLi_ = maiRuZhongDanBiLi_;
+        if (((from_bitField0_ & 0x00000020) == 0x00000020)) {
+          to_bitField0_ |= 0x00000020;
+        }
+        result.maiRuDaDanBiLi_ = maiRuDaDanBiLi_;
+        if (((from_bitField0_ & 0x00000040) == 0x00000040)) {
+          to_bitField0_ |= 0x00000040;
+        }
+        result.maiRuTeDaDanBiLi_ = maiRuTeDaDanBiLi_;
+        if (((from_bitField0_ & 0x00000080) == 0x00000080)) {
+          to_bitField0_ |= 0x00000080;
+        }
+        result.maiChuZhongDanBiLi_ = maiChuZhongDanBiLi_;
+        if (((from_bitField0_ & 0x00000100) == 0x00000100)) {
+          to_bitField0_ |= 0x00000100;
+        }
+        result.maiChuDaDanBiLi_ = maiChuDaDanBiLi_;
+        if (((from_bitField0_ & 0x00000200) == 0x00000200)) {
+          to_bitField0_ |= 0x00000200;
+        }
+        result.maiChuTeDaDanBiLi_ = maiChuTeDaDanBiLi_;
+        if (((from_bitField0_ & 0x00000400) == 0x00000400)) {
+          to_bitField0_ |= 0x00000400;
+        }
+        result.duanXianMaiRu_ = duanXianMaiRu_;
+        if (((from_bitField0_ & 0x00000800) == 0x00000800)) {
+          to_bitField0_ |= 0x00000800;
+        }
+        result.duanXianMaiChu_ = duanXianMaiChu_;
+        if (((from_bitField0_ & 0x00001000) == 0x00001000)) {
+          to_bitField0_ |= 0x00001000;
+        }
+        result.duanXianChiHuo_ = duanXianChiHuo_;
+        if (((from_bitField0_ & 0x00002000) == 0x00002000)) {
+          to_bitField0_ |= 0x00002000;
+        }
+        result.duanXianTuHuo_ = duanXianTuHuo_;
+        result.bitField0_ = to_bitField0_;
+        onBuilt();
+        return result;
+      }
+
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi) {
+          return mergeFrom((com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi other) {
+        if (other == com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi.getDefaultInstance()) return this;
+        if (other.hasId()) {
+          setId(other.getId());
+        }
+        if (other.hasShiJian()) {
+          setShiJian(other.getShiJian());
+        }
+        if (other.hasWeiTuoMaiRu()) {
+          setWeiTuoMaiRu(other.getWeiTuoMaiRu());
+        }
+        if (other.hasWeiTuoMaiChu()) {
+          setWeiTuoMaiChu(other.getWeiTuoMaiChu());
+        }
+        if (other.hasMaiRuZhongDanBiLi()) {
+          setMaiRuZhongDanBiLi(other.getMaiRuZhongDanBiLi());
+        }
+        if (other.hasMaiRuDaDanBiLi()) {
+          setMaiRuDaDanBiLi(other.getMaiRuDaDanBiLi());
+        }
+        if (other.hasMaiRuTeDaDanBiLi()) {
+          setMaiRuTeDaDanBiLi(other.getMaiRuTeDaDanBiLi());
+        }
+        if (other.hasMaiChuZhongDanBiLi()) {
+          setMaiChuZhongDanBiLi(other.getMaiChuZhongDanBiLi());
+        }
+        if (other.hasMaiChuDaDanBiLi()) {
+          setMaiChuDaDanBiLi(other.getMaiChuDaDanBiLi());
+        }
+        if (other.hasMaiChuTeDaDanBiLi()) {
+          setMaiChuTeDaDanBiLi(other.getMaiChuTeDaDanBiLi());
+        }
+        if (other.hasDuanXianMaiRu()) {
+          setDuanXianMaiRu(other.getDuanXianMaiRu());
+        }
+        if (other.hasDuanXianMaiChu()) {
+          setDuanXianMaiChu(other.getDuanXianMaiChu());
+        }
+        if (other.hasDuanXianChiHuo()) {
+          setDuanXianChiHuo(other.getDuanXianChiHuo());
+        }
+        if (other.hasDuanXianTuHuo()) {
+          setDuanXianTuHuo(other.getDuanXianTuHuo());
+        }
+        this.mergeUnknownFields(other.getUnknownFields());
+        return this;
+      }
+
+      public final boolean isInitialized() {
+        return true;
+      }
+
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (com.dzhyun.proto.DzhyunGupiaoqiepian.Level2TongJi) e.getUnfinishedMessage();
+          throw e;
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+      private int bitField0_;
+
+      private long id_ ;
+      /**
+       * <code>optional int64 Id = 1;</code>
+       *
+       * <pre>
+       * 序号
+       * </pre>
+       */
+      public boolean hasId() {
+        return ((bitField0_ & 0x00000001) == 0x00000001);
+      }
+      /**
+       * <code>optional int64 Id = 1;</code>
+       *
+       * <pre>
+       * 序号
+       * </pre>
+       */
+      public long getId() {
+        return id_;
+      }
+      /**
+       * <code>optional int64 Id = 1;</code>
+       *
+       * <pre>
+       * 序号
+       * </pre>
+       */
+      public Builder setId(long value) {
+        bitField0_ |= 0x00000001;
+        id_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 Id = 1;</code>
+       *
+       * <pre>
+       * 序号
+       * </pre>
+       */
+      public Builder clearId() {
+        bitField0_ = (bitField0_ & ~0x00000001);
+        id_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long shiJian_ ;
+      /**
+       * <code>optional int64 ShiJian = 2;</code>
+       *
+       * <pre>
+       *时间
+       * </pre>
+       */
+      public boolean hasShiJian() {
+        return ((bitField0_ & 0x00000002) == 0x00000002);
+      }
+      /**
+       * <code>optional int64 ShiJian = 2;</code>
+       *
+       * <pre>
+       *时间
+       * </pre>
+       */
+      public long getShiJian() {
+        return shiJian_;
+      }
+      /**
+       * <code>optional int64 ShiJian = 2;</code>
+       *
+       * <pre>
+       *时间
+       * </pre>
+       */
+      public Builder setShiJian(long value) {
+        bitField0_ |= 0x00000002;
+        shiJian_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 ShiJian = 2;</code>
+       *
+       * <pre>
+       *时间
+       * </pre>
+       */
+      public Builder clearShiJian() {
+        bitField0_ = (bitField0_ & ~0x00000002);
+        shiJian_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiTuoMaiRu_ ;
+      /**
+       * <code>optional int64 WeiTuoMaiRu = 3;</code>
+       *
+       * <pre>
+       * 委托单买入数量
+       * </pre>
+       */
+      public boolean hasWeiTuoMaiRu() {
+        return ((bitField0_ & 0x00000004) == 0x00000004);
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRu = 3;</code>
+       *
+       * <pre>
+       * 委托单买入数量
+       * </pre>
+       */
+      public long getWeiTuoMaiRu() {
+        return weiTuoMaiRu_;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRu = 3;</code>
+       *
+       * <pre>
+       * 委托单买入数量
+       * </pre>
+       */
+      public Builder setWeiTuoMaiRu(long value) {
+        bitField0_ |= 0x00000004;
+        weiTuoMaiRu_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRu = 3;</code>
+       *
+       * <pre>
+       * 委托单买入数量
+       * </pre>
+       */
+      public Builder clearWeiTuoMaiRu() {
+        bitField0_ = (bitField0_ & ~0x00000004);
+        weiTuoMaiRu_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiTuoMaiChu_ ;
+      /**
+       * <code>optional int64 WeiTuoMaiChu = 4;</code>
+       *
+       * <pre>
+       * 委托单卖出数量
+       * </pre>
+       */
+      public boolean hasWeiTuoMaiChu() {
+        return ((bitField0_ & 0x00000008) == 0x00000008);
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChu = 4;</code>
+       *
+       * <pre>
+       * 委托单卖出数量
+       * </pre>
+       */
+      public long getWeiTuoMaiChu() {
+        return weiTuoMaiChu_;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChu = 4;</code>
+       *
+       * <pre>
+       * 委托单卖出数量
+       * </pre>
+       */
+      public Builder setWeiTuoMaiChu(long value) {
+        bitField0_ |= 0x00000008;
+        weiTuoMaiChu_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChu = 4;</code>
+       *
+       * <pre>
+       * 委托单卖出数量
+       * </pre>
+       */
+      public Builder clearWeiTuoMaiChu() {
+        bitField0_ = (bitField0_ & ~0x00000008);
+        weiTuoMaiChu_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long maiRuZhongDanBiLi_ ;
+      /**
+       * <code>optional int64 MaiRuZhongDanBiLi = 5;</code>
+       *
+       * <pre>
+       * 买入中单比例，1/1000
+       * </pre>
+       */
+      public boolean hasMaiRuZhongDanBiLi() {
+        return ((bitField0_ & 0x00000010) == 0x00000010);
+      }
+      /**
+       * <code>optional int64 MaiRuZhongDanBiLi = 5;</code>
+       *
+       * <pre>
+       * 买入中单比例，1/1000
+       * </pre>
+       */
+      public long getMaiRuZhongDanBiLi() {
+        return maiRuZhongDanBiLi_;
+      }
+      /**
+       * <code>optional int64 MaiRuZhongDanBiLi = 5;</code>
+       *
+       * <pre>
+       * 买入中单比例，1/1000
+       * </pre>
+       */
+      public Builder setMaiRuZhongDanBiLi(long value) {
+        bitField0_ |= 0x00000010;
+        maiRuZhongDanBiLi_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 MaiRuZhongDanBiLi = 5;</code>
+       *
+       * <pre>
+       * 买入中单比例，1/1000
+       * </pre>
+       */
+      public Builder clearMaiRuZhongDanBiLi() {
+        bitField0_ = (bitField0_ & ~0x00000010);
+        maiRuZhongDanBiLi_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long maiRuDaDanBiLi_ ;
+      /**
+       * <code>optional int64 MaiRuDaDanBiLi = 6;</code>
+       *
+       * <pre>
+       * 买入大单比例，1/1000
+       * </pre>
+       */
+      public boolean hasMaiRuDaDanBiLi() {
+        return ((bitField0_ & 0x00000020) == 0x00000020);
+      }
+      /**
+       * <code>optional int64 MaiRuDaDanBiLi = 6;</code>
+       *
+       * <pre>
+       * 买入大单比例，1/1000
+       * </pre>
+       */
+      public long getMaiRuDaDanBiLi() {
+        return maiRuDaDanBiLi_;
+      }
+      /**
+       * <code>optional int64 MaiRuDaDanBiLi = 6;</code>
+       *
+       * <pre>
+       * 买入大单比例，1/1000
+       * </pre>
+       */
+      public Builder setMaiRuDaDanBiLi(long value) {
+        bitField0_ |= 0x00000020;
+        maiRuDaDanBiLi_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 MaiRuDaDanBiLi = 6;</code>
+       *
+       * <pre>
+       * 买入大单比例，1/1000
+       * </pre>
+       */
+      public Builder clearMaiRuDaDanBiLi() {
+        bitField0_ = (bitField0_ & ~0x00000020);
+        maiRuDaDanBiLi_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long maiRuTeDaDanBiLi_ ;
+      /**
+       * <code>optional int64 MaiRuTeDaDanBiLi = 7;</code>
+       *
+       * <pre>
+       * 买入特大单比例，1/1000
+       * </pre>
+       */
+      public boolean hasMaiRuTeDaDanBiLi() {
+        return ((bitField0_ & 0x00000040) == 0x00000040);
+      }
+      /**
+       * <code>optional int64 MaiRuTeDaDanBiLi = 7;</code>
+       *
+       * <pre>
+       * 买入特大单比例，1/1000
+       * </pre>
+       */
+      public long getMaiRuTeDaDanBiLi() {
+        return maiRuTeDaDanBiLi_;
+      }
+      /**
+       * <code>optional int64 MaiRuTeDaDanBiLi = 7;</code>
+       *
+       * <pre>
+       * 买入特大单比例，1/1000
+       * </pre>
+       */
+      public Builder setMaiRuTeDaDanBiLi(long value) {
+        bitField0_ |= 0x00000040;
+        maiRuTeDaDanBiLi_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 MaiRuTeDaDanBiLi = 7;</code>
+       *
+       * <pre>
+       * 买入特大单比例，1/1000
+       * </pre>
+       */
+      public Builder clearMaiRuTeDaDanBiLi() {
+        bitField0_ = (bitField0_ & ~0x00000040);
+        maiRuTeDaDanBiLi_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long maiChuZhongDanBiLi_ ;
+      /**
+       * <code>optional int64 MaiChuZhongDanBiLi = 8;</code>
+       *
+       * <pre>
+       * 卖出中单比例，1/1000
+       * </pre>
+       */
+      public boolean hasMaiChuZhongDanBiLi() {
+        return ((bitField0_ & 0x00000080) == 0x00000080);
+      }
+      /**
+       * <code>optional int64 MaiChuZhongDanBiLi = 8;</code>
+       *
+       * <pre>
+       * 卖出中单比例，1/1000
+       * </pre>
+       */
+      public long getMaiChuZhongDanBiLi() {
+        return maiChuZhongDanBiLi_;
+      }
+      /**
+       * <code>optional int64 MaiChuZhongDanBiLi = 8;</code>
+       *
+       * <pre>
+       * 卖出中单比例，1/1000
+       * </pre>
+       */
+      public Builder setMaiChuZhongDanBiLi(long value) {
+        bitField0_ |= 0x00000080;
+        maiChuZhongDanBiLi_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 MaiChuZhongDanBiLi = 8;</code>
+       *
+       * <pre>
+       * 卖出中单比例，1/1000
+       * </pre>
+       */
+      public Builder clearMaiChuZhongDanBiLi() {
+        bitField0_ = (bitField0_ & ~0x00000080);
+        maiChuZhongDanBiLi_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long maiChuDaDanBiLi_ ;
+      /**
+       * <code>optional int64 MaiChuDaDanBiLi = 9;</code>
+       *
+       * <pre>
+       * 卖出大单比例，1/1000
+       * </pre>
+       */
+      public boolean hasMaiChuDaDanBiLi() {
+        return ((bitField0_ & 0x00000100) == 0x00000100);
+      }
+      /**
+       * <code>optional int64 MaiChuDaDanBiLi = 9;</code>
+       *
+       * <pre>
+       * 卖出大单比例，1/1000
+       * </pre>
+       */
+      public long getMaiChuDaDanBiLi() {
+        return maiChuDaDanBiLi_;
+      }
+      /**
+       * <code>optional int64 MaiChuDaDanBiLi = 9;</code>
+       *
+       * <pre>
+       * 卖出大单比例，1/1000
+       * </pre>
+       */
+      public Builder setMaiChuDaDanBiLi(long value) {
+        bitField0_ |= 0x00000100;
+        maiChuDaDanBiLi_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 MaiChuDaDanBiLi = 9;</code>
+       *
+       * <pre>
+       * 卖出大单比例，1/1000
+       * </pre>
+       */
+      public Builder clearMaiChuDaDanBiLi() {
+        bitField0_ = (bitField0_ & ~0x00000100);
+        maiChuDaDanBiLi_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long maiChuTeDaDanBiLi_ ;
+      /**
+       * <code>optional int64 MaiChuTeDaDanBiLi = 10;</code>
+       *
+       * <pre>
+       * 卖出特大单比例，1/1000
+       * </pre>
+       */
+      public boolean hasMaiChuTeDaDanBiLi() {
+        return ((bitField0_ & 0x00000200) == 0x00000200);
+      }
+      /**
+       * <code>optional int64 MaiChuTeDaDanBiLi = 10;</code>
+       *
+       * <pre>
+       * 卖出特大单比例，1/1000
+       * </pre>
+       */
+      public long getMaiChuTeDaDanBiLi() {
+        return maiChuTeDaDanBiLi_;
+      }
+      /**
+       * <code>optional int64 MaiChuTeDaDanBiLi = 10;</code>
+       *
+       * <pre>
+       * 卖出特大单比例，1/1000
+       * </pre>
+       */
+      public Builder setMaiChuTeDaDanBiLi(long value) {
+        bitField0_ |= 0x00000200;
+        maiChuTeDaDanBiLi_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 MaiChuTeDaDanBiLi = 10;</code>
+       *
+       * <pre>
+       * 卖出特大单比例，1/1000
+       * </pre>
+       */
+      public Builder clearMaiChuTeDaDanBiLi() {
+        bitField0_ = (bitField0_ & ~0x00000200);
+        maiChuTeDaDanBiLi_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long duanXianMaiRu_ ;
+      /**
+       * <code>optional int64 DuanXianMaiRu = 11;</code>
+       *
+       * <pre>
+       * 短线精灵买入大单统计
+       * </pre>
+       */
+      public boolean hasDuanXianMaiRu() {
+        return ((bitField0_ & 0x00000400) == 0x00000400);
+      }
+      /**
+       * <code>optional int64 DuanXianMaiRu = 11;</code>
+       *
+       * <pre>
+       * 短线精灵买入大单统计
+       * </pre>
+       */
+      public long getDuanXianMaiRu() {
+        return duanXianMaiRu_;
+      }
+      /**
+       * <code>optional int64 DuanXianMaiRu = 11;</code>
+       *
+       * <pre>
+       * 短线精灵买入大单统计
+       * </pre>
+       */
+      public Builder setDuanXianMaiRu(long value) {
+        bitField0_ |= 0x00000400;
+        duanXianMaiRu_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 DuanXianMaiRu = 11;</code>
+       *
+       * <pre>
+       * 短线精灵买入大单统计
+       * </pre>
+       */
+      public Builder clearDuanXianMaiRu() {
+        bitField0_ = (bitField0_ & ~0x00000400);
+        duanXianMaiRu_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long duanXianMaiChu_ ;
+      /**
+       * <code>optional int64 DuanXianMaiChu = 12;</code>
+       *
+       * <pre>
+       * 短线精灵卖出大单统计
+       * </pre>
+       */
+      public boolean hasDuanXianMaiChu() {
+        return ((bitField0_ & 0x00000800) == 0x00000800);
+      }
+      /**
+       * <code>optional int64 DuanXianMaiChu = 12;</code>
+       *
+       * <pre>
+       * 短线精灵卖出大单统计
+       * </pre>
+       */
+      public long getDuanXianMaiChu() {
+        return duanXianMaiChu_;
+      }
+      /**
+       * <code>optional int64 DuanXianMaiChu = 12;</code>
+       *
+       * <pre>
+       * 短线精灵卖出大单统计
+       * </pre>
+       */
+      public Builder setDuanXianMaiChu(long value) {
+        bitField0_ |= 0x00000800;
+        duanXianMaiChu_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 DuanXianMaiChu = 12;</code>
+       *
+       * <pre>
+       * 短线精灵卖出大单统计
+       * </pre>
+       */
+      public Builder clearDuanXianMaiChu() {
+        bitField0_ = (bitField0_ & ~0x00000800);
+        duanXianMaiChu_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long duanXianChiHuo_ ;
+      /**
+       * <code>optional int64 DuanXianChiHuo = 13;</code>
+       *
+       * <pre>
+       * 短线精灵吃货大单统计
+       * </pre>
+       */
+      public boolean hasDuanXianChiHuo() {
+        return ((bitField0_ & 0x00001000) == 0x00001000);
+      }
+      /**
+       * <code>optional int64 DuanXianChiHuo = 13;</code>
+       *
+       * <pre>
+       * 短线精灵吃货大单统计
+       * </pre>
+       */
+      public long getDuanXianChiHuo() {
+        return duanXianChiHuo_;
+      }
+      /**
+       * <code>optional int64 DuanXianChiHuo = 13;</code>
+       *
+       * <pre>
+       * 短线精灵吃货大单统计
+       * </pre>
+       */
+      public Builder setDuanXianChiHuo(long value) {
+        bitField0_ |= 0x00001000;
+        duanXianChiHuo_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 DuanXianChiHuo = 13;</code>
+       *
+       * <pre>
+       * 短线精灵吃货大单统计
+       * </pre>
+       */
+      public Builder clearDuanXianChiHuo() {
+        bitField0_ = (bitField0_ & ~0x00001000);
+        duanXianChiHuo_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long duanXianTuHuo_ ;
+      /**
+       * <code>optional int64 DuanXianTuHuo = 14;</code>
+       *
+       * <pre>
+       * 短线精灵吐货大单统计
+       * </pre>
+       */
+      public boolean hasDuanXianTuHuo() {
+        return ((bitField0_ & 0x00002000) == 0x00002000);
+      }
+      /**
+       * <code>optional int64 DuanXianTuHuo = 14;</code>
+       *
+       * <pre>
+       * 短线精灵吐货大单统计
+       * </pre>
+       */
+      public long getDuanXianTuHuo() {
+        return duanXianTuHuo_;
+      }
+      /**
+       * <code>optional int64 DuanXianTuHuo = 14;</code>
+       *
+       * <pre>
+       * 短线精灵吐货大单统计
+       * </pre>
+       */
+      public Builder setDuanXianTuHuo(long value) {
+        bitField0_ |= 0x00002000;
+        duanXianTuHuo_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 DuanXianTuHuo = 14;</code>
+       *
+       * <pre>
+       * 短线精灵吐货大单统计
+       * </pre>
+       */
+      public Builder clearDuanXianTuHuo() {
+        bitField0_ = (bitField0_ & ~0x00002000);
+        duanXianTuHuo_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      // @@protoc_insertion_point(builder_scope:dzhyun.Level2TongJi)
+    }
+
+    static {
+      defaultInstance = new Level2TongJi(true);
+      defaultInstance.initFields();
+    }
+
+    // @@protoc_insertion_point(class_scope:dzhyun.Level2TongJi)
+  }
+
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dzhyun_FenBiChengJiao_descriptor;
   private static
@@ -15194,6 +21621,11 @@ public final class DzhyunGupiaoqiepian {
   private static
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dzhyun_WeiTuoDuiLie_WeiTuo_fieldAccessorTable;
+  private static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_dzhyun_Level2TongJi_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_dzhyun_Level2TongJi_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -15208,7 +21640,7 @@ public final class DzhyunGupiaoqiepian {
       " \002(\003\022\024\n\014ChengJiaoJia\030\003 \001(\003\022\026\n\016ChengJiaoL" +
       "iang\030\004 \001(\003\022\022\n\nChengJiaoE\030\005 \001(\003\022\031\n\021ChengJ" +
       "iaoDanBiShu\030\006 \001(\003\022\037\n\027ShiFouZhuDongXingMa" +
-      "iDan\030\007 \001(\003\"\203\005\n\013GeGuDongTai\022\n\n\002Id\030\001 \002(\003\022\017" +
+      "iDan\030\007 \001(\003\"\344\016\n\013GeGuDongTai\022\n\n\002Id\030\001 \002(\003\022\017" +
       "\n\007ShiJian\030\002 \002(\003\022\021\n\tZuiXinJia\030\003 \001(\003\022\021\n\tKa" +
       "iPanJia\030\004 \001(\003\022\021\n\tZuiGaoJia\030\005 \001(\003\022\020\n\010ZuiD" +
       "iJia\030\006 \001(\003\022\017\n\007ZuoShou\030\007 \001(\003\022\016\n\006JunJia\030\010 " +
@@ -15224,52 +21656,91 @@ public final class DzhyunGupiaoqiepian {
       "\030\032 \001(\003\022\030\n\020FenZhongZhangFu1\030\033 \001(\003\022\030\n\020FenZ" +
       "hongZhangFu2\030\034 \001(\003\022\030\n\020FenZhongZhangFu3\030\035",
       " \001(\003\022\030\n\020FenZhongZhangFu4\030\036 \001(\003\022\030\n\020FenZho" +
-      "ngZhangFu5\030\037 \001(\003\"\331\004\n\tMaiMaiPan\022\n\n\002Id\030\001 \002" +
-      "(\003\022\017\n\007ShiJian\030\002 \002(\003\022\027\n\017WeiTuoMaiRuJia1\030\003" +
-      " \001(\003\022\031\n\021WeiTuoMaiRuLiang1\030\004 \001(\003\022\027\n\017WeiTu" +
-      "oMaiRuJia2\030\005 \001(\003\022\031\n\021WeiTuoMaiRuLiang2\030\006 " +
-      "\001(\003\022\027\n\017WeiTuoMaiRuJia3\030\007 \001(\003\022\031\n\021WeiTuoMa" +
-      "iRuLiang3\030\010 \001(\003\022\027\n\017WeiTuoMaiRuJia4\030\t \001(\003" +
-      "\022\031\n\021WeiTuoMaiRuLiang4\030\n \001(\003\022\027\n\017WeiTuoMai" +
-      "RuJia5\030\013 \001(\003\022\031\n\021WeiTuoMaiRuLiang5\030\014 \001(\003\022" +
-      "\030\n\020WeiTuoMaiChuJia1\030\r \001(\003\022\032\n\022WeiTuoMaiCh",
-      "uLiang1\030\016 \001(\003\022\030\n\020WeiTuoMaiChuJia2\030\017 \001(\003\022" +
-      "\032\n\022WeiTuoMaiChuLiang2\030\020 \001(\003\022\030\n\020WeiTuoMai" +
-      "ChuJia3\030\021 \001(\003\022\032\n\022WeiTuoMaiChuLiang3\030\022 \001(" +
-      "\003\022\030\n\020WeiTuoMaiChuJia4\030\023 \001(\003\022\032\n\022WeiTuoMai" +
-      "ChuLiang4\030\024 \001(\003\022\030\n\020WeiTuoMaiChuJia5\030\025 \001(" +
-      "\003\022\032\n\022WeiTuoMaiChuLiang5\030\026 \001(\003\022\r\n\005WeiBi\030\027" +
-      " \001(\003\022\016\n\006WeiCha\030\030 \001(\003\"\337\005\n\020KuoZhanMaiMaiPa" +
-      "n\022\n\n\002Id\030\001 \002(\003\022\017\n\007ShiJian\030\002 \002(\003\022$\n\034JiaQua" +
-      "nPingJunWeiTuoMaiRuJia\030\003 \001(\003\022\034\n\024WeiTuoMa" +
-      "iRuZongLiang\030\004 \001(\003\022%\n\035JiaQuanPingJunWeiT",
-      "uoMaiChuJia\030\005 \001(\003\022\035\n\025WeiTuoMaiChuZongLia" +
-      "ng\030\006 \001(\003\022\030\n\020KuoZhanMaiRuJia1\030\007 \001(\003\022\030\n\020Ku" +
-      "oZhanMaiRuJia2\030\010 \001(\003\022\030\n\020KuoZhanMaiRuJia3" +
-      "\030\t \001(\003\022\030\n\020KuoZhanMaiRuJia4\030\n \001(\003\022\030\n\020KuoZ" +
-      "hanMaiRuJia5\030\013 \001(\003\022\032\n\022KuoZhanMaiRuLiang1" +
-      "\030\014 \001(\003\022\032\n\022KuoZhanMaiRuLiang2\030\r \001(\003\022\032\n\022Ku" +
-      "oZhanMaiRuLiang3\030\016 \001(\003\022\032\n\022KuoZhanMaiRuLi" +
-      "ang4\030\017 \001(\003\022\032\n\022KuoZhanMaiRuLiang5\030\020 \001(\003\022\031" +
-      "\n\021KuoZhanMaiChuJia1\030\021 \001(\003\022\031\n\021KuoZhanMaiC" +
-      "huJia2\030\022 \001(\003\022\031\n\021KuoZhanMaiChuJia3\030\023 \001(\003\022",
-      "\031\n\021KuoZhanMaiChuJia4\030\024 \001(\003\022\031\n\021KuoZhanMai" +
-      "ChuJia5\030\025 \001(\003\022\033\n\023KuoZhanMaiChuLiang1\030\026 \001" +
-      "(\003\022\033\n\023KuoZhanMaiChuLiang2\030\027 \001(\003\022\033\n\023KuoZh" +
-      "anMaiChuLiang3\030\030 \001(\003\022\033\n\023KuoZhanMaiChuLia" +
-      "ng4\030\031 \001(\003\022\033\n\023KuoZhanMaiChuLiang5\030\032 \001(\003\"\345" +
-      "\001\n\rQuanMaiMaiPan\022\n\n\002Id\030\001 \002(\003\022\017\n\007ShiJian\030" +
-      "\002 \001(\003\0225\n\013WeiMaiRuPan\030\003 \003(\0132 .dzhyun.Quan" +
-      "MaiMaiPan.MaiMaiBiao\0226\n\014WeiMaiChuPan\030\004 \003" +
-      "(\0132 .dzhyun.QuanMaiMaiPan.MaiMaiBiao\032H\n\n" +
-      "MaiMaiBiao\022\016\n\006WeiZhi\030\001 \001(\003\022\013\n\003Jia\030\002 \001(\003\022",
-      "\r\n\005Liang\030\003 \001(\003\022\016\n\006DanShu\030\004 \001(\003\"\306\001\n\014WeiTu" +
-      "oDuiLie\022\013\n\003Obj\030\001 \002(\t\022\017\n\007ShiJian\030\002 \002(\003\0220\n" +
-      "\013MaiRuDuiLie\030\003 \003(\0132\033.dzhyun.WeiTuoDuiLie" +
-      ".WeiTuo\0221\n\014MaiChuDuiLie\030\004 \003(\0132\033.dzhyun.W" +
-      "eiTuoDuiLie.WeiTuo\0323\n\006WeiTuo\022\013\n\003Jia\030\001 \002(" +
-      "\003\022\r\n\005BiShu\030\002 \002(\003\022\r\n\005Liang\030\003 \003(\003B\022\n\020com.d" +
-      "zhyun.proto"
+      "ngZhangFu5\030\037 \001(\003\022\027\n\017WeiTuoMaiRuJia1\030  \001(" +
+      "\003\022\031\n\021WeiTuoMaiRuLiang1\030! \001(\003\022\027\n\017WeiTuoMa" +
+      "iRuJia2\030\" \001(\003\022\031\n\021WeiTuoMaiRuLiang2\030# \001(\003" +
+      "\022\027\n\017WeiTuoMaiRuJia3\030$ \001(\003\022\031\n\021WeiTuoMaiRu" +
+      "Liang3\030% \001(\003\022\027\n\017WeiTuoMaiRuJia4\030& \001(\003\022\031\n" +
+      "\021WeiTuoMaiRuLiang4\030\' \001(\003\022\027\n\017WeiTuoMaiRuJ" +
+      "ia5\030( \001(\003\022\031\n\021WeiTuoMaiRuLiang5\030) \001(\003\022\030\n\020" +
+      "WeiTuoMaiChuJia1\030* \001(\003\022\032\n\022WeiTuoMaiChuLi" +
+      "ang1\030+ \001(\003\022\030\n\020WeiTuoMaiChuJia2\030, \001(\003\022\032\n\022",
+      "WeiTuoMaiChuLiang2\030- \001(\003\022\030\n\020WeiTuoMaiChu" +
+      "Jia3\030. \001(\003\022\032\n\022WeiTuoMaiChuLiang3\030/ \001(\003\022\030" +
+      "\n\020WeiTuoMaiChuJia4\0300 \001(\003\022\032\n\022WeiTuoMaiChu" +
+      "Liang4\0301 \001(\003\022\030\n\020WeiTuoMaiChuJia5\0302 \001(\003\022\032" +
+      "\n\022WeiTuoMaiChuLiang5\0303 \001(\003\022\r\n\005WeiBi\0304 \001(" +
+      "\003\022\016\n\006WeiCha\0305 \001(\003\022$\n\034JiaQuanPingJunWeiTu" +
+      "oMaiRuJia\0306 \001(\003\022\034\n\024WeiTuoMaiRuZongLiang\030" +
+      "7 \001(\003\022%\n\035JiaQuanPingJunWeiTuoMaiChuJia\0308" +
+      " \001(\003\022\035\n\025WeiTuoMaiChuZongLiang\0309 \001(\003\022\030\n\020K" +
+      "uoZhanMaiRuJia1\030: \001(\003\022\030\n\020KuoZhanMaiRuJia",
+      "2\030; \001(\003\022\030\n\020KuoZhanMaiRuJia3\030< \001(\003\022\030\n\020Kuo" +
+      "ZhanMaiRuJia4\030= \001(\003\022\030\n\020KuoZhanMaiRuJia5\030" +
+      "> \001(\003\022\032\n\022KuoZhanMaiRuLiang1\030? \001(\003\022\032\n\022Kuo" +
+      "ZhanMaiRuLiang2\030@ \001(\003\022\032\n\022KuoZhanMaiRuLia" +
+      "ng3\030A \001(\003\022\032\n\022KuoZhanMaiRuLiang4\030B \001(\003\022\032\n" +
+      "\022KuoZhanMaiRuLiang5\030C \001(\003\022\031\n\021KuoZhanMaiC" +
+      "huJia1\030D \001(\003\022\031\n\021KuoZhanMaiChuJia2\030E \001(\003\022" +
+      "\031\n\021KuoZhanMaiChuJia3\030F \001(\003\022\031\n\021KuoZhanMai" +
+      "ChuJia4\030G \001(\003\022\031\n\021KuoZhanMaiChuJia5\030H \001(\003" +
+      "\022\033\n\023KuoZhanMaiChuLiang1\030I \001(\003\022\033\n\023KuoZhan",
+      "MaiChuLiang2\030J \001(\003\022\033\n\023KuoZhanMaiChuLiang" +
+      "3\030K \001(\003\022\033\n\023KuoZhanMaiChuLiang4\030L \001(\003\022\033\n\023" +
+      "KuoZhanMaiChuLiang5\030M \001(\003\"\331\004\n\tMaiMaiPan\022" +
+      "\n\n\002Id\030\001 \002(\003\022\017\n\007ShiJian\030\002 \002(\003\022\027\n\017WeiTuoMa" +
+      "iRuJia1\030\003 \001(\003\022\031\n\021WeiTuoMaiRuLiang1\030\004 \001(\003" +
+      "\022\027\n\017WeiTuoMaiRuJia2\030\005 \001(\003\022\031\n\021WeiTuoMaiRu" +
+      "Liang2\030\006 \001(\003\022\027\n\017WeiTuoMaiRuJia3\030\007 \001(\003\022\031\n" +
+      "\021WeiTuoMaiRuLiang3\030\010 \001(\003\022\027\n\017WeiTuoMaiRuJ" +
+      "ia4\030\t \001(\003\022\031\n\021WeiTuoMaiRuLiang4\030\n \001(\003\022\027\n\017" +
+      "WeiTuoMaiRuJia5\030\013 \001(\003\022\031\n\021WeiTuoMaiRuLian",
+      "g5\030\014 \001(\003\022\030\n\020WeiTuoMaiChuJia1\030\r \001(\003\022\032\n\022We" +
+      "iTuoMaiChuLiang1\030\016 \001(\003\022\030\n\020WeiTuoMaiChuJi" +
+      "a2\030\017 \001(\003\022\032\n\022WeiTuoMaiChuLiang2\030\020 \001(\003\022\030\n\020" +
+      "WeiTuoMaiChuJia3\030\021 \001(\003\022\032\n\022WeiTuoMaiChuLi" +
+      "ang3\030\022 \001(\003\022\030\n\020WeiTuoMaiChuJia4\030\023 \001(\003\022\032\n\022" +
+      "WeiTuoMaiChuLiang4\030\024 \001(\003\022\030\n\020WeiTuoMaiChu" +
+      "Jia5\030\025 \001(\003\022\032\n\022WeiTuoMaiChuLiang5\030\026 \001(\003\022\r" +
+      "\n\005WeiBi\030\027 \001(\003\022\016\n\006WeiCha\030\030 \001(\003\"\337\005\n\020KuoZha" +
+      "nMaiMaiPan\022\n\n\002Id\030\001 \002(\003\022\017\n\007ShiJian\030\002 \002(\003\022" +
+      "$\n\034JiaQuanPingJunWeiTuoMaiRuJia\030\003 \001(\003\022\034\n",
+      "\024WeiTuoMaiRuZongLiang\030\004 \001(\003\022%\n\035JiaQuanPi" +
+      "ngJunWeiTuoMaiChuJia\030\005 \001(\003\022\035\n\025WeiTuoMaiC" +
+      "huZongLiang\030\006 \001(\003\022\030\n\020KuoZhanMaiRuJia1\030\007 " +
+      "\001(\003\022\030\n\020KuoZhanMaiRuJia2\030\010 \001(\003\022\030\n\020KuoZhan" +
+      "MaiRuJia3\030\t \001(\003\022\030\n\020KuoZhanMaiRuJia4\030\n \001(" +
+      "\003\022\030\n\020KuoZhanMaiRuJia5\030\013 \001(\003\022\032\n\022KuoZhanMa" +
+      "iRuLiang1\030\014 \001(\003\022\032\n\022KuoZhanMaiRuLiang2\030\r " +
+      "\001(\003\022\032\n\022KuoZhanMaiRuLiang3\030\016 \001(\003\022\032\n\022KuoZh" +
+      "anMaiRuLiang4\030\017 \001(\003\022\032\n\022KuoZhanMaiRuLiang" +
+      "5\030\020 \001(\003\022\031\n\021KuoZhanMaiChuJia1\030\021 \001(\003\022\031\n\021Ku",
+      "oZhanMaiChuJia2\030\022 \001(\003\022\031\n\021KuoZhanMaiChuJi" +
+      "a3\030\023 \001(\003\022\031\n\021KuoZhanMaiChuJia4\030\024 \001(\003\022\031\n\021K" +
+      "uoZhanMaiChuJia5\030\025 \001(\003\022\033\n\023KuoZhanMaiChuL" +
+      "iang1\030\026 \001(\003\022\033\n\023KuoZhanMaiChuLiang2\030\027 \001(\003" +
+      "\022\033\n\023KuoZhanMaiChuLiang3\030\030 \001(\003\022\033\n\023KuoZhan" +
+      "MaiChuLiang4\030\031 \001(\003\022\033\n\023KuoZhanMaiChuLiang" +
+      "5\030\032 \001(\003\"\345\001\n\rQuanMaiMaiPan\022\n\n\002Id\030\001 \002(\003\022\017\n" +
+      "\007ShiJian\030\002 \001(\003\0225\n\013WeiMaiRuPan\030\003 \003(\0132 .dz" +
+      "hyun.QuanMaiMaiPan.MaiMaiBiao\0226\n\014WeiMaiC" +
+      "huPan\030\004 \003(\0132 .dzhyun.QuanMaiMaiPan.MaiMa",
+      "iBiao\032H\n\nMaiMaiBiao\022\016\n\006WeiZhi\030\001 \001(\003\022\013\n\003J" +
+      "ia\030\002 \001(\003\022\r\n\005Liang\030\003 \001(\003\022\016\n\006DanShu\030\004 \001(\003\"" +
+      "\306\001\n\014WeiTuoDuiLie\022\013\n\003Obj\030\001 \002(\t\022\017\n\007ShiJian" +
+      "\030\002 \002(\003\0220\n\013MaiRuDuiLie\030\003 \003(\0132\033.dzhyun.Wei" +
+      "TuoDuiLie.WeiTuo\0221\n\014MaiChuDuiLie\030\004 \003(\0132\033" +
+      ".dzhyun.WeiTuoDuiLie.WeiTuo\0323\n\006WeiTuo\022\013\n" +
+      "\003Jia\030\001 \002(\003\022\r\n\005BiShu\030\002 \002(\003\022\r\n\005Liang\030\003 \003(\003" +
+      "\"\321\002\n\014Level2TongJi\022\n\n\002Id\030\001 \001(\003\022\017\n\007ShiJian" +
+      "\030\002 \001(\003\022\023\n\013WeiTuoMaiRu\030\003 \001(\003\022\024\n\014WeiTuoMai" +
+      "Chu\030\004 \001(\003\022\031\n\021MaiRuZhongDanBiLi\030\005 \001(\003\022\026\n\016",
+      "MaiRuDaDanBiLi\030\006 \001(\003\022\030\n\020MaiRuTeDaDanBiLi" +
+      "\030\007 \001(\003\022\032\n\022MaiChuZhongDanBiLi\030\010 \001(\003\022\027\n\017Ma" +
+      "iChuDaDanBiLi\030\t \001(\003\022\031\n\021MaiChuTeDaDanBiLi" +
+      "\030\n \001(\003\022\025\n\rDuanXianMaiRu\030\013 \001(\003\022\026\n\016DuanXia" +
+      "nMaiChu\030\014 \001(\003\022\026\n\016DuanXianChiHuo\030\r \001(\003\022\025\n" +
+      "\rDuanXianTuHuo\030\016 \001(\003B\022\n\020com.dzhyun.proto"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -15294,7 +21765,7 @@ public final class DzhyunGupiaoqiepian {
     internal_static_dzhyun_GeGuDongTai_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dzhyun_GeGuDongTai_descriptor,
-        new java.lang.String[] { "Id", "ShiJian", "ZuiXinJia", "KaiPanJia", "ZuiGaoJia", "ZuiDiJia", "ZuoShou", "JunJia", "ZhangDie", "ZhangFu", "ZhenFu", "ChengJiaoLiang", "XianShou", "ChengJiaoE", "ZongChengJiaoBiShu", "MeiBiChengJiaoGuShu", "HuanShou", "LiangBi", "NeiPan", "WaiPan", "ZongMaiRu", "ZongMaiChu", "ZongMaiRuJunJia", "ZongMaiChuJunJia", "ZhangTing", "DieTing", "FenZhongZhangFu1", "FenZhongZhangFu2", "FenZhongZhangFu3", "FenZhongZhangFu4", "FenZhongZhangFu5", });
+        new java.lang.String[] { "Id", "ShiJian", "ZuiXinJia", "KaiPanJia", "ZuiGaoJia", "ZuiDiJia", "ZuoShou", "JunJia", "ZhangDie", "ZhangFu", "ZhenFu", "ChengJiaoLiang", "XianShou", "ChengJiaoE", "ZongChengJiaoBiShu", "MeiBiChengJiaoGuShu", "HuanShou", "LiangBi", "NeiPan", "WaiPan", "ZongMaiRu", "ZongMaiChu", "ZongMaiRuJunJia", "ZongMaiChuJunJia", "ZhangTing", "DieTing", "FenZhongZhangFu1", "FenZhongZhangFu2", "FenZhongZhangFu3", "FenZhongZhangFu4", "FenZhongZhangFu5", "WeiTuoMaiRuJia1", "WeiTuoMaiRuLiang1", "WeiTuoMaiRuJia2", "WeiTuoMaiRuLiang2", "WeiTuoMaiRuJia3", "WeiTuoMaiRuLiang3", "WeiTuoMaiRuJia4", "WeiTuoMaiRuLiang4", "WeiTuoMaiRuJia5", "WeiTuoMaiRuLiang5", "WeiTuoMaiChuJia1", "WeiTuoMaiChuLiang1", "WeiTuoMaiChuJia2", "WeiTuoMaiChuLiang2", "WeiTuoMaiChuJia3", "WeiTuoMaiChuLiang3", "WeiTuoMaiChuJia4", "WeiTuoMaiChuLiang4", "WeiTuoMaiChuJia5", "WeiTuoMaiChuLiang5", "WeiBi", "WeiCha", "JiaQuanPingJunWeiTuoMaiRuJia", "WeiTuoMaiRuZongLiang", "JiaQuanPingJunWeiTuoMaiChuJia", "WeiTuoMaiChuZongLiang", "KuoZhanMaiRuJia1", "KuoZhanMaiRuJia2", "KuoZhanMaiRuJia3", "KuoZhanMaiRuJia4", "KuoZhanMaiRuJia5", "KuoZhanMaiRuLiang1", "KuoZhanMaiRuLiang2", "KuoZhanMaiRuLiang3", "KuoZhanMaiRuLiang4", "KuoZhanMaiRuLiang5", "KuoZhanMaiChuJia1", "KuoZhanMaiChuJia2", "KuoZhanMaiChuJia3", "KuoZhanMaiChuJia4", "KuoZhanMaiChuJia5", "KuoZhanMaiChuLiang1", "KuoZhanMaiChuLiang2", "KuoZhanMaiChuLiang3", "KuoZhanMaiChuLiang4", "KuoZhanMaiChuLiang5", });
     internal_static_dzhyun_MaiMaiPan_descriptor =
       getDescriptor().getMessageTypes().get(2);
     internal_static_dzhyun_MaiMaiPan_fieldAccessorTable = new
@@ -15331,6 +21802,12 @@ public final class DzhyunGupiaoqiepian {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dzhyun_WeiTuoDuiLie_WeiTuo_descriptor,
         new java.lang.String[] { "Jia", "BiShu", "Liang", });
+    internal_static_dzhyun_Level2TongJi_descriptor =
+      getDescriptor().getMessageTypes().get(6);
+    internal_static_dzhyun_Level2TongJi_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_dzhyun_Level2TongJi_descriptor,
+        new java.lang.String[] { "Id", "ShiJian", "WeiTuoMaiRu", "WeiTuoMaiChu", "MaiRuZhongDanBiLi", "MaiRuDaDanBiLi", "MaiRuTeDaDanBiLi", "MaiChuZhongDanBiLi", "MaiChuDaDanBiLi", "MaiChuTeDaDanBiLi", "DuanXianMaiRu", "DuanXianMaiChu", "DuanXianChiHuo", "DuanXianTuHuo", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

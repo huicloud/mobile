@@ -235,24 +235,6 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunStkdata)
 - (BOOL)hasMaiChuDanShu;
 - (long long int)getMaiChuDanShu;
 
-- (BOOL)hasMaiRuZhongDanBiLi;
-- (long long int)getMaiRuZhongDanBiLi;
-
-- (BOOL)hasMaiRuDaDanBiLi;
-- (long long int)getMaiRuDaDanBiLi;
-
-- (BOOL)hasMaiRuTeDaDanBiLi;
-- (long long int)getMaiRuTeDaDanBiLi;
-
-- (BOOL)hasMaiChuZhongDanBiLi;
-- (long long int)getMaiChuZhongDanBiLi;
-
-- (BOOL)hasMaiChuDaDanBiLi;
-- (long long int)getMaiChuDaDanBiLi;
-
-- (BOOL)hasMaiChuTeDaDanBiLi;
-- (long long int)getMaiChuTeDaDanBiLi;
-
 - (BOOL)hasFenZhongZhangFu1;
 - (long long int)getFenZhongZhangFu1;
 
@@ -898,6 +880,45 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunStkdata)
 - (BOOL)hasYouXianGuHuoQiTa;
 - (long long int)getYouXianGuHuoQiTa;
 
+- (BOOL)hasWeiTuoMaiRu;
+- (long long int)getWeiTuoMaiRu;
+
+- (BOOL)hasWeiTuoMaiChu;
+- (long long int)getWeiTuoMaiChu;
+
+- (BOOL)hasMaiRuZhongDanBiLi;
+- (long long int)getMaiRuZhongDanBiLi;
+
+- (BOOL)hasMaiRuDaDanBiLi;
+- (long long int)getMaiRuDaDanBiLi;
+
+- (BOOL)hasMaiRuTeDaDanBiLi;
+- (long long int)getMaiRuTeDaDanBiLi;
+
+- (BOOL)hasMaiChuZhongDanBiLi;
+- (long long int)getMaiChuZhongDanBiLi;
+
+- (BOOL)hasMaiChuDaDanBiLi;
+- (long long int)getMaiChuDaDanBiLi;
+
+- (BOOL)hasMaiChuTeDaDanBiLi;
+- (long long int)getMaiChuTeDaDanBiLi;
+
+- (BOOL)hasDuanXianMaiRu;
+- (long long int)getDuanXianMaiRu;
+
+- (BOOL)hasDuanXianMaiChu;
+- (long long int)getDuanXianMaiChu;
+
+- (BOOL)hasDuanXianChiHuo;
+- (long long int)getDuanXianChiHuo;
+
+- (BOOL)hasDuanXianTuHuo;
+- (long long int)getDuanXianTuHuo;
+
+- (BOOL)hasBiShi;
+- (long long int)getBiShi;
+
 @end
 
 J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhyunStkdata_StkDataOrBuilder)
@@ -992,12 +1013,6 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunStkdata_StkDataOrBuilder)
 #define ComDzhyunProtoDzhyunStkdata_StkData_QITACHENGJIAOE_FIELD_NUMBER 68
 #define ComDzhyunProtoDzhyunStkdata_StkData_MAIRUDANSHU_FIELD_NUMBER 69
 #define ComDzhyunProtoDzhyunStkdata_StkData_MAICHUDANSHU_FIELD_NUMBER 70
-#define ComDzhyunProtoDzhyunStkdata_StkData_MAIRUZHONGDANBILI_FIELD_NUMBER 71
-#define ComDzhyunProtoDzhyunStkdata_StkData_MAIRUDADANBILI_FIELD_NUMBER 72
-#define ComDzhyunProtoDzhyunStkdata_StkData_MAIRUTEDADANBILI_FIELD_NUMBER 73
-#define ComDzhyunProtoDzhyunStkdata_StkData_MAICHUZHONGDANBILI_FIELD_NUMBER 74
-#define ComDzhyunProtoDzhyunStkdata_StkData_MAICHUDADANBILI_FIELD_NUMBER 75
-#define ComDzhyunProtoDzhyunStkdata_StkData_MAICHUTEDADANBILI_FIELD_NUMBER 76
 #define ComDzhyunProtoDzhyunStkdata_StkData_FENZHONGZHANGFU1_FIELD_NUMBER 77
 #define ComDzhyunProtoDzhyunStkdata_StkData_FENZHONGZHANGFU2_FIELD_NUMBER 78
 #define ComDzhyunProtoDzhyunStkdata_StkData_FENZHONGZHANGFU3_FIELD_NUMBER 79
@@ -1213,6 +1228,19 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunStkdata_StkDataOrBuilder)
 #define ComDzhyunProtoDzhyunStkdata_StkData_JINGWAIFARENGU_FIELD_NUMBER 649
 #define ComDzhyunProtoDzhyunStkdata_StkData_JINGWAIZIRANRENGU_FIELD_NUMBER 650
 #define ComDzhyunProtoDzhyunStkdata_StkData_YOUXIANGUHUOQITA_FIELD_NUMBER 651
+#define ComDzhyunProtoDzhyunStkdata_StkData_WEITUOMAIRU_FIELD_NUMBER 700
+#define ComDzhyunProtoDzhyunStkdata_StkData_WEITUOMAICHU_FIELD_NUMBER 701
+#define ComDzhyunProtoDzhyunStkdata_StkData_MAIRUZHONGDANBILI_FIELD_NUMBER 702
+#define ComDzhyunProtoDzhyunStkdata_StkData_MAIRUDADANBILI_FIELD_NUMBER 703
+#define ComDzhyunProtoDzhyunStkdata_StkData_MAIRUTEDADANBILI_FIELD_NUMBER 704
+#define ComDzhyunProtoDzhyunStkdata_StkData_MAICHUZHONGDANBILI_FIELD_NUMBER 705
+#define ComDzhyunProtoDzhyunStkdata_StkData_MAICHUDADANBILI_FIELD_NUMBER 706
+#define ComDzhyunProtoDzhyunStkdata_StkData_MAICHUTEDADANBILI_FIELD_NUMBER 707
+#define ComDzhyunProtoDzhyunStkdata_StkData_DUANXIANMAIRU_FIELD_NUMBER 708
+#define ComDzhyunProtoDzhyunStkdata_StkData_DUANXIANMAICHU_FIELD_NUMBER 709
+#define ComDzhyunProtoDzhyunStkdata_StkData_DUANXIANCHIHUO_FIELD_NUMBER 710
+#define ComDzhyunProtoDzhyunStkdata_StkData_DUANXIANTUHUO_FIELD_NUMBER 711
+#define ComDzhyunProtoDzhyunStkdata_StkData_BISHI_FIELD_NUMBER 801
 
 @end
 
@@ -1527,30 +1555,6 @@ FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunS
 - (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)setMaiChuDanShuWithLong:
     (long long int)value;
 - (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)clearMaiChuDanShu;
-
-- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)setMaiRuZhongDanBiLiWithLong:
-    (long long int)value;
-- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)clearMaiRuZhongDanBiLi;
-
-- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)setMaiRuDaDanBiLiWithLong:
-    (long long int)value;
-- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)clearMaiRuDaDanBiLi;
-
-- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)setMaiRuTeDaDanBiLiWithLong:
-    (long long int)value;
-- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)clearMaiRuTeDaDanBiLi;
-
-- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)setMaiChuZhongDanBiLiWithLong:
-    (long long int)value;
-- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)clearMaiChuZhongDanBiLi;
-
-- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)setMaiChuDaDanBiLiWithLong:
-    (long long int)value;
-- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)clearMaiChuDaDanBiLi;
-
-- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)setMaiChuTeDaDanBiLiWithLong:
-    (long long int)value;
-- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)clearMaiChuTeDaDanBiLi;
 
 - (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)setFenZhongZhangFu1WithLong:
     (long long int)value;
@@ -2411,6 +2415,58 @@ FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunS
 - (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)setYouXianGuHuoQiTaWithLong:
     (long long int)value;
 - (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)clearYouXianGuHuoQiTa;
+
+- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)setWeiTuoMaiRuWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)clearWeiTuoMaiRu;
+
+- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)setWeiTuoMaiChuWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)clearWeiTuoMaiChu;
+
+- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)setMaiRuZhongDanBiLiWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)clearMaiRuZhongDanBiLi;
+
+- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)setMaiRuDaDanBiLiWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)clearMaiRuDaDanBiLi;
+
+- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)setMaiRuTeDaDanBiLiWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)clearMaiRuTeDaDanBiLi;
+
+- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)setMaiChuZhongDanBiLiWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)clearMaiChuZhongDanBiLi;
+
+- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)setMaiChuDaDanBiLiWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)clearMaiChuDaDanBiLi;
+
+- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)setMaiChuTeDaDanBiLiWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)clearMaiChuTeDaDanBiLi;
+
+- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)setDuanXianMaiRuWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)clearDuanXianMaiRu;
+
+- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)setDuanXianMaiChuWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)clearDuanXianMaiChu;
+
+- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)setDuanXianChiHuoWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)clearDuanXianChiHuo;
+
+- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)setDuanXianTuHuoWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)clearDuanXianTuHuo;
+
+- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)setBiShiWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunStkdata_StkData_Builder *)clearBiShi;
 
 @end
 

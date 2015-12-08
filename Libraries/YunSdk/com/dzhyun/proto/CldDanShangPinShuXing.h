@@ -8,48 +8,8 @@
 #import "java/lang/Enum.h"
 
 @class ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder;
-@class ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum;
 @class ComGoogleProtobufDescriptors_Descriptor;
 @class ComGoogleProtobufExtensionRegistry;
-
-typedef NS_ENUM(NSUInteger, ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTai) {
-  ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTai_ShangShiZhuangTai_ShangShi = 0,
-  ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTai_ShangShiZhuangTai_WeiShangShi = 1,
-  ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTai_ShangShiZhuangTai_ZhanTingShangShi = 2,
-};
-
-#define ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_ShangShiZhuangTai_ShangShi_VALUE 0
-#define ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_ShangShiZhuangTai_WeiShangShi_VALUE 1
-#define ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_ShangShiZhuangTai_ZhanTingShangShi_VALUE 2
-
-@interface ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum : JavaLangEnum<ComGoogleProtobufProtocolMessageEnum> {
- @private
-  jint value_;
-}
-
-+ (IOSObjectArray *)values;
-+ (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum *)valueOfWithNSString:(NSString *)name;
-+ (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum *)valueOfWithInt:(jint)value;
-- (jint)getNumber;
-
-@end
-
-J2OBJC_STATIC_INIT(ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum)
-
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum)
-
-FOUNDATION_EXPORT ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum *ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_values_[];
-
-FOUNDATION_EXPORT IOSObjectArray *ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_values();
-FOUNDATION_EXPORT ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum *ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_valueOfWithNSString_(NSString *name);
-FOUNDATION_EXPORT ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum *ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_valueOfWithInt_(jint value);
-
-#define ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_ShangShiZhuangTai_ShangShi ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_values_[ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTai_ShangShiZhuangTai_ShangShi]
-J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum, ShangShiZhuangTai_ShangShi)
-#define ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_ShangShiZhuangTai_WeiShangShi ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_values_[ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTai_ShangShiZhuangTai_WeiShangShi]
-J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum, ShangShiZhuangTai_WeiShangShi)
-#define ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_ShangShiZhuangTai_ZhanTingShangShi ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_values_[ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTai_ShangShiZhuangTai_ZhanTingShangShi]
-J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum, ShangShiZhuangTai_ZhanTingShangShi)
 
 @interface ComDzhyunProtoCldDanShangPinShuXing : NSObject
 
@@ -68,8 +28,8 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldDanShangPinShuXing)
 - (BOOL)hasObj;
 - (NSString *)getObj;
 
-- (BOOL)hasJiaoYiDaiMa;
-- (NSString *)getJiaoYiDaiMa;
+- (BOOL)hasShangShiShiJian;
+- (NSString *)getShangShiShiJian;
 
 - (BOOL)hasZhongWenJianCheng;
 - (NSString *)getZhongWenJianCheng;
@@ -77,23 +37,26 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldDanShangPinShuXing)
 - (BOOL)hasYingWenQuanCheng;
 - (NSString *)getYingWenQuanCheng;
 
+- (BOOL)hasXiaoShuDianWeiShu;
+- (int)getXiaoShuDianWeiShu;
+
+- (BOOL)hasJiaoYiShiJianLeiXin;
+- (int)getJiaoYiShiJianLeiXin;
+
 - (BOOL)hasJiaoYiBiZhong;
 - (NSString *)getJiaoYiBiZhong;
-
-- (BOOL)hasZhengQuanLeiBie;
-- (NSString *)getZhengQuanLeiBie;
-
-- (BOOL)hasShangShiShiJian;
-- (NSString *)getShangShiShiJian;
 
 - (BOOL)hasTuiShiShiJian;
 - (NSString *)getTuiShiShiJian;
 
 - (BOOL)hasShangShiZhuangTai;
-- (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum *)getShangShiZhuangTai;
+- (int)getShangShiZhuangTai;
 
-- (BOOL)hasUpdateTime;
-- (NSString *)getUpdateTime;
+- (BOOL)hasZhengQuanLeiBie;
+- (NSString *)getZhengQuanLeiBie;
+
+- (BOOL)hasTingPai;
+- (int)getTingPai;
 
 @end
 
@@ -120,15 +83,16 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXin
 + (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
 
 #define ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_OBJ_FIELD_NUMBER 1
-#define ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_JIAOYIDAIMA_FIELD_NUMBER 2
+#define ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_SHANGSHISHIJIAN_FIELD_NUMBER 2
 #define ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_ZHONGWENJIANCHENG_FIELD_NUMBER 3
 #define ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_YINGWENQUANCHENG_FIELD_NUMBER 4
-#define ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_JIAOYIBIZHONG_FIELD_NUMBER 5
-#define ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_ZHENGQUANLEIBIE_FIELD_NUMBER 6
-#define ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_SHANGSHISHIJIAN_FIELD_NUMBER 7
+#define ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_XIAOSHUDIANWEISHU_FIELD_NUMBER 5
+#define ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_JIAOYISHIJIANLEIXIN_FIELD_NUMBER 6
+#define ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_JIAOYIBIZHONG_FIELD_NUMBER 7
 #define ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_TUISHISHIJIAN_FIELD_NUMBER 8
 #define ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_SHANGSHIZHUANGTAI_FIELD_NUMBER 9
-#define ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_UPDATETIME_FIELD_NUMBER 10
+#define ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_ZHENGQUANLEIBIE_FIELD_NUMBER 10
+#define ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_TINGPAI_FIELD_NUMBER 11
 
 @end
 
@@ -168,9 +132,9 @@ FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldDanS
     (NSString *)value;
 - (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder *)clearObj;
 
-- (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder *)setJiaoYiDaiMaWithNSString:
+- (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder *)setShangShiShiJianWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder *)clearJiaoYiDaiMa;
+- (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder *)clearShangShiShiJian;
 
 - (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder *)setZhongWenJianChengWithNSString:
     (NSString *)value;
@@ -180,29 +144,33 @@ FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldDanS
     (NSString *)value;
 - (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder *)clearYingWenQuanCheng;
 
+- (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder *)setXiaoShuDianWeiShuWithInt:
+    (int)value;
+- (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder *)clearXiaoShuDianWeiShu;
+
+- (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder *)setJiaoYiShiJianLeiXinWithInt:
+    (int)value;
+- (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder *)clearJiaoYiShiJianLeiXin;
+
 - (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder *)setJiaoYiBiZhongWithNSString:
     (NSString *)value;
 - (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder *)clearJiaoYiBiZhong;
-
-- (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder *)setZhengQuanLeiBieWithNSString:
-    (NSString *)value;
-- (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder *)clearZhengQuanLeiBie;
-
-- (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder *)setShangShiShiJianWithNSString:
-    (NSString *)value;
-- (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder *)clearShangShiShiJian;
 
 - (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder *)setTuiShiShiJianWithNSString:
     (NSString *)value;
 - (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder *)clearTuiShiShiJian;
 
-- (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder *)setShangShiZhuangTaiWithComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum:
-    (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum *)value;
+- (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder *)setShangShiZhuangTaiWithInt:
+    (int)value;
 - (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder *)clearShangShiZhuangTai;
 
-- (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder *)setUpdateTimeWithNSString:
+- (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder *)setZhengQuanLeiBieWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder *)clearUpdateTime;
+- (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder *)clearZhengQuanLeiBie;
+
+- (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder *)setTingPaiWithInt:
+    (int)value;
+- (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder *)clearTingPai;
 
 @end
 

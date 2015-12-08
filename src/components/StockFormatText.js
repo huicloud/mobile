@@ -14,7 +14,7 @@ export default class StockFormatText extends Component {
    * @param {!number|string|null} data      需要格式化的数字，可以是数字，字符串或者null对象
    * @param {?number} precision             保留小数精度，null则默认取2位小数
    * @param {?''|'K'|'M'|'K/M'|'%'} unit    单位，按自定的单位格式化数据，null则为''为不加单位
-   * @param {boolean=} useDefault           是否使用默认值（--），默认为true
+   * @param {boolean|string=} useDefault    是否使用默认值，默认显示--，字符串类型表示需要显示的默认值
    * @returns {string}
    */
   static formatNumber(data, precision, unit, useDefault) {
@@ -41,7 +41,7 @@ export default class StockFormatText extends Component {
       }
     }
     switch(unit) {
-      //case '%': n = n * 100; break;
+      case '%': n = n * 100; break;
       case 'K': n = n / 1000; break;
       case 'M': n = n / (1000 * 1000); break;
       case 100: n = n / 100; unit = ''; break;

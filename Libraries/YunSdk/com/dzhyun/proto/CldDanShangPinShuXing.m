@@ -36,15 +36,16 @@ ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldDanShangPinShuXing_Dan
 typedef struct ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Storage {
   uint32_t hasBits[1];
   NSString *obj_;
-  NSString *jiaoYiDaiMa_;
+  NSString *shangShiShiJian_;
   NSString *zhongWenJianCheng_;
   NSString *yingWenQuanCheng_;
+  int xiaoShuDianWeiShu_;
+  int jiaoYiShiJianLeiXin_;
   NSString *jiaoYiBiZhong_;
-  NSString *zhengQuanLeiBie_;
-  NSString *shangShiShiJian_;
   NSString *tuiShiShiJian_;
-  ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum *shangShiZhuangTai_;
-  NSString *updateTime_;
+  int shangShiZhuangTai_;
+  NSString *zhengQuanLeiBie_;
+  int tingPai_;
 } ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Storage;
 
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor {
@@ -68,14 +69,14 @@ typedef struct ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Storage {
         .optionsData = NULL,
       },
       {
-        .name = "jiaoYiDaiMa",
-        .javaName = "JiaoYiDaiMa",
+        .name = "shangShiShiJian",
+        .javaName = "ShangShiShiJian",
         .number = 2,
-        .flags = CGPFieldFlagRequired,
+        .flags = 0,
         .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
         .defaultValue.valueId = @"",
         .hasBitIndex = 1,
-        .offset = offsetof(ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Storage, jiaoYiDaiMa_),
+        .offset = offsetof(ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Storage, shangShiShiJian_),
         .className = NULL,
         .containingType = "ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing",
         .optionsData = NULL,
@@ -107,40 +108,40 @@ typedef struct ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Storage {
         .optionsData = NULL,
       },
       {
-        .name = "jiaoYiBiZhong",
-        .javaName = "JiaoYiBiZhong",
+        .name = "xiaoShuDianWeiShu",
+        .javaName = "XiaoShuDianWeiShu",
         .number = 5,
         .flags = 0,
-        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
-        .defaultValue.valueId = @"",
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT32,
+        .defaultValue.valueInt = 0,
         .hasBitIndex = 4,
-        .offset = offsetof(ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Storage, jiaoYiBiZhong_),
+        .offset = offsetof(ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Storage, xiaoShuDianWeiShu_),
         .className = NULL,
         .containingType = "ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing",
         .optionsData = NULL,
       },
       {
-        .name = "zhengQuanLeiBie",
-        .javaName = "ZhengQuanLeiBie",
+        .name = "jiaoYiShiJianLeiXin",
+        .javaName = "JiaoYiShiJianLeiXin",
         .number = 6,
         .flags = 0,
-        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
-        .defaultValue.valueId = @"",
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT32,
+        .defaultValue.valueInt = 0,
         .hasBitIndex = 5,
-        .offset = offsetof(ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Storage, zhengQuanLeiBie_),
+        .offset = offsetof(ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Storage, jiaoYiShiJianLeiXin_),
         .className = NULL,
         .containingType = "ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing",
         .optionsData = NULL,
       },
       {
-        .name = "shangShiShiJian",
-        .javaName = "ShangShiShiJian",
+        .name = "jiaoYiBiZhong",
+        .javaName = "JiaoYiBiZhong",
         .number = 7,
         .flags = 0,
         .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
         .defaultValue.valueId = @"",
         .hasBitIndex = 6,
-        .offset = offsetof(ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Storage, shangShiShiJian_),
+        .offset = offsetof(ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Storage, jiaoYiBiZhong_),
         .className = NULL,
         .containingType = "ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing",
         .optionsData = NULL,
@@ -163,29 +164,42 @@ typedef struct ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Storage {
         .javaName = "ShangShiZhuangTai",
         .number = 9,
         .flags = 0,
-        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_ENUM,
-        .defaultValue.valueInt = ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTai_ShangShiZhuangTai_ShangShi,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT32,
+        .defaultValue.valueInt = 0,
         .hasBitIndex = 8,
         .offset = offsetof(ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Storage, shangShiZhuangTai_),
-        .className = "ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum",
+        .className = NULL,
         .containingType = "ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing",
         .optionsData = NULL,
       },
       {
-        .name = "updateTime",
-        .javaName = "UpdateTime",
+        .name = "zhengQuanLeiBie",
+        .javaName = "ZhengQuanLeiBie",
         .number = 10,
-        .flags = CGPFieldFlagRequired,
+        .flags = 0,
         .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
         .defaultValue.valueId = @"",
         .hasBitIndex = 9,
-        .offset = offsetof(ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Storage, updateTime_),
+        .offset = offsetof(ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Storage, zhengQuanLeiBie_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing",
+        .optionsData = NULL,
+      },
+      {
+        .name = "tingPai",
+        .javaName = "TingPai",
+        .number = 11,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT32,
+        .defaultValue.valueInt = 0,
+        .hasBitIndex = 10,
+        .offset = offsetof(ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Storage, tingPai_),
         .className = NULL,
         .containingType = "ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing",
         .optionsData = NULL,
       },
     };
-    CGPInitDescriptor(&ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_descriptor_, self, [ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder class], 0, sizeof(ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Storage), 10, fields);
+    CGPInitDescriptor(&ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_descriptor_, self, [ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder class], 0, sizeof(ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Storage), 11, fields);
     J2OBJC_SET_INITIALIZED(ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing)
   }
 }
@@ -227,84 +241,6 @@ ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing *ComDzhyunProtoCldDanShan
   ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_initialize();
   return (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing *)CGPParseDelimitedFromInputStream(ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_descriptor_, input, registry);
 }
-
-J2OBJC_INITIALIZED_DEFN(ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum)
-
-ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum *ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_values_[3];
-
-static ComGoogleProtobufDescriptors_EnumDescriptor *ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_descriptor = nil;
-
-@implementation ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum
-
-- (id)initWithName:(NSString *)name withIndex:(jint)index withValue:(jint)value {
-  if (self = [super initWithNSString:name withInt:index]) {
-    value_ = value;
-  }
-  return self;
-}
-
-+ (void)initialize {
-  if (self == [ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum class]) {
-    ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_ShangShiZhuangTai_ShangShi = [[ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum alloc] initWithName:@"ShangShiZhuangTai_ShangShi" withIndex:0 withValue:0];
-    ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_ShangShiZhuangTai_WeiShangShi = [[ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum alloc] initWithName:@"ShangShiZhuangTai_WeiShangShi" withIndex:1 withValue:1];
-    ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_ShangShiZhuangTai_ZhanTingShangShi = [[ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum alloc] initWithName:@"ShangShiZhuangTai_ZhanTingShangShi" withIndex:2 withValue:2];
-    ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_descriptor = CGPNewEnumDescriptor(self, 3, ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_values_);
-    J2OBJC_SET_INITIALIZED(ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum)
-  }
-}
-
-+ (IOSObjectArray *)values {
-  return ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_values();}
-
-+ (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum *)valueOfWithNSString:(NSString *)name {
-  return ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_valueOfWithNSString_(name);
-}
-
-+ (ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum *)valueOfWithInt:(jint)value {
-  return ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_valueOfWithInt_(value);
-}
-
-- (jint)getNumber {
-  return value_;
-}
-
-+ (ComGoogleProtobufDescriptors_EnumDescriptor *)getDescriptor {
-  return ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_descriptor;
-}
-
-- (ComGoogleProtobufDescriptors_EnumValueDescriptor *)getValueDescriptor {
-  return ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_descriptor->values_->buffer_[[self ordinal]];
-}
-
-@end
-
-J2OBJC_CLASS_TYPE_LITERAL_SOURCE(ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum)
-
-IOSObjectArray *ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_values() {
-  ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_initialize();  return [IOSObjectArray arrayWithObjects:ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_values_ count:3 type:ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_class_()];
-}
-
-ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum *ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_valueOfWithNSString_(NSString *name) {
-  ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_initialize();  for (jint i = 0; i < 3; i++) {
-    ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum *e = ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_values_[i];
-    if ([name isEqual:[e name]]) {
-      return e;
-    }
-  }
-  @throw [[[JavaLangIllegalArgumentException alloc] initWithNSString:name] autorelease];
-}
-
-ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum *ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_valueOfWithInt_(jint value) {
-  ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_initialize();  for (jint i = 0; i < 3; i++) {
-    ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum *e = ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_EUM_ShangShiZhuangTaiEnum_values_[i];
-    if (value == [e getNumber]) {
-      return e;
-    }
-  }
-  @throw [[[JavaLangIllegalArgumentException alloc]
-      initWithNSString:[NSString stringWithFormat:@"%d", value]] autorelease];
-}
-
 
 @implementation ComDzhyunProtoCldDanShangPinShuXing_DanShangPinShuXing_Builder
 

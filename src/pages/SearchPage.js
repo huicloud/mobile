@@ -10,6 +10,8 @@ import * as baseStyle from '../components/baseStyle.js';
 import Storage from '../components/Storage.js';
 import {DZHSearchStockList} from '../components/SearchStockList.js';
 
+import StockStorageManager from '../modules/StockStorageManager.js';
+
 export default class SearchPage extends BasePage {
 
   constructor(props) {
@@ -22,6 +24,11 @@ export default class SearchPage extends BasePage {
 
   _onChangeText(searchKey) {
     this.setState({searchKey});
+  }
+
+  componentDidMount() {
+    super.componentDidMount();
+    StockStorageManager.getAllStocks().then(stocks => this.setState({historyData: stocks}));
   }
 
   render() {
@@ -39,11 +46,11 @@ export default class SearchPage extends BasePage {
             onChangeText={(text) => this._onChangeText(text)}
             autoFocus={true}
             underlineColorAndroid="transparent"
-            defaultValue={Platform.OS === 'android' ? (' ' || 'android版必须设置默认值才会显示颜色') : null}></TextInput>
+            ></TextInput>
+            {/*defaultValue={Platform.OS === 'android' ? (' ' || 'android版必须设置默认值才会显示颜色') : null}></TextInput>*/}
         </View>
-        <Storage storageKey={'history.stocks'} onInitial={(data) => this.setState({historyData: data})}></Storage>
         <DZHSearchStockList
-          onItemPress={(data) => this.props.navigator.push({component: 'DetailPage', ...data})}
+          onItemPress={(data) => this.props.navigator.push({component: 'StockQuotationPage', ...data})}
           style={{flex: 1}}
           params={this.state.searchKey && {input: this.state.searchKey}}
           historyData={this.state.historyData}></DZHSearchStockList>

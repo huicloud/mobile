@@ -129,7 +129,7 @@ static ComGoogleProtobufDescriptors_EnumDescriptor *ComDzhyunProtoDzhcm_StateTyp
   if (self == [ComDzhyunProtoDzhcm_StateTypeEnum class]) {
     ComDzhyunProtoDzhcm_StateTypeEnum_RUNNING = [[ComDzhyunProtoDzhcm_StateTypeEnum alloc] initWithName:@"RUNNING" withIndex:0 withValue:0];
     ComDzhyunProtoDzhcm_StateTypeEnum_START_FAILED = [[ComDzhyunProtoDzhcm_StateTypeEnum alloc] initWithName:@"START_FAILED" withIndex:1 withValue:1];
-    ComDzhyunProtoDzhcm_StateTypeEnum_CMERROR = [[ComDzhyunProtoDzhcm_StateTypeEnum alloc] initWithName:@"CMERROR" withIndex:2 withValue:2];
+    ComDzhyunProtoDzhcm_StateTypeEnum_CM_ERROR = [[ComDzhyunProtoDzhcm_StateTypeEnum alloc] initWithName:@"CM_ERROR" withIndex:2 withValue:2];
     ComDzhyunProtoDzhcm_StateTypeEnum_descriptor = CGPNewEnumDescriptor(self, 3, ComDzhyunProtoDzhcm_StateTypeEnum_values_);
     J2OBJC_SET_INITIALIZED(ComDzhyunProtoDzhcm_StateTypeEnum)
   }

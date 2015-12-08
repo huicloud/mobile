@@ -7,6 +7,8 @@ import React, {Component, AsyncStorage, View} from 'react-native';
 import EventEmitter from 'EventEmitter';
 import Subscribable from 'Subscribable';
 
+//AsyncStorage.clear();
+
 const _internalStorage = {};
 
 export default class Storage extends Component {
@@ -56,16 +58,19 @@ export default class Storage extends Component {
   static async removeItem(key) {
     delete _internalStorage[key];
     Storage.eventEmitter.emit(Storage._getEventType(key, 'remove'));
-    Storage.removeItem(Storage._getKey(key));
+    Storage._removeItem(key);
     return true;
   }
 
+  static getStorageInstance(storageKey) {
+    let storage = new Storage({storageKey});
+    storage.componentWillMount();
+    return storage;
+  }
   constructor(props) {
     super(props);
 
     Object.assign(this, Subscribable.Mixin);
-
-    //Storage.removeItem(props.storageKey);
     this.state = {
       data: null
     };

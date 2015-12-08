@@ -33,8 +33,10 @@ export default class TabBar extends BaseComponent {
       borderBottomColor: baseStyle.DARK_GRAY
     },
     tabBarItemLabel: {
+      fontSize: 12,
       color: baseStyle.DEFAULT_TEXT_COLOR
-    }
+    },
+    tabBarItemLabelSelected: {}
   });
 
   constructor(props) {
@@ -45,16 +47,16 @@ export default class TabBar extends BaseComponent {
     }
   }
 
-  componentDidMount() {
-
+  selectTab(index) {
+    this._onPressTabBarItem(index);
   }
 
-  _onPressTabBarItem(childElement, index) {
+  _onPressTabBarItem(index, childElement) {
 
     // 切换到对应的标签页，并且触发事件
-    if (this.state.selectedIndex !== index) {
+    if (this.state.selectedIndex !== index && (this.props.children && index < this.props.children.length)) {
       this.setState({selectedIndex: index});
-      this.props.onChangeTab && this.props.onChangeTab(childElement, index);
+      this.props.onChangeTab && this.props.onChangeTab(index, childElement);
     }
   }
 
@@ -63,11 +65,10 @@ export default class TabBar extends BaseComponent {
       <TouchableHighlight
         style={{flex: 1}}
         key={index}
-        onPress={this._onPressTabBarItem.bind(this, childElement, index)}
-        underlayColor={baseStyle.DEFAULT_BACKGROUND_COLOR}
-        >
+        onPress={this._onPressTabBarItem.bind(this, index, childElement)}
+        underlayColor="transparent">
         <View style={[this.getStyles('tabBarItem'), (this.state.selectedIndex === index) && this.getStyles('tabBarItemSelected')]}>
-          <Text style={this.getStyles('tabBarItemLabel')}>{childElement.props.title}</Text>
+          <Text style={[this.getStyles('tabBarItemLabel'), (this.state.selectedIndex === index) && this.getStyles('tabBarItemLabelSelected')]}>{childElement.props.title}</Text>
         </View>
       </TouchableHighlight>
     );
@@ -84,10 +85,17 @@ export default class TabBar extends BaseComponent {
   }
 
   render() {
+    let children = this.props.children.map((child, index) => {
+      if (child.type === StaticTabBarItem || index === this.state.selectedIndex) {
+        return React.cloneElement(child, {key: index, selected: this.state.selectedIndex === index});
+      }
+    });
     return (
       <View style={this.getStyles('container')}>
-        {this._renderTabBar()}
-        {React.cloneElement(this.props.children[this.state.selectedIndex])}
+        {!this.props.tabBarHidden && this._renderTabBar()}
+        <View style={{flex: 1}}>
+        {children}
+        </View>
       </View>
     );
   }
@@ -95,6 +103,23 @@ export default class TabBar extends BaseComponent {
 
 export class TabBarItem extends BaseComponent {
   render() {
-    return this.props.children;
+    return this.props.children || <View></View>;
+  }
+}
+
+export class StaticTabBarItem extends BaseComponent {
+  render() {
+    if (this.props.selected) {
+      this.rendered = true;
+      return (
+        <View style={{flex: 1}}>{this.props.children}</View>
+      )
+    } else if (this.rendered) {
+      return (
+        <View style={{overflow: 'hidden', position: 'absolute', opacity: 0, height: 0, width: 0}}>{this.props.children}</View>
+      )
+    } else {
+      return <View></View>
+    }
   }
 }

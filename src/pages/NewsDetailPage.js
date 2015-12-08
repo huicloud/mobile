@@ -22,6 +22,7 @@ export default class NewsDetailPage extends BasePage {
   }
 
   componentDidMount() {
+    super.componentDidMount();
 
     // 判断新闻内容是pdf则直接打开，zlib则请求新闻数据后展示
     let contextUrl = this.props.news.context || '';
@@ -30,7 +31,8 @@ export default class NewsDetailPage extends BasePage {
         this.setState({loading: false, html: `<html><head><meta charset="utf-8"/></head>${text}</html>`});
       });
     } else if (Platform.OS === 'android') {
-      this.setState({loading: false, html: `<html><head><meta charset="utf-8"/></head><body><p><a href="${contextUrl}">${contextUrl}</a></p></body></html>`});
+      //this.setState({loading: false, url: `http://drive.google.com/viewerng/viewer?embedded=true&url=${contextUrl}`});
+      this.setState({loading: false, html: `<html><head><meta charset="utf-8"/></head><body><p><a target="_blank" type="application/pdf" href="${contextUrl}">${contextUrl}</a></p></body></html>`});
     } else {
       this.setState({loading: false, url: this.props.news.context});
     }
@@ -43,7 +45,7 @@ export default class NewsDetailPage extends BasePage {
   render() {
     return (
       <View style={{flex: 1}}>
-        <PageHeader onBack={() => this.props.navigator.pop()} title="新闻"></PageHeader>
+        <PageHeader onBack={() => this.props.navigator.pop()} title={this.props.title}></PageHeader>
         {this.state.loading ? <Loading></Loading> : (
           <DzhWebView
             ref={webView => webView && (this._webView = webView)}

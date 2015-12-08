@@ -226,9 +226,9 @@ public final class Dzhcm {
      */
     START_FAILED(1, 1),
     /**
-     * <code>CMERROR = 2;</code>
+     * <code>CM_ERROR = 2;</code>
      */
-    CMERROR(2, 2),
+    CM_ERROR(2, 2),
     ;
 
     /**
@@ -240,9 +240,9 @@ public final class Dzhcm {
      */
     public static final int START_FAILED_VALUE = 1;
     /**
-     * <code>CMERROR = 2;</code>
+     * <code>CM_ERROR = 2;</code>
      */
-    public static final int CMERROR_VALUE = 2;
+    public static final int CM_ERROR_VALUE = 2;
 
 
     public final int getNumber() { return value; }
@@ -251,7 +251,7 @@ public final class Dzhcm {
       switch (value) {
         case 0: return RUNNING;
         case 1: return START_FAILED;
-        case 2: return CMERROR;
+        case 2: return CM_ERROR;
         default: return null;
       }
     }
@@ -6605,12 +6605,12 @@ public final class Dzhcm {
       "T_LOAD_INFO\020\213\200\010\022\023\n\rLOAD_INFO_RET\020\213\200\014\022\025\n\017",
       "CONTROL_COMMAND\020\213\200\020\022\031\n\023CONTROL_COMMAND_R" +
       "ET\020\213\200\024\022\025\n\017GET_CONFIG_INFO\020\213\200\030\022\025\n\017CONFIG_" +
-      "INFO_RET\020\213\200\034*7\n\tStateType\022\013\n\007RUNNING\020\000\022\020" +
-      "\n\014START_FAILED\020\001\022\013\n\007CMERROR\020\002*P\n\007CmdType" +
-      "\022\014\n\010APP_STOP\020\000\022\016\n\nAPP_RELOAD\020\001\022\020\n\014APP_SE" +
-      "T_DATA\020\002\022\025\n\021APP_SET_PARAMETER\020\003*=\n\tError" +
-      "Code\022\017\n\013RET_SUCCEED\020\000\022\016\n\nRET_FAILED\020\001\022\017\n" +
-      "\013RET_NOCMSID\020\002B\022\n\020com.dzhyun.proto"
+      "INFO_RET\020\213\200\034*8\n\tStateType\022\013\n\007RUNNING\020\000\022\020" +
+      "\n\014START_FAILED\020\001\022\014\n\010CM_ERROR\020\002*P\n\007CmdTyp" +
+      "e\022\014\n\010APP_STOP\020\000\022\016\n\nAPP_RELOAD\020\001\022\020\n\014APP_S" +
+      "ET_DATA\020\002\022\025\n\021APP_SET_PARAMETER\020\003*=\n\tErro" +
+      "rCode\022\017\n\013RET_SUCCEED\020\000\022\016\n\nRET_FAILED\020\001\022\017" +
+      "\n\013RET_NOCMSID\020\002B\022\n\020com.dzhyun.proto"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

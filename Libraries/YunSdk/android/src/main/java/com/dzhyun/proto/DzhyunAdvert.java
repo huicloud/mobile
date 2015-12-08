@@ -13,7 +13,7 @@ public final class DzhyunAdvert {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>required string ErrCode = 1;</code>
+     * <code>required int32 ErrCode = 1;</code>
      *
      * <pre>
      * 返回结果码，当为0时，请求被正常处理
@@ -21,22 +21,13 @@ public final class DzhyunAdvert {
      */
     boolean hasErrCode();
     /**
-     * <code>required string ErrCode = 1;</code>
+     * <code>required int32 ErrCode = 1;</code>
      *
      * <pre>
      * 返回结果码，当为0时，请求被正常处理
      * </pre>
      */
-    java.lang.String getErrCode();
-    /**
-     * <code>required string ErrCode = 1;</code>
-     *
-     * <pre>
-     * 返回结果码，当为0时，请求被正常处理
-     * </pre>
-     */
-    com.google.protobuf.ByteString
-        getErrCodeBytes();
+    int getErrCode();
   }
   /**
    * Protobuf type {@code dzhyun.ADPutResponse}
@@ -94,10 +85,9 @@ public final class DzhyunAdvert {
               }
               break;
             }
-            case 10: {
-              com.google.protobuf.ByteString bs = input.readBytes();
+            case 8: {
               bitField0_ |= 0x00000001;
-              errCode_ = bs;
+              errCode_ = input.readInt32();
               break;
             }
           }
@@ -141,9 +131,9 @@ public final class DzhyunAdvert {
 
     private int bitField0_;
     public static final int ERRCODE_FIELD_NUMBER = 1;
-    private java.lang.Object errCode_;
+    private int errCode_;
     /**
-     * <code>required string ErrCode = 1;</code>
+     * <code>required int32 ErrCode = 1;</code>
      *
      * <pre>
      * 返回结果码，当为0时，请求被正常处理
@@ -153,49 +143,18 @@ public final class DzhyunAdvert {
       return ((bitField0_ & 0x00000001) == 0x00000001);
     }
     /**
-     * <code>required string ErrCode = 1;</code>
+     * <code>required int32 ErrCode = 1;</code>
      *
      * <pre>
      * 返回结果码，当为0时，请求被正常处理
      * </pre>
      */
-    public java.lang.String getErrCode() {
-      java.lang.Object ref = errCode_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          errCode_ = s;
-        }
-        return s;
-      }
-    }
-    /**
-     * <code>required string ErrCode = 1;</code>
-     *
-     * <pre>
-     * 返回结果码，当为0时，请求被正常处理
-     * </pre>
-     */
-    public com.google.protobuf.ByteString
-        getErrCodeBytes() {
-      java.lang.Object ref = errCode_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        errCode_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
+    public int getErrCode() {
+      return errCode_;
     }
 
     private void initFields() {
-      errCode_ = "";
+      errCode_ = 0;
     }
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
@@ -215,7 +174,7 @@ public final class DzhyunAdvert {
                         throws java.io.IOException {
       getSerializedSize();
       if (((bitField0_ & 0x00000001) == 0x00000001)) {
-        output.writeBytes(1, getErrCodeBytes());
+        output.writeInt32(1, errCode_);
       }
       getUnknownFields().writeTo(output);
     }
@@ -228,7 +187,7 @@ public final class DzhyunAdvert {
       size = 0;
       if (((bitField0_ & 0x00000001) == 0x00000001)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(1, getErrCodeBytes());
+          .computeInt32Size(1, errCode_);
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
@@ -351,7 +310,7 @@ public final class DzhyunAdvert {
 
       public Builder clear() {
         super.clear();
-        errCode_ = "";
+        errCode_ = 0;
         bitField0_ = (bitField0_ & ~0x00000001);
         return this;
       }
@@ -402,9 +361,7 @@ public final class DzhyunAdvert {
       public Builder mergeFrom(com.dzhyun.proto.DzhyunAdvert.ADPutResponse other) {
         if (other == com.dzhyun.proto.DzhyunAdvert.ADPutResponse.getDefaultInstance()) return this;
         if (other.hasErrCode()) {
-          bitField0_ |= 0x00000001;
-          errCode_ = other.errCode_;
-          onChanged();
+          setErrCode(other.getErrCode());
         }
         this.mergeUnknownFields(other.getUnknownFields());
         return this;
@@ -437,9 +394,9 @@ public final class DzhyunAdvert {
       }
       private int bitField0_;
 
-      private java.lang.Object errCode_ = "";
+      private int errCode_ ;
       /**
-       * <code>required string ErrCode = 1;</code>
+       * <code>required int32 ErrCode = 1;</code>
        *
        * <pre>
        * 返回结果码，当为0时，请求被正常处理
@@ -449,65 +406,30 @@ public final class DzhyunAdvert {
         return ((bitField0_ & 0x00000001) == 0x00000001);
       }
       /**
-       * <code>required string ErrCode = 1;</code>
+       * <code>required int32 ErrCode = 1;</code>
        *
        * <pre>
        * 返回结果码，当为0时，请求被正常处理
        * </pre>
        */
-      public java.lang.String getErrCode() {
-        java.lang.Object ref = errCode_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            errCode_ = s;
-          }
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
+      public int getErrCode() {
+        return errCode_;
       }
       /**
-       * <code>required string ErrCode = 1;</code>
+       * <code>required int32 ErrCode = 1;</code>
        *
        * <pre>
        * 返回结果码，当为0时，请求被正常处理
        * </pre>
        */
-      public com.google.protobuf.ByteString
-          getErrCodeBytes() {
-        java.lang.Object ref = errCode_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          errCode_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>required string ErrCode = 1;</code>
-       *
-       * <pre>
-       * 返回结果码，当为0时，请求被正常处理
-       * </pre>
-       */
-      public Builder setErrCode(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000001;
+      public Builder setErrCode(int value) {
+        bitField0_ |= 0x00000001;
         errCode_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>required string ErrCode = 1;</code>
+       * <code>required int32 ErrCode = 1;</code>
        *
        * <pre>
        * 返回结果码，当为0时，请求被正常处理
@@ -515,24 +437,7 @@ public final class DzhyunAdvert {
        */
       public Builder clearErrCode() {
         bitField0_ = (bitField0_ & ~0x00000001);
-        errCode_ = getDefaultInstance().getErrCode();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>required string ErrCode = 1;</code>
-       *
-       * <pre>
-       * 返回结果码，当为0时，请求被正常处理
-       * </pre>
-       */
-      public Builder setErrCodeBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000001;
-        errCode_ = value;
+        errCode_ = 0;
         onChanged();
         return this;
       }
@@ -581,18 +486,13 @@ public final class DzhyunAdvert {
         getDataBytes();
 
     /**
-     * <code>required string Version = 3;</code>
+     * <code>required int64 Version = 3;</code>
      */
     boolean hasVersion();
     /**
-     * <code>required string Version = 3;</code>
+     * <code>required int64 Version = 3;</code>
      */
-    java.lang.String getVersion();
-    /**
-     * <code>required string Version = 3;</code>
-     */
-    com.google.protobuf.ByteString
-        getVersionBytes();
+    long getVersion();
   }
   /**
    * Protobuf type {@code dzhyun.ADInfo}
@@ -658,10 +558,9 @@ public final class DzhyunAdvert {
               data_ = bs;
               break;
             }
-            case 26: {
-              com.google.protobuf.ByteString bs = input.readBytes();
+            case 24: {
               bitField0_ |= 0x00000004;
-              version_ = bs;
+              version_ = input.readInt64();
               break;
             }
           }
@@ -789,51 +688,24 @@ public final class DzhyunAdvert {
     }
 
     public static final int VERSION_FIELD_NUMBER = 3;
-    private java.lang.Object version_;
+    private long version_;
     /**
-     * <code>required string Version = 3;</code>
+     * <code>required int64 Version = 3;</code>
      */
     public boolean hasVersion() {
       return ((bitField0_ & 0x00000004) == 0x00000004);
     }
     /**
-     * <code>required string Version = 3;</code>
+     * <code>required int64 Version = 3;</code>
      */
-    public java.lang.String getVersion() {
-      java.lang.Object ref = version_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          version_ = s;
-        }
-        return s;
-      }
-    }
-    /**
-     * <code>required string Version = 3;</code>
-     */
-    public com.google.protobuf.ByteString
-        getVersionBytes() {
-      java.lang.Object ref = version_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        version_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
+    public long getVersion() {
+      return version_;
     }
 
     private void initFields() {
       slot_ = "";
       data_ = "";
-      version_ = "";
+      version_ = 0L;
     }
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
@@ -867,7 +739,7 @@ public final class DzhyunAdvert {
         output.writeBytes(2, getDataBytes());
       }
       if (((bitField0_ & 0x00000004) == 0x00000004)) {
-        output.writeBytes(3, getVersionBytes());
+        output.writeInt64(3, version_);
       }
       getUnknownFields().writeTo(output);
     }
@@ -888,7 +760,7 @@ public final class DzhyunAdvert {
       }
       if (((bitField0_ & 0x00000004) == 0x00000004)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(3, getVersionBytes());
+          .computeInt64Size(3, version_);
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
@@ -1011,7 +883,7 @@ public final class DzhyunAdvert {
         bitField0_ = (bitField0_ & ~0x00000001);
         data_ = "";
         bitField0_ = (bitField0_ & ~0x00000002);
-        version_ = "";
+        version_ = 0L;
         bitField0_ = (bitField0_ & ~0x00000004);
         return this;
       }
@@ -1080,9 +952,7 @@ public final class DzhyunAdvert {
           onChanged();
         }
         if (other.hasVersion()) {
-          bitField0_ |= 0x00000004;
-          version_ = other.version_;
-          onChanged();
+          setVersion(other.getVersion());
         }
         this.mergeUnknownFields(other.getUnknownFields());
         return this;
@@ -1275,78 +1145,34 @@ public final class DzhyunAdvert {
         return this;
       }
 
-      private java.lang.Object version_ = "";
+      private long version_ ;
       /**
-       * <code>required string Version = 3;</code>
+       * <code>required int64 Version = 3;</code>
        */
       public boolean hasVersion() {
         return ((bitField0_ & 0x00000004) == 0x00000004);
       }
       /**
-       * <code>required string Version = 3;</code>
+       * <code>required int64 Version = 3;</code>
        */
-      public java.lang.String getVersion() {
-        java.lang.Object ref = version_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            version_ = s;
-          }
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
+      public long getVersion() {
+        return version_;
       }
       /**
-       * <code>required string Version = 3;</code>
+       * <code>required int64 Version = 3;</code>
        */
-      public com.google.protobuf.ByteString
-          getVersionBytes() {
-        java.lang.Object ref = version_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          version_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>required string Version = 3;</code>
-       */
-      public Builder setVersion(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000004;
+      public Builder setVersion(long value) {
+        bitField0_ |= 0x00000004;
         version_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>required string Version = 3;</code>
+       * <code>required int64 Version = 3;</code>
        */
       public Builder clearVersion() {
         bitField0_ = (bitField0_ & ~0x00000004);
-        version_ = getDefaultInstance().getVersion();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>required string Version = 3;</code>
-       */
-      public Builder setVersionBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000004;
-        version_ = value;
+        version_ = 0L;
         onChanged();
         return this;
       }
@@ -2243,8 +2069,8 @@ public final class DzhyunAdvert {
   static {
     java.lang.String[] descriptorData = {
       "\n\023dzhyun.advert.proto\022\006dzhyun\" \n\rADPutRe" +
-      "sponse\022\017\n\007ErrCode\030\001 \002(\t\"5\n\006ADInfo\022\014\n\004Slo" +
-      "t\030\001 \002(\t\022\014\n\004Data\030\002 \002(\t\022\017\n\007Version\030\003 \002(\t\"C" +
+      "sponse\022\017\n\007ErrCode\030\001 \002(\005\"5\n\006ADInfo\022\014\n\004Slo" +
+      "t\030\001 \002(\t\022\014\n\004Data\030\002 \002(\t\022\017\n\007Version\030\003 \002(\003\"C" +
       "\n\rADGetResponse\022\035\n\005Slots\030\001 \003(\0132\016.dzhyun." +
       "ADInfo\022\023\n\013PropVersion\030\002 \002(\tB\022\n\020com.dzhyu" +
       "n.proto"

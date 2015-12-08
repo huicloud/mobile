@@ -2,7 +2,7 @@
  * 股票列表
  * Created by jiagang on 15/11/2.
  */
-import React, {ListView} from 'react-native';
+import React, {ListView, View} from 'react-native';
 import BaseComponent from './BaseComponent.js';
 import baseStyle from './baseStyle.js';
 
@@ -15,7 +15,7 @@ export default class StockList extends BaseComponent {
 
     // 初始状态
     this.state = {
-      dataSource: new ListView.DataSource(this)
+      dataSource: new ListView.DataSource(this).cloneWithRows(props.data)
     }
   }
 
@@ -25,7 +25,7 @@ export default class StockList extends BaseComponent {
 
   _renderRow(rowData) {
     return (
-      <StockListItem {...rowData} onPress={this.props.onItemPress}></StockListItem>
+      <StockListItem key={rowData.Obj} {...rowData} onPress={this.props.onItemPress}></StockListItem>
     )
   }
 
@@ -42,8 +42,9 @@ export default class StockList extends BaseComponent {
   render() {
     return (
       <ListView
+        renderHeader={this.props.renderHeader}
         dataSource={this.state.dataSource}
-        renderRow={this._renderRow.bind(this)}>
+        renderRow={this.props.renderRow || this._renderRow.bind(this)}>
       </ListView>
     );
   }

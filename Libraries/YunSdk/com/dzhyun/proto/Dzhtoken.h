@@ -26,22 +26,22 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhtoken)
 @protocol ComDzhyunProtoDzhtoken_TokenOrBuilder < ComGoogleProtobufMessageOrBuilder >
 
 - (BOOL)hasResult;
-- (NSString *)getResult;
+- (int)getResult;
 
 - (BOOL)hasToken;
 - (NSString *)getToken;
 
 - (BOOL)hasVersion;
-- (NSString *)getVersion;
+- (long long int)getVersion;
 
 - (BOOL)hasCreateTime;
-- (NSString *)getCreateTime;
+- (long long int)getCreateTime;
 
 - (BOOL)hasRefreshTime;
-- (NSString *)getRefreshTime;
+- (long long int)getRefreshTime;
 
 - (BOOL)hasDuration;
-- (NSString *)getDuration;
+- (long long int)getDuration;
 
 - (BOOL)hasAppid;
 - (NSString *)getAppid;
@@ -120,28 +120,28 @@ FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhtoke
 - (ComDzhyunProtoDzhtoken_Token *)buildPartial;
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
 
-- (ComDzhyunProtoDzhtoken_Token_Builder *)setResultWithNSString:
-    (NSString *)value;
+- (ComDzhyunProtoDzhtoken_Token_Builder *)setResultWithInt:
+    (int)value;
 - (ComDzhyunProtoDzhtoken_Token_Builder *)clearResult;
 
 - (ComDzhyunProtoDzhtoken_Token_Builder *)setTokenWithNSString:
     (NSString *)value;
 - (ComDzhyunProtoDzhtoken_Token_Builder *)clearToken;
 
-- (ComDzhyunProtoDzhtoken_Token_Builder *)setVersionWithNSString:
-    (NSString *)value;
+- (ComDzhyunProtoDzhtoken_Token_Builder *)setVersionWithLong:
+    (long long int)value;
 - (ComDzhyunProtoDzhtoken_Token_Builder *)clearVersion;
 
-- (ComDzhyunProtoDzhtoken_Token_Builder *)setCreateTimeWithNSString:
-    (NSString *)value;
+- (ComDzhyunProtoDzhtoken_Token_Builder *)setCreateTimeWithLong:
+    (long long int)value;
 - (ComDzhyunProtoDzhtoken_Token_Builder *)clearCreateTime;
 
-- (ComDzhyunProtoDzhtoken_Token_Builder *)setRefreshTimeWithNSString:
-    (NSString *)value;
+- (ComDzhyunProtoDzhtoken_Token_Builder *)setRefreshTimeWithLong:
+    (long long int)value;
 - (ComDzhyunProtoDzhtoken_Token_Builder *)clearRefreshTime;
 
-- (ComDzhyunProtoDzhtoken_Token_Builder *)setDurationWithNSString:
-    (NSString *)value;
+- (ComDzhyunProtoDzhtoken_Token_Builder *)setDurationWithLong:
+    (long long int)value;
 - (ComDzhyunProtoDzhtoken_Token_Builder *)clearDuration;
 
 - (ComDzhyunProtoDzhtoken_Token_Builder *)setAppidWithNSString:

@@ -10879,6 +10879,3515 @@ public final class Dzhoutput {
     // @@protoc_insertion_point(class_scope:dzhyun.QuoteMinOutput)
   }
 
+  public interface QuoteBOrderOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:dzhyun.QuoteBOrder)
+      com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>optional int64 ShiJian = 1;</code>
+     *
+     * <pre>
+     *时间
+     * </pre>
+     */
+    boolean hasShiJian();
+    /**
+     * <code>optional int64 ShiJian = 1;</code>
+     *
+     * <pre>
+     *时间
+     * </pre>
+     */
+    long getShiJian();
+
+    /**
+     * <code>optional int64 WeiTuoMaiRu = 2;</code>
+     *
+     * <pre>
+     * 委托单买入数量
+     * </pre>
+     */
+    boolean hasWeiTuoMaiRu();
+    /**
+     * <code>optional int64 WeiTuoMaiRu = 2;</code>
+     *
+     * <pre>
+     * 委托单买入数量
+     * </pre>
+     */
+    long getWeiTuoMaiRu();
+
+    /**
+     * <code>optional int64 WeiTuoMaiChu = 3;</code>
+     *
+     * <pre>
+     * 委托单卖出数量
+     * </pre>
+     */
+    boolean hasWeiTuoMaiChu();
+    /**
+     * <code>optional int64 WeiTuoMaiChu = 3;</code>
+     *
+     * <pre>
+     * 委托单卖出数量
+     * </pre>
+     */
+    long getWeiTuoMaiChu();
+
+    /**
+     * <code>optional int64 MaiRuZhongDanBiLi = 4;</code>
+     *
+     * <pre>
+     * 买入中单比例，1/1000
+     * </pre>
+     */
+    boolean hasMaiRuZhongDanBiLi();
+    /**
+     * <code>optional int64 MaiRuZhongDanBiLi = 4;</code>
+     *
+     * <pre>
+     * 买入中单比例，1/1000
+     * </pre>
+     */
+    long getMaiRuZhongDanBiLi();
+
+    /**
+     * <code>optional int64 MaiRuDaDanBiLi = 5;</code>
+     *
+     * <pre>
+     * 买入大单比例，1/1000
+     * </pre>
+     */
+    boolean hasMaiRuDaDanBiLi();
+    /**
+     * <code>optional int64 MaiRuDaDanBiLi = 5;</code>
+     *
+     * <pre>
+     * 买入大单比例，1/1000
+     * </pre>
+     */
+    long getMaiRuDaDanBiLi();
+
+    /**
+     * <code>optional int64 MaiRuTeDaDanBiLi = 6;</code>
+     *
+     * <pre>
+     * 买入特大单比例，1/1000
+     * </pre>
+     */
+    boolean hasMaiRuTeDaDanBiLi();
+    /**
+     * <code>optional int64 MaiRuTeDaDanBiLi = 6;</code>
+     *
+     * <pre>
+     * 买入特大单比例，1/1000
+     * </pre>
+     */
+    long getMaiRuTeDaDanBiLi();
+
+    /**
+     * <code>optional int64 MaiChuZhongDanBiLi = 7;</code>
+     *
+     * <pre>
+     * 卖出中单比例，1/1000
+     * </pre>
+     */
+    boolean hasMaiChuZhongDanBiLi();
+    /**
+     * <code>optional int64 MaiChuZhongDanBiLi = 7;</code>
+     *
+     * <pre>
+     * 卖出中单比例，1/1000
+     * </pre>
+     */
+    long getMaiChuZhongDanBiLi();
+
+    /**
+     * <code>optional int64 MaiChuDaDanBiLi = 8;</code>
+     *
+     * <pre>
+     * 卖出大单比例，1/1000
+     * </pre>
+     */
+    boolean hasMaiChuDaDanBiLi();
+    /**
+     * <code>optional int64 MaiChuDaDanBiLi = 8;</code>
+     *
+     * <pre>
+     * 卖出大单比例，1/1000
+     * </pre>
+     */
+    long getMaiChuDaDanBiLi();
+
+    /**
+     * <code>optional int64 MaiChuTeDaDanBiLi = 9;</code>
+     *
+     * <pre>
+     * 卖出特大单比例，1/1000
+     * </pre>
+     */
+    boolean hasMaiChuTeDaDanBiLi();
+    /**
+     * <code>optional int64 MaiChuTeDaDanBiLi = 9;</code>
+     *
+     * <pre>
+     * 卖出特大单比例，1/1000
+     * </pre>
+     */
+    long getMaiChuTeDaDanBiLi();
+
+    /**
+     * <code>optional int64 DuanXianMaiRu = 10;</code>
+     *
+     * <pre>
+     * 短线精灵买入大单统计
+     * </pre>
+     */
+    boolean hasDuanXianMaiRu();
+    /**
+     * <code>optional int64 DuanXianMaiRu = 10;</code>
+     *
+     * <pre>
+     * 短线精灵买入大单统计
+     * </pre>
+     */
+    long getDuanXianMaiRu();
+
+    /**
+     * <code>optional int64 DuanXianMaiChu = 11;</code>
+     *
+     * <pre>
+     * 短线精灵卖出大单统计
+     * </pre>
+     */
+    boolean hasDuanXianMaiChu();
+    /**
+     * <code>optional int64 DuanXianMaiChu = 11;</code>
+     *
+     * <pre>
+     * 短线精灵卖出大单统计
+     * </pre>
+     */
+    long getDuanXianMaiChu();
+
+    /**
+     * <code>optional int64 DuanXianChiHuo = 12;</code>
+     *
+     * <pre>
+     * 短线精灵吃货大单统计
+     * </pre>
+     */
+    boolean hasDuanXianChiHuo();
+    /**
+     * <code>optional int64 DuanXianChiHuo = 12;</code>
+     *
+     * <pre>
+     * 短线精灵吃货大单统计
+     * </pre>
+     */
+    long getDuanXianChiHuo();
+
+    /**
+     * <code>optional int64 DuanXianTuHuo = 13;</code>
+     *
+     * <pre>
+     * 短线精灵吐货大单统计
+     * </pre>
+     */
+    boolean hasDuanXianTuHuo();
+    /**
+     * <code>optional int64 DuanXianTuHuo = 13;</code>
+     *
+     * <pre>
+     * 短线精灵吐货大单统计
+     * </pre>
+     */
+    long getDuanXianTuHuo();
+
+    /**
+     * <code>optional int64 DaDanLiuRuJinE = 14;</code>
+     *
+     * <pre>
+     * 大单流入金额
+     * </pre>
+     */
+    boolean hasDaDanLiuRuJinE();
+    /**
+     * <code>optional int64 DaDanLiuRuJinE = 14;</code>
+     *
+     * <pre>
+     * 大单流入金额
+     * </pre>
+     */
+    long getDaDanLiuRuJinE();
+
+    /**
+     * <code>optional int64 DaDanLiuChuJinE = 15;</code>
+     *
+     * <pre>
+     * 大单流出金额
+     * </pre>
+     */
+    boolean hasDaDanLiuChuJinE();
+    /**
+     * <code>optional int64 DaDanLiuChuJinE = 15;</code>
+     *
+     * <pre>
+     * 大单流出金额
+     * </pre>
+     */
+    long getDaDanLiuChuJinE();
+  }
+  /**
+   * Protobuf type {@code dzhyun.QuoteBOrder}
+   *
+   * <pre>
+   * Level大单
+   * </pre>
+   */
+  public static final class QuoteBOrder extends
+      com.google.protobuf.GeneratedMessage implements
+      // @@protoc_insertion_point(message_implements:dzhyun.QuoteBOrder)
+      QuoteBOrderOrBuilder {
+    // Use QuoteBOrder.newBuilder() to construct.
+    private QuoteBOrder(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      super(builder);
+      this.unknownFields = builder.getUnknownFields();
+    }
+    private QuoteBOrder(boolean noInit) { this.unknownFields = com.google.protobuf.UnknownFieldSet.getDefaultInstance(); }
+
+    private static final QuoteBOrder defaultInstance;
+    public static QuoteBOrder getDefaultInstance() {
+      return defaultInstance;
+    }
+
+    public QuoteBOrder getDefaultInstanceForType() {
+      return defaultInstance;
+    }
+
+    private final com.google.protobuf.UnknownFieldSet unknownFields;
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+        getUnknownFields() {
+      return this.unknownFields;
+    }
+    private QuoteBOrder(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      initFields();
+      int mutable_bitField0_ = 0;
+      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+          com.google.protobuf.UnknownFieldSet.newBuilder();
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!parseUnknownField(input, unknownFields,
+                                     extensionRegistry, tag)) {
+                done = true;
+              }
+              break;
+            }
+            case 8: {
+              bitField0_ |= 0x00000001;
+              shiJian_ = input.readInt64();
+              break;
+            }
+            case 16: {
+              bitField0_ |= 0x00000002;
+              weiTuoMaiRu_ = input.readInt64();
+              break;
+            }
+            case 24: {
+              bitField0_ |= 0x00000004;
+              weiTuoMaiChu_ = input.readInt64();
+              break;
+            }
+            case 32: {
+              bitField0_ |= 0x00000008;
+              maiRuZhongDanBiLi_ = input.readInt64();
+              break;
+            }
+            case 40: {
+              bitField0_ |= 0x00000010;
+              maiRuDaDanBiLi_ = input.readInt64();
+              break;
+            }
+            case 48: {
+              bitField0_ |= 0x00000020;
+              maiRuTeDaDanBiLi_ = input.readInt64();
+              break;
+            }
+            case 56: {
+              bitField0_ |= 0x00000040;
+              maiChuZhongDanBiLi_ = input.readInt64();
+              break;
+            }
+            case 64: {
+              bitField0_ |= 0x00000080;
+              maiChuDaDanBiLi_ = input.readInt64();
+              break;
+            }
+            case 72: {
+              bitField0_ |= 0x00000100;
+              maiChuTeDaDanBiLi_ = input.readInt64();
+              break;
+            }
+            case 80: {
+              bitField0_ |= 0x00000200;
+              duanXianMaiRu_ = input.readInt64();
+              break;
+            }
+            case 88: {
+              bitField0_ |= 0x00000400;
+              duanXianMaiChu_ = input.readInt64();
+              break;
+            }
+            case 96: {
+              bitField0_ |= 0x00000800;
+              duanXianChiHuo_ = input.readInt64();
+              break;
+            }
+            case 104: {
+              bitField0_ |= 0x00001000;
+              duanXianTuHuo_ = input.readInt64();
+              break;
+            }
+            case 112: {
+              bitField0_ |= 0x00002000;
+              daDanLiuRuJinE_ = input.readInt64();
+              break;
+            }
+            case 120: {
+              bitField0_ |= 0x00004000;
+              daDanLiuChuJinE_ = input.readInt64();
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e.getMessage()).setUnfinishedMessage(this);
+      } finally {
+        this.unknownFields = unknownFields.build();
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return com.dzhyun.proto.Dzhoutput.internal_static_dzhyun_QuoteBOrder_descriptor;
+    }
+
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return com.dzhyun.proto.Dzhoutput.internal_static_dzhyun_QuoteBOrder_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              com.dzhyun.proto.Dzhoutput.QuoteBOrder.class, com.dzhyun.proto.Dzhoutput.QuoteBOrder.Builder.class);
+    }
+
+    public static com.google.protobuf.Parser<QuoteBOrder> PARSER =
+        new com.google.protobuf.AbstractParser<QuoteBOrder>() {
+      public QuoteBOrder parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return new QuoteBOrder(input, extensionRegistry);
+      }
+    };
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<QuoteBOrder> getParserForType() {
+      return PARSER;
+    }
+
+    private int bitField0_;
+    public static final int SHIJIAN_FIELD_NUMBER = 1;
+    private long shiJian_;
+    /**
+     * <code>optional int64 ShiJian = 1;</code>
+     *
+     * <pre>
+     *时间
+     * </pre>
+     */
+    public boolean hasShiJian() {
+      return ((bitField0_ & 0x00000001) == 0x00000001);
+    }
+    /**
+     * <code>optional int64 ShiJian = 1;</code>
+     *
+     * <pre>
+     *时间
+     * </pre>
+     */
+    public long getShiJian() {
+      return shiJian_;
+    }
+
+    public static final int WEITUOMAIRU_FIELD_NUMBER = 2;
+    private long weiTuoMaiRu_;
+    /**
+     * <code>optional int64 WeiTuoMaiRu = 2;</code>
+     *
+     * <pre>
+     * 委托单买入数量
+     * </pre>
+     */
+    public boolean hasWeiTuoMaiRu() {
+      return ((bitField0_ & 0x00000002) == 0x00000002);
+    }
+    /**
+     * <code>optional int64 WeiTuoMaiRu = 2;</code>
+     *
+     * <pre>
+     * 委托单买入数量
+     * </pre>
+     */
+    public long getWeiTuoMaiRu() {
+      return weiTuoMaiRu_;
+    }
+
+    public static final int WEITUOMAICHU_FIELD_NUMBER = 3;
+    private long weiTuoMaiChu_;
+    /**
+     * <code>optional int64 WeiTuoMaiChu = 3;</code>
+     *
+     * <pre>
+     * 委托单卖出数量
+     * </pre>
+     */
+    public boolean hasWeiTuoMaiChu() {
+      return ((bitField0_ & 0x00000004) == 0x00000004);
+    }
+    /**
+     * <code>optional int64 WeiTuoMaiChu = 3;</code>
+     *
+     * <pre>
+     * 委托单卖出数量
+     * </pre>
+     */
+    public long getWeiTuoMaiChu() {
+      return weiTuoMaiChu_;
+    }
+
+    public static final int MAIRUZHONGDANBILI_FIELD_NUMBER = 4;
+    private long maiRuZhongDanBiLi_;
+    /**
+     * <code>optional int64 MaiRuZhongDanBiLi = 4;</code>
+     *
+     * <pre>
+     * 买入中单比例，1/1000
+     * </pre>
+     */
+    public boolean hasMaiRuZhongDanBiLi() {
+      return ((bitField0_ & 0x00000008) == 0x00000008);
+    }
+    /**
+     * <code>optional int64 MaiRuZhongDanBiLi = 4;</code>
+     *
+     * <pre>
+     * 买入中单比例，1/1000
+     * </pre>
+     */
+    public long getMaiRuZhongDanBiLi() {
+      return maiRuZhongDanBiLi_;
+    }
+
+    public static final int MAIRUDADANBILI_FIELD_NUMBER = 5;
+    private long maiRuDaDanBiLi_;
+    /**
+     * <code>optional int64 MaiRuDaDanBiLi = 5;</code>
+     *
+     * <pre>
+     * 买入大单比例，1/1000
+     * </pre>
+     */
+    public boolean hasMaiRuDaDanBiLi() {
+      return ((bitField0_ & 0x00000010) == 0x00000010);
+    }
+    /**
+     * <code>optional int64 MaiRuDaDanBiLi = 5;</code>
+     *
+     * <pre>
+     * 买入大单比例，1/1000
+     * </pre>
+     */
+    public long getMaiRuDaDanBiLi() {
+      return maiRuDaDanBiLi_;
+    }
+
+    public static final int MAIRUTEDADANBILI_FIELD_NUMBER = 6;
+    private long maiRuTeDaDanBiLi_;
+    /**
+     * <code>optional int64 MaiRuTeDaDanBiLi = 6;</code>
+     *
+     * <pre>
+     * 买入特大单比例，1/1000
+     * </pre>
+     */
+    public boolean hasMaiRuTeDaDanBiLi() {
+      return ((bitField0_ & 0x00000020) == 0x00000020);
+    }
+    /**
+     * <code>optional int64 MaiRuTeDaDanBiLi = 6;</code>
+     *
+     * <pre>
+     * 买入特大单比例，1/1000
+     * </pre>
+     */
+    public long getMaiRuTeDaDanBiLi() {
+      return maiRuTeDaDanBiLi_;
+    }
+
+    public static final int MAICHUZHONGDANBILI_FIELD_NUMBER = 7;
+    private long maiChuZhongDanBiLi_;
+    /**
+     * <code>optional int64 MaiChuZhongDanBiLi = 7;</code>
+     *
+     * <pre>
+     * 卖出中单比例，1/1000
+     * </pre>
+     */
+    public boolean hasMaiChuZhongDanBiLi() {
+      return ((bitField0_ & 0x00000040) == 0x00000040);
+    }
+    /**
+     * <code>optional int64 MaiChuZhongDanBiLi = 7;</code>
+     *
+     * <pre>
+     * 卖出中单比例，1/1000
+     * </pre>
+     */
+    public long getMaiChuZhongDanBiLi() {
+      return maiChuZhongDanBiLi_;
+    }
+
+    public static final int MAICHUDADANBILI_FIELD_NUMBER = 8;
+    private long maiChuDaDanBiLi_;
+    /**
+     * <code>optional int64 MaiChuDaDanBiLi = 8;</code>
+     *
+     * <pre>
+     * 卖出大单比例，1/1000
+     * </pre>
+     */
+    public boolean hasMaiChuDaDanBiLi() {
+      return ((bitField0_ & 0x00000080) == 0x00000080);
+    }
+    /**
+     * <code>optional int64 MaiChuDaDanBiLi = 8;</code>
+     *
+     * <pre>
+     * 卖出大单比例，1/1000
+     * </pre>
+     */
+    public long getMaiChuDaDanBiLi() {
+      return maiChuDaDanBiLi_;
+    }
+
+    public static final int MAICHUTEDADANBILI_FIELD_NUMBER = 9;
+    private long maiChuTeDaDanBiLi_;
+    /**
+     * <code>optional int64 MaiChuTeDaDanBiLi = 9;</code>
+     *
+     * <pre>
+     * 卖出特大单比例，1/1000
+     * </pre>
+     */
+    public boolean hasMaiChuTeDaDanBiLi() {
+      return ((bitField0_ & 0x00000100) == 0x00000100);
+    }
+    /**
+     * <code>optional int64 MaiChuTeDaDanBiLi = 9;</code>
+     *
+     * <pre>
+     * 卖出特大单比例，1/1000
+     * </pre>
+     */
+    public long getMaiChuTeDaDanBiLi() {
+      return maiChuTeDaDanBiLi_;
+    }
+
+    public static final int DUANXIANMAIRU_FIELD_NUMBER = 10;
+    private long duanXianMaiRu_;
+    /**
+     * <code>optional int64 DuanXianMaiRu = 10;</code>
+     *
+     * <pre>
+     * 短线精灵买入大单统计
+     * </pre>
+     */
+    public boolean hasDuanXianMaiRu() {
+      return ((bitField0_ & 0x00000200) == 0x00000200);
+    }
+    /**
+     * <code>optional int64 DuanXianMaiRu = 10;</code>
+     *
+     * <pre>
+     * 短线精灵买入大单统计
+     * </pre>
+     */
+    public long getDuanXianMaiRu() {
+      return duanXianMaiRu_;
+    }
+
+    public static final int DUANXIANMAICHU_FIELD_NUMBER = 11;
+    private long duanXianMaiChu_;
+    /**
+     * <code>optional int64 DuanXianMaiChu = 11;</code>
+     *
+     * <pre>
+     * 短线精灵卖出大单统计
+     * </pre>
+     */
+    public boolean hasDuanXianMaiChu() {
+      return ((bitField0_ & 0x00000400) == 0x00000400);
+    }
+    /**
+     * <code>optional int64 DuanXianMaiChu = 11;</code>
+     *
+     * <pre>
+     * 短线精灵卖出大单统计
+     * </pre>
+     */
+    public long getDuanXianMaiChu() {
+      return duanXianMaiChu_;
+    }
+
+    public static final int DUANXIANCHIHUO_FIELD_NUMBER = 12;
+    private long duanXianChiHuo_;
+    /**
+     * <code>optional int64 DuanXianChiHuo = 12;</code>
+     *
+     * <pre>
+     * 短线精灵吃货大单统计
+     * </pre>
+     */
+    public boolean hasDuanXianChiHuo() {
+      return ((bitField0_ & 0x00000800) == 0x00000800);
+    }
+    /**
+     * <code>optional int64 DuanXianChiHuo = 12;</code>
+     *
+     * <pre>
+     * 短线精灵吃货大单统计
+     * </pre>
+     */
+    public long getDuanXianChiHuo() {
+      return duanXianChiHuo_;
+    }
+
+    public static final int DUANXIANTUHUO_FIELD_NUMBER = 13;
+    private long duanXianTuHuo_;
+    /**
+     * <code>optional int64 DuanXianTuHuo = 13;</code>
+     *
+     * <pre>
+     * 短线精灵吐货大单统计
+     * </pre>
+     */
+    public boolean hasDuanXianTuHuo() {
+      return ((bitField0_ & 0x00001000) == 0x00001000);
+    }
+    /**
+     * <code>optional int64 DuanXianTuHuo = 13;</code>
+     *
+     * <pre>
+     * 短线精灵吐货大单统计
+     * </pre>
+     */
+    public long getDuanXianTuHuo() {
+      return duanXianTuHuo_;
+    }
+
+    public static final int DADANLIURUJINE_FIELD_NUMBER = 14;
+    private long daDanLiuRuJinE_;
+    /**
+     * <code>optional int64 DaDanLiuRuJinE = 14;</code>
+     *
+     * <pre>
+     * 大单流入金额
+     * </pre>
+     */
+    public boolean hasDaDanLiuRuJinE() {
+      return ((bitField0_ & 0x00002000) == 0x00002000);
+    }
+    /**
+     * <code>optional int64 DaDanLiuRuJinE = 14;</code>
+     *
+     * <pre>
+     * 大单流入金额
+     * </pre>
+     */
+    public long getDaDanLiuRuJinE() {
+      return daDanLiuRuJinE_;
+    }
+
+    public static final int DADANLIUCHUJINE_FIELD_NUMBER = 15;
+    private long daDanLiuChuJinE_;
+    /**
+     * <code>optional int64 DaDanLiuChuJinE = 15;</code>
+     *
+     * <pre>
+     * 大单流出金额
+     * </pre>
+     */
+    public boolean hasDaDanLiuChuJinE() {
+      return ((bitField0_ & 0x00004000) == 0x00004000);
+    }
+    /**
+     * <code>optional int64 DaDanLiuChuJinE = 15;</code>
+     *
+     * <pre>
+     * 大单流出金额
+     * </pre>
+     */
+    public long getDaDanLiuChuJinE() {
+      return daDanLiuChuJinE_;
+    }
+
+    private void initFields() {
+      shiJian_ = 0L;
+      weiTuoMaiRu_ = 0L;
+      weiTuoMaiChu_ = 0L;
+      maiRuZhongDanBiLi_ = 0L;
+      maiRuDaDanBiLi_ = 0L;
+      maiRuTeDaDanBiLi_ = 0L;
+      maiChuZhongDanBiLi_ = 0L;
+      maiChuDaDanBiLi_ = 0L;
+      maiChuTeDaDanBiLi_ = 0L;
+      duanXianMaiRu_ = 0L;
+      duanXianMaiChu_ = 0L;
+      duanXianChiHuo_ = 0L;
+      duanXianTuHuo_ = 0L;
+      daDanLiuRuJinE_ = 0L;
+      daDanLiuChuJinE_ = 0L;
+    }
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      getSerializedSize();
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        output.writeInt64(1, shiJian_);
+      }
+      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+        output.writeInt64(2, weiTuoMaiRu_);
+      }
+      if (((bitField0_ & 0x00000004) == 0x00000004)) {
+        output.writeInt64(3, weiTuoMaiChu_);
+      }
+      if (((bitField0_ & 0x00000008) == 0x00000008)) {
+        output.writeInt64(4, maiRuZhongDanBiLi_);
+      }
+      if (((bitField0_ & 0x00000010) == 0x00000010)) {
+        output.writeInt64(5, maiRuDaDanBiLi_);
+      }
+      if (((bitField0_ & 0x00000020) == 0x00000020)) {
+        output.writeInt64(6, maiRuTeDaDanBiLi_);
+      }
+      if (((bitField0_ & 0x00000040) == 0x00000040)) {
+        output.writeInt64(7, maiChuZhongDanBiLi_);
+      }
+      if (((bitField0_ & 0x00000080) == 0x00000080)) {
+        output.writeInt64(8, maiChuDaDanBiLi_);
+      }
+      if (((bitField0_ & 0x00000100) == 0x00000100)) {
+        output.writeInt64(9, maiChuTeDaDanBiLi_);
+      }
+      if (((bitField0_ & 0x00000200) == 0x00000200)) {
+        output.writeInt64(10, duanXianMaiRu_);
+      }
+      if (((bitField0_ & 0x00000400) == 0x00000400)) {
+        output.writeInt64(11, duanXianMaiChu_);
+      }
+      if (((bitField0_ & 0x00000800) == 0x00000800)) {
+        output.writeInt64(12, duanXianChiHuo_);
+      }
+      if (((bitField0_ & 0x00001000) == 0x00001000)) {
+        output.writeInt64(13, duanXianTuHuo_);
+      }
+      if (((bitField0_ & 0x00002000) == 0x00002000)) {
+        output.writeInt64(14, daDanLiuRuJinE_);
+      }
+      if (((bitField0_ & 0x00004000) == 0x00004000)) {
+        output.writeInt64(15, daDanLiuChuJinE_);
+      }
+      getUnknownFields().writeTo(output);
+    }
+
+    private int memoizedSerializedSize = -1;
+    public int getSerializedSize() {
+      int size = memoizedSerializedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(1, shiJian_);
+      }
+      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(2, weiTuoMaiRu_);
+      }
+      if (((bitField0_ & 0x00000004) == 0x00000004)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(3, weiTuoMaiChu_);
+      }
+      if (((bitField0_ & 0x00000008) == 0x00000008)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(4, maiRuZhongDanBiLi_);
+      }
+      if (((bitField0_ & 0x00000010) == 0x00000010)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(5, maiRuDaDanBiLi_);
+      }
+      if (((bitField0_ & 0x00000020) == 0x00000020)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(6, maiRuTeDaDanBiLi_);
+      }
+      if (((bitField0_ & 0x00000040) == 0x00000040)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(7, maiChuZhongDanBiLi_);
+      }
+      if (((bitField0_ & 0x00000080) == 0x00000080)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(8, maiChuDaDanBiLi_);
+      }
+      if (((bitField0_ & 0x00000100) == 0x00000100)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(9, maiChuTeDaDanBiLi_);
+      }
+      if (((bitField0_ & 0x00000200) == 0x00000200)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(10, duanXianMaiRu_);
+      }
+      if (((bitField0_ & 0x00000400) == 0x00000400)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(11, duanXianMaiChu_);
+      }
+      if (((bitField0_ & 0x00000800) == 0x00000800)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(12, duanXianChiHuo_);
+      }
+      if (((bitField0_ & 0x00001000) == 0x00001000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(13, duanXianTuHuo_);
+      }
+      if (((bitField0_ & 0x00002000) == 0x00002000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(14, daDanLiuRuJinE_);
+      }
+      if (((bitField0_ & 0x00004000) == 0x00004000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(15, daDanLiuChuJinE_);
+      }
+      size += getUnknownFields().getSerializedSize();
+      memoizedSerializedSize = size;
+      return size;
+    }
+
+    private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    protected java.lang.Object writeReplace()
+        throws java.io.ObjectStreamException {
+      return super.writeReplace();
+    }
+
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrder parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrder parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrder parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrder parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrder parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrder parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrder parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input);
+    }
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrder parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+    }
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrder parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrder parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+
+    public static Builder newBuilder() { return Builder.create(); }
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder(com.dzhyun.proto.Dzhoutput.QuoteBOrder prototype) {
+      return newBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() { return newBuilder(this); }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code dzhyun.QuoteBOrder}
+     *
+     * <pre>
+     * Level大单
+     * </pre>
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:dzhyun.QuoteBOrder)
+        com.dzhyun.proto.Dzhoutput.QuoteBOrderOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return com.dzhyun.proto.Dzhoutput.internal_static_dzhyun_QuoteBOrder_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return com.dzhyun.proto.Dzhoutput.internal_static_dzhyun_QuoteBOrder_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                com.dzhyun.proto.Dzhoutput.QuoteBOrder.class, com.dzhyun.proto.Dzhoutput.QuoteBOrder.Builder.class);
+      }
+
+      // Construct using com.dzhyun.proto.Dzhoutput.QuoteBOrder.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        }
+      }
+      private static Builder create() {
+        return new Builder();
+      }
+
+      public Builder clear() {
+        super.clear();
+        shiJian_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000001);
+        weiTuoMaiRu_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000002);
+        weiTuoMaiChu_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000004);
+        maiRuZhongDanBiLi_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000008);
+        maiRuDaDanBiLi_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000010);
+        maiRuTeDaDanBiLi_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000020);
+        maiChuZhongDanBiLi_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000040);
+        maiChuDaDanBiLi_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000080);
+        maiChuTeDaDanBiLi_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000100);
+        duanXianMaiRu_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000200);
+        duanXianMaiChu_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000400);
+        duanXianChiHuo_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000800);
+        duanXianTuHuo_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00001000);
+        daDanLiuRuJinE_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00002000);
+        daDanLiuChuJinE_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00004000);
+        return this;
+      }
+
+      public Builder clone() {
+        return create().mergeFrom(buildPartial());
+      }
+
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return com.dzhyun.proto.Dzhoutput.internal_static_dzhyun_QuoteBOrder_descriptor;
+      }
+
+      public com.dzhyun.proto.Dzhoutput.QuoteBOrder getDefaultInstanceForType() {
+        return com.dzhyun.proto.Dzhoutput.QuoteBOrder.getDefaultInstance();
+      }
+
+      public com.dzhyun.proto.Dzhoutput.QuoteBOrder build() {
+        com.dzhyun.proto.Dzhoutput.QuoteBOrder result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      public com.dzhyun.proto.Dzhoutput.QuoteBOrder buildPartial() {
+        com.dzhyun.proto.Dzhoutput.QuoteBOrder result = new com.dzhyun.proto.Dzhoutput.QuoteBOrder(this);
+        int from_bitField0_ = bitField0_;
+        int to_bitField0_ = 0;
+        if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
+          to_bitField0_ |= 0x00000001;
+        }
+        result.shiJian_ = shiJian_;
+        if (((from_bitField0_ & 0x00000002) == 0x00000002)) {
+          to_bitField0_ |= 0x00000002;
+        }
+        result.weiTuoMaiRu_ = weiTuoMaiRu_;
+        if (((from_bitField0_ & 0x00000004) == 0x00000004)) {
+          to_bitField0_ |= 0x00000004;
+        }
+        result.weiTuoMaiChu_ = weiTuoMaiChu_;
+        if (((from_bitField0_ & 0x00000008) == 0x00000008)) {
+          to_bitField0_ |= 0x00000008;
+        }
+        result.maiRuZhongDanBiLi_ = maiRuZhongDanBiLi_;
+        if (((from_bitField0_ & 0x00000010) == 0x00000010)) {
+          to_bitField0_ |= 0x00000010;
+        }
+        result.maiRuDaDanBiLi_ = maiRuDaDanBiLi_;
+        if (((from_bitField0_ & 0x00000020) == 0x00000020)) {
+          to_bitField0_ |= 0x00000020;
+        }
+        result.maiRuTeDaDanBiLi_ = maiRuTeDaDanBiLi_;
+        if (((from_bitField0_ & 0x00000040) == 0x00000040)) {
+          to_bitField0_ |= 0x00000040;
+        }
+        result.maiChuZhongDanBiLi_ = maiChuZhongDanBiLi_;
+        if (((from_bitField0_ & 0x00000080) == 0x00000080)) {
+          to_bitField0_ |= 0x00000080;
+        }
+        result.maiChuDaDanBiLi_ = maiChuDaDanBiLi_;
+        if (((from_bitField0_ & 0x00000100) == 0x00000100)) {
+          to_bitField0_ |= 0x00000100;
+        }
+        result.maiChuTeDaDanBiLi_ = maiChuTeDaDanBiLi_;
+        if (((from_bitField0_ & 0x00000200) == 0x00000200)) {
+          to_bitField0_ |= 0x00000200;
+        }
+        result.duanXianMaiRu_ = duanXianMaiRu_;
+        if (((from_bitField0_ & 0x00000400) == 0x00000400)) {
+          to_bitField0_ |= 0x00000400;
+        }
+        result.duanXianMaiChu_ = duanXianMaiChu_;
+        if (((from_bitField0_ & 0x00000800) == 0x00000800)) {
+          to_bitField0_ |= 0x00000800;
+        }
+        result.duanXianChiHuo_ = duanXianChiHuo_;
+        if (((from_bitField0_ & 0x00001000) == 0x00001000)) {
+          to_bitField0_ |= 0x00001000;
+        }
+        result.duanXianTuHuo_ = duanXianTuHuo_;
+        if (((from_bitField0_ & 0x00002000) == 0x00002000)) {
+          to_bitField0_ |= 0x00002000;
+        }
+        result.daDanLiuRuJinE_ = daDanLiuRuJinE_;
+        if (((from_bitField0_ & 0x00004000) == 0x00004000)) {
+          to_bitField0_ |= 0x00004000;
+        }
+        result.daDanLiuChuJinE_ = daDanLiuChuJinE_;
+        result.bitField0_ = to_bitField0_;
+        onBuilt();
+        return result;
+      }
+
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof com.dzhyun.proto.Dzhoutput.QuoteBOrder) {
+          return mergeFrom((com.dzhyun.proto.Dzhoutput.QuoteBOrder)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(com.dzhyun.proto.Dzhoutput.QuoteBOrder other) {
+        if (other == com.dzhyun.proto.Dzhoutput.QuoteBOrder.getDefaultInstance()) return this;
+        if (other.hasShiJian()) {
+          setShiJian(other.getShiJian());
+        }
+        if (other.hasWeiTuoMaiRu()) {
+          setWeiTuoMaiRu(other.getWeiTuoMaiRu());
+        }
+        if (other.hasWeiTuoMaiChu()) {
+          setWeiTuoMaiChu(other.getWeiTuoMaiChu());
+        }
+        if (other.hasMaiRuZhongDanBiLi()) {
+          setMaiRuZhongDanBiLi(other.getMaiRuZhongDanBiLi());
+        }
+        if (other.hasMaiRuDaDanBiLi()) {
+          setMaiRuDaDanBiLi(other.getMaiRuDaDanBiLi());
+        }
+        if (other.hasMaiRuTeDaDanBiLi()) {
+          setMaiRuTeDaDanBiLi(other.getMaiRuTeDaDanBiLi());
+        }
+        if (other.hasMaiChuZhongDanBiLi()) {
+          setMaiChuZhongDanBiLi(other.getMaiChuZhongDanBiLi());
+        }
+        if (other.hasMaiChuDaDanBiLi()) {
+          setMaiChuDaDanBiLi(other.getMaiChuDaDanBiLi());
+        }
+        if (other.hasMaiChuTeDaDanBiLi()) {
+          setMaiChuTeDaDanBiLi(other.getMaiChuTeDaDanBiLi());
+        }
+        if (other.hasDuanXianMaiRu()) {
+          setDuanXianMaiRu(other.getDuanXianMaiRu());
+        }
+        if (other.hasDuanXianMaiChu()) {
+          setDuanXianMaiChu(other.getDuanXianMaiChu());
+        }
+        if (other.hasDuanXianChiHuo()) {
+          setDuanXianChiHuo(other.getDuanXianChiHuo());
+        }
+        if (other.hasDuanXianTuHuo()) {
+          setDuanXianTuHuo(other.getDuanXianTuHuo());
+        }
+        if (other.hasDaDanLiuRuJinE()) {
+          setDaDanLiuRuJinE(other.getDaDanLiuRuJinE());
+        }
+        if (other.hasDaDanLiuChuJinE()) {
+          setDaDanLiuChuJinE(other.getDaDanLiuChuJinE());
+        }
+        this.mergeUnknownFields(other.getUnknownFields());
+        return this;
+      }
+
+      public final boolean isInitialized() {
+        return true;
+      }
+
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.dzhyun.proto.Dzhoutput.QuoteBOrder parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (com.dzhyun.proto.Dzhoutput.QuoteBOrder) e.getUnfinishedMessage();
+          throw e;
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+      private int bitField0_;
+
+      private long shiJian_ ;
+      /**
+       * <code>optional int64 ShiJian = 1;</code>
+       *
+       * <pre>
+       *时间
+       * </pre>
+       */
+      public boolean hasShiJian() {
+        return ((bitField0_ & 0x00000001) == 0x00000001);
+      }
+      /**
+       * <code>optional int64 ShiJian = 1;</code>
+       *
+       * <pre>
+       *时间
+       * </pre>
+       */
+      public long getShiJian() {
+        return shiJian_;
+      }
+      /**
+       * <code>optional int64 ShiJian = 1;</code>
+       *
+       * <pre>
+       *时间
+       * </pre>
+       */
+      public Builder setShiJian(long value) {
+        bitField0_ |= 0x00000001;
+        shiJian_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 ShiJian = 1;</code>
+       *
+       * <pre>
+       *时间
+       * </pre>
+       */
+      public Builder clearShiJian() {
+        bitField0_ = (bitField0_ & ~0x00000001);
+        shiJian_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiTuoMaiRu_ ;
+      /**
+       * <code>optional int64 WeiTuoMaiRu = 2;</code>
+       *
+       * <pre>
+       * 委托单买入数量
+       * </pre>
+       */
+      public boolean hasWeiTuoMaiRu() {
+        return ((bitField0_ & 0x00000002) == 0x00000002);
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRu = 2;</code>
+       *
+       * <pre>
+       * 委托单买入数量
+       * </pre>
+       */
+      public long getWeiTuoMaiRu() {
+        return weiTuoMaiRu_;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRu = 2;</code>
+       *
+       * <pre>
+       * 委托单买入数量
+       * </pre>
+       */
+      public Builder setWeiTuoMaiRu(long value) {
+        bitField0_ |= 0x00000002;
+        weiTuoMaiRu_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRu = 2;</code>
+       *
+       * <pre>
+       * 委托单买入数量
+       * </pre>
+       */
+      public Builder clearWeiTuoMaiRu() {
+        bitField0_ = (bitField0_ & ~0x00000002);
+        weiTuoMaiRu_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiTuoMaiChu_ ;
+      /**
+       * <code>optional int64 WeiTuoMaiChu = 3;</code>
+       *
+       * <pre>
+       * 委托单卖出数量
+       * </pre>
+       */
+      public boolean hasWeiTuoMaiChu() {
+        return ((bitField0_ & 0x00000004) == 0x00000004);
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChu = 3;</code>
+       *
+       * <pre>
+       * 委托单卖出数量
+       * </pre>
+       */
+      public long getWeiTuoMaiChu() {
+        return weiTuoMaiChu_;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChu = 3;</code>
+       *
+       * <pre>
+       * 委托单卖出数量
+       * </pre>
+       */
+      public Builder setWeiTuoMaiChu(long value) {
+        bitField0_ |= 0x00000004;
+        weiTuoMaiChu_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChu = 3;</code>
+       *
+       * <pre>
+       * 委托单卖出数量
+       * </pre>
+       */
+      public Builder clearWeiTuoMaiChu() {
+        bitField0_ = (bitField0_ & ~0x00000004);
+        weiTuoMaiChu_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long maiRuZhongDanBiLi_ ;
+      /**
+       * <code>optional int64 MaiRuZhongDanBiLi = 4;</code>
+       *
+       * <pre>
+       * 买入中单比例，1/1000
+       * </pre>
+       */
+      public boolean hasMaiRuZhongDanBiLi() {
+        return ((bitField0_ & 0x00000008) == 0x00000008);
+      }
+      /**
+       * <code>optional int64 MaiRuZhongDanBiLi = 4;</code>
+       *
+       * <pre>
+       * 买入中单比例，1/1000
+       * </pre>
+       */
+      public long getMaiRuZhongDanBiLi() {
+        return maiRuZhongDanBiLi_;
+      }
+      /**
+       * <code>optional int64 MaiRuZhongDanBiLi = 4;</code>
+       *
+       * <pre>
+       * 买入中单比例，1/1000
+       * </pre>
+       */
+      public Builder setMaiRuZhongDanBiLi(long value) {
+        bitField0_ |= 0x00000008;
+        maiRuZhongDanBiLi_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 MaiRuZhongDanBiLi = 4;</code>
+       *
+       * <pre>
+       * 买入中单比例，1/1000
+       * </pre>
+       */
+      public Builder clearMaiRuZhongDanBiLi() {
+        bitField0_ = (bitField0_ & ~0x00000008);
+        maiRuZhongDanBiLi_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long maiRuDaDanBiLi_ ;
+      /**
+       * <code>optional int64 MaiRuDaDanBiLi = 5;</code>
+       *
+       * <pre>
+       * 买入大单比例，1/1000
+       * </pre>
+       */
+      public boolean hasMaiRuDaDanBiLi() {
+        return ((bitField0_ & 0x00000010) == 0x00000010);
+      }
+      /**
+       * <code>optional int64 MaiRuDaDanBiLi = 5;</code>
+       *
+       * <pre>
+       * 买入大单比例，1/1000
+       * </pre>
+       */
+      public long getMaiRuDaDanBiLi() {
+        return maiRuDaDanBiLi_;
+      }
+      /**
+       * <code>optional int64 MaiRuDaDanBiLi = 5;</code>
+       *
+       * <pre>
+       * 买入大单比例，1/1000
+       * </pre>
+       */
+      public Builder setMaiRuDaDanBiLi(long value) {
+        bitField0_ |= 0x00000010;
+        maiRuDaDanBiLi_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 MaiRuDaDanBiLi = 5;</code>
+       *
+       * <pre>
+       * 买入大单比例，1/1000
+       * </pre>
+       */
+      public Builder clearMaiRuDaDanBiLi() {
+        bitField0_ = (bitField0_ & ~0x00000010);
+        maiRuDaDanBiLi_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long maiRuTeDaDanBiLi_ ;
+      /**
+       * <code>optional int64 MaiRuTeDaDanBiLi = 6;</code>
+       *
+       * <pre>
+       * 买入特大单比例，1/1000
+       * </pre>
+       */
+      public boolean hasMaiRuTeDaDanBiLi() {
+        return ((bitField0_ & 0x00000020) == 0x00000020);
+      }
+      /**
+       * <code>optional int64 MaiRuTeDaDanBiLi = 6;</code>
+       *
+       * <pre>
+       * 买入特大单比例，1/1000
+       * </pre>
+       */
+      public long getMaiRuTeDaDanBiLi() {
+        return maiRuTeDaDanBiLi_;
+      }
+      /**
+       * <code>optional int64 MaiRuTeDaDanBiLi = 6;</code>
+       *
+       * <pre>
+       * 买入特大单比例，1/1000
+       * </pre>
+       */
+      public Builder setMaiRuTeDaDanBiLi(long value) {
+        bitField0_ |= 0x00000020;
+        maiRuTeDaDanBiLi_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 MaiRuTeDaDanBiLi = 6;</code>
+       *
+       * <pre>
+       * 买入特大单比例，1/1000
+       * </pre>
+       */
+      public Builder clearMaiRuTeDaDanBiLi() {
+        bitField0_ = (bitField0_ & ~0x00000020);
+        maiRuTeDaDanBiLi_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long maiChuZhongDanBiLi_ ;
+      /**
+       * <code>optional int64 MaiChuZhongDanBiLi = 7;</code>
+       *
+       * <pre>
+       * 卖出中单比例，1/1000
+       * </pre>
+       */
+      public boolean hasMaiChuZhongDanBiLi() {
+        return ((bitField0_ & 0x00000040) == 0x00000040);
+      }
+      /**
+       * <code>optional int64 MaiChuZhongDanBiLi = 7;</code>
+       *
+       * <pre>
+       * 卖出中单比例，1/1000
+       * </pre>
+       */
+      public long getMaiChuZhongDanBiLi() {
+        return maiChuZhongDanBiLi_;
+      }
+      /**
+       * <code>optional int64 MaiChuZhongDanBiLi = 7;</code>
+       *
+       * <pre>
+       * 卖出中单比例，1/1000
+       * </pre>
+       */
+      public Builder setMaiChuZhongDanBiLi(long value) {
+        bitField0_ |= 0x00000040;
+        maiChuZhongDanBiLi_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 MaiChuZhongDanBiLi = 7;</code>
+       *
+       * <pre>
+       * 卖出中单比例，1/1000
+       * </pre>
+       */
+      public Builder clearMaiChuZhongDanBiLi() {
+        bitField0_ = (bitField0_ & ~0x00000040);
+        maiChuZhongDanBiLi_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long maiChuDaDanBiLi_ ;
+      /**
+       * <code>optional int64 MaiChuDaDanBiLi = 8;</code>
+       *
+       * <pre>
+       * 卖出大单比例，1/1000
+       * </pre>
+       */
+      public boolean hasMaiChuDaDanBiLi() {
+        return ((bitField0_ & 0x00000080) == 0x00000080);
+      }
+      /**
+       * <code>optional int64 MaiChuDaDanBiLi = 8;</code>
+       *
+       * <pre>
+       * 卖出大单比例，1/1000
+       * </pre>
+       */
+      public long getMaiChuDaDanBiLi() {
+        return maiChuDaDanBiLi_;
+      }
+      /**
+       * <code>optional int64 MaiChuDaDanBiLi = 8;</code>
+       *
+       * <pre>
+       * 卖出大单比例，1/1000
+       * </pre>
+       */
+      public Builder setMaiChuDaDanBiLi(long value) {
+        bitField0_ |= 0x00000080;
+        maiChuDaDanBiLi_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 MaiChuDaDanBiLi = 8;</code>
+       *
+       * <pre>
+       * 卖出大单比例，1/1000
+       * </pre>
+       */
+      public Builder clearMaiChuDaDanBiLi() {
+        bitField0_ = (bitField0_ & ~0x00000080);
+        maiChuDaDanBiLi_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long maiChuTeDaDanBiLi_ ;
+      /**
+       * <code>optional int64 MaiChuTeDaDanBiLi = 9;</code>
+       *
+       * <pre>
+       * 卖出特大单比例，1/1000
+       * </pre>
+       */
+      public boolean hasMaiChuTeDaDanBiLi() {
+        return ((bitField0_ & 0x00000100) == 0x00000100);
+      }
+      /**
+       * <code>optional int64 MaiChuTeDaDanBiLi = 9;</code>
+       *
+       * <pre>
+       * 卖出特大单比例，1/1000
+       * </pre>
+       */
+      public long getMaiChuTeDaDanBiLi() {
+        return maiChuTeDaDanBiLi_;
+      }
+      /**
+       * <code>optional int64 MaiChuTeDaDanBiLi = 9;</code>
+       *
+       * <pre>
+       * 卖出特大单比例，1/1000
+       * </pre>
+       */
+      public Builder setMaiChuTeDaDanBiLi(long value) {
+        bitField0_ |= 0x00000100;
+        maiChuTeDaDanBiLi_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 MaiChuTeDaDanBiLi = 9;</code>
+       *
+       * <pre>
+       * 卖出特大单比例，1/1000
+       * </pre>
+       */
+      public Builder clearMaiChuTeDaDanBiLi() {
+        bitField0_ = (bitField0_ & ~0x00000100);
+        maiChuTeDaDanBiLi_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long duanXianMaiRu_ ;
+      /**
+       * <code>optional int64 DuanXianMaiRu = 10;</code>
+       *
+       * <pre>
+       * 短线精灵买入大单统计
+       * </pre>
+       */
+      public boolean hasDuanXianMaiRu() {
+        return ((bitField0_ & 0x00000200) == 0x00000200);
+      }
+      /**
+       * <code>optional int64 DuanXianMaiRu = 10;</code>
+       *
+       * <pre>
+       * 短线精灵买入大单统计
+       * </pre>
+       */
+      public long getDuanXianMaiRu() {
+        return duanXianMaiRu_;
+      }
+      /**
+       * <code>optional int64 DuanXianMaiRu = 10;</code>
+       *
+       * <pre>
+       * 短线精灵买入大单统计
+       * </pre>
+       */
+      public Builder setDuanXianMaiRu(long value) {
+        bitField0_ |= 0x00000200;
+        duanXianMaiRu_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 DuanXianMaiRu = 10;</code>
+       *
+       * <pre>
+       * 短线精灵买入大单统计
+       * </pre>
+       */
+      public Builder clearDuanXianMaiRu() {
+        bitField0_ = (bitField0_ & ~0x00000200);
+        duanXianMaiRu_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long duanXianMaiChu_ ;
+      /**
+       * <code>optional int64 DuanXianMaiChu = 11;</code>
+       *
+       * <pre>
+       * 短线精灵卖出大单统计
+       * </pre>
+       */
+      public boolean hasDuanXianMaiChu() {
+        return ((bitField0_ & 0x00000400) == 0x00000400);
+      }
+      /**
+       * <code>optional int64 DuanXianMaiChu = 11;</code>
+       *
+       * <pre>
+       * 短线精灵卖出大单统计
+       * </pre>
+       */
+      public long getDuanXianMaiChu() {
+        return duanXianMaiChu_;
+      }
+      /**
+       * <code>optional int64 DuanXianMaiChu = 11;</code>
+       *
+       * <pre>
+       * 短线精灵卖出大单统计
+       * </pre>
+       */
+      public Builder setDuanXianMaiChu(long value) {
+        bitField0_ |= 0x00000400;
+        duanXianMaiChu_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 DuanXianMaiChu = 11;</code>
+       *
+       * <pre>
+       * 短线精灵卖出大单统计
+       * </pre>
+       */
+      public Builder clearDuanXianMaiChu() {
+        bitField0_ = (bitField0_ & ~0x00000400);
+        duanXianMaiChu_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long duanXianChiHuo_ ;
+      /**
+       * <code>optional int64 DuanXianChiHuo = 12;</code>
+       *
+       * <pre>
+       * 短线精灵吃货大单统计
+       * </pre>
+       */
+      public boolean hasDuanXianChiHuo() {
+        return ((bitField0_ & 0x00000800) == 0x00000800);
+      }
+      /**
+       * <code>optional int64 DuanXianChiHuo = 12;</code>
+       *
+       * <pre>
+       * 短线精灵吃货大单统计
+       * </pre>
+       */
+      public long getDuanXianChiHuo() {
+        return duanXianChiHuo_;
+      }
+      /**
+       * <code>optional int64 DuanXianChiHuo = 12;</code>
+       *
+       * <pre>
+       * 短线精灵吃货大单统计
+       * </pre>
+       */
+      public Builder setDuanXianChiHuo(long value) {
+        bitField0_ |= 0x00000800;
+        duanXianChiHuo_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 DuanXianChiHuo = 12;</code>
+       *
+       * <pre>
+       * 短线精灵吃货大单统计
+       * </pre>
+       */
+      public Builder clearDuanXianChiHuo() {
+        bitField0_ = (bitField0_ & ~0x00000800);
+        duanXianChiHuo_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long duanXianTuHuo_ ;
+      /**
+       * <code>optional int64 DuanXianTuHuo = 13;</code>
+       *
+       * <pre>
+       * 短线精灵吐货大单统计
+       * </pre>
+       */
+      public boolean hasDuanXianTuHuo() {
+        return ((bitField0_ & 0x00001000) == 0x00001000);
+      }
+      /**
+       * <code>optional int64 DuanXianTuHuo = 13;</code>
+       *
+       * <pre>
+       * 短线精灵吐货大单统计
+       * </pre>
+       */
+      public long getDuanXianTuHuo() {
+        return duanXianTuHuo_;
+      }
+      /**
+       * <code>optional int64 DuanXianTuHuo = 13;</code>
+       *
+       * <pre>
+       * 短线精灵吐货大单统计
+       * </pre>
+       */
+      public Builder setDuanXianTuHuo(long value) {
+        bitField0_ |= 0x00001000;
+        duanXianTuHuo_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 DuanXianTuHuo = 13;</code>
+       *
+       * <pre>
+       * 短线精灵吐货大单统计
+       * </pre>
+       */
+      public Builder clearDuanXianTuHuo() {
+        bitField0_ = (bitField0_ & ~0x00001000);
+        duanXianTuHuo_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long daDanLiuRuJinE_ ;
+      /**
+       * <code>optional int64 DaDanLiuRuJinE = 14;</code>
+       *
+       * <pre>
+       * 大单流入金额
+       * </pre>
+       */
+      public boolean hasDaDanLiuRuJinE() {
+        return ((bitField0_ & 0x00002000) == 0x00002000);
+      }
+      /**
+       * <code>optional int64 DaDanLiuRuJinE = 14;</code>
+       *
+       * <pre>
+       * 大单流入金额
+       * </pre>
+       */
+      public long getDaDanLiuRuJinE() {
+        return daDanLiuRuJinE_;
+      }
+      /**
+       * <code>optional int64 DaDanLiuRuJinE = 14;</code>
+       *
+       * <pre>
+       * 大单流入金额
+       * </pre>
+       */
+      public Builder setDaDanLiuRuJinE(long value) {
+        bitField0_ |= 0x00002000;
+        daDanLiuRuJinE_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 DaDanLiuRuJinE = 14;</code>
+       *
+       * <pre>
+       * 大单流入金额
+       * </pre>
+       */
+      public Builder clearDaDanLiuRuJinE() {
+        bitField0_ = (bitField0_ & ~0x00002000);
+        daDanLiuRuJinE_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long daDanLiuChuJinE_ ;
+      /**
+       * <code>optional int64 DaDanLiuChuJinE = 15;</code>
+       *
+       * <pre>
+       * 大单流出金额
+       * </pre>
+       */
+      public boolean hasDaDanLiuChuJinE() {
+        return ((bitField0_ & 0x00004000) == 0x00004000);
+      }
+      /**
+       * <code>optional int64 DaDanLiuChuJinE = 15;</code>
+       *
+       * <pre>
+       * 大单流出金额
+       * </pre>
+       */
+      public long getDaDanLiuChuJinE() {
+        return daDanLiuChuJinE_;
+      }
+      /**
+       * <code>optional int64 DaDanLiuChuJinE = 15;</code>
+       *
+       * <pre>
+       * 大单流出金额
+       * </pre>
+       */
+      public Builder setDaDanLiuChuJinE(long value) {
+        bitField0_ |= 0x00004000;
+        daDanLiuChuJinE_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 DaDanLiuChuJinE = 15;</code>
+       *
+       * <pre>
+       * 大单流出金额
+       * </pre>
+       */
+      public Builder clearDaDanLiuChuJinE() {
+        bitField0_ = (bitField0_ & ~0x00004000);
+        daDanLiuChuJinE_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      // @@protoc_insertion_point(builder_scope:dzhyun.QuoteBOrder)
+    }
+
+    static {
+      defaultInstance = new QuoteBOrder(true);
+      defaultInstance.initFields();
+    }
+
+    // @@protoc_insertion_point(class_scope:dzhyun.QuoteBOrder)
+  }
+
+  public interface QuoteBOrderSingleOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:dzhyun.QuoteBOrderSingle)
+      com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>required string Obj = 1;</code>
+     */
+    boolean hasObj();
+    /**
+     * <code>required string Obj = 1;</code>
+     */
+    java.lang.String getObj();
+    /**
+     * <code>required string Obj = 1;</code>
+     */
+    com.google.protobuf.ByteString
+        getObjBytes();
+
+    /**
+     * <code>repeated .dzhyun.QuoteBOrder Data = 2;</code>
+     */
+    java.util.List<com.dzhyun.proto.Dzhoutput.QuoteBOrder> 
+        getDataList();
+    /**
+     * <code>repeated .dzhyun.QuoteBOrder Data = 2;</code>
+     */
+    com.dzhyun.proto.Dzhoutput.QuoteBOrder getData(int index);
+    /**
+     * <code>repeated .dzhyun.QuoteBOrder Data = 2;</code>
+     */
+    int getDataCount();
+    /**
+     * <code>repeated .dzhyun.QuoteBOrder Data = 2;</code>
+     */
+    java.util.List<? extends com.dzhyun.proto.Dzhoutput.QuoteBOrderOrBuilder> 
+        getDataOrBuilderList();
+    /**
+     * <code>repeated .dzhyun.QuoteBOrder Data = 2;</code>
+     */
+    com.dzhyun.proto.Dzhoutput.QuoteBOrderOrBuilder getDataOrBuilder(
+        int index);
+  }
+  /**
+   * Protobuf type {@code dzhyun.QuoteBOrderSingle}
+   */
+  public static final class QuoteBOrderSingle extends
+      com.google.protobuf.GeneratedMessage implements
+      // @@protoc_insertion_point(message_implements:dzhyun.QuoteBOrderSingle)
+      QuoteBOrderSingleOrBuilder {
+    // Use QuoteBOrderSingle.newBuilder() to construct.
+    private QuoteBOrderSingle(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      super(builder);
+      this.unknownFields = builder.getUnknownFields();
+    }
+    private QuoteBOrderSingle(boolean noInit) { this.unknownFields = com.google.protobuf.UnknownFieldSet.getDefaultInstance(); }
+
+    private static final QuoteBOrderSingle defaultInstance;
+    public static QuoteBOrderSingle getDefaultInstance() {
+      return defaultInstance;
+    }
+
+    public QuoteBOrderSingle getDefaultInstanceForType() {
+      return defaultInstance;
+    }
+
+    private final com.google.protobuf.UnknownFieldSet unknownFields;
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+        getUnknownFields() {
+      return this.unknownFields;
+    }
+    private QuoteBOrderSingle(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      initFields();
+      int mutable_bitField0_ = 0;
+      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+          com.google.protobuf.UnknownFieldSet.newBuilder();
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!parseUnknownField(input, unknownFields,
+                                     extensionRegistry, tag)) {
+                done = true;
+              }
+              break;
+            }
+            case 10: {
+              com.google.protobuf.ByteString bs = input.readBytes();
+              bitField0_ |= 0x00000001;
+              obj_ = bs;
+              break;
+            }
+            case 18: {
+              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+                data_ = new java.util.ArrayList<com.dzhyun.proto.Dzhoutput.QuoteBOrder>();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              data_.add(input.readMessage(com.dzhyun.proto.Dzhoutput.QuoteBOrder.PARSER, extensionRegistry));
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e.getMessage()).setUnfinishedMessage(this);
+      } finally {
+        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+          data_ = java.util.Collections.unmodifiableList(data_);
+        }
+        this.unknownFields = unknownFields.build();
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return com.dzhyun.proto.Dzhoutput.internal_static_dzhyun_QuoteBOrderSingle_descriptor;
+    }
+
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return com.dzhyun.proto.Dzhoutput.internal_static_dzhyun_QuoteBOrderSingle_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.class, com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.Builder.class);
+    }
+
+    public static com.google.protobuf.Parser<QuoteBOrderSingle> PARSER =
+        new com.google.protobuf.AbstractParser<QuoteBOrderSingle>() {
+      public QuoteBOrderSingle parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return new QuoteBOrderSingle(input, extensionRegistry);
+      }
+    };
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<QuoteBOrderSingle> getParserForType() {
+      return PARSER;
+    }
+
+    private int bitField0_;
+    public static final int OBJ_FIELD_NUMBER = 1;
+    private java.lang.Object obj_;
+    /**
+     * <code>required string Obj = 1;</code>
+     */
+    public boolean hasObj() {
+      return ((bitField0_ & 0x00000001) == 0x00000001);
+    }
+    /**
+     * <code>required string Obj = 1;</code>
+     */
+    public java.lang.String getObj() {
+      java.lang.Object ref = obj_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          obj_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>required string Obj = 1;</code>
+     */
+    public com.google.protobuf.ByteString
+        getObjBytes() {
+      java.lang.Object ref = obj_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        obj_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    public static final int DATA_FIELD_NUMBER = 2;
+    private java.util.List<com.dzhyun.proto.Dzhoutput.QuoteBOrder> data_;
+    /**
+     * <code>repeated .dzhyun.QuoteBOrder Data = 2;</code>
+     */
+    public java.util.List<com.dzhyun.proto.Dzhoutput.QuoteBOrder> getDataList() {
+      return data_;
+    }
+    /**
+     * <code>repeated .dzhyun.QuoteBOrder Data = 2;</code>
+     */
+    public java.util.List<? extends com.dzhyun.proto.Dzhoutput.QuoteBOrderOrBuilder> 
+        getDataOrBuilderList() {
+      return data_;
+    }
+    /**
+     * <code>repeated .dzhyun.QuoteBOrder Data = 2;</code>
+     */
+    public int getDataCount() {
+      return data_.size();
+    }
+    /**
+     * <code>repeated .dzhyun.QuoteBOrder Data = 2;</code>
+     */
+    public com.dzhyun.proto.Dzhoutput.QuoteBOrder getData(int index) {
+      return data_.get(index);
+    }
+    /**
+     * <code>repeated .dzhyun.QuoteBOrder Data = 2;</code>
+     */
+    public com.dzhyun.proto.Dzhoutput.QuoteBOrderOrBuilder getDataOrBuilder(
+        int index) {
+      return data_.get(index);
+    }
+
+    private void initFields() {
+      obj_ = "";
+      data_ = java.util.Collections.emptyList();
+    }
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      if (!hasObj()) {
+        memoizedIsInitialized = 0;
+        return false;
+      }
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      getSerializedSize();
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        output.writeBytes(1, getObjBytes());
+      }
+      for (int i = 0; i < data_.size(); i++) {
+        output.writeMessage(2, data_.get(i));
+      }
+      getUnknownFields().writeTo(output);
+    }
+
+    private int memoizedSerializedSize = -1;
+    public int getSerializedSize() {
+      int size = memoizedSerializedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(1, getObjBytes());
+      }
+      for (int i = 0; i < data_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(2, data_.get(i));
+      }
+      size += getUnknownFields().getSerializedSize();
+      memoizedSerializedSize = size;
+      return size;
+    }
+
+    private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    protected java.lang.Object writeReplace()
+        throws java.io.ObjectStreamException {
+      return super.writeReplace();
+    }
+
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input);
+    }
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+    }
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+
+    public static Builder newBuilder() { return Builder.create(); }
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder(com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle prototype) {
+      return newBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() { return newBuilder(this); }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code dzhyun.QuoteBOrderSingle}
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:dzhyun.QuoteBOrderSingle)
+        com.dzhyun.proto.Dzhoutput.QuoteBOrderSingleOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return com.dzhyun.proto.Dzhoutput.internal_static_dzhyun_QuoteBOrderSingle_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return com.dzhyun.proto.Dzhoutput.internal_static_dzhyun_QuoteBOrderSingle_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.class, com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.Builder.class);
+      }
+
+      // Construct using com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          getDataFieldBuilder();
+        }
+      }
+      private static Builder create() {
+        return new Builder();
+      }
+
+      public Builder clear() {
+        super.clear();
+        obj_ = "";
+        bitField0_ = (bitField0_ & ~0x00000001);
+        if (dataBuilder_ == null) {
+          data_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000002);
+        } else {
+          dataBuilder_.clear();
+        }
+        return this;
+      }
+
+      public Builder clone() {
+        return create().mergeFrom(buildPartial());
+      }
+
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return com.dzhyun.proto.Dzhoutput.internal_static_dzhyun_QuoteBOrderSingle_descriptor;
+      }
+
+      public com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle getDefaultInstanceForType() {
+        return com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.getDefaultInstance();
+      }
+
+      public com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle build() {
+        com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      public com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle buildPartial() {
+        com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle result = new com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle(this);
+        int from_bitField0_ = bitField0_;
+        int to_bitField0_ = 0;
+        if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
+          to_bitField0_ |= 0x00000001;
+        }
+        result.obj_ = obj_;
+        if (dataBuilder_ == null) {
+          if (((bitField0_ & 0x00000002) == 0x00000002)) {
+            data_ = java.util.Collections.unmodifiableList(data_);
+            bitField0_ = (bitField0_ & ~0x00000002);
+          }
+          result.data_ = data_;
+        } else {
+          result.data_ = dataBuilder_.build();
+        }
+        result.bitField0_ = to_bitField0_;
+        onBuilt();
+        return result;
+      }
+
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle) {
+          return mergeFrom((com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle other) {
+        if (other == com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.getDefaultInstance()) return this;
+        if (other.hasObj()) {
+          bitField0_ |= 0x00000001;
+          obj_ = other.obj_;
+          onChanged();
+        }
+        if (dataBuilder_ == null) {
+          if (!other.data_.isEmpty()) {
+            if (data_.isEmpty()) {
+              data_ = other.data_;
+              bitField0_ = (bitField0_ & ~0x00000002);
+            } else {
+              ensureDataIsMutable();
+              data_.addAll(other.data_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.data_.isEmpty()) {
+            if (dataBuilder_.isEmpty()) {
+              dataBuilder_.dispose();
+              dataBuilder_ = null;
+              data_ = other.data_;
+              bitField0_ = (bitField0_ & ~0x00000002);
+              dataBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getDataFieldBuilder() : null;
+            } else {
+              dataBuilder_.addAllMessages(other.data_);
+            }
+          }
+        }
+        this.mergeUnknownFields(other.getUnknownFields());
+        return this;
+      }
+
+      public final boolean isInitialized() {
+        if (!hasObj()) {
+          
+          return false;
+        }
+        return true;
+      }
+
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle) e.getUnfinishedMessage();
+          throw e;
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+      private int bitField0_;
+
+      private java.lang.Object obj_ = "";
+      /**
+       * <code>required string Obj = 1;</code>
+       */
+      public boolean hasObj() {
+        return ((bitField0_ & 0x00000001) == 0x00000001);
+      }
+      /**
+       * <code>required string Obj = 1;</code>
+       */
+      public java.lang.String getObj() {
+        java.lang.Object ref = obj_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          if (bs.isValidUtf8()) {
+            obj_ = s;
+          }
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>required string Obj = 1;</code>
+       */
+      public com.google.protobuf.ByteString
+          getObjBytes() {
+        java.lang.Object ref = obj_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          obj_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>required string Obj = 1;</code>
+       */
+      public Builder setObj(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000001;
+        obj_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string Obj = 1;</code>
+       */
+      public Builder clearObj() {
+        bitField0_ = (bitField0_ & ~0x00000001);
+        obj_ = getDefaultInstance().getObj();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string Obj = 1;</code>
+       */
+      public Builder setObjBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000001;
+        obj_ = value;
+        onChanged();
+        return this;
+      }
+
+      private java.util.List<com.dzhyun.proto.Dzhoutput.QuoteBOrder> data_ =
+        java.util.Collections.emptyList();
+      private void ensureDataIsMutable() {
+        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
+          data_ = new java.util.ArrayList<com.dzhyun.proto.Dzhoutput.QuoteBOrder>(data_);
+          bitField0_ |= 0x00000002;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.Dzhoutput.QuoteBOrder, com.dzhyun.proto.Dzhoutput.QuoteBOrder.Builder, com.dzhyun.proto.Dzhoutput.QuoteBOrderOrBuilder> dataBuilder_;
+
+      /**
+       * <code>repeated .dzhyun.QuoteBOrder Data = 2;</code>
+       */
+      public java.util.List<com.dzhyun.proto.Dzhoutput.QuoteBOrder> getDataList() {
+        if (dataBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(data_);
+        } else {
+          return dataBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrder Data = 2;</code>
+       */
+      public int getDataCount() {
+        if (dataBuilder_ == null) {
+          return data_.size();
+        } else {
+          return dataBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrder Data = 2;</code>
+       */
+      public com.dzhyun.proto.Dzhoutput.QuoteBOrder getData(int index) {
+        if (dataBuilder_ == null) {
+          return data_.get(index);
+        } else {
+          return dataBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrder Data = 2;</code>
+       */
+      public Builder setData(
+          int index, com.dzhyun.proto.Dzhoutput.QuoteBOrder value) {
+        if (dataBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureDataIsMutable();
+          data_.set(index, value);
+          onChanged();
+        } else {
+          dataBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrder Data = 2;</code>
+       */
+      public Builder setData(
+          int index, com.dzhyun.proto.Dzhoutput.QuoteBOrder.Builder builderForValue) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          data_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          dataBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrder Data = 2;</code>
+       */
+      public Builder addData(com.dzhyun.proto.Dzhoutput.QuoteBOrder value) {
+        if (dataBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureDataIsMutable();
+          data_.add(value);
+          onChanged();
+        } else {
+          dataBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrder Data = 2;</code>
+       */
+      public Builder addData(
+          int index, com.dzhyun.proto.Dzhoutput.QuoteBOrder value) {
+        if (dataBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureDataIsMutable();
+          data_.add(index, value);
+          onChanged();
+        } else {
+          dataBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrder Data = 2;</code>
+       */
+      public Builder addData(
+          com.dzhyun.proto.Dzhoutput.QuoteBOrder.Builder builderForValue) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          data_.add(builderForValue.build());
+          onChanged();
+        } else {
+          dataBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrder Data = 2;</code>
+       */
+      public Builder addData(
+          int index, com.dzhyun.proto.Dzhoutput.QuoteBOrder.Builder builderForValue) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          data_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          dataBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrder Data = 2;</code>
+       */
+      public Builder addAllData(
+          java.lang.Iterable<? extends com.dzhyun.proto.Dzhoutput.QuoteBOrder> values) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, data_);
+          onChanged();
+        } else {
+          dataBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrder Data = 2;</code>
+       */
+      public Builder clearData() {
+        if (dataBuilder_ == null) {
+          data_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000002);
+          onChanged();
+        } else {
+          dataBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrder Data = 2;</code>
+       */
+      public Builder removeData(int index) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          data_.remove(index);
+          onChanged();
+        } else {
+          dataBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrder Data = 2;</code>
+       */
+      public com.dzhyun.proto.Dzhoutput.QuoteBOrder.Builder getDataBuilder(
+          int index) {
+        return getDataFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrder Data = 2;</code>
+       */
+      public com.dzhyun.proto.Dzhoutput.QuoteBOrderOrBuilder getDataOrBuilder(
+          int index) {
+        if (dataBuilder_ == null) {
+          return data_.get(index);  } else {
+          return dataBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrder Data = 2;</code>
+       */
+      public java.util.List<? extends com.dzhyun.proto.Dzhoutput.QuoteBOrderOrBuilder> 
+           getDataOrBuilderList() {
+        if (dataBuilder_ != null) {
+          return dataBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(data_);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrder Data = 2;</code>
+       */
+      public com.dzhyun.proto.Dzhoutput.QuoteBOrder.Builder addDataBuilder() {
+        return getDataFieldBuilder().addBuilder(
+            com.dzhyun.proto.Dzhoutput.QuoteBOrder.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrder Data = 2;</code>
+       */
+      public com.dzhyun.proto.Dzhoutput.QuoteBOrder.Builder addDataBuilder(
+          int index) {
+        return getDataFieldBuilder().addBuilder(
+            index, com.dzhyun.proto.Dzhoutput.QuoteBOrder.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrder Data = 2;</code>
+       */
+      public java.util.List<com.dzhyun.proto.Dzhoutput.QuoteBOrder.Builder> 
+           getDataBuilderList() {
+        return getDataFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.Dzhoutput.QuoteBOrder, com.dzhyun.proto.Dzhoutput.QuoteBOrder.Builder, com.dzhyun.proto.Dzhoutput.QuoteBOrderOrBuilder> 
+          getDataFieldBuilder() {
+        if (dataBuilder_ == null) {
+          dataBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              com.dzhyun.proto.Dzhoutput.QuoteBOrder, com.dzhyun.proto.Dzhoutput.QuoteBOrder.Builder, com.dzhyun.proto.Dzhoutput.QuoteBOrderOrBuilder>(
+                  data_,
+                  ((bitField0_ & 0x00000002) == 0x00000002),
+                  getParentForChildren(),
+                  isClean());
+          data_ = null;
+        }
+        return dataBuilder_;
+      }
+
+      // @@protoc_insertion_point(builder_scope:dzhyun.QuoteBOrderSingle)
+    }
+
+    static {
+      defaultInstance = new QuoteBOrderSingle(true);
+      defaultInstance.initFields();
+    }
+
+    // @@protoc_insertion_point(class_scope:dzhyun.QuoteBOrderSingle)
+  }
+
+  public interface QuoteBOrderOutputOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:dzhyun.QuoteBOrderOutput)
+      com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>repeated .dzhyun.QuoteBOrderSingle Results = 1;</code>
+     */
+    java.util.List<com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle> 
+        getResultsList();
+    /**
+     * <code>repeated .dzhyun.QuoteBOrderSingle Results = 1;</code>
+     */
+    com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle getResults(int index);
+    /**
+     * <code>repeated .dzhyun.QuoteBOrderSingle Results = 1;</code>
+     */
+    int getResultsCount();
+    /**
+     * <code>repeated .dzhyun.QuoteBOrderSingle Results = 1;</code>
+     */
+    java.util.List<? extends com.dzhyun.proto.Dzhoutput.QuoteBOrderSingleOrBuilder> 
+        getResultsOrBuilderList();
+    /**
+     * <code>repeated .dzhyun.QuoteBOrderSingle Results = 1;</code>
+     */
+    com.dzhyun.proto.Dzhoutput.QuoteBOrderSingleOrBuilder getResultsOrBuilder(
+        int index);
+  }
+  /**
+   * Protobuf type {@code dzhyun.QuoteBOrderOutput}
+   */
+  public static final class QuoteBOrderOutput extends
+      com.google.protobuf.GeneratedMessage implements
+      // @@protoc_insertion_point(message_implements:dzhyun.QuoteBOrderOutput)
+      QuoteBOrderOutputOrBuilder {
+    // Use QuoteBOrderOutput.newBuilder() to construct.
+    private QuoteBOrderOutput(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      super(builder);
+      this.unknownFields = builder.getUnknownFields();
+    }
+    private QuoteBOrderOutput(boolean noInit) { this.unknownFields = com.google.protobuf.UnknownFieldSet.getDefaultInstance(); }
+
+    private static final QuoteBOrderOutput defaultInstance;
+    public static QuoteBOrderOutput getDefaultInstance() {
+      return defaultInstance;
+    }
+
+    public QuoteBOrderOutput getDefaultInstanceForType() {
+      return defaultInstance;
+    }
+
+    private final com.google.protobuf.UnknownFieldSet unknownFields;
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+        getUnknownFields() {
+      return this.unknownFields;
+    }
+    private QuoteBOrderOutput(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      initFields();
+      int mutable_bitField0_ = 0;
+      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+          com.google.protobuf.UnknownFieldSet.newBuilder();
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!parseUnknownField(input, unknownFields,
+                                     extensionRegistry, tag)) {
+                done = true;
+              }
+              break;
+            }
+            case 10: {
+              if (!((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
+                results_ = new java.util.ArrayList<com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              results_.add(input.readMessage(com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.PARSER, extensionRegistry));
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e.getMessage()).setUnfinishedMessage(this);
+      } finally {
+        if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
+          results_ = java.util.Collections.unmodifiableList(results_);
+        }
+        this.unknownFields = unknownFields.build();
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return com.dzhyun.proto.Dzhoutput.internal_static_dzhyun_QuoteBOrderOutput_descriptor;
+    }
+
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return com.dzhyun.proto.Dzhoutput.internal_static_dzhyun_QuoteBOrderOutput_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput.class, com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput.Builder.class);
+    }
+
+    public static com.google.protobuf.Parser<QuoteBOrderOutput> PARSER =
+        new com.google.protobuf.AbstractParser<QuoteBOrderOutput>() {
+      public QuoteBOrderOutput parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return new QuoteBOrderOutput(input, extensionRegistry);
+      }
+    };
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<QuoteBOrderOutput> getParserForType() {
+      return PARSER;
+    }
+
+    public static final int RESULTS_FIELD_NUMBER = 1;
+    private java.util.List<com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle> results_;
+    /**
+     * <code>repeated .dzhyun.QuoteBOrderSingle Results = 1;</code>
+     */
+    public java.util.List<com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle> getResultsList() {
+      return results_;
+    }
+    /**
+     * <code>repeated .dzhyun.QuoteBOrderSingle Results = 1;</code>
+     */
+    public java.util.List<? extends com.dzhyun.proto.Dzhoutput.QuoteBOrderSingleOrBuilder> 
+        getResultsOrBuilderList() {
+      return results_;
+    }
+    /**
+     * <code>repeated .dzhyun.QuoteBOrderSingle Results = 1;</code>
+     */
+    public int getResultsCount() {
+      return results_.size();
+    }
+    /**
+     * <code>repeated .dzhyun.QuoteBOrderSingle Results = 1;</code>
+     */
+    public com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle getResults(int index) {
+      return results_.get(index);
+    }
+    /**
+     * <code>repeated .dzhyun.QuoteBOrderSingle Results = 1;</code>
+     */
+    public com.dzhyun.proto.Dzhoutput.QuoteBOrderSingleOrBuilder getResultsOrBuilder(
+        int index) {
+      return results_.get(index);
+    }
+
+    private void initFields() {
+      results_ = java.util.Collections.emptyList();
+    }
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      for (int i = 0; i < getResultsCount(); i++) {
+        if (!getResults(i).isInitialized()) {
+          memoizedIsInitialized = 0;
+          return false;
+        }
+      }
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      getSerializedSize();
+      for (int i = 0; i < results_.size(); i++) {
+        output.writeMessage(1, results_.get(i));
+      }
+      getUnknownFields().writeTo(output);
+    }
+
+    private int memoizedSerializedSize = -1;
+    public int getSerializedSize() {
+      int size = memoizedSerializedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      for (int i = 0; i < results_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(1, results_.get(i));
+      }
+      size += getUnknownFields().getSerializedSize();
+      memoizedSerializedSize = size;
+      return size;
+    }
+
+    private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    protected java.lang.Object writeReplace()
+        throws java.io.ObjectStreamException {
+      return super.writeReplace();
+    }
+
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input);
+    }
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+    }
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+
+    public static Builder newBuilder() { return Builder.create(); }
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder(com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput prototype) {
+      return newBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() { return newBuilder(this); }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code dzhyun.QuoteBOrderOutput}
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:dzhyun.QuoteBOrderOutput)
+        com.dzhyun.proto.Dzhoutput.QuoteBOrderOutputOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return com.dzhyun.proto.Dzhoutput.internal_static_dzhyun_QuoteBOrderOutput_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return com.dzhyun.proto.Dzhoutput.internal_static_dzhyun_QuoteBOrderOutput_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput.class, com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput.Builder.class);
+      }
+
+      // Construct using com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          getResultsFieldBuilder();
+        }
+      }
+      private static Builder create() {
+        return new Builder();
+      }
+
+      public Builder clear() {
+        super.clear();
+        if (resultsBuilder_ == null) {
+          results_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
+        } else {
+          resultsBuilder_.clear();
+        }
+        return this;
+      }
+
+      public Builder clone() {
+        return create().mergeFrom(buildPartial());
+      }
+
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return com.dzhyun.proto.Dzhoutput.internal_static_dzhyun_QuoteBOrderOutput_descriptor;
+      }
+
+      public com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput getDefaultInstanceForType() {
+        return com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput.getDefaultInstance();
+      }
+
+      public com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput build() {
+        com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      public com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput buildPartial() {
+        com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput result = new com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput(this);
+        int from_bitField0_ = bitField0_;
+        if (resultsBuilder_ == null) {
+          if (((bitField0_ & 0x00000001) == 0x00000001)) {
+            results_ = java.util.Collections.unmodifiableList(results_);
+            bitField0_ = (bitField0_ & ~0x00000001);
+          }
+          result.results_ = results_;
+        } else {
+          result.results_ = resultsBuilder_.build();
+        }
+        onBuilt();
+        return result;
+      }
+
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput) {
+          return mergeFrom((com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput other) {
+        if (other == com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput.getDefaultInstance()) return this;
+        if (resultsBuilder_ == null) {
+          if (!other.results_.isEmpty()) {
+            if (results_.isEmpty()) {
+              results_ = other.results_;
+              bitField0_ = (bitField0_ & ~0x00000001);
+            } else {
+              ensureResultsIsMutable();
+              results_.addAll(other.results_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.results_.isEmpty()) {
+            if (resultsBuilder_.isEmpty()) {
+              resultsBuilder_.dispose();
+              resultsBuilder_ = null;
+              results_ = other.results_;
+              bitField0_ = (bitField0_ & ~0x00000001);
+              resultsBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getResultsFieldBuilder() : null;
+            } else {
+              resultsBuilder_.addAllMessages(other.results_);
+            }
+          }
+        }
+        this.mergeUnknownFields(other.getUnknownFields());
+        return this;
+      }
+
+      public final boolean isInitialized() {
+        for (int i = 0; i < getResultsCount(); i++) {
+          if (!getResults(i).isInitialized()) {
+            
+            return false;
+          }
+        }
+        return true;
+      }
+
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (com.dzhyun.proto.Dzhoutput.QuoteBOrderOutput) e.getUnfinishedMessage();
+          throw e;
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+      private int bitField0_;
+
+      private java.util.List<com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle> results_ =
+        java.util.Collections.emptyList();
+      private void ensureResultsIsMutable() {
+        if (!((bitField0_ & 0x00000001) == 0x00000001)) {
+          results_ = new java.util.ArrayList<com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle>(results_);
+          bitField0_ |= 0x00000001;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle, com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.Builder, com.dzhyun.proto.Dzhoutput.QuoteBOrderSingleOrBuilder> resultsBuilder_;
+
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle Results = 1;</code>
+       */
+      public java.util.List<com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle> getResultsList() {
+        if (resultsBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(results_);
+        } else {
+          return resultsBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle Results = 1;</code>
+       */
+      public int getResultsCount() {
+        if (resultsBuilder_ == null) {
+          return results_.size();
+        } else {
+          return resultsBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle Results = 1;</code>
+       */
+      public com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle getResults(int index) {
+        if (resultsBuilder_ == null) {
+          return results_.get(index);
+        } else {
+          return resultsBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle Results = 1;</code>
+       */
+      public Builder setResults(
+          int index, com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle value) {
+        if (resultsBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureResultsIsMutable();
+          results_.set(index, value);
+          onChanged();
+        } else {
+          resultsBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle Results = 1;</code>
+       */
+      public Builder setResults(
+          int index, com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.Builder builderForValue) {
+        if (resultsBuilder_ == null) {
+          ensureResultsIsMutable();
+          results_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          resultsBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle Results = 1;</code>
+       */
+      public Builder addResults(com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle value) {
+        if (resultsBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureResultsIsMutable();
+          results_.add(value);
+          onChanged();
+        } else {
+          resultsBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle Results = 1;</code>
+       */
+      public Builder addResults(
+          int index, com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle value) {
+        if (resultsBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureResultsIsMutable();
+          results_.add(index, value);
+          onChanged();
+        } else {
+          resultsBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle Results = 1;</code>
+       */
+      public Builder addResults(
+          com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.Builder builderForValue) {
+        if (resultsBuilder_ == null) {
+          ensureResultsIsMutable();
+          results_.add(builderForValue.build());
+          onChanged();
+        } else {
+          resultsBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle Results = 1;</code>
+       */
+      public Builder addResults(
+          int index, com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.Builder builderForValue) {
+        if (resultsBuilder_ == null) {
+          ensureResultsIsMutable();
+          results_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          resultsBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle Results = 1;</code>
+       */
+      public Builder addAllResults(
+          java.lang.Iterable<? extends com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle> values) {
+        if (resultsBuilder_ == null) {
+          ensureResultsIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, results_);
+          onChanged();
+        } else {
+          resultsBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle Results = 1;</code>
+       */
+      public Builder clearResults() {
+        if (resultsBuilder_ == null) {
+          results_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
+          onChanged();
+        } else {
+          resultsBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle Results = 1;</code>
+       */
+      public Builder removeResults(int index) {
+        if (resultsBuilder_ == null) {
+          ensureResultsIsMutable();
+          results_.remove(index);
+          onChanged();
+        } else {
+          resultsBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle Results = 1;</code>
+       */
+      public com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.Builder getResultsBuilder(
+          int index) {
+        return getResultsFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle Results = 1;</code>
+       */
+      public com.dzhyun.proto.Dzhoutput.QuoteBOrderSingleOrBuilder getResultsOrBuilder(
+          int index) {
+        if (resultsBuilder_ == null) {
+          return results_.get(index);  } else {
+          return resultsBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle Results = 1;</code>
+       */
+      public java.util.List<? extends com.dzhyun.proto.Dzhoutput.QuoteBOrderSingleOrBuilder> 
+           getResultsOrBuilderList() {
+        if (resultsBuilder_ != null) {
+          return resultsBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(results_);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle Results = 1;</code>
+       */
+      public com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.Builder addResultsBuilder() {
+        return getResultsFieldBuilder().addBuilder(
+            com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle Results = 1;</code>
+       */
+      public com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.Builder addResultsBuilder(
+          int index) {
+        return getResultsFieldBuilder().addBuilder(
+            index, com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle Results = 1;</code>
+       */
+      public java.util.List<com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.Builder> 
+           getResultsBuilderList() {
+        return getResultsFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle, com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.Builder, com.dzhyun.proto.Dzhoutput.QuoteBOrderSingleOrBuilder> 
+          getResultsFieldBuilder() {
+        if (resultsBuilder_ == null) {
+          resultsBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle, com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.Builder, com.dzhyun.proto.Dzhoutput.QuoteBOrderSingleOrBuilder>(
+                  results_,
+                  ((bitField0_ & 0x00000001) == 0x00000001),
+                  getParentForChildren(),
+                  isClean());
+          results_ = null;
+        }
+        return resultsBuilder_;
+      }
+
+      // @@protoc_insertion_point(builder_scope:dzhyun.QuoteBOrderOutput)
+    }
+
+    static {
+      defaultInstance = new QuoteBOrderOutput(true);
+      defaultInstance.initFields();
+    }
+
+    // @@protoc_insertion_point(class_scope:dzhyun.QuoteBOrderOutput)
+  }
+
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dzhyun_QuoteDyna_descriptor;
   private static
@@ -10939,6 +14448,21 @@ public final class Dzhoutput {
   private static
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dzhyun_QuoteMinOutput_fieldAccessorTable;
+  private static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_dzhyun_QuoteBOrder_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_dzhyun_QuoteBOrder_fieldAccessorTable;
+  private static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_dzhyun_QuoteBOrderSingle_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_dzhyun_QuoteBOrderSingle_fieldAccessorTable;
+  private static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_dzhyun_QuoteBOrderOutput_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_dzhyun_QuoteBOrderOutput_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -10979,7 +14503,20 @@ public final class Dzhoutput {
       "(\002\";\n\016QuoteMinSingle\022\013\n\003Obj\030\001 \002(\t\022\034\n\004Dat" +
       "a\030\002 \003(\0132\016.dzhyun.FenShi\"9\n\016QuoteMinOutpu",
       "t\022\'\n\007Results\030\001 \003(\0132\026.dzhyun.QuoteMinSing" +
-      "leB\022\n\020com.dzhyun.proto"
+      "le\"\365\002\n\013QuoteBOrder\022\017\n\007ShiJian\030\001 \001(\003\022\023\n\013W" +
+      "eiTuoMaiRu\030\002 \001(\003\022\024\n\014WeiTuoMaiChu\030\003 \001(\003\022\031" +
+      "\n\021MaiRuZhongDanBiLi\030\004 \001(\003\022\026\n\016MaiRuDaDanB" +
+      "iLi\030\005 \001(\003\022\030\n\020MaiRuTeDaDanBiLi\030\006 \001(\003\022\032\n\022M" +
+      "aiChuZhongDanBiLi\030\007 \001(\003\022\027\n\017MaiChuDaDanBi" +
+      "Li\030\010 \001(\003\022\031\n\021MaiChuTeDaDanBiLi\030\t \001(\003\022\025\n\rD" +
+      "uanXianMaiRu\030\n \001(\003\022\026\n\016DuanXianMaiChu\030\013 \001" +
+      "(\003\022\026\n\016DuanXianChiHuo\030\014 \001(\003\022\025\n\rDuanXianTu" +
+      "Huo\030\r \001(\003\022\026\n\016DaDanLiuRuJinE\030\016 \001(\003\022\027\n\017DaD",
+      "anLiuChuJinE\030\017 \001(\003\"C\n\021QuoteBOrderSingle\022" +
+      "\013\n\003Obj\030\001 \002(\t\022!\n\004Data\030\002 \003(\0132\023.dzhyun.Quot" +
+      "eBOrder\"?\n\021QuoteBOrderOutput\022*\n\007Results\030" +
+      "\001 \003(\0132\031.dzhyun.QuoteBOrderSingleB\022\n\020com." +
+      "dzhyun.proto"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -11066,6 +14603,24 @@ public final class Dzhoutput {
     internal_static_dzhyun_QuoteMinOutput_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dzhyun_QuoteMinOutput_descriptor,
+        new java.lang.String[] { "Results", });
+    internal_static_dzhyun_QuoteBOrder_descriptor =
+      getDescriptor().getMessageTypes().get(12);
+    internal_static_dzhyun_QuoteBOrder_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_dzhyun_QuoteBOrder_descriptor,
+        new java.lang.String[] { "ShiJian", "WeiTuoMaiRu", "WeiTuoMaiChu", "MaiRuZhongDanBiLi", "MaiRuDaDanBiLi", "MaiRuTeDaDanBiLi", "MaiChuZhongDanBiLi", "MaiChuDaDanBiLi", "MaiChuTeDaDanBiLi", "DuanXianMaiRu", "DuanXianMaiChu", "DuanXianChiHuo", "DuanXianTuHuo", "DaDanLiuRuJinE", "DaDanLiuChuJinE", });
+    internal_static_dzhyun_QuoteBOrderSingle_descriptor =
+      getDescriptor().getMessageTypes().get(13);
+    internal_static_dzhyun_QuoteBOrderSingle_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_dzhyun_QuoteBOrderSingle_descriptor,
+        new java.lang.String[] { "Obj", "Data", });
+    internal_static_dzhyun_QuoteBOrderOutput_descriptor =
+      getDescriptor().getMessageTypes().get(14);
+    internal_static_dzhyun_QuoteBOrderOutput_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_dzhyun_QuoteBOrderOutput_descriptor,
         new java.lang.String[] { "Results", });
     com.dzhyun.proto.DzhyunGupiaoqiepian.getDescriptor();
     com.dzhyun.proto.DzhyunGupiaolianxu.getDescriptor();

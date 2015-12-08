@@ -83,12 +83,12 @@ J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoDzhcm_CommandEnum, CONFIG_INFO_RET)
 typedef NS_ENUM(NSUInteger, ComDzhyunProtoDzhcm_StateType) {
   ComDzhyunProtoDzhcm_StateType_RUNNING = 0,
   ComDzhyunProtoDzhcm_StateType_START_FAILED = 1,
-  ComDzhyunProtoDzhcm_StateType_CMERROR = 2,
+  ComDzhyunProtoDzhcm_StateType_CM_ERROR = 2,
 };
 
 #define ComDzhyunProtoDzhcm_StateTypeEnum_RUNNING_VALUE 0
 #define ComDzhyunProtoDzhcm_StateTypeEnum_START_FAILED_VALUE 1
-#define ComDzhyunProtoDzhcm_StateTypeEnum_CMERROR_VALUE 2
+#define ComDzhyunProtoDzhcm_StateTypeEnum_CM_ERROR_VALUE 2
 
 @interface ComDzhyunProtoDzhcm_StateTypeEnum : JavaLangEnum<ComGoogleProtobufProtocolMessageEnum> {
  @private
@@ -116,8 +116,8 @@ FOUNDATION_EXPORT ComDzhyunProtoDzhcm_StateTypeEnum *ComDzhyunProtoDzhcm_StateTy
 J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoDzhcm_StateTypeEnum, RUNNING)
 #define ComDzhyunProtoDzhcm_StateTypeEnum_START_FAILED ComDzhyunProtoDzhcm_StateTypeEnum_values_[ComDzhyunProtoDzhcm_StateType_START_FAILED]
 J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoDzhcm_StateTypeEnum, START_FAILED)
-#define ComDzhyunProtoDzhcm_StateTypeEnum_CMERROR ComDzhyunProtoDzhcm_StateTypeEnum_values_[ComDzhyunProtoDzhcm_StateType_CMERROR]
-J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoDzhcm_StateTypeEnum, CMERROR)
+#define ComDzhyunProtoDzhcm_StateTypeEnum_CM_ERROR ComDzhyunProtoDzhcm_StateTypeEnum_values_[ComDzhyunProtoDzhcm_StateType_CM_ERROR]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoDzhcm_StateTypeEnum, CM_ERROR)
 
 typedef NS_ENUM(NSUInteger, ComDzhyunProtoDzhcm_CmdType) {
   ComDzhyunProtoDzhcm_CmdType_APP_STOP = 0,

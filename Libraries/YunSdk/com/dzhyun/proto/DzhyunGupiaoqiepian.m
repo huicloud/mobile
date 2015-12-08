@@ -209,7 +209,7 @@ ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunGupiaoqiepian_GeGuD
 @implementation ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai
 
 typedef struct ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage {
-  uint32_t hasBits[1];
+  uint32_t hasBits[3];
   long long int id_;
   long long int shiJian_;
   long long int zuiXinJia_;
@@ -241,6 +241,52 @@ typedef struct ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage {
   long long int fenZhongZhangFu3_;
   long long int fenZhongZhangFu4_;
   long long int fenZhongZhangFu5_;
+  long long int weiTuoMaiRuJia1_;
+  long long int weiTuoMaiRuLiang1_;
+  long long int weiTuoMaiRuJia2_;
+  long long int weiTuoMaiRuLiang2_;
+  long long int weiTuoMaiRuJia3_;
+  long long int weiTuoMaiRuLiang3_;
+  long long int weiTuoMaiRuJia4_;
+  long long int weiTuoMaiRuLiang4_;
+  long long int weiTuoMaiRuJia5_;
+  long long int weiTuoMaiRuLiang5_;
+  long long int weiTuoMaiChuJia1_;
+  long long int weiTuoMaiChuLiang1_;
+  long long int weiTuoMaiChuJia2_;
+  long long int weiTuoMaiChuLiang2_;
+  long long int weiTuoMaiChuJia3_;
+  long long int weiTuoMaiChuLiang3_;
+  long long int weiTuoMaiChuJia4_;
+  long long int weiTuoMaiChuLiang4_;
+  long long int weiTuoMaiChuJia5_;
+  long long int weiTuoMaiChuLiang5_;
+  long long int weiBi_;
+  long long int weiCha_;
+  long long int jiaQuanPingJunWeiTuoMaiRuJia_;
+  long long int weiTuoMaiRuZongLiang_;
+  long long int jiaQuanPingJunWeiTuoMaiChuJia_;
+  long long int weiTuoMaiChuZongLiang_;
+  long long int kuoZhanMaiRuJia1_;
+  long long int kuoZhanMaiRuJia2_;
+  long long int kuoZhanMaiRuJia3_;
+  long long int kuoZhanMaiRuJia4_;
+  long long int kuoZhanMaiRuJia5_;
+  long long int kuoZhanMaiRuLiang1_;
+  long long int kuoZhanMaiRuLiang2_;
+  long long int kuoZhanMaiRuLiang3_;
+  long long int kuoZhanMaiRuLiang4_;
+  long long int kuoZhanMaiRuLiang5_;
+  long long int kuoZhanMaiChuJia1_;
+  long long int kuoZhanMaiChuJia2_;
+  long long int kuoZhanMaiChuJia3_;
+  long long int kuoZhanMaiChuJia4_;
+  long long int kuoZhanMaiChuJia5_;
+  long long int kuoZhanMaiChuLiang1_;
+  long long int kuoZhanMaiChuLiang2_;
+  long long int kuoZhanMaiChuLiang3_;
+  long long int kuoZhanMaiChuLiang4_;
+  long long int kuoZhanMaiChuLiang5_;
 } ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage;
 
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor {
@@ -653,8 +699,606 @@ typedef struct ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage {
         .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
         .optionsData = NULL,
       },
+      {
+        .name = "WeiTuoMaiRuJia1",
+        .javaName = "WeiTuoMaiRuJia1",
+        .number = 32,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 31,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, weiTuoMaiRuJia1_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "WeiTuoMaiRuLiang1",
+        .javaName = "WeiTuoMaiRuLiang1",
+        .number = 33,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 32,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, weiTuoMaiRuLiang1_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "WeiTuoMaiRuJia2",
+        .javaName = "WeiTuoMaiRuJia2",
+        .number = 34,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 33,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, weiTuoMaiRuJia2_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "WeiTuoMaiRuLiang2",
+        .javaName = "WeiTuoMaiRuLiang2",
+        .number = 35,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 34,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, weiTuoMaiRuLiang2_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "WeiTuoMaiRuJia3",
+        .javaName = "WeiTuoMaiRuJia3",
+        .number = 36,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 35,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, weiTuoMaiRuJia3_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "WeiTuoMaiRuLiang3",
+        .javaName = "WeiTuoMaiRuLiang3",
+        .number = 37,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 36,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, weiTuoMaiRuLiang3_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "WeiTuoMaiRuJia4",
+        .javaName = "WeiTuoMaiRuJia4",
+        .number = 38,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 37,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, weiTuoMaiRuJia4_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "WeiTuoMaiRuLiang4",
+        .javaName = "WeiTuoMaiRuLiang4",
+        .number = 39,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 38,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, weiTuoMaiRuLiang4_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "WeiTuoMaiRuJia5",
+        .javaName = "WeiTuoMaiRuJia5",
+        .number = 40,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 39,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, weiTuoMaiRuJia5_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "WeiTuoMaiRuLiang5",
+        .javaName = "WeiTuoMaiRuLiang5",
+        .number = 41,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 40,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, weiTuoMaiRuLiang5_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "WeiTuoMaiChuJia1",
+        .javaName = "WeiTuoMaiChuJia1",
+        .number = 42,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 41,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, weiTuoMaiChuJia1_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "WeiTuoMaiChuLiang1",
+        .javaName = "WeiTuoMaiChuLiang1",
+        .number = 43,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 42,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, weiTuoMaiChuLiang1_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "WeiTuoMaiChuJia2",
+        .javaName = "WeiTuoMaiChuJia2",
+        .number = 44,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 43,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, weiTuoMaiChuJia2_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "WeiTuoMaiChuLiang2",
+        .javaName = "WeiTuoMaiChuLiang2",
+        .number = 45,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 44,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, weiTuoMaiChuLiang2_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "WeiTuoMaiChuJia3",
+        .javaName = "WeiTuoMaiChuJia3",
+        .number = 46,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 45,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, weiTuoMaiChuJia3_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "WeiTuoMaiChuLiang3",
+        .javaName = "WeiTuoMaiChuLiang3",
+        .number = 47,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 46,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, weiTuoMaiChuLiang3_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "WeiTuoMaiChuJia4",
+        .javaName = "WeiTuoMaiChuJia4",
+        .number = 48,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 47,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, weiTuoMaiChuJia4_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "WeiTuoMaiChuLiang4",
+        .javaName = "WeiTuoMaiChuLiang4",
+        .number = 49,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 48,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, weiTuoMaiChuLiang4_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "WeiTuoMaiChuJia5",
+        .javaName = "WeiTuoMaiChuJia5",
+        .number = 50,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 49,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, weiTuoMaiChuJia5_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "WeiTuoMaiChuLiang5",
+        .javaName = "WeiTuoMaiChuLiang5",
+        .number = 51,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 50,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, weiTuoMaiChuLiang5_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "WeiBi",
+        .javaName = "WeiBi",
+        .number = 52,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 51,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, weiBi_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "WeiCha",
+        .javaName = "WeiCha",
+        .number = 53,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 52,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, weiCha_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "JiaQuanPingJunWeiTuoMaiRuJia",
+        .javaName = "JiaQuanPingJunWeiTuoMaiRuJia",
+        .number = 54,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 53,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, jiaQuanPingJunWeiTuoMaiRuJia_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "WeiTuoMaiRuZongLiang",
+        .javaName = "WeiTuoMaiRuZongLiang",
+        .number = 55,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 54,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, weiTuoMaiRuZongLiang_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "JiaQuanPingJunWeiTuoMaiChuJia",
+        .javaName = "JiaQuanPingJunWeiTuoMaiChuJia",
+        .number = 56,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 55,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, jiaQuanPingJunWeiTuoMaiChuJia_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "WeiTuoMaiChuZongLiang",
+        .javaName = "WeiTuoMaiChuZongLiang",
+        .number = 57,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 56,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, weiTuoMaiChuZongLiang_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "KuoZhanMaiRuJia1",
+        .javaName = "KuoZhanMaiRuJia1",
+        .number = 58,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 57,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, kuoZhanMaiRuJia1_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "KuoZhanMaiRuJia2",
+        .javaName = "KuoZhanMaiRuJia2",
+        .number = 59,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 58,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, kuoZhanMaiRuJia2_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "KuoZhanMaiRuJia3",
+        .javaName = "KuoZhanMaiRuJia3",
+        .number = 60,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 59,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, kuoZhanMaiRuJia3_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "KuoZhanMaiRuJia4",
+        .javaName = "KuoZhanMaiRuJia4",
+        .number = 61,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 60,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, kuoZhanMaiRuJia4_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "KuoZhanMaiRuJia5",
+        .javaName = "KuoZhanMaiRuJia5",
+        .number = 62,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 61,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, kuoZhanMaiRuJia5_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "KuoZhanMaiRuLiang1",
+        .javaName = "KuoZhanMaiRuLiang1",
+        .number = 63,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 62,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, kuoZhanMaiRuLiang1_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "KuoZhanMaiRuLiang2",
+        .javaName = "KuoZhanMaiRuLiang2",
+        .number = 64,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 63,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, kuoZhanMaiRuLiang2_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "KuoZhanMaiRuLiang3",
+        .javaName = "KuoZhanMaiRuLiang3",
+        .number = 65,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 64,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, kuoZhanMaiRuLiang3_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "KuoZhanMaiRuLiang4",
+        .javaName = "KuoZhanMaiRuLiang4",
+        .number = 66,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 65,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, kuoZhanMaiRuLiang4_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "KuoZhanMaiRuLiang5",
+        .javaName = "KuoZhanMaiRuLiang5",
+        .number = 67,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 66,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, kuoZhanMaiRuLiang5_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "KuoZhanMaiChuJia1",
+        .javaName = "KuoZhanMaiChuJia1",
+        .number = 68,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 67,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, kuoZhanMaiChuJia1_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "KuoZhanMaiChuJia2",
+        .javaName = "KuoZhanMaiChuJia2",
+        .number = 69,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 68,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, kuoZhanMaiChuJia2_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "KuoZhanMaiChuJia3",
+        .javaName = "KuoZhanMaiChuJia3",
+        .number = 70,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 69,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, kuoZhanMaiChuJia3_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "KuoZhanMaiChuJia4",
+        .javaName = "KuoZhanMaiChuJia4",
+        .number = 71,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 70,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, kuoZhanMaiChuJia4_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "KuoZhanMaiChuJia5",
+        .javaName = "KuoZhanMaiChuJia5",
+        .number = 72,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 71,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, kuoZhanMaiChuJia5_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "KuoZhanMaiChuLiang1",
+        .javaName = "KuoZhanMaiChuLiang1",
+        .number = 73,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 72,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, kuoZhanMaiChuLiang1_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "KuoZhanMaiChuLiang2",
+        .javaName = "KuoZhanMaiChuLiang2",
+        .number = 74,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 73,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, kuoZhanMaiChuLiang2_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "KuoZhanMaiChuLiang3",
+        .javaName = "KuoZhanMaiChuLiang3",
+        .number = 75,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 74,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, kuoZhanMaiChuLiang3_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "KuoZhanMaiChuLiang4",
+        .javaName = "KuoZhanMaiChuLiang4",
+        .number = 76,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 75,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, kuoZhanMaiChuLiang4_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
+      {
+        .name = "KuoZhanMaiChuLiang5",
+        .javaName = "KuoZhanMaiChuLiang5",
+        .number = 77,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 76,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage, kuoZhanMaiChuLiang5_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai",
+        .optionsData = NULL,
+      },
     };
-    CGPInitDescriptor(&ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_descriptor_, self, [ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder class], 0, sizeof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage), 31, fields);
+    CGPInitDescriptor(&ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_descriptor_, self, [ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder class], 0, sizeof(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Storage), 77, fields);
     J2OBJC_SET_INITIALIZED(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai)
   }
 }
@@ -2083,4 +2727,277 @@ J2OBJC_INTERFACE_TYPE_LITERAL_SOURCE(ComDzhyunProtoDzhyunGupiaoqiepian_WeiTuoDui
 ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunGupiaoqiepian_WeiTuoDuiLie_Builder_getDescriptor() {
   ComDzhyunProtoDzhyunGupiaoqiepian_WeiTuoDuiLie_initialize();
   return ComDzhyunProtoDzhyunGupiaoqiepian_WeiTuoDuiLie_descriptor_;
+}
+
+J2OBJC_INITIALIZED_DEFN(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi);
+
+ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_descriptor_;
+
+@implementation ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi
+
+typedef struct ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Storage {
+  uint32_t hasBits[1];
+  long long int id_;
+  long long int shiJian_;
+  long long int weiTuoMaiRu_;
+  long long int weiTuoMaiChu_;
+  long long int maiRuZhongDanBiLi_;
+  long long int maiRuDaDanBiLi_;
+  long long int maiRuTeDaDanBiLi_;
+  long long int maiChuZhongDanBiLi_;
+  long long int maiChuDaDanBiLi_;
+  long long int maiChuTeDaDanBiLi_;
+  long long int duanXianMaiRu_;
+  long long int duanXianMaiChu_;
+  long long int duanXianChiHuo_;
+  long long int duanXianTuHuo_;
+} ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Storage;
+
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor {
+  return ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_descriptor_;
+}
+
++ (void)initialize {
+  if (self == [ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi class]) {
+    static CGPFieldData fields[] = {
+      {
+        .name = "Id",
+        .javaName = "Id",
+        .number = 1,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Storage, id_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi",
+        .optionsData = NULL,
+      },
+      {
+        .name = "ShiJian",
+        .javaName = "ShiJian",
+        .number = 2,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 1,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Storage, shiJian_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi",
+        .optionsData = NULL,
+      },
+      {
+        .name = "WeiTuoMaiRu",
+        .javaName = "WeiTuoMaiRu",
+        .number = 3,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 2,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Storage, weiTuoMaiRu_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi",
+        .optionsData = NULL,
+      },
+      {
+        .name = "WeiTuoMaiChu",
+        .javaName = "WeiTuoMaiChu",
+        .number = 4,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 3,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Storage, weiTuoMaiChu_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi",
+        .optionsData = NULL,
+      },
+      {
+        .name = "MaiRuZhongDanBiLi",
+        .javaName = "MaiRuZhongDanBiLi",
+        .number = 5,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 4,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Storage, maiRuZhongDanBiLi_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi",
+        .optionsData = NULL,
+      },
+      {
+        .name = "MaiRuDaDanBiLi",
+        .javaName = "MaiRuDaDanBiLi",
+        .number = 6,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 5,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Storage, maiRuDaDanBiLi_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi",
+        .optionsData = NULL,
+      },
+      {
+        .name = "MaiRuTeDaDanBiLi",
+        .javaName = "MaiRuTeDaDanBiLi",
+        .number = 7,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 6,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Storage, maiRuTeDaDanBiLi_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi",
+        .optionsData = NULL,
+      },
+      {
+        .name = "MaiChuZhongDanBiLi",
+        .javaName = "MaiChuZhongDanBiLi",
+        .number = 8,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 7,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Storage, maiChuZhongDanBiLi_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi",
+        .optionsData = NULL,
+      },
+      {
+        .name = "MaiChuDaDanBiLi",
+        .javaName = "MaiChuDaDanBiLi",
+        .number = 9,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 8,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Storage, maiChuDaDanBiLi_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi",
+        .optionsData = NULL,
+      },
+      {
+        .name = "MaiChuTeDaDanBiLi",
+        .javaName = "MaiChuTeDaDanBiLi",
+        .number = 10,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 9,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Storage, maiChuTeDaDanBiLi_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi",
+        .optionsData = NULL,
+      },
+      {
+        .name = "DuanXianMaiRu",
+        .javaName = "DuanXianMaiRu",
+        .number = 11,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 10,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Storage, duanXianMaiRu_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi",
+        .optionsData = NULL,
+      },
+      {
+        .name = "DuanXianMaiChu",
+        .javaName = "DuanXianMaiChu",
+        .number = 12,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 11,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Storage, duanXianMaiChu_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi",
+        .optionsData = NULL,
+      },
+      {
+        .name = "DuanXianChiHuo",
+        .javaName = "DuanXianChiHuo",
+        .number = 13,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 12,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Storage, duanXianChiHuo_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi",
+        .optionsData = NULL,
+      },
+      {
+        .name = "DuanXianTuHuo",
+        .javaName = "DuanXianTuHuo",
+        .number = 14,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 13,
+        .offset = offsetof(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Storage, duanXianTuHuo_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi",
+        .optionsData = NULL,
+      },
+    };
+    CGPInitDescriptor(&ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_descriptor_, self, [ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder class], 0, sizeof(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Storage), 14, fields);
+    J2OBJC_SET_INITIALIZED(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi)
+  }
+}
+
+@end
+
+J2OBJC_CLASS_TYPE_LITERAL_SOURCE(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi)
+
+ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_getDefaultInstance() {
+  ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_initialize();
+  return (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *)[CGPNewMessage(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_descriptor_) autorelease];
+}
+
+ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_newBuilder() {
+  ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_initialize();
+  return (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)[CGPNewBuilder(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_descriptor_) autorelease];
+}
+
+ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_newBuilderWithComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *message) {
+  ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_initialize();
+  return (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)CGPBuilderFromPrototype(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_descriptor_, message);
+}
+
+ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_getDescriptor() {
+  ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_initialize();
+  return ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_descriptor_;
+}
+
+ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry) {
+  ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_initialize();
+  return (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *)CGPParseFromByteArray(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_descriptor_, bytes, registry);
+}
+
+ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry) {
+  ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_initialize();
+  return (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *)CGPParseFromInputStream(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_descriptor_, input, registry);
+}
+ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry) {
+  ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_initialize();
+  return (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *)CGPParseDelimitedFromInputStream(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_descriptor_, input, registry);
+}
+
+@implementation ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder
+
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor {
+  return [ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi getDescriptor];
+}
+
+@end
+
+J2OBJC_CLASS_TYPE_LITERAL_SOURCE(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder)
+J2OBJC_INTERFACE_TYPE_LITERAL_SOURCE(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJiOrBuilder)
+
+ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder_getDescriptor() {
+  ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_initialize();
+  return ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_descriptor_;
 }

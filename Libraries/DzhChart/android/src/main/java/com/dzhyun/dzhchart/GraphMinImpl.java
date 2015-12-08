@@ -105,11 +105,9 @@ public class GraphMinImpl extends Graph {
             getCanvas().drawText(text, pxl, sy - correct, paint);
 
             float zhangdie = ry-zuoShou;
-            if(Math.abs(zhangdie - 0) < 0.0000001){
-                continue;
-            }
-
-            if(zhangdie > 0){
+            if(Math.abs(zhangdie) < 0.000001){
+                paint.setColor(Config.gridFontColor);
+            }else if(zhangdie > 0){
                 paint.setColor(Config.riseColor);
             }else{
                 paint.setColor(Config.dropColor);

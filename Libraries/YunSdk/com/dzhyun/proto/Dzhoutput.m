@@ -1636,3 +1636,486 @@ ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhoutput_QuoteMinOutput_
   ComDzhyunProtoDzhoutput_QuoteMinOutput_initialize();
   return ComDzhyunProtoDzhoutput_QuoteMinOutput_descriptor_;
 }
+
+J2OBJC_INITIALIZED_DEFN(ComDzhyunProtoDzhoutput_QuoteBOrder);
+
+ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhoutput_QuoteBOrder_descriptor_;
+
+@implementation ComDzhyunProtoDzhoutput_QuoteBOrder
+
+typedef struct ComDzhyunProtoDzhoutput_QuoteBOrder_Storage {
+  uint32_t hasBits[1];
+  long long int shiJian_;
+  long long int weiTuoMaiRu_;
+  long long int weiTuoMaiChu_;
+  long long int maiRuZhongDanBiLi_;
+  long long int maiRuDaDanBiLi_;
+  long long int maiRuTeDaDanBiLi_;
+  long long int maiChuZhongDanBiLi_;
+  long long int maiChuDaDanBiLi_;
+  long long int maiChuTeDaDanBiLi_;
+  long long int duanXianMaiRu_;
+  long long int duanXianMaiChu_;
+  long long int duanXianChiHuo_;
+  long long int duanXianTuHuo_;
+  long long int daDanLiuRuJinE_;
+  long long int daDanLiuChuJinE_;
+} ComDzhyunProtoDzhoutput_QuoteBOrder_Storage;
+
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor {
+  return ComDzhyunProtoDzhoutput_QuoteBOrder_descriptor_;
+}
+
++ (void)initialize {
+  if (self == [ComDzhyunProtoDzhoutput_QuoteBOrder class]) {
+    static CGPFieldData fields[] = {
+      {
+        .name = "ShiJian",
+        .javaName = "ShiJian",
+        .number = 1,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoDzhoutput_QuoteBOrder_Storage, shiJian_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhoutput_QuoteBOrder",
+        .optionsData = NULL,
+      },
+      {
+        .name = "WeiTuoMaiRu",
+        .javaName = "WeiTuoMaiRu",
+        .number = 2,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 1,
+        .offset = offsetof(ComDzhyunProtoDzhoutput_QuoteBOrder_Storage, weiTuoMaiRu_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhoutput_QuoteBOrder",
+        .optionsData = NULL,
+      },
+      {
+        .name = "WeiTuoMaiChu",
+        .javaName = "WeiTuoMaiChu",
+        .number = 3,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 2,
+        .offset = offsetof(ComDzhyunProtoDzhoutput_QuoteBOrder_Storage, weiTuoMaiChu_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhoutput_QuoteBOrder",
+        .optionsData = NULL,
+      },
+      {
+        .name = "MaiRuZhongDanBiLi",
+        .javaName = "MaiRuZhongDanBiLi",
+        .number = 4,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 3,
+        .offset = offsetof(ComDzhyunProtoDzhoutput_QuoteBOrder_Storage, maiRuZhongDanBiLi_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhoutput_QuoteBOrder",
+        .optionsData = NULL,
+      },
+      {
+        .name = "MaiRuDaDanBiLi",
+        .javaName = "MaiRuDaDanBiLi",
+        .number = 5,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 4,
+        .offset = offsetof(ComDzhyunProtoDzhoutput_QuoteBOrder_Storage, maiRuDaDanBiLi_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhoutput_QuoteBOrder",
+        .optionsData = NULL,
+      },
+      {
+        .name = "MaiRuTeDaDanBiLi",
+        .javaName = "MaiRuTeDaDanBiLi",
+        .number = 6,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 5,
+        .offset = offsetof(ComDzhyunProtoDzhoutput_QuoteBOrder_Storage, maiRuTeDaDanBiLi_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhoutput_QuoteBOrder",
+        .optionsData = NULL,
+      },
+      {
+        .name = "MaiChuZhongDanBiLi",
+        .javaName = "MaiChuZhongDanBiLi",
+        .number = 7,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 6,
+        .offset = offsetof(ComDzhyunProtoDzhoutput_QuoteBOrder_Storage, maiChuZhongDanBiLi_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhoutput_QuoteBOrder",
+        .optionsData = NULL,
+      },
+      {
+        .name = "MaiChuDaDanBiLi",
+        .javaName = "MaiChuDaDanBiLi",
+        .number = 8,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 7,
+        .offset = offsetof(ComDzhyunProtoDzhoutput_QuoteBOrder_Storage, maiChuDaDanBiLi_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhoutput_QuoteBOrder",
+        .optionsData = NULL,
+      },
+      {
+        .name = "MaiChuTeDaDanBiLi",
+        .javaName = "MaiChuTeDaDanBiLi",
+        .number = 9,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 8,
+        .offset = offsetof(ComDzhyunProtoDzhoutput_QuoteBOrder_Storage, maiChuTeDaDanBiLi_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhoutput_QuoteBOrder",
+        .optionsData = NULL,
+      },
+      {
+        .name = "DuanXianMaiRu",
+        .javaName = "DuanXianMaiRu",
+        .number = 10,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 9,
+        .offset = offsetof(ComDzhyunProtoDzhoutput_QuoteBOrder_Storage, duanXianMaiRu_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhoutput_QuoteBOrder",
+        .optionsData = NULL,
+      },
+      {
+        .name = "DuanXianMaiChu",
+        .javaName = "DuanXianMaiChu",
+        .number = 11,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 10,
+        .offset = offsetof(ComDzhyunProtoDzhoutput_QuoteBOrder_Storage, duanXianMaiChu_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhoutput_QuoteBOrder",
+        .optionsData = NULL,
+      },
+      {
+        .name = "DuanXianChiHuo",
+        .javaName = "DuanXianChiHuo",
+        .number = 12,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 11,
+        .offset = offsetof(ComDzhyunProtoDzhoutput_QuoteBOrder_Storage, duanXianChiHuo_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhoutput_QuoteBOrder",
+        .optionsData = NULL,
+      },
+      {
+        .name = "DuanXianTuHuo",
+        .javaName = "DuanXianTuHuo",
+        .number = 13,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 12,
+        .offset = offsetof(ComDzhyunProtoDzhoutput_QuoteBOrder_Storage, duanXianTuHuo_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhoutput_QuoteBOrder",
+        .optionsData = NULL,
+      },
+      {
+        .name = "DaDanLiuRuJinE",
+        .javaName = "DaDanLiuRuJinE",
+        .number = 14,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 13,
+        .offset = offsetof(ComDzhyunProtoDzhoutput_QuoteBOrder_Storage, daDanLiuRuJinE_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhoutput_QuoteBOrder",
+        .optionsData = NULL,
+      },
+      {
+        .name = "DaDanLiuChuJinE",
+        .javaName = "DaDanLiuChuJinE",
+        .number = 15,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 14,
+        .offset = offsetof(ComDzhyunProtoDzhoutput_QuoteBOrder_Storage, daDanLiuChuJinE_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhoutput_QuoteBOrder",
+        .optionsData = NULL,
+      },
+    };
+    CGPInitDescriptor(&ComDzhyunProtoDzhoutput_QuoteBOrder_descriptor_, self, [ComDzhyunProtoDzhoutput_QuoteBOrder_Builder class], 0, sizeof(ComDzhyunProtoDzhoutput_QuoteBOrder_Storage), 15, fields);
+    J2OBJC_SET_INITIALIZED(ComDzhyunProtoDzhoutput_QuoteBOrder)
+  }
+}
+
+@end
+
+J2OBJC_CLASS_TYPE_LITERAL_SOURCE(ComDzhyunProtoDzhoutput_QuoteBOrder)
+
+ComDzhyunProtoDzhoutput_QuoteBOrder *ComDzhyunProtoDzhoutput_QuoteBOrder_getDefaultInstance() {
+  ComDzhyunProtoDzhoutput_QuoteBOrder_initialize();
+  return (ComDzhyunProtoDzhoutput_QuoteBOrder *)[CGPNewMessage(ComDzhyunProtoDzhoutput_QuoteBOrder_descriptor_) autorelease];
+}
+
+ComDzhyunProtoDzhoutput_QuoteBOrder_Builder *ComDzhyunProtoDzhoutput_QuoteBOrder_newBuilder() {
+  ComDzhyunProtoDzhoutput_QuoteBOrder_initialize();
+  return (ComDzhyunProtoDzhoutput_QuoteBOrder_Builder *)[CGPNewBuilder(ComDzhyunProtoDzhoutput_QuoteBOrder_descriptor_) autorelease];
+}
+
+ComDzhyunProtoDzhoutput_QuoteBOrder_Builder *ComDzhyunProtoDzhoutput_QuoteBOrder_newBuilderWithComDzhyunProtoDzhoutput_QuoteBOrder_(ComDzhyunProtoDzhoutput_QuoteBOrder *message) {
+  ComDzhyunProtoDzhoutput_QuoteBOrder_initialize();
+  return (ComDzhyunProtoDzhoutput_QuoteBOrder_Builder *)CGPBuilderFromPrototype(ComDzhyunProtoDzhoutput_QuoteBOrder_descriptor_, message);
+}
+
+ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhoutput_QuoteBOrder_getDescriptor() {
+  ComDzhyunProtoDzhoutput_QuoteBOrder_initialize();
+  return ComDzhyunProtoDzhoutput_QuoteBOrder_descriptor_;
+}
+
+ComDzhyunProtoDzhoutput_QuoteBOrder *ComDzhyunProtoDzhoutput_QuoteBOrder_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry) {
+  ComDzhyunProtoDzhoutput_QuoteBOrder_initialize();
+  return (ComDzhyunProtoDzhoutput_QuoteBOrder *)CGPParseFromByteArray(ComDzhyunProtoDzhoutput_QuoteBOrder_descriptor_, bytes, registry);
+}
+
+ComDzhyunProtoDzhoutput_QuoteBOrder *ComDzhyunProtoDzhoutput_QuoteBOrder_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry) {
+  ComDzhyunProtoDzhoutput_QuoteBOrder_initialize();
+  return (ComDzhyunProtoDzhoutput_QuoteBOrder *)CGPParseFromInputStream(ComDzhyunProtoDzhoutput_QuoteBOrder_descriptor_, input, registry);
+}
+ComDzhyunProtoDzhoutput_QuoteBOrder *ComDzhyunProtoDzhoutput_QuoteBOrder_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry) {
+  ComDzhyunProtoDzhoutput_QuoteBOrder_initialize();
+  return (ComDzhyunProtoDzhoutput_QuoteBOrder *)CGPParseDelimitedFromInputStream(ComDzhyunProtoDzhoutput_QuoteBOrder_descriptor_, input, registry);
+}
+
+@implementation ComDzhyunProtoDzhoutput_QuoteBOrder_Builder
+
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor {
+  return [ComDzhyunProtoDzhoutput_QuoteBOrder getDescriptor];
+}
+
+@end
+
+J2OBJC_CLASS_TYPE_LITERAL_SOURCE(ComDzhyunProtoDzhoutput_QuoteBOrder_Builder)
+J2OBJC_INTERFACE_TYPE_LITERAL_SOURCE(ComDzhyunProtoDzhoutput_QuoteBOrderOrBuilder)
+
+ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhoutput_QuoteBOrder_Builder_getDescriptor() {
+  ComDzhyunProtoDzhoutput_QuoteBOrder_initialize();
+  return ComDzhyunProtoDzhoutput_QuoteBOrder_descriptor_;
+}
+
+J2OBJC_INITIALIZED_DEFN(ComDzhyunProtoDzhoutput_QuoteBOrderSingle);
+
+ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhoutput_QuoteBOrderSingle_descriptor_;
+
+@implementation ComDzhyunProtoDzhoutput_QuoteBOrderSingle
+
+typedef struct ComDzhyunProtoDzhoutput_QuoteBOrderSingle_Storage {
+  uint32_t hasBits[1];
+  NSString *obj_;
+  CGPRepeatedField data_;
+} ComDzhyunProtoDzhoutput_QuoteBOrderSingle_Storage;
+
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor {
+  return ComDzhyunProtoDzhoutput_QuoteBOrderSingle_descriptor_;
+}
+
++ (void)initialize {
+  if (self == [ComDzhyunProtoDzhoutput_QuoteBOrderSingle class]) {
+    static CGPFieldData fields[] = {
+      {
+        .name = "Obj",
+        .javaName = "Obj",
+        .number = 1,
+        .flags = CGPFieldFlagRequired,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
+        .defaultValue.valueId = @"",
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoDzhoutput_QuoteBOrderSingle_Storage, obj_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhoutput_QuoteBOrderSingle",
+        .optionsData = NULL,
+      },
+      {
+        .name = "Data",
+        .javaName = "Data",
+        .number = 2,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoDzhoutput_QuoteBOrderSingle_Storage, data_),
+        .className = "ComDzhyunProtoDzhoutput_QuoteBOrder",
+        .containingType = "ComDzhyunProtoDzhoutput_QuoteBOrderSingle",
+        .optionsData = NULL,
+      },
+    };
+    CGPInitDescriptor(&ComDzhyunProtoDzhoutput_QuoteBOrderSingle_descriptor_, self, [ComDzhyunProtoDzhoutput_QuoteBOrderSingle_Builder class], 0, sizeof(ComDzhyunProtoDzhoutput_QuoteBOrderSingle_Storage), 2, fields);
+    J2OBJC_SET_INITIALIZED(ComDzhyunProtoDzhoutput_QuoteBOrderSingle)
+  }
+}
+
+@end
+
+J2OBJC_CLASS_TYPE_LITERAL_SOURCE(ComDzhyunProtoDzhoutput_QuoteBOrderSingle)
+
+ComDzhyunProtoDzhoutput_QuoteBOrderSingle *ComDzhyunProtoDzhoutput_QuoteBOrderSingle_getDefaultInstance() {
+  ComDzhyunProtoDzhoutput_QuoteBOrderSingle_initialize();
+  return (ComDzhyunProtoDzhoutput_QuoteBOrderSingle *)[CGPNewMessage(ComDzhyunProtoDzhoutput_QuoteBOrderSingle_descriptor_) autorelease];
+}
+
+ComDzhyunProtoDzhoutput_QuoteBOrderSingle_Builder *ComDzhyunProtoDzhoutput_QuoteBOrderSingle_newBuilder() {
+  ComDzhyunProtoDzhoutput_QuoteBOrderSingle_initialize();
+  return (ComDzhyunProtoDzhoutput_QuoteBOrderSingle_Builder *)[CGPNewBuilder(ComDzhyunProtoDzhoutput_QuoteBOrderSingle_descriptor_) autorelease];
+}
+
+ComDzhyunProtoDzhoutput_QuoteBOrderSingle_Builder *ComDzhyunProtoDzhoutput_QuoteBOrderSingle_newBuilderWithComDzhyunProtoDzhoutput_QuoteBOrderSingle_(ComDzhyunProtoDzhoutput_QuoteBOrderSingle *message) {
+  ComDzhyunProtoDzhoutput_QuoteBOrderSingle_initialize();
+  return (ComDzhyunProtoDzhoutput_QuoteBOrderSingle_Builder *)CGPBuilderFromPrototype(ComDzhyunProtoDzhoutput_QuoteBOrderSingle_descriptor_, message);
+}
+
+ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhoutput_QuoteBOrderSingle_getDescriptor() {
+  ComDzhyunProtoDzhoutput_QuoteBOrderSingle_initialize();
+  return ComDzhyunProtoDzhoutput_QuoteBOrderSingle_descriptor_;
+}
+
+ComDzhyunProtoDzhoutput_QuoteBOrderSingle *ComDzhyunProtoDzhoutput_QuoteBOrderSingle_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry) {
+  ComDzhyunProtoDzhoutput_QuoteBOrderSingle_initialize();
+  return (ComDzhyunProtoDzhoutput_QuoteBOrderSingle *)CGPParseFromByteArray(ComDzhyunProtoDzhoutput_QuoteBOrderSingle_descriptor_, bytes, registry);
+}
+
+ComDzhyunProtoDzhoutput_QuoteBOrderSingle *ComDzhyunProtoDzhoutput_QuoteBOrderSingle_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry) {
+  ComDzhyunProtoDzhoutput_QuoteBOrderSingle_initialize();
+  return (ComDzhyunProtoDzhoutput_QuoteBOrderSingle *)CGPParseFromInputStream(ComDzhyunProtoDzhoutput_QuoteBOrderSingle_descriptor_, input, registry);
+}
+ComDzhyunProtoDzhoutput_QuoteBOrderSingle *ComDzhyunProtoDzhoutput_QuoteBOrderSingle_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry) {
+  ComDzhyunProtoDzhoutput_QuoteBOrderSingle_initialize();
+  return (ComDzhyunProtoDzhoutput_QuoteBOrderSingle *)CGPParseDelimitedFromInputStream(ComDzhyunProtoDzhoutput_QuoteBOrderSingle_descriptor_, input, registry);
+}
+
+@implementation ComDzhyunProtoDzhoutput_QuoteBOrderSingle_Builder
+
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor {
+  return [ComDzhyunProtoDzhoutput_QuoteBOrderSingle getDescriptor];
+}
+
+@end
+
+J2OBJC_CLASS_TYPE_LITERAL_SOURCE(ComDzhyunProtoDzhoutput_QuoteBOrderSingle_Builder)
+J2OBJC_INTERFACE_TYPE_LITERAL_SOURCE(ComDzhyunProtoDzhoutput_QuoteBOrderSingleOrBuilder)
+
+ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhoutput_QuoteBOrderSingle_Builder_getDescriptor() {
+  ComDzhyunProtoDzhoutput_QuoteBOrderSingle_initialize();
+  return ComDzhyunProtoDzhoutput_QuoteBOrderSingle_descriptor_;
+}
+
+J2OBJC_INITIALIZED_DEFN(ComDzhyunProtoDzhoutput_QuoteBOrderOutput);
+
+ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhoutput_QuoteBOrderOutput_descriptor_;
+
+@implementation ComDzhyunProtoDzhoutput_QuoteBOrderOutput
+
+typedef struct ComDzhyunProtoDzhoutput_QuoteBOrderOutput_Storage {
+  uint32_t hasBits[0];
+  CGPRepeatedField results_;
+} ComDzhyunProtoDzhoutput_QuoteBOrderOutput_Storage;
+
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor {
+  return ComDzhyunProtoDzhoutput_QuoteBOrderOutput_descriptor_;
+}
+
++ (void)initialize {
+  if (self == [ComDzhyunProtoDzhoutput_QuoteBOrderOutput class]) {
+    static CGPFieldData fields[] = {
+      {
+        .name = "Results",
+        .javaName = "Results",
+        .number = 1,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoDzhoutput_QuoteBOrderOutput_Storage, results_),
+        .className = "ComDzhyunProtoDzhoutput_QuoteBOrderSingle",
+        .containingType = "ComDzhyunProtoDzhoutput_QuoteBOrderOutput",
+        .optionsData = NULL,
+      },
+    };
+    CGPInitDescriptor(&ComDzhyunProtoDzhoutput_QuoteBOrderOutput_descriptor_, self, [ComDzhyunProtoDzhoutput_QuoteBOrderOutput_Builder class], 0, sizeof(ComDzhyunProtoDzhoutput_QuoteBOrderOutput_Storage), 1, fields);
+    J2OBJC_SET_INITIALIZED(ComDzhyunProtoDzhoutput_QuoteBOrderOutput)
+  }
+}
+
+@end
+
+J2OBJC_CLASS_TYPE_LITERAL_SOURCE(ComDzhyunProtoDzhoutput_QuoteBOrderOutput)
+
+ComDzhyunProtoDzhoutput_QuoteBOrderOutput *ComDzhyunProtoDzhoutput_QuoteBOrderOutput_getDefaultInstance() {
+  ComDzhyunProtoDzhoutput_QuoteBOrderOutput_initialize();
+  return (ComDzhyunProtoDzhoutput_QuoteBOrderOutput *)[CGPNewMessage(ComDzhyunProtoDzhoutput_QuoteBOrderOutput_descriptor_) autorelease];
+}
+
+ComDzhyunProtoDzhoutput_QuoteBOrderOutput_Builder *ComDzhyunProtoDzhoutput_QuoteBOrderOutput_newBuilder() {
+  ComDzhyunProtoDzhoutput_QuoteBOrderOutput_initialize();
+  return (ComDzhyunProtoDzhoutput_QuoteBOrderOutput_Builder *)[CGPNewBuilder(ComDzhyunProtoDzhoutput_QuoteBOrderOutput_descriptor_) autorelease];
+}
+
+ComDzhyunProtoDzhoutput_QuoteBOrderOutput_Builder *ComDzhyunProtoDzhoutput_QuoteBOrderOutput_newBuilderWithComDzhyunProtoDzhoutput_QuoteBOrderOutput_(ComDzhyunProtoDzhoutput_QuoteBOrderOutput *message) {
+  ComDzhyunProtoDzhoutput_QuoteBOrderOutput_initialize();
+  return (ComDzhyunProtoDzhoutput_QuoteBOrderOutput_Builder *)CGPBuilderFromPrototype(ComDzhyunProtoDzhoutput_QuoteBOrderOutput_descriptor_, message);
+}
+
+ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhoutput_QuoteBOrderOutput_getDescriptor() {
+  ComDzhyunProtoDzhoutput_QuoteBOrderOutput_initialize();
+  return ComDzhyunProtoDzhoutput_QuoteBOrderOutput_descriptor_;
+}
+
+ComDzhyunProtoDzhoutput_QuoteBOrderOutput *ComDzhyunProtoDzhoutput_QuoteBOrderOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry) {
+  ComDzhyunProtoDzhoutput_QuoteBOrderOutput_initialize();
+  return (ComDzhyunProtoDzhoutput_QuoteBOrderOutput *)CGPParseFromByteArray(ComDzhyunProtoDzhoutput_QuoteBOrderOutput_descriptor_, bytes, registry);
+}
+
+ComDzhyunProtoDzhoutput_QuoteBOrderOutput *ComDzhyunProtoDzhoutput_QuoteBOrderOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry) {
+  ComDzhyunProtoDzhoutput_QuoteBOrderOutput_initialize();
+  return (ComDzhyunProtoDzhoutput_QuoteBOrderOutput *)CGPParseFromInputStream(ComDzhyunProtoDzhoutput_QuoteBOrderOutput_descriptor_, input, registry);
+}
+ComDzhyunProtoDzhoutput_QuoteBOrderOutput *ComDzhyunProtoDzhoutput_QuoteBOrderOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry) {
+  ComDzhyunProtoDzhoutput_QuoteBOrderOutput_initialize();
+  return (ComDzhyunProtoDzhoutput_QuoteBOrderOutput *)CGPParseDelimitedFromInputStream(ComDzhyunProtoDzhoutput_QuoteBOrderOutput_descriptor_, input, registry);
+}
+
+@implementation ComDzhyunProtoDzhoutput_QuoteBOrderOutput_Builder
+
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor {
+  return [ComDzhyunProtoDzhoutput_QuoteBOrderOutput getDescriptor];
+}
+
+@end
+
+J2OBJC_CLASS_TYPE_LITERAL_SOURCE(ComDzhyunProtoDzhoutput_QuoteBOrderOutput_Builder)
+J2OBJC_INTERFACE_TYPE_LITERAL_SOURCE(ComDzhyunProtoDzhoutput_QuoteBOrderOutputOrBuilder)
+
+ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhoutput_QuoteBOrderOutput_Builder_getDescriptor() {
+  ComDzhyunProtoDzhoutput_QuoteBOrderOutput_initialize();
+  return ComDzhyunProtoDzhoutput_QuoteBOrderOutput_descriptor_;
+}

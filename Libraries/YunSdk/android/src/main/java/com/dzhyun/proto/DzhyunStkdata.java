@@ -1230,108 +1230,6 @@ public final class DzhyunStkdata {
     long getMaiChuDanShu();
 
     /**
-     * <code>optional int64 MaiRuZhongDanBiLi = 71;</code>
-     *
-     * <pre>
-     * 买入中单比例
-     * </pre>
-     */
-    boolean hasMaiRuZhongDanBiLi();
-    /**
-     * <code>optional int64 MaiRuZhongDanBiLi = 71;</code>
-     *
-     * <pre>
-     * 买入中单比例
-     * </pre>
-     */
-    long getMaiRuZhongDanBiLi();
-
-    /**
-     * <code>optional int64 MaiRuDaDanBiLi = 72;</code>
-     *
-     * <pre>
-     * 买入大单比例
-     * </pre>
-     */
-    boolean hasMaiRuDaDanBiLi();
-    /**
-     * <code>optional int64 MaiRuDaDanBiLi = 72;</code>
-     *
-     * <pre>
-     * 买入大单比例
-     * </pre>
-     */
-    long getMaiRuDaDanBiLi();
-
-    /**
-     * <code>optional int64 MaiRuTeDaDanBiLi = 73;</code>
-     *
-     * <pre>
-     * 买入特大单比例
-     * </pre>
-     */
-    boolean hasMaiRuTeDaDanBiLi();
-    /**
-     * <code>optional int64 MaiRuTeDaDanBiLi = 73;</code>
-     *
-     * <pre>
-     * 买入特大单比例
-     * </pre>
-     */
-    long getMaiRuTeDaDanBiLi();
-
-    /**
-     * <code>optional int64 MaiChuZhongDanBiLi = 74;</code>
-     *
-     * <pre>
-     * 卖出中单比例
-     * </pre>
-     */
-    boolean hasMaiChuZhongDanBiLi();
-    /**
-     * <code>optional int64 MaiChuZhongDanBiLi = 74;</code>
-     *
-     * <pre>
-     * 卖出中单比例
-     * </pre>
-     */
-    long getMaiChuZhongDanBiLi();
-
-    /**
-     * <code>optional int64 MaiChuDaDanBiLi = 75;</code>
-     *
-     * <pre>
-     * 卖出大单比例
-     * </pre>
-     */
-    boolean hasMaiChuDaDanBiLi();
-    /**
-     * <code>optional int64 MaiChuDaDanBiLi = 75;</code>
-     *
-     * <pre>
-     * 卖出大单比例
-     * </pre>
-     */
-    long getMaiChuDaDanBiLi();
-
-    /**
-     * <code>optional int64 MaiChuTeDaDanBiLi = 76;</code>
-     *
-     * <pre>
-     * 卖出特大单比例
-     * </pre>
-     */
-    boolean hasMaiChuTeDaDanBiLi();
-    /**
-     * <code>optional int64 MaiChuTeDaDanBiLi = 76;</code>
-     *
-     * <pre>
-     * 卖出特大单比例
-     * </pre>
-     */
-    long getMaiChuTeDaDanBiLi();
-
-    /**
      * <code>optional int64 FenZhongZhangFu1 = 77;</code>
      *
      * <pre>
@@ -5041,6 +4939,227 @@ public final class DzhyunStkdata {
      * </pre>
      */
     long getYouXianGuHuoQiTa();
+
+    /**
+     * <code>optional int64 WeiTuoMaiRu = 700;</code>
+     *
+     * <pre>
+     * Level2统计数据
+     * </pre>
+     */
+    boolean hasWeiTuoMaiRu();
+    /**
+     * <code>optional int64 WeiTuoMaiRu = 700;</code>
+     *
+     * <pre>
+     * Level2统计数据
+     * </pre>
+     */
+    long getWeiTuoMaiRu();
+
+    /**
+     * <code>optional int64 WeiTuoMaiChu = 701;</code>
+     *
+     * <pre>
+     * 委托单卖出数量
+     * </pre>
+     */
+    boolean hasWeiTuoMaiChu();
+    /**
+     * <code>optional int64 WeiTuoMaiChu = 701;</code>
+     *
+     * <pre>
+     * 委托单卖出数量
+     * </pre>
+     */
+    long getWeiTuoMaiChu();
+
+    /**
+     * <code>optional int64 MaiRuZhongDanBiLi = 702;</code>
+     *
+     * <pre>
+     * 买入中单比例
+     * </pre>
+     */
+    boolean hasMaiRuZhongDanBiLi();
+    /**
+     * <code>optional int64 MaiRuZhongDanBiLi = 702;</code>
+     *
+     * <pre>
+     * 买入中单比例
+     * </pre>
+     */
+    long getMaiRuZhongDanBiLi();
+
+    /**
+     * <code>optional int64 MaiRuDaDanBiLi = 703;</code>
+     *
+     * <pre>
+     * 买入大单比例
+     * </pre>
+     */
+    boolean hasMaiRuDaDanBiLi();
+    /**
+     * <code>optional int64 MaiRuDaDanBiLi = 703;</code>
+     *
+     * <pre>
+     * 买入大单比例
+     * </pre>
+     */
+    long getMaiRuDaDanBiLi();
+
+    /**
+     * <code>optional int64 MaiRuTeDaDanBiLi = 704;</code>
+     *
+     * <pre>
+     * 买入特大单比例
+     * </pre>
+     */
+    boolean hasMaiRuTeDaDanBiLi();
+    /**
+     * <code>optional int64 MaiRuTeDaDanBiLi = 704;</code>
+     *
+     * <pre>
+     * 买入特大单比例
+     * </pre>
+     */
+    long getMaiRuTeDaDanBiLi();
+
+    /**
+     * <code>optional int64 MaiChuZhongDanBiLi = 705;</code>
+     *
+     * <pre>
+     * 卖出中单比例
+     * </pre>
+     */
+    boolean hasMaiChuZhongDanBiLi();
+    /**
+     * <code>optional int64 MaiChuZhongDanBiLi = 705;</code>
+     *
+     * <pre>
+     * 卖出中单比例
+     * </pre>
+     */
+    long getMaiChuZhongDanBiLi();
+
+    /**
+     * <code>optional int64 MaiChuDaDanBiLi = 706;</code>
+     *
+     * <pre>
+     * 卖出大单比例
+     * </pre>
+     */
+    boolean hasMaiChuDaDanBiLi();
+    /**
+     * <code>optional int64 MaiChuDaDanBiLi = 706;</code>
+     *
+     * <pre>
+     * 卖出大单比例
+     * </pre>
+     */
+    long getMaiChuDaDanBiLi();
+
+    /**
+     * <code>optional int64 MaiChuTeDaDanBiLi = 707;</code>
+     *
+     * <pre>
+     * 卖出特大单比例
+     * </pre>
+     */
+    boolean hasMaiChuTeDaDanBiLi();
+    /**
+     * <code>optional int64 MaiChuTeDaDanBiLi = 707;</code>
+     *
+     * <pre>
+     * 卖出特大单比例
+     * </pre>
+     */
+    long getMaiChuTeDaDanBiLi();
+
+    /**
+     * <code>optional int64 DuanXianMaiRu = 708;</code>
+     *
+     * <pre>
+     * 短线精灵买入大单统计
+     * </pre>
+     */
+    boolean hasDuanXianMaiRu();
+    /**
+     * <code>optional int64 DuanXianMaiRu = 708;</code>
+     *
+     * <pre>
+     * 短线精灵买入大单统计
+     * </pre>
+     */
+    long getDuanXianMaiRu();
+
+    /**
+     * <code>optional int64 DuanXianMaiChu = 709;</code>
+     *
+     * <pre>
+     * 短线精灵卖出大单统计
+     * </pre>
+     */
+    boolean hasDuanXianMaiChu();
+    /**
+     * <code>optional int64 DuanXianMaiChu = 709;</code>
+     *
+     * <pre>
+     * 短线精灵卖出大单统计
+     * </pre>
+     */
+    long getDuanXianMaiChu();
+
+    /**
+     * <code>optional int64 DuanXianChiHuo = 710;</code>
+     *
+     * <pre>
+     * 短线精灵吃货大单统计
+     * </pre>
+     */
+    boolean hasDuanXianChiHuo();
+    /**
+     * <code>optional int64 DuanXianChiHuo = 710;</code>
+     *
+     * <pre>
+     * 短线精灵吃货大单统计
+     * </pre>
+     */
+    long getDuanXianChiHuo();
+
+    /**
+     * <code>optional int64 DuanXianTuHuo = 711;</code>
+     *
+     * <pre>
+     * 短线精灵吐货大单统计
+     * </pre>
+     */
+    boolean hasDuanXianTuHuo();
+    /**
+     * <code>optional int64 DuanXianTuHuo = 711;</code>
+     *
+     * <pre>
+     * 短线精灵吐货大单统计
+     * </pre>
+     */
+    long getDuanXianTuHuo();
+
+    /**
+     * <code>optional int64 BiShi = 801;</code>
+     *
+     * <pre>
+     *市场动态
+     * </pre>
+     */
+    boolean hasBiShi();
+    /**
+     * <code>optional int64 BiShi = 801;</code>
+     *
+     * <pre>
+     *市场动态
+     * </pre>
+     */
+    long getBiShi();
   }
   /**
    * Protobuf type {@code dzhyun.StkData}
@@ -5456,1115 +5575,1150 @@ public final class DzhyunStkdata {
               maiChuDanShu_ = input.readInt64();
               break;
             }
-            case 568: {
-              bitField2_ |= 0x00000040;
-              maiRuZhongDanBiLi_ = input.readInt64();
-              break;
-            }
-            case 576: {
-              bitField2_ |= 0x00000080;
-              maiRuDaDanBiLi_ = input.readInt64();
-              break;
-            }
-            case 584: {
-              bitField2_ |= 0x00000100;
-              maiRuTeDaDanBiLi_ = input.readInt64();
-              break;
-            }
-            case 592: {
-              bitField2_ |= 0x00000200;
-              maiChuZhongDanBiLi_ = input.readInt64();
-              break;
-            }
-            case 600: {
-              bitField2_ |= 0x00000400;
-              maiChuDaDanBiLi_ = input.readInt64();
-              break;
-            }
-            case 608: {
-              bitField2_ |= 0x00000800;
-              maiChuTeDaDanBiLi_ = input.readInt64();
-              break;
-            }
             case 616: {
-              bitField2_ |= 0x00001000;
+              bitField2_ |= 0x00000040;
               fenZhongZhangFu1_ = input.readInt64();
               break;
             }
             case 624: {
-              bitField2_ |= 0x00002000;
+              bitField2_ |= 0x00000080;
               fenZhongZhangFu2_ = input.readInt64();
               break;
             }
             case 632: {
-              bitField2_ |= 0x00004000;
+              bitField2_ |= 0x00000100;
               fenZhongZhangFu3_ = input.readInt64();
               break;
             }
             case 640: {
-              bitField2_ |= 0x00008000;
+              bitField2_ |= 0x00000200;
               fenZhongZhangFu4_ = input.readInt64();
               break;
             }
             case 648: {
-              bitField2_ |= 0x00010000;
+              bitField2_ |= 0x00000400;
               fenZhongZhangFu5_ = input.readInt64();
               break;
             }
             case 656: {
-              bitField2_ |= 0x00020000;
+              bitField2_ |= 0x00000800;
               shiYingLv_ = input.readInt64();
               break;
             }
             case 664: {
-              bitField2_ |= 0x00040000;
+              bitField2_ |= 0x00001000;
               zhangTing_ = input.readInt64();
               break;
             }
             case 672: {
-              bitField2_ |= 0x00080000;
+              bitField2_ |= 0x00002000;
               dieTing_ = input.readInt64();
               break;
             }
             case 682: {
               com.google.protobuf.ByteString bs = input.readBytes();
-              bitField2_ |= 0x00100000;
+              bitField2_ |= 0x00004000;
               shiChangMingCheng_ = bs;
               break;
             }
             case 690: {
               com.google.protobuf.ByteString bs = input.readBytes();
-              bitField2_ |= 0x00200000;
+              bitField2_ |= 0x00008000;
               shiChangDuanMingCheng_ = bs;
               break;
             }
             case 696: {
-              bitField2_ |= 0x00400000;
+              bitField2_ |= 0x00010000;
               jiGouChiHuoShu_ = input.readInt64();
               break;
             }
             case 704: {
-              bitField2_ |= 0x00800000;
+              bitField2_ |= 0x00020000;
               jiGouTuHuoShu_ = input.readInt64();
               break;
             }
             case 712: {
-              bitField2_ |= 0x01000000;
+              bitField2_ |= 0x00040000;
               jiGouChiHuoLiang_ = input.readInt64();
               break;
             }
             case 720: {
-              bitField2_ |= 0x02000000;
+              bitField2_ |= 0x00080000;
               jiGouTuHuoLiang_ = input.readInt64();
               break;
             }
             case 728: {
-              bitField2_ |= 0x04000000;
+              bitField2_ |= 0x00100000;
               jiGouChiHuoJunE_ = input.readInt64();
               break;
             }
             case 736: {
-              bitField2_ |= 0x08000000;
+              bitField2_ |= 0x00200000;
               jiGouTuHuoJunE_ = input.readInt64();
               break;
             }
             case 744: {
-              bitField2_ |= 0x10000000;
+              bitField2_ |= 0x00400000;
               meiShouGuShu_ = input.readInt64();
               break;
             }
             case 752: {
-              bitField2_ |= 0x20000000;
+              bitField2_ |= 0x00800000;
               jiaoYiDanWei_ = input.readInt64();
               break;
             }
             case 760: {
-              bitField2_ |= 0x40000000;
+              bitField2_ |= 0x01000000;
               shiXiaoLv_ = input.readInt64();
               break;
             }
             case 768: {
-              bitField2_ |= 0x80000000;
+              bitField2_ |= 0x02000000;
               shiJian_ = input.readInt64();
               break;
             }
             case 776: {
-              bitField3_ |= 0x00000001;
+              bitField2_ |= 0x04000000;
               shiJingLv_ = input.readInt64();
               break;
             }
             case 784: {
-              bitField3_ |= 0x00000002;
+              bitField2_ |= 0x08000000;
               zongShiZhi_ = input.readInt64();
               break;
             }
             case 792: {
-              bitField3_ |= 0x00000004;
+              bitField2_ |= 0x10000000;
               liuTongShiZhi_ = input.readInt64();
               break;
             }
             case 1600: {
-              bitField3_ |= 0x00000008;
+              bitField2_ |= 0x20000000;
               mA1MinMA1_ = input.readInt64();
               break;
             }
             case 1608: {
-              bitField3_ |= 0x00000010;
+              bitField2_ |= 0x40000000;
               mA1MinMA2_ = input.readInt64();
               break;
             }
             case 1616: {
-              bitField3_ |= 0x00000020;
+              bitField2_ |= 0x80000000;
               mA1MinMA3_ = input.readInt64();
               break;
             }
             case 1624: {
-              bitField3_ |= 0x00000040;
+              bitField3_ |= 0x00000001;
               mA1MinMA4_ = input.readInt64();
               break;
             }
             case 1632: {
-              bitField3_ |= 0x00000080;
+              bitField3_ |= 0x00000002;
               mA1MinMA5_ = input.readInt64();
               break;
             }
             case 1640: {
-              bitField3_ |= 0x00000100;
+              bitField3_ |= 0x00000004;
               mA1MinMA6_ = input.readInt64();
               break;
             }
             case 1648: {
-              bitField3_ |= 0x00000200;
+              bitField3_ |= 0x00000008;
               mA5MinMA1_ = input.readInt64();
               break;
             }
             case 1656: {
-              bitField3_ |= 0x00000400;
+              bitField3_ |= 0x00000010;
               mA5MinMA2_ = input.readInt64();
               break;
             }
             case 1664: {
-              bitField3_ |= 0x00000800;
+              bitField3_ |= 0x00000020;
               mA5MinMA3_ = input.readInt64();
               break;
             }
             case 1672: {
-              bitField3_ |= 0x00001000;
+              bitField3_ |= 0x00000040;
               mA5MinMA4_ = input.readInt64();
               break;
             }
             case 1680: {
-              bitField3_ |= 0x00002000;
+              bitField3_ |= 0x00000080;
               mA5MinMA5_ = input.readInt64();
               break;
             }
             case 1688: {
-              bitField3_ |= 0x00004000;
+              bitField3_ |= 0x00000100;
               mA5MinMA6_ = input.readInt64();
               break;
             }
             case 1696: {
-              bitField3_ |= 0x00008000;
+              bitField3_ |= 0x00000200;
               mA1DayMA1_ = input.readInt64();
               break;
             }
             case 1704: {
-              bitField3_ |= 0x00010000;
+              bitField3_ |= 0x00000400;
               mA1DayMA2_ = input.readInt64();
               break;
             }
             case 1712: {
-              bitField3_ |= 0x00020000;
+              bitField3_ |= 0x00000800;
               mA1DayMA3_ = input.readInt64();
               break;
             }
             case 1720: {
-              bitField3_ |= 0x00040000;
+              bitField3_ |= 0x00001000;
               mA1DayMA4_ = input.readInt64();
               break;
             }
             case 1728: {
-              bitField3_ |= 0x00080000;
+              bitField3_ |= 0x00002000;
               mA1DayMA5_ = input.readInt64();
               break;
             }
             case 1736: {
-              bitField3_ |= 0x00100000;
+              bitField3_ |= 0x00004000;
               mA1DayMA6_ = input.readInt64();
               break;
             }
             case 1744: {
-              bitField3_ |= 0x00200000;
+              bitField3_ |= 0x00008000;
               bOLL1MinMID_ = input.readInt64();
               break;
             }
             case 1752: {
-              bitField3_ |= 0x00400000;
+              bitField3_ |= 0x00010000;
               bOLL1MinUPPER_ = input.readInt64();
               break;
             }
             case 1760: {
-              bitField3_ |= 0x00800000;
+              bitField3_ |= 0x00020000;
               bOLL1MinLOWER_ = input.readInt64();
               break;
             }
             case 1768: {
-              bitField3_ |= 0x01000000;
+              bitField3_ |= 0x00040000;
               bOLL5MinMID_ = input.readInt64();
               break;
             }
             case 1776: {
-              bitField3_ |= 0x02000000;
+              bitField3_ |= 0x00080000;
               bOLL5MinUPPER_ = input.readInt64();
               break;
             }
             case 1784: {
-              bitField3_ |= 0x04000000;
+              bitField3_ |= 0x00100000;
               bOLL5MinLOWER_ = input.readInt64();
               break;
             }
             case 1792: {
-              bitField3_ |= 0x08000000;
+              bitField3_ |= 0x00200000;
               bOLL1DayMID_ = input.readInt64();
               break;
             }
             case 1800: {
-              bitField3_ |= 0x10000000;
+              bitField3_ |= 0x00400000;
               bOLL1DayUPPER_ = input.readInt64();
               break;
             }
             case 1808: {
-              bitField3_ |= 0x20000000;
+              bitField3_ |= 0x00800000;
               bOLL1DayLOWER_ = input.readInt64();
               break;
             }
             case 1816: {
-              bitField3_ |= 0x40000000;
+              bitField3_ |= 0x01000000;
               vOL1Min_ = input.readInt64();
               break;
             }
             case 1824: {
-              bitField3_ |= 0x80000000;
+              bitField3_ |= 0x02000000;
               vOL1MinMA1_ = input.readInt64();
               break;
             }
             case 1832: {
-              bitField4_ |= 0x00000001;
+              bitField3_ |= 0x04000000;
               vOL1MinMA2_ = input.readInt64();
               break;
             }
             case 1840: {
-              bitField4_ |= 0x00000002;
+              bitField3_ |= 0x08000000;
               vOL1MinMA3_ = input.readInt64();
               break;
             }
             case 1848: {
-              bitField4_ |= 0x00000004;
+              bitField3_ |= 0x10000000;
               vOL5Min_ = input.readInt64();
               break;
             }
             case 1856: {
-              bitField4_ |= 0x00000008;
+              bitField3_ |= 0x20000000;
               vOL5MinMA1_ = input.readInt64();
               break;
             }
             case 1864: {
-              bitField4_ |= 0x00000010;
+              bitField3_ |= 0x40000000;
               vOL5MinMA2_ = input.readInt64();
               break;
             }
             case 1872: {
-              bitField4_ |= 0x00000020;
+              bitField3_ |= 0x80000000;
               vOL5MinMA3_ = input.readInt64();
               break;
             }
             case 1880: {
-              bitField4_ |= 0x00000040;
+              bitField4_ |= 0x00000001;
               vOL1Day_ = input.readInt64();
               break;
             }
             case 1888: {
-              bitField4_ |= 0x00000080;
+              bitField4_ |= 0x00000002;
               vOL1DayMA1_ = input.readInt64();
               break;
             }
             case 1896: {
-              bitField4_ |= 0x00000100;
+              bitField4_ |= 0x00000004;
               vOL1DayMA2_ = input.readInt64();
               break;
             }
             case 1904: {
-              bitField4_ |= 0x00000200;
+              bitField4_ |= 0x00000008;
               vOL1DayMA3_ = input.readInt64();
               break;
             }
             case 1912: {
-              bitField4_ |= 0x00000400;
+              bitField4_ |= 0x00000010;
               aRBR1MinAR_ = input.readInt64();
               break;
             }
             case 1920: {
-              bitField4_ |= 0x00000800;
+              bitField4_ |= 0x00000020;
               aRBR1MinBR_ = input.readInt64();
               break;
             }
             case 1928: {
-              bitField4_ |= 0x00001000;
+              bitField4_ |= 0x00000040;
               aRBR5MinAR_ = input.readInt64();
               break;
             }
             case 1936: {
-              bitField4_ |= 0x00002000;
+              bitField4_ |= 0x00000080;
               aRBR5MinBR_ = input.readInt64();
               break;
             }
             case 1944: {
-              bitField4_ |= 0x00004000;
+              bitField4_ |= 0x00000100;
               aRBR1DayAR_ = input.readInt64();
               break;
             }
             case 1952: {
-              bitField4_ |= 0x00008000;
+              bitField4_ |= 0x00000200;
               aRBR1DayBR_ = input.readInt64();
               break;
             }
             case 1960: {
-              bitField4_ |= 0x00010000;
+              bitField4_ |= 0x00000400;
               bIAS1MinBIAS1_ = input.readInt64();
               break;
             }
             case 1968: {
-              bitField4_ |= 0x00020000;
+              bitField4_ |= 0x00000800;
               bIAS1MinBIAS2_ = input.readInt64();
               break;
             }
             case 1976: {
-              bitField4_ |= 0x00040000;
+              bitField4_ |= 0x00001000;
               bIAS1MinBIAS3_ = input.readInt64();
               break;
             }
             case 1984: {
-              bitField4_ |= 0x00080000;
+              bitField4_ |= 0x00002000;
               bIAS5MinBIAS1_ = input.readInt64();
               break;
             }
             case 1992: {
-              bitField4_ |= 0x00100000;
+              bitField4_ |= 0x00004000;
               bIAS5MinBIAS2_ = input.readInt64();
               break;
             }
             case 2000: {
-              bitField4_ |= 0x00200000;
+              bitField4_ |= 0x00008000;
               bIAS5MinBIAS3_ = input.readInt64();
               break;
             }
             case 2008: {
-              bitField4_ |= 0x00400000;
+              bitField4_ |= 0x00010000;
               bIAS1DayBIAS1_ = input.readInt64();
               break;
             }
             case 2016: {
-              bitField4_ |= 0x00800000;
+              bitField4_ |= 0x00020000;
               bIAS1DayBIAS2_ = input.readInt64();
               break;
             }
             case 2024: {
-              bitField4_ |= 0x01000000;
+              bitField4_ |= 0x00040000;
               bIAS1DayBIAS3_ = input.readInt64();
               break;
             }
             case 2032: {
-              bitField4_ |= 0x02000000;
+              bitField4_ |= 0x00080000;
               cCI1Min_ = input.readInt64();
               break;
             }
             case 2040: {
-              bitField4_ |= 0x04000000;
+              bitField4_ |= 0x00100000;
               cCI5Min_ = input.readInt64();
               break;
             }
             case 2048: {
-              bitField4_ |= 0x08000000;
+              bitField4_ |= 0x00200000;
               cCI1Day_ = input.readInt64();
               break;
             }
             case 2056: {
-              bitField4_ |= 0x10000000;
+              bitField4_ |= 0x00400000;
               cJBS1MinCJBS_ = input.readInt64();
               break;
             }
             case 2064: {
-              bitField4_ |= 0x20000000;
+              bitField4_ |= 0x00800000;
               cJBS5MinCJBS_ = input.readInt64();
               break;
             }
             case 2072: {
-              bitField4_ |= 0x40000000;
+              bitField4_ |= 0x01000000;
               cJBS1DayCJBS_ = input.readInt64();
               break;
             }
             case 2080: {
-              bitField4_ |= 0x80000000;
+              bitField4_ |= 0x02000000;
               cR1MinCR_ = input.readInt64();
               break;
             }
             case 2088: {
-              bitField5_ |= 0x00000001;
+              bitField4_ |= 0x04000000;
               cR1MinMA1_ = input.readInt64();
               break;
             }
             case 2096: {
-              bitField5_ |= 0x00000002;
+              bitField4_ |= 0x08000000;
               cR1MinMA2_ = input.readInt64();
               break;
             }
             case 2104: {
-              bitField5_ |= 0x00000004;
+              bitField4_ |= 0x10000000;
               cR1MinMA3_ = input.readInt64();
               break;
             }
             case 2112: {
-              bitField5_ |= 0x00000008;
+              bitField4_ |= 0x20000000;
               cR5MinCR_ = input.readInt64();
               break;
             }
             case 2120: {
-              bitField5_ |= 0x00000010;
+              bitField4_ |= 0x40000000;
               cR5MinMA1_ = input.readInt64();
               break;
             }
             case 2128: {
-              bitField5_ |= 0x00000020;
+              bitField4_ |= 0x80000000;
               cR5MinMA2_ = input.readInt64();
               break;
             }
             case 2136: {
-              bitField5_ |= 0x00000040;
+              bitField5_ |= 0x00000001;
               cR5MinMA3_ = input.readInt64();
               break;
             }
             case 2144: {
-              bitField5_ |= 0x00000080;
+              bitField5_ |= 0x00000002;
               cR1DayCR_ = input.readInt64();
               break;
             }
             case 2152: {
-              bitField5_ |= 0x00000100;
+              bitField5_ |= 0x00000004;
               cR1DayMA1_ = input.readInt64();
               break;
             }
             case 2160: {
-              bitField5_ |= 0x00000200;
+              bitField5_ |= 0x00000008;
               cR1DayMA2_ = input.readInt64();
               break;
             }
             case 2168: {
-              bitField5_ |= 0x00000400;
+              bitField5_ |= 0x00000010;
               cR1DayMA3_ = input.readInt64();
               break;
             }
             case 2176: {
-              bitField5_ |= 0x00000800;
+              bitField5_ |= 0x00000020;
               dMA1MinDDD_ = input.readInt64();
               break;
             }
             case 2184: {
-              bitField5_ |= 0x00001000;
+              bitField5_ |= 0x00000040;
               dMA1MinAMA_ = input.readInt64();
               break;
             }
             case 2192: {
-              bitField5_ |= 0x00002000;
+              bitField5_ |= 0x00000080;
               dMA5MinDDD_ = input.readInt64();
               break;
             }
             case 2200: {
-              bitField5_ |= 0x00004000;
+              bitField5_ |= 0x00000100;
               dMA5MinAMA_ = input.readInt64();
               break;
             }
             case 2208: {
-              bitField5_ |= 0x00008000;
+              bitField5_ |= 0x00000200;
               dMA1DayDDD_ = input.readInt64();
               break;
             }
             case 2216: {
-              bitField5_ |= 0x00010000;
+              bitField5_ |= 0x00000400;
               dMA1DayAMA_ = input.readInt64();
               break;
             }
             case 2224: {
-              bitField5_ |= 0x00020000;
+              bitField5_ |= 0x00000800;
               dMI1MinPDI_ = input.readInt64();
               break;
             }
             case 2232: {
-              bitField5_ |= 0x00040000;
+              bitField5_ |= 0x00001000;
               dMI1MinMDI_ = input.readInt64();
               break;
             }
             case 2240: {
-              bitField5_ |= 0x00080000;
+              bitField5_ |= 0x00002000;
               dMI1MinADX_ = input.readInt64();
               break;
             }
             case 2248: {
-              bitField5_ |= 0x00100000;
+              bitField5_ |= 0x00004000;
               dMI1MinADXR_ = input.readInt64();
               break;
             }
             case 2256: {
-              bitField5_ |= 0x00200000;
+              bitField5_ |= 0x00008000;
               dMI5MinPDI_ = input.readInt64();
               break;
             }
             case 2264: {
-              bitField5_ |= 0x00400000;
+              bitField5_ |= 0x00010000;
               dMI5MinMDI_ = input.readInt64();
               break;
             }
             case 2272: {
-              bitField5_ |= 0x00800000;
+              bitField5_ |= 0x00020000;
               dMI5MinADX_ = input.readInt64();
               break;
             }
             case 2280: {
-              bitField5_ |= 0x01000000;
+              bitField5_ |= 0x00040000;
               dMI5MinADXR_ = input.readInt64();
               break;
             }
             case 2288: {
-              bitField5_ |= 0x02000000;
+              bitField5_ |= 0x00080000;
               dMI1DayPDI_ = input.readInt64();
               break;
             }
             case 2296: {
-              bitField5_ |= 0x04000000;
+              bitField5_ |= 0x00100000;
               dMI1DayMDI_ = input.readInt64();
               break;
             }
             case 2304: {
-              bitField5_ |= 0x08000000;
+              bitField5_ |= 0x00200000;
               dMI1DayADX_ = input.readInt64();
               break;
             }
             case 2312: {
-              bitField5_ |= 0x10000000;
+              bitField5_ |= 0x00400000;
               dMI1DayADXR_ = input.readInt64();
               break;
             }
             case 2320: {
-              bitField5_ |= 0x20000000;
+              bitField5_ |= 0x00800000;
               kDJ1MinK_ = input.readInt64();
               break;
             }
             case 2328: {
-              bitField5_ |= 0x40000000;
+              bitField5_ |= 0x01000000;
               kDJ1MinD_ = input.readInt64();
               break;
             }
             case 2336: {
-              bitField5_ |= 0x80000000;
+              bitField5_ |= 0x02000000;
               kDJ1MinJ_ = input.readInt64();
               break;
             }
             case 2344: {
-              bitField6_ |= 0x00000001;
+              bitField5_ |= 0x04000000;
               kDJ5MinK_ = input.readInt64();
               break;
             }
             case 2352: {
-              bitField6_ |= 0x00000002;
+              bitField5_ |= 0x08000000;
               kDJ5MinD_ = input.readInt64();
               break;
             }
             case 2360: {
-              bitField6_ |= 0x00000004;
+              bitField5_ |= 0x10000000;
               kDJ5MinJ_ = input.readInt64();
               break;
             }
             case 2368: {
-              bitField6_ |= 0x00000008;
+              bitField5_ |= 0x20000000;
               kDJ1DayK_ = input.readInt64();
               break;
             }
             case 2376: {
-              bitField6_ |= 0x00000010;
+              bitField5_ |= 0x40000000;
               kDJ1DayD_ = input.readInt64();
               break;
             }
             case 2384: {
-              bitField6_ |= 0x00000020;
+              bitField5_ |= 0x80000000;
               kDJ1DayJ_ = input.readInt64();
               break;
             }
             case 2392: {
-              bitField6_ |= 0x00000040;
+              bitField6_ |= 0x00000001;
               mACD1MinDIFF_ = input.readInt64();
               break;
             }
             case 2400: {
-              bitField6_ |= 0x00000080;
+              bitField6_ |= 0x00000002;
               mACD1MinDEA_ = input.readInt64();
               break;
             }
             case 2408: {
-              bitField6_ |= 0x00000100;
+              bitField6_ |= 0x00000004;
               mACD1MinMACD_ = input.readInt64();
               break;
             }
             case 2416: {
-              bitField6_ |= 0x00000200;
+              bitField6_ |= 0x00000008;
               mACD5MinDIFF_ = input.readInt64();
               break;
             }
             case 2424: {
-              bitField6_ |= 0x00000400;
+              bitField6_ |= 0x00000010;
               mACD5MinDEA_ = input.readInt64();
               break;
             }
             case 2432: {
-              bitField6_ |= 0x00000800;
+              bitField6_ |= 0x00000020;
               mACD5MinMACD_ = input.readInt64();
               break;
             }
             case 2440: {
-              bitField6_ |= 0x00001000;
+              bitField6_ |= 0x00000040;
               mACD1DayDIFF_ = input.readInt64();
               break;
             }
             case 2448: {
-              bitField6_ |= 0x00002000;
+              bitField6_ |= 0x00000080;
               mACD1DayDEA_ = input.readInt64();
               break;
             }
             case 2456: {
-              bitField6_ |= 0x00004000;
+              bitField6_ |= 0x00000100;
               mACD1DayMACD_ = input.readInt64();
               break;
             }
             case 2464: {
-              bitField6_ |= 0x00008000;
+              bitField6_ |= 0x00000200;
               oBV1Min_ = input.readInt64();
               break;
             }
             case 2472: {
-              bitField6_ |= 0x00010000;
+              bitField6_ |= 0x00000400;
               oBV5Min_ = input.readInt64();
               break;
             }
             case 2480: {
-              bitField6_ |= 0x00020000;
+              bitField6_ |= 0x00000800;
               oBV1Day_ = input.readInt64();
               break;
             }
             case 2488: {
-              bitField6_ |= 0x00040000;
+              bitField6_ |= 0x00001000;
               pSY1Min_ = input.readInt64();
               break;
             }
             case 2496: {
-              bitField6_ |= 0x00080000;
+              bitField6_ |= 0x00002000;
               pSY5Min_ = input.readInt64();
               break;
             }
             case 2504: {
-              bitField6_ |= 0x00100000;
+              bitField6_ |= 0x00004000;
               pSY1Day_ = input.readInt64();
               break;
             }
             case 2512: {
-              bitField6_ |= 0x00200000;
+              bitField6_ |= 0x00008000;
               rSI1MinRSI1_ = input.readInt64();
               break;
             }
             case 2520: {
-              bitField6_ |= 0x00400000;
+              bitField6_ |= 0x00010000;
               rSI1MinRSI2_ = input.readInt64();
               break;
             }
             case 2528: {
-              bitField6_ |= 0x00800000;
+              bitField6_ |= 0x00020000;
               rSI1MinRSI3_ = input.readInt64();
               break;
             }
             case 2536: {
-              bitField6_ |= 0x01000000;
+              bitField6_ |= 0x00040000;
               rSI5MinRSI1_ = input.readInt64();
               break;
             }
             case 2544: {
-              bitField6_ |= 0x02000000;
+              bitField6_ |= 0x00080000;
               rSI5MinRSI2_ = input.readInt64();
               break;
             }
             case 2552: {
-              bitField6_ |= 0x04000000;
+              bitField6_ |= 0x00100000;
               rSI5MinRSI3_ = input.readInt64();
               break;
             }
             case 2560: {
-              bitField6_ |= 0x08000000;
+              bitField6_ |= 0x00200000;
               rSI1DayRSI1_ = input.readInt64();
               break;
             }
             case 2568: {
-              bitField6_ |= 0x10000000;
+              bitField6_ |= 0x00400000;
               rSI1DayRSI2_ = input.readInt64();
               break;
             }
             case 2576: {
-              bitField6_ |= 0x20000000;
+              bitField6_ |= 0x00800000;
               rSI1DayRSI3_ = input.readInt64();
               break;
             }
             case 2584: {
-              bitField6_ |= 0x40000000;
+              bitField6_ |= 0x01000000;
               wR1MinWR1_ = input.readInt64();
               break;
             }
             case 2592: {
-              bitField6_ |= 0x80000000;
+              bitField6_ |= 0x02000000;
               wR1MinWR2_ = input.readInt64();
               break;
             }
             case 2600: {
-              bitField7_ |= 0x00000001;
+              bitField6_ |= 0x04000000;
               wR5MinWR1_ = input.readInt64();
               break;
             }
             case 2608: {
-              bitField7_ |= 0x00000002;
+              bitField6_ |= 0x08000000;
               wR5MinWR2_ = input.readInt64();
               break;
             }
             case 2616: {
-              bitField7_ |= 0x00000004;
+              bitField6_ |= 0x10000000;
               wR1DayWR1_ = input.readInt64();
               break;
             }
             case 2624: {
-              bitField7_ |= 0x00000008;
+              bitField6_ |= 0x20000000;
               wR1DayWR2_ = input.readInt64();
               break;
             }
             case 3200: {
-              bitField7_ |= 0x00000010;
+              bitField6_ |= 0x40000000;
               leiXing_ = input.readInt64();
               break;
             }
             case 3208: {
-              bitField7_ |= 0x00000020;
+              bitField6_ |= 0x80000000;
               ziLeiXing_ = input.readInt64();
               break;
             }
             case 3218: {
               com.google.protobuf.ByteString bs = input.readBytes();
-              bitField7_ |= 0x00000040;
+              bitField7_ |= 0x00000001;
               leiXingMingCheng_ = bs;
               break;
             }
             case 3224: {
-              bitField7_ |= 0x00000080;
+              bitField7_ |= 0x00000002;
               chengJiaoLiangDanWei_ = input.readInt64();
               break;
             }
             case 4008: {
-              bitField7_ |= 0x00000100;
+              bitField7_ |= 0x00000004;
               fJJJLeiXing_ = input.readInt64();
               break;
             }
             case 4016: {
-              bitField7_ |= 0x00000200;
+              bitField7_ |= 0x00000008;
               zhengTiYiJia_ = input.readInt64();
               break;
             }
             case 4088: {
-              bitField7_ |= 0x00004000;
+              bitField7_ |= 0x00000100;
               yinHanShouYi_ = input.readInt64();
               break;
             }
             case 4096: {
-              bitField7_ |= 0x00008000;
+              bitField7_ |= 0x00000200;
               jiaGeGangGan_ = input.readInt64();
               break;
             }
             case 4408: {
-              bitField7_ |= 0x00000400;
+              bitField7_ |= 0x00000010;
               mYiJia_ = input.readInt64();
               break;
             }
             case 4416: {
-              bitField7_ |= 0x00000800;
+              bitField7_ |= 0x00000020;
               mShiShiJingZhi_ = input.readInt64();
               break;
             }
             case 4424: {
-              bitField7_ |= 0x00001000;
+              bitField7_ |= 0x00000040;
               mShangZheXuZhang_ = input.readInt64();
               break;
             }
             case 4432: {
-              bitField7_ |= 0x00002000;
+              bitField7_ |= 0x00000080;
               mXiaZheXuDie_ = input.readInt64();
               break;
             }
             case 4810: {
               com.google.protobuf.ByteString bs = input.readBytes();
-              bitField7_ |= 0x00010000;
+              bitField7_ |= 0x00000400;
               pinZhongObj_ = bs;
               break;
             }
             case 4818: {
               com.google.protobuf.ByteString bs = input.readBytes();
-              bitField7_ |= 0x00020000;
+              bitField7_ |= 0x00000800;
               baoGaoQi_ = bs;
               break;
             }
             case 4826: {
               com.google.protobuf.ByteString bs = input.readBytes();
-              bitField7_ |= 0x00040000;
+              bitField7_ |= 0x00001000;
               shangShiRiQi_ = bs;
               break;
             }
             case 4832: {
-              bitField7_ |= 0x00080000;
+              bitField7_ |= 0x00002000;
               meiGuShouYi_ = input.readInt64();
               break;
             }
             case 4840: {
-              bitField7_ |= 0x00100000;
+              bitField7_ |= 0x00004000;
               meiGuJingZiChan_ = input.readInt64();
               break;
             }
             case 4848: {
-              bitField7_ |= 0x00200000;
+              bitField7_ |= 0x00008000;
               jingZiChanShouYiLv_ = input.readInt64();
               break;
             }
             case 4856: {
-              bitField7_ |= 0x00400000;
+              bitField7_ |= 0x00010000;
               meiGuJingYingXianJin_ = input.readInt64();
               break;
             }
             case 4864: {
-              bitField7_ |= 0x00800000;
+              bitField7_ |= 0x00020000;
               meiGuGongJiJin_ = input.readInt64();
               break;
             }
             case 4872: {
-              bitField7_ |= 0x01000000;
+              bitField7_ |= 0x00040000;
               meiGuWeiFenPei_ = input.readInt64();
               break;
             }
             case 4880: {
-              bitField7_ |= 0x02000000;
+              bitField7_ |= 0x00080000;
               guDongQuanYiBi_ = input.readInt64();
               break;
             }
             case 4888: {
-              bitField7_ |= 0x04000000;
+              bitField7_ |= 0x00100000;
               jingLiRunTongBi_ = input.readInt64();
               break;
             }
             case 4896: {
-              bitField7_ |= 0x08000000;
+              bitField7_ |= 0x00200000;
               zhuYingShouRuTongBi_ = input.readInt64();
               break;
             }
             case 4904: {
-              bitField7_ |= 0x10000000;
+              bitField7_ |= 0x00400000;
               xiaoShouMaoLiLv_ = input.readInt64();
               break;
             }
             case 4912: {
-              bitField7_ |= 0x20000000;
+              bitField7_ |= 0x00800000;
               tiaoZhengMeiGuJingZi_ = input.readInt64();
               break;
             }
             case 4920: {
-              bitField7_ |= 0x40000000;
+              bitField7_ |= 0x01000000;
               zongZiChan_ = input.readInt64();
               break;
             }
             case 4928: {
-              bitField7_ |= 0x80000000;
+              bitField7_ |= 0x02000000;
               liuDongZiChan_ = input.readInt64();
               break;
             }
             case 4936: {
-              bitField8_ |= 0x00000001;
+              bitField7_ |= 0x04000000;
               guDingZiChan_ = input.readInt64();
               break;
             }
             case 4944: {
-              bitField8_ |= 0x00000002;
+              bitField7_ |= 0x08000000;
               wuXingZiChan_ = input.readInt64();
               break;
             }
             case 4952: {
-              bitField8_ |= 0x00000004;
+              bitField7_ |= 0x10000000;
               liuDongFuZhai_ = input.readInt64();
               break;
             }
             case 4960: {
-              bitField8_ |= 0x00000008;
+              bitField7_ |= 0x20000000;
               changQiFuZhai_ = input.readInt64();
               break;
             }
             case 4968: {
-              bitField8_ |= 0x00000010;
+              bitField7_ |= 0x40000000;
               zongFuZhai_ = input.readInt64();
               break;
             }
             case 4976: {
-              bitField8_ |= 0x00000020;
+              bitField7_ |= 0x80000000;
               guDongQuanYi_ = input.readInt64();
               break;
             }
             case 4984: {
-              bitField8_ |= 0x00000040;
+              bitField8_ |= 0x00000001;
               ziBenGongJiJin_ = input.readInt64();
               break;
             }
             case 4992: {
-              bitField8_ |= 0x00000080;
+              bitField8_ |= 0x00000002;
               jingYingXianJinLiuLiang_ = input.readInt64();
               break;
             }
             case 5000: {
-              bitField8_ |= 0x00000100;
+              bitField8_ |= 0x00000004;
               touZiXianJinLiuLiang_ = input.readInt64();
               break;
             }
             case 5008: {
-              bitField8_ |= 0x00000200;
+              bitField8_ |= 0x00000008;
               chouZiXianJinLiuLiang_ = input.readInt64();
               break;
             }
             case 5016: {
-              bitField8_ |= 0x00000400;
+              bitField8_ |= 0x00000010;
               xianJinZengJiaE_ = input.readInt64();
               break;
             }
             case 5024: {
-              bitField8_ |= 0x00000800;
+              bitField8_ |= 0x00000020;
               zhuYingShouRu_ = input.readInt64();
               break;
             }
             case 5032: {
-              bitField8_ |= 0x00001000;
+              bitField8_ |= 0x00000040;
               zhuYingLiRun_ = input.readInt64();
               break;
             }
             case 5040: {
-              bitField8_ |= 0x00002000;
+              bitField8_ |= 0x00000080;
               yingYeLiRun_ = input.readInt64();
               break;
             }
             case 5048: {
-              bitField8_ |= 0x00004000;
+              bitField8_ |= 0x00000100;
               touZiShouYi_ = input.readInt64();
               break;
             }
             case 5056: {
-              bitField8_ |= 0x00008000;
+              bitField8_ |= 0x00000200;
               yingYeWaiShouZhi_ = input.readInt64();
               break;
             }
             case 5064: {
-              bitField8_ |= 0x00010000;
+              bitField8_ |= 0x00000400;
               liRunZongE_ = input.readInt64();
               break;
             }
             case 5072: {
-              bitField8_ |= 0x00020000;
+              bitField8_ |= 0x00000800;
               jingLiRun_ = input.readInt64();
               break;
             }
             case 5080: {
-              bitField8_ |= 0x00040000;
+              bitField8_ |= 0x00001000;
               weiFenPeiLiRun_ = input.readInt64();
               break;
             }
             case 5088: {
-              bitField8_ |= 0x00080000;
+              bitField8_ |= 0x00002000;
               zongGuBen_ = input.readInt64();
               break;
             }
             case 5096: {
-              bitField8_ |= 0x00100000;
+              bitField8_ |= 0x00004000;
               wuXianShouGuHeJi_ = input.readInt64();
               break;
             }
             case 5104: {
-              bitField8_ |= 0x00200000;
+              bitField8_ |= 0x00008000;
               liuTongAGu_ = input.readInt64();
               break;
             }
             case 5112: {
-              bitField8_ |= 0x00400000;
+              bitField8_ |= 0x00010000;
               liuTongBGu_ = input.readInt64();
               break;
             }
             case 5120: {
-              bitField8_ |= 0x00800000;
+              bitField8_ |= 0x00020000;
               jingWaiShangShiGu_ = input.readInt64();
               break;
             }
             case 5128: {
-              bitField8_ |= 0x01000000;
+              bitField8_ |= 0x00040000;
               qiTaLiuTongGu_ = input.readInt64();
               break;
             }
             case 5136: {
-              bitField8_ |= 0x02000000;
+              bitField8_ |= 0x00080000;
               xianShouGuHeJi_ = input.readInt64();
               break;
             }
             case 5144: {
-              bitField8_ |= 0x04000000;
+              bitField8_ |= 0x00100000;
               guoJiaChiGu_ = input.readInt64();
               break;
             }
             case 5152: {
-              bitField8_ |= 0x08000000;
+              bitField8_ |= 0x00200000;
               guoYouFaRenGu_ = input.readInt64();
               break;
             }
             case 5160: {
-              bitField8_ |= 0x10000000;
+              bitField8_ |= 0x00400000;
               jingNeiFaRenGu_ = input.readInt64();
               break;
             }
             case 5168: {
-              bitField8_ |= 0x20000000;
+              bitField8_ |= 0x00800000;
               jingNeiZiRanRenGu_ = input.readInt64();
               break;
             }
             case 5176: {
-              bitField8_ |= 0x40000000;
+              bitField8_ |= 0x01000000;
               qiTaFaQiRenGu_ = input.readInt64();
               break;
             }
             case 5184: {
-              bitField8_ |= 0x80000000;
+              bitField8_ |= 0x02000000;
               muJiFaRenGu_ = input.readInt64();
               break;
             }
             case 5192: {
-              bitField9_ |= 0x00000001;
+              bitField8_ |= 0x04000000;
               jingWaiFaRenGu_ = input.readInt64();
               break;
             }
             case 5200: {
-              bitField9_ |= 0x00000002;
+              bitField8_ |= 0x08000000;
               jingWaiZiRanRenGu_ = input.readInt64();
               break;
             }
             case 5208: {
-              bitField9_ |= 0x00000004;
+              bitField8_ |= 0x10000000;
               youXianGuHuoQiTa_ = input.readInt64();
+              break;
+            }
+            case 5600: {
+              bitField8_ |= 0x20000000;
+              weiTuoMaiRu_ = input.readInt64();
+              break;
+            }
+            case 5608: {
+              bitField8_ |= 0x40000000;
+              weiTuoMaiChu_ = input.readInt64();
+              break;
+            }
+            case 5616: {
+              bitField8_ |= 0x80000000;
+              maiRuZhongDanBiLi_ = input.readInt64();
+              break;
+            }
+            case 5624: {
+              bitField9_ |= 0x00000001;
+              maiRuDaDanBiLi_ = input.readInt64();
+              break;
+            }
+            case 5632: {
+              bitField9_ |= 0x00000002;
+              maiRuTeDaDanBiLi_ = input.readInt64();
+              break;
+            }
+            case 5640: {
+              bitField9_ |= 0x00000004;
+              maiChuZhongDanBiLi_ = input.readInt64();
+              break;
+            }
+            case 5648: {
+              bitField9_ |= 0x00000008;
+              maiChuDaDanBiLi_ = input.readInt64();
+              break;
+            }
+            case 5656: {
+              bitField9_ |= 0x00000010;
+              maiChuTeDaDanBiLi_ = input.readInt64();
+              break;
+            }
+            case 5664: {
+              bitField9_ |= 0x00000020;
+              duanXianMaiRu_ = input.readInt64();
+              break;
+            }
+            case 5672: {
+              bitField9_ |= 0x00000040;
+              duanXianMaiChu_ = input.readInt64();
+              break;
+            }
+            case 5680: {
+              bitField9_ |= 0x00000080;
+              duanXianChiHuo_ = input.readInt64();
+              break;
+            }
+            case 5688: {
+              bitField9_ |= 0x00000100;
+              duanXianTuHuo_ = input.readInt64();
+              break;
+            }
+            case 6408: {
+              bitField9_ |= 0x00000200;
+              biShi_ = input.readInt64();
               break;
             }
           }
@@ -8319,144 +8473,6 @@ public final class DzhyunStkdata {
       return maiChuDanShu_;
     }
 
-    public static final int MAIRUZHONGDANBILI_FIELD_NUMBER = 71;
-    private long maiRuZhongDanBiLi_;
-    /**
-     * <code>optional int64 MaiRuZhongDanBiLi = 71;</code>
-     *
-     * <pre>
-     * 买入中单比例
-     * </pre>
-     */
-    public boolean hasMaiRuZhongDanBiLi() {
-      return ((bitField2_ & 0x00000040) == 0x00000040);
-    }
-    /**
-     * <code>optional int64 MaiRuZhongDanBiLi = 71;</code>
-     *
-     * <pre>
-     * 买入中单比例
-     * </pre>
-     */
-    public long getMaiRuZhongDanBiLi() {
-      return maiRuZhongDanBiLi_;
-    }
-
-    public static final int MAIRUDADANBILI_FIELD_NUMBER = 72;
-    private long maiRuDaDanBiLi_;
-    /**
-     * <code>optional int64 MaiRuDaDanBiLi = 72;</code>
-     *
-     * <pre>
-     * 买入大单比例
-     * </pre>
-     */
-    public boolean hasMaiRuDaDanBiLi() {
-      return ((bitField2_ & 0x00000080) == 0x00000080);
-    }
-    /**
-     * <code>optional int64 MaiRuDaDanBiLi = 72;</code>
-     *
-     * <pre>
-     * 买入大单比例
-     * </pre>
-     */
-    public long getMaiRuDaDanBiLi() {
-      return maiRuDaDanBiLi_;
-    }
-
-    public static final int MAIRUTEDADANBILI_FIELD_NUMBER = 73;
-    private long maiRuTeDaDanBiLi_;
-    /**
-     * <code>optional int64 MaiRuTeDaDanBiLi = 73;</code>
-     *
-     * <pre>
-     * 买入特大单比例
-     * </pre>
-     */
-    public boolean hasMaiRuTeDaDanBiLi() {
-      return ((bitField2_ & 0x00000100) == 0x00000100);
-    }
-    /**
-     * <code>optional int64 MaiRuTeDaDanBiLi = 73;</code>
-     *
-     * <pre>
-     * 买入特大单比例
-     * </pre>
-     */
-    public long getMaiRuTeDaDanBiLi() {
-      return maiRuTeDaDanBiLi_;
-    }
-
-    public static final int MAICHUZHONGDANBILI_FIELD_NUMBER = 74;
-    private long maiChuZhongDanBiLi_;
-    /**
-     * <code>optional int64 MaiChuZhongDanBiLi = 74;</code>
-     *
-     * <pre>
-     * 卖出中单比例
-     * </pre>
-     */
-    public boolean hasMaiChuZhongDanBiLi() {
-      return ((bitField2_ & 0x00000200) == 0x00000200);
-    }
-    /**
-     * <code>optional int64 MaiChuZhongDanBiLi = 74;</code>
-     *
-     * <pre>
-     * 卖出中单比例
-     * </pre>
-     */
-    public long getMaiChuZhongDanBiLi() {
-      return maiChuZhongDanBiLi_;
-    }
-
-    public static final int MAICHUDADANBILI_FIELD_NUMBER = 75;
-    private long maiChuDaDanBiLi_;
-    /**
-     * <code>optional int64 MaiChuDaDanBiLi = 75;</code>
-     *
-     * <pre>
-     * 卖出大单比例
-     * </pre>
-     */
-    public boolean hasMaiChuDaDanBiLi() {
-      return ((bitField2_ & 0x00000400) == 0x00000400);
-    }
-    /**
-     * <code>optional int64 MaiChuDaDanBiLi = 75;</code>
-     *
-     * <pre>
-     * 卖出大单比例
-     * </pre>
-     */
-    public long getMaiChuDaDanBiLi() {
-      return maiChuDaDanBiLi_;
-    }
-
-    public static final int MAICHUTEDADANBILI_FIELD_NUMBER = 76;
-    private long maiChuTeDaDanBiLi_;
-    /**
-     * <code>optional int64 MaiChuTeDaDanBiLi = 76;</code>
-     *
-     * <pre>
-     * 卖出特大单比例
-     * </pre>
-     */
-    public boolean hasMaiChuTeDaDanBiLi() {
-      return ((bitField2_ & 0x00000800) == 0x00000800);
-    }
-    /**
-     * <code>optional int64 MaiChuTeDaDanBiLi = 76;</code>
-     *
-     * <pre>
-     * 卖出特大单比例
-     * </pre>
-     */
-    public long getMaiChuTeDaDanBiLi() {
-      return maiChuTeDaDanBiLi_;
-    }
-
     public static final int FENZHONGZHANGFU1_FIELD_NUMBER = 77;
     private long fenZhongZhangFu1_;
     /**
@@ -8467,7 +8483,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasFenZhongZhangFu1() {
-      return ((bitField2_ & 0x00001000) == 0x00001000);
+      return ((bitField2_ & 0x00000040) == 0x00000040);
     }
     /**
      * <code>optional int64 FenZhongZhangFu1 = 77;</code>
@@ -8490,7 +8506,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasFenZhongZhangFu2() {
-      return ((bitField2_ & 0x00002000) == 0x00002000);
+      return ((bitField2_ & 0x00000080) == 0x00000080);
     }
     /**
      * <code>optional int64 FenZhongZhangFu2 = 78;</code>
@@ -8513,7 +8529,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasFenZhongZhangFu3() {
-      return ((bitField2_ & 0x00004000) == 0x00004000);
+      return ((bitField2_ & 0x00000100) == 0x00000100);
     }
     /**
      * <code>optional int64 FenZhongZhangFu3 = 79;</code>
@@ -8536,7 +8552,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasFenZhongZhangFu4() {
-      return ((bitField2_ & 0x00008000) == 0x00008000);
+      return ((bitField2_ & 0x00000200) == 0x00000200);
     }
     /**
      * <code>optional int64 FenZhongZhangFu4 = 80;</code>
@@ -8559,7 +8575,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasFenZhongZhangFu5() {
-      return ((bitField2_ & 0x00010000) == 0x00010000);
+      return ((bitField2_ & 0x00000400) == 0x00000400);
     }
     /**
      * <code>optional int64 FenZhongZhangFu5 = 81;</code>
@@ -8582,7 +8598,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasShiYingLv() {
-      return ((bitField2_ & 0x00020000) == 0x00020000);
+      return ((bitField2_ & 0x00000800) == 0x00000800);
     }
     /**
      * <code>optional int64 ShiYingLv = 82;</code>
@@ -8605,7 +8621,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasZhangTing() {
-      return ((bitField2_ & 0x00040000) == 0x00040000);
+      return ((bitField2_ & 0x00001000) == 0x00001000);
     }
     /**
      * <code>optional int64 ZhangTing = 83;</code>
@@ -8628,7 +8644,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasDieTing() {
-      return ((bitField2_ & 0x00080000) == 0x00080000);
+      return ((bitField2_ & 0x00002000) == 0x00002000);
     }
     /**
      * <code>optional int64 DieTing = 84;</code>
@@ -8651,7 +8667,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasShiChangMingCheng() {
-      return ((bitField2_ & 0x00100000) == 0x00100000);
+      return ((bitField2_ & 0x00004000) == 0x00004000);
     }
     /**
      * <code>optional string ShiChangMingCheng = 85;</code>
@@ -8705,7 +8721,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasShiChangDuanMingCheng() {
-      return ((bitField2_ & 0x00200000) == 0x00200000);
+      return ((bitField2_ & 0x00008000) == 0x00008000);
     }
     /**
      * <code>optional string ShiChangDuanMingCheng = 86;</code>
@@ -8759,7 +8775,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasJiGouChiHuoShu() {
-      return ((bitField2_ & 0x00400000) == 0x00400000);
+      return ((bitField2_ & 0x00010000) == 0x00010000);
     }
     /**
      * <code>optional int64 JiGouChiHuoShu = 87;</code>
@@ -8782,7 +8798,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasJiGouTuHuoShu() {
-      return ((bitField2_ & 0x00800000) == 0x00800000);
+      return ((bitField2_ & 0x00020000) == 0x00020000);
     }
     /**
      * <code>optional int64 JiGouTuHuoShu = 88;</code>
@@ -8805,7 +8821,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasJiGouChiHuoLiang() {
-      return ((bitField2_ & 0x01000000) == 0x01000000);
+      return ((bitField2_ & 0x00040000) == 0x00040000);
     }
     /**
      * <code>optional int64 JiGouChiHuoLiang = 89;</code>
@@ -8828,7 +8844,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasJiGouTuHuoLiang() {
-      return ((bitField2_ & 0x02000000) == 0x02000000);
+      return ((bitField2_ & 0x00080000) == 0x00080000);
     }
     /**
      * <code>optional int64 JiGouTuHuoLiang = 90;</code>
@@ -8851,7 +8867,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasJiGouChiHuoJunE() {
-      return ((bitField2_ & 0x04000000) == 0x04000000);
+      return ((bitField2_ & 0x00100000) == 0x00100000);
     }
     /**
      * <code>optional int64 JiGouChiHuoJunE = 91;</code>
@@ -8874,7 +8890,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasJiGouTuHuoJunE() {
-      return ((bitField2_ & 0x08000000) == 0x08000000);
+      return ((bitField2_ & 0x00200000) == 0x00200000);
     }
     /**
      * <code>optional int64 JiGouTuHuoJunE = 92;</code>
@@ -8897,7 +8913,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMeiShouGuShu() {
-      return ((bitField2_ & 0x10000000) == 0x10000000);
+      return ((bitField2_ & 0x00400000) == 0x00400000);
     }
     /**
      * <code>optional int64 MeiShouGuShu = 93;</code>
@@ -8920,7 +8936,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasJiaoYiDanWei() {
-      return ((bitField2_ & 0x20000000) == 0x20000000);
+      return ((bitField2_ & 0x00800000) == 0x00800000);
     }
     /**
      * <code>optional int64 JiaoYiDanWei = 94;</code>
@@ -8943,7 +8959,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasShiXiaoLv() {
-      return ((bitField2_ & 0x40000000) == 0x40000000);
+      return ((bitField2_ & 0x01000000) == 0x01000000);
     }
     /**
      * <code>optional int64 ShiXiaoLv = 95;</code>
@@ -8966,7 +8982,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasShiJian() {
-      return ((bitField2_ & 0x80000000) == 0x80000000);
+      return ((bitField2_ & 0x02000000) == 0x02000000);
     }
     /**
      * <code>optional int64 ShiJian = 96;</code>
@@ -8989,7 +9005,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasShiJingLv() {
-      return ((bitField3_ & 0x00000001) == 0x00000001);
+      return ((bitField2_ & 0x04000000) == 0x04000000);
     }
     /**
      * <code>optional int64 ShiJingLv = 97;</code>
@@ -9012,7 +9028,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasZongShiZhi() {
-      return ((bitField3_ & 0x00000002) == 0x00000002);
+      return ((bitField2_ & 0x08000000) == 0x08000000);
     }
     /**
      * <code>optional int64 ZongShiZhi = 98;</code>
@@ -9035,7 +9051,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasLiuTongShiZhi() {
-      return ((bitField3_ & 0x00000004) == 0x00000004);
+      return ((bitField2_ & 0x10000000) == 0x10000000);
     }
     /**
      * <code>optional int64 LiuTongShiZhi = 99;</code>
@@ -9059,7 +9075,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMA1MinMA1() {
-      return ((bitField3_ & 0x00000008) == 0x00000008);
+      return ((bitField2_ & 0x20000000) == 0x20000000);
     }
     /**
      * <code>optional int64 MA1minMA1 = 200;</code>
@@ -9083,7 +9099,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMA1MinMA2() {
-      return ((bitField3_ & 0x00000010) == 0x00000010);
+      return ((bitField2_ & 0x40000000) == 0x40000000);
     }
     /**
      * <code>optional int64 MA1minMA2 = 201;</code>
@@ -9106,7 +9122,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMA1MinMA3() {
-      return ((bitField3_ & 0x00000020) == 0x00000020);
+      return ((bitField2_ & 0x80000000) == 0x80000000);
     }
     /**
      * <code>optional int64 MA1minMA3 = 202;</code>
@@ -9129,7 +9145,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMA1MinMA4() {
-      return ((bitField3_ & 0x00000040) == 0x00000040);
+      return ((bitField3_ & 0x00000001) == 0x00000001);
     }
     /**
      * <code>optional int64 MA1minMA4 = 203;</code>
@@ -9152,7 +9168,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMA1MinMA5() {
-      return ((bitField3_ & 0x00000080) == 0x00000080);
+      return ((bitField3_ & 0x00000002) == 0x00000002);
     }
     /**
      * <code>optional int64 MA1minMA5 = 204;</code>
@@ -9175,7 +9191,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMA1MinMA6() {
-      return ((bitField3_ & 0x00000100) == 0x00000100);
+      return ((bitField3_ & 0x00000004) == 0x00000004);
     }
     /**
      * <code>optional int64 MA1minMA6 = 205;</code>
@@ -9198,7 +9214,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMA5MinMA1() {
-      return ((bitField3_ & 0x00000200) == 0x00000200);
+      return ((bitField3_ & 0x00000008) == 0x00000008);
     }
     /**
      * <code>optional int64 MA5minMA1 = 206;</code>
@@ -9221,7 +9237,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMA5MinMA2() {
-      return ((bitField3_ & 0x00000400) == 0x00000400);
+      return ((bitField3_ & 0x00000010) == 0x00000010);
     }
     /**
      * <code>optional int64 MA5minMA2 = 207;</code>
@@ -9244,7 +9260,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMA5MinMA3() {
-      return ((bitField3_ & 0x00000800) == 0x00000800);
+      return ((bitField3_ & 0x00000020) == 0x00000020);
     }
     /**
      * <code>optional int64 MA5minMA3 = 208;</code>
@@ -9267,7 +9283,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMA5MinMA4() {
-      return ((bitField3_ & 0x00001000) == 0x00001000);
+      return ((bitField3_ & 0x00000040) == 0x00000040);
     }
     /**
      * <code>optional int64 MA5minMA4 = 209;</code>
@@ -9290,7 +9306,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMA5MinMA5() {
-      return ((bitField3_ & 0x00002000) == 0x00002000);
+      return ((bitField3_ & 0x00000080) == 0x00000080);
     }
     /**
      * <code>optional int64 MA5minMA5 = 210;</code>
@@ -9313,7 +9329,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMA5MinMA6() {
-      return ((bitField3_ & 0x00004000) == 0x00004000);
+      return ((bitField3_ & 0x00000100) == 0x00000100);
     }
     /**
      * <code>optional int64 MA5minMA6 = 211;</code>
@@ -9336,7 +9352,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMA1DayMA1() {
-      return ((bitField3_ & 0x00008000) == 0x00008000);
+      return ((bitField3_ & 0x00000200) == 0x00000200);
     }
     /**
      * <code>optional int64 MA1dayMA1 = 212;</code>
@@ -9359,7 +9375,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMA1DayMA2() {
-      return ((bitField3_ & 0x00010000) == 0x00010000);
+      return ((bitField3_ & 0x00000400) == 0x00000400);
     }
     /**
      * <code>optional int64 MA1dayMA2 = 213;</code>
@@ -9382,7 +9398,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMA1DayMA3() {
-      return ((bitField3_ & 0x00020000) == 0x00020000);
+      return ((bitField3_ & 0x00000800) == 0x00000800);
     }
     /**
      * <code>optional int64 MA1dayMA3 = 214;</code>
@@ -9405,7 +9421,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMA1DayMA4() {
-      return ((bitField3_ & 0x00040000) == 0x00040000);
+      return ((bitField3_ & 0x00001000) == 0x00001000);
     }
     /**
      * <code>optional int64 MA1dayMA4 = 215;</code>
@@ -9428,7 +9444,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMA1DayMA5() {
-      return ((bitField3_ & 0x00080000) == 0x00080000);
+      return ((bitField3_ & 0x00002000) == 0x00002000);
     }
     /**
      * <code>optional int64 MA1dayMA5 = 216;</code>
@@ -9451,7 +9467,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMA1DayMA6() {
-      return ((bitField3_ & 0x00100000) == 0x00100000);
+      return ((bitField3_ & 0x00004000) == 0x00004000);
     }
     /**
      * <code>optional int64 MA1dayMA6 = 217;</code>
@@ -9474,7 +9490,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasBOLL1MinMID() {
-      return ((bitField3_ & 0x00200000) == 0x00200000);
+      return ((bitField3_ & 0x00008000) == 0x00008000);
     }
     /**
      * <code>optional int64 BOLL1minMID = 218;</code>
@@ -9497,7 +9513,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasBOLL1MinUPPER() {
-      return ((bitField3_ & 0x00400000) == 0x00400000);
+      return ((bitField3_ & 0x00010000) == 0x00010000);
     }
     /**
      * <code>optional int64 BOLL1minUPPER = 219;</code>
@@ -9520,7 +9536,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasBOLL1MinLOWER() {
-      return ((bitField3_ & 0x00800000) == 0x00800000);
+      return ((bitField3_ & 0x00020000) == 0x00020000);
     }
     /**
      * <code>optional int64 BOLL1minLOWER = 220;</code>
@@ -9543,7 +9559,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasBOLL5MinMID() {
-      return ((bitField3_ & 0x01000000) == 0x01000000);
+      return ((bitField3_ & 0x00040000) == 0x00040000);
     }
     /**
      * <code>optional int64 BOLL5minMID = 221;</code>
@@ -9566,7 +9582,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasBOLL5MinUPPER() {
-      return ((bitField3_ & 0x02000000) == 0x02000000);
+      return ((bitField3_ & 0x00080000) == 0x00080000);
     }
     /**
      * <code>optional int64 BOLL5minUPPER = 222;</code>
@@ -9589,7 +9605,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasBOLL5MinLOWER() {
-      return ((bitField3_ & 0x04000000) == 0x04000000);
+      return ((bitField3_ & 0x00100000) == 0x00100000);
     }
     /**
      * <code>optional int64 BOLL5minLOWER = 223;</code>
@@ -9612,7 +9628,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasBOLL1DayMID() {
-      return ((bitField3_ & 0x08000000) == 0x08000000);
+      return ((bitField3_ & 0x00200000) == 0x00200000);
     }
     /**
      * <code>optional int64 BOLL1dayMID = 224;</code>
@@ -9635,7 +9651,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasBOLL1DayUPPER() {
-      return ((bitField3_ & 0x10000000) == 0x10000000);
+      return ((bitField3_ & 0x00400000) == 0x00400000);
     }
     /**
      * <code>optional int64 BOLL1dayUPPER = 225;</code>
@@ -9658,7 +9674,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasBOLL1DayLOWER() {
-      return ((bitField3_ & 0x20000000) == 0x20000000);
+      return ((bitField3_ & 0x00800000) == 0x00800000);
     }
     /**
      * <code>optional int64 BOLL1dayLOWER = 226;</code>
@@ -9681,7 +9697,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasVOL1Min() {
-      return ((bitField3_ & 0x40000000) == 0x40000000);
+      return ((bitField3_ & 0x01000000) == 0x01000000);
     }
     /**
      * <code>optional int64 VOL1min = 227;</code>
@@ -9704,7 +9720,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasVOL1MinMA1() {
-      return ((bitField3_ & 0x80000000) == 0x80000000);
+      return ((bitField3_ & 0x02000000) == 0x02000000);
     }
     /**
      * <code>optional int64 VOL1minMA1 = 228;</code>
@@ -9727,7 +9743,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasVOL1MinMA2() {
-      return ((bitField4_ & 0x00000001) == 0x00000001);
+      return ((bitField3_ & 0x04000000) == 0x04000000);
     }
     /**
      * <code>optional int64 VOL1minMA2 = 229;</code>
@@ -9750,7 +9766,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasVOL1MinMA3() {
-      return ((bitField4_ & 0x00000002) == 0x00000002);
+      return ((bitField3_ & 0x08000000) == 0x08000000);
     }
     /**
      * <code>optional int64 VOL1minMA3 = 230;</code>
@@ -9773,7 +9789,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasVOL5Min() {
-      return ((bitField4_ & 0x00000004) == 0x00000004);
+      return ((bitField3_ & 0x10000000) == 0x10000000);
     }
     /**
      * <code>optional int64 VOL5min = 231;</code>
@@ -9796,7 +9812,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasVOL5MinMA1() {
-      return ((bitField4_ & 0x00000008) == 0x00000008);
+      return ((bitField3_ & 0x20000000) == 0x20000000);
     }
     /**
      * <code>optional int64 VOL5minMA1 = 232;</code>
@@ -9819,7 +9835,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasVOL5MinMA2() {
-      return ((bitField4_ & 0x00000010) == 0x00000010);
+      return ((bitField3_ & 0x40000000) == 0x40000000);
     }
     /**
      * <code>optional int64 VOL5minMA2 = 233;</code>
@@ -9842,7 +9858,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasVOL5MinMA3() {
-      return ((bitField4_ & 0x00000020) == 0x00000020);
+      return ((bitField3_ & 0x80000000) == 0x80000000);
     }
     /**
      * <code>optional int64 VOL5minMA3 = 234;</code>
@@ -9865,7 +9881,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasVOL1Day() {
-      return ((bitField4_ & 0x00000040) == 0x00000040);
+      return ((bitField4_ & 0x00000001) == 0x00000001);
     }
     /**
      * <code>optional int64 VOL1day = 235;</code>
@@ -9888,7 +9904,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasVOL1DayMA1() {
-      return ((bitField4_ & 0x00000080) == 0x00000080);
+      return ((bitField4_ & 0x00000002) == 0x00000002);
     }
     /**
      * <code>optional int64 VOL1dayMA1 = 236;</code>
@@ -9911,7 +9927,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasVOL1DayMA2() {
-      return ((bitField4_ & 0x00000100) == 0x00000100);
+      return ((bitField4_ & 0x00000004) == 0x00000004);
     }
     /**
      * <code>optional int64 VOL1dayMA2 = 237;</code>
@@ -9934,7 +9950,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasVOL1DayMA3() {
-      return ((bitField4_ & 0x00000200) == 0x00000200);
+      return ((bitField4_ & 0x00000008) == 0x00000008);
     }
     /**
      * <code>optional int64 VOL1dayMA3 = 238;</code>
@@ -9957,7 +9973,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasARBR1MinAR() {
-      return ((bitField4_ & 0x00000400) == 0x00000400);
+      return ((bitField4_ & 0x00000010) == 0x00000010);
     }
     /**
      * <code>optional int64 ARBR1minAR = 239;</code>
@@ -9980,7 +9996,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasARBR1MinBR() {
-      return ((bitField4_ & 0x00000800) == 0x00000800);
+      return ((bitField4_ & 0x00000020) == 0x00000020);
     }
     /**
      * <code>optional int64 ARBR1minBR = 240;</code>
@@ -10003,7 +10019,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasARBR5MinAR() {
-      return ((bitField4_ & 0x00001000) == 0x00001000);
+      return ((bitField4_ & 0x00000040) == 0x00000040);
     }
     /**
      * <code>optional int64 ARBR5minAR = 241;</code>
@@ -10026,7 +10042,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasARBR5MinBR() {
-      return ((bitField4_ & 0x00002000) == 0x00002000);
+      return ((bitField4_ & 0x00000080) == 0x00000080);
     }
     /**
      * <code>optional int64 ARBR5minBR = 242;</code>
@@ -10049,7 +10065,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasARBR1DayAR() {
-      return ((bitField4_ & 0x00004000) == 0x00004000);
+      return ((bitField4_ & 0x00000100) == 0x00000100);
     }
     /**
      * <code>optional int64 ARBR1dayAR = 243;</code>
@@ -10072,7 +10088,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasARBR1DayBR() {
-      return ((bitField4_ & 0x00008000) == 0x00008000);
+      return ((bitField4_ & 0x00000200) == 0x00000200);
     }
     /**
      * <code>optional int64 ARBR1dayBR = 244;</code>
@@ -10095,7 +10111,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasBIAS1MinBIAS1() {
-      return ((bitField4_ & 0x00010000) == 0x00010000);
+      return ((bitField4_ & 0x00000400) == 0x00000400);
     }
     /**
      * <code>optional int64 BIAS1minBIAS1 = 245;</code>
@@ -10118,7 +10134,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasBIAS1MinBIAS2() {
-      return ((bitField4_ & 0x00020000) == 0x00020000);
+      return ((bitField4_ & 0x00000800) == 0x00000800);
     }
     /**
      * <code>optional int64 BIAS1minBIAS2 = 246;</code>
@@ -10141,7 +10157,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasBIAS1MinBIAS3() {
-      return ((bitField4_ & 0x00040000) == 0x00040000);
+      return ((bitField4_ & 0x00001000) == 0x00001000);
     }
     /**
      * <code>optional int64 BIAS1minBIAS3 = 247;</code>
@@ -10164,7 +10180,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasBIAS5MinBIAS1() {
-      return ((bitField4_ & 0x00080000) == 0x00080000);
+      return ((bitField4_ & 0x00002000) == 0x00002000);
     }
     /**
      * <code>optional int64 BIAS5minBIAS1 = 248;</code>
@@ -10187,7 +10203,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasBIAS5MinBIAS2() {
-      return ((bitField4_ & 0x00100000) == 0x00100000);
+      return ((bitField4_ & 0x00004000) == 0x00004000);
     }
     /**
      * <code>optional int64 BIAS5minBIAS2 = 249;</code>
@@ -10210,7 +10226,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasBIAS5MinBIAS3() {
-      return ((bitField4_ & 0x00200000) == 0x00200000);
+      return ((bitField4_ & 0x00008000) == 0x00008000);
     }
     /**
      * <code>optional int64 BIAS5minBIAS3 = 250;</code>
@@ -10233,7 +10249,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasBIAS1DayBIAS1() {
-      return ((bitField4_ & 0x00400000) == 0x00400000);
+      return ((bitField4_ & 0x00010000) == 0x00010000);
     }
     /**
      * <code>optional int64 BIAS1dayBIAS1 = 251;</code>
@@ -10256,7 +10272,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasBIAS1DayBIAS2() {
-      return ((bitField4_ & 0x00800000) == 0x00800000);
+      return ((bitField4_ & 0x00020000) == 0x00020000);
     }
     /**
      * <code>optional int64 BIAS1dayBIAS2 = 252;</code>
@@ -10279,7 +10295,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasBIAS1DayBIAS3() {
-      return ((bitField4_ & 0x01000000) == 0x01000000);
+      return ((bitField4_ & 0x00040000) == 0x00040000);
     }
     /**
      * <code>optional int64 BIAS1dayBIAS3 = 253;</code>
@@ -10302,7 +10318,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasCCI1Min() {
-      return ((bitField4_ & 0x02000000) == 0x02000000);
+      return ((bitField4_ & 0x00080000) == 0x00080000);
     }
     /**
      * <code>optional int64 CCI1min = 254;</code>
@@ -10325,7 +10341,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasCCI5Min() {
-      return ((bitField4_ & 0x04000000) == 0x04000000);
+      return ((bitField4_ & 0x00100000) == 0x00100000);
     }
     /**
      * <code>optional int64 CCI5min = 255;</code>
@@ -10348,7 +10364,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasCCI1Day() {
-      return ((bitField4_ & 0x08000000) == 0x08000000);
+      return ((bitField4_ & 0x00200000) == 0x00200000);
     }
     /**
      * <code>optional int64 CCI1day = 256;</code>
@@ -10371,7 +10387,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasCJBS1MinCJBS() {
-      return ((bitField4_ & 0x10000000) == 0x10000000);
+      return ((bitField4_ & 0x00400000) == 0x00400000);
     }
     /**
      * <code>optional int64 CJBS1minCJBS = 257;</code>
@@ -10394,7 +10410,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasCJBS5MinCJBS() {
-      return ((bitField4_ & 0x20000000) == 0x20000000);
+      return ((bitField4_ & 0x00800000) == 0x00800000);
     }
     /**
      * <code>optional int64 CJBS5minCJBS = 258;</code>
@@ -10417,7 +10433,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasCJBS1DayCJBS() {
-      return ((bitField4_ & 0x40000000) == 0x40000000);
+      return ((bitField4_ & 0x01000000) == 0x01000000);
     }
     /**
      * <code>optional int64 CJBS1dayCJBS = 259;</code>
@@ -10440,7 +10456,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasCR1MinCR() {
-      return ((bitField4_ & 0x80000000) == 0x80000000);
+      return ((bitField4_ & 0x02000000) == 0x02000000);
     }
     /**
      * <code>optional int64 CR1minCR = 260;</code>
@@ -10463,7 +10479,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasCR1MinMA1() {
-      return ((bitField5_ & 0x00000001) == 0x00000001);
+      return ((bitField4_ & 0x04000000) == 0x04000000);
     }
     /**
      * <code>optional int64 CR1minMA1 = 261;</code>
@@ -10486,7 +10502,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasCR1MinMA2() {
-      return ((bitField5_ & 0x00000002) == 0x00000002);
+      return ((bitField4_ & 0x08000000) == 0x08000000);
     }
     /**
      * <code>optional int64 CR1minMA2 = 262;</code>
@@ -10509,7 +10525,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasCR1MinMA3() {
-      return ((bitField5_ & 0x00000004) == 0x00000004);
+      return ((bitField4_ & 0x10000000) == 0x10000000);
     }
     /**
      * <code>optional int64 CR1minMA3 = 263;</code>
@@ -10532,7 +10548,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasCR5MinCR() {
-      return ((bitField5_ & 0x00000008) == 0x00000008);
+      return ((bitField4_ & 0x20000000) == 0x20000000);
     }
     /**
      * <code>optional int64 CR5minCR = 264;</code>
@@ -10555,7 +10571,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasCR5MinMA1() {
-      return ((bitField5_ & 0x00000010) == 0x00000010);
+      return ((bitField4_ & 0x40000000) == 0x40000000);
     }
     /**
      * <code>optional int64 CR5minMA1 = 265;</code>
@@ -10578,7 +10594,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasCR5MinMA2() {
-      return ((bitField5_ & 0x00000020) == 0x00000020);
+      return ((bitField4_ & 0x80000000) == 0x80000000);
     }
     /**
      * <code>optional int64 CR5minMA2 = 266;</code>
@@ -10601,7 +10617,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasCR5MinMA3() {
-      return ((bitField5_ & 0x00000040) == 0x00000040);
+      return ((bitField5_ & 0x00000001) == 0x00000001);
     }
     /**
      * <code>optional int64 CR5minMA3 = 267;</code>
@@ -10624,7 +10640,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasCR1DayCR() {
-      return ((bitField5_ & 0x00000080) == 0x00000080);
+      return ((bitField5_ & 0x00000002) == 0x00000002);
     }
     /**
      * <code>optional int64 CR1dayCR = 268;</code>
@@ -10647,7 +10663,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasCR1DayMA1() {
-      return ((bitField5_ & 0x00000100) == 0x00000100);
+      return ((bitField5_ & 0x00000004) == 0x00000004);
     }
     /**
      * <code>optional int64 CR1dayMA1 = 269;</code>
@@ -10670,7 +10686,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasCR1DayMA2() {
-      return ((bitField5_ & 0x00000200) == 0x00000200);
+      return ((bitField5_ & 0x00000008) == 0x00000008);
     }
     /**
      * <code>optional int64 CR1dayMA2 = 270;</code>
@@ -10693,7 +10709,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasCR1DayMA3() {
-      return ((bitField5_ & 0x00000400) == 0x00000400);
+      return ((bitField5_ & 0x00000010) == 0x00000010);
     }
     /**
      * <code>optional int64 CR1dayMA3 = 271;</code>
@@ -10716,7 +10732,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasDMA1MinDDD() {
-      return ((bitField5_ & 0x00000800) == 0x00000800);
+      return ((bitField5_ & 0x00000020) == 0x00000020);
     }
     /**
      * <code>optional int64 DMA1minDDD = 272;</code>
@@ -10739,7 +10755,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasDMA1MinAMA() {
-      return ((bitField5_ & 0x00001000) == 0x00001000);
+      return ((bitField5_ & 0x00000040) == 0x00000040);
     }
     /**
      * <code>optional int64 DMA1minAMA = 273;</code>
@@ -10762,7 +10778,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasDMA5MinDDD() {
-      return ((bitField5_ & 0x00002000) == 0x00002000);
+      return ((bitField5_ & 0x00000080) == 0x00000080);
     }
     /**
      * <code>optional int64 DMA5minDDD = 274;</code>
@@ -10785,7 +10801,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasDMA5MinAMA() {
-      return ((bitField5_ & 0x00004000) == 0x00004000);
+      return ((bitField5_ & 0x00000100) == 0x00000100);
     }
     /**
      * <code>optional int64 DMA5minAMA = 275;</code>
@@ -10808,7 +10824,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasDMA1DayDDD() {
-      return ((bitField5_ & 0x00008000) == 0x00008000);
+      return ((bitField5_ & 0x00000200) == 0x00000200);
     }
     /**
      * <code>optional int64 DMA1dayDDD = 276;</code>
@@ -10831,7 +10847,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasDMA1DayAMA() {
-      return ((bitField5_ & 0x00010000) == 0x00010000);
+      return ((bitField5_ & 0x00000400) == 0x00000400);
     }
     /**
      * <code>optional int64 DMA1dayAMA = 277;</code>
@@ -10854,7 +10870,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasDMI1MinPDI() {
-      return ((bitField5_ & 0x00020000) == 0x00020000);
+      return ((bitField5_ & 0x00000800) == 0x00000800);
     }
     /**
      * <code>optional int64 DMI1minPDI = 278;</code>
@@ -10877,7 +10893,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasDMI1MinMDI() {
-      return ((bitField5_ & 0x00040000) == 0x00040000);
+      return ((bitField5_ & 0x00001000) == 0x00001000);
     }
     /**
      * <code>optional int64 DMI1minMDI = 279;</code>
@@ -10900,7 +10916,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasDMI1MinADX() {
-      return ((bitField5_ & 0x00080000) == 0x00080000);
+      return ((bitField5_ & 0x00002000) == 0x00002000);
     }
     /**
      * <code>optional int64 DMI1minADX = 280;</code>
@@ -10923,7 +10939,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasDMI1MinADXR() {
-      return ((bitField5_ & 0x00100000) == 0x00100000);
+      return ((bitField5_ & 0x00004000) == 0x00004000);
     }
     /**
      * <code>optional int64 DMI1minADXR = 281;</code>
@@ -10946,7 +10962,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasDMI5MinPDI() {
-      return ((bitField5_ & 0x00200000) == 0x00200000);
+      return ((bitField5_ & 0x00008000) == 0x00008000);
     }
     /**
      * <code>optional int64 DMI5minPDI = 282;</code>
@@ -10969,7 +10985,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasDMI5MinMDI() {
-      return ((bitField5_ & 0x00400000) == 0x00400000);
+      return ((bitField5_ & 0x00010000) == 0x00010000);
     }
     /**
      * <code>optional int64 DMI5minMDI = 283;</code>
@@ -10992,7 +11008,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasDMI5MinADX() {
-      return ((bitField5_ & 0x00800000) == 0x00800000);
+      return ((bitField5_ & 0x00020000) == 0x00020000);
     }
     /**
      * <code>optional int64 DMI5minADX = 284;</code>
@@ -11015,7 +11031,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasDMI5MinADXR() {
-      return ((bitField5_ & 0x01000000) == 0x01000000);
+      return ((bitField5_ & 0x00040000) == 0x00040000);
     }
     /**
      * <code>optional int64 DMI5minADXR = 285;</code>
@@ -11038,7 +11054,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasDMI1DayPDI() {
-      return ((bitField5_ & 0x02000000) == 0x02000000);
+      return ((bitField5_ & 0x00080000) == 0x00080000);
     }
     /**
      * <code>optional int64 DMI1dayPDI = 286;</code>
@@ -11061,7 +11077,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasDMI1DayMDI() {
-      return ((bitField5_ & 0x04000000) == 0x04000000);
+      return ((bitField5_ & 0x00100000) == 0x00100000);
     }
     /**
      * <code>optional int64 DMI1dayMDI = 287;</code>
@@ -11084,7 +11100,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasDMI1DayADX() {
-      return ((bitField5_ & 0x08000000) == 0x08000000);
+      return ((bitField5_ & 0x00200000) == 0x00200000);
     }
     /**
      * <code>optional int64 DMI1dayADX = 288;</code>
@@ -11107,7 +11123,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasDMI1DayADXR() {
-      return ((bitField5_ & 0x10000000) == 0x10000000);
+      return ((bitField5_ & 0x00400000) == 0x00400000);
     }
     /**
      * <code>optional int64 DMI1dayADXR = 289;</code>
@@ -11130,7 +11146,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasKDJ1MinK() {
-      return ((bitField5_ & 0x20000000) == 0x20000000);
+      return ((bitField5_ & 0x00800000) == 0x00800000);
     }
     /**
      * <code>optional int64 KDJ1minK = 290;</code>
@@ -11153,7 +11169,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasKDJ1MinD() {
-      return ((bitField5_ & 0x40000000) == 0x40000000);
+      return ((bitField5_ & 0x01000000) == 0x01000000);
     }
     /**
      * <code>optional int64 KDJ1minD = 291;</code>
@@ -11176,7 +11192,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasKDJ1MinJ() {
-      return ((bitField5_ & 0x80000000) == 0x80000000);
+      return ((bitField5_ & 0x02000000) == 0x02000000);
     }
     /**
      * <code>optional int64 KDJ1minJ = 292;</code>
@@ -11199,7 +11215,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasKDJ5MinK() {
-      return ((bitField6_ & 0x00000001) == 0x00000001);
+      return ((bitField5_ & 0x04000000) == 0x04000000);
     }
     /**
      * <code>optional int64 KDJ5minK = 293;</code>
@@ -11222,7 +11238,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasKDJ5MinD() {
-      return ((bitField6_ & 0x00000002) == 0x00000002);
+      return ((bitField5_ & 0x08000000) == 0x08000000);
     }
     /**
      * <code>optional int64 KDJ5minD = 294;</code>
@@ -11245,7 +11261,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasKDJ5MinJ() {
-      return ((bitField6_ & 0x00000004) == 0x00000004);
+      return ((bitField5_ & 0x10000000) == 0x10000000);
     }
     /**
      * <code>optional int64 KDJ5minJ = 295;</code>
@@ -11268,7 +11284,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasKDJ1DayK() {
-      return ((bitField6_ & 0x00000008) == 0x00000008);
+      return ((bitField5_ & 0x20000000) == 0x20000000);
     }
     /**
      * <code>optional int64 KDJ1dayK = 296;</code>
@@ -11291,7 +11307,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasKDJ1DayD() {
-      return ((bitField6_ & 0x00000010) == 0x00000010);
+      return ((bitField5_ & 0x40000000) == 0x40000000);
     }
     /**
      * <code>optional int64 KDJ1dayD = 297;</code>
@@ -11314,7 +11330,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasKDJ1DayJ() {
-      return ((bitField6_ & 0x00000020) == 0x00000020);
+      return ((bitField5_ & 0x80000000) == 0x80000000);
     }
     /**
      * <code>optional int64 KDJ1dayJ = 298;</code>
@@ -11337,7 +11353,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMACD1MinDIFF() {
-      return ((bitField6_ & 0x00000040) == 0x00000040);
+      return ((bitField6_ & 0x00000001) == 0x00000001);
     }
     /**
      * <code>optional int64 MACD1minDIFF = 299;</code>
@@ -11360,7 +11376,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMACD1MinDEA() {
-      return ((bitField6_ & 0x00000080) == 0x00000080);
+      return ((bitField6_ & 0x00000002) == 0x00000002);
     }
     /**
      * <code>optional int64 MACD1minDEA = 300;</code>
@@ -11383,7 +11399,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMACD1MinMACD() {
-      return ((bitField6_ & 0x00000100) == 0x00000100);
+      return ((bitField6_ & 0x00000004) == 0x00000004);
     }
     /**
      * <code>optional int64 MACD1minMACD = 301;</code>
@@ -11406,7 +11422,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMACD5MinDIFF() {
-      return ((bitField6_ & 0x00000200) == 0x00000200);
+      return ((bitField6_ & 0x00000008) == 0x00000008);
     }
     /**
      * <code>optional int64 MACD5minDIFF = 302;</code>
@@ -11429,7 +11445,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMACD5MinDEA() {
-      return ((bitField6_ & 0x00000400) == 0x00000400);
+      return ((bitField6_ & 0x00000010) == 0x00000010);
     }
     /**
      * <code>optional int64 MACD5minDEA = 303;</code>
@@ -11452,7 +11468,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMACD5MinMACD() {
-      return ((bitField6_ & 0x00000800) == 0x00000800);
+      return ((bitField6_ & 0x00000020) == 0x00000020);
     }
     /**
      * <code>optional int64 MACD5minMACD = 304;</code>
@@ -11475,7 +11491,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMACD1DayDIFF() {
-      return ((bitField6_ & 0x00001000) == 0x00001000);
+      return ((bitField6_ & 0x00000040) == 0x00000040);
     }
     /**
      * <code>optional int64 MACD1dayDIFF = 305;</code>
@@ -11498,7 +11514,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMACD1DayDEA() {
-      return ((bitField6_ & 0x00002000) == 0x00002000);
+      return ((bitField6_ & 0x00000080) == 0x00000080);
     }
     /**
      * <code>optional int64 MACD1dayDEA = 306;</code>
@@ -11521,7 +11537,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMACD1DayMACD() {
-      return ((bitField6_ & 0x00004000) == 0x00004000);
+      return ((bitField6_ & 0x00000100) == 0x00000100);
     }
     /**
      * <code>optional int64 MACD1dayMACD = 307;</code>
@@ -11544,7 +11560,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasOBV1Min() {
-      return ((bitField6_ & 0x00008000) == 0x00008000);
+      return ((bitField6_ & 0x00000200) == 0x00000200);
     }
     /**
      * <code>optional int64 OBV1min = 308;</code>
@@ -11567,7 +11583,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasOBV5Min() {
-      return ((bitField6_ & 0x00010000) == 0x00010000);
+      return ((bitField6_ & 0x00000400) == 0x00000400);
     }
     /**
      * <code>optional int64 OBV5min = 309;</code>
@@ -11590,7 +11606,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasOBV1Day() {
-      return ((bitField6_ & 0x00020000) == 0x00020000);
+      return ((bitField6_ & 0x00000800) == 0x00000800);
     }
     /**
      * <code>optional int64 OBV1day = 310;</code>
@@ -11613,7 +11629,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasPSY1Min() {
-      return ((bitField6_ & 0x00040000) == 0x00040000);
+      return ((bitField6_ & 0x00001000) == 0x00001000);
     }
     /**
      * <code>optional int64 PSY1min = 311;</code>
@@ -11636,7 +11652,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasPSY5Min() {
-      return ((bitField6_ & 0x00080000) == 0x00080000);
+      return ((bitField6_ & 0x00002000) == 0x00002000);
     }
     /**
      * <code>optional int64 PSY5min = 312;</code>
@@ -11659,7 +11675,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasPSY1Day() {
-      return ((bitField6_ & 0x00100000) == 0x00100000);
+      return ((bitField6_ & 0x00004000) == 0x00004000);
     }
     /**
      * <code>optional int64 PSY1day = 313;</code>
@@ -11682,7 +11698,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasRSI1MinRSI1() {
-      return ((bitField6_ & 0x00200000) == 0x00200000);
+      return ((bitField6_ & 0x00008000) == 0x00008000);
     }
     /**
      * <code>optional int64 RSI1minRSI1 = 314;</code>
@@ -11705,7 +11721,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasRSI1MinRSI2() {
-      return ((bitField6_ & 0x00400000) == 0x00400000);
+      return ((bitField6_ & 0x00010000) == 0x00010000);
     }
     /**
      * <code>optional int64 RSI1minRSI2 = 315;</code>
@@ -11728,7 +11744,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasRSI1MinRSI3() {
-      return ((bitField6_ & 0x00800000) == 0x00800000);
+      return ((bitField6_ & 0x00020000) == 0x00020000);
     }
     /**
      * <code>optional int64 RSI1minRSI3 = 316;</code>
@@ -11751,7 +11767,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasRSI5MinRSI1() {
-      return ((bitField6_ & 0x01000000) == 0x01000000);
+      return ((bitField6_ & 0x00040000) == 0x00040000);
     }
     /**
      * <code>optional int64 RSI5minRSI1 = 317;</code>
@@ -11774,7 +11790,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasRSI5MinRSI2() {
-      return ((bitField6_ & 0x02000000) == 0x02000000);
+      return ((bitField6_ & 0x00080000) == 0x00080000);
     }
     /**
      * <code>optional int64 RSI5minRSI2 = 318;</code>
@@ -11797,7 +11813,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasRSI5MinRSI3() {
-      return ((bitField6_ & 0x04000000) == 0x04000000);
+      return ((bitField6_ & 0x00100000) == 0x00100000);
     }
     /**
      * <code>optional int64 RSI5minRSI3 = 319;</code>
@@ -11820,7 +11836,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasRSI1DayRSI1() {
-      return ((bitField6_ & 0x08000000) == 0x08000000);
+      return ((bitField6_ & 0x00200000) == 0x00200000);
     }
     /**
      * <code>optional int64 RSI1dayRSI1 = 320;</code>
@@ -11843,7 +11859,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasRSI1DayRSI2() {
-      return ((bitField6_ & 0x10000000) == 0x10000000);
+      return ((bitField6_ & 0x00400000) == 0x00400000);
     }
     /**
      * <code>optional int64 RSI1dayRSI2 = 321;</code>
@@ -11866,7 +11882,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasRSI1DayRSI3() {
-      return ((bitField6_ & 0x20000000) == 0x20000000);
+      return ((bitField6_ & 0x00800000) == 0x00800000);
     }
     /**
      * <code>optional int64 RSI1dayRSI3 = 322;</code>
@@ -11889,7 +11905,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasWR1MinWR1() {
-      return ((bitField6_ & 0x40000000) == 0x40000000);
+      return ((bitField6_ & 0x01000000) == 0x01000000);
     }
     /**
      * <code>optional int64 WR1minWR1 = 323;</code>
@@ -11912,7 +11928,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasWR1MinWR2() {
-      return ((bitField6_ & 0x80000000) == 0x80000000);
+      return ((bitField6_ & 0x02000000) == 0x02000000);
     }
     /**
      * <code>optional int64 WR1minWR2 = 324;</code>
@@ -11935,7 +11951,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasWR5MinWR1() {
-      return ((bitField7_ & 0x00000001) == 0x00000001);
+      return ((bitField6_ & 0x04000000) == 0x04000000);
     }
     /**
      * <code>optional int64 WR5minWR1 = 325;</code>
@@ -11958,7 +11974,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasWR5MinWR2() {
-      return ((bitField7_ & 0x00000002) == 0x00000002);
+      return ((bitField6_ & 0x08000000) == 0x08000000);
     }
     /**
      * <code>optional int64 WR5minWR2 = 326;</code>
@@ -11981,7 +11997,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasWR1DayWR1() {
-      return ((bitField7_ & 0x00000004) == 0x00000004);
+      return ((bitField6_ & 0x10000000) == 0x10000000);
     }
     /**
      * <code>optional int64 WR1dayWR1 = 327;</code>
@@ -12004,7 +12020,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasWR1DayWR2() {
-      return ((bitField7_ & 0x00000008) == 0x00000008);
+      return ((bitField6_ & 0x20000000) == 0x20000000);
     }
     /**
      * <code>optional int64 WR1dayWR2 = 328;</code>
@@ -12027,7 +12043,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasLeiXing() {
-      return ((bitField7_ & 0x00000010) == 0x00000010);
+      return ((bitField6_ & 0x40000000) == 0x40000000);
     }
     /**
      * <code>optional int64 LeiXing = 400;</code>
@@ -12050,7 +12066,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasZiLeiXing() {
-      return ((bitField7_ & 0x00000020) == 0x00000020);
+      return ((bitField6_ & 0x80000000) == 0x80000000);
     }
     /**
      * <code>optional int64 ZiLeiXing = 401;</code>
@@ -12073,7 +12089,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasLeiXingMingCheng() {
-      return ((bitField7_ & 0x00000040) == 0x00000040);
+      return ((bitField7_ & 0x00000001) == 0x00000001);
     }
     /**
      * <code>optional string LeiXingMingCheng = 402;</code>
@@ -12127,7 +12143,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasChengJiaoLiangDanWei() {
-      return ((bitField7_ & 0x00000080) == 0x00000080);
+      return ((bitField7_ & 0x00000002) == 0x00000002);
     }
     /**
      * <code>optional int64 ChengJiaoLiangDanWei = 403;</code>
@@ -12150,7 +12166,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasFJJJLeiXing() {
-      return ((bitField7_ & 0x00000100) == 0x00000100);
+      return ((bitField7_ & 0x00000004) == 0x00000004);
     }
     /**
      * <code>optional int64 FJJJLeiXing = 501;</code>
@@ -12173,7 +12189,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasZhengTiYiJia() {
-      return ((bitField7_ & 0x00000200) == 0x00000200);
+      return ((bitField7_ & 0x00000008) == 0x00000008);
     }
     /**
      * <code>optional int64 ZhengTiYiJia = 502;</code>
@@ -12196,7 +12212,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMYiJia() {
-      return ((bitField7_ & 0x00000400) == 0x00000400);
+      return ((bitField7_ & 0x00000010) == 0x00000010);
     }
     /**
      * <code>optional int64 MYiJia = 551;</code>
@@ -12219,7 +12235,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMShiShiJingZhi() {
-      return ((bitField7_ & 0x00000800) == 0x00000800);
+      return ((bitField7_ & 0x00000020) == 0x00000020);
     }
     /**
      * <code>optional int64 MShiShiJingZhi = 552;</code>
@@ -12242,7 +12258,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMShangZheXuZhang() {
-      return ((bitField7_ & 0x00001000) == 0x00001000);
+      return ((bitField7_ & 0x00000040) == 0x00000040);
     }
     /**
      * <code>optional int64 MShangZheXuZhang = 553;</code>
@@ -12265,7 +12281,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMXiaZheXuDie() {
-      return ((bitField7_ & 0x00002000) == 0x00002000);
+      return ((bitField7_ & 0x00000080) == 0x00000080);
     }
     /**
      * <code>optional int64 MXiaZheXuDie = 554;</code>
@@ -12288,7 +12304,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasYinHanShouYi() {
-      return ((bitField7_ & 0x00004000) == 0x00004000);
+      return ((bitField7_ & 0x00000100) == 0x00000100);
     }
     /**
      * <code>optional int64 YinHanShouYi = 511;</code>
@@ -12311,7 +12327,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasJiaGeGangGan() {
-      return ((bitField7_ & 0x00008000) == 0x00008000);
+      return ((bitField7_ & 0x00000200) == 0x00000200);
     }
     /**
      * <code>optional int64 JiaGeGangGan = 512;</code>
@@ -12334,7 +12350,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasPinZhongObj() {
-      return ((bitField7_ & 0x00010000) == 0x00010000);
+      return ((bitField7_ & 0x00000400) == 0x00000400);
     }
     /**
      * <code>optional string PinZhongObj = 601;</code>
@@ -12388,7 +12404,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasBaoGaoQi() {
-      return ((bitField7_ & 0x00020000) == 0x00020000);
+      return ((bitField7_ & 0x00000800) == 0x00000800);
     }
     /**
      * <code>optional string BaoGaoQi = 602;</code>
@@ -12442,7 +12458,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasShangShiRiQi() {
-      return ((bitField7_ & 0x00040000) == 0x00040000);
+      return ((bitField7_ & 0x00001000) == 0x00001000);
     }
     /**
      * <code>optional string ShangShiRiQi = 603;</code>
@@ -12496,7 +12512,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMeiGuShouYi() {
-      return ((bitField7_ & 0x00080000) == 0x00080000);
+      return ((bitField7_ & 0x00002000) == 0x00002000);
     }
     /**
      * <code>optional int64 MeiGuShouYi = 604;</code>
@@ -12519,7 +12535,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMeiGuJingZiChan() {
-      return ((bitField7_ & 0x00100000) == 0x00100000);
+      return ((bitField7_ & 0x00004000) == 0x00004000);
     }
     /**
      * <code>optional int64 MeiGuJingZiChan = 605;</code>
@@ -12542,7 +12558,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasJingZiChanShouYiLv() {
-      return ((bitField7_ & 0x00200000) == 0x00200000);
+      return ((bitField7_ & 0x00008000) == 0x00008000);
     }
     /**
      * <code>optional int64 JingZiChanShouYiLv = 606;</code>
@@ -12565,7 +12581,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMeiGuJingYingXianJin() {
-      return ((bitField7_ & 0x00400000) == 0x00400000);
+      return ((bitField7_ & 0x00010000) == 0x00010000);
     }
     /**
      * <code>optional int64 MeiGuJingYingXianJin = 607;</code>
@@ -12588,7 +12604,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMeiGuGongJiJin() {
-      return ((bitField7_ & 0x00800000) == 0x00800000);
+      return ((bitField7_ & 0x00020000) == 0x00020000);
     }
     /**
      * <code>optional int64 MeiGuGongJiJin = 608;</code>
@@ -12611,7 +12627,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMeiGuWeiFenPei() {
-      return ((bitField7_ & 0x01000000) == 0x01000000);
+      return ((bitField7_ & 0x00040000) == 0x00040000);
     }
     /**
      * <code>optional int64 MeiGuWeiFenPei = 609;</code>
@@ -12634,7 +12650,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasGuDongQuanYiBi() {
-      return ((bitField7_ & 0x02000000) == 0x02000000);
+      return ((bitField7_ & 0x00080000) == 0x00080000);
     }
     /**
      * <code>optional int64 GuDongQuanYiBi = 610;</code>
@@ -12657,7 +12673,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasJingLiRunTongBi() {
-      return ((bitField7_ & 0x04000000) == 0x04000000);
+      return ((bitField7_ & 0x00100000) == 0x00100000);
     }
     /**
      * <code>optional int64 JingLiRunTongBi = 611;</code>
@@ -12680,7 +12696,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasZhuYingShouRuTongBi() {
-      return ((bitField7_ & 0x08000000) == 0x08000000);
+      return ((bitField7_ & 0x00200000) == 0x00200000);
     }
     /**
      * <code>optional int64 ZhuYingShouRuTongBi = 612;</code>
@@ -12703,7 +12719,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasXiaoShouMaoLiLv() {
-      return ((bitField7_ & 0x10000000) == 0x10000000);
+      return ((bitField7_ & 0x00400000) == 0x00400000);
     }
     /**
      * <code>optional int64 XiaoShouMaoLiLv = 613;</code>
@@ -12726,7 +12742,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasTiaoZhengMeiGuJingZi() {
-      return ((bitField7_ & 0x20000000) == 0x20000000);
+      return ((bitField7_ & 0x00800000) == 0x00800000);
     }
     /**
      * <code>optional int64 TiaoZhengMeiGuJingZi = 614;</code>
@@ -12749,7 +12765,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasZongZiChan() {
-      return ((bitField7_ & 0x40000000) == 0x40000000);
+      return ((bitField7_ & 0x01000000) == 0x01000000);
     }
     /**
      * <code>optional int64 ZongZiChan = 615;</code>
@@ -12772,7 +12788,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasLiuDongZiChan() {
-      return ((bitField7_ & 0x80000000) == 0x80000000);
+      return ((bitField7_ & 0x02000000) == 0x02000000);
     }
     /**
      * <code>optional int64 LiuDongZiChan = 616;</code>
@@ -12795,7 +12811,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasGuDingZiChan() {
-      return ((bitField8_ & 0x00000001) == 0x00000001);
+      return ((bitField7_ & 0x04000000) == 0x04000000);
     }
     /**
      * <code>optional int64 GuDingZiChan = 617;</code>
@@ -12818,7 +12834,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasWuXingZiChan() {
-      return ((bitField8_ & 0x00000002) == 0x00000002);
+      return ((bitField7_ & 0x08000000) == 0x08000000);
     }
     /**
      * <code>optional int64 WuXingZiChan = 618;</code>
@@ -12841,7 +12857,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasLiuDongFuZhai() {
-      return ((bitField8_ & 0x00000004) == 0x00000004);
+      return ((bitField7_ & 0x10000000) == 0x10000000);
     }
     /**
      * <code>optional int64 LiuDongFuZhai = 619;</code>
@@ -12864,7 +12880,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasChangQiFuZhai() {
-      return ((bitField8_ & 0x00000008) == 0x00000008);
+      return ((bitField7_ & 0x20000000) == 0x20000000);
     }
     /**
      * <code>optional int64 ChangQiFuZhai = 620;</code>
@@ -12887,7 +12903,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasZongFuZhai() {
-      return ((bitField8_ & 0x00000010) == 0x00000010);
+      return ((bitField7_ & 0x40000000) == 0x40000000);
     }
     /**
      * <code>optional int64 ZongFuZhai = 621;</code>
@@ -12910,7 +12926,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasGuDongQuanYi() {
-      return ((bitField8_ & 0x00000020) == 0x00000020);
+      return ((bitField7_ & 0x80000000) == 0x80000000);
     }
     /**
      * <code>optional int64 GuDongQuanYi = 622;</code>
@@ -12933,7 +12949,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasZiBenGongJiJin() {
-      return ((bitField8_ & 0x00000040) == 0x00000040);
+      return ((bitField8_ & 0x00000001) == 0x00000001);
     }
     /**
      * <code>optional int64 ZiBenGongJiJin = 623;</code>
@@ -12956,7 +12972,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasJingYingXianJinLiuLiang() {
-      return ((bitField8_ & 0x00000080) == 0x00000080);
+      return ((bitField8_ & 0x00000002) == 0x00000002);
     }
     /**
      * <code>optional int64 JingYingXianJinLiuLiang = 624;</code>
@@ -12979,7 +12995,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasTouZiXianJinLiuLiang() {
-      return ((bitField8_ & 0x00000100) == 0x00000100);
+      return ((bitField8_ & 0x00000004) == 0x00000004);
     }
     /**
      * <code>optional int64 TouZiXianJinLiuLiang = 625;</code>
@@ -13002,7 +13018,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasChouZiXianJinLiuLiang() {
-      return ((bitField8_ & 0x00000200) == 0x00000200);
+      return ((bitField8_ & 0x00000008) == 0x00000008);
     }
     /**
      * <code>optional int64 ChouZiXianJinLiuLiang = 626;</code>
@@ -13025,7 +13041,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasXianJinZengJiaE() {
-      return ((bitField8_ & 0x00000400) == 0x00000400);
+      return ((bitField8_ & 0x00000010) == 0x00000010);
     }
     /**
      * <code>optional int64 XianJinZengJiaE = 627;</code>
@@ -13048,7 +13064,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasZhuYingShouRu() {
-      return ((bitField8_ & 0x00000800) == 0x00000800);
+      return ((bitField8_ & 0x00000020) == 0x00000020);
     }
     /**
      * <code>optional int64 ZhuYingShouRu = 628;</code>
@@ -13071,7 +13087,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasZhuYingLiRun() {
-      return ((bitField8_ & 0x00001000) == 0x00001000);
+      return ((bitField8_ & 0x00000040) == 0x00000040);
     }
     /**
      * <code>optional int64 ZhuYingLiRun = 629;</code>
@@ -13094,7 +13110,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasYingYeLiRun() {
-      return ((bitField8_ & 0x00002000) == 0x00002000);
+      return ((bitField8_ & 0x00000080) == 0x00000080);
     }
     /**
      * <code>optional int64 YingYeLiRun = 630;</code>
@@ -13117,7 +13133,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasTouZiShouYi() {
-      return ((bitField8_ & 0x00004000) == 0x00004000);
+      return ((bitField8_ & 0x00000100) == 0x00000100);
     }
     /**
      * <code>optional int64 TouZiShouYi = 631;</code>
@@ -13140,7 +13156,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasYingYeWaiShouZhi() {
-      return ((bitField8_ & 0x00008000) == 0x00008000);
+      return ((bitField8_ & 0x00000200) == 0x00000200);
     }
     /**
      * <code>optional int64 YingYeWaiShouZhi = 632;</code>
@@ -13163,7 +13179,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasLiRunZongE() {
-      return ((bitField8_ & 0x00010000) == 0x00010000);
+      return ((bitField8_ & 0x00000400) == 0x00000400);
     }
     /**
      * <code>optional int64 LiRunZongE = 633;</code>
@@ -13186,7 +13202,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasJingLiRun() {
-      return ((bitField8_ & 0x00020000) == 0x00020000);
+      return ((bitField8_ & 0x00000800) == 0x00000800);
     }
     /**
      * <code>optional int64 JingLiRun = 634;</code>
@@ -13209,7 +13225,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasWeiFenPeiLiRun() {
-      return ((bitField8_ & 0x00040000) == 0x00040000);
+      return ((bitField8_ & 0x00001000) == 0x00001000);
     }
     /**
      * <code>optional int64 WeiFenPeiLiRun = 635;</code>
@@ -13232,7 +13248,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasZongGuBen() {
-      return ((bitField8_ & 0x00080000) == 0x00080000);
+      return ((bitField8_ & 0x00002000) == 0x00002000);
     }
     /**
      * <code>optional int64 ZongGuBen = 636;</code>
@@ -13255,7 +13271,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasWuXianShouGuHeJi() {
-      return ((bitField8_ & 0x00100000) == 0x00100000);
+      return ((bitField8_ & 0x00004000) == 0x00004000);
     }
     /**
      * <code>optional int64 WuXianShouGuHeJi = 637;</code>
@@ -13278,7 +13294,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasLiuTongAGu() {
-      return ((bitField8_ & 0x00200000) == 0x00200000);
+      return ((bitField8_ & 0x00008000) == 0x00008000);
     }
     /**
      * <code>optional int64 LiuTongAGu = 638;</code>
@@ -13301,7 +13317,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasLiuTongBGu() {
-      return ((bitField8_ & 0x00400000) == 0x00400000);
+      return ((bitField8_ & 0x00010000) == 0x00010000);
     }
     /**
      * <code>optional int64 LiuTongBGu = 639;</code>
@@ -13324,7 +13340,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasJingWaiShangShiGu() {
-      return ((bitField8_ & 0x00800000) == 0x00800000);
+      return ((bitField8_ & 0x00020000) == 0x00020000);
     }
     /**
      * <code>optional int64 JingWaiShangShiGu = 640;</code>
@@ -13347,7 +13363,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasQiTaLiuTongGu() {
-      return ((bitField8_ & 0x01000000) == 0x01000000);
+      return ((bitField8_ & 0x00040000) == 0x00040000);
     }
     /**
      * <code>optional int64 QiTaLiuTongGu = 641;</code>
@@ -13370,7 +13386,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasXianShouGuHeJi() {
-      return ((bitField8_ & 0x02000000) == 0x02000000);
+      return ((bitField8_ & 0x00080000) == 0x00080000);
     }
     /**
      * <code>optional int64 XianShouGuHeJi = 642;</code>
@@ -13393,7 +13409,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasGuoJiaChiGu() {
-      return ((bitField8_ & 0x04000000) == 0x04000000);
+      return ((bitField8_ & 0x00100000) == 0x00100000);
     }
     /**
      * <code>optional int64 GuoJiaChiGu = 643;</code>
@@ -13416,7 +13432,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasGuoYouFaRenGu() {
-      return ((bitField8_ & 0x08000000) == 0x08000000);
+      return ((bitField8_ & 0x00200000) == 0x00200000);
     }
     /**
      * <code>optional int64 GuoYouFaRenGu = 644;</code>
@@ -13439,7 +13455,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasJingNeiFaRenGu() {
-      return ((bitField8_ & 0x10000000) == 0x10000000);
+      return ((bitField8_ & 0x00400000) == 0x00400000);
     }
     /**
      * <code>optional int64 JingNeiFaRenGu = 645;</code>
@@ -13462,7 +13478,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasJingNeiZiRanRenGu() {
-      return ((bitField8_ & 0x20000000) == 0x20000000);
+      return ((bitField8_ & 0x00800000) == 0x00800000);
     }
     /**
      * <code>optional int64 JingNeiZiRanRenGu = 646;</code>
@@ -13485,7 +13501,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasQiTaFaQiRenGu() {
-      return ((bitField8_ & 0x40000000) == 0x40000000);
+      return ((bitField8_ & 0x01000000) == 0x01000000);
     }
     /**
      * <code>optional int64 QiTaFaQiRenGu = 647;</code>
@@ -13508,7 +13524,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasMuJiFaRenGu() {
-      return ((bitField8_ & 0x80000000) == 0x80000000);
+      return ((bitField8_ & 0x02000000) == 0x02000000);
     }
     /**
      * <code>optional int64 MuJiFaRenGu = 648;</code>
@@ -13531,7 +13547,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasJingWaiFaRenGu() {
-      return ((bitField9_ & 0x00000001) == 0x00000001);
+      return ((bitField8_ & 0x04000000) == 0x04000000);
     }
     /**
      * <code>optional int64 JingWaiFaRenGu = 649;</code>
@@ -13554,7 +13570,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasJingWaiZiRanRenGu() {
-      return ((bitField9_ & 0x00000002) == 0x00000002);
+      return ((bitField8_ & 0x08000000) == 0x08000000);
     }
     /**
      * <code>optional int64 JingWaiZiRanRenGu = 650;</code>
@@ -13577,7 +13593,7 @@ public final class DzhyunStkdata {
      * </pre>
      */
     public boolean hasYouXianGuHuoQiTa() {
-      return ((bitField9_ & 0x00000004) == 0x00000004);
+      return ((bitField8_ & 0x10000000) == 0x10000000);
     }
     /**
      * <code>optional int64 YouXianGuHuoQiTa = 651;</code>
@@ -13588,6 +13604,305 @@ public final class DzhyunStkdata {
      */
     public long getYouXianGuHuoQiTa() {
       return youXianGuHuoQiTa_;
+    }
+
+    public static final int WEITUOMAIRU_FIELD_NUMBER = 700;
+    private long weiTuoMaiRu_;
+    /**
+     * <code>optional int64 WeiTuoMaiRu = 700;</code>
+     *
+     * <pre>
+     * Level2统计数据
+     * </pre>
+     */
+    public boolean hasWeiTuoMaiRu() {
+      return ((bitField8_ & 0x20000000) == 0x20000000);
+    }
+    /**
+     * <code>optional int64 WeiTuoMaiRu = 700;</code>
+     *
+     * <pre>
+     * Level2统计数据
+     * </pre>
+     */
+    public long getWeiTuoMaiRu() {
+      return weiTuoMaiRu_;
+    }
+
+    public static final int WEITUOMAICHU_FIELD_NUMBER = 701;
+    private long weiTuoMaiChu_;
+    /**
+     * <code>optional int64 WeiTuoMaiChu = 701;</code>
+     *
+     * <pre>
+     * 委托单卖出数量
+     * </pre>
+     */
+    public boolean hasWeiTuoMaiChu() {
+      return ((bitField8_ & 0x40000000) == 0x40000000);
+    }
+    /**
+     * <code>optional int64 WeiTuoMaiChu = 701;</code>
+     *
+     * <pre>
+     * 委托单卖出数量
+     * </pre>
+     */
+    public long getWeiTuoMaiChu() {
+      return weiTuoMaiChu_;
+    }
+
+    public static final int MAIRUZHONGDANBILI_FIELD_NUMBER = 702;
+    private long maiRuZhongDanBiLi_;
+    /**
+     * <code>optional int64 MaiRuZhongDanBiLi = 702;</code>
+     *
+     * <pre>
+     * 买入中单比例
+     * </pre>
+     */
+    public boolean hasMaiRuZhongDanBiLi() {
+      return ((bitField8_ & 0x80000000) == 0x80000000);
+    }
+    /**
+     * <code>optional int64 MaiRuZhongDanBiLi = 702;</code>
+     *
+     * <pre>
+     * 买入中单比例
+     * </pre>
+     */
+    public long getMaiRuZhongDanBiLi() {
+      return maiRuZhongDanBiLi_;
+    }
+
+    public static final int MAIRUDADANBILI_FIELD_NUMBER = 703;
+    private long maiRuDaDanBiLi_;
+    /**
+     * <code>optional int64 MaiRuDaDanBiLi = 703;</code>
+     *
+     * <pre>
+     * 买入大单比例
+     * </pre>
+     */
+    public boolean hasMaiRuDaDanBiLi() {
+      return ((bitField9_ & 0x00000001) == 0x00000001);
+    }
+    /**
+     * <code>optional int64 MaiRuDaDanBiLi = 703;</code>
+     *
+     * <pre>
+     * 买入大单比例
+     * </pre>
+     */
+    public long getMaiRuDaDanBiLi() {
+      return maiRuDaDanBiLi_;
+    }
+
+    public static final int MAIRUTEDADANBILI_FIELD_NUMBER = 704;
+    private long maiRuTeDaDanBiLi_;
+    /**
+     * <code>optional int64 MaiRuTeDaDanBiLi = 704;</code>
+     *
+     * <pre>
+     * 买入特大单比例
+     * </pre>
+     */
+    public boolean hasMaiRuTeDaDanBiLi() {
+      return ((bitField9_ & 0x00000002) == 0x00000002);
+    }
+    /**
+     * <code>optional int64 MaiRuTeDaDanBiLi = 704;</code>
+     *
+     * <pre>
+     * 买入特大单比例
+     * </pre>
+     */
+    public long getMaiRuTeDaDanBiLi() {
+      return maiRuTeDaDanBiLi_;
+    }
+
+    public static final int MAICHUZHONGDANBILI_FIELD_NUMBER = 705;
+    private long maiChuZhongDanBiLi_;
+    /**
+     * <code>optional int64 MaiChuZhongDanBiLi = 705;</code>
+     *
+     * <pre>
+     * 卖出中单比例
+     * </pre>
+     */
+    public boolean hasMaiChuZhongDanBiLi() {
+      return ((bitField9_ & 0x00000004) == 0x00000004);
+    }
+    /**
+     * <code>optional int64 MaiChuZhongDanBiLi = 705;</code>
+     *
+     * <pre>
+     * 卖出中单比例
+     * </pre>
+     */
+    public long getMaiChuZhongDanBiLi() {
+      return maiChuZhongDanBiLi_;
+    }
+
+    public static final int MAICHUDADANBILI_FIELD_NUMBER = 706;
+    private long maiChuDaDanBiLi_;
+    /**
+     * <code>optional int64 MaiChuDaDanBiLi = 706;</code>
+     *
+     * <pre>
+     * 卖出大单比例
+     * </pre>
+     */
+    public boolean hasMaiChuDaDanBiLi() {
+      return ((bitField9_ & 0x00000008) == 0x00000008);
+    }
+    /**
+     * <code>optional int64 MaiChuDaDanBiLi = 706;</code>
+     *
+     * <pre>
+     * 卖出大单比例
+     * </pre>
+     */
+    public long getMaiChuDaDanBiLi() {
+      return maiChuDaDanBiLi_;
+    }
+
+    public static final int MAICHUTEDADANBILI_FIELD_NUMBER = 707;
+    private long maiChuTeDaDanBiLi_;
+    /**
+     * <code>optional int64 MaiChuTeDaDanBiLi = 707;</code>
+     *
+     * <pre>
+     * 卖出特大单比例
+     * </pre>
+     */
+    public boolean hasMaiChuTeDaDanBiLi() {
+      return ((bitField9_ & 0x00000010) == 0x00000010);
+    }
+    /**
+     * <code>optional int64 MaiChuTeDaDanBiLi = 707;</code>
+     *
+     * <pre>
+     * 卖出特大单比例
+     * </pre>
+     */
+    public long getMaiChuTeDaDanBiLi() {
+      return maiChuTeDaDanBiLi_;
+    }
+
+    public static final int DUANXIANMAIRU_FIELD_NUMBER = 708;
+    private long duanXianMaiRu_;
+    /**
+     * <code>optional int64 DuanXianMaiRu = 708;</code>
+     *
+     * <pre>
+     * 短线精灵买入大单统计
+     * </pre>
+     */
+    public boolean hasDuanXianMaiRu() {
+      return ((bitField9_ & 0x00000020) == 0x00000020);
+    }
+    /**
+     * <code>optional int64 DuanXianMaiRu = 708;</code>
+     *
+     * <pre>
+     * 短线精灵买入大单统计
+     * </pre>
+     */
+    public long getDuanXianMaiRu() {
+      return duanXianMaiRu_;
+    }
+
+    public static final int DUANXIANMAICHU_FIELD_NUMBER = 709;
+    private long duanXianMaiChu_;
+    /**
+     * <code>optional int64 DuanXianMaiChu = 709;</code>
+     *
+     * <pre>
+     * 短线精灵卖出大单统计
+     * </pre>
+     */
+    public boolean hasDuanXianMaiChu() {
+      return ((bitField9_ & 0x00000040) == 0x00000040);
+    }
+    /**
+     * <code>optional int64 DuanXianMaiChu = 709;</code>
+     *
+     * <pre>
+     * 短线精灵卖出大单统计
+     * </pre>
+     */
+    public long getDuanXianMaiChu() {
+      return duanXianMaiChu_;
+    }
+
+    public static final int DUANXIANCHIHUO_FIELD_NUMBER = 710;
+    private long duanXianChiHuo_;
+    /**
+     * <code>optional int64 DuanXianChiHuo = 710;</code>
+     *
+     * <pre>
+     * 短线精灵吃货大单统计
+     * </pre>
+     */
+    public boolean hasDuanXianChiHuo() {
+      return ((bitField9_ & 0x00000080) == 0x00000080);
+    }
+    /**
+     * <code>optional int64 DuanXianChiHuo = 710;</code>
+     *
+     * <pre>
+     * 短线精灵吃货大单统计
+     * </pre>
+     */
+    public long getDuanXianChiHuo() {
+      return duanXianChiHuo_;
+    }
+
+    public static final int DUANXIANTUHUO_FIELD_NUMBER = 711;
+    private long duanXianTuHuo_;
+    /**
+     * <code>optional int64 DuanXianTuHuo = 711;</code>
+     *
+     * <pre>
+     * 短线精灵吐货大单统计
+     * </pre>
+     */
+    public boolean hasDuanXianTuHuo() {
+      return ((bitField9_ & 0x00000100) == 0x00000100);
+    }
+    /**
+     * <code>optional int64 DuanXianTuHuo = 711;</code>
+     *
+     * <pre>
+     * 短线精灵吐货大单统计
+     * </pre>
+     */
+    public long getDuanXianTuHuo() {
+      return duanXianTuHuo_;
+    }
+
+    public static final int BISHI_FIELD_NUMBER = 801;
+    private long biShi_;
+    /**
+     * <code>optional int64 BiShi = 801;</code>
+     *
+     * <pre>
+     *市场动态
+     * </pre>
+     */
+    public boolean hasBiShi() {
+      return ((bitField9_ & 0x00000200) == 0x00000200);
+    }
+    /**
+     * <code>optional int64 BiShi = 801;</code>
+     *
+     * <pre>
+     *市场动态
+     * </pre>
+     */
+    public long getBiShi() {
+      return biShi_;
     }
 
     private void initFields() {
@@ -13661,12 +13976,6 @@ public final class DzhyunStkdata {
       qiTaChengJiaoE_ = 0L;
       maiRuDanShu_ = 0L;
       maiChuDanShu_ = 0L;
-      maiRuZhongDanBiLi_ = 0L;
-      maiRuDaDanBiLi_ = 0L;
-      maiRuTeDaDanBiLi_ = 0L;
-      maiChuZhongDanBiLi_ = 0L;
-      maiChuDaDanBiLi_ = 0L;
-      maiChuTeDaDanBiLi_ = 0L;
       fenZhongZhangFu1_ = 0L;
       fenZhongZhangFu2_ = 0L;
       fenZhongZhangFu3_ = 0L;
@@ -13882,6 +14191,19 @@ public final class DzhyunStkdata {
       jingWaiFaRenGu_ = 0L;
       jingWaiZiRanRenGu_ = 0L;
       youXianGuHuoQiTa_ = 0L;
+      weiTuoMaiRu_ = 0L;
+      weiTuoMaiChu_ = 0L;
+      maiRuZhongDanBiLi_ = 0L;
+      maiRuDaDanBiLi_ = 0L;
+      maiRuTeDaDanBiLi_ = 0L;
+      maiChuZhongDanBiLi_ = 0L;
+      maiChuDaDanBiLi_ = 0L;
+      maiChuTeDaDanBiLi_ = 0L;
+      duanXianMaiRu_ = 0L;
+      duanXianMaiChu_ = 0L;
+      duanXianChiHuo_ = 0L;
+      duanXianTuHuo_ = 0L;
+      biShi_ = 0L;
     }
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
@@ -14111,667 +14433,688 @@ public final class DzhyunStkdata {
         output.writeInt64(70, maiChuDanShu_);
       }
       if (((bitField2_ & 0x00000040) == 0x00000040)) {
-        output.writeInt64(71, maiRuZhongDanBiLi_);
-      }
-      if (((bitField2_ & 0x00000080) == 0x00000080)) {
-        output.writeInt64(72, maiRuDaDanBiLi_);
-      }
-      if (((bitField2_ & 0x00000100) == 0x00000100)) {
-        output.writeInt64(73, maiRuTeDaDanBiLi_);
-      }
-      if (((bitField2_ & 0x00000200) == 0x00000200)) {
-        output.writeInt64(74, maiChuZhongDanBiLi_);
-      }
-      if (((bitField2_ & 0x00000400) == 0x00000400)) {
-        output.writeInt64(75, maiChuDaDanBiLi_);
-      }
-      if (((bitField2_ & 0x00000800) == 0x00000800)) {
-        output.writeInt64(76, maiChuTeDaDanBiLi_);
-      }
-      if (((bitField2_ & 0x00001000) == 0x00001000)) {
         output.writeInt64(77, fenZhongZhangFu1_);
       }
-      if (((bitField2_ & 0x00002000) == 0x00002000)) {
+      if (((bitField2_ & 0x00000080) == 0x00000080)) {
         output.writeInt64(78, fenZhongZhangFu2_);
       }
-      if (((bitField2_ & 0x00004000) == 0x00004000)) {
+      if (((bitField2_ & 0x00000100) == 0x00000100)) {
         output.writeInt64(79, fenZhongZhangFu3_);
       }
-      if (((bitField2_ & 0x00008000) == 0x00008000)) {
+      if (((bitField2_ & 0x00000200) == 0x00000200)) {
         output.writeInt64(80, fenZhongZhangFu4_);
       }
-      if (((bitField2_ & 0x00010000) == 0x00010000)) {
+      if (((bitField2_ & 0x00000400) == 0x00000400)) {
         output.writeInt64(81, fenZhongZhangFu5_);
       }
-      if (((bitField2_ & 0x00020000) == 0x00020000)) {
+      if (((bitField2_ & 0x00000800) == 0x00000800)) {
         output.writeInt64(82, shiYingLv_);
       }
-      if (((bitField2_ & 0x00040000) == 0x00040000)) {
+      if (((bitField2_ & 0x00001000) == 0x00001000)) {
         output.writeInt64(83, zhangTing_);
       }
-      if (((bitField2_ & 0x00080000) == 0x00080000)) {
+      if (((bitField2_ & 0x00002000) == 0x00002000)) {
         output.writeInt64(84, dieTing_);
       }
-      if (((bitField2_ & 0x00100000) == 0x00100000)) {
+      if (((bitField2_ & 0x00004000) == 0x00004000)) {
         output.writeBytes(85, getShiChangMingChengBytes());
       }
-      if (((bitField2_ & 0x00200000) == 0x00200000)) {
+      if (((bitField2_ & 0x00008000) == 0x00008000)) {
         output.writeBytes(86, getShiChangDuanMingChengBytes());
       }
-      if (((bitField2_ & 0x00400000) == 0x00400000)) {
+      if (((bitField2_ & 0x00010000) == 0x00010000)) {
         output.writeInt64(87, jiGouChiHuoShu_);
       }
-      if (((bitField2_ & 0x00800000) == 0x00800000)) {
+      if (((bitField2_ & 0x00020000) == 0x00020000)) {
         output.writeInt64(88, jiGouTuHuoShu_);
       }
-      if (((bitField2_ & 0x01000000) == 0x01000000)) {
+      if (((bitField2_ & 0x00040000) == 0x00040000)) {
         output.writeInt64(89, jiGouChiHuoLiang_);
       }
-      if (((bitField2_ & 0x02000000) == 0x02000000)) {
+      if (((bitField2_ & 0x00080000) == 0x00080000)) {
         output.writeInt64(90, jiGouTuHuoLiang_);
       }
-      if (((bitField2_ & 0x04000000) == 0x04000000)) {
+      if (((bitField2_ & 0x00100000) == 0x00100000)) {
         output.writeInt64(91, jiGouChiHuoJunE_);
       }
-      if (((bitField2_ & 0x08000000) == 0x08000000)) {
+      if (((bitField2_ & 0x00200000) == 0x00200000)) {
         output.writeInt64(92, jiGouTuHuoJunE_);
       }
-      if (((bitField2_ & 0x10000000) == 0x10000000)) {
+      if (((bitField2_ & 0x00400000) == 0x00400000)) {
         output.writeInt64(93, meiShouGuShu_);
       }
-      if (((bitField2_ & 0x20000000) == 0x20000000)) {
+      if (((bitField2_ & 0x00800000) == 0x00800000)) {
         output.writeInt64(94, jiaoYiDanWei_);
       }
-      if (((bitField2_ & 0x40000000) == 0x40000000)) {
+      if (((bitField2_ & 0x01000000) == 0x01000000)) {
         output.writeInt64(95, shiXiaoLv_);
       }
-      if (((bitField2_ & 0x80000000) == 0x80000000)) {
+      if (((bitField2_ & 0x02000000) == 0x02000000)) {
         output.writeInt64(96, shiJian_);
       }
-      if (((bitField3_ & 0x00000001) == 0x00000001)) {
+      if (((bitField2_ & 0x04000000) == 0x04000000)) {
         output.writeInt64(97, shiJingLv_);
       }
-      if (((bitField3_ & 0x00000002) == 0x00000002)) {
+      if (((bitField2_ & 0x08000000) == 0x08000000)) {
         output.writeInt64(98, zongShiZhi_);
       }
-      if (((bitField3_ & 0x00000004) == 0x00000004)) {
+      if (((bitField2_ & 0x10000000) == 0x10000000)) {
         output.writeInt64(99, liuTongShiZhi_);
       }
-      if (((bitField3_ & 0x00000008) == 0x00000008)) {
+      if (((bitField2_ & 0x20000000) == 0x20000000)) {
         output.writeInt64(200, mA1MinMA1_);
       }
-      if (((bitField3_ & 0x00000010) == 0x00000010)) {
+      if (((bitField2_ & 0x40000000) == 0x40000000)) {
         output.writeInt64(201, mA1MinMA2_);
       }
-      if (((bitField3_ & 0x00000020) == 0x00000020)) {
+      if (((bitField2_ & 0x80000000) == 0x80000000)) {
         output.writeInt64(202, mA1MinMA3_);
       }
-      if (((bitField3_ & 0x00000040) == 0x00000040)) {
+      if (((bitField3_ & 0x00000001) == 0x00000001)) {
         output.writeInt64(203, mA1MinMA4_);
       }
-      if (((bitField3_ & 0x00000080) == 0x00000080)) {
+      if (((bitField3_ & 0x00000002) == 0x00000002)) {
         output.writeInt64(204, mA1MinMA5_);
       }
-      if (((bitField3_ & 0x00000100) == 0x00000100)) {
+      if (((bitField3_ & 0x00000004) == 0x00000004)) {
         output.writeInt64(205, mA1MinMA6_);
       }
-      if (((bitField3_ & 0x00000200) == 0x00000200)) {
+      if (((bitField3_ & 0x00000008) == 0x00000008)) {
         output.writeInt64(206, mA5MinMA1_);
       }
-      if (((bitField3_ & 0x00000400) == 0x00000400)) {
+      if (((bitField3_ & 0x00000010) == 0x00000010)) {
         output.writeInt64(207, mA5MinMA2_);
       }
-      if (((bitField3_ & 0x00000800) == 0x00000800)) {
+      if (((bitField3_ & 0x00000020) == 0x00000020)) {
         output.writeInt64(208, mA5MinMA3_);
       }
-      if (((bitField3_ & 0x00001000) == 0x00001000)) {
+      if (((bitField3_ & 0x00000040) == 0x00000040)) {
         output.writeInt64(209, mA5MinMA4_);
       }
-      if (((bitField3_ & 0x00002000) == 0x00002000)) {
+      if (((bitField3_ & 0x00000080) == 0x00000080)) {
         output.writeInt64(210, mA5MinMA5_);
       }
-      if (((bitField3_ & 0x00004000) == 0x00004000)) {
+      if (((bitField3_ & 0x00000100) == 0x00000100)) {
         output.writeInt64(211, mA5MinMA6_);
       }
-      if (((bitField3_ & 0x00008000) == 0x00008000)) {
+      if (((bitField3_ & 0x00000200) == 0x00000200)) {
         output.writeInt64(212, mA1DayMA1_);
       }
-      if (((bitField3_ & 0x00010000) == 0x00010000)) {
+      if (((bitField3_ & 0x00000400) == 0x00000400)) {
         output.writeInt64(213, mA1DayMA2_);
       }
-      if (((bitField3_ & 0x00020000) == 0x00020000)) {
+      if (((bitField3_ & 0x00000800) == 0x00000800)) {
         output.writeInt64(214, mA1DayMA3_);
       }
-      if (((bitField3_ & 0x00040000) == 0x00040000)) {
+      if (((bitField3_ & 0x00001000) == 0x00001000)) {
         output.writeInt64(215, mA1DayMA4_);
       }
-      if (((bitField3_ & 0x00080000) == 0x00080000)) {
+      if (((bitField3_ & 0x00002000) == 0x00002000)) {
         output.writeInt64(216, mA1DayMA5_);
       }
-      if (((bitField3_ & 0x00100000) == 0x00100000)) {
+      if (((bitField3_ & 0x00004000) == 0x00004000)) {
         output.writeInt64(217, mA1DayMA6_);
       }
-      if (((bitField3_ & 0x00200000) == 0x00200000)) {
+      if (((bitField3_ & 0x00008000) == 0x00008000)) {
         output.writeInt64(218, bOLL1MinMID_);
       }
-      if (((bitField3_ & 0x00400000) == 0x00400000)) {
+      if (((bitField3_ & 0x00010000) == 0x00010000)) {
         output.writeInt64(219, bOLL1MinUPPER_);
       }
-      if (((bitField3_ & 0x00800000) == 0x00800000)) {
+      if (((bitField3_ & 0x00020000) == 0x00020000)) {
         output.writeInt64(220, bOLL1MinLOWER_);
       }
-      if (((bitField3_ & 0x01000000) == 0x01000000)) {
+      if (((bitField3_ & 0x00040000) == 0x00040000)) {
         output.writeInt64(221, bOLL5MinMID_);
       }
-      if (((bitField3_ & 0x02000000) == 0x02000000)) {
+      if (((bitField3_ & 0x00080000) == 0x00080000)) {
         output.writeInt64(222, bOLL5MinUPPER_);
       }
-      if (((bitField3_ & 0x04000000) == 0x04000000)) {
+      if (((bitField3_ & 0x00100000) == 0x00100000)) {
         output.writeInt64(223, bOLL5MinLOWER_);
       }
-      if (((bitField3_ & 0x08000000) == 0x08000000)) {
+      if (((bitField3_ & 0x00200000) == 0x00200000)) {
         output.writeInt64(224, bOLL1DayMID_);
       }
-      if (((bitField3_ & 0x10000000) == 0x10000000)) {
+      if (((bitField3_ & 0x00400000) == 0x00400000)) {
         output.writeInt64(225, bOLL1DayUPPER_);
       }
-      if (((bitField3_ & 0x20000000) == 0x20000000)) {
+      if (((bitField3_ & 0x00800000) == 0x00800000)) {
         output.writeInt64(226, bOLL1DayLOWER_);
       }
-      if (((bitField3_ & 0x40000000) == 0x40000000)) {
+      if (((bitField3_ & 0x01000000) == 0x01000000)) {
         output.writeInt64(227, vOL1Min_);
       }
-      if (((bitField3_ & 0x80000000) == 0x80000000)) {
+      if (((bitField3_ & 0x02000000) == 0x02000000)) {
         output.writeInt64(228, vOL1MinMA1_);
       }
-      if (((bitField4_ & 0x00000001) == 0x00000001)) {
+      if (((bitField3_ & 0x04000000) == 0x04000000)) {
         output.writeInt64(229, vOL1MinMA2_);
       }
-      if (((bitField4_ & 0x00000002) == 0x00000002)) {
+      if (((bitField3_ & 0x08000000) == 0x08000000)) {
         output.writeInt64(230, vOL1MinMA3_);
       }
-      if (((bitField4_ & 0x00000004) == 0x00000004)) {
+      if (((bitField3_ & 0x10000000) == 0x10000000)) {
         output.writeInt64(231, vOL5Min_);
       }
-      if (((bitField4_ & 0x00000008) == 0x00000008)) {
+      if (((bitField3_ & 0x20000000) == 0x20000000)) {
         output.writeInt64(232, vOL5MinMA1_);
       }
-      if (((bitField4_ & 0x00000010) == 0x00000010)) {
+      if (((bitField3_ & 0x40000000) == 0x40000000)) {
         output.writeInt64(233, vOL5MinMA2_);
       }
-      if (((bitField4_ & 0x00000020) == 0x00000020)) {
+      if (((bitField3_ & 0x80000000) == 0x80000000)) {
         output.writeInt64(234, vOL5MinMA3_);
       }
-      if (((bitField4_ & 0x00000040) == 0x00000040)) {
+      if (((bitField4_ & 0x00000001) == 0x00000001)) {
         output.writeInt64(235, vOL1Day_);
       }
-      if (((bitField4_ & 0x00000080) == 0x00000080)) {
+      if (((bitField4_ & 0x00000002) == 0x00000002)) {
         output.writeInt64(236, vOL1DayMA1_);
       }
-      if (((bitField4_ & 0x00000100) == 0x00000100)) {
+      if (((bitField4_ & 0x00000004) == 0x00000004)) {
         output.writeInt64(237, vOL1DayMA2_);
       }
-      if (((bitField4_ & 0x00000200) == 0x00000200)) {
+      if (((bitField4_ & 0x00000008) == 0x00000008)) {
         output.writeInt64(238, vOL1DayMA3_);
       }
-      if (((bitField4_ & 0x00000400) == 0x00000400)) {
+      if (((bitField4_ & 0x00000010) == 0x00000010)) {
         output.writeInt64(239, aRBR1MinAR_);
       }
-      if (((bitField4_ & 0x00000800) == 0x00000800)) {
+      if (((bitField4_ & 0x00000020) == 0x00000020)) {
         output.writeInt64(240, aRBR1MinBR_);
       }
-      if (((bitField4_ & 0x00001000) == 0x00001000)) {
+      if (((bitField4_ & 0x00000040) == 0x00000040)) {
         output.writeInt64(241, aRBR5MinAR_);
       }
-      if (((bitField4_ & 0x00002000) == 0x00002000)) {
+      if (((bitField4_ & 0x00000080) == 0x00000080)) {
         output.writeInt64(242, aRBR5MinBR_);
       }
-      if (((bitField4_ & 0x00004000) == 0x00004000)) {
+      if (((bitField4_ & 0x00000100) == 0x00000100)) {
         output.writeInt64(243, aRBR1DayAR_);
       }
-      if (((bitField4_ & 0x00008000) == 0x00008000)) {
+      if (((bitField4_ & 0x00000200) == 0x00000200)) {
         output.writeInt64(244, aRBR1DayBR_);
       }
-      if (((bitField4_ & 0x00010000) == 0x00010000)) {
+      if (((bitField4_ & 0x00000400) == 0x00000400)) {
         output.writeInt64(245, bIAS1MinBIAS1_);
       }
-      if (((bitField4_ & 0x00020000) == 0x00020000)) {
+      if (((bitField4_ & 0x00000800) == 0x00000800)) {
         output.writeInt64(246, bIAS1MinBIAS2_);
       }
-      if (((bitField4_ & 0x00040000) == 0x00040000)) {
+      if (((bitField4_ & 0x00001000) == 0x00001000)) {
         output.writeInt64(247, bIAS1MinBIAS3_);
       }
-      if (((bitField4_ & 0x00080000) == 0x00080000)) {
+      if (((bitField4_ & 0x00002000) == 0x00002000)) {
         output.writeInt64(248, bIAS5MinBIAS1_);
       }
-      if (((bitField4_ & 0x00100000) == 0x00100000)) {
+      if (((bitField4_ & 0x00004000) == 0x00004000)) {
         output.writeInt64(249, bIAS5MinBIAS2_);
       }
-      if (((bitField4_ & 0x00200000) == 0x00200000)) {
+      if (((bitField4_ & 0x00008000) == 0x00008000)) {
         output.writeInt64(250, bIAS5MinBIAS3_);
       }
-      if (((bitField4_ & 0x00400000) == 0x00400000)) {
+      if (((bitField4_ & 0x00010000) == 0x00010000)) {
         output.writeInt64(251, bIAS1DayBIAS1_);
       }
-      if (((bitField4_ & 0x00800000) == 0x00800000)) {
+      if (((bitField4_ & 0x00020000) == 0x00020000)) {
         output.writeInt64(252, bIAS1DayBIAS2_);
       }
-      if (((bitField4_ & 0x01000000) == 0x01000000)) {
+      if (((bitField4_ & 0x00040000) == 0x00040000)) {
         output.writeInt64(253, bIAS1DayBIAS3_);
       }
-      if (((bitField4_ & 0x02000000) == 0x02000000)) {
+      if (((bitField4_ & 0x00080000) == 0x00080000)) {
         output.writeInt64(254, cCI1Min_);
       }
-      if (((bitField4_ & 0x04000000) == 0x04000000)) {
+      if (((bitField4_ & 0x00100000) == 0x00100000)) {
         output.writeInt64(255, cCI5Min_);
       }
-      if (((bitField4_ & 0x08000000) == 0x08000000)) {
+      if (((bitField4_ & 0x00200000) == 0x00200000)) {
         output.writeInt64(256, cCI1Day_);
       }
-      if (((bitField4_ & 0x10000000) == 0x10000000)) {
+      if (((bitField4_ & 0x00400000) == 0x00400000)) {
         output.writeInt64(257, cJBS1MinCJBS_);
       }
-      if (((bitField4_ & 0x20000000) == 0x20000000)) {
+      if (((bitField4_ & 0x00800000) == 0x00800000)) {
         output.writeInt64(258, cJBS5MinCJBS_);
       }
-      if (((bitField4_ & 0x40000000) == 0x40000000)) {
+      if (((bitField4_ & 0x01000000) == 0x01000000)) {
         output.writeInt64(259, cJBS1DayCJBS_);
       }
-      if (((bitField4_ & 0x80000000) == 0x80000000)) {
+      if (((bitField4_ & 0x02000000) == 0x02000000)) {
         output.writeInt64(260, cR1MinCR_);
       }
-      if (((bitField5_ & 0x00000001) == 0x00000001)) {
+      if (((bitField4_ & 0x04000000) == 0x04000000)) {
         output.writeInt64(261, cR1MinMA1_);
       }
-      if (((bitField5_ & 0x00000002) == 0x00000002)) {
+      if (((bitField4_ & 0x08000000) == 0x08000000)) {
         output.writeInt64(262, cR1MinMA2_);
       }
-      if (((bitField5_ & 0x00000004) == 0x00000004)) {
+      if (((bitField4_ & 0x10000000) == 0x10000000)) {
         output.writeInt64(263, cR1MinMA3_);
       }
-      if (((bitField5_ & 0x00000008) == 0x00000008)) {
+      if (((bitField4_ & 0x20000000) == 0x20000000)) {
         output.writeInt64(264, cR5MinCR_);
       }
-      if (((bitField5_ & 0x00000010) == 0x00000010)) {
+      if (((bitField4_ & 0x40000000) == 0x40000000)) {
         output.writeInt64(265, cR5MinMA1_);
       }
-      if (((bitField5_ & 0x00000020) == 0x00000020)) {
+      if (((bitField4_ & 0x80000000) == 0x80000000)) {
         output.writeInt64(266, cR5MinMA2_);
       }
-      if (((bitField5_ & 0x00000040) == 0x00000040)) {
+      if (((bitField5_ & 0x00000001) == 0x00000001)) {
         output.writeInt64(267, cR5MinMA3_);
       }
-      if (((bitField5_ & 0x00000080) == 0x00000080)) {
+      if (((bitField5_ & 0x00000002) == 0x00000002)) {
         output.writeInt64(268, cR1DayCR_);
       }
-      if (((bitField5_ & 0x00000100) == 0x00000100)) {
+      if (((bitField5_ & 0x00000004) == 0x00000004)) {
         output.writeInt64(269, cR1DayMA1_);
       }
-      if (((bitField5_ & 0x00000200) == 0x00000200)) {
+      if (((bitField5_ & 0x00000008) == 0x00000008)) {
         output.writeInt64(270, cR1DayMA2_);
       }
-      if (((bitField5_ & 0x00000400) == 0x00000400)) {
+      if (((bitField5_ & 0x00000010) == 0x00000010)) {
         output.writeInt64(271, cR1DayMA3_);
       }
-      if (((bitField5_ & 0x00000800) == 0x00000800)) {
+      if (((bitField5_ & 0x00000020) == 0x00000020)) {
         output.writeInt64(272, dMA1MinDDD_);
       }
-      if (((bitField5_ & 0x00001000) == 0x00001000)) {
+      if (((bitField5_ & 0x00000040) == 0x00000040)) {
         output.writeInt64(273, dMA1MinAMA_);
       }
-      if (((bitField5_ & 0x00002000) == 0x00002000)) {
+      if (((bitField5_ & 0x00000080) == 0x00000080)) {
         output.writeInt64(274, dMA5MinDDD_);
       }
-      if (((bitField5_ & 0x00004000) == 0x00004000)) {
+      if (((bitField5_ & 0x00000100) == 0x00000100)) {
         output.writeInt64(275, dMA5MinAMA_);
       }
-      if (((bitField5_ & 0x00008000) == 0x00008000)) {
+      if (((bitField5_ & 0x00000200) == 0x00000200)) {
         output.writeInt64(276, dMA1DayDDD_);
       }
-      if (((bitField5_ & 0x00010000) == 0x00010000)) {
+      if (((bitField5_ & 0x00000400) == 0x00000400)) {
         output.writeInt64(277, dMA1DayAMA_);
       }
-      if (((bitField5_ & 0x00020000) == 0x00020000)) {
+      if (((bitField5_ & 0x00000800) == 0x00000800)) {
         output.writeInt64(278, dMI1MinPDI_);
       }
-      if (((bitField5_ & 0x00040000) == 0x00040000)) {
+      if (((bitField5_ & 0x00001000) == 0x00001000)) {
         output.writeInt64(279, dMI1MinMDI_);
       }
-      if (((bitField5_ & 0x00080000) == 0x00080000)) {
+      if (((bitField5_ & 0x00002000) == 0x00002000)) {
         output.writeInt64(280, dMI1MinADX_);
       }
-      if (((bitField5_ & 0x00100000) == 0x00100000)) {
+      if (((bitField5_ & 0x00004000) == 0x00004000)) {
         output.writeInt64(281, dMI1MinADXR_);
       }
-      if (((bitField5_ & 0x00200000) == 0x00200000)) {
+      if (((bitField5_ & 0x00008000) == 0x00008000)) {
         output.writeInt64(282, dMI5MinPDI_);
       }
-      if (((bitField5_ & 0x00400000) == 0x00400000)) {
+      if (((bitField5_ & 0x00010000) == 0x00010000)) {
         output.writeInt64(283, dMI5MinMDI_);
       }
-      if (((bitField5_ & 0x00800000) == 0x00800000)) {
+      if (((bitField5_ & 0x00020000) == 0x00020000)) {
         output.writeInt64(284, dMI5MinADX_);
       }
-      if (((bitField5_ & 0x01000000) == 0x01000000)) {
+      if (((bitField5_ & 0x00040000) == 0x00040000)) {
         output.writeInt64(285, dMI5MinADXR_);
       }
-      if (((bitField5_ & 0x02000000) == 0x02000000)) {
+      if (((bitField5_ & 0x00080000) == 0x00080000)) {
         output.writeInt64(286, dMI1DayPDI_);
       }
-      if (((bitField5_ & 0x04000000) == 0x04000000)) {
+      if (((bitField5_ & 0x00100000) == 0x00100000)) {
         output.writeInt64(287, dMI1DayMDI_);
       }
-      if (((bitField5_ & 0x08000000) == 0x08000000)) {
+      if (((bitField5_ & 0x00200000) == 0x00200000)) {
         output.writeInt64(288, dMI1DayADX_);
       }
-      if (((bitField5_ & 0x10000000) == 0x10000000)) {
+      if (((bitField5_ & 0x00400000) == 0x00400000)) {
         output.writeInt64(289, dMI1DayADXR_);
       }
-      if (((bitField5_ & 0x20000000) == 0x20000000)) {
+      if (((bitField5_ & 0x00800000) == 0x00800000)) {
         output.writeInt64(290, kDJ1MinK_);
       }
-      if (((bitField5_ & 0x40000000) == 0x40000000)) {
+      if (((bitField5_ & 0x01000000) == 0x01000000)) {
         output.writeInt64(291, kDJ1MinD_);
       }
-      if (((bitField5_ & 0x80000000) == 0x80000000)) {
+      if (((bitField5_ & 0x02000000) == 0x02000000)) {
         output.writeInt64(292, kDJ1MinJ_);
       }
-      if (((bitField6_ & 0x00000001) == 0x00000001)) {
+      if (((bitField5_ & 0x04000000) == 0x04000000)) {
         output.writeInt64(293, kDJ5MinK_);
       }
-      if (((bitField6_ & 0x00000002) == 0x00000002)) {
+      if (((bitField5_ & 0x08000000) == 0x08000000)) {
         output.writeInt64(294, kDJ5MinD_);
       }
-      if (((bitField6_ & 0x00000004) == 0x00000004)) {
+      if (((bitField5_ & 0x10000000) == 0x10000000)) {
         output.writeInt64(295, kDJ5MinJ_);
       }
-      if (((bitField6_ & 0x00000008) == 0x00000008)) {
+      if (((bitField5_ & 0x20000000) == 0x20000000)) {
         output.writeInt64(296, kDJ1DayK_);
       }
-      if (((bitField6_ & 0x00000010) == 0x00000010)) {
+      if (((bitField5_ & 0x40000000) == 0x40000000)) {
         output.writeInt64(297, kDJ1DayD_);
       }
-      if (((bitField6_ & 0x00000020) == 0x00000020)) {
+      if (((bitField5_ & 0x80000000) == 0x80000000)) {
         output.writeInt64(298, kDJ1DayJ_);
       }
-      if (((bitField6_ & 0x00000040) == 0x00000040)) {
+      if (((bitField6_ & 0x00000001) == 0x00000001)) {
         output.writeInt64(299, mACD1MinDIFF_);
       }
-      if (((bitField6_ & 0x00000080) == 0x00000080)) {
+      if (((bitField6_ & 0x00000002) == 0x00000002)) {
         output.writeInt64(300, mACD1MinDEA_);
       }
-      if (((bitField6_ & 0x00000100) == 0x00000100)) {
+      if (((bitField6_ & 0x00000004) == 0x00000004)) {
         output.writeInt64(301, mACD1MinMACD_);
       }
-      if (((bitField6_ & 0x00000200) == 0x00000200)) {
+      if (((bitField6_ & 0x00000008) == 0x00000008)) {
         output.writeInt64(302, mACD5MinDIFF_);
       }
-      if (((bitField6_ & 0x00000400) == 0x00000400)) {
+      if (((bitField6_ & 0x00000010) == 0x00000010)) {
         output.writeInt64(303, mACD5MinDEA_);
       }
-      if (((bitField6_ & 0x00000800) == 0x00000800)) {
+      if (((bitField6_ & 0x00000020) == 0x00000020)) {
         output.writeInt64(304, mACD5MinMACD_);
       }
-      if (((bitField6_ & 0x00001000) == 0x00001000)) {
+      if (((bitField6_ & 0x00000040) == 0x00000040)) {
         output.writeInt64(305, mACD1DayDIFF_);
       }
-      if (((bitField6_ & 0x00002000) == 0x00002000)) {
+      if (((bitField6_ & 0x00000080) == 0x00000080)) {
         output.writeInt64(306, mACD1DayDEA_);
       }
-      if (((bitField6_ & 0x00004000) == 0x00004000)) {
+      if (((bitField6_ & 0x00000100) == 0x00000100)) {
         output.writeInt64(307, mACD1DayMACD_);
       }
-      if (((bitField6_ & 0x00008000) == 0x00008000)) {
+      if (((bitField6_ & 0x00000200) == 0x00000200)) {
         output.writeInt64(308, oBV1Min_);
       }
-      if (((bitField6_ & 0x00010000) == 0x00010000)) {
+      if (((bitField6_ & 0x00000400) == 0x00000400)) {
         output.writeInt64(309, oBV5Min_);
       }
-      if (((bitField6_ & 0x00020000) == 0x00020000)) {
+      if (((bitField6_ & 0x00000800) == 0x00000800)) {
         output.writeInt64(310, oBV1Day_);
       }
-      if (((bitField6_ & 0x00040000) == 0x00040000)) {
+      if (((bitField6_ & 0x00001000) == 0x00001000)) {
         output.writeInt64(311, pSY1Min_);
       }
-      if (((bitField6_ & 0x00080000) == 0x00080000)) {
+      if (((bitField6_ & 0x00002000) == 0x00002000)) {
         output.writeInt64(312, pSY5Min_);
       }
-      if (((bitField6_ & 0x00100000) == 0x00100000)) {
+      if (((bitField6_ & 0x00004000) == 0x00004000)) {
         output.writeInt64(313, pSY1Day_);
       }
-      if (((bitField6_ & 0x00200000) == 0x00200000)) {
+      if (((bitField6_ & 0x00008000) == 0x00008000)) {
         output.writeInt64(314, rSI1MinRSI1_);
       }
-      if (((bitField6_ & 0x00400000) == 0x00400000)) {
+      if (((bitField6_ & 0x00010000) == 0x00010000)) {
         output.writeInt64(315, rSI1MinRSI2_);
       }
-      if (((bitField6_ & 0x00800000) == 0x00800000)) {
+      if (((bitField6_ & 0x00020000) == 0x00020000)) {
         output.writeInt64(316, rSI1MinRSI3_);
       }
-      if (((bitField6_ & 0x01000000) == 0x01000000)) {
+      if (((bitField6_ & 0x00040000) == 0x00040000)) {
         output.writeInt64(317, rSI5MinRSI1_);
       }
-      if (((bitField6_ & 0x02000000) == 0x02000000)) {
+      if (((bitField6_ & 0x00080000) == 0x00080000)) {
         output.writeInt64(318, rSI5MinRSI2_);
       }
-      if (((bitField6_ & 0x04000000) == 0x04000000)) {
+      if (((bitField6_ & 0x00100000) == 0x00100000)) {
         output.writeInt64(319, rSI5MinRSI3_);
       }
-      if (((bitField6_ & 0x08000000) == 0x08000000)) {
+      if (((bitField6_ & 0x00200000) == 0x00200000)) {
         output.writeInt64(320, rSI1DayRSI1_);
       }
-      if (((bitField6_ & 0x10000000) == 0x10000000)) {
+      if (((bitField6_ & 0x00400000) == 0x00400000)) {
         output.writeInt64(321, rSI1DayRSI2_);
       }
-      if (((bitField6_ & 0x20000000) == 0x20000000)) {
+      if (((bitField6_ & 0x00800000) == 0x00800000)) {
         output.writeInt64(322, rSI1DayRSI3_);
       }
-      if (((bitField6_ & 0x40000000) == 0x40000000)) {
+      if (((bitField6_ & 0x01000000) == 0x01000000)) {
         output.writeInt64(323, wR1MinWR1_);
       }
-      if (((bitField6_ & 0x80000000) == 0x80000000)) {
+      if (((bitField6_ & 0x02000000) == 0x02000000)) {
         output.writeInt64(324, wR1MinWR2_);
       }
-      if (((bitField7_ & 0x00000001) == 0x00000001)) {
+      if (((bitField6_ & 0x04000000) == 0x04000000)) {
         output.writeInt64(325, wR5MinWR1_);
       }
-      if (((bitField7_ & 0x00000002) == 0x00000002)) {
+      if (((bitField6_ & 0x08000000) == 0x08000000)) {
         output.writeInt64(326, wR5MinWR2_);
       }
-      if (((bitField7_ & 0x00000004) == 0x00000004)) {
+      if (((bitField6_ & 0x10000000) == 0x10000000)) {
         output.writeInt64(327, wR1DayWR1_);
       }
-      if (((bitField7_ & 0x00000008) == 0x00000008)) {
+      if (((bitField6_ & 0x20000000) == 0x20000000)) {
         output.writeInt64(328, wR1DayWR2_);
       }
-      if (((bitField7_ & 0x00000010) == 0x00000010)) {
+      if (((bitField6_ & 0x40000000) == 0x40000000)) {
         output.writeInt64(400, leiXing_);
       }
-      if (((bitField7_ & 0x00000020) == 0x00000020)) {
+      if (((bitField6_ & 0x80000000) == 0x80000000)) {
         output.writeInt64(401, ziLeiXing_);
       }
-      if (((bitField7_ & 0x00000040) == 0x00000040)) {
+      if (((bitField7_ & 0x00000001) == 0x00000001)) {
         output.writeBytes(402, getLeiXingMingChengBytes());
       }
-      if (((bitField7_ & 0x00000080) == 0x00000080)) {
+      if (((bitField7_ & 0x00000002) == 0x00000002)) {
         output.writeInt64(403, chengJiaoLiangDanWei_);
       }
-      if (((bitField7_ & 0x00000100) == 0x00000100)) {
+      if (((bitField7_ & 0x00000004) == 0x00000004)) {
         output.writeInt64(501, fJJJLeiXing_);
       }
-      if (((bitField7_ & 0x00000200) == 0x00000200)) {
+      if (((bitField7_ & 0x00000008) == 0x00000008)) {
         output.writeInt64(502, zhengTiYiJia_);
       }
-      if (((bitField7_ & 0x00004000) == 0x00004000)) {
+      if (((bitField7_ & 0x00000100) == 0x00000100)) {
         output.writeInt64(511, yinHanShouYi_);
       }
-      if (((bitField7_ & 0x00008000) == 0x00008000)) {
+      if (((bitField7_ & 0x00000200) == 0x00000200)) {
         output.writeInt64(512, jiaGeGangGan_);
       }
-      if (((bitField7_ & 0x00000400) == 0x00000400)) {
+      if (((bitField7_ & 0x00000010) == 0x00000010)) {
         output.writeInt64(551, mYiJia_);
       }
-      if (((bitField7_ & 0x00000800) == 0x00000800)) {
+      if (((bitField7_ & 0x00000020) == 0x00000020)) {
         output.writeInt64(552, mShiShiJingZhi_);
       }
-      if (((bitField7_ & 0x00001000) == 0x00001000)) {
+      if (((bitField7_ & 0x00000040) == 0x00000040)) {
         output.writeInt64(553, mShangZheXuZhang_);
       }
-      if (((bitField7_ & 0x00002000) == 0x00002000)) {
+      if (((bitField7_ & 0x00000080) == 0x00000080)) {
         output.writeInt64(554, mXiaZheXuDie_);
       }
-      if (((bitField7_ & 0x00010000) == 0x00010000)) {
+      if (((bitField7_ & 0x00000400) == 0x00000400)) {
         output.writeBytes(601, getPinZhongObjBytes());
       }
-      if (((bitField7_ & 0x00020000) == 0x00020000)) {
+      if (((bitField7_ & 0x00000800) == 0x00000800)) {
         output.writeBytes(602, getBaoGaoQiBytes());
       }
-      if (((bitField7_ & 0x00040000) == 0x00040000)) {
+      if (((bitField7_ & 0x00001000) == 0x00001000)) {
         output.writeBytes(603, getShangShiRiQiBytes());
       }
-      if (((bitField7_ & 0x00080000) == 0x00080000)) {
+      if (((bitField7_ & 0x00002000) == 0x00002000)) {
         output.writeInt64(604, meiGuShouYi_);
       }
-      if (((bitField7_ & 0x00100000) == 0x00100000)) {
+      if (((bitField7_ & 0x00004000) == 0x00004000)) {
         output.writeInt64(605, meiGuJingZiChan_);
       }
-      if (((bitField7_ & 0x00200000) == 0x00200000)) {
+      if (((bitField7_ & 0x00008000) == 0x00008000)) {
         output.writeInt64(606, jingZiChanShouYiLv_);
       }
-      if (((bitField7_ & 0x00400000) == 0x00400000)) {
+      if (((bitField7_ & 0x00010000) == 0x00010000)) {
         output.writeInt64(607, meiGuJingYingXianJin_);
       }
-      if (((bitField7_ & 0x00800000) == 0x00800000)) {
+      if (((bitField7_ & 0x00020000) == 0x00020000)) {
         output.writeInt64(608, meiGuGongJiJin_);
       }
-      if (((bitField7_ & 0x01000000) == 0x01000000)) {
+      if (((bitField7_ & 0x00040000) == 0x00040000)) {
         output.writeInt64(609, meiGuWeiFenPei_);
       }
-      if (((bitField7_ & 0x02000000) == 0x02000000)) {
+      if (((bitField7_ & 0x00080000) == 0x00080000)) {
         output.writeInt64(610, guDongQuanYiBi_);
       }
-      if (((bitField7_ & 0x04000000) == 0x04000000)) {
+      if (((bitField7_ & 0x00100000) == 0x00100000)) {
         output.writeInt64(611, jingLiRunTongBi_);
       }
-      if (((bitField7_ & 0x08000000) == 0x08000000)) {
+      if (((bitField7_ & 0x00200000) == 0x00200000)) {
         output.writeInt64(612, zhuYingShouRuTongBi_);
       }
-      if (((bitField7_ & 0x10000000) == 0x10000000)) {
+      if (((bitField7_ & 0x00400000) == 0x00400000)) {
         output.writeInt64(613, xiaoShouMaoLiLv_);
       }
-      if (((bitField7_ & 0x20000000) == 0x20000000)) {
+      if (((bitField7_ & 0x00800000) == 0x00800000)) {
         output.writeInt64(614, tiaoZhengMeiGuJingZi_);
       }
-      if (((bitField7_ & 0x40000000) == 0x40000000)) {
+      if (((bitField7_ & 0x01000000) == 0x01000000)) {
         output.writeInt64(615, zongZiChan_);
       }
-      if (((bitField7_ & 0x80000000) == 0x80000000)) {
+      if (((bitField7_ & 0x02000000) == 0x02000000)) {
         output.writeInt64(616, liuDongZiChan_);
       }
-      if (((bitField8_ & 0x00000001) == 0x00000001)) {
+      if (((bitField7_ & 0x04000000) == 0x04000000)) {
         output.writeInt64(617, guDingZiChan_);
       }
-      if (((bitField8_ & 0x00000002) == 0x00000002)) {
+      if (((bitField7_ & 0x08000000) == 0x08000000)) {
         output.writeInt64(618, wuXingZiChan_);
       }
-      if (((bitField8_ & 0x00000004) == 0x00000004)) {
+      if (((bitField7_ & 0x10000000) == 0x10000000)) {
         output.writeInt64(619, liuDongFuZhai_);
       }
-      if (((bitField8_ & 0x00000008) == 0x00000008)) {
+      if (((bitField7_ & 0x20000000) == 0x20000000)) {
         output.writeInt64(620, changQiFuZhai_);
       }
-      if (((bitField8_ & 0x00000010) == 0x00000010)) {
+      if (((bitField7_ & 0x40000000) == 0x40000000)) {
         output.writeInt64(621, zongFuZhai_);
       }
-      if (((bitField8_ & 0x00000020) == 0x00000020)) {
+      if (((bitField7_ & 0x80000000) == 0x80000000)) {
         output.writeInt64(622, guDongQuanYi_);
       }
-      if (((bitField8_ & 0x00000040) == 0x00000040)) {
+      if (((bitField8_ & 0x00000001) == 0x00000001)) {
         output.writeInt64(623, ziBenGongJiJin_);
       }
-      if (((bitField8_ & 0x00000080) == 0x00000080)) {
+      if (((bitField8_ & 0x00000002) == 0x00000002)) {
         output.writeInt64(624, jingYingXianJinLiuLiang_);
       }
-      if (((bitField8_ & 0x00000100) == 0x00000100)) {
+      if (((bitField8_ & 0x00000004) == 0x00000004)) {
         output.writeInt64(625, touZiXianJinLiuLiang_);
       }
-      if (((bitField8_ & 0x00000200) == 0x00000200)) {
+      if (((bitField8_ & 0x00000008) == 0x00000008)) {
         output.writeInt64(626, chouZiXianJinLiuLiang_);
       }
-      if (((bitField8_ & 0x00000400) == 0x00000400)) {
+      if (((bitField8_ & 0x00000010) == 0x00000010)) {
         output.writeInt64(627, xianJinZengJiaE_);
       }
-      if (((bitField8_ & 0x00000800) == 0x00000800)) {
+      if (((bitField8_ & 0x00000020) == 0x00000020)) {
         output.writeInt64(628, zhuYingShouRu_);
       }
-      if (((bitField8_ & 0x00001000) == 0x00001000)) {
+      if (((bitField8_ & 0x00000040) == 0x00000040)) {
         output.writeInt64(629, zhuYingLiRun_);
       }
-      if (((bitField8_ & 0x00002000) == 0x00002000)) {
+      if (((bitField8_ & 0x00000080) == 0x00000080)) {
         output.writeInt64(630, yingYeLiRun_);
       }
-      if (((bitField8_ & 0x00004000) == 0x00004000)) {
+      if (((bitField8_ & 0x00000100) == 0x00000100)) {
         output.writeInt64(631, touZiShouYi_);
       }
-      if (((bitField8_ & 0x00008000) == 0x00008000)) {
+      if (((bitField8_ & 0x00000200) == 0x00000200)) {
         output.writeInt64(632, yingYeWaiShouZhi_);
       }
-      if (((bitField8_ & 0x00010000) == 0x00010000)) {
+      if (((bitField8_ & 0x00000400) == 0x00000400)) {
         output.writeInt64(633, liRunZongE_);
       }
-      if (((bitField8_ & 0x00020000) == 0x00020000)) {
+      if (((bitField8_ & 0x00000800) == 0x00000800)) {
         output.writeInt64(634, jingLiRun_);
       }
-      if (((bitField8_ & 0x00040000) == 0x00040000)) {
+      if (((bitField8_ & 0x00001000) == 0x00001000)) {
         output.writeInt64(635, weiFenPeiLiRun_);
       }
-      if (((bitField8_ & 0x00080000) == 0x00080000)) {
+      if (((bitField8_ & 0x00002000) == 0x00002000)) {
         output.writeInt64(636, zongGuBen_);
       }
-      if (((bitField8_ & 0x00100000) == 0x00100000)) {
+      if (((bitField8_ & 0x00004000) == 0x00004000)) {
         output.writeInt64(637, wuXianShouGuHeJi_);
       }
-      if (((bitField8_ & 0x00200000) == 0x00200000)) {
+      if (((bitField8_ & 0x00008000) == 0x00008000)) {
         output.writeInt64(638, liuTongAGu_);
       }
-      if (((bitField8_ & 0x00400000) == 0x00400000)) {
+      if (((bitField8_ & 0x00010000) == 0x00010000)) {
         output.writeInt64(639, liuTongBGu_);
       }
-      if (((bitField8_ & 0x00800000) == 0x00800000)) {
+      if (((bitField8_ & 0x00020000) == 0x00020000)) {
         output.writeInt64(640, jingWaiShangShiGu_);
       }
-      if (((bitField8_ & 0x01000000) == 0x01000000)) {
+      if (((bitField8_ & 0x00040000) == 0x00040000)) {
         output.writeInt64(641, qiTaLiuTongGu_);
       }
-      if (((bitField8_ & 0x02000000) == 0x02000000)) {
+      if (((bitField8_ & 0x00080000) == 0x00080000)) {
         output.writeInt64(642, xianShouGuHeJi_);
       }
-      if (((bitField8_ & 0x04000000) == 0x04000000)) {
+      if (((bitField8_ & 0x00100000) == 0x00100000)) {
         output.writeInt64(643, guoJiaChiGu_);
       }
-      if (((bitField8_ & 0x08000000) == 0x08000000)) {
+      if (((bitField8_ & 0x00200000) == 0x00200000)) {
         output.writeInt64(644, guoYouFaRenGu_);
       }
-      if (((bitField8_ & 0x10000000) == 0x10000000)) {
+      if (((bitField8_ & 0x00400000) == 0x00400000)) {
         output.writeInt64(645, jingNeiFaRenGu_);
       }
-      if (((bitField8_ & 0x20000000) == 0x20000000)) {
+      if (((bitField8_ & 0x00800000) == 0x00800000)) {
         output.writeInt64(646, jingNeiZiRanRenGu_);
       }
-      if (((bitField8_ & 0x40000000) == 0x40000000)) {
+      if (((bitField8_ & 0x01000000) == 0x01000000)) {
         output.writeInt64(647, qiTaFaQiRenGu_);
       }
-      if (((bitField8_ & 0x80000000) == 0x80000000)) {
+      if (((bitField8_ & 0x02000000) == 0x02000000)) {
         output.writeInt64(648, muJiFaRenGu_);
       }
-      if (((bitField9_ & 0x00000001) == 0x00000001)) {
+      if (((bitField8_ & 0x04000000) == 0x04000000)) {
         output.writeInt64(649, jingWaiFaRenGu_);
       }
-      if (((bitField9_ & 0x00000002) == 0x00000002)) {
+      if (((bitField8_ & 0x08000000) == 0x08000000)) {
         output.writeInt64(650, jingWaiZiRanRenGu_);
       }
-      if (((bitField9_ & 0x00000004) == 0x00000004)) {
+      if (((bitField8_ & 0x10000000) == 0x10000000)) {
         output.writeInt64(651, youXianGuHuoQiTa_);
+      }
+      if (((bitField8_ & 0x20000000) == 0x20000000)) {
+        output.writeInt64(700, weiTuoMaiRu_);
+      }
+      if (((bitField8_ & 0x40000000) == 0x40000000)) {
+        output.writeInt64(701, weiTuoMaiChu_);
+      }
+      if (((bitField8_ & 0x80000000) == 0x80000000)) {
+        output.writeInt64(702, maiRuZhongDanBiLi_);
+      }
+      if (((bitField9_ & 0x00000001) == 0x00000001)) {
+        output.writeInt64(703, maiRuDaDanBiLi_);
+      }
+      if (((bitField9_ & 0x00000002) == 0x00000002)) {
+        output.writeInt64(704, maiRuTeDaDanBiLi_);
+      }
+      if (((bitField9_ & 0x00000004) == 0x00000004)) {
+        output.writeInt64(705, maiChuZhongDanBiLi_);
+      }
+      if (((bitField9_ & 0x00000008) == 0x00000008)) {
+        output.writeInt64(706, maiChuDaDanBiLi_);
+      }
+      if (((bitField9_ & 0x00000010) == 0x00000010)) {
+        output.writeInt64(707, maiChuTeDaDanBiLi_);
+      }
+      if (((bitField9_ & 0x00000020) == 0x00000020)) {
+        output.writeInt64(708, duanXianMaiRu_);
+      }
+      if (((bitField9_ & 0x00000040) == 0x00000040)) {
+        output.writeInt64(709, duanXianMaiChu_);
+      }
+      if (((bitField9_ & 0x00000080) == 0x00000080)) {
+        output.writeInt64(710, duanXianChiHuo_);
+      }
+      if (((bitField9_ & 0x00000100) == 0x00000100)) {
+        output.writeInt64(711, duanXianTuHuo_);
+      }
+      if (((bitField9_ & 0x00000200) == 0x00000200)) {
+        output.writeInt64(801, biShi_);
       }
       getUnknownFields().writeTo(output);
     }
@@ -15064,887 +15407,915 @@ public final class DzhyunStkdata {
       }
       if (((bitField2_ & 0x00000040) == 0x00000040)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(71, maiRuZhongDanBiLi_);
+          .computeInt64Size(77, fenZhongZhangFu1_);
       }
       if (((bitField2_ & 0x00000080) == 0x00000080)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(72, maiRuDaDanBiLi_);
+          .computeInt64Size(78, fenZhongZhangFu2_);
       }
       if (((bitField2_ & 0x00000100) == 0x00000100)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(73, maiRuTeDaDanBiLi_);
+          .computeInt64Size(79, fenZhongZhangFu3_);
       }
       if (((bitField2_ & 0x00000200) == 0x00000200)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(74, maiChuZhongDanBiLi_);
+          .computeInt64Size(80, fenZhongZhangFu4_);
       }
       if (((bitField2_ & 0x00000400) == 0x00000400)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(75, maiChuDaDanBiLi_);
+          .computeInt64Size(81, fenZhongZhangFu5_);
       }
       if (((bitField2_ & 0x00000800) == 0x00000800)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(76, maiChuTeDaDanBiLi_);
+          .computeInt64Size(82, shiYingLv_);
       }
       if (((bitField2_ & 0x00001000) == 0x00001000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(77, fenZhongZhangFu1_);
+          .computeInt64Size(83, zhangTing_);
       }
       if (((bitField2_ & 0x00002000) == 0x00002000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(78, fenZhongZhangFu2_);
+          .computeInt64Size(84, dieTing_);
       }
       if (((bitField2_ & 0x00004000) == 0x00004000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(79, fenZhongZhangFu3_);
+          .computeBytesSize(85, getShiChangMingChengBytes());
       }
       if (((bitField2_ & 0x00008000) == 0x00008000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(80, fenZhongZhangFu4_);
+          .computeBytesSize(86, getShiChangDuanMingChengBytes());
       }
       if (((bitField2_ & 0x00010000) == 0x00010000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(81, fenZhongZhangFu5_);
+          .computeInt64Size(87, jiGouChiHuoShu_);
       }
       if (((bitField2_ & 0x00020000) == 0x00020000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(82, shiYingLv_);
+          .computeInt64Size(88, jiGouTuHuoShu_);
       }
       if (((bitField2_ & 0x00040000) == 0x00040000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(83, zhangTing_);
+          .computeInt64Size(89, jiGouChiHuoLiang_);
       }
       if (((bitField2_ & 0x00080000) == 0x00080000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(84, dieTing_);
+          .computeInt64Size(90, jiGouTuHuoLiang_);
       }
       if (((bitField2_ & 0x00100000) == 0x00100000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(85, getShiChangMingChengBytes());
+          .computeInt64Size(91, jiGouChiHuoJunE_);
       }
       if (((bitField2_ & 0x00200000) == 0x00200000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(86, getShiChangDuanMingChengBytes());
+          .computeInt64Size(92, jiGouTuHuoJunE_);
       }
       if (((bitField2_ & 0x00400000) == 0x00400000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(87, jiGouChiHuoShu_);
+          .computeInt64Size(93, meiShouGuShu_);
       }
       if (((bitField2_ & 0x00800000) == 0x00800000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(88, jiGouTuHuoShu_);
+          .computeInt64Size(94, jiaoYiDanWei_);
       }
       if (((bitField2_ & 0x01000000) == 0x01000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(89, jiGouChiHuoLiang_);
+          .computeInt64Size(95, shiXiaoLv_);
       }
       if (((bitField2_ & 0x02000000) == 0x02000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(90, jiGouTuHuoLiang_);
+          .computeInt64Size(96, shiJian_);
       }
       if (((bitField2_ & 0x04000000) == 0x04000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(91, jiGouChiHuoJunE_);
+          .computeInt64Size(97, shiJingLv_);
       }
       if (((bitField2_ & 0x08000000) == 0x08000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(92, jiGouTuHuoJunE_);
+          .computeInt64Size(98, zongShiZhi_);
       }
       if (((bitField2_ & 0x10000000) == 0x10000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(93, meiShouGuShu_);
+          .computeInt64Size(99, liuTongShiZhi_);
       }
       if (((bitField2_ & 0x20000000) == 0x20000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(94, jiaoYiDanWei_);
+          .computeInt64Size(200, mA1MinMA1_);
       }
       if (((bitField2_ & 0x40000000) == 0x40000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(95, shiXiaoLv_);
+          .computeInt64Size(201, mA1MinMA2_);
       }
       if (((bitField2_ & 0x80000000) == 0x80000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(96, shiJian_);
+          .computeInt64Size(202, mA1MinMA3_);
       }
       if (((bitField3_ & 0x00000001) == 0x00000001)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(97, shiJingLv_);
+          .computeInt64Size(203, mA1MinMA4_);
       }
       if (((bitField3_ & 0x00000002) == 0x00000002)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(98, zongShiZhi_);
+          .computeInt64Size(204, mA1MinMA5_);
       }
       if (((bitField3_ & 0x00000004) == 0x00000004)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(99, liuTongShiZhi_);
+          .computeInt64Size(205, mA1MinMA6_);
       }
       if (((bitField3_ & 0x00000008) == 0x00000008)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(200, mA1MinMA1_);
+          .computeInt64Size(206, mA5MinMA1_);
       }
       if (((bitField3_ & 0x00000010) == 0x00000010)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(201, mA1MinMA2_);
+          .computeInt64Size(207, mA5MinMA2_);
       }
       if (((bitField3_ & 0x00000020) == 0x00000020)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(202, mA1MinMA3_);
+          .computeInt64Size(208, mA5MinMA3_);
       }
       if (((bitField3_ & 0x00000040) == 0x00000040)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(203, mA1MinMA4_);
+          .computeInt64Size(209, mA5MinMA4_);
       }
       if (((bitField3_ & 0x00000080) == 0x00000080)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(204, mA1MinMA5_);
+          .computeInt64Size(210, mA5MinMA5_);
       }
       if (((bitField3_ & 0x00000100) == 0x00000100)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(205, mA1MinMA6_);
+          .computeInt64Size(211, mA5MinMA6_);
       }
       if (((bitField3_ & 0x00000200) == 0x00000200)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(206, mA5MinMA1_);
+          .computeInt64Size(212, mA1DayMA1_);
       }
       if (((bitField3_ & 0x00000400) == 0x00000400)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(207, mA5MinMA2_);
+          .computeInt64Size(213, mA1DayMA2_);
       }
       if (((bitField3_ & 0x00000800) == 0x00000800)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(208, mA5MinMA3_);
+          .computeInt64Size(214, mA1DayMA3_);
       }
       if (((bitField3_ & 0x00001000) == 0x00001000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(209, mA5MinMA4_);
+          .computeInt64Size(215, mA1DayMA4_);
       }
       if (((bitField3_ & 0x00002000) == 0x00002000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(210, mA5MinMA5_);
+          .computeInt64Size(216, mA1DayMA5_);
       }
       if (((bitField3_ & 0x00004000) == 0x00004000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(211, mA5MinMA6_);
+          .computeInt64Size(217, mA1DayMA6_);
       }
       if (((bitField3_ & 0x00008000) == 0x00008000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(212, mA1DayMA1_);
+          .computeInt64Size(218, bOLL1MinMID_);
       }
       if (((bitField3_ & 0x00010000) == 0x00010000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(213, mA1DayMA2_);
+          .computeInt64Size(219, bOLL1MinUPPER_);
       }
       if (((bitField3_ & 0x00020000) == 0x00020000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(214, mA1DayMA3_);
+          .computeInt64Size(220, bOLL1MinLOWER_);
       }
       if (((bitField3_ & 0x00040000) == 0x00040000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(215, mA1DayMA4_);
+          .computeInt64Size(221, bOLL5MinMID_);
       }
       if (((bitField3_ & 0x00080000) == 0x00080000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(216, mA1DayMA5_);
+          .computeInt64Size(222, bOLL5MinUPPER_);
       }
       if (((bitField3_ & 0x00100000) == 0x00100000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(217, mA1DayMA6_);
+          .computeInt64Size(223, bOLL5MinLOWER_);
       }
       if (((bitField3_ & 0x00200000) == 0x00200000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(218, bOLL1MinMID_);
+          .computeInt64Size(224, bOLL1DayMID_);
       }
       if (((bitField3_ & 0x00400000) == 0x00400000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(219, bOLL1MinUPPER_);
+          .computeInt64Size(225, bOLL1DayUPPER_);
       }
       if (((bitField3_ & 0x00800000) == 0x00800000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(220, bOLL1MinLOWER_);
+          .computeInt64Size(226, bOLL1DayLOWER_);
       }
       if (((bitField3_ & 0x01000000) == 0x01000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(221, bOLL5MinMID_);
+          .computeInt64Size(227, vOL1Min_);
       }
       if (((bitField3_ & 0x02000000) == 0x02000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(222, bOLL5MinUPPER_);
+          .computeInt64Size(228, vOL1MinMA1_);
       }
       if (((bitField3_ & 0x04000000) == 0x04000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(223, bOLL5MinLOWER_);
+          .computeInt64Size(229, vOL1MinMA2_);
       }
       if (((bitField3_ & 0x08000000) == 0x08000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(224, bOLL1DayMID_);
+          .computeInt64Size(230, vOL1MinMA3_);
       }
       if (((bitField3_ & 0x10000000) == 0x10000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(225, bOLL1DayUPPER_);
+          .computeInt64Size(231, vOL5Min_);
       }
       if (((bitField3_ & 0x20000000) == 0x20000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(226, bOLL1DayLOWER_);
+          .computeInt64Size(232, vOL5MinMA1_);
       }
       if (((bitField3_ & 0x40000000) == 0x40000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(227, vOL1Min_);
+          .computeInt64Size(233, vOL5MinMA2_);
       }
       if (((bitField3_ & 0x80000000) == 0x80000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(228, vOL1MinMA1_);
+          .computeInt64Size(234, vOL5MinMA3_);
       }
       if (((bitField4_ & 0x00000001) == 0x00000001)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(229, vOL1MinMA2_);
+          .computeInt64Size(235, vOL1Day_);
       }
       if (((bitField4_ & 0x00000002) == 0x00000002)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(230, vOL1MinMA3_);
+          .computeInt64Size(236, vOL1DayMA1_);
       }
       if (((bitField4_ & 0x00000004) == 0x00000004)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(231, vOL5Min_);
+          .computeInt64Size(237, vOL1DayMA2_);
       }
       if (((bitField4_ & 0x00000008) == 0x00000008)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(232, vOL5MinMA1_);
+          .computeInt64Size(238, vOL1DayMA3_);
       }
       if (((bitField4_ & 0x00000010) == 0x00000010)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(233, vOL5MinMA2_);
+          .computeInt64Size(239, aRBR1MinAR_);
       }
       if (((bitField4_ & 0x00000020) == 0x00000020)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(234, vOL5MinMA3_);
+          .computeInt64Size(240, aRBR1MinBR_);
       }
       if (((bitField4_ & 0x00000040) == 0x00000040)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(235, vOL1Day_);
+          .computeInt64Size(241, aRBR5MinAR_);
       }
       if (((bitField4_ & 0x00000080) == 0x00000080)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(236, vOL1DayMA1_);
+          .computeInt64Size(242, aRBR5MinBR_);
       }
       if (((bitField4_ & 0x00000100) == 0x00000100)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(237, vOL1DayMA2_);
+          .computeInt64Size(243, aRBR1DayAR_);
       }
       if (((bitField4_ & 0x00000200) == 0x00000200)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(238, vOL1DayMA3_);
+          .computeInt64Size(244, aRBR1DayBR_);
       }
       if (((bitField4_ & 0x00000400) == 0x00000400)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(239, aRBR1MinAR_);
+          .computeInt64Size(245, bIAS1MinBIAS1_);
       }
       if (((bitField4_ & 0x00000800) == 0x00000800)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(240, aRBR1MinBR_);
+          .computeInt64Size(246, bIAS1MinBIAS2_);
       }
       if (((bitField4_ & 0x00001000) == 0x00001000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(241, aRBR5MinAR_);
+          .computeInt64Size(247, bIAS1MinBIAS3_);
       }
       if (((bitField4_ & 0x00002000) == 0x00002000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(242, aRBR5MinBR_);
+          .computeInt64Size(248, bIAS5MinBIAS1_);
       }
       if (((bitField4_ & 0x00004000) == 0x00004000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(243, aRBR1DayAR_);
+          .computeInt64Size(249, bIAS5MinBIAS2_);
       }
       if (((bitField4_ & 0x00008000) == 0x00008000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(244, aRBR1DayBR_);
+          .computeInt64Size(250, bIAS5MinBIAS3_);
       }
       if (((bitField4_ & 0x00010000) == 0x00010000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(245, bIAS1MinBIAS1_);
+          .computeInt64Size(251, bIAS1DayBIAS1_);
       }
       if (((bitField4_ & 0x00020000) == 0x00020000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(246, bIAS1MinBIAS2_);
+          .computeInt64Size(252, bIAS1DayBIAS2_);
       }
       if (((bitField4_ & 0x00040000) == 0x00040000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(247, bIAS1MinBIAS3_);
+          .computeInt64Size(253, bIAS1DayBIAS3_);
       }
       if (((bitField4_ & 0x00080000) == 0x00080000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(248, bIAS5MinBIAS1_);
+          .computeInt64Size(254, cCI1Min_);
       }
       if (((bitField4_ & 0x00100000) == 0x00100000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(249, bIAS5MinBIAS2_);
+          .computeInt64Size(255, cCI5Min_);
       }
       if (((bitField4_ & 0x00200000) == 0x00200000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(250, bIAS5MinBIAS3_);
+          .computeInt64Size(256, cCI1Day_);
       }
       if (((bitField4_ & 0x00400000) == 0x00400000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(251, bIAS1DayBIAS1_);
+          .computeInt64Size(257, cJBS1MinCJBS_);
       }
       if (((bitField4_ & 0x00800000) == 0x00800000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(252, bIAS1DayBIAS2_);
+          .computeInt64Size(258, cJBS5MinCJBS_);
       }
       if (((bitField4_ & 0x01000000) == 0x01000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(253, bIAS1DayBIAS3_);
+          .computeInt64Size(259, cJBS1DayCJBS_);
       }
       if (((bitField4_ & 0x02000000) == 0x02000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(254, cCI1Min_);
+          .computeInt64Size(260, cR1MinCR_);
       }
       if (((bitField4_ & 0x04000000) == 0x04000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(255, cCI5Min_);
+          .computeInt64Size(261, cR1MinMA1_);
       }
       if (((bitField4_ & 0x08000000) == 0x08000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(256, cCI1Day_);
+          .computeInt64Size(262, cR1MinMA2_);
       }
       if (((bitField4_ & 0x10000000) == 0x10000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(257, cJBS1MinCJBS_);
+          .computeInt64Size(263, cR1MinMA3_);
       }
       if (((bitField4_ & 0x20000000) == 0x20000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(258, cJBS5MinCJBS_);
+          .computeInt64Size(264, cR5MinCR_);
       }
       if (((bitField4_ & 0x40000000) == 0x40000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(259, cJBS1DayCJBS_);
+          .computeInt64Size(265, cR5MinMA1_);
       }
       if (((bitField4_ & 0x80000000) == 0x80000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(260, cR1MinCR_);
+          .computeInt64Size(266, cR5MinMA2_);
       }
       if (((bitField5_ & 0x00000001) == 0x00000001)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(261, cR1MinMA1_);
+          .computeInt64Size(267, cR5MinMA3_);
       }
       if (((bitField5_ & 0x00000002) == 0x00000002)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(262, cR1MinMA2_);
+          .computeInt64Size(268, cR1DayCR_);
       }
       if (((bitField5_ & 0x00000004) == 0x00000004)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(263, cR1MinMA3_);
+          .computeInt64Size(269, cR1DayMA1_);
       }
       if (((bitField5_ & 0x00000008) == 0x00000008)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(264, cR5MinCR_);
+          .computeInt64Size(270, cR1DayMA2_);
       }
       if (((bitField5_ & 0x00000010) == 0x00000010)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(265, cR5MinMA1_);
+          .computeInt64Size(271, cR1DayMA3_);
       }
       if (((bitField5_ & 0x00000020) == 0x00000020)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(266, cR5MinMA2_);
+          .computeInt64Size(272, dMA1MinDDD_);
       }
       if (((bitField5_ & 0x00000040) == 0x00000040)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(267, cR5MinMA3_);
+          .computeInt64Size(273, dMA1MinAMA_);
       }
       if (((bitField5_ & 0x00000080) == 0x00000080)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(268, cR1DayCR_);
+          .computeInt64Size(274, dMA5MinDDD_);
       }
       if (((bitField5_ & 0x00000100) == 0x00000100)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(269, cR1DayMA1_);
+          .computeInt64Size(275, dMA5MinAMA_);
       }
       if (((bitField5_ & 0x00000200) == 0x00000200)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(270, cR1DayMA2_);
+          .computeInt64Size(276, dMA1DayDDD_);
       }
       if (((bitField5_ & 0x00000400) == 0x00000400)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(271, cR1DayMA3_);
+          .computeInt64Size(277, dMA1DayAMA_);
       }
       if (((bitField5_ & 0x00000800) == 0x00000800)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(272, dMA1MinDDD_);
+          .computeInt64Size(278, dMI1MinPDI_);
       }
       if (((bitField5_ & 0x00001000) == 0x00001000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(273, dMA1MinAMA_);
+          .computeInt64Size(279, dMI1MinMDI_);
       }
       if (((bitField5_ & 0x00002000) == 0x00002000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(274, dMA5MinDDD_);
+          .computeInt64Size(280, dMI1MinADX_);
       }
       if (((bitField5_ & 0x00004000) == 0x00004000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(275, dMA5MinAMA_);
+          .computeInt64Size(281, dMI1MinADXR_);
       }
       if (((bitField5_ & 0x00008000) == 0x00008000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(276, dMA1DayDDD_);
+          .computeInt64Size(282, dMI5MinPDI_);
       }
       if (((bitField5_ & 0x00010000) == 0x00010000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(277, dMA1DayAMA_);
+          .computeInt64Size(283, dMI5MinMDI_);
       }
       if (((bitField5_ & 0x00020000) == 0x00020000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(278, dMI1MinPDI_);
+          .computeInt64Size(284, dMI5MinADX_);
       }
       if (((bitField5_ & 0x00040000) == 0x00040000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(279, dMI1MinMDI_);
+          .computeInt64Size(285, dMI5MinADXR_);
       }
       if (((bitField5_ & 0x00080000) == 0x00080000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(280, dMI1MinADX_);
+          .computeInt64Size(286, dMI1DayPDI_);
       }
       if (((bitField5_ & 0x00100000) == 0x00100000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(281, dMI1MinADXR_);
+          .computeInt64Size(287, dMI1DayMDI_);
       }
       if (((bitField5_ & 0x00200000) == 0x00200000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(282, dMI5MinPDI_);
+          .computeInt64Size(288, dMI1DayADX_);
       }
       if (((bitField5_ & 0x00400000) == 0x00400000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(283, dMI5MinMDI_);
+          .computeInt64Size(289, dMI1DayADXR_);
       }
       if (((bitField5_ & 0x00800000) == 0x00800000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(284, dMI5MinADX_);
+          .computeInt64Size(290, kDJ1MinK_);
       }
       if (((bitField5_ & 0x01000000) == 0x01000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(285, dMI5MinADXR_);
+          .computeInt64Size(291, kDJ1MinD_);
       }
       if (((bitField5_ & 0x02000000) == 0x02000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(286, dMI1DayPDI_);
+          .computeInt64Size(292, kDJ1MinJ_);
       }
       if (((bitField5_ & 0x04000000) == 0x04000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(287, dMI1DayMDI_);
+          .computeInt64Size(293, kDJ5MinK_);
       }
       if (((bitField5_ & 0x08000000) == 0x08000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(288, dMI1DayADX_);
+          .computeInt64Size(294, kDJ5MinD_);
       }
       if (((bitField5_ & 0x10000000) == 0x10000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(289, dMI1DayADXR_);
+          .computeInt64Size(295, kDJ5MinJ_);
       }
       if (((bitField5_ & 0x20000000) == 0x20000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(290, kDJ1MinK_);
+          .computeInt64Size(296, kDJ1DayK_);
       }
       if (((bitField5_ & 0x40000000) == 0x40000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(291, kDJ1MinD_);
+          .computeInt64Size(297, kDJ1DayD_);
       }
       if (((bitField5_ & 0x80000000) == 0x80000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(292, kDJ1MinJ_);
+          .computeInt64Size(298, kDJ1DayJ_);
       }
       if (((bitField6_ & 0x00000001) == 0x00000001)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(293, kDJ5MinK_);
+          .computeInt64Size(299, mACD1MinDIFF_);
       }
       if (((bitField6_ & 0x00000002) == 0x00000002)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(294, kDJ5MinD_);
+          .computeInt64Size(300, mACD1MinDEA_);
       }
       if (((bitField6_ & 0x00000004) == 0x00000004)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(295, kDJ5MinJ_);
+          .computeInt64Size(301, mACD1MinMACD_);
       }
       if (((bitField6_ & 0x00000008) == 0x00000008)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(296, kDJ1DayK_);
+          .computeInt64Size(302, mACD5MinDIFF_);
       }
       if (((bitField6_ & 0x00000010) == 0x00000010)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(297, kDJ1DayD_);
+          .computeInt64Size(303, mACD5MinDEA_);
       }
       if (((bitField6_ & 0x00000020) == 0x00000020)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(298, kDJ1DayJ_);
+          .computeInt64Size(304, mACD5MinMACD_);
       }
       if (((bitField6_ & 0x00000040) == 0x00000040)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(299, mACD1MinDIFF_);
+          .computeInt64Size(305, mACD1DayDIFF_);
       }
       if (((bitField6_ & 0x00000080) == 0x00000080)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(300, mACD1MinDEA_);
+          .computeInt64Size(306, mACD1DayDEA_);
       }
       if (((bitField6_ & 0x00000100) == 0x00000100)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(301, mACD1MinMACD_);
+          .computeInt64Size(307, mACD1DayMACD_);
       }
       if (((bitField6_ & 0x00000200) == 0x00000200)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(302, mACD5MinDIFF_);
+          .computeInt64Size(308, oBV1Min_);
       }
       if (((bitField6_ & 0x00000400) == 0x00000400)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(303, mACD5MinDEA_);
+          .computeInt64Size(309, oBV5Min_);
       }
       if (((bitField6_ & 0x00000800) == 0x00000800)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(304, mACD5MinMACD_);
+          .computeInt64Size(310, oBV1Day_);
       }
       if (((bitField6_ & 0x00001000) == 0x00001000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(305, mACD1DayDIFF_);
+          .computeInt64Size(311, pSY1Min_);
       }
       if (((bitField6_ & 0x00002000) == 0x00002000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(306, mACD1DayDEA_);
+          .computeInt64Size(312, pSY5Min_);
       }
       if (((bitField6_ & 0x00004000) == 0x00004000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(307, mACD1DayMACD_);
+          .computeInt64Size(313, pSY1Day_);
       }
       if (((bitField6_ & 0x00008000) == 0x00008000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(308, oBV1Min_);
+          .computeInt64Size(314, rSI1MinRSI1_);
       }
       if (((bitField6_ & 0x00010000) == 0x00010000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(309, oBV5Min_);
+          .computeInt64Size(315, rSI1MinRSI2_);
       }
       if (((bitField6_ & 0x00020000) == 0x00020000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(310, oBV1Day_);
+          .computeInt64Size(316, rSI1MinRSI3_);
       }
       if (((bitField6_ & 0x00040000) == 0x00040000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(311, pSY1Min_);
+          .computeInt64Size(317, rSI5MinRSI1_);
       }
       if (((bitField6_ & 0x00080000) == 0x00080000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(312, pSY5Min_);
+          .computeInt64Size(318, rSI5MinRSI2_);
       }
       if (((bitField6_ & 0x00100000) == 0x00100000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(313, pSY1Day_);
+          .computeInt64Size(319, rSI5MinRSI3_);
       }
       if (((bitField6_ & 0x00200000) == 0x00200000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(314, rSI1MinRSI1_);
+          .computeInt64Size(320, rSI1DayRSI1_);
       }
       if (((bitField6_ & 0x00400000) == 0x00400000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(315, rSI1MinRSI2_);
+          .computeInt64Size(321, rSI1DayRSI2_);
       }
       if (((bitField6_ & 0x00800000) == 0x00800000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(316, rSI1MinRSI3_);
+          .computeInt64Size(322, rSI1DayRSI3_);
       }
       if (((bitField6_ & 0x01000000) == 0x01000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(317, rSI5MinRSI1_);
+          .computeInt64Size(323, wR1MinWR1_);
       }
       if (((bitField6_ & 0x02000000) == 0x02000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(318, rSI5MinRSI2_);
+          .computeInt64Size(324, wR1MinWR2_);
       }
       if (((bitField6_ & 0x04000000) == 0x04000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(319, rSI5MinRSI3_);
+          .computeInt64Size(325, wR5MinWR1_);
       }
       if (((bitField6_ & 0x08000000) == 0x08000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(320, rSI1DayRSI1_);
+          .computeInt64Size(326, wR5MinWR2_);
       }
       if (((bitField6_ & 0x10000000) == 0x10000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(321, rSI1DayRSI2_);
+          .computeInt64Size(327, wR1DayWR1_);
       }
       if (((bitField6_ & 0x20000000) == 0x20000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(322, rSI1DayRSI3_);
+          .computeInt64Size(328, wR1DayWR2_);
       }
       if (((bitField6_ & 0x40000000) == 0x40000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(323, wR1MinWR1_);
+          .computeInt64Size(400, leiXing_);
       }
       if (((bitField6_ & 0x80000000) == 0x80000000)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(324, wR1MinWR2_);
+          .computeInt64Size(401, ziLeiXing_);
       }
       if (((bitField7_ & 0x00000001) == 0x00000001)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(325, wR5MinWR1_);
+          .computeBytesSize(402, getLeiXingMingChengBytes());
       }
       if (((bitField7_ & 0x00000002) == 0x00000002)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(326, wR5MinWR2_);
+          .computeInt64Size(403, chengJiaoLiangDanWei_);
       }
       if (((bitField7_ & 0x00000004) == 0x00000004)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(327, wR1DayWR1_);
+          .computeInt64Size(501, fJJJLeiXing_);
       }
       if (((bitField7_ & 0x00000008) == 0x00000008)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(328, wR1DayWR2_);
-      }
-      if (((bitField7_ & 0x00000010) == 0x00000010)) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(400, leiXing_);
-      }
-      if (((bitField7_ & 0x00000020) == 0x00000020)) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(401, ziLeiXing_);
-      }
-      if (((bitField7_ & 0x00000040) == 0x00000040)) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(402, getLeiXingMingChengBytes());
-      }
-      if (((bitField7_ & 0x00000080) == 0x00000080)) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(403, chengJiaoLiangDanWei_);
+          .computeInt64Size(502, zhengTiYiJia_);
       }
       if (((bitField7_ & 0x00000100) == 0x00000100)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(501, fJJJLeiXing_);
+          .computeInt64Size(511, yinHanShouYi_);
       }
       if (((bitField7_ & 0x00000200) == 0x00000200)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(502, zhengTiYiJia_);
-      }
-      if (((bitField7_ & 0x00004000) == 0x00004000)) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(511, yinHanShouYi_);
-      }
-      if (((bitField7_ & 0x00008000) == 0x00008000)) {
-        size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(512, jiaGeGangGan_);
       }
-      if (((bitField7_ & 0x00000400) == 0x00000400)) {
+      if (((bitField7_ & 0x00000010) == 0x00000010)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(551, mYiJia_);
       }
-      if (((bitField7_ & 0x00000800) == 0x00000800)) {
+      if (((bitField7_ & 0x00000020) == 0x00000020)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(552, mShiShiJingZhi_);
       }
-      if (((bitField7_ & 0x00001000) == 0x00001000)) {
+      if (((bitField7_ & 0x00000040) == 0x00000040)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(553, mShangZheXuZhang_);
       }
-      if (((bitField7_ & 0x00002000) == 0x00002000)) {
+      if (((bitField7_ & 0x00000080) == 0x00000080)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(554, mXiaZheXuDie_);
       }
-      if (((bitField7_ & 0x00010000) == 0x00010000)) {
+      if (((bitField7_ & 0x00000400) == 0x00000400)) {
         size += com.google.protobuf.CodedOutputStream
           .computeBytesSize(601, getPinZhongObjBytes());
       }
-      if (((bitField7_ & 0x00020000) == 0x00020000)) {
+      if (((bitField7_ & 0x00000800) == 0x00000800)) {
         size += com.google.protobuf.CodedOutputStream
           .computeBytesSize(602, getBaoGaoQiBytes());
       }
-      if (((bitField7_ & 0x00040000) == 0x00040000)) {
+      if (((bitField7_ & 0x00001000) == 0x00001000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeBytesSize(603, getShangShiRiQiBytes());
       }
-      if (((bitField7_ & 0x00080000) == 0x00080000)) {
+      if (((bitField7_ & 0x00002000) == 0x00002000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(604, meiGuShouYi_);
       }
-      if (((bitField7_ & 0x00100000) == 0x00100000)) {
+      if (((bitField7_ & 0x00004000) == 0x00004000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(605, meiGuJingZiChan_);
       }
-      if (((bitField7_ & 0x00200000) == 0x00200000)) {
+      if (((bitField7_ & 0x00008000) == 0x00008000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(606, jingZiChanShouYiLv_);
       }
-      if (((bitField7_ & 0x00400000) == 0x00400000)) {
+      if (((bitField7_ & 0x00010000) == 0x00010000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(607, meiGuJingYingXianJin_);
       }
-      if (((bitField7_ & 0x00800000) == 0x00800000)) {
+      if (((bitField7_ & 0x00020000) == 0x00020000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(608, meiGuGongJiJin_);
       }
-      if (((bitField7_ & 0x01000000) == 0x01000000)) {
+      if (((bitField7_ & 0x00040000) == 0x00040000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(609, meiGuWeiFenPei_);
       }
-      if (((bitField7_ & 0x02000000) == 0x02000000)) {
+      if (((bitField7_ & 0x00080000) == 0x00080000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(610, guDongQuanYiBi_);
       }
-      if (((bitField7_ & 0x04000000) == 0x04000000)) {
+      if (((bitField7_ & 0x00100000) == 0x00100000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(611, jingLiRunTongBi_);
       }
-      if (((bitField7_ & 0x08000000) == 0x08000000)) {
+      if (((bitField7_ & 0x00200000) == 0x00200000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(612, zhuYingShouRuTongBi_);
       }
-      if (((bitField7_ & 0x10000000) == 0x10000000)) {
+      if (((bitField7_ & 0x00400000) == 0x00400000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(613, xiaoShouMaoLiLv_);
       }
-      if (((bitField7_ & 0x20000000) == 0x20000000)) {
+      if (((bitField7_ & 0x00800000) == 0x00800000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(614, tiaoZhengMeiGuJingZi_);
       }
-      if (((bitField7_ & 0x40000000) == 0x40000000)) {
+      if (((bitField7_ & 0x01000000) == 0x01000000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(615, zongZiChan_);
       }
-      if (((bitField7_ & 0x80000000) == 0x80000000)) {
+      if (((bitField7_ & 0x02000000) == 0x02000000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(616, liuDongZiChan_);
       }
-      if (((bitField8_ & 0x00000001) == 0x00000001)) {
+      if (((bitField7_ & 0x04000000) == 0x04000000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(617, guDingZiChan_);
       }
-      if (((bitField8_ & 0x00000002) == 0x00000002)) {
+      if (((bitField7_ & 0x08000000) == 0x08000000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(618, wuXingZiChan_);
       }
-      if (((bitField8_ & 0x00000004) == 0x00000004)) {
+      if (((bitField7_ & 0x10000000) == 0x10000000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(619, liuDongFuZhai_);
       }
-      if (((bitField8_ & 0x00000008) == 0x00000008)) {
+      if (((bitField7_ & 0x20000000) == 0x20000000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(620, changQiFuZhai_);
       }
-      if (((bitField8_ & 0x00000010) == 0x00000010)) {
+      if (((bitField7_ & 0x40000000) == 0x40000000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(621, zongFuZhai_);
       }
-      if (((bitField8_ & 0x00000020) == 0x00000020)) {
+      if (((bitField7_ & 0x80000000) == 0x80000000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(622, guDongQuanYi_);
       }
-      if (((bitField8_ & 0x00000040) == 0x00000040)) {
+      if (((bitField8_ & 0x00000001) == 0x00000001)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(623, ziBenGongJiJin_);
       }
-      if (((bitField8_ & 0x00000080) == 0x00000080)) {
+      if (((bitField8_ & 0x00000002) == 0x00000002)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(624, jingYingXianJinLiuLiang_);
       }
-      if (((bitField8_ & 0x00000100) == 0x00000100)) {
+      if (((bitField8_ & 0x00000004) == 0x00000004)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(625, touZiXianJinLiuLiang_);
       }
-      if (((bitField8_ & 0x00000200) == 0x00000200)) {
+      if (((bitField8_ & 0x00000008) == 0x00000008)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(626, chouZiXianJinLiuLiang_);
       }
-      if (((bitField8_ & 0x00000400) == 0x00000400)) {
+      if (((bitField8_ & 0x00000010) == 0x00000010)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(627, xianJinZengJiaE_);
       }
-      if (((bitField8_ & 0x00000800) == 0x00000800)) {
+      if (((bitField8_ & 0x00000020) == 0x00000020)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(628, zhuYingShouRu_);
       }
-      if (((bitField8_ & 0x00001000) == 0x00001000)) {
+      if (((bitField8_ & 0x00000040) == 0x00000040)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(629, zhuYingLiRun_);
       }
-      if (((bitField8_ & 0x00002000) == 0x00002000)) {
+      if (((bitField8_ & 0x00000080) == 0x00000080)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(630, yingYeLiRun_);
       }
-      if (((bitField8_ & 0x00004000) == 0x00004000)) {
+      if (((bitField8_ & 0x00000100) == 0x00000100)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(631, touZiShouYi_);
       }
-      if (((bitField8_ & 0x00008000) == 0x00008000)) {
+      if (((bitField8_ & 0x00000200) == 0x00000200)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(632, yingYeWaiShouZhi_);
       }
-      if (((bitField8_ & 0x00010000) == 0x00010000)) {
+      if (((bitField8_ & 0x00000400) == 0x00000400)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(633, liRunZongE_);
       }
-      if (((bitField8_ & 0x00020000) == 0x00020000)) {
+      if (((bitField8_ & 0x00000800) == 0x00000800)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(634, jingLiRun_);
       }
-      if (((bitField8_ & 0x00040000) == 0x00040000)) {
+      if (((bitField8_ & 0x00001000) == 0x00001000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(635, weiFenPeiLiRun_);
       }
-      if (((bitField8_ & 0x00080000) == 0x00080000)) {
+      if (((bitField8_ & 0x00002000) == 0x00002000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(636, zongGuBen_);
       }
-      if (((bitField8_ & 0x00100000) == 0x00100000)) {
+      if (((bitField8_ & 0x00004000) == 0x00004000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(637, wuXianShouGuHeJi_);
       }
-      if (((bitField8_ & 0x00200000) == 0x00200000)) {
+      if (((bitField8_ & 0x00008000) == 0x00008000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(638, liuTongAGu_);
       }
-      if (((bitField8_ & 0x00400000) == 0x00400000)) {
+      if (((bitField8_ & 0x00010000) == 0x00010000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(639, liuTongBGu_);
       }
-      if (((bitField8_ & 0x00800000) == 0x00800000)) {
+      if (((bitField8_ & 0x00020000) == 0x00020000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(640, jingWaiShangShiGu_);
       }
-      if (((bitField8_ & 0x01000000) == 0x01000000)) {
+      if (((bitField8_ & 0x00040000) == 0x00040000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(641, qiTaLiuTongGu_);
       }
-      if (((bitField8_ & 0x02000000) == 0x02000000)) {
+      if (((bitField8_ & 0x00080000) == 0x00080000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(642, xianShouGuHeJi_);
       }
-      if (((bitField8_ & 0x04000000) == 0x04000000)) {
+      if (((bitField8_ & 0x00100000) == 0x00100000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(643, guoJiaChiGu_);
       }
-      if (((bitField8_ & 0x08000000) == 0x08000000)) {
+      if (((bitField8_ & 0x00200000) == 0x00200000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(644, guoYouFaRenGu_);
       }
-      if (((bitField8_ & 0x10000000) == 0x10000000)) {
+      if (((bitField8_ & 0x00400000) == 0x00400000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(645, jingNeiFaRenGu_);
       }
-      if (((bitField8_ & 0x20000000) == 0x20000000)) {
+      if (((bitField8_ & 0x00800000) == 0x00800000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(646, jingNeiZiRanRenGu_);
       }
-      if (((bitField8_ & 0x40000000) == 0x40000000)) {
+      if (((bitField8_ & 0x01000000) == 0x01000000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(647, qiTaFaQiRenGu_);
       }
-      if (((bitField8_ & 0x80000000) == 0x80000000)) {
+      if (((bitField8_ & 0x02000000) == 0x02000000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(648, muJiFaRenGu_);
       }
-      if (((bitField9_ & 0x00000001) == 0x00000001)) {
+      if (((bitField8_ & 0x04000000) == 0x04000000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(649, jingWaiFaRenGu_);
       }
-      if (((bitField9_ & 0x00000002) == 0x00000002)) {
+      if (((bitField8_ & 0x08000000) == 0x08000000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(650, jingWaiZiRanRenGu_);
       }
-      if (((bitField9_ & 0x00000004) == 0x00000004)) {
+      if (((bitField8_ & 0x10000000) == 0x10000000)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(651, youXianGuHuoQiTa_);
+      }
+      if (((bitField8_ & 0x20000000) == 0x20000000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(700, weiTuoMaiRu_);
+      }
+      if (((bitField8_ & 0x40000000) == 0x40000000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(701, weiTuoMaiChu_);
+      }
+      if (((bitField8_ & 0x80000000) == 0x80000000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(702, maiRuZhongDanBiLi_);
+      }
+      if (((bitField9_ & 0x00000001) == 0x00000001)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(703, maiRuDaDanBiLi_);
+      }
+      if (((bitField9_ & 0x00000002) == 0x00000002)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(704, maiRuTeDaDanBiLi_);
+      }
+      if (((bitField9_ & 0x00000004) == 0x00000004)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(705, maiChuZhongDanBiLi_);
+      }
+      if (((bitField9_ & 0x00000008) == 0x00000008)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(706, maiChuDaDanBiLi_);
+      }
+      if (((bitField9_ & 0x00000010) == 0x00000010)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(707, maiChuTeDaDanBiLi_);
+      }
+      if (((bitField9_ & 0x00000020) == 0x00000020)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(708, duanXianMaiRu_);
+      }
+      if (((bitField9_ & 0x00000040) == 0x00000040)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(709, duanXianMaiChu_);
+      }
+      if (((bitField9_ & 0x00000080) == 0x00000080)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(710, duanXianChiHuo_);
+      }
+      if (((bitField9_ & 0x00000100) == 0x00000100)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(711, duanXianTuHuo_);
+      }
+      if (((bitField9_ & 0x00000200) == 0x00000200)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(801, biShi_);
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
@@ -16203,448 +16574,462 @@ public final class DzhyunStkdata {
         bitField2_ = (bitField2_ & ~0x00000010);
         maiChuDanShu_ = 0L;
         bitField2_ = (bitField2_ & ~0x00000020);
-        maiRuZhongDanBiLi_ = 0L;
-        bitField2_ = (bitField2_ & ~0x00000040);
-        maiRuDaDanBiLi_ = 0L;
-        bitField2_ = (bitField2_ & ~0x00000080);
-        maiRuTeDaDanBiLi_ = 0L;
-        bitField2_ = (bitField2_ & ~0x00000100);
-        maiChuZhongDanBiLi_ = 0L;
-        bitField2_ = (bitField2_ & ~0x00000200);
-        maiChuDaDanBiLi_ = 0L;
-        bitField2_ = (bitField2_ & ~0x00000400);
-        maiChuTeDaDanBiLi_ = 0L;
-        bitField2_ = (bitField2_ & ~0x00000800);
         fenZhongZhangFu1_ = 0L;
-        bitField2_ = (bitField2_ & ~0x00001000);
+        bitField2_ = (bitField2_ & ~0x00000040);
         fenZhongZhangFu2_ = 0L;
-        bitField2_ = (bitField2_ & ~0x00002000);
+        bitField2_ = (bitField2_ & ~0x00000080);
         fenZhongZhangFu3_ = 0L;
-        bitField2_ = (bitField2_ & ~0x00004000);
+        bitField2_ = (bitField2_ & ~0x00000100);
         fenZhongZhangFu4_ = 0L;
-        bitField2_ = (bitField2_ & ~0x00008000);
+        bitField2_ = (bitField2_ & ~0x00000200);
         fenZhongZhangFu5_ = 0L;
-        bitField2_ = (bitField2_ & ~0x00010000);
+        bitField2_ = (bitField2_ & ~0x00000400);
         shiYingLv_ = 0L;
-        bitField2_ = (bitField2_ & ~0x00020000);
+        bitField2_ = (bitField2_ & ~0x00000800);
         zhangTing_ = 0L;
-        bitField2_ = (bitField2_ & ~0x00040000);
+        bitField2_ = (bitField2_ & ~0x00001000);
         dieTing_ = 0L;
-        bitField2_ = (bitField2_ & ~0x00080000);
+        bitField2_ = (bitField2_ & ~0x00002000);
         shiChangMingCheng_ = "";
-        bitField2_ = (bitField2_ & ~0x00100000);
+        bitField2_ = (bitField2_ & ~0x00004000);
         shiChangDuanMingCheng_ = "";
-        bitField2_ = (bitField2_ & ~0x00200000);
+        bitField2_ = (bitField2_ & ~0x00008000);
         jiGouChiHuoShu_ = 0L;
-        bitField2_ = (bitField2_ & ~0x00400000);
+        bitField2_ = (bitField2_ & ~0x00010000);
         jiGouTuHuoShu_ = 0L;
-        bitField2_ = (bitField2_ & ~0x00800000);
+        bitField2_ = (bitField2_ & ~0x00020000);
         jiGouChiHuoLiang_ = 0L;
-        bitField2_ = (bitField2_ & ~0x01000000);
+        bitField2_ = (bitField2_ & ~0x00040000);
         jiGouTuHuoLiang_ = 0L;
-        bitField2_ = (bitField2_ & ~0x02000000);
+        bitField2_ = (bitField2_ & ~0x00080000);
         jiGouChiHuoJunE_ = 0L;
-        bitField2_ = (bitField2_ & ~0x04000000);
+        bitField2_ = (bitField2_ & ~0x00100000);
         jiGouTuHuoJunE_ = 0L;
-        bitField2_ = (bitField2_ & ~0x08000000);
+        bitField2_ = (bitField2_ & ~0x00200000);
         meiShouGuShu_ = 0L;
-        bitField2_ = (bitField2_ & ~0x10000000);
+        bitField2_ = (bitField2_ & ~0x00400000);
         jiaoYiDanWei_ = 0L;
-        bitField2_ = (bitField2_ & ~0x20000000);
+        bitField2_ = (bitField2_ & ~0x00800000);
         shiXiaoLv_ = 0L;
-        bitField2_ = (bitField2_ & ~0x40000000);
+        bitField2_ = (bitField2_ & ~0x01000000);
         shiJian_ = 0L;
-        bitField2_ = (bitField2_ & ~0x80000000);
+        bitField2_ = (bitField2_ & ~0x02000000);
         shiJingLv_ = 0L;
-        bitField3_ = (bitField3_ & ~0x00000001);
+        bitField2_ = (bitField2_ & ~0x04000000);
         zongShiZhi_ = 0L;
-        bitField3_ = (bitField3_ & ~0x00000002);
+        bitField2_ = (bitField2_ & ~0x08000000);
         liuTongShiZhi_ = 0L;
-        bitField3_ = (bitField3_ & ~0x00000004);
+        bitField2_ = (bitField2_ & ~0x10000000);
         mA1MinMA1_ = 0L;
-        bitField3_ = (bitField3_ & ~0x00000008);
+        bitField2_ = (bitField2_ & ~0x20000000);
         mA1MinMA2_ = 0L;
-        bitField3_ = (bitField3_ & ~0x00000010);
+        bitField2_ = (bitField2_ & ~0x40000000);
         mA1MinMA3_ = 0L;
-        bitField3_ = (bitField3_ & ~0x00000020);
+        bitField2_ = (bitField2_ & ~0x80000000);
         mA1MinMA4_ = 0L;
-        bitField3_ = (bitField3_ & ~0x00000040);
+        bitField3_ = (bitField3_ & ~0x00000001);
         mA1MinMA5_ = 0L;
-        bitField3_ = (bitField3_ & ~0x00000080);
+        bitField3_ = (bitField3_ & ~0x00000002);
         mA1MinMA6_ = 0L;
-        bitField3_ = (bitField3_ & ~0x00000100);
+        bitField3_ = (bitField3_ & ~0x00000004);
         mA5MinMA1_ = 0L;
-        bitField3_ = (bitField3_ & ~0x00000200);
+        bitField3_ = (bitField3_ & ~0x00000008);
         mA5MinMA2_ = 0L;
-        bitField3_ = (bitField3_ & ~0x00000400);
+        bitField3_ = (bitField3_ & ~0x00000010);
         mA5MinMA3_ = 0L;
-        bitField3_ = (bitField3_ & ~0x00000800);
+        bitField3_ = (bitField3_ & ~0x00000020);
         mA5MinMA4_ = 0L;
-        bitField3_ = (bitField3_ & ~0x00001000);
+        bitField3_ = (bitField3_ & ~0x00000040);
         mA5MinMA5_ = 0L;
-        bitField3_ = (bitField3_ & ~0x00002000);
+        bitField3_ = (bitField3_ & ~0x00000080);
         mA5MinMA6_ = 0L;
-        bitField3_ = (bitField3_ & ~0x00004000);
+        bitField3_ = (bitField3_ & ~0x00000100);
         mA1DayMA1_ = 0L;
-        bitField3_ = (bitField3_ & ~0x00008000);
+        bitField3_ = (bitField3_ & ~0x00000200);
         mA1DayMA2_ = 0L;
-        bitField3_ = (bitField3_ & ~0x00010000);
+        bitField3_ = (bitField3_ & ~0x00000400);
         mA1DayMA3_ = 0L;
-        bitField3_ = (bitField3_ & ~0x00020000);
+        bitField3_ = (bitField3_ & ~0x00000800);
         mA1DayMA4_ = 0L;
-        bitField3_ = (bitField3_ & ~0x00040000);
+        bitField3_ = (bitField3_ & ~0x00001000);
         mA1DayMA5_ = 0L;
-        bitField3_ = (bitField3_ & ~0x00080000);
+        bitField3_ = (bitField3_ & ~0x00002000);
         mA1DayMA6_ = 0L;
-        bitField3_ = (bitField3_ & ~0x00100000);
+        bitField3_ = (bitField3_ & ~0x00004000);
         bOLL1MinMID_ = 0L;
-        bitField3_ = (bitField3_ & ~0x00200000);
+        bitField3_ = (bitField3_ & ~0x00008000);
         bOLL1MinUPPER_ = 0L;
-        bitField3_ = (bitField3_ & ~0x00400000);
+        bitField3_ = (bitField3_ & ~0x00010000);
         bOLL1MinLOWER_ = 0L;
-        bitField3_ = (bitField3_ & ~0x00800000);
+        bitField3_ = (bitField3_ & ~0x00020000);
         bOLL5MinMID_ = 0L;
-        bitField3_ = (bitField3_ & ~0x01000000);
+        bitField3_ = (bitField3_ & ~0x00040000);
         bOLL5MinUPPER_ = 0L;
-        bitField3_ = (bitField3_ & ~0x02000000);
+        bitField3_ = (bitField3_ & ~0x00080000);
         bOLL5MinLOWER_ = 0L;
-        bitField3_ = (bitField3_ & ~0x04000000);
+        bitField3_ = (bitField3_ & ~0x00100000);
         bOLL1DayMID_ = 0L;
-        bitField3_ = (bitField3_ & ~0x08000000);
+        bitField3_ = (bitField3_ & ~0x00200000);
         bOLL1DayUPPER_ = 0L;
-        bitField3_ = (bitField3_ & ~0x10000000);
+        bitField3_ = (bitField3_ & ~0x00400000);
         bOLL1DayLOWER_ = 0L;
-        bitField3_ = (bitField3_ & ~0x20000000);
+        bitField3_ = (bitField3_ & ~0x00800000);
         vOL1Min_ = 0L;
-        bitField3_ = (bitField3_ & ~0x40000000);
+        bitField3_ = (bitField3_ & ~0x01000000);
         vOL1MinMA1_ = 0L;
-        bitField3_ = (bitField3_ & ~0x80000000);
+        bitField3_ = (bitField3_ & ~0x02000000);
         vOL1MinMA2_ = 0L;
-        bitField4_ = (bitField4_ & ~0x00000001);
+        bitField3_ = (bitField3_ & ~0x04000000);
         vOL1MinMA3_ = 0L;
-        bitField4_ = (bitField4_ & ~0x00000002);
+        bitField3_ = (bitField3_ & ~0x08000000);
         vOL5Min_ = 0L;
-        bitField4_ = (bitField4_ & ~0x00000004);
+        bitField3_ = (bitField3_ & ~0x10000000);
         vOL5MinMA1_ = 0L;
-        bitField4_ = (bitField4_ & ~0x00000008);
+        bitField3_ = (bitField3_ & ~0x20000000);
         vOL5MinMA2_ = 0L;
-        bitField4_ = (bitField4_ & ~0x00000010);
+        bitField3_ = (bitField3_ & ~0x40000000);
         vOL5MinMA3_ = 0L;
-        bitField4_ = (bitField4_ & ~0x00000020);
+        bitField3_ = (bitField3_ & ~0x80000000);
         vOL1Day_ = 0L;
-        bitField4_ = (bitField4_ & ~0x00000040);
+        bitField4_ = (bitField4_ & ~0x00000001);
         vOL1DayMA1_ = 0L;
-        bitField4_ = (bitField4_ & ~0x00000080);
+        bitField4_ = (bitField4_ & ~0x00000002);
         vOL1DayMA2_ = 0L;
-        bitField4_ = (bitField4_ & ~0x00000100);
+        bitField4_ = (bitField4_ & ~0x00000004);
         vOL1DayMA3_ = 0L;
-        bitField4_ = (bitField4_ & ~0x00000200);
+        bitField4_ = (bitField4_ & ~0x00000008);
         aRBR1MinAR_ = 0L;
-        bitField4_ = (bitField4_ & ~0x00000400);
+        bitField4_ = (bitField4_ & ~0x00000010);
         aRBR1MinBR_ = 0L;
-        bitField4_ = (bitField4_ & ~0x00000800);
+        bitField4_ = (bitField4_ & ~0x00000020);
         aRBR5MinAR_ = 0L;
-        bitField4_ = (bitField4_ & ~0x00001000);
+        bitField4_ = (bitField4_ & ~0x00000040);
         aRBR5MinBR_ = 0L;
-        bitField4_ = (bitField4_ & ~0x00002000);
+        bitField4_ = (bitField4_ & ~0x00000080);
         aRBR1DayAR_ = 0L;
-        bitField4_ = (bitField4_ & ~0x00004000);
+        bitField4_ = (bitField4_ & ~0x00000100);
         aRBR1DayBR_ = 0L;
-        bitField4_ = (bitField4_ & ~0x00008000);
+        bitField4_ = (bitField4_ & ~0x00000200);
         bIAS1MinBIAS1_ = 0L;
-        bitField4_ = (bitField4_ & ~0x00010000);
+        bitField4_ = (bitField4_ & ~0x00000400);
         bIAS1MinBIAS2_ = 0L;
-        bitField4_ = (bitField4_ & ~0x00020000);
+        bitField4_ = (bitField4_ & ~0x00000800);
         bIAS1MinBIAS3_ = 0L;
-        bitField4_ = (bitField4_ & ~0x00040000);
+        bitField4_ = (bitField4_ & ~0x00001000);
         bIAS5MinBIAS1_ = 0L;
-        bitField4_ = (bitField4_ & ~0x00080000);
+        bitField4_ = (bitField4_ & ~0x00002000);
         bIAS5MinBIAS2_ = 0L;
-        bitField4_ = (bitField4_ & ~0x00100000);
+        bitField4_ = (bitField4_ & ~0x00004000);
         bIAS5MinBIAS3_ = 0L;
-        bitField4_ = (bitField4_ & ~0x00200000);
+        bitField4_ = (bitField4_ & ~0x00008000);
         bIAS1DayBIAS1_ = 0L;
-        bitField4_ = (bitField4_ & ~0x00400000);
+        bitField4_ = (bitField4_ & ~0x00010000);
         bIAS1DayBIAS2_ = 0L;
-        bitField4_ = (bitField4_ & ~0x00800000);
+        bitField4_ = (bitField4_ & ~0x00020000);
         bIAS1DayBIAS3_ = 0L;
-        bitField4_ = (bitField4_ & ~0x01000000);
+        bitField4_ = (bitField4_ & ~0x00040000);
         cCI1Min_ = 0L;
-        bitField4_ = (bitField4_ & ~0x02000000);
+        bitField4_ = (bitField4_ & ~0x00080000);
         cCI5Min_ = 0L;
-        bitField4_ = (bitField4_ & ~0x04000000);
+        bitField4_ = (bitField4_ & ~0x00100000);
         cCI1Day_ = 0L;
-        bitField4_ = (bitField4_ & ~0x08000000);
+        bitField4_ = (bitField4_ & ~0x00200000);
         cJBS1MinCJBS_ = 0L;
-        bitField4_ = (bitField4_ & ~0x10000000);
+        bitField4_ = (bitField4_ & ~0x00400000);
         cJBS5MinCJBS_ = 0L;
-        bitField4_ = (bitField4_ & ~0x20000000);
+        bitField4_ = (bitField4_ & ~0x00800000);
         cJBS1DayCJBS_ = 0L;
-        bitField4_ = (bitField4_ & ~0x40000000);
+        bitField4_ = (bitField4_ & ~0x01000000);
         cR1MinCR_ = 0L;
-        bitField4_ = (bitField4_ & ~0x80000000);
+        bitField4_ = (bitField4_ & ~0x02000000);
         cR1MinMA1_ = 0L;
-        bitField5_ = (bitField5_ & ~0x00000001);
+        bitField4_ = (bitField4_ & ~0x04000000);
         cR1MinMA2_ = 0L;
-        bitField5_ = (bitField5_ & ~0x00000002);
+        bitField4_ = (bitField4_ & ~0x08000000);
         cR1MinMA3_ = 0L;
-        bitField5_ = (bitField5_ & ~0x00000004);
+        bitField4_ = (bitField4_ & ~0x10000000);
         cR5MinCR_ = 0L;
-        bitField5_ = (bitField5_ & ~0x00000008);
+        bitField4_ = (bitField4_ & ~0x20000000);
         cR5MinMA1_ = 0L;
-        bitField5_ = (bitField5_ & ~0x00000010);
+        bitField4_ = (bitField4_ & ~0x40000000);
         cR5MinMA2_ = 0L;
-        bitField5_ = (bitField5_ & ~0x00000020);
+        bitField4_ = (bitField4_ & ~0x80000000);
         cR5MinMA3_ = 0L;
-        bitField5_ = (bitField5_ & ~0x00000040);
+        bitField5_ = (bitField5_ & ~0x00000001);
         cR1DayCR_ = 0L;
-        bitField5_ = (bitField5_ & ~0x00000080);
+        bitField5_ = (bitField5_ & ~0x00000002);
         cR1DayMA1_ = 0L;
-        bitField5_ = (bitField5_ & ~0x00000100);
+        bitField5_ = (bitField5_ & ~0x00000004);
         cR1DayMA2_ = 0L;
-        bitField5_ = (bitField5_ & ~0x00000200);
+        bitField5_ = (bitField5_ & ~0x00000008);
         cR1DayMA3_ = 0L;
-        bitField5_ = (bitField5_ & ~0x00000400);
+        bitField5_ = (bitField5_ & ~0x00000010);
         dMA1MinDDD_ = 0L;
-        bitField5_ = (bitField5_ & ~0x00000800);
+        bitField5_ = (bitField5_ & ~0x00000020);
         dMA1MinAMA_ = 0L;
-        bitField5_ = (bitField5_ & ~0x00001000);
+        bitField5_ = (bitField5_ & ~0x00000040);
         dMA5MinDDD_ = 0L;
-        bitField5_ = (bitField5_ & ~0x00002000);
+        bitField5_ = (bitField5_ & ~0x00000080);
         dMA5MinAMA_ = 0L;
-        bitField5_ = (bitField5_ & ~0x00004000);
+        bitField5_ = (bitField5_ & ~0x00000100);
         dMA1DayDDD_ = 0L;
-        bitField5_ = (bitField5_ & ~0x00008000);
+        bitField5_ = (bitField5_ & ~0x00000200);
         dMA1DayAMA_ = 0L;
-        bitField5_ = (bitField5_ & ~0x00010000);
+        bitField5_ = (bitField5_ & ~0x00000400);
         dMI1MinPDI_ = 0L;
-        bitField5_ = (bitField5_ & ~0x00020000);
+        bitField5_ = (bitField5_ & ~0x00000800);
         dMI1MinMDI_ = 0L;
-        bitField5_ = (bitField5_ & ~0x00040000);
+        bitField5_ = (bitField5_ & ~0x00001000);
         dMI1MinADX_ = 0L;
-        bitField5_ = (bitField5_ & ~0x00080000);
+        bitField5_ = (bitField5_ & ~0x00002000);
         dMI1MinADXR_ = 0L;
-        bitField5_ = (bitField5_ & ~0x00100000);
+        bitField5_ = (bitField5_ & ~0x00004000);
         dMI5MinPDI_ = 0L;
-        bitField5_ = (bitField5_ & ~0x00200000);
+        bitField5_ = (bitField5_ & ~0x00008000);
         dMI5MinMDI_ = 0L;
-        bitField5_ = (bitField5_ & ~0x00400000);
+        bitField5_ = (bitField5_ & ~0x00010000);
         dMI5MinADX_ = 0L;
-        bitField5_ = (bitField5_ & ~0x00800000);
+        bitField5_ = (bitField5_ & ~0x00020000);
         dMI5MinADXR_ = 0L;
-        bitField5_ = (bitField5_ & ~0x01000000);
+        bitField5_ = (bitField5_ & ~0x00040000);
         dMI1DayPDI_ = 0L;
-        bitField5_ = (bitField5_ & ~0x02000000);
+        bitField5_ = (bitField5_ & ~0x00080000);
         dMI1DayMDI_ = 0L;
-        bitField5_ = (bitField5_ & ~0x04000000);
+        bitField5_ = (bitField5_ & ~0x00100000);
         dMI1DayADX_ = 0L;
-        bitField5_ = (bitField5_ & ~0x08000000);
+        bitField5_ = (bitField5_ & ~0x00200000);
         dMI1DayADXR_ = 0L;
-        bitField5_ = (bitField5_ & ~0x10000000);
+        bitField5_ = (bitField5_ & ~0x00400000);
         kDJ1MinK_ = 0L;
-        bitField5_ = (bitField5_ & ~0x20000000);
+        bitField5_ = (bitField5_ & ~0x00800000);
         kDJ1MinD_ = 0L;
-        bitField5_ = (bitField5_ & ~0x40000000);
+        bitField5_ = (bitField5_ & ~0x01000000);
         kDJ1MinJ_ = 0L;
-        bitField5_ = (bitField5_ & ~0x80000000);
+        bitField5_ = (bitField5_ & ~0x02000000);
         kDJ5MinK_ = 0L;
-        bitField6_ = (bitField6_ & ~0x00000001);
+        bitField5_ = (bitField5_ & ~0x04000000);
         kDJ5MinD_ = 0L;
-        bitField6_ = (bitField6_ & ~0x00000002);
+        bitField5_ = (bitField5_ & ~0x08000000);
         kDJ5MinJ_ = 0L;
-        bitField6_ = (bitField6_ & ~0x00000004);
+        bitField5_ = (bitField5_ & ~0x10000000);
         kDJ1DayK_ = 0L;
-        bitField6_ = (bitField6_ & ~0x00000008);
+        bitField5_ = (bitField5_ & ~0x20000000);
         kDJ1DayD_ = 0L;
-        bitField6_ = (bitField6_ & ~0x00000010);
+        bitField5_ = (bitField5_ & ~0x40000000);
         kDJ1DayJ_ = 0L;
-        bitField6_ = (bitField6_ & ~0x00000020);
+        bitField5_ = (bitField5_ & ~0x80000000);
         mACD1MinDIFF_ = 0L;
-        bitField6_ = (bitField6_ & ~0x00000040);
+        bitField6_ = (bitField6_ & ~0x00000001);
         mACD1MinDEA_ = 0L;
-        bitField6_ = (bitField6_ & ~0x00000080);
+        bitField6_ = (bitField6_ & ~0x00000002);
         mACD1MinMACD_ = 0L;
-        bitField6_ = (bitField6_ & ~0x00000100);
+        bitField6_ = (bitField6_ & ~0x00000004);
         mACD5MinDIFF_ = 0L;
-        bitField6_ = (bitField6_ & ~0x00000200);
+        bitField6_ = (bitField6_ & ~0x00000008);
         mACD5MinDEA_ = 0L;
-        bitField6_ = (bitField6_ & ~0x00000400);
+        bitField6_ = (bitField6_ & ~0x00000010);
         mACD5MinMACD_ = 0L;
-        bitField6_ = (bitField6_ & ~0x00000800);
+        bitField6_ = (bitField6_ & ~0x00000020);
         mACD1DayDIFF_ = 0L;
-        bitField6_ = (bitField6_ & ~0x00001000);
+        bitField6_ = (bitField6_ & ~0x00000040);
         mACD1DayDEA_ = 0L;
-        bitField6_ = (bitField6_ & ~0x00002000);
+        bitField6_ = (bitField6_ & ~0x00000080);
         mACD1DayMACD_ = 0L;
-        bitField6_ = (bitField6_ & ~0x00004000);
+        bitField6_ = (bitField6_ & ~0x00000100);
         oBV1Min_ = 0L;
-        bitField6_ = (bitField6_ & ~0x00008000);
+        bitField6_ = (bitField6_ & ~0x00000200);
         oBV5Min_ = 0L;
-        bitField6_ = (bitField6_ & ~0x00010000);
+        bitField6_ = (bitField6_ & ~0x00000400);
         oBV1Day_ = 0L;
-        bitField6_ = (bitField6_ & ~0x00020000);
+        bitField6_ = (bitField6_ & ~0x00000800);
         pSY1Min_ = 0L;
-        bitField6_ = (bitField6_ & ~0x00040000);
+        bitField6_ = (bitField6_ & ~0x00001000);
         pSY5Min_ = 0L;
-        bitField6_ = (bitField6_ & ~0x00080000);
+        bitField6_ = (bitField6_ & ~0x00002000);
         pSY1Day_ = 0L;
-        bitField6_ = (bitField6_ & ~0x00100000);
+        bitField6_ = (bitField6_ & ~0x00004000);
         rSI1MinRSI1_ = 0L;
-        bitField6_ = (bitField6_ & ~0x00200000);
+        bitField6_ = (bitField6_ & ~0x00008000);
         rSI1MinRSI2_ = 0L;
-        bitField6_ = (bitField6_ & ~0x00400000);
+        bitField6_ = (bitField6_ & ~0x00010000);
         rSI1MinRSI3_ = 0L;
-        bitField6_ = (bitField6_ & ~0x00800000);
+        bitField6_ = (bitField6_ & ~0x00020000);
         rSI5MinRSI1_ = 0L;
-        bitField6_ = (bitField6_ & ~0x01000000);
+        bitField6_ = (bitField6_ & ~0x00040000);
         rSI5MinRSI2_ = 0L;
-        bitField6_ = (bitField6_ & ~0x02000000);
+        bitField6_ = (bitField6_ & ~0x00080000);
         rSI5MinRSI3_ = 0L;
-        bitField6_ = (bitField6_ & ~0x04000000);
+        bitField6_ = (bitField6_ & ~0x00100000);
         rSI1DayRSI1_ = 0L;
-        bitField6_ = (bitField6_ & ~0x08000000);
+        bitField6_ = (bitField6_ & ~0x00200000);
         rSI1DayRSI2_ = 0L;
-        bitField6_ = (bitField6_ & ~0x10000000);
+        bitField6_ = (bitField6_ & ~0x00400000);
         rSI1DayRSI3_ = 0L;
-        bitField6_ = (bitField6_ & ~0x20000000);
+        bitField6_ = (bitField6_ & ~0x00800000);
         wR1MinWR1_ = 0L;
-        bitField6_ = (bitField6_ & ~0x40000000);
+        bitField6_ = (bitField6_ & ~0x01000000);
         wR1MinWR2_ = 0L;
-        bitField6_ = (bitField6_ & ~0x80000000);
+        bitField6_ = (bitField6_ & ~0x02000000);
         wR5MinWR1_ = 0L;
-        bitField7_ = (bitField7_ & ~0x00000001);
+        bitField6_ = (bitField6_ & ~0x04000000);
         wR5MinWR2_ = 0L;
-        bitField7_ = (bitField7_ & ~0x00000002);
+        bitField6_ = (bitField6_ & ~0x08000000);
         wR1DayWR1_ = 0L;
-        bitField7_ = (bitField7_ & ~0x00000004);
+        bitField6_ = (bitField6_ & ~0x10000000);
         wR1DayWR2_ = 0L;
-        bitField7_ = (bitField7_ & ~0x00000008);
+        bitField6_ = (bitField6_ & ~0x20000000);
         leiXing_ = 0L;
-        bitField7_ = (bitField7_ & ~0x00000010);
+        bitField6_ = (bitField6_ & ~0x40000000);
         ziLeiXing_ = 0L;
-        bitField7_ = (bitField7_ & ~0x00000020);
+        bitField6_ = (bitField6_ & ~0x80000000);
         leiXingMingCheng_ = "";
-        bitField7_ = (bitField7_ & ~0x00000040);
+        bitField7_ = (bitField7_ & ~0x00000001);
         chengJiaoLiangDanWei_ = 0L;
-        bitField7_ = (bitField7_ & ~0x00000080);
+        bitField7_ = (bitField7_ & ~0x00000002);
         fJJJLeiXing_ = 0L;
-        bitField7_ = (bitField7_ & ~0x00000100);
+        bitField7_ = (bitField7_ & ~0x00000004);
         zhengTiYiJia_ = 0L;
-        bitField7_ = (bitField7_ & ~0x00000200);
+        bitField7_ = (bitField7_ & ~0x00000008);
         mYiJia_ = 0L;
-        bitField7_ = (bitField7_ & ~0x00000400);
+        bitField7_ = (bitField7_ & ~0x00000010);
         mShiShiJingZhi_ = 0L;
-        bitField7_ = (bitField7_ & ~0x00000800);
+        bitField7_ = (bitField7_ & ~0x00000020);
         mShangZheXuZhang_ = 0L;
-        bitField7_ = (bitField7_ & ~0x00001000);
+        bitField7_ = (bitField7_ & ~0x00000040);
         mXiaZheXuDie_ = 0L;
-        bitField7_ = (bitField7_ & ~0x00002000);
+        bitField7_ = (bitField7_ & ~0x00000080);
         yinHanShouYi_ = 0L;
-        bitField7_ = (bitField7_ & ~0x00004000);
+        bitField7_ = (bitField7_ & ~0x00000100);
         jiaGeGangGan_ = 0L;
-        bitField7_ = (bitField7_ & ~0x00008000);
+        bitField7_ = (bitField7_ & ~0x00000200);
         pinZhongObj_ = "";
-        bitField7_ = (bitField7_ & ~0x00010000);
+        bitField7_ = (bitField7_ & ~0x00000400);
         baoGaoQi_ = "";
-        bitField7_ = (bitField7_ & ~0x00020000);
+        bitField7_ = (bitField7_ & ~0x00000800);
         shangShiRiQi_ = "";
-        bitField7_ = (bitField7_ & ~0x00040000);
+        bitField7_ = (bitField7_ & ~0x00001000);
         meiGuShouYi_ = 0L;
-        bitField7_ = (bitField7_ & ~0x00080000);
+        bitField7_ = (bitField7_ & ~0x00002000);
         meiGuJingZiChan_ = 0L;
-        bitField7_ = (bitField7_ & ~0x00100000);
+        bitField7_ = (bitField7_ & ~0x00004000);
         jingZiChanShouYiLv_ = 0L;
-        bitField7_ = (bitField7_ & ~0x00200000);
+        bitField7_ = (bitField7_ & ~0x00008000);
         meiGuJingYingXianJin_ = 0L;
-        bitField7_ = (bitField7_ & ~0x00400000);
+        bitField7_ = (bitField7_ & ~0x00010000);
         meiGuGongJiJin_ = 0L;
-        bitField7_ = (bitField7_ & ~0x00800000);
+        bitField7_ = (bitField7_ & ~0x00020000);
         meiGuWeiFenPei_ = 0L;
-        bitField7_ = (bitField7_ & ~0x01000000);
+        bitField7_ = (bitField7_ & ~0x00040000);
         guDongQuanYiBi_ = 0L;
-        bitField7_ = (bitField7_ & ~0x02000000);
+        bitField7_ = (bitField7_ & ~0x00080000);
         jingLiRunTongBi_ = 0L;
-        bitField7_ = (bitField7_ & ~0x04000000);
+        bitField7_ = (bitField7_ & ~0x00100000);
         zhuYingShouRuTongBi_ = 0L;
-        bitField7_ = (bitField7_ & ~0x08000000);
+        bitField7_ = (bitField7_ & ~0x00200000);
         xiaoShouMaoLiLv_ = 0L;
-        bitField7_ = (bitField7_ & ~0x10000000);
+        bitField7_ = (bitField7_ & ~0x00400000);
         tiaoZhengMeiGuJingZi_ = 0L;
-        bitField7_ = (bitField7_ & ~0x20000000);
+        bitField7_ = (bitField7_ & ~0x00800000);
         zongZiChan_ = 0L;
-        bitField7_ = (bitField7_ & ~0x40000000);
+        bitField7_ = (bitField7_ & ~0x01000000);
         liuDongZiChan_ = 0L;
-        bitField7_ = (bitField7_ & ~0x80000000);
+        bitField7_ = (bitField7_ & ~0x02000000);
         guDingZiChan_ = 0L;
-        bitField8_ = (bitField8_ & ~0x00000001);
+        bitField7_ = (bitField7_ & ~0x04000000);
         wuXingZiChan_ = 0L;
-        bitField8_ = (bitField8_ & ~0x00000002);
+        bitField7_ = (bitField7_ & ~0x08000000);
         liuDongFuZhai_ = 0L;
-        bitField8_ = (bitField8_ & ~0x00000004);
+        bitField7_ = (bitField7_ & ~0x10000000);
         changQiFuZhai_ = 0L;
-        bitField8_ = (bitField8_ & ~0x00000008);
+        bitField7_ = (bitField7_ & ~0x20000000);
         zongFuZhai_ = 0L;
-        bitField8_ = (bitField8_ & ~0x00000010);
+        bitField7_ = (bitField7_ & ~0x40000000);
         guDongQuanYi_ = 0L;
-        bitField8_ = (bitField8_ & ~0x00000020);
+        bitField7_ = (bitField7_ & ~0x80000000);
         ziBenGongJiJin_ = 0L;
-        bitField8_ = (bitField8_ & ~0x00000040);
+        bitField8_ = (bitField8_ & ~0x00000001);
         jingYingXianJinLiuLiang_ = 0L;
-        bitField8_ = (bitField8_ & ~0x00000080);
+        bitField8_ = (bitField8_ & ~0x00000002);
         touZiXianJinLiuLiang_ = 0L;
-        bitField8_ = (bitField8_ & ~0x00000100);
+        bitField8_ = (bitField8_ & ~0x00000004);
         chouZiXianJinLiuLiang_ = 0L;
-        bitField8_ = (bitField8_ & ~0x00000200);
+        bitField8_ = (bitField8_ & ~0x00000008);
         xianJinZengJiaE_ = 0L;
-        bitField8_ = (bitField8_ & ~0x00000400);
+        bitField8_ = (bitField8_ & ~0x00000010);
         zhuYingShouRu_ = 0L;
-        bitField8_ = (bitField8_ & ~0x00000800);
+        bitField8_ = (bitField8_ & ~0x00000020);
         zhuYingLiRun_ = 0L;
-        bitField8_ = (bitField8_ & ~0x00001000);
+        bitField8_ = (bitField8_ & ~0x00000040);
         yingYeLiRun_ = 0L;
-        bitField8_ = (bitField8_ & ~0x00002000);
+        bitField8_ = (bitField8_ & ~0x00000080);
         touZiShouYi_ = 0L;
-        bitField8_ = (bitField8_ & ~0x00004000);
+        bitField8_ = (bitField8_ & ~0x00000100);
         yingYeWaiShouZhi_ = 0L;
-        bitField8_ = (bitField8_ & ~0x00008000);
+        bitField8_ = (bitField8_ & ~0x00000200);
         liRunZongE_ = 0L;
-        bitField8_ = (bitField8_ & ~0x00010000);
+        bitField8_ = (bitField8_ & ~0x00000400);
         jingLiRun_ = 0L;
-        bitField8_ = (bitField8_ & ~0x00020000);
+        bitField8_ = (bitField8_ & ~0x00000800);
         weiFenPeiLiRun_ = 0L;
-        bitField8_ = (bitField8_ & ~0x00040000);
+        bitField8_ = (bitField8_ & ~0x00001000);
         zongGuBen_ = 0L;
-        bitField8_ = (bitField8_ & ~0x00080000);
+        bitField8_ = (bitField8_ & ~0x00002000);
         wuXianShouGuHeJi_ = 0L;
-        bitField8_ = (bitField8_ & ~0x00100000);
+        bitField8_ = (bitField8_ & ~0x00004000);
         liuTongAGu_ = 0L;
-        bitField8_ = (bitField8_ & ~0x00200000);
+        bitField8_ = (bitField8_ & ~0x00008000);
         liuTongBGu_ = 0L;
-        bitField8_ = (bitField8_ & ~0x00400000);
+        bitField8_ = (bitField8_ & ~0x00010000);
         jingWaiShangShiGu_ = 0L;
-        bitField8_ = (bitField8_ & ~0x00800000);
+        bitField8_ = (bitField8_ & ~0x00020000);
         qiTaLiuTongGu_ = 0L;
-        bitField8_ = (bitField8_ & ~0x01000000);
+        bitField8_ = (bitField8_ & ~0x00040000);
         xianShouGuHeJi_ = 0L;
-        bitField8_ = (bitField8_ & ~0x02000000);
+        bitField8_ = (bitField8_ & ~0x00080000);
         guoJiaChiGu_ = 0L;
-        bitField8_ = (bitField8_ & ~0x04000000);
+        bitField8_ = (bitField8_ & ~0x00100000);
         guoYouFaRenGu_ = 0L;
-        bitField8_ = (bitField8_ & ~0x08000000);
+        bitField8_ = (bitField8_ & ~0x00200000);
         jingNeiFaRenGu_ = 0L;
-        bitField8_ = (bitField8_ & ~0x10000000);
+        bitField8_ = (bitField8_ & ~0x00400000);
         jingNeiZiRanRenGu_ = 0L;
-        bitField8_ = (bitField8_ & ~0x20000000);
+        bitField8_ = (bitField8_ & ~0x00800000);
         qiTaFaQiRenGu_ = 0L;
-        bitField8_ = (bitField8_ & ~0x40000000);
+        bitField8_ = (bitField8_ & ~0x01000000);
         muJiFaRenGu_ = 0L;
-        bitField8_ = (bitField8_ & ~0x80000000);
+        bitField8_ = (bitField8_ & ~0x02000000);
         jingWaiFaRenGu_ = 0L;
-        bitField9_ = (bitField9_ & ~0x00000001);
+        bitField8_ = (bitField8_ & ~0x04000000);
         jingWaiZiRanRenGu_ = 0L;
-        bitField9_ = (bitField9_ & ~0x00000002);
+        bitField8_ = (bitField8_ & ~0x08000000);
         youXianGuHuoQiTa_ = 0L;
+        bitField8_ = (bitField8_ & ~0x10000000);
+        weiTuoMaiRu_ = 0L;
+        bitField8_ = (bitField8_ & ~0x20000000);
+        weiTuoMaiChu_ = 0L;
+        bitField8_ = (bitField8_ & ~0x40000000);
+        maiRuZhongDanBiLi_ = 0L;
+        bitField8_ = (bitField8_ & ~0x80000000);
+        maiRuDaDanBiLi_ = 0L;
+        bitField9_ = (bitField9_ & ~0x00000001);
+        maiRuTeDaDanBiLi_ = 0L;
+        bitField9_ = (bitField9_ & ~0x00000002);
+        maiChuZhongDanBiLi_ = 0L;
         bitField9_ = (bitField9_ & ~0x00000004);
+        maiChuDaDanBiLi_ = 0L;
+        bitField9_ = (bitField9_ & ~0x00000008);
+        maiChuTeDaDanBiLi_ = 0L;
+        bitField9_ = (bitField9_ & ~0x00000010);
+        duanXianMaiRu_ = 0L;
+        bitField9_ = (bitField9_ & ~0x00000020);
+        duanXianMaiChu_ = 0L;
+        bitField9_ = (bitField9_ & ~0x00000040);
+        duanXianChiHuo_ = 0L;
+        bitField9_ = (bitField9_ & ~0x00000080);
+        duanXianTuHuo_ = 0L;
+        bitField9_ = (bitField9_ & ~0x00000100);
+        biShi_ = 0L;
+        bitField9_ = (bitField9_ & ~0x00000200);
         return this;
       }
 
@@ -16974,887 +17359,915 @@ public final class DzhyunStkdata {
         if (((from_bitField2_ & 0x00000040) == 0x00000040)) {
           to_bitField2_ |= 0x00000040;
         }
-        result.maiRuZhongDanBiLi_ = maiRuZhongDanBiLi_;
+        result.fenZhongZhangFu1_ = fenZhongZhangFu1_;
         if (((from_bitField2_ & 0x00000080) == 0x00000080)) {
           to_bitField2_ |= 0x00000080;
         }
-        result.maiRuDaDanBiLi_ = maiRuDaDanBiLi_;
+        result.fenZhongZhangFu2_ = fenZhongZhangFu2_;
         if (((from_bitField2_ & 0x00000100) == 0x00000100)) {
           to_bitField2_ |= 0x00000100;
         }
-        result.maiRuTeDaDanBiLi_ = maiRuTeDaDanBiLi_;
+        result.fenZhongZhangFu3_ = fenZhongZhangFu3_;
         if (((from_bitField2_ & 0x00000200) == 0x00000200)) {
           to_bitField2_ |= 0x00000200;
         }
-        result.maiChuZhongDanBiLi_ = maiChuZhongDanBiLi_;
+        result.fenZhongZhangFu4_ = fenZhongZhangFu4_;
         if (((from_bitField2_ & 0x00000400) == 0x00000400)) {
           to_bitField2_ |= 0x00000400;
         }
-        result.maiChuDaDanBiLi_ = maiChuDaDanBiLi_;
+        result.fenZhongZhangFu5_ = fenZhongZhangFu5_;
         if (((from_bitField2_ & 0x00000800) == 0x00000800)) {
           to_bitField2_ |= 0x00000800;
         }
-        result.maiChuTeDaDanBiLi_ = maiChuTeDaDanBiLi_;
+        result.shiYingLv_ = shiYingLv_;
         if (((from_bitField2_ & 0x00001000) == 0x00001000)) {
           to_bitField2_ |= 0x00001000;
         }
-        result.fenZhongZhangFu1_ = fenZhongZhangFu1_;
+        result.zhangTing_ = zhangTing_;
         if (((from_bitField2_ & 0x00002000) == 0x00002000)) {
           to_bitField2_ |= 0x00002000;
         }
-        result.fenZhongZhangFu2_ = fenZhongZhangFu2_;
+        result.dieTing_ = dieTing_;
         if (((from_bitField2_ & 0x00004000) == 0x00004000)) {
           to_bitField2_ |= 0x00004000;
         }
-        result.fenZhongZhangFu3_ = fenZhongZhangFu3_;
+        result.shiChangMingCheng_ = shiChangMingCheng_;
         if (((from_bitField2_ & 0x00008000) == 0x00008000)) {
           to_bitField2_ |= 0x00008000;
         }
-        result.fenZhongZhangFu4_ = fenZhongZhangFu4_;
+        result.shiChangDuanMingCheng_ = shiChangDuanMingCheng_;
         if (((from_bitField2_ & 0x00010000) == 0x00010000)) {
           to_bitField2_ |= 0x00010000;
         }
-        result.fenZhongZhangFu5_ = fenZhongZhangFu5_;
+        result.jiGouChiHuoShu_ = jiGouChiHuoShu_;
         if (((from_bitField2_ & 0x00020000) == 0x00020000)) {
           to_bitField2_ |= 0x00020000;
         }
-        result.shiYingLv_ = shiYingLv_;
+        result.jiGouTuHuoShu_ = jiGouTuHuoShu_;
         if (((from_bitField2_ & 0x00040000) == 0x00040000)) {
           to_bitField2_ |= 0x00040000;
         }
-        result.zhangTing_ = zhangTing_;
+        result.jiGouChiHuoLiang_ = jiGouChiHuoLiang_;
         if (((from_bitField2_ & 0x00080000) == 0x00080000)) {
           to_bitField2_ |= 0x00080000;
         }
-        result.dieTing_ = dieTing_;
+        result.jiGouTuHuoLiang_ = jiGouTuHuoLiang_;
         if (((from_bitField2_ & 0x00100000) == 0x00100000)) {
           to_bitField2_ |= 0x00100000;
         }
-        result.shiChangMingCheng_ = shiChangMingCheng_;
+        result.jiGouChiHuoJunE_ = jiGouChiHuoJunE_;
         if (((from_bitField2_ & 0x00200000) == 0x00200000)) {
           to_bitField2_ |= 0x00200000;
         }
-        result.shiChangDuanMingCheng_ = shiChangDuanMingCheng_;
+        result.jiGouTuHuoJunE_ = jiGouTuHuoJunE_;
         if (((from_bitField2_ & 0x00400000) == 0x00400000)) {
           to_bitField2_ |= 0x00400000;
         }
-        result.jiGouChiHuoShu_ = jiGouChiHuoShu_;
+        result.meiShouGuShu_ = meiShouGuShu_;
         if (((from_bitField2_ & 0x00800000) == 0x00800000)) {
           to_bitField2_ |= 0x00800000;
         }
-        result.jiGouTuHuoShu_ = jiGouTuHuoShu_;
+        result.jiaoYiDanWei_ = jiaoYiDanWei_;
         if (((from_bitField2_ & 0x01000000) == 0x01000000)) {
           to_bitField2_ |= 0x01000000;
         }
-        result.jiGouChiHuoLiang_ = jiGouChiHuoLiang_;
+        result.shiXiaoLv_ = shiXiaoLv_;
         if (((from_bitField2_ & 0x02000000) == 0x02000000)) {
           to_bitField2_ |= 0x02000000;
         }
-        result.jiGouTuHuoLiang_ = jiGouTuHuoLiang_;
+        result.shiJian_ = shiJian_;
         if (((from_bitField2_ & 0x04000000) == 0x04000000)) {
           to_bitField2_ |= 0x04000000;
         }
-        result.jiGouChiHuoJunE_ = jiGouChiHuoJunE_;
+        result.shiJingLv_ = shiJingLv_;
         if (((from_bitField2_ & 0x08000000) == 0x08000000)) {
           to_bitField2_ |= 0x08000000;
         }
-        result.jiGouTuHuoJunE_ = jiGouTuHuoJunE_;
+        result.zongShiZhi_ = zongShiZhi_;
         if (((from_bitField2_ & 0x10000000) == 0x10000000)) {
           to_bitField2_ |= 0x10000000;
         }
-        result.meiShouGuShu_ = meiShouGuShu_;
+        result.liuTongShiZhi_ = liuTongShiZhi_;
         if (((from_bitField2_ & 0x20000000) == 0x20000000)) {
           to_bitField2_ |= 0x20000000;
         }
-        result.jiaoYiDanWei_ = jiaoYiDanWei_;
+        result.mA1MinMA1_ = mA1MinMA1_;
         if (((from_bitField2_ & 0x40000000) == 0x40000000)) {
           to_bitField2_ |= 0x40000000;
         }
-        result.shiXiaoLv_ = shiXiaoLv_;
+        result.mA1MinMA2_ = mA1MinMA2_;
         if (((from_bitField2_ & 0x80000000) == 0x80000000)) {
           to_bitField2_ |= 0x80000000;
         }
-        result.shiJian_ = shiJian_;
+        result.mA1MinMA3_ = mA1MinMA3_;
         if (((from_bitField3_ & 0x00000001) == 0x00000001)) {
           to_bitField3_ |= 0x00000001;
         }
-        result.shiJingLv_ = shiJingLv_;
+        result.mA1MinMA4_ = mA1MinMA4_;
         if (((from_bitField3_ & 0x00000002) == 0x00000002)) {
           to_bitField3_ |= 0x00000002;
         }
-        result.zongShiZhi_ = zongShiZhi_;
+        result.mA1MinMA5_ = mA1MinMA5_;
         if (((from_bitField3_ & 0x00000004) == 0x00000004)) {
           to_bitField3_ |= 0x00000004;
         }
-        result.liuTongShiZhi_ = liuTongShiZhi_;
+        result.mA1MinMA6_ = mA1MinMA6_;
         if (((from_bitField3_ & 0x00000008) == 0x00000008)) {
           to_bitField3_ |= 0x00000008;
         }
-        result.mA1MinMA1_ = mA1MinMA1_;
+        result.mA5MinMA1_ = mA5MinMA1_;
         if (((from_bitField3_ & 0x00000010) == 0x00000010)) {
           to_bitField3_ |= 0x00000010;
         }
-        result.mA1MinMA2_ = mA1MinMA2_;
+        result.mA5MinMA2_ = mA5MinMA2_;
         if (((from_bitField3_ & 0x00000020) == 0x00000020)) {
           to_bitField3_ |= 0x00000020;
         }
-        result.mA1MinMA3_ = mA1MinMA3_;
+        result.mA5MinMA3_ = mA5MinMA3_;
         if (((from_bitField3_ & 0x00000040) == 0x00000040)) {
           to_bitField3_ |= 0x00000040;
         }
-        result.mA1MinMA4_ = mA1MinMA4_;
+        result.mA5MinMA4_ = mA5MinMA4_;
         if (((from_bitField3_ & 0x00000080) == 0x00000080)) {
           to_bitField3_ |= 0x00000080;
         }
-        result.mA1MinMA5_ = mA1MinMA5_;
+        result.mA5MinMA5_ = mA5MinMA5_;
         if (((from_bitField3_ & 0x00000100) == 0x00000100)) {
           to_bitField3_ |= 0x00000100;
         }
-        result.mA1MinMA6_ = mA1MinMA6_;
+        result.mA5MinMA6_ = mA5MinMA6_;
         if (((from_bitField3_ & 0x00000200) == 0x00000200)) {
           to_bitField3_ |= 0x00000200;
         }
-        result.mA5MinMA1_ = mA5MinMA1_;
+        result.mA1DayMA1_ = mA1DayMA1_;
         if (((from_bitField3_ & 0x00000400) == 0x00000400)) {
           to_bitField3_ |= 0x00000400;
         }
-        result.mA5MinMA2_ = mA5MinMA2_;
+        result.mA1DayMA2_ = mA1DayMA2_;
         if (((from_bitField3_ & 0x00000800) == 0x00000800)) {
           to_bitField3_ |= 0x00000800;
         }
-        result.mA5MinMA3_ = mA5MinMA3_;
+        result.mA1DayMA3_ = mA1DayMA3_;
         if (((from_bitField3_ & 0x00001000) == 0x00001000)) {
           to_bitField3_ |= 0x00001000;
         }
-        result.mA5MinMA4_ = mA5MinMA4_;
+        result.mA1DayMA4_ = mA1DayMA4_;
         if (((from_bitField3_ & 0x00002000) == 0x00002000)) {
           to_bitField3_ |= 0x00002000;
         }
-        result.mA5MinMA5_ = mA5MinMA5_;
+        result.mA1DayMA5_ = mA1DayMA5_;
         if (((from_bitField3_ & 0x00004000) == 0x00004000)) {
           to_bitField3_ |= 0x00004000;
         }
-        result.mA5MinMA6_ = mA5MinMA6_;
+        result.mA1DayMA6_ = mA1DayMA6_;
         if (((from_bitField3_ & 0x00008000) == 0x00008000)) {
           to_bitField3_ |= 0x00008000;
         }
-        result.mA1DayMA1_ = mA1DayMA1_;
+        result.bOLL1MinMID_ = bOLL1MinMID_;
         if (((from_bitField3_ & 0x00010000) == 0x00010000)) {
           to_bitField3_ |= 0x00010000;
         }
-        result.mA1DayMA2_ = mA1DayMA2_;
+        result.bOLL1MinUPPER_ = bOLL1MinUPPER_;
         if (((from_bitField3_ & 0x00020000) == 0x00020000)) {
           to_bitField3_ |= 0x00020000;
         }
-        result.mA1DayMA3_ = mA1DayMA3_;
+        result.bOLL1MinLOWER_ = bOLL1MinLOWER_;
         if (((from_bitField3_ & 0x00040000) == 0x00040000)) {
           to_bitField3_ |= 0x00040000;
         }
-        result.mA1DayMA4_ = mA1DayMA4_;
+        result.bOLL5MinMID_ = bOLL5MinMID_;
         if (((from_bitField3_ & 0x00080000) == 0x00080000)) {
           to_bitField3_ |= 0x00080000;
         }
-        result.mA1DayMA5_ = mA1DayMA5_;
+        result.bOLL5MinUPPER_ = bOLL5MinUPPER_;
         if (((from_bitField3_ & 0x00100000) == 0x00100000)) {
           to_bitField3_ |= 0x00100000;
         }
-        result.mA1DayMA6_ = mA1DayMA6_;
+        result.bOLL5MinLOWER_ = bOLL5MinLOWER_;
         if (((from_bitField3_ & 0x00200000) == 0x00200000)) {
           to_bitField3_ |= 0x00200000;
         }
-        result.bOLL1MinMID_ = bOLL1MinMID_;
+        result.bOLL1DayMID_ = bOLL1DayMID_;
         if (((from_bitField3_ & 0x00400000) == 0x00400000)) {
           to_bitField3_ |= 0x00400000;
         }
-        result.bOLL1MinUPPER_ = bOLL1MinUPPER_;
+        result.bOLL1DayUPPER_ = bOLL1DayUPPER_;
         if (((from_bitField3_ & 0x00800000) == 0x00800000)) {
           to_bitField3_ |= 0x00800000;
         }
-        result.bOLL1MinLOWER_ = bOLL1MinLOWER_;
+        result.bOLL1DayLOWER_ = bOLL1DayLOWER_;
         if (((from_bitField3_ & 0x01000000) == 0x01000000)) {
           to_bitField3_ |= 0x01000000;
         }
-        result.bOLL5MinMID_ = bOLL5MinMID_;
+        result.vOL1Min_ = vOL1Min_;
         if (((from_bitField3_ & 0x02000000) == 0x02000000)) {
           to_bitField3_ |= 0x02000000;
         }
-        result.bOLL5MinUPPER_ = bOLL5MinUPPER_;
+        result.vOL1MinMA1_ = vOL1MinMA1_;
         if (((from_bitField3_ & 0x04000000) == 0x04000000)) {
           to_bitField3_ |= 0x04000000;
         }
-        result.bOLL5MinLOWER_ = bOLL5MinLOWER_;
+        result.vOL1MinMA2_ = vOL1MinMA2_;
         if (((from_bitField3_ & 0x08000000) == 0x08000000)) {
           to_bitField3_ |= 0x08000000;
         }
-        result.bOLL1DayMID_ = bOLL1DayMID_;
+        result.vOL1MinMA3_ = vOL1MinMA3_;
         if (((from_bitField3_ & 0x10000000) == 0x10000000)) {
           to_bitField3_ |= 0x10000000;
         }
-        result.bOLL1DayUPPER_ = bOLL1DayUPPER_;
+        result.vOL5Min_ = vOL5Min_;
         if (((from_bitField3_ & 0x20000000) == 0x20000000)) {
           to_bitField3_ |= 0x20000000;
         }
-        result.bOLL1DayLOWER_ = bOLL1DayLOWER_;
+        result.vOL5MinMA1_ = vOL5MinMA1_;
         if (((from_bitField3_ & 0x40000000) == 0x40000000)) {
           to_bitField3_ |= 0x40000000;
         }
-        result.vOL1Min_ = vOL1Min_;
+        result.vOL5MinMA2_ = vOL5MinMA2_;
         if (((from_bitField3_ & 0x80000000) == 0x80000000)) {
           to_bitField3_ |= 0x80000000;
         }
-        result.vOL1MinMA1_ = vOL1MinMA1_;
+        result.vOL5MinMA3_ = vOL5MinMA3_;
         if (((from_bitField4_ & 0x00000001) == 0x00000001)) {
           to_bitField4_ |= 0x00000001;
         }
-        result.vOL1MinMA2_ = vOL1MinMA2_;
+        result.vOL1Day_ = vOL1Day_;
         if (((from_bitField4_ & 0x00000002) == 0x00000002)) {
           to_bitField4_ |= 0x00000002;
         }
-        result.vOL1MinMA3_ = vOL1MinMA3_;
+        result.vOL1DayMA1_ = vOL1DayMA1_;
         if (((from_bitField4_ & 0x00000004) == 0x00000004)) {
           to_bitField4_ |= 0x00000004;
         }
-        result.vOL5Min_ = vOL5Min_;
+        result.vOL1DayMA2_ = vOL1DayMA2_;
         if (((from_bitField4_ & 0x00000008) == 0x00000008)) {
           to_bitField4_ |= 0x00000008;
         }
-        result.vOL5MinMA1_ = vOL5MinMA1_;
+        result.vOL1DayMA3_ = vOL1DayMA3_;
         if (((from_bitField4_ & 0x00000010) == 0x00000010)) {
           to_bitField4_ |= 0x00000010;
         }
-        result.vOL5MinMA2_ = vOL5MinMA2_;
+        result.aRBR1MinAR_ = aRBR1MinAR_;
         if (((from_bitField4_ & 0x00000020) == 0x00000020)) {
           to_bitField4_ |= 0x00000020;
         }
-        result.vOL5MinMA3_ = vOL5MinMA3_;
+        result.aRBR1MinBR_ = aRBR1MinBR_;
         if (((from_bitField4_ & 0x00000040) == 0x00000040)) {
           to_bitField4_ |= 0x00000040;
         }
-        result.vOL1Day_ = vOL1Day_;
+        result.aRBR5MinAR_ = aRBR5MinAR_;
         if (((from_bitField4_ & 0x00000080) == 0x00000080)) {
           to_bitField4_ |= 0x00000080;
         }
-        result.vOL1DayMA1_ = vOL1DayMA1_;
+        result.aRBR5MinBR_ = aRBR5MinBR_;
         if (((from_bitField4_ & 0x00000100) == 0x00000100)) {
           to_bitField4_ |= 0x00000100;
         }
-        result.vOL1DayMA2_ = vOL1DayMA2_;
+        result.aRBR1DayAR_ = aRBR1DayAR_;
         if (((from_bitField4_ & 0x00000200) == 0x00000200)) {
           to_bitField4_ |= 0x00000200;
         }
-        result.vOL1DayMA3_ = vOL1DayMA3_;
+        result.aRBR1DayBR_ = aRBR1DayBR_;
         if (((from_bitField4_ & 0x00000400) == 0x00000400)) {
           to_bitField4_ |= 0x00000400;
         }
-        result.aRBR1MinAR_ = aRBR1MinAR_;
+        result.bIAS1MinBIAS1_ = bIAS1MinBIAS1_;
         if (((from_bitField4_ & 0x00000800) == 0x00000800)) {
           to_bitField4_ |= 0x00000800;
         }
-        result.aRBR1MinBR_ = aRBR1MinBR_;
+        result.bIAS1MinBIAS2_ = bIAS1MinBIAS2_;
         if (((from_bitField4_ & 0x00001000) == 0x00001000)) {
           to_bitField4_ |= 0x00001000;
         }
-        result.aRBR5MinAR_ = aRBR5MinAR_;
+        result.bIAS1MinBIAS3_ = bIAS1MinBIAS3_;
         if (((from_bitField4_ & 0x00002000) == 0x00002000)) {
           to_bitField4_ |= 0x00002000;
         }
-        result.aRBR5MinBR_ = aRBR5MinBR_;
+        result.bIAS5MinBIAS1_ = bIAS5MinBIAS1_;
         if (((from_bitField4_ & 0x00004000) == 0x00004000)) {
           to_bitField4_ |= 0x00004000;
         }
-        result.aRBR1DayAR_ = aRBR1DayAR_;
+        result.bIAS5MinBIAS2_ = bIAS5MinBIAS2_;
         if (((from_bitField4_ & 0x00008000) == 0x00008000)) {
           to_bitField4_ |= 0x00008000;
         }
-        result.aRBR1DayBR_ = aRBR1DayBR_;
+        result.bIAS5MinBIAS3_ = bIAS5MinBIAS3_;
         if (((from_bitField4_ & 0x00010000) == 0x00010000)) {
           to_bitField4_ |= 0x00010000;
         }
-        result.bIAS1MinBIAS1_ = bIAS1MinBIAS1_;
+        result.bIAS1DayBIAS1_ = bIAS1DayBIAS1_;
         if (((from_bitField4_ & 0x00020000) == 0x00020000)) {
           to_bitField4_ |= 0x00020000;
         }
-        result.bIAS1MinBIAS2_ = bIAS1MinBIAS2_;
+        result.bIAS1DayBIAS2_ = bIAS1DayBIAS2_;
         if (((from_bitField4_ & 0x00040000) == 0x00040000)) {
           to_bitField4_ |= 0x00040000;
         }
-        result.bIAS1MinBIAS3_ = bIAS1MinBIAS3_;
+        result.bIAS1DayBIAS3_ = bIAS1DayBIAS3_;
         if (((from_bitField4_ & 0x00080000) == 0x00080000)) {
           to_bitField4_ |= 0x00080000;
         }
-        result.bIAS5MinBIAS1_ = bIAS5MinBIAS1_;
+        result.cCI1Min_ = cCI1Min_;
         if (((from_bitField4_ & 0x00100000) == 0x00100000)) {
           to_bitField4_ |= 0x00100000;
         }
-        result.bIAS5MinBIAS2_ = bIAS5MinBIAS2_;
+        result.cCI5Min_ = cCI5Min_;
         if (((from_bitField4_ & 0x00200000) == 0x00200000)) {
           to_bitField4_ |= 0x00200000;
         }
-        result.bIAS5MinBIAS3_ = bIAS5MinBIAS3_;
+        result.cCI1Day_ = cCI1Day_;
         if (((from_bitField4_ & 0x00400000) == 0x00400000)) {
           to_bitField4_ |= 0x00400000;
         }
-        result.bIAS1DayBIAS1_ = bIAS1DayBIAS1_;
+        result.cJBS1MinCJBS_ = cJBS1MinCJBS_;
         if (((from_bitField4_ & 0x00800000) == 0x00800000)) {
           to_bitField4_ |= 0x00800000;
         }
-        result.bIAS1DayBIAS2_ = bIAS1DayBIAS2_;
+        result.cJBS5MinCJBS_ = cJBS5MinCJBS_;
         if (((from_bitField4_ & 0x01000000) == 0x01000000)) {
           to_bitField4_ |= 0x01000000;
         }
-        result.bIAS1DayBIAS3_ = bIAS1DayBIAS3_;
+        result.cJBS1DayCJBS_ = cJBS1DayCJBS_;
         if (((from_bitField4_ & 0x02000000) == 0x02000000)) {
           to_bitField4_ |= 0x02000000;
         }
-        result.cCI1Min_ = cCI1Min_;
+        result.cR1MinCR_ = cR1MinCR_;
         if (((from_bitField4_ & 0x04000000) == 0x04000000)) {
           to_bitField4_ |= 0x04000000;
         }
-        result.cCI5Min_ = cCI5Min_;
+        result.cR1MinMA1_ = cR1MinMA1_;
         if (((from_bitField4_ & 0x08000000) == 0x08000000)) {
           to_bitField4_ |= 0x08000000;
         }
-        result.cCI1Day_ = cCI1Day_;
+        result.cR1MinMA2_ = cR1MinMA2_;
         if (((from_bitField4_ & 0x10000000) == 0x10000000)) {
           to_bitField4_ |= 0x10000000;
         }
-        result.cJBS1MinCJBS_ = cJBS1MinCJBS_;
+        result.cR1MinMA3_ = cR1MinMA3_;
         if (((from_bitField4_ & 0x20000000) == 0x20000000)) {
           to_bitField4_ |= 0x20000000;
         }
-        result.cJBS5MinCJBS_ = cJBS5MinCJBS_;
+        result.cR5MinCR_ = cR5MinCR_;
         if (((from_bitField4_ & 0x40000000) == 0x40000000)) {
           to_bitField4_ |= 0x40000000;
         }
-        result.cJBS1DayCJBS_ = cJBS1DayCJBS_;
+        result.cR5MinMA1_ = cR5MinMA1_;
         if (((from_bitField4_ & 0x80000000) == 0x80000000)) {
           to_bitField4_ |= 0x80000000;
         }
-        result.cR1MinCR_ = cR1MinCR_;
+        result.cR5MinMA2_ = cR5MinMA2_;
         if (((from_bitField5_ & 0x00000001) == 0x00000001)) {
           to_bitField5_ |= 0x00000001;
         }
-        result.cR1MinMA1_ = cR1MinMA1_;
+        result.cR5MinMA3_ = cR5MinMA3_;
         if (((from_bitField5_ & 0x00000002) == 0x00000002)) {
           to_bitField5_ |= 0x00000002;
         }
-        result.cR1MinMA2_ = cR1MinMA2_;
+        result.cR1DayCR_ = cR1DayCR_;
         if (((from_bitField5_ & 0x00000004) == 0x00000004)) {
           to_bitField5_ |= 0x00000004;
         }
-        result.cR1MinMA3_ = cR1MinMA3_;
+        result.cR1DayMA1_ = cR1DayMA1_;
         if (((from_bitField5_ & 0x00000008) == 0x00000008)) {
           to_bitField5_ |= 0x00000008;
         }
-        result.cR5MinCR_ = cR5MinCR_;
+        result.cR1DayMA2_ = cR1DayMA2_;
         if (((from_bitField5_ & 0x00000010) == 0x00000010)) {
           to_bitField5_ |= 0x00000010;
         }
-        result.cR5MinMA1_ = cR5MinMA1_;
+        result.cR1DayMA3_ = cR1DayMA3_;
         if (((from_bitField5_ & 0x00000020) == 0x00000020)) {
           to_bitField5_ |= 0x00000020;
         }
-        result.cR5MinMA2_ = cR5MinMA2_;
+        result.dMA1MinDDD_ = dMA1MinDDD_;
         if (((from_bitField5_ & 0x00000040) == 0x00000040)) {
           to_bitField5_ |= 0x00000040;
         }
-        result.cR5MinMA3_ = cR5MinMA3_;
+        result.dMA1MinAMA_ = dMA1MinAMA_;
         if (((from_bitField5_ & 0x00000080) == 0x00000080)) {
           to_bitField5_ |= 0x00000080;
         }
-        result.cR1DayCR_ = cR1DayCR_;
+        result.dMA5MinDDD_ = dMA5MinDDD_;
         if (((from_bitField5_ & 0x00000100) == 0x00000100)) {
           to_bitField5_ |= 0x00000100;
         }
-        result.cR1DayMA1_ = cR1DayMA1_;
+        result.dMA5MinAMA_ = dMA5MinAMA_;
         if (((from_bitField5_ & 0x00000200) == 0x00000200)) {
           to_bitField5_ |= 0x00000200;
         }
-        result.cR1DayMA2_ = cR1DayMA2_;
+        result.dMA1DayDDD_ = dMA1DayDDD_;
         if (((from_bitField5_ & 0x00000400) == 0x00000400)) {
           to_bitField5_ |= 0x00000400;
         }
-        result.cR1DayMA3_ = cR1DayMA3_;
+        result.dMA1DayAMA_ = dMA1DayAMA_;
         if (((from_bitField5_ & 0x00000800) == 0x00000800)) {
           to_bitField5_ |= 0x00000800;
         }
-        result.dMA1MinDDD_ = dMA1MinDDD_;
+        result.dMI1MinPDI_ = dMI1MinPDI_;
         if (((from_bitField5_ & 0x00001000) == 0x00001000)) {
           to_bitField5_ |= 0x00001000;
         }
-        result.dMA1MinAMA_ = dMA1MinAMA_;
+        result.dMI1MinMDI_ = dMI1MinMDI_;
         if (((from_bitField5_ & 0x00002000) == 0x00002000)) {
           to_bitField5_ |= 0x00002000;
         }
-        result.dMA5MinDDD_ = dMA5MinDDD_;
+        result.dMI1MinADX_ = dMI1MinADX_;
         if (((from_bitField5_ & 0x00004000) == 0x00004000)) {
           to_bitField5_ |= 0x00004000;
         }
-        result.dMA5MinAMA_ = dMA5MinAMA_;
+        result.dMI1MinADXR_ = dMI1MinADXR_;
         if (((from_bitField5_ & 0x00008000) == 0x00008000)) {
           to_bitField5_ |= 0x00008000;
         }
-        result.dMA1DayDDD_ = dMA1DayDDD_;
+        result.dMI5MinPDI_ = dMI5MinPDI_;
         if (((from_bitField5_ & 0x00010000) == 0x00010000)) {
           to_bitField5_ |= 0x00010000;
         }
-        result.dMA1DayAMA_ = dMA1DayAMA_;
+        result.dMI5MinMDI_ = dMI5MinMDI_;
         if (((from_bitField5_ & 0x00020000) == 0x00020000)) {
           to_bitField5_ |= 0x00020000;
         }
-        result.dMI1MinPDI_ = dMI1MinPDI_;
+        result.dMI5MinADX_ = dMI5MinADX_;
         if (((from_bitField5_ & 0x00040000) == 0x00040000)) {
           to_bitField5_ |= 0x00040000;
         }
-        result.dMI1MinMDI_ = dMI1MinMDI_;
+        result.dMI5MinADXR_ = dMI5MinADXR_;
         if (((from_bitField5_ & 0x00080000) == 0x00080000)) {
           to_bitField5_ |= 0x00080000;
         }
-        result.dMI1MinADX_ = dMI1MinADX_;
+        result.dMI1DayPDI_ = dMI1DayPDI_;
         if (((from_bitField5_ & 0x00100000) == 0x00100000)) {
           to_bitField5_ |= 0x00100000;
         }
-        result.dMI1MinADXR_ = dMI1MinADXR_;
+        result.dMI1DayMDI_ = dMI1DayMDI_;
         if (((from_bitField5_ & 0x00200000) == 0x00200000)) {
           to_bitField5_ |= 0x00200000;
         }
-        result.dMI5MinPDI_ = dMI5MinPDI_;
+        result.dMI1DayADX_ = dMI1DayADX_;
         if (((from_bitField5_ & 0x00400000) == 0x00400000)) {
           to_bitField5_ |= 0x00400000;
         }
-        result.dMI5MinMDI_ = dMI5MinMDI_;
+        result.dMI1DayADXR_ = dMI1DayADXR_;
         if (((from_bitField5_ & 0x00800000) == 0x00800000)) {
           to_bitField5_ |= 0x00800000;
         }
-        result.dMI5MinADX_ = dMI5MinADX_;
+        result.kDJ1MinK_ = kDJ1MinK_;
         if (((from_bitField5_ & 0x01000000) == 0x01000000)) {
           to_bitField5_ |= 0x01000000;
         }
-        result.dMI5MinADXR_ = dMI5MinADXR_;
+        result.kDJ1MinD_ = kDJ1MinD_;
         if (((from_bitField5_ & 0x02000000) == 0x02000000)) {
           to_bitField5_ |= 0x02000000;
         }
-        result.dMI1DayPDI_ = dMI1DayPDI_;
+        result.kDJ1MinJ_ = kDJ1MinJ_;
         if (((from_bitField5_ & 0x04000000) == 0x04000000)) {
           to_bitField5_ |= 0x04000000;
         }
-        result.dMI1DayMDI_ = dMI1DayMDI_;
+        result.kDJ5MinK_ = kDJ5MinK_;
         if (((from_bitField5_ & 0x08000000) == 0x08000000)) {
           to_bitField5_ |= 0x08000000;
         }
-        result.dMI1DayADX_ = dMI1DayADX_;
+        result.kDJ5MinD_ = kDJ5MinD_;
         if (((from_bitField5_ & 0x10000000) == 0x10000000)) {
           to_bitField5_ |= 0x10000000;
         }
-        result.dMI1DayADXR_ = dMI1DayADXR_;
+        result.kDJ5MinJ_ = kDJ5MinJ_;
         if (((from_bitField5_ & 0x20000000) == 0x20000000)) {
           to_bitField5_ |= 0x20000000;
         }
-        result.kDJ1MinK_ = kDJ1MinK_;
+        result.kDJ1DayK_ = kDJ1DayK_;
         if (((from_bitField5_ & 0x40000000) == 0x40000000)) {
           to_bitField5_ |= 0x40000000;
         }
-        result.kDJ1MinD_ = kDJ1MinD_;
+        result.kDJ1DayD_ = kDJ1DayD_;
         if (((from_bitField5_ & 0x80000000) == 0x80000000)) {
           to_bitField5_ |= 0x80000000;
         }
-        result.kDJ1MinJ_ = kDJ1MinJ_;
+        result.kDJ1DayJ_ = kDJ1DayJ_;
         if (((from_bitField6_ & 0x00000001) == 0x00000001)) {
           to_bitField6_ |= 0x00000001;
         }
-        result.kDJ5MinK_ = kDJ5MinK_;
+        result.mACD1MinDIFF_ = mACD1MinDIFF_;
         if (((from_bitField6_ & 0x00000002) == 0x00000002)) {
           to_bitField6_ |= 0x00000002;
         }
-        result.kDJ5MinD_ = kDJ5MinD_;
+        result.mACD1MinDEA_ = mACD1MinDEA_;
         if (((from_bitField6_ & 0x00000004) == 0x00000004)) {
           to_bitField6_ |= 0x00000004;
         }
-        result.kDJ5MinJ_ = kDJ5MinJ_;
+        result.mACD1MinMACD_ = mACD1MinMACD_;
         if (((from_bitField6_ & 0x00000008) == 0x00000008)) {
           to_bitField6_ |= 0x00000008;
         }
-        result.kDJ1DayK_ = kDJ1DayK_;
+        result.mACD5MinDIFF_ = mACD5MinDIFF_;
         if (((from_bitField6_ & 0x00000010) == 0x00000010)) {
           to_bitField6_ |= 0x00000010;
         }
-        result.kDJ1DayD_ = kDJ1DayD_;
+        result.mACD5MinDEA_ = mACD5MinDEA_;
         if (((from_bitField6_ & 0x00000020) == 0x00000020)) {
           to_bitField6_ |= 0x00000020;
         }
-        result.kDJ1DayJ_ = kDJ1DayJ_;
+        result.mACD5MinMACD_ = mACD5MinMACD_;
         if (((from_bitField6_ & 0x00000040) == 0x00000040)) {
           to_bitField6_ |= 0x00000040;
         }
-        result.mACD1MinDIFF_ = mACD1MinDIFF_;
+        result.mACD1DayDIFF_ = mACD1DayDIFF_;
         if (((from_bitField6_ & 0x00000080) == 0x00000080)) {
           to_bitField6_ |= 0x00000080;
         }
-        result.mACD1MinDEA_ = mACD1MinDEA_;
+        result.mACD1DayDEA_ = mACD1DayDEA_;
         if (((from_bitField6_ & 0x00000100) == 0x00000100)) {
           to_bitField6_ |= 0x00000100;
         }
-        result.mACD1MinMACD_ = mACD1MinMACD_;
+        result.mACD1DayMACD_ = mACD1DayMACD_;
         if (((from_bitField6_ & 0x00000200) == 0x00000200)) {
           to_bitField6_ |= 0x00000200;
         }
-        result.mACD5MinDIFF_ = mACD5MinDIFF_;
+        result.oBV1Min_ = oBV1Min_;
         if (((from_bitField6_ & 0x00000400) == 0x00000400)) {
           to_bitField6_ |= 0x00000400;
         }
-        result.mACD5MinDEA_ = mACD5MinDEA_;
+        result.oBV5Min_ = oBV5Min_;
         if (((from_bitField6_ & 0x00000800) == 0x00000800)) {
           to_bitField6_ |= 0x00000800;
         }
-        result.mACD5MinMACD_ = mACD5MinMACD_;
+        result.oBV1Day_ = oBV1Day_;
         if (((from_bitField6_ & 0x00001000) == 0x00001000)) {
           to_bitField6_ |= 0x00001000;
         }
-        result.mACD1DayDIFF_ = mACD1DayDIFF_;
+        result.pSY1Min_ = pSY1Min_;
         if (((from_bitField6_ & 0x00002000) == 0x00002000)) {
           to_bitField6_ |= 0x00002000;
         }
-        result.mACD1DayDEA_ = mACD1DayDEA_;
+        result.pSY5Min_ = pSY5Min_;
         if (((from_bitField6_ & 0x00004000) == 0x00004000)) {
           to_bitField6_ |= 0x00004000;
         }
-        result.mACD1DayMACD_ = mACD1DayMACD_;
+        result.pSY1Day_ = pSY1Day_;
         if (((from_bitField6_ & 0x00008000) == 0x00008000)) {
           to_bitField6_ |= 0x00008000;
         }
-        result.oBV1Min_ = oBV1Min_;
+        result.rSI1MinRSI1_ = rSI1MinRSI1_;
         if (((from_bitField6_ & 0x00010000) == 0x00010000)) {
           to_bitField6_ |= 0x00010000;
         }
-        result.oBV5Min_ = oBV5Min_;
+        result.rSI1MinRSI2_ = rSI1MinRSI2_;
         if (((from_bitField6_ & 0x00020000) == 0x00020000)) {
           to_bitField6_ |= 0x00020000;
         }
-        result.oBV1Day_ = oBV1Day_;
+        result.rSI1MinRSI3_ = rSI1MinRSI3_;
         if (((from_bitField6_ & 0x00040000) == 0x00040000)) {
           to_bitField6_ |= 0x00040000;
         }
-        result.pSY1Min_ = pSY1Min_;
+        result.rSI5MinRSI1_ = rSI5MinRSI1_;
         if (((from_bitField6_ & 0x00080000) == 0x00080000)) {
           to_bitField6_ |= 0x00080000;
         }
-        result.pSY5Min_ = pSY5Min_;
+        result.rSI5MinRSI2_ = rSI5MinRSI2_;
         if (((from_bitField6_ & 0x00100000) == 0x00100000)) {
           to_bitField6_ |= 0x00100000;
         }
-        result.pSY1Day_ = pSY1Day_;
+        result.rSI5MinRSI3_ = rSI5MinRSI3_;
         if (((from_bitField6_ & 0x00200000) == 0x00200000)) {
           to_bitField6_ |= 0x00200000;
         }
-        result.rSI1MinRSI1_ = rSI1MinRSI1_;
+        result.rSI1DayRSI1_ = rSI1DayRSI1_;
         if (((from_bitField6_ & 0x00400000) == 0x00400000)) {
           to_bitField6_ |= 0x00400000;
         }
-        result.rSI1MinRSI2_ = rSI1MinRSI2_;
+        result.rSI1DayRSI2_ = rSI1DayRSI2_;
         if (((from_bitField6_ & 0x00800000) == 0x00800000)) {
           to_bitField6_ |= 0x00800000;
         }
-        result.rSI1MinRSI3_ = rSI1MinRSI3_;
+        result.rSI1DayRSI3_ = rSI1DayRSI3_;
         if (((from_bitField6_ & 0x01000000) == 0x01000000)) {
           to_bitField6_ |= 0x01000000;
         }
-        result.rSI5MinRSI1_ = rSI5MinRSI1_;
+        result.wR1MinWR1_ = wR1MinWR1_;
         if (((from_bitField6_ & 0x02000000) == 0x02000000)) {
           to_bitField6_ |= 0x02000000;
         }
-        result.rSI5MinRSI2_ = rSI5MinRSI2_;
+        result.wR1MinWR2_ = wR1MinWR2_;
         if (((from_bitField6_ & 0x04000000) == 0x04000000)) {
           to_bitField6_ |= 0x04000000;
         }
-        result.rSI5MinRSI3_ = rSI5MinRSI3_;
+        result.wR5MinWR1_ = wR5MinWR1_;
         if (((from_bitField6_ & 0x08000000) == 0x08000000)) {
           to_bitField6_ |= 0x08000000;
         }
-        result.rSI1DayRSI1_ = rSI1DayRSI1_;
+        result.wR5MinWR2_ = wR5MinWR2_;
         if (((from_bitField6_ & 0x10000000) == 0x10000000)) {
           to_bitField6_ |= 0x10000000;
         }
-        result.rSI1DayRSI2_ = rSI1DayRSI2_;
+        result.wR1DayWR1_ = wR1DayWR1_;
         if (((from_bitField6_ & 0x20000000) == 0x20000000)) {
           to_bitField6_ |= 0x20000000;
         }
-        result.rSI1DayRSI3_ = rSI1DayRSI3_;
+        result.wR1DayWR2_ = wR1DayWR2_;
         if (((from_bitField6_ & 0x40000000) == 0x40000000)) {
           to_bitField6_ |= 0x40000000;
         }
-        result.wR1MinWR1_ = wR1MinWR1_;
+        result.leiXing_ = leiXing_;
         if (((from_bitField6_ & 0x80000000) == 0x80000000)) {
           to_bitField6_ |= 0x80000000;
         }
-        result.wR1MinWR2_ = wR1MinWR2_;
+        result.ziLeiXing_ = ziLeiXing_;
         if (((from_bitField7_ & 0x00000001) == 0x00000001)) {
           to_bitField7_ |= 0x00000001;
         }
-        result.wR5MinWR1_ = wR5MinWR1_;
+        result.leiXingMingCheng_ = leiXingMingCheng_;
         if (((from_bitField7_ & 0x00000002) == 0x00000002)) {
           to_bitField7_ |= 0x00000002;
         }
-        result.wR5MinWR2_ = wR5MinWR2_;
+        result.chengJiaoLiangDanWei_ = chengJiaoLiangDanWei_;
         if (((from_bitField7_ & 0x00000004) == 0x00000004)) {
           to_bitField7_ |= 0x00000004;
         }
-        result.wR1DayWR1_ = wR1DayWR1_;
+        result.fJJJLeiXing_ = fJJJLeiXing_;
         if (((from_bitField7_ & 0x00000008) == 0x00000008)) {
           to_bitField7_ |= 0x00000008;
         }
-        result.wR1DayWR2_ = wR1DayWR2_;
+        result.zhengTiYiJia_ = zhengTiYiJia_;
         if (((from_bitField7_ & 0x00000010) == 0x00000010)) {
           to_bitField7_ |= 0x00000010;
         }
-        result.leiXing_ = leiXing_;
+        result.mYiJia_ = mYiJia_;
         if (((from_bitField7_ & 0x00000020) == 0x00000020)) {
           to_bitField7_ |= 0x00000020;
         }
-        result.ziLeiXing_ = ziLeiXing_;
+        result.mShiShiJingZhi_ = mShiShiJingZhi_;
         if (((from_bitField7_ & 0x00000040) == 0x00000040)) {
           to_bitField7_ |= 0x00000040;
         }
-        result.leiXingMingCheng_ = leiXingMingCheng_;
+        result.mShangZheXuZhang_ = mShangZheXuZhang_;
         if (((from_bitField7_ & 0x00000080) == 0x00000080)) {
           to_bitField7_ |= 0x00000080;
         }
-        result.chengJiaoLiangDanWei_ = chengJiaoLiangDanWei_;
+        result.mXiaZheXuDie_ = mXiaZheXuDie_;
         if (((from_bitField7_ & 0x00000100) == 0x00000100)) {
           to_bitField7_ |= 0x00000100;
         }
-        result.fJJJLeiXing_ = fJJJLeiXing_;
+        result.yinHanShouYi_ = yinHanShouYi_;
         if (((from_bitField7_ & 0x00000200) == 0x00000200)) {
           to_bitField7_ |= 0x00000200;
         }
-        result.zhengTiYiJia_ = zhengTiYiJia_;
+        result.jiaGeGangGan_ = jiaGeGangGan_;
         if (((from_bitField7_ & 0x00000400) == 0x00000400)) {
           to_bitField7_ |= 0x00000400;
         }
-        result.mYiJia_ = mYiJia_;
+        result.pinZhongObj_ = pinZhongObj_;
         if (((from_bitField7_ & 0x00000800) == 0x00000800)) {
           to_bitField7_ |= 0x00000800;
         }
-        result.mShiShiJingZhi_ = mShiShiJingZhi_;
+        result.baoGaoQi_ = baoGaoQi_;
         if (((from_bitField7_ & 0x00001000) == 0x00001000)) {
           to_bitField7_ |= 0x00001000;
         }
-        result.mShangZheXuZhang_ = mShangZheXuZhang_;
+        result.shangShiRiQi_ = shangShiRiQi_;
         if (((from_bitField7_ & 0x00002000) == 0x00002000)) {
           to_bitField7_ |= 0x00002000;
         }
-        result.mXiaZheXuDie_ = mXiaZheXuDie_;
+        result.meiGuShouYi_ = meiGuShouYi_;
         if (((from_bitField7_ & 0x00004000) == 0x00004000)) {
           to_bitField7_ |= 0x00004000;
         }
-        result.yinHanShouYi_ = yinHanShouYi_;
+        result.meiGuJingZiChan_ = meiGuJingZiChan_;
         if (((from_bitField7_ & 0x00008000) == 0x00008000)) {
           to_bitField7_ |= 0x00008000;
         }
-        result.jiaGeGangGan_ = jiaGeGangGan_;
+        result.jingZiChanShouYiLv_ = jingZiChanShouYiLv_;
         if (((from_bitField7_ & 0x00010000) == 0x00010000)) {
           to_bitField7_ |= 0x00010000;
         }
-        result.pinZhongObj_ = pinZhongObj_;
+        result.meiGuJingYingXianJin_ = meiGuJingYingXianJin_;
         if (((from_bitField7_ & 0x00020000) == 0x00020000)) {
           to_bitField7_ |= 0x00020000;
         }
-        result.baoGaoQi_ = baoGaoQi_;
+        result.meiGuGongJiJin_ = meiGuGongJiJin_;
         if (((from_bitField7_ & 0x00040000) == 0x00040000)) {
           to_bitField7_ |= 0x00040000;
         }
-        result.shangShiRiQi_ = shangShiRiQi_;
+        result.meiGuWeiFenPei_ = meiGuWeiFenPei_;
         if (((from_bitField7_ & 0x00080000) == 0x00080000)) {
           to_bitField7_ |= 0x00080000;
         }
-        result.meiGuShouYi_ = meiGuShouYi_;
+        result.guDongQuanYiBi_ = guDongQuanYiBi_;
         if (((from_bitField7_ & 0x00100000) == 0x00100000)) {
           to_bitField7_ |= 0x00100000;
         }
-        result.meiGuJingZiChan_ = meiGuJingZiChan_;
+        result.jingLiRunTongBi_ = jingLiRunTongBi_;
         if (((from_bitField7_ & 0x00200000) == 0x00200000)) {
           to_bitField7_ |= 0x00200000;
         }
-        result.jingZiChanShouYiLv_ = jingZiChanShouYiLv_;
+        result.zhuYingShouRuTongBi_ = zhuYingShouRuTongBi_;
         if (((from_bitField7_ & 0x00400000) == 0x00400000)) {
           to_bitField7_ |= 0x00400000;
         }
-        result.meiGuJingYingXianJin_ = meiGuJingYingXianJin_;
+        result.xiaoShouMaoLiLv_ = xiaoShouMaoLiLv_;
         if (((from_bitField7_ & 0x00800000) == 0x00800000)) {
           to_bitField7_ |= 0x00800000;
         }
-        result.meiGuGongJiJin_ = meiGuGongJiJin_;
+        result.tiaoZhengMeiGuJingZi_ = tiaoZhengMeiGuJingZi_;
         if (((from_bitField7_ & 0x01000000) == 0x01000000)) {
           to_bitField7_ |= 0x01000000;
         }
-        result.meiGuWeiFenPei_ = meiGuWeiFenPei_;
+        result.zongZiChan_ = zongZiChan_;
         if (((from_bitField7_ & 0x02000000) == 0x02000000)) {
           to_bitField7_ |= 0x02000000;
         }
-        result.guDongQuanYiBi_ = guDongQuanYiBi_;
+        result.liuDongZiChan_ = liuDongZiChan_;
         if (((from_bitField7_ & 0x04000000) == 0x04000000)) {
           to_bitField7_ |= 0x04000000;
         }
-        result.jingLiRunTongBi_ = jingLiRunTongBi_;
+        result.guDingZiChan_ = guDingZiChan_;
         if (((from_bitField7_ & 0x08000000) == 0x08000000)) {
           to_bitField7_ |= 0x08000000;
         }
-        result.zhuYingShouRuTongBi_ = zhuYingShouRuTongBi_;
+        result.wuXingZiChan_ = wuXingZiChan_;
         if (((from_bitField7_ & 0x10000000) == 0x10000000)) {
           to_bitField7_ |= 0x10000000;
         }
-        result.xiaoShouMaoLiLv_ = xiaoShouMaoLiLv_;
+        result.liuDongFuZhai_ = liuDongFuZhai_;
         if (((from_bitField7_ & 0x20000000) == 0x20000000)) {
           to_bitField7_ |= 0x20000000;
         }
-        result.tiaoZhengMeiGuJingZi_ = tiaoZhengMeiGuJingZi_;
+        result.changQiFuZhai_ = changQiFuZhai_;
         if (((from_bitField7_ & 0x40000000) == 0x40000000)) {
           to_bitField7_ |= 0x40000000;
         }
-        result.zongZiChan_ = zongZiChan_;
+        result.zongFuZhai_ = zongFuZhai_;
         if (((from_bitField7_ & 0x80000000) == 0x80000000)) {
           to_bitField7_ |= 0x80000000;
         }
-        result.liuDongZiChan_ = liuDongZiChan_;
+        result.guDongQuanYi_ = guDongQuanYi_;
         if (((from_bitField8_ & 0x00000001) == 0x00000001)) {
           to_bitField8_ |= 0x00000001;
         }
-        result.guDingZiChan_ = guDingZiChan_;
+        result.ziBenGongJiJin_ = ziBenGongJiJin_;
         if (((from_bitField8_ & 0x00000002) == 0x00000002)) {
           to_bitField8_ |= 0x00000002;
         }
-        result.wuXingZiChan_ = wuXingZiChan_;
+        result.jingYingXianJinLiuLiang_ = jingYingXianJinLiuLiang_;
         if (((from_bitField8_ & 0x00000004) == 0x00000004)) {
           to_bitField8_ |= 0x00000004;
         }
-        result.liuDongFuZhai_ = liuDongFuZhai_;
+        result.touZiXianJinLiuLiang_ = touZiXianJinLiuLiang_;
         if (((from_bitField8_ & 0x00000008) == 0x00000008)) {
           to_bitField8_ |= 0x00000008;
         }
-        result.changQiFuZhai_ = changQiFuZhai_;
+        result.chouZiXianJinLiuLiang_ = chouZiXianJinLiuLiang_;
         if (((from_bitField8_ & 0x00000010) == 0x00000010)) {
           to_bitField8_ |= 0x00000010;
         }
-        result.zongFuZhai_ = zongFuZhai_;
+        result.xianJinZengJiaE_ = xianJinZengJiaE_;
         if (((from_bitField8_ & 0x00000020) == 0x00000020)) {
           to_bitField8_ |= 0x00000020;
         }
-        result.guDongQuanYi_ = guDongQuanYi_;
+        result.zhuYingShouRu_ = zhuYingShouRu_;
         if (((from_bitField8_ & 0x00000040) == 0x00000040)) {
           to_bitField8_ |= 0x00000040;
         }
-        result.ziBenGongJiJin_ = ziBenGongJiJin_;
+        result.zhuYingLiRun_ = zhuYingLiRun_;
         if (((from_bitField8_ & 0x00000080) == 0x00000080)) {
           to_bitField8_ |= 0x00000080;
         }
-        result.jingYingXianJinLiuLiang_ = jingYingXianJinLiuLiang_;
+        result.yingYeLiRun_ = yingYeLiRun_;
         if (((from_bitField8_ & 0x00000100) == 0x00000100)) {
           to_bitField8_ |= 0x00000100;
         }
-        result.touZiXianJinLiuLiang_ = touZiXianJinLiuLiang_;
+        result.touZiShouYi_ = touZiShouYi_;
         if (((from_bitField8_ & 0x00000200) == 0x00000200)) {
           to_bitField8_ |= 0x00000200;
         }
-        result.chouZiXianJinLiuLiang_ = chouZiXianJinLiuLiang_;
+        result.yingYeWaiShouZhi_ = yingYeWaiShouZhi_;
         if (((from_bitField8_ & 0x00000400) == 0x00000400)) {
           to_bitField8_ |= 0x00000400;
         }
-        result.xianJinZengJiaE_ = xianJinZengJiaE_;
+        result.liRunZongE_ = liRunZongE_;
         if (((from_bitField8_ & 0x00000800) == 0x00000800)) {
           to_bitField8_ |= 0x00000800;
         }
-        result.zhuYingShouRu_ = zhuYingShouRu_;
+        result.jingLiRun_ = jingLiRun_;
         if (((from_bitField8_ & 0x00001000) == 0x00001000)) {
           to_bitField8_ |= 0x00001000;
         }
-        result.zhuYingLiRun_ = zhuYingLiRun_;
+        result.weiFenPeiLiRun_ = weiFenPeiLiRun_;
         if (((from_bitField8_ & 0x00002000) == 0x00002000)) {
           to_bitField8_ |= 0x00002000;
         }
-        result.yingYeLiRun_ = yingYeLiRun_;
+        result.zongGuBen_ = zongGuBen_;
         if (((from_bitField8_ & 0x00004000) == 0x00004000)) {
           to_bitField8_ |= 0x00004000;
         }
-        result.touZiShouYi_ = touZiShouYi_;
+        result.wuXianShouGuHeJi_ = wuXianShouGuHeJi_;
         if (((from_bitField8_ & 0x00008000) == 0x00008000)) {
           to_bitField8_ |= 0x00008000;
         }
-        result.yingYeWaiShouZhi_ = yingYeWaiShouZhi_;
+        result.liuTongAGu_ = liuTongAGu_;
         if (((from_bitField8_ & 0x00010000) == 0x00010000)) {
           to_bitField8_ |= 0x00010000;
         }
-        result.liRunZongE_ = liRunZongE_;
+        result.liuTongBGu_ = liuTongBGu_;
         if (((from_bitField8_ & 0x00020000) == 0x00020000)) {
           to_bitField8_ |= 0x00020000;
         }
-        result.jingLiRun_ = jingLiRun_;
+        result.jingWaiShangShiGu_ = jingWaiShangShiGu_;
         if (((from_bitField8_ & 0x00040000) == 0x00040000)) {
           to_bitField8_ |= 0x00040000;
         }
-        result.weiFenPeiLiRun_ = weiFenPeiLiRun_;
+        result.qiTaLiuTongGu_ = qiTaLiuTongGu_;
         if (((from_bitField8_ & 0x00080000) == 0x00080000)) {
           to_bitField8_ |= 0x00080000;
         }
-        result.zongGuBen_ = zongGuBen_;
+        result.xianShouGuHeJi_ = xianShouGuHeJi_;
         if (((from_bitField8_ & 0x00100000) == 0x00100000)) {
           to_bitField8_ |= 0x00100000;
         }
-        result.wuXianShouGuHeJi_ = wuXianShouGuHeJi_;
+        result.guoJiaChiGu_ = guoJiaChiGu_;
         if (((from_bitField8_ & 0x00200000) == 0x00200000)) {
           to_bitField8_ |= 0x00200000;
         }
-        result.liuTongAGu_ = liuTongAGu_;
+        result.guoYouFaRenGu_ = guoYouFaRenGu_;
         if (((from_bitField8_ & 0x00400000) == 0x00400000)) {
           to_bitField8_ |= 0x00400000;
         }
-        result.liuTongBGu_ = liuTongBGu_;
+        result.jingNeiFaRenGu_ = jingNeiFaRenGu_;
         if (((from_bitField8_ & 0x00800000) == 0x00800000)) {
           to_bitField8_ |= 0x00800000;
         }
-        result.jingWaiShangShiGu_ = jingWaiShangShiGu_;
+        result.jingNeiZiRanRenGu_ = jingNeiZiRanRenGu_;
         if (((from_bitField8_ & 0x01000000) == 0x01000000)) {
           to_bitField8_ |= 0x01000000;
         }
-        result.qiTaLiuTongGu_ = qiTaLiuTongGu_;
+        result.qiTaFaQiRenGu_ = qiTaFaQiRenGu_;
         if (((from_bitField8_ & 0x02000000) == 0x02000000)) {
           to_bitField8_ |= 0x02000000;
         }
-        result.xianShouGuHeJi_ = xianShouGuHeJi_;
+        result.muJiFaRenGu_ = muJiFaRenGu_;
         if (((from_bitField8_ & 0x04000000) == 0x04000000)) {
           to_bitField8_ |= 0x04000000;
         }
-        result.guoJiaChiGu_ = guoJiaChiGu_;
+        result.jingWaiFaRenGu_ = jingWaiFaRenGu_;
         if (((from_bitField8_ & 0x08000000) == 0x08000000)) {
           to_bitField8_ |= 0x08000000;
         }
-        result.guoYouFaRenGu_ = guoYouFaRenGu_;
+        result.jingWaiZiRanRenGu_ = jingWaiZiRanRenGu_;
         if (((from_bitField8_ & 0x10000000) == 0x10000000)) {
           to_bitField8_ |= 0x10000000;
         }
-        result.jingNeiFaRenGu_ = jingNeiFaRenGu_;
+        result.youXianGuHuoQiTa_ = youXianGuHuoQiTa_;
         if (((from_bitField8_ & 0x20000000) == 0x20000000)) {
           to_bitField8_ |= 0x20000000;
         }
-        result.jingNeiZiRanRenGu_ = jingNeiZiRanRenGu_;
+        result.weiTuoMaiRu_ = weiTuoMaiRu_;
         if (((from_bitField8_ & 0x40000000) == 0x40000000)) {
           to_bitField8_ |= 0x40000000;
         }
-        result.qiTaFaQiRenGu_ = qiTaFaQiRenGu_;
+        result.weiTuoMaiChu_ = weiTuoMaiChu_;
         if (((from_bitField8_ & 0x80000000) == 0x80000000)) {
           to_bitField8_ |= 0x80000000;
         }
-        result.muJiFaRenGu_ = muJiFaRenGu_;
+        result.maiRuZhongDanBiLi_ = maiRuZhongDanBiLi_;
         if (((from_bitField9_ & 0x00000001) == 0x00000001)) {
           to_bitField9_ |= 0x00000001;
         }
-        result.jingWaiFaRenGu_ = jingWaiFaRenGu_;
+        result.maiRuDaDanBiLi_ = maiRuDaDanBiLi_;
         if (((from_bitField9_ & 0x00000002) == 0x00000002)) {
           to_bitField9_ |= 0x00000002;
         }
-        result.jingWaiZiRanRenGu_ = jingWaiZiRanRenGu_;
+        result.maiRuTeDaDanBiLi_ = maiRuTeDaDanBiLi_;
         if (((from_bitField9_ & 0x00000004) == 0x00000004)) {
           to_bitField9_ |= 0x00000004;
         }
-        result.youXianGuHuoQiTa_ = youXianGuHuoQiTa_;
+        result.maiChuZhongDanBiLi_ = maiChuZhongDanBiLi_;
+        if (((from_bitField9_ & 0x00000008) == 0x00000008)) {
+          to_bitField9_ |= 0x00000008;
+        }
+        result.maiChuDaDanBiLi_ = maiChuDaDanBiLi_;
+        if (((from_bitField9_ & 0x00000010) == 0x00000010)) {
+          to_bitField9_ |= 0x00000010;
+        }
+        result.maiChuTeDaDanBiLi_ = maiChuTeDaDanBiLi_;
+        if (((from_bitField9_ & 0x00000020) == 0x00000020)) {
+          to_bitField9_ |= 0x00000020;
+        }
+        result.duanXianMaiRu_ = duanXianMaiRu_;
+        if (((from_bitField9_ & 0x00000040) == 0x00000040)) {
+          to_bitField9_ |= 0x00000040;
+        }
+        result.duanXianMaiChu_ = duanXianMaiChu_;
+        if (((from_bitField9_ & 0x00000080) == 0x00000080)) {
+          to_bitField9_ |= 0x00000080;
+        }
+        result.duanXianChiHuo_ = duanXianChiHuo_;
+        if (((from_bitField9_ & 0x00000100) == 0x00000100)) {
+          to_bitField9_ |= 0x00000100;
+        }
+        result.duanXianTuHuo_ = duanXianTuHuo_;
+        if (((from_bitField9_ & 0x00000200) == 0x00000200)) {
+          to_bitField9_ |= 0x00000200;
+        }
+        result.biShi_ = biShi_;
         result.bitField0_ = to_bitField0_;
         result.bitField1_ = to_bitField1_;
         result.bitField2_ = to_bitField2_;
@@ -18096,24 +18509,6 @@ public final class DzhyunStkdata {
         if (other.hasMaiChuDanShu()) {
           setMaiChuDanShu(other.getMaiChuDanShu());
         }
-        if (other.hasMaiRuZhongDanBiLi()) {
-          setMaiRuZhongDanBiLi(other.getMaiRuZhongDanBiLi());
-        }
-        if (other.hasMaiRuDaDanBiLi()) {
-          setMaiRuDaDanBiLi(other.getMaiRuDaDanBiLi());
-        }
-        if (other.hasMaiRuTeDaDanBiLi()) {
-          setMaiRuTeDaDanBiLi(other.getMaiRuTeDaDanBiLi());
-        }
-        if (other.hasMaiChuZhongDanBiLi()) {
-          setMaiChuZhongDanBiLi(other.getMaiChuZhongDanBiLi());
-        }
-        if (other.hasMaiChuDaDanBiLi()) {
-          setMaiChuDaDanBiLi(other.getMaiChuDaDanBiLi());
-        }
-        if (other.hasMaiChuTeDaDanBiLi()) {
-          setMaiChuTeDaDanBiLi(other.getMaiChuTeDaDanBiLi());
-        }
         if (other.hasFenZhongZhangFu1()) {
           setFenZhongZhangFu1(other.getFenZhongZhangFu1());
         }
@@ -18139,12 +18534,12 @@ public final class DzhyunStkdata {
           setDieTing(other.getDieTing());
         }
         if (other.hasShiChangMingCheng()) {
-          bitField2_ |= 0x00100000;
+          bitField2_ |= 0x00004000;
           shiChangMingCheng_ = other.shiChangMingCheng_;
           onChanged();
         }
         if (other.hasShiChangDuanMingCheng()) {
-          bitField2_ |= 0x00200000;
+          bitField2_ |= 0x00008000;
           shiChangDuanMingCheng_ = other.shiChangDuanMingCheng_;
           onChanged();
         }
@@ -18581,7 +18976,7 @@ public final class DzhyunStkdata {
           setZiLeiXing(other.getZiLeiXing());
         }
         if (other.hasLeiXingMingCheng()) {
-          bitField7_ |= 0x00000040;
+          bitField7_ |= 0x00000001;
           leiXingMingCheng_ = other.leiXingMingCheng_;
           onChanged();
         }
@@ -18613,17 +19008,17 @@ public final class DzhyunStkdata {
           setJiaGeGangGan(other.getJiaGeGangGan());
         }
         if (other.hasPinZhongObj()) {
-          bitField7_ |= 0x00010000;
+          bitField7_ |= 0x00000400;
           pinZhongObj_ = other.pinZhongObj_;
           onChanged();
         }
         if (other.hasBaoGaoQi()) {
-          bitField7_ |= 0x00020000;
+          bitField7_ |= 0x00000800;
           baoGaoQi_ = other.baoGaoQi_;
           onChanged();
         }
         if (other.hasShangShiRiQi()) {
-          bitField7_ |= 0x00040000;
+          bitField7_ |= 0x00001000;
           shangShiRiQi_ = other.shangShiRiQi_;
           onChanged();
         }
@@ -18770,6 +19165,45 @@ public final class DzhyunStkdata {
         }
         if (other.hasYouXianGuHuoQiTa()) {
           setYouXianGuHuoQiTa(other.getYouXianGuHuoQiTa());
+        }
+        if (other.hasWeiTuoMaiRu()) {
+          setWeiTuoMaiRu(other.getWeiTuoMaiRu());
+        }
+        if (other.hasWeiTuoMaiChu()) {
+          setWeiTuoMaiChu(other.getWeiTuoMaiChu());
+        }
+        if (other.hasMaiRuZhongDanBiLi()) {
+          setMaiRuZhongDanBiLi(other.getMaiRuZhongDanBiLi());
+        }
+        if (other.hasMaiRuDaDanBiLi()) {
+          setMaiRuDaDanBiLi(other.getMaiRuDaDanBiLi());
+        }
+        if (other.hasMaiRuTeDaDanBiLi()) {
+          setMaiRuTeDaDanBiLi(other.getMaiRuTeDaDanBiLi());
+        }
+        if (other.hasMaiChuZhongDanBiLi()) {
+          setMaiChuZhongDanBiLi(other.getMaiChuZhongDanBiLi());
+        }
+        if (other.hasMaiChuDaDanBiLi()) {
+          setMaiChuDaDanBiLi(other.getMaiChuDaDanBiLi());
+        }
+        if (other.hasMaiChuTeDaDanBiLi()) {
+          setMaiChuTeDaDanBiLi(other.getMaiChuTeDaDanBiLi());
+        }
+        if (other.hasDuanXianMaiRu()) {
+          setDuanXianMaiRu(other.getDuanXianMaiRu());
+        }
+        if (other.hasDuanXianMaiChu()) {
+          setDuanXianMaiChu(other.getDuanXianMaiChu());
+        }
+        if (other.hasDuanXianChiHuo()) {
+          setDuanXianChiHuo(other.getDuanXianChiHuo());
+        }
+        if (other.hasDuanXianTuHuo()) {
+          setDuanXianTuHuo(other.getDuanXianTuHuo());
+        }
+        if (other.hasBiShi()) {
+          setBiShi(other.getBiShi());
         }
         this.mergeUnknownFields(other.getUnknownFields());
         return this;
@@ -22327,294 +22761,6 @@ public final class DzhyunStkdata {
         return this;
       }
 
-      private long maiRuZhongDanBiLi_ ;
-      /**
-       * <code>optional int64 MaiRuZhongDanBiLi = 71;</code>
-       *
-       * <pre>
-       * 买入中单比例
-       * </pre>
-       */
-      public boolean hasMaiRuZhongDanBiLi() {
-        return ((bitField2_ & 0x00000040) == 0x00000040);
-      }
-      /**
-       * <code>optional int64 MaiRuZhongDanBiLi = 71;</code>
-       *
-       * <pre>
-       * 买入中单比例
-       * </pre>
-       */
-      public long getMaiRuZhongDanBiLi() {
-        return maiRuZhongDanBiLi_;
-      }
-      /**
-       * <code>optional int64 MaiRuZhongDanBiLi = 71;</code>
-       *
-       * <pre>
-       * 买入中单比例
-       * </pre>
-       */
-      public Builder setMaiRuZhongDanBiLi(long value) {
-        bitField2_ |= 0x00000040;
-        maiRuZhongDanBiLi_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional int64 MaiRuZhongDanBiLi = 71;</code>
-       *
-       * <pre>
-       * 买入中单比例
-       * </pre>
-       */
-      public Builder clearMaiRuZhongDanBiLi() {
-        bitField2_ = (bitField2_ & ~0x00000040);
-        maiRuZhongDanBiLi_ = 0L;
-        onChanged();
-        return this;
-      }
-
-      private long maiRuDaDanBiLi_ ;
-      /**
-       * <code>optional int64 MaiRuDaDanBiLi = 72;</code>
-       *
-       * <pre>
-       * 买入大单比例
-       * </pre>
-       */
-      public boolean hasMaiRuDaDanBiLi() {
-        return ((bitField2_ & 0x00000080) == 0x00000080);
-      }
-      /**
-       * <code>optional int64 MaiRuDaDanBiLi = 72;</code>
-       *
-       * <pre>
-       * 买入大单比例
-       * </pre>
-       */
-      public long getMaiRuDaDanBiLi() {
-        return maiRuDaDanBiLi_;
-      }
-      /**
-       * <code>optional int64 MaiRuDaDanBiLi = 72;</code>
-       *
-       * <pre>
-       * 买入大单比例
-       * </pre>
-       */
-      public Builder setMaiRuDaDanBiLi(long value) {
-        bitField2_ |= 0x00000080;
-        maiRuDaDanBiLi_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional int64 MaiRuDaDanBiLi = 72;</code>
-       *
-       * <pre>
-       * 买入大单比例
-       * </pre>
-       */
-      public Builder clearMaiRuDaDanBiLi() {
-        bitField2_ = (bitField2_ & ~0x00000080);
-        maiRuDaDanBiLi_ = 0L;
-        onChanged();
-        return this;
-      }
-
-      private long maiRuTeDaDanBiLi_ ;
-      /**
-       * <code>optional int64 MaiRuTeDaDanBiLi = 73;</code>
-       *
-       * <pre>
-       * 买入特大单比例
-       * </pre>
-       */
-      public boolean hasMaiRuTeDaDanBiLi() {
-        return ((bitField2_ & 0x00000100) == 0x00000100);
-      }
-      /**
-       * <code>optional int64 MaiRuTeDaDanBiLi = 73;</code>
-       *
-       * <pre>
-       * 买入特大单比例
-       * </pre>
-       */
-      public long getMaiRuTeDaDanBiLi() {
-        return maiRuTeDaDanBiLi_;
-      }
-      /**
-       * <code>optional int64 MaiRuTeDaDanBiLi = 73;</code>
-       *
-       * <pre>
-       * 买入特大单比例
-       * </pre>
-       */
-      public Builder setMaiRuTeDaDanBiLi(long value) {
-        bitField2_ |= 0x00000100;
-        maiRuTeDaDanBiLi_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional int64 MaiRuTeDaDanBiLi = 73;</code>
-       *
-       * <pre>
-       * 买入特大单比例
-       * </pre>
-       */
-      public Builder clearMaiRuTeDaDanBiLi() {
-        bitField2_ = (bitField2_ & ~0x00000100);
-        maiRuTeDaDanBiLi_ = 0L;
-        onChanged();
-        return this;
-      }
-
-      private long maiChuZhongDanBiLi_ ;
-      /**
-       * <code>optional int64 MaiChuZhongDanBiLi = 74;</code>
-       *
-       * <pre>
-       * 卖出中单比例
-       * </pre>
-       */
-      public boolean hasMaiChuZhongDanBiLi() {
-        return ((bitField2_ & 0x00000200) == 0x00000200);
-      }
-      /**
-       * <code>optional int64 MaiChuZhongDanBiLi = 74;</code>
-       *
-       * <pre>
-       * 卖出中单比例
-       * </pre>
-       */
-      public long getMaiChuZhongDanBiLi() {
-        return maiChuZhongDanBiLi_;
-      }
-      /**
-       * <code>optional int64 MaiChuZhongDanBiLi = 74;</code>
-       *
-       * <pre>
-       * 卖出中单比例
-       * </pre>
-       */
-      public Builder setMaiChuZhongDanBiLi(long value) {
-        bitField2_ |= 0x00000200;
-        maiChuZhongDanBiLi_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional int64 MaiChuZhongDanBiLi = 74;</code>
-       *
-       * <pre>
-       * 卖出中单比例
-       * </pre>
-       */
-      public Builder clearMaiChuZhongDanBiLi() {
-        bitField2_ = (bitField2_ & ~0x00000200);
-        maiChuZhongDanBiLi_ = 0L;
-        onChanged();
-        return this;
-      }
-
-      private long maiChuDaDanBiLi_ ;
-      /**
-       * <code>optional int64 MaiChuDaDanBiLi = 75;</code>
-       *
-       * <pre>
-       * 卖出大单比例
-       * </pre>
-       */
-      public boolean hasMaiChuDaDanBiLi() {
-        return ((bitField2_ & 0x00000400) == 0x00000400);
-      }
-      /**
-       * <code>optional int64 MaiChuDaDanBiLi = 75;</code>
-       *
-       * <pre>
-       * 卖出大单比例
-       * </pre>
-       */
-      public long getMaiChuDaDanBiLi() {
-        return maiChuDaDanBiLi_;
-      }
-      /**
-       * <code>optional int64 MaiChuDaDanBiLi = 75;</code>
-       *
-       * <pre>
-       * 卖出大单比例
-       * </pre>
-       */
-      public Builder setMaiChuDaDanBiLi(long value) {
-        bitField2_ |= 0x00000400;
-        maiChuDaDanBiLi_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional int64 MaiChuDaDanBiLi = 75;</code>
-       *
-       * <pre>
-       * 卖出大单比例
-       * </pre>
-       */
-      public Builder clearMaiChuDaDanBiLi() {
-        bitField2_ = (bitField2_ & ~0x00000400);
-        maiChuDaDanBiLi_ = 0L;
-        onChanged();
-        return this;
-      }
-
-      private long maiChuTeDaDanBiLi_ ;
-      /**
-       * <code>optional int64 MaiChuTeDaDanBiLi = 76;</code>
-       *
-       * <pre>
-       * 卖出特大单比例
-       * </pre>
-       */
-      public boolean hasMaiChuTeDaDanBiLi() {
-        return ((bitField2_ & 0x00000800) == 0x00000800);
-      }
-      /**
-       * <code>optional int64 MaiChuTeDaDanBiLi = 76;</code>
-       *
-       * <pre>
-       * 卖出特大单比例
-       * </pre>
-       */
-      public long getMaiChuTeDaDanBiLi() {
-        return maiChuTeDaDanBiLi_;
-      }
-      /**
-       * <code>optional int64 MaiChuTeDaDanBiLi = 76;</code>
-       *
-       * <pre>
-       * 卖出特大单比例
-       * </pre>
-       */
-      public Builder setMaiChuTeDaDanBiLi(long value) {
-        bitField2_ |= 0x00000800;
-        maiChuTeDaDanBiLi_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional int64 MaiChuTeDaDanBiLi = 76;</code>
-       *
-       * <pre>
-       * 卖出特大单比例
-       * </pre>
-       */
-      public Builder clearMaiChuTeDaDanBiLi() {
-        bitField2_ = (bitField2_ & ~0x00000800);
-        maiChuTeDaDanBiLi_ = 0L;
-        onChanged();
-        return this;
-      }
-
       private long fenZhongZhangFu1_ ;
       /**
        * <code>optional int64 FenZhongZhangFu1 = 77;</code>
@@ -22624,7 +22770,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasFenZhongZhangFu1() {
-        return ((bitField2_ & 0x00001000) == 0x00001000);
+        return ((bitField2_ & 0x00000040) == 0x00000040);
       }
       /**
        * <code>optional int64 FenZhongZhangFu1 = 77;</code>
@@ -22644,7 +22790,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setFenZhongZhangFu1(long value) {
-        bitField2_ |= 0x00001000;
+        bitField2_ |= 0x00000040;
         fenZhongZhangFu1_ = value;
         onChanged();
         return this;
@@ -22657,7 +22803,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearFenZhongZhangFu1() {
-        bitField2_ = (bitField2_ & ~0x00001000);
+        bitField2_ = (bitField2_ & ~0x00000040);
         fenZhongZhangFu1_ = 0L;
         onChanged();
         return this;
@@ -22672,7 +22818,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasFenZhongZhangFu2() {
-        return ((bitField2_ & 0x00002000) == 0x00002000);
+        return ((bitField2_ & 0x00000080) == 0x00000080);
       }
       /**
        * <code>optional int64 FenZhongZhangFu2 = 78;</code>
@@ -22692,7 +22838,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setFenZhongZhangFu2(long value) {
-        bitField2_ |= 0x00002000;
+        bitField2_ |= 0x00000080;
         fenZhongZhangFu2_ = value;
         onChanged();
         return this;
@@ -22705,7 +22851,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearFenZhongZhangFu2() {
-        bitField2_ = (bitField2_ & ~0x00002000);
+        bitField2_ = (bitField2_ & ~0x00000080);
         fenZhongZhangFu2_ = 0L;
         onChanged();
         return this;
@@ -22720,7 +22866,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasFenZhongZhangFu3() {
-        return ((bitField2_ & 0x00004000) == 0x00004000);
+        return ((bitField2_ & 0x00000100) == 0x00000100);
       }
       /**
        * <code>optional int64 FenZhongZhangFu3 = 79;</code>
@@ -22740,7 +22886,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setFenZhongZhangFu3(long value) {
-        bitField2_ |= 0x00004000;
+        bitField2_ |= 0x00000100;
         fenZhongZhangFu3_ = value;
         onChanged();
         return this;
@@ -22753,7 +22899,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearFenZhongZhangFu3() {
-        bitField2_ = (bitField2_ & ~0x00004000);
+        bitField2_ = (bitField2_ & ~0x00000100);
         fenZhongZhangFu3_ = 0L;
         onChanged();
         return this;
@@ -22768,7 +22914,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasFenZhongZhangFu4() {
-        return ((bitField2_ & 0x00008000) == 0x00008000);
+        return ((bitField2_ & 0x00000200) == 0x00000200);
       }
       /**
        * <code>optional int64 FenZhongZhangFu4 = 80;</code>
@@ -22788,7 +22934,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setFenZhongZhangFu4(long value) {
-        bitField2_ |= 0x00008000;
+        bitField2_ |= 0x00000200;
         fenZhongZhangFu4_ = value;
         onChanged();
         return this;
@@ -22801,7 +22947,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearFenZhongZhangFu4() {
-        bitField2_ = (bitField2_ & ~0x00008000);
+        bitField2_ = (bitField2_ & ~0x00000200);
         fenZhongZhangFu4_ = 0L;
         onChanged();
         return this;
@@ -22816,7 +22962,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasFenZhongZhangFu5() {
-        return ((bitField2_ & 0x00010000) == 0x00010000);
+        return ((bitField2_ & 0x00000400) == 0x00000400);
       }
       /**
        * <code>optional int64 FenZhongZhangFu5 = 81;</code>
@@ -22836,7 +22982,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setFenZhongZhangFu5(long value) {
-        bitField2_ |= 0x00010000;
+        bitField2_ |= 0x00000400;
         fenZhongZhangFu5_ = value;
         onChanged();
         return this;
@@ -22849,7 +22995,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearFenZhongZhangFu5() {
-        bitField2_ = (bitField2_ & ~0x00010000);
+        bitField2_ = (bitField2_ & ~0x00000400);
         fenZhongZhangFu5_ = 0L;
         onChanged();
         return this;
@@ -22864,7 +23010,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasShiYingLv() {
-        return ((bitField2_ & 0x00020000) == 0x00020000);
+        return ((bitField2_ & 0x00000800) == 0x00000800);
       }
       /**
        * <code>optional int64 ShiYingLv = 82;</code>
@@ -22884,7 +23030,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setShiYingLv(long value) {
-        bitField2_ |= 0x00020000;
+        bitField2_ |= 0x00000800;
         shiYingLv_ = value;
         onChanged();
         return this;
@@ -22897,7 +23043,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearShiYingLv() {
-        bitField2_ = (bitField2_ & ~0x00020000);
+        bitField2_ = (bitField2_ & ~0x00000800);
         shiYingLv_ = 0L;
         onChanged();
         return this;
@@ -22912,7 +23058,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasZhangTing() {
-        return ((bitField2_ & 0x00040000) == 0x00040000);
+        return ((bitField2_ & 0x00001000) == 0x00001000);
       }
       /**
        * <code>optional int64 ZhangTing = 83;</code>
@@ -22932,7 +23078,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setZhangTing(long value) {
-        bitField2_ |= 0x00040000;
+        bitField2_ |= 0x00001000;
         zhangTing_ = value;
         onChanged();
         return this;
@@ -22945,7 +23091,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearZhangTing() {
-        bitField2_ = (bitField2_ & ~0x00040000);
+        bitField2_ = (bitField2_ & ~0x00001000);
         zhangTing_ = 0L;
         onChanged();
         return this;
@@ -22960,7 +23106,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasDieTing() {
-        return ((bitField2_ & 0x00080000) == 0x00080000);
+        return ((bitField2_ & 0x00002000) == 0x00002000);
       }
       /**
        * <code>optional int64 DieTing = 84;</code>
@@ -22980,7 +23126,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setDieTing(long value) {
-        bitField2_ |= 0x00080000;
+        bitField2_ |= 0x00002000;
         dieTing_ = value;
         onChanged();
         return this;
@@ -22993,7 +23139,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearDieTing() {
-        bitField2_ = (bitField2_ & ~0x00080000);
+        bitField2_ = (bitField2_ & ~0x00002000);
         dieTing_ = 0L;
         onChanged();
         return this;
@@ -23008,7 +23154,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasShiChangMingCheng() {
-        return ((bitField2_ & 0x00100000) == 0x00100000);
+        return ((bitField2_ & 0x00004000) == 0x00004000);
       }
       /**
        * <code>optional string ShiChangMingCheng = 85;</code>
@@ -23063,7 +23209,7 @@ public final class DzhyunStkdata {
         if (value == null) {
     throw new NullPointerException();
   }
-  bitField2_ |= 0x00100000;
+  bitField2_ |= 0x00004000;
         shiChangMingCheng_ = value;
         onChanged();
         return this;
@@ -23076,7 +23222,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearShiChangMingCheng() {
-        bitField2_ = (bitField2_ & ~0x00100000);
+        bitField2_ = (bitField2_ & ~0x00004000);
         shiChangMingCheng_ = getDefaultInstance().getShiChangMingCheng();
         onChanged();
         return this;
@@ -23093,7 +23239,7 @@ public final class DzhyunStkdata {
         if (value == null) {
     throw new NullPointerException();
   }
-  bitField2_ |= 0x00100000;
+  bitField2_ |= 0x00004000;
         shiChangMingCheng_ = value;
         onChanged();
         return this;
@@ -23108,7 +23254,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasShiChangDuanMingCheng() {
-        return ((bitField2_ & 0x00200000) == 0x00200000);
+        return ((bitField2_ & 0x00008000) == 0x00008000);
       }
       /**
        * <code>optional string ShiChangDuanMingCheng = 86;</code>
@@ -23163,7 +23309,7 @@ public final class DzhyunStkdata {
         if (value == null) {
     throw new NullPointerException();
   }
-  bitField2_ |= 0x00200000;
+  bitField2_ |= 0x00008000;
         shiChangDuanMingCheng_ = value;
         onChanged();
         return this;
@@ -23176,7 +23322,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearShiChangDuanMingCheng() {
-        bitField2_ = (bitField2_ & ~0x00200000);
+        bitField2_ = (bitField2_ & ~0x00008000);
         shiChangDuanMingCheng_ = getDefaultInstance().getShiChangDuanMingCheng();
         onChanged();
         return this;
@@ -23193,7 +23339,7 @@ public final class DzhyunStkdata {
         if (value == null) {
     throw new NullPointerException();
   }
-  bitField2_ |= 0x00200000;
+  bitField2_ |= 0x00008000;
         shiChangDuanMingCheng_ = value;
         onChanged();
         return this;
@@ -23208,7 +23354,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasJiGouChiHuoShu() {
-        return ((bitField2_ & 0x00400000) == 0x00400000);
+        return ((bitField2_ & 0x00010000) == 0x00010000);
       }
       /**
        * <code>optional int64 JiGouChiHuoShu = 87;</code>
@@ -23228,7 +23374,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setJiGouChiHuoShu(long value) {
-        bitField2_ |= 0x00400000;
+        bitField2_ |= 0x00010000;
         jiGouChiHuoShu_ = value;
         onChanged();
         return this;
@@ -23241,7 +23387,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearJiGouChiHuoShu() {
-        bitField2_ = (bitField2_ & ~0x00400000);
+        bitField2_ = (bitField2_ & ~0x00010000);
         jiGouChiHuoShu_ = 0L;
         onChanged();
         return this;
@@ -23256,7 +23402,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasJiGouTuHuoShu() {
-        return ((bitField2_ & 0x00800000) == 0x00800000);
+        return ((bitField2_ & 0x00020000) == 0x00020000);
       }
       /**
        * <code>optional int64 JiGouTuHuoShu = 88;</code>
@@ -23276,7 +23422,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setJiGouTuHuoShu(long value) {
-        bitField2_ |= 0x00800000;
+        bitField2_ |= 0x00020000;
         jiGouTuHuoShu_ = value;
         onChanged();
         return this;
@@ -23289,7 +23435,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearJiGouTuHuoShu() {
-        bitField2_ = (bitField2_ & ~0x00800000);
+        bitField2_ = (bitField2_ & ~0x00020000);
         jiGouTuHuoShu_ = 0L;
         onChanged();
         return this;
@@ -23304,7 +23450,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasJiGouChiHuoLiang() {
-        return ((bitField2_ & 0x01000000) == 0x01000000);
+        return ((bitField2_ & 0x00040000) == 0x00040000);
       }
       /**
        * <code>optional int64 JiGouChiHuoLiang = 89;</code>
@@ -23324,7 +23470,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setJiGouChiHuoLiang(long value) {
-        bitField2_ |= 0x01000000;
+        bitField2_ |= 0x00040000;
         jiGouChiHuoLiang_ = value;
         onChanged();
         return this;
@@ -23337,7 +23483,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearJiGouChiHuoLiang() {
-        bitField2_ = (bitField2_ & ~0x01000000);
+        bitField2_ = (bitField2_ & ~0x00040000);
         jiGouChiHuoLiang_ = 0L;
         onChanged();
         return this;
@@ -23352,7 +23498,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasJiGouTuHuoLiang() {
-        return ((bitField2_ & 0x02000000) == 0x02000000);
+        return ((bitField2_ & 0x00080000) == 0x00080000);
       }
       /**
        * <code>optional int64 JiGouTuHuoLiang = 90;</code>
@@ -23372,7 +23518,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setJiGouTuHuoLiang(long value) {
-        bitField2_ |= 0x02000000;
+        bitField2_ |= 0x00080000;
         jiGouTuHuoLiang_ = value;
         onChanged();
         return this;
@@ -23385,7 +23531,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearJiGouTuHuoLiang() {
-        bitField2_ = (bitField2_ & ~0x02000000);
+        bitField2_ = (bitField2_ & ~0x00080000);
         jiGouTuHuoLiang_ = 0L;
         onChanged();
         return this;
@@ -23400,7 +23546,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasJiGouChiHuoJunE() {
-        return ((bitField2_ & 0x04000000) == 0x04000000);
+        return ((bitField2_ & 0x00100000) == 0x00100000);
       }
       /**
        * <code>optional int64 JiGouChiHuoJunE = 91;</code>
@@ -23420,7 +23566,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setJiGouChiHuoJunE(long value) {
-        bitField2_ |= 0x04000000;
+        bitField2_ |= 0x00100000;
         jiGouChiHuoJunE_ = value;
         onChanged();
         return this;
@@ -23433,7 +23579,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearJiGouChiHuoJunE() {
-        bitField2_ = (bitField2_ & ~0x04000000);
+        bitField2_ = (bitField2_ & ~0x00100000);
         jiGouChiHuoJunE_ = 0L;
         onChanged();
         return this;
@@ -23448,7 +23594,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasJiGouTuHuoJunE() {
-        return ((bitField2_ & 0x08000000) == 0x08000000);
+        return ((bitField2_ & 0x00200000) == 0x00200000);
       }
       /**
        * <code>optional int64 JiGouTuHuoJunE = 92;</code>
@@ -23468,7 +23614,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setJiGouTuHuoJunE(long value) {
-        bitField2_ |= 0x08000000;
+        bitField2_ |= 0x00200000;
         jiGouTuHuoJunE_ = value;
         onChanged();
         return this;
@@ -23481,7 +23627,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearJiGouTuHuoJunE() {
-        bitField2_ = (bitField2_ & ~0x08000000);
+        bitField2_ = (bitField2_ & ~0x00200000);
         jiGouTuHuoJunE_ = 0L;
         onChanged();
         return this;
@@ -23496,7 +23642,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMeiShouGuShu() {
-        return ((bitField2_ & 0x10000000) == 0x10000000);
+        return ((bitField2_ & 0x00400000) == 0x00400000);
       }
       /**
        * <code>optional int64 MeiShouGuShu = 93;</code>
@@ -23516,7 +23662,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMeiShouGuShu(long value) {
-        bitField2_ |= 0x10000000;
+        bitField2_ |= 0x00400000;
         meiShouGuShu_ = value;
         onChanged();
         return this;
@@ -23529,7 +23675,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMeiShouGuShu() {
-        bitField2_ = (bitField2_ & ~0x10000000);
+        bitField2_ = (bitField2_ & ~0x00400000);
         meiShouGuShu_ = 0L;
         onChanged();
         return this;
@@ -23544,7 +23690,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasJiaoYiDanWei() {
-        return ((bitField2_ & 0x20000000) == 0x20000000);
+        return ((bitField2_ & 0x00800000) == 0x00800000);
       }
       /**
        * <code>optional int64 JiaoYiDanWei = 94;</code>
@@ -23564,7 +23710,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setJiaoYiDanWei(long value) {
-        bitField2_ |= 0x20000000;
+        bitField2_ |= 0x00800000;
         jiaoYiDanWei_ = value;
         onChanged();
         return this;
@@ -23577,7 +23723,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearJiaoYiDanWei() {
-        bitField2_ = (bitField2_ & ~0x20000000);
+        bitField2_ = (bitField2_ & ~0x00800000);
         jiaoYiDanWei_ = 0L;
         onChanged();
         return this;
@@ -23592,7 +23738,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasShiXiaoLv() {
-        return ((bitField2_ & 0x40000000) == 0x40000000);
+        return ((bitField2_ & 0x01000000) == 0x01000000);
       }
       /**
        * <code>optional int64 ShiXiaoLv = 95;</code>
@@ -23612,7 +23758,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setShiXiaoLv(long value) {
-        bitField2_ |= 0x40000000;
+        bitField2_ |= 0x01000000;
         shiXiaoLv_ = value;
         onChanged();
         return this;
@@ -23625,7 +23771,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearShiXiaoLv() {
-        bitField2_ = (bitField2_ & ~0x40000000);
+        bitField2_ = (bitField2_ & ~0x01000000);
         shiXiaoLv_ = 0L;
         onChanged();
         return this;
@@ -23640,7 +23786,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasShiJian() {
-        return ((bitField2_ & 0x80000000) == 0x80000000);
+        return ((bitField2_ & 0x02000000) == 0x02000000);
       }
       /**
        * <code>optional int64 ShiJian = 96;</code>
@@ -23660,7 +23806,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setShiJian(long value) {
-        bitField2_ |= 0x80000000;
+        bitField2_ |= 0x02000000;
         shiJian_ = value;
         onChanged();
         return this;
@@ -23673,7 +23819,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearShiJian() {
-        bitField2_ = (bitField2_ & ~0x80000000);
+        bitField2_ = (bitField2_ & ~0x02000000);
         shiJian_ = 0L;
         onChanged();
         return this;
@@ -23688,7 +23834,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasShiJingLv() {
-        return ((bitField3_ & 0x00000001) == 0x00000001);
+        return ((bitField2_ & 0x04000000) == 0x04000000);
       }
       /**
        * <code>optional int64 ShiJingLv = 97;</code>
@@ -23708,7 +23854,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setShiJingLv(long value) {
-        bitField3_ |= 0x00000001;
+        bitField2_ |= 0x04000000;
         shiJingLv_ = value;
         onChanged();
         return this;
@@ -23721,7 +23867,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearShiJingLv() {
-        bitField3_ = (bitField3_ & ~0x00000001);
+        bitField2_ = (bitField2_ & ~0x04000000);
         shiJingLv_ = 0L;
         onChanged();
         return this;
@@ -23736,7 +23882,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasZongShiZhi() {
-        return ((bitField3_ & 0x00000002) == 0x00000002);
+        return ((bitField2_ & 0x08000000) == 0x08000000);
       }
       /**
        * <code>optional int64 ZongShiZhi = 98;</code>
@@ -23756,7 +23902,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setZongShiZhi(long value) {
-        bitField3_ |= 0x00000002;
+        bitField2_ |= 0x08000000;
         zongShiZhi_ = value;
         onChanged();
         return this;
@@ -23769,7 +23915,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearZongShiZhi() {
-        bitField3_ = (bitField3_ & ~0x00000002);
+        bitField2_ = (bitField2_ & ~0x08000000);
         zongShiZhi_ = 0L;
         onChanged();
         return this;
@@ -23784,7 +23930,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasLiuTongShiZhi() {
-        return ((bitField3_ & 0x00000004) == 0x00000004);
+        return ((bitField2_ & 0x10000000) == 0x10000000);
       }
       /**
        * <code>optional int64 LiuTongShiZhi = 99;</code>
@@ -23804,7 +23950,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setLiuTongShiZhi(long value) {
-        bitField3_ |= 0x00000004;
+        bitField2_ |= 0x10000000;
         liuTongShiZhi_ = value;
         onChanged();
         return this;
@@ -23817,7 +23963,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearLiuTongShiZhi() {
-        bitField3_ = (bitField3_ & ~0x00000004);
+        bitField2_ = (bitField2_ & ~0x10000000);
         liuTongShiZhi_ = 0L;
         onChanged();
         return this;
@@ -23833,7 +23979,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMA1MinMA1() {
-        return ((bitField3_ & 0x00000008) == 0x00000008);
+        return ((bitField2_ & 0x20000000) == 0x20000000);
       }
       /**
        * <code>optional int64 MA1minMA1 = 200;</code>
@@ -23855,7 +24001,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMA1MinMA1(long value) {
-        bitField3_ |= 0x00000008;
+        bitField2_ |= 0x20000000;
         mA1MinMA1_ = value;
         onChanged();
         return this;
@@ -23869,7 +24015,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMA1MinMA1() {
-        bitField3_ = (bitField3_ & ~0x00000008);
+        bitField2_ = (bitField2_ & ~0x20000000);
         mA1MinMA1_ = 0L;
         onChanged();
         return this;
@@ -23884,7 +24030,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMA1MinMA2() {
-        return ((bitField3_ & 0x00000010) == 0x00000010);
+        return ((bitField2_ & 0x40000000) == 0x40000000);
       }
       /**
        * <code>optional int64 MA1minMA2 = 201;</code>
@@ -23904,7 +24050,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMA1MinMA2(long value) {
-        bitField3_ |= 0x00000010;
+        bitField2_ |= 0x40000000;
         mA1MinMA2_ = value;
         onChanged();
         return this;
@@ -23917,7 +24063,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMA1MinMA2() {
-        bitField3_ = (bitField3_ & ~0x00000010);
+        bitField2_ = (bitField2_ & ~0x40000000);
         mA1MinMA2_ = 0L;
         onChanged();
         return this;
@@ -23932,7 +24078,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMA1MinMA3() {
-        return ((bitField3_ & 0x00000020) == 0x00000020);
+        return ((bitField2_ & 0x80000000) == 0x80000000);
       }
       /**
        * <code>optional int64 MA1minMA3 = 202;</code>
@@ -23952,7 +24098,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMA1MinMA3(long value) {
-        bitField3_ |= 0x00000020;
+        bitField2_ |= 0x80000000;
         mA1MinMA3_ = value;
         onChanged();
         return this;
@@ -23965,7 +24111,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMA1MinMA3() {
-        bitField3_ = (bitField3_ & ~0x00000020);
+        bitField2_ = (bitField2_ & ~0x80000000);
         mA1MinMA3_ = 0L;
         onChanged();
         return this;
@@ -23980,7 +24126,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMA1MinMA4() {
-        return ((bitField3_ & 0x00000040) == 0x00000040);
+        return ((bitField3_ & 0x00000001) == 0x00000001);
       }
       /**
        * <code>optional int64 MA1minMA4 = 203;</code>
@@ -24000,7 +24146,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMA1MinMA4(long value) {
-        bitField3_ |= 0x00000040;
+        bitField3_ |= 0x00000001;
         mA1MinMA4_ = value;
         onChanged();
         return this;
@@ -24013,7 +24159,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMA1MinMA4() {
-        bitField3_ = (bitField3_ & ~0x00000040);
+        bitField3_ = (bitField3_ & ~0x00000001);
         mA1MinMA4_ = 0L;
         onChanged();
         return this;
@@ -24028,7 +24174,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMA1MinMA5() {
-        return ((bitField3_ & 0x00000080) == 0x00000080);
+        return ((bitField3_ & 0x00000002) == 0x00000002);
       }
       /**
        * <code>optional int64 MA1minMA5 = 204;</code>
@@ -24048,7 +24194,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMA1MinMA5(long value) {
-        bitField3_ |= 0x00000080;
+        bitField3_ |= 0x00000002;
         mA1MinMA5_ = value;
         onChanged();
         return this;
@@ -24061,7 +24207,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMA1MinMA5() {
-        bitField3_ = (bitField3_ & ~0x00000080);
+        bitField3_ = (bitField3_ & ~0x00000002);
         mA1MinMA5_ = 0L;
         onChanged();
         return this;
@@ -24076,7 +24222,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMA1MinMA6() {
-        return ((bitField3_ & 0x00000100) == 0x00000100);
+        return ((bitField3_ & 0x00000004) == 0x00000004);
       }
       /**
        * <code>optional int64 MA1minMA6 = 205;</code>
@@ -24096,7 +24242,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMA1MinMA6(long value) {
-        bitField3_ |= 0x00000100;
+        bitField3_ |= 0x00000004;
         mA1MinMA6_ = value;
         onChanged();
         return this;
@@ -24109,7 +24255,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMA1MinMA6() {
-        bitField3_ = (bitField3_ & ~0x00000100);
+        bitField3_ = (bitField3_ & ~0x00000004);
         mA1MinMA6_ = 0L;
         onChanged();
         return this;
@@ -24124,7 +24270,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMA5MinMA1() {
-        return ((bitField3_ & 0x00000200) == 0x00000200);
+        return ((bitField3_ & 0x00000008) == 0x00000008);
       }
       /**
        * <code>optional int64 MA5minMA1 = 206;</code>
@@ -24144,7 +24290,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMA5MinMA1(long value) {
-        bitField3_ |= 0x00000200;
+        bitField3_ |= 0x00000008;
         mA5MinMA1_ = value;
         onChanged();
         return this;
@@ -24157,7 +24303,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMA5MinMA1() {
-        bitField3_ = (bitField3_ & ~0x00000200);
+        bitField3_ = (bitField3_ & ~0x00000008);
         mA5MinMA1_ = 0L;
         onChanged();
         return this;
@@ -24172,7 +24318,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMA5MinMA2() {
-        return ((bitField3_ & 0x00000400) == 0x00000400);
+        return ((bitField3_ & 0x00000010) == 0x00000010);
       }
       /**
        * <code>optional int64 MA5minMA2 = 207;</code>
@@ -24192,7 +24338,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMA5MinMA2(long value) {
-        bitField3_ |= 0x00000400;
+        bitField3_ |= 0x00000010;
         mA5MinMA2_ = value;
         onChanged();
         return this;
@@ -24205,7 +24351,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMA5MinMA2() {
-        bitField3_ = (bitField3_ & ~0x00000400);
+        bitField3_ = (bitField3_ & ~0x00000010);
         mA5MinMA2_ = 0L;
         onChanged();
         return this;
@@ -24220,7 +24366,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMA5MinMA3() {
-        return ((bitField3_ & 0x00000800) == 0x00000800);
+        return ((bitField3_ & 0x00000020) == 0x00000020);
       }
       /**
        * <code>optional int64 MA5minMA3 = 208;</code>
@@ -24240,7 +24386,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMA5MinMA3(long value) {
-        bitField3_ |= 0x00000800;
+        bitField3_ |= 0x00000020;
         mA5MinMA3_ = value;
         onChanged();
         return this;
@@ -24253,7 +24399,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMA5MinMA3() {
-        bitField3_ = (bitField3_ & ~0x00000800);
+        bitField3_ = (bitField3_ & ~0x00000020);
         mA5MinMA3_ = 0L;
         onChanged();
         return this;
@@ -24268,7 +24414,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMA5MinMA4() {
-        return ((bitField3_ & 0x00001000) == 0x00001000);
+        return ((bitField3_ & 0x00000040) == 0x00000040);
       }
       /**
        * <code>optional int64 MA5minMA4 = 209;</code>
@@ -24288,7 +24434,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMA5MinMA4(long value) {
-        bitField3_ |= 0x00001000;
+        bitField3_ |= 0x00000040;
         mA5MinMA4_ = value;
         onChanged();
         return this;
@@ -24301,7 +24447,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMA5MinMA4() {
-        bitField3_ = (bitField3_ & ~0x00001000);
+        bitField3_ = (bitField3_ & ~0x00000040);
         mA5MinMA4_ = 0L;
         onChanged();
         return this;
@@ -24316,7 +24462,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMA5MinMA5() {
-        return ((bitField3_ & 0x00002000) == 0x00002000);
+        return ((bitField3_ & 0x00000080) == 0x00000080);
       }
       /**
        * <code>optional int64 MA5minMA5 = 210;</code>
@@ -24336,7 +24482,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMA5MinMA5(long value) {
-        bitField3_ |= 0x00002000;
+        bitField3_ |= 0x00000080;
         mA5MinMA5_ = value;
         onChanged();
         return this;
@@ -24349,7 +24495,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMA5MinMA5() {
-        bitField3_ = (bitField3_ & ~0x00002000);
+        bitField3_ = (bitField3_ & ~0x00000080);
         mA5MinMA5_ = 0L;
         onChanged();
         return this;
@@ -24364,7 +24510,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMA5MinMA6() {
-        return ((bitField3_ & 0x00004000) == 0x00004000);
+        return ((bitField3_ & 0x00000100) == 0x00000100);
       }
       /**
        * <code>optional int64 MA5minMA6 = 211;</code>
@@ -24384,7 +24530,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMA5MinMA6(long value) {
-        bitField3_ |= 0x00004000;
+        bitField3_ |= 0x00000100;
         mA5MinMA6_ = value;
         onChanged();
         return this;
@@ -24397,7 +24543,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMA5MinMA6() {
-        bitField3_ = (bitField3_ & ~0x00004000);
+        bitField3_ = (bitField3_ & ~0x00000100);
         mA5MinMA6_ = 0L;
         onChanged();
         return this;
@@ -24412,7 +24558,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMA1DayMA1() {
-        return ((bitField3_ & 0x00008000) == 0x00008000);
+        return ((bitField3_ & 0x00000200) == 0x00000200);
       }
       /**
        * <code>optional int64 MA1dayMA1 = 212;</code>
@@ -24432,7 +24578,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMA1DayMA1(long value) {
-        bitField3_ |= 0x00008000;
+        bitField3_ |= 0x00000200;
         mA1DayMA1_ = value;
         onChanged();
         return this;
@@ -24445,7 +24591,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMA1DayMA1() {
-        bitField3_ = (bitField3_ & ~0x00008000);
+        bitField3_ = (bitField3_ & ~0x00000200);
         mA1DayMA1_ = 0L;
         onChanged();
         return this;
@@ -24460,7 +24606,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMA1DayMA2() {
-        return ((bitField3_ & 0x00010000) == 0x00010000);
+        return ((bitField3_ & 0x00000400) == 0x00000400);
       }
       /**
        * <code>optional int64 MA1dayMA2 = 213;</code>
@@ -24480,7 +24626,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMA1DayMA2(long value) {
-        bitField3_ |= 0x00010000;
+        bitField3_ |= 0x00000400;
         mA1DayMA2_ = value;
         onChanged();
         return this;
@@ -24493,7 +24639,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMA1DayMA2() {
-        bitField3_ = (bitField3_ & ~0x00010000);
+        bitField3_ = (bitField3_ & ~0x00000400);
         mA1DayMA2_ = 0L;
         onChanged();
         return this;
@@ -24508,7 +24654,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMA1DayMA3() {
-        return ((bitField3_ & 0x00020000) == 0x00020000);
+        return ((bitField3_ & 0x00000800) == 0x00000800);
       }
       /**
        * <code>optional int64 MA1dayMA3 = 214;</code>
@@ -24528,7 +24674,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMA1DayMA3(long value) {
-        bitField3_ |= 0x00020000;
+        bitField3_ |= 0x00000800;
         mA1DayMA3_ = value;
         onChanged();
         return this;
@@ -24541,7 +24687,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMA1DayMA3() {
-        bitField3_ = (bitField3_ & ~0x00020000);
+        bitField3_ = (bitField3_ & ~0x00000800);
         mA1DayMA3_ = 0L;
         onChanged();
         return this;
@@ -24556,7 +24702,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMA1DayMA4() {
-        return ((bitField3_ & 0x00040000) == 0x00040000);
+        return ((bitField3_ & 0x00001000) == 0x00001000);
       }
       /**
        * <code>optional int64 MA1dayMA4 = 215;</code>
@@ -24576,7 +24722,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMA1DayMA4(long value) {
-        bitField3_ |= 0x00040000;
+        bitField3_ |= 0x00001000;
         mA1DayMA4_ = value;
         onChanged();
         return this;
@@ -24589,7 +24735,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMA1DayMA4() {
-        bitField3_ = (bitField3_ & ~0x00040000);
+        bitField3_ = (bitField3_ & ~0x00001000);
         mA1DayMA4_ = 0L;
         onChanged();
         return this;
@@ -24604,7 +24750,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMA1DayMA5() {
-        return ((bitField3_ & 0x00080000) == 0x00080000);
+        return ((bitField3_ & 0x00002000) == 0x00002000);
       }
       /**
        * <code>optional int64 MA1dayMA5 = 216;</code>
@@ -24624,7 +24770,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMA1DayMA5(long value) {
-        bitField3_ |= 0x00080000;
+        bitField3_ |= 0x00002000;
         mA1DayMA5_ = value;
         onChanged();
         return this;
@@ -24637,7 +24783,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMA1DayMA5() {
-        bitField3_ = (bitField3_ & ~0x00080000);
+        bitField3_ = (bitField3_ & ~0x00002000);
         mA1DayMA5_ = 0L;
         onChanged();
         return this;
@@ -24652,7 +24798,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMA1DayMA6() {
-        return ((bitField3_ & 0x00100000) == 0x00100000);
+        return ((bitField3_ & 0x00004000) == 0x00004000);
       }
       /**
        * <code>optional int64 MA1dayMA6 = 217;</code>
@@ -24672,7 +24818,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMA1DayMA6(long value) {
-        bitField3_ |= 0x00100000;
+        bitField3_ |= 0x00004000;
         mA1DayMA6_ = value;
         onChanged();
         return this;
@@ -24685,7 +24831,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMA1DayMA6() {
-        bitField3_ = (bitField3_ & ~0x00100000);
+        bitField3_ = (bitField3_ & ~0x00004000);
         mA1DayMA6_ = 0L;
         onChanged();
         return this;
@@ -24700,7 +24846,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasBOLL1MinMID() {
-        return ((bitField3_ & 0x00200000) == 0x00200000);
+        return ((bitField3_ & 0x00008000) == 0x00008000);
       }
       /**
        * <code>optional int64 BOLL1minMID = 218;</code>
@@ -24720,7 +24866,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setBOLL1MinMID(long value) {
-        bitField3_ |= 0x00200000;
+        bitField3_ |= 0x00008000;
         bOLL1MinMID_ = value;
         onChanged();
         return this;
@@ -24733,7 +24879,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearBOLL1MinMID() {
-        bitField3_ = (bitField3_ & ~0x00200000);
+        bitField3_ = (bitField3_ & ~0x00008000);
         bOLL1MinMID_ = 0L;
         onChanged();
         return this;
@@ -24748,7 +24894,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasBOLL1MinUPPER() {
-        return ((bitField3_ & 0x00400000) == 0x00400000);
+        return ((bitField3_ & 0x00010000) == 0x00010000);
       }
       /**
        * <code>optional int64 BOLL1minUPPER = 219;</code>
@@ -24768,7 +24914,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setBOLL1MinUPPER(long value) {
-        bitField3_ |= 0x00400000;
+        bitField3_ |= 0x00010000;
         bOLL1MinUPPER_ = value;
         onChanged();
         return this;
@@ -24781,7 +24927,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearBOLL1MinUPPER() {
-        bitField3_ = (bitField3_ & ~0x00400000);
+        bitField3_ = (bitField3_ & ~0x00010000);
         bOLL1MinUPPER_ = 0L;
         onChanged();
         return this;
@@ -24796,7 +24942,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasBOLL1MinLOWER() {
-        return ((bitField3_ & 0x00800000) == 0x00800000);
+        return ((bitField3_ & 0x00020000) == 0x00020000);
       }
       /**
        * <code>optional int64 BOLL1minLOWER = 220;</code>
@@ -24816,7 +24962,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setBOLL1MinLOWER(long value) {
-        bitField3_ |= 0x00800000;
+        bitField3_ |= 0x00020000;
         bOLL1MinLOWER_ = value;
         onChanged();
         return this;
@@ -24829,7 +24975,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearBOLL1MinLOWER() {
-        bitField3_ = (bitField3_ & ~0x00800000);
+        bitField3_ = (bitField3_ & ~0x00020000);
         bOLL1MinLOWER_ = 0L;
         onChanged();
         return this;
@@ -24844,7 +24990,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasBOLL5MinMID() {
-        return ((bitField3_ & 0x01000000) == 0x01000000);
+        return ((bitField3_ & 0x00040000) == 0x00040000);
       }
       /**
        * <code>optional int64 BOLL5minMID = 221;</code>
@@ -24864,7 +25010,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setBOLL5MinMID(long value) {
-        bitField3_ |= 0x01000000;
+        bitField3_ |= 0x00040000;
         bOLL5MinMID_ = value;
         onChanged();
         return this;
@@ -24877,7 +25023,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearBOLL5MinMID() {
-        bitField3_ = (bitField3_ & ~0x01000000);
+        bitField3_ = (bitField3_ & ~0x00040000);
         bOLL5MinMID_ = 0L;
         onChanged();
         return this;
@@ -24892,7 +25038,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasBOLL5MinUPPER() {
-        return ((bitField3_ & 0x02000000) == 0x02000000);
+        return ((bitField3_ & 0x00080000) == 0x00080000);
       }
       /**
        * <code>optional int64 BOLL5minUPPER = 222;</code>
@@ -24912,7 +25058,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setBOLL5MinUPPER(long value) {
-        bitField3_ |= 0x02000000;
+        bitField3_ |= 0x00080000;
         bOLL5MinUPPER_ = value;
         onChanged();
         return this;
@@ -24925,7 +25071,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearBOLL5MinUPPER() {
-        bitField3_ = (bitField3_ & ~0x02000000);
+        bitField3_ = (bitField3_ & ~0x00080000);
         bOLL5MinUPPER_ = 0L;
         onChanged();
         return this;
@@ -24940,7 +25086,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasBOLL5MinLOWER() {
-        return ((bitField3_ & 0x04000000) == 0x04000000);
+        return ((bitField3_ & 0x00100000) == 0x00100000);
       }
       /**
        * <code>optional int64 BOLL5minLOWER = 223;</code>
@@ -24960,7 +25106,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setBOLL5MinLOWER(long value) {
-        bitField3_ |= 0x04000000;
+        bitField3_ |= 0x00100000;
         bOLL5MinLOWER_ = value;
         onChanged();
         return this;
@@ -24973,7 +25119,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearBOLL5MinLOWER() {
-        bitField3_ = (bitField3_ & ~0x04000000);
+        bitField3_ = (bitField3_ & ~0x00100000);
         bOLL5MinLOWER_ = 0L;
         onChanged();
         return this;
@@ -24988,7 +25134,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasBOLL1DayMID() {
-        return ((bitField3_ & 0x08000000) == 0x08000000);
+        return ((bitField3_ & 0x00200000) == 0x00200000);
       }
       /**
        * <code>optional int64 BOLL1dayMID = 224;</code>
@@ -25008,7 +25154,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setBOLL1DayMID(long value) {
-        bitField3_ |= 0x08000000;
+        bitField3_ |= 0x00200000;
         bOLL1DayMID_ = value;
         onChanged();
         return this;
@@ -25021,7 +25167,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearBOLL1DayMID() {
-        bitField3_ = (bitField3_ & ~0x08000000);
+        bitField3_ = (bitField3_ & ~0x00200000);
         bOLL1DayMID_ = 0L;
         onChanged();
         return this;
@@ -25036,7 +25182,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasBOLL1DayUPPER() {
-        return ((bitField3_ & 0x10000000) == 0x10000000);
+        return ((bitField3_ & 0x00400000) == 0x00400000);
       }
       /**
        * <code>optional int64 BOLL1dayUPPER = 225;</code>
@@ -25056,7 +25202,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setBOLL1DayUPPER(long value) {
-        bitField3_ |= 0x10000000;
+        bitField3_ |= 0x00400000;
         bOLL1DayUPPER_ = value;
         onChanged();
         return this;
@@ -25069,7 +25215,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearBOLL1DayUPPER() {
-        bitField3_ = (bitField3_ & ~0x10000000);
+        bitField3_ = (bitField3_ & ~0x00400000);
         bOLL1DayUPPER_ = 0L;
         onChanged();
         return this;
@@ -25084,7 +25230,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasBOLL1DayLOWER() {
-        return ((bitField3_ & 0x20000000) == 0x20000000);
+        return ((bitField3_ & 0x00800000) == 0x00800000);
       }
       /**
        * <code>optional int64 BOLL1dayLOWER = 226;</code>
@@ -25104,7 +25250,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setBOLL1DayLOWER(long value) {
-        bitField3_ |= 0x20000000;
+        bitField3_ |= 0x00800000;
         bOLL1DayLOWER_ = value;
         onChanged();
         return this;
@@ -25117,7 +25263,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearBOLL1DayLOWER() {
-        bitField3_ = (bitField3_ & ~0x20000000);
+        bitField3_ = (bitField3_ & ~0x00800000);
         bOLL1DayLOWER_ = 0L;
         onChanged();
         return this;
@@ -25132,7 +25278,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasVOL1Min() {
-        return ((bitField3_ & 0x40000000) == 0x40000000);
+        return ((bitField3_ & 0x01000000) == 0x01000000);
       }
       /**
        * <code>optional int64 VOL1min = 227;</code>
@@ -25152,7 +25298,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setVOL1Min(long value) {
-        bitField3_ |= 0x40000000;
+        bitField3_ |= 0x01000000;
         vOL1Min_ = value;
         onChanged();
         return this;
@@ -25165,7 +25311,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearVOL1Min() {
-        bitField3_ = (bitField3_ & ~0x40000000);
+        bitField3_ = (bitField3_ & ~0x01000000);
         vOL1Min_ = 0L;
         onChanged();
         return this;
@@ -25180,7 +25326,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasVOL1MinMA1() {
-        return ((bitField3_ & 0x80000000) == 0x80000000);
+        return ((bitField3_ & 0x02000000) == 0x02000000);
       }
       /**
        * <code>optional int64 VOL1minMA1 = 228;</code>
@@ -25200,7 +25346,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setVOL1MinMA1(long value) {
-        bitField3_ |= 0x80000000;
+        bitField3_ |= 0x02000000;
         vOL1MinMA1_ = value;
         onChanged();
         return this;
@@ -25213,7 +25359,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearVOL1MinMA1() {
-        bitField3_ = (bitField3_ & ~0x80000000);
+        bitField3_ = (bitField3_ & ~0x02000000);
         vOL1MinMA1_ = 0L;
         onChanged();
         return this;
@@ -25228,7 +25374,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasVOL1MinMA2() {
-        return ((bitField4_ & 0x00000001) == 0x00000001);
+        return ((bitField3_ & 0x04000000) == 0x04000000);
       }
       /**
        * <code>optional int64 VOL1minMA2 = 229;</code>
@@ -25248,7 +25394,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setVOL1MinMA2(long value) {
-        bitField4_ |= 0x00000001;
+        bitField3_ |= 0x04000000;
         vOL1MinMA2_ = value;
         onChanged();
         return this;
@@ -25261,7 +25407,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearVOL1MinMA2() {
-        bitField4_ = (bitField4_ & ~0x00000001);
+        bitField3_ = (bitField3_ & ~0x04000000);
         vOL1MinMA2_ = 0L;
         onChanged();
         return this;
@@ -25276,7 +25422,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasVOL1MinMA3() {
-        return ((bitField4_ & 0x00000002) == 0x00000002);
+        return ((bitField3_ & 0x08000000) == 0x08000000);
       }
       /**
        * <code>optional int64 VOL1minMA3 = 230;</code>
@@ -25296,7 +25442,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setVOL1MinMA3(long value) {
-        bitField4_ |= 0x00000002;
+        bitField3_ |= 0x08000000;
         vOL1MinMA3_ = value;
         onChanged();
         return this;
@@ -25309,7 +25455,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearVOL1MinMA3() {
-        bitField4_ = (bitField4_ & ~0x00000002);
+        bitField3_ = (bitField3_ & ~0x08000000);
         vOL1MinMA3_ = 0L;
         onChanged();
         return this;
@@ -25324,7 +25470,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasVOL5Min() {
-        return ((bitField4_ & 0x00000004) == 0x00000004);
+        return ((bitField3_ & 0x10000000) == 0x10000000);
       }
       /**
        * <code>optional int64 VOL5min = 231;</code>
@@ -25344,7 +25490,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setVOL5Min(long value) {
-        bitField4_ |= 0x00000004;
+        bitField3_ |= 0x10000000;
         vOL5Min_ = value;
         onChanged();
         return this;
@@ -25357,7 +25503,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearVOL5Min() {
-        bitField4_ = (bitField4_ & ~0x00000004);
+        bitField3_ = (bitField3_ & ~0x10000000);
         vOL5Min_ = 0L;
         onChanged();
         return this;
@@ -25372,7 +25518,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasVOL5MinMA1() {
-        return ((bitField4_ & 0x00000008) == 0x00000008);
+        return ((bitField3_ & 0x20000000) == 0x20000000);
       }
       /**
        * <code>optional int64 VOL5minMA1 = 232;</code>
@@ -25392,7 +25538,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setVOL5MinMA1(long value) {
-        bitField4_ |= 0x00000008;
+        bitField3_ |= 0x20000000;
         vOL5MinMA1_ = value;
         onChanged();
         return this;
@@ -25405,7 +25551,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearVOL5MinMA1() {
-        bitField4_ = (bitField4_ & ~0x00000008);
+        bitField3_ = (bitField3_ & ~0x20000000);
         vOL5MinMA1_ = 0L;
         onChanged();
         return this;
@@ -25420,7 +25566,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasVOL5MinMA2() {
-        return ((bitField4_ & 0x00000010) == 0x00000010);
+        return ((bitField3_ & 0x40000000) == 0x40000000);
       }
       /**
        * <code>optional int64 VOL5minMA2 = 233;</code>
@@ -25440,7 +25586,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setVOL5MinMA2(long value) {
-        bitField4_ |= 0x00000010;
+        bitField3_ |= 0x40000000;
         vOL5MinMA2_ = value;
         onChanged();
         return this;
@@ -25453,7 +25599,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearVOL5MinMA2() {
-        bitField4_ = (bitField4_ & ~0x00000010);
+        bitField3_ = (bitField3_ & ~0x40000000);
         vOL5MinMA2_ = 0L;
         onChanged();
         return this;
@@ -25468,7 +25614,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasVOL5MinMA3() {
-        return ((bitField4_ & 0x00000020) == 0x00000020);
+        return ((bitField3_ & 0x80000000) == 0x80000000);
       }
       /**
        * <code>optional int64 VOL5minMA3 = 234;</code>
@@ -25488,7 +25634,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setVOL5MinMA3(long value) {
-        bitField4_ |= 0x00000020;
+        bitField3_ |= 0x80000000;
         vOL5MinMA3_ = value;
         onChanged();
         return this;
@@ -25501,7 +25647,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearVOL5MinMA3() {
-        bitField4_ = (bitField4_ & ~0x00000020);
+        bitField3_ = (bitField3_ & ~0x80000000);
         vOL5MinMA3_ = 0L;
         onChanged();
         return this;
@@ -25516,7 +25662,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasVOL1Day() {
-        return ((bitField4_ & 0x00000040) == 0x00000040);
+        return ((bitField4_ & 0x00000001) == 0x00000001);
       }
       /**
        * <code>optional int64 VOL1day = 235;</code>
@@ -25536,7 +25682,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setVOL1Day(long value) {
-        bitField4_ |= 0x00000040;
+        bitField4_ |= 0x00000001;
         vOL1Day_ = value;
         onChanged();
         return this;
@@ -25549,7 +25695,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearVOL1Day() {
-        bitField4_ = (bitField4_ & ~0x00000040);
+        bitField4_ = (bitField4_ & ~0x00000001);
         vOL1Day_ = 0L;
         onChanged();
         return this;
@@ -25564,7 +25710,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasVOL1DayMA1() {
-        return ((bitField4_ & 0x00000080) == 0x00000080);
+        return ((bitField4_ & 0x00000002) == 0x00000002);
       }
       /**
        * <code>optional int64 VOL1dayMA1 = 236;</code>
@@ -25584,7 +25730,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setVOL1DayMA1(long value) {
-        bitField4_ |= 0x00000080;
+        bitField4_ |= 0x00000002;
         vOL1DayMA1_ = value;
         onChanged();
         return this;
@@ -25597,7 +25743,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearVOL1DayMA1() {
-        bitField4_ = (bitField4_ & ~0x00000080);
+        bitField4_ = (bitField4_ & ~0x00000002);
         vOL1DayMA1_ = 0L;
         onChanged();
         return this;
@@ -25612,7 +25758,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasVOL1DayMA2() {
-        return ((bitField4_ & 0x00000100) == 0x00000100);
+        return ((bitField4_ & 0x00000004) == 0x00000004);
       }
       /**
        * <code>optional int64 VOL1dayMA2 = 237;</code>
@@ -25632,7 +25778,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setVOL1DayMA2(long value) {
-        bitField4_ |= 0x00000100;
+        bitField4_ |= 0x00000004;
         vOL1DayMA2_ = value;
         onChanged();
         return this;
@@ -25645,7 +25791,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearVOL1DayMA2() {
-        bitField4_ = (bitField4_ & ~0x00000100);
+        bitField4_ = (bitField4_ & ~0x00000004);
         vOL1DayMA2_ = 0L;
         onChanged();
         return this;
@@ -25660,7 +25806,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasVOL1DayMA3() {
-        return ((bitField4_ & 0x00000200) == 0x00000200);
+        return ((bitField4_ & 0x00000008) == 0x00000008);
       }
       /**
        * <code>optional int64 VOL1dayMA3 = 238;</code>
@@ -25680,7 +25826,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setVOL1DayMA3(long value) {
-        bitField4_ |= 0x00000200;
+        bitField4_ |= 0x00000008;
         vOL1DayMA3_ = value;
         onChanged();
         return this;
@@ -25693,7 +25839,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearVOL1DayMA3() {
-        bitField4_ = (bitField4_ & ~0x00000200);
+        bitField4_ = (bitField4_ & ~0x00000008);
         vOL1DayMA3_ = 0L;
         onChanged();
         return this;
@@ -25708,7 +25854,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasARBR1MinAR() {
-        return ((bitField4_ & 0x00000400) == 0x00000400);
+        return ((bitField4_ & 0x00000010) == 0x00000010);
       }
       /**
        * <code>optional int64 ARBR1minAR = 239;</code>
@@ -25728,7 +25874,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setARBR1MinAR(long value) {
-        bitField4_ |= 0x00000400;
+        bitField4_ |= 0x00000010;
         aRBR1MinAR_ = value;
         onChanged();
         return this;
@@ -25741,7 +25887,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearARBR1MinAR() {
-        bitField4_ = (bitField4_ & ~0x00000400);
+        bitField4_ = (bitField4_ & ~0x00000010);
         aRBR1MinAR_ = 0L;
         onChanged();
         return this;
@@ -25756,7 +25902,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasARBR1MinBR() {
-        return ((bitField4_ & 0x00000800) == 0x00000800);
+        return ((bitField4_ & 0x00000020) == 0x00000020);
       }
       /**
        * <code>optional int64 ARBR1minBR = 240;</code>
@@ -25776,7 +25922,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setARBR1MinBR(long value) {
-        bitField4_ |= 0x00000800;
+        bitField4_ |= 0x00000020;
         aRBR1MinBR_ = value;
         onChanged();
         return this;
@@ -25789,7 +25935,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearARBR1MinBR() {
-        bitField4_ = (bitField4_ & ~0x00000800);
+        bitField4_ = (bitField4_ & ~0x00000020);
         aRBR1MinBR_ = 0L;
         onChanged();
         return this;
@@ -25804,7 +25950,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasARBR5MinAR() {
-        return ((bitField4_ & 0x00001000) == 0x00001000);
+        return ((bitField4_ & 0x00000040) == 0x00000040);
       }
       /**
        * <code>optional int64 ARBR5minAR = 241;</code>
@@ -25824,7 +25970,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setARBR5MinAR(long value) {
-        bitField4_ |= 0x00001000;
+        bitField4_ |= 0x00000040;
         aRBR5MinAR_ = value;
         onChanged();
         return this;
@@ -25837,7 +25983,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearARBR5MinAR() {
-        bitField4_ = (bitField4_ & ~0x00001000);
+        bitField4_ = (bitField4_ & ~0x00000040);
         aRBR5MinAR_ = 0L;
         onChanged();
         return this;
@@ -25852,7 +25998,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasARBR5MinBR() {
-        return ((bitField4_ & 0x00002000) == 0x00002000);
+        return ((bitField4_ & 0x00000080) == 0x00000080);
       }
       /**
        * <code>optional int64 ARBR5minBR = 242;</code>
@@ -25872,7 +26018,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setARBR5MinBR(long value) {
-        bitField4_ |= 0x00002000;
+        bitField4_ |= 0x00000080;
         aRBR5MinBR_ = value;
         onChanged();
         return this;
@@ -25885,7 +26031,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearARBR5MinBR() {
-        bitField4_ = (bitField4_ & ~0x00002000);
+        bitField4_ = (bitField4_ & ~0x00000080);
         aRBR5MinBR_ = 0L;
         onChanged();
         return this;
@@ -25900,7 +26046,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasARBR1DayAR() {
-        return ((bitField4_ & 0x00004000) == 0x00004000);
+        return ((bitField4_ & 0x00000100) == 0x00000100);
       }
       /**
        * <code>optional int64 ARBR1dayAR = 243;</code>
@@ -25920,7 +26066,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setARBR1DayAR(long value) {
-        bitField4_ |= 0x00004000;
+        bitField4_ |= 0x00000100;
         aRBR1DayAR_ = value;
         onChanged();
         return this;
@@ -25933,7 +26079,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearARBR1DayAR() {
-        bitField4_ = (bitField4_ & ~0x00004000);
+        bitField4_ = (bitField4_ & ~0x00000100);
         aRBR1DayAR_ = 0L;
         onChanged();
         return this;
@@ -25948,7 +26094,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasARBR1DayBR() {
-        return ((bitField4_ & 0x00008000) == 0x00008000);
+        return ((bitField4_ & 0x00000200) == 0x00000200);
       }
       /**
        * <code>optional int64 ARBR1dayBR = 244;</code>
@@ -25968,7 +26114,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setARBR1DayBR(long value) {
-        bitField4_ |= 0x00008000;
+        bitField4_ |= 0x00000200;
         aRBR1DayBR_ = value;
         onChanged();
         return this;
@@ -25981,7 +26127,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearARBR1DayBR() {
-        bitField4_ = (bitField4_ & ~0x00008000);
+        bitField4_ = (bitField4_ & ~0x00000200);
         aRBR1DayBR_ = 0L;
         onChanged();
         return this;
@@ -25996,7 +26142,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasBIAS1MinBIAS1() {
-        return ((bitField4_ & 0x00010000) == 0x00010000);
+        return ((bitField4_ & 0x00000400) == 0x00000400);
       }
       /**
        * <code>optional int64 BIAS1minBIAS1 = 245;</code>
@@ -26016,7 +26162,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setBIAS1MinBIAS1(long value) {
-        bitField4_ |= 0x00010000;
+        bitField4_ |= 0x00000400;
         bIAS1MinBIAS1_ = value;
         onChanged();
         return this;
@@ -26029,7 +26175,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearBIAS1MinBIAS1() {
-        bitField4_ = (bitField4_ & ~0x00010000);
+        bitField4_ = (bitField4_ & ~0x00000400);
         bIAS1MinBIAS1_ = 0L;
         onChanged();
         return this;
@@ -26044,7 +26190,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasBIAS1MinBIAS2() {
-        return ((bitField4_ & 0x00020000) == 0x00020000);
+        return ((bitField4_ & 0x00000800) == 0x00000800);
       }
       /**
        * <code>optional int64 BIAS1minBIAS2 = 246;</code>
@@ -26064,7 +26210,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setBIAS1MinBIAS2(long value) {
-        bitField4_ |= 0x00020000;
+        bitField4_ |= 0x00000800;
         bIAS1MinBIAS2_ = value;
         onChanged();
         return this;
@@ -26077,7 +26223,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearBIAS1MinBIAS2() {
-        bitField4_ = (bitField4_ & ~0x00020000);
+        bitField4_ = (bitField4_ & ~0x00000800);
         bIAS1MinBIAS2_ = 0L;
         onChanged();
         return this;
@@ -26092,7 +26238,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasBIAS1MinBIAS3() {
-        return ((bitField4_ & 0x00040000) == 0x00040000);
+        return ((bitField4_ & 0x00001000) == 0x00001000);
       }
       /**
        * <code>optional int64 BIAS1minBIAS3 = 247;</code>
@@ -26112,7 +26258,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setBIAS1MinBIAS3(long value) {
-        bitField4_ |= 0x00040000;
+        bitField4_ |= 0x00001000;
         bIAS1MinBIAS3_ = value;
         onChanged();
         return this;
@@ -26125,7 +26271,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearBIAS1MinBIAS3() {
-        bitField4_ = (bitField4_ & ~0x00040000);
+        bitField4_ = (bitField4_ & ~0x00001000);
         bIAS1MinBIAS3_ = 0L;
         onChanged();
         return this;
@@ -26140,7 +26286,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasBIAS5MinBIAS1() {
-        return ((bitField4_ & 0x00080000) == 0x00080000);
+        return ((bitField4_ & 0x00002000) == 0x00002000);
       }
       /**
        * <code>optional int64 BIAS5minBIAS1 = 248;</code>
@@ -26160,7 +26306,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setBIAS5MinBIAS1(long value) {
-        bitField4_ |= 0x00080000;
+        bitField4_ |= 0x00002000;
         bIAS5MinBIAS1_ = value;
         onChanged();
         return this;
@@ -26173,7 +26319,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearBIAS5MinBIAS1() {
-        bitField4_ = (bitField4_ & ~0x00080000);
+        bitField4_ = (bitField4_ & ~0x00002000);
         bIAS5MinBIAS1_ = 0L;
         onChanged();
         return this;
@@ -26188,7 +26334,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasBIAS5MinBIAS2() {
-        return ((bitField4_ & 0x00100000) == 0x00100000);
+        return ((bitField4_ & 0x00004000) == 0x00004000);
       }
       /**
        * <code>optional int64 BIAS5minBIAS2 = 249;</code>
@@ -26208,7 +26354,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setBIAS5MinBIAS2(long value) {
-        bitField4_ |= 0x00100000;
+        bitField4_ |= 0x00004000;
         bIAS5MinBIAS2_ = value;
         onChanged();
         return this;
@@ -26221,7 +26367,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearBIAS5MinBIAS2() {
-        bitField4_ = (bitField4_ & ~0x00100000);
+        bitField4_ = (bitField4_ & ~0x00004000);
         bIAS5MinBIAS2_ = 0L;
         onChanged();
         return this;
@@ -26236,7 +26382,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasBIAS5MinBIAS3() {
-        return ((bitField4_ & 0x00200000) == 0x00200000);
+        return ((bitField4_ & 0x00008000) == 0x00008000);
       }
       /**
        * <code>optional int64 BIAS5minBIAS3 = 250;</code>
@@ -26256,7 +26402,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setBIAS5MinBIAS3(long value) {
-        bitField4_ |= 0x00200000;
+        bitField4_ |= 0x00008000;
         bIAS5MinBIAS3_ = value;
         onChanged();
         return this;
@@ -26269,7 +26415,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearBIAS5MinBIAS3() {
-        bitField4_ = (bitField4_ & ~0x00200000);
+        bitField4_ = (bitField4_ & ~0x00008000);
         bIAS5MinBIAS3_ = 0L;
         onChanged();
         return this;
@@ -26284,7 +26430,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasBIAS1DayBIAS1() {
-        return ((bitField4_ & 0x00400000) == 0x00400000);
+        return ((bitField4_ & 0x00010000) == 0x00010000);
       }
       /**
        * <code>optional int64 BIAS1dayBIAS1 = 251;</code>
@@ -26304,7 +26450,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setBIAS1DayBIAS1(long value) {
-        bitField4_ |= 0x00400000;
+        bitField4_ |= 0x00010000;
         bIAS1DayBIAS1_ = value;
         onChanged();
         return this;
@@ -26317,7 +26463,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearBIAS1DayBIAS1() {
-        bitField4_ = (bitField4_ & ~0x00400000);
+        bitField4_ = (bitField4_ & ~0x00010000);
         bIAS1DayBIAS1_ = 0L;
         onChanged();
         return this;
@@ -26332,7 +26478,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasBIAS1DayBIAS2() {
-        return ((bitField4_ & 0x00800000) == 0x00800000);
+        return ((bitField4_ & 0x00020000) == 0x00020000);
       }
       /**
        * <code>optional int64 BIAS1dayBIAS2 = 252;</code>
@@ -26352,7 +26498,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setBIAS1DayBIAS2(long value) {
-        bitField4_ |= 0x00800000;
+        bitField4_ |= 0x00020000;
         bIAS1DayBIAS2_ = value;
         onChanged();
         return this;
@@ -26365,7 +26511,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearBIAS1DayBIAS2() {
-        bitField4_ = (bitField4_ & ~0x00800000);
+        bitField4_ = (bitField4_ & ~0x00020000);
         bIAS1DayBIAS2_ = 0L;
         onChanged();
         return this;
@@ -26380,7 +26526,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasBIAS1DayBIAS3() {
-        return ((bitField4_ & 0x01000000) == 0x01000000);
+        return ((bitField4_ & 0x00040000) == 0x00040000);
       }
       /**
        * <code>optional int64 BIAS1dayBIAS3 = 253;</code>
@@ -26400,7 +26546,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setBIAS1DayBIAS3(long value) {
-        bitField4_ |= 0x01000000;
+        bitField4_ |= 0x00040000;
         bIAS1DayBIAS3_ = value;
         onChanged();
         return this;
@@ -26413,7 +26559,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearBIAS1DayBIAS3() {
-        bitField4_ = (bitField4_ & ~0x01000000);
+        bitField4_ = (bitField4_ & ~0x00040000);
         bIAS1DayBIAS3_ = 0L;
         onChanged();
         return this;
@@ -26428,7 +26574,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasCCI1Min() {
-        return ((bitField4_ & 0x02000000) == 0x02000000);
+        return ((bitField4_ & 0x00080000) == 0x00080000);
       }
       /**
        * <code>optional int64 CCI1min = 254;</code>
@@ -26448,7 +26594,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setCCI1Min(long value) {
-        bitField4_ |= 0x02000000;
+        bitField4_ |= 0x00080000;
         cCI1Min_ = value;
         onChanged();
         return this;
@@ -26461,7 +26607,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearCCI1Min() {
-        bitField4_ = (bitField4_ & ~0x02000000);
+        bitField4_ = (bitField4_ & ~0x00080000);
         cCI1Min_ = 0L;
         onChanged();
         return this;
@@ -26476,7 +26622,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasCCI5Min() {
-        return ((bitField4_ & 0x04000000) == 0x04000000);
+        return ((bitField4_ & 0x00100000) == 0x00100000);
       }
       /**
        * <code>optional int64 CCI5min = 255;</code>
@@ -26496,7 +26642,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setCCI5Min(long value) {
-        bitField4_ |= 0x04000000;
+        bitField4_ |= 0x00100000;
         cCI5Min_ = value;
         onChanged();
         return this;
@@ -26509,7 +26655,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearCCI5Min() {
-        bitField4_ = (bitField4_ & ~0x04000000);
+        bitField4_ = (bitField4_ & ~0x00100000);
         cCI5Min_ = 0L;
         onChanged();
         return this;
@@ -26524,7 +26670,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasCCI1Day() {
-        return ((bitField4_ & 0x08000000) == 0x08000000);
+        return ((bitField4_ & 0x00200000) == 0x00200000);
       }
       /**
        * <code>optional int64 CCI1day = 256;</code>
@@ -26544,7 +26690,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setCCI1Day(long value) {
-        bitField4_ |= 0x08000000;
+        bitField4_ |= 0x00200000;
         cCI1Day_ = value;
         onChanged();
         return this;
@@ -26557,7 +26703,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearCCI1Day() {
-        bitField4_ = (bitField4_ & ~0x08000000);
+        bitField4_ = (bitField4_ & ~0x00200000);
         cCI1Day_ = 0L;
         onChanged();
         return this;
@@ -26572,7 +26718,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasCJBS1MinCJBS() {
-        return ((bitField4_ & 0x10000000) == 0x10000000);
+        return ((bitField4_ & 0x00400000) == 0x00400000);
       }
       /**
        * <code>optional int64 CJBS1minCJBS = 257;</code>
@@ -26592,7 +26738,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setCJBS1MinCJBS(long value) {
-        bitField4_ |= 0x10000000;
+        bitField4_ |= 0x00400000;
         cJBS1MinCJBS_ = value;
         onChanged();
         return this;
@@ -26605,7 +26751,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearCJBS1MinCJBS() {
-        bitField4_ = (bitField4_ & ~0x10000000);
+        bitField4_ = (bitField4_ & ~0x00400000);
         cJBS1MinCJBS_ = 0L;
         onChanged();
         return this;
@@ -26620,7 +26766,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasCJBS5MinCJBS() {
-        return ((bitField4_ & 0x20000000) == 0x20000000);
+        return ((bitField4_ & 0x00800000) == 0x00800000);
       }
       /**
        * <code>optional int64 CJBS5minCJBS = 258;</code>
@@ -26640,7 +26786,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setCJBS5MinCJBS(long value) {
-        bitField4_ |= 0x20000000;
+        bitField4_ |= 0x00800000;
         cJBS5MinCJBS_ = value;
         onChanged();
         return this;
@@ -26653,7 +26799,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearCJBS5MinCJBS() {
-        bitField4_ = (bitField4_ & ~0x20000000);
+        bitField4_ = (bitField4_ & ~0x00800000);
         cJBS5MinCJBS_ = 0L;
         onChanged();
         return this;
@@ -26668,7 +26814,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasCJBS1DayCJBS() {
-        return ((bitField4_ & 0x40000000) == 0x40000000);
+        return ((bitField4_ & 0x01000000) == 0x01000000);
       }
       /**
        * <code>optional int64 CJBS1dayCJBS = 259;</code>
@@ -26688,7 +26834,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setCJBS1DayCJBS(long value) {
-        bitField4_ |= 0x40000000;
+        bitField4_ |= 0x01000000;
         cJBS1DayCJBS_ = value;
         onChanged();
         return this;
@@ -26701,7 +26847,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearCJBS1DayCJBS() {
-        bitField4_ = (bitField4_ & ~0x40000000);
+        bitField4_ = (bitField4_ & ~0x01000000);
         cJBS1DayCJBS_ = 0L;
         onChanged();
         return this;
@@ -26716,7 +26862,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasCR1MinCR() {
-        return ((bitField4_ & 0x80000000) == 0x80000000);
+        return ((bitField4_ & 0x02000000) == 0x02000000);
       }
       /**
        * <code>optional int64 CR1minCR = 260;</code>
@@ -26736,7 +26882,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setCR1MinCR(long value) {
-        bitField4_ |= 0x80000000;
+        bitField4_ |= 0x02000000;
         cR1MinCR_ = value;
         onChanged();
         return this;
@@ -26749,7 +26895,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearCR1MinCR() {
-        bitField4_ = (bitField4_ & ~0x80000000);
+        bitField4_ = (bitField4_ & ~0x02000000);
         cR1MinCR_ = 0L;
         onChanged();
         return this;
@@ -26764,7 +26910,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasCR1MinMA1() {
-        return ((bitField5_ & 0x00000001) == 0x00000001);
+        return ((bitField4_ & 0x04000000) == 0x04000000);
       }
       /**
        * <code>optional int64 CR1minMA1 = 261;</code>
@@ -26784,7 +26930,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setCR1MinMA1(long value) {
-        bitField5_ |= 0x00000001;
+        bitField4_ |= 0x04000000;
         cR1MinMA1_ = value;
         onChanged();
         return this;
@@ -26797,7 +26943,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearCR1MinMA1() {
-        bitField5_ = (bitField5_ & ~0x00000001);
+        bitField4_ = (bitField4_ & ~0x04000000);
         cR1MinMA1_ = 0L;
         onChanged();
         return this;
@@ -26812,7 +26958,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasCR1MinMA2() {
-        return ((bitField5_ & 0x00000002) == 0x00000002);
+        return ((bitField4_ & 0x08000000) == 0x08000000);
       }
       /**
        * <code>optional int64 CR1minMA2 = 262;</code>
@@ -26832,7 +26978,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setCR1MinMA2(long value) {
-        bitField5_ |= 0x00000002;
+        bitField4_ |= 0x08000000;
         cR1MinMA2_ = value;
         onChanged();
         return this;
@@ -26845,7 +26991,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearCR1MinMA2() {
-        bitField5_ = (bitField5_ & ~0x00000002);
+        bitField4_ = (bitField4_ & ~0x08000000);
         cR1MinMA2_ = 0L;
         onChanged();
         return this;
@@ -26860,7 +27006,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasCR1MinMA3() {
-        return ((bitField5_ & 0x00000004) == 0x00000004);
+        return ((bitField4_ & 0x10000000) == 0x10000000);
       }
       /**
        * <code>optional int64 CR1minMA3 = 263;</code>
@@ -26880,7 +27026,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setCR1MinMA3(long value) {
-        bitField5_ |= 0x00000004;
+        bitField4_ |= 0x10000000;
         cR1MinMA3_ = value;
         onChanged();
         return this;
@@ -26893,7 +27039,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearCR1MinMA3() {
-        bitField5_ = (bitField5_ & ~0x00000004);
+        bitField4_ = (bitField4_ & ~0x10000000);
         cR1MinMA3_ = 0L;
         onChanged();
         return this;
@@ -26908,7 +27054,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasCR5MinCR() {
-        return ((bitField5_ & 0x00000008) == 0x00000008);
+        return ((bitField4_ & 0x20000000) == 0x20000000);
       }
       /**
        * <code>optional int64 CR5minCR = 264;</code>
@@ -26928,7 +27074,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setCR5MinCR(long value) {
-        bitField5_ |= 0x00000008;
+        bitField4_ |= 0x20000000;
         cR5MinCR_ = value;
         onChanged();
         return this;
@@ -26941,7 +27087,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearCR5MinCR() {
-        bitField5_ = (bitField5_ & ~0x00000008);
+        bitField4_ = (bitField4_ & ~0x20000000);
         cR5MinCR_ = 0L;
         onChanged();
         return this;
@@ -26956,7 +27102,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasCR5MinMA1() {
-        return ((bitField5_ & 0x00000010) == 0x00000010);
+        return ((bitField4_ & 0x40000000) == 0x40000000);
       }
       /**
        * <code>optional int64 CR5minMA1 = 265;</code>
@@ -26976,7 +27122,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setCR5MinMA1(long value) {
-        bitField5_ |= 0x00000010;
+        bitField4_ |= 0x40000000;
         cR5MinMA1_ = value;
         onChanged();
         return this;
@@ -26989,7 +27135,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearCR5MinMA1() {
-        bitField5_ = (bitField5_ & ~0x00000010);
+        bitField4_ = (bitField4_ & ~0x40000000);
         cR5MinMA1_ = 0L;
         onChanged();
         return this;
@@ -27004,7 +27150,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasCR5MinMA2() {
-        return ((bitField5_ & 0x00000020) == 0x00000020);
+        return ((bitField4_ & 0x80000000) == 0x80000000);
       }
       /**
        * <code>optional int64 CR5minMA2 = 266;</code>
@@ -27024,7 +27170,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setCR5MinMA2(long value) {
-        bitField5_ |= 0x00000020;
+        bitField4_ |= 0x80000000;
         cR5MinMA2_ = value;
         onChanged();
         return this;
@@ -27037,7 +27183,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearCR5MinMA2() {
-        bitField5_ = (bitField5_ & ~0x00000020);
+        bitField4_ = (bitField4_ & ~0x80000000);
         cR5MinMA2_ = 0L;
         onChanged();
         return this;
@@ -27052,7 +27198,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasCR5MinMA3() {
-        return ((bitField5_ & 0x00000040) == 0x00000040);
+        return ((bitField5_ & 0x00000001) == 0x00000001);
       }
       /**
        * <code>optional int64 CR5minMA3 = 267;</code>
@@ -27072,7 +27218,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setCR5MinMA3(long value) {
-        bitField5_ |= 0x00000040;
+        bitField5_ |= 0x00000001;
         cR5MinMA3_ = value;
         onChanged();
         return this;
@@ -27085,7 +27231,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearCR5MinMA3() {
-        bitField5_ = (bitField5_ & ~0x00000040);
+        bitField5_ = (bitField5_ & ~0x00000001);
         cR5MinMA3_ = 0L;
         onChanged();
         return this;
@@ -27100,7 +27246,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasCR1DayCR() {
-        return ((bitField5_ & 0x00000080) == 0x00000080);
+        return ((bitField5_ & 0x00000002) == 0x00000002);
       }
       /**
        * <code>optional int64 CR1dayCR = 268;</code>
@@ -27120,7 +27266,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setCR1DayCR(long value) {
-        bitField5_ |= 0x00000080;
+        bitField5_ |= 0x00000002;
         cR1DayCR_ = value;
         onChanged();
         return this;
@@ -27133,7 +27279,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearCR1DayCR() {
-        bitField5_ = (bitField5_ & ~0x00000080);
+        bitField5_ = (bitField5_ & ~0x00000002);
         cR1DayCR_ = 0L;
         onChanged();
         return this;
@@ -27148,7 +27294,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasCR1DayMA1() {
-        return ((bitField5_ & 0x00000100) == 0x00000100);
+        return ((bitField5_ & 0x00000004) == 0x00000004);
       }
       /**
        * <code>optional int64 CR1dayMA1 = 269;</code>
@@ -27168,7 +27314,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setCR1DayMA1(long value) {
-        bitField5_ |= 0x00000100;
+        bitField5_ |= 0x00000004;
         cR1DayMA1_ = value;
         onChanged();
         return this;
@@ -27181,7 +27327,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearCR1DayMA1() {
-        bitField5_ = (bitField5_ & ~0x00000100);
+        bitField5_ = (bitField5_ & ~0x00000004);
         cR1DayMA1_ = 0L;
         onChanged();
         return this;
@@ -27196,7 +27342,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasCR1DayMA2() {
-        return ((bitField5_ & 0x00000200) == 0x00000200);
+        return ((bitField5_ & 0x00000008) == 0x00000008);
       }
       /**
        * <code>optional int64 CR1dayMA2 = 270;</code>
@@ -27216,7 +27362,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setCR1DayMA2(long value) {
-        bitField5_ |= 0x00000200;
+        bitField5_ |= 0x00000008;
         cR1DayMA2_ = value;
         onChanged();
         return this;
@@ -27229,7 +27375,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearCR1DayMA2() {
-        bitField5_ = (bitField5_ & ~0x00000200);
+        bitField5_ = (bitField5_ & ~0x00000008);
         cR1DayMA2_ = 0L;
         onChanged();
         return this;
@@ -27244,7 +27390,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasCR1DayMA3() {
-        return ((bitField5_ & 0x00000400) == 0x00000400);
+        return ((bitField5_ & 0x00000010) == 0x00000010);
       }
       /**
        * <code>optional int64 CR1dayMA3 = 271;</code>
@@ -27264,7 +27410,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setCR1DayMA3(long value) {
-        bitField5_ |= 0x00000400;
+        bitField5_ |= 0x00000010;
         cR1DayMA3_ = value;
         onChanged();
         return this;
@@ -27277,7 +27423,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearCR1DayMA3() {
-        bitField5_ = (bitField5_ & ~0x00000400);
+        bitField5_ = (bitField5_ & ~0x00000010);
         cR1DayMA3_ = 0L;
         onChanged();
         return this;
@@ -27292,7 +27438,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasDMA1MinDDD() {
-        return ((bitField5_ & 0x00000800) == 0x00000800);
+        return ((bitField5_ & 0x00000020) == 0x00000020);
       }
       /**
        * <code>optional int64 DMA1minDDD = 272;</code>
@@ -27312,7 +27458,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setDMA1MinDDD(long value) {
-        bitField5_ |= 0x00000800;
+        bitField5_ |= 0x00000020;
         dMA1MinDDD_ = value;
         onChanged();
         return this;
@@ -27325,7 +27471,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearDMA1MinDDD() {
-        bitField5_ = (bitField5_ & ~0x00000800);
+        bitField5_ = (bitField5_ & ~0x00000020);
         dMA1MinDDD_ = 0L;
         onChanged();
         return this;
@@ -27340,7 +27486,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasDMA1MinAMA() {
-        return ((bitField5_ & 0x00001000) == 0x00001000);
+        return ((bitField5_ & 0x00000040) == 0x00000040);
       }
       /**
        * <code>optional int64 DMA1minAMA = 273;</code>
@@ -27360,7 +27506,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setDMA1MinAMA(long value) {
-        bitField5_ |= 0x00001000;
+        bitField5_ |= 0x00000040;
         dMA1MinAMA_ = value;
         onChanged();
         return this;
@@ -27373,7 +27519,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearDMA1MinAMA() {
-        bitField5_ = (bitField5_ & ~0x00001000);
+        bitField5_ = (bitField5_ & ~0x00000040);
         dMA1MinAMA_ = 0L;
         onChanged();
         return this;
@@ -27388,7 +27534,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasDMA5MinDDD() {
-        return ((bitField5_ & 0x00002000) == 0x00002000);
+        return ((bitField5_ & 0x00000080) == 0x00000080);
       }
       /**
        * <code>optional int64 DMA5minDDD = 274;</code>
@@ -27408,7 +27554,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setDMA5MinDDD(long value) {
-        bitField5_ |= 0x00002000;
+        bitField5_ |= 0x00000080;
         dMA5MinDDD_ = value;
         onChanged();
         return this;
@@ -27421,7 +27567,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearDMA5MinDDD() {
-        bitField5_ = (bitField5_ & ~0x00002000);
+        bitField5_ = (bitField5_ & ~0x00000080);
         dMA5MinDDD_ = 0L;
         onChanged();
         return this;
@@ -27436,7 +27582,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasDMA5MinAMA() {
-        return ((bitField5_ & 0x00004000) == 0x00004000);
+        return ((bitField5_ & 0x00000100) == 0x00000100);
       }
       /**
        * <code>optional int64 DMA5minAMA = 275;</code>
@@ -27456,7 +27602,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setDMA5MinAMA(long value) {
-        bitField5_ |= 0x00004000;
+        bitField5_ |= 0x00000100;
         dMA5MinAMA_ = value;
         onChanged();
         return this;
@@ -27469,7 +27615,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearDMA5MinAMA() {
-        bitField5_ = (bitField5_ & ~0x00004000);
+        bitField5_ = (bitField5_ & ~0x00000100);
         dMA5MinAMA_ = 0L;
         onChanged();
         return this;
@@ -27484,7 +27630,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasDMA1DayDDD() {
-        return ((bitField5_ & 0x00008000) == 0x00008000);
+        return ((bitField5_ & 0x00000200) == 0x00000200);
       }
       /**
        * <code>optional int64 DMA1dayDDD = 276;</code>
@@ -27504,7 +27650,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setDMA1DayDDD(long value) {
-        bitField5_ |= 0x00008000;
+        bitField5_ |= 0x00000200;
         dMA1DayDDD_ = value;
         onChanged();
         return this;
@@ -27517,7 +27663,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearDMA1DayDDD() {
-        bitField5_ = (bitField5_ & ~0x00008000);
+        bitField5_ = (bitField5_ & ~0x00000200);
         dMA1DayDDD_ = 0L;
         onChanged();
         return this;
@@ -27532,7 +27678,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasDMA1DayAMA() {
-        return ((bitField5_ & 0x00010000) == 0x00010000);
+        return ((bitField5_ & 0x00000400) == 0x00000400);
       }
       /**
        * <code>optional int64 DMA1dayAMA = 277;</code>
@@ -27552,7 +27698,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setDMA1DayAMA(long value) {
-        bitField5_ |= 0x00010000;
+        bitField5_ |= 0x00000400;
         dMA1DayAMA_ = value;
         onChanged();
         return this;
@@ -27565,7 +27711,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearDMA1DayAMA() {
-        bitField5_ = (bitField5_ & ~0x00010000);
+        bitField5_ = (bitField5_ & ~0x00000400);
         dMA1DayAMA_ = 0L;
         onChanged();
         return this;
@@ -27580,7 +27726,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasDMI1MinPDI() {
-        return ((bitField5_ & 0x00020000) == 0x00020000);
+        return ((bitField5_ & 0x00000800) == 0x00000800);
       }
       /**
        * <code>optional int64 DMI1minPDI = 278;</code>
@@ -27600,7 +27746,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setDMI1MinPDI(long value) {
-        bitField5_ |= 0x00020000;
+        bitField5_ |= 0x00000800;
         dMI1MinPDI_ = value;
         onChanged();
         return this;
@@ -27613,7 +27759,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearDMI1MinPDI() {
-        bitField5_ = (bitField5_ & ~0x00020000);
+        bitField5_ = (bitField5_ & ~0x00000800);
         dMI1MinPDI_ = 0L;
         onChanged();
         return this;
@@ -27628,7 +27774,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasDMI1MinMDI() {
-        return ((bitField5_ & 0x00040000) == 0x00040000);
+        return ((bitField5_ & 0x00001000) == 0x00001000);
       }
       /**
        * <code>optional int64 DMI1minMDI = 279;</code>
@@ -27648,7 +27794,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setDMI1MinMDI(long value) {
-        bitField5_ |= 0x00040000;
+        bitField5_ |= 0x00001000;
         dMI1MinMDI_ = value;
         onChanged();
         return this;
@@ -27661,7 +27807,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearDMI1MinMDI() {
-        bitField5_ = (bitField5_ & ~0x00040000);
+        bitField5_ = (bitField5_ & ~0x00001000);
         dMI1MinMDI_ = 0L;
         onChanged();
         return this;
@@ -27676,7 +27822,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasDMI1MinADX() {
-        return ((bitField5_ & 0x00080000) == 0x00080000);
+        return ((bitField5_ & 0x00002000) == 0x00002000);
       }
       /**
        * <code>optional int64 DMI1minADX = 280;</code>
@@ -27696,7 +27842,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setDMI1MinADX(long value) {
-        bitField5_ |= 0x00080000;
+        bitField5_ |= 0x00002000;
         dMI1MinADX_ = value;
         onChanged();
         return this;
@@ -27709,7 +27855,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearDMI1MinADX() {
-        bitField5_ = (bitField5_ & ~0x00080000);
+        bitField5_ = (bitField5_ & ~0x00002000);
         dMI1MinADX_ = 0L;
         onChanged();
         return this;
@@ -27724,7 +27870,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasDMI1MinADXR() {
-        return ((bitField5_ & 0x00100000) == 0x00100000);
+        return ((bitField5_ & 0x00004000) == 0x00004000);
       }
       /**
        * <code>optional int64 DMI1minADXR = 281;</code>
@@ -27744,7 +27890,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setDMI1MinADXR(long value) {
-        bitField5_ |= 0x00100000;
+        bitField5_ |= 0x00004000;
         dMI1MinADXR_ = value;
         onChanged();
         return this;
@@ -27757,7 +27903,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearDMI1MinADXR() {
-        bitField5_ = (bitField5_ & ~0x00100000);
+        bitField5_ = (bitField5_ & ~0x00004000);
         dMI1MinADXR_ = 0L;
         onChanged();
         return this;
@@ -27772,7 +27918,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasDMI5MinPDI() {
-        return ((bitField5_ & 0x00200000) == 0x00200000);
+        return ((bitField5_ & 0x00008000) == 0x00008000);
       }
       /**
        * <code>optional int64 DMI5minPDI = 282;</code>
@@ -27792,7 +27938,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setDMI5MinPDI(long value) {
-        bitField5_ |= 0x00200000;
+        bitField5_ |= 0x00008000;
         dMI5MinPDI_ = value;
         onChanged();
         return this;
@@ -27805,7 +27951,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearDMI5MinPDI() {
-        bitField5_ = (bitField5_ & ~0x00200000);
+        bitField5_ = (bitField5_ & ~0x00008000);
         dMI5MinPDI_ = 0L;
         onChanged();
         return this;
@@ -27820,7 +27966,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasDMI5MinMDI() {
-        return ((bitField5_ & 0x00400000) == 0x00400000);
+        return ((bitField5_ & 0x00010000) == 0x00010000);
       }
       /**
        * <code>optional int64 DMI5minMDI = 283;</code>
@@ -27840,7 +27986,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setDMI5MinMDI(long value) {
-        bitField5_ |= 0x00400000;
+        bitField5_ |= 0x00010000;
         dMI5MinMDI_ = value;
         onChanged();
         return this;
@@ -27853,7 +27999,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearDMI5MinMDI() {
-        bitField5_ = (bitField5_ & ~0x00400000);
+        bitField5_ = (bitField5_ & ~0x00010000);
         dMI5MinMDI_ = 0L;
         onChanged();
         return this;
@@ -27868,7 +28014,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasDMI5MinADX() {
-        return ((bitField5_ & 0x00800000) == 0x00800000);
+        return ((bitField5_ & 0x00020000) == 0x00020000);
       }
       /**
        * <code>optional int64 DMI5minADX = 284;</code>
@@ -27888,7 +28034,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setDMI5MinADX(long value) {
-        bitField5_ |= 0x00800000;
+        bitField5_ |= 0x00020000;
         dMI5MinADX_ = value;
         onChanged();
         return this;
@@ -27901,7 +28047,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearDMI5MinADX() {
-        bitField5_ = (bitField5_ & ~0x00800000);
+        bitField5_ = (bitField5_ & ~0x00020000);
         dMI5MinADX_ = 0L;
         onChanged();
         return this;
@@ -27916,7 +28062,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasDMI5MinADXR() {
-        return ((bitField5_ & 0x01000000) == 0x01000000);
+        return ((bitField5_ & 0x00040000) == 0x00040000);
       }
       /**
        * <code>optional int64 DMI5minADXR = 285;</code>
@@ -27936,7 +28082,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setDMI5MinADXR(long value) {
-        bitField5_ |= 0x01000000;
+        bitField5_ |= 0x00040000;
         dMI5MinADXR_ = value;
         onChanged();
         return this;
@@ -27949,7 +28095,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearDMI5MinADXR() {
-        bitField5_ = (bitField5_ & ~0x01000000);
+        bitField5_ = (bitField5_ & ~0x00040000);
         dMI5MinADXR_ = 0L;
         onChanged();
         return this;
@@ -27964,7 +28110,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasDMI1DayPDI() {
-        return ((bitField5_ & 0x02000000) == 0x02000000);
+        return ((bitField5_ & 0x00080000) == 0x00080000);
       }
       /**
        * <code>optional int64 DMI1dayPDI = 286;</code>
@@ -27984,7 +28130,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setDMI1DayPDI(long value) {
-        bitField5_ |= 0x02000000;
+        bitField5_ |= 0x00080000;
         dMI1DayPDI_ = value;
         onChanged();
         return this;
@@ -27997,7 +28143,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearDMI1DayPDI() {
-        bitField5_ = (bitField5_ & ~0x02000000);
+        bitField5_ = (bitField5_ & ~0x00080000);
         dMI1DayPDI_ = 0L;
         onChanged();
         return this;
@@ -28012,7 +28158,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasDMI1DayMDI() {
-        return ((bitField5_ & 0x04000000) == 0x04000000);
+        return ((bitField5_ & 0x00100000) == 0x00100000);
       }
       /**
        * <code>optional int64 DMI1dayMDI = 287;</code>
@@ -28032,7 +28178,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setDMI1DayMDI(long value) {
-        bitField5_ |= 0x04000000;
+        bitField5_ |= 0x00100000;
         dMI1DayMDI_ = value;
         onChanged();
         return this;
@@ -28045,7 +28191,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearDMI1DayMDI() {
-        bitField5_ = (bitField5_ & ~0x04000000);
+        bitField5_ = (bitField5_ & ~0x00100000);
         dMI1DayMDI_ = 0L;
         onChanged();
         return this;
@@ -28060,7 +28206,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasDMI1DayADX() {
-        return ((bitField5_ & 0x08000000) == 0x08000000);
+        return ((bitField5_ & 0x00200000) == 0x00200000);
       }
       /**
        * <code>optional int64 DMI1dayADX = 288;</code>
@@ -28080,7 +28226,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setDMI1DayADX(long value) {
-        bitField5_ |= 0x08000000;
+        bitField5_ |= 0x00200000;
         dMI1DayADX_ = value;
         onChanged();
         return this;
@@ -28093,7 +28239,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearDMI1DayADX() {
-        bitField5_ = (bitField5_ & ~0x08000000);
+        bitField5_ = (bitField5_ & ~0x00200000);
         dMI1DayADX_ = 0L;
         onChanged();
         return this;
@@ -28108,7 +28254,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasDMI1DayADXR() {
-        return ((bitField5_ & 0x10000000) == 0x10000000);
+        return ((bitField5_ & 0x00400000) == 0x00400000);
       }
       /**
        * <code>optional int64 DMI1dayADXR = 289;</code>
@@ -28128,7 +28274,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setDMI1DayADXR(long value) {
-        bitField5_ |= 0x10000000;
+        bitField5_ |= 0x00400000;
         dMI1DayADXR_ = value;
         onChanged();
         return this;
@@ -28141,7 +28287,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearDMI1DayADXR() {
-        bitField5_ = (bitField5_ & ~0x10000000);
+        bitField5_ = (bitField5_ & ~0x00400000);
         dMI1DayADXR_ = 0L;
         onChanged();
         return this;
@@ -28156,7 +28302,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasKDJ1MinK() {
-        return ((bitField5_ & 0x20000000) == 0x20000000);
+        return ((bitField5_ & 0x00800000) == 0x00800000);
       }
       /**
        * <code>optional int64 KDJ1minK = 290;</code>
@@ -28176,7 +28322,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setKDJ1MinK(long value) {
-        bitField5_ |= 0x20000000;
+        bitField5_ |= 0x00800000;
         kDJ1MinK_ = value;
         onChanged();
         return this;
@@ -28189,7 +28335,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearKDJ1MinK() {
-        bitField5_ = (bitField5_ & ~0x20000000);
+        bitField5_ = (bitField5_ & ~0x00800000);
         kDJ1MinK_ = 0L;
         onChanged();
         return this;
@@ -28204,7 +28350,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasKDJ1MinD() {
-        return ((bitField5_ & 0x40000000) == 0x40000000);
+        return ((bitField5_ & 0x01000000) == 0x01000000);
       }
       /**
        * <code>optional int64 KDJ1minD = 291;</code>
@@ -28224,7 +28370,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setKDJ1MinD(long value) {
-        bitField5_ |= 0x40000000;
+        bitField5_ |= 0x01000000;
         kDJ1MinD_ = value;
         onChanged();
         return this;
@@ -28237,7 +28383,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearKDJ1MinD() {
-        bitField5_ = (bitField5_ & ~0x40000000);
+        bitField5_ = (bitField5_ & ~0x01000000);
         kDJ1MinD_ = 0L;
         onChanged();
         return this;
@@ -28252,7 +28398,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasKDJ1MinJ() {
-        return ((bitField5_ & 0x80000000) == 0x80000000);
+        return ((bitField5_ & 0x02000000) == 0x02000000);
       }
       /**
        * <code>optional int64 KDJ1minJ = 292;</code>
@@ -28272,7 +28418,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setKDJ1MinJ(long value) {
-        bitField5_ |= 0x80000000;
+        bitField5_ |= 0x02000000;
         kDJ1MinJ_ = value;
         onChanged();
         return this;
@@ -28285,7 +28431,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearKDJ1MinJ() {
-        bitField5_ = (bitField5_ & ~0x80000000);
+        bitField5_ = (bitField5_ & ~0x02000000);
         kDJ1MinJ_ = 0L;
         onChanged();
         return this;
@@ -28300,7 +28446,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasKDJ5MinK() {
-        return ((bitField6_ & 0x00000001) == 0x00000001);
+        return ((bitField5_ & 0x04000000) == 0x04000000);
       }
       /**
        * <code>optional int64 KDJ5minK = 293;</code>
@@ -28320,7 +28466,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setKDJ5MinK(long value) {
-        bitField6_ |= 0x00000001;
+        bitField5_ |= 0x04000000;
         kDJ5MinK_ = value;
         onChanged();
         return this;
@@ -28333,7 +28479,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearKDJ5MinK() {
-        bitField6_ = (bitField6_ & ~0x00000001);
+        bitField5_ = (bitField5_ & ~0x04000000);
         kDJ5MinK_ = 0L;
         onChanged();
         return this;
@@ -28348,7 +28494,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasKDJ5MinD() {
-        return ((bitField6_ & 0x00000002) == 0x00000002);
+        return ((bitField5_ & 0x08000000) == 0x08000000);
       }
       /**
        * <code>optional int64 KDJ5minD = 294;</code>
@@ -28368,7 +28514,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setKDJ5MinD(long value) {
-        bitField6_ |= 0x00000002;
+        bitField5_ |= 0x08000000;
         kDJ5MinD_ = value;
         onChanged();
         return this;
@@ -28381,7 +28527,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearKDJ5MinD() {
-        bitField6_ = (bitField6_ & ~0x00000002);
+        bitField5_ = (bitField5_ & ~0x08000000);
         kDJ5MinD_ = 0L;
         onChanged();
         return this;
@@ -28396,7 +28542,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasKDJ5MinJ() {
-        return ((bitField6_ & 0x00000004) == 0x00000004);
+        return ((bitField5_ & 0x10000000) == 0x10000000);
       }
       /**
        * <code>optional int64 KDJ5minJ = 295;</code>
@@ -28416,7 +28562,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setKDJ5MinJ(long value) {
-        bitField6_ |= 0x00000004;
+        bitField5_ |= 0x10000000;
         kDJ5MinJ_ = value;
         onChanged();
         return this;
@@ -28429,7 +28575,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearKDJ5MinJ() {
-        bitField6_ = (bitField6_ & ~0x00000004);
+        bitField5_ = (bitField5_ & ~0x10000000);
         kDJ5MinJ_ = 0L;
         onChanged();
         return this;
@@ -28444,7 +28590,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasKDJ1DayK() {
-        return ((bitField6_ & 0x00000008) == 0x00000008);
+        return ((bitField5_ & 0x20000000) == 0x20000000);
       }
       /**
        * <code>optional int64 KDJ1dayK = 296;</code>
@@ -28464,7 +28610,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setKDJ1DayK(long value) {
-        bitField6_ |= 0x00000008;
+        bitField5_ |= 0x20000000;
         kDJ1DayK_ = value;
         onChanged();
         return this;
@@ -28477,7 +28623,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearKDJ1DayK() {
-        bitField6_ = (bitField6_ & ~0x00000008);
+        bitField5_ = (bitField5_ & ~0x20000000);
         kDJ1DayK_ = 0L;
         onChanged();
         return this;
@@ -28492,7 +28638,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasKDJ1DayD() {
-        return ((bitField6_ & 0x00000010) == 0x00000010);
+        return ((bitField5_ & 0x40000000) == 0x40000000);
       }
       /**
        * <code>optional int64 KDJ1dayD = 297;</code>
@@ -28512,7 +28658,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setKDJ1DayD(long value) {
-        bitField6_ |= 0x00000010;
+        bitField5_ |= 0x40000000;
         kDJ1DayD_ = value;
         onChanged();
         return this;
@@ -28525,7 +28671,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearKDJ1DayD() {
-        bitField6_ = (bitField6_ & ~0x00000010);
+        bitField5_ = (bitField5_ & ~0x40000000);
         kDJ1DayD_ = 0L;
         onChanged();
         return this;
@@ -28540,7 +28686,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasKDJ1DayJ() {
-        return ((bitField6_ & 0x00000020) == 0x00000020);
+        return ((bitField5_ & 0x80000000) == 0x80000000);
       }
       /**
        * <code>optional int64 KDJ1dayJ = 298;</code>
@@ -28560,7 +28706,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setKDJ1DayJ(long value) {
-        bitField6_ |= 0x00000020;
+        bitField5_ |= 0x80000000;
         kDJ1DayJ_ = value;
         onChanged();
         return this;
@@ -28573,7 +28719,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearKDJ1DayJ() {
-        bitField6_ = (bitField6_ & ~0x00000020);
+        bitField5_ = (bitField5_ & ~0x80000000);
         kDJ1DayJ_ = 0L;
         onChanged();
         return this;
@@ -28588,7 +28734,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMACD1MinDIFF() {
-        return ((bitField6_ & 0x00000040) == 0x00000040);
+        return ((bitField6_ & 0x00000001) == 0x00000001);
       }
       /**
        * <code>optional int64 MACD1minDIFF = 299;</code>
@@ -28608,7 +28754,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMACD1MinDIFF(long value) {
-        bitField6_ |= 0x00000040;
+        bitField6_ |= 0x00000001;
         mACD1MinDIFF_ = value;
         onChanged();
         return this;
@@ -28621,7 +28767,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMACD1MinDIFF() {
-        bitField6_ = (bitField6_ & ~0x00000040);
+        bitField6_ = (bitField6_ & ~0x00000001);
         mACD1MinDIFF_ = 0L;
         onChanged();
         return this;
@@ -28636,7 +28782,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMACD1MinDEA() {
-        return ((bitField6_ & 0x00000080) == 0x00000080);
+        return ((bitField6_ & 0x00000002) == 0x00000002);
       }
       /**
        * <code>optional int64 MACD1minDEA = 300;</code>
@@ -28656,7 +28802,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMACD1MinDEA(long value) {
-        bitField6_ |= 0x00000080;
+        bitField6_ |= 0x00000002;
         mACD1MinDEA_ = value;
         onChanged();
         return this;
@@ -28669,7 +28815,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMACD1MinDEA() {
-        bitField6_ = (bitField6_ & ~0x00000080);
+        bitField6_ = (bitField6_ & ~0x00000002);
         mACD1MinDEA_ = 0L;
         onChanged();
         return this;
@@ -28684,7 +28830,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMACD1MinMACD() {
-        return ((bitField6_ & 0x00000100) == 0x00000100);
+        return ((bitField6_ & 0x00000004) == 0x00000004);
       }
       /**
        * <code>optional int64 MACD1minMACD = 301;</code>
@@ -28704,7 +28850,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMACD1MinMACD(long value) {
-        bitField6_ |= 0x00000100;
+        bitField6_ |= 0x00000004;
         mACD1MinMACD_ = value;
         onChanged();
         return this;
@@ -28717,7 +28863,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMACD1MinMACD() {
-        bitField6_ = (bitField6_ & ~0x00000100);
+        bitField6_ = (bitField6_ & ~0x00000004);
         mACD1MinMACD_ = 0L;
         onChanged();
         return this;
@@ -28732,7 +28878,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMACD5MinDIFF() {
-        return ((bitField6_ & 0x00000200) == 0x00000200);
+        return ((bitField6_ & 0x00000008) == 0x00000008);
       }
       /**
        * <code>optional int64 MACD5minDIFF = 302;</code>
@@ -28752,7 +28898,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMACD5MinDIFF(long value) {
-        bitField6_ |= 0x00000200;
+        bitField6_ |= 0x00000008;
         mACD5MinDIFF_ = value;
         onChanged();
         return this;
@@ -28765,7 +28911,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMACD5MinDIFF() {
-        bitField6_ = (bitField6_ & ~0x00000200);
+        bitField6_ = (bitField6_ & ~0x00000008);
         mACD5MinDIFF_ = 0L;
         onChanged();
         return this;
@@ -28780,7 +28926,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMACD5MinDEA() {
-        return ((bitField6_ & 0x00000400) == 0x00000400);
+        return ((bitField6_ & 0x00000010) == 0x00000010);
       }
       /**
        * <code>optional int64 MACD5minDEA = 303;</code>
@@ -28800,7 +28946,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMACD5MinDEA(long value) {
-        bitField6_ |= 0x00000400;
+        bitField6_ |= 0x00000010;
         mACD5MinDEA_ = value;
         onChanged();
         return this;
@@ -28813,7 +28959,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMACD5MinDEA() {
-        bitField6_ = (bitField6_ & ~0x00000400);
+        bitField6_ = (bitField6_ & ~0x00000010);
         mACD5MinDEA_ = 0L;
         onChanged();
         return this;
@@ -28828,7 +28974,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMACD5MinMACD() {
-        return ((bitField6_ & 0x00000800) == 0x00000800);
+        return ((bitField6_ & 0x00000020) == 0x00000020);
       }
       /**
        * <code>optional int64 MACD5minMACD = 304;</code>
@@ -28848,7 +28994,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMACD5MinMACD(long value) {
-        bitField6_ |= 0x00000800;
+        bitField6_ |= 0x00000020;
         mACD5MinMACD_ = value;
         onChanged();
         return this;
@@ -28861,7 +29007,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMACD5MinMACD() {
-        bitField6_ = (bitField6_ & ~0x00000800);
+        bitField6_ = (bitField6_ & ~0x00000020);
         mACD5MinMACD_ = 0L;
         onChanged();
         return this;
@@ -28876,7 +29022,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMACD1DayDIFF() {
-        return ((bitField6_ & 0x00001000) == 0x00001000);
+        return ((bitField6_ & 0x00000040) == 0x00000040);
       }
       /**
        * <code>optional int64 MACD1dayDIFF = 305;</code>
@@ -28896,7 +29042,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMACD1DayDIFF(long value) {
-        bitField6_ |= 0x00001000;
+        bitField6_ |= 0x00000040;
         mACD1DayDIFF_ = value;
         onChanged();
         return this;
@@ -28909,7 +29055,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMACD1DayDIFF() {
-        bitField6_ = (bitField6_ & ~0x00001000);
+        bitField6_ = (bitField6_ & ~0x00000040);
         mACD1DayDIFF_ = 0L;
         onChanged();
         return this;
@@ -28924,7 +29070,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMACD1DayDEA() {
-        return ((bitField6_ & 0x00002000) == 0x00002000);
+        return ((bitField6_ & 0x00000080) == 0x00000080);
       }
       /**
        * <code>optional int64 MACD1dayDEA = 306;</code>
@@ -28944,7 +29090,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMACD1DayDEA(long value) {
-        bitField6_ |= 0x00002000;
+        bitField6_ |= 0x00000080;
         mACD1DayDEA_ = value;
         onChanged();
         return this;
@@ -28957,7 +29103,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMACD1DayDEA() {
-        bitField6_ = (bitField6_ & ~0x00002000);
+        bitField6_ = (bitField6_ & ~0x00000080);
         mACD1DayDEA_ = 0L;
         onChanged();
         return this;
@@ -28972,7 +29118,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMACD1DayMACD() {
-        return ((bitField6_ & 0x00004000) == 0x00004000);
+        return ((bitField6_ & 0x00000100) == 0x00000100);
       }
       /**
        * <code>optional int64 MACD1dayMACD = 307;</code>
@@ -28992,7 +29138,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMACD1DayMACD(long value) {
-        bitField6_ |= 0x00004000;
+        bitField6_ |= 0x00000100;
         mACD1DayMACD_ = value;
         onChanged();
         return this;
@@ -29005,7 +29151,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMACD1DayMACD() {
-        bitField6_ = (bitField6_ & ~0x00004000);
+        bitField6_ = (bitField6_ & ~0x00000100);
         mACD1DayMACD_ = 0L;
         onChanged();
         return this;
@@ -29020,7 +29166,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasOBV1Min() {
-        return ((bitField6_ & 0x00008000) == 0x00008000);
+        return ((bitField6_ & 0x00000200) == 0x00000200);
       }
       /**
        * <code>optional int64 OBV1min = 308;</code>
@@ -29040,7 +29186,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setOBV1Min(long value) {
-        bitField6_ |= 0x00008000;
+        bitField6_ |= 0x00000200;
         oBV1Min_ = value;
         onChanged();
         return this;
@@ -29053,7 +29199,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearOBV1Min() {
-        bitField6_ = (bitField6_ & ~0x00008000);
+        bitField6_ = (bitField6_ & ~0x00000200);
         oBV1Min_ = 0L;
         onChanged();
         return this;
@@ -29068,7 +29214,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasOBV5Min() {
-        return ((bitField6_ & 0x00010000) == 0x00010000);
+        return ((bitField6_ & 0x00000400) == 0x00000400);
       }
       /**
        * <code>optional int64 OBV5min = 309;</code>
@@ -29088,7 +29234,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setOBV5Min(long value) {
-        bitField6_ |= 0x00010000;
+        bitField6_ |= 0x00000400;
         oBV5Min_ = value;
         onChanged();
         return this;
@@ -29101,7 +29247,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearOBV5Min() {
-        bitField6_ = (bitField6_ & ~0x00010000);
+        bitField6_ = (bitField6_ & ~0x00000400);
         oBV5Min_ = 0L;
         onChanged();
         return this;
@@ -29116,7 +29262,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasOBV1Day() {
-        return ((bitField6_ & 0x00020000) == 0x00020000);
+        return ((bitField6_ & 0x00000800) == 0x00000800);
       }
       /**
        * <code>optional int64 OBV1day = 310;</code>
@@ -29136,7 +29282,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setOBV1Day(long value) {
-        bitField6_ |= 0x00020000;
+        bitField6_ |= 0x00000800;
         oBV1Day_ = value;
         onChanged();
         return this;
@@ -29149,7 +29295,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearOBV1Day() {
-        bitField6_ = (bitField6_ & ~0x00020000);
+        bitField6_ = (bitField6_ & ~0x00000800);
         oBV1Day_ = 0L;
         onChanged();
         return this;
@@ -29164,7 +29310,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasPSY1Min() {
-        return ((bitField6_ & 0x00040000) == 0x00040000);
+        return ((bitField6_ & 0x00001000) == 0x00001000);
       }
       /**
        * <code>optional int64 PSY1min = 311;</code>
@@ -29184,7 +29330,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setPSY1Min(long value) {
-        bitField6_ |= 0x00040000;
+        bitField6_ |= 0x00001000;
         pSY1Min_ = value;
         onChanged();
         return this;
@@ -29197,7 +29343,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearPSY1Min() {
-        bitField6_ = (bitField6_ & ~0x00040000);
+        bitField6_ = (bitField6_ & ~0x00001000);
         pSY1Min_ = 0L;
         onChanged();
         return this;
@@ -29212,7 +29358,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasPSY5Min() {
-        return ((bitField6_ & 0x00080000) == 0x00080000);
+        return ((bitField6_ & 0x00002000) == 0x00002000);
       }
       /**
        * <code>optional int64 PSY5min = 312;</code>
@@ -29232,7 +29378,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setPSY5Min(long value) {
-        bitField6_ |= 0x00080000;
+        bitField6_ |= 0x00002000;
         pSY5Min_ = value;
         onChanged();
         return this;
@@ -29245,7 +29391,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearPSY5Min() {
-        bitField6_ = (bitField6_ & ~0x00080000);
+        bitField6_ = (bitField6_ & ~0x00002000);
         pSY5Min_ = 0L;
         onChanged();
         return this;
@@ -29260,7 +29406,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasPSY1Day() {
-        return ((bitField6_ & 0x00100000) == 0x00100000);
+        return ((bitField6_ & 0x00004000) == 0x00004000);
       }
       /**
        * <code>optional int64 PSY1day = 313;</code>
@@ -29280,7 +29426,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setPSY1Day(long value) {
-        bitField6_ |= 0x00100000;
+        bitField6_ |= 0x00004000;
         pSY1Day_ = value;
         onChanged();
         return this;
@@ -29293,7 +29439,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearPSY1Day() {
-        bitField6_ = (bitField6_ & ~0x00100000);
+        bitField6_ = (bitField6_ & ~0x00004000);
         pSY1Day_ = 0L;
         onChanged();
         return this;
@@ -29308,7 +29454,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasRSI1MinRSI1() {
-        return ((bitField6_ & 0x00200000) == 0x00200000);
+        return ((bitField6_ & 0x00008000) == 0x00008000);
       }
       /**
        * <code>optional int64 RSI1minRSI1 = 314;</code>
@@ -29328,7 +29474,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setRSI1MinRSI1(long value) {
-        bitField6_ |= 0x00200000;
+        bitField6_ |= 0x00008000;
         rSI1MinRSI1_ = value;
         onChanged();
         return this;
@@ -29341,7 +29487,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearRSI1MinRSI1() {
-        bitField6_ = (bitField6_ & ~0x00200000);
+        bitField6_ = (bitField6_ & ~0x00008000);
         rSI1MinRSI1_ = 0L;
         onChanged();
         return this;
@@ -29356,7 +29502,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasRSI1MinRSI2() {
-        return ((bitField6_ & 0x00400000) == 0x00400000);
+        return ((bitField6_ & 0x00010000) == 0x00010000);
       }
       /**
        * <code>optional int64 RSI1minRSI2 = 315;</code>
@@ -29376,7 +29522,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setRSI1MinRSI2(long value) {
-        bitField6_ |= 0x00400000;
+        bitField6_ |= 0x00010000;
         rSI1MinRSI2_ = value;
         onChanged();
         return this;
@@ -29389,7 +29535,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearRSI1MinRSI2() {
-        bitField6_ = (bitField6_ & ~0x00400000);
+        bitField6_ = (bitField6_ & ~0x00010000);
         rSI1MinRSI2_ = 0L;
         onChanged();
         return this;
@@ -29404,7 +29550,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasRSI1MinRSI3() {
-        return ((bitField6_ & 0x00800000) == 0x00800000);
+        return ((bitField6_ & 0x00020000) == 0x00020000);
       }
       /**
        * <code>optional int64 RSI1minRSI3 = 316;</code>
@@ -29424,7 +29570,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setRSI1MinRSI3(long value) {
-        bitField6_ |= 0x00800000;
+        bitField6_ |= 0x00020000;
         rSI1MinRSI3_ = value;
         onChanged();
         return this;
@@ -29437,7 +29583,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearRSI1MinRSI3() {
-        bitField6_ = (bitField6_ & ~0x00800000);
+        bitField6_ = (bitField6_ & ~0x00020000);
         rSI1MinRSI3_ = 0L;
         onChanged();
         return this;
@@ -29452,7 +29598,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasRSI5MinRSI1() {
-        return ((bitField6_ & 0x01000000) == 0x01000000);
+        return ((bitField6_ & 0x00040000) == 0x00040000);
       }
       /**
        * <code>optional int64 RSI5minRSI1 = 317;</code>
@@ -29472,7 +29618,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setRSI5MinRSI1(long value) {
-        bitField6_ |= 0x01000000;
+        bitField6_ |= 0x00040000;
         rSI5MinRSI1_ = value;
         onChanged();
         return this;
@@ -29485,7 +29631,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearRSI5MinRSI1() {
-        bitField6_ = (bitField6_ & ~0x01000000);
+        bitField6_ = (bitField6_ & ~0x00040000);
         rSI5MinRSI1_ = 0L;
         onChanged();
         return this;
@@ -29500,7 +29646,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasRSI5MinRSI2() {
-        return ((bitField6_ & 0x02000000) == 0x02000000);
+        return ((bitField6_ & 0x00080000) == 0x00080000);
       }
       /**
        * <code>optional int64 RSI5minRSI2 = 318;</code>
@@ -29520,7 +29666,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setRSI5MinRSI2(long value) {
-        bitField6_ |= 0x02000000;
+        bitField6_ |= 0x00080000;
         rSI5MinRSI2_ = value;
         onChanged();
         return this;
@@ -29533,7 +29679,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearRSI5MinRSI2() {
-        bitField6_ = (bitField6_ & ~0x02000000);
+        bitField6_ = (bitField6_ & ~0x00080000);
         rSI5MinRSI2_ = 0L;
         onChanged();
         return this;
@@ -29548,7 +29694,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasRSI5MinRSI3() {
-        return ((bitField6_ & 0x04000000) == 0x04000000);
+        return ((bitField6_ & 0x00100000) == 0x00100000);
       }
       /**
        * <code>optional int64 RSI5minRSI3 = 319;</code>
@@ -29568,7 +29714,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setRSI5MinRSI3(long value) {
-        bitField6_ |= 0x04000000;
+        bitField6_ |= 0x00100000;
         rSI5MinRSI3_ = value;
         onChanged();
         return this;
@@ -29581,7 +29727,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearRSI5MinRSI3() {
-        bitField6_ = (bitField6_ & ~0x04000000);
+        bitField6_ = (bitField6_ & ~0x00100000);
         rSI5MinRSI3_ = 0L;
         onChanged();
         return this;
@@ -29596,7 +29742,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasRSI1DayRSI1() {
-        return ((bitField6_ & 0x08000000) == 0x08000000);
+        return ((bitField6_ & 0x00200000) == 0x00200000);
       }
       /**
        * <code>optional int64 RSI1dayRSI1 = 320;</code>
@@ -29616,7 +29762,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setRSI1DayRSI1(long value) {
-        bitField6_ |= 0x08000000;
+        bitField6_ |= 0x00200000;
         rSI1DayRSI1_ = value;
         onChanged();
         return this;
@@ -29629,7 +29775,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearRSI1DayRSI1() {
-        bitField6_ = (bitField6_ & ~0x08000000);
+        bitField6_ = (bitField6_ & ~0x00200000);
         rSI1DayRSI1_ = 0L;
         onChanged();
         return this;
@@ -29644,7 +29790,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasRSI1DayRSI2() {
-        return ((bitField6_ & 0x10000000) == 0x10000000);
+        return ((bitField6_ & 0x00400000) == 0x00400000);
       }
       /**
        * <code>optional int64 RSI1dayRSI2 = 321;</code>
@@ -29664,7 +29810,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setRSI1DayRSI2(long value) {
-        bitField6_ |= 0x10000000;
+        bitField6_ |= 0x00400000;
         rSI1DayRSI2_ = value;
         onChanged();
         return this;
@@ -29677,7 +29823,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearRSI1DayRSI2() {
-        bitField6_ = (bitField6_ & ~0x10000000);
+        bitField6_ = (bitField6_ & ~0x00400000);
         rSI1DayRSI2_ = 0L;
         onChanged();
         return this;
@@ -29692,7 +29838,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasRSI1DayRSI3() {
-        return ((bitField6_ & 0x20000000) == 0x20000000);
+        return ((bitField6_ & 0x00800000) == 0x00800000);
       }
       /**
        * <code>optional int64 RSI1dayRSI3 = 322;</code>
@@ -29712,7 +29858,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setRSI1DayRSI3(long value) {
-        bitField6_ |= 0x20000000;
+        bitField6_ |= 0x00800000;
         rSI1DayRSI3_ = value;
         onChanged();
         return this;
@@ -29725,7 +29871,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearRSI1DayRSI3() {
-        bitField6_ = (bitField6_ & ~0x20000000);
+        bitField6_ = (bitField6_ & ~0x00800000);
         rSI1DayRSI3_ = 0L;
         onChanged();
         return this;
@@ -29740,7 +29886,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasWR1MinWR1() {
-        return ((bitField6_ & 0x40000000) == 0x40000000);
+        return ((bitField6_ & 0x01000000) == 0x01000000);
       }
       /**
        * <code>optional int64 WR1minWR1 = 323;</code>
@@ -29760,7 +29906,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setWR1MinWR1(long value) {
-        bitField6_ |= 0x40000000;
+        bitField6_ |= 0x01000000;
         wR1MinWR1_ = value;
         onChanged();
         return this;
@@ -29773,7 +29919,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearWR1MinWR1() {
-        bitField6_ = (bitField6_ & ~0x40000000);
+        bitField6_ = (bitField6_ & ~0x01000000);
         wR1MinWR1_ = 0L;
         onChanged();
         return this;
@@ -29788,7 +29934,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasWR1MinWR2() {
-        return ((bitField6_ & 0x80000000) == 0x80000000);
+        return ((bitField6_ & 0x02000000) == 0x02000000);
       }
       /**
        * <code>optional int64 WR1minWR2 = 324;</code>
@@ -29808,7 +29954,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setWR1MinWR2(long value) {
-        bitField6_ |= 0x80000000;
+        bitField6_ |= 0x02000000;
         wR1MinWR2_ = value;
         onChanged();
         return this;
@@ -29821,7 +29967,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearWR1MinWR2() {
-        bitField6_ = (bitField6_ & ~0x80000000);
+        bitField6_ = (bitField6_ & ~0x02000000);
         wR1MinWR2_ = 0L;
         onChanged();
         return this;
@@ -29836,7 +29982,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasWR5MinWR1() {
-        return ((bitField7_ & 0x00000001) == 0x00000001);
+        return ((bitField6_ & 0x04000000) == 0x04000000);
       }
       /**
        * <code>optional int64 WR5minWR1 = 325;</code>
@@ -29856,7 +30002,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setWR5MinWR1(long value) {
-        bitField7_ |= 0x00000001;
+        bitField6_ |= 0x04000000;
         wR5MinWR1_ = value;
         onChanged();
         return this;
@@ -29869,7 +30015,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearWR5MinWR1() {
-        bitField7_ = (bitField7_ & ~0x00000001);
+        bitField6_ = (bitField6_ & ~0x04000000);
         wR5MinWR1_ = 0L;
         onChanged();
         return this;
@@ -29884,7 +30030,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasWR5MinWR2() {
-        return ((bitField7_ & 0x00000002) == 0x00000002);
+        return ((bitField6_ & 0x08000000) == 0x08000000);
       }
       /**
        * <code>optional int64 WR5minWR2 = 326;</code>
@@ -29904,7 +30050,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setWR5MinWR2(long value) {
-        bitField7_ |= 0x00000002;
+        bitField6_ |= 0x08000000;
         wR5MinWR2_ = value;
         onChanged();
         return this;
@@ -29917,7 +30063,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearWR5MinWR2() {
-        bitField7_ = (bitField7_ & ~0x00000002);
+        bitField6_ = (bitField6_ & ~0x08000000);
         wR5MinWR2_ = 0L;
         onChanged();
         return this;
@@ -29932,7 +30078,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasWR1DayWR1() {
-        return ((bitField7_ & 0x00000004) == 0x00000004);
+        return ((bitField6_ & 0x10000000) == 0x10000000);
       }
       /**
        * <code>optional int64 WR1dayWR1 = 327;</code>
@@ -29952,7 +30098,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setWR1DayWR1(long value) {
-        bitField7_ |= 0x00000004;
+        bitField6_ |= 0x10000000;
         wR1DayWR1_ = value;
         onChanged();
         return this;
@@ -29965,7 +30111,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearWR1DayWR1() {
-        bitField7_ = (bitField7_ & ~0x00000004);
+        bitField6_ = (bitField6_ & ~0x10000000);
         wR1DayWR1_ = 0L;
         onChanged();
         return this;
@@ -29980,7 +30126,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasWR1DayWR2() {
-        return ((bitField7_ & 0x00000008) == 0x00000008);
+        return ((bitField6_ & 0x20000000) == 0x20000000);
       }
       /**
        * <code>optional int64 WR1dayWR2 = 328;</code>
@@ -30000,7 +30146,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setWR1DayWR2(long value) {
-        bitField7_ |= 0x00000008;
+        bitField6_ |= 0x20000000;
         wR1DayWR2_ = value;
         onChanged();
         return this;
@@ -30013,7 +30159,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearWR1DayWR2() {
-        bitField7_ = (bitField7_ & ~0x00000008);
+        bitField6_ = (bitField6_ & ~0x20000000);
         wR1DayWR2_ = 0L;
         onChanged();
         return this;
@@ -30028,7 +30174,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasLeiXing() {
-        return ((bitField7_ & 0x00000010) == 0x00000010);
+        return ((bitField6_ & 0x40000000) == 0x40000000);
       }
       /**
        * <code>optional int64 LeiXing = 400;</code>
@@ -30048,7 +30194,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setLeiXing(long value) {
-        bitField7_ |= 0x00000010;
+        bitField6_ |= 0x40000000;
         leiXing_ = value;
         onChanged();
         return this;
@@ -30061,7 +30207,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearLeiXing() {
-        bitField7_ = (bitField7_ & ~0x00000010);
+        bitField6_ = (bitField6_ & ~0x40000000);
         leiXing_ = 0L;
         onChanged();
         return this;
@@ -30076,7 +30222,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasZiLeiXing() {
-        return ((bitField7_ & 0x00000020) == 0x00000020);
+        return ((bitField6_ & 0x80000000) == 0x80000000);
       }
       /**
        * <code>optional int64 ZiLeiXing = 401;</code>
@@ -30096,7 +30242,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setZiLeiXing(long value) {
-        bitField7_ |= 0x00000020;
+        bitField6_ |= 0x80000000;
         ziLeiXing_ = value;
         onChanged();
         return this;
@@ -30109,7 +30255,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearZiLeiXing() {
-        bitField7_ = (bitField7_ & ~0x00000020);
+        bitField6_ = (bitField6_ & ~0x80000000);
         ziLeiXing_ = 0L;
         onChanged();
         return this;
@@ -30124,7 +30270,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasLeiXingMingCheng() {
-        return ((bitField7_ & 0x00000040) == 0x00000040);
+        return ((bitField7_ & 0x00000001) == 0x00000001);
       }
       /**
        * <code>optional string LeiXingMingCheng = 402;</code>
@@ -30179,7 +30325,7 @@ public final class DzhyunStkdata {
         if (value == null) {
     throw new NullPointerException();
   }
-  bitField7_ |= 0x00000040;
+  bitField7_ |= 0x00000001;
         leiXingMingCheng_ = value;
         onChanged();
         return this;
@@ -30192,7 +30338,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearLeiXingMingCheng() {
-        bitField7_ = (bitField7_ & ~0x00000040);
+        bitField7_ = (bitField7_ & ~0x00000001);
         leiXingMingCheng_ = getDefaultInstance().getLeiXingMingCheng();
         onChanged();
         return this;
@@ -30209,7 +30355,7 @@ public final class DzhyunStkdata {
         if (value == null) {
     throw new NullPointerException();
   }
-  bitField7_ |= 0x00000040;
+  bitField7_ |= 0x00000001;
         leiXingMingCheng_ = value;
         onChanged();
         return this;
@@ -30224,7 +30370,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasChengJiaoLiangDanWei() {
-        return ((bitField7_ & 0x00000080) == 0x00000080);
+        return ((bitField7_ & 0x00000002) == 0x00000002);
       }
       /**
        * <code>optional int64 ChengJiaoLiangDanWei = 403;</code>
@@ -30244,7 +30390,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setChengJiaoLiangDanWei(long value) {
-        bitField7_ |= 0x00000080;
+        bitField7_ |= 0x00000002;
         chengJiaoLiangDanWei_ = value;
         onChanged();
         return this;
@@ -30257,7 +30403,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearChengJiaoLiangDanWei() {
-        bitField7_ = (bitField7_ & ~0x00000080);
+        bitField7_ = (bitField7_ & ~0x00000002);
         chengJiaoLiangDanWei_ = 0L;
         onChanged();
         return this;
@@ -30272,7 +30418,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasFJJJLeiXing() {
-        return ((bitField7_ & 0x00000100) == 0x00000100);
+        return ((bitField7_ & 0x00000004) == 0x00000004);
       }
       /**
        * <code>optional int64 FJJJLeiXing = 501;</code>
@@ -30292,7 +30438,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setFJJJLeiXing(long value) {
-        bitField7_ |= 0x00000100;
+        bitField7_ |= 0x00000004;
         fJJJLeiXing_ = value;
         onChanged();
         return this;
@@ -30305,7 +30451,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearFJJJLeiXing() {
-        bitField7_ = (bitField7_ & ~0x00000100);
+        bitField7_ = (bitField7_ & ~0x00000004);
         fJJJLeiXing_ = 0L;
         onChanged();
         return this;
@@ -30320,7 +30466,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasZhengTiYiJia() {
-        return ((bitField7_ & 0x00000200) == 0x00000200);
+        return ((bitField7_ & 0x00000008) == 0x00000008);
       }
       /**
        * <code>optional int64 ZhengTiYiJia = 502;</code>
@@ -30340,7 +30486,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setZhengTiYiJia(long value) {
-        bitField7_ |= 0x00000200;
+        bitField7_ |= 0x00000008;
         zhengTiYiJia_ = value;
         onChanged();
         return this;
@@ -30353,7 +30499,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearZhengTiYiJia() {
-        bitField7_ = (bitField7_ & ~0x00000200);
+        bitField7_ = (bitField7_ & ~0x00000008);
         zhengTiYiJia_ = 0L;
         onChanged();
         return this;
@@ -30368,7 +30514,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMYiJia() {
-        return ((bitField7_ & 0x00000400) == 0x00000400);
+        return ((bitField7_ & 0x00000010) == 0x00000010);
       }
       /**
        * <code>optional int64 MYiJia = 551;</code>
@@ -30388,7 +30534,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMYiJia(long value) {
-        bitField7_ |= 0x00000400;
+        bitField7_ |= 0x00000010;
         mYiJia_ = value;
         onChanged();
         return this;
@@ -30401,7 +30547,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMYiJia() {
-        bitField7_ = (bitField7_ & ~0x00000400);
+        bitField7_ = (bitField7_ & ~0x00000010);
         mYiJia_ = 0L;
         onChanged();
         return this;
@@ -30416,7 +30562,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMShiShiJingZhi() {
-        return ((bitField7_ & 0x00000800) == 0x00000800);
+        return ((bitField7_ & 0x00000020) == 0x00000020);
       }
       /**
        * <code>optional int64 MShiShiJingZhi = 552;</code>
@@ -30436,7 +30582,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMShiShiJingZhi(long value) {
-        bitField7_ |= 0x00000800;
+        bitField7_ |= 0x00000020;
         mShiShiJingZhi_ = value;
         onChanged();
         return this;
@@ -30449,7 +30595,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMShiShiJingZhi() {
-        bitField7_ = (bitField7_ & ~0x00000800);
+        bitField7_ = (bitField7_ & ~0x00000020);
         mShiShiJingZhi_ = 0L;
         onChanged();
         return this;
@@ -30464,7 +30610,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMShangZheXuZhang() {
-        return ((bitField7_ & 0x00001000) == 0x00001000);
+        return ((bitField7_ & 0x00000040) == 0x00000040);
       }
       /**
        * <code>optional int64 MShangZheXuZhang = 553;</code>
@@ -30484,7 +30630,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMShangZheXuZhang(long value) {
-        bitField7_ |= 0x00001000;
+        bitField7_ |= 0x00000040;
         mShangZheXuZhang_ = value;
         onChanged();
         return this;
@@ -30497,7 +30643,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMShangZheXuZhang() {
-        bitField7_ = (bitField7_ & ~0x00001000);
+        bitField7_ = (bitField7_ & ~0x00000040);
         mShangZheXuZhang_ = 0L;
         onChanged();
         return this;
@@ -30512,7 +30658,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMXiaZheXuDie() {
-        return ((bitField7_ & 0x00002000) == 0x00002000);
+        return ((bitField7_ & 0x00000080) == 0x00000080);
       }
       /**
        * <code>optional int64 MXiaZheXuDie = 554;</code>
@@ -30532,7 +30678,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMXiaZheXuDie(long value) {
-        bitField7_ |= 0x00002000;
+        bitField7_ |= 0x00000080;
         mXiaZheXuDie_ = value;
         onChanged();
         return this;
@@ -30545,7 +30691,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMXiaZheXuDie() {
-        bitField7_ = (bitField7_ & ~0x00002000);
+        bitField7_ = (bitField7_ & ~0x00000080);
         mXiaZheXuDie_ = 0L;
         onChanged();
         return this;
@@ -30560,7 +30706,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasYinHanShouYi() {
-        return ((bitField7_ & 0x00004000) == 0x00004000);
+        return ((bitField7_ & 0x00000100) == 0x00000100);
       }
       /**
        * <code>optional int64 YinHanShouYi = 511;</code>
@@ -30580,7 +30726,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setYinHanShouYi(long value) {
-        bitField7_ |= 0x00004000;
+        bitField7_ |= 0x00000100;
         yinHanShouYi_ = value;
         onChanged();
         return this;
@@ -30593,7 +30739,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearYinHanShouYi() {
-        bitField7_ = (bitField7_ & ~0x00004000);
+        bitField7_ = (bitField7_ & ~0x00000100);
         yinHanShouYi_ = 0L;
         onChanged();
         return this;
@@ -30608,7 +30754,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasJiaGeGangGan() {
-        return ((bitField7_ & 0x00008000) == 0x00008000);
+        return ((bitField7_ & 0x00000200) == 0x00000200);
       }
       /**
        * <code>optional int64 JiaGeGangGan = 512;</code>
@@ -30628,7 +30774,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setJiaGeGangGan(long value) {
-        bitField7_ |= 0x00008000;
+        bitField7_ |= 0x00000200;
         jiaGeGangGan_ = value;
         onChanged();
         return this;
@@ -30641,7 +30787,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearJiaGeGangGan() {
-        bitField7_ = (bitField7_ & ~0x00008000);
+        bitField7_ = (bitField7_ & ~0x00000200);
         jiaGeGangGan_ = 0L;
         onChanged();
         return this;
@@ -30656,7 +30802,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasPinZhongObj() {
-        return ((bitField7_ & 0x00010000) == 0x00010000);
+        return ((bitField7_ & 0x00000400) == 0x00000400);
       }
       /**
        * <code>optional string PinZhongObj = 601;</code>
@@ -30711,7 +30857,7 @@ public final class DzhyunStkdata {
         if (value == null) {
     throw new NullPointerException();
   }
-  bitField7_ |= 0x00010000;
+  bitField7_ |= 0x00000400;
         pinZhongObj_ = value;
         onChanged();
         return this;
@@ -30724,7 +30870,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearPinZhongObj() {
-        bitField7_ = (bitField7_ & ~0x00010000);
+        bitField7_ = (bitField7_ & ~0x00000400);
         pinZhongObj_ = getDefaultInstance().getPinZhongObj();
         onChanged();
         return this;
@@ -30741,7 +30887,7 @@ public final class DzhyunStkdata {
         if (value == null) {
     throw new NullPointerException();
   }
-  bitField7_ |= 0x00010000;
+  bitField7_ |= 0x00000400;
         pinZhongObj_ = value;
         onChanged();
         return this;
@@ -30756,7 +30902,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasBaoGaoQi() {
-        return ((bitField7_ & 0x00020000) == 0x00020000);
+        return ((bitField7_ & 0x00000800) == 0x00000800);
       }
       /**
        * <code>optional string BaoGaoQi = 602;</code>
@@ -30811,7 +30957,7 @@ public final class DzhyunStkdata {
         if (value == null) {
     throw new NullPointerException();
   }
-  bitField7_ |= 0x00020000;
+  bitField7_ |= 0x00000800;
         baoGaoQi_ = value;
         onChanged();
         return this;
@@ -30824,7 +30970,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearBaoGaoQi() {
-        bitField7_ = (bitField7_ & ~0x00020000);
+        bitField7_ = (bitField7_ & ~0x00000800);
         baoGaoQi_ = getDefaultInstance().getBaoGaoQi();
         onChanged();
         return this;
@@ -30841,7 +30987,7 @@ public final class DzhyunStkdata {
         if (value == null) {
     throw new NullPointerException();
   }
-  bitField7_ |= 0x00020000;
+  bitField7_ |= 0x00000800;
         baoGaoQi_ = value;
         onChanged();
         return this;
@@ -30856,7 +31002,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasShangShiRiQi() {
-        return ((bitField7_ & 0x00040000) == 0x00040000);
+        return ((bitField7_ & 0x00001000) == 0x00001000);
       }
       /**
        * <code>optional string ShangShiRiQi = 603;</code>
@@ -30911,7 +31057,7 @@ public final class DzhyunStkdata {
         if (value == null) {
     throw new NullPointerException();
   }
-  bitField7_ |= 0x00040000;
+  bitField7_ |= 0x00001000;
         shangShiRiQi_ = value;
         onChanged();
         return this;
@@ -30924,7 +31070,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearShangShiRiQi() {
-        bitField7_ = (bitField7_ & ~0x00040000);
+        bitField7_ = (bitField7_ & ~0x00001000);
         shangShiRiQi_ = getDefaultInstance().getShangShiRiQi();
         onChanged();
         return this;
@@ -30941,7 +31087,7 @@ public final class DzhyunStkdata {
         if (value == null) {
     throw new NullPointerException();
   }
-  bitField7_ |= 0x00040000;
+  bitField7_ |= 0x00001000;
         shangShiRiQi_ = value;
         onChanged();
         return this;
@@ -30956,7 +31102,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMeiGuShouYi() {
-        return ((bitField7_ & 0x00080000) == 0x00080000);
+        return ((bitField7_ & 0x00002000) == 0x00002000);
       }
       /**
        * <code>optional int64 MeiGuShouYi = 604;</code>
@@ -30976,7 +31122,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMeiGuShouYi(long value) {
-        bitField7_ |= 0x00080000;
+        bitField7_ |= 0x00002000;
         meiGuShouYi_ = value;
         onChanged();
         return this;
@@ -30989,7 +31135,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMeiGuShouYi() {
-        bitField7_ = (bitField7_ & ~0x00080000);
+        bitField7_ = (bitField7_ & ~0x00002000);
         meiGuShouYi_ = 0L;
         onChanged();
         return this;
@@ -31004,7 +31150,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMeiGuJingZiChan() {
-        return ((bitField7_ & 0x00100000) == 0x00100000);
+        return ((bitField7_ & 0x00004000) == 0x00004000);
       }
       /**
        * <code>optional int64 MeiGuJingZiChan = 605;</code>
@@ -31024,7 +31170,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMeiGuJingZiChan(long value) {
-        bitField7_ |= 0x00100000;
+        bitField7_ |= 0x00004000;
         meiGuJingZiChan_ = value;
         onChanged();
         return this;
@@ -31037,7 +31183,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMeiGuJingZiChan() {
-        bitField7_ = (bitField7_ & ~0x00100000);
+        bitField7_ = (bitField7_ & ~0x00004000);
         meiGuJingZiChan_ = 0L;
         onChanged();
         return this;
@@ -31052,7 +31198,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasJingZiChanShouYiLv() {
-        return ((bitField7_ & 0x00200000) == 0x00200000);
+        return ((bitField7_ & 0x00008000) == 0x00008000);
       }
       /**
        * <code>optional int64 JingZiChanShouYiLv = 606;</code>
@@ -31072,7 +31218,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setJingZiChanShouYiLv(long value) {
-        bitField7_ |= 0x00200000;
+        bitField7_ |= 0x00008000;
         jingZiChanShouYiLv_ = value;
         onChanged();
         return this;
@@ -31085,7 +31231,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearJingZiChanShouYiLv() {
-        bitField7_ = (bitField7_ & ~0x00200000);
+        bitField7_ = (bitField7_ & ~0x00008000);
         jingZiChanShouYiLv_ = 0L;
         onChanged();
         return this;
@@ -31100,7 +31246,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMeiGuJingYingXianJin() {
-        return ((bitField7_ & 0x00400000) == 0x00400000);
+        return ((bitField7_ & 0x00010000) == 0x00010000);
       }
       /**
        * <code>optional int64 MeiGuJingYingXianJin = 607;</code>
@@ -31120,7 +31266,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMeiGuJingYingXianJin(long value) {
-        bitField7_ |= 0x00400000;
+        bitField7_ |= 0x00010000;
         meiGuJingYingXianJin_ = value;
         onChanged();
         return this;
@@ -31133,7 +31279,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMeiGuJingYingXianJin() {
-        bitField7_ = (bitField7_ & ~0x00400000);
+        bitField7_ = (bitField7_ & ~0x00010000);
         meiGuJingYingXianJin_ = 0L;
         onChanged();
         return this;
@@ -31148,7 +31294,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMeiGuGongJiJin() {
-        return ((bitField7_ & 0x00800000) == 0x00800000);
+        return ((bitField7_ & 0x00020000) == 0x00020000);
       }
       /**
        * <code>optional int64 MeiGuGongJiJin = 608;</code>
@@ -31168,7 +31314,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMeiGuGongJiJin(long value) {
-        bitField7_ |= 0x00800000;
+        bitField7_ |= 0x00020000;
         meiGuGongJiJin_ = value;
         onChanged();
         return this;
@@ -31181,7 +31327,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMeiGuGongJiJin() {
-        bitField7_ = (bitField7_ & ~0x00800000);
+        bitField7_ = (bitField7_ & ~0x00020000);
         meiGuGongJiJin_ = 0L;
         onChanged();
         return this;
@@ -31196,7 +31342,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMeiGuWeiFenPei() {
-        return ((bitField7_ & 0x01000000) == 0x01000000);
+        return ((bitField7_ & 0x00040000) == 0x00040000);
       }
       /**
        * <code>optional int64 MeiGuWeiFenPei = 609;</code>
@@ -31216,7 +31362,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMeiGuWeiFenPei(long value) {
-        bitField7_ |= 0x01000000;
+        bitField7_ |= 0x00040000;
         meiGuWeiFenPei_ = value;
         onChanged();
         return this;
@@ -31229,7 +31375,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMeiGuWeiFenPei() {
-        bitField7_ = (bitField7_ & ~0x01000000);
+        bitField7_ = (bitField7_ & ~0x00040000);
         meiGuWeiFenPei_ = 0L;
         onChanged();
         return this;
@@ -31244,7 +31390,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasGuDongQuanYiBi() {
-        return ((bitField7_ & 0x02000000) == 0x02000000);
+        return ((bitField7_ & 0x00080000) == 0x00080000);
       }
       /**
        * <code>optional int64 GuDongQuanYiBi = 610;</code>
@@ -31264,7 +31410,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setGuDongQuanYiBi(long value) {
-        bitField7_ |= 0x02000000;
+        bitField7_ |= 0x00080000;
         guDongQuanYiBi_ = value;
         onChanged();
         return this;
@@ -31277,7 +31423,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearGuDongQuanYiBi() {
-        bitField7_ = (bitField7_ & ~0x02000000);
+        bitField7_ = (bitField7_ & ~0x00080000);
         guDongQuanYiBi_ = 0L;
         onChanged();
         return this;
@@ -31292,7 +31438,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasJingLiRunTongBi() {
-        return ((bitField7_ & 0x04000000) == 0x04000000);
+        return ((bitField7_ & 0x00100000) == 0x00100000);
       }
       /**
        * <code>optional int64 JingLiRunTongBi = 611;</code>
@@ -31312,7 +31458,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setJingLiRunTongBi(long value) {
-        bitField7_ |= 0x04000000;
+        bitField7_ |= 0x00100000;
         jingLiRunTongBi_ = value;
         onChanged();
         return this;
@@ -31325,7 +31471,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearJingLiRunTongBi() {
-        bitField7_ = (bitField7_ & ~0x04000000);
+        bitField7_ = (bitField7_ & ~0x00100000);
         jingLiRunTongBi_ = 0L;
         onChanged();
         return this;
@@ -31340,7 +31486,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasZhuYingShouRuTongBi() {
-        return ((bitField7_ & 0x08000000) == 0x08000000);
+        return ((bitField7_ & 0x00200000) == 0x00200000);
       }
       /**
        * <code>optional int64 ZhuYingShouRuTongBi = 612;</code>
@@ -31360,7 +31506,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setZhuYingShouRuTongBi(long value) {
-        bitField7_ |= 0x08000000;
+        bitField7_ |= 0x00200000;
         zhuYingShouRuTongBi_ = value;
         onChanged();
         return this;
@@ -31373,7 +31519,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearZhuYingShouRuTongBi() {
-        bitField7_ = (bitField7_ & ~0x08000000);
+        bitField7_ = (bitField7_ & ~0x00200000);
         zhuYingShouRuTongBi_ = 0L;
         onChanged();
         return this;
@@ -31388,7 +31534,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasXiaoShouMaoLiLv() {
-        return ((bitField7_ & 0x10000000) == 0x10000000);
+        return ((bitField7_ & 0x00400000) == 0x00400000);
       }
       /**
        * <code>optional int64 XiaoShouMaoLiLv = 613;</code>
@@ -31408,7 +31554,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setXiaoShouMaoLiLv(long value) {
-        bitField7_ |= 0x10000000;
+        bitField7_ |= 0x00400000;
         xiaoShouMaoLiLv_ = value;
         onChanged();
         return this;
@@ -31421,7 +31567,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearXiaoShouMaoLiLv() {
-        bitField7_ = (bitField7_ & ~0x10000000);
+        bitField7_ = (bitField7_ & ~0x00400000);
         xiaoShouMaoLiLv_ = 0L;
         onChanged();
         return this;
@@ -31436,7 +31582,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasTiaoZhengMeiGuJingZi() {
-        return ((bitField7_ & 0x20000000) == 0x20000000);
+        return ((bitField7_ & 0x00800000) == 0x00800000);
       }
       /**
        * <code>optional int64 TiaoZhengMeiGuJingZi = 614;</code>
@@ -31456,7 +31602,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setTiaoZhengMeiGuJingZi(long value) {
-        bitField7_ |= 0x20000000;
+        bitField7_ |= 0x00800000;
         tiaoZhengMeiGuJingZi_ = value;
         onChanged();
         return this;
@@ -31469,7 +31615,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearTiaoZhengMeiGuJingZi() {
-        bitField7_ = (bitField7_ & ~0x20000000);
+        bitField7_ = (bitField7_ & ~0x00800000);
         tiaoZhengMeiGuJingZi_ = 0L;
         onChanged();
         return this;
@@ -31484,7 +31630,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasZongZiChan() {
-        return ((bitField7_ & 0x40000000) == 0x40000000);
+        return ((bitField7_ & 0x01000000) == 0x01000000);
       }
       /**
        * <code>optional int64 ZongZiChan = 615;</code>
@@ -31504,7 +31650,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setZongZiChan(long value) {
-        bitField7_ |= 0x40000000;
+        bitField7_ |= 0x01000000;
         zongZiChan_ = value;
         onChanged();
         return this;
@@ -31517,7 +31663,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearZongZiChan() {
-        bitField7_ = (bitField7_ & ~0x40000000);
+        bitField7_ = (bitField7_ & ~0x01000000);
         zongZiChan_ = 0L;
         onChanged();
         return this;
@@ -31532,7 +31678,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasLiuDongZiChan() {
-        return ((bitField7_ & 0x80000000) == 0x80000000);
+        return ((bitField7_ & 0x02000000) == 0x02000000);
       }
       /**
        * <code>optional int64 LiuDongZiChan = 616;</code>
@@ -31552,7 +31698,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setLiuDongZiChan(long value) {
-        bitField7_ |= 0x80000000;
+        bitField7_ |= 0x02000000;
         liuDongZiChan_ = value;
         onChanged();
         return this;
@@ -31565,7 +31711,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearLiuDongZiChan() {
-        bitField7_ = (bitField7_ & ~0x80000000);
+        bitField7_ = (bitField7_ & ~0x02000000);
         liuDongZiChan_ = 0L;
         onChanged();
         return this;
@@ -31580,7 +31726,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasGuDingZiChan() {
-        return ((bitField8_ & 0x00000001) == 0x00000001);
+        return ((bitField7_ & 0x04000000) == 0x04000000);
       }
       /**
        * <code>optional int64 GuDingZiChan = 617;</code>
@@ -31600,7 +31746,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setGuDingZiChan(long value) {
-        bitField8_ |= 0x00000001;
+        bitField7_ |= 0x04000000;
         guDingZiChan_ = value;
         onChanged();
         return this;
@@ -31613,7 +31759,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearGuDingZiChan() {
-        bitField8_ = (bitField8_ & ~0x00000001);
+        bitField7_ = (bitField7_ & ~0x04000000);
         guDingZiChan_ = 0L;
         onChanged();
         return this;
@@ -31628,7 +31774,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasWuXingZiChan() {
-        return ((bitField8_ & 0x00000002) == 0x00000002);
+        return ((bitField7_ & 0x08000000) == 0x08000000);
       }
       /**
        * <code>optional int64 WuXingZiChan = 618;</code>
@@ -31648,7 +31794,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setWuXingZiChan(long value) {
-        bitField8_ |= 0x00000002;
+        bitField7_ |= 0x08000000;
         wuXingZiChan_ = value;
         onChanged();
         return this;
@@ -31661,7 +31807,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearWuXingZiChan() {
-        bitField8_ = (bitField8_ & ~0x00000002);
+        bitField7_ = (bitField7_ & ~0x08000000);
         wuXingZiChan_ = 0L;
         onChanged();
         return this;
@@ -31676,7 +31822,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasLiuDongFuZhai() {
-        return ((bitField8_ & 0x00000004) == 0x00000004);
+        return ((bitField7_ & 0x10000000) == 0x10000000);
       }
       /**
        * <code>optional int64 LiuDongFuZhai = 619;</code>
@@ -31696,7 +31842,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setLiuDongFuZhai(long value) {
-        bitField8_ |= 0x00000004;
+        bitField7_ |= 0x10000000;
         liuDongFuZhai_ = value;
         onChanged();
         return this;
@@ -31709,7 +31855,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearLiuDongFuZhai() {
-        bitField8_ = (bitField8_ & ~0x00000004);
+        bitField7_ = (bitField7_ & ~0x10000000);
         liuDongFuZhai_ = 0L;
         onChanged();
         return this;
@@ -31724,7 +31870,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasChangQiFuZhai() {
-        return ((bitField8_ & 0x00000008) == 0x00000008);
+        return ((bitField7_ & 0x20000000) == 0x20000000);
       }
       /**
        * <code>optional int64 ChangQiFuZhai = 620;</code>
@@ -31744,7 +31890,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setChangQiFuZhai(long value) {
-        bitField8_ |= 0x00000008;
+        bitField7_ |= 0x20000000;
         changQiFuZhai_ = value;
         onChanged();
         return this;
@@ -31757,7 +31903,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearChangQiFuZhai() {
-        bitField8_ = (bitField8_ & ~0x00000008);
+        bitField7_ = (bitField7_ & ~0x20000000);
         changQiFuZhai_ = 0L;
         onChanged();
         return this;
@@ -31772,7 +31918,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasZongFuZhai() {
-        return ((bitField8_ & 0x00000010) == 0x00000010);
+        return ((bitField7_ & 0x40000000) == 0x40000000);
       }
       /**
        * <code>optional int64 ZongFuZhai = 621;</code>
@@ -31792,7 +31938,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setZongFuZhai(long value) {
-        bitField8_ |= 0x00000010;
+        bitField7_ |= 0x40000000;
         zongFuZhai_ = value;
         onChanged();
         return this;
@@ -31805,7 +31951,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearZongFuZhai() {
-        bitField8_ = (bitField8_ & ~0x00000010);
+        bitField7_ = (bitField7_ & ~0x40000000);
         zongFuZhai_ = 0L;
         onChanged();
         return this;
@@ -31820,7 +31966,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasGuDongQuanYi() {
-        return ((bitField8_ & 0x00000020) == 0x00000020);
+        return ((bitField7_ & 0x80000000) == 0x80000000);
       }
       /**
        * <code>optional int64 GuDongQuanYi = 622;</code>
@@ -31840,7 +31986,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setGuDongQuanYi(long value) {
-        bitField8_ |= 0x00000020;
+        bitField7_ |= 0x80000000;
         guDongQuanYi_ = value;
         onChanged();
         return this;
@@ -31853,7 +31999,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearGuDongQuanYi() {
-        bitField8_ = (bitField8_ & ~0x00000020);
+        bitField7_ = (bitField7_ & ~0x80000000);
         guDongQuanYi_ = 0L;
         onChanged();
         return this;
@@ -31868,7 +32014,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasZiBenGongJiJin() {
-        return ((bitField8_ & 0x00000040) == 0x00000040);
+        return ((bitField8_ & 0x00000001) == 0x00000001);
       }
       /**
        * <code>optional int64 ZiBenGongJiJin = 623;</code>
@@ -31888,7 +32034,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setZiBenGongJiJin(long value) {
-        bitField8_ |= 0x00000040;
+        bitField8_ |= 0x00000001;
         ziBenGongJiJin_ = value;
         onChanged();
         return this;
@@ -31901,7 +32047,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearZiBenGongJiJin() {
-        bitField8_ = (bitField8_ & ~0x00000040);
+        bitField8_ = (bitField8_ & ~0x00000001);
         ziBenGongJiJin_ = 0L;
         onChanged();
         return this;
@@ -31916,7 +32062,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasJingYingXianJinLiuLiang() {
-        return ((bitField8_ & 0x00000080) == 0x00000080);
+        return ((bitField8_ & 0x00000002) == 0x00000002);
       }
       /**
        * <code>optional int64 JingYingXianJinLiuLiang = 624;</code>
@@ -31936,7 +32082,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setJingYingXianJinLiuLiang(long value) {
-        bitField8_ |= 0x00000080;
+        bitField8_ |= 0x00000002;
         jingYingXianJinLiuLiang_ = value;
         onChanged();
         return this;
@@ -31949,7 +32095,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearJingYingXianJinLiuLiang() {
-        bitField8_ = (bitField8_ & ~0x00000080);
+        bitField8_ = (bitField8_ & ~0x00000002);
         jingYingXianJinLiuLiang_ = 0L;
         onChanged();
         return this;
@@ -31964,7 +32110,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasTouZiXianJinLiuLiang() {
-        return ((bitField8_ & 0x00000100) == 0x00000100);
+        return ((bitField8_ & 0x00000004) == 0x00000004);
       }
       /**
        * <code>optional int64 TouZiXianJinLiuLiang = 625;</code>
@@ -31984,7 +32130,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setTouZiXianJinLiuLiang(long value) {
-        bitField8_ |= 0x00000100;
+        bitField8_ |= 0x00000004;
         touZiXianJinLiuLiang_ = value;
         onChanged();
         return this;
@@ -31997,7 +32143,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearTouZiXianJinLiuLiang() {
-        bitField8_ = (bitField8_ & ~0x00000100);
+        bitField8_ = (bitField8_ & ~0x00000004);
         touZiXianJinLiuLiang_ = 0L;
         onChanged();
         return this;
@@ -32012,7 +32158,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasChouZiXianJinLiuLiang() {
-        return ((bitField8_ & 0x00000200) == 0x00000200);
+        return ((bitField8_ & 0x00000008) == 0x00000008);
       }
       /**
        * <code>optional int64 ChouZiXianJinLiuLiang = 626;</code>
@@ -32032,7 +32178,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setChouZiXianJinLiuLiang(long value) {
-        bitField8_ |= 0x00000200;
+        bitField8_ |= 0x00000008;
         chouZiXianJinLiuLiang_ = value;
         onChanged();
         return this;
@@ -32045,7 +32191,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearChouZiXianJinLiuLiang() {
-        bitField8_ = (bitField8_ & ~0x00000200);
+        bitField8_ = (bitField8_ & ~0x00000008);
         chouZiXianJinLiuLiang_ = 0L;
         onChanged();
         return this;
@@ -32060,7 +32206,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasXianJinZengJiaE() {
-        return ((bitField8_ & 0x00000400) == 0x00000400);
+        return ((bitField8_ & 0x00000010) == 0x00000010);
       }
       /**
        * <code>optional int64 XianJinZengJiaE = 627;</code>
@@ -32080,7 +32226,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setXianJinZengJiaE(long value) {
-        bitField8_ |= 0x00000400;
+        bitField8_ |= 0x00000010;
         xianJinZengJiaE_ = value;
         onChanged();
         return this;
@@ -32093,7 +32239,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearXianJinZengJiaE() {
-        bitField8_ = (bitField8_ & ~0x00000400);
+        bitField8_ = (bitField8_ & ~0x00000010);
         xianJinZengJiaE_ = 0L;
         onChanged();
         return this;
@@ -32108,7 +32254,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasZhuYingShouRu() {
-        return ((bitField8_ & 0x00000800) == 0x00000800);
+        return ((bitField8_ & 0x00000020) == 0x00000020);
       }
       /**
        * <code>optional int64 ZhuYingShouRu = 628;</code>
@@ -32128,7 +32274,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setZhuYingShouRu(long value) {
-        bitField8_ |= 0x00000800;
+        bitField8_ |= 0x00000020;
         zhuYingShouRu_ = value;
         onChanged();
         return this;
@@ -32141,7 +32287,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearZhuYingShouRu() {
-        bitField8_ = (bitField8_ & ~0x00000800);
+        bitField8_ = (bitField8_ & ~0x00000020);
         zhuYingShouRu_ = 0L;
         onChanged();
         return this;
@@ -32156,7 +32302,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasZhuYingLiRun() {
-        return ((bitField8_ & 0x00001000) == 0x00001000);
+        return ((bitField8_ & 0x00000040) == 0x00000040);
       }
       /**
        * <code>optional int64 ZhuYingLiRun = 629;</code>
@@ -32176,7 +32322,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setZhuYingLiRun(long value) {
-        bitField8_ |= 0x00001000;
+        bitField8_ |= 0x00000040;
         zhuYingLiRun_ = value;
         onChanged();
         return this;
@@ -32189,7 +32335,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearZhuYingLiRun() {
-        bitField8_ = (bitField8_ & ~0x00001000);
+        bitField8_ = (bitField8_ & ~0x00000040);
         zhuYingLiRun_ = 0L;
         onChanged();
         return this;
@@ -32204,7 +32350,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasYingYeLiRun() {
-        return ((bitField8_ & 0x00002000) == 0x00002000);
+        return ((bitField8_ & 0x00000080) == 0x00000080);
       }
       /**
        * <code>optional int64 YingYeLiRun = 630;</code>
@@ -32224,7 +32370,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setYingYeLiRun(long value) {
-        bitField8_ |= 0x00002000;
+        bitField8_ |= 0x00000080;
         yingYeLiRun_ = value;
         onChanged();
         return this;
@@ -32237,7 +32383,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearYingYeLiRun() {
-        bitField8_ = (bitField8_ & ~0x00002000);
+        bitField8_ = (bitField8_ & ~0x00000080);
         yingYeLiRun_ = 0L;
         onChanged();
         return this;
@@ -32252,7 +32398,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasTouZiShouYi() {
-        return ((bitField8_ & 0x00004000) == 0x00004000);
+        return ((bitField8_ & 0x00000100) == 0x00000100);
       }
       /**
        * <code>optional int64 TouZiShouYi = 631;</code>
@@ -32272,7 +32418,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setTouZiShouYi(long value) {
-        bitField8_ |= 0x00004000;
+        bitField8_ |= 0x00000100;
         touZiShouYi_ = value;
         onChanged();
         return this;
@@ -32285,7 +32431,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearTouZiShouYi() {
-        bitField8_ = (bitField8_ & ~0x00004000);
+        bitField8_ = (bitField8_ & ~0x00000100);
         touZiShouYi_ = 0L;
         onChanged();
         return this;
@@ -32300,7 +32446,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasYingYeWaiShouZhi() {
-        return ((bitField8_ & 0x00008000) == 0x00008000);
+        return ((bitField8_ & 0x00000200) == 0x00000200);
       }
       /**
        * <code>optional int64 YingYeWaiShouZhi = 632;</code>
@@ -32320,7 +32466,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setYingYeWaiShouZhi(long value) {
-        bitField8_ |= 0x00008000;
+        bitField8_ |= 0x00000200;
         yingYeWaiShouZhi_ = value;
         onChanged();
         return this;
@@ -32333,7 +32479,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearYingYeWaiShouZhi() {
-        bitField8_ = (bitField8_ & ~0x00008000);
+        bitField8_ = (bitField8_ & ~0x00000200);
         yingYeWaiShouZhi_ = 0L;
         onChanged();
         return this;
@@ -32348,7 +32494,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasLiRunZongE() {
-        return ((bitField8_ & 0x00010000) == 0x00010000);
+        return ((bitField8_ & 0x00000400) == 0x00000400);
       }
       /**
        * <code>optional int64 LiRunZongE = 633;</code>
@@ -32368,7 +32514,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setLiRunZongE(long value) {
-        bitField8_ |= 0x00010000;
+        bitField8_ |= 0x00000400;
         liRunZongE_ = value;
         onChanged();
         return this;
@@ -32381,7 +32527,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearLiRunZongE() {
-        bitField8_ = (bitField8_ & ~0x00010000);
+        bitField8_ = (bitField8_ & ~0x00000400);
         liRunZongE_ = 0L;
         onChanged();
         return this;
@@ -32396,7 +32542,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasJingLiRun() {
-        return ((bitField8_ & 0x00020000) == 0x00020000);
+        return ((bitField8_ & 0x00000800) == 0x00000800);
       }
       /**
        * <code>optional int64 JingLiRun = 634;</code>
@@ -32416,7 +32562,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setJingLiRun(long value) {
-        bitField8_ |= 0x00020000;
+        bitField8_ |= 0x00000800;
         jingLiRun_ = value;
         onChanged();
         return this;
@@ -32429,7 +32575,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearJingLiRun() {
-        bitField8_ = (bitField8_ & ~0x00020000);
+        bitField8_ = (bitField8_ & ~0x00000800);
         jingLiRun_ = 0L;
         onChanged();
         return this;
@@ -32444,7 +32590,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasWeiFenPeiLiRun() {
-        return ((bitField8_ & 0x00040000) == 0x00040000);
+        return ((bitField8_ & 0x00001000) == 0x00001000);
       }
       /**
        * <code>optional int64 WeiFenPeiLiRun = 635;</code>
@@ -32464,7 +32610,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setWeiFenPeiLiRun(long value) {
-        bitField8_ |= 0x00040000;
+        bitField8_ |= 0x00001000;
         weiFenPeiLiRun_ = value;
         onChanged();
         return this;
@@ -32477,7 +32623,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearWeiFenPeiLiRun() {
-        bitField8_ = (bitField8_ & ~0x00040000);
+        bitField8_ = (bitField8_ & ~0x00001000);
         weiFenPeiLiRun_ = 0L;
         onChanged();
         return this;
@@ -32492,7 +32638,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasZongGuBen() {
-        return ((bitField8_ & 0x00080000) == 0x00080000);
+        return ((bitField8_ & 0x00002000) == 0x00002000);
       }
       /**
        * <code>optional int64 ZongGuBen = 636;</code>
@@ -32512,7 +32658,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setZongGuBen(long value) {
-        bitField8_ |= 0x00080000;
+        bitField8_ |= 0x00002000;
         zongGuBen_ = value;
         onChanged();
         return this;
@@ -32525,7 +32671,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearZongGuBen() {
-        bitField8_ = (bitField8_ & ~0x00080000);
+        bitField8_ = (bitField8_ & ~0x00002000);
         zongGuBen_ = 0L;
         onChanged();
         return this;
@@ -32540,7 +32686,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasWuXianShouGuHeJi() {
-        return ((bitField8_ & 0x00100000) == 0x00100000);
+        return ((bitField8_ & 0x00004000) == 0x00004000);
       }
       /**
        * <code>optional int64 WuXianShouGuHeJi = 637;</code>
@@ -32560,7 +32706,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setWuXianShouGuHeJi(long value) {
-        bitField8_ |= 0x00100000;
+        bitField8_ |= 0x00004000;
         wuXianShouGuHeJi_ = value;
         onChanged();
         return this;
@@ -32573,7 +32719,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearWuXianShouGuHeJi() {
-        bitField8_ = (bitField8_ & ~0x00100000);
+        bitField8_ = (bitField8_ & ~0x00004000);
         wuXianShouGuHeJi_ = 0L;
         onChanged();
         return this;
@@ -32588,7 +32734,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasLiuTongAGu() {
-        return ((bitField8_ & 0x00200000) == 0x00200000);
+        return ((bitField8_ & 0x00008000) == 0x00008000);
       }
       /**
        * <code>optional int64 LiuTongAGu = 638;</code>
@@ -32608,7 +32754,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setLiuTongAGu(long value) {
-        bitField8_ |= 0x00200000;
+        bitField8_ |= 0x00008000;
         liuTongAGu_ = value;
         onChanged();
         return this;
@@ -32621,7 +32767,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearLiuTongAGu() {
-        bitField8_ = (bitField8_ & ~0x00200000);
+        bitField8_ = (bitField8_ & ~0x00008000);
         liuTongAGu_ = 0L;
         onChanged();
         return this;
@@ -32636,7 +32782,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasLiuTongBGu() {
-        return ((bitField8_ & 0x00400000) == 0x00400000);
+        return ((bitField8_ & 0x00010000) == 0x00010000);
       }
       /**
        * <code>optional int64 LiuTongBGu = 639;</code>
@@ -32656,7 +32802,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setLiuTongBGu(long value) {
-        bitField8_ |= 0x00400000;
+        bitField8_ |= 0x00010000;
         liuTongBGu_ = value;
         onChanged();
         return this;
@@ -32669,7 +32815,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearLiuTongBGu() {
-        bitField8_ = (bitField8_ & ~0x00400000);
+        bitField8_ = (bitField8_ & ~0x00010000);
         liuTongBGu_ = 0L;
         onChanged();
         return this;
@@ -32684,7 +32830,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasJingWaiShangShiGu() {
-        return ((bitField8_ & 0x00800000) == 0x00800000);
+        return ((bitField8_ & 0x00020000) == 0x00020000);
       }
       /**
        * <code>optional int64 JingWaiShangShiGu = 640;</code>
@@ -32704,7 +32850,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setJingWaiShangShiGu(long value) {
-        bitField8_ |= 0x00800000;
+        bitField8_ |= 0x00020000;
         jingWaiShangShiGu_ = value;
         onChanged();
         return this;
@@ -32717,7 +32863,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearJingWaiShangShiGu() {
-        bitField8_ = (bitField8_ & ~0x00800000);
+        bitField8_ = (bitField8_ & ~0x00020000);
         jingWaiShangShiGu_ = 0L;
         onChanged();
         return this;
@@ -32732,7 +32878,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasQiTaLiuTongGu() {
-        return ((bitField8_ & 0x01000000) == 0x01000000);
+        return ((bitField8_ & 0x00040000) == 0x00040000);
       }
       /**
        * <code>optional int64 QiTaLiuTongGu = 641;</code>
@@ -32752,7 +32898,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setQiTaLiuTongGu(long value) {
-        bitField8_ |= 0x01000000;
+        bitField8_ |= 0x00040000;
         qiTaLiuTongGu_ = value;
         onChanged();
         return this;
@@ -32765,7 +32911,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearQiTaLiuTongGu() {
-        bitField8_ = (bitField8_ & ~0x01000000);
+        bitField8_ = (bitField8_ & ~0x00040000);
         qiTaLiuTongGu_ = 0L;
         onChanged();
         return this;
@@ -32780,7 +32926,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasXianShouGuHeJi() {
-        return ((bitField8_ & 0x02000000) == 0x02000000);
+        return ((bitField8_ & 0x00080000) == 0x00080000);
       }
       /**
        * <code>optional int64 XianShouGuHeJi = 642;</code>
@@ -32800,7 +32946,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setXianShouGuHeJi(long value) {
-        bitField8_ |= 0x02000000;
+        bitField8_ |= 0x00080000;
         xianShouGuHeJi_ = value;
         onChanged();
         return this;
@@ -32813,7 +32959,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearXianShouGuHeJi() {
-        bitField8_ = (bitField8_ & ~0x02000000);
+        bitField8_ = (bitField8_ & ~0x00080000);
         xianShouGuHeJi_ = 0L;
         onChanged();
         return this;
@@ -32828,7 +32974,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasGuoJiaChiGu() {
-        return ((bitField8_ & 0x04000000) == 0x04000000);
+        return ((bitField8_ & 0x00100000) == 0x00100000);
       }
       /**
        * <code>optional int64 GuoJiaChiGu = 643;</code>
@@ -32848,7 +32994,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setGuoJiaChiGu(long value) {
-        bitField8_ |= 0x04000000;
+        bitField8_ |= 0x00100000;
         guoJiaChiGu_ = value;
         onChanged();
         return this;
@@ -32861,7 +33007,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearGuoJiaChiGu() {
-        bitField8_ = (bitField8_ & ~0x04000000);
+        bitField8_ = (bitField8_ & ~0x00100000);
         guoJiaChiGu_ = 0L;
         onChanged();
         return this;
@@ -32876,7 +33022,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasGuoYouFaRenGu() {
-        return ((bitField8_ & 0x08000000) == 0x08000000);
+        return ((bitField8_ & 0x00200000) == 0x00200000);
       }
       /**
        * <code>optional int64 GuoYouFaRenGu = 644;</code>
@@ -32896,7 +33042,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setGuoYouFaRenGu(long value) {
-        bitField8_ |= 0x08000000;
+        bitField8_ |= 0x00200000;
         guoYouFaRenGu_ = value;
         onChanged();
         return this;
@@ -32909,7 +33055,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearGuoYouFaRenGu() {
-        bitField8_ = (bitField8_ & ~0x08000000);
+        bitField8_ = (bitField8_ & ~0x00200000);
         guoYouFaRenGu_ = 0L;
         onChanged();
         return this;
@@ -32924,7 +33070,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasJingNeiFaRenGu() {
-        return ((bitField8_ & 0x10000000) == 0x10000000);
+        return ((bitField8_ & 0x00400000) == 0x00400000);
       }
       /**
        * <code>optional int64 JingNeiFaRenGu = 645;</code>
@@ -32944,7 +33090,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setJingNeiFaRenGu(long value) {
-        bitField8_ |= 0x10000000;
+        bitField8_ |= 0x00400000;
         jingNeiFaRenGu_ = value;
         onChanged();
         return this;
@@ -32957,7 +33103,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearJingNeiFaRenGu() {
-        bitField8_ = (bitField8_ & ~0x10000000);
+        bitField8_ = (bitField8_ & ~0x00400000);
         jingNeiFaRenGu_ = 0L;
         onChanged();
         return this;
@@ -32972,7 +33118,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasJingNeiZiRanRenGu() {
-        return ((bitField8_ & 0x20000000) == 0x20000000);
+        return ((bitField8_ & 0x00800000) == 0x00800000);
       }
       /**
        * <code>optional int64 JingNeiZiRanRenGu = 646;</code>
@@ -32992,7 +33138,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setJingNeiZiRanRenGu(long value) {
-        bitField8_ |= 0x20000000;
+        bitField8_ |= 0x00800000;
         jingNeiZiRanRenGu_ = value;
         onChanged();
         return this;
@@ -33005,7 +33151,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearJingNeiZiRanRenGu() {
-        bitField8_ = (bitField8_ & ~0x20000000);
+        bitField8_ = (bitField8_ & ~0x00800000);
         jingNeiZiRanRenGu_ = 0L;
         onChanged();
         return this;
@@ -33020,7 +33166,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasQiTaFaQiRenGu() {
-        return ((bitField8_ & 0x40000000) == 0x40000000);
+        return ((bitField8_ & 0x01000000) == 0x01000000);
       }
       /**
        * <code>optional int64 QiTaFaQiRenGu = 647;</code>
@@ -33040,7 +33186,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setQiTaFaQiRenGu(long value) {
-        bitField8_ |= 0x40000000;
+        bitField8_ |= 0x01000000;
         qiTaFaQiRenGu_ = value;
         onChanged();
         return this;
@@ -33053,7 +33199,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearQiTaFaQiRenGu() {
-        bitField8_ = (bitField8_ & ~0x40000000);
+        bitField8_ = (bitField8_ & ~0x01000000);
         qiTaFaQiRenGu_ = 0L;
         onChanged();
         return this;
@@ -33068,7 +33214,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasMuJiFaRenGu() {
-        return ((bitField8_ & 0x80000000) == 0x80000000);
+        return ((bitField8_ & 0x02000000) == 0x02000000);
       }
       /**
        * <code>optional int64 MuJiFaRenGu = 648;</code>
@@ -33088,7 +33234,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setMuJiFaRenGu(long value) {
-        bitField8_ |= 0x80000000;
+        bitField8_ |= 0x02000000;
         muJiFaRenGu_ = value;
         onChanged();
         return this;
@@ -33101,7 +33247,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearMuJiFaRenGu() {
-        bitField8_ = (bitField8_ & ~0x80000000);
+        bitField8_ = (bitField8_ & ~0x02000000);
         muJiFaRenGu_ = 0L;
         onChanged();
         return this;
@@ -33116,7 +33262,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasJingWaiFaRenGu() {
-        return ((bitField9_ & 0x00000001) == 0x00000001);
+        return ((bitField8_ & 0x04000000) == 0x04000000);
       }
       /**
        * <code>optional int64 JingWaiFaRenGu = 649;</code>
@@ -33136,7 +33282,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setJingWaiFaRenGu(long value) {
-        bitField9_ |= 0x00000001;
+        bitField8_ |= 0x04000000;
         jingWaiFaRenGu_ = value;
         onChanged();
         return this;
@@ -33149,7 +33295,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearJingWaiFaRenGu() {
-        bitField9_ = (bitField9_ & ~0x00000001);
+        bitField8_ = (bitField8_ & ~0x04000000);
         jingWaiFaRenGu_ = 0L;
         onChanged();
         return this;
@@ -33164,7 +33310,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasJingWaiZiRanRenGu() {
-        return ((bitField9_ & 0x00000002) == 0x00000002);
+        return ((bitField8_ & 0x08000000) == 0x08000000);
       }
       /**
        * <code>optional int64 JingWaiZiRanRenGu = 650;</code>
@@ -33184,7 +33330,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setJingWaiZiRanRenGu(long value) {
-        bitField9_ |= 0x00000002;
+        bitField8_ |= 0x08000000;
         jingWaiZiRanRenGu_ = value;
         onChanged();
         return this;
@@ -33197,7 +33343,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearJingWaiZiRanRenGu() {
-        bitField9_ = (bitField9_ & ~0x00000002);
+        bitField8_ = (bitField8_ & ~0x08000000);
         jingWaiZiRanRenGu_ = 0L;
         onChanged();
         return this;
@@ -33212,7 +33358,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public boolean hasYouXianGuHuoQiTa() {
-        return ((bitField9_ & 0x00000004) == 0x00000004);
+        return ((bitField8_ & 0x10000000) == 0x10000000);
       }
       /**
        * <code>optional int64 YouXianGuHuoQiTa = 651;</code>
@@ -33232,7 +33378,7 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder setYouXianGuHuoQiTa(long value) {
-        bitField9_ |= 0x00000004;
+        bitField8_ |= 0x10000000;
         youXianGuHuoQiTa_ = value;
         onChanged();
         return this;
@@ -33245,8 +33391,632 @@ public final class DzhyunStkdata {
        * </pre>
        */
       public Builder clearYouXianGuHuoQiTa() {
-        bitField9_ = (bitField9_ & ~0x00000004);
+        bitField8_ = (bitField8_ & ~0x10000000);
         youXianGuHuoQiTa_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiTuoMaiRu_ ;
+      /**
+       * <code>optional int64 WeiTuoMaiRu = 700;</code>
+       *
+       * <pre>
+       * Level2统计数据
+       * </pre>
+       */
+      public boolean hasWeiTuoMaiRu() {
+        return ((bitField8_ & 0x20000000) == 0x20000000);
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRu = 700;</code>
+       *
+       * <pre>
+       * Level2统计数据
+       * </pre>
+       */
+      public long getWeiTuoMaiRu() {
+        return weiTuoMaiRu_;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRu = 700;</code>
+       *
+       * <pre>
+       * Level2统计数据
+       * </pre>
+       */
+      public Builder setWeiTuoMaiRu(long value) {
+        bitField8_ |= 0x20000000;
+        weiTuoMaiRu_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiRu = 700;</code>
+       *
+       * <pre>
+       * Level2统计数据
+       * </pre>
+       */
+      public Builder clearWeiTuoMaiRu() {
+        bitField8_ = (bitField8_ & ~0x20000000);
+        weiTuoMaiRu_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long weiTuoMaiChu_ ;
+      /**
+       * <code>optional int64 WeiTuoMaiChu = 701;</code>
+       *
+       * <pre>
+       * 委托单卖出数量
+       * </pre>
+       */
+      public boolean hasWeiTuoMaiChu() {
+        return ((bitField8_ & 0x40000000) == 0x40000000);
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChu = 701;</code>
+       *
+       * <pre>
+       * 委托单卖出数量
+       * </pre>
+       */
+      public long getWeiTuoMaiChu() {
+        return weiTuoMaiChu_;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChu = 701;</code>
+       *
+       * <pre>
+       * 委托单卖出数量
+       * </pre>
+       */
+      public Builder setWeiTuoMaiChu(long value) {
+        bitField8_ |= 0x40000000;
+        weiTuoMaiChu_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 WeiTuoMaiChu = 701;</code>
+       *
+       * <pre>
+       * 委托单卖出数量
+       * </pre>
+       */
+      public Builder clearWeiTuoMaiChu() {
+        bitField8_ = (bitField8_ & ~0x40000000);
+        weiTuoMaiChu_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long maiRuZhongDanBiLi_ ;
+      /**
+       * <code>optional int64 MaiRuZhongDanBiLi = 702;</code>
+       *
+       * <pre>
+       * 买入中单比例
+       * </pre>
+       */
+      public boolean hasMaiRuZhongDanBiLi() {
+        return ((bitField8_ & 0x80000000) == 0x80000000);
+      }
+      /**
+       * <code>optional int64 MaiRuZhongDanBiLi = 702;</code>
+       *
+       * <pre>
+       * 买入中单比例
+       * </pre>
+       */
+      public long getMaiRuZhongDanBiLi() {
+        return maiRuZhongDanBiLi_;
+      }
+      /**
+       * <code>optional int64 MaiRuZhongDanBiLi = 702;</code>
+       *
+       * <pre>
+       * 买入中单比例
+       * </pre>
+       */
+      public Builder setMaiRuZhongDanBiLi(long value) {
+        bitField8_ |= 0x80000000;
+        maiRuZhongDanBiLi_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 MaiRuZhongDanBiLi = 702;</code>
+       *
+       * <pre>
+       * 买入中单比例
+       * </pre>
+       */
+      public Builder clearMaiRuZhongDanBiLi() {
+        bitField8_ = (bitField8_ & ~0x80000000);
+        maiRuZhongDanBiLi_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long maiRuDaDanBiLi_ ;
+      /**
+       * <code>optional int64 MaiRuDaDanBiLi = 703;</code>
+       *
+       * <pre>
+       * 买入大单比例
+       * </pre>
+       */
+      public boolean hasMaiRuDaDanBiLi() {
+        return ((bitField9_ & 0x00000001) == 0x00000001);
+      }
+      /**
+       * <code>optional int64 MaiRuDaDanBiLi = 703;</code>
+       *
+       * <pre>
+       * 买入大单比例
+       * </pre>
+       */
+      public long getMaiRuDaDanBiLi() {
+        return maiRuDaDanBiLi_;
+      }
+      /**
+       * <code>optional int64 MaiRuDaDanBiLi = 703;</code>
+       *
+       * <pre>
+       * 买入大单比例
+       * </pre>
+       */
+      public Builder setMaiRuDaDanBiLi(long value) {
+        bitField9_ |= 0x00000001;
+        maiRuDaDanBiLi_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 MaiRuDaDanBiLi = 703;</code>
+       *
+       * <pre>
+       * 买入大单比例
+       * </pre>
+       */
+      public Builder clearMaiRuDaDanBiLi() {
+        bitField9_ = (bitField9_ & ~0x00000001);
+        maiRuDaDanBiLi_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long maiRuTeDaDanBiLi_ ;
+      /**
+       * <code>optional int64 MaiRuTeDaDanBiLi = 704;</code>
+       *
+       * <pre>
+       * 买入特大单比例
+       * </pre>
+       */
+      public boolean hasMaiRuTeDaDanBiLi() {
+        return ((bitField9_ & 0x00000002) == 0x00000002);
+      }
+      /**
+       * <code>optional int64 MaiRuTeDaDanBiLi = 704;</code>
+       *
+       * <pre>
+       * 买入特大单比例
+       * </pre>
+       */
+      public long getMaiRuTeDaDanBiLi() {
+        return maiRuTeDaDanBiLi_;
+      }
+      /**
+       * <code>optional int64 MaiRuTeDaDanBiLi = 704;</code>
+       *
+       * <pre>
+       * 买入特大单比例
+       * </pre>
+       */
+      public Builder setMaiRuTeDaDanBiLi(long value) {
+        bitField9_ |= 0x00000002;
+        maiRuTeDaDanBiLi_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 MaiRuTeDaDanBiLi = 704;</code>
+       *
+       * <pre>
+       * 买入特大单比例
+       * </pre>
+       */
+      public Builder clearMaiRuTeDaDanBiLi() {
+        bitField9_ = (bitField9_ & ~0x00000002);
+        maiRuTeDaDanBiLi_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long maiChuZhongDanBiLi_ ;
+      /**
+       * <code>optional int64 MaiChuZhongDanBiLi = 705;</code>
+       *
+       * <pre>
+       * 卖出中单比例
+       * </pre>
+       */
+      public boolean hasMaiChuZhongDanBiLi() {
+        return ((bitField9_ & 0x00000004) == 0x00000004);
+      }
+      /**
+       * <code>optional int64 MaiChuZhongDanBiLi = 705;</code>
+       *
+       * <pre>
+       * 卖出中单比例
+       * </pre>
+       */
+      public long getMaiChuZhongDanBiLi() {
+        return maiChuZhongDanBiLi_;
+      }
+      /**
+       * <code>optional int64 MaiChuZhongDanBiLi = 705;</code>
+       *
+       * <pre>
+       * 卖出中单比例
+       * </pre>
+       */
+      public Builder setMaiChuZhongDanBiLi(long value) {
+        bitField9_ |= 0x00000004;
+        maiChuZhongDanBiLi_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 MaiChuZhongDanBiLi = 705;</code>
+       *
+       * <pre>
+       * 卖出中单比例
+       * </pre>
+       */
+      public Builder clearMaiChuZhongDanBiLi() {
+        bitField9_ = (bitField9_ & ~0x00000004);
+        maiChuZhongDanBiLi_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long maiChuDaDanBiLi_ ;
+      /**
+       * <code>optional int64 MaiChuDaDanBiLi = 706;</code>
+       *
+       * <pre>
+       * 卖出大单比例
+       * </pre>
+       */
+      public boolean hasMaiChuDaDanBiLi() {
+        return ((bitField9_ & 0x00000008) == 0x00000008);
+      }
+      /**
+       * <code>optional int64 MaiChuDaDanBiLi = 706;</code>
+       *
+       * <pre>
+       * 卖出大单比例
+       * </pre>
+       */
+      public long getMaiChuDaDanBiLi() {
+        return maiChuDaDanBiLi_;
+      }
+      /**
+       * <code>optional int64 MaiChuDaDanBiLi = 706;</code>
+       *
+       * <pre>
+       * 卖出大单比例
+       * </pre>
+       */
+      public Builder setMaiChuDaDanBiLi(long value) {
+        bitField9_ |= 0x00000008;
+        maiChuDaDanBiLi_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 MaiChuDaDanBiLi = 706;</code>
+       *
+       * <pre>
+       * 卖出大单比例
+       * </pre>
+       */
+      public Builder clearMaiChuDaDanBiLi() {
+        bitField9_ = (bitField9_ & ~0x00000008);
+        maiChuDaDanBiLi_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long maiChuTeDaDanBiLi_ ;
+      /**
+       * <code>optional int64 MaiChuTeDaDanBiLi = 707;</code>
+       *
+       * <pre>
+       * 卖出特大单比例
+       * </pre>
+       */
+      public boolean hasMaiChuTeDaDanBiLi() {
+        return ((bitField9_ & 0x00000010) == 0x00000010);
+      }
+      /**
+       * <code>optional int64 MaiChuTeDaDanBiLi = 707;</code>
+       *
+       * <pre>
+       * 卖出特大单比例
+       * </pre>
+       */
+      public long getMaiChuTeDaDanBiLi() {
+        return maiChuTeDaDanBiLi_;
+      }
+      /**
+       * <code>optional int64 MaiChuTeDaDanBiLi = 707;</code>
+       *
+       * <pre>
+       * 卖出特大单比例
+       * </pre>
+       */
+      public Builder setMaiChuTeDaDanBiLi(long value) {
+        bitField9_ |= 0x00000010;
+        maiChuTeDaDanBiLi_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 MaiChuTeDaDanBiLi = 707;</code>
+       *
+       * <pre>
+       * 卖出特大单比例
+       * </pre>
+       */
+      public Builder clearMaiChuTeDaDanBiLi() {
+        bitField9_ = (bitField9_ & ~0x00000010);
+        maiChuTeDaDanBiLi_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long duanXianMaiRu_ ;
+      /**
+       * <code>optional int64 DuanXianMaiRu = 708;</code>
+       *
+       * <pre>
+       * 短线精灵买入大单统计
+       * </pre>
+       */
+      public boolean hasDuanXianMaiRu() {
+        return ((bitField9_ & 0x00000020) == 0x00000020);
+      }
+      /**
+       * <code>optional int64 DuanXianMaiRu = 708;</code>
+       *
+       * <pre>
+       * 短线精灵买入大单统计
+       * </pre>
+       */
+      public long getDuanXianMaiRu() {
+        return duanXianMaiRu_;
+      }
+      /**
+       * <code>optional int64 DuanXianMaiRu = 708;</code>
+       *
+       * <pre>
+       * 短线精灵买入大单统计
+       * </pre>
+       */
+      public Builder setDuanXianMaiRu(long value) {
+        bitField9_ |= 0x00000020;
+        duanXianMaiRu_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 DuanXianMaiRu = 708;</code>
+       *
+       * <pre>
+       * 短线精灵买入大单统计
+       * </pre>
+       */
+      public Builder clearDuanXianMaiRu() {
+        bitField9_ = (bitField9_ & ~0x00000020);
+        duanXianMaiRu_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long duanXianMaiChu_ ;
+      /**
+       * <code>optional int64 DuanXianMaiChu = 709;</code>
+       *
+       * <pre>
+       * 短线精灵卖出大单统计
+       * </pre>
+       */
+      public boolean hasDuanXianMaiChu() {
+        return ((bitField9_ & 0x00000040) == 0x00000040);
+      }
+      /**
+       * <code>optional int64 DuanXianMaiChu = 709;</code>
+       *
+       * <pre>
+       * 短线精灵卖出大单统计
+       * </pre>
+       */
+      public long getDuanXianMaiChu() {
+        return duanXianMaiChu_;
+      }
+      /**
+       * <code>optional int64 DuanXianMaiChu = 709;</code>
+       *
+       * <pre>
+       * 短线精灵卖出大单统计
+       * </pre>
+       */
+      public Builder setDuanXianMaiChu(long value) {
+        bitField9_ |= 0x00000040;
+        duanXianMaiChu_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 DuanXianMaiChu = 709;</code>
+       *
+       * <pre>
+       * 短线精灵卖出大单统计
+       * </pre>
+       */
+      public Builder clearDuanXianMaiChu() {
+        bitField9_ = (bitField9_ & ~0x00000040);
+        duanXianMaiChu_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long duanXianChiHuo_ ;
+      /**
+       * <code>optional int64 DuanXianChiHuo = 710;</code>
+       *
+       * <pre>
+       * 短线精灵吃货大单统计
+       * </pre>
+       */
+      public boolean hasDuanXianChiHuo() {
+        return ((bitField9_ & 0x00000080) == 0x00000080);
+      }
+      /**
+       * <code>optional int64 DuanXianChiHuo = 710;</code>
+       *
+       * <pre>
+       * 短线精灵吃货大单统计
+       * </pre>
+       */
+      public long getDuanXianChiHuo() {
+        return duanXianChiHuo_;
+      }
+      /**
+       * <code>optional int64 DuanXianChiHuo = 710;</code>
+       *
+       * <pre>
+       * 短线精灵吃货大单统计
+       * </pre>
+       */
+      public Builder setDuanXianChiHuo(long value) {
+        bitField9_ |= 0x00000080;
+        duanXianChiHuo_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 DuanXianChiHuo = 710;</code>
+       *
+       * <pre>
+       * 短线精灵吃货大单统计
+       * </pre>
+       */
+      public Builder clearDuanXianChiHuo() {
+        bitField9_ = (bitField9_ & ~0x00000080);
+        duanXianChiHuo_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long duanXianTuHuo_ ;
+      /**
+       * <code>optional int64 DuanXianTuHuo = 711;</code>
+       *
+       * <pre>
+       * 短线精灵吐货大单统计
+       * </pre>
+       */
+      public boolean hasDuanXianTuHuo() {
+        return ((bitField9_ & 0x00000100) == 0x00000100);
+      }
+      /**
+       * <code>optional int64 DuanXianTuHuo = 711;</code>
+       *
+       * <pre>
+       * 短线精灵吐货大单统计
+       * </pre>
+       */
+      public long getDuanXianTuHuo() {
+        return duanXianTuHuo_;
+      }
+      /**
+       * <code>optional int64 DuanXianTuHuo = 711;</code>
+       *
+       * <pre>
+       * 短线精灵吐货大单统计
+       * </pre>
+       */
+      public Builder setDuanXianTuHuo(long value) {
+        bitField9_ |= 0x00000100;
+        duanXianTuHuo_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 DuanXianTuHuo = 711;</code>
+       *
+       * <pre>
+       * 短线精灵吐货大单统计
+       * </pre>
+       */
+      public Builder clearDuanXianTuHuo() {
+        bitField9_ = (bitField9_ & ~0x00000100);
+        duanXianTuHuo_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long biShi_ ;
+      /**
+       * <code>optional int64 BiShi = 801;</code>
+       *
+       * <pre>
+       *市场动态
+       * </pre>
+       */
+      public boolean hasBiShi() {
+        return ((bitField9_ & 0x00000200) == 0x00000200);
+      }
+      /**
+       * <code>optional int64 BiShi = 801;</code>
+       *
+       * <pre>
+       *市场动态
+       * </pre>
+       */
+      public long getBiShi() {
+        return biShi_;
+      }
+      /**
+       * <code>optional int64 BiShi = 801;</code>
+       *
+       * <pre>
+       *市场动态
+       * </pre>
+       */
+      public Builder setBiShi(long value) {
+        bitField9_ |= 0x00000200;
+        biShi_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 BiShi = 801;</code>
+       *
+       * <pre>
+       *市场动态
+       * </pre>
+       */
+      public Builder clearBiShi() {
+        bitField9_ = (bitField9_ & ~0x00000200);
+        biShi_ = 0L;
         onChanged();
         return this;
       }
@@ -33276,7 +34046,7 @@ public final class DzhyunStkdata {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\024dzhyun.stkdata.proto\022\006dzhyun\"\2553\n\007StkDa" +
+      "\n\024dzhyun.stkdata.proto\022\006dzhyun\"\3224\n\007StkDa" +
       "ta\022\013\n\003Obj\030\001 \002(\t\022\023\n\013JiaoYiDaiMa\030\002 \001(\t\022\031\n\021" +
       "ZhongWenJianCheng\030\003 \001(\t\022\021\n\tZuiXinJia\030\004 \001" +
       "(\003\022\021\n\tKaiPanJia\030\005 \001(\003\022\021\n\tZuiGaoJia\030\006 \001(\003" +
@@ -33317,131 +34087,135 @@ public final class DzhyunStkdata {
       "@ \001(\003\022\034\n\024QiTaShangZhangJiaShu\030A \001(\003\022\030\n\020Q" +
       "iTaXiaDieJiaShu\030B \001(\003\022\031\n\021QiTaPingPanJiaS",
       "hu\030C \001(\003\022\026\n\016QiTaChengJiaoE\030D \001(\003\022\023\n\013MaiR" +
-      "uDanShu\030E \001(\003\022\024\n\014MaiChuDanShu\030F \001(\003\022\031\n\021M" +
-      "aiRuZhongDanBiLi\030G \001(\003\022\026\n\016MaiRuDaDanBiLi" +
-      "\030H \001(\003\022\030\n\020MaiRuTeDaDanBiLi\030I \001(\003\022\032\n\022MaiC" +
-      "huZhongDanBiLi\030J \001(\003\022\027\n\017MaiChuDaDanBiLi\030" +
-      "K \001(\003\022\031\n\021MaiChuTeDaDanBiLi\030L \001(\003\022\030\n\020FenZ" +
-      "hongZhangFu1\030M \001(\003\022\030\n\020FenZhongZhangFu2\030N" +
-      " \001(\003\022\030\n\020FenZhongZhangFu3\030O \001(\003\022\030\n\020FenZho" +
-      "ngZhangFu4\030P \001(\003\022\030\n\020FenZhongZhangFu5\030Q \001" +
-      "(\003\022\021\n\tShiYingLv\030R \001(\003\022\021\n\tZhangTing\030S \001(\003",
-      "\022\017\n\007DieTing\030T \001(\003\022\031\n\021ShiChangMingCheng\030U" +
-      " \001(\t\022\035\n\025ShiChangDuanMingCheng\030V \001(\t\022\026\n\016J" +
-      "iGouChiHuoShu\030W \001(\003\022\025\n\rJiGouTuHuoShu\030X \001" +
-      "(\003\022\030\n\020JiGouChiHuoLiang\030Y \001(\003\022\027\n\017JiGouTuH" +
-      "uoLiang\030Z \001(\003\022\027\n\017JiGouChiHuoJunE\030[ \001(\003\022\026" +
-      "\n\016JiGouTuHuoJunE\030\\ \001(\003\022\024\n\014MeiShouGuShu\030]" +
-      " \001(\003\022\024\n\014JiaoYiDanWei\030^ \001(\003\022\021\n\tShiXiaoLv\030" +
-      "_ \001(\003\022\017\n\007ShiJian\030` \001(\003\022\021\n\tShiJingLv\030a \001(" +
-      "\003\022\022\n\nZongShiZhi\030b \001(\003\022\025\n\rLiuTongShiZhi\030c" +
-      " \001(\003\022\022\n\tMA1minMA1\030\310\001 \001(\003\022\022\n\tMA1minMA2\030\311\001",
-      " \001(\003\022\022\n\tMA1minMA3\030\312\001 \001(\003\022\022\n\tMA1minMA4\030\313\001" +
-      " \001(\003\022\022\n\tMA1minMA5\030\314\001 \001(\003\022\022\n\tMA1minMA6\030\315\001" +
-      " \001(\003\022\022\n\tMA5minMA1\030\316\001 \001(\003\022\022\n\tMA5minMA2\030\317\001" +
-      " \001(\003\022\022\n\tMA5minMA3\030\320\001 \001(\003\022\022\n\tMA5minMA4\030\321\001" +
-      " \001(\003\022\022\n\tMA5minMA5\030\322\001 \001(\003\022\022\n\tMA5minMA6\030\323\001" +
-      " \001(\003\022\022\n\tMA1dayMA1\030\324\001 \001(\003\022\022\n\tMA1dayMA2\030\325\001" +
-      " \001(\003\022\022\n\tMA1dayMA3\030\326\001 \001(\003\022\022\n\tMA1dayMA4\030\327\001" +
-      " \001(\003\022\022\n\tMA1dayMA5\030\330\001 \001(\003\022\022\n\tMA1dayMA6\030\331\001" +
-      " \001(\003\022\024\n\013BOLL1minMID\030\332\001 \001(\003\022\026\n\rBOLL1minUP" +
-      "PER\030\333\001 \001(\003\022\026\n\rBOLL1minLOWER\030\334\001 \001(\003\022\024\n\013BO",
-      "LL5minMID\030\335\001 \001(\003\022\026\n\rBOLL5minUPPER\030\336\001 \001(\003" +
-      "\022\026\n\rBOLL5minLOWER\030\337\001 \001(\003\022\024\n\013BOLL1dayMID\030" +
-      "\340\001 \001(\003\022\026\n\rBOLL1dayUPPER\030\341\001 \001(\003\022\026\n\rBOLL1d" +
-      "ayLOWER\030\342\001 \001(\003\022\020\n\007VOL1min\030\343\001 \001(\003\022\023\n\nVOL1" +
-      "minMA1\030\344\001 \001(\003\022\023\n\nVOL1minMA2\030\345\001 \001(\003\022\023\n\nVO" +
-      "L1minMA3\030\346\001 \001(\003\022\020\n\007VOL5min\030\347\001 \001(\003\022\023\n\nVOL" +
-      "5minMA1\030\350\001 \001(\003\022\023\n\nVOL5minMA2\030\351\001 \001(\003\022\023\n\nV" +
-      "OL5minMA3\030\352\001 \001(\003\022\020\n\007VOL1day\030\353\001 \001(\003\022\023\n\nVO" +
-      "L1dayMA1\030\354\001 \001(\003\022\023\n\nVOL1dayMA2\030\355\001 \001(\003\022\023\n\n" +
-      "VOL1dayMA3\030\356\001 \001(\003\022\023\n\nARBR1minAR\030\357\001 \001(\003\022\023",
-      "\n\nARBR1minBR\030\360\001 \001(\003\022\023\n\nARBR5minAR\030\361\001 \001(\003" +
-      "\022\023\n\nARBR5minBR\030\362\001 \001(\003\022\023\n\nARBR1dayAR\030\363\001 \001" +
-      "(\003\022\023\n\nARBR1dayBR\030\364\001 \001(\003\022\026\n\rBIAS1minBIAS1" +
-      "\030\365\001 \001(\003\022\026\n\rBIAS1minBIAS2\030\366\001 \001(\003\022\026\n\rBIAS1" +
-      "minBIAS3\030\367\001 \001(\003\022\026\n\rBIAS5minBIAS1\030\370\001 \001(\003\022" +
-      "\026\n\rBIAS5minBIAS2\030\371\001 \001(\003\022\026\n\rBIAS5minBIAS3" +
-      "\030\372\001 \001(\003\022\026\n\rBIAS1dayBIAS1\030\373\001 \001(\003\022\026\n\rBIAS1" +
-      "dayBIAS2\030\374\001 \001(\003\022\026\n\rBIAS1dayBIAS3\030\375\001 \001(\003\022" +
-      "\020\n\007CCI1min\030\376\001 \001(\003\022\020\n\007CCI5min\030\377\001 \001(\003\022\020\n\007C" +
-      "CI1day\030\200\002 \001(\003\022\025\n\014CJBS1minCJBS\030\201\002 \001(\003\022\025\n\014",
-      "CJBS5minCJBS\030\202\002 \001(\003\022\025\n\014CJBS1dayCJBS\030\203\002 \001" +
-      "(\003\022\021\n\010CR1minCR\030\204\002 \001(\003\022\022\n\tCR1minMA1\030\205\002 \001(" +
-      "\003\022\022\n\tCR1minMA2\030\206\002 \001(\003\022\022\n\tCR1minMA3\030\207\002 \001(" +
-      "\003\022\021\n\010CR5minCR\030\210\002 \001(\003\022\022\n\tCR5minMA1\030\211\002 \001(\003" +
-      "\022\022\n\tCR5minMA2\030\212\002 \001(\003\022\022\n\tCR5minMA3\030\213\002 \001(\003" +
-      "\022\021\n\010CR1dayCR\030\214\002 \001(\003\022\022\n\tCR1dayMA1\030\215\002 \001(\003\022" +
-      "\022\n\tCR1dayMA2\030\216\002 \001(\003\022\022\n\tCR1dayMA3\030\217\002 \001(\003\022" +
-      "\023\n\nDMA1minDDD\030\220\002 \001(\003\022\023\n\nDMA1minAMA\030\221\002 \001(" +
-      "\003\022\023\n\nDMA5minDDD\030\222\002 \001(\003\022\023\n\nDMA5minAMA\030\223\002 " +
-      "\001(\003\022\023\n\nDMA1dayDDD\030\224\002 \001(\003\022\023\n\nDMA1dayAMA\030\225",
-      "\002 \001(\003\022\023\n\nDMI1minPDI\030\226\002 \001(\003\022\023\n\nDMI1minMDI" +
-      "\030\227\002 \001(\003\022\023\n\nDMI1minADX\030\230\002 \001(\003\022\024\n\013DMI1minA" +
-      "DXR\030\231\002 \001(\003\022\023\n\nDMI5minPDI\030\232\002 \001(\003\022\023\n\nDMI5m" +
-      "inMDI\030\233\002 \001(\003\022\023\n\nDMI5minADX\030\234\002 \001(\003\022\024\n\013DMI" +
-      "5minADXR\030\235\002 \001(\003\022\023\n\nDMI1dayPDI\030\236\002 \001(\003\022\023\n\n" +
-      "DMI1dayMDI\030\237\002 \001(\003\022\023\n\nDMI1dayADX\030\240\002 \001(\003\022\024" +
-      "\n\013DMI1dayADXR\030\241\002 \001(\003\022\021\n\010KDJ1minK\030\242\002 \001(\003\022" +
-      "\021\n\010KDJ1minD\030\243\002 \001(\003\022\021\n\010KDJ1minJ\030\244\002 \001(\003\022\021\n" +
-      "\010KDJ5minK\030\245\002 \001(\003\022\021\n\010KDJ5minD\030\246\002 \001(\003\022\021\n\010K" +
-      "DJ5minJ\030\247\002 \001(\003\022\021\n\010KDJ1dayK\030\250\002 \001(\003\022\021\n\010KDJ",
-      "1dayD\030\251\002 \001(\003\022\021\n\010KDJ1dayJ\030\252\002 \001(\003\022\025\n\014MACD1" +
-      "minDIFF\030\253\002 \001(\003\022\024\n\013MACD1minDEA\030\254\002 \001(\003\022\025\n\014" +
-      "MACD1minMACD\030\255\002 \001(\003\022\025\n\014MACD5minDIFF\030\256\002 \001" +
-      "(\003\022\024\n\013MACD5minDEA\030\257\002 \001(\003\022\025\n\014MACD5minMACD" +
-      "\030\260\002 \001(\003\022\025\n\014MACD1dayDIFF\030\261\002 \001(\003\022\024\n\013MACD1d" +
-      "ayDEA\030\262\002 \001(\003\022\025\n\014MACD1dayMACD\030\263\002 \001(\003\022\020\n\007O" +
-      "BV1min\030\264\002 \001(\003\022\020\n\007OBV5min\030\265\002 \001(\003\022\020\n\007OBV1d" +
-      "ay\030\266\002 \001(\003\022\020\n\007PSY1min\030\267\002 \001(\003\022\020\n\007PSY5min\030\270" +
-      "\002 \001(\003\022\020\n\007PSY1day\030\271\002 \001(\003\022\024\n\013RSI1minRSI1\030\272" +
-      "\002 \001(\003\022\024\n\013RSI1minRSI2\030\273\002 \001(\003\022\024\n\013RSI1minRS",
-      "I3\030\274\002 \001(\003\022\024\n\013RSI5minRSI1\030\275\002 \001(\003\022\024\n\013RSI5m" +
-      "inRSI2\030\276\002 \001(\003\022\024\n\013RSI5minRSI3\030\277\002 \001(\003\022\024\n\013R" +
-      "SI1dayRSI1\030\300\002 \001(\003\022\024\n\013RSI1dayRSI2\030\301\002 \001(\003\022" +
-      "\024\n\013RSI1dayRSI3\030\302\002 \001(\003\022\022\n\tWR1minWR1\030\303\002 \001(" +
-      "\003\022\022\n\tWR1minWR2\030\304\002 \001(\003\022\022\n\tWR5minWR1\030\305\002 \001(" +
-      "\003\022\022\n\tWR5minWR2\030\306\002 \001(\003\022\022\n\tWR1dayWR1\030\307\002 \001(" +
-      "\003\022\022\n\tWR1dayWR2\030\310\002 \001(\003\022\020\n\007LeiXing\030\220\003 \001(\003\022" +
-      "\022\n\tZiLeiXing\030\221\003 \001(\003\022\031\n\020LeiXingMingCheng\030" +
-      "\222\003 \001(\t\022\035\n\024ChengJiaoLiangDanWei\030\223\003 \001(\003\022\024\n" +
-      "\013FJJJLeiXing\030\365\003 \001(\003\022\025\n\014ZhengTiYiJia\030\366\003 \001",
-      "(\003\022\017\n\006MYiJia\030\247\004 \001(\003\022\027\n\016MShiShiJingZhi\030\250\004" +
-      " \001(\003\022\031\n\020MShangZheXuZhang\030\251\004 \001(\003\022\025\n\014MXiaZ" +
-      "heXuDie\030\252\004 \001(\003\022\025\n\014YinHanShouYi\030\377\003 \001(\003\022\025\n" +
-      "\014JiaGeGangGan\030\200\004 \001(\003\022\024\n\013PinZhongObj\030\331\004 \001" +
-      "(\t\022\021\n\010BaoGaoQi\030\332\004 \001(\t\022\025\n\014ShangShiRiQi\030\333\004" +
-      " \001(\t\022\024\n\013MeiGuShouYi\030\334\004 \001(\003\022\030\n\017MeiGuJingZ" +
-      "iChan\030\335\004 \001(\003\022\033\n\022JingZiChanShouYiLv\030\336\004 \001(" +
-      "\003\022\035\n\024MeiGuJingYingXianJin\030\337\004 \001(\003\022\027\n\016MeiG" +
-      "uGongJiJin\030\340\004 \001(\003\022\027\n\016MeiGuWeiFenPei\030\341\004 \001" +
-      "(\003\022\027\n\016GuDongQuanYiBi\030\342\004 \001(\003\022\030\n\017JingLiRun",
-      "TongBi\030\343\004 \001(\003\022\034\n\023ZhuYingShouRuTongBi\030\344\004 " +
-      "\001(\003\022\030\n\017XiaoShouMaoLiLv\030\345\004 \001(\003\022\035\n\024TiaoZhe" +
-      "ngMeiGuJingZi\030\346\004 \001(\003\022\023\n\nZongZiChan\030\347\004 \001(" +
-      "\003\022\026\n\rLiuDongZiChan\030\350\004 \001(\003\022\025\n\014GuDingZiCha" +
-      "n\030\351\004 \001(\003\022\025\n\014WuXingZiChan\030\352\004 \001(\003\022\026\n\rLiuDo" +
-      "ngFuZhai\030\353\004 \001(\003\022\026\n\rChangQiFuZhai\030\354\004 \001(\003\022" +
-      "\023\n\nZongFuZhai\030\355\004 \001(\003\022\025\n\014GuDongQuanYi\030\356\004 " +
-      "\001(\003\022\027\n\016ZiBenGongJiJin\030\357\004 \001(\003\022 \n\027JingYing" +
-      "XianJinLiuLiang\030\360\004 \001(\003\022\035\n\024TouZiXianJinLi" +
-      "uLiang\030\361\004 \001(\003\022\036\n\025ChouZiXianJinLiuLiang\030\362",
-      "\004 \001(\003\022\030\n\017XianJinZengJiaE\030\363\004 \001(\003\022\026\n\rZhuYi" +
-      "ngShouRu\030\364\004 \001(\003\022\025\n\014ZhuYingLiRun\030\365\004 \001(\003\022\024" +
-      "\n\013YingYeLiRun\030\366\004 \001(\003\022\024\n\013TouZiShouYi\030\367\004 \001" +
-      "(\003\022\031\n\020YingYeWaiShouZhi\030\370\004 \001(\003\022\023\n\nLiRunZo" +
-      "ngE\030\371\004 \001(\003\022\022\n\tJingLiRun\030\372\004 \001(\003\022\027\n\016WeiFen" +
-      "PeiLiRun\030\373\004 \001(\003\022\022\n\tZongGuBen\030\374\004 \001(\003\022\031\n\020W" +
-      "uXianShouGuHeJi\030\375\004 \001(\003\022\023\n\nLiuTongAGu\030\376\004 " +
-      "\001(\003\022\023\n\nLiuTongBGu\030\377\004 \001(\003\022\032\n\021JingWaiShang" +
-      "ShiGu\030\200\005 \001(\003\022\026\n\rQiTaLiuTongGu\030\201\005 \001(\003\022\027\n\016" +
-      "XianShouGuHeJi\030\202\005 \001(\003\022\024\n\013GuoJiaChiGu\030\203\005 ",
-      "\001(\003\022\026\n\rGuoYouFaRenGu\030\204\005 \001(\003\022\027\n\016JingNeiFa" +
-      "RenGu\030\205\005 \001(\003\022\032\n\021JingNeiZiRanRenGu\030\206\005 \001(\003" +
-      "\022\026\n\rQiTaFaQiRenGu\030\207\005 \001(\003\022\024\n\013MuJiFaRenGu\030" +
-      "\210\005 \001(\003\022\027\n\016JingWaiFaRenGu\030\211\005 \001(\003\022\032\n\021JingW" +
-      "aiZiRanRenGu\030\212\005 \001(\003\022\031\n\020YouXianGuHuoQiTa\030" +
-      "\213\005 \001(\003B\022\n\020com.dzhyun.proto"
+      "uDanShu\030E \001(\003\022\024\n\014MaiChuDanShu\030F \001(\003\022\030\n\020F" +
+      "enZhongZhangFu1\030M \001(\003\022\030\n\020FenZhongZhangFu" +
+      "2\030N \001(\003\022\030\n\020FenZhongZhangFu3\030O \001(\003\022\030\n\020Fen" +
+      "ZhongZhangFu4\030P \001(\003\022\030\n\020FenZhongZhangFu5\030" +
+      "Q \001(\003\022\021\n\tShiYingLv\030R \001(\003\022\021\n\tZhangTing\030S " +
+      "\001(\003\022\017\n\007DieTing\030T \001(\003\022\031\n\021ShiChangMingChen" +
+      "g\030U \001(\t\022\035\n\025ShiChangDuanMingCheng\030V \001(\t\022\026" +
+      "\n\016JiGouChiHuoShu\030W \001(\003\022\025\n\rJiGouTuHuoShu\030" +
+      "X \001(\003\022\030\n\020JiGouChiHuoLiang\030Y \001(\003\022\027\n\017JiGou",
+      "TuHuoLiang\030Z \001(\003\022\027\n\017JiGouChiHuoJunE\030[ \001(" +
+      "\003\022\026\n\016JiGouTuHuoJunE\030\\ \001(\003\022\024\n\014MeiShouGuSh" +
+      "u\030] \001(\003\022\024\n\014JiaoYiDanWei\030^ \001(\003\022\021\n\tShiXiao" +
+      "Lv\030_ \001(\003\022\017\n\007ShiJian\030` \001(\003\022\021\n\tShiJingLv\030a" +
+      " \001(\003\022\022\n\nZongShiZhi\030b \001(\003\022\025\n\rLiuTongShiZh" +
+      "i\030c \001(\003\022\022\n\tMA1minMA1\030\310\001 \001(\003\022\022\n\tMA1minMA2" +
+      "\030\311\001 \001(\003\022\022\n\tMA1minMA3\030\312\001 \001(\003\022\022\n\tMA1minMA4" +
+      "\030\313\001 \001(\003\022\022\n\tMA1minMA5\030\314\001 \001(\003\022\022\n\tMA1minMA6" +
+      "\030\315\001 \001(\003\022\022\n\tMA5minMA1\030\316\001 \001(\003\022\022\n\tMA5minMA2" +
+      "\030\317\001 \001(\003\022\022\n\tMA5minMA3\030\320\001 \001(\003\022\022\n\tMA5minMA4",
+      "\030\321\001 \001(\003\022\022\n\tMA5minMA5\030\322\001 \001(\003\022\022\n\tMA5minMA6" +
+      "\030\323\001 \001(\003\022\022\n\tMA1dayMA1\030\324\001 \001(\003\022\022\n\tMA1dayMA2" +
+      "\030\325\001 \001(\003\022\022\n\tMA1dayMA3\030\326\001 \001(\003\022\022\n\tMA1dayMA4" +
+      "\030\327\001 \001(\003\022\022\n\tMA1dayMA5\030\330\001 \001(\003\022\022\n\tMA1dayMA6" +
+      "\030\331\001 \001(\003\022\024\n\013BOLL1minMID\030\332\001 \001(\003\022\026\n\rBOLL1mi" +
+      "nUPPER\030\333\001 \001(\003\022\026\n\rBOLL1minLOWER\030\334\001 \001(\003\022\024\n" +
+      "\013BOLL5minMID\030\335\001 \001(\003\022\026\n\rBOLL5minUPPER\030\336\001 " +
+      "\001(\003\022\026\n\rBOLL5minLOWER\030\337\001 \001(\003\022\024\n\013BOLL1dayM" +
+      "ID\030\340\001 \001(\003\022\026\n\rBOLL1dayUPPER\030\341\001 \001(\003\022\026\n\rBOL" +
+      "L1dayLOWER\030\342\001 \001(\003\022\020\n\007VOL1min\030\343\001 \001(\003\022\023\n\nV",
+      "OL1minMA1\030\344\001 \001(\003\022\023\n\nVOL1minMA2\030\345\001 \001(\003\022\023\n" +
+      "\nVOL1minMA3\030\346\001 \001(\003\022\020\n\007VOL5min\030\347\001 \001(\003\022\023\n\n" +
+      "VOL5minMA1\030\350\001 \001(\003\022\023\n\nVOL5minMA2\030\351\001 \001(\003\022\023" +
+      "\n\nVOL5minMA3\030\352\001 \001(\003\022\020\n\007VOL1day\030\353\001 \001(\003\022\023\n" +
+      "\nVOL1dayMA1\030\354\001 \001(\003\022\023\n\nVOL1dayMA2\030\355\001 \001(\003\022" +
+      "\023\n\nVOL1dayMA3\030\356\001 \001(\003\022\023\n\nARBR1minAR\030\357\001 \001(" +
+      "\003\022\023\n\nARBR1minBR\030\360\001 \001(\003\022\023\n\nARBR5minAR\030\361\001 " +
+      "\001(\003\022\023\n\nARBR5minBR\030\362\001 \001(\003\022\023\n\nARBR1dayAR\030\363" +
+      "\001 \001(\003\022\023\n\nARBR1dayBR\030\364\001 \001(\003\022\026\n\rBIAS1minBI" +
+      "AS1\030\365\001 \001(\003\022\026\n\rBIAS1minBIAS2\030\366\001 \001(\003\022\026\n\rBI",
+      "AS1minBIAS3\030\367\001 \001(\003\022\026\n\rBIAS5minBIAS1\030\370\001 \001" +
+      "(\003\022\026\n\rBIAS5minBIAS2\030\371\001 \001(\003\022\026\n\rBIAS5minBI" +
+      "AS3\030\372\001 \001(\003\022\026\n\rBIAS1dayBIAS1\030\373\001 \001(\003\022\026\n\rBI" +
+      "AS1dayBIAS2\030\374\001 \001(\003\022\026\n\rBIAS1dayBIAS3\030\375\001 \001" +
+      "(\003\022\020\n\007CCI1min\030\376\001 \001(\003\022\020\n\007CCI5min\030\377\001 \001(\003\022\020" +
+      "\n\007CCI1day\030\200\002 \001(\003\022\025\n\014CJBS1minCJBS\030\201\002 \001(\003\022" +
+      "\025\n\014CJBS5minCJBS\030\202\002 \001(\003\022\025\n\014CJBS1dayCJBS\030\203" +
+      "\002 \001(\003\022\021\n\010CR1minCR\030\204\002 \001(\003\022\022\n\tCR1minMA1\030\205\002" +
+      " \001(\003\022\022\n\tCR1minMA2\030\206\002 \001(\003\022\022\n\tCR1minMA3\030\207\002" +
+      " \001(\003\022\021\n\010CR5minCR\030\210\002 \001(\003\022\022\n\tCR5minMA1\030\211\002 ",
+      "\001(\003\022\022\n\tCR5minMA2\030\212\002 \001(\003\022\022\n\tCR5minMA3\030\213\002 " +
+      "\001(\003\022\021\n\010CR1dayCR\030\214\002 \001(\003\022\022\n\tCR1dayMA1\030\215\002 \001" +
+      "(\003\022\022\n\tCR1dayMA2\030\216\002 \001(\003\022\022\n\tCR1dayMA3\030\217\002 \001" +
+      "(\003\022\023\n\nDMA1minDDD\030\220\002 \001(\003\022\023\n\nDMA1minAMA\030\221\002" +
+      " \001(\003\022\023\n\nDMA5minDDD\030\222\002 \001(\003\022\023\n\nDMA5minAMA\030" +
+      "\223\002 \001(\003\022\023\n\nDMA1dayDDD\030\224\002 \001(\003\022\023\n\nDMA1dayAM" +
+      "A\030\225\002 \001(\003\022\023\n\nDMI1minPDI\030\226\002 \001(\003\022\023\n\nDMI1min" +
+      "MDI\030\227\002 \001(\003\022\023\n\nDMI1minADX\030\230\002 \001(\003\022\024\n\013DMI1m" +
+      "inADXR\030\231\002 \001(\003\022\023\n\nDMI5minPDI\030\232\002 \001(\003\022\023\n\nDM" +
+      "I5minMDI\030\233\002 \001(\003\022\023\n\nDMI5minADX\030\234\002 \001(\003\022\024\n\013",
+      "DMI5minADXR\030\235\002 \001(\003\022\023\n\nDMI1dayPDI\030\236\002 \001(\003\022" +
+      "\023\n\nDMI1dayMDI\030\237\002 \001(\003\022\023\n\nDMI1dayADX\030\240\002 \001(" +
+      "\003\022\024\n\013DMI1dayADXR\030\241\002 \001(\003\022\021\n\010KDJ1minK\030\242\002 \001" +
+      "(\003\022\021\n\010KDJ1minD\030\243\002 \001(\003\022\021\n\010KDJ1minJ\030\244\002 \001(\003" +
+      "\022\021\n\010KDJ5minK\030\245\002 \001(\003\022\021\n\010KDJ5minD\030\246\002 \001(\003\022\021" +
+      "\n\010KDJ5minJ\030\247\002 \001(\003\022\021\n\010KDJ1dayK\030\250\002 \001(\003\022\021\n\010" +
+      "KDJ1dayD\030\251\002 \001(\003\022\021\n\010KDJ1dayJ\030\252\002 \001(\003\022\025\n\014MA" +
+      "CD1minDIFF\030\253\002 \001(\003\022\024\n\013MACD1minDEA\030\254\002 \001(\003\022" +
+      "\025\n\014MACD1minMACD\030\255\002 \001(\003\022\025\n\014MACD5minDIFF\030\256" +
+      "\002 \001(\003\022\024\n\013MACD5minDEA\030\257\002 \001(\003\022\025\n\014MACD5minM",
+      "ACD\030\260\002 \001(\003\022\025\n\014MACD1dayDIFF\030\261\002 \001(\003\022\024\n\013MAC" +
+      "D1dayDEA\030\262\002 \001(\003\022\025\n\014MACD1dayMACD\030\263\002 \001(\003\022\020" +
+      "\n\007OBV1min\030\264\002 \001(\003\022\020\n\007OBV5min\030\265\002 \001(\003\022\020\n\007OB" +
+      "V1day\030\266\002 \001(\003\022\020\n\007PSY1min\030\267\002 \001(\003\022\020\n\007PSY5mi" +
+      "n\030\270\002 \001(\003\022\020\n\007PSY1day\030\271\002 \001(\003\022\024\n\013RSI1minRSI" +
+      "1\030\272\002 \001(\003\022\024\n\013RSI1minRSI2\030\273\002 \001(\003\022\024\n\013RSI1mi" +
+      "nRSI3\030\274\002 \001(\003\022\024\n\013RSI5minRSI1\030\275\002 \001(\003\022\024\n\013RS" +
+      "I5minRSI2\030\276\002 \001(\003\022\024\n\013RSI5minRSI3\030\277\002 \001(\003\022\024" +
+      "\n\013RSI1dayRSI1\030\300\002 \001(\003\022\024\n\013RSI1dayRSI2\030\301\002 \001" +
+      "(\003\022\024\n\013RSI1dayRSI3\030\302\002 \001(\003\022\022\n\tWR1minWR1\030\303\002",
+      " \001(\003\022\022\n\tWR1minWR2\030\304\002 \001(\003\022\022\n\tWR5minWR1\030\305\002" +
+      " \001(\003\022\022\n\tWR5minWR2\030\306\002 \001(\003\022\022\n\tWR1dayWR1\030\307\002" +
+      " \001(\003\022\022\n\tWR1dayWR2\030\310\002 \001(\003\022\020\n\007LeiXing\030\220\003 \001" +
+      "(\003\022\022\n\tZiLeiXing\030\221\003 \001(\003\022\031\n\020LeiXingMingChe" +
+      "ng\030\222\003 \001(\t\022\035\n\024ChengJiaoLiangDanWei\030\223\003 \001(\003" +
+      "\022\024\n\013FJJJLeiXing\030\365\003 \001(\003\022\025\n\014ZhengTiYiJia\030\366" +
+      "\003 \001(\003\022\017\n\006MYiJia\030\247\004 \001(\003\022\027\n\016MShiShiJingZhi" +
+      "\030\250\004 \001(\003\022\031\n\020MShangZheXuZhang\030\251\004 \001(\003\022\025\n\014MX" +
+      "iaZheXuDie\030\252\004 \001(\003\022\025\n\014YinHanShouYi\030\377\003 \001(\003" +
+      "\022\025\n\014JiaGeGangGan\030\200\004 \001(\003\022\024\n\013PinZhongObj\030\331",
+      "\004 \001(\t\022\021\n\010BaoGaoQi\030\332\004 \001(\t\022\025\n\014ShangShiRiQi" +
+      "\030\333\004 \001(\t\022\024\n\013MeiGuShouYi\030\334\004 \001(\003\022\030\n\017MeiGuJi" +
+      "ngZiChan\030\335\004 \001(\003\022\033\n\022JingZiChanShouYiLv\030\336\004" +
+      " \001(\003\022\035\n\024MeiGuJingYingXianJin\030\337\004 \001(\003\022\027\n\016M" +
+      "eiGuGongJiJin\030\340\004 \001(\003\022\027\n\016MeiGuWeiFenPei\030\341" +
+      "\004 \001(\003\022\027\n\016GuDongQuanYiBi\030\342\004 \001(\003\022\030\n\017JingLi" +
+      "RunTongBi\030\343\004 \001(\003\022\034\n\023ZhuYingShouRuTongBi\030" +
+      "\344\004 \001(\003\022\030\n\017XiaoShouMaoLiLv\030\345\004 \001(\003\022\035\n\024Tiao" +
+      "ZhengMeiGuJingZi\030\346\004 \001(\003\022\023\n\nZongZiChan\030\347\004" +
+      " \001(\003\022\026\n\rLiuDongZiChan\030\350\004 \001(\003\022\025\n\014GuDingZi",
+      "Chan\030\351\004 \001(\003\022\025\n\014WuXingZiChan\030\352\004 \001(\003\022\026\n\rLi" +
+      "uDongFuZhai\030\353\004 \001(\003\022\026\n\rChangQiFuZhai\030\354\004 \001" +
+      "(\003\022\023\n\nZongFuZhai\030\355\004 \001(\003\022\025\n\014GuDongQuanYi\030" +
+      "\356\004 \001(\003\022\027\n\016ZiBenGongJiJin\030\357\004 \001(\003\022 \n\027JingY" +
+      "ingXianJinLiuLiang\030\360\004 \001(\003\022\035\n\024TouZiXianJi" +
+      "nLiuLiang\030\361\004 \001(\003\022\036\n\025ChouZiXianJinLiuLian" +
+      "g\030\362\004 \001(\003\022\030\n\017XianJinZengJiaE\030\363\004 \001(\003\022\026\n\rZh" +
+      "uYingShouRu\030\364\004 \001(\003\022\025\n\014ZhuYingLiRun\030\365\004 \001(" +
+      "\003\022\024\n\013YingYeLiRun\030\366\004 \001(\003\022\024\n\013TouZiShouYi\030\367" +
+      "\004 \001(\003\022\031\n\020YingYeWaiShouZhi\030\370\004 \001(\003\022\023\n\nLiRu",
+      "nZongE\030\371\004 \001(\003\022\022\n\tJingLiRun\030\372\004 \001(\003\022\027\n\016Wei" +
+      "FenPeiLiRun\030\373\004 \001(\003\022\022\n\tZongGuBen\030\374\004 \001(\003\022\031" +
+      "\n\020WuXianShouGuHeJi\030\375\004 \001(\003\022\023\n\nLiuTongAGu\030" +
+      "\376\004 \001(\003\022\023\n\nLiuTongBGu\030\377\004 \001(\003\022\032\n\021JingWaiSh" +
+      "angShiGu\030\200\005 \001(\003\022\026\n\rQiTaLiuTongGu\030\201\005 \001(\003\022" +
+      "\027\n\016XianShouGuHeJi\030\202\005 \001(\003\022\024\n\013GuoJiaChiGu\030" +
+      "\203\005 \001(\003\022\026\n\rGuoYouFaRenGu\030\204\005 \001(\003\022\027\n\016JingNe" +
+      "iFaRenGu\030\205\005 \001(\003\022\032\n\021JingNeiZiRanRenGu\030\206\005 " +
+      "\001(\003\022\026\n\rQiTaFaQiRenGu\030\207\005 \001(\003\022\024\n\013MuJiFaRen" +
+      "Gu\030\210\005 \001(\003\022\027\n\016JingWaiFaRenGu\030\211\005 \001(\003\022\032\n\021Ji",
+      "ngWaiZiRanRenGu\030\212\005 \001(\003\022\031\n\020YouXianGuHuoQi" +
+      "Ta\030\213\005 \001(\003\022\024\n\013WeiTuoMaiRu\030\274\005 \001(\003\022\025\n\014WeiTu" +
+      "oMaiChu\030\275\005 \001(\003\022\032\n\021MaiRuZhongDanBiLi\030\276\005 \001" +
+      "(\003\022\027\n\016MaiRuDaDanBiLi\030\277\005 \001(\003\022\031\n\020MaiRuTeDa" +
+      "DanBiLi\030\300\005 \001(\003\022\033\n\022MaiChuZhongDanBiLi\030\301\005 " +
+      "\001(\003\022\030\n\017MaiChuDaDanBiLi\030\302\005 \001(\003\022\032\n\021MaiChuT" +
+      "eDaDanBiLi\030\303\005 \001(\003\022\026\n\rDuanXianMaiRu\030\304\005 \001(" +
+      "\003\022\027\n\016DuanXianMaiChu\030\305\005 \001(\003\022\027\n\016DuanXianCh" +
+      "iHuo\030\306\005 \001(\003\022\026\n\rDuanXianTuHuo\030\307\005 \001(\003\022\016\n\005B" +
+      "iShi\030\241\006 \001(\003B\022\n\020com.dzhyun.proto"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -33460,7 +34234,7 @@ public final class DzhyunStkdata {
     internal_static_dzhyun_StkData_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dzhyun_StkData_descriptor,
-        new java.lang.String[] { "Obj", "JiaoYiDaiMa", "ZhongWenJianCheng", "ZuiXinJia", "KaiPanJia", "ZuiGaoJia", "ZuiDiJia", "ZuoShou", "JunJia", "ZhangDie", "ZhangFu", "ZhenFu", "ChengJiaoLiang", "XianShou", "ChengJiaoE", "ZongChengJiaoBiShu", "MeiBiChengJiaoGuShu", "HuanShou", "LiangBi", "NeiPan", "WaiPan", "ZongMaiRu", "ZongMaiChu", "ZongMaiRuJunJia", "ZongMaiChuJunJia", "WeiTuoMaiRuJia1", "WeiTuoMaiRuJia2", "WeiTuoMaiRuJia3", "WeiTuoMaiRuJia4", "WeiTuoMaiRuJia5", "WeiTuoMaiRuLiang1", "WeiTuoMaiRuLiang2", "WeiTuoMaiRuLiang3", "WeiTuoMaiRuLiang4", "WeiTuoMaiRuLiang5", "WeiTuoMaiChuJia1", "WeiTuoMaiChuJia2", "WeiTuoMaiChuJia3", "WeiTuoMaiChuJia4", "WeiTuoMaiChuJia5", "WeiTuoMaiChuLiang1", "WeiTuoMaiChuLiang2", "WeiTuoMaiChuLiang3", "WeiTuoMaiChuLiang4", "WeiTuoMaiChuLiang5", "WeiBi", "WeiCha", "ZhangSu", "JunLiang5Ri", "ShangZhangJiaShu", "XiaDieJiaShu", "PingPanJiaShu", "AGuShangZhangJiaShu", "AGuXiaDieJiaShu", "AGuPingPanJiaShu", "AGuChengJiaoE", "BGuShangZhangJiaShu", "BGuXiaDieJiaShu", "BGuPingPanJiaShu", "BGuChengJiaoE", "JiJinShangZhangJiaShu", "JiJinXiaDieJiaShu", "JiJinPingPanJiaShu", "JiJinChengJiaoE", "QiTaShangZhangJiaShu", "QiTaXiaDieJiaShu", "QiTaPingPanJiaShu", "QiTaChengJiaoE", "MaiRuDanShu", "MaiChuDanShu", "MaiRuZhongDanBiLi", "MaiRuDaDanBiLi", "MaiRuTeDaDanBiLi", "MaiChuZhongDanBiLi", "MaiChuDaDanBiLi", "MaiChuTeDaDanBiLi", "FenZhongZhangFu1", "FenZhongZhangFu2", "FenZhongZhangFu3", "FenZhongZhangFu4", "FenZhongZhangFu5", "ShiYingLv", "ZhangTing", "DieTing", "ShiChangMingCheng", "ShiChangDuanMingCheng", "JiGouChiHuoShu", "JiGouTuHuoShu", "JiGouChiHuoLiang", "JiGouTuHuoLiang", "JiGouChiHuoJunE", "JiGouTuHuoJunE", "MeiShouGuShu", "JiaoYiDanWei", "ShiXiaoLv", "ShiJian", "ShiJingLv", "ZongShiZhi", "LiuTongShiZhi", "MA1MinMA1", "MA1MinMA2", "MA1MinMA3", "MA1MinMA4", "MA1MinMA5", "MA1MinMA6", "MA5MinMA1", "MA5MinMA2", "MA5MinMA3", "MA5MinMA4", "MA5MinMA5", "MA5MinMA6", "MA1DayMA1", "MA1DayMA2", "MA1DayMA3", "MA1DayMA4", "MA1DayMA5", "MA1DayMA6", "BOLL1MinMID", "BOLL1MinUPPER", "BOLL1MinLOWER", "BOLL5MinMID", "BOLL5MinUPPER", "BOLL5MinLOWER", "BOLL1DayMID", "BOLL1DayUPPER", "BOLL1DayLOWER", "VOL1Min", "VOL1MinMA1", "VOL1MinMA2", "VOL1MinMA3", "VOL5Min", "VOL5MinMA1", "VOL5MinMA2", "VOL5MinMA3", "VOL1Day", "VOL1DayMA1", "VOL1DayMA2", "VOL1DayMA3", "ARBR1MinAR", "ARBR1MinBR", "ARBR5MinAR", "ARBR5MinBR", "ARBR1DayAR", "ARBR1DayBR", "BIAS1MinBIAS1", "BIAS1MinBIAS2", "BIAS1MinBIAS3", "BIAS5MinBIAS1", "BIAS5MinBIAS2", "BIAS5MinBIAS3", "BIAS1DayBIAS1", "BIAS1DayBIAS2", "BIAS1DayBIAS3", "CCI1Min", "CCI5Min", "CCI1Day", "CJBS1MinCJBS", "CJBS5MinCJBS", "CJBS1DayCJBS", "CR1MinCR", "CR1MinMA1", "CR1MinMA2", "CR1MinMA3", "CR5MinCR", "CR5MinMA1", "CR5MinMA2", "CR5MinMA3", "CR1DayCR", "CR1DayMA1", "CR1DayMA2", "CR1DayMA3", "DMA1MinDDD", "DMA1MinAMA", "DMA5MinDDD", "DMA5MinAMA", "DMA1DayDDD", "DMA1DayAMA", "DMI1MinPDI", "DMI1MinMDI", "DMI1MinADX", "DMI1MinADXR", "DMI5MinPDI", "DMI5MinMDI", "DMI5MinADX", "DMI5MinADXR", "DMI1DayPDI", "DMI1DayMDI", "DMI1DayADX", "DMI1DayADXR", "KDJ1MinK", "KDJ1MinD", "KDJ1MinJ", "KDJ5MinK", "KDJ5MinD", "KDJ5MinJ", "KDJ1DayK", "KDJ1DayD", "KDJ1DayJ", "MACD1MinDIFF", "MACD1MinDEA", "MACD1MinMACD", "MACD5MinDIFF", "MACD5MinDEA", "MACD5MinMACD", "MACD1DayDIFF", "MACD1DayDEA", "MACD1DayMACD", "OBV1Min", "OBV5Min", "OBV1Day", "PSY1Min", "PSY5Min", "PSY1Day", "RSI1MinRSI1", "RSI1MinRSI2", "RSI1MinRSI3", "RSI5MinRSI1", "RSI5MinRSI2", "RSI5MinRSI3", "RSI1DayRSI1", "RSI1DayRSI2", "RSI1DayRSI3", "WR1MinWR1", "WR1MinWR2", "WR5MinWR1", "WR5MinWR2", "WR1DayWR1", "WR1DayWR2", "LeiXing", "ZiLeiXing", "LeiXingMingCheng", "ChengJiaoLiangDanWei", "FJJJLeiXing", "ZhengTiYiJia", "MYiJia", "MShiShiJingZhi", "MShangZheXuZhang", "MXiaZheXuDie", "YinHanShouYi", "JiaGeGangGan", "PinZhongObj", "BaoGaoQi", "ShangShiRiQi", "MeiGuShouYi", "MeiGuJingZiChan", "JingZiChanShouYiLv", "MeiGuJingYingXianJin", "MeiGuGongJiJin", "MeiGuWeiFenPei", "GuDongQuanYiBi", "JingLiRunTongBi", "ZhuYingShouRuTongBi", "XiaoShouMaoLiLv", "TiaoZhengMeiGuJingZi", "ZongZiChan", "LiuDongZiChan", "GuDingZiChan", "WuXingZiChan", "LiuDongFuZhai", "ChangQiFuZhai", "ZongFuZhai", "GuDongQuanYi", "ZiBenGongJiJin", "JingYingXianJinLiuLiang", "TouZiXianJinLiuLiang", "ChouZiXianJinLiuLiang", "XianJinZengJiaE", "ZhuYingShouRu", "ZhuYingLiRun", "YingYeLiRun", "TouZiShouYi", "YingYeWaiShouZhi", "LiRunZongE", "JingLiRun", "WeiFenPeiLiRun", "ZongGuBen", "WuXianShouGuHeJi", "LiuTongAGu", "LiuTongBGu", "JingWaiShangShiGu", "QiTaLiuTongGu", "XianShouGuHeJi", "GuoJiaChiGu", "GuoYouFaRenGu", "JingNeiFaRenGu", "JingNeiZiRanRenGu", "QiTaFaQiRenGu", "MuJiFaRenGu", "JingWaiFaRenGu", "JingWaiZiRanRenGu", "YouXianGuHuoQiTa", });
+        new java.lang.String[] { "Obj", "JiaoYiDaiMa", "ZhongWenJianCheng", "ZuiXinJia", "KaiPanJia", "ZuiGaoJia", "ZuiDiJia", "ZuoShou", "JunJia", "ZhangDie", "ZhangFu", "ZhenFu", "ChengJiaoLiang", "XianShou", "ChengJiaoE", "ZongChengJiaoBiShu", "MeiBiChengJiaoGuShu", "HuanShou", "LiangBi", "NeiPan", "WaiPan", "ZongMaiRu", "ZongMaiChu", "ZongMaiRuJunJia", "ZongMaiChuJunJia", "WeiTuoMaiRuJia1", "WeiTuoMaiRuJia2", "WeiTuoMaiRuJia3", "WeiTuoMaiRuJia4", "WeiTuoMaiRuJia5", "WeiTuoMaiRuLiang1", "WeiTuoMaiRuLiang2", "WeiTuoMaiRuLiang3", "WeiTuoMaiRuLiang4", "WeiTuoMaiRuLiang5", "WeiTuoMaiChuJia1", "WeiTuoMaiChuJia2", "WeiTuoMaiChuJia3", "WeiTuoMaiChuJia4", "WeiTuoMaiChuJia5", "WeiTuoMaiChuLiang1", "WeiTuoMaiChuLiang2", "WeiTuoMaiChuLiang3", "WeiTuoMaiChuLiang4", "WeiTuoMaiChuLiang5", "WeiBi", "WeiCha", "ZhangSu", "JunLiang5Ri", "ShangZhangJiaShu", "XiaDieJiaShu", "PingPanJiaShu", "AGuShangZhangJiaShu", "AGuXiaDieJiaShu", "AGuPingPanJiaShu", "AGuChengJiaoE", "BGuShangZhangJiaShu", "BGuXiaDieJiaShu", "BGuPingPanJiaShu", "BGuChengJiaoE", "JiJinShangZhangJiaShu", "JiJinXiaDieJiaShu", "JiJinPingPanJiaShu", "JiJinChengJiaoE", "QiTaShangZhangJiaShu", "QiTaXiaDieJiaShu", "QiTaPingPanJiaShu", "QiTaChengJiaoE", "MaiRuDanShu", "MaiChuDanShu", "FenZhongZhangFu1", "FenZhongZhangFu2", "FenZhongZhangFu3", "FenZhongZhangFu4", "FenZhongZhangFu5", "ShiYingLv", "ZhangTing", "DieTing", "ShiChangMingCheng", "ShiChangDuanMingCheng", "JiGouChiHuoShu", "JiGouTuHuoShu", "JiGouChiHuoLiang", "JiGouTuHuoLiang", "JiGouChiHuoJunE", "JiGouTuHuoJunE", "MeiShouGuShu", "JiaoYiDanWei", "ShiXiaoLv", "ShiJian", "ShiJingLv", "ZongShiZhi", "LiuTongShiZhi", "MA1MinMA1", "MA1MinMA2", "MA1MinMA3", "MA1MinMA4", "MA1MinMA5", "MA1MinMA6", "MA5MinMA1", "MA5MinMA2", "MA5MinMA3", "MA5MinMA4", "MA5MinMA5", "MA5MinMA6", "MA1DayMA1", "MA1DayMA2", "MA1DayMA3", "MA1DayMA4", "MA1DayMA5", "MA1DayMA6", "BOLL1MinMID", "BOLL1MinUPPER", "BOLL1MinLOWER", "BOLL5MinMID", "BOLL5MinUPPER", "BOLL5MinLOWER", "BOLL1DayMID", "BOLL1DayUPPER", "BOLL1DayLOWER", "VOL1Min", "VOL1MinMA1", "VOL1MinMA2", "VOL1MinMA3", "VOL5Min", "VOL5MinMA1", "VOL5MinMA2", "VOL5MinMA3", "VOL1Day", "VOL1DayMA1", "VOL1DayMA2", "VOL1DayMA3", "ARBR1MinAR", "ARBR1MinBR", "ARBR5MinAR", "ARBR5MinBR", "ARBR1DayAR", "ARBR1DayBR", "BIAS1MinBIAS1", "BIAS1MinBIAS2", "BIAS1MinBIAS3", "BIAS5MinBIAS1", "BIAS5MinBIAS2", "BIAS5MinBIAS3", "BIAS1DayBIAS1", "BIAS1DayBIAS2", "BIAS1DayBIAS3", "CCI1Min", "CCI5Min", "CCI1Day", "CJBS1MinCJBS", "CJBS5MinCJBS", "CJBS1DayCJBS", "CR1MinCR", "CR1MinMA1", "CR1MinMA2", "CR1MinMA3", "CR5MinCR", "CR5MinMA1", "CR5MinMA2", "CR5MinMA3", "CR1DayCR", "CR1DayMA1", "CR1DayMA2", "CR1DayMA3", "DMA1MinDDD", "DMA1MinAMA", "DMA5MinDDD", "DMA5MinAMA", "DMA1DayDDD", "DMA1DayAMA", "DMI1MinPDI", "DMI1MinMDI", "DMI1MinADX", "DMI1MinADXR", "DMI5MinPDI", "DMI5MinMDI", "DMI5MinADX", "DMI5MinADXR", "DMI1DayPDI", "DMI1DayMDI", "DMI1DayADX", "DMI1DayADXR", "KDJ1MinK", "KDJ1MinD", "KDJ1MinJ", "KDJ5MinK", "KDJ5MinD", "KDJ5MinJ", "KDJ1DayK", "KDJ1DayD", "KDJ1DayJ", "MACD1MinDIFF", "MACD1MinDEA", "MACD1MinMACD", "MACD5MinDIFF", "MACD5MinDEA", "MACD5MinMACD", "MACD1DayDIFF", "MACD1DayDEA", "MACD1DayMACD", "OBV1Min", "OBV5Min", "OBV1Day", "PSY1Min", "PSY5Min", "PSY1Day", "RSI1MinRSI1", "RSI1MinRSI2", "RSI1MinRSI3", "RSI5MinRSI1", "RSI5MinRSI2", "RSI5MinRSI3", "RSI1DayRSI1", "RSI1DayRSI2", "RSI1DayRSI3", "WR1MinWR1", "WR1MinWR2", "WR5MinWR1", "WR5MinWR2", "WR1DayWR1", "WR1DayWR2", "LeiXing", "ZiLeiXing", "LeiXingMingCheng", "ChengJiaoLiangDanWei", "FJJJLeiXing", "ZhengTiYiJia", "MYiJia", "MShiShiJingZhi", "MShangZheXuZhang", "MXiaZheXuDie", "YinHanShouYi", "JiaGeGangGan", "PinZhongObj", "BaoGaoQi", "ShangShiRiQi", "MeiGuShouYi", "MeiGuJingZiChan", "JingZiChanShouYiLv", "MeiGuJingYingXianJin", "MeiGuGongJiJin", "MeiGuWeiFenPei", "GuDongQuanYiBi", "JingLiRunTongBi", "ZhuYingShouRuTongBi", "XiaoShouMaoLiLv", "TiaoZhengMeiGuJingZi", "ZongZiChan", "LiuDongZiChan", "GuDingZiChan", "WuXingZiChan", "LiuDongFuZhai", "ChangQiFuZhai", "ZongFuZhai", "GuDongQuanYi", "ZiBenGongJiJin", "JingYingXianJinLiuLiang", "TouZiXianJinLiuLiang", "ChouZiXianJinLiuLiang", "XianJinZengJiaE", "ZhuYingShouRu", "ZhuYingLiRun", "YingYeLiRun", "TouZiShouYi", "YingYeWaiShouZhi", "LiRunZongE", "JingLiRun", "WeiFenPeiLiRun", "ZongGuBen", "WuXianShouGuHeJi", "LiuTongAGu", "LiuTongBGu", "JingWaiShangShiGu", "QiTaLiuTongGu", "XianShouGuHeJi", "GuoJiaChiGu", "GuoYouFaRenGu", "JingNeiFaRenGu", "JingNeiZiRanRenGu", "QiTaFaQiRenGu", "MuJiFaRenGu", "JingWaiFaRenGu", "JingWaiZiRanRenGu", "YouXianGuHuoQiTa", "WeiTuoMaiRu", "WeiTuoMaiChu", "MaiRuZhongDanBiLi", "MaiRuDaDanBiLi", "MaiRuTeDaDanBiLi", "MaiChuZhongDanBiLi", "MaiChuDaDanBiLi", "MaiChuTeDaDanBiLi", "DuanXianMaiRu", "DuanXianMaiChu", "DuanXianChiHuo", "DuanXianTuHuo", "BiShi", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

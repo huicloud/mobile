@@ -23,6 +23,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		903F60041C02F1AC00A97430 /* libDzhChart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 903F5FF71C02F19C00A97430 /* libDzhChart.a */; };
 		90B8607A1BF9E7610028CA3B /* libDzhWebView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B8606E1BF9E7540028CA3B /* libDzhWebView.a */; };
 		90D789461BE6FE7F00E279FE /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90D7893E1BE6FE7F00E279FE /* Entypo.ttf */; };
 		90D789471BE6FE7F00E279FE /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90D7893F1BE6FE7F00E279FE /* EvilIcons.ttf */; };
@@ -119,6 +120,13 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
+		903F5FF61C02F19C00A97430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 903F5FF21C02F19C00A97430 /* DzhChart.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3CA25A491C02ECC700A15903;
+			remoteInfo = DzhChart;
+		};
 		90B8606D1BF9E7540028CA3B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 90B860671BF9E7540028CA3B /* DzhWebView.xcodeproj */;
@@ -157,6 +165,7 @@
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		903F5FF21C02F19C00A97430 /* DzhChart.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DzhChart.xcodeproj; path = ../Libraries/DzhChart/ios/DzhChart.xcodeproj; sourceTree = "<group>"; };
 		90B860671BF9E7540028CA3B /* DzhWebView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DzhWebView.xcodeproj; path = ../Libraries/DzhWebView/DzhWebView.xcodeproj; sourceTree = "<group>"; };
 		90D7893E1BE6FE7F00E279FE /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
 		90D7893F1BE6FE7F00E279FE /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
@@ -188,6 +197,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				903F60041C02F1AC00A97430 /* libDzhChart.a in Frameworks */,
 				90B8607A1BF9E7610028CA3B /* libDzhWebView.a in Frameworks */,
 				90D789AA1BEA1AEF00E279FE /* libjre_emul.a in Frameworks */,
 				90D789AB1BEA1AEF00E279FE /* libprotobuf_runtime.a in Frameworks */,
@@ -317,6 +327,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				903F5FF21C02F19C00A97430 /* DzhChart.xcodeproj */,
 				90B860671BF9E7540028CA3B /* DzhWebView.xcodeproj */,
 				90D789631BEA0BB200E279FE /* YunSdk.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
@@ -366,6 +377,14 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* yunapp.app */,
 				00E356EE1AD99517003FC87E /* yunappTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		903F5FF31C02F19C00A97430 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				903F5FF71C02F19C00A97430 /* libDzhChart.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -468,6 +487,10 @@
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = 903F5FF31C02F19C00A97430 /* Products */;
+					ProjectRef = 903F5FF21C02F19C00A97430 /* DzhChart.xcodeproj */;
+				},
 				{
 					ProductGroup = 90B860681BF9E7540028CA3B /* Products */;
 					ProjectRef = 90B860671BF9E7540028CA3B /* DzhWebView.xcodeproj */;
@@ -594,6 +617,13 @@
 			fileType = archive.ar;
 			path = libRCTText.a;
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		903F5FF71C02F19C00A97430 /* libDzhChart.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDzhChart.a;
+			remoteRef = 903F5FF61C02F19C00A97430 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		90B8606E1BF9E7540028CA3B /* libDzhWebView.a */ = {
@@ -741,6 +771,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEAD_CODE_STRIPPING = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -761,6 +792,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,

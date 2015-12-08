@@ -26,217 +26,249 @@ public final class AutoMsg {
      */
     IDTbl(2, 3),
     /**
+     * <code>IDJsonTbl = 4;</code>
+     */
+    IDJsonTbl(3, 4),
+    /**
      * <code>IDQuoteDynaSingle = 20;</code>
      */
-    IDQuoteDynaSingle(3, 20),
+    IDQuoteDynaSingle(4, 20),
     /**
      * <code>IDQuoteKlineSingle = 21;</code>
      */
-    IDQuoteKlineSingle(4, 21),
+    IDQuoteKlineSingle(5, 21),
     /**
      * <code>IDQuoteTickSingle = 22;</code>
      */
-    IDQuoteTickSingle(5, 22),
+    IDQuoteTickSingle(6, 22),
     /**
      * <code>IDQuoteMinSingle = 23;</code>
      */
-    IDQuoteMinSingle(6, 23),
+    IDQuoteMinSingle(7, 23),
     /**
      * <code>IDNewsInfoValue = 24;</code>
      */
-    IDNewsInfoValue(7, 24),
+    IDNewsInfoValue(8, 24),
     /**
      * <code>IDZhiBiaoShuChu = 25;</code>
      */
-    IDZhiBiaoShuChu(8, 25),
+    IDZhiBiaoShuChu(9, 25),
     /**
      * <code>IDZhiBiao = 26;</code>
      */
-    IDZhiBiao(9, 26),
+    IDZhiBiao(10, 26),
     /**
      * <code>IDStkData = 27;</code>
      */
-    IDStkData(10, 27),
+    IDStkData(11, 27),
     /**
      * <code>IDPaiXu = 28;</code>
      */
-    IDPaiXu(11, 28),
+    IDPaiXu(12, 28),
     /**
      * <code>IDJianPanBaoShuChu = 29;</code>
      */
-    IDJianPanBaoShuChu(12, 29),
+    IDJianPanBaoShuChu(13, 29),
     /**
      * <code>IDFenJiJiJin = 30;</code>
      */
-    IDFenJiJiJin(13, 30),
+    IDFenJiJiJin(14, 30),
     /**
      * <code>IDMsgGetOutput = 31;</code>
      */
-    IDMsgGetOutput(14, 31),
+    IDMsgGetOutput(15, 31),
     /**
      * <code>IDMsgPutOutput = 32;</code>
      */
-    IDMsgPutOutput(15, 32),
+    IDMsgPutOutput(16, 32),
     /**
      * <code>IDBlockObjOutput = 33;</code>
      */
-    IDBlockObjOutput(16, 33),
+    IDBlockObjOutput(17, 33),
     /**
      * <code>IDBlockPropOutput = 34;</code>
      */
-    IDBlockPropOutput(17, 34),
+    IDBlockPropOutput(18, 34),
     /**
      * <code>IDSelfStockGetOutput = 35;</code>
      */
-    IDSelfStockGetOutput(18, 35),
+    IDSelfStockGetOutput(19, 35),
     /**
      * <code>IDSelfStockPutOutput = 36;</code>
      */
-    IDSelfStockPutOutput(19, 36),
+    IDSelfStockPutOutput(20, 36),
     /**
      * <code>IDAppKey = 37;</code>
      */
-    IDAppKey(20, 37),
+    IDAppKey(21, 37),
     /**
      * <code>IDAppInfo = 38;</code>
      */
-    IDAppInfo(21, 38),
+    IDAppInfo(22, 38),
     /**
      * <code>IDAppValue = 39;</code>
      */
-    IDAppValue(22, 39),
+    IDAppValue(23, 39),
     /**
      * <code>IDServiceAuth = 40;</code>
      */
-    IDServiceAuth(23, 40),
+    IDServiceAuth(24, 40),
     /**
      * <code>IDAppServiceAuth = 41;</code>
      */
-    IDAppServiceAuth(24, 41),
+    IDAppServiceAuth(25, 41),
     /**
      * <code>IDTokenAuth = 42;</code>
      */
-    IDTokenAuth(25, 42),
+    IDTokenAuth(26, 42),
     /**
      * <code>IDAccOpResponse = 43;</code>
      */
-    IDAccOpResponse(26, 43),
+    IDAccOpResponse(27, 43),
     /**
      * <code>IDToken = 44;</code>
      */
-    IDToken(27, 44),
+    IDToken(28, 44),
     /**
      * <code>IDPrivilege = 45;</code>
      */
-    IDPrivilege(28, 45),
+    IDPrivilege(29, 45),
     /**
      * <code>IDAlarmEvent = 46;</code>
      */
-    IDAlarmEvent(29, 46),
+    IDAlarmEvent(30, 46),
     /**
      * <code>IDAlarmTask = 47;</code>
      */
-    IDAlarmTask(30, 47),
+    IDAlarmTask(31, 47),
     /**
      * <code>IDADPutResponse = 48;</code>
      */
-    IDADPutResponse(31, 48),
+    IDADPutResponse(32, 48),
     /**
      * <code>IDADGetResponse = 49;</code>
      */
-    IDADGetResponse(32, 49),
+    IDADGetResponse(33, 49),
     /**
      * <code>IDUserGroup = 50;</code>
      */
-    IDUserGroup(33, 50),
+    IDUserGroup(34, 50),
     /**
      * <code>IDUserGroupResponse = 51;</code>
      */
-    IDUserGroupResponse(34, 51),
+    IDUserGroupResponse(35, 51),
     /**
      * <code>IDUserPropsMessage = 52;</code>
      */
-    IDUserPropsMessage(35, 52),
+    IDUserPropsMessage(36, 52),
     /**
      * <code>IDTopicInvest = 53;</code>
      */
-    IDTopicInvest(36, 53),
+    IDTopicInvest(37, 53),
     /**
      * <code>IDTopicInvestHistory = 54;</code>
      */
-    IDTopicInvestHistory(37, 54),
+    IDTopicInvestHistory(38, 54),
     /**
      * <code>IDF10GsgkOutput = 55;</code>
      */
-    IDF10GsgkOutput(38, 55),
+    IDF10GsgkOutput(39, 55),
     /**
      * <code>IDF10CwtsZycwzbOutput = 56;</code>
      */
-    IDF10CwtsZycwzbOutput(39, 56),
+    IDF10CwtsZycwzbOutput(40, 56),
     /**
      * <code>IDF10CwtsXjllbzyOutput = 57;</code>
      */
-    IDF10CwtsXjllbzyOutput(40, 57),
+    IDF10CwtsXjllbzyOutput(41, 57),
     /**
      * <code>IDF10ZxjbDjdcwzbOutput = 58;</code>
      */
-    IDF10ZxjbDjdcwzbOutput(41, 58),
+    IDF10ZxjbDjdcwzbOutput(42, 58),
     /**
      * <code>IDF10ZxjbdjdlebOutput = 59;</code>
      */
-    IDF10ZxjbdjdlebOutput(42, 59),
+    IDF10ZxjbdjdlebOutput(43, 59),
     /**
      * <code>IDF10GdjcGdhsOutput = 60;</code>
      */
-    IDF10GdjcGdhsOutput(43, 60),
+    IDF10GdjcGdhsOutput(44, 60),
     /**
      * <code>IDF10GdjcSdgdOutput = 61;</code>
      */
-    IDF10GdjcSdgdOutput(44, 61),
+    IDF10GdjcSdgdOutput(45, 61),
     /**
      * <code>IDF10GdjcSdltgdOutput = 62;</code>
      */
-    IDF10GdjcSdltgdOutput(45, 62),
+    IDF10GdjcSdltgdOutput(46, 62),
     /**
      * <code>IDF10GbfhFhkgOutput = 63;</code>
      */
-    IDF10GbfhFhkgOutput(46, 63),
+    IDF10GbfhFhkgOutput(47, 63),
     /**
      * <code>IDF10GbfhGbjgOutput = 64;</code>
      */
-    IDF10GbfhGbjgOutput(47, 64),
+    IDF10GbfhGbjgOutput(48, 64),
     /**
      * <code>IDXinWenXinXiOutput = 65;</code>
      */
-    IDXinWenXinXiOutput(48, 65),
+    IDXinWenXinXiOutput(49, 65),
     /**
      * <code>IDXinWenXinXiZhongXinOutput = 66;</code>
      */
-    IDXinWenXinXiZhongXinOutput(49, 66),
+    IDXinWenXinXiZhongXinOutput(50, 66),
     /**
      * <code>IDTopicInvestInfo = 67;</code>
      */
-    IDTopicInvestInfo(50, 67),
+    IDTopicInvestInfo(51, 67),
     /**
      * <code>IDYiZhiXinYeJiYuCeOutPut = 68;</code>
      */
-    IDYiZhiXinYeJiYuCeOutPut(51, 68),
+    IDYiZhiXinYeJiYuCeOutPut(52, 68),
     /**
      * <code>IDYiZhiXinTouZiPinJiOutPut = 69;</code>
      */
-    IDYiZhiXinTouZiPinJiOutPut(52, 69),
+    IDYiZhiXinTouZiPinJiOutPut(53, 69),
     /**
      * <code>IDGeGuYeJiYuCeOutPut = 70;</code>
      */
-    IDGeGuYeJiYuCeOutPut(53, 70),
+    IDGeGuYeJiYuCeOutPut(54, 70),
     /**
      * <code>IDGeGuTouZiYanBaoOutPut = 71;</code>
      */
-    IDGeGuTouZiYanBaoOutPut(54, 71),
+    IDGeGuTouZiYanBaoOutPut(55, 71),
     /**
      * <code>IDDSToken = 72;</code>
      */
-    IDDSToken(55, 72),
+    IDDSToken(56, 72),
+    /**
+     * <code>IDTongJiApp = 73;</code>
+     */
+    IDTongJiApp(57, 73),
+    /**
+     * <code>IDMessageChannelSubtype = 74;</code>
+     */
+    IDMessageChannelSubtype(58, 74),
+    /**
+     * <code>IDUserGetPropResponse = 75;</code>
+     */
+    IDUserGetPropResponse(59, 75),
+    /**
+     * <code>IDQuoteBOrderSingle = 76;</code>
+     */
+    IDQuoteBOrderSingle(60, 76),
+    /**
+     * <code>IDDXSpirit = 77;</code>
+     */
+    IDDXSpirit(61, 77),
+    /**
+     * <code>IDStkPoolOuput = 78;</code>
+     */
+    IDStkPoolOuput(62, 78),
+    /**
+     * <code>IDEventNews = 79;</code>
+     */
+    IDEventNews(63, 79),
     ;
 
     /**
@@ -251,6 +283,10 @@ public final class AutoMsg {
      * <code>IDTbl = 3;</code>
      */
     public static final int IDTbl_VALUE = 3;
+    /**
+     * <code>IDJsonTbl = 4;</code>
+     */
+    public static final int IDJsonTbl_VALUE = 4;
     /**
      * <code>IDQuoteDynaSingle = 20;</code>
      */
@@ -463,6 +499,34 @@ public final class AutoMsg {
      * <code>IDDSToken = 72;</code>
      */
     public static final int IDDSToken_VALUE = 72;
+    /**
+     * <code>IDTongJiApp = 73;</code>
+     */
+    public static final int IDTongJiApp_VALUE = 73;
+    /**
+     * <code>IDMessageChannelSubtype = 74;</code>
+     */
+    public static final int IDMessageChannelSubtype_VALUE = 74;
+    /**
+     * <code>IDUserGetPropResponse = 75;</code>
+     */
+    public static final int IDUserGetPropResponse_VALUE = 75;
+    /**
+     * <code>IDQuoteBOrderSingle = 76;</code>
+     */
+    public static final int IDQuoteBOrderSingle_VALUE = 76;
+    /**
+     * <code>IDDXSpirit = 77;</code>
+     */
+    public static final int IDDXSpirit_VALUE = 77;
+    /**
+     * <code>IDStkPoolOuput = 78;</code>
+     */
+    public static final int IDStkPoolOuput_VALUE = 78;
+    /**
+     * <code>IDEventNews = 79;</code>
+     */
+    public static final int IDEventNews_VALUE = 79;
 
 
     public final int getNumber() { return value; }
@@ -472,6 +536,7 @@ public final class AutoMsg {
         case 1: return IDId;
         case 2: return IDObj;
         case 3: return IDTbl;
+        case 4: return IDJsonTbl;
         case 20: return IDQuoteDynaSingle;
         case 21: return IDQuoteKlineSingle;
         case 22: return IDQuoteTickSingle;
@@ -525,6 +590,13 @@ public final class AutoMsg {
         case 70: return IDGeGuYeJiYuCeOutPut;
         case 71: return IDGeGuTouZiYanBaoOutPut;
         case 72: return IDDSToken;
+        case 73: return IDTongJiApp;
+        case 74: return IDMessageChannelSubtype;
+        case 75: return IDUserGetPropResponse;
+        case 76: return IDQuoteBOrderSingle;
+        case 77: return IDDXSpirit;
+        case 78: return IDStkPoolOuput;
+        case 79: return IDEventNews;
         default: return null;
       }
     }
@@ -617,10 +689,24 @@ public final class AutoMsg {
     com.dzhyun.proto.Dzhpbtable.TableOrBuilder getTblOrBuilder();
 
     /**
+     * <code>optional string JsonTbl = 4;</code>
+     */
+    boolean hasJsonTbl();
+    /**
+     * <code>optional string JsonTbl = 4;</code>
+     */
+    java.lang.String getJsonTbl();
+    /**
+     * <code>optional string JsonTbl = 4;</code>
+     */
+    com.google.protobuf.ByteString
+        getJsonTblBytes();
+
+    /**
      * <code>repeated .dzhyun.QuoteDynaSingle RepDataQuoteDynaSingle = 20;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:22,
+     *In file:dzhoutput.proto, row:21,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.Dzhoutput.QuoteDynaSingle> 
@@ -629,7 +715,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteDynaSingle RepDataQuoteDynaSingle = 20;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:22,
+     *In file:dzhoutput.proto, row:21,
      * </pre>
      */
     com.dzhyun.proto.Dzhoutput.QuoteDynaSingle getRepDataQuoteDynaSingle(int index);
@@ -637,7 +723,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteDynaSingle RepDataQuoteDynaSingle = 20;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:22,
+     *In file:dzhoutput.proto, row:21,
      * </pre>
      */
     int getRepDataQuoteDynaSingleCount();
@@ -645,7 +731,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteDynaSingle RepDataQuoteDynaSingle = 20;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:22,
+     *In file:dzhoutput.proto, row:21,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.Dzhoutput.QuoteDynaSingleOrBuilder> 
@@ -654,7 +740,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteDynaSingle RepDataQuoteDynaSingle = 20;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:22,
+     *In file:dzhoutput.proto, row:21,
      * </pre>
      */
     com.dzhyun.proto.Dzhoutput.QuoteDynaSingleOrBuilder getRepDataQuoteDynaSingleOrBuilder(
@@ -664,7 +750,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteKlineSingle RepDataQuoteKlineSingle = 21;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:49,
+     *In file:dzhoutput.proto, row:48,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.Dzhoutput.QuoteKlineSingle> 
@@ -673,7 +759,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteKlineSingle RepDataQuoteKlineSingle = 21;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:49,
+     *In file:dzhoutput.proto, row:48,
      * </pre>
      */
     com.dzhyun.proto.Dzhoutput.QuoteKlineSingle getRepDataQuoteKlineSingle(int index);
@@ -681,7 +767,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteKlineSingle RepDataQuoteKlineSingle = 21;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:49,
+     *In file:dzhoutput.proto, row:48,
      * </pre>
      */
     int getRepDataQuoteKlineSingleCount();
@@ -689,7 +775,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteKlineSingle RepDataQuoteKlineSingle = 21;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:49,
+     *In file:dzhoutput.proto, row:48,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.Dzhoutput.QuoteKlineSingleOrBuilder> 
@@ -698,7 +784,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteKlineSingle RepDataQuoteKlineSingle = 21;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:49,
+     *In file:dzhoutput.proto, row:48,
      * </pre>
      */
     com.dzhyun.proto.Dzhoutput.QuoteKlineSingleOrBuilder getRepDataQuoteKlineSingleOrBuilder(
@@ -708,7 +794,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteTickSingle RepDataQuoteTickSingle = 22;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:75,
+     *In file:dzhoutput.proto, row:74,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.Dzhoutput.QuoteTickSingle> 
@@ -717,7 +803,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteTickSingle RepDataQuoteTickSingle = 22;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:75,
+     *In file:dzhoutput.proto, row:74,
      * </pre>
      */
     com.dzhyun.proto.Dzhoutput.QuoteTickSingle getRepDataQuoteTickSingle(int index);
@@ -725,7 +811,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteTickSingle RepDataQuoteTickSingle = 22;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:75,
+     *In file:dzhoutput.proto, row:74,
      * </pre>
      */
     int getRepDataQuoteTickSingleCount();
@@ -733,7 +819,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteTickSingle RepDataQuoteTickSingle = 22;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:75,
+     *In file:dzhoutput.proto, row:74,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.Dzhoutput.QuoteTickSingleOrBuilder> 
@@ -742,7 +828,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteTickSingle RepDataQuoteTickSingle = 22;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:75,
+     *In file:dzhoutput.proto, row:74,
      * </pre>
      */
     com.dzhyun.proto.Dzhoutput.QuoteTickSingleOrBuilder getRepDataQuoteTickSingleOrBuilder(
@@ -752,7 +838,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteMinSingle RepDataQuoteMinSingle = 23;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:100,
+     *In file:dzhoutput.proto, row:99,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.Dzhoutput.QuoteMinSingle> 
@@ -761,7 +847,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteMinSingle RepDataQuoteMinSingle = 23;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:100,
+     *In file:dzhoutput.proto, row:99,
      * </pre>
      */
     com.dzhyun.proto.Dzhoutput.QuoteMinSingle getRepDataQuoteMinSingle(int index);
@@ -769,7 +855,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteMinSingle RepDataQuoteMinSingle = 23;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:100,
+     *In file:dzhoutput.proto, row:99,
      * </pre>
      */
     int getRepDataQuoteMinSingleCount();
@@ -777,7 +863,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteMinSingle RepDataQuoteMinSingle = 23;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:100,
+     *In file:dzhoutput.proto, row:99,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.Dzhoutput.QuoteMinSingleOrBuilder> 
@@ -786,7 +872,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteMinSingle RepDataQuoteMinSingle = 23;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:100,
+     *In file:dzhoutput.proto, row:99,
      * </pre>
      */
     com.dzhyun.proto.Dzhoutput.QuoteMinSingleOrBuilder getRepDataQuoteMinSingleOrBuilder(
@@ -796,7 +882,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.NewsInfoValue RepDataNewsInfoValue = 24;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:5,
+     *In file:dzhNewsInfo.proto, row:4,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhNewsInfo.NewsInfoValue> 
@@ -805,7 +891,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.NewsInfoValue RepDataNewsInfoValue = 24;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:5,
+     *In file:dzhNewsInfo.proto, row:4,
      * </pre>
      */
     com.dzhyun.proto.DzhNewsInfo.NewsInfoValue getRepDataNewsInfoValue(int index);
@@ -813,7 +899,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.NewsInfoValue RepDataNewsInfoValue = 24;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:5,
+     *In file:dzhNewsInfo.proto, row:4,
      * </pre>
      */
     int getRepDataNewsInfoValueCount();
@@ -821,7 +907,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.NewsInfoValue RepDataNewsInfoValue = 24;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:5,
+     *In file:dzhNewsInfo.proto, row:4,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhNewsInfo.NewsInfoValueOrBuilder> 
@@ -830,7 +916,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.NewsInfoValue RepDataNewsInfoValue = 24;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:5,
+     *In file:dzhNewsInfo.proto, row:4,
      * </pre>
      */
     com.dzhyun.proto.DzhNewsInfo.NewsInfoValueOrBuilder getRepDataNewsInfoValueOrBuilder(
@@ -840,7 +926,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ZhiBiaoShuChu RepDataZhiBiaoShuChu = 25;</code>
      *
      * <pre>
-     *In file:dzhyun.zhibiaojisuan.proto, row:6,
+     *In file:dzhyun.zhibiaojisuan.proto, row:5,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhyunZhibiaojisuan.ZhiBiaoShuChu> 
@@ -849,7 +935,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ZhiBiaoShuChu RepDataZhiBiaoShuChu = 25;</code>
      *
      * <pre>
-     *In file:dzhyun.zhibiaojisuan.proto, row:6,
+     *In file:dzhyun.zhibiaojisuan.proto, row:5,
      * </pre>
      */
     com.dzhyun.proto.DzhyunZhibiaojisuan.ZhiBiaoShuChu getRepDataZhiBiaoShuChu(int index);
@@ -857,7 +943,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ZhiBiaoShuChu RepDataZhiBiaoShuChu = 25;</code>
      *
      * <pre>
-     *In file:dzhyun.zhibiaojisuan.proto, row:6,
+     *In file:dzhyun.zhibiaojisuan.proto, row:5,
      * </pre>
      */
     int getRepDataZhiBiaoShuChuCount();
@@ -865,7 +951,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ZhiBiaoShuChu RepDataZhiBiaoShuChu = 25;</code>
      *
      * <pre>
-     *In file:dzhyun.zhibiaojisuan.proto, row:6,
+     *In file:dzhyun.zhibiaojisuan.proto, row:5,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhyunZhibiaojisuan.ZhiBiaoShuChuOrBuilder> 
@@ -874,7 +960,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ZhiBiaoShuChu RepDataZhiBiaoShuChu = 25;</code>
      *
      * <pre>
-     *In file:dzhyun.zhibiaojisuan.proto, row:6,
+     *In file:dzhyun.zhibiaojisuan.proto, row:5,
      * </pre>
      */
     com.dzhyun.proto.DzhyunZhibiaojisuan.ZhiBiaoShuChuOrBuilder getRepDataZhiBiaoShuChuOrBuilder(
@@ -884,7 +970,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ZhiBiao RepDataZhiBiao = 26;</code>
      *
      * <pre>
-     *In file:dzhyun.zhibiao.proto, row:8,
+     *In file:dzhyun.zhibiao.proto, row:7,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhyunZhibiao.ZhiBiao> 
@@ -893,7 +979,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ZhiBiao RepDataZhiBiao = 26;</code>
      *
      * <pre>
-     *In file:dzhyun.zhibiao.proto, row:8,
+     *In file:dzhyun.zhibiao.proto, row:7,
      * </pre>
      */
     com.dzhyun.proto.DzhyunZhibiao.ZhiBiao getRepDataZhiBiao(int index);
@@ -901,7 +987,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ZhiBiao RepDataZhiBiao = 26;</code>
      *
      * <pre>
-     *In file:dzhyun.zhibiao.proto, row:8,
+     *In file:dzhyun.zhibiao.proto, row:7,
      * </pre>
      */
     int getRepDataZhiBiaoCount();
@@ -909,7 +995,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ZhiBiao RepDataZhiBiao = 26;</code>
      *
      * <pre>
-     *In file:dzhyun.zhibiao.proto, row:8,
+     *In file:dzhyun.zhibiao.proto, row:7,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhyunZhibiao.ZhiBiaoOrBuilder> 
@@ -918,7 +1004,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ZhiBiao RepDataZhiBiao = 26;</code>
      *
      * <pre>
-     *In file:dzhyun.zhibiao.proto, row:8,
+     *In file:dzhyun.zhibiao.proto, row:7,
      * </pre>
      */
     com.dzhyun.proto.DzhyunZhibiao.ZhiBiaoOrBuilder getRepDataZhiBiaoOrBuilder(
@@ -928,7 +1014,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.StkData RepDataStkData = 27;</code>
      *
      * <pre>
-     *In file:dzhyun.stkdata.proto, row:8,
+     *In file:dzhyun.stkdata.proto, row:7,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhyunStkdata.StkData> 
@@ -937,7 +1023,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.StkData RepDataStkData = 27;</code>
      *
      * <pre>
-     *In file:dzhyun.stkdata.proto, row:8,
+     *In file:dzhyun.stkdata.proto, row:7,
      * </pre>
      */
     com.dzhyun.proto.DzhyunStkdata.StkData getRepDataStkData(int index);
@@ -945,7 +1031,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.StkData RepDataStkData = 27;</code>
      *
      * <pre>
-     *In file:dzhyun.stkdata.proto, row:8,
+     *In file:dzhyun.stkdata.proto, row:7,
      * </pre>
      */
     int getRepDataStkDataCount();
@@ -953,7 +1039,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.StkData RepDataStkData = 27;</code>
      *
      * <pre>
-     *In file:dzhyun.stkdata.proto, row:8,
+     *In file:dzhyun.stkdata.proto, row:7,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhyunStkdata.StkDataOrBuilder> 
@@ -962,7 +1048,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.StkData RepDataStkData = 27;</code>
      *
      * <pre>
-     *In file:dzhyun.stkdata.proto, row:8,
+     *In file:dzhyun.stkdata.proto, row:7,
      * </pre>
      */
     com.dzhyun.proto.DzhyunStkdata.StkDataOrBuilder getRepDataStkDataOrBuilder(
@@ -972,7 +1058,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.PaiXu RepDataPaiXu = 28;</code>
      *
      * <pre>
-     *In file:dzhyun.paixu.proto, row:10,
+     *In file:dzhyun.paixu.proto, row:9,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhyunPaixu.PaiXu> 
@@ -981,7 +1067,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.PaiXu RepDataPaiXu = 28;</code>
      *
      * <pre>
-     *In file:dzhyun.paixu.proto, row:10,
+     *In file:dzhyun.paixu.proto, row:9,
      * </pre>
      */
     com.dzhyun.proto.DzhyunPaixu.PaiXu getRepDataPaiXu(int index);
@@ -989,7 +1075,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.PaiXu RepDataPaiXu = 28;</code>
      *
      * <pre>
-     *In file:dzhyun.paixu.proto, row:10,
+     *In file:dzhyun.paixu.proto, row:9,
      * </pre>
      */
     int getRepDataPaiXuCount();
@@ -997,7 +1083,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.PaiXu RepDataPaiXu = 28;</code>
      *
      * <pre>
-     *In file:dzhyun.paixu.proto, row:10,
+     *In file:dzhyun.paixu.proto, row:9,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhyunPaixu.PaiXuOrBuilder> 
@@ -1006,7 +1092,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.PaiXu RepDataPaiXu = 28;</code>
      *
      * <pre>
-     *In file:dzhyun.paixu.proto, row:10,
+     *In file:dzhyun.paixu.proto, row:9,
      * </pre>
      */
     com.dzhyun.proto.DzhyunPaixu.PaiXuOrBuilder getRepDataPaiXuOrBuilder(
@@ -1016,7 +1102,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.JianPanBaoShuChu RepDataJianPanBaoShuChu = 29;</code>
      *
      * <pre>
-     *In file:dzhyun.jianpanbao.proto, row:21,
+     *In file:dzhyun.jianpanbao.proto, row:25,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhyunJianpanbao.JianPanBaoShuChu> 
@@ -1025,7 +1111,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.JianPanBaoShuChu RepDataJianPanBaoShuChu = 29;</code>
      *
      * <pre>
-     *In file:dzhyun.jianpanbao.proto, row:21,
+     *In file:dzhyun.jianpanbao.proto, row:25,
      * </pre>
      */
     com.dzhyun.proto.DzhyunJianpanbao.JianPanBaoShuChu getRepDataJianPanBaoShuChu(int index);
@@ -1033,7 +1119,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.JianPanBaoShuChu RepDataJianPanBaoShuChu = 29;</code>
      *
      * <pre>
-     *In file:dzhyun.jianpanbao.proto, row:21,
+     *In file:dzhyun.jianpanbao.proto, row:25,
      * </pre>
      */
     int getRepDataJianPanBaoShuChuCount();
@@ -1041,7 +1127,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.JianPanBaoShuChu RepDataJianPanBaoShuChu = 29;</code>
      *
      * <pre>
-     *In file:dzhyun.jianpanbao.proto, row:21,
+     *In file:dzhyun.jianpanbao.proto, row:25,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhyunJianpanbao.JianPanBaoShuChuOrBuilder> 
@@ -1050,7 +1136,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.JianPanBaoShuChu RepDataJianPanBaoShuChu = 29;</code>
      *
      * <pre>
-     *In file:dzhyun.jianpanbao.proto, row:21,
+     *In file:dzhyun.jianpanbao.proto, row:25,
      * </pre>
      */
     com.dzhyun.proto.DzhyunJianpanbao.JianPanBaoShuChuOrBuilder getRepDataJianPanBaoShuChuOrBuilder(
@@ -1060,7 +1146,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.FenJiJiJin RepDataFenJiJiJin = 30;</code>
      *
      * <pre>
-     *In file:dzhyun.fenjijijin.proto, row:8,
+     *In file:dzhyun.fenjijijin.proto, row:11,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhyunFenjijijin.FenJiJiJin> 
@@ -1069,7 +1155,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.FenJiJiJin RepDataFenJiJiJin = 30;</code>
      *
      * <pre>
-     *In file:dzhyun.fenjijijin.proto, row:8,
+     *In file:dzhyun.fenjijijin.proto, row:11,
      * </pre>
      */
     com.dzhyun.proto.DzhyunFenjijijin.FenJiJiJin getRepDataFenJiJiJin(int index);
@@ -1077,7 +1163,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.FenJiJiJin RepDataFenJiJiJin = 30;</code>
      *
      * <pre>
-     *In file:dzhyun.fenjijijin.proto, row:8,
+     *In file:dzhyun.fenjijijin.proto, row:11,
      * </pre>
      */
     int getRepDataFenJiJiJinCount();
@@ -1085,7 +1171,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.FenJiJiJin RepDataFenJiJiJin = 30;</code>
      *
      * <pre>
-     *In file:dzhyun.fenjijijin.proto, row:8,
+     *In file:dzhyun.fenjijijin.proto, row:11,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhyunFenjijijin.FenJiJiJinOrBuilder> 
@@ -1094,7 +1180,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.FenJiJiJin RepDataFenJiJiJin = 30;</code>
      *
      * <pre>
-     *In file:dzhyun.fenjijijin.proto, row:8,
+     *In file:dzhyun.fenjijijin.proto, row:11,
      * </pre>
      */
     com.dzhyun.proto.DzhyunFenjijijin.FenJiJiJinOrBuilder getRepDataFenJiJiJinOrBuilder(
@@ -1104,7 +1190,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.MsgGetOutput RepDataMsgGetOutput = 31;</code>
      *
      * <pre>
-     *In file:dzhmsg.proto, row:16,
+     *In file:dzhmsg.proto, row:15,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.Dzhmsg.MsgGetOutput> 
@@ -1113,7 +1199,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.MsgGetOutput RepDataMsgGetOutput = 31;</code>
      *
      * <pre>
-     *In file:dzhmsg.proto, row:16,
+     *In file:dzhmsg.proto, row:15,
      * </pre>
      */
     com.dzhyun.proto.Dzhmsg.MsgGetOutput getRepDataMsgGetOutput(int index);
@@ -1121,7 +1207,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.MsgGetOutput RepDataMsgGetOutput = 31;</code>
      *
      * <pre>
-     *In file:dzhmsg.proto, row:16,
+     *In file:dzhmsg.proto, row:15,
      * </pre>
      */
     int getRepDataMsgGetOutputCount();
@@ -1129,7 +1215,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.MsgGetOutput RepDataMsgGetOutput = 31;</code>
      *
      * <pre>
-     *In file:dzhmsg.proto, row:16,
+     *In file:dzhmsg.proto, row:15,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.Dzhmsg.MsgGetOutputOrBuilder> 
@@ -1138,7 +1224,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.MsgGetOutput RepDataMsgGetOutput = 31;</code>
      *
      * <pre>
-     *In file:dzhmsg.proto, row:16,
+     *In file:dzhmsg.proto, row:15,
      * </pre>
      */
     com.dzhyun.proto.Dzhmsg.MsgGetOutputOrBuilder getRepDataMsgGetOutputOrBuilder(
@@ -1148,7 +1234,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.MsgPutOutput RepDataMsgPutOutput = 32;</code>
      *
      * <pre>
-     *In file:dzhmsg.proto, row:22,
+     *In file:dzhmsg.proto, row:21,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.Dzhmsg.MsgPutOutput> 
@@ -1157,7 +1243,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.MsgPutOutput RepDataMsgPutOutput = 32;</code>
      *
      * <pre>
-     *In file:dzhmsg.proto, row:22,
+     *In file:dzhmsg.proto, row:21,
      * </pre>
      */
     com.dzhyun.proto.Dzhmsg.MsgPutOutput getRepDataMsgPutOutput(int index);
@@ -1165,7 +1251,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.MsgPutOutput RepDataMsgPutOutput = 32;</code>
      *
      * <pre>
-     *In file:dzhmsg.proto, row:22,
+     *In file:dzhmsg.proto, row:21,
      * </pre>
      */
     int getRepDataMsgPutOutputCount();
@@ -1173,7 +1259,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.MsgPutOutput RepDataMsgPutOutput = 32;</code>
      *
      * <pre>
-     *In file:dzhmsg.proto, row:22,
+     *In file:dzhmsg.proto, row:21,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.Dzhmsg.MsgPutOutputOrBuilder> 
@@ -1182,7 +1268,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.MsgPutOutput RepDataMsgPutOutput = 32;</code>
      *
      * <pre>
-     *In file:dzhmsg.proto, row:22,
+     *In file:dzhmsg.proto, row:21,
      * </pre>
      */
     com.dzhyun.proto.Dzhmsg.MsgPutOutputOrBuilder getRepDataMsgPutOutputOrBuilder(
@@ -1192,7 +1278,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.BlockObjOutput RepDataBlockObjOutput = 33;</code>
      *
      * <pre>
-     *In file:dzh.block.proto, row:2,
+     *In file:dzh.block.proto, row:5,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhBlock.BlockObjOutput> 
@@ -1201,7 +1287,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.BlockObjOutput RepDataBlockObjOutput = 33;</code>
      *
      * <pre>
-     *In file:dzh.block.proto, row:2,
+     *In file:dzh.block.proto, row:5,
      * </pre>
      */
     com.dzhyun.proto.DzhBlock.BlockObjOutput getRepDataBlockObjOutput(int index);
@@ -1209,7 +1295,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.BlockObjOutput RepDataBlockObjOutput = 33;</code>
      *
      * <pre>
-     *In file:dzh.block.proto, row:2,
+     *In file:dzh.block.proto, row:5,
      * </pre>
      */
     int getRepDataBlockObjOutputCount();
@@ -1217,7 +1303,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.BlockObjOutput RepDataBlockObjOutput = 33;</code>
      *
      * <pre>
-     *In file:dzh.block.proto, row:2,
+     *In file:dzh.block.proto, row:5,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhBlock.BlockObjOutputOrBuilder> 
@@ -1226,7 +1312,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.BlockObjOutput RepDataBlockObjOutput = 33;</code>
      *
      * <pre>
-     *In file:dzh.block.proto, row:2,
+     *In file:dzh.block.proto, row:5,
      * </pre>
      */
     com.dzhyun.proto.DzhBlock.BlockObjOutputOrBuilder getRepDataBlockObjOutputOrBuilder(
@@ -1236,7 +1322,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.BlockPropOutput RepDataBlockPropOutput = 34;</code>
      *
      * <pre>
-     *In file:dzh.block.proto, row:7,
+     *In file:dzh.block.proto, row:10,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhBlock.BlockPropOutput> 
@@ -1245,7 +1331,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.BlockPropOutput RepDataBlockPropOutput = 34;</code>
      *
      * <pre>
-     *In file:dzh.block.proto, row:7,
+     *In file:dzh.block.proto, row:10,
      * </pre>
      */
     com.dzhyun.proto.DzhBlock.BlockPropOutput getRepDataBlockPropOutput(int index);
@@ -1253,7 +1339,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.BlockPropOutput RepDataBlockPropOutput = 34;</code>
      *
      * <pre>
-     *In file:dzh.block.proto, row:7,
+     *In file:dzh.block.proto, row:10,
      * </pre>
      */
     int getRepDataBlockPropOutputCount();
@@ -1261,7 +1347,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.BlockPropOutput RepDataBlockPropOutput = 34;</code>
      *
      * <pre>
-     *In file:dzh.block.proto, row:7,
+     *In file:dzh.block.proto, row:10,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhBlock.BlockPropOutputOrBuilder> 
@@ -1270,7 +1356,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.BlockPropOutput RepDataBlockPropOutput = 34;</code>
      *
      * <pre>
-     *In file:dzh.block.proto, row:7,
+     *In file:dzh.block.proto, row:10,
      * </pre>
      */
     com.dzhyun.proto.DzhBlock.BlockPropOutputOrBuilder getRepDataBlockPropOutputOrBuilder(
@@ -1280,7 +1366,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.SelfStockGetOutput RepDataSelfStockGetOutput = 35;</code>
      *
      * <pre>
-     *In file:dzhselfstock.proto, row:21,
+     *In file:dzhselfstock.proto, row:24,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.Dzhselfstock.SelfStockGetOutput> 
@@ -1289,7 +1375,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.SelfStockGetOutput RepDataSelfStockGetOutput = 35;</code>
      *
      * <pre>
-     *In file:dzhselfstock.proto, row:21,
+     *In file:dzhselfstock.proto, row:24,
      * </pre>
      */
     com.dzhyun.proto.Dzhselfstock.SelfStockGetOutput getRepDataSelfStockGetOutput(int index);
@@ -1297,7 +1383,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.SelfStockGetOutput RepDataSelfStockGetOutput = 35;</code>
      *
      * <pre>
-     *In file:dzhselfstock.proto, row:21,
+     *In file:dzhselfstock.proto, row:24,
      * </pre>
      */
     int getRepDataSelfStockGetOutputCount();
@@ -1305,7 +1391,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.SelfStockGetOutput RepDataSelfStockGetOutput = 35;</code>
      *
      * <pre>
-     *In file:dzhselfstock.proto, row:21,
+     *In file:dzhselfstock.proto, row:24,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.Dzhselfstock.SelfStockGetOutputOrBuilder> 
@@ -1314,7 +1400,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.SelfStockGetOutput RepDataSelfStockGetOutput = 35;</code>
      *
      * <pre>
-     *In file:dzhselfstock.proto, row:21,
+     *In file:dzhselfstock.proto, row:24,
      * </pre>
      */
     com.dzhyun.proto.Dzhselfstock.SelfStockGetOutputOrBuilder getRepDataSelfStockGetOutputOrBuilder(
@@ -1324,7 +1410,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.SelfStockPutOutput RepDataSelfStockPutOutput = 36;</code>
      *
      * <pre>
-     *In file:dzhselfstock.proto, row:32,
+     *In file:dzhselfstock.proto, row:35,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.Dzhselfstock.SelfStockPutOutput> 
@@ -1333,7 +1419,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.SelfStockPutOutput RepDataSelfStockPutOutput = 36;</code>
      *
      * <pre>
-     *In file:dzhselfstock.proto, row:32,
+     *In file:dzhselfstock.proto, row:35,
      * </pre>
      */
     com.dzhyun.proto.Dzhselfstock.SelfStockPutOutput getRepDataSelfStockPutOutput(int index);
@@ -1341,7 +1427,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.SelfStockPutOutput RepDataSelfStockPutOutput = 36;</code>
      *
      * <pre>
-     *In file:dzhselfstock.proto, row:32,
+     *In file:dzhselfstock.proto, row:35,
      * </pre>
      */
     int getRepDataSelfStockPutOutputCount();
@@ -1349,7 +1435,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.SelfStockPutOutput RepDataSelfStockPutOutput = 36;</code>
      *
      * <pre>
-     *In file:dzhselfstock.proto, row:32,
+     *In file:dzhselfstock.proto, row:35,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.Dzhselfstock.SelfStockPutOutputOrBuilder> 
@@ -1358,7 +1444,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.SelfStockPutOutput RepDataSelfStockPutOutput = 36;</code>
      *
      * <pre>
-     *In file:dzhselfstock.proto, row:32,
+     *In file:dzhselfstock.proto, row:35,
      * </pre>
      */
     com.dzhyun.proto.Dzhselfstock.SelfStockPutOutputOrBuilder getRepDataSelfStockPutOutputOrBuilder(
@@ -1368,7 +1454,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppKey RepDataAppKey = 37;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:2,
+     *In file:dzhapp.proto, row:5,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.Dzhapp.AppKey> 
@@ -1377,7 +1463,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppKey RepDataAppKey = 37;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:2,
+     *In file:dzhapp.proto, row:5,
      * </pre>
      */
     com.dzhyun.proto.Dzhapp.AppKey getRepDataAppKey(int index);
@@ -1385,7 +1471,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppKey RepDataAppKey = 37;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:2,
+     *In file:dzhapp.proto, row:5,
      * </pre>
      */
     int getRepDataAppKeyCount();
@@ -1393,7 +1479,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppKey RepDataAppKey = 37;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:2,
+     *In file:dzhapp.proto, row:5,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.Dzhapp.AppKeyOrBuilder> 
@@ -1402,7 +1488,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppKey RepDataAppKey = 37;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:2,
+     *In file:dzhapp.proto, row:5,
      * </pre>
      */
     com.dzhyun.proto.Dzhapp.AppKeyOrBuilder getRepDataAppKeyOrBuilder(
@@ -1412,7 +1498,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppInfo RepDataAppInfo = 38;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:8,
+     *In file:dzhapp.proto, row:11,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.Dzhapp.AppInfo> 
@@ -1421,7 +1507,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppInfo RepDataAppInfo = 38;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:8,
+     *In file:dzhapp.proto, row:11,
      * </pre>
      */
     com.dzhyun.proto.Dzhapp.AppInfo getRepDataAppInfo(int index);
@@ -1429,7 +1515,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppInfo RepDataAppInfo = 38;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:8,
+     *In file:dzhapp.proto, row:11,
      * </pre>
      */
     int getRepDataAppInfoCount();
@@ -1437,7 +1523,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppInfo RepDataAppInfo = 38;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:8,
+     *In file:dzhapp.proto, row:11,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.Dzhapp.AppInfoOrBuilder> 
@@ -1446,7 +1532,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppInfo RepDataAppInfo = 38;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:8,
+     *In file:dzhapp.proto, row:11,
      * </pre>
      */
     com.dzhyun.proto.Dzhapp.AppInfoOrBuilder getRepDataAppInfoOrBuilder(
@@ -1456,7 +1542,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppValue RepDataAppValue = 39;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:19,
+     *In file:dzhapp.proto, row:22,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.Dzhapp.AppValue> 
@@ -1465,7 +1551,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppValue RepDataAppValue = 39;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:19,
+     *In file:dzhapp.proto, row:22,
      * </pre>
      */
     com.dzhyun.proto.Dzhapp.AppValue getRepDataAppValue(int index);
@@ -1473,7 +1559,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppValue RepDataAppValue = 39;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:19,
+     *In file:dzhapp.proto, row:22,
      * </pre>
      */
     int getRepDataAppValueCount();
@@ -1481,7 +1567,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppValue RepDataAppValue = 39;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:19,
+     *In file:dzhapp.proto, row:22,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.Dzhapp.AppValueOrBuilder> 
@@ -1490,7 +1576,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppValue RepDataAppValue = 39;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:19,
+     *In file:dzhapp.proto, row:22,
      * </pre>
      */
     com.dzhyun.proto.Dzhapp.AppValueOrBuilder getRepDataAppValueOrBuilder(
@@ -1500,7 +1586,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ServiceAuth RepDataServiceAuth = 40;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:31,
+     *In file:dzhapp.proto, row:34,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.Dzhapp.ServiceAuth> 
@@ -1509,7 +1595,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ServiceAuth RepDataServiceAuth = 40;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:31,
+     *In file:dzhapp.proto, row:34,
      * </pre>
      */
     com.dzhyun.proto.Dzhapp.ServiceAuth getRepDataServiceAuth(int index);
@@ -1517,7 +1603,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ServiceAuth RepDataServiceAuth = 40;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:31,
+     *In file:dzhapp.proto, row:34,
      * </pre>
      */
     int getRepDataServiceAuthCount();
@@ -1525,7 +1611,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ServiceAuth RepDataServiceAuth = 40;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:31,
+     *In file:dzhapp.proto, row:34,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.Dzhapp.ServiceAuthOrBuilder> 
@@ -1534,7 +1620,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ServiceAuth RepDataServiceAuth = 40;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:31,
+     *In file:dzhapp.proto, row:34,
      * </pre>
      */
     com.dzhyun.proto.Dzhapp.ServiceAuthOrBuilder getRepDataServiceAuthOrBuilder(
@@ -1544,7 +1630,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppServiceAuth RepDataAppServiceAuth = 41;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:43,
+     *In file:dzhapp.proto, row:46,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.Dzhapp.AppServiceAuth> 
@@ -1553,7 +1639,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppServiceAuth RepDataAppServiceAuth = 41;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:43,
+     *In file:dzhapp.proto, row:46,
      * </pre>
      */
     com.dzhyun.proto.Dzhapp.AppServiceAuth getRepDataAppServiceAuth(int index);
@@ -1561,7 +1647,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppServiceAuth RepDataAppServiceAuth = 41;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:43,
+     *In file:dzhapp.proto, row:46,
      * </pre>
      */
     int getRepDataAppServiceAuthCount();
@@ -1569,7 +1655,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppServiceAuth RepDataAppServiceAuth = 41;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:43,
+     *In file:dzhapp.proto, row:46,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.Dzhapp.AppServiceAuthOrBuilder> 
@@ -1578,7 +1664,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppServiceAuth RepDataAppServiceAuth = 41;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:43,
+     *In file:dzhapp.proto, row:46,
      * </pre>
      */
     com.dzhyun.proto.Dzhapp.AppServiceAuthOrBuilder getRepDataAppServiceAuthOrBuilder(
@@ -1588,7 +1674,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TokenAuth RepDataTokenAuth = 42;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:54,
+     *In file:dzhapp.proto, row:57,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.Dzhapp.TokenAuth> 
@@ -1597,7 +1683,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TokenAuth RepDataTokenAuth = 42;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:54,
+     *In file:dzhapp.proto, row:57,
      * </pre>
      */
     com.dzhyun.proto.Dzhapp.TokenAuth getRepDataTokenAuth(int index);
@@ -1605,7 +1691,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TokenAuth RepDataTokenAuth = 42;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:54,
+     *In file:dzhapp.proto, row:57,
      * </pre>
      */
     int getRepDataTokenAuthCount();
@@ -1613,7 +1699,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TokenAuth RepDataTokenAuth = 42;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:54,
+     *In file:dzhapp.proto, row:57,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.Dzhapp.TokenAuthOrBuilder> 
@@ -1622,7 +1708,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TokenAuth RepDataTokenAuth = 42;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:54,
+     *In file:dzhapp.proto, row:57,
      * </pre>
      */
     com.dzhyun.proto.Dzhapp.TokenAuthOrBuilder getRepDataTokenAuthOrBuilder(
@@ -1632,7 +1718,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AccOpResponse RepDataAccOpResponse = 43;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:61,
+     *In file:dzhapp.proto, row:64,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.Dzhapp.AccOpResponse> 
@@ -1641,7 +1727,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AccOpResponse RepDataAccOpResponse = 43;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:61,
+     *In file:dzhapp.proto, row:64,
      * </pre>
      */
     com.dzhyun.proto.Dzhapp.AccOpResponse getRepDataAccOpResponse(int index);
@@ -1649,7 +1735,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AccOpResponse RepDataAccOpResponse = 43;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:61,
+     *In file:dzhapp.proto, row:64,
      * </pre>
      */
     int getRepDataAccOpResponseCount();
@@ -1657,7 +1743,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AccOpResponse RepDataAccOpResponse = 43;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:61,
+     *In file:dzhapp.proto, row:64,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.Dzhapp.AccOpResponseOrBuilder> 
@@ -1666,7 +1752,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AccOpResponse RepDataAccOpResponse = 43;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:61,
+     *In file:dzhapp.proto, row:64,
      * </pre>
      */
     com.dzhyun.proto.Dzhapp.AccOpResponseOrBuilder getRepDataAccOpResponseOrBuilder(
@@ -1676,7 +1762,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.Token RepDataToken = 44;</code>
      *
      * <pre>
-     *In file:dzhtoken.proto, row:2,
+     *In file:dzhtoken.proto, row:5,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.Dzhtoken.Token> 
@@ -1685,7 +1771,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.Token RepDataToken = 44;</code>
      *
      * <pre>
-     *In file:dzhtoken.proto, row:2,
+     *In file:dzhtoken.proto, row:5,
      * </pre>
      */
     com.dzhyun.proto.Dzhtoken.Token getRepDataToken(int index);
@@ -1693,7 +1779,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.Token RepDataToken = 44;</code>
      *
      * <pre>
-     *In file:dzhtoken.proto, row:2,
+     *In file:dzhtoken.proto, row:5,
      * </pre>
      */
     int getRepDataTokenCount();
@@ -1701,7 +1787,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.Token RepDataToken = 44;</code>
      *
      * <pre>
-     *In file:dzhtoken.proto, row:2,
+     *In file:dzhtoken.proto, row:5,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.Dzhtoken.TokenOrBuilder> 
@@ -1710,7 +1796,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.Token RepDataToken = 44;</code>
      *
      * <pre>
-     *In file:dzhtoken.proto, row:2,
+     *In file:dzhtoken.proto, row:5,
      * </pre>
      */
     com.dzhyun.proto.Dzhtoken.TokenOrBuilder getRepDataTokenOrBuilder(
@@ -1720,7 +1806,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.Privilege RepDataPrivilege = 45;</code>
      *
      * <pre>
-     *In file:dzhpriv.proto, row:2,
+     *In file:dzhpriv.proto, row:5,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.Dzhpriv.Privilege> 
@@ -1729,7 +1815,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.Privilege RepDataPrivilege = 45;</code>
      *
      * <pre>
-     *In file:dzhpriv.proto, row:2,
+     *In file:dzhpriv.proto, row:5,
      * </pre>
      */
     com.dzhyun.proto.Dzhpriv.Privilege getRepDataPrivilege(int index);
@@ -1737,7 +1823,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.Privilege RepDataPrivilege = 45;</code>
      *
      * <pre>
-     *In file:dzhpriv.proto, row:2,
+     *In file:dzhpriv.proto, row:5,
      * </pre>
      */
     int getRepDataPrivilegeCount();
@@ -1745,7 +1831,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.Privilege RepDataPrivilege = 45;</code>
      *
      * <pre>
-     *In file:dzhpriv.proto, row:2,
+     *In file:dzhpriv.proto, row:5,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.Dzhpriv.PrivilegeOrBuilder> 
@@ -1754,7 +1840,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.Privilege RepDataPrivilege = 45;</code>
      *
      * <pre>
-     *In file:dzhpriv.proto, row:2,
+     *In file:dzhpriv.proto, row:5,
      * </pre>
      */
     com.dzhyun.proto.Dzhpriv.PrivilegeOrBuilder getRepDataPrivilegeOrBuilder(
@@ -1764,7 +1850,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AlarmEvent RepDataAlarmEvent = 46;</code>
      *
      * <pre>
-     *In file:dzhyun.alarm.proto, row:9,
+     *In file:dzhyun.alarm.proto, row:8,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhyunAlarm.AlarmEvent> 
@@ -1773,7 +1859,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AlarmEvent RepDataAlarmEvent = 46;</code>
      *
      * <pre>
-     *In file:dzhyun.alarm.proto, row:9,
+     *In file:dzhyun.alarm.proto, row:8,
      * </pre>
      */
     com.dzhyun.proto.DzhyunAlarm.AlarmEvent getRepDataAlarmEvent(int index);
@@ -1781,7 +1867,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AlarmEvent RepDataAlarmEvent = 46;</code>
      *
      * <pre>
-     *In file:dzhyun.alarm.proto, row:9,
+     *In file:dzhyun.alarm.proto, row:8,
      * </pre>
      */
     int getRepDataAlarmEventCount();
@@ -1789,7 +1875,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AlarmEvent RepDataAlarmEvent = 46;</code>
      *
      * <pre>
-     *In file:dzhyun.alarm.proto, row:9,
+     *In file:dzhyun.alarm.proto, row:8,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhyunAlarm.AlarmEventOrBuilder> 
@@ -1798,7 +1884,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AlarmEvent RepDataAlarmEvent = 46;</code>
      *
      * <pre>
-     *In file:dzhyun.alarm.proto, row:9,
+     *In file:dzhyun.alarm.proto, row:8,
      * </pre>
      */
     com.dzhyun.proto.DzhyunAlarm.AlarmEventOrBuilder getRepDataAlarmEventOrBuilder(
@@ -1808,7 +1894,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AlarmTask RepDataAlarmTask = 47;</code>
      *
      * <pre>
-     *In file:dzhyun.alarm.proto, row:31,
+     *In file:dzhyun.alarm.proto, row:30,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhyunAlarm.AlarmTask> 
@@ -1817,7 +1903,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AlarmTask RepDataAlarmTask = 47;</code>
      *
      * <pre>
-     *In file:dzhyun.alarm.proto, row:31,
+     *In file:dzhyun.alarm.proto, row:30,
      * </pre>
      */
     com.dzhyun.proto.DzhyunAlarm.AlarmTask getRepDataAlarmTask(int index);
@@ -1825,7 +1911,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AlarmTask RepDataAlarmTask = 47;</code>
      *
      * <pre>
-     *In file:dzhyun.alarm.proto, row:31,
+     *In file:dzhyun.alarm.proto, row:30,
      * </pre>
      */
     int getRepDataAlarmTaskCount();
@@ -1833,7 +1919,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AlarmTask RepDataAlarmTask = 47;</code>
      *
      * <pre>
-     *In file:dzhyun.alarm.proto, row:31,
+     *In file:dzhyun.alarm.proto, row:30,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhyunAlarm.AlarmTaskOrBuilder> 
@@ -1842,7 +1928,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AlarmTask RepDataAlarmTask = 47;</code>
      *
      * <pre>
-     *In file:dzhyun.alarm.proto, row:31,
+     *In file:dzhyun.alarm.proto, row:30,
      * </pre>
      */
     com.dzhyun.proto.DzhyunAlarm.AlarmTaskOrBuilder getRepDataAlarmTaskOrBuilder(
@@ -1852,7 +1938,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ADPutResponse RepDataADPutResponse = 48;</code>
      *
      * <pre>
-     *In file:dzhyun.advert.proto, row:3,
+     *In file:dzhyun.advert.proto, row:6,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhyunAdvert.ADPutResponse> 
@@ -1861,7 +1947,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ADPutResponse RepDataADPutResponse = 48;</code>
      *
      * <pre>
-     *In file:dzhyun.advert.proto, row:3,
+     *In file:dzhyun.advert.proto, row:6,
      * </pre>
      */
     com.dzhyun.proto.DzhyunAdvert.ADPutResponse getRepDataADPutResponse(int index);
@@ -1869,7 +1955,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ADPutResponse RepDataADPutResponse = 48;</code>
      *
      * <pre>
-     *In file:dzhyun.advert.proto, row:3,
+     *In file:dzhyun.advert.proto, row:6,
      * </pre>
      */
     int getRepDataADPutResponseCount();
@@ -1877,7 +1963,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ADPutResponse RepDataADPutResponse = 48;</code>
      *
      * <pre>
-     *In file:dzhyun.advert.proto, row:3,
+     *In file:dzhyun.advert.proto, row:6,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhyunAdvert.ADPutResponseOrBuilder> 
@@ -1886,7 +1972,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ADPutResponse RepDataADPutResponse = 48;</code>
      *
      * <pre>
-     *In file:dzhyun.advert.proto, row:3,
+     *In file:dzhyun.advert.proto, row:6,
      * </pre>
      */
     com.dzhyun.proto.DzhyunAdvert.ADPutResponseOrBuilder getRepDataADPutResponseOrBuilder(
@@ -1896,7 +1982,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ADGetResponse RepDataADGetResponse = 49;</code>
      *
      * <pre>
-     *In file:dzhyun.advert.proto, row:16,
+     *In file:dzhyun.advert.proto, row:19,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhyunAdvert.ADGetResponse> 
@@ -1905,7 +1991,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ADGetResponse RepDataADGetResponse = 49;</code>
      *
      * <pre>
-     *In file:dzhyun.advert.proto, row:16,
+     *In file:dzhyun.advert.proto, row:19,
      * </pre>
      */
     com.dzhyun.proto.DzhyunAdvert.ADGetResponse getRepDataADGetResponse(int index);
@@ -1913,7 +1999,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ADGetResponse RepDataADGetResponse = 49;</code>
      *
      * <pre>
-     *In file:dzhyun.advert.proto, row:16,
+     *In file:dzhyun.advert.proto, row:19,
      * </pre>
      */
     int getRepDataADGetResponseCount();
@@ -1921,7 +2007,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ADGetResponse RepDataADGetResponse = 49;</code>
      *
      * <pre>
-     *In file:dzhyun.advert.proto, row:16,
+     *In file:dzhyun.advert.proto, row:19,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhyunAdvert.ADGetResponseOrBuilder> 
@@ -1930,7 +2016,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ADGetResponse RepDataADGetResponse = 49;</code>
      *
      * <pre>
-     *In file:dzhyun.advert.proto, row:16,
+     *In file:dzhyun.advert.proto, row:19,
      * </pre>
      */
     com.dzhyun.proto.DzhyunAdvert.ADGetResponseOrBuilder getRepDataADGetResponseOrBuilder(
@@ -1940,7 +2026,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserGroup RepDataUserGroup = 50;</code>
      *
      * <pre>
-     *In file:dzhyun.user.group.proto, row:2,
+     *In file:dzhyun.user.group.proto, row:5,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhyunUserGroup.UserGroup> 
@@ -1949,7 +2035,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserGroup RepDataUserGroup = 50;</code>
      *
      * <pre>
-     *In file:dzhyun.user.group.proto, row:2,
+     *In file:dzhyun.user.group.proto, row:5,
      * </pre>
      */
     com.dzhyun.proto.DzhyunUserGroup.UserGroup getRepDataUserGroup(int index);
@@ -1957,7 +2043,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserGroup RepDataUserGroup = 50;</code>
      *
      * <pre>
-     *In file:dzhyun.user.group.proto, row:2,
+     *In file:dzhyun.user.group.proto, row:5,
      * </pre>
      */
     int getRepDataUserGroupCount();
@@ -1965,7 +2051,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserGroup RepDataUserGroup = 50;</code>
      *
      * <pre>
-     *In file:dzhyun.user.group.proto, row:2,
+     *In file:dzhyun.user.group.proto, row:5,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhyunUserGroup.UserGroupOrBuilder> 
@@ -1974,7 +2060,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserGroup RepDataUserGroup = 50;</code>
      *
      * <pre>
-     *In file:dzhyun.user.group.proto, row:2,
+     *In file:dzhyun.user.group.proto, row:5,
      * </pre>
      */
     com.dzhyun.proto.DzhyunUserGroup.UserGroupOrBuilder getRepDataUserGroupOrBuilder(
@@ -1984,7 +2070,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserGroupResponse RepDataUserGroupResponse = 51;</code>
      *
      * <pre>
-     *In file:dzhyun.user.group.proto, row:10,
+     *In file:dzhyun.user.group.proto, row:13,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhyunUserGroup.UserGroupResponse> 
@@ -1993,7 +2079,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserGroupResponse RepDataUserGroupResponse = 51;</code>
      *
      * <pre>
-     *In file:dzhyun.user.group.proto, row:10,
+     *In file:dzhyun.user.group.proto, row:13,
      * </pre>
      */
     com.dzhyun.proto.DzhyunUserGroup.UserGroupResponse getRepDataUserGroupResponse(int index);
@@ -2001,7 +2087,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserGroupResponse RepDataUserGroupResponse = 51;</code>
      *
      * <pre>
-     *In file:dzhyun.user.group.proto, row:10,
+     *In file:dzhyun.user.group.proto, row:13,
      * </pre>
      */
     int getRepDataUserGroupResponseCount();
@@ -2009,7 +2095,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserGroupResponse RepDataUserGroupResponse = 51;</code>
      *
      * <pre>
-     *In file:dzhyun.user.group.proto, row:10,
+     *In file:dzhyun.user.group.proto, row:13,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhyunUserGroup.UserGroupResponseOrBuilder> 
@@ -2018,7 +2104,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserGroupResponse RepDataUserGroupResponse = 51;</code>
      *
      * <pre>
-     *In file:dzhyun.user.group.proto, row:10,
+     *In file:dzhyun.user.group.proto, row:13,
      * </pre>
      */
     com.dzhyun.proto.DzhyunUserGroup.UserGroupResponseOrBuilder getRepDataUserGroupResponseOrBuilder(
@@ -2028,7 +2114,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserPropsMessage RepDataUserPropsMessage = 52;</code>
      *
      * <pre>
-     *In file:dzhyun.user.prop.proto, row:9,
+     *In file:dzhyun.user.prop.proto, row:12,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhyunUserProp.UserPropsMessage> 
@@ -2037,7 +2123,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserPropsMessage RepDataUserPropsMessage = 52;</code>
      *
      * <pre>
-     *In file:dzhyun.user.prop.proto, row:9,
+     *In file:dzhyun.user.prop.proto, row:12,
      * </pre>
      */
     com.dzhyun.proto.DzhyunUserProp.UserPropsMessage getRepDataUserPropsMessage(int index);
@@ -2045,7 +2131,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserPropsMessage RepDataUserPropsMessage = 52;</code>
      *
      * <pre>
-     *In file:dzhyun.user.prop.proto, row:9,
+     *In file:dzhyun.user.prop.proto, row:12,
      * </pre>
      */
     int getRepDataUserPropsMessageCount();
@@ -2053,7 +2139,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserPropsMessage RepDataUserPropsMessage = 52;</code>
      *
      * <pre>
-     *In file:dzhyun.user.prop.proto, row:9,
+     *In file:dzhyun.user.prop.proto, row:12,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhyunUserProp.UserPropsMessageOrBuilder> 
@@ -2062,7 +2148,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserPropsMessage RepDataUserPropsMessage = 52;</code>
      *
      * <pre>
-     *In file:dzhyun.user.prop.proto, row:9,
+     *In file:dzhyun.user.prop.proto, row:12,
      * </pre>
      */
     com.dzhyun.proto.DzhyunUserProp.UserPropsMessageOrBuilder getRepDataUserPropsMessageOrBuilder(
@@ -2072,7 +2158,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvest RepDataTopicInvest = 53;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:15,
+     *In file:dzhyun.topicinvest.proto, row:18,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhyunTopicinvest.TopicInvest> 
@@ -2081,7 +2167,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvest RepDataTopicInvest = 53;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:15,
+     *In file:dzhyun.topicinvest.proto, row:18,
      * </pre>
      */
     com.dzhyun.proto.DzhyunTopicinvest.TopicInvest getRepDataTopicInvest(int index);
@@ -2089,7 +2175,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvest RepDataTopicInvest = 53;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:15,
+     *In file:dzhyun.topicinvest.proto, row:18,
      * </pre>
      */
     int getRepDataTopicInvestCount();
@@ -2097,7 +2183,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvest RepDataTopicInvest = 53;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:15,
+     *In file:dzhyun.topicinvest.proto, row:18,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhyunTopicinvest.TopicInvestOrBuilder> 
@@ -2106,7 +2192,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvest RepDataTopicInvest = 53;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:15,
+     *In file:dzhyun.topicinvest.proto, row:18,
      * </pre>
      */
     com.dzhyun.proto.DzhyunTopicinvest.TopicInvestOrBuilder getRepDataTopicInvestOrBuilder(
@@ -2116,7 +2202,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvestHistory RepDataTopicInvestHistory = 54;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:41,
+     *In file:dzhyun.topicinvest.proto, row:44,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhyunTopicinvest.TopicInvestHistory> 
@@ -2125,7 +2211,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvestHistory RepDataTopicInvestHistory = 54;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:41,
+     *In file:dzhyun.topicinvest.proto, row:44,
      * </pre>
      */
     com.dzhyun.proto.DzhyunTopicinvest.TopicInvestHistory getRepDataTopicInvestHistory(int index);
@@ -2133,7 +2219,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvestHistory RepDataTopicInvestHistory = 54;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:41,
+     *In file:dzhyun.topicinvest.proto, row:44,
      * </pre>
      */
     int getRepDataTopicInvestHistoryCount();
@@ -2141,7 +2227,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvestHistory RepDataTopicInvestHistory = 54;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:41,
+     *In file:dzhyun.topicinvest.proto, row:44,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhyunTopicinvest.TopicInvestHistoryOrBuilder> 
@@ -2150,7 +2236,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvestHistory RepDataTopicInvestHistory = 54;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:41,
+     *In file:dzhyun.topicinvest.proto, row:44,
      * </pre>
      */
     com.dzhyun.proto.DzhyunTopicinvest.TopicInvestHistoryOrBuilder getRepDataTopicInvestHistoryOrBuilder(
@@ -2160,7 +2246,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GsgkOutput RepDataF10GsgkOutput = 55;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:9,
+     *In file:dzhyun.f10.proto, row:8,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhyunF10.F10GsgkOutput> 
@@ -2169,7 +2255,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GsgkOutput RepDataF10GsgkOutput = 55;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:9,
+     *In file:dzhyun.f10.proto, row:8,
      * </pre>
      */
     com.dzhyun.proto.DzhyunF10.F10GsgkOutput getRepDataF10GsgkOutput(int index);
@@ -2177,7 +2263,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GsgkOutput RepDataF10GsgkOutput = 55;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:9,
+     *In file:dzhyun.f10.proto, row:8,
      * </pre>
      */
     int getRepDataF10GsgkOutputCount();
@@ -2185,7 +2271,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GsgkOutput RepDataF10GsgkOutput = 55;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:9,
+     *In file:dzhyun.f10.proto, row:8,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10GsgkOutputOrBuilder> 
@@ -2194,7 +2280,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GsgkOutput RepDataF10GsgkOutput = 55;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:9,
+     *In file:dzhyun.f10.proto, row:8,
      * </pre>
      */
     com.dzhyun.proto.DzhyunF10.F10GsgkOutputOrBuilder getRepDataF10GsgkOutputOrBuilder(
@@ -2204,7 +2290,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10CwtsZycwzbOutput RepDataF10CwtsZycwzbOutput = 56;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:69,
+     *In file:dzhyun.f10.proto, row:68,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhyunF10.F10CwtsZycwzbOutput> 
@@ -2213,7 +2299,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10CwtsZycwzbOutput RepDataF10CwtsZycwzbOutput = 56;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:69,
+     *In file:dzhyun.f10.proto, row:68,
      * </pre>
      */
     com.dzhyun.proto.DzhyunF10.F10CwtsZycwzbOutput getRepDataF10CwtsZycwzbOutput(int index);
@@ -2221,7 +2307,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10CwtsZycwzbOutput RepDataF10CwtsZycwzbOutput = 56;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:69,
+     *In file:dzhyun.f10.proto, row:68,
      * </pre>
      */
     int getRepDataF10CwtsZycwzbOutputCount();
@@ -2229,7 +2315,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10CwtsZycwzbOutput RepDataF10CwtsZycwzbOutput = 56;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:69,
+     *In file:dzhyun.f10.proto, row:68,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10CwtsZycwzbOutputOrBuilder> 
@@ -2238,7 +2324,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10CwtsZycwzbOutput RepDataF10CwtsZycwzbOutput = 56;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:69,
+     *In file:dzhyun.f10.proto, row:68,
      * </pre>
      */
     com.dzhyun.proto.DzhyunF10.F10CwtsZycwzbOutputOrBuilder getRepDataF10CwtsZycwzbOutputOrBuilder(
@@ -2248,7 +2334,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10CwtsXjllbzyOutput RepDataF10CwtsXjllbzyOutput = 57;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:92,
+     *In file:dzhyun.f10.proto, row:91,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhyunF10.F10CwtsXjllbzyOutput> 
@@ -2257,7 +2343,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10CwtsXjllbzyOutput RepDataF10CwtsXjllbzyOutput = 57;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:92,
+     *In file:dzhyun.f10.proto, row:91,
      * </pre>
      */
     com.dzhyun.proto.DzhyunF10.F10CwtsXjllbzyOutput getRepDataF10CwtsXjllbzyOutput(int index);
@@ -2265,7 +2351,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10CwtsXjllbzyOutput RepDataF10CwtsXjllbzyOutput = 57;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:92,
+     *In file:dzhyun.f10.proto, row:91,
      * </pre>
      */
     int getRepDataF10CwtsXjllbzyOutputCount();
@@ -2273,7 +2359,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10CwtsXjllbzyOutput RepDataF10CwtsXjllbzyOutput = 57;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:92,
+     *In file:dzhyun.f10.proto, row:91,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10CwtsXjllbzyOutputOrBuilder> 
@@ -2282,7 +2368,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10CwtsXjllbzyOutput RepDataF10CwtsXjllbzyOutput = 57;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:92,
+     *In file:dzhyun.f10.proto, row:91,
      * </pre>
      */
     com.dzhyun.proto.DzhyunF10.F10CwtsXjllbzyOutputOrBuilder getRepDataF10CwtsXjllbzyOutputOrBuilder(
@@ -2292,7 +2378,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10ZxjbDjdcwzbOutput RepDataF10ZxjbDjdcwzbOutput = 58;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:112,
+     *In file:dzhyun.f10.proto, row:111,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhyunF10.F10ZxjbDjdcwzbOutput> 
@@ -2301,7 +2387,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10ZxjbDjdcwzbOutput RepDataF10ZxjbDjdcwzbOutput = 58;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:112,
+     *In file:dzhyun.f10.proto, row:111,
      * </pre>
      */
     com.dzhyun.proto.DzhyunF10.F10ZxjbDjdcwzbOutput getRepDataF10ZxjbDjdcwzbOutput(int index);
@@ -2309,7 +2395,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10ZxjbDjdcwzbOutput RepDataF10ZxjbDjdcwzbOutput = 58;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:112,
+     *In file:dzhyun.f10.proto, row:111,
      * </pre>
      */
     int getRepDataF10ZxjbDjdcwzbOutputCount();
@@ -2317,7 +2403,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10ZxjbDjdcwzbOutput RepDataF10ZxjbDjdcwzbOutput = 58;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:112,
+     *In file:dzhyun.f10.proto, row:111,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10ZxjbDjdcwzbOutputOrBuilder> 
@@ -2326,7 +2412,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10ZxjbDjdcwzbOutput RepDataF10ZxjbDjdcwzbOutput = 58;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:112,
+     *In file:dzhyun.f10.proto, row:111,
      * </pre>
      */
     com.dzhyun.proto.DzhyunF10.F10ZxjbDjdcwzbOutputOrBuilder getRepDataF10ZxjbDjdcwzbOutputOrBuilder(
@@ -2336,7 +2422,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10ZxjbdjdlebOutput RepDataF10ZxjbdjdlebOutput = 59;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:138,
+     *In file:dzhyun.f10.proto, row:137,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhyunF10.F10ZxjbdjdlebOutput> 
@@ -2345,7 +2431,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10ZxjbdjdlebOutput RepDataF10ZxjbdjdlebOutput = 59;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:138,
+     *In file:dzhyun.f10.proto, row:137,
      * </pre>
      */
     com.dzhyun.proto.DzhyunF10.F10ZxjbdjdlebOutput getRepDataF10ZxjbdjdlebOutput(int index);
@@ -2353,7 +2439,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10ZxjbdjdlebOutput RepDataF10ZxjbdjdlebOutput = 59;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:138,
+     *In file:dzhyun.f10.proto, row:137,
      * </pre>
      */
     int getRepDataF10ZxjbdjdlebOutputCount();
@@ -2361,7 +2447,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10ZxjbdjdlebOutput RepDataF10ZxjbdjdlebOutput = 59;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:138,
+     *In file:dzhyun.f10.proto, row:137,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10ZxjbdjdlebOutputOrBuilder> 
@@ -2370,7 +2456,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10ZxjbdjdlebOutput RepDataF10ZxjbdjdlebOutput = 59;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:138,
+     *In file:dzhyun.f10.proto, row:137,
      * </pre>
      */
     com.dzhyun.proto.DzhyunF10.F10ZxjbdjdlebOutputOrBuilder getRepDataF10ZxjbdjdlebOutputOrBuilder(
@@ -2380,7 +2466,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcGdhsOutput RepDataF10GdjcGdhsOutput = 60;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:156,
+     *In file:dzhyun.f10.proto, row:155,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhyunF10.F10GdjcGdhsOutput> 
@@ -2389,7 +2475,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcGdhsOutput RepDataF10GdjcGdhsOutput = 60;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:156,
+     *In file:dzhyun.f10.proto, row:155,
      * </pre>
      */
     com.dzhyun.proto.DzhyunF10.F10GdjcGdhsOutput getRepDataF10GdjcGdhsOutput(int index);
@@ -2397,7 +2483,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcGdhsOutput RepDataF10GdjcGdhsOutput = 60;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:156,
+     *In file:dzhyun.f10.proto, row:155,
      * </pre>
      */
     int getRepDataF10GdjcGdhsOutputCount();
@@ -2405,7 +2491,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcGdhsOutput RepDataF10GdjcGdhsOutput = 60;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:156,
+     *In file:dzhyun.f10.proto, row:155,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10GdjcGdhsOutputOrBuilder> 
@@ -2414,7 +2500,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcGdhsOutput RepDataF10GdjcGdhsOutput = 60;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:156,
+     *In file:dzhyun.f10.proto, row:155,
      * </pre>
      */
     com.dzhyun.proto.DzhyunF10.F10GdjcGdhsOutputOrBuilder getRepDataF10GdjcGdhsOutputOrBuilder(
@@ -2424,7 +2510,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcSdgdOutput RepDataF10GdjcSdgdOutput = 61;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:174,
+     *In file:dzhyun.f10.proto, row:173,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhyunF10.F10GdjcSdgdOutput> 
@@ -2433,7 +2519,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcSdgdOutput RepDataF10GdjcSdgdOutput = 61;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:174,
+     *In file:dzhyun.f10.proto, row:173,
      * </pre>
      */
     com.dzhyun.proto.DzhyunF10.F10GdjcSdgdOutput getRepDataF10GdjcSdgdOutput(int index);
@@ -2441,7 +2527,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcSdgdOutput RepDataF10GdjcSdgdOutput = 61;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:174,
+     *In file:dzhyun.f10.proto, row:173,
      * </pre>
      */
     int getRepDataF10GdjcSdgdOutputCount();
@@ -2449,7 +2535,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcSdgdOutput RepDataF10GdjcSdgdOutput = 61;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:174,
+     *In file:dzhyun.f10.proto, row:173,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10GdjcSdgdOutputOrBuilder> 
@@ -2458,7 +2544,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcSdgdOutput RepDataF10GdjcSdgdOutput = 61;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:174,
+     *In file:dzhyun.f10.proto, row:173,
      * </pre>
      */
     com.dzhyun.proto.DzhyunF10.F10GdjcSdgdOutputOrBuilder getRepDataF10GdjcSdgdOutputOrBuilder(
@@ -2468,7 +2554,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcSdltgdOutput RepDataF10GdjcSdltgdOutput = 62;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:192,
+     *In file:dzhyun.f10.proto, row:191,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhyunF10.F10GdjcSdltgdOutput> 
@@ -2477,7 +2563,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcSdltgdOutput RepDataF10GdjcSdltgdOutput = 62;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:192,
+     *In file:dzhyun.f10.proto, row:191,
      * </pre>
      */
     com.dzhyun.proto.DzhyunF10.F10GdjcSdltgdOutput getRepDataF10GdjcSdltgdOutput(int index);
@@ -2485,7 +2571,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcSdltgdOutput RepDataF10GdjcSdltgdOutput = 62;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:192,
+     *In file:dzhyun.f10.proto, row:191,
      * </pre>
      */
     int getRepDataF10GdjcSdltgdOutputCount();
@@ -2493,7 +2579,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcSdltgdOutput RepDataF10GdjcSdltgdOutput = 62;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:192,
+     *In file:dzhyun.f10.proto, row:191,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10GdjcSdltgdOutputOrBuilder> 
@@ -2502,7 +2588,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcSdltgdOutput RepDataF10GdjcSdltgdOutput = 62;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:192,
+     *In file:dzhyun.f10.proto, row:191,
      * </pre>
      */
     com.dzhyun.proto.DzhyunF10.F10GdjcSdltgdOutputOrBuilder getRepDataF10GdjcSdltgdOutputOrBuilder(
@@ -2512,7 +2598,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GbfhFhkgOutput RepDataF10GbfhFhkgOutput = 63;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:214,
+     *In file:dzhyun.f10.proto, row:213,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhyunF10.F10GbfhFhkgOutput> 
@@ -2521,7 +2607,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GbfhFhkgOutput RepDataF10GbfhFhkgOutput = 63;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:214,
+     *In file:dzhyun.f10.proto, row:213,
      * </pre>
      */
     com.dzhyun.proto.DzhyunF10.F10GbfhFhkgOutput getRepDataF10GbfhFhkgOutput(int index);
@@ -2529,7 +2615,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GbfhFhkgOutput RepDataF10GbfhFhkgOutput = 63;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:214,
+     *In file:dzhyun.f10.proto, row:213,
      * </pre>
      */
     int getRepDataF10GbfhFhkgOutputCount();
@@ -2537,7 +2623,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GbfhFhkgOutput RepDataF10GbfhFhkgOutput = 63;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:214,
+     *In file:dzhyun.f10.proto, row:213,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10GbfhFhkgOutputOrBuilder> 
@@ -2546,7 +2632,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GbfhFhkgOutput RepDataF10GbfhFhkgOutput = 63;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:214,
+     *In file:dzhyun.f10.proto, row:213,
      * </pre>
      */
     com.dzhyun.proto.DzhyunF10.F10GbfhFhkgOutputOrBuilder getRepDataF10GbfhFhkgOutputOrBuilder(
@@ -2556,7 +2642,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GbfhGbjgOutput RepDataF10GbfhGbjgOutput = 64;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:251,
+     *In file:dzhyun.f10.proto, row:250,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhyunF10.F10GbfhGbjgOutput> 
@@ -2565,7 +2651,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GbfhGbjgOutput RepDataF10GbfhGbjgOutput = 64;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:251,
+     *In file:dzhyun.f10.proto, row:250,
      * </pre>
      */
     com.dzhyun.proto.DzhyunF10.F10GbfhGbjgOutput getRepDataF10GbfhGbjgOutput(int index);
@@ -2573,7 +2659,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GbfhGbjgOutput RepDataF10GbfhGbjgOutput = 64;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:251,
+     *In file:dzhyun.f10.proto, row:250,
      * </pre>
      */
     int getRepDataF10GbfhGbjgOutputCount();
@@ -2581,7 +2667,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GbfhGbjgOutput RepDataF10GbfhGbjgOutput = 64;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:251,
+     *In file:dzhyun.f10.proto, row:250,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10GbfhGbjgOutputOrBuilder> 
@@ -2590,7 +2676,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GbfhGbjgOutput RepDataF10GbfhGbjgOutput = 64;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:251,
+     *In file:dzhyun.f10.proto, row:250,
      * </pre>
      */
     com.dzhyun.proto.DzhyunF10.F10GbfhGbjgOutputOrBuilder getRepDataF10GbfhGbjgOutputOrBuilder(
@@ -2600,7 +2686,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.XinWenXinXiOutput RepDataXinWenXinXiOutput = 65;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:13,
+     *In file:dzhNewsInfo.proto, row:12,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiOutput> 
@@ -2609,7 +2695,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.XinWenXinXiOutput RepDataXinWenXinXiOutput = 65;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:13,
+     *In file:dzhNewsInfo.proto, row:12,
      * </pre>
      */
     com.dzhyun.proto.DzhNewsInfo.XinWenXinXiOutput getRepDataXinWenXinXiOutput(int index);
@@ -2617,7 +2703,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.XinWenXinXiOutput RepDataXinWenXinXiOutput = 65;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:13,
+     *In file:dzhNewsInfo.proto, row:12,
      * </pre>
      */
     int getRepDataXinWenXinXiOutputCount();
@@ -2625,7 +2711,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.XinWenXinXiOutput RepDataXinWenXinXiOutput = 65;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:13,
+     *In file:dzhNewsInfo.proto, row:12,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhNewsInfo.XinWenXinXiOutputOrBuilder> 
@@ -2634,7 +2720,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.XinWenXinXiOutput RepDataXinWenXinXiOutput = 65;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:13,
+     *In file:dzhNewsInfo.proto, row:12,
      * </pre>
      */
     com.dzhyun.proto.DzhNewsInfo.XinWenXinXiOutputOrBuilder getRepDataXinWenXinXiOutputOrBuilder(
@@ -2644,7 +2730,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.XinWenXinXiZhongXinOutput RepDataXinWenXinXiZhongXinOutput = 66;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:22,
+     *In file:dzhNewsInfo.proto, row:21,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput> 
@@ -2653,7 +2739,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.XinWenXinXiZhongXinOutput RepDataXinWenXinXiZhongXinOutput = 66;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:22,
+     *In file:dzhNewsInfo.proto, row:21,
      * </pre>
      */
     com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput getRepDataXinWenXinXiZhongXinOutput(int index);
@@ -2661,7 +2747,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.XinWenXinXiZhongXinOutput RepDataXinWenXinXiZhongXinOutput = 66;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:22,
+     *In file:dzhNewsInfo.proto, row:21,
      * </pre>
      */
     int getRepDataXinWenXinXiZhongXinOutputCount();
@@ -2669,7 +2755,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.XinWenXinXiZhongXinOutput RepDataXinWenXinXiZhongXinOutput = 66;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:22,
+     *In file:dzhNewsInfo.proto, row:21,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutputOrBuilder> 
@@ -2678,7 +2764,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.XinWenXinXiZhongXinOutput RepDataXinWenXinXiZhongXinOutput = 66;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:22,
+     *In file:dzhNewsInfo.proto, row:21,
      * </pre>
      */
     com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutputOrBuilder getRepDataXinWenXinXiZhongXinOutputOrBuilder(
@@ -2688,7 +2774,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvestInfo RepDataTopicInvestInfo = 67;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:50,
+     *In file:dzhyun.topicinvest.proto, row:53,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.DzhyunTopicinvest.TopicInvestInfo> 
@@ -2697,7 +2783,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvestInfo RepDataTopicInvestInfo = 67;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:50,
+     *In file:dzhyun.topicinvest.proto, row:53,
      * </pre>
      */
     com.dzhyun.proto.DzhyunTopicinvest.TopicInvestInfo getRepDataTopicInvestInfo(int index);
@@ -2705,7 +2791,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvestInfo RepDataTopicInvestInfo = 67;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:50,
+     *In file:dzhyun.topicinvest.proto, row:53,
      * </pre>
      */
     int getRepDataTopicInvestInfoCount();
@@ -2713,7 +2799,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvestInfo RepDataTopicInvestInfo = 67;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:50,
+     *In file:dzhyun.topicinvest.proto, row:53,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.DzhyunTopicinvest.TopicInvestInfoOrBuilder> 
@@ -2722,7 +2808,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvestInfo RepDataTopicInvestInfo = 67;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:50,
+     *In file:dzhyun.topicinvest.proto, row:53,
      * </pre>
      */
     com.dzhyun.proto.DzhyunTopicinvest.TopicInvestInfoOrBuilder getRepDataTopicInvestInfoOrBuilder(
@@ -2732,7 +2818,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.YiZhiXinYeJiYuCeOutPut RepDataYiZhiXinYeJiYuCeOutPut = 68;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:11,
+     *In file:CldForecastsShuJu.proto, row:14,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.CldForecastsShuJu.YiZhiXinYeJiYuCeOutPut> 
@@ -2741,7 +2827,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.YiZhiXinYeJiYuCeOutPut RepDataYiZhiXinYeJiYuCeOutPut = 68;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:11,
+     *In file:CldForecastsShuJu.proto, row:14,
      * </pre>
      */
     com.dzhyun.proto.CldForecastsShuJu.YiZhiXinYeJiYuCeOutPut getRepDataYiZhiXinYeJiYuCeOutPut(int index);
@@ -2749,7 +2835,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.YiZhiXinYeJiYuCeOutPut RepDataYiZhiXinYeJiYuCeOutPut = 68;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:11,
+     *In file:CldForecastsShuJu.proto, row:14,
      * </pre>
      */
     int getRepDataYiZhiXinYeJiYuCeOutPutCount();
@@ -2757,7 +2843,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.YiZhiXinYeJiYuCeOutPut RepDataYiZhiXinYeJiYuCeOutPut = 68;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:11,
+     *In file:CldForecastsShuJu.proto, row:14,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.CldForecastsShuJu.YiZhiXinYeJiYuCeOutPutOrBuilder> 
@@ -2766,7 +2852,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.YiZhiXinYeJiYuCeOutPut RepDataYiZhiXinYeJiYuCeOutPut = 68;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:11,
+     *In file:CldForecastsShuJu.proto, row:14,
      * </pre>
      */
     com.dzhyun.proto.CldForecastsShuJu.YiZhiXinYeJiYuCeOutPutOrBuilder getRepDataYiZhiXinYeJiYuCeOutPutOrBuilder(
@@ -2776,7 +2862,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.YiZhiXinTouZiPinJiOutPut RepDataYiZhiXinTouZiPinJiOutPut = 69;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:25,
+     *In file:CldForecastsShuJu.proto, row:28,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.CldForecastsShuJu.YiZhiXinTouZiPinJiOutPut> 
@@ -2785,7 +2871,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.YiZhiXinTouZiPinJiOutPut RepDataYiZhiXinTouZiPinJiOutPut = 69;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:25,
+     *In file:CldForecastsShuJu.proto, row:28,
      * </pre>
      */
     com.dzhyun.proto.CldForecastsShuJu.YiZhiXinTouZiPinJiOutPut getRepDataYiZhiXinTouZiPinJiOutPut(int index);
@@ -2793,7 +2879,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.YiZhiXinTouZiPinJiOutPut RepDataYiZhiXinTouZiPinJiOutPut = 69;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:25,
+     *In file:CldForecastsShuJu.proto, row:28,
      * </pre>
      */
     int getRepDataYiZhiXinTouZiPinJiOutPutCount();
@@ -2801,7 +2887,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.YiZhiXinTouZiPinJiOutPut RepDataYiZhiXinTouZiPinJiOutPut = 69;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:25,
+     *In file:CldForecastsShuJu.proto, row:28,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.CldForecastsShuJu.YiZhiXinTouZiPinJiOutPutOrBuilder> 
@@ -2810,7 +2896,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.YiZhiXinTouZiPinJiOutPut RepDataYiZhiXinTouZiPinJiOutPut = 69;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:25,
+     *In file:CldForecastsShuJu.proto, row:28,
      * </pre>
      */
     com.dzhyun.proto.CldForecastsShuJu.YiZhiXinTouZiPinJiOutPutOrBuilder getRepDataYiZhiXinTouZiPinJiOutPutOrBuilder(
@@ -2820,7 +2906,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.GeGuYeJiYuCeOutPut RepDataGeGuYeJiYuCeOutPut = 70;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:45,
+     *In file:CldForecastsShuJu.proto, row:48,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.CldForecastsShuJu.GeGuYeJiYuCeOutPut> 
@@ -2829,7 +2915,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.GeGuYeJiYuCeOutPut RepDataGeGuYeJiYuCeOutPut = 70;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:45,
+     *In file:CldForecastsShuJu.proto, row:48,
      * </pre>
      */
     com.dzhyun.proto.CldForecastsShuJu.GeGuYeJiYuCeOutPut getRepDataGeGuYeJiYuCeOutPut(int index);
@@ -2837,7 +2923,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.GeGuYeJiYuCeOutPut RepDataGeGuYeJiYuCeOutPut = 70;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:45,
+     *In file:CldForecastsShuJu.proto, row:48,
      * </pre>
      */
     int getRepDataGeGuYeJiYuCeOutPutCount();
@@ -2845,7 +2931,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.GeGuYeJiYuCeOutPut RepDataGeGuYeJiYuCeOutPut = 70;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:45,
+     *In file:CldForecastsShuJu.proto, row:48,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.CldForecastsShuJu.GeGuYeJiYuCeOutPutOrBuilder> 
@@ -2854,7 +2940,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.GeGuYeJiYuCeOutPut RepDataGeGuYeJiYuCeOutPut = 70;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:45,
+     *In file:CldForecastsShuJu.proto, row:48,
      * </pre>
      */
     com.dzhyun.proto.CldForecastsShuJu.GeGuYeJiYuCeOutPutOrBuilder getRepDataGeGuYeJiYuCeOutPutOrBuilder(
@@ -2864,7 +2950,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.GeGuTouZiYanBaoOutPut RepDataGeGuTouZiYanBaoOutPut = 71;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:62,
+     *In file:CldForecastsShuJu.proto, row:65,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.CldForecastsShuJu.GeGuTouZiYanBaoOutPut> 
@@ -2873,7 +2959,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.GeGuTouZiYanBaoOutPut RepDataGeGuTouZiYanBaoOutPut = 71;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:62,
+     *In file:CldForecastsShuJu.proto, row:65,
      * </pre>
      */
     com.dzhyun.proto.CldForecastsShuJu.GeGuTouZiYanBaoOutPut getRepDataGeGuTouZiYanBaoOutPut(int index);
@@ -2881,7 +2967,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.GeGuTouZiYanBaoOutPut RepDataGeGuTouZiYanBaoOutPut = 71;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:62,
+     *In file:CldForecastsShuJu.proto, row:65,
      * </pre>
      */
     int getRepDataGeGuTouZiYanBaoOutPutCount();
@@ -2889,7 +2975,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.GeGuTouZiYanBaoOutPut RepDataGeGuTouZiYanBaoOutPut = 71;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:62,
+     *In file:CldForecastsShuJu.proto, row:65,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.CldForecastsShuJu.GeGuTouZiYanBaoOutPutOrBuilder> 
@@ -2898,7 +2984,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.GeGuTouZiYanBaoOutPut RepDataGeGuTouZiYanBaoOutPut = 71;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:62,
+     *In file:CldForecastsShuJu.proto, row:65,
      * </pre>
      */
     com.dzhyun.proto.CldForecastsShuJu.GeGuTouZiYanBaoOutPutOrBuilder getRepDataGeGuTouZiYanBaoOutPutOrBuilder(
@@ -2908,7 +2994,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.DSToken RepDataDSToken = 72;</code>
      *
      * <pre>
-     *In file:dzhdstoken.proto, row:2,
+     *In file:dzhdstoken.proto, row:5,
      * </pre>
      */
     java.util.List<com.dzhyun.proto.Dzhdstoken.DSToken> 
@@ -2917,7 +3003,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.DSToken RepDataDSToken = 72;</code>
      *
      * <pre>
-     *In file:dzhdstoken.proto, row:2,
+     *In file:dzhdstoken.proto, row:5,
      * </pre>
      */
     com.dzhyun.proto.Dzhdstoken.DSToken getRepDataDSToken(int index);
@@ -2925,7 +3011,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.DSToken RepDataDSToken = 72;</code>
      *
      * <pre>
-     *In file:dzhdstoken.proto, row:2,
+     *In file:dzhdstoken.proto, row:5,
      * </pre>
      */
     int getRepDataDSTokenCount();
@@ -2933,7 +3019,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.DSToken RepDataDSToken = 72;</code>
      *
      * <pre>
-     *In file:dzhdstoken.proto, row:2,
+     *In file:dzhdstoken.proto, row:5,
      * </pre>
      */
     java.util.List<? extends com.dzhyun.proto.Dzhdstoken.DSTokenOrBuilder> 
@@ -2942,10 +3028,318 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.DSToken RepDataDSToken = 72;</code>
      *
      * <pre>
-     *In file:dzhdstoken.proto, row:2,
+     *In file:dzhdstoken.proto, row:5,
      * </pre>
      */
     com.dzhyun.proto.Dzhdstoken.DSTokenOrBuilder getRepDataDSTokenOrBuilder(
+        int index);
+
+    /**
+     * <code>repeated .dzhyun.TongJiApp RepDataTongJiApp = 73;</code>
+     *
+     * <pre>
+     *In file:dzhyun.blockstatistics.proto, row:9,
+     * </pre>
+     */
+    java.util.List<com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp> 
+        getRepDataTongJiAppList();
+    /**
+     * <code>repeated .dzhyun.TongJiApp RepDataTongJiApp = 73;</code>
+     *
+     * <pre>
+     *In file:dzhyun.blockstatistics.proto, row:9,
+     * </pre>
+     */
+    com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp getRepDataTongJiApp(int index);
+    /**
+     * <code>repeated .dzhyun.TongJiApp RepDataTongJiApp = 73;</code>
+     *
+     * <pre>
+     *In file:dzhyun.blockstatistics.proto, row:9,
+     * </pre>
+     */
+    int getRepDataTongJiAppCount();
+    /**
+     * <code>repeated .dzhyun.TongJiApp RepDataTongJiApp = 73;</code>
+     *
+     * <pre>
+     *In file:dzhyun.blockstatistics.proto, row:9,
+     * </pre>
+     */
+    java.util.List<? extends com.dzhyun.proto.DzhyunBlockstatistics.TongJiAppOrBuilder> 
+        getRepDataTongJiAppOrBuilderList();
+    /**
+     * <code>repeated .dzhyun.TongJiApp RepDataTongJiApp = 73;</code>
+     *
+     * <pre>
+     *In file:dzhyun.blockstatistics.proto, row:9,
+     * </pre>
+     */
+    com.dzhyun.proto.DzhyunBlockstatistics.TongJiAppOrBuilder getRepDataTongJiAppOrBuilder(
+        int index);
+
+    /**
+     * <code>repeated .dzhyun.MessageChannelSubtype RepDataMessageChannelSubtype = 74;</code>
+     *
+     * <pre>
+     *In file:dzh.message.ch.subtype.proto, row:4,
+     * </pre>
+     */
+    java.util.List<com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype> 
+        getRepDataMessageChannelSubtypeList();
+    /**
+     * <code>repeated .dzhyun.MessageChannelSubtype RepDataMessageChannelSubtype = 74;</code>
+     *
+     * <pre>
+     *In file:dzh.message.ch.subtype.proto, row:4,
+     * </pre>
+     */
+    com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype getRepDataMessageChannelSubtype(int index);
+    /**
+     * <code>repeated .dzhyun.MessageChannelSubtype RepDataMessageChannelSubtype = 74;</code>
+     *
+     * <pre>
+     *In file:dzh.message.ch.subtype.proto, row:4,
+     * </pre>
+     */
+    int getRepDataMessageChannelSubtypeCount();
+    /**
+     * <code>repeated .dzhyun.MessageChannelSubtype RepDataMessageChannelSubtype = 74;</code>
+     *
+     * <pre>
+     *In file:dzh.message.ch.subtype.proto, row:4,
+     * </pre>
+     */
+    java.util.List<? extends com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtypeOrBuilder> 
+        getRepDataMessageChannelSubtypeOrBuilderList();
+    /**
+     * <code>repeated .dzhyun.MessageChannelSubtype RepDataMessageChannelSubtype = 74;</code>
+     *
+     * <pre>
+     *In file:dzh.message.ch.subtype.proto, row:4,
+     * </pre>
+     */
+    com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtypeOrBuilder getRepDataMessageChannelSubtypeOrBuilder(
+        int index);
+
+    /**
+     * <code>repeated .dzhyun.UserGetPropResponse RepDataUserGetPropResponse = 75;</code>
+     *
+     * <pre>
+     *In file:dzhyun.user.getprop.proto, row:11,
+     * </pre>
+     */
+    java.util.List<com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse> 
+        getRepDataUserGetPropResponseList();
+    /**
+     * <code>repeated .dzhyun.UserGetPropResponse RepDataUserGetPropResponse = 75;</code>
+     *
+     * <pre>
+     *In file:dzhyun.user.getprop.proto, row:11,
+     * </pre>
+     */
+    com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse getRepDataUserGetPropResponse(int index);
+    /**
+     * <code>repeated .dzhyun.UserGetPropResponse RepDataUserGetPropResponse = 75;</code>
+     *
+     * <pre>
+     *In file:dzhyun.user.getprop.proto, row:11,
+     * </pre>
+     */
+    int getRepDataUserGetPropResponseCount();
+    /**
+     * <code>repeated .dzhyun.UserGetPropResponse RepDataUserGetPropResponse = 75;</code>
+     *
+     * <pre>
+     *In file:dzhyun.user.getprop.proto, row:11,
+     * </pre>
+     */
+    java.util.List<? extends com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponseOrBuilder> 
+        getRepDataUserGetPropResponseOrBuilderList();
+    /**
+     * <code>repeated .dzhyun.UserGetPropResponse RepDataUserGetPropResponse = 75;</code>
+     *
+     * <pre>
+     *In file:dzhyun.user.getprop.proto, row:11,
+     * </pre>
+     */
+    com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponseOrBuilder getRepDataUserGetPropResponseOrBuilder(
+        int index);
+
+    /**
+     * <code>repeated .dzhyun.QuoteBOrderSingle RepDataQuoteBOrderSingle = 76;</code>
+     *
+     * <pre>
+     *In file:dzhoutput.proto, row:130,
+     * </pre>
+     */
+    java.util.List<com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle> 
+        getRepDataQuoteBOrderSingleList();
+    /**
+     * <code>repeated .dzhyun.QuoteBOrderSingle RepDataQuoteBOrderSingle = 76;</code>
+     *
+     * <pre>
+     *In file:dzhoutput.proto, row:130,
+     * </pre>
+     */
+    com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle getRepDataQuoteBOrderSingle(int index);
+    /**
+     * <code>repeated .dzhyun.QuoteBOrderSingle RepDataQuoteBOrderSingle = 76;</code>
+     *
+     * <pre>
+     *In file:dzhoutput.proto, row:130,
+     * </pre>
+     */
+    int getRepDataQuoteBOrderSingleCount();
+    /**
+     * <code>repeated .dzhyun.QuoteBOrderSingle RepDataQuoteBOrderSingle = 76;</code>
+     *
+     * <pre>
+     *In file:dzhoutput.proto, row:130,
+     * </pre>
+     */
+    java.util.List<? extends com.dzhyun.proto.Dzhoutput.QuoteBOrderSingleOrBuilder> 
+        getRepDataQuoteBOrderSingleOrBuilderList();
+    /**
+     * <code>repeated .dzhyun.QuoteBOrderSingle RepDataQuoteBOrderSingle = 76;</code>
+     *
+     * <pre>
+     *In file:dzhoutput.proto, row:130,
+     * </pre>
+     */
+    com.dzhyun.proto.Dzhoutput.QuoteBOrderSingleOrBuilder getRepDataQuoteBOrderSingleOrBuilder(
+        int index);
+
+    /**
+     * <code>repeated .dzhyun.DXSpirit RepDataDXSpirit = 77;</code>
+     *
+     * <pre>
+     *In file:dzhyun.dxspirit.proto, row:9,
+     * </pre>
+     */
+    java.util.List<com.dzhyun.proto.DzhyunDxspirit.DXSpirit> 
+        getRepDataDXSpiritList();
+    /**
+     * <code>repeated .dzhyun.DXSpirit RepDataDXSpirit = 77;</code>
+     *
+     * <pre>
+     *In file:dzhyun.dxspirit.proto, row:9,
+     * </pre>
+     */
+    com.dzhyun.proto.DzhyunDxspirit.DXSpirit getRepDataDXSpirit(int index);
+    /**
+     * <code>repeated .dzhyun.DXSpirit RepDataDXSpirit = 77;</code>
+     *
+     * <pre>
+     *In file:dzhyun.dxspirit.proto, row:9,
+     * </pre>
+     */
+    int getRepDataDXSpiritCount();
+    /**
+     * <code>repeated .dzhyun.DXSpirit RepDataDXSpirit = 77;</code>
+     *
+     * <pre>
+     *In file:dzhyun.dxspirit.proto, row:9,
+     * </pre>
+     */
+    java.util.List<? extends com.dzhyun.proto.DzhyunDxspirit.DXSpiritOrBuilder> 
+        getRepDataDXSpiritOrBuilderList();
+    /**
+     * <code>repeated .dzhyun.DXSpirit RepDataDXSpirit = 77;</code>
+     *
+     * <pre>
+     *In file:dzhyun.dxspirit.proto, row:9,
+     * </pre>
+     */
+    com.dzhyun.proto.DzhyunDxspirit.DXSpiritOrBuilder getRepDataDXSpiritOrBuilder(
+        int index);
+
+    /**
+     * <code>repeated .dzhyun.StkPoolOuput RepDataStkPoolOuput = 78;</code>
+     *
+     * <pre>
+     *In file:dzhyun.stockpool.proto, row:15,
+     * </pre>
+     */
+    java.util.List<com.dzhyun.proto.DzhyunStockpool.StkPoolOuput> 
+        getRepDataStkPoolOuputList();
+    /**
+     * <code>repeated .dzhyun.StkPoolOuput RepDataStkPoolOuput = 78;</code>
+     *
+     * <pre>
+     *In file:dzhyun.stockpool.proto, row:15,
+     * </pre>
+     */
+    com.dzhyun.proto.DzhyunStockpool.StkPoolOuput getRepDataStkPoolOuput(int index);
+    /**
+     * <code>repeated .dzhyun.StkPoolOuput RepDataStkPoolOuput = 78;</code>
+     *
+     * <pre>
+     *In file:dzhyun.stockpool.proto, row:15,
+     * </pre>
+     */
+    int getRepDataStkPoolOuputCount();
+    /**
+     * <code>repeated .dzhyun.StkPoolOuput RepDataStkPoolOuput = 78;</code>
+     *
+     * <pre>
+     *In file:dzhyun.stockpool.proto, row:15,
+     * </pre>
+     */
+    java.util.List<? extends com.dzhyun.proto.DzhyunStockpool.StkPoolOuputOrBuilder> 
+        getRepDataStkPoolOuputOrBuilderList();
+    /**
+     * <code>repeated .dzhyun.StkPoolOuput RepDataStkPoolOuput = 78;</code>
+     *
+     * <pre>
+     *In file:dzhyun.stockpool.proto, row:15,
+     * </pre>
+     */
+    com.dzhyun.proto.DzhyunStockpool.StkPoolOuputOrBuilder getRepDataStkPoolOuputOrBuilder(
+        int index);
+
+    /**
+     * <code>repeated .dzhyun.EventNews RepDataEventNews = 79;</code>
+     *
+     * <pre>
+     *In file:CldEventNewsShuJu.proto, row:3,
+     * </pre>
+     */
+    java.util.List<dzhyun.CldEventNewsShuJu.EventNews> 
+        getRepDataEventNewsList();
+    /**
+     * <code>repeated .dzhyun.EventNews RepDataEventNews = 79;</code>
+     *
+     * <pre>
+     *In file:CldEventNewsShuJu.proto, row:3,
+     * </pre>
+     */
+    dzhyun.CldEventNewsShuJu.EventNews getRepDataEventNews(int index);
+    /**
+     * <code>repeated .dzhyun.EventNews RepDataEventNews = 79;</code>
+     *
+     * <pre>
+     *In file:CldEventNewsShuJu.proto, row:3,
+     * </pre>
+     */
+    int getRepDataEventNewsCount();
+    /**
+     * <code>repeated .dzhyun.EventNews RepDataEventNews = 79;</code>
+     *
+     * <pre>
+     *In file:CldEventNewsShuJu.proto, row:3,
+     * </pre>
+     */
+    java.util.List<? extends dzhyun.CldEventNewsShuJu.EventNewsOrBuilder> 
+        getRepDataEventNewsOrBuilderList();
+    /**
+     * <code>repeated .dzhyun.EventNews RepDataEventNews = 79;</code>
+     *
+     * <pre>
+     *In file:CldEventNewsShuJu.proto, row:3,
+     * </pre>
+     */
+    dzhyun.CldEventNewsShuJu.EventNewsOrBuilder getRepDataEventNewsOrBuilder(
         int index);
   }
   /**
@@ -3025,428 +3419,490 @@ public final class AutoMsg {
               bitField0_ |= 0x00000004;
               break;
             }
+            case 34: {
+              com.google.protobuf.ByteString bs = input.readBytes();
+              bitField0_ |= 0x00000008;
+              jsonTbl_ = bs;
+              break;
+            }
             case 162: {
-              if (!((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
+              if (!((mutable_bitField0_ & 0x00000010) == 0x00000010)) {
                 repDataQuoteDynaSingle_ = new java.util.ArrayList<com.dzhyun.proto.Dzhoutput.QuoteDynaSingle>();
-                mutable_bitField0_ |= 0x00000008;
+                mutable_bitField0_ |= 0x00000010;
               }
               repDataQuoteDynaSingle_.add(input.readMessage(com.dzhyun.proto.Dzhoutput.QuoteDynaSingle.PARSER, extensionRegistry));
               break;
             }
             case 170: {
-              if (!((mutable_bitField0_ & 0x00000010) == 0x00000010)) {
+              if (!((mutable_bitField0_ & 0x00000020) == 0x00000020)) {
                 repDataQuoteKlineSingle_ = new java.util.ArrayList<com.dzhyun.proto.Dzhoutput.QuoteKlineSingle>();
-                mutable_bitField0_ |= 0x00000010;
+                mutable_bitField0_ |= 0x00000020;
               }
               repDataQuoteKlineSingle_.add(input.readMessage(com.dzhyun.proto.Dzhoutput.QuoteKlineSingle.PARSER, extensionRegistry));
               break;
             }
             case 178: {
-              if (!((mutable_bitField0_ & 0x00000020) == 0x00000020)) {
+              if (!((mutable_bitField0_ & 0x00000040) == 0x00000040)) {
                 repDataQuoteTickSingle_ = new java.util.ArrayList<com.dzhyun.proto.Dzhoutput.QuoteTickSingle>();
-                mutable_bitField0_ |= 0x00000020;
+                mutable_bitField0_ |= 0x00000040;
               }
               repDataQuoteTickSingle_.add(input.readMessage(com.dzhyun.proto.Dzhoutput.QuoteTickSingle.PARSER, extensionRegistry));
               break;
             }
             case 186: {
-              if (!((mutable_bitField0_ & 0x00000040) == 0x00000040)) {
+              if (!((mutable_bitField0_ & 0x00000080) == 0x00000080)) {
                 repDataQuoteMinSingle_ = new java.util.ArrayList<com.dzhyun.proto.Dzhoutput.QuoteMinSingle>();
-                mutable_bitField0_ |= 0x00000040;
+                mutable_bitField0_ |= 0x00000080;
               }
               repDataQuoteMinSingle_.add(input.readMessage(com.dzhyun.proto.Dzhoutput.QuoteMinSingle.PARSER, extensionRegistry));
               break;
             }
             case 194: {
-              if (!((mutable_bitField0_ & 0x00000080) == 0x00000080)) {
+              if (!((mutable_bitField0_ & 0x00000100) == 0x00000100)) {
                 repDataNewsInfoValue_ = new java.util.ArrayList<com.dzhyun.proto.DzhNewsInfo.NewsInfoValue>();
-                mutable_bitField0_ |= 0x00000080;
+                mutable_bitField0_ |= 0x00000100;
               }
               repDataNewsInfoValue_.add(input.readMessage(com.dzhyun.proto.DzhNewsInfo.NewsInfoValue.PARSER, extensionRegistry));
               break;
             }
             case 202: {
-              if (!((mutable_bitField0_ & 0x00000100) == 0x00000100)) {
+              if (!((mutable_bitField0_ & 0x00000200) == 0x00000200)) {
                 repDataZhiBiaoShuChu_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunZhibiaojisuan.ZhiBiaoShuChu>();
-                mutable_bitField0_ |= 0x00000100;
+                mutable_bitField0_ |= 0x00000200;
               }
               repDataZhiBiaoShuChu_.add(input.readMessage(com.dzhyun.proto.DzhyunZhibiaojisuan.ZhiBiaoShuChu.PARSER, extensionRegistry));
               break;
             }
             case 210: {
-              if (!((mutable_bitField0_ & 0x00000200) == 0x00000200)) {
+              if (!((mutable_bitField0_ & 0x00000400) == 0x00000400)) {
                 repDataZhiBiao_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunZhibiao.ZhiBiao>();
-                mutable_bitField0_ |= 0x00000200;
+                mutable_bitField0_ |= 0x00000400;
               }
               repDataZhiBiao_.add(input.readMessage(com.dzhyun.proto.DzhyunZhibiao.ZhiBiao.PARSER, extensionRegistry));
               break;
             }
             case 218: {
-              if (!((mutable_bitField0_ & 0x00000400) == 0x00000400)) {
+              if (!((mutable_bitField0_ & 0x00000800) == 0x00000800)) {
                 repDataStkData_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunStkdata.StkData>();
-                mutable_bitField0_ |= 0x00000400;
+                mutable_bitField0_ |= 0x00000800;
               }
               repDataStkData_.add(input.readMessage(com.dzhyun.proto.DzhyunStkdata.StkData.PARSER, extensionRegistry));
               break;
             }
             case 226: {
-              if (!((mutable_bitField0_ & 0x00000800) == 0x00000800)) {
+              if (!((mutable_bitField0_ & 0x00001000) == 0x00001000)) {
                 repDataPaiXu_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunPaixu.PaiXu>();
-                mutable_bitField0_ |= 0x00000800;
+                mutable_bitField0_ |= 0x00001000;
               }
               repDataPaiXu_.add(input.readMessage(com.dzhyun.proto.DzhyunPaixu.PaiXu.PARSER, extensionRegistry));
               break;
             }
             case 234: {
-              if (!((mutable_bitField0_ & 0x00001000) == 0x00001000)) {
+              if (!((mutable_bitField0_ & 0x00002000) == 0x00002000)) {
                 repDataJianPanBaoShuChu_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunJianpanbao.JianPanBaoShuChu>();
-                mutable_bitField0_ |= 0x00001000;
+                mutable_bitField0_ |= 0x00002000;
               }
               repDataJianPanBaoShuChu_.add(input.readMessage(com.dzhyun.proto.DzhyunJianpanbao.JianPanBaoShuChu.PARSER, extensionRegistry));
               break;
             }
             case 242: {
-              if (!((mutable_bitField0_ & 0x00002000) == 0x00002000)) {
+              if (!((mutable_bitField0_ & 0x00004000) == 0x00004000)) {
                 repDataFenJiJiJin_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunFenjijijin.FenJiJiJin>();
-                mutable_bitField0_ |= 0x00002000;
+                mutable_bitField0_ |= 0x00004000;
               }
               repDataFenJiJiJin_.add(input.readMessage(com.dzhyun.proto.DzhyunFenjijijin.FenJiJiJin.PARSER, extensionRegistry));
               break;
             }
             case 250: {
-              if (!((mutable_bitField0_ & 0x00004000) == 0x00004000)) {
+              if (!((mutable_bitField0_ & 0x00008000) == 0x00008000)) {
                 repDataMsgGetOutput_ = new java.util.ArrayList<com.dzhyun.proto.Dzhmsg.MsgGetOutput>();
-                mutable_bitField0_ |= 0x00004000;
+                mutable_bitField0_ |= 0x00008000;
               }
               repDataMsgGetOutput_.add(input.readMessage(com.dzhyun.proto.Dzhmsg.MsgGetOutput.PARSER, extensionRegistry));
               break;
             }
             case 258: {
-              if (!((mutable_bitField0_ & 0x00008000) == 0x00008000)) {
+              if (!((mutable_bitField0_ & 0x00010000) == 0x00010000)) {
                 repDataMsgPutOutput_ = new java.util.ArrayList<com.dzhyun.proto.Dzhmsg.MsgPutOutput>();
-                mutable_bitField0_ |= 0x00008000;
+                mutable_bitField0_ |= 0x00010000;
               }
               repDataMsgPutOutput_.add(input.readMessage(com.dzhyun.proto.Dzhmsg.MsgPutOutput.PARSER, extensionRegistry));
               break;
             }
             case 266: {
-              if (!((mutable_bitField0_ & 0x00010000) == 0x00010000)) {
+              if (!((mutable_bitField0_ & 0x00020000) == 0x00020000)) {
                 repDataBlockObjOutput_ = new java.util.ArrayList<com.dzhyun.proto.DzhBlock.BlockObjOutput>();
-                mutable_bitField0_ |= 0x00010000;
+                mutable_bitField0_ |= 0x00020000;
               }
               repDataBlockObjOutput_.add(input.readMessage(com.dzhyun.proto.DzhBlock.BlockObjOutput.PARSER, extensionRegistry));
               break;
             }
             case 274: {
-              if (!((mutable_bitField0_ & 0x00020000) == 0x00020000)) {
+              if (!((mutable_bitField0_ & 0x00040000) == 0x00040000)) {
                 repDataBlockPropOutput_ = new java.util.ArrayList<com.dzhyun.proto.DzhBlock.BlockPropOutput>();
-                mutable_bitField0_ |= 0x00020000;
+                mutable_bitField0_ |= 0x00040000;
               }
               repDataBlockPropOutput_.add(input.readMessage(com.dzhyun.proto.DzhBlock.BlockPropOutput.PARSER, extensionRegistry));
               break;
             }
             case 282: {
-              if (!((mutable_bitField0_ & 0x00040000) == 0x00040000)) {
+              if (!((mutable_bitField0_ & 0x00080000) == 0x00080000)) {
                 repDataSelfStockGetOutput_ = new java.util.ArrayList<com.dzhyun.proto.Dzhselfstock.SelfStockGetOutput>();
-                mutable_bitField0_ |= 0x00040000;
+                mutable_bitField0_ |= 0x00080000;
               }
               repDataSelfStockGetOutput_.add(input.readMessage(com.dzhyun.proto.Dzhselfstock.SelfStockGetOutput.PARSER, extensionRegistry));
               break;
             }
             case 290: {
-              if (!((mutable_bitField0_ & 0x00080000) == 0x00080000)) {
+              if (!((mutable_bitField0_ & 0x00100000) == 0x00100000)) {
                 repDataSelfStockPutOutput_ = new java.util.ArrayList<com.dzhyun.proto.Dzhselfstock.SelfStockPutOutput>();
-                mutable_bitField0_ |= 0x00080000;
+                mutable_bitField0_ |= 0x00100000;
               }
               repDataSelfStockPutOutput_.add(input.readMessage(com.dzhyun.proto.Dzhselfstock.SelfStockPutOutput.PARSER, extensionRegistry));
               break;
             }
             case 298: {
-              if (!((mutable_bitField0_ & 0x00100000) == 0x00100000)) {
+              if (!((mutable_bitField0_ & 0x00200000) == 0x00200000)) {
                 repDataAppKey_ = new java.util.ArrayList<com.dzhyun.proto.Dzhapp.AppKey>();
-                mutable_bitField0_ |= 0x00100000;
+                mutable_bitField0_ |= 0x00200000;
               }
               repDataAppKey_.add(input.readMessage(com.dzhyun.proto.Dzhapp.AppKey.PARSER, extensionRegistry));
               break;
             }
             case 306: {
-              if (!((mutable_bitField0_ & 0x00200000) == 0x00200000)) {
+              if (!((mutable_bitField0_ & 0x00400000) == 0x00400000)) {
                 repDataAppInfo_ = new java.util.ArrayList<com.dzhyun.proto.Dzhapp.AppInfo>();
-                mutable_bitField0_ |= 0x00200000;
+                mutable_bitField0_ |= 0x00400000;
               }
               repDataAppInfo_.add(input.readMessage(com.dzhyun.proto.Dzhapp.AppInfo.PARSER, extensionRegistry));
               break;
             }
             case 314: {
-              if (!((mutable_bitField0_ & 0x00400000) == 0x00400000)) {
+              if (!((mutable_bitField0_ & 0x00800000) == 0x00800000)) {
                 repDataAppValue_ = new java.util.ArrayList<com.dzhyun.proto.Dzhapp.AppValue>();
-                mutable_bitField0_ |= 0x00400000;
+                mutable_bitField0_ |= 0x00800000;
               }
               repDataAppValue_.add(input.readMessage(com.dzhyun.proto.Dzhapp.AppValue.PARSER, extensionRegistry));
               break;
             }
             case 322: {
-              if (!((mutable_bitField0_ & 0x00800000) == 0x00800000)) {
+              if (!((mutable_bitField0_ & 0x01000000) == 0x01000000)) {
                 repDataServiceAuth_ = new java.util.ArrayList<com.dzhyun.proto.Dzhapp.ServiceAuth>();
-                mutable_bitField0_ |= 0x00800000;
+                mutable_bitField0_ |= 0x01000000;
               }
               repDataServiceAuth_.add(input.readMessage(com.dzhyun.proto.Dzhapp.ServiceAuth.PARSER, extensionRegistry));
               break;
             }
             case 330: {
-              if (!((mutable_bitField0_ & 0x01000000) == 0x01000000)) {
+              if (!((mutable_bitField0_ & 0x02000000) == 0x02000000)) {
                 repDataAppServiceAuth_ = new java.util.ArrayList<com.dzhyun.proto.Dzhapp.AppServiceAuth>();
-                mutable_bitField0_ |= 0x01000000;
+                mutable_bitField0_ |= 0x02000000;
               }
               repDataAppServiceAuth_.add(input.readMessage(com.dzhyun.proto.Dzhapp.AppServiceAuth.PARSER, extensionRegistry));
               break;
             }
             case 338: {
-              if (!((mutable_bitField0_ & 0x02000000) == 0x02000000)) {
+              if (!((mutable_bitField0_ & 0x04000000) == 0x04000000)) {
                 repDataTokenAuth_ = new java.util.ArrayList<com.dzhyun.proto.Dzhapp.TokenAuth>();
-                mutable_bitField0_ |= 0x02000000;
+                mutable_bitField0_ |= 0x04000000;
               }
               repDataTokenAuth_.add(input.readMessage(com.dzhyun.proto.Dzhapp.TokenAuth.PARSER, extensionRegistry));
               break;
             }
             case 346: {
-              if (!((mutable_bitField0_ & 0x04000000) == 0x04000000)) {
+              if (!((mutable_bitField0_ & 0x08000000) == 0x08000000)) {
                 repDataAccOpResponse_ = new java.util.ArrayList<com.dzhyun.proto.Dzhapp.AccOpResponse>();
-                mutable_bitField0_ |= 0x04000000;
+                mutable_bitField0_ |= 0x08000000;
               }
               repDataAccOpResponse_.add(input.readMessage(com.dzhyun.proto.Dzhapp.AccOpResponse.PARSER, extensionRegistry));
               break;
             }
             case 354: {
-              if (!((mutable_bitField0_ & 0x08000000) == 0x08000000)) {
+              if (!((mutable_bitField0_ & 0x10000000) == 0x10000000)) {
                 repDataToken_ = new java.util.ArrayList<com.dzhyun.proto.Dzhtoken.Token>();
-                mutable_bitField0_ |= 0x08000000;
+                mutable_bitField0_ |= 0x10000000;
               }
               repDataToken_.add(input.readMessage(com.dzhyun.proto.Dzhtoken.Token.PARSER, extensionRegistry));
               break;
             }
             case 362: {
-              if (!((mutable_bitField0_ & 0x10000000) == 0x10000000)) {
+              if (!((mutable_bitField0_ & 0x20000000) == 0x20000000)) {
                 repDataPrivilege_ = new java.util.ArrayList<com.dzhyun.proto.Dzhpriv.Privilege>();
-                mutable_bitField0_ |= 0x10000000;
+                mutable_bitField0_ |= 0x20000000;
               }
               repDataPrivilege_.add(input.readMessage(com.dzhyun.proto.Dzhpriv.Privilege.PARSER, extensionRegistry));
               break;
             }
             case 370: {
-              if (!((mutable_bitField0_ & 0x20000000) == 0x20000000)) {
+              if (!((mutable_bitField0_ & 0x40000000) == 0x40000000)) {
                 repDataAlarmEvent_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunAlarm.AlarmEvent>();
-                mutable_bitField0_ |= 0x20000000;
+                mutable_bitField0_ |= 0x40000000;
               }
               repDataAlarmEvent_.add(input.readMessage(com.dzhyun.proto.DzhyunAlarm.AlarmEvent.PARSER, extensionRegistry));
               break;
             }
             case 378: {
-              if (!((mutable_bitField0_ & 0x40000000) == 0x40000000)) {
+              if (!((mutable_bitField0_ & 0x80000000) == 0x80000000)) {
                 repDataAlarmTask_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunAlarm.AlarmTask>();
-                mutable_bitField0_ |= 0x40000000;
+                mutable_bitField0_ |= 0x80000000;
               }
               repDataAlarmTask_.add(input.readMessage(com.dzhyun.proto.DzhyunAlarm.AlarmTask.PARSER, extensionRegistry));
               break;
             }
             case 386: {
-              if (!((mutable_bitField0_ & 0x80000000) == 0x80000000)) {
+              if (!((mutable_bitField1_ & 0x00000001) == 0x00000001)) {
                 repDataADPutResponse_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunAdvert.ADPutResponse>();
-                mutable_bitField0_ |= 0x80000000;
+                mutable_bitField1_ |= 0x00000001;
               }
               repDataADPutResponse_.add(input.readMessage(com.dzhyun.proto.DzhyunAdvert.ADPutResponse.PARSER, extensionRegistry));
               break;
             }
             case 394: {
-              if (!((mutable_bitField1_ & 0x00000001) == 0x00000001)) {
+              if (!((mutable_bitField1_ & 0x00000002) == 0x00000002)) {
                 repDataADGetResponse_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunAdvert.ADGetResponse>();
-                mutable_bitField1_ |= 0x00000001;
+                mutable_bitField1_ |= 0x00000002;
               }
               repDataADGetResponse_.add(input.readMessage(com.dzhyun.proto.DzhyunAdvert.ADGetResponse.PARSER, extensionRegistry));
               break;
             }
             case 402: {
-              if (!((mutable_bitField1_ & 0x00000002) == 0x00000002)) {
+              if (!((mutable_bitField1_ & 0x00000004) == 0x00000004)) {
                 repDataUserGroup_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunUserGroup.UserGroup>();
-                mutable_bitField1_ |= 0x00000002;
+                mutable_bitField1_ |= 0x00000004;
               }
               repDataUserGroup_.add(input.readMessage(com.dzhyun.proto.DzhyunUserGroup.UserGroup.PARSER, extensionRegistry));
               break;
             }
             case 410: {
-              if (!((mutable_bitField1_ & 0x00000004) == 0x00000004)) {
+              if (!((mutable_bitField1_ & 0x00000008) == 0x00000008)) {
                 repDataUserGroupResponse_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunUserGroup.UserGroupResponse>();
-                mutable_bitField1_ |= 0x00000004;
+                mutable_bitField1_ |= 0x00000008;
               }
               repDataUserGroupResponse_.add(input.readMessage(com.dzhyun.proto.DzhyunUserGroup.UserGroupResponse.PARSER, extensionRegistry));
               break;
             }
             case 418: {
-              if (!((mutable_bitField1_ & 0x00000008) == 0x00000008)) {
+              if (!((mutable_bitField1_ & 0x00000010) == 0x00000010)) {
                 repDataUserPropsMessage_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunUserProp.UserPropsMessage>();
-                mutable_bitField1_ |= 0x00000008;
+                mutable_bitField1_ |= 0x00000010;
               }
               repDataUserPropsMessage_.add(input.readMessage(com.dzhyun.proto.DzhyunUserProp.UserPropsMessage.PARSER, extensionRegistry));
               break;
             }
             case 426: {
-              if (!((mutable_bitField1_ & 0x00000010) == 0x00000010)) {
+              if (!((mutable_bitField1_ & 0x00000020) == 0x00000020)) {
                 repDataTopicInvest_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunTopicinvest.TopicInvest>();
-                mutable_bitField1_ |= 0x00000010;
+                mutable_bitField1_ |= 0x00000020;
               }
               repDataTopicInvest_.add(input.readMessage(com.dzhyun.proto.DzhyunTopicinvest.TopicInvest.PARSER, extensionRegistry));
               break;
             }
             case 434: {
-              if (!((mutable_bitField1_ & 0x00000020) == 0x00000020)) {
+              if (!((mutable_bitField1_ & 0x00000040) == 0x00000040)) {
                 repDataTopicInvestHistory_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunTopicinvest.TopicInvestHistory>();
-                mutable_bitField1_ |= 0x00000020;
+                mutable_bitField1_ |= 0x00000040;
               }
               repDataTopicInvestHistory_.add(input.readMessage(com.dzhyun.proto.DzhyunTopicinvest.TopicInvestHistory.PARSER, extensionRegistry));
               break;
             }
             case 442: {
-              if (!((mutable_bitField1_ & 0x00000040) == 0x00000040)) {
+              if (!((mutable_bitField1_ & 0x00000080) == 0x00000080)) {
                 repDataF10GsgkOutput_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunF10.F10GsgkOutput>();
-                mutable_bitField1_ |= 0x00000040;
+                mutable_bitField1_ |= 0x00000080;
               }
               repDataF10GsgkOutput_.add(input.readMessage(com.dzhyun.proto.DzhyunF10.F10GsgkOutput.PARSER, extensionRegistry));
               break;
             }
             case 450: {
-              if (!((mutable_bitField1_ & 0x00000080) == 0x00000080)) {
+              if (!((mutable_bitField1_ & 0x00000100) == 0x00000100)) {
                 repDataF10CwtsZycwzbOutput_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunF10.F10CwtsZycwzbOutput>();
-                mutable_bitField1_ |= 0x00000080;
+                mutable_bitField1_ |= 0x00000100;
               }
               repDataF10CwtsZycwzbOutput_.add(input.readMessage(com.dzhyun.proto.DzhyunF10.F10CwtsZycwzbOutput.PARSER, extensionRegistry));
               break;
             }
             case 458: {
-              if (!((mutable_bitField1_ & 0x00000100) == 0x00000100)) {
+              if (!((mutable_bitField1_ & 0x00000200) == 0x00000200)) {
                 repDataF10CwtsXjllbzyOutput_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunF10.F10CwtsXjllbzyOutput>();
-                mutable_bitField1_ |= 0x00000100;
+                mutable_bitField1_ |= 0x00000200;
               }
               repDataF10CwtsXjllbzyOutput_.add(input.readMessage(com.dzhyun.proto.DzhyunF10.F10CwtsXjllbzyOutput.PARSER, extensionRegistry));
               break;
             }
             case 466: {
-              if (!((mutable_bitField1_ & 0x00000200) == 0x00000200)) {
+              if (!((mutable_bitField1_ & 0x00000400) == 0x00000400)) {
                 repDataF10ZxjbDjdcwzbOutput_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunF10.F10ZxjbDjdcwzbOutput>();
-                mutable_bitField1_ |= 0x00000200;
+                mutable_bitField1_ |= 0x00000400;
               }
               repDataF10ZxjbDjdcwzbOutput_.add(input.readMessage(com.dzhyun.proto.DzhyunF10.F10ZxjbDjdcwzbOutput.PARSER, extensionRegistry));
               break;
             }
             case 474: {
-              if (!((mutable_bitField1_ & 0x00000400) == 0x00000400)) {
+              if (!((mutable_bitField1_ & 0x00000800) == 0x00000800)) {
                 repDataF10ZxjbdjdlebOutput_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunF10.F10ZxjbdjdlebOutput>();
-                mutable_bitField1_ |= 0x00000400;
+                mutable_bitField1_ |= 0x00000800;
               }
               repDataF10ZxjbdjdlebOutput_.add(input.readMessage(com.dzhyun.proto.DzhyunF10.F10ZxjbdjdlebOutput.PARSER, extensionRegistry));
               break;
             }
             case 482: {
-              if (!((mutable_bitField1_ & 0x00000800) == 0x00000800)) {
+              if (!((mutable_bitField1_ & 0x00001000) == 0x00001000)) {
                 repDataF10GdjcGdhsOutput_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunF10.F10GdjcGdhsOutput>();
-                mutable_bitField1_ |= 0x00000800;
+                mutable_bitField1_ |= 0x00001000;
               }
               repDataF10GdjcGdhsOutput_.add(input.readMessage(com.dzhyun.proto.DzhyunF10.F10GdjcGdhsOutput.PARSER, extensionRegistry));
               break;
             }
             case 490: {
-              if (!((mutable_bitField1_ & 0x00001000) == 0x00001000)) {
+              if (!((mutable_bitField1_ & 0x00002000) == 0x00002000)) {
                 repDataF10GdjcSdgdOutput_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunF10.F10GdjcSdgdOutput>();
-                mutable_bitField1_ |= 0x00001000;
+                mutable_bitField1_ |= 0x00002000;
               }
               repDataF10GdjcSdgdOutput_.add(input.readMessage(com.dzhyun.proto.DzhyunF10.F10GdjcSdgdOutput.PARSER, extensionRegistry));
               break;
             }
             case 498: {
-              if (!((mutable_bitField1_ & 0x00002000) == 0x00002000)) {
+              if (!((mutable_bitField1_ & 0x00004000) == 0x00004000)) {
                 repDataF10GdjcSdltgdOutput_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunF10.F10GdjcSdltgdOutput>();
-                mutable_bitField1_ |= 0x00002000;
+                mutable_bitField1_ |= 0x00004000;
               }
               repDataF10GdjcSdltgdOutput_.add(input.readMessage(com.dzhyun.proto.DzhyunF10.F10GdjcSdltgdOutput.PARSER, extensionRegistry));
               break;
             }
             case 506: {
-              if (!((mutable_bitField1_ & 0x00004000) == 0x00004000)) {
+              if (!((mutable_bitField1_ & 0x00008000) == 0x00008000)) {
                 repDataF10GbfhFhkgOutput_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunF10.F10GbfhFhkgOutput>();
-                mutable_bitField1_ |= 0x00004000;
+                mutable_bitField1_ |= 0x00008000;
               }
               repDataF10GbfhFhkgOutput_.add(input.readMessage(com.dzhyun.proto.DzhyunF10.F10GbfhFhkgOutput.PARSER, extensionRegistry));
               break;
             }
             case 514: {
-              if (!((mutable_bitField1_ & 0x00008000) == 0x00008000)) {
+              if (!((mutable_bitField1_ & 0x00010000) == 0x00010000)) {
                 repDataF10GbfhGbjgOutput_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunF10.F10GbfhGbjgOutput>();
-                mutable_bitField1_ |= 0x00008000;
+                mutable_bitField1_ |= 0x00010000;
               }
               repDataF10GbfhGbjgOutput_.add(input.readMessage(com.dzhyun.proto.DzhyunF10.F10GbfhGbjgOutput.PARSER, extensionRegistry));
               break;
             }
             case 522: {
-              if (!((mutable_bitField1_ & 0x00010000) == 0x00010000)) {
+              if (!((mutable_bitField1_ & 0x00020000) == 0x00020000)) {
                 repDataXinWenXinXiOutput_ = new java.util.ArrayList<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiOutput>();
-                mutable_bitField1_ |= 0x00010000;
+                mutable_bitField1_ |= 0x00020000;
               }
               repDataXinWenXinXiOutput_.add(input.readMessage(com.dzhyun.proto.DzhNewsInfo.XinWenXinXiOutput.PARSER, extensionRegistry));
               break;
             }
             case 530: {
-              if (!((mutable_bitField1_ & 0x00020000) == 0x00020000)) {
+              if (!((mutable_bitField1_ & 0x00040000) == 0x00040000)) {
                 repDataXinWenXinXiZhongXinOutput_ = new java.util.ArrayList<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput>();
-                mutable_bitField1_ |= 0x00020000;
+                mutable_bitField1_ |= 0x00040000;
               }
               repDataXinWenXinXiZhongXinOutput_.add(input.readMessage(com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput.PARSER, extensionRegistry));
               break;
             }
             case 538: {
-              if (!((mutable_bitField1_ & 0x00040000) == 0x00040000)) {
+              if (!((mutable_bitField1_ & 0x00080000) == 0x00080000)) {
                 repDataTopicInvestInfo_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunTopicinvest.TopicInvestInfo>();
-                mutable_bitField1_ |= 0x00040000;
+                mutable_bitField1_ |= 0x00080000;
               }
               repDataTopicInvestInfo_.add(input.readMessage(com.dzhyun.proto.DzhyunTopicinvest.TopicInvestInfo.PARSER, extensionRegistry));
               break;
             }
             case 546: {
-              if (!((mutable_bitField1_ & 0x00080000) == 0x00080000)) {
+              if (!((mutable_bitField1_ & 0x00100000) == 0x00100000)) {
                 repDataYiZhiXinYeJiYuCeOutPut_ = new java.util.ArrayList<com.dzhyun.proto.CldForecastsShuJu.YiZhiXinYeJiYuCeOutPut>();
-                mutable_bitField1_ |= 0x00080000;
+                mutable_bitField1_ |= 0x00100000;
               }
               repDataYiZhiXinYeJiYuCeOutPut_.add(input.readMessage(com.dzhyun.proto.CldForecastsShuJu.YiZhiXinYeJiYuCeOutPut.PARSER, extensionRegistry));
               break;
             }
             case 554: {
-              if (!((mutable_bitField1_ & 0x00100000) == 0x00100000)) {
+              if (!((mutable_bitField1_ & 0x00200000) == 0x00200000)) {
                 repDataYiZhiXinTouZiPinJiOutPut_ = new java.util.ArrayList<com.dzhyun.proto.CldForecastsShuJu.YiZhiXinTouZiPinJiOutPut>();
-                mutable_bitField1_ |= 0x00100000;
+                mutable_bitField1_ |= 0x00200000;
               }
               repDataYiZhiXinTouZiPinJiOutPut_.add(input.readMessage(com.dzhyun.proto.CldForecastsShuJu.YiZhiXinTouZiPinJiOutPut.PARSER, extensionRegistry));
               break;
             }
             case 562: {
-              if (!((mutable_bitField1_ & 0x00200000) == 0x00200000)) {
+              if (!((mutable_bitField1_ & 0x00400000) == 0x00400000)) {
                 repDataGeGuYeJiYuCeOutPut_ = new java.util.ArrayList<com.dzhyun.proto.CldForecastsShuJu.GeGuYeJiYuCeOutPut>();
-                mutable_bitField1_ |= 0x00200000;
+                mutable_bitField1_ |= 0x00400000;
               }
               repDataGeGuYeJiYuCeOutPut_.add(input.readMessage(com.dzhyun.proto.CldForecastsShuJu.GeGuYeJiYuCeOutPut.PARSER, extensionRegistry));
               break;
             }
             case 570: {
-              if (!((mutable_bitField1_ & 0x00400000) == 0x00400000)) {
+              if (!((mutable_bitField1_ & 0x00800000) == 0x00800000)) {
                 repDataGeGuTouZiYanBaoOutPut_ = new java.util.ArrayList<com.dzhyun.proto.CldForecastsShuJu.GeGuTouZiYanBaoOutPut>();
-                mutable_bitField1_ |= 0x00400000;
+                mutable_bitField1_ |= 0x00800000;
               }
               repDataGeGuTouZiYanBaoOutPut_.add(input.readMessage(com.dzhyun.proto.CldForecastsShuJu.GeGuTouZiYanBaoOutPut.PARSER, extensionRegistry));
               break;
             }
             case 578: {
-              if (!((mutable_bitField1_ & 0x00800000) == 0x00800000)) {
+              if (!((mutable_bitField1_ & 0x01000000) == 0x01000000)) {
                 repDataDSToken_ = new java.util.ArrayList<com.dzhyun.proto.Dzhdstoken.DSToken>();
-                mutable_bitField1_ |= 0x00800000;
+                mutable_bitField1_ |= 0x01000000;
               }
               repDataDSToken_.add(input.readMessage(com.dzhyun.proto.Dzhdstoken.DSToken.PARSER, extensionRegistry));
+              break;
+            }
+            case 586: {
+              if (!((mutable_bitField1_ & 0x02000000) == 0x02000000)) {
+                repDataTongJiApp_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp>();
+                mutable_bitField1_ |= 0x02000000;
+              }
+              repDataTongJiApp_.add(input.readMessage(com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp.PARSER, extensionRegistry));
+              break;
+            }
+            case 594: {
+              if (!((mutable_bitField1_ & 0x04000000) == 0x04000000)) {
+                repDataMessageChannelSubtype_ = new java.util.ArrayList<com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype>();
+                mutable_bitField1_ |= 0x04000000;
+              }
+              repDataMessageChannelSubtype_.add(input.readMessage(com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype.PARSER, extensionRegistry));
+              break;
+            }
+            case 602: {
+              if (!((mutable_bitField1_ & 0x08000000) == 0x08000000)) {
+                repDataUserGetPropResponse_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse>();
+                mutable_bitField1_ |= 0x08000000;
+              }
+              repDataUserGetPropResponse_.add(input.readMessage(com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse.PARSER, extensionRegistry));
+              break;
+            }
+            case 610: {
+              if (!((mutable_bitField1_ & 0x10000000) == 0x10000000)) {
+                repDataQuoteBOrderSingle_ = new java.util.ArrayList<com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle>();
+                mutable_bitField1_ |= 0x10000000;
+              }
+              repDataQuoteBOrderSingle_.add(input.readMessage(com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.PARSER, extensionRegistry));
+              break;
+            }
+            case 618: {
+              if (!((mutable_bitField1_ & 0x20000000) == 0x20000000)) {
+                repDataDXSpirit_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunDxspirit.DXSpirit>();
+                mutable_bitField1_ |= 0x20000000;
+              }
+              repDataDXSpirit_.add(input.readMessage(com.dzhyun.proto.DzhyunDxspirit.DXSpirit.PARSER, extensionRegistry));
+              break;
+            }
+            case 626: {
+              if (!((mutable_bitField1_ & 0x40000000) == 0x40000000)) {
+                repDataStkPoolOuput_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunStockpool.StkPoolOuput>();
+                mutable_bitField1_ |= 0x40000000;
+              }
+              repDataStkPoolOuput_.add(input.readMessage(com.dzhyun.proto.DzhyunStockpool.StkPoolOuput.PARSER, extensionRegistry));
+              break;
+            }
+            case 634: {
+              if (!((mutable_bitField1_ & 0x80000000) == 0x80000000)) {
+                repDataEventNews_ = new java.util.ArrayList<dzhyun.CldEventNewsShuJu.EventNews>();
+                mutable_bitField1_ |= 0x80000000;
+              }
+              repDataEventNews_.add(input.readMessage(dzhyun.CldEventNewsShuJu.EventNews.PARSER, extensionRegistry));
               break;
             }
           }
@@ -3457,164 +3913,185 @@ public final class AutoMsg {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e.getMessage()).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
+        if (((mutable_bitField0_ & 0x00000010) == 0x00000010)) {
           repDataQuoteDynaSingle_ = java.util.Collections.unmodifiableList(repDataQuoteDynaSingle_);
         }
-        if (((mutable_bitField0_ & 0x00000010) == 0x00000010)) {
+        if (((mutable_bitField0_ & 0x00000020) == 0x00000020)) {
           repDataQuoteKlineSingle_ = java.util.Collections.unmodifiableList(repDataQuoteKlineSingle_);
         }
-        if (((mutable_bitField0_ & 0x00000020) == 0x00000020)) {
+        if (((mutable_bitField0_ & 0x00000040) == 0x00000040)) {
           repDataQuoteTickSingle_ = java.util.Collections.unmodifiableList(repDataQuoteTickSingle_);
         }
-        if (((mutable_bitField0_ & 0x00000040) == 0x00000040)) {
+        if (((mutable_bitField0_ & 0x00000080) == 0x00000080)) {
           repDataQuoteMinSingle_ = java.util.Collections.unmodifiableList(repDataQuoteMinSingle_);
         }
-        if (((mutable_bitField0_ & 0x00000080) == 0x00000080)) {
+        if (((mutable_bitField0_ & 0x00000100) == 0x00000100)) {
           repDataNewsInfoValue_ = java.util.Collections.unmodifiableList(repDataNewsInfoValue_);
         }
-        if (((mutable_bitField0_ & 0x00000100) == 0x00000100)) {
+        if (((mutable_bitField0_ & 0x00000200) == 0x00000200)) {
           repDataZhiBiaoShuChu_ = java.util.Collections.unmodifiableList(repDataZhiBiaoShuChu_);
         }
-        if (((mutable_bitField0_ & 0x00000200) == 0x00000200)) {
+        if (((mutable_bitField0_ & 0x00000400) == 0x00000400)) {
           repDataZhiBiao_ = java.util.Collections.unmodifiableList(repDataZhiBiao_);
         }
-        if (((mutable_bitField0_ & 0x00000400) == 0x00000400)) {
+        if (((mutable_bitField0_ & 0x00000800) == 0x00000800)) {
           repDataStkData_ = java.util.Collections.unmodifiableList(repDataStkData_);
         }
-        if (((mutable_bitField0_ & 0x00000800) == 0x00000800)) {
+        if (((mutable_bitField0_ & 0x00001000) == 0x00001000)) {
           repDataPaiXu_ = java.util.Collections.unmodifiableList(repDataPaiXu_);
         }
-        if (((mutable_bitField0_ & 0x00001000) == 0x00001000)) {
+        if (((mutable_bitField0_ & 0x00002000) == 0x00002000)) {
           repDataJianPanBaoShuChu_ = java.util.Collections.unmodifiableList(repDataJianPanBaoShuChu_);
         }
-        if (((mutable_bitField0_ & 0x00002000) == 0x00002000)) {
+        if (((mutable_bitField0_ & 0x00004000) == 0x00004000)) {
           repDataFenJiJiJin_ = java.util.Collections.unmodifiableList(repDataFenJiJiJin_);
         }
-        if (((mutable_bitField0_ & 0x00004000) == 0x00004000)) {
+        if (((mutable_bitField0_ & 0x00008000) == 0x00008000)) {
           repDataMsgGetOutput_ = java.util.Collections.unmodifiableList(repDataMsgGetOutput_);
         }
-        if (((mutable_bitField0_ & 0x00008000) == 0x00008000)) {
+        if (((mutable_bitField0_ & 0x00010000) == 0x00010000)) {
           repDataMsgPutOutput_ = java.util.Collections.unmodifiableList(repDataMsgPutOutput_);
         }
-        if (((mutable_bitField0_ & 0x00010000) == 0x00010000)) {
+        if (((mutable_bitField0_ & 0x00020000) == 0x00020000)) {
           repDataBlockObjOutput_ = java.util.Collections.unmodifiableList(repDataBlockObjOutput_);
         }
-        if (((mutable_bitField0_ & 0x00020000) == 0x00020000)) {
+        if (((mutable_bitField0_ & 0x00040000) == 0x00040000)) {
           repDataBlockPropOutput_ = java.util.Collections.unmodifiableList(repDataBlockPropOutput_);
         }
-        if (((mutable_bitField0_ & 0x00040000) == 0x00040000)) {
+        if (((mutable_bitField0_ & 0x00080000) == 0x00080000)) {
           repDataSelfStockGetOutput_ = java.util.Collections.unmodifiableList(repDataSelfStockGetOutput_);
         }
-        if (((mutable_bitField0_ & 0x00080000) == 0x00080000)) {
+        if (((mutable_bitField0_ & 0x00100000) == 0x00100000)) {
           repDataSelfStockPutOutput_ = java.util.Collections.unmodifiableList(repDataSelfStockPutOutput_);
         }
-        if (((mutable_bitField0_ & 0x00100000) == 0x00100000)) {
+        if (((mutable_bitField0_ & 0x00200000) == 0x00200000)) {
           repDataAppKey_ = java.util.Collections.unmodifiableList(repDataAppKey_);
         }
-        if (((mutable_bitField0_ & 0x00200000) == 0x00200000)) {
+        if (((mutable_bitField0_ & 0x00400000) == 0x00400000)) {
           repDataAppInfo_ = java.util.Collections.unmodifiableList(repDataAppInfo_);
         }
-        if (((mutable_bitField0_ & 0x00400000) == 0x00400000)) {
+        if (((mutable_bitField0_ & 0x00800000) == 0x00800000)) {
           repDataAppValue_ = java.util.Collections.unmodifiableList(repDataAppValue_);
         }
-        if (((mutable_bitField0_ & 0x00800000) == 0x00800000)) {
+        if (((mutable_bitField0_ & 0x01000000) == 0x01000000)) {
           repDataServiceAuth_ = java.util.Collections.unmodifiableList(repDataServiceAuth_);
         }
-        if (((mutable_bitField0_ & 0x01000000) == 0x01000000)) {
+        if (((mutable_bitField0_ & 0x02000000) == 0x02000000)) {
           repDataAppServiceAuth_ = java.util.Collections.unmodifiableList(repDataAppServiceAuth_);
         }
-        if (((mutable_bitField0_ & 0x02000000) == 0x02000000)) {
+        if (((mutable_bitField0_ & 0x04000000) == 0x04000000)) {
           repDataTokenAuth_ = java.util.Collections.unmodifiableList(repDataTokenAuth_);
         }
-        if (((mutable_bitField0_ & 0x04000000) == 0x04000000)) {
+        if (((mutable_bitField0_ & 0x08000000) == 0x08000000)) {
           repDataAccOpResponse_ = java.util.Collections.unmodifiableList(repDataAccOpResponse_);
         }
-        if (((mutable_bitField0_ & 0x08000000) == 0x08000000)) {
+        if (((mutable_bitField0_ & 0x10000000) == 0x10000000)) {
           repDataToken_ = java.util.Collections.unmodifiableList(repDataToken_);
         }
-        if (((mutable_bitField0_ & 0x10000000) == 0x10000000)) {
+        if (((mutable_bitField0_ & 0x20000000) == 0x20000000)) {
           repDataPrivilege_ = java.util.Collections.unmodifiableList(repDataPrivilege_);
         }
-        if (((mutable_bitField0_ & 0x20000000) == 0x20000000)) {
+        if (((mutable_bitField0_ & 0x40000000) == 0x40000000)) {
           repDataAlarmEvent_ = java.util.Collections.unmodifiableList(repDataAlarmEvent_);
         }
-        if (((mutable_bitField0_ & 0x40000000) == 0x40000000)) {
+        if (((mutable_bitField0_ & 0x80000000) == 0x80000000)) {
           repDataAlarmTask_ = java.util.Collections.unmodifiableList(repDataAlarmTask_);
         }
-        if (((mutable_bitField0_ & 0x80000000) == 0x80000000)) {
+        if (((mutable_bitField1_ & 0x00000001) == 0x00000001)) {
           repDataADPutResponse_ = java.util.Collections.unmodifiableList(repDataADPutResponse_);
         }
-        if (((mutable_bitField1_ & 0x00000001) == 0x00000001)) {
+        if (((mutable_bitField1_ & 0x00000002) == 0x00000002)) {
           repDataADGetResponse_ = java.util.Collections.unmodifiableList(repDataADGetResponse_);
         }
-        if (((mutable_bitField1_ & 0x00000002) == 0x00000002)) {
+        if (((mutable_bitField1_ & 0x00000004) == 0x00000004)) {
           repDataUserGroup_ = java.util.Collections.unmodifiableList(repDataUserGroup_);
         }
-        if (((mutable_bitField1_ & 0x00000004) == 0x00000004)) {
+        if (((mutable_bitField1_ & 0x00000008) == 0x00000008)) {
           repDataUserGroupResponse_ = java.util.Collections.unmodifiableList(repDataUserGroupResponse_);
         }
-        if (((mutable_bitField1_ & 0x00000008) == 0x00000008)) {
+        if (((mutable_bitField1_ & 0x00000010) == 0x00000010)) {
           repDataUserPropsMessage_ = java.util.Collections.unmodifiableList(repDataUserPropsMessage_);
         }
-        if (((mutable_bitField1_ & 0x00000010) == 0x00000010)) {
+        if (((mutable_bitField1_ & 0x00000020) == 0x00000020)) {
           repDataTopicInvest_ = java.util.Collections.unmodifiableList(repDataTopicInvest_);
         }
-        if (((mutable_bitField1_ & 0x00000020) == 0x00000020)) {
+        if (((mutable_bitField1_ & 0x00000040) == 0x00000040)) {
           repDataTopicInvestHistory_ = java.util.Collections.unmodifiableList(repDataTopicInvestHistory_);
         }
-        if (((mutable_bitField1_ & 0x00000040) == 0x00000040)) {
+        if (((mutable_bitField1_ & 0x00000080) == 0x00000080)) {
           repDataF10GsgkOutput_ = java.util.Collections.unmodifiableList(repDataF10GsgkOutput_);
         }
-        if (((mutable_bitField1_ & 0x00000080) == 0x00000080)) {
+        if (((mutable_bitField1_ & 0x00000100) == 0x00000100)) {
           repDataF10CwtsZycwzbOutput_ = java.util.Collections.unmodifiableList(repDataF10CwtsZycwzbOutput_);
         }
-        if (((mutable_bitField1_ & 0x00000100) == 0x00000100)) {
+        if (((mutable_bitField1_ & 0x00000200) == 0x00000200)) {
           repDataF10CwtsXjllbzyOutput_ = java.util.Collections.unmodifiableList(repDataF10CwtsXjllbzyOutput_);
         }
-        if (((mutable_bitField1_ & 0x00000200) == 0x00000200)) {
+        if (((mutable_bitField1_ & 0x00000400) == 0x00000400)) {
           repDataF10ZxjbDjdcwzbOutput_ = java.util.Collections.unmodifiableList(repDataF10ZxjbDjdcwzbOutput_);
         }
-        if (((mutable_bitField1_ & 0x00000400) == 0x00000400)) {
+        if (((mutable_bitField1_ & 0x00000800) == 0x00000800)) {
           repDataF10ZxjbdjdlebOutput_ = java.util.Collections.unmodifiableList(repDataF10ZxjbdjdlebOutput_);
         }
-        if (((mutable_bitField1_ & 0x00000800) == 0x00000800)) {
+        if (((mutable_bitField1_ & 0x00001000) == 0x00001000)) {
           repDataF10GdjcGdhsOutput_ = java.util.Collections.unmodifiableList(repDataF10GdjcGdhsOutput_);
         }
-        if (((mutable_bitField1_ & 0x00001000) == 0x00001000)) {
+        if (((mutable_bitField1_ & 0x00002000) == 0x00002000)) {
           repDataF10GdjcSdgdOutput_ = java.util.Collections.unmodifiableList(repDataF10GdjcSdgdOutput_);
         }
-        if (((mutable_bitField1_ & 0x00002000) == 0x00002000)) {
+        if (((mutable_bitField1_ & 0x00004000) == 0x00004000)) {
           repDataF10GdjcSdltgdOutput_ = java.util.Collections.unmodifiableList(repDataF10GdjcSdltgdOutput_);
         }
-        if (((mutable_bitField1_ & 0x00004000) == 0x00004000)) {
+        if (((mutable_bitField1_ & 0x00008000) == 0x00008000)) {
           repDataF10GbfhFhkgOutput_ = java.util.Collections.unmodifiableList(repDataF10GbfhFhkgOutput_);
         }
-        if (((mutable_bitField1_ & 0x00008000) == 0x00008000)) {
+        if (((mutable_bitField1_ & 0x00010000) == 0x00010000)) {
           repDataF10GbfhGbjgOutput_ = java.util.Collections.unmodifiableList(repDataF10GbfhGbjgOutput_);
         }
-        if (((mutable_bitField1_ & 0x00010000) == 0x00010000)) {
+        if (((mutable_bitField1_ & 0x00020000) == 0x00020000)) {
           repDataXinWenXinXiOutput_ = java.util.Collections.unmodifiableList(repDataXinWenXinXiOutput_);
         }
-        if (((mutable_bitField1_ & 0x00020000) == 0x00020000)) {
+        if (((mutable_bitField1_ & 0x00040000) == 0x00040000)) {
           repDataXinWenXinXiZhongXinOutput_ = java.util.Collections.unmodifiableList(repDataXinWenXinXiZhongXinOutput_);
         }
-        if (((mutable_bitField1_ & 0x00040000) == 0x00040000)) {
+        if (((mutable_bitField1_ & 0x00080000) == 0x00080000)) {
           repDataTopicInvestInfo_ = java.util.Collections.unmodifiableList(repDataTopicInvestInfo_);
         }
-        if (((mutable_bitField1_ & 0x00080000) == 0x00080000)) {
+        if (((mutable_bitField1_ & 0x00100000) == 0x00100000)) {
           repDataYiZhiXinYeJiYuCeOutPut_ = java.util.Collections.unmodifiableList(repDataYiZhiXinYeJiYuCeOutPut_);
         }
-        if (((mutable_bitField1_ & 0x00100000) == 0x00100000)) {
+        if (((mutable_bitField1_ & 0x00200000) == 0x00200000)) {
           repDataYiZhiXinTouZiPinJiOutPut_ = java.util.Collections.unmodifiableList(repDataYiZhiXinTouZiPinJiOutPut_);
         }
-        if (((mutable_bitField1_ & 0x00200000) == 0x00200000)) {
+        if (((mutable_bitField1_ & 0x00400000) == 0x00400000)) {
           repDataGeGuYeJiYuCeOutPut_ = java.util.Collections.unmodifiableList(repDataGeGuYeJiYuCeOutPut_);
         }
-        if (((mutable_bitField1_ & 0x00400000) == 0x00400000)) {
+        if (((mutable_bitField1_ & 0x00800000) == 0x00800000)) {
           repDataGeGuTouZiYanBaoOutPut_ = java.util.Collections.unmodifiableList(repDataGeGuTouZiYanBaoOutPut_);
         }
-        if (((mutable_bitField1_ & 0x00800000) == 0x00800000)) {
+        if (((mutable_bitField1_ & 0x01000000) == 0x01000000)) {
           repDataDSToken_ = java.util.Collections.unmodifiableList(repDataDSToken_);
+        }
+        if (((mutable_bitField1_ & 0x02000000) == 0x02000000)) {
+          repDataTongJiApp_ = java.util.Collections.unmodifiableList(repDataTongJiApp_);
+        }
+        if (((mutable_bitField1_ & 0x04000000) == 0x04000000)) {
+          repDataMessageChannelSubtype_ = java.util.Collections.unmodifiableList(repDataMessageChannelSubtype_);
+        }
+        if (((mutable_bitField1_ & 0x08000000) == 0x08000000)) {
+          repDataUserGetPropResponse_ = java.util.Collections.unmodifiableList(repDataUserGetPropResponse_);
+        }
+        if (((mutable_bitField1_ & 0x10000000) == 0x10000000)) {
+          repDataQuoteBOrderSingle_ = java.util.Collections.unmodifiableList(repDataQuoteBOrderSingle_);
+        }
+        if (((mutable_bitField1_ & 0x20000000) == 0x20000000)) {
+          repDataDXSpirit_ = java.util.Collections.unmodifiableList(repDataDXSpirit_);
+        }
+        if (((mutable_bitField1_ & 0x40000000) == 0x40000000)) {
+          repDataStkPoolOuput_ = java.util.Collections.unmodifiableList(repDataStkPoolOuput_);
+        }
+        if (((mutable_bitField1_ & 0x80000000) == 0x80000000)) {
+          repDataEventNews_ = java.util.Collections.unmodifiableList(repDataEventNews_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -3726,13 +4203,55 @@ public final class AutoMsg {
       return tbl_;
     }
 
+    public static final int JSONTBL_FIELD_NUMBER = 4;
+    private java.lang.Object jsonTbl_;
+    /**
+     * <code>optional string JsonTbl = 4;</code>
+     */
+    public boolean hasJsonTbl() {
+      return ((bitField0_ & 0x00000008) == 0x00000008);
+    }
+    /**
+     * <code>optional string JsonTbl = 4;</code>
+     */
+    public java.lang.String getJsonTbl() {
+      java.lang.Object ref = jsonTbl_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          jsonTbl_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>optional string JsonTbl = 4;</code>
+     */
+    public com.google.protobuf.ByteString
+        getJsonTblBytes() {
+      java.lang.Object ref = jsonTbl_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        jsonTbl_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
     public static final int REPDATAQUOTEDYNASINGLE_FIELD_NUMBER = 20;
     private java.util.List<com.dzhyun.proto.Dzhoutput.QuoteDynaSingle> repDataQuoteDynaSingle_;
     /**
      * <code>repeated .dzhyun.QuoteDynaSingle RepDataQuoteDynaSingle = 20;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:22,
+     *In file:dzhoutput.proto, row:21,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.Dzhoutput.QuoteDynaSingle> getRepDataQuoteDynaSingleList() {
@@ -3742,7 +4261,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteDynaSingle RepDataQuoteDynaSingle = 20;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:22,
+     *In file:dzhoutput.proto, row:21,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.Dzhoutput.QuoteDynaSingleOrBuilder> 
@@ -3753,7 +4272,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteDynaSingle RepDataQuoteDynaSingle = 20;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:22,
+     *In file:dzhoutput.proto, row:21,
      * </pre>
      */
     public int getRepDataQuoteDynaSingleCount() {
@@ -3763,7 +4282,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteDynaSingle RepDataQuoteDynaSingle = 20;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:22,
+     *In file:dzhoutput.proto, row:21,
      * </pre>
      */
     public com.dzhyun.proto.Dzhoutput.QuoteDynaSingle getRepDataQuoteDynaSingle(int index) {
@@ -3773,7 +4292,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteDynaSingle RepDataQuoteDynaSingle = 20;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:22,
+     *In file:dzhoutput.proto, row:21,
      * </pre>
      */
     public com.dzhyun.proto.Dzhoutput.QuoteDynaSingleOrBuilder getRepDataQuoteDynaSingleOrBuilder(
@@ -3787,7 +4306,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteKlineSingle RepDataQuoteKlineSingle = 21;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:49,
+     *In file:dzhoutput.proto, row:48,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.Dzhoutput.QuoteKlineSingle> getRepDataQuoteKlineSingleList() {
@@ -3797,7 +4316,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteKlineSingle RepDataQuoteKlineSingle = 21;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:49,
+     *In file:dzhoutput.proto, row:48,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.Dzhoutput.QuoteKlineSingleOrBuilder> 
@@ -3808,7 +4327,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteKlineSingle RepDataQuoteKlineSingle = 21;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:49,
+     *In file:dzhoutput.proto, row:48,
      * </pre>
      */
     public int getRepDataQuoteKlineSingleCount() {
@@ -3818,7 +4337,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteKlineSingle RepDataQuoteKlineSingle = 21;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:49,
+     *In file:dzhoutput.proto, row:48,
      * </pre>
      */
     public com.dzhyun.proto.Dzhoutput.QuoteKlineSingle getRepDataQuoteKlineSingle(int index) {
@@ -3828,7 +4347,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteKlineSingle RepDataQuoteKlineSingle = 21;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:49,
+     *In file:dzhoutput.proto, row:48,
      * </pre>
      */
     public com.dzhyun.proto.Dzhoutput.QuoteKlineSingleOrBuilder getRepDataQuoteKlineSingleOrBuilder(
@@ -3842,7 +4361,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteTickSingle RepDataQuoteTickSingle = 22;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:75,
+     *In file:dzhoutput.proto, row:74,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.Dzhoutput.QuoteTickSingle> getRepDataQuoteTickSingleList() {
@@ -3852,7 +4371,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteTickSingle RepDataQuoteTickSingle = 22;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:75,
+     *In file:dzhoutput.proto, row:74,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.Dzhoutput.QuoteTickSingleOrBuilder> 
@@ -3863,7 +4382,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteTickSingle RepDataQuoteTickSingle = 22;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:75,
+     *In file:dzhoutput.proto, row:74,
      * </pre>
      */
     public int getRepDataQuoteTickSingleCount() {
@@ -3873,7 +4392,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteTickSingle RepDataQuoteTickSingle = 22;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:75,
+     *In file:dzhoutput.proto, row:74,
      * </pre>
      */
     public com.dzhyun.proto.Dzhoutput.QuoteTickSingle getRepDataQuoteTickSingle(int index) {
@@ -3883,7 +4402,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteTickSingle RepDataQuoteTickSingle = 22;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:75,
+     *In file:dzhoutput.proto, row:74,
      * </pre>
      */
     public com.dzhyun.proto.Dzhoutput.QuoteTickSingleOrBuilder getRepDataQuoteTickSingleOrBuilder(
@@ -3897,7 +4416,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteMinSingle RepDataQuoteMinSingle = 23;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:100,
+     *In file:dzhoutput.proto, row:99,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.Dzhoutput.QuoteMinSingle> getRepDataQuoteMinSingleList() {
@@ -3907,7 +4426,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteMinSingle RepDataQuoteMinSingle = 23;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:100,
+     *In file:dzhoutput.proto, row:99,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.Dzhoutput.QuoteMinSingleOrBuilder> 
@@ -3918,7 +4437,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteMinSingle RepDataQuoteMinSingle = 23;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:100,
+     *In file:dzhoutput.proto, row:99,
      * </pre>
      */
     public int getRepDataQuoteMinSingleCount() {
@@ -3928,7 +4447,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteMinSingle RepDataQuoteMinSingle = 23;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:100,
+     *In file:dzhoutput.proto, row:99,
      * </pre>
      */
     public com.dzhyun.proto.Dzhoutput.QuoteMinSingle getRepDataQuoteMinSingle(int index) {
@@ -3938,7 +4457,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.QuoteMinSingle RepDataQuoteMinSingle = 23;</code>
      *
      * <pre>
-     *In file:dzhoutput.proto, row:100,
+     *In file:dzhoutput.proto, row:99,
      * </pre>
      */
     public com.dzhyun.proto.Dzhoutput.QuoteMinSingleOrBuilder getRepDataQuoteMinSingleOrBuilder(
@@ -3952,7 +4471,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.NewsInfoValue RepDataNewsInfoValue = 24;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:5,
+     *In file:dzhNewsInfo.proto, row:4,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhNewsInfo.NewsInfoValue> getRepDataNewsInfoValueList() {
@@ -3962,7 +4481,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.NewsInfoValue RepDataNewsInfoValue = 24;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:5,
+     *In file:dzhNewsInfo.proto, row:4,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhNewsInfo.NewsInfoValueOrBuilder> 
@@ -3973,7 +4492,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.NewsInfoValue RepDataNewsInfoValue = 24;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:5,
+     *In file:dzhNewsInfo.proto, row:4,
      * </pre>
      */
     public int getRepDataNewsInfoValueCount() {
@@ -3983,7 +4502,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.NewsInfoValue RepDataNewsInfoValue = 24;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:5,
+     *In file:dzhNewsInfo.proto, row:4,
      * </pre>
      */
     public com.dzhyun.proto.DzhNewsInfo.NewsInfoValue getRepDataNewsInfoValue(int index) {
@@ -3993,7 +4512,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.NewsInfoValue RepDataNewsInfoValue = 24;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:5,
+     *In file:dzhNewsInfo.proto, row:4,
      * </pre>
      */
     public com.dzhyun.proto.DzhNewsInfo.NewsInfoValueOrBuilder getRepDataNewsInfoValueOrBuilder(
@@ -4007,7 +4526,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ZhiBiaoShuChu RepDataZhiBiaoShuChu = 25;</code>
      *
      * <pre>
-     *In file:dzhyun.zhibiaojisuan.proto, row:6,
+     *In file:dzhyun.zhibiaojisuan.proto, row:5,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhyunZhibiaojisuan.ZhiBiaoShuChu> getRepDataZhiBiaoShuChuList() {
@@ -4017,7 +4536,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ZhiBiaoShuChu RepDataZhiBiaoShuChu = 25;</code>
      *
      * <pre>
-     *In file:dzhyun.zhibiaojisuan.proto, row:6,
+     *In file:dzhyun.zhibiaojisuan.proto, row:5,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhyunZhibiaojisuan.ZhiBiaoShuChuOrBuilder> 
@@ -4028,7 +4547,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ZhiBiaoShuChu RepDataZhiBiaoShuChu = 25;</code>
      *
      * <pre>
-     *In file:dzhyun.zhibiaojisuan.proto, row:6,
+     *In file:dzhyun.zhibiaojisuan.proto, row:5,
      * </pre>
      */
     public int getRepDataZhiBiaoShuChuCount() {
@@ -4038,7 +4557,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ZhiBiaoShuChu RepDataZhiBiaoShuChu = 25;</code>
      *
      * <pre>
-     *In file:dzhyun.zhibiaojisuan.proto, row:6,
+     *In file:dzhyun.zhibiaojisuan.proto, row:5,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunZhibiaojisuan.ZhiBiaoShuChu getRepDataZhiBiaoShuChu(int index) {
@@ -4048,7 +4567,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ZhiBiaoShuChu RepDataZhiBiaoShuChu = 25;</code>
      *
      * <pre>
-     *In file:dzhyun.zhibiaojisuan.proto, row:6,
+     *In file:dzhyun.zhibiaojisuan.proto, row:5,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunZhibiaojisuan.ZhiBiaoShuChuOrBuilder getRepDataZhiBiaoShuChuOrBuilder(
@@ -4062,7 +4581,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ZhiBiao RepDataZhiBiao = 26;</code>
      *
      * <pre>
-     *In file:dzhyun.zhibiao.proto, row:8,
+     *In file:dzhyun.zhibiao.proto, row:7,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhyunZhibiao.ZhiBiao> getRepDataZhiBiaoList() {
@@ -4072,7 +4591,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ZhiBiao RepDataZhiBiao = 26;</code>
      *
      * <pre>
-     *In file:dzhyun.zhibiao.proto, row:8,
+     *In file:dzhyun.zhibiao.proto, row:7,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhyunZhibiao.ZhiBiaoOrBuilder> 
@@ -4083,7 +4602,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ZhiBiao RepDataZhiBiao = 26;</code>
      *
      * <pre>
-     *In file:dzhyun.zhibiao.proto, row:8,
+     *In file:dzhyun.zhibiao.proto, row:7,
      * </pre>
      */
     public int getRepDataZhiBiaoCount() {
@@ -4093,7 +4612,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ZhiBiao RepDataZhiBiao = 26;</code>
      *
      * <pre>
-     *In file:dzhyun.zhibiao.proto, row:8,
+     *In file:dzhyun.zhibiao.proto, row:7,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunZhibiao.ZhiBiao getRepDataZhiBiao(int index) {
@@ -4103,7 +4622,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ZhiBiao RepDataZhiBiao = 26;</code>
      *
      * <pre>
-     *In file:dzhyun.zhibiao.proto, row:8,
+     *In file:dzhyun.zhibiao.proto, row:7,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunZhibiao.ZhiBiaoOrBuilder getRepDataZhiBiaoOrBuilder(
@@ -4117,7 +4636,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.StkData RepDataStkData = 27;</code>
      *
      * <pre>
-     *In file:dzhyun.stkdata.proto, row:8,
+     *In file:dzhyun.stkdata.proto, row:7,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhyunStkdata.StkData> getRepDataStkDataList() {
@@ -4127,7 +4646,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.StkData RepDataStkData = 27;</code>
      *
      * <pre>
-     *In file:dzhyun.stkdata.proto, row:8,
+     *In file:dzhyun.stkdata.proto, row:7,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhyunStkdata.StkDataOrBuilder> 
@@ -4138,7 +4657,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.StkData RepDataStkData = 27;</code>
      *
      * <pre>
-     *In file:dzhyun.stkdata.proto, row:8,
+     *In file:dzhyun.stkdata.proto, row:7,
      * </pre>
      */
     public int getRepDataStkDataCount() {
@@ -4148,7 +4667,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.StkData RepDataStkData = 27;</code>
      *
      * <pre>
-     *In file:dzhyun.stkdata.proto, row:8,
+     *In file:dzhyun.stkdata.proto, row:7,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunStkdata.StkData getRepDataStkData(int index) {
@@ -4158,7 +4677,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.StkData RepDataStkData = 27;</code>
      *
      * <pre>
-     *In file:dzhyun.stkdata.proto, row:8,
+     *In file:dzhyun.stkdata.proto, row:7,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunStkdata.StkDataOrBuilder getRepDataStkDataOrBuilder(
@@ -4172,7 +4691,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.PaiXu RepDataPaiXu = 28;</code>
      *
      * <pre>
-     *In file:dzhyun.paixu.proto, row:10,
+     *In file:dzhyun.paixu.proto, row:9,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhyunPaixu.PaiXu> getRepDataPaiXuList() {
@@ -4182,7 +4701,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.PaiXu RepDataPaiXu = 28;</code>
      *
      * <pre>
-     *In file:dzhyun.paixu.proto, row:10,
+     *In file:dzhyun.paixu.proto, row:9,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhyunPaixu.PaiXuOrBuilder> 
@@ -4193,7 +4712,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.PaiXu RepDataPaiXu = 28;</code>
      *
      * <pre>
-     *In file:dzhyun.paixu.proto, row:10,
+     *In file:dzhyun.paixu.proto, row:9,
      * </pre>
      */
     public int getRepDataPaiXuCount() {
@@ -4203,7 +4722,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.PaiXu RepDataPaiXu = 28;</code>
      *
      * <pre>
-     *In file:dzhyun.paixu.proto, row:10,
+     *In file:dzhyun.paixu.proto, row:9,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunPaixu.PaiXu getRepDataPaiXu(int index) {
@@ -4213,7 +4732,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.PaiXu RepDataPaiXu = 28;</code>
      *
      * <pre>
-     *In file:dzhyun.paixu.proto, row:10,
+     *In file:dzhyun.paixu.proto, row:9,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunPaixu.PaiXuOrBuilder getRepDataPaiXuOrBuilder(
@@ -4227,7 +4746,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.JianPanBaoShuChu RepDataJianPanBaoShuChu = 29;</code>
      *
      * <pre>
-     *In file:dzhyun.jianpanbao.proto, row:21,
+     *In file:dzhyun.jianpanbao.proto, row:25,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhyunJianpanbao.JianPanBaoShuChu> getRepDataJianPanBaoShuChuList() {
@@ -4237,7 +4756,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.JianPanBaoShuChu RepDataJianPanBaoShuChu = 29;</code>
      *
      * <pre>
-     *In file:dzhyun.jianpanbao.proto, row:21,
+     *In file:dzhyun.jianpanbao.proto, row:25,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhyunJianpanbao.JianPanBaoShuChuOrBuilder> 
@@ -4248,7 +4767,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.JianPanBaoShuChu RepDataJianPanBaoShuChu = 29;</code>
      *
      * <pre>
-     *In file:dzhyun.jianpanbao.proto, row:21,
+     *In file:dzhyun.jianpanbao.proto, row:25,
      * </pre>
      */
     public int getRepDataJianPanBaoShuChuCount() {
@@ -4258,7 +4777,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.JianPanBaoShuChu RepDataJianPanBaoShuChu = 29;</code>
      *
      * <pre>
-     *In file:dzhyun.jianpanbao.proto, row:21,
+     *In file:dzhyun.jianpanbao.proto, row:25,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunJianpanbao.JianPanBaoShuChu getRepDataJianPanBaoShuChu(int index) {
@@ -4268,7 +4787,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.JianPanBaoShuChu RepDataJianPanBaoShuChu = 29;</code>
      *
      * <pre>
-     *In file:dzhyun.jianpanbao.proto, row:21,
+     *In file:dzhyun.jianpanbao.proto, row:25,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunJianpanbao.JianPanBaoShuChuOrBuilder getRepDataJianPanBaoShuChuOrBuilder(
@@ -4282,7 +4801,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.FenJiJiJin RepDataFenJiJiJin = 30;</code>
      *
      * <pre>
-     *In file:dzhyun.fenjijijin.proto, row:8,
+     *In file:dzhyun.fenjijijin.proto, row:11,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhyunFenjijijin.FenJiJiJin> getRepDataFenJiJiJinList() {
@@ -4292,7 +4811,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.FenJiJiJin RepDataFenJiJiJin = 30;</code>
      *
      * <pre>
-     *In file:dzhyun.fenjijijin.proto, row:8,
+     *In file:dzhyun.fenjijijin.proto, row:11,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhyunFenjijijin.FenJiJiJinOrBuilder> 
@@ -4303,7 +4822,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.FenJiJiJin RepDataFenJiJiJin = 30;</code>
      *
      * <pre>
-     *In file:dzhyun.fenjijijin.proto, row:8,
+     *In file:dzhyun.fenjijijin.proto, row:11,
      * </pre>
      */
     public int getRepDataFenJiJiJinCount() {
@@ -4313,7 +4832,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.FenJiJiJin RepDataFenJiJiJin = 30;</code>
      *
      * <pre>
-     *In file:dzhyun.fenjijijin.proto, row:8,
+     *In file:dzhyun.fenjijijin.proto, row:11,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunFenjijijin.FenJiJiJin getRepDataFenJiJiJin(int index) {
@@ -4323,7 +4842,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.FenJiJiJin RepDataFenJiJiJin = 30;</code>
      *
      * <pre>
-     *In file:dzhyun.fenjijijin.proto, row:8,
+     *In file:dzhyun.fenjijijin.proto, row:11,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunFenjijijin.FenJiJiJinOrBuilder getRepDataFenJiJiJinOrBuilder(
@@ -4337,7 +4856,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.MsgGetOutput RepDataMsgGetOutput = 31;</code>
      *
      * <pre>
-     *In file:dzhmsg.proto, row:16,
+     *In file:dzhmsg.proto, row:15,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.Dzhmsg.MsgGetOutput> getRepDataMsgGetOutputList() {
@@ -4347,7 +4866,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.MsgGetOutput RepDataMsgGetOutput = 31;</code>
      *
      * <pre>
-     *In file:dzhmsg.proto, row:16,
+     *In file:dzhmsg.proto, row:15,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.Dzhmsg.MsgGetOutputOrBuilder> 
@@ -4358,7 +4877,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.MsgGetOutput RepDataMsgGetOutput = 31;</code>
      *
      * <pre>
-     *In file:dzhmsg.proto, row:16,
+     *In file:dzhmsg.proto, row:15,
      * </pre>
      */
     public int getRepDataMsgGetOutputCount() {
@@ -4368,7 +4887,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.MsgGetOutput RepDataMsgGetOutput = 31;</code>
      *
      * <pre>
-     *In file:dzhmsg.proto, row:16,
+     *In file:dzhmsg.proto, row:15,
      * </pre>
      */
     public com.dzhyun.proto.Dzhmsg.MsgGetOutput getRepDataMsgGetOutput(int index) {
@@ -4378,7 +4897,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.MsgGetOutput RepDataMsgGetOutput = 31;</code>
      *
      * <pre>
-     *In file:dzhmsg.proto, row:16,
+     *In file:dzhmsg.proto, row:15,
      * </pre>
      */
     public com.dzhyun.proto.Dzhmsg.MsgGetOutputOrBuilder getRepDataMsgGetOutputOrBuilder(
@@ -4392,7 +4911,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.MsgPutOutput RepDataMsgPutOutput = 32;</code>
      *
      * <pre>
-     *In file:dzhmsg.proto, row:22,
+     *In file:dzhmsg.proto, row:21,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.Dzhmsg.MsgPutOutput> getRepDataMsgPutOutputList() {
@@ -4402,7 +4921,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.MsgPutOutput RepDataMsgPutOutput = 32;</code>
      *
      * <pre>
-     *In file:dzhmsg.proto, row:22,
+     *In file:dzhmsg.proto, row:21,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.Dzhmsg.MsgPutOutputOrBuilder> 
@@ -4413,7 +4932,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.MsgPutOutput RepDataMsgPutOutput = 32;</code>
      *
      * <pre>
-     *In file:dzhmsg.proto, row:22,
+     *In file:dzhmsg.proto, row:21,
      * </pre>
      */
     public int getRepDataMsgPutOutputCount() {
@@ -4423,7 +4942,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.MsgPutOutput RepDataMsgPutOutput = 32;</code>
      *
      * <pre>
-     *In file:dzhmsg.proto, row:22,
+     *In file:dzhmsg.proto, row:21,
      * </pre>
      */
     public com.dzhyun.proto.Dzhmsg.MsgPutOutput getRepDataMsgPutOutput(int index) {
@@ -4433,7 +4952,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.MsgPutOutput RepDataMsgPutOutput = 32;</code>
      *
      * <pre>
-     *In file:dzhmsg.proto, row:22,
+     *In file:dzhmsg.proto, row:21,
      * </pre>
      */
     public com.dzhyun.proto.Dzhmsg.MsgPutOutputOrBuilder getRepDataMsgPutOutputOrBuilder(
@@ -4447,7 +4966,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.BlockObjOutput RepDataBlockObjOutput = 33;</code>
      *
      * <pre>
-     *In file:dzh.block.proto, row:2,
+     *In file:dzh.block.proto, row:5,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhBlock.BlockObjOutput> getRepDataBlockObjOutputList() {
@@ -4457,7 +4976,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.BlockObjOutput RepDataBlockObjOutput = 33;</code>
      *
      * <pre>
-     *In file:dzh.block.proto, row:2,
+     *In file:dzh.block.proto, row:5,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhBlock.BlockObjOutputOrBuilder> 
@@ -4468,7 +4987,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.BlockObjOutput RepDataBlockObjOutput = 33;</code>
      *
      * <pre>
-     *In file:dzh.block.proto, row:2,
+     *In file:dzh.block.proto, row:5,
      * </pre>
      */
     public int getRepDataBlockObjOutputCount() {
@@ -4478,7 +4997,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.BlockObjOutput RepDataBlockObjOutput = 33;</code>
      *
      * <pre>
-     *In file:dzh.block.proto, row:2,
+     *In file:dzh.block.proto, row:5,
      * </pre>
      */
     public com.dzhyun.proto.DzhBlock.BlockObjOutput getRepDataBlockObjOutput(int index) {
@@ -4488,7 +5007,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.BlockObjOutput RepDataBlockObjOutput = 33;</code>
      *
      * <pre>
-     *In file:dzh.block.proto, row:2,
+     *In file:dzh.block.proto, row:5,
      * </pre>
      */
     public com.dzhyun.proto.DzhBlock.BlockObjOutputOrBuilder getRepDataBlockObjOutputOrBuilder(
@@ -4502,7 +5021,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.BlockPropOutput RepDataBlockPropOutput = 34;</code>
      *
      * <pre>
-     *In file:dzh.block.proto, row:7,
+     *In file:dzh.block.proto, row:10,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhBlock.BlockPropOutput> getRepDataBlockPropOutputList() {
@@ -4512,7 +5031,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.BlockPropOutput RepDataBlockPropOutput = 34;</code>
      *
      * <pre>
-     *In file:dzh.block.proto, row:7,
+     *In file:dzh.block.proto, row:10,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhBlock.BlockPropOutputOrBuilder> 
@@ -4523,7 +5042,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.BlockPropOutput RepDataBlockPropOutput = 34;</code>
      *
      * <pre>
-     *In file:dzh.block.proto, row:7,
+     *In file:dzh.block.proto, row:10,
      * </pre>
      */
     public int getRepDataBlockPropOutputCount() {
@@ -4533,7 +5052,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.BlockPropOutput RepDataBlockPropOutput = 34;</code>
      *
      * <pre>
-     *In file:dzh.block.proto, row:7,
+     *In file:dzh.block.proto, row:10,
      * </pre>
      */
     public com.dzhyun.proto.DzhBlock.BlockPropOutput getRepDataBlockPropOutput(int index) {
@@ -4543,7 +5062,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.BlockPropOutput RepDataBlockPropOutput = 34;</code>
      *
      * <pre>
-     *In file:dzh.block.proto, row:7,
+     *In file:dzh.block.proto, row:10,
      * </pre>
      */
     public com.dzhyun.proto.DzhBlock.BlockPropOutputOrBuilder getRepDataBlockPropOutputOrBuilder(
@@ -4557,7 +5076,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.SelfStockGetOutput RepDataSelfStockGetOutput = 35;</code>
      *
      * <pre>
-     *In file:dzhselfstock.proto, row:21,
+     *In file:dzhselfstock.proto, row:24,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.Dzhselfstock.SelfStockGetOutput> getRepDataSelfStockGetOutputList() {
@@ -4567,7 +5086,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.SelfStockGetOutput RepDataSelfStockGetOutput = 35;</code>
      *
      * <pre>
-     *In file:dzhselfstock.proto, row:21,
+     *In file:dzhselfstock.proto, row:24,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.Dzhselfstock.SelfStockGetOutputOrBuilder> 
@@ -4578,7 +5097,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.SelfStockGetOutput RepDataSelfStockGetOutput = 35;</code>
      *
      * <pre>
-     *In file:dzhselfstock.proto, row:21,
+     *In file:dzhselfstock.proto, row:24,
      * </pre>
      */
     public int getRepDataSelfStockGetOutputCount() {
@@ -4588,7 +5107,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.SelfStockGetOutput RepDataSelfStockGetOutput = 35;</code>
      *
      * <pre>
-     *In file:dzhselfstock.proto, row:21,
+     *In file:dzhselfstock.proto, row:24,
      * </pre>
      */
     public com.dzhyun.proto.Dzhselfstock.SelfStockGetOutput getRepDataSelfStockGetOutput(int index) {
@@ -4598,7 +5117,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.SelfStockGetOutput RepDataSelfStockGetOutput = 35;</code>
      *
      * <pre>
-     *In file:dzhselfstock.proto, row:21,
+     *In file:dzhselfstock.proto, row:24,
      * </pre>
      */
     public com.dzhyun.proto.Dzhselfstock.SelfStockGetOutputOrBuilder getRepDataSelfStockGetOutputOrBuilder(
@@ -4612,7 +5131,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.SelfStockPutOutput RepDataSelfStockPutOutput = 36;</code>
      *
      * <pre>
-     *In file:dzhselfstock.proto, row:32,
+     *In file:dzhselfstock.proto, row:35,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.Dzhselfstock.SelfStockPutOutput> getRepDataSelfStockPutOutputList() {
@@ -4622,7 +5141,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.SelfStockPutOutput RepDataSelfStockPutOutput = 36;</code>
      *
      * <pre>
-     *In file:dzhselfstock.proto, row:32,
+     *In file:dzhselfstock.proto, row:35,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.Dzhselfstock.SelfStockPutOutputOrBuilder> 
@@ -4633,7 +5152,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.SelfStockPutOutput RepDataSelfStockPutOutput = 36;</code>
      *
      * <pre>
-     *In file:dzhselfstock.proto, row:32,
+     *In file:dzhselfstock.proto, row:35,
      * </pre>
      */
     public int getRepDataSelfStockPutOutputCount() {
@@ -4643,7 +5162,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.SelfStockPutOutput RepDataSelfStockPutOutput = 36;</code>
      *
      * <pre>
-     *In file:dzhselfstock.proto, row:32,
+     *In file:dzhselfstock.proto, row:35,
      * </pre>
      */
     public com.dzhyun.proto.Dzhselfstock.SelfStockPutOutput getRepDataSelfStockPutOutput(int index) {
@@ -4653,7 +5172,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.SelfStockPutOutput RepDataSelfStockPutOutput = 36;</code>
      *
      * <pre>
-     *In file:dzhselfstock.proto, row:32,
+     *In file:dzhselfstock.proto, row:35,
      * </pre>
      */
     public com.dzhyun.proto.Dzhselfstock.SelfStockPutOutputOrBuilder getRepDataSelfStockPutOutputOrBuilder(
@@ -4667,7 +5186,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppKey RepDataAppKey = 37;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:2,
+     *In file:dzhapp.proto, row:5,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.Dzhapp.AppKey> getRepDataAppKeyList() {
@@ -4677,7 +5196,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppKey RepDataAppKey = 37;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:2,
+     *In file:dzhapp.proto, row:5,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.Dzhapp.AppKeyOrBuilder> 
@@ -4688,7 +5207,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppKey RepDataAppKey = 37;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:2,
+     *In file:dzhapp.proto, row:5,
      * </pre>
      */
     public int getRepDataAppKeyCount() {
@@ -4698,7 +5217,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppKey RepDataAppKey = 37;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:2,
+     *In file:dzhapp.proto, row:5,
      * </pre>
      */
     public com.dzhyun.proto.Dzhapp.AppKey getRepDataAppKey(int index) {
@@ -4708,7 +5227,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppKey RepDataAppKey = 37;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:2,
+     *In file:dzhapp.proto, row:5,
      * </pre>
      */
     public com.dzhyun.proto.Dzhapp.AppKeyOrBuilder getRepDataAppKeyOrBuilder(
@@ -4722,7 +5241,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppInfo RepDataAppInfo = 38;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:8,
+     *In file:dzhapp.proto, row:11,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.Dzhapp.AppInfo> getRepDataAppInfoList() {
@@ -4732,7 +5251,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppInfo RepDataAppInfo = 38;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:8,
+     *In file:dzhapp.proto, row:11,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.Dzhapp.AppInfoOrBuilder> 
@@ -4743,7 +5262,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppInfo RepDataAppInfo = 38;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:8,
+     *In file:dzhapp.proto, row:11,
      * </pre>
      */
     public int getRepDataAppInfoCount() {
@@ -4753,7 +5272,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppInfo RepDataAppInfo = 38;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:8,
+     *In file:dzhapp.proto, row:11,
      * </pre>
      */
     public com.dzhyun.proto.Dzhapp.AppInfo getRepDataAppInfo(int index) {
@@ -4763,7 +5282,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppInfo RepDataAppInfo = 38;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:8,
+     *In file:dzhapp.proto, row:11,
      * </pre>
      */
     public com.dzhyun.proto.Dzhapp.AppInfoOrBuilder getRepDataAppInfoOrBuilder(
@@ -4777,7 +5296,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppValue RepDataAppValue = 39;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:19,
+     *In file:dzhapp.proto, row:22,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.Dzhapp.AppValue> getRepDataAppValueList() {
@@ -4787,7 +5306,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppValue RepDataAppValue = 39;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:19,
+     *In file:dzhapp.proto, row:22,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.Dzhapp.AppValueOrBuilder> 
@@ -4798,7 +5317,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppValue RepDataAppValue = 39;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:19,
+     *In file:dzhapp.proto, row:22,
      * </pre>
      */
     public int getRepDataAppValueCount() {
@@ -4808,7 +5327,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppValue RepDataAppValue = 39;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:19,
+     *In file:dzhapp.proto, row:22,
      * </pre>
      */
     public com.dzhyun.proto.Dzhapp.AppValue getRepDataAppValue(int index) {
@@ -4818,7 +5337,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppValue RepDataAppValue = 39;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:19,
+     *In file:dzhapp.proto, row:22,
      * </pre>
      */
     public com.dzhyun.proto.Dzhapp.AppValueOrBuilder getRepDataAppValueOrBuilder(
@@ -4832,7 +5351,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ServiceAuth RepDataServiceAuth = 40;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:31,
+     *In file:dzhapp.proto, row:34,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.Dzhapp.ServiceAuth> getRepDataServiceAuthList() {
@@ -4842,7 +5361,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ServiceAuth RepDataServiceAuth = 40;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:31,
+     *In file:dzhapp.proto, row:34,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.Dzhapp.ServiceAuthOrBuilder> 
@@ -4853,7 +5372,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ServiceAuth RepDataServiceAuth = 40;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:31,
+     *In file:dzhapp.proto, row:34,
      * </pre>
      */
     public int getRepDataServiceAuthCount() {
@@ -4863,7 +5382,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ServiceAuth RepDataServiceAuth = 40;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:31,
+     *In file:dzhapp.proto, row:34,
      * </pre>
      */
     public com.dzhyun.proto.Dzhapp.ServiceAuth getRepDataServiceAuth(int index) {
@@ -4873,7 +5392,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ServiceAuth RepDataServiceAuth = 40;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:31,
+     *In file:dzhapp.proto, row:34,
      * </pre>
      */
     public com.dzhyun.proto.Dzhapp.ServiceAuthOrBuilder getRepDataServiceAuthOrBuilder(
@@ -4887,7 +5406,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppServiceAuth RepDataAppServiceAuth = 41;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:43,
+     *In file:dzhapp.proto, row:46,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.Dzhapp.AppServiceAuth> getRepDataAppServiceAuthList() {
@@ -4897,7 +5416,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppServiceAuth RepDataAppServiceAuth = 41;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:43,
+     *In file:dzhapp.proto, row:46,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.Dzhapp.AppServiceAuthOrBuilder> 
@@ -4908,7 +5427,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppServiceAuth RepDataAppServiceAuth = 41;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:43,
+     *In file:dzhapp.proto, row:46,
      * </pre>
      */
     public int getRepDataAppServiceAuthCount() {
@@ -4918,7 +5437,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppServiceAuth RepDataAppServiceAuth = 41;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:43,
+     *In file:dzhapp.proto, row:46,
      * </pre>
      */
     public com.dzhyun.proto.Dzhapp.AppServiceAuth getRepDataAppServiceAuth(int index) {
@@ -4928,7 +5447,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AppServiceAuth RepDataAppServiceAuth = 41;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:43,
+     *In file:dzhapp.proto, row:46,
      * </pre>
      */
     public com.dzhyun.proto.Dzhapp.AppServiceAuthOrBuilder getRepDataAppServiceAuthOrBuilder(
@@ -4942,7 +5461,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TokenAuth RepDataTokenAuth = 42;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:54,
+     *In file:dzhapp.proto, row:57,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.Dzhapp.TokenAuth> getRepDataTokenAuthList() {
@@ -4952,7 +5471,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TokenAuth RepDataTokenAuth = 42;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:54,
+     *In file:dzhapp.proto, row:57,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.Dzhapp.TokenAuthOrBuilder> 
@@ -4963,7 +5482,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TokenAuth RepDataTokenAuth = 42;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:54,
+     *In file:dzhapp.proto, row:57,
      * </pre>
      */
     public int getRepDataTokenAuthCount() {
@@ -4973,7 +5492,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TokenAuth RepDataTokenAuth = 42;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:54,
+     *In file:dzhapp.proto, row:57,
      * </pre>
      */
     public com.dzhyun.proto.Dzhapp.TokenAuth getRepDataTokenAuth(int index) {
@@ -4983,7 +5502,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TokenAuth RepDataTokenAuth = 42;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:54,
+     *In file:dzhapp.proto, row:57,
      * </pre>
      */
     public com.dzhyun.proto.Dzhapp.TokenAuthOrBuilder getRepDataTokenAuthOrBuilder(
@@ -4997,7 +5516,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AccOpResponse RepDataAccOpResponse = 43;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:61,
+     *In file:dzhapp.proto, row:64,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.Dzhapp.AccOpResponse> getRepDataAccOpResponseList() {
@@ -5007,7 +5526,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AccOpResponse RepDataAccOpResponse = 43;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:61,
+     *In file:dzhapp.proto, row:64,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.Dzhapp.AccOpResponseOrBuilder> 
@@ -5018,7 +5537,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AccOpResponse RepDataAccOpResponse = 43;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:61,
+     *In file:dzhapp.proto, row:64,
      * </pre>
      */
     public int getRepDataAccOpResponseCount() {
@@ -5028,7 +5547,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AccOpResponse RepDataAccOpResponse = 43;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:61,
+     *In file:dzhapp.proto, row:64,
      * </pre>
      */
     public com.dzhyun.proto.Dzhapp.AccOpResponse getRepDataAccOpResponse(int index) {
@@ -5038,7 +5557,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AccOpResponse RepDataAccOpResponse = 43;</code>
      *
      * <pre>
-     *In file:dzhapp.proto, row:61,
+     *In file:dzhapp.proto, row:64,
      * </pre>
      */
     public com.dzhyun.proto.Dzhapp.AccOpResponseOrBuilder getRepDataAccOpResponseOrBuilder(
@@ -5052,7 +5571,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.Token RepDataToken = 44;</code>
      *
      * <pre>
-     *In file:dzhtoken.proto, row:2,
+     *In file:dzhtoken.proto, row:5,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.Dzhtoken.Token> getRepDataTokenList() {
@@ -5062,7 +5581,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.Token RepDataToken = 44;</code>
      *
      * <pre>
-     *In file:dzhtoken.proto, row:2,
+     *In file:dzhtoken.proto, row:5,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.Dzhtoken.TokenOrBuilder> 
@@ -5073,7 +5592,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.Token RepDataToken = 44;</code>
      *
      * <pre>
-     *In file:dzhtoken.proto, row:2,
+     *In file:dzhtoken.proto, row:5,
      * </pre>
      */
     public int getRepDataTokenCount() {
@@ -5083,7 +5602,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.Token RepDataToken = 44;</code>
      *
      * <pre>
-     *In file:dzhtoken.proto, row:2,
+     *In file:dzhtoken.proto, row:5,
      * </pre>
      */
     public com.dzhyun.proto.Dzhtoken.Token getRepDataToken(int index) {
@@ -5093,7 +5612,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.Token RepDataToken = 44;</code>
      *
      * <pre>
-     *In file:dzhtoken.proto, row:2,
+     *In file:dzhtoken.proto, row:5,
      * </pre>
      */
     public com.dzhyun.proto.Dzhtoken.TokenOrBuilder getRepDataTokenOrBuilder(
@@ -5107,7 +5626,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.Privilege RepDataPrivilege = 45;</code>
      *
      * <pre>
-     *In file:dzhpriv.proto, row:2,
+     *In file:dzhpriv.proto, row:5,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.Dzhpriv.Privilege> getRepDataPrivilegeList() {
@@ -5117,7 +5636,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.Privilege RepDataPrivilege = 45;</code>
      *
      * <pre>
-     *In file:dzhpriv.proto, row:2,
+     *In file:dzhpriv.proto, row:5,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.Dzhpriv.PrivilegeOrBuilder> 
@@ -5128,7 +5647,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.Privilege RepDataPrivilege = 45;</code>
      *
      * <pre>
-     *In file:dzhpriv.proto, row:2,
+     *In file:dzhpriv.proto, row:5,
      * </pre>
      */
     public int getRepDataPrivilegeCount() {
@@ -5138,7 +5657,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.Privilege RepDataPrivilege = 45;</code>
      *
      * <pre>
-     *In file:dzhpriv.proto, row:2,
+     *In file:dzhpriv.proto, row:5,
      * </pre>
      */
     public com.dzhyun.proto.Dzhpriv.Privilege getRepDataPrivilege(int index) {
@@ -5148,7 +5667,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.Privilege RepDataPrivilege = 45;</code>
      *
      * <pre>
-     *In file:dzhpriv.proto, row:2,
+     *In file:dzhpriv.proto, row:5,
      * </pre>
      */
     public com.dzhyun.proto.Dzhpriv.PrivilegeOrBuilder getRepDataPrivilegeOrBuilder(
@@ -5162,7 +5681,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AlarmEvent RepDataAlarmEvent = 46;</code>
      *
      * <pre>
-     *In file:dzhyun.alarm.proto, row:9,
+     *In file:dzhyun.alarm.proto, row:8,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhyunAlarm.AlarmEvent> getRepDataAlarmEventList() {
@@ -5172,7 +5691,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AlarmEvent RepDataAlarmEvent = 46;</code>
      *
      * <pre>
-     *In file:dzhyun.alarm.proto, row:9,
+     *In file:dzhyun.alarm.proto, row:8,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhyunAlarm.AlarmEventOrBuilder> 
@@ -5183,7 +5702,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AlarmEvent RepDataAlarmEvent = 46;</code>
      *
      * <pre>
-     *In file:dzhyun.alarm.proto, row:9,
+     *In file:dzhyun.alarm.proto, row:8,
      * </pre>
      */
     public int getRepDataAlarmEventCount() {
@@ -5193,7 +5712,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AlarmEvent RepDataAlarmEvent = 46;</code>
      *
      * <pre>
-     *In file:dzhyun.alarm.proto, row:9,
+     *In file:dzhyun.alarm.proto, row:8,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunAlarm.AlarmEvent getRepDataAlarmEvent(int index) {
@@ -5203,7 +5722,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AlarmEvent RepDataAlarmEvent = 46;</code>
      *
      * <pre>
-     *In file:dzhyun.alarm.proto, row:9,
+     *In file:dzhyun.alarm.proto, row:8,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunAlarm.AlarmEventOrBuilder getRepDataAlarmEventOrBuilder(
@@ -5217,7 +5736,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AlarmTask RepDataAlarmTask = 47;</code>
      *
      * <pre>
-     *In file:dzhyun.alarm.proto, row:31,
+     *In file:dzhyun.alarm.proto, row:30,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhyunAlarm.AlarmTask> getRepDataAlarmTaskList() {
@@ -5227,7 +5746,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AlarmTask RepDataAlarmTask = 47;</code>
      *
      * <pre>
-     *In file:dzhyun.alarm.proto, row:31,
+     *In file:dzhyun.alarm.proto, row:30,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhyunAlarm.AlarmTaskOrBuilder> 
@@ -5238,7 +5757,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AlarmTask RepDataAlarmTask = 47;</code>
      *
      * <pre>
-     *In file:dzhyun.alarm.proto, row:31,
+     *In file:dzhyun.alarm.proto, row:30,
      * </pre>
      */
     public int getRepDataAlarmTaskCount() {
@@ -5248,7 +5767,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AlarmTask RepDataAlarmTask = 47;</code>
      *
      * <pre>
-     *In file:dzhyun.alarm.proto, row:31,
+     *In file:dzhyun.alarm.proto, row:30,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunAlarm.AlarmTask getRepDataAlarmTask(int index) {
@@ -5258,7 +5777,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.AlarmTask RepDataAlarmTask = 47;</code>
      *
      * <pre>
-     *In file:dzhyun.alarm.proto, row:31,
+     *In file:dzhyun.alarm.proto, row:30,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunAlarm.AlarmTaskOrBuilder getRepDataAlarmTaskOrBuilder(
@@ -5272,7 +5791,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ADPutResponse RepDataADPutResponse = 48;</code>
      *
      * <pre>
-     *In file:dzhyun.advert.proto, row:3,
+     *In file:dzhyun.advert.proto, row:6,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhyunAdvert.ADPutResponse> getRepDataADPutResponseList() {
@@ -5282,7 +5801,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ADPutResponse RepDataADPutResponse = 48;</code>
      *
      * <pre>
-     *In file:dzhyun.advert.proto, row:3,
+     *In file:dzhyun.advert.proto, row:6,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhyunAdvert.ADPutResponseOrBuilder> 
@@ -5293,7 +5812,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ADPutResponse RepDataADPutResponse = 48;</code>
      *
      * <pre>
-     *In file:dzhyun.advert.proto, row:3,
+     *In file:dzhyun.advert.proto, row:6,
      * </pre>
      */
     public int getRepDataADPutResponseCount() {
@@ -5303,7 +5822,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ADPutResponse RepDataADPutResponse = 48;</code>
      *
      * <pre>
-     *In file:dzhyun.advert.proto, row:3,
+     *In file:dzhyun.advert.proto, row:6,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunAdvert.ADPutResponse getRepDataADPutResponse(int index) {
@@ -5313,7 +5832,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ADPutResponse RepDataADPutResponse = 48;</code>
      *
      * <pre>
-     *In file:dzhyun.advert.proto, row:3,
+     *In file:dzhyun.advert.proto, row:6,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunAdvert.ADPutResponseOrBuilder getRepDataADPutResponseOrBuilder(
@@ -5327,7 +5846,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ADGetResponse RepDataADGetResponse = 49;</code>
      *
      * <pre>
-     *In file:dzhyun.advert.proto, row:16,
+     *In file:dzhyun.advert.proto, row:19,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhyunAdvert.ADGetResponse> getRepDataADGetResponseList() {
@@ -5337,7 +5856,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ADGetResponse RepDataADGetResponse = 49;</code>
      *
      * <pre>
-     *In file:dzhyun.advert.proto, row:16,
+     *In file:dzhyun.advert.proto, row:19,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhyunAdvert.ADGetResponseOrBuilder> 
@@ -5348,7 +5867,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ADGetResponse RepDataADGetResponse = 49;</code>
      *
      * <pre>
-     *In file:dzhyun.advert.proto, row:16,
+     *In file:dzhyun.advert.proto, row:19,
      * </pre>
      */
     public int getRepDataADGetResponseCount() {
@@ -5358,7 +5877,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ADGetResponse RepDataADGetResponse = 49;</code>
      *
      * <pre>
-     *In file:dzhyun.advert.proto, row:16,
+     *In file:dzhyun.advert.proto, row:19,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunAdvert.ADGetResponse getRepDataADGetResponse(int index) {
@@ -5368,7 +5887,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.ADGetResponse RepDataADGetResponse = 49;</code>
      *
      * <pre>
-     *In file:dzhyun.advert.proto, row:16,
+     *In file:dzhyun.advert.proto, row:19,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunAdvert.ADGetResponseOrBuilder getRepDataADGetResponseOrBuilder(
@@ -5382,7 +5901,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserGroup RepDataUserGroup = 50;</code>
      *
      * <pre>
-     *In file:dzhyun.user.group.proto, row:2,
+     *In file:dzhyun.user.group.proto, row:5,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhyunUserGroup.UserGroup> getRepDataUserGroupList() {
@@ -5392,7 +5911,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserGroup RepDataUserGroup = 50;</code>
      *
      * <pre>
-     *In file:dzhyun.user.group.proto, row:2,
+     *In file:dzhyun.user.group.proto, row:5,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhyunUserGroup.UserGroupOrBuilder> 
@@ -5403,7 +5922,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserGroup RepDataUserGroup = 50;</code>
      *
      * <pre>
-     *In file:dzhyun.user.group.proto, row:2,
+     *In file:dzhyun.user.group.proto, row:5,
      * </pre>
      */
     public int getRepDataUserGroupCount() {
@@ -5413,7 +5932,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserGroup RepDataUserGroup = 50;</code>
      *
      * <pre>
-     *In file:dzhyun.user.group.proto, row:2,
+     *In file:dzhyun.user.group.proto, row:5,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunUserGroup.UserGroup getRepDataUserGroup(int index) {
@@ -5423,7 +5942,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserGroup RepDataUserGroup = 50;</code>
      *
      * <pre>
-     *In file:dzhyun.user.group.proto, row:2,
+     *In file:dzhyun.user.group.proto, row:5,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunUserGroup.UserGroupOrBuilder getRepDataUserGroupOrBuilder(
@@ -5437,7 +5956,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserGroupResponse RepDataUserGroupResponse = 51;</code>
      *
      * <pre>
-     *In file:dzhyun.user.group.proto, row:10,
+     *In file:dzhyun.user.group.proto, row:13,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhyunUserGroup.UserGroupResponse> getRepDataUserGroupResponseList() {
@@ -5447,7 +5966,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserGroupResponse RepDataUserGroupResponse = 51;</code>
      *
      * <pre>
-     *In file:dzhyun.user.group.proto, row:10,
+     *In file:dzhyun.user.group.proto, row:13,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhyunUserGroup.UserGroupResponseOrBuilder> 
@@ -5458,7 +5977,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserGroupResponse RepDataUserGroupResponse = 51;</code>
      *
      * <pre>
-     *In file:dzhyun.user.group.proto, row:10,
+     *In file:dzhyun.user.group.proto, row:13,
      * </pre>
      */
     public int getRepDataUserGroupResponseCount() {
@@ -5468,7 +5987,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserGroupResponse RepDataUserGroupResponse = 51;</code>
      *
      * <pre>
-     *In file:dzhyun.user.group.proto, row:10,
+     *In file:dzhyun.user.group.proto, row:13,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunUserGroup.UserGroupResponse getRepDataUserGroupResponse(int index) {
@@ -5478,7 +5997,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserGroupResponse RepDataUserGroupResponse = 51;</code>
      *
      * <pre>
-     *In file:dzhyun.user.group.proto, row:10,
+     *In file:dzhyun.user.group.proto, row:13,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunUserGroup.UserGroupResponseOrBuilder getRepDataUserGroupResponseOrBuilder(
@@ -5492,7 +6011,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserPropsMessage RepDataUserPropsMessage = 52;</code>
      *
      * <pre>
-     *In file:dzhyun.user.prop.proto, row:9,
+     *In file:dzhyun.user.prop.proto, row:12,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhyunUserProp.UserPropsMessage> getRepDataUserPropsMessageList() {
@@ -5502,7 +6021,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserPropsMessage RepDataUserPropsMessage = 52;</code>
      *
      * <pre>
-     *In file:dzhyun.user.prop.proto, row:9,
+     *In file:dzhyun.user.prop.proto, row:12,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhyunUserProp.UserPropsMessageOrBuilder> 
@@ -5513,7 +6032,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserPropsMessage RepDataUserPropsMessage = 52;</code>
      *
      * <pre>
-     *In file:dzhyun.user.prop.proto, row:9,
+     *In file:dzhyun.user.prop.proto, row:12,
      * </pre>
      */
     public int getRepDataUserPropsMessageCount() {
@@ -5523,7 +6042,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserPropsMessage RepDataUserPropsMessage = 52;</code>
      *
      * <pre>
-     *In file:dzhyun.user.prop.proto, row:9,
+     *In file:dzhyun.user.prop.proto, row:12,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunUserProp.UserPropsMessage getRepDataUserPropsMessage(int index) {
@@ -5533,7 +6052,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.UserPropsMessage RepDataUserPropsMessage = 52;</code>
      *
      * <pre>
-     *In file:dzhyun.user.prop.proto, row:9,
+     *In file:dzhyun.user.prop.proto, row:12,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunUserProp.UserPropsMessageOrBuilder getRepDataUserPropsMessageOrBuilder(
@@ -5547,7 +6066,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvest RepDataTopicInvest = 53;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:15,
+     *In file:dzhyun.topicinvest.proto, row:18,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhyunTopicinvest.TopicInvest> getRepDataTopicInvestList() {
@@ -5557,7 +6076,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvest RepDataTopicInvest = 53;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:15,
+     *In file:dzhyun.topicinvest.proto, row:18,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhyunTopicinvest.TopicInvestOrBuilder> 
@@ -5568,7 +6087,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvest RepDataTopicInvest = 53;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:15,
+     *In file:dzhyun.topicinvest.proto, row:18,
      * </pre>
      */
     public int getRepDataTopicInvestCount() {
@@ -5578,7 +6097,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvest RepDataTopicInvest = 53;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:15,
+     *In file:dzhyun.topicinvest.proto, row:18,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunTopicinvest.TopicInvest getRepDataTopicInvest(int index) {
@@ -5588,7 +6107,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvest RepDataTopicInvest = 53;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:15,
+     *In file:dzhyun.topicinvest.proto, row:18,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunTopicinvest.TopicInvestOrBuilder getRepDataTopicInvestOrBuilder(
@@ -5602,7 +6121,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvestHistory RepDataTopicInvestHistory = 54;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:41,
+     *In file:dzhyun.topicinvest.proto, row:44,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhyunTopicinvest.TopicInvestHistory> getRepDataTopicInvestHistoryList() {
@@ -5612,7 +6131,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvestHistory RepDataTopicInvestHistory = 54;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:41,
+     *In file:dzhyun.topicinvest.proto, row:44,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhyunTopicinvest.TopicInvestHistoryOrBuilder> 
@@ -5623,7 +6142,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvestHistory RepDataTopicInvestHistory = 54;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:41,
+     *In file:dzhyun.topicinvest.proto, row:44,
      * </pre>
      */
     public int getRepDataTopicInvestHistoryCount() {
@@ -5633,7 +6152,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvestHistory RepDataTopicInvestHistory = 54;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:41,
+     *In file:dzhyun.topicinvest.proto, row:44,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunTopicinvest.TopicInvestHistory getRepDataTopicInvestHistory(int index) {
@@ -5643,7 +6162,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvestHistory RepDataTopicInvestHistory = 54;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:41,
+     *In file:dzhyun.topicinvest.proto, row:44,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunTopicinvest.TopicInvestHistoryOrBuilder getRepDataTopicInvestHistoryOrBuilder(
@@ -5657,7 +6176,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GsgkOutput RepDataF10GsgkOutput = 55;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:9,
+     *In file:dzhyun.f10.proto, row:8,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhyunF10.F10GsgkOutput> getRepDataF10GsgkOutputList() {
@@ -5667,7 +6186,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GsgkOutput RepDataF10GsgkOutput = 55;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:9,
+     *In file:dzhyun.f10.proto, row:8,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10GsgkOutputOrBuilder> 
@@ -5678,7 +6197,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GsgkOutput RepDataF10GsgkOutput = 55;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:9,
+     *In file:dzhyun.f10.proto, row:8,
      * </pre>
      */
     public int getRepDataF10GsgkOutputCount() {
@@ -5688,7 +6207,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GsgkOutput RepDataF10GsgkOutput = 55;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:9,
+     *In file:dzhyun.f10.proto, row:8,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunF10.F10GsgkOutput getRepDataF10GsgkOutput(int index) {
@@ -5698,7 +6217,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GsgkOutput RepDataF10GsgkOutput = 55;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:9,
+     *In file:dzhyun.f10.proto, row:8,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunF10.F10GsgkOutputOrBuilder getRepDataF10GsgkOutputOrBuilder(
@@ -5712,7 +6231,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10CwtsZycwzbOutput RepDataF10CwtsZycwzbOutput = 56;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:69,
+     *In file:dzhyun.f10.proto, row:68,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhyunF10.F10CwtsZycwzbOutput> getRepDataF10CwtsZycwzbOutputList() {
@@ -5722,7 +6241,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10CwtsZycwzbOutput RepDataF10CwtsZycwzbOutput = 56;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:69,
+     *In file:dzhyun.f10.proto, row:68,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10CwtsZycwzbOutputOrBuilder> 
@@ -5733,7 +6252,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10CwtsZycwzbOutput RepDataF10CwtsZycwzbOutput = 56;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:69,
+     *In file:dzhyun.f10.proto, row:68,
      * </pre>
      */
     public int getRepDataF10CwtsZycwzbOutputCount() {
@@ -5743,7 +6262,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10CwtsZycwzbOutput RepDataF10CwtsZycwzbOutput = 56;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:69,
+     *In file:dzhyun.f10.proto, row:68,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunF10.F10CwtsZycwzbOutput getRepDataF10CwtsZycwzbOutput(int index) {
@@ -5753,7 +6272,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10CwtsZycwzbOutput RepDataF10CwtsZycwzbOutput = 56;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:69,
+     *In file:dzhyun.f10.proto, row:68,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunF10.F10CwtsZycwzbOutputOrBuilder getRepDataF10CwtsZycwzbOutputOrBuilder(
@@ -5767,7 +6286,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10CwtsXjllbzyOutput RepDataF10CwtsXjllbzyOutput = 57;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:92,
+     *In file:dzhyun.f10.proto, row:91,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhyunF10.F10CwtsXjllbzyOutput> getRepDataF10CwtsXjllbzyOutputList() {
@@ -5777,7 +6296,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10CwtsXjllbzyOutput RepDataF10CwtsXjllbzyOutput = 57;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:92,
+     *In file:dzhyun.f10.proto, row:91,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10CwtsXjllbzyOutputOrBuilder> 
@@ -5788,7 +6307,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10CwtsXjllbzyOutput RepDataF10CwtsXjllbzyOutput = 57;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:92,
+     *In file:dzhyun.f10.proto, row:91,
      * </pre>
      */
     public int getRepDataF10CwtsXjllbzyOutputCount() {
@@ -5798,7 +6317,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10CwtsXjllbzyOutput RepDataF10CwtsXjllbzyOutput = 57;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:92,
+     *In file:dzhyun.f10.proto, row:91,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunF10.F10CwtsXjllbzyOutput getRepDataF10CwtsXjllbzyOutput(int index) {
@@ -5808,7 +6327,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10CwtsXjllbzyOutput RepDataF10CwtsXjllbzyOutput = 57;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:92,
+     *In file:dzhyun.f10.proto, row:91,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunF10.F10CwtsXjllbzyOutputOrBuilder getRepDataF10CwtsXjllbzyOutputOrBuilder(
@@ -5822,7 +6341,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10ZxjbDjdcwzbOutput RepDataF10ZxjbDjdcwzbOutput = 58;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:112,
+     *In file:dzhyun.f10.proto, row:111,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhyunF10.F10ZxjbDjdcwzbOutput> getRepDataF10ZxjbDjdcwzbOutputList() {
@@ -5832,7 +6351,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10ZxjbDjdcwzbOutput RepDataF10ZxjbDjdcwzbOutput = 58;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:112,
+     *In file:dzhyun.f10.proto, row:111,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10ZxjbDjdcwzbOutputOrBuilder> 
@@ -5843,7 +6362,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10ZxjbDjdcwzbOutput RepDataF10ZxjbDjdcwzbOutput = 58;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:112,
+     *In file:dzhyun.f10.proto, row:111,
      * </pre>
      */
     public int getRepDataF10ZxjbDjdcwzbOutputCount() {
@@ -5853,7 +6372,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10ZxjbDjdcwzbOutput RepDataF10ZxjbDjdcwzbOutput = 58;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:112,
+     *In file:dzhyun.f10.proto, row:111,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunF10.F10ZxjbDjdcwzbOutput getRepDataF10ZxjbDjdcwzbOutput(int index) {
@@ -5863,7 +6382,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10ZxjbDjdcwzbOutput RepDataF10ZxjbDjdcwzbOutput = 58;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:112,
+     *In file:dzhyun.f10.proto, row:111,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunF10.F10ZxjbDjdcwzbOutputOrBuilder getRepDataF10ZxjbDjdcwzbOutputOrBuilder(
@@ -5877,7 +6396,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10ZxjbdjdlebOutput RepDataF10ZxjbdjdlebOutput = 59;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:138,
+     *In file:dzhyun.f10.proto, row:137,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhyunF10.F10ZxjbdjdlebOutput> getRepDataF10ZxjbdjdlebOutputList() {
@@ -5887,7 +6406,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10ZxjbdjdlebOutput RepDataF10ZxjbdjdlebOutput = 59;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:138,
+     *In file:dzhyun.f10.proto, row:137,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10ZxjbdjdlebOutputOrBuilder> 
@@ -5898,7 +6417,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10ZxjbdjdlebOutput RepDataF10ZxjbdjdlebOutput = 59;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:138,
+     *In file:dzhyun.f10.proto, row:137,
      * </pre>
      */
     public int getRepDataF10ZxjbdjdlebOutputCount() {
@@ -5908,7 +6427,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10ZxjbdjdlebOutput RepDataF10ZxjbdjdlebOutput = 59;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:138,
+     *In file:dzhyun.f10.proto, row:137,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunF10.F10ZxjbdjdlebOutput getRepDataF10ZxjbdjdlebOutput(int index) {
@@ -5918,7 +6437,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10ZxjbdjdlebOutput RepDataF10ZxjbdjdlebOutput = 59;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:138,
+     *In file:dzhyun.f10.proto, row:137,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunF10.F10ZxjbdjdlebOutputOrBuilder getRepDataF10ZxjbdjdlebOutputOrBuilder(
@@ -5932,7 +6451,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcGdhsOutput RepDataF10GdjcGdhsOutput = 60;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:156,
+     *In file:dzhyun.f10.proto, row:155,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhyunF10.F10GdjcGdhsOutput> getRepDataF10GdjcGdhsOutputList() {
@@ -5942,7 +6461,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcGdhsOutput RepDataF10GdjcGdhsOutput = 60;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:156,
+     *In file:dzhyun.f10.proto, row:155,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10GdjcGdhsOutputOrBuilder> 
@@ -5953,7 +6472,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcGdhsOutput RepDataF10GdjcGdhsOutput = 60;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:156,
+     *In file:dzhyun.f10.proto, row:155,
      * </pre>
      */
     public int getRepDataF10GdjcGdhsOutputCount() {
@@ -5963,7 +6482,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcGdhsOutput RepDataF10GdjcGdhsOutput = 60;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:156,
+     *In file:dzhyun.f10.proto, row:155,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunF10.F10GdjcGdhsOutput getRepDataF10GdjcGdhsOutput(int index) {
@@ -5973,7 +6492,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcGdhsOutput RepDataF10GdjcGdhsOutput = 60;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:156,
+     *In file:dzhyun.f10.proto, row:155,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunF10.F10GdjcGdhsOutputOrBuilder getRepDataF10GdjcGdhsOutputOrBuilder(
@@ -5987,7 +6506,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcSdgdOutput RepDataF10GdjcSdgdOutput = 61;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:174,
+     *In file:dzhyun.f10.proto, row:173,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhyunF10.F10GdjcSdgdOutput> getRepDataF10GdjcSdgdOutputList() {
@@ -5997,7 +6516,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcSdgdOutput RepDataF10GdjcSdgdOutput = 61;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:174,
+     *In file:dzhyun.f10.proto, row:173,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10GdjcSdgdOutputOrBuilder> 
@@ -6008,7 +6527,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcSdgdOutput RepDataF10GdjcSdgdOutput = 61;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:174,
+     *In file:dzhyun.f10.proto, row:173,
      * </pre>
      */
     public int getRepDataF10GdjcSdgdOutputCount() {
@@ -6018,7 +6537,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcSdgdOutput RepDataF10GdjcSdgdOutput = 61;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:174,
+     *In file:dzhyun.f10.proto, row:173,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunF10.F10GdjcSdgdOutput getRepDataF10GdjcSdgdOutput(int index) {
@@ -6028,7 +6547,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcSdgdOutput RepDataF10GdjcSdgdOutput = 61;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:174,
+     *In file:dzhyun.f10.proto, row:173,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunF10.F10GdjcSdgdOutputOrBuilder getRepDataF10GdjcSdgdOutputOrBuilder(
@@ -6042,7 +6561,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcSdltgdOutput RepDataF10GdjcSdltgdOutput = 62;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:192,
+     *In file:dzhyun.f10.proto, row:191,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhyunF10.F10GdjcSdltgdOutput> getRepDataF10GdjcSdltgdOutputList() {
@@ -6052,7 +6571,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcSdltgdOutput RepDataF10GdjcSdltgdOutput = 62;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:192,
+     *In file:dzhyun.f10.proto, row:191,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10GdjcSdltgdOutputOrBuilder> 
@@ -6063,7 +6582,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcSdltgdOutput RepDataF10GdjcSdltgdOutput = 62;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:192,
+     *In file:dzhyun.f10.proto, row:191,
      * </pre>
      */
     public int getRepDataF10GdjcSdltgdOutputCount() {
@@ -6073,7 +6592,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcSdltgdOutput RepDataF10GdjcSdltgdOutput = 62;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:192,
+     *In file:dzhyun.f10.proto, row:191,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunF10.F10GdjcSdltgdOutput getRepDataF10GdjcSdltgdOutput(int index) {
@@ -6083,7 +6602,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GdjcSdltgdOutput RepDataF10GdjcSdltgdOutput = 62;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:192,
+     *In file:dzhyun.f10.proto, row:191,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunF10.F10GdjcSdltgdOutputOrBuilder getRepDataF10GdjcSdltgdOutputOrBuilder(
@@ -6097,7 +6616,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GbfhFhkgOutput RepDataF10GbfhFhkgOutput = 63;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:214,
+     *In file:dzhyun.f10.proto, row:213,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhyunF10.F10GbfhFhkgOutput> getRepDataF10GbfhFhkgOutputList() {
@@ -6107,7 +6626,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GbfhFhkgOutput RepDataF10GbfhFhkgOutput = 63;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:214,
+     *In file:dzhyun.f10.proto, row:213,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10GbfhFhkgOutputOrBuilder> 
@@ -6118,7 +6637,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GbfhFhkgOutput RepDataF10GbfhFhkgOutput = 63;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:214,
+     *In file:dzhyun.f10.proto, row:213,
      * </pre>
      */
     public int getRepDataF10GbfhFhkgOutputCount() {
@@ -6128,7 +6647,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GbfhFhkgOutput RepDataF10GbfhFhkgOutput = 63;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:214,
+     *In file:dzhyun.f10.proto, row:213,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunF10.F10GbfhFhkgOutput getRepDataF10GbfhFhkgOutput(int index) {
@@ -6138,7 +6657,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GbfhFhkgOutput RepDataF10GbfhFhkgOutput = 63;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:214,
+     *In file:dzhyun.f10.proto, row:213,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunF10.F10GbfhFhkgOutputOrBuilder getRepDataF10GbfhFhkgOutputOrBuilder(
@@ -6152,7 +6671,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GbfhGbjgOutput RepDataF10GbfhGbjgOutput = 64;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:251,
+     *In file:dzhyun.f10.proto, row:250,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhyunF10.F10GbfhGbjgOutput> getRepDataF10GbfhGbjgOutputList() {
@@ -6162,7 +6681,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GbfhGbjgOutput RepDataF10GbfhGbjgOutput = 64;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:251,
+     *In file:dzhyun.f10.proto, row:250,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10GbfhGbjgOutputOrBuilder> 
@@ -6173,7 +6692,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GbfhGbjgOutput RepDataF10GbfhGbjgOutput = 64;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:251,
+     *In file:dzhyun.f10.proto, row:250,
      * </pre>
      */
     public int getRepDataF10GbfhGbjgOutputCount() {
@@ -6183,7 +6702,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GbfhGbjgOutput RepDataF10GbfhGbjgOutput = 64;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:251,
+     *In file:dzhyun.f10.proto, row:250,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunF10.F10GbfhGbjgOutput getRepDataF10GbfhGbjgOutput(int index) {
@@ -6193,7 +6712,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.F10GbfhGbjgOutput RepDataF10GbfhGbjgOutput = 64;</code>
      *
      * <pre>
-     *In file:dzhyun.f10.proto, row:251,
+     *In file:dzhyun.f10.proto, row:250,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunF10.F10GbfhGbjgOutputOrBuilder getRepDataF10GbfhGbjgOutputOrBuilder(
@@ -6207,7 +6726,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.XinWenXinXiOutput RepDataXinWenXinXiOutput = 65;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:13,
+     *In file:dzhNewsInfo.proto, row:12,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiOutput> getRepDataXinWenXinXiOutputList() {
@@ -6217,7 +6736,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.XinWenXinXiOutput RepDataXinWenXinXiOutput = 65;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:13,
+     *In file:dzhNewsInfo.proto, row:12,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhNewsInfo.XinWenXinXiOutputOrBuilder> 
@@ -6228,7 +6747,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.XinWenXinXiOutput RepDataXinWenXinXiOutput = 65;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:13,
+     *In file:dzhNewsInfo.proto, row:12,
      * </pre>
      */
     public int getRepDataXinWenXinXiOutputCount() {
@@ -6238,7 +6757,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.XinWenXinXiOutput RepDataXinWenXinXiOutput = 65;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:13,
+     *In file:dzhNewsInfo.proto, row:12,
      * </pre>
      */
     public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiOutput getRepDataXinWenXinXiOutput(int index) {
@@ -6248,7 +6767,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.XinWenXinXiOutput RepDataXinWenXinXiOutput = 65;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:13,
+     *In file:dzhNewsInfo.proto, row:12,
      * </pre>
      */
     public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiOutputOrBuilder getRepDataXinWenXinXiOutputOrBuilder(
@@ -6262,7 +6781,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.XinWenXinXiZhongXinOutput RepDataXinWenXinXiZhongXinOutput = 66;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:22,
+     *In file:dzhNewsInfo.proto, row:21,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput> getRepDataXinWenXinXiZhongXinOutputList() {
@@ -6272,7 +6791,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.XinWenXinXiZhongXinOutput RepDataXinWenXinXiZhongXinOutput = 66;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:22,
+     *In file:dzhNewsInfo.proto, row:21,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutputOrBuilder> 
@@ -6283,7 +6802,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.XinWenXinXiZhongXinOutput RepDataXinWenXinXiZhongXinOutput = 66;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:22,
+     *In file:dzhNewsInfo.proto, row:21,
      * </pre>
      */
     public int getRepDataXinWenXinXiZhongXinOutputCount() {
@@ -6293,7 +6812,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.XinWenXinXiZhongXinOutput RepDataXinWenXinXiZhongXinOutput = 66;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:22,
+     *In file:dzhNewsInfo.proto, row:21,
      * </pre>
      */
     public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput getRepDataXinWenXinXiZhongXinOutput(int index) {
@@ -6303,7 +6822,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.XinWenXinXiZhongXinOutput RepDataXinWenXinXiZhongXinOutput = 66;</code>
      *
      * <pre>
-     *In file:dzhNewsInfo.proto, row:22,
+     *In file:dzhNewsInfo.proto, row:21,
      * </pre>
      */
     public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutputOrBuilder getRepDataXinWenXinXiZhongXinOutputOrBuilder(
@@ -6317,7 +6836,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvestInfo RepDataTopicInvestInfo = 67;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:50,
+     *In file:dzhyun.topicinvest.proto, row:53,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.DzhyunTopicinvest.TopicInvestInfo> getRepDataTopicInvestInfoList() {
@@ -6327,7 +6846,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvestInfo RepDataTopicInvestInfo = 67;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:50,
+     *In file:dzhyun.topicinvest.proto, row:53,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.DzhyunTopicinvest.TopicInvestInfoOrBuilder> 
@@ -6338,7 +6857,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvestInfo RepDataTopicInvestInfo = 67;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:50,
+     *In file:dzhyun.topicinvest.proto, row:53,
      * </pre>
      */
     public int getRepDataTopicInvestInfoCount() {
@@ -6348,7 +6867,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvestInfo RepDataTopicInvestInfo = 67;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:50,
+     *In file:dzhyun.topicinvest.proto, row:53,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunTopicinvest.TopicInvestInfo getRepDataTopicInvestInfo(int index) {
@@ -6358,7 +6877,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.TopicInvestInfo RepDataTopicInvestInfo = 67;</code>
      *
      * <pre>
-     *In file:dzhyun.topicinvest.proto, row:50,
+     *In file:dzhyun.topicinvest.proto, row:53,
      * </pre>
      */
     public com.dzhyun.proto.DzhyunTopicinvest.TopicInvestInfoOrBuilder getRepDataTopicInvestInfoOrBuilder(
@@ -6372,7 +6891,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.YiZhiXinYeJiYuCeOutPut RepDataYiZhiXinYeJiYuCeOutPut = 68;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:11,
+     *In file:CldForecastsShuJu.proto, row:14,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.CldForecastsShuJu.YiZhiXinYeJiYuCeOutPut> getRepDataYiZhiXinYeJiYuCeOutPutList() {
@@ -6382,7 +6901,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.YiZhiXinYeJiYuCeOutPut RepDataYiZhiXinYeJiYuCeOutPut = 68;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:11,
+     *In file:CldForecastsShuJu.proto, row:14,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.CldForecastsShuJu.YiZhiXinYeJiYuCeOutPutOrBuilder> 
@@ -6393,7 +6912,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.YiZhiXinYeJiYuCeOutPut RepDataYiZhiXinYeJiYuCeOutPut = 68;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:11,
+     *In file:CldForecastsShuJu.proto, row:14,
      * </pre>
      */
     public int getRepDataYiZhiXinYeJiYuCeOutPutCount() {
@@ -6403,7 +6922,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.YiZhiXinYeJiYuCeOutPut RepDataYiZhiXinYeJiYuCeOutPut = 68;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:11,
+     *In file:CldForecastsShuJu.proto, row:14,
      * </pre>
      */
     public com.dzhyun.proto.CldForecastsShuJu.YiZhiXinYeJiYuCeOutPut getRepDataYiZhiXinYeJiYuCeOutPut(int index) {
@@ -6413,7 +6932,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.YiZhiXinYeJiYuCeOutPut RepDataYiZhiXinYeJiYuCeOutPut = 68;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:11,
+     *In file:CldForecastsShuJu.proto, row:14,
      * </pre>
      */
     public com.dzhyun.proto.CldForecastsShuJu.YiZhiXinYeJiYuCeOutPutOrBuilder getRepDataYiZhiXinYeJiYuCeOutPutOrBuilder(
@@ -6427,7 +6946,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.YiZhiXinTouZiPinJiOutPut RepDataYiZhiXinTouZiPinJiOutPut = 69;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:25,
+     *In file:CldForecastsShuJu.proto, row:28,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.CldForecastsShuJu.YiZhiXinTouZiPinJiOutPut> getRepDataYiZhiXinTouZiPinJiOutPutList() {
@@ -6437,7 +6956,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.YiZhiXinTouZiPinJiOutPut RepDataYiZhiXinTouZiPinJiOutPut = 69;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:25,
+     *In file:CldForecastsShuJu.proto, row:28,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.CldForecastsShuJu.YiZhiXinTouZiPinJiOutPutOrBuilder> 
@@ -6448,7 +6967,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.YiZhiXinTouZiPinJiOutPut RepDataYiZhiXinTouZiPinJiOutPut = 69;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:25,
+     *In file:CldForecastsShuJu.proto, row:28,
      * </pre>
      */
     public int getRepDataYiZhiXinTouZiPinJiOutPutCount() {
@@ -6458,7 +6977,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.YiZhiXinTouZiPinJiOutPut RepDataYiZhiXinTouZiPinJiOutPut = 69;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:25,
+     *In file:CldForecastsShuJu.proto, row:28,
      * </pre>
      */
     public com.dzhyun.proto.CldForecastsShuJu.YiZhiXinTouZiPinJiOutPut getRepDataYiZhiXinTouZiPinJiOutPut(int index) {
@@ -6468,7 +6987,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.YiZhiXinTouZiPinJiOutPut RepDataYiZhiXinTouZiPinJiOutPut = 69;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:25,
+     *In file:CldForecastsShuJu.proto, row:28,
      * </pre>
      */
     public com.dzhyun.proto.CldForecastsShuJu.YiZhiXinTouZiPinJiOutPutOrBuilder getRepDataYiZhiXinTouZiPinJiOutPutOrBuilder(
@@ -6482,7 +7001,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.GeGuYeJiYuCeOutPut RepDataGeGuYeJiYuCeOutPut = 70;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:45,
+     *In file:CldForecastsShuJu.proto, row:48,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.CldForecastsShuJu.GeGuYeJiYuCeOutPut> getRepDataGeGuYeJiYuCeOutPutList() {
@@ -6492,7 +7011,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.GeGuYeJiYuCeOutPut RepDataGeGuYeJiYuCeOutPut = 70;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:45,
+     *In file:CldForecastsShuJu.proto, row:48,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.CldForecastsShuJu.GeGuYeJiYuCeOutPutOrBuilder> 
@@ -6503,7 +7022,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.GeGuYeJiYuCeOutPut RepDataGeGuYeJiYuCeOutPut = 70;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:45,
+     *In file:CldForecastsShuJu.proto, row:48,
      * </pre>
      */
     public int getRepDataGeGuYeJiYuCeOutPutCount() {
@@ -6513,7 +7032,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.GeGuYeJiYuCeOutPut RepDataGeGuYeJiYuCeOutPut = 70;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:45,
+     *In file:CldForecastsShuJu.proto, row:48,
      * </pre>
      */
     public com.dzhyun.proto.CldForecastsShuJu.GeGuYeJiYuCeOutPut getRepDataGeGuYeJiYuCeOutPut(int index) {
@@ -6523,7 +7042,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.GeGuYeJiYuCeOutPut RepDataGeGuYeJiYuCeOutPut = 70;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:45,
+     *In file:CldForecastsShuJu.proto, row:48,
      * </pre>
      */
     public com.dzhyun.proto.CldForecastsShuJu.GeGuYeJiYuCeOutPutOrBuilder getRepDataGeGuYeJiYuCeOutPutOrBuilder(
@@ -6537,7 +7056,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.GeGuTouZiYanBaoOutPut RepDataGeGuTouZiYanBaoOutPut = 71;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:62,
+     *In file:CldForecastsShuJu.proto, row:65,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.CldForecastsShuJu.GeGuTouZiYanBaoOutPut> getRepDataGeGuTouZiYanBaoOutPutList() {
@@ -6547,7 +7066,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.GeGuTouZiYanBaoOutPut RepDataGeGuTouZiYanBaoOutPut = 71;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:62,
+     *In file:CldForecastsShuJu.proto, row:65,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.CldForecastsShuJu.GeGuTouZiYanBaoOutPutOrBuilder> 
@@ -6558,7 +7077,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.GeGuTouZiYanBaoOutPut RepDataGeGuTouZiYanBaoOutPut = 71;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:62,
+     *In file:CldForecastsShuJu.proto, row:65,
      * </pre>
      */
     public int getRepDataGeGuTouZiYanBaoOutPutCount() {
@@ -6568,7 +7087,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.GeGuTouZiYanBaoOutPut RepDataGeGuTouZiYanBaoOutPut = 71;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:62,
+     *In file:CldForecastsShuJu.proto, row:65,
      * </pre>
      */
     public com.dzhyun.proto.CldForecastsShuJu.GeGuTouZiYanBaoOutPut getRepDataGeGuTouZiYanBaoOutPut(int index) {
@@ -6578,7 +7097,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.GeGuTouZiYanBaoOutPut RepDataGeGuTouZiYanBaoOutPut = 71;</code>
      *
      * <pre>
-     *In file:CldForecastsShuJu.proto, row:62,
+     *In file:CldForecastsShuJu.proto, row:65,
      * </pre>
      */
     public com.dzhyun.proto.CldForecastsShuJu.GeGuTouZiYanBaoOutPutOrBuilder getRepDataGeGuTouZiYanBaoOutPutOrBuilder(
@@ -6592,7 +7111,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.DSToken RepDataDSToken = 72;</code>
      *
      * <pre>
-     *In file:dzhdstoken.proto, row:2,
+     *In file:dzhdstoken.proto, row:5,
      * </pre>
      */
     public java.util.List<com.dzhyun.proto.Dzhdstoken.DSToken> getRepDataDSTokenList() {
@@ -6602,7 +7121,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.DSToken RepDataDSToken = 72;</code>
      *
      * <pre>
-     *In file:dzhdstoken.proto, row:2,
+     *In file:dzhdstoken.proto, row:5,
      * </pre>
      */
     public java.util.List<? extends com.dzhyun.proto.Dzhdstoken.DSTokenOrBuilder> 
@@ -6613,7 +7132,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.DSToken RepDataDSToken = 72;</code>
      *
      * <pre>
-     *In file:dzhdstoken.proto, row:2,
+     *In file:dzhdstoken.proto, row:5,
      * </pre>
      */
     public int getRepDataDSTokenCount() {
@@ -6623,7 +7142,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.DSToken RepDataDSToken = 72;</code>
      *
      * <pre>
-     *In file:dzhdstoken.proto, row:2,
+     *In file:dzhdstoken.proto, row:5,
      * </pre>
      */
     public com.dzhyun.proto.Dzhdstoken.DSToken getRepDataDSToken(int index) {
@@ -6633,7 +7152,7 @@ public final class AutoMsg {
      * <code>repeated .dzhyun.DSToken RepDataDSToken = 72;</code>
      *
      * <pre>
-     *In file:dzhdstoken.proto, row:2,
+     *In file:dzhdstoken.proto, row:5,
      * </pre>
      */
     public com.dzhyun.proto.Dzhdstoken.DSTokenOrBuilder getRepDataDSTokenOrBuilder(
@@ -6641,10 +7160,396 @@ public final class AutoMsg {
       return repDataDSToken_.get(index);
     }
 
+    public static final int REPDATATONGJIAPP_FIELD_NUMBER = 73;
+    private java.util.List<com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp> repDataTongJiApp_;
+    /**
+     * <code>repeated .dzhyun.TongJiApp RepDataTongJiApp = 73;</code>
+     *
+     * <pre>
+     *In file:dzhyun.blockstatistics.proto, row:9,
+     * </pre>
+     */
+    public java.util.List<com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp> getRepDataTongJiAppList() {
+      return repDataTongJiApp_;
+    }
+    /**
+     * <code>repeated .dzhyun.TongJiApp RepDataTongJiApp = 73;</code>
+     *
+     * <pre>
+     *In file:dzhyun.blockstatistics.proto, row:9,
+     * </pre>
+     */
+    public java.util.List<? extends com.dzhyun.proto.DzhyunBlockstatistics.TongJiAppOrBuilder> 
+        getRepDataTongJiAppOrBuilderList() {
+      return repDataTongJiApp_;
+    }
+    /**
+     * <code>repeated .dzhyun.TongJiApp RepDataTongJiApp = 73;</code>
+     *
+     * <pre>
+     *In file:dzhyun.blockstatistics.proto, row:9,
+     * </pre>
+     */
+    public int getRepDataTongJiAppCount() {
+      return repDataTongJiApp_.size();
+    }
+    /**
+     * <code>repeated .dzhyun.TongJiApp RepDataTongJiApp = 73;</code>
+     *
+     * <pre>
+     *In file:dzhyun.blockstatistics.proto, row:9,
+     * </pre>
+     */
+    public com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp getRepDataTongJiApp(int index) {
+      return repDataTongJiApp_.get(index);
+    }
+    /**
+     * <code>repeated .dzhyun.TongJiApp RepDataTongJiApp = 73;</code>
+     *
+     * <pre>
+     *In file:dzhyun.blockstatistics.proto, row:9,
+     * </pre>
+     */
+    public com.dzhyun.proto.DzhyunBlockstatistics.TongJiAppOrBuilder getRepDataTongJiAppOrBuilder(
+        int index) {
+      return repDataTongJiApp_.get(index);
+    }
+
+    public static final int REPDATAMESSAGECHANNELSUBTYPE_FIELD_NUMBER = 74;
+    private java.util.List<com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype> repDataMessageChannelSubtype_;
+    /**
+     * <code>repeated .dzhyun.MessageChannelSubtype RepDataMessageChannelSubtype = 74;</code>
+     *
+     * <pre>
+     *In file:dzh.message.ch.subtype.proto, row:4,
+     * </pre>
+     */
+    public java.util.List<com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype> getRepDataMessageChannelSubtypeList() {
+      return repDataMessageChannelSubtype_;
+    }
+    /**
+     * <code>repeated .dzhyun.MessageChannelSubtype RepDataMessageChannelSubtype = 74;</code>
+     *
+     * <pre>
+     *In file:dzh.message.ch.subtype.proto, row:4,
+     * </pre>
+     */
+    public java.util.List<? extends com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtypeOrBuilder> 
+        getRepDataMessageChannelSubtypeOrBuilderList() {
+      return repDataMessageChannelSubtype_;
+    }
+    /**
+     * <code>repeated .dzhyun.MessageChannelSubtype RepDataMessageChannelSubtype = 74;</code>
+     *
+     * <pre>
+     *In file:dzh.message.ch.subtype.proto, row:4,
+     * </pre>
+     */
+    public int getRepDataMessageChannelSubtypeCount() {
+      return repDataMessageChannelSubtype_.size();
+    }
+    /**
+     * <code>repeated .dzhyun.MessageChannelSubtype RepDataMessageChannelSubtype = 74;</code>
+     *
+     * <pre>
+     *In file:dzh.message.ch.subtype.proto, row:4,
+     * </pre>
+     */
+    public com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype getRepDataMessageChannelSubtype(int index) {
+      return repDataMessageChannelSubtype_.get(index);
+    }
+    /**
+     * <code>repeated .dzhyun.MessageChannelSubtype RepDataMessageChannelSubtype = 74;</code>
+     *
+     * <pre>
+     *In file:dzh.message.ch.subtype.proto, row:4,
+     * </pre>
+     */
+    public com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtypeOrBuilder getRepDataMessageChannelSubtypeOrBuilder(
+        int index) {
+      return repDataMessageChannelSubtype_.get(index);
+    }
+
+    public static final int REPDATAUSERGETPROPRESPONSE_FIELD_NUMBER = 75;
+    private java.util.List<com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse> repDataUserGetPropResponse_;
+    /**
+     * <code>repeated .dzhyun.UserGetPropResponse RepDataUserGetPropResponse = 75;</code>
+     *
+     * <pre>
+     *In file:dzhyun.user.getprop.proto, row:11,
+     * </pre>
+     */
+    public java.util.List<com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse> getRepDataUserGetPropResponseList() {
+      return repDataUserGetPropResponse_;
+    }
+    /**
+     * <code>repeated .dzhyun.UserGetPropResponse RepDataUserGetPropResponse = 75;</code>
+     *
+     * <pre>
+     *In file:dzhyun.user.getprop.proto, row:11,
+     * </pre>
+     */
+    public java.util.List<? extends com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponseOrBuilder> 
+        getRepDataUserGetPropResponseOrBuilderList() {
+      return repDataUserGetPropResponse_;
+    }
+    /**
+     * <code>repeated .dzhyun.UserGetPropResponse RepDataUserGetPropResponse = 75;</code>
+     *
+     * <pre>
+     *In file:dzhyun.user.getprop.proto, row:11,
+     * </pre>
+     */
+    public int getRepDataUserGetPropResponseCount() {
+      return repDataUserGetPropResponse_.size();
+    }
+    /**
+     * <code>repeated .dzhyun.UserGetPropResponse RepDataUserGetPropResponse = 75;</code>
+     *
+     * <pre>
+     *In file:dzhyun.user.getprop.proto, row:11,
+     * </pre>
+     */
+    public com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse getRepDataUserGetPropResponse(int index) {
+      return repDataUserGetPropResponse_.get(index);
+    }
+    /**
+     * <code>repeated .dzhyun.UserGetPropResponse RepDataUserGetPropResponse = 75;</code>
+     *
+     * <pre>
+     *In file:dzhyun.user.getprop.proto, row:11,
+     * </pre>
+     */
+    public com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponseOrBuilder getRepDataUserGetPropResponseOrBuilder(
+        int index) {
+      return repDataUserGetPropResponse_.get(index);
+    }
+
+    public static final int REPDATAQUOTEBORDERSINGLE_FIELD_NUMBER = 76;
+    private java.util.List<com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle> repDataQuoteBOrderSingle_;
+    /**
+     * <code>repeated .dzhyun.QuoteBOrderSingle RepDataQuoteBOrderSingle = 76;</code>
+     *
+     * <pre>
+     *In file:dzhoutput.proto, row:130,
+     * </pre>
+     */
+    public java.util.List<com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle> getRepDataQuoteBOrderSingleList() {
+      return repDataQuoteBOrderSingle_;
+    }
+    /**
+     * <code>repeated .dzhyun.QuoteBOrderSingle RepDataQuoteBOrderSingle = 76;</code>
+     *
+     * <pre>
+     *In file:dzhoutput.proto, row:130,
+     * </pre>
+     */
+    public java.util.List<? extends com.dzhyun.proto.Dzhoutput.QuoteBOrderSingleOrBuilder> 
+        getRepDataQuoteBOrderSingleOrBuilderList() {
+      return repDataQuoteBOrderSingle_;
+    }
+    /**
+     * <code>repeated .dzhyun.QuoteBOrderSingle RepDataQuoteBOrderSingle = 76;</code>
+     *
+     * <pre>
+     *In file:dzhoutput.proto, row:130,
+     * </pre>
+     */
+    public int getRepDataQuoteBOrderSingleCount() {
+      return repDataQuoteBOrderSingle_.size();
+    }
+    /**
+     * <code>repeated .dzhyun.QuoteBOrderSingle RepDataQuoteBOrderSingle = 76;</code>
+     *
+     * <pre>
+     *In file:dzhoutput.proto, row:130,
+     * </pre>
+     */
+    public com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle getRepDataQuoteBOrderSingle(int index) {
+      return repDataQuoteBOrderSingle_.get(index);
+    }
+    /**
+     * <code>repeated .dzhyun.QuoteBOrderSingle RepDataQuoteBOrderSingle = 76;</code>
+     *
+     * <pre>
+     *In file:dzhoutput.proto, row:130,
+     * </pre>
+     */
+    public com.dzhyun.proto.Dzhoutput.QuoteBOrderSingleOrBuilder getRepDataQuoteBOrderSingleOrBuilder(
+        int index) {
+      return repDataQuoteBOrderSingle_.get(index);
+    }
+
+    public static final int REPDATADXSPIRIT_FIELD_NUMBER = 77;
+    private java.util.List<com.dzhyun.proto.DzhyunDxspirit.DXSpirit> repDataDXSpirit_;
+    /**
+     * <code>repeated .dzhyun.DXSpirit RepDataDXSpirit = 77;</code>
+     *
+     * <pre>
+     *In file:dzhyun.dxspirit.proto, row:9,
+     * </pre>
+     */
+    public java.util.List<com.dzhyun.proto.DzhyunDxspirit.DXSpirit> getRepDataDXSpiritList() {
+      return repDataDXSpirit_;
+    }
+    /**
+     * <code>repeated .dzhyun.DXSpirit RepDataDXSpirit = 77;</code>
+     *
+     * <pre>
+     *In file:dzhyun.dxspirit.proto, row:9,
+     * </pre>
+     */
+    public java.util.List<? extends com.dzhyun.proto.DzhyunDxspirit.DXSpiritOrBuilder> 
+        getRepDataDXSpiritOrBuilderList() {
+      return repDataDXSpirit_;
+    }
+    /**
+     * <code>repeated .dzhyun.DXSpirit RepDataDXSpirit = 77;</code>
+     *
+     * <pre>
+     *In file:dzhyun.dxspirit.proto, row:9,
+     * </pre>
+     */
+    public int getRepDataDXSpiritCount() {
+      return repDataDXSpirit_.size();
+    }
+    /**
+     * <code>repeated .dzhyun.DXSpirit RepDataDXSpirit = 77;</code>
+     *
+     * <pre>
+     *In file:dzhyun.dxspirit.proto, row:9,
+     * </pre>
+     */
+    public com.dzhyun.proto.DzhyunDxspirit.DXSpirit getRepDataDXSpirit(int index) {
+      return repDataDXSpirit_.get(index);
+    }
+    /**
+     * <code>repeated .dzhyun.DXSpirit RepDataDXSpirit = 77;</code>
+     *
+     * <pre>
+     *In file:dzhyun.dxspirit.proto, row:9,
+     * </pre>
+     */
+    public com.dzhyun.proto.DzhyunDxspirit.DXSpiritOrBuilder getRepDataDXSpiritOrBuilder(
+        int index) {
+      return repDataDXSpirit_.get(index);
+    }
+
+    public static final int REPDATASTKPOOLOUPUT_FIELD_NUMBER = 78;
+    private java.util.List<com.dzhyun.proto.DzhyunStockpool.StkPoolOuput> repDataStkPoolOuput_;
+    /**
+     * <code>repeated .dzhyun.StkPoolOuput RepDataStkPoolOuput = 78;</code>
+     *
+     * <pre>
+     *In file:dzhyun.stockpool.proto, row:15,
+     * </pre>
+     */
+    public java.util.List<com.dzhyun.proto.DzhyunStockpool.StkPoolOuput> getRepDataStkPoolOuputList() {
+      return repDataStkPoolOuput_;
+    }
+    /**
+     * <code>repeated .dzhyun.StkPoolOuput RepDataStkPoolOuput = 78;</code>
+     *
+     * <pre>
+     *In file:dzhyun.stockpool.proto, row:15,
+     * </pre>
+     */
+    public java.util.List<? extends com.dzhyun.proto.DzhyunStockpool.StkPoolOuputOrBuilder> 
+        getRepDataStkPoolOuputOrBuilderList() {
+      return repDataStkPoolOuput_;
+    }
+    /**
+     * <code>repeated .dzhyun.StkPoolOuput RepDataStkPoolOuput = 78;</code>
+     *
+     * <pre>
+     *In file:dzhyun.stockpool.proto, row:15,
+     * </pre>
+     */
+    public int getRepDataStkPoolOuputCount() {
+      return repDataStkPoolOuput_.size();
+    }
+    /**
+     * <code>repeated .dzhyun.StkPoolOuput RepDataStkPoolOuput = 78;</code>
+     *
+     * <pre>
+     *In file:dzhyun.stockpool.proto, row:15,
+     * </pre>
+     */
+    public com.dzhyun.proto.DzhyunStockpool.StkPoolOuput getRepDataStkPoolOuput(int index) {
+      return repDataStkPoolOuput_.get(index);
+    }
+    /**
+     * <code>repeated .dzhyun.StkPoolOuput RepDataStkPoolOuput = 78;</code>
+     *
+     * <pre>
+     *In file:dzhyun.stockpool.proto, row:15,
+     * </pre>
+     */
+    public com.dzhyun.proto.DzhyunStockpool.StkPoolOuputOrBuilder getRepDataStkPoolOuputOrBuilder(
+        int index) {
+      return repDataStkPoolOuput_.get(index);
+    }
+
+    public static final int REPDATAEVENTNEWS_FIELD_NUMBER = 79;
+    private java.util.List<dzhyun.CldEventNewsShuJu.EventNews> repDataEventNews_;
+    /**
+     * <code>repeated .dzhyun.EventNews RepDataEventNews = 79;</code>
+     *
+     * <pre>
+     *In file:CldEventNewsShuJu.proto, row:3,
+     * </pre>
+     */
+    public java.util.List<dzhyun.CldEventNewsShuJu.EventNews> getRepDataEventNewsList() {
+      return repDataEventNews_;
+    }
+    /**
+     * <code>repeated .dzhyun.EventNews RepDataEventNews = 79;</code>
+     *
+     * <pre>
+     *In file:CldEventNewsShuJu.proto, row:3,
+     * </pre>
+     */
+    public java.util.List<? extends dzhyun.CldEventNewsShuJu.EventNewsOrBuilder> 
+        getRepDataEventNewsOrBuilderList() {
+      return repDataEventNews_;
+    }
+    /**
+     * <code>repeated .dzhyun.EventNews RepDataEventNews = 79;</code>
+     *
+     * <pre>
+     *In file:CldEventNewsShuJu.proto, row:3,
+     * </pre>
+     */
+    public int getRepDataEventNewsCount() {
+      return repDataEventNews_.size();
+    }
+    /**
+     * <code>repeated .dzhyun.EventNews RepDataEventNews = 79;</code>
+     *
+     * <pre>
+     *In file:CldEventNewsShuJu.proto, row:3,
+     * </pre>
+     */
+    public dzhyun.CldEventNewsShuJu.EventNews getRepDataEventNews(int index) {
+      return repDataEventNews_.get(index);
+    }
+    /**
+     * <code>repeated .dzhyun.EventNews RepDataEventNews = 79;</code>
+     *
+     * <pre>
+     *In file:CldEventNewsShuJu.proto, row:3,
+     * </pre>
+     */
+    public dzhyun.CldEventNewsShuJu.EventNewsOrBuilder getRepDataEventNewsOrBuilder(
+        int index) {
+      return repDataEventNews_.get(index);
+    }
+
     private void initFields() {
       id_ = 0;
       obj_ = "";
       tbl_ = com.dzhyun.proto.Dzhpbtable.Table.getDefaultInstance();
+      jsonTbl_ = "";
       repDataQuoteDynaSingle_ = java.util.Collections.emptyList();
       repDataQuoteKlineSingle_ = java.util.Collections.emptyList();
       repDataQuoteTickSingle_ = java.util.Collections.emptyList();
@@ -6698,6 +7603,13 @@ public final class AutoMsg {
       repDataGeGuYeJiYuCeOutPut_ = java.util.Collections.emptyList();
       repDataGeGuTouZiYanBaoOutPut_ = java.util.Collections.emptyList();
       repDataDSToken_ = java.util.Collections.emptyList();
+      repDataTongJiApp_ = java.util.Collections.emptyList();
+      repDataMessageChannelSubtype_ = java.util.Collections.emptyList();
+      repDataUserGetPropResponse_ = java.util.Collections.emptyList();
+      repDataQuoteBOrderSingle_ = java.util.Collections.emptyList();
+      repDataDXSpirit_ = java.util.Collections.emptyList();
+      repDataStkPoolOuput_ = java.util.Collections.emptyList();
+      repDataEventNews_ = java.util.Collections.emptyList();
     }
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
@@ -7003,6 +7915,48 @@ public final class AutoMsg {
           return false;
         }
       }
+      for (int i = 0; i < getRepDataTongJiAppCount(); i++) {
+        if (!getRepDataTongJiApp(i).isInitialized()) {
+          memoizedIsInitialized = 0;
+          return false;
+        }
+      }
+      for (int i = 0; i < getRepDataMessageChannelSubtypeCount(); i++) {
+        if (!getRepDataMessageChannelSubtype(i).isInitialized()) {
+          memoizedIsInitialized = 0;
+          return false;
+        }
+      }
+      for (int i = 0; i < getRepDataUserGetPropResponseCount(); i++) {
+        if (!getRepDataUserGetPropResponse(i).isInitialized()) {
+          memoizedIsInitialized = 0;
+          return false;
+        }
+      }
+      for (int i = 0; i < getRepDataQuoteBOrderSingleCount(); i++) {
+        if (!getRepDataQuoteBOrderSingle(i).isInitialized()) {
+          memoizedIsInitialized = 0;
+          return false;
+        }
+      }
+      for (int i = 0; i < getRepDataDXSpiritCount(); i++) {
+        if (!getRepDataDXSpirit(i).isInitialized()) {
+          memoizedIsInitialized = 0;
+          return false;
+        }
+      }
+      for (int i = 0; i < getRepDataStkPoolOuputCount(); i++) {
+        if (!getRepDataStkPoolOuput(i).isInitialized()) {
+          memoizedIsInitialized = 0;
+          return false;
+        }
+      }
+      for (int i = 0; i < getRepDataEventNewsCount(); i++) {
+        if (!getRepDataEventNews(i).isInitialized()) {
+          memoizedIsInitialized = 0;
+          return false;
+        }
+      }
       memoizedIsInitialized = 1;
       return true;
     }
@@ -7018,6 +7972,9 @@ public final class AutoMsg {
       }
       if (((bitField0_ & 0x00000004) == 0x00000004)) {
         output.writeMessage(3, tbl_);
+      }
+      if (((bitField0_ & 0x00000008) == 0x00000008)) {
+        output.writeBytes(4, getJsonTblBytes());
       }
       for (int i = 0; i < repDataQuoteDynaSingle_.size(); i++) {
         output.writeMessage(20, repDataQuoteDynaSingle_.get(i));
@@ -7178,6 +8135,27 @@ public final class AutoMsg {
       for (int i = 0; i < repDataDSToken_.size(); i++) {
         output.writeMessage(72, repDataDSToken_.get(i));
       }
+      for (int i = 0; i < repDataTongJiApp_.size(); i++) {
+        output.writeMessage(73, repDataTongJiApp_.get(i));
+      }
+      for (int i = 0; i < repDataMessageChannelSubtype_.size(); i++) {
+        output.writeMessage(74, repDataMessageChannelSubtype_.get(i));
+      }
+      for (int i = 0; i < repDataUserGetPropResponse_.size(); i++) {
+        output.writeMessage(75, repDataUserGetPropResponse_.get(i));
+      }
+      for (int i = 0; i < repDataQuoteBOrderSingle_.size(); i++) {
+        output.writeMessage(76, repDataQuoteBOrderSingle_.get(i));
+      }
+      for (int i = 0; i < repDataDXSpirit_.size(); i++) {
+        output.writeMessage(77, repDataDXSpirit_.get(i));
+      }
+      for (int i = 0; i < repDataStkPoolOuput_.size(); i++) {
+        output.writeMessage(78, repDataStkPoolOuput_.get(i));
+      }
+      for (int i = 0; i < repDataEventNews_.size(); i++) {
+        output.writeMessage(79, repDataEventNews_.get(i));
+      }
       getUnknownFields().writeTo(output);
     }
 
@@ -7198,6 +8176,10 @@ public final class AutoMsg {
       if (((bitField0_ & 0x00000004) == 0x00000004)) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(3, tbl_);
+      }
+      if (((bitField0_ & 0x00000008) == 0x00000008)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(4, getJsonTblBytes());
       }
       for (int i = 0; i < repDataQuoteDynaSingle_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -7411,6 +8393,34 @@ public final class AutoMsg {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(72, repDataDSToken_.get(i));
       }
+      for (int i = 0; i < repDataTongJiApp_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(73, repDataTongJiApp_.get(i));
+      }
+      for (int i = 0; i < repDataMessageChannelSubtype_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(74, repDataMessageChannelSubtype_.get(i));
+      }
+      for (int i = 0; i < repDataUserGetPropResponse_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(75, repDataUserGetPropResponse_.get(i));
+      }
+      for (int i = 0; i < repDataQuoteBOrderSingle_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(76, repDataQuoteBOrderSingle_.get(i));
+      }
+      for (int i = 0; i < repDataDXSpirit_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(77, repDataDXSpirit_.get(i));
+      }
+      for (int i = 0; i < repDataStkPoolOuput_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(78, repDataStkPoolOuput_.get(i));
+      }
+      for (int i = 0; i < repDataEventNews_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(79, repDataEventNews_.get(i));
+      }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
       return size;
@@ -7574,6 +8584,13 @@ public final class AutoMsg {
           getRepDataGeGuYeJiYuCeOutPutFieldBuilder();
           getRepDataGeGuTouZiYanBaoOutPutFieldBuilder();
           getRepDataDSTokenFieldBuilder();
+          getRepDataTongJiAppFieldBuilder();
+          getRepDataMessageChannelSubtypeFieldBuilder();
+          getRepDataUserGetPropResponseFieldBuilder();
+          getRepDataQuoteBOrderSingleFieldBuilder();
+          getRepDataDXSpiritFieldBuilder();
+          getRepDataStkPoolOuputFieldBuilder();
+          getRepDataEventNewsFieldBuilder();
         }
       }
       private static Builder create() {
@@ -7592,323 +8609,367 @@ public final class AutoMsg {
           tblBuilder_.clear();
         }
         bitField0_ = (bitField0_ & ~0x00000004);
+        jsonTbl_ = "";
+        bitField0_ = (bitField0_ & ~0x00000008);
         if (repDataQuoteDynaSingleBuilder_ == null) {
           repDataQuoteDynaSingle_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000008);
+          bitField0_ = (bitField0_ & ~0x00000010);
         } else {
           repDataQuoteDynaSingleBuilder_.clear();
         }
         if (repDataQuoteKlineSingleBuilder_ == null) {
           repDataQuoteKlineSingle_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000010);
+          bitField0_ = (bitField0_ & ~0x00000020);
         } else {
           repDataQuoteKlineSingleBuilder_.clear();
         }
         if (repDataQuoteTickSingleBuilder_ == null) {
           repDataQuoteTickSingle_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000020);
+          bitField0_ = (bitField0_ & ~0x00000040);
         } else {
           repDataQuoteTickSingleBuilder_.clear();
         }
         if (repDataQuoteMinSingleBuilder_ == null) {
           repDataQuoteMinSingle_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000040);
+          bitField0_ = (bitField0_ & ~0x00000080);
         } else {
           repDataQuoteMinSingleBuilder_.clear();
         }
         if (repDataNewsInfoValueBuilder_ == null) {
           repDataNewsInfoValue_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000080);
+          bitField0_ = (bitField0_ & ~0x00000100);
         } else {
           repDataNewsInfoValueBuilder_.clear();
         }
         if (repDataZhiBiaoShuChuBuilder_ == null) {
           repDataZhiBiaoShuChu_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000100);
+          bitField0_ = (bitField0_ & ~0x00000200);
         } else {
           repDataZhiBiaoShuChuBuilder_.clear();
         }
         if (repDataZhiBiaoBuilder_ == null) {
           repDataZhiBiao_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000200);
+          bitField0_ = (bitField0_ & ~0x00000400);
         } else {
           repDataZhiBiaoBuilder_.clear();
         }
         if (repDataStkDataBuilder_ == null) {
           repDataStkData_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000400);
+          bitField0_ = (bitField0_ & ~0x00000800);
         } else {
           repDataStkDataBuilder_.clear();
         }
         if (repDataPaiXuBuilder_ == null) {
           repDataPaiXu_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000800);
+          bitField0_ = (bitField0_ & ~0x00001000);
         } else {
           repDataPaiXuBuilder_.clear();
         }
         if (repDataJianPanBaoShuChuBuilder_ == null) {
           repDataJianPanBaoShuChu_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00001000);
+          bitField0_ = (bitField0_ & ~0x00002000);
         } else {
           repDataJianPanBaoShuChuBuilder_.clear();
         }
         if (repDataFenJiJiJinBuilder_ == null) {
           repDataFenJiJiJin_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00002000);
+          bitField0_ = (bitField0_ & ~0x00004000);
         } else {
           repDataFenJiJiJinBuilder_.clear();
         }
         if (repDataMsgGetOutputBuilder_ == null) {
           repDataMsgGetOutput_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00004000);
+          bitField0_ = (bitField0_ & ~0x00008000);
         } else {
           repDataMsgGetOutputBuilder_.clear();
         }
         if (repDataMsgPutOutputBuilder_ == null) {
           repDataMsgPutOutput_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00008000);
+          bitField0_ = (bitField0_ & ~0x00010000);
         } else {
           repDataMsgPutOutputBuilder_.clear();
         }
         if (repDataBlockObjOutputBuilder_ == null) {
           repDataBlockObjOutput_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00010000);
+          bitField0_ = (bitField0_ & ~0x00020000);
         } else {
           repDataBlockObjOutputBuilder_.clear();
         }
         if (repDataBlockPropOutputBuilder_ == null) {
           repDataBlockPropOutput_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00020000);
+          bitField0_ = (bitField0_ & ~0x00040000);
         } else {
           repDataBlockPropOutputBuilder_.clear();
         }
         if (repDataSelfStockGetOutputBuilder_ == null) {
           repDataSelfStockGetOutput_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00040000);
+          bitField0_ = (bitField0_ & ~0x00080000);
         } else {
           repDataSelfStockGetOutputBuilder_.clear();
         }
         if (repDataSelfStockPutOutputBuilder_ == null) {
           repDataSelfStockPutOutput_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00080000);
+          bitField0_ = (bitField0_ & ~0x00100000);
         } else {
           repDataSelfStockPutOutputBuilder_.clear();
         }
         if (repDataAppKeyBuilder_ == null) {
           repDataAppKey_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00100000);
+          bitField0_ = (bitField0_ & ~0x00200000);
         } else {
           repDataAppKeyBuilder_.clear();
         }
         if (repDataAppInfoBuilder_ == null) {
           repDataAppInfo_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00200000);
+          bitField0_ = (bitField0_ & ~0x00400000);
         } else {
           repDataAppInfoBuilder_.clear();
         }
         if (repDataAppValueBuilder_ == null) {
           repDataAppValue_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00400000);
+          bitField0_ = (bitField0_ & ~0x00800000);
         } else {
           repDataAppValueBuilder_.clear();
         }
         if (repDataServiceAuthBuilder_ == null) {
           repDataServiceAuth_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00800000);
+          bitField0_ = (bitField0_ & ~0x01000000);
         } else {
           repDataServiceAuthBuilder_.clear();
         }
         if (repDataAppServiceAuthBuilder_ == null) {
           repDataAppServiceAuth_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x01000000);
+          bitField0_ = (bitField0_ & ~0x02000000);
         } else {
           repDataAppServiceAuthBuilder_.clear();
         }
         if (repDataTokenAuthBuilder_ == null) {
           repDataTokenAuth_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x02000000);
+          bitField0_ = (bitField0_ & ~0x04000000);
         } else {
           repDataTokenAuthBuilder_.clear();
         }
         if (repDataAccOpResponseBuilder_ == null) {
           repDataAccOpResponse_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x04000000);
+          bitField0_ = (bitField0_ & ~0x08000000);
         } else {
           repDataAccOpResponseBuilder_.clear();
         }
         if (repDataTokenBuilder_ == null) {
           repDataToken_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x08000000);
+          bitField0_ = (bitField0_ & ~0x10000000);
         } else {
           repDataTokenBuilder_.clear();
         }
         if (repDataPrivilegeBuilder_ == null) {
           repDataPrivilege_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x10000000);
+          bitField0_ = (bitField0_ & ~0x20000000);
         } else {
           repDataPrivilegeBuilder_.clear();
         }
         if (repDataAlarmEventBuilder_ == null) {
           repDataAlarmEvent_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x20000000);
+          bitField0_ = (bitField0_ & ~0x40000000);
         } else {
           repDataAlarmEventBuilder_.clear();
         }
         if (repDataAlarmTaskBuilder_ == null) {
           repDataAlarmTask_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x40000000);
+          bitField0_ = (bitField0_ & ~0x80000000);
         } else {
           repDataAlarmTaskBuilder_.clear();
         }
         if (repDataADPutResponseBuilder_ == null) {
           repDataADPutResponse_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x80000000);
+          bitField1_ = (bitField1_ & ~0x00000001);
         } else {
           repDataADPutResponseBuilder_.clear();
         }
         if (repDataADGetResponseBuilder_ == null) {
           repDataADGetResponse_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00000001);
+          bitField1_ = (bitField1_ & ~0x00000002);
         } else {
           repDataADGetResponseBuilder_.clear();
         }
         if (repDataUserGroupBuilder_ == null) {
           repDataUserGroup_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00000002);
+          bitField1_ = (bitField1_ & ~0x00000004);
         } else {
           repDataUserGroupBuilder_.clear();
         }
         if (repDataUserGroupResponseBuilder_ == null) {
           repDataUserGroupResponse_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00000004);
+          bitField1_ = (bitField1_ & ~0x00000008);
         } else {
           repDataUserGroupResponseBuilder_.clear();
         }
         if (repDataUserPropsMessageBuilder_ == null) {
           repDataUserPropsMessage_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00000008);
+          bitField1_ = (bitField1_ & ~0x00000010);
         } else {
           repDataUserPropsMessageBuilder_.clear();
         }
         if (repDataTopicInvestBuilder_ == null) {
           repDataTopicInvest_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00000010);
+          bitField1_ = (bitField1_ & ~0x00000020);
         } else {
           repDataTopicInvestBuilder_.clear();
         }
         if (repDataTopicInvestHistoryBuilder_ == null) {
           repDataTopicInvestHistory_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00000020);
+          bitField1_ = (bitField1_ & ~0x00000040);
         } else {
           repDataTopicInvestHistoryBuilder_.clear();
         }
         if (repDataF10GsgkOutputBuilder_ == null) {
           repDataF10GsgkOutput_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00000040);
+          bitField1_ = (bitField1_ & ~0x00000080);
         } else {
           repDataF10GsgkOutputBuilder_.clear();
         }
         if (repDataF10CwtsZycwzbOutputBuilder_ == null) {
           repDataF10CwtsZycwzbOutput_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00000080);
+          bitField1_ = (bitField1_ & ~0x00000100);
         } else {
           repDataF10CwtsZycwzbOutputBuilder_.clear();
         }
         if (repDataF10CwtsXjllbzyOutputBuilder_ == null) {
           repDataF10CwtsXjllbzyOutput_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00000100);
+          bitField1_ = (bitField1_ & ~0x00000200);
         } else {
           repDataF10CwtsXjllbzyOutputBuilder_.clear();
         }
         if (repDataF10ZxjbDjdcwzbOutputBuilder_ == null) {
           repDataF10ZxjbDjdcwzbOutput_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00000200);
+          bitField1_ = (bitField1_ & ~0x00000400);
         } else {
           repDataF10ZxjbDjdcwzbOutputBuilder_.clear();
         }
         if (repDataF10ZxjbdjdlebOutputBuilder_ == null) {
           repDataF10ZxjbdjdlebOutput_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00000400);
+          bitField1_ = (bitField1_ & ~0x00000800);
         } else {
           repDataF10ZxjbdjdlebOutputBuilder_.clear();
         }
         if (repDataF10GdjcGdhsOutputBuilder_ == null) {
           repDataF10GdjcGdhsOutput_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00000800);
+          bitField1_ = (bitField1_ & ~0x00001000);
         } else {
           repDataF10GdjcGdhsOutputBuilder_.clear();
         }
         if (repDataF10GdjcSdgdOutputBuilder_ == null) {
           repDataF10GdjcSdgdOutput_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00001000);
+          bitField1_ = (bitField1_ & ~0x00002000);
         } else {
           repDataF10GdjcSdgdOutputBuilder_.clear();
         }
         if (repDataF10GdjcSdltgdOutputBuilder_ == null) {
           repDataF10GdjcSdltgdOutput_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00002000);
+          bitField1_ = (bitField1_ & ~0x00004000);
         } else {
           repDataF10GdjcSdltgdOutputBuilder_.clear();
         }
         if (repDataF10GbfhFhkgOutputBuilder_ == null) {
           repDataF10GbfhFhkgOutput_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00004000);
+          bitField1_ = (bitField1_ & ~0x00008000);
         } else {
           repDataF10GbfhFhkgOutputBuilder_.clear();
         }
         if (repDataF10GbfhGbjgOutputBuilder_ == null) {
           repDataF10GbfhGbjgOutput_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00008000);
+          bitField1_ = (bitField1_ & ~0x00010000);
         } else {
           repDataF10GbfhGbjgOutputBuilder_.clear();
         }
         if (repDataXinWenXinXiOutputBuilder_ == null) {
           repDataXinWenXinXiOutput_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00010000);
+          bitField1_ = (bitField1_ & ~0x00020000);
         } else {
           repDataXinWenXinXiOutputBuilder_.clear();
         }
         if (repDataXinWenXinXiZhongXinOutputBuilder_ == null) {
           repDataXinWenXinXiZhongXinOutput_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00020000);
+          bitField1_ = (bitField1_ & ~0x00040000);
         } else {
           repDataXinWenXinXiZhongXinOutputBuilder_.clear();
         }
         if (repDataTopicInvestInfoBuilder_ == null) {
           repDataTopicInvestInfo_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00040000);
+          bitField1_ = (bitField1_ & ~0x00080000);
         } else {
           repDataTopicInvestInfoBuilder_.clear();
         }
         if (repDataYiZhiXinYeJiYuCeOutPutBuilder_ == null) {
           repDataYiZhiXinYeJiYuCeOutPut_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00080000);
+          bitField1_ = (bitField1_ & ~0x00100000);
         } else {
           repDataYiZhiXinYeJiYuCeOutPutBuilder_.clear();
         }
         if (repDataYiZhiXinTouZiPinJiOutPutBuilder_ == null) {
           repDataYiZhiXinTouZiPinJiOutPut_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00100000);
+          bitField1_ = (bitField1_ & ~0x00200000);
         } else {
           repDataYiZhiXinTouZiPinJiOutPutBuilder_.clear();
         }
         if (repDataGeGuYeJiYuCeOutPutBuilder_ == null) {
           repDataGeGuYeJiYuCeOutPut_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00200000);
+          bitField1_ = (bitField1_ & ~0x00400000);
         } else {
           repDataGeGuYeJiYuCeOutPutBuilder_.clear();
         }
         if (repDataGeGuTouZiYanBaoOutPutBuilder_ == null) {
           repDataGeGuTouZiYanBaoOutPut_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00400000);
+          bitField1_ = (bitField1_ & ~0x00800000);
         } else {
           repDataGeGuTouZiYanBaoOutPutBuilder_.clear();
         }
         if (repDataDSTokenBuilder_ == null) {
           repDataDSToken_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00800000);
+          bitField1_ = (bitField1_ & ~0x01000000);
         } else {
           repDataDSTokenBuilder_.clear();
+        }
+        if (repDataTongJiAppBuilder_ == null) {
+          repDataTongJiApp_ = java.util.Collections.emptyList();
+          bitField1_ = (bitField1_ & ~0x02000000);
+        } else {
+          repDataTongJiAppBuilder_.clear();
+        }
+        if (repDataMessageChannelSubtypeBuilder_ == null) {
+          repDataMessageChannelSubtype_ = java.util.Collections.emptyList();
+          bitField1_ = (bitField1_ & ~0x04000000);
+        } else {
+          repDataMessageChannelSubtypeBuilder_.clear();
+        }
+        if (repDataUserGetPropResponseBuilder_ == null) {
+          repDataUserGetPropResponse_ = java.util.Collections.emptyList();
+          bitField1_ = (bitField1_ & ~0x08000000);
+        } else {
+          repDataUserGetPropResponseBuilder_.clear();
+        }
+        if (repDataQuoteBOrderSingleBuilder_ == null) {
+          repDataQuoteBOrderSingle_ = java.util.Collections.emptyList();
+          bitField1_ = (bitField1_ & ~0x10000000);
+        } else {
+          repDataQuoteBOrderSingleBuilder_.clear();
+        }
+        if (repDataDXSpiritBuilder_ == null) {
+          repDataDXSpirit_ = java.util.Collections.emptyList();
+          bitField1_ = (bitField1_ & ~0x20000000);
+        } else {
+          repDataDXSpiritBuilder_.clear();
+        }
+        if (repDataStkPoolOuputBuilder_ == null) {
+          repDataStkPoolOuput_ = java.util.Collections.emptyList();
+          bitField1_ = (bitField1_ & ~0x40000000);
+        } else {
+          repDataStkPoolOuputBuilder_.clear();
+        }
+        if (repDataEventNewsBuilder_ == null) {
+          repDataEventNews_ = java.util.Collections.emptyList();
+          bitField1_ = (bitField1_ & ~0x80000000);
+        } else {
+          repDataEventNewsBuilder_.clear();
         }
         return this;
       }
@@ -7955,482 +9016,549 @@ public final class AutoMsg {
         } else {
           result.tbl_ = tblBuilder_.build();
         }
+        if (((from_bitField0_ & 0x00000008) == 0x00000008)) {
+          to_bitField0_ |= 0x00000008;
+        }
+        result.jsonTbl_ = jsonTbl_;
         if (repDataQuoteDynaSingleBuilder_ == null) {
-          if (((bitField0_ & 0x00000008) == 0x00000008)) {
+          if (((bitField0_ & 0x00000010) == 0x00000010)) {
             repDataQuoteDynaSingle_ = java.util.Collections.unmodifiableList(repDataQuoteDynaSingle_);
-            bitField0_ = (bitField0_ & ~0x00000008);
+            bitField0_ = (bitField0_ & ~0x00000010);
           }
           result.repDataQuoteDynaSingle_ = repDataQuoteDynaSingle_;
         } else {
           result.repDataQuoteDynaSingle_ = repDataQuoteDynaSingleBuilder_.build();
         }
         if (repDataQuoteKlineSingleBuilder_ == null) {
-          if (((bitField0_ & 0x00000010) == 0x00000010)) {
+          if (((bitField0_ & 0x00000020) == 0x00000020)) {
             repDataQuoteKlineSingle_ = java.util.Collections.unmodifiableList(repDataQuoteKlineSingle_);
-            bitField0_ = (bitField0_ & ~0x00000010);
+            bitField0_ = (bitField0_ & ~0x00000020);
           }
           result.repDataQuoteKlineSingle_ = repDataQuoteKlineSingle_;
         } else {
           result.repDataQuoteKlineSingle_ = repDataQuoteKlineSingleBuilder_.build();
         }
         if (repDataQuoteTickSingleBuilder_ == null) {
-          if (((bitField0_ & 0x00000020) == 0x00000020)) {
+          if (((bitField0_ & 0x00000040) == 0x00000040)) {
             repDataQuoteTickSingle_ = java.util.Collections.unmodifiableList(repDataQuoteTickSingle_);
-            bitField0_ = (bitField0_ & ~0x00000020);
+            bitField0_ = (bitField0_ & ~0x00000040);
           }
           result.repDataQuoteTickSingle_ = repDataQuoteTickSingle_;
         } else {
           result.repDataQuoteTickSingle_ = repDataQuoteTickSingleBuilder_.build();
         }
         if (repDataQuoteMinSingleBuilder_ == null) {
-          if (((bitField0_ & 0x00000040) == 0x00000040)) {
+          if (((bitField0_ & 0x00000080) == 0x00000080)) {
             repDataQuoteMinSingle_ = java.util.Collections.unmodifiableList(repDataQuoteMinSingle_);
-            bitField0_ = (bitField0_ & ~0x00000040);
+            bitField0_ = (bitField0_ & ~0x00000080);
           }
           result.repDataQuoteMinSingle_ = repDataQuoteMinSingle_;
         } else {
           result.repDataQuoteMinSingle_ = repDataQuoteMinSingleBuilder_.build();
         }
         if (repDataNewsInfoValueBuilder_ == null) {
-          if (((bitField0_ & 0x00000080) == 0x00000080)) {
+          if (((bitField0_ & 0x00000100) == 0x00000100)) {
             repDataNewsInfoValue_ = java.util.Collections.unmodifiableList(repDataNewsInfoValue_);
-            bitField0_ = (bitField0_ & ~0x00000080);
+            bitField0_ = (bitField0_ & ~0x00000100);
           }
           result.repDataNewsInfoValue_ = repDataNewsInfoValue_;
         } else {
           result.repDataNewsInfoValue_ = repDataNewsInfoValueBuilder_.build();
         }
         if (repDataZhiBiaoShuChuBuilder_ == null) {
-          if (((bitField0_ & 0x00000100) == 0x00000100)) {
+          if (((bitField0_ & 0x00000200) == 0x00000200)) {
             repDataZhiBiaoShuChu_ = java.util.Collections.unmodifiableList(repDataZhiBiaoShuChu_);
-            bitField0_ = (bitField0_ & ~0x00000100);
+            bitField0_ = (bitField0_ & ~0x00000200);
           }
           result.repDataZhiBiaoShuChu_ = repDataZhiBiaoShuChu_;
         } else {
           result.repDataZhiBiaoShuChu_ = repDataZhiBiaoShuChuBuilder_.build();
         }
         if (repDataZhiBiaoBuilder_ == null) {
-          if (((bitField0_ & 0x00000200) == 0x00000200)) {
+          if (((bitField0_ & 0x00000400) == 0x00000400)) {
             repDataZhiBiao_ = java.util.Collections.unmodifiableList(repDataZhiBiao_);
-            bitField0_ = (bitField0_ & ~0x00000200);
+            bitField0_ = (bitField0_ & ~0x00000400);
           }
           result.repDataZhiBiao_ = repDataZhiBiao_;
         } else {
           result.repDataZhiBiao_ = repDataZhiBiaoBuilder_.build();
         }
         if (repDataStkDataBuilder_ == null) {
-          if (((bitField0_ & 0x00000400) == 0x00000400)) {
+          if (((bitField0_ & 0x00000800) == 0x00000800)) {
             repDataStkData_ = java.util.Collections.unmodifiableList(repDataStkData_);
-            bitField0_ = (bitField0_ & ~0x00000400);
+            bitField0_ = (bitField0_ & ~0x00000800);
           }
           result.repDataStkData_ = repDataStkData_;
         } else {
           result.repDataStkData_ = repDataStkDataBuilder_.build();
         }
         if (repDataPaiXuBuilder_ == null) {
-          if (((bitField0_ & 0x00000800) == 0x00000800)) {
+          if (((bitField0_ & 0x00001000) == 0x00001000)) {
             repDataPaiXu_ = java.util.Collections.unmodifiableList(repDataPaiXu_);
-            bitField0_ = (bitField0_ & ~0x00000800);
+            bitField0_ = (bitField0_ & ~0x00001000);
           }
           result.repDataPaiXu_ = repDataPaiXu_;
         } else {
           result.repDataPaiXu_ = repDataPaiXuBuilder_.build();
         }
         if (repDataJianPanBaoShuChuBuilder_ == null) {
-          if (((bitField0_ & 0x00001000) == 0x00001000)) {
+          if (((bitField0_ & 0x00002000) == 0x00002000)) {
             repDataJianPanBaoShuChu_ = java.util.Collections.unmodifiableList(repDataJianPanBaoShuChu_);
-            bitField0_ = (bitField0_ & ~0x00001000);
+            bitField0_ = (bitField0_ & ~0x00002000);
           }
           result.repDataJianPanBaoShuChu_ = repDataJianPanBaoShuChu_;
         } else {
           result.repDataJianPanBaoShuChu_ = repDataJianPanBaoShuChuBuilder_.build();
         }
         if (repDataFenJiJiJinBuilder_ == null) {
-          if (((bitField0_ & 0x00002000) == 0x00002000)) {
+          if (((bitField0_ & 0x00004000) == 0x00004000)) {
             repDataFenJiJiJin_ = java.util.Collections.unmodifiableList(repDataFenJiJiJin_);
-            bitField0_ = (bitField0_ & ~0x00002000);
+            bitField0_ = (bitField0_ & ~0x00004000);
           }
           result.repDataFenJiJiJin_ = repDataFenJiJiJin_;
         } else {
           result.repDataFenJiJiJin_ = repDataFenJiJiJinBuilder_.build();
         }
         if (repDataMsgGetOutputBuilder_ == null) {
-          if (((bitField0_ & 0x00004000) == 0x00004000)) {
+          if (((bitField0_ & 0x00008000) == 0x00008000)) {
             repDataMsgGetOutput_ = java.util.Collections.unmodifiableList(repDataMsgGetOutput_);
-            bitField0_ = (bitField0_ & ~0x00004000);
+            bitField0_ = (bitField0_ & ~0x00008000);
           }
           result.repDataMsgGetOutput_ = repDataMsgGetOutput_;
         } else {
           result.repDataMsgGetOutput_ = repDataMsgGetOutputBuilder_.build();
         }
         if (repDataMsgPutOutputBuilder_ == null) {
-          if (((bitField0_ & 0x00008000) == 0x00008000)) {
+          if (((bitField0_ & 0x00010000) == 0x00010000)) {
             repDataMsgPutOutput_ = java.util.Collections.unmodifiableList(repDataMsgPutOutput_);
-            bitField0_ = (bitField0_ & ~0x00008000);
+            bitField0_ = (bitField0_ & ~0x00010000);
           }
           result.repDataMsgPutOutput_ = repDataMsgPutOutput_;
         } else {
           result.repDataMsgPutOutput_ = repDataMsgPutOutputBuilder_.build();
         }
         if (repDataBlockObjOutputBuilder_ == null) {
-          if (((bitField0_ & 0x00010000) == 0x00010000)) {
+          if (((bitField0_ & 0x00020000) == 0x00020000)) {
             repDataBlockObjOutput_ = java.util.Collections.unmodifiableList(repDataBlockObjOutput_);
-            bitField0_ = (bitField0_ & ~0x00010000);
+            bitField0_ = (bitField0_ & ~0x00020000);
           }
           result.repDataBlockObjOutput_ = repDataBlockObjOutput_;
         } else {
           result.repDataBlockObjOutput_ = repDataBlockObjOutputBuilder_.build();
         }
         if (repDataBlockPropOutputBuilder_ == null) {
-          if (((bitField0_ & 0x00020000) == 0x00020000)) {
+          if (((bitField0_ & 0x00040000) == 0x00040000)) {
             repDataBlockPropOutput_ = java.util.Collections.unmodifiableList(repDataBlockPropOutput_);
-            bitField0_ = (bitField0_ & ~0x00020000);
+            bitField0_ = (bitField0_ & ~0x00040000);
           }
           result.repDataBlockPropOutput_ = repDataBlockPropOutput_;
         } else {
           result.repDataBlockPropOutput_ = repDataBlockPropOutputBuilder_.build();
         }
         if (repDataSelfStockGetOutputBuilder_ == null) {
-          if (((bitField0_ & 0x00040000) == 0x00040000)) {
+          if (((bitField0_ & 0x00080000) == 0x00080000)) {
             repDataSelfStockGetOutput_ = java.util.Collections.unmodifiableList(repDataSelfStockGetOutput_);
-            bitField0_ = (bitField0_ & ~0x00040000);
+            bitField0_ = (bitField0_ & ~0x00080000);
           }
           result.repDataSelfStockGetOutput_ = repDataSelfStockGetOutput_;
         } else {
           result.repDataSelfStockGetOutput_ = repDataSelfStockGetOutputBuilder_.build();
         }
         if (repDataSelfStockPutOutputBuilder_ == null) {
-          if (((bitField0_ & 0x00080000) == 0x00080000)) {
+          if (((bitField0_ & 0x00100000) == 0x00100000)) {
             repDataSelfStockPutOutput_ = java.util.Collections.unmodifiableList(repDataSelfStockPutOutput_);
-            bitField0_ = (bitField0_ & ~0x00080000);
+            bitField0_ = (bitField0_ & ~0x00100000);
           }
           result.repDataSelfStockPutOutput_ = repDataSelfStockPutOutput_;
         } else {
           result.repDataSelfStockPutOutput_ = repDataSelfStockPutOutputBuilder_.build();
         }
         if (repDataAppKeyBuilder_ == null) {
-          if (((bitField0_ & 0x00100000) == 0x00100000)) {
+          if (((bitField0_ & 0x00200000) == 0x00200000)) {
             repDataAppKey_ = java.util.Collections.unmodifiableList(repDataAppKey_);
-            bitField0_ = (bitField0_ & ~0x00100000);
+            bitField0_ = (bitField0_ & ~0x00200000);
           }
           result.repDataAppKey_ = repDataAppKey_;
         } else {
           result.repDataAppKey_ = repDataAppKeyBuilder_.build();
         }
         if (repDataAppInfoBuilder_ == null) {
-          if (((bitField0_ & 0x00200000) == 0x00200000)) {
+          if (((bitField0_ & 0x00400000) == 0x00400000)) {
             repDataAppInfo_ = java.util.Collections.unmodifiableList(repDataAppInfo_);
-            bitField0_ = (bitField0_ & ~0x00200000);
+            bitField0_ = (bitField0_ & ~0x00400000);
           }
           result.repDataAppInfo_ = repDataAppInfo_;
         } else {
           result.repDataAppInfo_ = repDataAppInfoBuilder_.build();
         }
         if (repDataAppValueBuilder_ == null) {
-          if (((bitField0_ & 0x00400000) == 0x00400000)) {
+          if (((bitField0_ & 0x00800000) == 0x00800000)) {
             repDataAppValue_ = java.util.Collections.unmodifiableList(repDataAppValue_);
-            bitField0_ = (bitField0_ & ~0x00400000);
+            bitField0_ = (bitField0_ & ~0x00800000);
           }
           result.repDataAppValue_ = repDataAppValue_;
         } else {
           result.repDataAppValue_ = repDataAppValueBuilder_.build();
         }
         if (repDataServiceAuthBuilder_ == null) {
-          if (((bitField0_ & 0x00800000) == 0x00800000)) {
+          if (((bitField0_ & 0x01000000) == 0x01000000)) {
             repDataServiceAuth_ = java.util.Collections.unmodifiableList(repDataServiceAuth_);
-            bitField0_ = (bitField0_ & ~0x00800000);
+            bitField0_ = (bitField0_ & ~0x01000000);
           }
           result.repDataServiceAuth_ = repDataServiceAuth_;
         } else {
           result.repDataServiceAuth_ = repDataServiceAuthBuilder_.build();
         }
         if (repDataAppServiceAuthBuilder_ == null) {
-          if (((bitField0_ & 0x01000000) == 0x01000000)) {
+          if (((bitField0_ & 0x02000000) == 0x02000000)) {
             repDataAppServiceAuth_ = java.util.Collections.unmodifiableList(repDataAppServiceAuth_);
-            bitField0_ = (bitField0_ & ~0x01000000);
+            bitField0_ = (bitField0_ & ~0x02000000);
           }
           result.repDataAppServiceAuth_ = repDataAppServiceAuth_;
         } else {
           result.repDataAppServiceAuth_ = repDataAppServiceAuthBuilder_.build();
         }
         if (repDataTokenAuthBuilder_ == null) {
-          if (((bitField0_ & 0x02000000) == 0x02000000)) {
+          if (((bitField0_ & 0x04000000) == 0x04000000)) {
             repDataTokenAuth_ = java.util.Collections.unmodifiableList(repDataTokenAuth_);
-            bitField0_ = (bitField0_ & ~0x02000000);
+            bitField0_ = (bitField0_ & ~0x04000000);
           }
           result.repDataTokenAuth_ = repDataTokenAuth_;
         } else {
           result.repDataTokenAuth_ = repDataTokenAuthBuilder_.build();
         }
         if (repDataAccOpResponseBuilder_ == null) {
-          if (((bitField0_ & 0x04000000) == 0x04000000)) {
+          if (((bitField0_ & 0x08000000) == 0x08000000)) {
             repDataAccOpResponse_ = java.util.Collections.unmodifiableList(repDataAccOpResponse_);
-            bitField0_ = (bitField0_ & ~0x04000000);
+            bitField0_ = (bitField0_ & ~0x08000000);
           }
           result.repDataAccOpResponse_ = repDataAccOpResponse_;
         } else {
           result.repDataAccOpResponse_ = repDataAccOpResponseBuilder_.build();
         }
         if (repDataTokenBuilder_ == null) {
-          if (((bitField0_ & 0x08000000) == 0x08000000)) {
+          if (((bitField0_ & 0x10000000) == 0x10000000)) {
             repDataToken_ = java.util.Collections.unmodifiableList(repDataToken_);
-            bitField0_ = (bitField0_ & ~0x08000000);
+            bitField0_ = (bitField0_ & ~0x10000000);
           }
           result.repDataToken_ = repDataToken_;
         } else {
           result.repDataToken_ = repDataTokenBuilder_.build();
         }
         if (repDataPrivilegeBuilder_ == null) {
-          if (((bitField0_ & 0x10000000) == 0x10000000)) {
+          if (((bitField0_ & 0x20000000) == 0x20000000)) {
             repDataPrivilege_ = java.util.Collections.unmodifiableList(repDataPrivilege_);
-            bitField0_ = (bitField0_ & ~0x10000000);
+            bitField0_ = (bitField0_ & ~0x20000000);
           }
           result.repDataPrivilege_ = repDataPrivilege_;
         } else {
           result.repDataPrivilege_ = repDataPrivilegeBuilder_.build();
         }
         if (repDataAlarmEventBuilder_ == null) {
-          if (((bitField0_ & 0x20000000) == 0x20000000)) {
+          if (((bitField0_ & 0x40000000) == 0x40000000)) {
             repDataAlarmEvent_ = java.util.Collections.unmodifiableList(repDataAlarmEvent_);
-            bitField0_ = (bitField0_ & ~0x20000000);
+            bitField0_ = (bitField0_ & ~0x40000000);
           }
           result.repDataAlarmEvent_ = repDataAlarmEvent_;
         } else {
           result.repDataAlarmEvent_ = repDataAlarmEventBuilder_.build();
         }
         if (repDataAlarmTaskBuilder_ == null) {
-          if (((bitField0_ & 0x40000000) == 0x40000000)) {
+          if (((bitField0_ & 0x80000000) == 0x80000000)) {
             repDataAlarmTask_ = java.util.Collections.unmodifiableList(repDataAlarmTask_);
-            bitField0_ = (bitField0_ & ~0x40000000);
+            bitField0_ = (bitField0_ & ~0x80000000);
           }
           result.repDataAlarmTask_ = repDataAlarmTask_;
         } else {
           result.repDataAlarmTask_ = repDataAlarmTaskBuilder_.build();
         }
         if (repDataADPutResponseBuilder_ == null) {
-          if (((bitField0_ & 0x80000000) == 0x80000000)) {
+          if (((bitField1_ & 0x00000001) == 0x00000001)) {
             repDataADPutResponse_ = java.util.Collections.unmodifiableList(repDataADPutResponse_);
-            bitField0_ = (bitField0_ & ~0x80000000);
+            bitField1_ = (bitField1_ & ~0x00000001);
           }
           result.repDataADPutResponse_ = repDataADPutResponse_;
         } else {
           result.repDataADPutResponse_ = repDataADPutResponseBuilder_.build();
         }
         if (repDataADGetResponseBuilder_ == null) {
-          if (((bitField1_ & 0x00000001) == 0x00000001)) {
+          if (((bitField1_ & 0x00000002) == 0x00000002)) {
             repDataADGetResponse_ = java.util.Collections.unmodifiableList(repDataADGetResponse_);
-            bitField1_ = (bitField1_ & ~0x00000001);
+            bitField1_ = (bitField1_ & ~0x00000002);
           }
           result.repDataADGetResponse_ = repDataADGetResponse_;
         } else {
           result.repDataADGetResponse_ = repDataADGetResponseBuilder_.build();
         }
         if (repDataUserGroupBuilder_ == null) {
-          if (((bitField1_ & 0x00000002) == 0x00000002)) {
+          if (((bitField1_ & 0x00000004) == 0x00000004)) {
             repDataUserGroup_ = java.util.Collections.unmodifiableList(repDataUserGroup_);
-            bitField1_ = (bitField1_ & ~0x00000002);
+            bitField1_ = (bitField1_ & ~0x00000004);
           }
           result.repDataUserGroup_ = repDataUserGroup_;
         } else {
           result.repDataUserGroup_ = repDataUserGroupBuilder_.build();
         }
         if (repDataUserGroupResponseBuilder_ == null) {
-          if (((bitField1_ & 0x00000004) == 0x00000004)) {
+          if (((bitField1_ & 0x00000008) == 0x00000008)) {
             repDataUserGroupResponse_ = java.util.Collections.unmodifiableList(repDataUserGroupResponse_);
-            bitField1_ = (bitField1_ & ~0x00000004);
+            bitField1_ = (bitField1_ & ~0x00000008);
           }
           result.repDataUserGroupResponse_ = repDataUserGroupResponse_;
         } else {
           result.repDataUserGroupResponse_ = repDataUserGroupResponseBuilder_.build();
         }
         if (repDataUserPropsMessageBuilder_ == null) {
-          if (((bitField1_ & 0x00000008) == 0x00000008)) {
+          if (((bitField1_ & 0x00000010) == 0x00000010)) {
             repDataUserPropsMessage_ = java.util.Collections.unmodifiableList(repDataUserPropsMessage_);
-            bitField1_ = (bitField1_ & ~0x00000008);
+            bitField1_ = (bitField1_ & ~0x00000010);
           }
           result.repDataUserPropsMessage_ = repDataUserPropsMessage_;
         } else {
           result.repDataUserPropsMessage_ = repDataUserPropsMessageBuilder_.build();
         }
         if (repDataTopicInvestBuilder_ == null) {
-          if (((bitField1_ & 0x00000010) == 0x00000010)) {
+          if (((bitField1_ & 0x00000020) == 0x00000020)) {
             repDataTopicInvest_ = java.util.Collections.unmodifiableList(repDataTopicInvest_);
-            bitField1_ = (bitField1_ & ~0x00000010);
+            bitField1_ = (bitField1_ & ~0x00000020);
           }
           result.repDataTopicInvest_ = repDataTopicInvest_;
         } else {
           result.repDataTopicInvest_ = repDataTopicInvestBuilder_.build();
         }
         if (repDataTopicInvestHistoryBuilder_ == null) {
-          if (((bitField1_ & 0x00000020) == 0x00000020)) {
+          if (((bitField1_ & 0x00000040) == 0x00000040)) {
             repDataTopicInvestHistory_ = java.util.Collections.unmodifiableList(repDataTopicInvestHistory_);
-            bitField1_ = (bitField1_ & ~0x00000020);
+            bitField1_ = (bitField1_ & ~0x00000040);
           }
           result.repDataTopicInvestHistory_ = repDataTopicInvestHistory_;
         } else {
           result.repDataTopicInvestHistory_ = repDataTopicInvestHistoryBuilder_.build();
         }
         if (repDataF10GsgkOutputBuilder_ == null) {
-          if (((bitField1_ & 0x00000040) == 0x00000040)) {
+          if (((bitField1_ & 0x00000080) == 0x00000080)) {
             repDataF10GsgkOutput_ = java.util.Collections.unmodifiableList(repDataF10GsgkOutput_);
-            bitField1_ = (bitField1_ & ~0x00000040);
+            bitField1_ = (bitField1_ & ~0x00000080);
           }
           result.repDataF10GsgkOutput_ = repDataF10GsgkOutput_;
         } else {
           result.repDataF10GsgkOutput_ = repDataF10GsgkOutputBuilder_.build();
         }
         if (repDataF10CwtsZycwzbOutputBuilder_ == null) {
-          if (((bitField1_ & 0x00000080) == 0x00000080)) {
+          if (((bitField1_ & 0x00000100) == 0x00000100)) {
             repDataF10CwtsZycwzbOutput_ = java.util.Collections.unmodifiableList(repDataF10CwtsZycwzbOutput_);
-            bitField1_ = (bitField1_ & ~0x00000080);
+            bitField1_ = (bitField1_ & ~0x00000100);
           }
           result.repDataF10CwtsZycwzbOutput_ = repDataF10CwtsZycwzbOutput_;
         } else {
           result.repDataF10CwtsZycwzbOutput_ = repDataF10CwtsZycwzbOutputBuilder_.build();
         }
         if (repDataF10CwtsXjllbzyOutputBuilder_ == null) {
-          if (((bitField1_ & 0x00000100) == 0x00000100)) {
+          if (((bitField1_ & 0x00000200) == 0x00000200)) {
             repDataF10CwtsXjllbzyOutput_ = java.util.Collections.unmodifiableList(repDataF10CwtsXjllbzyOutput_);
-            bitField1_ = (bitField1_ & ~0x00000100);
+            bitField1_ = (bitField1_ & ~0x00000200);
           }
           result.repDataF10CwtsXjllbzyOutput_ = repDataF10CwtsXjllbzyOutput_;
         } else {
           result.repDataF10CwtsXjllbzyOutput_ = repDataF10CwtsXjllbzyOutputBuilder_.build();
         }
         if (repDataF10ZxjbDjdcwzbOutputBuilder_ == null) {
-          if (((bitField1_ & 0x00000200) == 0x00000200)) {
+          if (((bitField1_ & 0x00000400) == 0x00000400)) {
             repDataF10ZxjbDjdcwzbOutput_ = java.util.Collections.unmodifiableList(repDataF10ZxjbDjdcwzbOutput_);
-            bitField1_ = (bitField1_ & ~0x00000200);
+            bitField1_ = (bitField1_ & ~0x00000400);
           }
           result.repDataF10ZxjbDjdcwzbOutput_ = repDataF10ZxjbDjdcwzbOutput_;
         } else {
           result.repDataF10ZxjbDjdcwzbOutput_ = repDataF10ZxjbDjdcwzbOutputBuilder_.build();
         }
         if (repDataF10ZxjbdjdlebOutputBuilder_ == null) {
-          if (((bitField1_ & 0x00000400) == 0x00000400)) {
+          if (((bitField1_ & 0x00000800) == 0x00000800)) {
             repDataF10ZxjbdjdlebOutput_ = java.util.Collections.unmodifiableList(repDataF10ZxjbdjdlebOutput_);
-            bitField1_ = (bitField1_ & ~0x00000400);
+            bitField1_ = (bitField1_ & ~0x00000800);
           }
           result.repDataF10ZxjbdjdlebOutput_ = repDataF10ZxjbdjdlebOutput_;
         } else {
           result.repDataF10ZxjbdjdlebOutput_ = repDataF10ZxjbdjdlebOutputBuilder_.build();
         }
         if (repDataF10GdjcGdhsOutputBuilder_ == null) {
-          if (((bitField1_ & 0x00000800) == 0x00000800)) {
+          if (((bitField1_ & 0x00001000) == 0x00001000)) {
             repDataF10GdjcGdhsOutput_ = java.util.Collections.unmodifiableList(repDataF10GdjcGdhsOutput_);
-            bitField1_ = (bitField1_ & ~0x00000800);
+            bitField1_ = (bitField1_ & ~0x00001000);
           }
           result.repDataF10GdjcGdhsOutput_ = repDataF10GdjcGdhsOutput_;
         } else {
           result.repDataF10GdjcGdhsOutput_ = repDataF10GdjcGdhsOutputBuilder_.build();
         }
         if (repDataF10GdjcSdgdOutputBuilder_ == null) {
-          if (((bitField1_ & 0x00001000) == 0x00001000)) {
+          if (((bitField1_ & 0x00002000) == 0x00002000)) {
             repDataF10GdjcSdgdOutput_ = java.util.Collections.unmodifiableList(repDataF10GdjcSdgdOutput_);
-            bitField1_ = (bitField1_ & ~0x00001000);
+            bitField1_ = (bitField1_ & ~0x00002000);
           }
           result.repDataF10GdjcSdgdOutput_ = repDataF10GdjcSdgdOutput_;
         } else {
           result.repDataF10GdjcSdgdOutput_ = repDataF10GdjcSdgdOutputBuilder_.build();
         }
         if (repDataF10GdjcSdltgdOutputBuilder_ == null) {
-          if (((bitField1_ & 0x00002000) == 0x00002000)) {
+          if (((bitField1_ & 0x00004000) == 0x00004000)) {
             repDataF10GdjcSdltgdOutput_ = java.util.Collections.unmodifiableList(repDataF10GdjcSdltgdOutput_);
-            bitField1_ = (bitField1_ & ~0x00002000);
+            bitField1_ = (bitField1_ & ~0x00004000);
           }
           result.repDataF10GdjcSdltgdOutput_ = repDataF10GdjcSdltgdOutput_;
         } else {
           result.repDataF10GdjcSdltgdOutput_ = repDataF10GdjcSdltgdOutputBuilder_.build();
         }
         if (repDataF10GbfhFhkgOutputBuilder_ == null) {
-          if (((bitField1_ & 0x00004000) == 0x00004000)) {
+          if (((bitField1_ & 0x00008000) == 0x00008000)) {
             repDataF10GbfhFhkgOutput_ = java.util.Collections.unmodifiableList(repDataF10GbfhFhkgOutput_);
-            bitField1_ = (bitField1_ & ~0x00004000);
+            bitField1_ = (bitField1_ & ~0x00008000);
           }
           result.repDataF10GbfhFhkgOutput_ = repDataF10GbfhFhkgOutput_;
         } else {
           result.repDataF10GbfhFhkgOutput_ = repDataF10GbfhFhkgOutputBuilder_.build();
         }
         if (repDataF10GbfhGbjgOutputBuilder_ == null) {
-          if (((bitField1_ & 0x00008000) == 0x00008000)) {
+          if (((bitField1_ & 0x00010000) == 0x00010000)) {
             repDataF10GbfhGbjgOutput_ = java.util.Collections.unmodifiableList(repDataF10GbfhGbjgOutput_);
-            bitField1_ = (bitField1_ & ~0x00008000);
+            bitField1_ = (bitField1_ & ~0x00010000);
           }
           result.repDataF10GbfhGbjgOutput_ = repDataF10GbfhGbjgOutput_;
         } else {
           result.repDataF10GbfhGbjgOutput_ = repDataF10GbfhGbjgOutputBuilder_.build();
         }
         if (repDataXinWenXinXiOutputBuilder_ == null) {
-          if (((bitField1_ & 0x00010000) == 0x00010000)) {
+          if (((bitField1_ & 0x00020000) == 0x00020000)) {
             repDataXinWenXinXiOutput_ = java.util.Collections.unmodifiableList(repDataXinWenXinXiOutput_);
-            bitField1_ = (bitField1_ & ~0x00010000);
+            bitField1_ = (bitField1_ & ~0x00020000);
           }
           result.repDataXinWenXinXiOutput_ = repDataXinWenXinXiOutput_;
         } else {
           result.repDataXinWenXinXiOutput_ = repDataXinWenXinXiOutputBuilder_.build();
         }
         if (repDataXinWenXinXiZhongXinOutputBuilder_ == null) {
-          if (((bitField1_ & 0x00020000) == 0x00020000)) {
+          if (((bitField1_ & 0x00040000) == 0x00040000)) {
             repDataXinWenXinXiZhongXinOutput_ = java.util.Collections.unmodifiableList(repDataXinWenXinXiZhongXinOutput_);
-            bitField1_ = (bitField1_ & ~0x00020000);
+            bitField1_ = (bitField1_ & ~0x00040000);
           }
           result.repDataXinWenXinXiZhongXinOutput_ = repDataXinWenXinXiZhongXinOutput_;
         } else {
           result.repDataXinWenXinXiZhongXinOutput_ = repDataXinWenXinXiZhongXinOutputBuilder_.build();
         }
         if (repDataTopicInvestInfoBuilder_ == null) {
-          if (((bitField1_ & 0x00040000) == 0x00040000)) {
+          if (((bitField1_ & 0x00080000) == 0x00080000)) {
             repDataTopicInvestInfo_ = java.util.Collections.unmodifiableList(repDataTopicInvestInfo_);
-            bitField1_ = (bitField1_ & ~0x00040000);
+            bitField1_ = (bitField1_ & ~0x00080000);
           }
           result.repDataTopicInvestInfo_ = repDataTopicInvestInfo_;
         } else {
           result.repDataTopicInvestInfo_ = repDataTopicInvestInfoBuilder_.build();
         }
         if (repDataYiZhiXinYeJiYuCeOutPutBuilder_ == null) {
-          if (((bitField1_ & 0x00080000) == 0x00080000)) {
+          if (((bitField1_ & 0x00100000) == 0x00100000)) {
             repDataYiZhiXinYeJiYuCeOutPut_ = java.util.Collections.unmodifiableList(repDataYiZhiXinYeJiYuCeOutPut_);
-            bitField1_ = (bitField1_ & ~0x00080000);
+            bitField1_ = (bitField1_ & ~0x00100000);
           }
           result.repDataYiZhiXinYeJiYuCeOutPut_ = repDataYiZhiXinYeJiYuCeOutPut_;
         } else {
           result.repDataYiZhiXinYeJiYuCeOutPut_ = repDataYiZhiXinYeJiYuCeOutPutBuilder_.build();
         }
         if (repDataYiZhiXinTouZiPinJiOutPutBuilder_ == null) {
-          if (((bitField1_ & 0x00100000) == 0x00100000)) {
+          if (((bitField1_ & 0x00200000) == 0x00200000)) {
             repDataYiZhiXinTouZiPinJiOutPut_ = java.util.Collections.unmodifiableList(repDataYiZhiXinTouZiPinJiOutPut_);
-            bitField1_ = (bitField1_ & ~0x00100000);
+            bitField1_ = (bitField1_ & ~0x00200000);
           }
           result.repDataYiZhiXinTouZiPinJiOutPut_ = repDataYiZhiXinTouZiPinJiOutPut_;
         } else {
           result.repDataYiZhiXinTouZiPinJiOutPut_ = repDataYiZhiXinTouZiPinJiOutPutBuilder_.build();
         }
         if (repDataGeGuYeJiYuCeOutPutBuilder_ == null) {
-          if (((bitField1_ & 0x00200000) == 0x00200000)) {
+          if (((bitField1_ & 0x00400000) == 0x00400000)) {
             repDataGeGuYeJiYuCeOutPut_ = java.util.Collections.unmodifiableList(repDataGeGuYeJiYuCeOutPut_);
-            bitField1_ = (bitField1_ & ~0x00200000);
+            bitField1_ = (bitField1_ & ~0x00400000);
           }
           result.repDataGeGuYeJiYuCeOutPut_ = repDataGeGuYeJiYuCeOutPut_;
         } else {
           result.repDataGeGuYeJiYuCeOutPut_ = repDataGeGuYeJiYuCeOutPutBuilder_.build();
         }
         if (repDataGeGuTouZiYanBaoOutPutBuilder_ == null) {
-          if (((bitField1_ & 0x00400000) == 0x00400000)) {
+          if (((bitField1_ & 0x00800000) == 0x00800000)) {
             repDataGeGuTouZiYanBaoOutPut_ = java.util.Collections.unmodifiableList(repDataGeGuTouZiYanBaoOutPut_);
-            bitField1_ = (bitField1_ & ~0x00400000);
+            bitField1_ = (bitField1_ & ~0x00800000);
           }
           result.repDataGeGuTouZiYanBaoOutPut_ = repDataGeGuTouZiYanBaoOutPut_;
         } else {
           result.repDataGeGuTouZiYanBaoOutPut_ = repDataGeGuTouZiYanBaoOutPutBuilder_.build();
         }
         if (repDataDSTokenBuilder_ == null) {
-          if (((bitField1_ & 0x00800000) == 0x00800000)) {
+          if (((bitField1_ & 0x01000000) == 0x01000000)) {
             repDataDSToken_ = java.util.Collections.unmodifiableList(repDataDSToken_);
-            bitField1_ = (bitField1_ & ~0x00800000);
+            bitField1_ = (bitField1_ & ~0x01000000);
           }
           result.repDataDSToken_ = repDataDSToken_;
         } else {
           result.repDataDSToken_ = repDataDSTokenBuilder_.build();
+        }
+        if (repDataTongJiAppBuilder_ == null) {
+          if (((bitField1_ & 0x02000000) == 0x02000000)) {
+            repDataTongJiApp_ = java.util.Collections.unmodifiableList(repDataTongJiApp_);
+            bitField1_ = (bitField1_ & ~0x02000000);
+          }
+          result.repDataTongJiApp_ = repDataTongJiApp_;
+        } else {
+          result.repDataTongJiApp_ = repDataTongJiAppBuilder_.build();
+        }
+        if (repDataMessageChannelSubtypeBuilder_ == null) {
+          if (((bitField1_ & 0x04000000) == 0x04000000)) {
+            repDataMessageChannelSubtype_ = java.util.Collections.unmodifiableList(repDataMessageChannelSubtype_);
+            bitField1_ = (bitField1_ & ~0x04000000);
+          }
+          result.repDataMessageChannelSubtype_ = repDataMessageChannelSubtype_;
+        } else {
+          result.repDataMessageChannelSubtype_ = repDataMessageChannelSubtypeBuilder_.build();
+        }
+        if (repDataUserGetPropResponseBuilder_ == null) {
+          if (((bitField1_ & 0x08000000) == 0x08000000)) {
+            repDataUserGetPropResponse_ = java.util.Collections.unmodifiableList(repDataUserGetPropResponse_);
+            bitField1_ = (bitField1_ & ~0x08000000);
+          }
+          result.repDataUserGetPropResponse_ = repDataUserGetPropResponse_;
+        } else {
+          result.repDataUserGetPropResponse_ = repDataUserGetPropResponseBuilder_.build();
+        }
+        if (repDataQuoteBOrderSingleBuilder_ == null) {
+          if (((bitField1_ & 0x10000000) == 0x10000000)) {
+            repDataQuoteBOrderSingle_ = java.util.Collections.unmodifiableList(repDataQuoteBOrderSingle_);
+            bitField1_ = (bitField1_ & ~0x10000000);
+          }
+          result.repDataQuoteBOrderSingle_ = repDataQuoteBOrderSingle_;
+        } else {
+          result.repDataQuoteBOrderSingle_ = repDataQuoteBOrderSingleBuilder_.build();
+        }
+        if (repDataDXSpiritBuilder_ == null) {
+          if (((bitField1_ & 0x20000000) == 0x20000000)) {
+            repDataDXSpirit_ = java.util.Collections.unmodifiableList(repDataDXSpirit_);
+            bitField1_ = (bitField1_ & ~0x20000000);
+          }
+          result.repDataDXSpirit_ = repDataDXSpirit_;
+        } else {
+          result.repDataDXSpirit_ = repDataDXSpiritBuilder_.build();
+        }
+        if (repDataStkPoolOuputBuilder_ == null) {
+          if (((bitField1_ & 0x40000000) == 0x40000000)) {
+            repDataStkPoolOuput_ = java.util.Collections.unmodifiableList(repDataStkPoolOuput_);
+            bitField1_ = (bitField1_ & ~0x40000000);
+          }
+          result.repDataStkPoolOuput_ = repDataStkPoolOuput_;
+        } else {
+          result.repDataStkPoolOuput_ = repDataStkPoolOuputBuilder_.build();
+        }
+        if (repDataEventNewsBuilder_ == null) {
+          if (((bitField1_ & 0x80000000) == 0x80000000)) {
+            repDataEventNews_ = java.util.Collections.unmodifiableList(repDataEventNews_);
+            bitField1_ = (bitField1_ & ~0x80000000);
+          }
+          result.repDataEventNews_ = repDataEventNews_;
+        } else {
+          result.repDataEventNews_ = repDataEventNewsBuilder_.build();
         }
         result.bitField0_ = to_bitField0_;
         onBuilt();
@@ -8459,11 +9587,16 @@ public final class AutoMsg {
         if (other.hasTbl()) {
           mergeTbl(other.getTbl());
         }
+        if (other.hasJsonTbl()) {
+          bitField0_ |= 0x00000008;
+          jsonTbl_ = other.jsonTbl_;
+          onChanged();
+        }
         if (repDataQuoteDynaSingleBuilder_ == null) {
           if (!other.repDataQuoteDynaSingle_.isEmpty()) {
             if (repDataQuoteDynaSingle_.isEmpty()) {
               repDataQuoteDynaSingle_ = other.repDataQuoteDynaSingle_;
-              bitField0_ = (bitField0_ & ~0x00000008);
+              bitField0_ = (bitField0_ & ~0x00000010);
             } else {
               ensureRepDataQuoteDynaSingleIsMutable();
               repDataQuoteDynaSingle_.addAll(other.repDataQuoteDynaSingle_);
@@ -8476,7 +9609,7 @@ public final class AutoMsg {
               repDataQuoteDynaSingleBuilder_.dispose();
               repDataQuoteDynaSingleBuilder_ = null;
               repDataQuoteDynaSingle_ = other.repDataQuoteDynaSingle_;
-              bitField0_ = (bitField0_ & ~0x00000008);
+              bitField0_ = (bitField0_ & ~0x00000010);
               repDataQuoteDynaSingleBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataQuoteDynaSingleFieldBuilder() : null;
@@ -8489,7 +9622,7 @@ public final class AutoMsg {
           if (!other.repDataQuoteKlineSingle_.isEmpty()) {
             if (repDataQuoteKlineSingle_.isEmpty()) {
               repDataQuoteKlineSingle_ = other.repDataQuoteKlineSingle_;
-              bitField0_ = (bitField0_ & ~0x00000010);
+              bitField0_ = (bitField0_ & ~0x00000020);
             } else {
               ensureRepDataQuoteKlineSingleIsMutable();
               repDataQuoteKlineSingle_.addAll(other.repDataQuoteKlineSingle_);
@@ -8502,7 +9635,7 @@ public final class AutoMsg {
               repDataQuoteKlineSingleBuilder_.dispose();
               repDataQuoteKlineSingleBuilder_ = null;
               repDataQuoteKlineSingle_ = other.repDataQuoteKlineSingle_;
-              bitField0_ = (bitField0_ & ~0x00000010);
+              bitField0_ = (bitField0_ & ~0x00000020);
               repDataQuoteKlineSingleBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataQuoteKlineSingleFieldBuilder() : null;
@@ -8515,7 +9648,7 @@ public final class AutoMsg {
           if (!other.repDataQuoteTickSingle_.isEmpty()) {
             if (repDataQuoteTickSingle_.isEmpty()) {
               repDataQuoteTickSingle_ = other.repDataQuoteTickSingle_;
-              bitField0_ = (bitField0_ & ~0x00000020);
+              bitField0_ = (bitField0_ & ~0x00000040);
             } else {
               ensureRepDataQuoteTickSingleIsMutable();
               repDataQuoteTickSingle_.addAll(other.repDataQuoteTickSingle_);
@@ -8528,7 +9661,7 @@ public final class AutoMsg {
               repDataQuoteTickSingleBuilder_.dispose();
               repDataQuoteTickSingleBuilder_ = null;
               repDataQuoteTickSingle_ = other.repDataQuoteTickSingle_;
-              bitField0_ = (bitField0_ & ~0x00000020);
+              bitField0_ = (bitField0_ & ~0x00000040);
               repDataQuoteTickSingleBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataQuoteTickSingleFieldBuilder() : null;
@@ -8541,7 +9674,7 @@ public final class AutoMsg {
           if (!other.repDataQuoteMinSingle_.isEmpty()) {
             if (repDataQuoteMinSingle_.isEmpty()) {
               repDataQuoteMinSingle_ = other.repDataQuoteMinSingle_;
-              bitField0_ = (bitField0_ & ~0x00000040);
+              bitField0_ = (bitField0_ & ~0x00000080);
             } else {
               ensureRepDataQuoteMinSingleIsMutable();
               repDataQuoteMinSingle_.addAll(other.repDataQuoteMinSingle_);
@@ -8554,7 +9687,7 @@ public final class AutoMsg {
               repDataQuoteMinSingleBuilder_.dispose();
               repDataQuoteMinSingleBuilder_ = null;
               repDataQuoteMinSingle_ = other.repDataQuoteMinSingle_;
-              bitField0_ = (bitField0_ & ~0x00000040);
+              bitField0_ = (bitField0_ & ~0x00000080);
               repDataQuoteMinSingleBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataQuoteMinSingleFieldBuilder() : null;
@@ -8567,7 +9700,7 @@ public final class AutoMsg {
           if (!other.repDataNewsInfoValue_.isEmpty()) {
             if (repDataNewsInfoValue_.isEmpty()) {
               repDataNewsInfoValue_ = other.repDataNewsInfoValue_;
-              bitField0_ = (bitField0_ & ~0x00000080);
+              bitField0_ = (bitField0_ & ~0x00000100);
             } else {
               ensureRepDataNewsInfoValueIsMutable();
               repDataNewsInfoValue_.addAll(other.repDataNewsInfoValue_);
@@ -8580,7 +9713,7 @@ public final class AutoMsg {
               repDataNewsInfoValueBuilder_.dispose();
               repDataNewsInfoValueBuilder_ = null;
               repDataNewsInfoValue_ = other.repDataNewsInfoValue_;
-              bitField0_ = (bitField0_ & ~0x00000080);
+              bitField0_ = (bitField0_ & ~0x00000100);
               repDataNewsInfoValueBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataNewsInfoValueFieldBuilder() : null;
@@ -8593,7 +9726,7 @@ public final class AutoMsg {
           if (!other.repDataZhiBiaoShuChu_.isEmpty()) {
             if (repDataZhiBiaoShuChu_.isEmpty()) {
               repDataZhiBiaoShuChu_ = other.repDataZhiBiaoShuChu_;
-              bitField0_ = (bitField0_ & ~0x00000100);
+              bitField0_ = (bitField0_ & ~0x00000200);
             } else {
               ensureRepDataZhiBiaoShuChuIsMutable();
               repDataZhiBiaoShuChu_.addAll(other.repDataZhiBiaoShuChu_);
@@ -8606,7 +9739,7 @@ public final class AutoMsg {
               repDataZhiBiaoShuChuBuilder_.dispose();
               repDataZhiBiaoShuChuBuilder_ = null;
               repDataZhiBiaoShuChu_ = other.repDataZhiBiaoShuChu_;
-              bitField0_ = (bitField0_ & ~0x00000100);
+              bitField0_ = (bitField0_ & ~0x00000200);
               repDataZhiBiaoShuChuBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataZhiBiaoShuChuFieldBuilder() : null;
@@ -8619,7 +9752,7 @@ public final class AutoMsg {
           if (!other.repDataZhiBiao_.isEmpty()) {
             if (repDataZhiBiao_.isEmpty()) {
               repDataZhiBiao_ = other.repDataZhiBiao_;
-              bitField0_ = (bitField0_ & ~0x00000200);
+              bitField0_ = (bitField0_ & ~0x00000400);
             } else {
               ensureRepDataZhiBiaoIsMutable();
               repDataZhiBiao_.addAll(other.repDataZhiBiao_);
@@ -8632,7 +9765,7 @@ public final class AutoMsg {
               repDataZhiBiaoBuilder_.dispose();
               repDataZhiBiaoBuilder_ = null;
               repDataZhiBiao_ = other.repDataZhiBiao_;
-              bitField0_ = (bitField0_ & ~0x00000200);
+              bitField0_ = (bitField0_ & ~0x00000400);
               repDataZhiBiaoBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataZhiBiaoFieldBuilder() : null;
@@ -8645,7 +9778,7 @@ public final class AutoMsg {
           if (!other.repDataStkData_.isEmpty()) {
             if (repDataStkData_.isEmpty()) {
               repDataStkData_ = other.repDataStkData_;
-              bitField0_ = (bitField0_ & ~0x00000400);
+              bitField0_ = (bitField0_ & ~0x00000800);
             } else {
               ensureRepDataStkDataIsMutable();
               repDataStkData_.addAll(other.repDataStkData_);
@@ -8658,7 +9791,7 @@ public final class AutoMsg {
               repDataStkDataBuilder_.dispose();
               repDataStkDataBuilder_ = null;
               repDataStkData_ = other.repDataStkData_;
-              bitField0_ = (bitField0_ & ~0x00000400);
+              bitField0_ = (bitField0_ & ~0x00000800);
               repDataStkDataBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataStkDataFieldBuilder() : null;
@@ -8671,7 +9804,7 @@ public final class AutoMsg {
           if (!other.repDataPaiXu_.isEmpty()) {
             if (repDataPaiXu_.isEmpty()) {
               repDataPaiXu_ = other.repDataPaiXu_;
-              bitField0_ = (bitField0_ & ~0x00000800);
+              bitField0_ = (bitField0_ & ~0x00001000);
             } else {
               ensureRepDataPaiXuIsMutable();
               repDataPaiXu_.addAll(other.repDataPaiXu_);
@@ -8684,7 +9817,7 @@ public final class AutoMsg {
               repDataPaiXuBuilder_.dispose();
               repDataPaiXuBuilder_ = null;
               repDataPaiXu_ = other.repDataPaiXu_;
-              bitField0_ = (bitField0_ & ~0x00000800);
+              bitField0_ = (bitField0_ & ~0x00001000);
               repDataPaiXuBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataPaiXuFieldBuilder() : null;
@@ -8697,7 +9830,7 @@ public final class AutoMsg {
           if (!other.repDataJianPanBaoShuChu_.isEmpty()) {
             if (repDataJianPanBaoShuChu_.isEmpty()) {
               repDataJianPanBaoShuChu_ = other.repDataJianPanBaoShuChu_;
-              bitField0_ = (bitField0_ & ~0x00001000);
+              bitField0_ = (bitField0_ & ~0x00002000);
             } else {
               ensureRepDataJianPanBaoShuChuIsMutable();
               repDataJianPanBaoShuChu_.addAll(other.repDataJianPanBaoShuChu_);
@@ -8710,7 +9843,7 @@ public final class AutoMsg {
               repDataJianPanBaoShuChuBuilder_.dispose();
               repDataJianPanBaoShuChuBuilder_ = null;
               repDataJianPanBaoShuChu_ = other.repDataJianPanBaoShuChu_;
-              bitField0_ = (bitField0_ & ~0x00001000);
+              bitField0_ = (bitField0_ & ~0x00002000);
               repDataJianPanBaoShuChuBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataJianPanBaoShuChuFieldBuilder() : null;
@@ -8723,7 +9856,7 @@ public final class AutoMsg {
           if (!other.repDataFenJiJiJin_.isEmpty()) {
             if (repDataFenJiJiJin_.isEmpty()) {
               repDataFenJiJiJin_ = other.repDataFenJiJiJin_;
-              bitField0_ = (bitField0_ & ~0x00002000);
+              bitField0_ = (bitField0_ & ~0x00004000);
             } else {
               ensureRepDataFenJiJiJinIsMutable();
               repDataFenJiJiJin_.addAll(other.repDataFenJiJiJin_);
@@ -8736,7 +9869,7 @@ public final class AutoMsg {
               repDataFenJiJiJinBuilder_.dispose();
               repDataFenJiJiJinBuilder_ = null;
               repDataFenJiJiJin_ = other.repDataFenJiJiJin_;
-              bitField0_ = (bitField0_ & ~0x00002000);
+              bitField0_ = (bitField0_ & ~0x00004000);
               repDataFenJiJiJinBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataFenJiJiJinFieldBuilder() : null;
@@ -8749,7 +9882,7 @@ public final class AutoMsg {
           if (!other.repDataMsgGetOutput_.isEmpty()) {
             if (repDataMsgGetOutput_.isEmpty()) {
               repDataMsgGetOutput_ = other.repDataMsgGetOutput_;
-              bitField0_ = (bitField0_ & ~0x00004000);
+              bitField0_ = (bitField0_ & ~0x00008000);
             } else {
               ensureRepDataMsgGetOutputIsMutable();
               repDataMsgGetOutput_.addAll(other.repDataMsgGetOutput_);
@@ -8762,7 +9895,7 @@ public final class AutoMsg {
               repDataMsgGetOutputBuilder_.dispose();
               repDataMsgGetOutputBuilder_ = null;
               repDataMsgGetOutput_ = other.repDataMsgGetOutput_;
-              bitField0_ = (bitField0_ & ~0x00004000);
+              bitField0_ = (bitField0_ & ~0x00008000);
               repDataMsgGetOutputBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataMsgGetOutputFieldBuilder() : null;
@@ -8775,7 +9908,7 @@ public final class AutoMsg {
           if (!other.repDataMsgPutOutput_.isEmpty()) {
             if (repDataMsgPutOutput_.isEmpty()) {
               repDataMsgPutOutput_ = other.repDataMsgPutOutput_;
-              bitField0_ = (bitField0_ & ~0x00008000);
+              bitField0_ = (bitField0_ & ~0x00010000);
             } else {
               ensureRepDataMsgPutOutputIsMutable();
               repDataMsgPutOutput_.addAll(other.repDataMsgPutOutput_);
@@ -8788,7 +9921,7 @@ public final class AutoMsg {
               repDataMsgPutOutputBuilder_.dispose();
               repDataMsgPutOutputBuilder_ = null;
               repDataMsgPutOutput_ = other.repDataMsgPutOutput_;
-              bitField0_ = (bitField0_ & ~0x00008000);
+              bitField0_ = (bitField0_ & ~0x00010000);
               repDataMsgPutOutputBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataMsgPutOutputFieldBuilder() : null;
@@ -8801,7 +9934,7 @@ public final class AutoMsg {
           if (!other.repDataBlockObjOutput_.isEmpty()) {
             if (repDataBlockObjOutput_.isEmpty()) {
               repDataBlockObjOutput_ = other.repDataBlockObjOutput_;
-              bitField0_ = (bitField0_ & ~0x00010000);
+              bitField0_ = (bitField0_ & ~0x00020000);
             } else {
               ensureRepDataBlockObjOutputIsMutable();
               repDataBlockObjOutput_.addAll(other.repDataBlockObjOutput_);
@@ -8814,7 +9947,7 @@ public final class AutoMsg {
               repDataBlockObjOutputBuilder_.dispose();
               repDataBlockObjOutputBuilder_ = null;
               repDataBlockObjOutput_ = other.repDataBlockObjOutput_;
-              bitField0_ = (bitField0_ & ~0x00010000);
+              bitField0_ = (bitField0_ & ~0x00020000);
               repDataBlockObjOutputBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataBlockObjOutputFieldBuilder() : null;
@@ -8827,7 +9960,7 @@ public final class AutoMsg {
           if (!other.repDataBlockPropOutput_.isEmpty()) {
             if (repDataBlockPropOutput_.isEmpty()) {
               repDataBlockPropOutput_ = other.repDataBlockPropOutput_;
-              bitField0_ = (bitField0_ & ~0x00020000);
+              bitField0_ = (bitField0_ & ~0x00040000);
             } else {
               ensureRepDataBlockPropOutputIsMutable();
               repDataBlockPropOutput_.addAll(other.repDataBlockPropOutput_);
@@ -8840,7 +9973,7 @@ public final class AutoMsg {
               repDataBlockPropOutputBuilder_.dispose();
               repDataBlockPropOutputBuilder_ = null;
               repDataBlockPropOutput_ = other.repDataBlockPropOutput_;
-              bitField0_ = (bitField0_ & ~0x00020000);
+              bitField0_ = (bitField0_ & ~0x00040000);
               repDataBlockPropOutputBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataBlockPropOutputFieldBuilder() : null;
@@ -8853,7 +9986,7 @@ public final class AutoMsg {
           if (!other.repDataSelfStockGetOutput_.isEmpty()) {
             if (repDataSelfStockGetOutput_.isEmpty()) {
               repDataSelfStockGetOutput_ = other.repDataSelfStockGetOutput_;
-              bitField0_ = (bitField0_ & ~0x00040000);
+              bitField0_ = (bitField0_ & ~0x00080000);
             } else {
               ensureRepDataSelfStockGetOutputIsMutable();
               repDataSelfStockGetOutput_.addAll(other.repDataSelfStockGetOutput_);
@@ -8866,7 +9999,7 @@ public final class AutoMsg {
               repDataSelfStockGetOutputBuilder_.dispose();
               repDataSelfStockGetOutputBuilder_ = null;
               repDataSelfStockGetOutput_ = other.repDataSelfStockGetOutput_;
-              bitField0_ = (bitField0_ & ~0x00040000);
+              bitField0_ = (bitField0_ & ~0x00080000);
               repDataSelfStockGetOutputBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataSelfStockGetOutputFieldBuilder() : null;
@@ -8879,7 +10012,7 @@ public final class AutoMsg {
           if (!other.repDataSelfStockPutOutput_.isEmpty()) {
             if (repDataSelfStockPutOutput_.isEmpty()) {
               repDataSelfStockPutOutput_ = other.repDataSelfStockPutOutput_;
-              bitField0_ = (bitField0_ & ~0x00080000);
+              bitField0_ = (bitField0_ & ~0x00100000);
             } else {
               ensureRepDataSelfStockPutOutputIsMutable();
               repDataSelfStockPutOutput_.addAll(other.repDataSelfStockPutOutput_);
@@ -8892,7 +10025,7 @@ public final class AutoMsg {
               repDataSelfStockPutOutputBuilder_.dispose();
               repDataSelfStockPutOutputBuilder_ = null;
               repDataSelfStockPutOutput_ = other.repDataSelfStockPutOutput_;
-              bitField0_ = (bitField0_ & ~0x00080000);
+              bitField0_ = (bitField0_ & ~0x00100000);
               repDataSelfStockPutOutputBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataSelfStockPutOutputFieldBuilder() : null;
@@ -8905,7 +10038,7 @@ public final class AutoMsg {
           if (!other.repDataAppKey_.isEmpty()) {
             if (repDataAppKey_.isEmpty()) {
               repDataAppKey_ = other.repDataAppKey_;
-              bitField0_ = (bitField0_ & ~0x00100000);
+              bitField0_ = (bitField0_ & ~0x00200000);
             } else {
               ensureRepDataAppKeyIsMutable();
               repDataAppKey_.addAll(other.repDataAppKey_);
@@ -8918,7 +10051,7 @@ public final class AutoMsg {
               repDataAppKeyBuilder_.dispose();
               repDataAppKeyBuilder_ = null;
               repDataAppKey_ = other.repDataAppKey_;
-              bitField0_ = (bitField0_ & ~0x00100000);
+              bitField0_ = (bitField0_ & ~0x00200000);
               repDataAppKeyBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataAppKeyFieldBuilder() : null;
@@ -8931,7 +10064,7 @@ public final class AutoMsg {
           if (!other.repDataAppInfo_.isEmpty()) {
             if (repDataAppInfo_.isEmpty()) {
               repDataAppInfo_ = other.repDataAppInfo_;
-              bitField0_ = (bitField0_ & ~0x00200000);
+              bitField0_ = (bitField0_ & ~0x00400000);
             } else {
               ensureRepDataAppInfoIsMutable();
               repDataAppInfo_.addAll(other.repDataAppInfo_);
@@ -8944,7 +10077,7 @@ public final class AutoMsg {
               repDataAppInfoBuilder_.dispose();
               repDataAppInfoBuilder_ = null;
               repDataAppInfo_ = other.repDataAppInfo_;
-              bitField0_ = (bitField0_ & ~0x00200000);
+              bitField0_ = (bitField0_ & ~0x00400000);
               repDataAppInfoBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataAppInfoFieldBuilder() : null;
@@ -8957,7 +10090,7 @@ public final class AutoMsg {
           if (!other.repDataAppValue_.isEmpty()) {
             if (repDataAppValue_.isEmpty()) {
               repDataAppValue_ = other.repDataAppValue_;
-              bitField0_ = (bitField0_ & ~0x00400000);
+              bitField0_ = (bitField0_ & ~0x00800000);
             } else {
               ensureRepDataAppValueIsMutable();
               repDataAppValue_.addAll(other.repDataAppValue_);
@@ -8970,7 +10103,7 @@ public final class AutoMsg {
               repDataAppValueBuilder_.dispose();
               repDataAppValueBuilder_ = null;
               repDataAppValue_ = other.repDataAppValue_;
-              bitField0_ = (bitField0_ & ~0x00400000);
+              bitField0_ = (bitField0_ & ~0x00800000);
               repDataAppValueBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataAppValueFieldBuilder() : null;
@@ -8983,7 +10116,7 @@ public final class AutoMsg {
           if (!other.repDataServiceAuth_.isEmpty()) {
             if (repDataServiceAuth_.isEmpty()) {
               repDataServiceAuth_ = other.repDataServiceAuth_;
-              bitField0_ = (bitField0_ & ~0x00800000);
+              bitField0_ = (bitField0_ & ~0x01000000);
             } else {
               ensureRepDataServiceAuthIsMutable();
               repDataServiceAuth_.addAll(other.repDataServiceAuth_);
@@ -8996,7 +10129,7 @@ public final class AutoMsg {
               repDataServiceAuthBuilder_.dispose();
               repDataServiceAuthBuilder_ = null;
               repDataServiceAuth_ = other.repDataServiceAuth_;
-              bitField0_ = (bitField0_ & ~0x00800000);
+              bitField0_ = (bitField0_ & ~0x01000000);
               repDataServiceAuthBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataServiceAuthFieldBuilder() : null;
@@ -9009,7 +10142,7 @@ public final class AutoMsg {
           if (!other.repDataAppServiceAuth_.isEmpty()) {
             if (repDataAppServiceAuth_.isEmpty()) {
               repDataAppServiceAuth_ = other.repDataAppServiceAuth_;
-              bitField0_ = (bitField0_ & ~0x01000000);
+              bitField0_ = (bitField0_ & ~0x02000000);
             } else {
               ensureRepDataAppServiceAuthIsMutable();
               repDataAppServiceAuth_.addAll(other.repDataAppServiceAuth_);
@@ -9022,7 +10155,7 @@ public final class AutoMsg {
               repDataAppServiceAuthBuilder_.dispose();
               repDataAppServiceAuthBuilder_ = null;
               repDataAppServiceAuth_ = other.repDataAppServiceAuth_;
-              bitField0_ = (bitField0_ & ~0x01000000);
+              bitField0_ = (bitField0_ & ~0x02000000);
               repDataAppServiceAuthBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataAppServiceAuthFieldBuilder() : null;
@@ -9035,7 +10168,7 @@ public final class AutoMsg {
           if (!other.repDataTokenAuth_.isEmpty()) {
             if (repDataTokenAuth_.isEmpty()) {
               repDataTokenAuth_ = other.repDataTokenAuth_;
-              bitField0_ = (bitField0_ & ~0x02000000);
+              bitField0_ = (bitField0_ & ~0x04000000);
             } else {
               ensureRepDataTokenAuthIsMutable();
               repDataTokenAuth_.addAll(other.repDataTokenAuth_);
@@ -9048,7 +10181,7 @@ public final class AutoMsg {
               repDataTokenAuthBuilder_.dispose();
               repDataTokenAuthBuilder_ = null;
               repDataTokenAuth_ = other.repDataTokenAuth_;
-              bitField0_ = (bitField0_ & ~0x02000000);
+              bitField0_ = (bitField0_ & ~0x04000000);
               repDataTokenAuthBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataTokenAuthFieldBuilder() : null;
@@ -9061,7 +10194,7 @@ public final class AutoMsg {
           if (!other.repDataAccOpResponse_.isEmpty()) {
             if (repDataAccOpResponse_.isEmpty()) {
               repDataAccOpResponse_ = other.repDataAccOpResponse_;
-              bitField0_ = (bitField0_ & ~0x04000000);
+              bitField0_ = (bitField0_ & ~0x08000000);
             } else {
               ensureRepDataAccOpResponseIsMutable();
               repDataAccOpResponse_.addAll(other.repDataAccOpResponse_);
@@ -9074,7 +10207,7 @@ public final class AutoMsg {
               repDataAccOpResponseBuilder_.dispose();
               repDataAccOpResponseBuilder_ = null;
               repDataAccOpResponse_ = other.repDataAccOpResponse_;
-              bitField0_ = (bitField0_ & ~0x04000000);
+              bitField0_ = (bitField0_ & ~0x08000000);
               repDataAccOpResponseBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataAccOpResponseFieldBuilder() : null;
@@ -9087,7 +10220,7 @@ public final class AutoMsg {
           if (!other.repDataToken_.isEmpty()) {
             if (repDataToken_.isEmpty()) {
               repDataToken_ = other.repDataToken_;
-              bitField0_ = (bitField0_ & ~0x08000000);
+              bitField0_ = (bitField0_ & ~0x10000000);
             } else {
               ensureRepDataTokenIsMutable();
               repDataToken_.addAll(other.repDataToken_);
@@ -9100,7 +10233,7 @@ public final class AutoMsg {
               repDataTokenBuilder_.dispose();
               repDataTokenBuilder_ = null;
               repDataToken_ = other.repDataToken_;
-              bitField0_ = (bitField0_ & ~0x08000000);
+              bitField0_ = (bitField0_ & ~0x10000000);
               repDataTokenBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataTokenFieldBuilder() : null;
@@ -9113,7 +10246,7 @@ public final class AutoMsg {
           if (!other.repDataPrivilege_.isEmpty()) {
             if (repDataPrivilege_.isEmpty()) {
               repDataPrivilege_ = other.repDataPrivilege_;
-              bitField0_ = (bitField0_ & ~0x10000000);
+              bitField0_ = (bitField0_ & ~0x20000000);
             } else {
               ensureRepDataPrivilegeIsMutable();
               repDataPrivilege_.addAll(other.repDataPrivilege_);
@@ -9126,7 +10259,7 @@ public final class AutoMsg {
               repDataPrivilegeBuilder_.dispose();
               repDataPrivilegeBuilder_ = null;
               repDataPrivilege_ = other.repDataPrivilege_;
-              bitField0_ = (bitField0_ & ~0x10000000);
+              bitField0_ = (bitField0_ & ~0x20000000);
               repDataPrivilegeBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataPrivilegeFieldBuilder() : null;
@@ -9139,7 +10272,7 @@ public final class AutoMsg {
           if (!other.repDataAlarmEvent_.isEmpty()) {
             if (repDataAlarmEvent_.isEmpty()) {
               repDataAlarmEvent_ = other.repDataAlarmEvent_;
-              bitField0_ = (bitField0_ & ~0x20000000);
+              bitField0_ = (bitField0_ & ~0x40000000);
             } else {
               ensureRepDataAlarmEventIsMutable();
               repDataAlarmEvent_.addAll(other.repDataAlarmEvent_);
@@ -9152,7 +10285,7 @@ public final class AutoMsg {
               repDataAlarmEventBuilder_.dispose();
               repDataAlarmEventBuilder_ = null;
               repDataAlarmEvent_ = other.repDataAlarmEvent_;
-              bitField0_ = (bitField0_ & ~0x20000000);
+              bitField0_ = (bitField0_ & ~0x40000000);
               repDataAlarmEventBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataAlarmEventFieldBuilder() : null;
@@ -9165,7 +10298,7 @@ public final class AutoMsg {
           if (!other.repDataAlarmTask_.isEmpty()) {
             if (repDataAlarmTask_.isEmpty()) {
               repDataAlarmTask_ = other.repDataAlarmTask_;
-              bitField0_ = (bitField0_ & ~0x40000000);
+              bitField0_ = (bitField0_ & ~0x80000000);
             } else {
               ensureRepDataAlarmTaskIsMutable();
               repDataAlarmTask_.addAll(other.repDataAlarmTask_);
@@ -9178,7 +10311,7 @@ public final class AutoMsg {
               repDataAlarmTaskBuilder_.dispose();
               repDataAlarmTaskBuilder_ = null;
               repDataAlarmTask_ = other.repDataAlarmTask_;
-              bitField0_ = (bitField0_ & ~0x40000000);
+              bitField0_ = (bitField0_ & ~0x80000000);
               repDataAlarmTaskBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataAlarmTaskFieldBuilder() : null;
@@ -9191,7 +10324,7 @@ public final class AutoMsg {
           if (!other.repDataADPutResponse_.isEmpty()) {
             if (repDataADPutResponse_.isEmpty()) {
               repDataADPutResponse_ = other.repDataADPutResponse_;
-              bitField0_ = (bitField0_ & ~0x80000000);
+              bitField1_ = (bitField1_ & ~0x00000001);
             } else {
               ensureRepDataADPutResponseIsMutable();
               repDataADPutResponse_.addAll(other.repDataADPutResponse_);
@@ -9204,7 +10337,7 @@ public final class AutoMsg {
               repDataADPutResponseBuilder_.dispose();
               repDataADPutResponseBuilder_ = null;
               repDataADPutResponse_ = other.repDataADPutResponse_;
-              bitField0_ = (bitField0_ & ~0x80000000);
+              bitField1_ = (bitField1_ & ~0x00000001);
               repDataADPutResponseBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataADPutResponseFieldBuilder() : null;
@@ -9217,7 +10350,7 @@ public final class AutoMsg {
           if (!other.repDataADGetResponse_.isEmpty()) {
             if (repDataADGetResponse_.isEmpty()) {
               repDataADGetResponse_ = other.repDataADGetResponse_;
-              bitField1_ = (bitField1_ & ~0x00000001);
+              bitField1_ = (bitField1_ & ~0x00000002);
             } else {
               ensureRepDataADGetResponseIsMutable();
               repDataADGetResponse_.addAll(other.repDataADGetResponse_);
@@ -9230,7 +10363,7 @@ public final class AutoMsg {
               repDataADGetResponseBuilder_.dispose();
               repDataADGetResponseBuilder_ = null;
               repDataADGetResponse_ = other.repDataADGetResponse_;
-              bitField1_ = (bitField1_ & ~0x00000001);
+              bitField1_ = (bitField1_ & ~0x00000002);
               repDataADGetResponseBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataADGetResponseFieldBuilder() : null;
@@ -9243,7 +10376,7 @@ public final class AutoMsg {
           if (!other.repDataUserGroup_.isEmpty()) {
             if (repDataUserGroup_.isEmpty()) {
               repDataUserGroup_ = other.repDataUserGroup_;
-              bitField1_ = (bitField1_ & ~0x00000002);
+              bitField1_ = (bitField1_ & ~0x00000004);
             } else {
               ensureRepDataUserGroupIsMutable();
               repDataUserGroup_.addAll(other.repDataUserGroup_);
@@ -9256,7 +10389,7 @@ public final class AutoMsg {
               repDataUserGroupBuilder_.dispose();
               repDataUserGroupBuilder_ = null;
               repDataUserGroup_ = other.repDataUserGroup_;
-              bitField1_ = (bitField1_ & ~0x00000002);
+              bitField1_ = (bitField1_ & ~0x00000004);
               repDataUserGroupBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataUserGroupFieldBuilder() : null;
@@ -9269,7 +10402,7 @@ public final class AutoMsg {
           if (!other.repDataUserGroupResponse_.isEmpty()) {
             if (repDataUserGroupResponse_.isEmpty()) {
               repDataUserGroupResponse_ = other.repDataUserGroupResponse_;
-              bitField1_ = (bitField1_ & ~0x00000004);
+              bitField1_ = (bitField1_ & ~0x00000008);
             } else {
               ensureRepDataUserGroupResponseIsMutable();
               repDataUserGroupResponse_.addAll(other.repDataUserGroupResponse_);
@@ -9282,7 +10415,7 @@ public final class AutoMsg {
               repDataUserGroupResponseBuilder_.dispose();
               repDataUserGroupResponseBuilder_ = null;
               repDataUserGroupResponse_ = other.repDataUserGroupResponse_;
-              bitField1_ = (bitField1_ & ~0x00000004);
+              bitField1_ = (bitField1_ & ~0x00000008);
               repDataUserGroupResponseBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataUserGroupResponseFieldBuilder() : null;
@@ -9295,7 +10428,7 @@ public final class AutoMsg {
           if (!other.repDataUserPropsMessage_.isEmpty()) {
             if (repDataUserPropsMessage_.isEmpty()) {
               repDataUserPropsMessage_ = other.repDataUserPropsMessage_;
-              bitField1_ = (bitField1_ & ~0x00000008);
+              bitField1_ = (bitField1_ & ~0x00000010);
             } else {
               ensureRepDataUserPropsMessageIsMutable();
               repDataUserPropsMessage_.addAll(other.repDataUserPropsMessage_);
@@ -9308,7 +10441,7 @@ public final class AutoMsg {
               repDataUserPropsMessageBuilder_.dispose();
               repDataUserPropsMessageBuilder_ = null;
               repDataUserPropsMessage_ = other.repDataUserPropsMessage_;
-              bitField1_ = (bitField1_ & ~0x00000008);
+              bitField1_ = (bitField1_ & ~0x00000010);
               repDataUserPropsMessageBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataUserPropsMessageFieldBuilder() : null;
@@ -9321,7 +10454,7 @@ public final class AutoMsg {
           if (!other.repDataTopicInvest_.isEmpty()) {
             if (repDataTopicInvest_.isEmpty()) {
               repDataTopicInvest_ = other.repDataTopicInvest_;
-              bitField1_ = (bitField1_ & ~0x00000010);
+              bitField1_ = (bitField1_ & ~0x00000020);
             } else {
               ensureRepDataTopicInvestIsMutable();
               repDataTopicInvest_.addAll(other.repDataTopicInvest_);
@@ -9334,7 +10467,7 @@ public final class AutoMsg {
               repDataTopicInvestBuilder_.dispose();
               repDataTopicInvestBuilder_ = null;
               repDataTopicInvest_ = other.repDataTopicInvest_;
-              bitField1_ = (bitField1_ & ~0x00000010);
+              bitField1_ = (bitField1_ & ~0x00000020);
               repDataTopicInvestBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataTopicInvestFieldBuilder() : null;
@@ -9347,7 +10480,7 @@ public final class AutoMsg {
           if (!other.repDataTopicInvestHistory_.isEmpty()) {
             if (repDataTopicInvestHistory_.isEmpty()) {
               repDataTopicInvestHistory_ = other.repDataTopicInvestHistory_;
-              bitField1_ = (bitField1_ & ~0x00000020);
+              bitField1_ = (bitField1_ & ~0x00000040);
             } else {
               ensureRepDataTopicInvestHistoryIsMutable();
               repDataTopicInvestHistory_.addAll(other.repDataTopicInvestHistory_);
@@ -9360,7 +10493,7 @@ public final class AutoMsg {
               repDataTopicInvestHistoryBuilder_.dispose();
               repDataTopicInvestHistoryBuilder_ = null;
               repDataTopicInvestHistory_ = other.repDataTopicInvestHistory_;
-              bitField1_ = (bitField1_ & ~0x00000020);
+              bitField1_ = (bitField1_ & ~0x00000040);
               repDataTopicInvestHistoryBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataTopicInvestHistoryFieldBuilder() : null;
@@ -9373,7 +10506,7 @@ public final class AutoMsg {
           if (!other.repDataF10GsgkOutput_.isEmpty()) {
             if (repDataF10GsgkOutput_.isEmpty()) {
               repDataF10GsgkOutput_ = other.repDataF10GsgkOutput_;
-              bitField1_ = (bitField1_ & ~0x00000040);
+              bitField1_ = (bitField1_ & ~0x00000080);
             } else {
               ensureRepDataF10GsgkOutputIsMutable();
               repDataF10GsgkOutput_.addAll(other.repDataF10GsgkOutput_);
@@ -9386,7 +10519,7 @@ public final class AutoMsg {
               repDataF10GsgkOutputBuilder_.dispose();
               repDataF10GsgkOutputBuilder_ = null;
               repDataF10GsgkOutput_ = other.repDataF10GsgkOutput_;
-              bitField1_ = (bitField1_ & ~0x00000040);
+              bitField1_ = (bitField1_ & ~0x00000080);
               repDataF10GsgkOutputBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataF10GsgkOutputFieldBuilder() : null;
@@ -9399,7 +10532,7 @@ public final class AutoMsg {
           if (!other.repDataF10CwtsZycwzbOutput_.isEmpty()) {
             if (repDataF10CwtsZycwzbOutput_.isEmpty()) {
               repDataF10CwtsZycwzbOutput_ = other.repDataF10CwtsZycwzbOutput_;
-              bitField1_ = (bitField1_ & ~0x00000080);
+              bitField1_ = (bitField1_ & ~0x00000100);
             } else {
               ensureRepDataF10CwtsZycwzbOutputIsMutable();
               repDataF10CwtsZycwzbOutput_.addAll(other.repDataF10CwtsZycwzbOutput_);
@@ -9412,7 +10545,7 @@ public final class AutoMsg {
               repDataF10CwtsZycwzbOutputBuilder_.dispose();
               repDataF10CwtsZycwzbOutputBuilder_ = null;
               repDataF10CwtsZycwzbOutput_ = other.repDataF10CwtsZycwzbOutput_;
-              bitField1_ = (bitField1_ & ~0x00000080);
+              bitField1_ = (bitField1_ & ~0x00000100);
               repDataF10CwtsZycwzbOutputBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataF10CwtsZycwzbOutputFieldBuilder() : null;
@@ -9425,7 +10558,7 @@ public final class AutoMsg {
           if (!other.repDataF10CwtsXjllbzyOutput_.isEmpty()) {
             if (repDataF10CwtsXjllbzyOutput_.isEmpty()) {
               repDataF10CwtsXjllbzyOutput_ = other.repDataF10CwtsXjllbzyOutput_;
-              bitField1_ = (bitField1_ & ~0x00000100);
+              bitField1_ = (bitField1_ & ~0x00000200);
             } else {
               ensureRepDataF10CwtsXjllbzyOutputIsMutable();
               repDataF10CwtsXjllbzyOutput_.addAll(other.repDataF10CwtsXjllbzyOutput_);
@@ -9438,7 +10571,7 @@ public final class AutoMsg {
               repDataF10CwtsXjllbzyOutputBuilder_.dispose();
               repDataF10CwtsXjllbzyOutputBuilder_ = null;
               repDataF10CwtsXjllbzyOutput_ = other.repDataF10CwtsXjllbzyOutput_;
-              bitField1_ = (bitField1_ & ~0x00000100);
+              bitField1_ = (bitField1_ & ~0x00000200);
               repDataF10CwtsXjllbzyOutputBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataF10CwtsXjllbzyOutputFieldBuilder() : null;
@@ -9451,7 +10584,7 @@ public final class AutoMsg {
           if (!other.repDataF10ZxjbDjdcwzbOutput_.isEmpty()) {
             if (repDataF10ZxjbDjdcwzbOutput_.isEmpty()) {
               repDataF10ZxjbDjdcwzbOutput_ = other.repDataF10ZxjbDjdcwzbOutput_;
-              bitField1_ = (bitField1_ & ~0x00000200);
+              bitField1_ = (bitField1_ & ~0x00000400);
             } else {
               ensureRepDataF10ZxjbDjdcwzbOutputIsMutable();
               repDataF10ZxjbDjdcwzbOutput_.addAll(other.repDataF10ZxjbDjdcwzbOutput_);
@@ -9464,7 +10597,7 @@ public final class AutoMsg {
               repDataF10ZxjbDjdcwzbOutputBuilder_.dispose();
               repDataF10ZxjbDjdcwzbOutputBuilder_ = null;
               repDataF10ZxjbDjdcwzbOutput_ = other.repDataF10ZxjbDjdcwzbOutput_;
-              bitField1_ = (bitField1_ & ~0x00000200);
+              bitField1_ = (bitField1_ & ~0x00000400);
               repDataF10ZxjbDjdcwzbOutputBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataF10ZxjbDjdcwzbOutputFieldBuilder() : null;
@@ -9477,7 +10610,7 @@ public final class AutoMsg {
           if (!other.repDataF10ZxjbdjdlebOutput_.isEmpty()) {
             if (repDataF10ZxjbdjdlebOutput_.isEmpty()) {
               repDataF10ZxjbdjdlebOutput_ = other.repDataF10ZxjbdjdlebOutput_;
-              bitField1_ = (bitField1_ & ~0x00000400);
+              bitField1_ = (bitField1_ & ~0x00000800);
             } else {
               ensureRepDataF10ZxjbdjdlebOutputIsMutable();
               repDataF10ZxjbdjdlebOutput_.addAll(other.repDataF10ZxjbdjdlebOutput_);
@@ -9490,7 +10623,7 @@ public final class AutoMsg {
               repDataF10ZxjbdjdlebOutputBuilder_.dispose();
               repDataF10ZxjbdjdlebOutputBuilder_ = null;
               repDataF10ZxjbdjdlebOutput_ = other.repDataF10ZxjbdjdlebOutput_;
-              bitField1_ = (bitField1_ & ~0x00000400);
+              bitField1_ = (bitField1_ & ~0x00000800);
               repDataF10ZxjbdjdlebOutputBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataF10ZxjbdjdlebOutputFieldBuilder() : null;
@@ -9503,7 +10636,7 @@ public final class AutoMsg {
           if (!other.repDataF10GdjcGdhsOutput_.isEmpty()) {
             if (repDataF10GdjcGdhsOutput_.isEmpty()) {
               repDataF10GdjcGdhsOutput_ = other.repDataF10GdjcGdhsOutput_;
-              bitField1_ = (bitField1_ & ~0x00000800);
+              bitField1_ = (bitField1_ & ~0x00001000);
             } else {
               ensureRepDataF10GdjcGdhsOutputIsMutable();
               repDataF10GdjcGdhsOutput_.addAll(other.repDataF10GdjcGdhsOutput_);
@@ -9516,7 +10649,7 @@ public final class AutoMsg {
               repDataF10GdjcGdhsOutputBuilder_.dispose();
               repDataF10GdjcGdhsOutputBuilder_ = null;
               repDataF10GdjcGdhsOutput_ = other.repDataF10GdjcGdhsOutput_;
-              bitField1_ = (bitField1_ & ~0x00000800);
+              bitField1_ = (bitField1_ & ~0x00001000);
               repDataF10GdjcGdhsOutputBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataF10GdjcGdhsOutputFieldBuilder() : null;
@@ -9529,7 +10662,7 @@ public final class AutoMsg {
           if (!other.repDataF10GdjcSdgdOutput_.isEmpty()) {
             if (repDataF10GdjcSdgdOutput_.isEmpty()) {
               repDataF10GdjcSdgdOutput_ = other.repDataF10GdjcSdgdOutput_;
-              bitField1_ = (bitField1_ & ~0x00001000);
+              bitField1_ = (bitField1_ & ~0x00002000);
             } else {
               ensureRepDataF10GdjcSdgdOutputIsMutable();
               repDataF10GdjcSdgdOutput_.addAll(other.repDataF10GdjcSdgdOutput_);
@@ -9542,7 +10675,7 @@ public final class AutoMsg {
               repDataF10GdjcSdgdOutputBuilder_.dispose();
               repDataF10GdjcSdgdOutputBuilder_ = null;
               repDataF10GdjcSdgdOutput_ = other.repDataF10GdjcSdgdOutput_;
-              bitField1_ = (bitField1_ & ~0x00001000);
+              bitField1_ = (bitField1_ & ~0x00002000);
               repDataF10GdjcSdgdOutputBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataF10GdjcSdgdOutputFieldBuilder() : null;
@@ -9555,7 +10688,7 @@ public final class AutoMsg {
           if (!other.repDataF10GdjcSdltgdOutput_.isEmpty()) {
             if (repDataF10GdjcSdltgdOutput_.isEmpty()) {
               repDataF10GdjcSdltgdOutput_ = other.repDataF10GdjcSdltgdOutput_;
-              bitField1_ = (bitField1_ & ~0x00002000);
+              bitField1_ = (bitField1_ & ~0x00004000);
             } else {
               ensureRepDataF10GdjcSdltgdOutputIsMutable();
               repDataF10GdjcSdltgdOutput_.addAll(other.repDataF10GdjcSdltgdOutput_);
@@ -9568,7 +10701,7 @@ public final class AutoMsg {
               repDataF10GdjcSdltgdOutputBuilder_.dispose();
               repDataF10GdjcSdltgdOutputBuilder_ = null;
               repDataF10GdjcSdltgdOutput_ = other.repDataF10GdjcSdltgdOutput_;
-              bitField1_ = (bitField1_ & ~0x00002000);
+              bitField1_ = (bitField1_ & ~0x00004000);
               repDataF10GdjcSdltgdOutputBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataF10GdjcSdltgdOutputFieldBuilder() : null;
@@ -9581,7 +10714,7 @@ public final class AutoMsg {
           if (!other.repDataF10GbfhFhkgOutput_.isEmpty()) {
             if (repDataF10GbfhFhkgOutput_.isEmpty()) {
               repDataF10GbfhFhkgOutput_ = other.repDataF10GbfhFhkgOutput_;
-              bitField1_ = (bitField1_ & ~0x00004000);
+              bitField1_ = (bitField1_ & ~0x00008000);
             } else {
               ensureRepDataF10GbfhFhkgOutputIsMutable();
               repDataF10GbfhFhkgOutput_.addAll(other.repDataF10GbfhFhkgOutput_);
@@ -9594,7 +10727,7 @@ public final class AutoMsg {
               repDataF10GbfhFhkgOutputBuilder_.dispose();
               repDataF10GbfhFhkgOutputBuilder_ = null;
               repDataF10GbfhFhkgOutput_ = other.repDataF10GbfhFhkgOutput_;
-              bitField1_ = (bitField1_ & ~0x00004000);
+              bitField1_ = (bitField1_ & ~0x00008000);
               repDataF10GbfhFhkgOutputBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataF10GbfhFhkgOutputFieldBuilder() : null;
@@ -9607,7 +10740,7 @@ public final class AutoMsg {
           if (!other.repDataF10GbfhGbjgOutput_.isEmpty()) {
             if (repDataF10GbfhGbjgOutput_.isEmpty()) {
               repDataF10GbfhGbjgOutput_ = other.repDataF10GbfhGbjgOutput_;
-              bitField1_ = (bitField1_ & ~0x00008000);
+              bitField1_ = (bitField1_ & ~0x00010000);
             } else {
               ensureRepDataF10GbfhGbjgOutputIsMutable();
               repDataF10GbfhGbjgOutput_.addAll(other.repDataF10GbfhGbjgOutput_);
@@ -9620,7 +10753,7 @@ public final class AutoMsg {
               repDataF10GbfhGbjgOutputBuilder_.dispose();
               repDataF10GbfhGbjgOutputBuilder_ = null;
               repDataF10GbfhGbjgOutput_ = other.repDataF10GbfhGbjgOutput_;
-              bitField1_ = (bitField1_ & ~0x00008000);
+              bitField1_ = (bitField1_ & ~0x00010000);
               repDataF10GbfhGbjgOutputBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataF10GbfhGbjgOutputFieldBuilder() : null;
@@ -9633,7 +10766,7 @@ public final class AutoMsg {
           if (!other.repDataXinWenXinXiOutput_.isEmpty()) {
             if (repDataXinWenXinXiOutput_.isEmpty()) {
               repDataXinWenXinXiOutput_ = other.repDataXinWenXinXiOutput_;
-              bitField1_ = (bitField1_ & ~0x00010000);
+              bitField1_ = (bitField1_ & ~0x00020000);
             } else {
               ensureRepDataXinWenXinXiOutputIsMutable();
               repDataXinWenXinXiOutput_.addAll(other.repDataXinWenXinXiOutput_);
@@ -9646,7 +10779,7 @@ public final class AutoMsg {
               repDataXinWenXinXiOutputBuilder_.dispose();
               repDataXinWenXinXiOutputBuilder_ = null;
               repDataXinWenXinXiOutput_ = other.repDataXinWenXinXiOutput_;
-              bitField1_ = (bitField1_ & ~0x00010000);
+              bitField1_ = (bitField1_ & ~0x00020000);
               repDataXinWenXinXiOutputBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataXinWenXinXiOutputFieldBuilder() : null;
@@ -9659,7 +10792,7 @@ public final class AutoMsg {
           if (!other.repDataXinWenXinXiZhongXinOutput_.isEmpty()) {
             if (repDataXinWenXinXiZhongXinOutput_.isEmpty()) {
               repDataXinWenXinXiZhongXinOutput_ = other.repDataXinWenXinXiZhongXinOutput_;
-              bitField1_ = (bitField1_ & ~0x00020000);
+              bitField1_ = (bitField1_ & ~0x00040000);
             } else {
               ensureRepDataXinWenXinXiZhongXinOutputIsMutable();
               repDataXinWenXinXiZhongXinOutput_.addAll(other.repDataXinWenXinXiZhongXinOutput_);
@@ -9672,7 +10805,7 @@ public final class AutoMsg {
               repDataXinWenXinXiZhongXinOutputBuilder_.dispose();
               repDataXinWenXinXiZhongXinOutputBuilder_ = null;
               repDataXinWenXinXiZhongXinOutput_ = other.repDataXinWenXinXiZhongXinOutput_;
-              bitField1_ = (bitField1_ & ~0x00020000);
+              bitField1_ = (bitField1_ & ~0x00040000);
               repDataXinWenXinXiZhongXinOutputBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataXinWenXinXiZhongXinOutputFieldBuilder() : null;
@@ -9685,7 +10818,7 @@ public final class AutoMsg {
           if (!other.repDataTopicInvestInfo_.isEmpty()) {
             if (repDataTopicInvestInfo_.isEmpty()) {
               repDataTopicInvestInfo_ = other.repDataTopicInvestInfo_;
-              bitField1_ = (bitField1_ & ~0x00040000);
+              bitField1_ = (bitField1_ & ~0x00080000);
             } else {
               ensureRepDataTopicInvestInfoIsMutable();
               repDataTopicInvestInfo_.addAll(other.repDataTopicInvestInfo_);
@@ -9698,7 +10831,7 @@ public final class AutoMsg {
               repDataTopicInvestInfoBuilder_.dispose();
               repDataTopicInvestInfoBuilder_ = null;
               repDataTopicInvestInfo_ = other.repDataTopicInvestInfo_;
-              bitField1_ = (bitField1_ & ~0x00040000);
+              bitField1_ = (bitField1_ & ~0x00080000);
               repDataTopicInvestInfoBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataTopicInvestInfoFieldBuilder() : null;
@@ -9711,7 +10844,7 @@ public final class AutoMsg {
           if (!other.repDataYiZhiXinYeJiYuCeOutPut_.isEmpty()) {
             if (repDataYiZhiXinYeJiYuCeOutPut_.isEmpty()) {
               repDataYiZhiXinYeJiYuCeOutPut_ = other.repDataYiZhiXinYeJiYuCeOutPut_;
-              bitField1_ = (bitField1_ & ~0x00080000);
+              bitField1_ = (bitField1_ & ~0x00100000);
             } else {
               ensureRepDataYiZhiXinYeJiYuCeOutPutIsMutable();
               repDataYiZhiXinYeJiYuCeOutPut_.addAll(other.repDataYiZhiXinYeJiYuCeOutPut_);
@@ -9724,7 +10857,7 @@ public final class AutoMsg {
               repDataYiZhiXinYeJiYuCeOutPutBuilder_.dispose();
               repDataYiZhiXinYeJiYuCeOutPutBuilder_ = null;
               repDataYiZhiXinYeJiYuCeOutPut_ = other.repDataYiZhiXinYeJiYuCeOutPut_;
-              bitField1_ = (bitField1_ & ~0x00080000);
+              bitField1_ = (bitField1_ & ~0x00100000);
               repDataYiZhiXinYeJiYuCeOutPutBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataYiZhiXinYeJiYuCeOutPutFieldBuilder() : null;
@@ -9737,7 +10870,7 @@ public final class AutoMsg {
           if (!other.repDataYiZhiXinTouZiPinJiOutPut_.isEmpty()) {
             if (repDataYiZhiXinTouZiPinJiOutPut_.isEmpty()) {
               repDataYiZhiXinTouZiPinJiOutPut_ = other.repDataYiZhiXinTouZiPinJiOutPut_;
-              bitField1_ = (bitField1_ & ~0x00100000);
+              bitField1_ = (bitField1_ & ~0x00200000);
             } else {
               ensureRepDataYiZhiXinTouZiPinJiOutPutIsMutable();
               repDataYiZhiXinTouZiPinJiOutPut_.addAll(other.repDataYiZhiXinTouZiPinJiOutPut_);
@@ -9750,7 +10883,7 @@ public final class AutoMsg {
               repDataYiZhiXinTouZiPinJiOutPutBuilder_.dispose();
               repDataYiZhiXinTouZiPinJiOutPutBuilder_ = null;
               repDataYiZhiXinTouZiPinJiOutPut_ = other.repDataYiZhiXinTouZiPinJiOutPut_;
-              bitField1_ = (bitField1_ & ~0x00100000);
+              bitField1_ = (bitField1_ & ~0x00200000);
               repDataYiZhiXinTouZiPinJiOutPutBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataYiZhiXinTouZiPinJiOutPutFieldBuilder() : null;
@@ -9763,7 +10896,7 @@ public final class AutoMsg {
           if (!other.repDataGeGuYeJiYuCeOutPut_.isEmpty()) {
             if (repDataGeGuYeJiYuCeOutPut_.isEmpty()) {
               repDataGeGuYeJiYuCeOutPut_ = other.repDataGeGuYeJiYuCeOutPut_;
-              bitField1_ = (bitField1_ & ~0x00200000);
+              bitField1_ = (bitField1_ & ~0x00400000);
             } else {
               ensureRepDataGeGuYeJiYuCeOutPutIsMutable();
               repDataGeGuYeJiYuCeOutPut_.addAll(other.repDataGeGuYeJiYuCeOutPut_);
@@ -9776,7 +10909,7 @@ public final class AutoMsg {
               repDataGeGuYeJiYuCeOutPutBuilder_.dispose();
               repDataGeGuYeJiYuCeOutPutBuilder_ = null;
               repDataGeGuYeJiYuCeOutPut_ = other.repDataGeGuYeJiYuCeOutPut_;
-              bitField1_ = (bitField1_ & ~0x00200000);
+              bitField1_ = (bitField1_ & ~0x00400000);
               repDataGeGuYeJiYuCeOutPutBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataGeGuYeJiYuCeOutPutFieldBuilder() : null;
@@ -9789,7 +10922,7 @@ public final class AutoMsg {
           if (!other.repDataGeGuTouZiYanBaoOutPut_.isEmpty()) {
             if (repDataGeGuTouZiYanBaoOutPut_.isEmpty()) {
               repDataGeGuTouZiYanBaoOutPut_ = other.repDataGeGuTouZiYanBaoOutPut_;
-              bitField1_ = (bitField1_ & ~0x00400000);
+              bitField1_ = (bitField1_ & ~0x00800000);
             } else {
               ensureRepDataGeGuTouZiYanBaoOutPutIsMutable();
               repDataGeGuTouZiYanBaoOutPut_.addAll(other.repDataGeGuTouZiYanBaoOutPut_);
@@ -9802,7 +10935,7 @@ public final class AutoMsg {
               repDataGeGuTouZiYanBaoOutPutBuilder_.dispose();
               repDataGeGuTouZiYanBaoOutPutBuilder_ = null;
               repDataGeGuTouZiYanBaoOutPut_ = other.repDataGeGuTouZiYanBaoOutPut_;
-              bitField1_ = (bitField1_ & ~0x00400000);
+              bitField1_ = (bitField1_ & ~0x00800000);
               repDataGeGuTouZiYanBaoOutPutBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataGeGuTouZiYanBaoOutPutFieldBuilder() : null;
@@ -9815,7 +10948,7 @@ public final class AutoMsg {
           if (!other.repDataDSToken_.isEmpty()) {
             if (repDataDSToken_.isEmpty()) {
               repDataDSToken_ = other.repDataDSToken_;
-              bitField1_ = (bitField1_ & ~0x00800000);
+              bitField1_ = (bitField1_ & ~0x01000000);
             } else {
               ensureRepDataDSTokenIsMutable();
               repDataDSToken_.addAll(other.repDataDSToken_);
@@ -9828,12 +10961,194 @@ public final class AutoMsg {
               repDataDSTokenBuilder_.dispose();
               repDataDSTokenBuilder_ = null;
               repDataDSToken_ = other.repDataDSToken_;
-              bitField1_ = (bitField1_ & ~0x00800000);
+              bitField1_ = (bitField1_ & ~0x01000000);
               repDataDSTokenBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRepDataDSTokenFieldBuilder() : null;
             } else {
               repDataDSTokenBuilder_.addAllMessages(other.repDataDSToken_);
+            }
+          }
+        }
+        if (repDataTongJiAppBuilder_ == null) {
+          if (!other.repDataTongJiApp_.isEmpty()) {
+            if (repDataTongJiApp_.isEmpty()) {
+              repDataTongJiApp_ = other.repDataTongJiApp_;
+              bitField1_ = (bitField1_ & ~0x02000000);
+            } else {
+              ensureRepDataTongJiAppIsMutable();
+              repDataTongJiApp_.addAll(other.repDataTongJiApp_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.repDataTongJiApp_.isEmpty()) {
+            if (repDataTongJiAppBuilder_.isEmpty()) {
+              repDataTongJiAppBuilder_.dispose();
+              repDataTongJiAppBuilder_ = null;
+              repDataTongJiApp_ = other.repDataTongJiApp_;
+              bitField1_ = (bitField1_ & ~0x02000000);
+              repDataTongJiAppBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getRepDataTongJiAppFieldBuilder() : null;
+            } else {
+              repDataTongJiAppBuilder_.addAllMessages(other.repDataTongJiApp_);
+            }
+          }
+        }
+        if (repDataMessageChannelSubtypeBuilder_ == null) {
+          if (!other.repDataMessageChannelSubtype_.isEmpty()) {
+            if (repDataMessageChannelSubtype_.isEmpty()) {
+              repDataMessageChannelSubtype_ = other.repDataMessageChannelSubtype_;
+              bitField1_ = (bitField1_ & ~0x04000000);
+            } else {
+              ensureRepDataMessageChannelSubtypeIsMutable();
+              repDataMessageChannelSubtype_.addAll(other.repDataMessageChannelSubtype_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.repDataMessageChannelSubtype_.isEmpty()) {
+            if (repDataMessageChannelSubtypeBuilder_.isEmpty()) {
+              repDataMessageChannelSubtypeBuilder_.dispose();
+              repDataMessageChannelSubtypeBuilder_ = null;
+              repDataMessageChannelSubtype_ = other.repDataMessageChannelSubtype_;
+              bitField1_ = (bitField1_ & ~0x04000000);
+              repDataMessageChannelSubtypeBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getRepDataMessageChannelSubtypeFieldBuilder() : null;
+            } else {
+              repDataMessageChannelSubtypeBuilder_.addAllMessages(other.repDataMessageChannelSubtype_);
+            }
+          }
+        }
+        if (repDataUserGetPropResponseBuilder_ == null) {
+          if (!other.repDataUserGetPropResponse_.isEmpty()) {
+            if (repDataUserGetPropResponse_.isEmpty()) {
+              repDataUserGetPropResponse_ = other.repDataUserGetPropResponse_;
+              bitField1_ = (bitField1_ & ~0x08000000);
+            } else {
+              ensureRepDataUserGetPropResponseIsMutable();
+              repDataUserGetPropResponse_.addAll(other.repDataUserGetPropResponse_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.repDataUserGetPropResponse_.isEmpty()) {
+            if (repDataUserGetPropResponseBuilder_.isEmpty()) {
+              repDataUserGetPropResponseBuilder_.dispose();
+              repDataUserGetPropResponseBuilder_ = null;
+              repDataUserGetPropResponse_ = other.repDataUserGetPropResponse_;
+              bitField1_ = (bitField1_ & ~0x08000000);
+              repDataUserGetPropResponseBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getRepDataUserGetPropResponseFieldBuilder() : null;
+            } else {
+              repDataUserGetPropResponseBuilder_.addAllMessages(other.repDataUserGetPropResponse_);
+            }
+          }
+        }
+        if (repDataQuoteBOrderSingleBuilder_ == null) {
+          if (!other.repDataQuoteBOrderSingle_.isEmpty()) {
+            if (repDataQuoteBOrderSingle_.isEmpty()) {
+              repDataQuoteBOrderSingle_ = other.repDataQuoteBOrderSingle_;
+              bitField1_ = (bitField1_ & ~0x10000000);
+            } else {
+              ensureRepDataQuoteBOrderSingleIsMutable();
+              repDataQuoteBOrderSingle_.addAll(other.repDataQuoteBOrderSingle_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.repDataQuoteBOrderSingle_.isEmpty()) {
+            if (repDataQuoteBOrderSingleBuilder_.isEmpty()) {
+              repDataQuoteBOrderSingleBuilder_.dispose();
+              repDataQuoteBOrderSingleBuilder_ = null;
+              repDataQuoteBOrderSingle_ = other.repDataQuoteBOrderSingle_;
+              bitField1_ = (bitField1_ & ~0x10000000);
+              repDataQuoteBOrderSingleBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getRepDataQuoteBOrderSingleFieldBuilder() : null;
+            } else {
+              repDataQuoteBOrderSingleBuilder_.addAllMessages(other.repDataQuoteBOrderSingle_);
+            }
+          }
+        }
+        if (repDataDXSpiritBuilder_ == null) {
+          if (!other.repDataDXSpirit_.isEmpty()) {
+            if (repDataDXSpirit_.isEmpty()) {
+              repDataDXSpirit_ = other.repDataDXSpirit_;
+              bitField1_ = (bitField1_ & ~0x20000000);
+            } else {
+              ensureRepDataDXSpiritIsMutable();
+              repDataDXSpirit_.addAll(other.repDataDXSpirit_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.repDataDXSpirit_.isEmpty()) {
+            if (repDataDXSpiritBuilder_.isEmpty()) {
+              repDataDXSpiritBuilder_.dispose();
+              repDataDXSpiritBuilder_ = null;
+              repDataDXSpirit_ = other.repDataDXSpirit_;
+              bitField1_ = (bitField1_ & ~0x20000000);
+              repDataDXSpiritBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getRepDataDXSpiritFieldBuilder() : null;
+            } else {
+              repDataDXSpiritBuilder_.addAllMessages(other.repDataDXSpirit_);
+            }
+          }
+        }
+        if (repDataStkPoolOuputBuilder_ == null) {
+          if (!other.repDataStkPoolOuput_.isEmpty()) {
+            if (repDataStkPoolOuput_.isEmpty()) {
+              repDataStkPoolOuput_ = other.repDataStkPoolOuput_;
+              bitField1_ = (bitField1_ & ~0x40000000);
+            } else {
+              ensureRepDataStkPoolOuputIsMutable();
+              repDataStkPoolOuput_.addAll(other.repDataStkPoolOuput_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.repDataStkPoolOuput_.isEmpty()) {
+            if (repDataStkPoolOuputBuilder_.isEmpty()) {
+              repDataStkPoolOuputBuilder_.dispose();
+              repDataStkPoolOuputBuilder_ = null;
+              repDataStkPoolOuput_ = other.repDataStkPoolOuput_;
+              bitField1_ = (bitField1_ & ~0x40000000);
+              repDataStkPoolOuputBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getRepDataStkPoolOuputFieldBuilder() : null;
+            } else {
+              repDataStkPoolOuputBuilder_.addAllMessages(other.repDataStkPoolOuput_);
+            }
+          }
+        }
+        if (repDataEventNewsBuilder_ == null) {
+          if (!other.repDataEventNews_.isEmpty()) {
+            if (repDataEventNews_.isEmpty()) {
+              repDataEventNews_ = other.repDataEventNews_;
+              bitField1_ = (bitField1_ & ~0x80000000);
+            } else {
+              ensureRepDataEventNewsIsMutable();
+              repDataEventNews_.addAll(other.repDataEventNews_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.repDataEventNews_.isEmpty()) {
+            if (repDataEventNewsBuilder_.isEmpty()) {
+              repDataEventNewsBuilder_.dispose();
+              repDataEventNewsBuilder_ = null;
+              repDataEventNews_ = other.repDataEventNews_;
+              bitField1_ = (bitField1_ & ~0x80000000);
+              repDataEventNewsBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getRepDataEventNewsFieldBuilder() : null;
+            } else {
+              repDataEventNewsBuilder_.addAllMessages(other.repDataEventNews_);
             }
           }
         }
@@ -10140,6 +11455,48 @@ public final class AutoMsg {
             return false;
           }
         }
+        for (int i = 0; i < getRepDataTongJiAppCount(); i++) {
+          if (!getRepDataTongJiApp(i).isInitialized()) {
+            
+            return false;
+          }
+        }
+        for (int i = 0; i < getRepDataMessageChannelSubtypeCount(); i++) {
+          if (!getRepDataMessageChannelSubtype(i).isInitialized()) {
+            
+            return false;
+          }
+        }
+        for (int i = 0; i < getRepDataUserGetPropResponseCount(); i++) {
+          if (!getRepDataUserGetPropResponse(i).isInitialized()) {
+            
+            return false;
+          }
+        }
+        for (int i = 0; i < getRepDataQuoteBOrderSingleCount(); i++) {
+          if (!getRepDataQuoteBOrderSingle(i).isInitialized()) {
+            
+            return false;
+          }
+        }
+        for (int i = 0; i < getRepDataDXSpiritCount(); i++) {
+          if (!getRepDataDXSpirit(i).isInitialized()) {
+            
+            return false;
+          }
+        }
+        for (int i = 0; i < getRepDataStkPoolOuputCount(); i++) {
+          if (!getRepDataStkPoolOuput(i).isInitialized()) {
+            
+            return false;
+          }
+        }
+        for (int i = 0; i < getRepDataEventNewsCount(); i++) {
+          if (!getRepDataEventNews(i).isInitialized()) {
+            
+            return false;
+          }
+        }
         return true;
       }
 
@@ -10387,12 +11744,88 @@ public final class AutoMsg {
         return tblBuilder_;
       }
 
+      private java.lang.Object jsonTbl_ = "";
+      /**
+       * <code>optional string JsonTbl = 4;</code>
+       */
+      public boolean hasJsonTbl() {
+        return ((bitField0_ & 0x00000008) == 0x00000008);
+      }
+      /**
+       * <code>optional string JsonTbl = 4;</code>
+       */
+      public java.lang.String getJsonTbl() {
+        java.lang.Object ref = jsonTbl_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          if (bs.isValidUtf8()) {
+            jsonTbl_ = s;
+          }
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string JsonTbl = 4;</code>
+       */
+      public com.google.protobuf.ByteString
+          getJsonTblBytes() {
+        java.lang.Object ref = jsonTbl_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          jsonTbl_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string JsonTbl = 4;</code>
+       */
+      public Builder setJsonTbl(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000008;
+        jsonTbl_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string JsonTbl = 4;</code>
+       */
+      public Builder clearJsonTbl() {
+        bitField0_ = (bitField0_ & ~0x00000008);
+        jsonTbl_ = getDefaultInstance().getJsonTbl();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string JsonTbl = 4;</code>
+       */
+      public Builder setJsonTblBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000008;
+        jsonTbl_ = value;
+        onChanged();
+        return this;
+      }
+
       private java.util.List<com.dzhyun.proto.Dzhoutput.QuoteDynaSingle> repDataQuoteDynaSingle_ =
         java.util.Collections.emptyList();
       private void ensureRepDataQuoteDynaSingleIsMutable() {
-        if (!((bitField0_ & 0x00000008) == 0x00000008)) {
+        if (!((bitField0_ & 0x00000010) == 0x00000010)) {
           repDataQuoteDynaSingle_ = new java.util.ArrayList<com.dzhyun.proto.Dzhoutput.QuoteDynaSingle>(repDataQuoteDynaSingle_);
-          bitField0_ |= 0x00000008;
+          bitField0_ |= 0x00000010;
          }
       }
 
@@ -10403,7 +11836,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteDynaSingle RepDataQuoteDynaSingle = 20;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:22,
+       *In file:dzhoutput.proto, row:21,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhoutput.QuoteDynaSingle> getRepDataQuoteDynaSingleList() {
@@ -10417,7 +11850,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteDynaSingle RepDataQuoteDynaSingle = 20;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:22,
+       *In file:dzhoutput.proto, row:21,
        * </pre>
        */
       public int getRepDataQuoteDynaSingleCount() {
@@ -10431,7 +11864,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteDynaSingle RepDataQuoteDynaSingle = 20;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:22,
+       *In file:dzhoutput.proto, row:21,
        * </pre>
        */
       public com.dzhyun.proto.Dzhoutput.QuoteDynaSingle getRepDataQuoteDynaSingle(int index) {
@@ -10445,7 +11878,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteDynaSingle RepDataQuoteDynaSingle = 20;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:22,
+       *In file:dzhoutput.proto, row:21,
        * </pre>
        */
       public Builder setRepDataQuoteDynaSingle(
@@ -10466,7 +11899,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteDynaSingle RepDataQuoteDynaSingle = 20;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:22,
+       *In file:dzhoutput.proto, row:21,
        * </pre>
        */
       public Builder setRepDataQuoteDynaSingle(
@@ -10484,7 +11917,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteDynaSingle RepDataQuoteDynaSingle = 20;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:22,
+       *In file:dzhoutput.proto, row:21,
        * </pre>
        */
       public Builder addRepDataQuoteDynaSingle(com.dzhyun.proto.Dzhoutput.QuoteDynaSingle value) {
@@ -10504,7 +11937,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteDynaSingle RepDataQuoteDynaSingle = 20;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:22,
+       *In file:dzhoutput.proto, row:21,
        * </pre>
        */
       public Builder addRepDataQuoteDynaSingle(
@@ -10525,7 +11958,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteDynaSingle RepDataQuoteDynaSingle = 20;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:22,
+       *In file:dzhoutput.proto, row:21,
        * </pre>
        */
       public Builder addRepDataQuoteDynaSingle(
@@ -10543,7 +11976,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteDynaSingle RepDataQuoteDynaSingle = 20;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:22,
+       *In file:dzhoutput.proto, row:21,
        * </pre>
        */
       public Builder addRepDataQuoteDynaSingle(
@@ -10561,7 +11994,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteDynaSingle RepDataQuoteDynaSingle = 20;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:22,
+       *In file:dzhoutput.proto, row:21,
        * </pre>
        */
       public Builder addAllRepDataQuoteDynaSingle(
@@ -10580,13 +12013,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteDynaSingle RepDataQuoteDynaSingle = 20;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:22,
+       *In file:dzhoutput.proto, row:21,
        * </pre>
        */
       public Builder clearRepDataQuoteDynaSingle() {
         if (repDataQuoteDynaSingleBuilder_ == null) {
           repDataQuoteDynaSingle_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000008);
+          bitField0_ = (bitField0_ & ~0x00000010);
           onChanged();
         } else {
           repDataQuoteDynaSingleBuilder_.clear();
@@ -10597,7 +12030,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteDynaSingle RepDataQuoteDynaSingle = 20;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:22,
+       *In file:dzhoutput.proto, row:21,
        * </pre>
        */
       public Builder removeRepDataQuoteDynaSingle(int index) {
@@ -10614,7 +12047,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteDynaSingle RepDataQuoteDynaSingle = 20;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:22,
+       *In file:dzhoutput.proto, row:21,
        * </pre>
        */
       public com.dzhyun.proto.Dzhoutput.QuoteDynaSingle.Builder getRepDataQuoteDynaSingleBuilder(
@@ -10625,7 +12058,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteDynaSingle RepDataQuoteDynaSingle = 20;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:22,
+       *In file:dzhoutput.proto, row:21,
        * </pre>
        */
       public com.dzhyun.proto.Dzhoutput.QuoteDynaSingleOrBuilder getRepDataQuoteDynaSingleOrBuilder(
@@ -10639,7 +12072,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteDynaSingle RepDataQuoteDynaSingle = 20;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:22,
+       *In file:dzhoutput.proto, row:21,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.Dzhoutput.QuoteDynaSingleOrBuilder> 
@@ -10654,7 +12087,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteDynaSingle RepDataQuoteDynaSingle = 20;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:22,
+       *In file:dzhoutput.proto, row:21,
        * </pre>
        */
       public com.dzhyun.proto.Dzhoutput.QuoteDynaSingle.Builder addRepDataQuoteDynaSingleBuilder() {
@@ -10665,7 +12098,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteDynaSingle RepDataQuoteDynaSingle = 20;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:22,
+       *In file:dzhoutput.proto, row:21,
        * </pre>
        */
       public com.dzhyun.proto.Dzhoutput.QuoteDynaSingle.Builder addRepDataQuoteDynaSingleBuilder(
@@ -10677,7 +12110,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteDynaSingle RepDataQuoteDynaSingle = 20;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:22,
+       *In file:dzhoutput.proto, row:21,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhoutput.QuoteDynaSingle.Builder> 
@@ -10691,7 +12124,7 @@ public final class AutoMsg {
           repDataQuoteDynaSingleBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.Dzhoutput.QuoteDynaSingle, com.dzhyun.proto.Dzhoutput.QuoteDynaSingle.Builder, com.dzhyun.proto.Dzhoutput.QuoteDynaSingleOrBuilder>(
                   repDataQuoteDynaSingle_,
-                  ((bitField0_ & 0x00000008) == 0x00000008),
+                  ((bitField0_ & 0x00000010) == 0x00000010),
                   getParentForChildren(),
                   isClean());
           repDataQuoteDynaSingle_ = null;
@@ -10702,9 +12135,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.Dzhoutput.QuoteKlineSingle> repDataQuoteKlineSingle_ =
         java.util.Collections.emptyList();
       private void ensureRepDataQuoteKlineSingleIsMutable() {
-        if (!((bitField0_ & 0x00000010) == 0x00000010)) {
+        if (!((bitField0_ & 0x00000020) == 0x00000020)) {
           repDataQuoteKlineSingle_ = new java.util.ArrayList<com.dzhyun.proto.Dzhoutput.QuoteKlineSingle>(repDataQuoteKlineSingle_);
-          bitField0_ |= 0x00000010;
+          bitField0_ |= 0x00000020;
          }
       }
 
@@ -10715,7 +12148,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteKlineSingle RepDataQuoteKlineSingle = 21;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:49,
+       *In file:dzhoutput.proto, row:48,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhoutput.QuoteKlineSingle> getRepDataQuoteKlineSingleList() {
@@ -10729,7 +12162,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteKlineSingle RepDataQuoteKlineSingle = 21;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:49,
+       *In file:dzhoutput.proto, row:48,
        * </pre>
        */
       public int getRepDataQuoteKlineSingleCount() {
@@ -10743,7 +12176,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteKlineSingle RepDataQuoteKlineSingle = 21;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:49,
+       *In file:dzhoutput.proto, row:48,
        * </pre>
        */
       public com.dzhyun.proto.Dzhoutput.QuoteKlineSingle getRepDataQuoteKlineSingle(int index) {
@@ -10757,7 +12190,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteKlineSingle RepDataQuoteKlineSingle = 21;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:49,
+       *In file:dzhoutput.proto, row:48,
        * </pre>
        */
       public Builder setRepDataQuoteKlineSingle(
@@ -10778,7 +12211,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteKlineSingle RepDataQuoteKlineSingle = 21;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:49,
+       *In file:dzhoutput.proto, row:48,
        * </pre>
        */
       public Builder setRepDataQuoteKlineSingle(
@@ -10796,7 +12229,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteKlineSingle RepDataQuoteKlineSingle = 21;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:49,
+       *In file:dzhoutput.proto, row:48,
        * </pre>
        */
       public Builder addRepDataQuoteKlineSingle(com.dzhyun.proto.Dzhoutput.QuoteKlineSingle value) {
@@ -10816,7 +12249,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteKlineSingle RepDataQuoteKlineSingle = 21;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:49,
+       *In file:dzhoutput.proto, row:48,
        * </pre>
        */
       public Builder addRepDataQuoteKlineSingle(
@@ -10837,7 +12270,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteKlineSingle RepDataQuoteKlineSingle = 21;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:49,
+       *In file:dzhoutput.proto, row:48,
        * </pre>
        */
       public Builder addRepDataQuoteKlineSingle(
@@ -10855,7 +12288,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteKlineSingle RepDataQuoteKlineSingle = 21;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:49,
+       *In file:dzhoutput.proto, row:48,
        * </pre>
        */
       public Builder addRepDataQuoteKlineSingle(
@@ -10873,7 +12306,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteKlineSingle RepDataQuoteKlineSingle = 21;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:49,
+       *In file:dzhoutput.proto, row:48,
        * </pre>
        */
       public Builder addAllRepDataQuoteKlineSingle(
@@ -10892,13 +12325,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteKlineSingle RepDataQuoteKlineSingle = 21;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:49,
+       *In file:dzhoutput.proto, row:48,
        * </pre>
        */
       public Builder clearRepDataQuoteKlineSingle() {
         if (repDataQuoteKlineSingleBuilder_ == null) {
           repDataQuoteKlineSingle_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000010);
+          bitField0_ = (bitField0_ & ~0x00000020);
           onChanged();
         } else {
           repDataQuoteKlineSingleBuilder_.clear();
@@ -10909,7 +12342,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteKlineSingle RepDataQuoteKlineSingle = 21;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:49,
+       *In file:dzhoutput.proto, row:48,
        * </pre>
        */
       public Builder removeRepDataQuoteKlineSingle(int index) {
@@ -10926,7 +12359,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteKlineSingle RepDataQuoteKlineSingle = 21;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:49,
+       *In file:dzhoutput.proto, row:48,
        * </pre>
        */
       public com.dzhyun.proto.Dzhoutput.QuoteKlineSingle.Builder getRepDataQuoteKlineSingleBuilder(
@@ -10937,7 +12370,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteKlineSingle RepDataQuoteKlineSingle = 21;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:49,
+       *In file:dzhoutput.proto, row:48,
        * </pre>
        */
       public com.dzhyun.proto.Dzhoutput.QuoteKlineSingleOrBuilder getRepDataQuoteKlineSingleOrBuilder(
@@ -10951,7 +12384,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteKlineSingle RepDataQuoteKlineSingle = 21;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:49,
+       *In file:dzhoutput.proto, row:48,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.Dzhoutput.QuoteKlineSingleOrBuilder> 
@@ -10966,7 +12399,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteKlineSingle RepDataQuoteKlineSingle = 21;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:49,
+       *In file:dzhoutput.proto, row:48,
        * </pre>
        */
       public com.dzhyun.proto.Dzhoutput.QuoteKlineSingle.Builder addRepDataQuoteKlineSingleBuilder() {
@@ -10977,7 +12410,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteKlineSingle RepDataQuoteKlineSingle = 21;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:49,
+       *In file:dzhoutput.proto, row:48,
        * </pre>
        */
       public com.dzhyun.proto.Dzhoutput.QuoteKlineSingle.Builder addRepDataQuoteKlineSingleBuilder(
@@ -10989,7 +12422,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteKlineSingle RepDataQuoteKlineSingle = 21;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:49,
+       *In file:dzhoutput.proto, row:48,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhoutput.QuoteKlineSingle.Builder> 
@@ -11003,7 +12436,7 @@ public final class AutoMsg {
           repDataQuoteKlineSingleBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.Dzhoutput.QuoteKlineSingle, com.dzhyun.proto.Dzhoutput.QuoteKlineSingle.Builder, com.dzhyun.proto.Dzhoutput.QuoteKlineSingleOrBuilder>(
                   repDataQuoteKlineSingle_,
-                  ((bitField0_ & 0x00000010) == 0x00000010),
+                  ((bitField0_ & 0x00000020) == 0x00000020),
                   getParentForChildren(),
                   isClean());
           repDataQuoteKlineSingle_ = null;
@@ -11014,9 +12447,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.Dzhoutput.QuoteTickSingle> repDataQuoteTickSingle_ =
         java.util.Collections.emptyList();
       private void ensureRepDataQuoteTickSingleIsMutable() {
-        if (!((bitField0_ & 0x00000020) == 0x00000020)) {
+        if (!((bitField0_ & 0x00000040) == 0x00000040)) {
           repDataQuoteTickSingle_ = new java.util.ArrayList<com.dzhyun.proto.Dzhoutput.QuoteTickSingle>(repDataQuoteTickSingle_);
-          bitField0_ |= 0x00000020;
+          bitField0_ |= 0x00000040;
          }
       }
 
@@ -11027,7 +12460,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteTickSingle RepDataQuoteTickSingle = 22;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:75,
+       *In file:dzhoutput.proto, row:74,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhoutput.QuoteTickSingle> getRepDataQuoteTickSingleList() {
@@ -11041,7 +12474,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteTickSingle RepDataQuoteTickSingle = 22;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:75,
+       *In file:dzhoutput.proto, row:74,
        * </pre>
        */
       public int getRepDataQuoteTickSingleCount() {
@@ -11055,7 +12488,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteTickSingle RepDataQuoteTickSingle = 22;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:75,
+       *In file:dzhoutput.proto, row:74,
        * </pre>
        */
       public com.dzhyun.proto.Dzhoutput.QuoteTickSingle getRepDataQuoteTickSingle(int index) {
@@ -11069,7 +12502,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteTickSingle RepDataQuoteTickSingle = 22;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:75,
+       *In file:dzhoutput.proto, row:74,
        * </pre>
        */
       public Builder setRepDataQuoteTickSingle(
@@ -11090,7 +12523,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteTickSingle RepDataQuoteTickSingle = 22;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:75,
+       *In file:dzhoutput.proto, row:74,
        * </pre>
        */
       public Builder setRepDataQuoteTickSingle(
@@ -11108,7 +12541,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteTickSingle RepDataQuoteTickSingle = 22;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:75,
+       *In file:dzhoutput.proto, row:74,
        * </pre>
        */
       public Builder addRepDataQuoteTickSingle(com.dzhyun.proto.Dzhoutput.QuoteTickSingle value) {
@@ -11128,7 +12561,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteTickSingle RepDataQuoteTickSingle = 22;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:75,
+       *In file:dzhoutput.proto, row:74,
        * </pre>
        */
       public Builder addRepDataQuoteTickSingle(
@@ -11149,7 +12582,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteTickSingle RepDataQuoteTickSingle = 22;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:75,
+       *In file:dzhoutput.proto, row:74,
        * </pre>
        */
       public Builder addRepDataQuoteTickSingle(
@@ -11167,7 +12600,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteTickSingle RepDataQuoteTickSingle = 22;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:75,
+       *In file:dzhoutput.proto, row:74,
        * </pre>
        */
       public Builder addRepDataQuoteTickSingle(
@@ -11185,7 +12618,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteTickSingle RepDataQuoteTickSingle = 22;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:75,
+       *In file:dzhoutput.proto, row:74,
        * </pre>
        */
       public Builder addAllRepDataQuoteTickSingle(
@@ -11204,13 +12637,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteTickSingle RepDataQuoteTickSingle = 22;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:75,
+       *In file:dzhoutput.proto, row:74,
        * </pre>
        */
       public Builder clearRepDataQuoteTickSingle() {
         if (repDataQuoteTickSingleBuilder_ == null) {
           repDataQuoteTickSingle_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000020);
+          bitField0_ = (bitField0_ & ~0x00000040);
           onChanged();
         } else {
           repDataQuoteTickSingleBuilder_.clear();
@@ -11221,7 +12654,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteTickSingle RepDataQuoteTickSingle = 22;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:75,
+       *In file:dzhoutput.proto, row:74,
        * </pre>
        */
       public Builder removeRepDataQuoteTickSingle(int index) {
@@ -11238,7 +12671,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteTickSingle RepDataQuoteTickSingle = 22;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:75,
+       *In file:dzhoutput.proto, row:74,
        * </pre>
        */
       public com.dzhyun.proto.Dzhoutput.QuoteTickSingle.Builder getRepDataQuoteTickSingleBuilder(
@@ -11249,7 +12682,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteTickSingle RepDataQuoteTickSingle = 22;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:75,
+       *In file:dzhoutput.proto, row:74,
        * </pre>
        */
       public com.dzhyun.proto.Dzhoutput.QuoteTickSingleOrBuilder getRepDataQuoteTickSingleOrBuilder(
@@ -11263,7 +12696,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteTickSingle RepDataQuoteTickSingle = 22;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:75,
+       *In file:dzhoutput.proto, row:74,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.Dzhoutput.QuoteTickSingleOrBuilder> 
@@ -11278,7 +12711,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteTickSingle RepDataQuoteTickSingle = 22;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:75,
+       *In file:dzhoutput.proto, row:74,
        * </pre>
        */
       public com.dzhyun.proto.Dzhoutput.QuoteTickSingle.Builder addRepDataQuoteTickSingleBuilder() {
@@ -11289,7 +12722,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteTickSingle RepDataQuoteTickSingle = 22;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:75,
+       *In file:dzhoutput.proto, row:74,
        * </pre>
        */
       public com.dzhyun.proto.Dzhoutput.QuoteTickSingle.Builder addRepDataQuoteTickSingleBuilder(
@@ -11301,7 +12734,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteTickSingle RepDataQuoteTickSingle = 22;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:75,
+       *In file:dzhoutput.proto, row:74,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhoutput.QuoteTickSingle.Builder> 
@@ -11315,7 +12748,7 @@ public final class AutoMsg {
           repDataQuoteTickSingleBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.Dzhoutput.QuoteTickSingle, com.dzhyun.proto.Dzhoutput.QuoteTickSingle.Builder, com.dzhyun.proto.Dzhoutput.QuoteTickSingleOrBuilder>(
                   repDataQuoteTickSingle_,
-                  ((bitField0_ & 0x00000020) == 0x00000020),
+                  ((bitField0_ & 0x00000040) == 0x00000040),
                   getParentForChildren(),
                   isClean());
           repDataQuoteTickSingle_ = null;
@@ -11326,9 +12759,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.Dzhoutput.QuoteMinSingle> repDataQuoteMinSingle_ =
         java.util.Collections.emptyList();
       private void ensureRepDataQuoteMinSingleIsMutable() {
-        if (!((bitField0_ & 0x00000040) == 0x00000040)) {
+        if (!((bitField0_ & 0x00000080) == 0x00000080)) {
           repDataQuoteMinSingle_ = new java.util.ArrayList<com.dzhyun.proto.Dzhoutput.QuoteMinSingle>(repDataQuoteMinSingle_);
-          bitField0_ |= 0x00000040;
+          bitField0_ |= 0x00000080;
          }
       }
 
@@ -11339,7 +12772,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteMinSingle RepDataQuoteMinSingle = 23;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:100,
+       *In file:dzhoutput.proto, row:99,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhoutput.QuoteMinSingle> getRepDataQuoteMinSingleList() {
@@ -11353,7 +12786,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteMinSingle RepDataQuoteMinSingle = 23;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:100,
+       *In file:dzhoutput.proto, row:99,
        * </pre>
        */
       public int getRepDataQuoteMinSingleCount() {
@@ -11367,7 +12800,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteMinSingle RepDataQuoteMinSingle = 23;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:100,
+       *In file:dzhoutput.proto, row:99,
        * </pre>
        */
       public com.dzhyun.proto.Dzhoutput.QuoteMinSingle getRepDataQuoteMinSingle(int index) {
@@ -11381,7 +12814,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteMinSingle RepDataQuoteMinSingle = 23;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:100,
+       *In file:dzhoutput.proto, row:99,
        * </pre>
        */
       public Builder setRepDataQuoteMinSingle(
@@ -11402,7 +12835,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteMinSingle RepDataQuoteMinSingle = 23;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:100,
+       *In file:dzhoutput.proto, row:99,
        * </pre>
        */
       public Builder setRepDataQuoteMinSingle(
@@ -11420,7 +12853,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteMinSingle RepDataQuoteMinSingle = 23;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:100,
+       *In file:dzhoutput.proto, row:99,
        * </pre>
        */
       public Builder addRepDataQuoteMinSingle(com.dzhyun.proto.Dzhoutput.QuoteMinSingle value) {
@@ -11440,7 +12873,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteMinSingle RepDataQuoteMinSingle = 23;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:100,
+       *In file:dzhoutput.proto, row:99,
        * </pre>
        */
       public Builder addRepDataQuoteMinSingle(
@@ -11461,7 +12894,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteMinSingle RepDataQuoteMinSingle = 23;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:100,
+       *In file:dzhoutput.proto, row:99,
        * </pre>
        */
       public Builder addRepDataQuoteMinSingle(
@@ -11479,7 +12912,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteMinSingle RepDataQuoteMinSingle = 23;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:100,
+       *In file:dzhoutput.proto, row:99,
        * </pre>
        */
       public Builder addRepDataQuoteMinSingle(
@@ -11497,7 +12930,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteMinSingle RepDataQuoteMinSingle = 23;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:100,
+       *In file:dzhoutput.proto, row:99,
        * </pre>
        */
       public Builder addAllRepDataQuoteMinSingle(
@@ -11516,13 +12949,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteMinSingle RepDataQuoteMinSingle = 23;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:100,
+       *In file:dzhoutput.proto, row:99,
        * </pre>
        */
       public Builder clearRepDataQuoteMinSingle() {
         if (repDataQuoteMinSingleBuilder_ == null) {
           repDataQuoteMinSingle_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000040);
+          bitField0_ = (bitField0_ & ~0x00000080);
           onChanged();
         } else {
           repDataQuoteMinSingleBuilder_.clear();
@@ -11533,7 +12966,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteMinSingle RepDataQuoteMinSingle = 23;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:100,
+       *In file:dzhoutput.proto, row:99,
        * </pre>
        */
       public Builder removeRepDataQuoteMinSingle(int index) {
@@ -11550,7 +12983,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteMinSingle RepDataQuoteMinSingle = 23;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:100,
+       *In file:dzhoutput.proto, row:99,
        * </pre>
        */
       public com.dzhyun.proto.Dzhoutput.QuoteMinSingle.Builder getRepDataQuoteMinSingleBuilder(
@@ -11561,7 +12994,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteMinSingle RepDataQuoteMinSingle = 23;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:100,
+       *In file:dzhoutput.proto, row:99,
        * </pre>
        */
       public com.dzhyun.proto.Dzhoutput.QuoteMinSingleOrBuilder getRepDataQuoteMinSingleOrBuilder(
@@ -11575,7 +13008,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteMinSingle RepDataQuoteMinSingle = 23;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:100,
+       *In file:dzhoutput.proto, row:99,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.Dzhoutput.QuoteMinSingleOrBuilder> 
@@ -11590,7 +13023,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteMinSingle RepDataQuoteMinSingle = 23;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:100,
+       *In file:dzhoutput.proto, row:99,
        * </pre>
        */
       public com.dzhyun.proto.Dzhoutput.QuoteMinSingle.Builder addRepDataQuoteMinSingleBuilder() {
@@ -11601,7 +13034,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteMinSingle RepDataQuoteMinSingle = 23;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:100,
+       *In file:dzhoutput.proto, row:99,
        * </pre>
        */
       public com.dzhyun.proto.Dzhoutput.QuoteMinSingle.Builder addRepDataQuoteMinSingleBuilder(
@@ -11613,7 +13046,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.QuoteMinSingle RepDataQuoteMinSingle = 23;</code>
        *
        * <pre>
-       *In file:dzhoutput.proto, row:100,
+       *In file:dzhoutput.proto, row:99,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhoutput.QuoteMinSingle.Builder> 
@@ -11627,7 +13060,7 @@ public final class AutoMsg {
           repDataQuoteMinSingleBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.Dzhoutput.QuoteMinSingle, com.dzhyun.proto.Dzhoutput.QuoteMinSingle.Builder, com.dzhyun.proto.Dzhoutput.QuoteMinSingleOrBuilder>(
                   repDataQuoteMinSingle_,
-                  ((bitField0_ & 0x00000040) == 0x00000040),
+                  ((bitField0_ & 0x00000080) == 0x00000080),
                   getParentForChildren(),
                   isClean());
           repDataQuoteMinSingle_ = null;
@@ -11638,9 +13071,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhNewsInfo.NewsInfoValue> repDataNewsInfoValue_ =
         java.util.Collections.emptyList();
       private void ensureRepDataNewsInfoValueIsMutable() {
-        if (!((bitField0_ & 0x00000080) == 0x00000080)) {
+        if (!((bitField0_ & 0x00000100) == 0x00000100)) {
           repDataNewsInfoValue_ = new java.util.ArrayList<com.dzhyun.proto.DzhNewsInfo.NewsInfoValue>(repDataNewsInfoValue_);
-          bitField0_ |= 0x00000080;
+          bitField0_ |= 0x00000100;
          }
       }
 
@@ -11651,7 +13084,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.NewsInfoValue RepDataNewsInfoValue = 24;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:5,
+       *In file:dzhNewsInfo.proto, row:4,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhNewsInfo.NewsInfoValue> getRepDataNewsInfoValueList() {
@@ -11665,7 +13098,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.NewsInfoValue RepDataNewsInfoValue = 24;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:5,
+       *In file:dzhNewsInfo.proto, row:4,
        * </pre>
        */
       public int getRepDataNewsInfoValueCount() {
@@ -11679,7 +13112,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.NewsInfoValue RepDataNewsInfoValue = 24;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:5,
+       *In file:dzhNewsInfo.proto, row:4,
        * </pre>
        */
       public com.dzhyun.proto.DzhNewsInfo.NewsInfoValue getRepDataNewsInfoValue(int index) {
@@ -11693,7 +13126,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.NewsInfoValue RepDataNewsInfoValue = 24;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:5,
+       *In file:dzhNewsInfo.proto, row:4,
        * </pre>
        */
       public Builder setRepDataNewsInfoValue(
@@ -11714,7 +13147,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.NewsInfoValue RepDataNewsInfoValue = 24;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:5,
+       *In file:dzhNewsInfo.proto, row:4,
        * </pre>
        */
       public Builder setRepDataNewsInfoValue(
@@ -11732,7 +13165,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.NewsInfoValue RepDataNewsInfoValue = 24;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:5,
+       *In file:dzhNewsInfo.proto, row:4,
        * </pre>
        */
       public Builder addRepDataNewsInfoValue(com.dzhyun.proto.DzhNewsInfo.NewsInfoValue value) {
@@ -11752,7 +13185,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.NewsInfoValue RepDataNewsInfoValue = 24;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:5,
+       *In file:dzhNewsInfo.proto, row:4,
        * </pre>
        */
       public Builder addRepDataNewsInfoValue(
@@ -11773,7 +13206,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.NewsInfoValue RepDataNewsInfoValue = 24;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:5,
+       *In file:dzhNewsInfo.proto, row:4,
        * </pre>
        */
       public Builder addRepDataNewsInfoValue(
@@ -11791,7 +13224,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.NewsInfoValue RepDataNewsInfoValue = 24;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:5,
+       *In file:dzhNewsInfo.proto, row:4,
        * </pre>
        */
       public Builder addRepDataNewsInfoValue(
@@ -11809,7 +13242,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.NewsInfoValue RepDataNewsInfoValue = 24;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:5,
+       *In file:dzhNewsInfo.proto, row:4,
        * </pre>
        */
       public Builder addAllRepDataNewsInfoValue(
@@ -11828,13 +13261,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.NewsInfoValue RepDataNewsInfoValue = 24;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:5,
+       *In file:dzhNewsInfo.proto, row:4,
        * </pre>
        */
       public Builder clearRepDataNewsInfoValue() {
         if (repDataNewsInfoValueBuilder_ == null) {
           repDataNewsInfoValue_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000080);
+          bitField0_ = (bitField0_ & ~0x00000100);
           onChanged();
         } else {
           repDataNewsInfoValueBuilder_.clear();
@@ -11845,7 +13278,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.NewsInfoValue RepDataNewsInfoValue = 24;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:5,
+       *In file:dzhNewsInfo.proto, row:4,
        * </pre>
        */
       public Builder removeRepDataNewsInfoValue(int index) {
@@ -11862,7 +13295,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.NewsInfoValue RepDataNewsInfoValue = 24;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:5,
+       *In file:dzhNewsInfo.proto, row:4,
        * </pre>
        */
       public com.dzhyun.proto.DzhNewsInfo.NewsInfoValue.Builder getRepDataNewsInfoValueBuilder(
@@ -11873,7 +13306,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.NewsInfoValue RepDataNewsInfoValue = 24;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:5,
+       *In file:dzhNewsInfo.proto, row:4,
        * </pre>
        */
       public com.dzhyun.proto.DzhNewsInfo.NewsInfoValueOrBuilder getRepDataNewsInfoValueOrBuilder(
@@ -11887,7 +13320,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.NewsInfoValue RepDataNewsInfoValue = 24;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:5,
+       *In file:dzhNewsInfo.proto, row:4,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhNewsInfo.NewsInfoValueOrBuilder> 
@@ -11902,7 +13335,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.NewsInfoValue RepDataNewsInfoValue = 24;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:5,
+       *In file:dzhNewsInfo.proto, row:4,
        * </pre>
        */
       public com.dzhyun.proto.DzhNewsInfo.NewsInfoValue.Builder addRepDataNewsInfoValueBuilder() {
@@ -11913,7 +13346,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.NewsInfoValue RepDataNewsInfoValue = 24;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:5,
+       *In file:dzhNewsInfo.proto, row:4,
        * </pre>
        */
       public com.dzhyun.proto.DzhNewsInfo.NewsInfoValue.Builder addRepDataNewsInfoValueBuilder(
@@ -11925,7 +13358,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.NewsInfoValue RepDataNewsInfoValue = 24;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:5,
+       *In file:dzhNewsInfo.proto, row:4,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhNewsInfo.NewsInfoValue.Builder> 
@@ -11939,7 +13372,7 @@ public final class AutoMsg {
           repDataNewsInfoValueBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhNewsInfo.NewsInfoValue, com.dzhyun.proto.DzhNewsInfo.NewsInfoValue.Builder, com.dzhyun.proto.DzhNewsInfo.NewsInfoValueOrBuilder>(
                   repDataNewsInfoValue_,
-                  ((bitField0_ & 0x00000080) == 0x00000080),
+                  ((bitField0_ & 0x00000100) == 0x00000100),
                   getParentForChildren(),
                   isClean());
           repDataNewsInfoValue_ = null;
@@ -11950,9 +13383,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhyunZhibiaojisuan.ZhiBiaoShuChu> repDataZhiBiaoShuChu_ =
         java.util.Collections.emptyList();
       private void ensureRepDataZhiBiaoShuChuIsMutable() {
-        if (!((bitField0_ & 0x00000100) == 0x00000100)) {
+        if (!((bitField0_ & 0x00000200) == 0x00000200)) {
           repDataZhiBiaoShuChu_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunZhibiaojisuan.ZhiBiaoShuChu>(repDataZhiBiaoShuChu_);
-          bitField0_ |= 0x00000100;
+          bitField0_ |= 0x00000200;
          }
       }
 
@@ -11963,7 +13396,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiaoShuChu RepDataZhiBiaoShuChu = 25;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiaojisuan.proto, row:6,
+       *In file:dzhyun.zhibiaojisuan.proto, row:5,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunZhibiaojisuan.ZhiBiaoShuChu> getRepDataZhiBiaoShuChuList() {
@@ -11977,7 +13410,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiaoShuChu RepDataZhiBiaoShuChu = 25;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiaojisuan.proto, row:6,
+       *In file:dzhyun.zhibiaojisuan.proto, row:5,
        * </pre>
        */
       public int getRepDataZhiBiaoShuChuCount() {
@@ -11991,7 +13424,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiaoShuChu RepDataZhiBiaoShuChu = 25;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiaojisuan.proto, row:6,
+       *In file:dzhyun.zhibiaojisuan.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunZhibiaojisuan.ZhiBiaoShuChu getRepDataZhiBiaoShuChu(int index) {
@@ -12005,7 +13438,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiaoShuChu RepDataZhiBiaoShuChu = 25;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiaojisuan.proto, row:6,
+       *In file:dzhyun.zhibiaojisuan.proto, row:5,
        * </pre>
        */
       public Builder setRepDataZhiBiaoShuChu(
@@ -12026,7 +13459,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiaoShuChu RepDataZhiBiaoShuChu = 25;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiaojisuan.proto, row:6,
+       *In file:dzhyun.zhibiaojisuan.proto, row:5,
        * </pre>
        */
       public Builder setRepDataZhiBiaoShuChu(
@@ -12044,7 +13477,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiaoShuChu RepDataZhiBiaoShuChu = 25;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiaojisuan.proto, row:6,
+       *In file:dzhyun.zhibiaojisuan.proto, row:5,
        * </pre>
        */
       public Builder addRepDataZhiBiaoShuChu(com.dzhyun.proto.DzhyunZhibiaojisuan.ZhiBiaoShuChu value) {
@@ -12064,7 +13497,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiaoShuChu RepDataZhiBiaoShuChu = 25;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiaojisuan.proto, row:6,
+       *In file:dzhyun.zhibiaojisuan.proto, row:5,
        * </pre>
        */
       public Builder addRepDataZhiBiaoShuChu(
@@ -12085,7 +13518,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiaoShuChu RepDataZhiBiaoShuChu = 25;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiaojisuan.proto, row:6,
+       *In file:dzhyun.zhibiaojisuan.proto, row:5,
        * </pre>
        */
       public Builder addRepDataZhiBiaoShuChu(
@@ -12103,7 +13536,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiaoShuChu RepDataZhiBiaoShuChu = 25;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiaojisuan.proto, row:6,
+       *In file:dzhyun.zhibiaojisuan.proto, row:5,
        * </pre>
        */
       public Builder addRepDataZhiBiaoShuChu(
@@ -12121,7 +13554,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiaoShuChu RepDataZhiBiaoShuChu = 25;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiaojisuan.proto, row:6,
+       *In file:dzhyun.zhibiaojisuan.proto, row:5,
        * </pre>
        */
       public Builder addAllRepDataZhiBiaoShuChu(
@@ -12140,13 +13573,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiaoShuChu RepDataZhiBiaoShuChu = 25;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiaojisuan.proto, row:6,
+       *In file:dzhyun.zhibiaojisuan.proto, row:5,
        * </pre>
        */
       public Builder clearRepDataZhiBiaoShuChu() {
         if (repDataZhiBiaoShuChuBuilder_ == null) {
           repDataZhiBiaoShuChu_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000100);
+          bitField0_ = (bitField0_ & ~0x00000200);
           onChanged();
         } else {
           repDataZhiBiaoShuChuBuilder_.clear();
@@ -12157,7 +13590,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiaoShuChu RepDataZhiBiaoShuChu = 25;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiaojisuan.proto, row:6,
+       *In file:dzhyun.zhibiaojisuan.proto, row:5,
        * </pre>
        */
       public Builder removeRepDataZhiBiaoShuChu(int index) {
@@ -12174,7 +13607,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiaoShuChu RepDataZhiBiaoShuChu = 25;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiaojisuan.proto, row:6,
+       *In file:dzhyun.zhibiaojisuan.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunZhibiaojisuan.ZhiBiaoShuChu.Builder getRepDataZhiBiaoShuChuBuilder(
@@ -12185,7 +13618,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiaoShuChu RepDataZhiBiaoShuChu = 25;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiaojisuan.proto, row:6,
+       *In file:dzhyun.zhibiaojisuan.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunZhibiaojisuan.ZhiBiaoShuChuOrBuilder getRepDataZhiBiaoShuChuOrBuilder(
@@ -12199,7 +13632,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiaoShuChu RepDataZhiBiaoShuChu = 25;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiaojisuan.proto, row:6,
+       *In file:dzhyun.zhibiaojisuan.proto, row:5,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhyunZhibiaojisuan.ZhiBiaoShuChuOrBuilder> 
@@ -12214,7 +13647,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiaoShuChu RepDataZhiBiaoShuChu = 25;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiaojisuan.proto, row:6,
+       *In file:dzhyun.zhibiaojisuan.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunZhibiaojisuan.ZhiBiaoShuChu.Builder addRepDataZhiBiaoShuChuBuilder() {
@@ -12225,7 +13658,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiaoShuChu RepDataZhiBiaoShuChu = 25;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiaojisuan.proto, row:6,
+       *In file:dzhyun.zhibiaojisuan.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunZhibiaojisuan.ZhiBiaoShuChu.Builder addRepDataZhiBiaoShuChuBuilder(
@@ -12237,7 +13670,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiaoShuChu RepDataZhiBiaoShuChu = 25;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiaojisuan.proto, row:6,
+       *In file:dzhyun.zhibiaojisuan.proto, row:5,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunZhibiaojisuan.ZhiBiaoShuChu.Builder> 
@@ -12251,7 +13684,7 @@ public final class AutoMsg {
           repDataZhiBiaoShuChuBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhyunZhibiaojisuan.ZhiBiaoShuChu, com.dzhyun.proto.DzhyunZhibiaojisuan.ZhiBiaoShuChu.Builder, com.dzhyun.proto.DzhyunZhibiaojisuan.ZhiBiaoShuChuOrBuilder>(
                   repDataZhiBiaoShuChu_,
-                  ((bitField0_ & 0x00000100) == 0x00000100),
+                  ((bitField0_ & 0x00000200) == 0x00000200),
                   getParentForChildren(),
                   isClean());
           repDataZhiBiaoShuChu_ = null;
@@ -12262,9 +13695,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhyunZhibiao.ZhiBiao> repDataZhiBiao_ =
         java.util.Collections.emptyList();
       private void ensureRepDataZhiBiaoIsMutable() {
-        if (!((bitField0_ & 0x00000200) == 0x00000200)) {
+        if (!((bitField0_ & 0x00000400) == 0x00000400)) {
           repDataZhiBiao_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunZhibiao.ZhiBiao>(repDataZhiBiao_);
-          bitField0_ |= 0x00000200;
+          bitField0_ |= 0x00000400;
          }
       }
 
@@ -12275,7 +13708,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiao RepDataZhiBiao = 26;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiao.proto, row:8,
+       *In file:dzhyun.zhibiao.proto, row:7,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunZhibiao.ZhiBiao> getRepDataZhiBiaoList() {
@@ -12289,7 +13722,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiao RepDataZhiBiao = 26;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiao.proto, row:8,
+       *In file:dzhyun.zhibiao.proto, row:7,
        * </pre>
        */
       public int getRepDataZhiBiaoCount() {
@@ -12303,7 +13736,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiao RepDataZhiBiao = 26;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiao.proto, row:8,
+       *In file:dzhyun.zhibiao.proto, row:7,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunZhibiao.ZhiBiao getRepDataZhiBiao(int index) {
@@ -12317,7 +13750,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiao RepDataZhiBiao = 26;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiao.proto, row:8,
+       *In file:dzhyun.zhibiao.proto, row:7,
        * </pre>
        */
       public Builder setRepDataZhiBiao(
@@ -12338,7 +13771,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiao RepDataZhiBiao = 26;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiao.proto, row:8,
+       *In file:dzhyun.zhibiao.proto, row:7,
        * </pre>
        */
       public Builder setRepDataZhiBiao(
@@ -12356,7 +13789,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiao RepDataZhiBiao = 26;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiao.proto, row:8,
+       *In file:dzhyun.zhibiao.proto, row:7,
        * </pre>
        */
       public Builder addRepDataZhiBiao(com.dzhyun.proto.DzhyunZhibiao.ZhiBiao value) {
@@ -12376,7 +13809,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiao RepDataZhiBiao = 26;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiao.proto, row:8,
+       *In file:dzhyun.zhibiao.proto, row:7,
        * </pre>
        */
       public Builder addRepDataZhiBiao(
@@ -12397,7 +13830,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiao RepDataZhiBiao = 26;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiao.proto, row:8,
+       *In file:dzhyun.zhibiao.proto, row:7,
        * </pre>
        */
       public Builder addRepDataZhiBiao(
@@ -12415,7 +13848,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiao RepDataZhiBiao = 26;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiao.proto, row:8,
+       *In file:dzhyun.zhibiao.proto, row:7,
        * </pre>
        */
       public Builder addRepDataZhiBiao(
@@ -12433,7 +13866,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiao RepDataZhiBiao = 26;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiao.proto, row:8,
+       *In file:dzhyun.zhibiao.proto, row:7,
        * </pre>
        */
       public Builder addAllRepDataZhiBiao(
@@ -12452,13 +13885,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiao RepDataZhiBiao = 26;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiao.proto, row:8,
+       *In file:dzhyun.zhibiao.proto, row:7,
        * </pre>
        */
       public Builder clearRepDataZhiBiao() {
         if (repDataZhiBiaoBuilder_ == null) {
           repDataZhiBiao_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000200);
+          bitField0_ = (bitField0_ & ~0x00000400);
           onChanged();
         } else {
           repDataZhiBiaoBuilder_.clear();
@@ -12469,7 +13902,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiao RepDataZhiBiao = 26;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiao.proto, row:8,
+       *In file:dzhyun.zhibiao.proto, row:7,
        * </pre>
        */
       public Builder removeRepDataZhiBiao(int index) {
@@ -12486,7 +13919,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiao RepDataZhiBiao = 26;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiao.proto, row:8,
+       *In file:dzhyun.zhibiao.proto, row:7,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunZhibiao.ZhiBiao.Builder getRepDataZhiBiaoBuilder(
@@ -12497,7 +13930,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiao RepDataZhiBiao = 26;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiao.proto, row:8,
+       *In file:dzhyun.zhibiao.proto, row:7,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunZhibiao.ZhiBiaoOrBuilder getRepDataZhiBiaoOrBuilder(
@@ -12511,7 +13944,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiao RepDataZhiBiao = 26;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiao.proto, row:8,
+       *In file:dzhyun.zhibiao.proto, row:7,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhyunZhibiao.ZhiBiaoOrBuilder> 
@@ -12526,7 +13959,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiao RepDataZhiBiao = 26;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiao.proto, row:8,
+       *In file:dzhyun.zhibiao.proto, row:7,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunZhibiao.ZhiBiao.Builder addRepDataZhiBiaoBuilder() {
@@ -12537,7 +13970,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiao RepDataZhiBiao = 26;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiao.proto, row:8,
+       *In file:dzhyun.zhibiao.proto, row:7,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunZhibiao.ZhiBiao.Builder addRepDataZhiBiaoBuilder(
@@ -12549,7 +13982,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ZhiBiao RepDataZhiBiao = 26;</code>
        *
        * <pre>
-       *In file:dzhyun.zhibiao.proto, row:8,
+       *In file:dzhyun.zhibiao.proto, row:7,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunZhibiao.ZhiBiao.Builder> 
@@ -12563,7 +13996,7 @@ public final class AutoMsg {
           repDataZhiBiaoBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhyunZhibiao.ZhiBiao, com.dzhyun.proto.DzhyunZhibiao.ZhiBiao.Builder, com.dzhyun.proto.DzhyunZhibiao.ZhiBiaoOrBuilder>(
                   repDataZhiBiao_,
-                  ((bitField0_ & 0x00000200) == 0x00000200),
+                  ((bitField0_ & 0x00000400) == 0x00000400),
                   getParentForChildren(),
                   isClean());
           repDataZhiBiao_ = null;
@@ -12574,9 +14007,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhyunStkdata.StkData> repDataStkData_ =
         java.util.Collections.emptyList();
       private void ensureRepDataStkDataIsMutable() {
-        if (!((bitField0_ & 0x00000400) == 0x00000400)) {
+        if (!((bitField0_ & 0x00000800) == 0x00000800)) {
           repDataStkData_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunStkdata.StkData>(repDataStkData_);
-          bitField0_ |= 0x00000400;
+          bitField0_ |= 0x00000800;
          }
       }
 
@@ -12587,7 +14020,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.StkData RepDataStkData = 27;</code>
        *
        * <pre>
-       *In file:dzhyun.stkdata.proto, row:8,
+       *In file:dzhyun.stkdata.proto, row:7,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunStkdata.StkData> getRepDataStkDataList() {
@@ -12601,7 +14034,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.StkData RepDataStkData = 27;</code>
        *
        * <pre>
-       *In file:dzhyun.stkdata.proto, row:8,
+       *In file:dzhyun.stkdata.proto, row:7,
        * </pre>
        */
       public int getRepDataStkDataCount() {
@@ -12615,7 +14048,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.StkData RepDataStkData = 27;</code>
        *
        * <pre>
-       *In file:dzhyun.stkdata.proto, row:8,
+       *In file:dzhyun.stkdata.proto, row:7,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunStkdata.StkData getRepDataStkData(int index) {
@@ -12629,7 +14062,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.StkData RepDataStkData = 27;</code>
        *
        * <pre>
-       *In file:dzhyun.stkdata.proto, row:8,
+       *In file:dzhyun.stkdata.proto, row:7,
        * </pre>
        */
       public Builder setRepDataStkData(
@@ -12650,7 +14083,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.StkData RepDataStkData = 27;</code>
        *
        * <pre>
-       *In file:dzhyun.stkdata.proto, row:8,
+       *In file:dzhyun.stkdata.proto, row:7,
        * </pre>
        */
       public Builder setRepDataStkData(
@@ -12668,7 +14101,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.StkData RepDataStkData = 27;</code>
        *
        * <pre>
-       *In file:dzhyun.stkdata.proto, row:8,
+       *In file:dzhyun.stkdata.proto, row:7,
        * </pre>
        */
       public Builder addRepDataStkData(com.dzhyun.proto.DzhyunStkdata.StkData value) {
@@ -12688,7 +14121,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.StkData RepDataStkData = 27;</code>
        *
        * <pre>
-       *In file:dzhyun.stkdata.proto, row:8,
+       *In file:dzhyun.stkdata.proto, row:7,
        * </pre>
        */
       public Builder addRepDataStkData(
@@ -12709,7 +14142,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.StkData RepDataStkData = 27;</code>
        *
        * <pre>
-       *In file:dzhyun.stkdata.proto, row:8,
+       *In file:dzhyun.stkdata.proto, row:7,
        * </pre>
        */
       public Builder addRepDataStkData(
@@ -12727,7 +14160,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.StkData RepDataStkData = 27;</code>
        *
        * <pre>
-       *In file:dzhyun.stkdata.proto, row:8,
+       *In file:dzhyun.stkdata.proto, row:7,
        * </pre>
        */
       public Builder addRepDataStkData(
@@ -12745,7 +14178,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.StkData RepDataStkData = 27;</code>
        *
        * <pre>
-       *In file:dzhyun.stkdata.proto, row:8,
+       *In file:dzhyun.stkdata.proto, row:7,
        * </pre>
        */
       public Builder addAllRepDataStkData(
@@ -12764,13 +14197,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.StkData RepDataStkData = 27;</code>
        *
        * <pre>
-       *In file:dzhyun.stkdata.proto, row:8,
+       *In file:dzhyun.stkdata.proto, row:7,
        * </pre>
        */
       public Builder clearRepDataStkData() {
         if (repDataStkDataBuilder_ == null) {
           repDataStkData_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000400);
+          bitField0_ = (bitField0_ & ~0x00000800);
           onChanged();
         } else {
           repDataStkDataBuilder_.clear();
@@ -12781,7 +14214,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.StkData RepDataStkData = 27;</code>
        *
        * <pre>
-       *In file:dzhyun.stkdata.proto, row:8,
+       *In file:dzhyun.stkdata.proto, row:7,
        * </pre>
        */
       public Builder removeRepDataStkData(int index) {
@@ -12798,7 +14231,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.StkData RepDataStkData = 27;</code>
        *
        * <pre>
-       *In file:dzhyun.stkdata.proto, row:8,
+       *In file:dzhyun.stkdata.proto, row:7,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunStkdata.StkData.Builder getRepDataStkDataBuilder(
@@ -12809,7 +14242,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.StkData RepDataStkData = 27;</code>
        *
        * <pre>
-       *In file:dzhyun.stkdata.proto, row:8,
+       *In file:dzhyun.stkdata.proto, row:7,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunStkdata.StkDataOrBuilder getRepDataStkDataOrBuilder(
@@ -12823,7 +14256,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.StkData RepDataStkData = 27;</code>
        *
        * <pre>
-       *In file:dzhyun.stkdata.proto, row:8,
+       *In file:dzhyun.stkdata.proto, row:7,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhyunStkdata.StkDataOrBuilder> 
@@ -12838,7 +14271,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.StkData RepDataStkData = 27;</code>
        *
        * <pre>
-       *In file:dzhyun.stkdata.proto, row:8,
+       *In file:dzhyun.stkdata.proto, row:7,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunStkdata.StkData.Builder addRepDataStkDataBuilder() {
@@ -12849,7 +14282,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.StkData RepDataStkData = 27;</code>
        *
        * <pre>
-       *In file:dzhyun.stkdata.proto, row:8,
+       *In file:dzhyun.stkdata.proto, row:7,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunStkdata.StkData.Builder addRepDataStkDataBuilder(
@@ -12861,7 +14294,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.StkData RepDataStkData = 27;</code>
        *
        * <pre>
-       *In file:dzhyun.stkdata.proto, row:8,
+       *In file:dzhyun.stkdata.proto, row:7,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunStkdata.StkData.Builder> 
@@ -12875,7 +14308,7 @@ public final class AutoMsg {
           repDataStkDataBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhyunStkdata.StkData, com.dzhyun.proto.DzhyunStkdata.StkData.Builder, com.dzhyun.proto.DzhyunStkdata.StkDataOrBuilder>(
                   repDataStkData_,
-                  ((bitField0_ & 0x00000400) == 0x00000400),
+                  ((bitField0_ & 0x00000800) == 0x00000800),
                   getParentForChildren(),
                   isClean());
           repDataStkData_ = null;
@@ -12886,9 +14319,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhyunPaixu.PaiXu> repDataPaiXu_ =
         java.util.Collections.emptyList();
       private void ensureRepDataPaiXuIsMutable() {
-        if (!((bitField0_ & 0x00000800) == 0x00000800)) {
+        if (!((bitField0_ & 0x00001000) == 0x00001000)) {
           repDataPaiXu_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunPaixu.PaiXu>(repDataPaiXu_);
-          bitField0_ |= 0x00000800;
+          bitField0_ |= 0x00001000;
          }
       }
 
@@ -12899,7 +14332,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.PaiXu RepDataPaiXu = 28;</code>
        *
        * <pre>
-       *In file:dzhyun.paixu.proto, row:10,
+       *In file:dzhyun.paixu.proto, row:9,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunPaixu.PaiXu> getRepDataPaiXuList() {
@@ -12913,7 +14346,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.PaiXu RepDataPaiXu = 28;</code>
        *
        * <pre>
-       *In file:dzhyun.paixu.proto, row:10,
+       *In file:dzhyun.paixu.proto, row:9,
        * </pre>
        */
       public int getRepDataPaiXuCount() {
@@ -12927,7 +14360,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.PaiXu RepDataPaiXu = 28;</code>
        *
        * <pre>
-       *In file:dzhyun.paixu.proto, row:10,
+       *In file:dzhyun.paixu.proto, row:9,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunPaixu.PaiXu getRepDataPaiXu(int index) {
@@ -12941,7 +14374,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.PaiXu RepDataPaiXu = 28;</code>
        *
        * <pre>
-       *In file:dzhyun.paixu.proto, row:10,
+       *In file:dzhyun.paixu.proto, row:9,
        * </pre>
        */
       public Builder setRepDataPaiXu(
@@ -12962,7 +14395,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.PaiXu RepDataPaiXu = 28;</code>
        *
        * <pre>
-       *In file:dzhyun.paixu.proto, row:10,
+       *In file:dzhyun.paixu.proto, row:9,
        * </pre>
        */
       public Builder setRepDataPaiXu(
@@ -12980,7 +14413,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.PaiXu RepDataPaiXu = 28;</code>
        *
        * <pre>
-       *In file:dzhyun.paixu.proto, row:10,
+       *In file:dzhyun.paixu.proto, row:9,
        * </pre>
        */
       public Builder addRepDataPaiXu(com.dzhyun.proto.DzhyunPaixu.PaiXu value) {
@@ -13000,7 +14433,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.PaiXu RepDataPaiXu = 28;</code>
        *
        * <pre>
-       *In file:dzhyun.paixu.proto, row:10,
+       *In file:dzhyun.paixu.proto, row:9,
        * </pre>
        */
       public Builder addRepDataPaiXu(
@@ -13021,7 +14454,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.PaiXu RepDataPaiXu = 28;</code>
        *
        * <pre>
-       *In file:dzhyun.paixu.proto, row:10,
+       *In file:dzhyun.paixu.proto, row:9,
        * </pre>
        */
       public Builder addRepDataPaiXu(
@@ -13039,7 +14472,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.PaiXu RepDataPaiXu = 28;</code>
        *
        * <pre>
-       *In file:dzhyun.paixu.proto, row:10,
+       *In file:dzhyun.paixu.proto, row:9,
        * </pre>
        */
       public Builder addRepDataPaiXu(
@@ -13057,7 +14490,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.PaiXu RepDataPaiXu = 28;</code>
        *
        * <pre>
-       *In file:dzhyun.paixu.proto, row:10,
+       *In file:dzhyun.paixu.proto, row:9,
        * </pre>
        */
       public Builder addAllRepDataPaiXu(
@@ -13076,13 +14509,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.PaiXu RepDataPaiXu = 28;</code>
        *
        * <pre>
-       *In file:dzhyun.paixu.proto, row:10,
+       *In file:dzhyun.paixu.proto, row:9,
        * </pre>
        */
       public Builder clearRepDataPaiXu() {
         if (repDataPaiXuBuilder_ == null) {
           repDataPaiXu_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000800);
+          bitField0_ = (bitField0_ & ~0x00001000);
           onChanged();
         } else {
           repDataPaiXuBuilder_.clear();
@@ -13093,7 +14526,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.PaiXu RepDataPaiXu = 28;</code>
        *
        * <pre>
-       *In file:dzhyun.paixu.proto, row:10,
+       *In file:dzhyun.paixu.proto, row:9,
        * </pre>
        */
       public Builder removeRepDataPaiXu(int index) {
@@ -13110,7 +14543,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.PaiXu RepDataPaiXu = 28;</code>
        *
        * <pre>
-       *In file:dzhyun.paixu.proto, row:10,
+       *In file:dzhyun.paixu.proto, row:9,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunPaixu.PaiXu.Builder getRepDataPaiXuBuilder(
@@ -13121,7 +14554,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.PaiXu RepDataPaiXu = 28;</code>
        *
        * <pre>
-       *In file:dzhyun.paixu.proto, row:10,
+       *In file:dzhyun.paixu.proto, row:9,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunPaixu.PaiXuOrBuilder getRepDataPaiXuOrBuilder(
@@ -13135,7 +14568,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.PaiXu RepDataPaiXu = 28;</code>
        *
        * <pre>
-       *In file:dzhyun.paixu.proto, row:10,
+       *In file:dzhyun.paixu.proto, row:9,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhyunPaixu.PaiXuOrBuilder> 
@@ -13150,7 +14583,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.PaiXu RepDataPaiXu = 28;</code>
        *
        * <pre>
-       *In file:dzhyun.paixu.proto, row:10,
+       *In file:dzhyun.paixu.proto, row:9,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunPaixu.PaiXu.Builder addRepDataPaiXuBuilder() {
@@ -13161,7 +14594,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.PaiXu RepDataPaiXu = 28;</code>
        *
        * <pre>
-       *In file:dzhyun.paixu.proto, row:10,
+       *In file:dzhyun.paixu.proto, row:9,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunPaixu.PaiXu.Builder addRepDataPaiXuBuilder(
@@ -13173,7 +14606,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.PaiXu RepDataPaiXu = 28;</code>
        *
        * <pre>
-       *In file:dzhyun.paixu.proto, row:10,
+       *In file:dzhyun.paixu.proto, row:9,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunPaixu.PaiXu.Builder> 
@@ -13187,7 +14620,7 @@ public final class AutoMsg {
           repDataPaiXuBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhyunPaixu.PaiXu, com.dzhyun.proto.DzhyunPaixu.PaiXu.Builder, com.dzhyun.proto.DzhyunPaixu.PaiXuOrBuilder>(
                   repDataPaiXu_,
-                  ((bitField0_ & 0x00000800) == 0x00000800),
+                  ((bitField0_ & 0x00001000) == 0x00001000),
                   getParentForChildren(),
                   isClean());
           repDataPaiXu_ = null;
@@ -13198,9 +14631,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhyunJianpanbao.JianPanBaoShuChu> repDataJianPanBaoShuChu_ =
         java.util.Collections.emptyList();
       private void ensureRepDataJianPanBaoShuChuIsMutable() {
-        if (!((bitField0_ & 0x00001000) == 0x00001000)) {
+        if (!((bitField0_ & 0x00002000) == 0x00002000)) {
           repDataJianPanBaoShuChu_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunJianpanbao.JianPanBaoShuChu>(repDataJianPanBaoShuChu_);
-          bitField0_ |= 0x00001000;
+          bitField0_ |= 0x00002000;
          }
       }
 
@@ -13211,7 +14644,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.JianPanBaoShuChu RepDataJianPanBaoShuChu = 29;</code>
        *
        * <pre>
-       *In file:dzhyun.jianpanbao.proto, row:21,
+       *In file:dzhyun.jianpanbao.proto, row:25,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunJianpanbao.JianPanBaoShuChu> getRepDataJianPanBaoShuChuList() {
@@ -13225,7 +14658,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.JianPanBaoShuChu RepDataJianPanBaoShuChu = 29;</code>
        *
        * <pre>
-       *In file:dzhyun.jianpanbao.proto, row:21,
+       *In file:dzhyun.jianpanbao.proto, row:25,
        * </pre>
        */
       public int getRepDataJianPanBaoShuChuCount() {
@@ -13239,7 +14672,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.JianPanBaoShuChu RepDataJianPanBaoShuChu = 29;</code>
        *
        * <pre>
-       *In file:dzhyun.jianpanbao.proto, row:21,
+       *In file:dzhyun.jianpanbao.proto, row:25,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunJianpanbao.JianPanBaoShuChu getRepDataJianPanBaoShuChu(int index) {
@@ -13253,7 +14686,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.JianPanBaoShuChu RepDataJianPanBaoShuChu = 29;</code>
        *
        * <pre>
-       *In file:dzhyun.jianpanbao.proto, row:21,
+       *In file:dzhyun.jianpanbao.proto, row:25,
        * </pre>
        */
       public Builder setRepDataJianPanBaoShuChu(
@@ -13274,7 +14707,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.JianPanBaoShuChu RepDataJianPanBaoShuChu = 29;</code>
        *
        * <pre>
-       *In file:dzhyun.jianpanbao.proto, row:21,
+       *In file:dzhyun.jianpanbao.proto, row:25,
        * </pre>
        */
       public Builder setRepDataJianPanBaoShuChu(
@@ -13292,7 +14725,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.JianPanBaoShuChu RepDataJianPanBaoShuChu = 29;</code>
        *
        * <pre>
-       *In file:dzhyun.jianpanbao.proto, row:21,
+       *In file:dzhyun.jianpanbao.proto, row:25,
        * </pre>
        */
       public Builder addRepDataJianPanBaoShuChu(com.dzhyun.proto.DzhyunJianpanbao.JianPanBaoShuChu value) {
@@ -13312,7 +14745,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.JianPanBaoShuChu RepDataJianPanBaoShuChu = 29;</code>
        *
        * <pre>
-       *In file:dzhyun.jianpanbao.proto, row:21,
+       *In file:dzhyun.jianpanbao.proto, row:25,
        * </pre>
        */
       public Builder addRepDataJianPanBaoShuChu(
@@ -13333,7 +14766,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.JianPanBaoShuChu RepDataJianPanBaoShuChu = 29;</code>
        *
        * <pre>
-       *In file:dzhyun.jianpanbao.proto, row:21,
+       *In file:dzhyun.jianpanbao.proto, row:25,
        * </pre>
        */
       public Builder addRepDataJianPanBaoShuChu(
@@ -13351,7 +14784,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.JianPanBaoShuChu RepDataJianPanBaoShuChu = 29;</code>
        *
        * <pre>
-       *In file:dzhyun.jianpanbao.proto, row:21,
+       *In file:dzhyun.jianpanbao.proto, row:25,
        * </pre>
        */
       public Builder addRepDataJianPanBaoShuChu(
@@ -13369,7 +14802,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.JianPanBaoShuChu RepDataJianPanBaoShuChu = 29;</code>
        *
        * <pre>
-       *In file:dzhyun.jianpanbao.proto, row:21,
+       *In file:dzhyun.jianpanbao.proto, row:25,
        * </pre>
        */
       public Builder addAllRepDataJianPanBaoShuChu(
@@ -13388,13 +14821,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.JianPanBaoShuChu RepDataJianPanBaoShuChu = 29;</code>
        *
        * <pre>
-       *In file:dzhyun.jianpanbao.proto, row:21,
+       *In file:dzhyun.jianpanbao.proto, row:25,
        * </pre>
        */
       public Builder clearRepDataJianPanBaoShuChu() {
         if (repDataJianPanBaoShuChuBuilder_ == null) {
           repDataJianPanBaoShuChu_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00001000);
+          bitField0_ = (bitField0_ & ~0x00002000);
           onChanged();
         } else {
           repDataJianPanBaoShuChuBuilder_.clear();
@@ -13405,7 +14838,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.JianPanBaoShuChu RepDataJianPanBaoShuChu = 29;</code>
        *
        * <pre>
-       *In file:dzhyun.jianpanbao.proto, row:21,
+       *In file:dzhyun.jianpanbao.proto, row:25,
        * </pre>
        */
       public Builder removeRepDataJianPanBaoShuChu(int index) {
@@ -13422,7 +14855,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.JianPanBaoShuChu RepDataJianPanBaoShuChu = 29;</code>
        *
        * <pre>
-       *In file:dzhyun.jianpanbao.proto, row:21,
+       *In file:dzhyun.jianpanbao.proto, row:25,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunJianpanbao.JianPanBaoShuChu.Builder getRepDataJianPanBaoShuChuBuilder(
@@ -13433,7 +14866,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.JianPanBaoShuChu RepDataJianPanBaoShuChu = 29;</code>
        *
        * <pre>
-       *In file:dzhyun.jianpanbao.proto, row:21,
+       *In file:dzhyun.jianpanbao.proto, row:25,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunJianpanbao.JianPanBaoShuChuOrBuilder getRepDataJianPanBaoShuChuOrBuilder(
@@ -13447,7 +14880,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.JianPanBaoShuChu RepDataJianPanBaoShuChu = 29;</code>
        *
        * <pre>
-       *In file:dzhyun.jianpanbao.proto, row:21,
+       *In file:dzhyun.jianpanbao.proto, row:25,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhyunJianpanbao.JianPanBaoShuChuOrBuilder> 
@@ -13462,7 +14895,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.JianPanBaoShuChu RepDataJianPanBaoShuChu = 29;</code>
        *
        * <pre>
-       *In file:dzhyun.jianpanbao.proto, row:21,
+       *In file:dzhyun.jianpanbao.proto, row:25,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunJianpanbao.JianPanBaoShuChu.Builder addRepDataJianPanBaoShuChuBuilder() {
@@ -13473,7 +14906,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.JianPanBaoShuChu RepDataJianPanBaoShuChu = 29;</code>
        *
        * <pre>
-       *In file:dzhyun.jianpanbao.proto, row:21,
+       *In file:dzhyun.jianpanbao.proto, row:25,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunJianpanbao.JianPanBaoShuChu.Builder addRepDataJianPanBaoShuChuBuilder(
@@ -13485,7 +14918,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.JianPanBaoShuChu RepDataJianPanBaoShuChu = 29;</code>
        *
        * <pre>
-       *In file:dzhyun.jianpanbao.proto, row:21,
+       *In file:dzhyun.jianpanbao.proto, row:25,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunJianpanbao.JianPanBaoShuChu.Builder> 
@@ -13499,7 +14932,7 @@ public final class AutoMsg {
           repDataJianPanBaoShuChuBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhyunJianpanbao.JianPanBaoShuChu, com.dzhyun.proto.DzhyunJianpanbao.JianPanBaoShuChu.Builder, com.dzhyun.proto.DzhyunJianpanbao.JianPanBaoShuChuOrBuilder>(
                   repDataJianPanBaoShuChu_,
-                  ((bitField0_ & 0x00001000) == 0x00001000),
+                  ((bitField0_ & 0x00002000) == 0x00002000),
                   getParentForChildren(),
                   isClean());
           repDataJianPanBaoShuChu_ = null;
@@ -13510,9 +14943,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhyunFenjijijin.FenJiJiJin> repDataFenJiJiJin_ =
         java.util.Collections.emptyList();
       private void ensureRepDataFenJiJiJinIsMutable() {
-        if (!((bitField0_ & 0x00002000) == 0x00002000)) {
+        if (!((bitField0_ & 0x00004000) == 0x00004000)) {
           repDataFenJiJiJin_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunFenjijijin.FenJiJiJin>(repDataFenJiJiJin_);
-          bitField0_ |= 0x00002000;
+          bitField0_ |= 0x00004000;
          }
       }
 
@@ -13523,7 +14956,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.FenJiJiJin RepDataFenJiJiJin = 30;</code>
        *
        * <pre>
-       *In file:dzhyun.fenjijijin.proto, row:8,
+       *In file:dzhyun.fenjijijin.proto, row:11,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunFenjijijin.FenJiJiJin> getRepDataFenJiJiJinList() {
@@ -13537,7 +14970,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.FenJiJiJin RepDataFenJiJiJin = 30;</code>
        *
        * <pre>
-       *In file:dzhyun.fenjijijin.proto, row:8,
+       *In file:dzhyun.fenjijijin.proto, row:11,
        * </pre>
        */
       public int getRepDataFenJiJiJinCount() {
@@ -13551,7 +14984,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.FenJiJiJin RepDataFenJiJiJin = 30;</code>
        *
        * <pre>
-       *In file:dzhyun.fenjijijin.proto, row:8,
+       *In file:dzhyun.fenjijijin.proto, row:11,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunFenjijijin.FenJiJiJin getRepDataFenJiJiJin(int index) {
@@ -13565,7 +14998,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.FenJiJiJin RepDataFenJiJiJin = 30;</code>
        *
        * <pre>
-       *In file:dzhyun.fenjijijin.proto, row:8,
+       *In file:dzhyun.fenjijijin.proto, row:11,
        * </pre>
        */
       public Builder setRepDataFenJiJiJin(
@@ -13586,7 +15019,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.FenJiJiJin RepDataFenJiJiJin = 30;</code>
        *
        * <pre>
-       *In file:dzhyun.fenjijijin.proto, row:8,
+       *In file:dzhyun.fenjijijin.proto, row:11,
        * </pre>
        */
       public Builder setRepDataFenJiJiJin(
@@ -13604,7 +15037,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.FenJiJiJin RepDataFenJiJiJin = 30;</code>
        *
        * <pre>
-       *In file:dzhyun.fenjijijin.proto, row:8,
+       *In file:dzhyun.fenjijijin.proto, row:11,
        * </pre>
        */
       public Builder addRepDataFenJiJiJin(com.dzhyun.proto.DzhyunFenjijijin.FenJiJiJin value) {
@@ -13624,7 +15057,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.FenJiJiJin RepDataFenJiJiJin = 30;</code>
        *
        * <pre>
-       *In file:dzhyun.fenjijijin.proto, row:8,
+       *In file:dzhyun.fenjijijin.proto, row:11,
        * </pre>
        */
       public Builder addRepDataFenJiJiJin(
@@ -13645,7 +15078,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.FenJiJiJin RepDataFenJiJiJin = 30;</code>
        *
        * <pre>
-       *In file:dzhyun.fenjijijin.proto, row:8,
+       *In file:dzhyun.fenjijijin.proto, row:11,
        * </pre>
        */
       public Builder addRepDataFenJiJiJin(
@@ -13663,7 +15096,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.FenJiJiJin RepDataFenJiJiJin = 30;</code>
        *
        * <pre>
-       *In file:dzhyun.fenjijijin.proto, row:8,
+       *In file:dzhyun.fenjijijin.proto, row:11,
        * </pre>
        */
       public Builder addRepDataFenJiJiJin(
@@ -13681,7 +15114,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.FenJiJiJin RepDataFenJiJiJin = 30;</code>
        *
        * <pre>
-       *In file:dzhyun.fenjijijin.proto, row:8,
+       *In file:dzhyun.fenjijijin.proto, row:11,
        * </pre>
        */
       public Builder addAllRepDataFenJiJiJin(
@@ -13700,13 +15133,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.FenJiJiJin RepDataFenJiJiJin = 30;</code>
        *
        * <pre>
-       *In file:dzhyun.fenjijijin.proto, row:8,
+       *In file:dzhyun.fenjijijin.proto, row:11,
        * </pre>
        */
       public Builder clearRepDataFenJiJiJin() {
         if (repDataFenJiJiJinBuilder_ == null) {
           repDataFenJiJiJin_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00002000);
+          bitField0_ = (bitField0_ & ~0x00004000);
           onChanged();
         } else {
           repDataFenJiJiJinBuilder_.clear();
@@ -13717,7 +15150,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.FenJiJiJin RepDataFenJiJiJin = 30;</code>
        *
        * <pre>
-       *In file:dzhyun.fenjijijin.proto, row:8,
+       *In file:dzhyun.fenjijijin.proto, row:11,
        * </pre>
        */
       public Builder removeRepDataFenJiJiJin(int index) {
@@ -13734,7 +15167,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.FenJiJiJin RepDataFenJiJiJin = 30;</code>
        *
        * <pre>
-       *In file:dzhyun.fenjijijin.proto, row:8,
+       *In file:dzhyun.fenjijijin.proto, row:11,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunFenjijijin.FenJiJiJin.Builder getRepDataFenJiJiJinBuilder(
@@ -13745,7 +15178,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.FenJiJiJin RepDataFenJiJiJin = 30;</code>
        *
        * <pre>
-       *In file:dzhyun.fenjijijin.proto, row:8,
+       *In file:dzhyun.fenjijijin.proto, row:11,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunFenjijijin.FenJiJiJinOrBuilder getRepDataFenJiJiJinOrBuilder(
@@ -13759,7 +15192,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.FenJiJiJin RepDataFenJiJiJin = 30;</code>
        *
        * <pre>
-       *In file:dzhyun.fenjijijin.proto, row:8,
+       *In file:dzhyun.fenjijijin.proto, row:11,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhyunFenjijijin.FenJiJiJinOrBuilder> 
@@ -13774,7 +15207,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.FenJiJiJin RepDataFenJiJiJin = 30;</code>
        *
        * <pre>
-       *In file:dzhyun.fenjijijin.proto, row:8,
+       *In file:dzhyun.fenjijijin.proto, row:11,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunFenjijijin.FenJiJiJin.Builder addRepDataFenJiJiJinBuilder() {
@@ -13785,7 +15218,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.FenJiJiJin RepDataFenJiJiJin = 30;</code>
        *
        * <pre>
-       *In file:dzhyun.fenjijijin.proto, row:8,
+       *In file:dzhyun.fenjijijin.proto, row:11,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunFenjijijin.FenJiJiJin.Builder addRepDataFenJiJiJinBuilder(
@@ -13797,7 +15230,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.FenJiJiJin RepDataFenJiJiJin = 30;</code>
        *
        * <pre>
-       *In file:dzhyun.fenjijijin.proto, row:8,
+       *In file:dzhyun.fenjijijin.proto, row:11,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunFenjijijin.FenJiJiJin.Builder> 
@@ -13811,7 +15244,7 @@ public final class AutoMsg {
           repDataFenJiJiJinBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhyunFenjijijin.FenJiJiJin, com.dzhyun.proto.DzhyunFenjijijin.FenJiJiJin.Builder, com.dzhyun.proto.DzhyunFenjijijin.FenJiJiJinOrBuilder>(
                   repDataFenJiJiJin_,
-                  ((bitField0_ & 0x00002000) == 0x00002000),
+                  ((bitField0_ & 0x00004000) == 0x00004000),
                   getParentForChildren(),
                   isClean());
           repDataFenJiJiJin_ = null;
@@ -13822,9 +15255,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.Dzhmsg.MsgGetOutput> repDataMsgGetOutput_ =
         java.util.Collections.emptyList();
       private void ensureRepDataMsgGetOutputIsMutable() {
-        if (!((bitField0_ & 0x00004000) == 0x00004000)) {
+        if (!((bitField0_ & 0x00008000) == 0x00008000)) {
           repDataMsgGetOutput_ = new java.util.ArrayList<com.dzhyun.proto.Dzhmsg.MsgGetOutput>(repDataMsgGetOutput_);
-          bitField0_ |= 0x00004000;
+          bitField0_ |= 0x00008000;
          }
       }
 
@@ -13835,7 +15268,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgGetOutput RepDataMsgGetOutput = 31;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:16,
+       *In file:dzhmsg.proto, row:15,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhmsg.MsgGetOutput> getRepDataMsgGetOutputList() {
@@ -13849,7 +15282,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgGetOutput RepDataMsgGetOutput = 31;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:16,
+       *In file:dzhmsg.proto, row:15,
        * </pre>
        */
       public int getRepDataMsgGetOutputCount() {
@@ -13863,7 +15296,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgGetOutput RepDataMsgGetOutput = 31;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:16,
+       *In file:dzhmsg.proto, row:15,
        * </pre>
        */
       public com.dzhyun.proto.Dzhmsg.MsgGetOutput getRepDataMsgGetOutput(int index) {
@@ -13877,7 +15310,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgGetOutput RepDataMsgGetOutput = 31;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:16,
+       *In file:dzhmsg.proto, row:15,
        * </pre>
        */
       public Builder setRepDataMsgGetOutput(
@@ -13898,7 +15331,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgGetOutput RepDataMsgGetOutput = 31;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:16,
+       *In file:dzhmsg.proto, row:15,
        * </pre>
        */
       public Builder setRepDataMsgGetOutput(
@@ -13916,7 +15349,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgGetOutput RepDataMsgGetOutput = 31;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:16,
+       *In file:dzhmsg.proto, row:15,
        * </pre>
        */
       public Builder addRepDataMsgGetOutput(com.dzhyun.proto.Dzhmsg.MsgGetOutput value) {
@@ -13936,7 +15369,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgGetOutput RepDataMsgGetOutput = 31;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:16,
+       *In file:dzhmsg.proto, row:15,
        * </pre>
        */
       public Builder addRepDataMsgGetOutput(
@@ -13957,7 +15390,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgGetOutput RepDataMsgGetOutput = 31;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:16,
+       *In file:dzhmsg.proto, row:15,
        * </pre>
        */
       public Builder addRepDataMsgGetOutput(
@@ -13975,7 +15408,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgGetOutput RepDataMsgGetOutput = 31;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:16,
+       *In file:dzhmsg.proto, row:15,
        * </pre>
        */
       public Builder addRepDataMsgGetOutput(
@@ -13993,7 +15426,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgGetOutput RepDataMsgGetOutput = 31;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:16,
+       *In file:dzhmsg.proto, row:15,
        * </pre>
        */
       public Builder addAllRepDataMsgGetOutput(
@@ -14012,13 +15445,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgGetOutput RepDataMsgGetOutput = 31;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:16,
+       *In file:dzhmsg.proto, row:15,
        * </pre>
        */
       public Builder clearRepDataMsgGetOutput() {
         if (repDataMsgGetOutputBuilder_ == null) {
           repDataMsgGetOutput_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00004000);
+          bitField0_ = (bitField0_ & ~0x00008000);
           onChanged();
         } else {
           repDataMsgGetOutputBuilder_.clear();
@@ -14029,7 +15462,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgGetOutput RepDataMsgGetOutput = 31;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:16,
+       *In file:dzhmsg.proto, row:15,
        * </pre>
        */
       public Builder removeRepDataMsgGetOutput(int index) {
@@ -14046,7 +15479,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgGetOutput RepDataMsgGetOutput = 31;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:16,
+       *In file:dzhmsg.proto, row:15,
        * </pre>
        */
       public com.dzhyun.proto.Dzhmsg.MsgGetOutput.Builder getRepDataMsgGetOutputBuilder(
@@ -14057,7 +15490,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgGetOutput RepDataMsgGetOutput = 31;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:16,
+       *In file:dzhmsg.proto, row:15,
        * </pre>
        */
       public com.dzhyun.proto.Dzhmsg.MsgGetOutputOrBuilder getRepDataMsgGetOutputOrBuilder(
@@ -14071,7 +15504,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgGetOutput RepDataMsgGetOutput = 31;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:16,
+       *In file:dzhmsg.proto, row:15,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.Dzhmsg.MsgGetOutputOrBuilder> 
@@ -14086,7 +15519,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgGetOutput RepDataMsgGetOutput = 31;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:16,
+       *In file:dzhmsg.proto, row:15,
        * </pre>
        */
       public com.dzhyun.proto.Dzhmsg.MsgGetOutput.Builder addRepDataMsgGetOutputBuilder() {
@@ -14097,7 +15530,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgGetOutput RepDataMsgGetOutput = 31;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:16,
+       *In file:dzhmsg.proto, row:15,
        * </pre>
        */
       public com.dzhyun.proto.Dzhmsg.MsgGetOutput.Builder addRepDataMsgGetOutputBuilder(
@@ -14109,7 +15542,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgGetOutput RepDataMsgGetOutput = 31;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:16,
+       *In file:dzhmsg.proto, row:15,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhmsg.MsgGetOutput.Builder> 
@@ -14123,7 +15556,7 @@ public final class AutoMsg {
           repDataMsgGetOutputBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.Dzhmsg.MsgGetOutput, com.dzhyun.proto.Dzhmsg.MsgGetOutput.Builder, com.dzhyun.proto.Dzhmsg.MsgGetOutputOrBuilder>(
                   repDataMsgGetOutput_,
-                  ((bitField0_ & 0x00004000) == 0x00004000),
+                  ((bitField0_ & 0x00008000) == 0x00008000),
                   getParentForChildren(),
                   isClean());
           repDataMsgGetOutput_ = null;
@@ -14134,9 +15567,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.Dzhmsg.MsgPutOutput> repDataMsgPutOutput_ =
         java.util.Collections.emptyList();
       private void ensureRepDataMsgPutOutputIsMutable() {
-        if (!((bitField0_ & 0x00008000) == 0x00008000)) {
+        if (!((bitField0_ & 0x00010000) == 0x00010000)) {
           repDataMsgPutOutput_ = new java.util.ArrayList<com.dzhyun.proto.Dzhmsg.MsgPutOutput>(repDataMsgPutOutput_);
-          bitField0_ |= 0x00008000;
+          bitField0_ |= 0x00010000;
          }
       }
 
@@ -14147,7 +15580,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgPutOutput RepDataMsgPutOutput = 32;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:22,
+       *In file:dzhmsg.proto, row:21,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhmsg.MsgPutOutput> getRepDataMsgPutOutputList() {
@@ -14161,7 +15594,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgPutOutput RepDataMsgPutOutput = 32;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:22,
+       *In file:dzhmsg.proto, row:21,
        * </pre>
        */
       public int getRepDataMsgPutOutputCount() {
@@ -14175,7 +15608,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgPutOutput RepDataMsgPutOutput = 32;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:22,
+       *In file:dzhmsg.proto, row:21,
        * </pre>
        */
       public com.dzhyun.proto.Dzhmsg.MsgPutOutput getRepDataMsgPutOutput(int index) {
@@ -14189,7 +15622,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgPutOutput RepDataMsgPutOutput = 32;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:22,
+       *In file:dzhmsg.proto, row:21,
        * </pre>
        */
       public Builder setRepDataMsgPutOutput(
@@ -14210,7 +15643,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgPutOutput RepDataMsgPutOutput = 32;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:22,
+       *In file:dzhmsg.proto, row:21,
        * </pre>
        */
       public Builder setRepDataMsgPutOutput(
@@ -14228,7 +15661,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgPutOutput RepDataMsgPutOutput = 32;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:22,
+       *In file:dzhmsg.proto, row:21,
        * </pre>
        */
       public Builder addRepDataMsgPutOutput(com.dzhyun.proto.Dzhmsg.MsgPutOutput value) {
@@ -14248,7 +15681,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgPutOutput RepDataMsgPutOutput = 32;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:22,
+       *In file:dzhmsg.proto, row:21,
        * </pre>
        */
       public Builder addRepDataMsgPutOutput(
@@ -14269,7 +15702,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgPutOutput RepDataMsgPutOutput = 32;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:22,
+       *In file:dzhmsg.proto, row:21,
        * </pre>
        */
       public Builder addRepDataMsgPutOutput(
@@ -14287,7 +15720,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgPutOutput RepDataMsgPutOutput = 32;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:22,
+       *In file:dzhmsg.proto, row:21,
        * </pre>
        */
       public Builder addRepDataMsgPutOutput(
@@ -14305,7 +15738,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgPutOutput RepDataMsgPutOutput = 32;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:22,
+       *In file:dzhmsg.proto, row:21,
        * </pre>
        */
       public Builder addAllRepDataMsgPutOutput(
@@ -14324,13 +15757,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgPutOutput RepDataMsgPutOutput = 32;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:22,
+       *In file:dzhmsg.proto, row:21,
        * </pre>
        */
       public Builder clearRepDataMsgPutOutput() {
         if (repDataMsgPutOutputBuilder_ == null) {
           repDataMsgPutOutput_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00008000);
+          bitField0_ = (bitField0_ & ~0x00010000);
           onChanged();
         } else {
           repDataMsgPutOutputBuilder_.clear();
@@ -14341,7 +15774,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgPutOutput RepDataMsgPutOutput = 32;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:22,
+       *In file:dzhmsg.proto, row:21,
        * </pre>
        */
       public Builder removeRepDataMsgPutOutput(int index) {
@@ -14358,7 +15791,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgPutOutput RepDataMsgPutOutput = 32;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:22,
+       *In file:dzhmsg.proto, row:21,
        * </pre>
        */
       public com.dzhyun.proto.Dzhmsg.MsgPutOutput.Builder getRepDataMsgPutOutputBuilder(
@@ -14369,7 +15802,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgPutOutput RepDataMsgPutOutput = 32;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:22,
+       *In file:dzhmsg.proto, row:21,
        * </pre>
        */
       public com.dzhyun.proto.Dzhmsg.MsgPutOutputOrBuilder getRepDataMsgPutOutputOrBuilder(
@@ -14383,7 +15816,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgPutOutput RepDataMsgPutOutput = 32;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:22,
+       *In file:dzhmsg.proto, row:21,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.Dzhmsg.MsgPutOutputOrBuilder> 
@@ -14398,7 +15831,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgPutOutput RepDataMsgPutOutput = 32;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:22,
+       *In file:dzhmsg.proto, row:21,
        * </pre>
        */
       public com.dzhyun.proto.Dzhmsg.MsgPutOutput.Builder addRepDataMsgPutOutputBuilder() {
@@ -14409,7 +15842,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgPutOutput RepDataMsgPutOutput = 32;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:22,
+       *In file:dzhmsg.proto, row:21,
        * </pre>
        */
       public com.dzhyun.proto.Dzhmsg.MsgPutOutput.Builder addRepDataMsgPutOutputBuilder(
@@ -14421,7 +15854,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.MsgPutOutput RepDataMsgPutOutput = 32;</code>
        *
        * <pre>
-       *In file:dzhmsg.proto, row:22,
+       *In file:dzhmsg.proto, row:21,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhmsg.MsgPutOutput.Builder> 
@@ -14435,7 +15868,7 @@ public final class AutoMsg {
           repDataMsgPutOutputBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.Dzhmsg.MsgPutOutput, com.dzhyun.proto.Dzhmsg.MsgPutOutput.Builder, com.dzhyun.proto.Dzhmsg.MsgPutOutputOrBuilder>(
                   repDataMsgPutOutput_,
-                  ((bitField0_ & 0x00008000) == 0x00008000),
+                  ((bitField0_ & 0x00010000) == 0x00010000),
                   getParentForChildren(),
                   isClean());
           repDataMsgPutOutput_ = null;
@@ -14446,9 +15879,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhBlock.BlockObjOutput> repDataBlockObjOutput_ =
         java.util.Collections.emptyList();
       private void ensureRepDataBlockObjOutputIsMutable() {
-        if (!((bitField0_ & 0x00010000) == 0x00010000)) {
+        if (!((bitField0_ & 0x00020000) == 0x00020000)) {
           repDataBlockObjOutput_ = new java.util.ArrayList<com.dzhyun.proto.DzhBlock.BlockObjOutput>(repDataBlockObjOutput_);
-          bitField0_ |= 0x00010000;
+          bitField0_ |= 0x00020000;
          }
       }
 
@@ -14459,7 +15892,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockObjOutput RepDataBlockObjOutput = 33;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:2,
+       *In file:dzh.block.proto, row:5,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhBlock.BlockObjOutput> getRepDataBlockObjOutputList() {
@@ -14473,7 +15906,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockObjOutput RepDataBlockObjOutput = 33;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:2,
+       *In file:dzh.block.proto, row:5,
        * </pre>
        */
       public int getRepDataBlockObjOutputCount() {
@@ -14487,7 +15920,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockObjOutput RepDataBlockObjOutput = 33;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:2,
+       *In file:dzh.block.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.DzhBlock.BlockObjOutput getRepDataBlockObjOutput(int index) {
@@ -14501,7 +15934,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockObjOutput RepDataBlockObjOutput = 33;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:2,
+       *In file:dzh.block.proto, row:5,
        * </pre>
        */
       public Builder setRepDataBlockObjOutput(
@@ -14522,7 +15955,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockObjOutput RepDataBlockObjOutput = 33;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:2,
+       *In file:dzh.block.proto, row:5,
        * </pre>
        */
       public Builder setRepDataBlockObjOutput(
@@ -14540,7 +15973,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockObjOutput RepDataBlockObjOutput = 33;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:2,
+       *In file:dzh.block.proto, row:5,
        * </pre>
        */
       public Builder addRepDataBlockObjOutput(com.dzhyun.proto.DzhBlock.BlockObjOutput value) {
@@ -14560,7 +15993,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockObjOutput RepDataBlockObjOutput = 33;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:2,
+       *In file:dzh.block.proto, row:5,
        * </pre>
        */
       public Builder addRepDataBlockObjOutput(
@@ -14581,7 +16014,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockObjOutput RepDataBlockObjOutput = 33;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:2,
+       *In file:dzh.block.proto, row:5,
        * </pre>
        */
       public Builder addRepDataBlockObjOutput(
@@ -14599,7 +16032,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockObjOutput RepDataBlockObjOutput = 33;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:2,
+       *In file:dzh.block.proto, row:5,
        * </pre>
        */
       public Builder addRepDataBlockObjOutput(
@@ -14617,7 +16050,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockObjOutput RepDataBlockObjOutput = 33;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:2,
+       *In file:dzh.block.proto, row:5,
        * </pre>
        */
       public Builder addAllRepDataBlockObjOutput(
@@ -14636,13 +16069,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockObjOutput RepDataBlockObjOutput = 33;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:2,
+       *In file:dzh.block.proto, row:5,
        * </pre>
        */
       public Builder clearRepDataBlockObjOutput() {
         if (repDataBlockObjOutputBuilder_ == null) {
           repDataBlockObjOutput_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00010000);
+          bitField0_ = (bitField0_ & ~0x00020000);
           onChanged();
         } else {
           repDataBlockObjOutputBuilder_.clear();
@@ -14653,7 +16086,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockObjOutput RepDataBlockObjOutput = 33;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:2,
+       *In file:dzh.block.proto, row:5,
        * </pre>
        */
       public Builder removeRepDataBlockObjOutput(int index) {
@@ -14670,7 +16103,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockObjOutput RepDataBlockObjOutput = 33;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:2,
+       *In file:dzh.block.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.DzhBlock.BlockObjOutput.Builder getRepDataBlockObjOutputBuilder(
@@ -14681,7 +16114,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockObjOutput RepDataBlockObjOutput = 33;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:2,
+       *In file:dzh.block.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.DzhBlock.BlockObjOutputOrBuilder getRepDataBlockObjOutputOrBuilder(
@@ -14695,7 +16128,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockObjOutput RepDataBlockObjOutput = 33;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:2,
+       *In file:dzh.block.proto, row:5,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhBlock.BlockObjOutputOrBuilder> 
@@ -14710,7 +16143,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockObjOutput RepDataBlockObjOutput = 33;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:2,
+       *In file:dzh.block.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.DzhBlock.BlockObjOutput.Builder addRepDataBlockObjOutputBuilder() {
@@ -14721,7 +16154,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockObjOutput RepDataBlockObjOutput = 33;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:2,
+       *In file:dzh.block.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.DzhBlock.BlockObjOutput.Builder addRepDataBlockObjOutputBuilder(
@@ -14733,7 +16166,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockObjOutput RepDataBlockObjOutput = 33;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:2,
+       *In file:dzh.block.proto, row:5,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhBlock.BlockObjOutput.Builder> 
@@ -14747,7 +16180,7 @@ public final class AutoMsg {
           repDataBlockObjOutputBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhBlock.BlockObjOutput, com.dzhyun.proto.DzhBlock.BlockObjOutput.Builder, com.dzhyun.proto.DzhBlock.BlockObjOutputOrBuilder>(
                   repDataBlockObjOutput_,
-                  ((bitField0_ & 0x00010000) == 0x00010000),
+                  ((bitField0_ & 0x00020000) == 0x00020000),
                   getParentForChildren(),
                   isClean());
           repDataBlockObjOutput_ = null;
@@ -14758,9 +16191,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhBlock.BlockPropOutput> repDataBlockPropOutput_ =
         java.util.Collections.emptyList();
       private void ensureRepDataBlockPropOutputIsMutable() {
-        if (!((bitField0_ & 0x00020000) == 0x00020000)) {
+        if (!((bitField0_ & 0x00040000) == 0x00040000)) {
           repDataBlockPropOutput_ = new java.util.ArrayList<com.dzhyun.proto.DzhBlock.BlockPropOutput>(repDataBlockPropOutput_);
-          bitField0_ |= 0x00020000;
+          bitField0_ |= 0x00040000;
          }
       }
 
@@ -14771,7 +16204,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockPropOutput RepDataBlockPropOutput = 34;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:7,
+       *In file:dzh.block.proto, row:10,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhBlock.BlockPropOutput> getRepDataBlockPropOutputList() {
@@ -14785,7 +16218,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockPropOutput RepDataBlockPropOutput = 34;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:7,
+       *In file:dzh.block.proto, row:10,
        * </pre>
        */
       public int getRepDataBlockPropOutputCount() {
@@ -14799,7 +16232,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockPropOutput RepDataBlockPropOutput = 34;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:7,
+       *In file:dzh.block.proto, row:10,
        * </pre>
        */
       public com.dzhyun.proto.DzhBlock.BlockPropOutput getRepDataBlockPropOutput(int index) {
@@ -14813,7 +16246,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockPropOutput RepDataBlockPropOutput = 34;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:7,
+       *In file:dzh.block.proto, row:10,
        * </pre>
        */
       public Builder setRepDataBlockPropOutput(
@@ -14834,7 +16267,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockPropOutput RepDataBlockPropOutput = 34;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:7,
+       *In file:dzh.block.proto, row:10,
        * </pre>
        */
       public Builder setRepDataBlockPropOutput(
@@ -14852,7 +16285,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockPropOutput RepDataBlockPropOutput = 34;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:7,
+       *In file:dzh.block.proto, row:10,
        * </pre>
        */
       public Builder addRepDataBlockPropOutput(com.dzhyun.proto.DzhBlock.BlockPropOutput value) {
@@ -14872,7 +16305,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockPropOutput RepDataBlockPropOutput = 34;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:7,
+       *In file:dzh.block.proto, row:10,
        * </pre>
        */
       public Builder addRepDataBlockPropOutput(
@@ -14893,7 +16326,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockPropOutput RepDataBlockPropOutput = 34;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:7,
+       *In file:dzh.block.proto, row:10,
        * </pre>
        */
       public Builder addRepDataBlockPropOutput(
@@ -14911,7 +16344,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockPropOutput RepDataBlockPropOutput = 34;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:7,
+       *In file:dzh.block.proto, row:10,
        * </pre>
        */
       public Builder addRepDataBlockPropOutput(
@@ -14929,7 +16362,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockPropOutput RepDataBlockPropOutput = 34;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:7,
+       *In file:dzh.block.proto, row:10,
        * </pre>
        */
       public Builder addAllRepDataBlockPropOutput(
@@ -14948,13 +16381,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockPropOutput RepDataBlockPropOutput = 34;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:7,
+       *In file:dzh.block.proto, row:10,
        * </pre>
        */
       public Builder clearRepDataBlockPropOutput() {
         if (repDataBlockPropOutputBuilder_ == null) {
           repDataBlockPropOutput_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00020000);
+          bitField0_ = (bitField0_ & ~0x00040000);
           onChanged();
         } else {
           repDataBlockPropOutputBuilder_.clear();
@@ -14965,7 +16398,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockPropOutput RepDataBlockPropOutput = 34;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:7,
+       *In file:dzh.block.proto, row:10,
        * </pre>
        */
       public Builder removeRepDataBlockPropOutput(int index) {
@@ -14982,7 +16415,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockPropOutput RepDataBlockPropOutput = 34;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:7,
+       *In file:dzh.block.proto, row:10,
        * </pre>
        */
       public com.dzhyun.proto.DzhBlock.BlockPropOutput.Builder getRepDataBlockPropOutputBuilder(
@@ -14993,7 +16426,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockPropOutput RepDataBlockPropOutput = 34;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:7,
+       *In file:dzh.block.proto, row:10,
        * </pre>
        */
       public com.dzhyun.proto.DzhBlock.BlockPropOutputOrBuilder getRepDataBlockPropOutputOrBuilder(
@@ -15007,7 +16440,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockPropOutput RepDataBlockPropOutput = 34;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:7,
+       *In file:dzh.block.proto, row:10,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhBlock.BlockPropOutputOrBuilder> 
@@ -15022,7 +16455,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockPropOutput RepDataBlockPropOutput = 34;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:7,
+       *In file:dzh.block.proto, row:10,
        * </pre>
        */
       public com.dzhyun.proto.DzhBlock.BlockPropOutput.Builder addRepDataBlockPropOutputBuilder() {
@@ -15033,7 +16466,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockPropOutput RepDataBlockPropOutput = 34;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:7,
+       *In file:dzh.block.proto, row:10,
        * </pre>
        */
       public com.dzhyun.proto.DzhBlock.BlockPropOutput.Builder addRepDataBlockPropOutputBuilder(
@@ -15045,7 +16478,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.BlockPropOutput RepDataBlockPropOutput = 34;</code>
        *
        * <pre>
-       *In file:dzh.block.proto, row:7,
+       *In file:dzh.block.proto, row:10,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhBlock.BlockPropOutput.Builder> 
@@ -15059,7 +16492,7 @@ public final class AutoMsg {
           repDataBlockPropOutputBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhBlock.BlockPropOutput, com.dzhyun.proto.DzhBlock.BlockPropOutput.Builder, com.dzhyun.proto.DzhBlock.BlockPropOutputOrBuilder>(
                   repDataBlockPropOutput_,
-                  ((bitField0_ & 0x00020000) == 0x00020000),
+                  ((bitField0_ & 0x00040000) == 0x00040000),
                   getParentForChildren(),
                   isClean());
           repDataBlockPropOutput_ = null;
@@ -15070,9 +16503,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.Dzhselfstock.SelfStockGetOutput> repDataSelfStockGetOutput_ =
         java.util.Collections.emptyList();
       private void ensureRepDataSelfStockGetOutputIsMutable() {
-        if (!((bitField0_ & 0x00040000) == 0x00040000)) {
+        if (!((bitField0_ & 0x00080000) == 0x00080000)) {
           repDataSelfStockGetOutput_ = new java.util.ArrayList<com.dzhyun.proto.Dzhselfstock.SelfStockGetOutput>(repDataSelfStockGetOutput_);
-          bitField0_ |= 0x00040000;
+          bitField0_ |= 0x00080000;
          }
       }
 
@@ -15083,7 +16516,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockGetOutput RepDataSelfStockGetOutput = 35;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:21,
+       *In file:dzhselfstock.proto, row:24,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhselfstock.SelfStockGetOutput> getRepDataSelfStockGetOutputList() {
@@ -15097,7 +16530,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockGetOutput RepDataSelfStockGetOutput = 35;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:21,
+       *In file:dzhselfstock.proto, row:24,
        * </pre>
        */
       public int getRepDataSelfStockGetOutputCount() {
@@ -15111,7 +16544,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockGetOutput RepDataSelfStockGetOutput = 35;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:21,
+       *In file:dzhselfstock.proto, row:24,
        * </pre>
        */
       public com.dzhyun.proto.Dzhselfstock.SelfStockGetOutput getRepDataSelfStockGetOutput(int index) {
@@ -15125,7 +16558,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockGetOutput RepDataSelfStockGetOutput = 35;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:21,
+       *In file:dzhselfstock.proto, row:24,
        * </pre>
        */
       public Builder setRepDataSelfStockGetOutput(
@@ -15146,7 +16579,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockGetOutput RepDataSelfStockGetOutput = 35;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:21,
+       *In file:dzhselfstock.proto, row:24,
        * </pre>
        */
       public Builder setRepDataSelfStockGetOutput(
@@ -15164,7 +16597,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockGetOutput RepDataSelfStockGetOutput = 35;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:21,
+       *In file:dzhselfstock.proto, row:24,
        * </pre>
        */
       public Builder addRepDataSelfStockGetOutput(com.dzhyun.proto.Dzhselfstock.SelfStockGetOutput value) {
@@ -15184,7 +16617,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockGetOutput RepDataSelfStockGetOutput = 35;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:21,
+       *In file:dzhselfstock.proto, row:24,
        * </pre>
        */
       public Builder addRepDataSelfStockGetOutput(
@@ -15205,7 +16638,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockGetOutput RepDataSelfStockGetOutput = 35;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:21,
+       *In file:dzhselfstock.proto, row:24,
        * </pre>
        */
       public Builder addRepDataSelfStockGetOutput(
@@ -15223,7 +16656,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockGetOutput RepDataSelfStockGetOutput = 35;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:21,
+       *In file:dzhselfstock.proto, row:24,
        * </pre>
        */
       public Builder addRepDataSelfStockGetOutput(
@@ -15241,7 +16674,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockGetOutput RepDataSelfStockGetOutput = 35;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:21,
+       *In file:dzhselfstock.proto, row:24,
        * </pre>
        */
       public Builder addAllRepDataSelfStockGetOutput(
@@ -15260,13 +16693,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockGetOutput RepDataSelfStockGetOutput = 35;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:21,
+       *In file:dzhselfstock.proto, row:24,
        * </pre>
        */
       public Builder clearRepDataSelfStockGetOutput() {
         if (repDataSelfStockGetOutputBuilder_ == null) {
           repDataSelfStockGetOutput_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00040000);
+          bitField0_ = (bitField0_ & ~0x00080000);
           onChanged();
         } else {
           repDataSelfStockGetOutputBuilder_.clear();
@@ -15277,7 +16710,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockGetOutput RepDataSelfStockGetOutput = 35;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:21,
+       *In file:dzhselfstock.proto, row:24,
        * </pre>
        */
       public Builder removeRepDataSelfStockGetOutput(int index) {
@@ -15294,7 +16727,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockGetOutput RepDataSelfStockGetOutput = 35;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:21,
+       *In file:dzhselfstock.proto, row:24,
        * </pre>
        */
       public com.dzhyun.proto.Dzhselfstock.SelfStockGetOutput.Builder getRepDataSelfStockGetOutputBuilder(
@@ -15305,7 +16738,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockGetOutput RepDataSelfStockGetOutput = 35;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:21,
+       *In file:dzhselfstock.proto, row:24,
        * </pre>
        */
       public com.dzhyun.proto.Dzhselfstock.SelfStockGetOutputOrBuilder getRepDataSelfStockGetOutputOrBuilder(
@@ -15319,7 +16752,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockGetOutput RepDataSelfStockGetOutput = 35;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:21,
+       *In file:dzhselfstock.proto, row:24,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.Dzhselfstock.SelfStockGetOutputOrBuilder> 
@@ -15334,7 +16767,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockGetOutput RepDataSelfStockGetOutput = 35;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:21,
+       *In file:dzhselfstock.proto, row:24,
        * </pre>
        */
       public com.dzhyun.proto.Dzhselfstock.SelfStockGetOutput.Builder addRepDataSelfStockGetOutputBuilder() {
@@ -15345,7 +16778,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockGetOutput RepDataSelfStockGetOutput = 35;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:21,
+       *In file:dzhselfstock.proto, row:24,
        * </pre>
        */
       public com.dzhyun.proto.Dzhselfstock.SelfStockGetOutput.Builder addRepDataSelfStockGetOutputBuilder(
@@ -15357,7 +16790,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockGetOutput RepDataSelfStockGetOutput = 35;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:21,
+       *In file:dzhselfstock.proto, row:24,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhselfstock.SelfStockGetOutput.Builder> 
@@ -15371,7 +16804,7 @@ public final class AutoMsg {
           repDataSelfStockGetOutputBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.Dzhselfstock.SelfStockGetOutput, com.dzhyun.proto.Dzhselfstock.SelfStockGetOutput.Builder, com.dzhyun.proto.Dzhselfstock.SelfStockGetOutputOrBuilder>(
                   repDataSelfStockGetOutput_,
-                  ((bitField0_ & 0x00040000) == 0x00040000),
+                  ((bitField0_ & 0x00080000) == 0x00080000),
                   getParentForChildren(),
                   isClean());
           repDataSelfStockGetOutput_ = null;
@@ -15382,9 +16815,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.Dzhselfstock.SelfStockPutOutput> repDataSelfStockPutOutput_ =
         java.util.Collections.emptyList();
       private void ensureRepDataSelfStockPutOutputIsMutable() {
-        if (!((bitField0_ & 0x00080000) == 0x00080000)) {
+        if (!((bitField0_ & 0x00100000) == 0x00100000)) {
           repDataSelfStockPutOutput_ = new java.util.ArrayList<com.dzhyun.proto.Dzhselfstock.SelfStockPutOutput>(repDataSelfStockPutOutput_);
-          bitField0_ |= 0x00080000;
+          bitField0_ |= 0x00100000;
          }
       }
 
@@ -15395,7 +16828,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockPutOutput RepDataSelfStockPutOutput = 36;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:32,
+       *In file:dzhselfstock.proto, row:35,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhselfstock.SelfStockPutOutput> getRepDataSelfStockPutOutputList() {
@@ -15409,7 +16842,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockPutOutput RepDataSelfStockPutOutput = 36;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:32,
+       *In file:dzhselfstock.proto, row:35,
        * </pre>
        */
       public int getRepDataSelfStockPutOutputCount() {
@@ -15423,7 +16856,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockPutOutput RepDataSelfStockPutOutput = 36;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:32,
+       *In file:dzhselfstock.proto, row:35,
        * </pre>
        */
       public com.dzhyun.proto.Dzhselfstock.SelfStockPutOutput getRepDataSelfStockPutOutput(int index) {
@@ -15437,7 +16870,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockPutOutput RepDataSelfStockPutOutput = 36;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:32,
+       *In file:dzhselfstock.proto, row:35,
        * </pre>
        */
       public Builder setRepDataSelfStockPutOutput(
@@ -15458,7 +16891,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockPutOutput RepDataSelfStockPutOutput = 36;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:32,
+       *In file:dzhselfstock.proto, row:35,
        * </pre>
        */
       public Builder setRepDataSelfStockPutOutput(
@@ -15476,7 +16909,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockPutOutput RepDataSelfStockPutOutput = 36;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:32,
+       *In file:dzhselfstock.proto, row:35,
        * </pre>
        */
       public Builder addRepDataSelfStockPutOutput(com.dzhyun.proto.Dzhselfstock.SelfStockPutOutput value) {
@@ -15496,7 +16929,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockPutOutput RepDataSelfStockPutOutput = 36;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:32,
+       *In file:dzhselfstock.proto, row:35,
        * </pre>
        */
       public Builder addRepDataSelfStockPutOutput(
@@ -15517,7 +16950,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockPutOutput RepDataSelfStockPutOutput = 36;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:32,
+       *In file:dzhselfstock.proto, row:35,
        * </pre>
        */
       public Builder addRepDataSelfStockPutOutput(
@@ -15535,7 +16968,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockPutOutput RepDataSelfStockPutOutput = 36;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:32,
+       *In file:dzhselfstock.proto, row:35,
        * </pre>
        */
       public Builder addRepDataSelfStockPutOutput(
@@ -15553,7 +16986,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockPutOutput RepDataSelfStockPutOutput = 36;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:32,
+       *In file:dzhselfstock.proto, row:35,
        * </pre>
        */
       public Builder addAllRepDataSelfStockPutOutput(
@@ -15572,13 +17005,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockPutOutput RepDataSelfStockPutOutput = 36;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:32,
+       *In file:dzhselfstock.proto, row:35,
        * </pre>
        */
       public Builder clearRepDataSelfStockPutOutput() {
         if (repDataSelfStockPutOutputBuilder_ == null) {
           repDataSelfStockPutOutput_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00080000);
+          bitField0_ = (bitField0_ & ~0x00100000);
           onChanged();
         } else {
           repDataSelfStockPutOutputBuilder_.clear();
@@ -15589,7 +17022,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockPutOutput RepDataSelfStockPutOutput = 36;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:32,
+       *In file:dzhselfstock.proto, row:35,
        * </pre>
        */
       public Builder removeRepDataSelfStockPutOutput(int index) {
@@ -15606,7 +17039,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockPutOutput RepDataSelfStockPutOutput = 36;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:32,
+       *In file:dzhselfstock.proto, row:35,
        * </pre>
        */
       public com.dzhyun.proto.Dzhselfstock.SelfStockPutOutput.Builder getRepDataSelfStockPutOutputBuilder(
@@ -15617,7 +17050,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockPutOutput RepDataSelfStockPutOutput = 36;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:32,
+       *In file:dzhselfstock.proto, row:35,
        * </pre>
        */
       public com.dzhyun.proto.Dzhselfstock.SelfStockPutOutputOrBuilder getRepDataSelfStockPutOutputOrBuilder(
@@ -15631,7 +17064,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockPutOutput RepDataSelfStockPutOutput = 36;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:32,
+       *In file:dzhselfstock.proto, row:35,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.Dzhselfstock.SelfStockPutOutputOrBuilder> 
@@ -15646,7 +17079,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockPutOutput RepDataSelfStockPutOutput = 36;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:32,
+       *In file:dzhselfstock.proto, row:35,
        * </pre>
        */
       public com.dzhyun.proto.Dzhselfstock.SelfStockPutOutput.Builder addRepDataSelfStockPutOutputBuilder() {
@@ -15657,7 +17090,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockPutOutput RepDataSelfStockPutOutput = 36;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:32,
+       *In file:dzhselfstock.proto, row:35,
        * </pre>
        */
       public com.dzhyun.proto.Dzhselfstock.SelfStockPutOutput.Builder addRepDataSelfStockPutOutputBuilder(
@@ -15669,7 +17102,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.SelfStockPutOutput RepDataSelfStockPutOutput = 36;</code>
        *
        * <pre>
-       *In file:dzhselfstock.proto, row:32,
+       *In file:dzhselfstock.proto, row:35,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhselfstock.SelfStockPutOutput.Builder> 
@@ -15683,7 +17116,7 @@ public final class AutoMsg {
           repDataSelfStockPutOutputBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.Dzhselfstock.SelfStockPutOutput, com.dzhyun.proto.Dzhselfstock.SelfStockPutOutput.Builder, com.dzhyun.proto.Dzhselfstock.SelfStockPutOutputOrBuilder>(
                   repDataSelfStockPutOutput_,
-                  ((bitField0_ & 0x00080000) == 0x00080000),
+                  ((bitField0_ & 0x00100000) == 0x00100000),
                   getParentForChildren(),
                   isClean());
           repDataSelfStockPutOutput_ = null;
@@ -15694,9 +17127,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.Dzhapp.AppKey> repDataAppKey_ =
         java.util.Collections.emptyList();
       private void ensureRepDataAppKeyIsMutable() {
-        if (!((bitField0_ & 0x00100000) == 0x00100000)) {
+        if (!((bitField0_ & 0x00200000) == 0x00200000)) {
           repDataAppKey_ = new java.util.ArrayList<com.dzhyun.proto.Dzhapp.AppKey>(repDataAppKey_);
-          bitField0_ |= 0x00100000;
+          bitField0_ |= 0x00200000;
          }
       }
 
@@ -15707,7 +17140,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppKey RepDataAppKey = 37;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:2,
+       *In file:dzhapp.proto, row:5,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhapp.AppKey> getRepDataAppKeyList() {
@@ -15721,7 +17154,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppKey RepDataAppKey = 37;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:2,
+       *In file:dzhapp.proto, row:5,
        * </pre>
        */
       public int getRepDataAppKeyCount() {
@@ -15735,7 +17168,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppKey RepDataAppKey = 37;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:2,
+       *In file:dzhapp.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.AppKey getRepDataAppKey(int index) {
@@ -15749,7 +17182,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppKey RepDataAppKey = 37;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:2,
+       *In file:dzhapp.proto, row:5,
        * </pre>
        */
       public Builder setRepDataAppKey(
@@ -15770,7 +17203,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppKey RepDataAppKey = 37;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:2,
+       *In file:dzhapp.proto, row:5,
        * </pre>
        */
       public Builder setRepDataAppKey(
@@ -15788,7 +17221,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppKey RepDataAppKey = 37;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:2,
+       *In file:dzhapp.proto, row:5,
        * </pre>
        */
       public Builder addRepDataAppKey(com.dzhyun.proto.Dzhapp.AppKey value) {
@@ -15808,7 +17241,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppKey RepDataAppKey = 37;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:2,
+       *In file:dzhapp.proto, row:5,
        * </pre>
        */
       public Builder addRepDataAppKey(
@@ -15829,7 +17262,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppKey RepDataAppKey = 37;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:2,
+       *In file:dzhapp.proto, row:5,
        * </pre>
        */
       public Builder addRepDataAppKey(
@@ -15847,7 +17280,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppKey RepDataAppKey = 37;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:2,
+       *In file:dzhapp.proto, row:5,
        * </pre>
        */
       public Builder addRepDataAppKey(
@@ -15865,7 +17298,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppKey RepDataAppKey = 37;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:2,
+       *In file:dzhapp.proto, row:5,
        * </pre>
        */
       public Builder addAllRepDataAppKey(
@@ -15884,13 +17317,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppKey RepDataAppKey = 37;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:2,
+       *In file:dzhapp.proto, row:5,
        * </pre>
        */
       public Builder clearRepDataAppKey() {
         if (repDataAppKeyBuilder_ == null) {
           repDataAppKey_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00100000);
+          bitField0_ = (bitField0_ & ~0x00200000);
           onChanged();
         } else {
           repDataAppKeyBuilder_.clear();
@@ -15901,7 +17334,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppKey RepDataAppKey = 37;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:2,
+       *In file:dzhapp.proto, row:5,
        * </pre>
        */
       public Builder removeRepDataAppKey(int index) {
@@ -15918,7 +17351,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppKey RepDataAppKey = 37;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:2,
+       *In file:dzhapp.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.AppKey.Builder getRepDataAppKeyBuilder(
@@ -15929,7 +17362,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppKey RepDataAppKey = 37;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:2,
+       *In file:dzhapp.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.AppKeyOrBuilder getRepDataAppKeyOrBuilder(
@@ -15943,7 +17376,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppKey RepDataAppKey = 37;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:2,
+       *In file:dzhapp.proto, row:5,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.Dzhapp.AppKeyOrBuilder> 
@@ -15958,7 +17391,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppKey RepDataAppKey = 37;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:2,
+       *In file:dzhapp.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.AppKey.Builder addRepDataAppKeyBuilder() {
@@ -15969,7 +17402,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppKey RepDataAppKey = 37;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:2,
+       *In file:dzhapp.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.AppKey.Builder addRepDataAppKeyBuilder(
@@ -15981,7 +17414,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppKey RepDataAppKey = 37;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:2,
+       *In file:dzhapp.proto, row:5,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhapp.AppKey.Builder> 
@@ -15995,7 +17428,7 @@ public final class AutoMsg {
           repDataAppKeyBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.Dzhapp.AppKey, com.dzhyun.proto.Dzhapp.AppKey.Builder, com.dzhyun.proto.Dzhapp.AppKeyOrBuilder>(
                   repDataAppKey_,
-                  ((bitField0_ & 0x00100000) == 0x00100000),
+                  ((bitField0_ & 0x00200000) == 0x00200000),
                   getParentForChildren(),
                   isClean());
           repDataAppKey_ = null;
@@ -16006,9 +17439,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.Dzhapp.AppInfo> repDataAppInfo_ =
         java.util.Collections.emptyList();
       private void ensureRepDataAppInfoIsMutable() {
-        if (!((bitField0_ & 0x00200000) == 0x00200000)) {
+        if (!((bitField0_ & 0x00400000) == 0x00400000)) {
           repDataAppInfo_ = new java.util.ArrayList<com.dzhyun.proto.Dzhapp.AppInfo>(repDataAppInfo_);
-          bitField0_ |= 0x00200000;
+          bitField0_ |= 0x00400000;
          }
       }
 
@@ -16019,7 +17452,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppInfo RepDataAppInfo = 38;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:8,
+       *In file:dzhapp.proto, row:11,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhapp.AppInfo> getRepDataAppInfoList() {
@@ -16033,7 +17466,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppInfo RepDataAppInfo = 38;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:8,
+       *In file:dzhapp.proto, row:11,
        * </pre>
        */
       public int getRepDataAppInfoCount() {
@@ -16047,7 +17480,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppInfo RepDataAppInfo = 38;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:8,
+       *In file:dzhapp.proto, row:11,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.AppInfo getRepDataAppInfo(int index) {
@@ -16061,7 +17494,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppInfo RepDataAppInfo = 38;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:8,
+       *In file:dzhapp.proto, row:11,
        * </pre>
        */
       public Builder setRepDataAppInfo(
@@ -16082,7 +17515,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppInfo RepDataAppInfo = 38;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:8,
+       *In file:dzhapp.proto, row:11,
        * </pre>
        */
       public Builder setRepDataAppInfo(
@@ -16100,7 +17533,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppInfo RepDataAppInfo = 38;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:8,
+       *In file:dzhapp.proto, row:11,
        * </pre>
        */
       public Builder addRepDataAppInfo(com.dzhyun.proto.Dzhapp.AppInfo value) {
@@ -16120,7 +17553,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppInfo RepDataAppInfo = 38;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:8,
+       *In file:dzhapp.proto, row:11,
        * </pre>
        */
       public Builder addRepDataAppInfo(
@@ -16141,7 +17574,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppInfo RepDataAppInfo = 38;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:8,
+       *In file:dzhapp.proto, row:11,
        * </pre>
        */
       public Builder addRepDataAppInfo(
@@ -16159,7 +17592,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppInfo RepDataAppInfo = 38;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:8,
+       *In file:dzhapp.proto, row:11,
        * </pre>
        */
       public Builder addRepDataAppInfo(
@@ -16177,7 +17610,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppInfo RepDataAppInfo = 38;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:8,
+       *In file:dzhapp.proto, row:11,
        * </pre>
        */
       public Builder addAllRepDataAppInfo(
@@ -16196,13 +17629,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppInfo RepDataAppInfo = 38;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:8,
+       *In file:dzhapp.proto, row:11,
        * </pre>
        */
       public Builder clearRepDataAppInfo() {
         if (repDataAppInfoBuilder_ == null) {
           repDataAppInfo_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00200000);
+          bitField0_ = (bitField0_ & ~0x00400000);
           onChanged();
         } else {
           repDataAppInfoBuilder_.clear();
@@ -16213,7 +17646,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppInfo RepDataAppInfo = 38;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:8,
+       *In file:dzhapp.proto, row:11,
        * </pre>
        */
       public Builder removeRepDataAppInfo(int index) {
@@ -16230,7 +17663,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppInfo RepDataAppInfo = 38;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:8,
+       *In file:dzhapp.proto, row:11,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.AppInfo.Builder getRepDataAppInfoBuilder(
@@ -16241,7 +17674,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppInfo RepDataAppInfo = 38;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:8,
+       *In file:dzhapp.proto, row:11,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.AppInfoOrBuilder getRepDataAppInfoOrBuilder(
@@ -16255,7 +17688,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppInfo RepDataAppInfo = 38;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:8,
+       *In file:dzhapp.proto, row:11,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.Dzhapp.AppInfoOrBuilder> 
@@ -16270,7 +17703,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppInfo RepDataAppInfo = 38;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:8,
+       *In file:dzhapp.proto, row:11,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.AppInfo.Builder addRepDataAppInfoBuilder() {
@@ -16281,7 +17714,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppInfo RepDataAppInfo = 38;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:8,
+       *In file:dzhapp.proto, row:11,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.AppInfo.Builder addRepDataAppInfoBuilder(
@@ -16293,7 +17726,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppInfo RepDataAppInfo = 38;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:8,
+       *In file:dzhapp.proto, row:11,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhapp.AppInfo.Builder> 
@@ -16307,7 +17740,7 @@ public final class AutoMsg {
           repDataAppInfoBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.Dzhapp.AppInfo, com.dzhyun.proto.Dzhapp.AppInfo.Builder, com.dzhyun.proto.Dzhapp.AppInfoOrBuilder>(
                   repDataAppInfo_,
-                  ((bitField0_ & 0x00200000) == 0x00200000),
+                  ((bitField0_ & 0x00400000) == 0x00400000),
                   getParentForChildren(),
                   isClean());
           repDataAppInfo_ = null;
@@ -16318,9 +17751,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.Dzhapp.AppValue> repDataAppValue_ =
         java.util.Collections.emptyList();
       private void ensureRepDataAppValueIsMutable() {
-        if (!((bitField0_ & 0x00400000) == 0x00400000)) {
+        if (!((bitField0_ & 0x00800000) == 0x00800000)) {
           repDataAppValue_ = new java.util.ArrayList<com.dzhyun.proto.Dzhapp.AppValue>(repDataAppValue_);
-          bitField0_ |= 0x00400000;
+          bitField0_ |= 0x00800000;
          }
       }
 
@@ -16331,7 +17764,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppValue RepDataAppValue = 39;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:19,
+       *In file:dzhapp.proto, row:22,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhapp.AppValue> getRepDataAppValueList() {
@@ -16345,7 +17778,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppValue RepDataAppValue = 39;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:19,
+       *In file:dzhapp.proto, row:22,
        * </pre>
        */
       public int getRepDataAppValueCount() {
@@ -16359,7 +17792,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppValue RepDataAppValue = 39;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:19,
+       *In file:dzhapp.proto, row:22,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.AppValue getRepDataAppValue(int index) {
@@ -16373,7 +17806,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppValue RepDataAppValue = 39;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:19,
+       *In file:dzhapp.proto, row:22,
        * </pre>
        */
       public Builder setRepDataAppValue(
@@ -16394,7 +17827,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppValue RepDataAppValue = 39;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:19,
+       *In file:dzhapp.proto, row:22,
        * </pre>
        */
       public Builder setRepDataAppValue(
@@ -16412,7 +17845,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppValue RepDataAppValue = 39;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:19,
+       *In file:dzhapp.proto, row:22,
        * </pre>
        */
       public Builder addRepDataAppValue(com.dzhyun.proto.Dzhapp.AppValue value) {
@@ -16432,7 +17865,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppValue RepDataAppValue = 39;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:19,
+       *In file:dzhapp.proto, row:22,
        * </pre>
        */
       public Builder addRepDataAppValue(
@@ -16453,7 +17886,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppValue RepDataAppValue = 39;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:19,
+       *In file:dzhapp.proto, row:22,
        * </pre>
        */
       public Builder addRepDataAppValue(
@@ -16471,7 +17904,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppValue RepDataAppValue = 39;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:19,
+       *In file:dzhapp.proto, row:22,
        * </pre>
        */
       public Builder addRepDataAppValue(
@@ -16489,7 +17922,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppValue RepDataAppValue = 39;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:19,
+       *In file:dzhapp.proto, row:22,
        * </pre>
        */
       public Builder addAllRepDataAppValue(
@@ -16508,13 +17941,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppValue RepDataAppValue = 39;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:19,
+       *In file:dzhapp.proto, row:22,
        * </pre>
        */
       public Builder clearRepDataAppValue() {
         if (repDataAppValueBuilder_ == null) {
           repDataAppValue_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00400000);
+          bitField0_ = (bitField0_ & ~0x00800000);
           onChanged();
         } else {
           repDataAppValueBuilder_.clear();
@@ -16525,7 +17958,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppValue RepDataAppValue = 39;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:19,
+       *In file:dzhapp.proto, row:22,
        * </pre>
        */
       public Builder removeRepDataAppValue(int index) {
@@ -16542,7 +17975,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppValue RepDataAppValue = 39;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:19,
+       *In file:dzhapp.proto, row:22,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.AppValue.Builder getRepDataAppValueBuilder(
@@ -16553,7 +17986,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppValue RepDataAppValue = 39;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:19,
+       *In file:dzhapp.proto, row:22,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.AppValueOrBuilder getRepDataAppValueOrBuilder(
@@ -16567,7 +18000,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppValue RepDataAppValue = 39;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:19,
+       *In file:dzhapp.proto, row:22,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.Dzhapp.AppValueOrBuilder> 
@@ -16582,7 +18015,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppValue RepDataAppValue = 39;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:19,
+       *In file:dzhapp.proto, row:22,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.AppValue.Builder addRepDataAppValueBuilder() {
@@ -16593,7 +18026,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppValue RepDataAppValue = 39;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:19,
+       *In file:dzhapp.proto, row:22,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.AppValue.Builder addRepDataAppValueBuilder(
@@ -16605,7 +18038,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppValue RepDataAppValue = 39;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:19,
+       *In file:dzhapp.proto, row:22,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhapp.AppValue.Builder> 
@@ -16619,7 +18052,7 @@ public final class AutoMsg {
           repDataAppValueBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.Dzhapp.AppValue, com.dzhyun.proto.Dzhapp.AppValue.Builder, com.dzhyun.proto.Dzhapp.AppValueOrBuilder>(
                   repDataAppValue_,
-                  ((bitField0_ & 0x00400000) == 0x00400000),
+                  ((bitField0_ & 0x00800000) == 0x00800000),
                   getParentForChildren(),
                   isClean());
           repDataAppValue_ = null;
@@ -16630,9 +18063,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.Dzhapp.ServiceAuth> repDataServiceAuth_ =
         java.util.Collections.emptyList();
       private void ensureRepDataServiceAuthIsMutable() {
-        if (!((bitField0_ & 0x00800000) == 0x00800000)) {
+        if (!((bitField0_ & 0x01000000) == 0x01000000)) {
           repDataServiceAuth_ = new java.util.ArrayList<com.dzhyun.proto.Dzhapp.ServiceAuth>(repDataServiceAuth_);
-          bitField0_ |= 0x00800000;
+          bitField0_ |= 0x01000000;
          }
       }
 
@@ -16643,7 +18076,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ServiceAuth RepDataServiceAuth = 40;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:31,
+       *In file:dzhapp.proto, row:34,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhapp.ServiceAuth> getRepDataServiceAuthList() {
@@ -16657,7 +18090,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ServiceAuth RepDataServiceAuth = 40;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:31,
+       *In file:dzhapp.proto, row:34,
        * </pre>
        */
       public int getRepDataServiceAuthCount() {
@@ -16671,7 +18104,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ServiceAuth RepDataServiceAuth = 40;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:31,
+       *In file:dzhapp.proto, row:34,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.ServiceAuth getRepDataServiceAuth(int index) {
@@ -16685,7 +18118,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ServiceAuth RepDataServiceAuth = 40;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:31,
+       *In file:dzhapp.proto, row:34,
        * </pre>
        */
       public Builder setRepDataServiceAuth(
@@ -16706,7 +18139,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ServiceAuth RepDataServiceAuth = 40;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:31,
+       *In file:dzhapp.proto, row:34,
        * </pre>
        */
       public Builder setRepDataServiceAuth(
@@ -16724,7 +18157,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ServiceAuth RepDataServiceAuth = 40;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:31,
+       *In file:dzhapp.proto, row:34,
        * </pre>
        */
       public Builder addRepDataServiceAuth(com.dzhyun.proto.Dzhapp.ServiceAuth value) {
@@ -16744,7 +18177,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ServiceAuth RepDataServiceAuth = 40;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:31,
+       *In file:dzhapp.proto, row:34,
        * </pre>
        */
       public Builder addRepDataServiceAuth(
@@ -16765,7 +18198,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ServiceAuth RepDataServiceAuth = 40;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:31,
+       *In file:dzhapp.proto, row:34,
        * </pre>
        */
       public Builder addRepDataServiceAuth(
@@ -16783,7 +18216,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ServiceAuth RepDataServiceAuth = 40;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:31,
+       *In file:dzhapp.proto, row:34,
        * </pre>
        */
       public Builder addRepDataServiceAuth(
@@ -16801,7 +18234,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ServiceAuth RepDataServiceAuth = 40;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:31,
+       *In file:dzhapp.proto, row:34,
        * </pre>
        */
       public Builder addAllRepDataServiceAuth(
@@ -16820,13 +18253,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ServiceAuth RepDataServiceAuth = 40;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:31,
+       *In file:dzhapp.proto, row:34,
        * </pre>
        */
       public Builder clearRepDataServiceAuth() {
         if (repDataServiceAuthBuilder_ == null) {
           repDataServiceAuth_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00800000);
+          bitField0_ = (bitField0_ & ~0x01000000);
           onChanged();
         } else {
           repDataServiceAuthBuilder_.clear();
@@ -16837,7 +18270,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ServiceAuth RepDataServiceAuth = 40;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:31,
+       *In file:dzhapp.proto, row:34,
        * </pre>
        */
       public Builder removeRepDataServiceAuth(int index) {
@@ -16854,7 +18287,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ServiceAuth RepDataServiceAuth = 40;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:31,
+       *In file:dzhapp.proto, row:34,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.ServiceAuth.Builder getRepDataServiceAuthBuilder(
@@ -16865,7 +18298,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ServiceAuth RepDataServiceAuth = 40;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:31,
+       *In file:dzhapp.proto, row:34,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.ServiceAuthOrBuilder getRepDataServiceAuthOrBuilder(
@@ -16879,7 +18312,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ServiceAuth RepDataServiceAuth = 40;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:31,
+       *In file:dzhapp.proto, row:34,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.Dzhapp.ServiceAuthOrBuilder> 
@@ -16894,7 +18327,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ServiceAuth RepDataServiceAuth = 40;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:31,
+       *In file:dzhapp.proto, row:34,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.ServiceAuth.Builder addRepDataServiceAuthBuilder() {
@@ -16905,7 +18338,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ServiceAuth RepDataServiceAuth = 40;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:31,
+       *In file:dzhapp.proto, row:34,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.ServiceAuth.Builder addRepDataServiceAuthBuilder(
@@ -16917,7 +18350,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ServiceAuth RepDataServiceAuth = 40;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:31,
+       *In file:dzhapp.proto, row:34,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhapp.ServiceAuth.Builder> 
@@ -16931,7 +18364,7 @@ public final class AutoMsg {
           repDataServiceAuthBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.Dzhapp.ServiceAuth, com.dzhyun.proto.Dzhapp.ServiceAuth.Builder, com.dzhyun.proto.Dzhapp.ServiceAuthOrBuilder>(
                   repDataServiceAuth_,
-                  ((bitField0_ & 0x00800000) == 0x00800000),
+                  ((bitField0_ & 0x01000000) == 0x01000000),
                   getParentForChildren(),
                   isClean());
           repDataServiceAuth_ = null;
@@ -16942,9 +18375,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.Dzhapp.AppServiceAuth> repDataAppServiceAuth_ =
         java.util.Collections.emptyList();
       private void ensureRepDataAppServiceAuthIsMutable() {
-        if (!((bitField0_ & 0x01000000) == 0x01000000)) {
+        if (!((bitField0_ & 0x02000000) == 0x02000000)) {
           repDataAppServiceAuth_ = new java.util.ArrayList<com.dzhyun.proto.Dzhapp.AppServiceAuth>(repDataAppServiceAuth_);
-          bitField0_ |= 0x01000000;
+          bitField0_ |= 0x02000000;
          }
       }
 
@@ -16955,7 +18388,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppServiceAuth RepDataAppServiceAuth = 41;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:43,
+       *In file:dzhapp.proto, row:46,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhapp.AppServiceAuth> getRepDataAppServiceAuthList() {
@@ -16969,7 +18402,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppServiceAuth RepDataAppServiceAuth = 41;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:43,
+       *In file:dzhapp.proto, row:46,
        * </pre>
        */
       public int getRepDataAppServiceAuthCount() {
@@ -16983,7 +18416,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppServiceAuth RepDataAppServiceAuth = 41;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:43,
+       *In file:dzhapp.proto, row:46,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.AppServiceAuth getRepDataAppServiceAuth(int index) {
@@ -16997,7 +18430,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppServiceAuth RepDataAppServiceAuth = 41;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:43,
+       *In file:dzhapp.proto, row:46,
        * </pre>
        */
       public Builder setRepDataAppServiceAuth(
@@ -17018,7 +18451,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppServiceAuth RepDataAppServiceAuth = 41;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:43,
+       *In file:dzhapp.proto, row:46,
        * </pre>
        */
       public Builder setRepDataAppServiceAuth(
@@ -17036,7 +18469,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppServiceAuth RepDataAppServiceAuth = 41;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:43,
+       *In file:dzhapp.proto, row:46,
        * </pre>
        */
       public Builder addRepDataAppServiceAuth(com.dzhyun.proto.Dzhapp.AppServiceAuth value) {
@@ -17056,7 +18489,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppServiceAuth RepDataAppServiceAuth = 41;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:43,
+       *In file:dzhapp.proto, row:46,
        * </pre>
        */
       public Builder addRepDataAppServiceAuth(
@@ -17077,7 +18510,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppServiceAuth RepDataAppServiceAuth = 41;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:43,
+       *In file:dzhapp.proto, row:46,
        * </pre>
        */
       public Builder addRepDataAppServiceAuth(
@@ -17095,7 +18528,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppServiceAuth RepDataAppServiceAuth = 41;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:43,
+       *In file:dzhapp.proto, row:46,
        * </pre>
        */
       public Builder addRepDataAppServiceAuth(
@@ -17113,7 +18546,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppServiceAuth RepDataAppServiceAuth = 41;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:43,
+       *In file:dzhapp.proto, row:46,
        * </pre>
        */
       public Builder addAllRepDataAppServiceAuth(
@@ -17132,13 +18565,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppServiceAuth RepDataAppServiceAuth = 41;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:43,
+       *In file:dzhapp.proto, row:46,
        * </pre>
        */
       public Builder clearRepDataAppServiceAuth() {
         if (repDataAppServiceAuthBuilder_ == null) {
           repDataAppServiceAuth_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x01000000);
+          bitField0_ = (bitField0_ & ~0x02000000);
           onChanged();
         } else {
           repDataAppServiceAuthBuilder_.clear();
@@ -17149,7 +18582,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppServiceAuth RepDataAppServiceAuth = 41;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:43,
+       *In file:dzhapp.proto, row:46,
        * </pre>
        */
       public Builder removeRepDataAppServiceAuth(int index) {
@@ -17166,7 +18599,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppServiceAuth RepDataAppServiceAuth = 41;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:43,
+       *In file:dzhapp.proto, row:46,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.AppServiceAuth.Builder getRepDataAppServiceAuthBuilder(
@@ -17177,7 +18610,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppServiceAuth RepDataAppServiceAuth = 41;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:43,
+       *In file:dzhapp.proto, row:46,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.AppServiceAuthOrBuilder getRepDataAppServiceAuthOrBuilder(
@@ -17191,7 +18624,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppServiceAuth RepDataAppServiceAuth = 41;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:43,
+       *In file:dzhapp.proto, row:46,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.Dzhapp.AppServiceAuthOrBuilder> 
@@ -17206,7 +18639,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppServiceAuth RepDataAppServiceAuth = 41;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:43,
+       *In file:dzhapp.proto, row:46,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.AppServiceAuth.Builder addRepDataAppServiceAuthBuilder() {
@@ -17217,7 +18650,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppServiceAuth RepDataAppServiceAuth = 41;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:43,
+       *In file:dzhapp.proto, row:46,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.AppServiceAuth.Builder addRepDataAppServiceAuthBuilder(
@@ -17229,7 +18662,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AppServiceAuth RepDataAppServiceAuth = 41;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:43,
+       *In file:dzhapp.proto, row:46,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhapp.AppServiceAuth.Builder> 
@@ -17243,7 +18676,7 @@ public final class AutoMsg {
           repDataAppServiceAuthBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.Dzhapp.AppServiceAuth, com.dzhyun.proto.Dzhapp.AppServiceAuth.Builder, com.dzhyun.proto.Dzhapp.AppServiceAuthOrBuilder>(
                   repDataAppServiceAuth_,
-                  ((bitField0_ & 0x01000000) == 0x01000000),
+                  ((bitField0_ & 0x02000000) == 0x02000000),
                   getParentForChildren(),
                   isClean());
           repDataAppServiceAuth_ = null;
@@ -17254,9 +18687,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.Dzhapp.TokenAuth> repDataTokenAuth_ =
         java.util.Collections.emptyList();
       private void ensureRepDataTokenAuthIsMutable() {
-        if (!((bitField0_ & 0x02000000) == 0x02000000)) {
+        if (!((bitField0_ & 0x04000000) == 0x04000000)) {
           repDataTokenAuth_ = new java.util.ArrayList<com.dzhyun.proto.Dzhapp.TokenAuth>(repDataTokenAuth_);
-          bitField0_ |= 0x02000000;
+          bitField0_ |= 0x04000000;
          }
       }
 
@@ -17267,7 +18700,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TokenAuth RepDataTokenAuth = 42;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:54,
+       *In file:dzhapp.proto, row:57,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhapp.TokenAuth> getRepDataTokenAuthList() {
@@ -17281,7 +18714,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TokenAuth RepDataTokenAuth = 42;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:54,
+       *In file:dzhapp.proto, row:57,
        * </pre>
        */
       public int getRepDataTokenAuthCount() {
@@ -17295,7 +18728,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TokenAuth RepDataTokenAuth = 42;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:54,
+       *In file:dzhapp.proto, row:57,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.TokenAuth getRepDataTokenAuth(int index) {
@@ -17309,7 +18742,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TokenAuth RepDataTokenAuth = 42;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:54,
+       *In file:dzhapp.proto, row:57,
        * </pre>
        */
       public Builder setRepDataTokenAuth(
@@ -17330,7 +18763,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TokenAuth RepDataTokenAuth = 42;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:54,
+       *In file:dzhapp.proto, row:57,
        * </pre>
        */
       public Builder setRepDataTokenAuth(
@@ -17348,7 +18781,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TokenAuth RepDataTokenAuth = 42;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:54,
+       *In file:dzhapp.proto, row:57,
        * </pre>
        */
       public Builder addRepDataTokenAuth(com.dzhyun.proto.Dzhapp.TokenAuth value) {
@@ -17368,7 +18801,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TokenAuth RepDataTokenAuth = 42;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:54,
+       *In file:dzhapp.proto, row:57,
        * </pre>
        */
       public Builder addRepDataTokenAuth(
@@ -17389,7 +18822,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TokenAuth RepDataTokenAuth = 42;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:54,
+       *In file:dzhapp.proto, row:57,
        * </pre>
        */
       public Builder addRepDataTokenAuth(
@@ -17407,7 +18840,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TokenAuth RepDataTokenAuth = 42;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:54,
+       *In file:dzhapp.proto, row:57,
        * </pre>
        */
       public Builder addRepDataTokenAuth(
@@ -17425,7 +18858,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TokenAuth RepDataTokenAuth = 42;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:54,
+       *In file:dzhapp.proto, row:57,
        * </pre>
        */
       public Builder addAllRepDataTokenAuth(
@@ -17444,13 +18877,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TokenAuth RepDataTokenAuth = 42;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:54,
+       *In file:dzhapp.proto, row:57,
        * </pre>
        */
       public Builder clearRepDataTokenAuth() {
         if (repDataTokenAuthBuilder_ == null) {
           repDataTokenAuth_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x02000000);
+          bitField0_ = (bitField0_ & ~0x04000000);
           onChanged();
         } else {
           repDataTokenAuthBuilder_.clear();
@@ -17461,7 +18894,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TokenAuth RepDataTokenAuth = 42;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:54,
+       *In file:dzhapp.proto, row:57,
        * </pre>
        */
       public Builder removeRepDataTokenAuth(int index) {
@@ -17478,7 +18911,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TokenAuth RepDataTokenAuth = 42;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:54,
+       *In file:dzhapp.proto, row:57,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.TokenAuth.Builder getRepDataTokenAuthBuilder(
@@ -17489,7 +18922,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TokenAuth RepDataTokenAuth = 42;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:54,
+       *In file:dzhapp.proto, row:57,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.TokenAuthOrBuilder getRepDataTokenAuthOrBuilder(
@@ -17503,7 +18936,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TokenAuth RepDataTokenAuth = 42;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:54,
+       *In file:dzhapp.proto, row:57,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.Dzhapp.TokenAuthOrBuilder> 
@@ -17518,7 +18951,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TokenAuth RepDataTokenAuth = 42;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:54,
+       *In file:dzhapp.proto, row:57,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.TokenAuth.Builder addRepDataTokenAuthBuilder() {
@@ -17529,7 +18962,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TokenAuth RepDataTokenAuth = 42;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:54,
+       *In file:dzhapp.proto, row:57,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.TokenAuth.Builder addRepDataTokenAuthBuilder(
@@ -17541,7 +18974,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TokenAuth RepDataTokenAuth = 42;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:54,
+       *In file:dzhapp.proto, row:57,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhapp.TokenAuth.Builder> 
@@ -17555,7 +18988,7 @@ public final class AutoMsg {
           repDataTokenAuthBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.Dzhapp.TokenAuth, com.dzhyun.proto.Dzhapp.TokenAuth.Builder, com.dzhyun.proto.Dzhapp.TokenAuthOrBuilder>(
                   repDataTokenAuth_,
-                  ((bitField0_ & 0x02000000) == 0x02000000),
+                  ((bitField0_ & 0x04000000) == 0x04000000),
                   getParentForChildren(),
                   isClean());
           repDataTokenAuth_ = null;
@@ -17566,9 +18999,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.Dzhapp.AccOpResponse> repDataAccOpResponse_ =
         java.util.Collections.emptyList();
       private void ensureRepDataAccOpResponseIsMutable() {
-        if (!((bitField0_ & 0x04000000) == 0x04000000)) {
+        if (!((bitField0_ & 0x08000000) == 0x08000000)) {
           repDataAccOpResponse_ = new java.util.ArrayList<com.dzhyun.proto.Dzhapp.AccOpResponse>(repDataAccOpResponse_);
-          bitField0_ |= 0x04000000;
+          bitField0_ |= 0x08000000;
          }
       }
 
@@ -17579,7 +19012,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AccOpResponse RepDataAccOpResponse = 43;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:61,
+       *In file:dzhapp.proto, row:64,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhapp.AccOpResponse> getRepDataAccOpResponseList() {
@@ -17593,7 +19026,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AccOpResponse RepDataAccOpResponse = 43;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:61,
+       *In file:dzhapp.proto, row:64,
        * </pre>
        */
       public int getRepDataAccOpResponseCount() {
@@ -17607,7 +19040,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AccOpResponse RepDataAccOpResponse = 43;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:61,
+       *In file:dzhapp.proto, row:64,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.AccOpResponse getRepDataAccOpResponse(int index) {
@@ -17621,7 +19054,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AccOpResponse RepDataAccOpResponse = 43;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:61,
+       *In file:dzhapp.proto, row:64,
        * </pre>
        */
       public Builder setRepDataAccOpResponse(
@@ -17642,7 +19075,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AccOpResponse RepDataAccOpResponse = 43;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:61,
+       *In file:dzhapp.proto, row:64,
        * </pre>
        */
       public Builder setRepDataAccOpResponse(
@@ -17660,7 +19093,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AccOpResponse RepDataAccOpResponse = 43;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:61,
+       *In file:dzhapp.proto, row:64,
        * </pre>
        */
       public Builder addRepDataAccOpResponse(com.dzhyun.proto.Dzhapp.AccOpResponse value) {
@@ -17680,7 +19113,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AccOpResponse RepDataAccOpResponse = 43;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:61,
+       *In file:dzhapp.proto, row:64,
        * </pre>
        */
       public Builder addRepDataAccOpResponse(
@@ -17701,7 +19134,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AccOpResponse RepDataAccOpResponse = 43;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:61,
+       *In file:dzhapp.proto, row:64,
        * </pre>
        */
       public Builder addRepDataAccOpResponse(
@@ -17719,7 +19152,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AccOpResponse RepDataAccOpResponse = 43;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:61,
+       *In file:dzhapp.proto, row:64,
        * </pre>
        */
       public Builder addRepDataAccOpResponse(
@@ -17737,7 +19170,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AccOpResponse RepDataAccOpResponse = 43;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:61,
+       *In file:dzhapp.proto, row:64,
        * </pre>
        */
       public Builder addAllRepDataAccOpResponse(
@@ -17756,13 +19189,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AccOpResponse RepDataAccOpResponse = 43;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:61,
+       *In file:dzhapp.proto, row:64,
        * </pre>
        */
       public Builder clearRepDataAccOpResponse() {
         if (repDataAccOpResponseBuilder_ == null) {
           repDataAccOpResponse_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x04000000);
+          bitField0_ = (bitField0_ & ~0x08000000);
           onChanged();
         } else {
           repDataAccOpResponseBuilder_.clear();
@@ -17773,7 +19206,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AccOpResponse RepDataAccOpResponse = 43;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:61,
+       *In file:dzhapp.proto, row:64,
        * </pre>
        */
       public Builder removeRepDataAccOpResponse(int index) {
@@ -17790,7 +19223,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AccOpResponse RepDataAccOpResponse = 43;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:61,
+       *In file:dzhapp.proto, row:64,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.AccOpResponse.Builder getRepDataAccOpResponseBuilder(
@@ -17801,7 +19234,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AccOpResponse RepDataAccOpResponse = 43;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:61,
+       *In file:dzhapp.proto, row:64,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.AccOpResponseOrBuilder getRepDataAccOpResponseOrBuilder(
@@ -17815,7 +19248,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AccOpResponse RepDataAccOpResponse = 43;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:61,
+       *In file:dzhapp.proto, row:64,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.Dzhapp.AccOpResponseOrBuilder> 
@@ -17830,7 +19263,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AccOpResponse RepDataAccOpResponse = 43;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:61,
+       *In file:dzhapp.proto, row:64,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.AccOpResponse.Builder addRepDataAccOpResponseBuilder() {
@@ -17841,7 +19274,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AccOpResponse RepDataAccOpResponse = 43;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:61,
+       *In file:dzhapp.proto, row:64,
        * </pre>
        */
       public com.dzhyun.proto.Dzhapp.AccOpResponse.Builder addRepDataAccOpResponseBuilder(
@@ -17853,7 +19286,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AccOpResponse RepDataAccOpResponse = 43;</code>
        *
        * <pre>
-       *In file:dzhapp.proto, row:61,
+       *In file:dzhapp.proto, row:64,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhapp.AccOpResponse.Builder> 
@@ -17867,7 +19300,7 @@ public final class AutoMsg {
           repDataAccOpResponseBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.Dzhapp.AccOpResponse, com.dzhyun.proto.Dzhapp.AccOpResponse.Builder, com.dzhyun.proto.Dzhapp.AccOpResponseOrBuilder>(
                   repDataAccOpResponse_,
-                  ((bitField0_ & 0x04000000) == 0x04000000),
+                  ((bitField0_ & 0x08000000) == 0x08000000),
                   getParentForChildren(),
                   isClean());
           repDataAccOpResponse_ = null;
@@ -17878,9 +19311,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.Dzhtoken.Token> repDataToken_ =
         java.util.Collections.emptyList();
       private void ensureRepDataTokenIsMutable() {
-        if (!((bitField0_ & 0x08000000) == 0x08000000)) {
+        if (!((bitField0_ & 0x10000000) == 0x10000000)) {
           repDataToken_ = new java.util.ArrayList<com.dzhyun.proto.Dzhtoken.Token>(repDataToken_);
-          bitField0_ |= 0x08000000;
+          bitField0_ |= 0x10000000;
          }
       }
 
@@ -17891,7 +19324,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Token RepDataToken = 44;</code>
        *
        * <pre>
-       *In file:dzhtoken.proto, row:2,
+       *In file:dzhtoken.proto, row:5,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhtoken.Token> getRepDataTokenList() {
@@ -17905,7 +19338,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Token RepDataToken = 44;</code>
        *
        * <pre>
-       *In file:dzhtoken.proto, row:2,
+       *In file:dzhtoken.proto, row:5,
        * </pre>
        */
       public int getRepDataTokenCount() {
@@ -17919,7 +19352,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Token RepDataToken = 44;</code>
        *
        * <pre>
-       *In file:dzhtoken.proto, row:2,
+       *In file:dzhtoken.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.Dzhtoken.Token getRepDataToken(int index) {
@@ -17933,7 +19366,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Token RepDataToken = 44;</code>
        *
        * <pre>
-       *In file:dzhtoken.proto, row:2,
+       *In file:dzhtoken.proto, row:5,
        * </pre>
        */
       public Builder setRepDataToken(
@@ -17954,7 +19387,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Token RepDataToken = 44;</code>
        *
        * <pre>
-       *In file:dzhtoken.proto, row:2,
+       *In file:dzhtoken.proto, row:5,
        * </pre>
        */
       public Builder setRepDataToken(
@@ -17972,7 +19405,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Token RepDataToken = 44;</code>
        *
        * <pre>
-       *In file:dzhtoken.proto, row:2,
+       *In file:dzhtoken.proto, row:5,
        * </pre>
        */
       public Builder addRepDataToken(com.dzhyun.proto.Dzhtoken.Token value) {
@@ -17992,7 +19425,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Token RepDataToken = 44;</code>
        *
        * <pre>
-       *In file:dzhtoken.proto, row:2,
+       *In file:dzhtoken.proto, row:5,
        * </pre>
        */
       public Builder addRepDataToken(
@@ -18013,7 +19446,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Token RepDataToken = 44;</code>
        *
        * <pre>
-       *In file:dzhtoken.proto, row:2,
+       *In file:dzhtoken.proto, row:5,
        * </pre>
        */
       public Builder addRepDataToken(
@@ -18031,7 +19464,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Token RepDataToken = 44;</code>
        *
        * <pre>
-       *In file:dzhtoken.proto, row:2,
+       *In file:dzhtoken.proto, row:5,
        * </pre>
        */
       public Builder addRepDataToken(
@@ -18049,7 +19482,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Token RepDataToken = 44;</code>
        *
        * <pre>
-       *In file:dzhtoken.proto, row:2,
+       *In file:dzhtoken.proto, row:5,
        * </pre>
        */
       public Builder addAllRepDataToken(
@@ -18068,13 +19501,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Token RepDataToken = 44;</code>
        *
        * <pre>
-       *In file:dzhtoken.proto, row:2,
+       *In file:dzhtoken.proto, row:5,
        * </pre>
        */
       public Builder clearRepDataToken() {
         if (repDataTokenBuilder_ == null) {
           repDataToken_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x08000000);
+          bitField0_ = (bitField0_ & ~0x10000000);
           onChanged();
         } else {
           repDataTokenBuilder_.clear();
@@ -18085,7 +19518,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Token RepDataToken = 44;</code>
        *
        * <pre>
-       *In file:dzhtoken.proto, row:2,
+       *In file:dzhtoken.proto, row:5,
        * </pre>
        */
       public Builder removeRepDataToken(int index) {
@@ -18102,7 +19535,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Token RepDataToken = 44;</code>
        *
        * <pre>
-       *In file:dzhtoken.proto, row:2,
+       *In file:dzhtoken.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.Dzhtoken.Token.Builder getRepDataTokenBuilder(
@@ -18113,7 +19546,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Token RepDataToken = 44;</code>
        *
        * <pre>
-       *In file:dzhtoken.proto, row:2,
+       *In file:dzhtoken.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.Dzhtoken.TokenOrBuilder getRepDataTokenOrBuilder(
@@ -18127,7 +19560,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Token RepDataToken = 44;</code>
        *
        * <pre>
-       *In file:dzhtoken.proto, row:2,
+       *In file:dzhtoken.proto, row:5,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.Dzhtoken.TokenOrBuilder> 
@@ -18142,7 +19575,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Token RepDataToken = 44;</code>
        *
        * <pre>
-       *In file:dzhtoken.proto, row:2,
+       *In file:dzhtoken.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.Dzhtoken.Token.Builder addRepDataTokenBuilder() {
@@ -18153,7 +19586,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Token RepDataToken = 44;</code>
        *
        * <pre>
-       *In file:dzhtoken.proto, row:2,
+       *In file:dzhtoken.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.Dzhtoken.Token.Builder addRepDataTokenBuilder(
@@ -18165,7 +19598,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Token RepDataToken = 44;</code>
        *
        * <pre>
-       *In file:dzhtoken.proto, row:2,
+       *In file:dzhtoken.proto, row:5,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhtoken.Token.Builder> 
@@ -18179,7 +19612,7 @@ public final class AutoMsg {
           repDataTokenBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.Dzhtoken.Token, com.dzhyun.proto.Dzhtoken.Token.Builder, com.dzhyun.proto.Dzhtoken.TokenOrBuilder>(
                   repDataToken_,
-                  ((bitField0_ & 0x08000000) == 0x08000000),
+                  ((bitField0_ & 0x10000000) == 0x10000000),
                   getParentForChildren(),
                   isClean());
           repDataToken_ = null;
@@ -18190,9 +19623,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.Dzhpriv.Privilege> repDataPrivilege_ =
         java.util.Collections.emptyList();
       private void ensureRepDataPrivilegeIsMutable() {
-        if (!((bitField0_ & 0x10000000) == 0x10000000)) {
+        if (!((bitField0_ & 0x20000000) == 0x20000000)) {
           repDataPrivilege_ = new java.util.ArrayList<com.dzhyun.proto.Dzhpriv.Privilege>(repDataPrivilege_);
-          bitField0_ |= 0x10000000;
+          bitField0_ |= 0x20000000;
          }
       }
 
@@ -18203,7 +19636,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Privilege RepDataPrivilege = 45;</code>
        *
        * <pre>
-       *In file:dzhpriv.proto, row:2,
+       *In file:dzhpriv.proto, row:5,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhpriv.Privilege> getRepDataPrivilegeList() {
@@ -18217,7 +19650,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Privilege RepDataPrivilege = 45;</code>
        *
        * <pre>
-       *In file:dzhpriv.proto, row:2,
+       *In file:dzhpriv.proto, row:5,
        * </pre>
        */
       public int getRepDataPrivilegeCount() {
@@ -18231,7 +19664,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Privilege RepDataPrivilege = 45;</code>
        *
        * <pre>
-       *In file:dzhpriv.proto, row:2,
+       *In file:dzhpriv.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.Dzhpriv.Privilege getRepDataPrivilege(int index) {
@@ -18245,7 +19678,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Privilege RepDataPrivilege = 45;</code>
        *
        * <pre>
-       *In file:dzhpriv.proto, row:2,
+       *In file:dzhpriv.proto, row:5,
        * </pre>
        */
       public Builder setRepDataPrivilege(
@@ -18266,7 +19699,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Privilege RepDataPrivilege = 45;</code>
        *
        * <pre>
-       *In file:dzhpriv.proto, row:2,
+       *In file:dzhpriv.proto, row:5,
        * </pre>
        */
       public Builder setRepDataPrivilege(
@@ -18284,7 +19717,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Privilege RepDataPrivilege = 45;</code>
        *
        * <pre>
-       *In file:dzhpriv.proto, row:2,
+       *In file:dzhpriv.proto, row:5,
        * </pre>
        */
       public Builder addRepDataPrivilege(com.dzhyun.proto.Dzhpriv.Privilege value) {
@@ -18304,7 +19737,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Privilege RepDataPrivilege = 45;</code>
        *
        * <pre>
-       *In file:dzhpriv.proto, row:2,
+       *In file:dzhpriv.proto, row:5,
        * </pre>
        */
       public Builder addRepDataPrivilege(
@@ -18325,7 +19758,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Privilege RepDataPrivilege = 45;</code>
        *
        * <pre>
-       *In file:dzhpriv.proto, row:2,
+       *In file:dzhpriv.proto, row:5,
        * </pre>
        */
       public Builder addRepDataPrivilege(
@@ -18343,7 +19776,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Privilege RepDataPrivilege = 45;</code>
        *
        * <pre>
-       *In file:dzhpriv.proto, row:2,
+       *In file:dzhpriv.proto, row:5,
        * </pre>
        */
       public Builder addRepDataPrivilege(
@@ -18361,7 +19794,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Privilege RepDataPrivilege = 45;</code>
        *
        * <pre>
-       *In file:dzhpriv.proto, row:2,
+       *In file:dzhpriv.proto, row:5,
        * </pre>
        */
       public Builder addAllRepDataPrivilege(
@@ -18380,13 +19813,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Privilege RepDataPrivilege = 45;</code>
        *
        * <pre>
-       *In file:dzhpriv.proto, row:2,
+       *In file:dzhpriv.proto, row:5,
        * </pre>
        */
       public Builder clearRepDataPrivilege() {
         if (repDataPrivilegeBuilder_ == null) {
           repDataPrivilege_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x10000000);
+          bitField0_ = (bitField0_ & ~0x20000000);
           onChanged();
         } else {
           repDataPrivilegeBuilder_.clear();
@@ -18397,7 +19830,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Privilege RepDataPrivilege = 45;</code>
        *
        * <pre>
-       *In file:dzhpriv.proto, row:2,
+       *In file:dzhpriv.proto, row:5,
        * </pre>
        */
       public Builder removeRepDataPrivilege(int index) {
@@ -18414,7 +19847,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Privilege RepDataPrivilege = 45;</code>
        *
        * <pre>
-       *In file:dzhpriv.proto, row:2,
+       *In file:dzhpriv.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.Dzhpriv.Privilege.Builder getRepDataPrivilegeBuilder(
@@ -18425,7 +19858,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Privilege RepDataPrivilege = 45;</code>
        *
        * <pre>
-       *In file:dzhpriv.proto, row:2,
+       *In file:dzhpriv.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.Dzhpriv.PrivilegeOrBuilder getRepDataPrivilegeOrBuilder(
@@ -18439,7 +19872,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Privilege RepDataPrivilege = 45;</code>
        *
        * <pre>
-       *In file:dzhpriv.proto, row:2,
+       *In file:dzhpriv.proto, row:5,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.Dzhpriv.PrivilegeOrBuilder> 
@@ -18454,7 +19887,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Privilege RepDataPrivilege = 45;</code>
        *
        * <pre>
-       *In file:dzhpriv.proto, row:2,
+       *In file:dzhpriv.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.Dzhpriv.Privilege.Builder addRepDataPrivilegeBuilder() {
@@ -18465,7 +19898,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Privilege RepDataPrivilege = 45;</code>
        *
        * <pre>
-       *In file:dzhpriv.proto, row:2,
+       *In file:dzhpriv.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.Dzhpriv.Privilege.Builder addRepDataPrivilegeBuilder(
@@ -18477,7 +19910,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.Privilege RepDataPrivilege = 45;</code>
        *
        * <pre>
-       *In file:dzhpriv.proto, row:2,
+       *In file:dzhpriv.proto, row:5,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhpriv.Privilege.Builder> 
@@ -18491,7 +19924,7 @@ public final class AutoMsg {
           repDataPrivilegeBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.Dzhpriv.Privilege, com.dzhyun.proto.Dzhpriv.Privilege.Builder, com.dzhyun.proto.Dzhpriv.PrivilegeOrBuilder>(
                   repDataPrivilege_,
-                  ((bitField0_ & 0x10000000) == 0x10000000),
+                  ((bitField0_ & 0x20000000) == 0x20000000),
                   getParentForChildren(),
                   isClean());
           repDataPrivilege_ = null;
@@ -18502,9 +19935,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhyunAlarm.AlarmEvent> repDataAlarmEvent_ =
         java.util.Collections.emptyList();
       private void ensureRepDataAlarmEventIsMutable() {
-        if (!((bitField0_ & 0x20000000) == 0x20000000)) {
+        if (!((bitField0_ & 0x40000000) == 0x40000000)) {
           repDataAlarmEvent_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunAlarm.AlarmEvent>(repDataAlarmEvent_);
-          bitField0_ |= 0x20000000;
+          bitField0_ |= 0x40000000;
          }
       }
 
@@ -18515,7 +19948,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmEvent RepDataAlarmEvent = 46;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:9,
+       *In file:dzhyun.alarm.proto, row:8,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunAlarm.AlarmEvent> getRepDataAlarmEventList() {
@@ -18529,7 +19962,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmEvent RepDataAlarmEvent = 46;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:9,
+       *In file:dzhyun.alarm.proto, row:8,
        * </pre>
        */
       public int getRepDataAlarmEventCount() {
@@ -18543,7 +19976,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmEvent RepDataAlarmEvent = 46;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:9,
+       *In file:dzhyun.alarm.proto, row:8,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunAlarm.AlarmEvent getRepDataAlarmEvent(int index) {
@@ -18557,7 +19990,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmEvent RepDataAlarmEvent = 46;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:9,
+       *In file:dzhyun.alarm.proto, row:8,
        * </pre>
        */
       public Builder setRepDataAlarmEvent(
@@ -18578,7 +20011,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmEvent RepDataAlarmEvent = 46;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:9,
+       *In file:dzhyun.alarm.proto, row:8,
        * </pre>
        */
       public Builder setRepDataAlarmEvent(
@@ -18596,7 +20029,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmEvent RepDataAlarmEvent = 46;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:9,
+       *In file:dzhyun.alarm.proto, row:8,
        * </pre>
        */
       public Builder addRepDataAlarmEvent(com.dzhyun.proto.DzhyunAlarm.AlarmEvent value) {
@@ -18616,7 +20049,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmEvent RepDataAlarmEvent = 46;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:9,
+       *In file:dzhyun.alarm.proto, row:8,
        * </pre>
        */
       public Builder addRepDataAlarmEvent(
@@ -18637,7 +20070,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmEvent RepDataAlarmEvent = 46;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:9,
+       *In file:dzhyun.alarm.proto, row:8,
        * </pre>
        */
       public Builder addRepDataAlarmEvent(
@@ -18655,7 +20088,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmEvent RepDataAlarmEvent = 46;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:9,
+       *In file:dzhyun.alarm.proto, row:8,
        * </pre>
        */
       public Builder addRepDataAlarmEvent(
@@ -18673,7 +20106,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmEvent RepDataAlarmEvent = 46;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:9,
+       *In file:dzhyun.alarm.proto, row:8,
        * </pre>
        */
       public Builder addAllRepDataAlarmEvent(
@@ -18692,13 +20125,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmEvent RepDataAlarmEvent = 46;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:9,
+       *In file:dzhyun.alarm.proto, row:8,
        * </pre>
        */
       public Builder clearRepDataAlarmEvent() {
         if (repDataAlarmEventBuilder_ == null) {
           repDataAlarmEvent_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x20000000);
+          bitField0_ = (bitField0_ & ~0x40000000);
           onChanged();
         } else {
           repDataAlarmEventBuilder_.clear();
@@ -18709,7 +20142,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmEvent RepDataAlarmEvent = 46;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:9,
+       *In file:dzhyun.alarm.proto, row:8,
        * </pre>
        */
       public Builder removeRepDataAlarmEvent(int index) {
@@ -18726,7 +20159,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmEvent RepDataAlarmEvent = 46;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:9,
+       *In file:dzhyun.alarm.proto, row:8,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunAlarm.AlarmEvent.Builder getRepDataAlarmEventBuilder(
@@ -18737,7 +20170,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmEvent RepDataAlarmEvent = 46;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:9,
+       *In file:dzhyun.alarm.proto, row:8,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunAlarm.AlarmEventOrBuilder getRepDataAlarmEventOrBuilder(
@@ -18751,7 +20184,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmEvent RepDataAlarmEvent = 46;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:9,
+       *In file:dzhyun.alarm.proto, row:8,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhyunAlarm.AlarmEventOrBuilder> 
@@ -18766,7 +20199,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmEvent RepDataAlarmEvent = 46;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:9,
+       *In file:dzhyun.alarm.proto, row:8,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunAlarm.AlarmEvent.Builder addRepDataAlarmEventBuilder() {
@@ -18777,7 +20210,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmEvent RepDataAlarmEvent = 46;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:9,
+       *In file:dzhyun.alarm.proto, row:8,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunAlarm.AlarmEvent.Builder addRepDataAlarmEventBuilder(
@@ -18789,7 +20222,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmEvent RepDataAlarmEvent = 46;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:9,
+       *In file:dzhyun.alarm.proto, row:8,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunAlarm.AlarmEvent.Builder> 
@@ -18803,7 +20236,7 @@ public final class AutoMsg {
           repDataAlarmEventBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhyunAlarm.AlarmEvent, com.dzhyun.proto.DzhyunAlarm.AlarmEvent.Builder, com.dzhyun.proto.DzhyunAlarm.AlarmEventOrBuilder>(
                   repDataAlarmEvent_,
-                  ((bitField0_ & 0x20000000) == 0x20000000),
+                  ((bitField0_ & 0x40000000) == 0x40000000),
                   getParentForChildren(),
                   isClean());
           repDataAlarmEvent_ = null;
@@ -18814,9 +20247,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhyunAlarm.AlarmTask> repDataAlarmTask_ =
         java.util.Collections.emptyList();
       private void ensureRepDataAlarmTaskIsMutable() {
-        if (!((bitField0_ & 0x40000000) == 0x40000000)) {
+        if (!((bitField0_ & 0x80000000) == 0x80000000)) {
           repDataAlarmTask_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunAlarm.AlarmTask>(repDataAlarmTask_);
-          bitField0_ |= 0x40000000;
+          bitField0_ |= 0x80000000;
          }
       }
 
@@ -18827,7 +20260,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmTask RepDataAlarmTask = 47;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:31,
+       *In file:dzhyun.alarm.proto, row:30,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunAlarm.AlarmTask> getRepDataAlarmTaskList() {
@@ -18841,7 +20274,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmTask RepDataAlarmTask = 47;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:31,
+       *In file:dzhyun.alarm.proto, row:30,
        * </pre>
        */
       public int getRepDataAlarmTaskCount() {
@@ -18855,7 +20288,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmTask RepDataAlarmTask = 47;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:31,
+       *In file:dzhyun.alarm.proto, row:30,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunAlarm.AlarmTask getRepDataAlarmTask(int index) {
@@ -18869,7 +20302,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmTask RepDataAlarmTask = 47;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:31,
+       *In file:dzhyun.alarm.proto, row:30,
        * </pre>
        */
       public Builder setRepDataAlarmTask(
@@ -18890,7 +20323,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmTask RepDataAlarmTask = 47;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:31,
+       *In file:dzhyun.alarm.proto, row:30,
        * </pre>
        */
       public Builder setRepDataAlarmTask(
@@ -18908,7 +20341,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmTask RepDataAlarmTask = 47;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:31,
+       *In file:dzhyun.alarm.proto, row:30,
        * </pre>
        */
       public Builder addRepDataAlarmTask(com.dzhyun.proto.DzhyunAlarm.AlarmTask value) {
@@ -18928,7 +20361,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmTask RepDataAlarmTask = 47;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:31,
+       *In file:dzhyun.alarm.proto, row:30,
        * </pre>
        */
       public Builder addRepDataAlarmTask(
@@ -18949,7 +20382,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmTask RepDataAlarmTask = 47;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:31,
+       *In file:dzhyun.alarm.proto, row:30,
        * </pre>
        */
       public Builder addRepDataAlarmTask(
@@ -18967,7 +20400,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmTask RepDataAlarmTask = 47;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:31,
+       *In file:dzhyun.alarm.proto, row:30,
        * </pre>
        */
       public Builder addRepDataAlarmTask(
@@ -18985,7 +20418,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmTask RepDataAlarmTask = 47;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:31,
+       *In file:dzhyun.alarm.proto, row:30,
        * </pre>
        */
       public Builder addAllRepDataAlarmTask(
@@ -19004,13 +20437,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmTask RepDataAlarmTask = 47;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:31,
+       *In file:dzhyun.alarm.proto, row:30,
        * </pre>
        */
       public Builder clearRepDataAlarmTask() {
         if (repDataAlarmTaskBuilder_ == null) {
           repDataAlarmTask_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x40000000);
+          bitField0_ = (bitField0_ & ~0x80000000);
           onChanged();
         } else {
           repDataAlarmTaskBuilder_.clear();
@@ -19021,7 +20454,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmTask RepDataAlarmTask = 47;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:31,
+       *In file:dzhyun.alarm.proto, row:30,
        * </pre>
        */
       public Builder removeRepDataAlarmTask(int index) {
@@ -19038,7 +20471,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmTask RepDataAlarmTask = 47;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:31,
+       *In file:dzhyun.alarm.proto, row:30,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunAlarm.AlarmTask.Builder getRepDataAlarmTaskBuilder(
@@ -19049,7 +20482,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmTask RepDataAlarmTask = 47;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:31,
+       *In file:dzhyun.alarm.proto, row:30,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunAlarm.AlarmTaskOrBuilder getRepDataAlarmTaskOrBuilder(
@@ -19063,7 +20496,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmTask RepDataAlarmTask = 47;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:31,
+       *In file:dzhyun.alarm.proto, row:30,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhyunAlarm.AlarmTaskOrBuilder> 
@@ -19078,7 +20511,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmTask RepDataAlarmTask = 47;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:31,
+       *In file:dzhyun.alarm.proto, row:30,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunAlarm.AlarmTask.Builder addRepDataAlarmTaskBuilder() {
@@ -19089,7 +20522,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmTask RepDataAlarmTask = 47;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:31,
+       *In file:dzhyun.alarm.proto, row:30,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunAlarm.AlarmTask.Builder addRepDataAlarmTaskBuilder(
@@ -19101,7 +20534,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.AlarmTask RepDataAlarmTask = 47;</code>
        *
        * <pre>
-       *In file:dzhyun.alarm.proto, row:31,
+       *In file:dzhyun.alarm.proto, row:30,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunAlarm.AlarmTask.Builder> 
@@ -19115,7 +20548,7 @@ public final class AutoMsg {
           repDataAlarmTaskBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhyunAlarm.AlarmTask, com.dzhyun.proto.DzhyunAlarm.AlarmTask.Builder, com.dzhyun.proto.DzhyunAlarm.AlarmTaskOrBuilder>(
                   repDataAlarmTask_,
-                  ((bitField0_ & 0x40000000) == 0x40000000),
+                  ((bitField0_ & 0x80000000) == 0x80000000),
                   getParentForChildren(),
                   isClean());
           repDataAlarmTask_ = null;
@@ -19126,9 +20559,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhyunAdvert.ADPutResponse> repDataADPutResponse_ =
         java.util.Collections.emptyList();
       private void ensureRepDataADPutResponseIsMutable() {
-        if (!((bitField0_ & 0x80000000) == 0x80000000)) {
+        if (!((bitField1_ & 0x00000001) == 0x00000001)) {
           repDataADPutResponse_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunAdvert.ADPutResponse>(repDataADPutResponse_);
-          bitField0_ |= 0x80000000;
+          bitField1_ |= 0x00000001;
          }
       }
 
@@ -19139,7 +20572,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADPutResponse RepDataADPutResponse = 48;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:3,
+       *In file:dzhyun.advert.proto, row:6,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunAdvert.ADPutResponse> getRepDataADPutResponseList() {
@@ -19153,7 +20586,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADPutResponse RepDataADPutResponse = 48;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:3,
+       *In file:dzhyun.advert.proto, row:6,
        * </pre>
        */
       public int getRepDataADPutResponseCount() {
@@ -19167,7 +20600,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADPutResponse RepDataADPutResponse = 48;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:3,
+       *In file:dzhyun.advert.proto, row:6,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunAdvert.ADPutResponse getRepDataADPutResponse(int index) {
@@ -19181,7 +20614,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADPutResponse RepDataADPutResponse = 48;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:3,
+       *In file:dzhyun.advert.proto, row:6,
        * </pre>
        */
       public Builder setRepDataADPutResponse(
@@ -19202,7 +20635,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADPutResponse RepDataADPutResponse = 48;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:3,
+       *In file:dzhyun.advert.proto, row:6,
        * </pre>
        */
       public Builder setRepDataADPutResponse(
@@ -19220,7 +20653,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADPutResponse RepDataADPutResponse = 48;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:3,
+       *In file:dzhyun.advert.proto, row:6,
        * </pre>
        */
       public Builder addRepDataADPutResponse(com.dzhyun.proto.DzhyunAdvert.ADPutResponse value) {
@@ -19240,7 +20673,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADPutResponse RepDataADPutResponse = 48;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:3,
+       *In file:dzhyun.advert.proto, row:6,
        * </pre>
        */
       public Builder addRepDataADPutResponse(
@@ -19261,7 +20694,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADPutResponse RepDataADPutResponse = 48;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:3,
+       *In file:dzhyun.advert.proto, row:6,
        * </pre>
        */
       public Builder addRepDataADPutResponse(
@@ -19279,7 +20712,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADPutResponse RepDataADPutResponse = 48;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:3,
+       *In file:dzhyun.advert.proto, row:6,
        * </pre>
        */
       public Builder addRepDataADPutResponse(
@@ -19297,7 +20730,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADPutResponse RepDataADPutResponse = 48;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:3,
+       *In file:dzhyun.advert.proto, row:6,
        * </pre>
        */
       public Builder addAllRepDataADPutResponse(
@@ -19316,13 +20749,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADPutResponse RepDataADPutResponse = 48;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:3,
+       *In file:dzhyun.advert.proto, row:6,
        * </pre>
        */
       public Builder clearRepDataADPutResponse() {
         if (repDataADPutResponseBuilder_ == null) {
           repDataADPutResponse_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x80000000);
+          bitField1_ = (bitField1_ & ~0x00000001);
           onChanged();
         } else {
           repDataADPutResponseBuilder_.clear();
@@ -19333,7 +20766,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADPutResponse RepDataADPutResponse = 48;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:3,
+       *In file:dzhyun.advert.proto, row:6,
        * </pre>
        */
       public Builder removeRepDataADPutResponse(int index) {
@@ -19350,7 +20783,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADPutResponse RepDataADPutResponse = 48;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:3,
+       *In file:dzhyun.advert.proto, row:6,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunAdvert.ADPutResponse.Builder getRepDataADPutResponseBuilder(
@@ -19361,7 +20794,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADPutResponse RepDataADPutResponse = 48;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:3,
+       *In file:dzhyun.advert.proto, row:6,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunAdvert.ADPutResponseOrBuilder getRepDataADPutResponseOrBuilder(
@@ -19375,7 +20808,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADPutResponse RepDataADPutResponse = 48;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:3,
+       *In file:dzhyun.advert.proto, row:6,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhyunAdvert.ADPutResponseOrBuilder> 
@@ -19390,7 +20823,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADPutResponse RepDataADPutResponse = 48;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:3,
+       *In file:dzhyun.advert.proto, row:6,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunAdvert.ADPutResponse.Builder addRepDataADPutResponseBuilder() {
@@ -19401,7 +20834,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADPutResponse RepDataADPutResponse = 48;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:3,
+       *In file:dzhyun.advert.proto, row:6,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunAdvert.ADPutResponse.Builder addRepDataADPutResponseBuilder(
@@ -19413,7 +20846,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADPutResponse RepDataADPutResponse = 48;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:3,
+       *In file:dzhyun.advert.proto, row:6,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunAdvert.ADPutResponse.Builder> 
@@ -19427,7 +20860,7 @@ public final class AutoMsg {
           repDataADPutResponseBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhyunAdvert.ADPutResponse, com.dzhyun.proto.DzhyunAdvert.ADPutResponse.Builder, com.dzhyun.proto.DzhyunAdvert.ADPutResponseOrBuilder>(
                   repDataADPutResponse_,
-                  ((bitField0_ & 0x80000000) == 0x80000000),
+                  ((bitField1_ & 0x00000001) == 0x00000001),
                   getParentForChildren(),
                   isClean());
           repDataADPutResponse_ = null;
@@ -19438,9 +20871,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhyunAdvert.ADGetResponse> repDataADGetResponse_ =
         java.util.Collections.emptyList();
       private void ensureRepDataADGetResponseIsMutable() {
-        if (!((bitField1_ & 0x00000001) == 0x00000001)) {
+        if (!((bitField1_ & 0x00000002) == 0x00000002)) {
           repDataADGetResponse_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunAdvert.ADGetResponse>(repDataADGetResponse_);
-          bitField1_ |= 0x00000001;
+          bitField1_ |= 0x00000002;
          }
       }
 
@@ -19451,7 +20884,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADGetResponse RepDataADGetResponse = 49;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:16,
+       *In file:dzhyun.advert.proto, row:19,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunAdvert.ADGetResponse> getRepDataADGetResponseList() {
@@ -19465,7 +20898,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADGetResponse RepDataADGetResponse = 49;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:16,
+       *In file:dzhyun.advert.proto, row:19,
        * </pre>
        */
       public int getRepDataADGetResponseCount() {
@@ -19479,7 +20912,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADGetResponse RepDataADGetResponse = 49;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:16,
+       *In file:dzhyun.advert.proto, row:19,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunAdvert.ADGetResponse getRepDataADGetResponse(int index) {
@@ -19493,7 +20926,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADGetResponse RepDataADGetResponse = 49;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:16,
+       *In file:dzhyun.advert.proto, row:19,
        * </pre>
        */
       public Builder setRepDataADGetResponse(
@@ -19514,7 +20947,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADGetResponse RepDataADGetResponse = 49;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:16,
+       *In file:dzhyun.advert.proto, row:19,
        * </pre>
        */
       public Builder setRepDataADGetResponse(
@@ -19532,7 +20965,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADGetResponse RepDataADGetResponse = 49;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:16,
+       *In file:dzhyun.advert.proto, row:19,
        * </pre>
        */
       public Builder addRepDataADGetResponse(com.dzhyun.proto.DzhyunAdvert.ADGetResponse value) {
@@ -19552,7 +20985,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADGetResponse RepDataADGetResponse = 49;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:16,
+       *In file:dzhyun.advert.proto, row:19,
        * </pre>
        */
       public Builder addRepDataADGetResponse(
@@ -19573,7 +21006,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADGetResponse RepDataADGetResponse = 49;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:16,
+       *In file:dzhyun.advert.proto, row:19,
        * </pre>
        */
       public Builder addRepDataADGetResponse(
@@ -19591,7 +21024,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADGetResponse RepDataADGetResponse = 49;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:16,
+       *In file:dzhyun.advert.proto, row:19,
        * </pre>
        */
       public Builder addRepDataADGetResponse(
@@ -19609,7 +21042,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADGetResponse RepDataADGetResponse = 49;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:16,
+       *In file:dzhyun.advert.proto, row:19,
        * </pre>
        */
       public Builder addAllRepDataADGetResponse(
@@ -19628,13 +21061,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADGetResponse RepDataADGetResponse = 49;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:16,
+       *In file:dzhyun.advert.proto, row:19,
        * </pre>
        */
       public Builder clearRepDataADGetResponse() {
         if (repDataADGetResponseBuilder_ == null) {
           repDataADGetResponse_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00000001);
+          bitField1_ = (bitField1_ & ~0x00000002);
           onChanged();
         } else {
           repDataADGetResponseBuilder_.clear();
@@ -19645,7 +21078,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADGetResponse RepDataADGetResponse = 49;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:16,
+       *In file:dzhyun.advert.proto, row:19,
        * </pre>
        */
       public Builder removeRepDataADGetResponse(int index) {
@@ -19662,7 +21095,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADGetResponse RepDataADGetResponse = 49;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:16,
+       *In file:dzhyun.advert.proto, row:19,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunAdvert.ADGetResponse.Builder getRepDataADGetResponseBuilder(
@@ -19673,7 +21106,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADGetResponse RepDataADGetResponse = 49;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:16,
+       *In file:dzhyun.advert.proto, row:19,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunAdvert.ADGetResponseOrBuilder getRepDataADGetResponseOrBuilder(
@@ -19687,7 +21120,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADGetResponse RepDataADGetResponse = 49;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:16,
+       *In file:dzhyun.advert.proto, row:19,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhyunAdvert.ADGetResponseOrBuilder> 
@@ -19702,7 +21135,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADGetResponse RepDataADGetResponse = 49;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:16,
+       *In file:dzhyun.advert.proto, row:19,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunAdvert.ADGetResponse.Builder addRepDataADGetResponseBuilder() {
@@ -19713,7 +21146,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADGetResponse RepDataADGetResponse = 49;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:16,
+       *In file:dzhyun.advert.proto, row:19,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunAdvert.ADGetResponse.Builder addRepDataADGetResponseBuilder(
@@ -19725,7 +21158,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.ADGetResponse RepDataADGetResponse = 49;</code>
        *
        * <pre>
-       *In file:dzhyun.advert.proto, row:16,
+       *In file:dzhyun.advert.proto, row:19,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunAdvert.ADGetResponse.Builder> 
@@ -19739,7 +21172,7 @@ public final class AutoMsg {
           repDataADGetResponseBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhyunAdvert.ADGetResponse, com.dzhyun.proto.DzhyunAdvert.ADGetResponse.Builder, com.dzhyun.proto.DzhyunAdvert.ADGetResponseOrBuilder>(
                   repDataADGetResponse_,
-                  ((bitField1_ & 0x00000001) == 0x00000001),
+                  ((bitField1_ & 0x00000002) == 0x00000002),
                   getParentForChildren(),
                   isClean());
           repDataADGetResponse_ = null;
@@ -19750,9 +21183,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhyunUserGroup.UserGroup> repDataUserGroup_ =
         java.util.Collections.emptyList();
       private void ensureRepDataUserGroupIsMutable() {
-        if (!((bitField1_ & 0x00000002) == 0x00000002)) {
+        if (!((bitField1_ & 0x00000004) == 0x00000004)) {
           repDataUserGroup_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunUserGroup.UserGroup>(repDataUserGroup_);
-          bitField1_ |= 0x00000002;
+          bitField1_ |= 0x00000004;
          }
       }
 
@@ -19763,7 +21196,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroup RepDataUserGroup = 50;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:2,
+       *In file:dzhyun.user.group.proto, row:5,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunUserGroup.UserGroup> getRepDataUserGroupList() {
@@ -19777,7 +21210,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroup RepDataUserGroup = 50;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:2,
+       *In file:dzhyun.user.group.proto, row:5,
        * </pre>
        */
       public int getRepDataUserGroupCount() {
@@ -19791,7 +21224,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroup RepDataUserGroup = 50;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:2,
+       *In file:dzhyun.user.group.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunUserGroup.UserGroup getRepDataUserGroup(int index) {
@@ -19805,7 +21238,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroup RepDataUserGroup = 50;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:2,
+       *In file:dzhyun.user.group.proto, row:5,
        * </pre>
        */
       public Builder setRepDataUserGroup(
@@ -19826,7 +21259,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroup RepDataUserGroup = 50;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:2,
+       *In file:dzhyun.user.group.proto, row:5,
        * </pre>
        */
       public Builder setRepDataUserGroup(
@@ -19844,7 +21277,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroup RepDataUserGroup = 50;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:2,
+       *In file:dzhyun.user.group.proto, row:5,
        * </pre>
        */
       public Builder addRepDataUserGroup(com.dzhyun.proto.DzhyunUserGroup.UserGroup value) {
@@ -19864,7 +21297,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroup RepDataUserGroup = 50;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:2,
+       *In file:dzhyun.user.group.proto, row:5,
        * </pre>
        */
       public Builder addRepDataUserGroup(
@@ -19885,7 +21318,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroup RepDataUserGroup = 50;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:2,
+       *In file:dzhyun.user.group.proto, row:5,
        * </pre>
        */
       public Builder addRepDataUserGroup(
@@ -19903,7 +21336,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroup RepDataUserGroup = 50;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:2,
+       *In file:dzhyun.user.group.proto, row:5,
        * </pre>
        */
       public Builder addRepDataUserGroup(
@@ -19921,7 +21354,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroup RepDataUserGroup = 50;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:2,
+       *In file:dzhyun.user.group.proto, row:5,
        * </pre>
        */
       public Builder addAllRepDataUserGroup(
@@ -19940,13 +21373,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroup RepDataUserGroup = 50;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:2,
+       *In file:dzhyun.user.group.proto, row:5,
        * </pre>
        */
       public Builder clearRepDataUserGroup() {
         if (repDataUserGroupBuilder_ == null) {
           repDataUserGroup_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00000002);
+          bitField1_ = (bitField1_ & ~0x00000004);
           onChanged();
         } else {
           repDataUserGroupBuilder_.clear();
@@ -19957,7 +21390,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroup RepDataUserGroup = 50;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:2,
+       *In file:dzhyun.user.group.proto, row:5,
        * </pre>
        */
       public Builder removeRepDataUserGroup(int index) {
@@ -19974,7 +21407,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroup RepDataUserGroup = 50;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:2,
+       *In file:dzhyun.user.group.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunUserGroup.UserGroup.Builder getRepDataUserGroupBuilder(
@@ -19985,7 +21418,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroup RepDataUserGroup = 50;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:2,
+       *In file:dzhyun.user.group.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunUserGroup.UserGroupOrBuilder getRepDataUserGroupOrBuilder(
@@ -19999,7 +21432,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroup RepDataUserGroup = 50;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:2,
+       *In file:dzhyun.user.group.proto, row:5,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhyunUserGroup.UserGroupOrBuilder> 
@@ -20014,7 +21447,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroup RepDataUserGroup = 50;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:2,
+       *In file:dzhyun.user.group.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunUserGroup.UserGroup.Builder addRepDataUserGroupBuilder() {
@@ -20025,7 +21458,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroup RepDataUserGroup = 50;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:2,
+       *In file:dzhyun.user.group.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunUserGroup.UserGroup.Builder addRepDataUserGroupBuilder(
@@ -20037,7 +21470,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroup RepDataUserGroup = 50;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:2,
+       *In file:dzhyun.user.group.proto, row:5,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunUserGroup.UserGroup.Builder> 
@@ -20051,7 +21484,7 @@ public final class AutoMsg {
           repDataUserGroupBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhyunUserGroup.UserGroup, com.dzhyun.proto.DzhyunUserGroup.UserGroup.Builder, com.dzhyun.proto.DzhyunUserGroup.UserGroupOrBuilder>(
                   repDataUserGroup_,
-                  ((bitField1_ & 0x00000002) == 0x00000002),
+                  ((bitField1_ & 0x00000004) == 0x00000004),
                   getParentForChildren(),
                   isClean());
           repDataUserGroup_ = null;
@@ -20062,9 +21495,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhyunUserGroup.UserGroupResponse> repDataUserGroupResponse_ =
         java.util.Collections.emptyList();
       private void ensureRepDataUserGroupResponseIsMutable() {
-        if (!((bitField1_ & 0x00000004) == 0x00000004)) {
+        if (!((bitField1_ & 0x00000008) == 0x00000008)) {
           repDataUserGroupResponse_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunUserGroup.UserGroupResponse>(repDataUserGroupResponse_);
-          bitField1_ |= 0x00000004;
+          bitField1_ |= 0x00000008;
          }
       }
 
@@ -20075,7 +21508,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroupResponse RepDataUserGroupResponse = 51;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:10,
+       *In file:dzhyun.user.group.proto, row:13,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunUserGroup.UserGroupResponse> getRepDataUserGroupResponseList() {
@@ -20089,7 +21522,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroupResponse RepDataUserGroupResponse = 51;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:10,
+       *In file:dzhyun.user.group.proto, row:13,
        * </pre>
        */
       public int getRepDataUserGroupResponseCount() {
@@ -20103,7 +21536,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroupResponse RepDataUserGroupResponse = 51;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:10,
+       *In file:dzhyun.user.group.proto, row:13,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunUserGroup.UserGroupResponse getRepDataUserGroupResponse(int index) {
@@ -20117,7 +21550,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroupResponse RepDataUserGroupResponse = 51;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:10,
+       *In file:dzhyun.user.group.proto, row:13,
        * </pre>
        */
       public Builder setRepDataUserGroupResponse(
@@ -20138,7 +21571,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroupResponse RepDataUserGroupResponse = 51;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:10,
+       *In file:dzhyun.user.group.proto, row:13,
        * </pre>
        */
       public Builder setRepDataUserGroupResponse(
@@ -20156,7 +21589,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroupResponse RepDataUserGroupResponse = 51;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:10,
+       *In file:dzhyun.user.group.proto, row:13,
        * </pre>
        */
       public Builder addRepDataUserGroupResponse(com.dzhyun.proto.DzhyunUserGroup.UserGroupResponse value) {
@@ -20176,7 +21609,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroupResponse RepDataUserGroupResponse = 51;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:10,
+       *In file:dzhyun.user.group.proto, row:13,
        * </pre>
        */
       public Builder addRepDataUserGroupResponse(
@@ -20197,7 +21630,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroupResponse RepDataUserGroupResponse = 51;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:10,
+       *In file:dzhyun.user.group.proto, row:13,
        * </pre>
        */
       public Builder addRepDataUserGroupResponse(
@@ -20215,7 +21648,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroupResponse RepDataUserGroupResponse = 51;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:10,
+       *In file:dzhyun.user.group.proto, row:13,
        * </pre>
        */
       public Builder addRepDataUserGroupResponse(
@@ -20233,7 +21666,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroupResponse RepDataUserGroupResponse = 51;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:10,
+       *In file:dzhyun.user.group.proto, row:13,
        * </pre>
        */
       public Builder addAllRepDataUserGroupResponse(
@@ -20252,13 +21685,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroupResponse RepDataUserGroupResponse = 51;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:10,
+       *In file:dzhyun.user.group.proto, row:13,
        * </pre>
        */
       public Builder clearRepDataUserGroupResponse() {
         if (repDataUserGroupResponseBuilder_ == null) {
           repDataUserGroupResponse_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00000004);
+          bitField1_ = (bitField1_ & ~0x00000008);
           onChanged();
         } else {
           repDataUserGroupResponseBuilder_.clear();
@@ -20269,7 +21702,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroupResponse RepDataUserGroupResponse = 51;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:10,
+       *In file:dzhyun.user.group.proto, row:13,
        * </pre>
        */
       public Builder removeRepDataUserGroupResponse(int index) {
@@ -20286,7 +21719,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroupResponse RepDataUserGroupResponse = 51;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:10,
+       *In file:dzhyun.user.group.proto, row:13,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunUserGroup.UserGroupResponse.Builder getRepDataUserGroupResponseBuilder(
@@ -20297,7 +21730,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroupResponse RepDataUserGroupResponse = 51;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:10,
+       *In file:dzhyun.user.group.proto, row:13,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunUserGroup.UserGroupResponseOrBuilder getRepDataUserGroupResponseOrBuilder(
@@ -20311,7 +21744,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroupResponse RepDataUserGroupResponse = 51;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:10,
+       *In file:dzhyun.user.group.proto, row:13,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhyunUserGroup.UserGroupResponseOrBuilder> 
@@ -20326,7 +21759,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroupResponse RepDataUserGroupResponse = 51;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:10,
+       *In file:dzhyun.user.group.proto, row:13,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunUserGroup.UserGroupResponse.Builder addRepDataUserGroupResponseBuilder() {
@@ -20337,7 +21770,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroupResponse RepDataUserGroupResponse = 51;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:10,
+       *In file:dzhyun.user.group.proto, row:13,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunUserGroup.UserGroupResponse.Builder addRepDataUserGroupResponseBuilder(
@@ -20349,7 +21782,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserGroupResponse RepDataUserGroupResponse = 51;</code>
        *
        * <pre>
-       *In file:dzhyun.user.group.proto, row:10,
+       *In file:dzhyun.user.group.proto, row:13,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunUserGroup.UserGroupResponse.Builder> 
@@ -20363,7 +21796,7 @@ public final class AutoMsg {
           repDataUserGroupResponseBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhyunUserGroup.UserGroupResponse, com.dzhyun.proto.DzhyunUserGroup.UserGroupResponse.Builder, com.dzhyun.proto.DzhyunUserGroup.UserGroupResponseOrBuilder>(
                   repDataUserGroupResponse_,
-                  ((bitField1_ & 0x00000004) == 0x00000004),
+                  ((bitField1_ & 0x00000008) == 0x00000008),
                   getParentForChildren(),
                   isClean());
           repDataUserGroupResponse_ = null;
@@ -20374,9 +21807,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhyunUserProp.UserPropsMessage> repDataUserPropsMessage_ =
         java.util.Collections.emptyList();
       private void ensureRepDataUserPropsMessageIsMutable() {
-        if (!((bitField1_ & 0x00000008) == 0x00000008)) {
+        if (!((bitField1_ & 0x00000010) == 0x00000010)) {
           repDataUserPropsMessage_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunUserProp.UserPropsMessage>(repDataUserPropsMessage_);
-          bitField1_ |= 0x00000008;
+          bitField1_ |= 0x00000010;
          }
       }
 
@@ -20387,7 +21820,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserPropsMessage RepDataUserPropsMessage = 52;</code>
        *
        * <pre>
-       *In file:dzhyun.user.prop.proto, row:9,
+       *In file:dzhyun.user.prop.proto, row:12,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunUserProp.UserPropsMessage> getRepDataUserPropsMessageList() {
@@ -20401,7 +21834,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserPropsMessage RepDataUserPropsMessage = 52;</code>
        *
        * <pre>
-       *In file:dzhyun.user.prop.proto, row:9,
+       *In file:dzhyun.user.prop.proto, row:12,
        * </pre>
        */
       public int getRepDataUserPropsMessageCount() {
@@ -20415,7 +21848,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserPropsMessage RepDataUserPropsMessage = 52;</code>
        *
        * <pre>
-       *In file:dzhyun.user.prop.proto, row:9,
+       *In file:dzhyun.user.prop.proto, row:12,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunUserProp.UserPropsMessage getRepDataUserPropsMessage(int index) {
@@ -20429,7 +21862,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserPropsMessage RepDataUserPropsMessage = 52;</code>
        *
        * <pre>
-       *In file:dzhyun.user.prop.proto, row:9,
+       *In file:dzhyun.user.prop.proto, row:12,
        * </pre>
        */
       public Builder setRepDataUserPropsMessage(
@@ -20450,7 +21883,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserPropsMessage RepDataUserPropsMessage = 52;</code>
        *
        * <pre>
-       *In file:dzhyun.user.prop.proto, row:9,
+       *In file:dzhyun.user.prop.proto, row:12,
        * </pre>
        */
       public Builder setRepDataUserPropsMessage(
@@ -20468,7 +21901,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserPropsMessage RepDataUserPropsMessage = 52;</code>
        *
        * <pre>
-       *In file:dzhyun.user.prop.proto, row:9,
+       *In file:dzhyun.user.prop.proto, row:12,
        * </pre>
        */
       public Builder addRepDataUserPropsMessage(com.dzhyun.proto.DzhyunUserProp.UserPropsMessage value) {
@@ -20488,7 +21921,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserPropsMessage RepDataUserPropsMessage = 52;</code>
        *
        * <pre>
-       *In file:dzhyun.user.prop.proto, row:9,
+       *In file:dzhyun.user.prop.proto, row:12,
        * </pre>
        */
       public Builder addRepDataUserPropsMessage(
@@ -20509,7 +21942,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserPropsMessage RepDataUserPropsMessage = 52;</code>
        *
        * <pre>
-       *In file:dzhyun.user.prop.proto, row:9,
+       *In file:dzhyun.user.prop.proto, row:12,
        * </pre>
        */
       public Builder addRepDataUserPropsMessage(
@@ -20527,7 +21960,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserPropsMessage RepDataUserPropsMessage = 52;</code>
        *
        * <pre>
-       *In file:dzhyun.user.prop.proto, row:9,
+       *In file:dzhyun.user.prop.proto, row:12,
        * </pre>
        */
       public Builder addRepDataUserPropsMessage(
@@ -20545,7 +21978,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserPropsMessage RepDataUserPropsMessage = 52;</code>
        *
        * <pre>
-       *In file:dzhyun.user.prop.proto, row:9,
+       *In file:dzhyun.user.prop.proto, row:12,
        * </pre>
        */
       public Builder addAllRepDataUserPropsMessage(
@@ -20564,13 +21997,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserPropsMessage RepDataUserPropsMessage = 52;</code>
        *
        * <pre>
-       *In file:dzhyun.user.prop.proto, row:9,
+       *In file:dzhyun.user.prop.proto, row:12,
        * </pre>
        */
       public Builder clearRepDataUserPropsMessage() {
         if (repDataUserPropsMessageBuilder_ == null) {
           repDataUserPropsMessage_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00000008);
+          bitField1_ = (bitField1_ & ~0x00000010);
           onChanged();
         } else {
           repDataUserPropsMessageBuilder_.clear();
@@ -20581,7 +22014,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserPropsMessage RepDataUserPropsMessage = 52;</code>
        *
        * <pre>
-       *In file:dzhyun.user.prop.proto, row:9,
+       *In file:dzhyun.user.prop.proto, row:12,
        * </pre>
        */
       public Builder removeRepDataUserPropsMessage(int index) {
@@ -20598,7 +22031,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserPropsMessage RepDataUserPropsMessage = 52;</code>
        *
        * <pre>
-       *In file:dzhyun.user.prop.proto, row:9,
+       *In file:dzhyun.user.prop.proto, row:12,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunUserProp.UserPropsMessage.Builder getRepDataUserPropsMessageBuilder(
@@ -20609,7 +22042,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserPropsMessage RepDataUserPropsMessage = 52;</code>
        *
        * <pre>
-       *In file:dzhyun.user.prop.proto, row:9,
+       *In file:dzhyun.user.prop.proto, row:12,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunUserProp.UserPropsMessageOrBuilder getRepDataUserPropsMessageOrBuilder(
@@ -20623,7 +22056,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserPropsMessage RepDataUserPropsMessage = 52;</code>
        *
        * <pre>
-       *In file:dzhyun.user.prop.proto, row:9,
+       *In file:dzhyun.user.prop.proto, row:12,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhyunUserProp.UserPropsMessageOrBuilder> 
@@ -20638,7 +22071,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserPropsMessage RepDataUserPropsMessage = 52;</code>
        *
        * <pre>
-       *In file:dzhyun.user.prop.proto, row:9,
+       *In file:dzhyun.user.prop.proto, row:12,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunUserProp.UserPropsMessage.Builder addRepDataUserPropsMessageBuilder() {
@@ -20649,7 +22082,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserPropsMessage RepDataUserPropsMessage = 52;</code>
        *
        * <pre>
-       *In file:dzhyun.user.prop.proto, row:9,
+       *In file:dzhyun.user.prop.proto, row:12,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunUserProp.UserPropsMessage.Builder addRepDataUserPropsMessageBuilder(
@@ -20661,7 +22094,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.UserPropsMessage RepDataUserPropsMessage = 52;</code>
        *
        * <pre>
-       *In file:dzhyun.user.prop.proto, row:9,
+       *In file:dzhyun.user.prop.proto, row:12,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunUserProp.UserPropsMessage.Builder> 
@@ -20675,7 +22108,7 @@ public final class AutoMsg {
           repDataUserPropsMessageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhyunUserProp.UserPropsMessage, com.dzhyun.proto.DzhyunUserProp.UserPropsMessage.Builder, com.dzhyun.proto.DzhyunUserProp.UserPropsMessageOrBuilder>(
                   repDataUserPropsMessage_,
-                  ((bitField1_ & 0x00000008) == 0x00000008),
+                  ((bitField1_ & 0x00000010) == 0x00000010),
                   getParentForChildren(),
                   isClean());
           repDataUserPropsMessage_ = null;
@@ -20686,9 +22119,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhyunTopicinvest.TopicInvest> repDataTopicInvest_ =
         java.util.Collections.emptyList();
       private void ensureRepDataTopicInvestIsMutable() {
-        if (!((bitField1_ & 0x00000010) == 0x00000010)) {
+        if (!((bitField1_ & 0x00000020) == 0x00000020)) {
           repDataTopicInvest_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunTopicinvest.TopicInvest>(repDataTopicInvest_);
-          bitField1_ |= 0x00000010;
+          bitField1_ |= 0x00000020;
          }
       }
 
@@ -20699,7 +22132,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvest RepDataTopicInvest = 53;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:15,
+       *In file:dzhyun.topicinvest.proto, row:18,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunTopicinvest.TopicInvest> getRepDataTopicInvestList() {
@@ -20713,7 +22146,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvest RepDataTopicInvest = 53;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:15,
+       *In file:dzhyun.topicinvest.proto, row:18,
        * </pre>
        */
       public int getRepDataTopicInvestCount() {
@@ -20727,7 +22160,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvest RepDataTopicInvest = 53;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:15,
+       *In file:dzhyun.topicinvest.proto, row:18,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunTopicinvest.TopicInvest getRepDataTopicInvest(int index) {
@@ -20741,7 +22174,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvest RepDataTopicInvest = 53;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:15,
+       *In file:dzhyun.topicinvest.proto, row:18,
        * </pre>
        */
       public Builder setRepDataTopicInvest(
@@ -20762,7 +22195,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvest RepDataTopicInvest = 53;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:15,
+       *In file:dzhyun.topicinvest.proto, row:18,
        * </pre>
        */
       public Builder setRepDataTopicInvest(
@@ -20780,7 +22213,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvest RepDataTopicInvest = 53;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:15,
+       *In file:dzhyun.topicinvest.proto, row:18,
        * </pre>
        */
       public Builder addRepDataTopicInvest(com.dzhyun.proto.DzhyunTopicinvest.TopicInvest value) {
@@ -20800,7 +22233,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvest RepDataTopicInvest = 53;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:15,
+       *In file:dzhyun.topicinvest.proto, row:18,
        * </pre>
        */
       public Builder addRepDataTopicInvest(
@@ -20821,7 +22254,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvest RepDataTopicInvest = 53;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:15,
+       *In file:dzhyun.topicinvest.proto, row:18,
        * </pre>
        */
       public Builder addRepDataTopicInvest(
@@ -20839,7 +22272,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvest RepDataTopicInvest = 53;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:15,
+       *In file:dzhyun.topicinvest.proto, row:18,
        * </pre>
        */
       public Builder addRepDataTopicInvest(
@@ -20857,7 +22290,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvest RepDataTopicInvest = 53;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:15,
+       *In file:dzhyun.topicinvest.proto, row:18,
        * </pre>
        */
       public Builder addAllRepDataTopicInvest(
@@ -20876,13 +22309,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvest RepDataTopicInvest = 53;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:15,
+       *In file:dzhyun.topicinvest.proto, row:18,
        * </pre>
        */
       public Builder clearRepDataTopicInvest() {
         if (repDataTopicInvestBuilder_ == null) {
           repDataTopicInvest_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00000010);
+          bitField1_ = (bitField1_ & ~0x00000020);
           onChanged();
         } else {
           repDataTopicInvestBuilder_.clear();
@@ -20893,7 +22326,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvest RepDataTopicInvest = 53;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:15,
+       *In file:dzhyun.topicinvest.proto, row:18,
        * </pre>
        */
       public Builder removeRepDataTopicInvest(int index) {
@@ -20910,7 +22343,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvest RepDataTopicInvest = 53;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:15,
+       *In file:dzhyun.topicinvest.proto, row:18,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunTopicinvest.TopicInvest.Builder getRepDataTopicInvestBuilder(
@@ -20921,7 +22354,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvest RepDataTopicInvest = 53;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:15,
+       *In file:dzhyun.topicinvest.proto, row:18,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunTopicinvest.TopicInvestOrBuilder getRepDataTopicInvestOrBuilder(
@@ -20935,7 +22368,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvest RepDataTopicInvest = 53;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:15,
+       *In file:dzhyun.topicinvest.proto, row:18,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhyunTopicinvest.TopicInvestOrBuilder> 
@@ -20950,7 +22383,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvest RepDataTopicInvest = 53;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:15,
+       *In file:dzhyun.topicinvest.proto, row:18,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunTopicinvest.TopicInvest.Builder addRepDataTopicInvestBuilder() {
@@ -20961,7 +22394,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvest RepDataTopicInvest = 53;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:15,
+       *In file:dzhyun.topicinvest.proto, row:18,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunTopicinvest.TopicInvest.Builder addRepDataTopicInvestBuilder(
@@ -20973,7 +22406,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvest RepDataTopicInvest = 53;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:15,
+       *In file:dzhyun.topicinvest.proto, row:18,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunTopicinvest.TopicInvest.Builder> 
@@ -20987,7 +22420,7 @@ public final class AutoMsg {
           repDataTopicInvestBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhyunTopicinvest.TopicInvest, com.dzhyun.proto.DzhyunTopicinvest.TopicInvest.Builder, com.dzhyun.proto.DzhyunTopicinvest.TopicInvestOrBuilder>(
                   repDataTopicInvest_,
-                  ((bitField1_ & 0x00000010) == 0x00000010),
+                  ((bitField1_ & 0x00000020) == 0x00000020),
                   getParentForChildren(),
                   isClean());
           repDataTopicInvest_ = null;
@@ -20998,9 +22431,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhyunTopicinvest.TopicInvestHistory> repDataTopicInvestHistory_ =
         java.util.Collections.emptyList();
       private void ensureRepDataTopicInvestHistoryIsMutable() {
-        if (!((bitField1_ & 0x00000020) == 0x00000020)) {
+        if (!((bitField1_ & 0x00000040) == 0x00000040)) {
           repDataTopicInvestHistory_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunTopicinvest.TopicInvestHistory>(repDataTopicInvestHistory_);
-          bitField1_ |= 0x00000020;
+          bitField1_ |= 0x00000040;
          }
       }
 
@@ -21011,7 +22444,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestHistory RepDataTopicInvestHistory = 54;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:41,
+       *In file:dzhyun.topicinvest.proto, row:44,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunTopicinvest.TopicInvestHistory> getRepDataTopicInvestHistoryList() {
@@ -21025,7 +22458,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestHistory RepDataTopicInvestHistory = 54;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:41,
+       *In file:dzhyun.topicinvest.proto, row:44,
        * </pre>
        */
       public int getRepDataTopicInvestHistoryCount() {
@@ -21039,7 +22472,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestHistory RepDataTopicInvestHistory = 54;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:41,
+       *In file:dzhyun.topicinvest.proto, row:44,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunTopicinvest.TopicInvestHistory getRepDataTopicInvestHistory(int index) {
@@ -21053,7 +22486,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestHistory RepDataTopicInvestHistory = 54;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:41,
+       *In file:dzhyun.topicinvest.proto, row:44,
        * </pre>
        */
       public Builder setRepDataTopicInvestHistory(
@@ -21074,7 +22507,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestHistory RepDataTopicInvestHistory = 54;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:41,
+       *In file:dzhyun.topicinvest.proto, row:44,
        * </pre>
        */
       public Builder setRepDataTopicInvestHistory(
@@ -21092,7 +22525,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestHistory RepDataTopicInvestHistory = 54;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:41,
+       *In file:dzhyun.topicinvest.proto, row:44,
        * </pre>
        */
       public Builder addRepDataTopicInvestHistory(com.dzhyun.proto.DzhyunTopicinvest.TopicInvestHistory value) {
@@ -21112,7 +22545,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestHistory RepDataTopicInvestHistory = 54;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:41,
+       *In file:dzhyun.topicinvest.proto, row:44,
        * </pre>
        */
       public Builder addRepDataTopicInvestHistory(
@@ -21133,7 +22566,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestHistory RepDataTopicInvestHistory = 54;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:41,
+       *In file:dzhyun.topicinvest.proto, row:44,
        * </pre>
        */
       public Builder addRepDataTopicInvestHistory(
@@ -21151,7 +22584,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestHistory RepDataTopicInvestHistory = 54;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:41,
+       *In file:dzhyun.topicinvest.proto, row:44,
        * </pre>
        */
       public Builder addRepDataTopicInvestHistory(
@@ -21169,7 +22602,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestHistory RepDataTopicInvestHistory = 54;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:41,
+       *In file:dzhyun.topicinvest.proto, row:44,
        * </pre>
        */
       public Builder addAllRepDataTopicInvestHistory(
@@ -21188,13 +22621,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestHistory RepDataTopicInvestHistory = 54;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:41,
+       *In file:dzhyun.topicinvest.proto, row:44,
        * </pre>
        */
       public Builder clearRepDataTopicInvestHistory() {
         if (repDataTopicInvestHistoryBuilder_ == null) {
           repDataTopicInvestHistory_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00000020);
+          bitField1_ = (bitField1_ & ~0x00000040);
           onChanged();
         } else {
           repDataTopicInvestHistoryBuilder_.clear();
@@ -21205,7 +22638,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestHistory RepDataTopicInvestHistory = 54;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:41,
+       *In file:dzhyun.topicinvest.proto, row:44,
        * </pre>
        */
       public Builder removeRepDataTopicInvestHistory(int index) {
@@ -21222,7 +22655,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestHistory RepDataTopicInvestHistory = 54;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:41,
+       *In file:dzhyun.topicinvest.proto, row:44,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunTopicinvest.TopicInvestHistory.Builder getRepDataTopicInvestHistoryBuilder(
@@ -21233,7 +22666,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestHistory RepDataTopicInvestHistory = 54;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:41,
+       *In file:dzhyun.topicinvest.proto, row:44,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunTopicinvest.TopicInvestHistoryOrBuilder getRepDataTopicInvestHistoryOrBuilder(
@@ -21247,7 +22680,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestHistory RepDataTopicInvestHistory = 54;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:41,
+       *In file:dzhyun.topicinvest.proto, row:44,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhyunTopicinvest.TopicInvestHistoryOrBuilder> 
@@ -21262,7 +22695,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestHistory RepDataTopicInvestHistory = 54;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:41,
+       *In file:dzhyun.topicinvest.proto, row:44,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunTopicinvest.TopicInvestHistory.Builder addRepDataTopicInvestHistoryBuilder() {
@@ -21273,7 +22706,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestHistory RepDataTopicInvestHistory = 54;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:41,
+       *In file:dzhyun.topicinvest.proto, row:44,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunTopicinvest.TopicInvestHistory.Builder addRepDataTopicInvestHistoryBuilder(
@@ -21285,7 +22718,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestHistory RepDataTopicInvestHistory = 54;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:41,
+       *In file:dzhyun.topicinvest.proto, row:44,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunTopicinvest.TopicInvestHistory.Builder> 
@@ -21299,7 +22732,7 @@ public final class AutoMsg {
           repDataTopicInvestHistoryBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhyunTopicinvest.TopicInvestHistory, com.dzhyun.proto.DzhyunTopicinvest.TopicInvestHistory.Builder, com.dzhyun.proto.DzhyunTopicinvest.TopicInvestHistoryOrBuilder>(
                   repDataTopicInvestHistory_,
-                  ((bitField1_ & 0x00000020) == 0x00000020),
+                  ((bitField1_ & 0x00000040) == 0x00000040),
                   getParentForChildren(),
                   isClean());
           repDataTopicInvestHistory_ = null;
@@ -21310,9 +22743,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhyunF10.F10GsgkOutput> repDataF10GsgkOutput_ =
         java.util.Collections.emptyList();
       private void ensureRepDataF10GsgkOutputIsMutable() {
-        if (!((bitField1_ & 0x00000040) == 0x00000040)) {
+        if (!((bitField1_ & 0x00000080) == 0x00000080)) {
           repDataF10GsgkOutput_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunF10.F10GsgkOutput>(repDataF10GsgkOutput_);
-          bitField1_ |= 0x00000040;
+          bitField1_ |= 0x00000080;
          }
       }
 
@@ -21323,7 +22756,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GsgkOutput RepDataF10GsgkOutput = 55;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:9,
+       *In file:dzhyun.f10.proto, row:8,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunF10.F10GsgkOutput> getRepDataF10GsgkOutputList() {
@@ -21337,7 +22770,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GsgkOutput RepDataF10GsgkOutput = 55;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:9,
+       *In file:dzhyun.f10.proto, row:8,
        * </pre>
        */
       public int getRepDataF10GsgkOutputCount() {
@@ -21351,7 +22784,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GsgkOutput RepDataF10GsgkOutput = 55;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:9,
+       *In file:dzhyun.f10.proto, row:8,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GsgkOutput getRepDataF10GsgkOutput(int index) {
@@ -21365,7 +22798,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GsgkOutput RepDataF10GsgkOutput = 55;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:9,
+       *In file:dzhyun.f10.proto, row:8,
        * </pre>
        */
       public Builder setRepDataF10GsgkOutput(
@@ -21386,7 +22819,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GsgkOutput RepDataF10GsgkOutput = 55;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:9,
+       *In file:dzhyun.f10.proto, row:8,
        * </pre>
        */
       public Builder setRepDataF10GsgkOutput(
@@ -21404,7 +22837,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GsgkOutput RepDataF10GsgkOutput = 55;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:9,
+       *In file:dzhyun.f10.proto, row:8,
        * </pre>
        */
       public Builder addRepDataF10GsgkOutput(com.dzhyun.proto.DzhyunF10.F10GsgkOutput value) {
@@ -21424,7 +22857,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GsgkOutput RepDataF10GsgkOutput = 55;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:9,
+       *In file:dzhyun.f10.proto, row:8,
        * </pre>
        */
       public Builder addRepDataF10GsgkOutput(
@@ -21445,7 +22878,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GsgkOutput RepDataF10GsgkOutput = 55;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:9,
+       *In file:dzhyun.f10.proto, row:8,
        * </pre>
        */
       public Builder addRepDataF10GsgkOutput(
@@ -21463,7 +22896,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GsgkOutput RepDataF10GsgkOutput = 55;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:9,
+       *In file:dzhyun.f10.proto, row:8,
        * </pre>
        */
       public Builder addRepDataF10GsgkOutput(
@@ -21481,7 +22914,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GsgkOutput RepDataF10GsgkOutput = 55;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:9,
+       *In file:dzhyun.f10.proto, row:8,
        * </pre>
        */
       public Builder addAllRepDataF10GsgkOutput(
@@ -21500,13 +22933,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GsgkOutput RepDataF10GsgkOutput = 55;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:9,
+       *In file:dzhyun.f10.proto, row:8,
        * </pre>
        */
       public Builder clearRepDataF10GsgkOutput() {
         if (repDataF10GsgkOutputBuilder_ == null) {
           repDataF10GsgkOutput_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00000040);
+          bitField1_ = (bitField1_ & ~0x00000080);
           onChanged();
         } else {
           repDataF10GsgkOutputBuilder_.clear();
@@ -21517,7 +22950,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GsgkOutput RepDataF10GsgkOutput = 55;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:9,
+       *In file:dzhyun.f10.proto, row:8,
        * </pre>
        */
       public Builder removeRepDataF10GsgkOutput(int index) {
@@ -21534,7 +22967,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GsgkOutput RepDataF10GsgkOutput = 55;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:9,
+       *In file:dzhyun.f10.proto, row:8,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GsgkOutput.Builder getRepDataF10GsgkOutputBuilder(
@@ -21545,7 +22978,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GsgkOutput RepDataF10GsgkOutput = 55;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:9,
+       *In file:dzhyun.f10.proto, row:8,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GsgkOutputOrBuilder getRepDataF10GsgkOutputOrBuilder(
@@ -21559,7 +22992,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GsgkOutput RepDataF10GsgkOutput = 55;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:9,
+       *In file:dzhyun.f10.proto, row:8,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10GsgkOutputOrBuilder> 
@@ -21574,7 +23007,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GsgkOutput RepDataF10GsgkOutput = 55;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:9,
+       *In file:dzhyun.f10.proto, row:8,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GsgkOutput.Builder addRepDataF10GsgkOutputBuilder() {
@@ -21585,7 +23018,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GsgkOutput RepDataF10GsgkOutput = 55;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:9,
+       *In file:dzhyun.f10.proto, row:8,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GsgkOutput.Builder addRepDataF10GsgkOutputBuilder(
@@ -21597,7 +23030,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GsgkOutput RepDataF10GsgkOutput = 55;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:9,
+       *In file:dzhyun.f10.proto, row:8,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunF10.F10GsgkOutput.Builder> 
@@ -21611,7 +23044,7 @@ public final class AutoMsg {
           repDataF10GsgkOutputBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhyunF10.F10GsgkOutput, com.dzhyun.proto.DzhyunF10.F10GsgkOutput.Builder, com.dzhyun.proto.DzhyunF10.F10GsgkOutputOrBuilder>(
                   repDataF10GsgkOutput_,
-                  ((bitField1_ & 0x00000040) == 0x00000040),
+                  ((bitField1_ & 0x00000080) == 0x00000080),
                   getParentForChildren(),
                   isClean());
           repDataF10GsgkOutput_ = null;
@@ -21622,9 +23055,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhyunF10.F10CwtsZycwzbOutput> repDataF10CwtsZycwzbOutput_ =
         java.util.Collections.emptyList();
       private void ensureRepDataF10CwtsZycwzbOutputIsMutable() {
-        if (!((bitField1_ & 0x00000080) == 0x00000080)) {
+        if (!((bitField1_ & 0x00000100) == 0x00000100)) {
           repDataF10CwtsZycwzbOutput_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunF10.F10CwtsZycwzbOutput>(repDataF10CwtsZycwzbOutput_);
-          bitField1_ |= 0x00000080;
+          bitField1_ |= 0x00000100;
          }
       }
 
@@ -21635,7 +23068,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsZycwzbOutput RepDataF10CwtsZycwzbOutput = 56;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:69,
+       *In file:dzhyun.f10.proto, row:68,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunF10.F10CwtsZycwzbOutput> getRepDataF10CwtsZycwzbOutputList() {
@@ -21649,7 +23082,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsZycwzbOutput RepDataF10CwtsZycwzbOutput = 56;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:69,
+       *In file:dzhyun.f10.proto, row:68,
        * </pre>
        */
       public int getRepDataF10CwtsZycwzbOutputCount() {
@@ -21663,7 +23096,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsZycwzbOutput RepDataF10CwtsZycwzbOutput = 56;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:69,
+       *In file:dzhyun.f10.proto, row:68,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10CwtsZycwzbOutput getRepDataF10CwtsZycwzbOutput(int index) {
@@ -21677,7 +23110,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsZycwzbOutput RepDataF10CwtsZycwzbOutput = 56;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:69,
+       *In file:dzhyun.f10.proto, row:68,
        * </pre>
        */
       public Builder setRepDataF10CwtsZycwzbOutput(
@@ -21698,7 +23131,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsZycwzbOutput RepDataF10CwtsZycwzbOutput = 56;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:69,
+       *In file:dzhyun.f10.proto, row:68,
        * </pre>
        */
       public Builder setRepDataF10CwtsZycwzbOutput(
@@ -21716,7 +23149,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsZycwzbOutput RepDataF10CwtsZycwzbOutput = 56;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:69,
+       *In file:dzhyun.f10.proto, row:68,
        * </pre>
        */
       public Builder addRepDataF10CwtsZycwzbOutput(com.dzhyun.proto.DzhyunF10.F10CwtsZycwzbOutput value) {
@@ -21736,7 +23169,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsZycwzbOutput RepDataF10CwtsZycwzbOutput = 56;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:69,
+       *In file:dzhyun.f10.proto, row:68,
        * </pre>
        */
       public Builder addRepDataF10CwtsZycwzbOutput(
@@ -21757,7 +23190,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsZycwzbOutput RepDataF10CwtsZycwzbOutput = 56;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:69,
+       *In file:dzhyun.f10.proto, row:68,
        * </pre>
        */
       public Builder addRepDataF10CwtsZycwzbOutput(
@@ -21775,7 +23208,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsZycwzbOutput RepDataF10CwtsZycwzbOutput = 56;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:69,
+       *In file:dzhyun.f10.proto, row:68,
        * </pre>
        */
       public Builder addRepDataF10CwtsZycwzbOutput(
@@ -21793,7 +23226,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsZycwzbOutput RepDataF10CwtsZycwzbOutput = 56;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:69,
+       *In file:dzhyun.f10.proto, row:68,
        * </pre>
        */
       public Builder addAllRepDataF10CwtsZycwzbOutput(
@@ -21812,13 +23245,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsZycwzbOutput RepDataF10CwtsZycwzbOutput = 56;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:69,
+       *In file:dzhyun.f10.proto, row:68,
        * </pre>
        */
       public Builder clearRepDataF10CwtsZycwzbOutput() {
         if (repDataF10CwtsZycwzbOutputBuilder_ == null) {
           repDataF10CwtsZycwzbOutput_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00000080);
+          bitField1_ = (bitField1_ & ~0x00000100);
           onChanged();
         } else {
           repDataF10CwtsZycwzbOutputBuilder_.clear();
@@ -21829,7 +23262,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsZycwzbOutput RepDataF10CwtsZycwzbOutput = 56;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:69,
+       *In file:dzhyun.f10.proto, row:68,
        * </pre>
        */
       public Builder removeRepDataF10CwtsZycwzbOutput(int index) {
@@ -21846,7 +23279,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsZycwzbOutput RepDataF10CwtsZycwzbOutput = 56;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:69,
+       *In file:dzhyun.f10.proto, row:68,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10CwtsZycwzbOutput.Builder getRepDataF10CwtsZycwzbOutputBuilder(
@@ -21857,7 +23290,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsZycwzbOutput RepDataF10CwtsZycwzbOutput = 56;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:69,
+       *In file:dzhyun.f10.proto, row:68,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10CwtsZycwzbOutputOrBuilder getRepDataF10CwtsZycwzbOutputOrBuilder(
@@ -21871,7 +23304,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsZycwzbOutput RepDataF10CwtsZycwzbOutput = 56;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:69,
+       *In file:dzhyun.f10.proto, row:68,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10CwtsZycwzbOutputOrBuilder> 
@@ -21886,7 +23319,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsZycwzbOutput RepDataF10CwtsZycwzbOutput = 56;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:69,
+       *In file:dzhyun.f10.proto, row:68,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10CwtsZycwzbOutput.Builder addRepDataF10CwtsZycwzbOutputBuilder() {
@@ -21897,7 +23330,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsZycwzbOutput RepDataF10CwtsZycwzbOutput = 56;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:69,
+       *In file:dzhyun.f10.proto, row:68,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10CwtsZycwzbOutput.Builder addRepDataF10CwtsZycwzbOutputBuilder(
@@ -21909,7 +23342,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsZycwzbOutput RepDataF10CwtsZycwzbOutput = 56;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:69,
+       *In file:dzhyun.f10.proto, row:68,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunF10.F10CwtsZycwzbOutput.Builder> 
@@ -21923,7 +23356,7 @@ public final class AutoMsg {
           repDataF10CwtsZycwzbOutputBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhyunF10.F10CwtsZycwzbOutput, com.dzhyun.proto.DzhyunF10.F10CwtsZycwzbOutput.Builder, com.dzhyun.proto.DzhyunF10.F10CwtsZycwzbOutputOrBuilder>(
                   repDataF10CwtsZycwzbOutput_,
-                  ((bitField1_ & 0x00000080) == 0x00000080),
+                  ((bitField1_ & 0x00000100) == 0x00000100),
                   getParentForChildren(),
                   isClean());
           repDataF10CwtsZycwzbOutput_ = null;
@@ -21934,9 +23367,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhyunF10.F10CwtsXjllbzyOutput> repDataF10CwtsXjllbzyOutput_ =
         java.util.Collections.emptyList();
       private void ensureRepDataF10CwtsXjllbzyOutputIsMutable() {
-        if (!((bitField1_ & 0x00000100) == 0x00000100)) {
+        if (!((bitField1_ & 0x00000200) == 0x00000200)) {
           repDataF10CwtsXjllbzyOutput_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunF10.F10CwtsXjllbzyOutput>(repDataF10CwtsXjllbzyOutput_);
-          bitField1_ |= 0x00000100;
+          bitField1_ |= 0x00000200;
          }
       }
 
@@ -21947,7 +23380,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsXjllbzyOutput RepDataF10CwtsXjllbzyOutput = 57;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:92,
+       *In file:dzhyun.f10.proto, row:91,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunF10.F10CwtsXjllbzyOutput> getRepDataF10CwtsXjllbzyOutputList() {
@@ -21961,7 +23394,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsXjllbzyOutput RepDataF10CwtsXjllbzyOutput = 57;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:92,
+       *In file:dzhyun.f10.proto, row:91,
        * </pre>
        */
       public int getRepDataF10CwtsXjllbzyOutputCount() {
@@ -21975,7 +23408,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsXjllbzyOutput RepDataF10CwtsXjllbzyOutput = 57;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:92,
+       *In file:dzhyun.f10.proto, row:91,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10CwtsXjllbzyOutput getRepDataF10CwtsXjllbzyOutput(int index) {
@@ -21989,7 +23422,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsXjllbzyOutput RepDataF10CwtsXjllbzyOutput = 57;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:92,
+       *In file:dzhyun.f10.proto, row:91,
        * </pre>
        */
       public Builder setRepDataF10CwtsXjllbzyOutput(
@@ -22010,7 +23443,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsXjllbzyOutput RepDataF10CwtsXjllbzyOutput = 57;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:92,
+       *In file:dzhyun.f10.proto, row:91,
        * </pre>
        */
       public Builder setRepDataF10CwtsXjllbzyOutput(
@@ -22028,7 +23461,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsXjllbzyOutput RepDataF10CwtsXjllbzyOutput = 57;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:92,
+       *In file:dzhyun.f10.proto, row:91,
        * </pre>
        */
       public Builder addRepDataF10CwtsXjllbzyOutput(com.dzhyun.proto.DzhyunF10.F10CwtsXjllbzyOutput value) {
@@ -22048,7 +23481,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsXjllbzyOutput RepDataF10CwtsXjllbzyOutput = 57;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:92,
+       *In file:dzhyun.f10.proto, row:91,
        * </pre>
        */
       public Builder addRepDataF10CwtsXjllbzyOutput(
@@ -22069,7 +23502,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsXjllbzyOutput RepDataF10CwtsXjllbzyOutput = 57;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:92,
+       *In file:dzhyun.f10.proto, row:91,
        * </pre>
        */
       public Builder addRepDataF10CwtsXjllbzyOutput(
@@ -22087,7 +23520,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsXjllbzyOutput RepDataF10CwtsXjllbzyOutput = 57;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:92,
+       *In file:dzhyun.f10.proto, row:91,
        * </pre>
        */
       public Builder addRepDataF10CwtsXjllbzyOutput(
@@ -22105,7 +23538,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsXjllbzyOutput RepDataF10CwtsXjllbzyOutput = 57;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:92,
+       *In file:dzhyun.f10.proto, row:91,
        * </pre>
        */
       public Builder addAllRepDataF10CwtsXjllbzyOutput(
@@ -22124,13 +23557,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsXjllbzyOutput RepDataF10CwtsXjllbzyOutput = 57;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:92,
+       *In file:dzhyun.f10.proto, row:91,
        * </pre>
        */
       public Builder clearRepDataF10CwtsXjllbzyOutput() {
         if (repDataF10CwtsXjllbzyOutputBuilder_ == null) {
           repDataF10CwtsXjllbzyOutput_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00000100);
+          bitField1_ = (bitField1_ & ~0x00000200);
           onChanged();
         } else {
           repDataF10CwtsXjllbzyOutputBuilder_.clear();
@@ -22141,7 +23574,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsXjllbzyOutput RepDataF10CwtsXjllbzyOutput = 57;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:92,
+       *In file:dzhyun.f10.proto, row:91,
        * </pre>
        */
       public Builder removeRepDataF10CwtsXjllbzyOutput(int index) {
@@ -22158,7 +23591,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsXjllbzyOutput RepDataF10CwtsXjllbzyOutput = 57;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:92,
+       *In file:dzhyun.f10.proto, row:91,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10CwtsXjllbzyOutput.Builder getRepDataF10CwtsXjllbzyOutputBuilder(
@@ -22169,7 +23602,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsXjllbzyOutput RepDataF10CwtsXjllbzyOutput = 57;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:92,
+       *In file:dzhyun.f10.proto, row:91,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10CwtsXjllbzyOutputOrBuilder getRepDataF10CwtsXjllbzyOutputOrBuilder(
@@ -22183,7 +23616,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsXjllbzyOutput RepDataF10CwtsXjllbzyOutput = 57;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:92,
+       *In file:dzhyun.f10.proto, row:91,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10CwtsXjllbzyOutputOrBuilder> 
@@ -22198,7 +23631,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsXjllbzyOutput RepDataF10CwtsXjllbzyOutput = 57;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:92,
+       *In file:dzhyun.f10.proto, row:91,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10CwtsXjllbzyOutput.Builder addRepDataF10CwtsXjllbzyOutputBuilder() {
@@ -22209,7 +23642,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsXjllbzyOutput RepDataF10CwtsXjllbzyOutput = 57;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:92,
+       *In file:dzhyun.f10.proto, row:91,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10CwtsXjllbzyOutput.Builder addRepDataF10CwtsXjllbzyOutputBuilder(
@@ -22221,7 +23654,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10CwtsXjllbzyOutput RepDataF10CwtsXjllbzyOutput = 57;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:92,
+       *In file:dzhyun.f10.proto, row:91,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunF10.F10CwtsXjllbzyOutput.Builder> 
@@ -22235,7 +23668,7 @@ public final class AutoMsg {
           repDataF10CwtsXjllbzyOutputBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhyunF10.F10CwtsXjllbzyOutput, com.dzhyun.proto.DzhyunF10.F10CwtsXjllbzyOutput.Builder, com.dzhyun.proto.DzhyunF10.F10CwtsXjllbzyOutputOrBuilder>(
                   repDataF10CwtsXjllbzyOutput_,
-                  ((bitField1_ & 0x00000100) == 0x00000100),
+                  ((bitField1_ & 0x00000200) == 0x00000200),
                   getParentForChildren(),
                   isClean());
           repDataF10CwtsXjllbzyOutput_ = null;
@@ -22246,9 +23679,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhyunF10.F10ZxjbDjdcwzbOutput> repDataF10ZxjbDjdcwzbOutput_ =
         java.util.Collections.emptyList();
       private void ensureRepDataF10ZxjbDjdcwzbOutputIsMutable() {
-        if (!((bitField1_ & 0x00000200) == 0x00000200)) {
+        if (!((bitField1_ & 0x00000400) == 0x00000400)) {
           repDataF10ZxjbDjdcwzbOutput_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunF10.F10ZxjbDjdcwzbOutput>(repDataF10ZxjbDjdcwzbOutput_);
-          bitField1_ |= 0x00000200;
+          bitField1_ |= 0x00000400;
          }
       }
 
@@ -22259,7 +23692,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbDjdcwzbOutput RepDataF10ZxjbDjdcwzbOutput = 58;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:112,
+       *In file:dzhyun.f10.proto, row:111,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunF10.F10ZxjbDjdcwzbOutput> getRepDataF10ZxjbDjdcwzbOutputList() {
@@ -22273,7 +23706,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbDjdcwzbOutput RepDataF10ZxjbDjdcwzbOutput = 58;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:112,
+       *In file:dzhyun.f10.proto, row:111,
        * </pre>
        */
       public int getRepDataF10ZxjbDjdcwzbOutputCount() {
@@ -22287,7 +23720,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbDjdcwzbOutput RepDataF10ZxjbDjdcwzbOutput = 58;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:112,
+       *In file:dzhyun.f10.proto, row:111,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10ZxjbDjdcwzbOutput getRepDataF10ZxjbDjdcwzbOutput(int index) {
@@ -22301,7 +23734,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbDjdcwzbOutput RepDataF10ZxjbDjdcwzbOutput = 58;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:112,
+       *In file:dzhyun.f10.proto, row:111,
        * </pre>
        */
       public Builder setRepDataF10ZxjbDjdcwzbOutput(
@@ -22322,7 +23755,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbDjdcwzbOutput RepDataF10ZxjbDjdcwzbOutput = 58;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:112,
+       *In file:dzhyun.f10.proto, row:111,
        * </pre>
        */
       public Builder setRepDataF10ZxjbDjdcwzbOutput(
@@ -22340,7 +23773,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbDjdcwzbOutput RepDataF10ZxjbDjdcwzbOutput = 58;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:112,
+       *In file:dzhyun.f10.proto, row:111,
        * </pre>
        */
       public Builder addRepDataF10ZxjbDjdcwzbOutput(com.dzhyun.proto.DzhyunF10.F10ZxjbDjdcwzbOutput value) {
@@ -22360,7 +23793,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbDjdcwzbOutput RepDataF10ZxjbDjdcwzbOutput = 58;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:112,
+       *In file:dzhyun.f10.proto, row:111,
        * </pre>
        */
       public Builder addRepDataF10ZxjbDjdcwzbOutput(
@@ -22381,7 +23814,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbDjdcwzbOutput RepDataF10ZxjbDjdcwzbOutput = 58;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:112,
+       *In file:dzhyun.f10.proto, row:111,
        * </pre>
        */
       public Builder addRepDataF10ZxjbDjdcwzbOutput(
@@ -22399,7 +23832,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbDjdcwzbOutput RepDataF10ZxjbDjdcwzbOutput = 58;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:112,
+       *In file:dzhyun.f10.proto, row:111,
        * </pre>
        */
       public Builder addRepDataF10ZxjbDjdcwzbOutput(
@@ -22417,7 +23850,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbDjdcwzbOutput RepDataF10ZxjbDjdcwzbOutput = 58;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:112,
+       *In file:dzhyun.f10.proto, row:111,
        * </pre>
        */
       public Builder addAllRepDataF10ZxjbDjdcwzbOutput(
@@ -22436,13 +23869,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbDjdcwzbOutput RepDataF10ZxjbDjdcwzbOutput = 58;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:112,
+       *In file:dzhyun.f10.proto, row:111,
        * </pre>
        */
       public Builder clearRepDataF10ZxjbDjdcwzbOutput() {
         if (repDataF10ZxjbDjdcwzbOutputBuilder_ == null) {
           repDataF10ZxjbDjdcwzbOutput_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00000200);
+          bitField1_ = (bitField1_ & ~0x00000400);
           onChanged();
         } else {
           repDataF10ZxjbDjdcwzbOutputBuilder_.clear();
@@ -22453,7 +23886,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbDjdcwzbOutput RepDataF10ZxjbDjdcwzbOutput = 58;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:112,
+       *In file:dzhyun.f10.proto, row:111,
        * </pre>
        */
       public Builder removeRepDataF10ZxjbDjdcwzbOutput(int index) {
@@ -22470,7 +23903,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbDjdcwzbOutput RepDataF10ZxjbDjdcwzbOutput = 58;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:112,
+       *In file:dzhyun.f10.proto, row:111,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10ZxjbDjdcwzbOutput.Builder getRepDataF10ZxjbDjdcwzbOutputBuilder(
@@ -22481,7 +23914,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbDjdcwzbOutput RepDataF10ZxjbDjdcwzbOutput = 58;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:112,
+       *In file:dzhyun.f10.proto, row:111,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10ZxjbDjdcwzbOutputOrBuilder getRepDataF10ZxjbDjdcwzbOutputOrBuilder(
@@ -22495,7 +23928,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbDjdcwzbOutput RepDataF10ZxjbDjdcwzbOutput = 58;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:112,
+       *In file:dzhyun.f10.proto, row:111,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10ZxjbDjdcwzbOutputOrBuilder> 
@@ -22510,7 +23943,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbDjdcwzbOutput RepDataF10ZxjbDjdcwzbOutput = 58;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:112,
+       *In file:dzhyun.f10.proto, row:111,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10ZxjbDjdcwzbOutput.Builder addRepDataF10ZxjbDjdcwzbOutputBuilder() {
@@ -22521,7 +23954,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbDjdcwzbOutput RepDataF10ZxjbDjdcwzbOutput = 58;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:112,
+       *In file:dzhyun.f10.proto, row:111,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10ZxjbDjdcwzbOutput.Builder addRepDataF10ZxjbDjdcwzbOutputBuilder(
@@ -22533,7 +23966,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbDjdcwzbOutput RepDataF10ZxjbDjdcwzbOutput = 58;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:112,
+       *In file:dzhyun.f10.proto, row:111,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunF10.F10ZxjbDjdcwzbOutput.Builder> 
@@ -22547,7 +23980,7 @@ public final class AutoMsg {
           repDataF10ZxjbDjdcwzbOutputBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhyunF10.F10ZxjbDjdcwzbOutput, com.dzhyun.proto.DzhyunF10.F10ZxjbDjdcwzbOutput.Builder, com.dzhyun.proto.DzhyunF10.F10ZxjbDjdcwzbOutputOrBuilder>(
                   repDataF10ZxjbDjdcwzbOutput_,
-                  ((bitField1_ & 0x00000200) == 0x00000200),
+                  ((bitField1_ & 0x00000400) == 0x00000400),
                   getParentForChildren(),
                   isClean());
           repDataF10ZxjbDjdcwzbOutput_ = null;
@@ -22558,9 +23991,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhyunF10.F10ZxjbdjdlebOutput> repDataF10ZxjbdjdlebOutput_ =
         java.util.Collections.emptyList();
       private void ensureRepDataF10ZxjbdjdlebOutputIsMutable() {
-        if (!((bitField1_ & 0x00000400) == 0x00000400)) {
+        if (!((bitField1_ & 0x00000800) == 0x00000800)) {
           repDataF10ZxjbdjdlebOutput_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunF10.F10ZxjbdjdlebOutput>(repDataF10ZxjbdjdlebOutput_);
-          bitField1_ |= 0x00000400;
+          bitField1_ |= 0x00000800;
          }
       }
 
@@ -22571,7 +24004,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbdjdlebOutput RepDataF10ZxjbdjdlebOutput = 59;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:138,
+       *In file:dzhyun.f10.proto, row:137,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunF10.F10ZxjbdjdlebOutput> getRepDataF10ZxjbdjdlebOutputList() {
@@ -22585,7 +24018,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbdjdlebOutput RepDataF10ZxjbdjdlebOutput = 59;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:138,
+       *In file:dzhyun.f10.proto, row:137,
        * </pre>
        */
       public int getRepDataF10ZxjbdjdlebOutputCount() {
@@ -22599,7 +24032,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbdjdlebOutput RepDataF10ZxjbdjdlebOutput = 59;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:138,
+       *In file:dzhyun.f10.proto, row:137,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10ZxjbdjdlebOutput getRepDataF10ZxjbdjdlebOutput(int index) {
@@ -22613,7 +24046,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbdjdlebOutput RepDataF10ZxjbdjdlebOutput = 59;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:138,
+       *In file:dzhyun.f10.proto, row:137,
        * </pre>
        */
       public Builder setRepDataF10ZxjbdjdlebOutput(
@@ -22634,7 +24067,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbdjdlebOutput RepDataF10ZxjbdjdlebOutput = 59;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:138,
+       *In file:dzhyun.f10.proto, row:137,
        * </pre>
        */
       public Builder setRepDataF10ZxjbdjdlebOutput(
@@ -22652,7 +24085,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbdjdlebOutput RepDataF10ZxjbdjdlebOutput = 59;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:138,
+       *In file:dzhyun.f10.proto, row:137,
        * </pre>
        */
       public Builder addRepDataF10ZxjbdjdlebOutput(com.dzhyun.proto.DzhyunF10.F10ZxjbdjdlebOutput value) {
@@ -22672,7 +24105,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbdjdlebOutput RepDataF10ZxjbdjdlebOutput = 59;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:138,
+       *In file:dzhyun.f10.proto, row:137,
        * </pre>
        */
       public Builder addRepDataF10ZxjbdjdlebOutput(
@@ -22693,7 +24126,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbdjdlebOutput RepDataF10ZxjbdjdlebOutput = 59;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:138,
+       *In file:dzhyun.f10.proto, row:137,
        * </pre>
        */
       public Builder addRepDataF10ZxjbdjdlebOutput(
@@ -22711,7 +24144,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbdjdlebOutput RepDataF10ZxjbdjdlebOutput = 59;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:138,
+       *In file:dzhyun.f10.proto, row:137,
        * </pre>
        */
       public Builder addRepDataF10ZxjbdjdlebOutput(
@@ -22729,7 +24162,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbdjdlebOutput RepDataF10ZxjbdjdlebOutput = 59;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:138,
+       *In file:dzhyun.f10.proto, row:137,
        * </pre>
        */
       public Builder addAllRepDataF10ZxjbdjdlebOutput(
@@ -22748,13 +24181,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbdjdlebOutput RepDataF10ZxjbdjdlebOutput = 59;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:138,
+       *In file:dzhyun.f10.proto, row:137,
        * </pre>
        */
       public Builder clearRepDataF10ZxjbdjdlebOutput() {
         if (repDataF10ZxjbdjdlebOutputBuilder_ == null) {
           repDataF10ZxjbdjdlebOutput_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00000400);
+          bitField1_ = (bitField1_ & ~0x00000800);
           onChanged();
         } else {
           repDataF10ZxjbdjdlebOutputBuilder_.clear();
@@ -22765,7 +24198,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbdjdlebOutput RepDataF10ZxjbdjdlebOutput = 59;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:138,
+       *In file:dzhyun.f10.proto, row:137,
        * </pre>
        */
       public Builder removeRepDataF10ZxjbdjdlebOutput(int index) {
@@ -22782,7 +24215,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbdjdlebOutput RepDataF10ZxjbdjdlebOutput = 59;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:138,
+       *In file:dzhyun.f10.proto, row:137,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10ZxjbdjdlebOutput.Builder getRepDataF10ZxjbdjdlebOutputBuilder(
@@ -22793,7 +24226,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbdjdlebOutput RepDataF10ZxjbdjdlebOutput = 59;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:138,
+       *In file:dzhyun.f10.proto, row:137,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10ZxjbdjdlebOutputOrBuilder getRepDataF10ZxjbdjdlebOutputOrBuilder(
@@ -22807,7 +24240,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbdjdlebOutput RepDataF10ZxjbdjdlebOutput = 59;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:138,
+       *In file:dzhyun.f10.proto, row:137,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10ZxjbdjdlebOutputOrBuilder> 
@@ -22822,7 +24255,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbdjdlebOutput RepDataF10ZxjbdjdlebOutput = 59;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:138,
+       *In file:dzhyun.f10.proto, row:137,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10ZxjbdjdlebOutput.Builder addRepDataF10ZxjbdjdlebOutputBuilder() {
@@ -22833,7 +24266,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbdjdlebOutput RepDataF10ZxjbdjdlebOutput = 59;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:138,
+       *In file:dzhyun.f10.proto, row:137,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10ZxjbdjdlebOutput.Builder addRepDataF10ZxjbdjdlebOutputBuilder(
@@ -22845,7 +24278,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10ZxjbdjdlebOutput RepDataF10ZxjbdjdlebOutput = 59;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:138,
+       *In file:dzhyun.f10.proto, row:137,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunF10.F10ZxjbdjdlebOutput.Builder> 
@@ -22859,7 +24292,7 @@ public final class AutoMsg {
           repDataF10ZxjbdjdlebOutputBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhyunF10.F10ZxjbdjdlebOutput, com.dzhyun.proto.DzhyunF10.F10ZxjbdjdlebOutput.Builder, com.dzhyun.proto.DzhyunF10.F10ZxjbdjdlebOutputOrBuilder>(
                   repDataF10ZxjbdjdlebOutput_,
-                  ((bitField1_ & 0x00000400) == 0x00000400),
+                  ((bitField1_ & 0x00000800) == 0x00000800),
                   getParentForChildren(),
                   isClean());
           repDataF10ZxjbdjdlebOutput_ = null;
@@ -22870,9 +24303,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhyunF10.F10GdjcGdhsOutput> repDataF10GdjcGdhsOutput_ =
         java.util.Collections.emptyList();
       private void ensureRepDataF10GdjcGdhsOutputIsMutable() {
-        if (!((bitField1_ & 0x00000800) == 0x00000800)) {
+        if (!((bitField1_ & 0x00001000) == 0x00001000)) {
           repDataF10GdjcGdhsOutput_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunF10.F10GdjcGdhsOutput>(repDataF10GdjcGdhsOutput_);
-          bitField1_ |= 0x00000800;
+          bitField1_ |= 0x00001000;
          }
       }
 
@@ -22883,7 +24316,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcGdhsOutput RepDataF10GdjcGdhsOutput = 60;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:156,
+       *In file:dzhyun.f10.proto, row:155,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunF10.F10GdjcGdhsOutput> getRepDataF10GdjcGdhsOutputList() {
@@ -22897,7 +24330,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcGdhsOutput RepDataF10GdjcGdhsOutput = 60;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:156,
+       *In file:dzhyun.f10.proto, row:155,
        * </pre>
        */
       public int getRepDataF10GdjcGdhsOutputCount() {
@@ -22911,7 +24344,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcGdhsOutput RepDataF10GdjcGdhsOutput = 60;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:156,
+       *In file:dzhyun.f10.proto, row:155,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GdjcGdhsOutput getRepDataF10GdjcGdhsOutput(int index) {
@@ -22925,7 +24358,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcGdhsOutput RepDataF10GdjcGdhsOutput = 60;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:156,
+       *In file:dzhyun.f10.proto, row:155,
        * </pre>
        */
       public Builder setRepDataF10GdjcGdhsOutput(
@@ -22946,7 +24379,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcGdhsOutput RepDataF10GdjcGdhsOutput = 60;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:156,
+       *In file:dzhyun.f10.proto, row:155,
        * </pre>
        */
       public Builder setRepDataF10GdjcGdhsOutput(
@@ -22964,7 +24397,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcGdhsOutput RepDataF10GdjcGdhsOutput = 60;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:156,
+       *In file:dzhyun.f10.proto, row:155,
        * </pre>
        */
       public Builder addRepDataF10GdjcGdhsOutput(com.dzhyun.proto.DzhyunF10.F10GdjcGdhsOutput value) {
@@ -22984,7 +24417,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcGdhsOutput RepDataF10GdjcGdhsOutput = 60;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:156,
+       *In file:dzhyun.f10.proto, row:155,
        * </pre>
        */
       public Builder addRepDataF10GdjcGdhsOutput(
@@ -23005,7 +24438,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcGdhsOutput RepDataF10GdjcGdhsOutput = 60;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:156,
+       *In file:dzhyun.f10.proto, row:155,
        * </pre>
        */
       public Builder addRepDataF10GdjcGdhsOutput(
@@ -23023,7 +24456,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcGdhsOutput RepDataF10GdjcGdhsOutput = 60;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:156,
+       *In file:dzhyun.f10.proto, row:155,
        * </pre>
        */
       public Builder addRepDataF10GdjcGdhsOutput(
@@ -23041,7 +24474,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcGdhsOutput RepDataF10GdjcGdhsOutput = 60;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:156,
+       *In file:dzhyun.f10.proto, row:155,
        * </pre>
        */
       public Builder addAllRepDataF10GdjcGdhsOutput(
@@ -23060,13 +24493,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcGdhsOutput RepDataF10GdjcGdhsOutput = 60;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:156,
+       *In file:dzhyun.f10.proto, row:155,
        * </pre>
        */
       public Builder clearRepDataF10GdjcGdhsOutput() {
         if (repDataF10GdjcGdhsOutputBuilder_ == null) {
           repDataF10GdjcGdhsOutput_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00000800);
+          bitField1_ = (bitField1_ & ~0x00001000);
           onChanged();
         } else {
           repDataF10GdjcGdhsOutputBuilder_.clear();
@@ -23077,7 +24510,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcGdhsOutput RepDataF10GdjcGdhsOutput = 60;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:156,
+       *In file:dzhyun.f10.proto, row:155,
        * </pre>
        */
       public Builder removeRepDataF10GdjcGdhsOutput(int index) {
@@ -23094,7 +24527,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcGdhsOutput RepDataF10GdjcGdhsOutput = 60;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:156,
+       *In file:dzhyun.f10.proto, row:155,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GdjcGdhsOutput.Builder getRepDataF10GdjcGdhsOutputBuilder(
@@ -23105,7 +24538,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcGdhsOutput RepDataF10GdjcGdhsOutput = 60;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:156,
+       *In file:dzhyun.f10.proto, row:155,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GdjcGdhsOutputOrBuilder getRepDataF10GdjcGdhsOutputOrBuilder(
@@ -23119,7 +24552,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcGdhsOutput RepDataF10GdjcGdhsOutput = 60;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:156,
+       *In file:dzhyun.f10.proto, row:155,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10GdjcGdhsOutputOrBuilder> 
@@ -23134,7 +24567,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcGdhsOutput RepDataF10GdjcGdhsOutput = 60;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:156,
+       *In file:dzhyun.f10.proto, row:155,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GdjcGdhsOutput.Builder addRepDataF10GdjcGdhsOutputBuilder() {
@@ -23145,7 +24578,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcGdhsOutput RepDataF10GdjcGdhsOutput = 60;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:156,
+       *In file:dzhyun.f10.proto, row:155,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GdjcGdhsOutput.Builder addRepDataF10GdjcGdhsOutputBuilder(
@@ -23157,7 +24590,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcGdhsOutput RepDataF10GdjcGdhsOutput = 60;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:156,
+       *In file:dzhyun.f10.proto, row:155,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunF10.F10GdjcGdhsOutput.Builder> 
@@ -23171,7 +24604,7 @@ public final class AutoMsg {
           repDataF10GdjcGdhsOutputBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhyunF10.F10GdjcGdhsOutput, com.dzhyun.proto.DzhyunF10.F10GdjcGdhsOutput.Builder, com.dzhyun.proto.DzhyunF10.F10GdjcGdhsOutputOrBuilder>(
                   repDataF10GdjcGdhsOutput_,
-                  ((bitField1_ & 0x00000800) == 0x00000800),
+                  ((bitField1_ & 0x00001000) == 0x00001000),
                   getParentForChildren(),
                   isClean());
           repDataF10GdjcGdhsOutput_ = null;
@@ -23182,9 +24615,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhyunF10.F10GdjcSdgdOutput> repDataF10GdjcSdgdOutput_ =
         java.util.Collections.emptyList();
       private void ensureRepDataF10GdjcSdgdOutputIsMutable() {
-        if (!((bitField1_ & 0x00001000) == 0x00001000)) {
+        if (!((bitField1_ & 0x00002000) == 0x00002000)) {
           repDataF10GdjcSdgdOutput_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunF10.F10GdjcSdgdOutput>(repDataF10GdjcSdgdOutput_);
-          bitField1_ |= 0x00001000;
+          bitField1_ |= 0x00002000;
          }
       }
 
@@ -23195,7 +24628,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdgdOutput RepDataF10GdjcSdgdOutput = 61;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:174,
+       *In file:dzhyun.f10.proto, row:173,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunF10.F10GdjcSdgdOutput> getRepDataF10GdjcSdgdOutputList() {
@@ -23209,7 +24642,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdgdOutput RepDataF10GdjcSdgdOutput = 61;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:174,
+       *In file:dzhyun.f10.proto, row:173,
        * </pre>
        */
       public int getRepDataF10GdjcSdgdOutputCount() {
@@ -23223,7 +24656,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdgdOutput RepDataF10GdjcSdgdOutput = 61;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:174,
+       *In file:dzhyun.f10.proto, row:173,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GdjcSdgdOutput getRepDataF10GdjcSdgdOutput(int index) {
@@ -23237,7 +24670,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdgdOutput RepDataF10GdjcSdgdOutput = 61;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:174,
+       *In file:dzhyun.f10.proto, row:173,
        * </pre>
        */
       public Builder setRepDataF10GdjcSdgdOutput(
@@ -23258,7 +24691,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdgdOutput RepDataF10GdjcSdgdOutput = 61;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:174,
+       *In file:dzhyun.f10.proto, row:173,
        * </pre>
        */
       public Builder setRepDataF10GdjcSdgdOutput(
@@ -23276,7 +24709,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdgdOutput RepDataF10GdjcSdgdOutput = 61;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:174,
+       *In file:dzhyun.f10.proto, row:173,
        * </pre>
        */
       public Builder addRepDataF10GdjcSdgdOutput(com.dzhyun.proto.DzhyunF10.F10GdjcSdgdOutput value) {
@@ -23296,7 +24729,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdgdOutput RepDataF10GdjcSdgdOutput = 61;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:174,
+       *In file:dzhyun.f10.proto, row:173,
        * </pre>
        */
       public Builder addRepDataF10GdjcSdgdOutput(
@@ -23317,7 +24750,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdgdOutput RepDataF10GdjcSdgdOutput = 61;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:174,
+       *In file:dzhyun.f10.proto, row:173,
        * </pre>
        */
       public Builder addRepDataF10GdjcSdgdOutput(
@@ -23335,7 +24768,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdgdOutput RepDataF10GdjcSdgdOutput = 61;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:174,
+       *In file:dzhyun.f10.proto, row:173,
        * </pre>
        */
       public Builder addRepDataF10GdjcSdgdOutput(
@@ -23353,7 +24786,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdgdOutput RepDataF10GdjcSdgdOutput = 61;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:174,
+       *In file:dzhyun.f10.proto, row:173,
        * </pre>
        */
       public Builder addAllRepDataF10GdjcSdgdOutput(
@@ -23372,13 +24805,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdgdOutput RepDataF10GdjcSdgdOutput = 61;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:174,
+       *In file:dzhyun.f10.proto, row:173,
        * </pre>
        */
       public Builder clearRepDataF10GdjcSdgdOutput() {
         if (repDataF10GdjcSdgdOutputBuilder_ == null) {
           repDataF10GdjcSdgdOutput_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00001000);
+          bitField1_ = (bitField1_ & ~0x00002000);
           onChanged();
         } else {
           repDataF10GdjcSdgdOutputBuilder_.clear();
@@ -23389,7 +24822,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdgdOutput RepDataF10GdjcSdgdOutput = 61;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:174,
+       *In file:dzhyun.f10.proto, row:173,
        * </pre>
        */
       public Builder removeRepDataF10GdjcSdgdOutput(int index) {
@@ -23406,7 +24839,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdgdOutput RepDataF10GdjcSdgdOutput = 61;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:174,
+       *In file:dzhyun.f10.proto, row:173,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GdjcSdgdOutput.Builder getRepDataF10GdjcSdgdOutputBuilder(
@@ -23417,7 +24850,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdgdOutput RepDataF10GdjcSdgdOutput = 61;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:174,
+       *In file:dzhyun.f10.proto, row:173,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GdjcSdgdOutputOrBuilder getRepDataF10GdjcSdgdOutputOrBuilder(
@@ -23431,7 +24864,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdgdOutput RepDataF10GdjcSdgdOutput = 61;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:174,
+       *In file:dzhyun.f10.proto, row:173,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10GdjcSdgdOutputOrBuilder> 
@@ -23446,7 +24879,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdgdOutput RepDataF10GdjcSdgdOutput = 61;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:174,
+       *In file:dzhyun.f10.proto, row:173,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GdjcSdgdOutput.Builder addRepDataF10GdjcSdgdOutputBuilder() {
@@ -23457,7 +24890,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdgdOutput RepDataF10GdjcSdgdOutput = 61;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:174,
+       *In file:dzhyun.f10.proto, row:173,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GdjcSdgdOutput.Builder addRepDataF10GdjcSdgdOutputBuilder(
@@ -23469,7 +24902,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdgdOutput RepDataF10GdjcSdgdOutput = 61;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:174,
+       *In file:dzhyun.f10.proto, row:173,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunF10.F10GdjcSdgdOutput.Builder> 
@@ -23483,7 +24916,7 @@ public final class AutoMsg {
           repDataF10GdjcSdgdOutputBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhyunF10.F10GdjcSdgdOutput, com.dzhyun.proto.DzhyunF10.F10GdjcSdgdOutput.Builder, com.dzhyun.proto.DzhyunF10.F10GdjcSdgdOutputOrBuilder>(
                   repDataF10GdjcSdgdOutput_,
-                  ((bitField1_ & 0x00001000) == 0x00001000),
+                  ((bitField1_ & 0x00002000) == 0x00002000),
                   getParentForChildren(),
                   isClean());
           repDataF10GdjcSdgdOutput_ = null;
@@ -23494,9 +24927,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhyunF10.F10GdjcSdltgdOutput> repDataF10GdjcSdltgdOutput_ =
         java.util.Collections.emptyList();
       private void ensureRepDataF10GdjcSdltgdOutputIsMutable() {
-        if (!((bitField1_ & 0x00002000) == 0x00002000)) {
+        if (!((bitField1_ & 0x00004000) == 0x00004000)) {
           repDataF10GdjcSdltgdOutput_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunF10.F10GdjcSdltgdOutput>(repDataF10GdjcSdltgdOutput_);
-          bitField1_ |= 0x00002000;
+          bitField1_ |= 0x00004000;
          }
       }
 
@@ -23507,7 +24940,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdltgdOutput RepDataF10GdjcSdltgdOutput = 62;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:192,
+       *In file:dzhyun.f10.proto, row:191,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunF10.F10GdjcSdltgdOutput> getRepDataF10GdjcSdltgdOutputList() {
@@ -23521,7 +24954,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdltgdOutput RepDataF10GdjcSdltgdOutput = 62;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:192,
+       *In file:dzhyun.f10.proto, row:191,
        * </pre>
        */
       public int getRepDataF10GdjcSdltgdOutputCount() {
@@ -23535,7 +24968,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdltgdOutput RepDataF10GdjcSdltgdOutput = 62;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:192,
+       *In file:dzhyun.f10.proto, row:191,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GdjcSdltgdOutput getRepDataF10GdjcSdltgdOutput(int index) {
@@ -23549,7 +24982,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdltgdOutput RepDataF10GdjcSdltgdOutput = 62;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:192,
+       *In file:dzhyun.f10.proto, row:191,
        * </pre>
        */
       public Builder setRepDataF10GdjcSdltgdOutput(
@@ -23570,7 +25003,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdltgdOutput RepDataF10GdjcSdltgdOutput = 62;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:192,
+       *In file:dzhyun.f10.proto, row:191,
        * </pre>
        */
       public Builder setRepDataF10GdjcSdltgdOutput(
@@ -23588,7 +25021,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdltgdOutput RepDataF10GdjcSdltgdOutput = 62;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:192,
+       *In file:dzhyun.f10.proto, row:191,
        * </pre>
        */
       public Builder addRepDataF10GdjcSdltgdOutput(com.dzhyun.proto.DzhyunF10.F10GdjcSdltgdOutput value) {
@@ -23608,7 +25041,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdltgdOutput RepDataF10GdjcSdltgdOutput = 62;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:192,
+       *In file:dzhyun.f10.proto, row:191,
        * </pre>
        */
       public Builder addRepDataF10GdjcSdltgdOutput(
@@ -23629,7 +25062,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdltgdOutput RepDataF10GdjcSdltgdOutput = 62;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:192,
+       *In file:dzhyun.f10.proto, row:191,
        * </pre>
        */
       public Builder addRepDataF10GdjcSdltgdOutput(
@@ -23647,7 +25080,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdltgdOutput RepDataF10GdjcSdltgdOutput = 62;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:192,
+       *In file:dzhyun.f10.proto, row:191,
        * </pre>
        */
       public Builder addRepDataF10GdjcSdltgdOutput(
@@ -23665,7 +25098,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdltgdOutput RepDataF10GdjcSdltgdOutput = 62;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:192,
+       *In file:dzhyun.f10.proto, row:191,
        * </pre>
        */
       public Builder addAllRepDataF10GdjcSdltgdOutput(
@@ -23684,13 +25117,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdltgdOutput RepDataF10GdjcSdltgdOutput = 62;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:192,
+       *In file:dzhyun.f10.proto, row:191,
        * </pre>
        */
       public Builder clearRepDataF10GdjcSdltgdOutput() {
         if (repDataF10GdjcSdltgdOutputBuilder_ == null) {
           repDataF10GdjcSdltgdOutput_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00002000);
+          bitField1_ = (bitField1_ & ~0x00004000);
           onChanged();
         } else {
           repDataF10GdjcSdltgdOutputBuilder_.clear();
@@ -23701,7 +25134,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdltgdOutput RepDataF10GdjcSdltgdOutput = 62;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:192,
+       *In file:dzhyun.f10.proto, row:191,
        * </pre>
        */
       public Builder removeRepDataF10GdjcSdltgdOutput(int index) {
@@ -23718,7 +25151,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdltgdOutput RepDataF10GdjcSdltgdOutput = 62;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:192,
+       *In file:dzhyun.f10.proto, row:191,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GdjcSdltgdOutput.Builder getRepDataF10GdjcSdltgdOutputBuilder(
@@ -23729,7 +25162,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdltgdOutput RepDataF10GdjcSdltgdOutput = 62;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:192,
+       *In file:dzhyun.f10.proto, row:191,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GdjcSdltgdOutputOrBuilder getRepDataF10GdjcSdltgdOutputOrBuilder(
@@ -23743,7 +25176,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdltgdOutput RepDataF10GdjcSdltgdOutput = 62;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:192,
+       *In file:dzhyun.f10.proto, row:191,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10GdjcSdltgdOutputOrBuilder> 
@@ -23758,7 +25191,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdltgdOutput RepDataF10GdjcSdltgdOutput = 62;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:192,
+       *In file:dzhyun.f10.proto, row:191,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GdjcSdltgdOutput.Builder addRepDataF10GdjcSdltgdOutputBuilder() {
@@ -23769,7 +25202,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdltgdOutput RepDataF10GdjcSdltgdOutput = 62;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:192,
+       *In file:dzhyun.f10.proto, row:191,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GdjcSdltgdOutput.Builder addRepDataF10GdjcSdltgdOutputBuilder(
@@ -23781,7 +25214,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GdjcSdltgdOutput RepDataF10GdjcSdltgdOutput = 62;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:192,
+       *In file:dzhyun.f10.proto, row:191,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunF10.F10GdjcSdltgdOutput.Builder> 
@@ -23795,7 +25228,7 @@ public final class AutoMsg {
           repDataF10GdjcSdltgdOutputBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhyunF10.F10GdjcSdltgdOutput, com.dzhyun.proto.DzhyunF10.F10GdjcSdltgdOutput.Builder, com.dzhyun.proto.DzhyunF10.F10GdjcSdltgdOutputOrBuilder>(
                   repDataF10GdjcSdltgdOutput_,
-                  ((bitField1_ & 0x00002000) == 0x00002000),
+                  ((bitField1_ & 0x00004000) == 0x00004000),
                   getParentForChildren(),
                   isClean());
           repDataF10GdjcSdltgdOutput_ = null;
@@ -23806,9 +25239,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhyunF10.F10GbfhFhkgOutput> repDataF10GbfhFhkgOutput_ =
         java.util.Collections.emptyList();
       private void ensureRepDataF10GbfhFhkgOutputIsMutable() {
-        if (!((bitField1_ & 0x00004000) == 0x00004000)) {
+        if (!((bitField1_ & 0x00008000) == 0x00008000)) {
           repDataF10GbfhFhkgOutput_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunF10.F10GbfhFhkgOutput>(repDataF10GbfhFhkgOutput_);
-          bitField1_ |= 0x00004000;
+          bitField1_ |= 0x00008000;
          }
       }
 
@@ -23819,7 +25252,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhFhkgOutput RepDataF10GbfhFhkgOutput = 63;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:214,
+       *In file:dzhyun.f10.proto, row:213,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunF10.F10GbfhFhkgOutput> getRepDataF10GbfhFhkgOutputList() {
@@ -23833,7 +25266,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhFhkgOutput RepDataF10GbfhFhkgOutput = 63;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:214,
+       *In file:dzhyun.f10.proto, row:213,
        * </pre>
        */
       public int getRepDataF10GbfhFhkgOutputCount() {
@@ -23847,7 +25280,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhFhkgOutput RepDataF10GbfhFhkgOutput = 63;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:214,
+       *In file:dzhyun.f10.proto, row:213,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GbfhFhkgOutput getRepDataF10GbfhFhkgOutput(int index) {
@@ -23861,7 +25294,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhFhkgOutput RepDataF10GbfhFhkgOutput = 63;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:214,
+       *In file:dzhyun.f10.proto, row:213,
        * </pre>
        */
       public Builder setRepDataF10GbfhFhkgOutput(
@@ -23882,7 +25315,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhFhkgOutput RepDataF10GbfhFhkgOutput = 63;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:214,
+       *In file:dzhyun.f10.proto, row:213,
        * </pre>
        */
       public Builder setRepDataF10GbfhFhkgOutput(
@@ -23900,7 +25333,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhFhkgOutput RepDataF10GbfhFhkgOutput = 63;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:214,
+       *In file:dzhyun.f10.proto, row:213,
        * </pre>
        */
       public Builder addRepDataF10GbfhFhkgOutput(com.dzhyun.proto.DzhyunF10.F10GbfhFhkgOutput value) {
@@ -23920,7 +25353,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhFhkgOutput RepDataF10GbfhFhkgOutput = 63;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:214,
+       *In file:dzhyun.f10.proto, row:213,
        * </pre>
        */
       public Builder addRepDataF10GbfhFhkgOutput(
@@ -23941,7 +25374,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhFhkgOutput RepDataF10GbfhFhkgOutput = 63;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:214,
+       *In file:dzhyun.f10.proto, row:213,
        * </pre>
        */
       public Builder addRepDataF10GbfhFhkgOutput(
@@ -23959,7 +25392,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhFhkgOutput RepDataF10GbfhFhkgOutput = 63;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:214,
+       *In file:dzhyun.f10.proto, row:213,
        * </pre>
        */
       public Builder addRepDataF10GbfhFhkgOutput(
@@ -23977,7 +25410,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhFhkgOutput RepDataF10GbfhFhkgOutput = 63;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:214,
+       *In file:dzhyun.f10.proto, row:213,
        * </pre>
        */
       public Builder addAllRepDataF10GbfhFhkgOutput(
@@ -23996,13 +25429,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhFhkgOutput RepDataF10GbfhFhkgOutput = 63;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:214,
+       *In file:dzhyun.f10.proto, row:213,
        * </pre>
        */
       public Builder clearRepDataF10GbfhFhkgOutput() {
         if (repDataF10GbfhFhkgOutputBuilder_ == null) {
           repDataF10GbfhFhkgOutput_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00004000);
+          bitField1_ = (bitField1_ & ~0x00008000);
           onChanged();
         } else {
           repDataF10GbfhFhkgOutputBuilder_.clear();
@@ -24013,7 +25446,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhFhkgOutput RepDataF10GbfhFhkgOutput = 63;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:214,
+       *In file:dzhyun.f10.proto, row:213,
        * </pre>
        */
       public Builder removeRepDataF10GbfhFhkgOutput(int index) {
@@ -24030,7 +25463,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhFhkgOutput RepDataF10GbfhFhkgOutput = 63;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:214,
+       *In file:dzhyun.f10.proto, row:213,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GbfhFhkgOutput.Builder getRepDataF10GbfhFhkgOutputBuilder(
@@ -24041,7 +25474,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhFhkgOutput RepDataF10GbfhFhkgOutput = 63;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:214,
+       *In file:dzhyun.f10.proto, row:213,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GbfhFhkgOutputOrBuilder getRepDataF10GbfhFhkgOutputOrBuilder(
@@ -24055,7 +25488,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhFhkgOutput RepDataF10GbfhFhkgOutput = 63;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:214,
+       *In file:dzhyun.f10.proto, row:213,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10GbfhFhkgOutputOrBuilder> 
@@ -24070,7 +25503,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhFhkgOutput RepDataF10GbfhFhkgOutput = 63;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:214,
+       *In file:dzhyun.f10.proto, row:213,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GbfhFhkgOutput.Builder addRepDataF10GbfhFhkgOutputBuilder() {
@@ -24081,7 +25514,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhFhkgOutput RepDataF10GbfhFhkgOutput = 63;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:214,
+       *In file:dzhyun.f10.proto, row:213,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GbfhFhkgOutput.Builder addRepDataF10GbfhFhkgOutputBuilder(
@@ -24093,7 +25526,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhFhkgOutput RepDataF10GbfhFhkgOutput = 63;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:214,
+       *In file:dzhyun.f10.proto, row:213,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunF10.F10GbfhFhkgOutput.Builder> 
@@ -24107,7 +25540,7 @@ public final class AutoMsg {
           repDataF10GbfhFhkgOutputBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhyunF10.F10GbfhFhkgOutput, com.dzhyun.proto.DzhyunF10.F10GbfhFhkgOutput.Builder, com.dzhyun.proto.DzhyunF10.F10GbfhFhkgOutputOrBuilder>(
                   repDataF10GbfhFhkgOutput_,
-                  ((bitField1_ & 0x00004000) == 0x00004000),
+                  ((bitField1_ & 0x00008000) == 0x00008000),
                   getParentForChildren(),
                   isClean());
           repDataF10GbfhFhkgOutput_ = null;
@@ -24118,9 +25551,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhyunF10.F10GbfhGbjgOutput> repDataF10GbfhGbjgOutput_ =
         java.util.Collections.emptyList();
       private void ensureRepDataF10GbfhGbjgOutputIsMutable() {
-        if (!((bitField1_ & 0x00008000) == 0x00008000)) {
+        if (!((bitField1_ & 0x00010000) == 0x00010000)) {
           repDataF10GbfhGbjgOutput_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunF10.F10GbfhGbjgOutput>(repDataF10GbfhGbjgOutput_);
-          bitField1_ |= 0x00008000;
+          bitField1_ |= 0x00010000;
          }
       }
 
@@ -24131,7 +25564,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhGbjgOutput RepDataF10GbfhGbjgOutput = 64;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:251,
+       *In file:dzhyun.f10.proto, row:250,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunF10.F10GbfhGbjgOutput> getRepDataF10GbfhGbjgOutputList() {
@@ -24145,7 +25578,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhGbjgOutput RepDataF10GbfhGbjgOutput = 64;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:251,
+       *In file:dzhyun.f10.proto, row:250,
        * </pre>
        */
       public int getRepDataF10GbfhGbjgOutputCount() {
@@ -24159,7 +25592,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhGbjgOutput RepDataF10GbfhGbjgOutput = 64;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:251,
+       *In file:dzhyun.f10.proto, row:250,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GbfhGbjgOutput getRepDataF10GbfhGbjgOutput(int index) {
@@ -24173,7 +25606,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhGbjgOutput RepDataF10GbfhGbjgOutput = 64;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:251,
+       *In file:dzhyun.f10.proto, row:250,
        * </pre>
        */
       public Builder setRepDataF10GbfhGbjgOutput(
@@ -24194,7 +25627,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhGbjgOutput RepDataF10GbfhGbjgOutput = 64;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:251,
+       *In file:dzhyun.f10.proto, row:250,
        * </pre>
        */
       public Builder setRepDataF10GbfhGbjgOutput(
@@ -24212,7 +25645,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhGbjgOutput RepDataF10GbfhGbjgOutput = 64;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:251,
+       *In file:dzhyun.f10.proto, row:250,
        * </pre>
        */
       public Builder addRepDataF10GbfhGbjgOutput(com.dzhyun.proto.DzhyunF10.F10GbfhGbjgOutput value) {
@@ -24232,7 +25665,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhGbjgOutput RepDataF10GbfhGbjgOutput = 64;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:251,
+       *In file:dzhyun.f10.proto, row:250,
        * </pre>
        */
       public Builder addRepDataF10GbfhGbjgOutput(
@@ -24253,7 +25686,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhGbjgOutput RepDataF10GbfhGbjgOutput = 64;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:251,
+       *In file:dzhyun.f10.proto, row:250,
        * </pre>
        */
       public Builder addRepDataF10GbfhGbjgOutput(
@@ -24271,7 +25704,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhGbjgOutput RepDataF10GbfhGbjgOutput = 64;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:251,
+       *In file:dzhyun.f10.proto, row:250,
        * </pre>
        */
       public Builder addRepDataF10GbfhGbjgOutput(
@@ -24289,7 +25722,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhGbjgOutput RepDataF10GbfhGbjgOutput = 64;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:251,
+       *In file:dzhyun.f10.proto, row:250,
        * </pre>
        */
       public Builder addAllRepDataF10GbfhGbjgOutput(
@@ -24308,13 +25741,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhGbjgOutput RepDataF10GbfhGbjgOutput = 64;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:251,
+       *In file:dzhyun.f10.proto, row:250,
        * </pre>
        */
       public Builder clearRepDataF10GbfhGbjgOutput() {
         if (repDataF10GbfhGbjgOutputBuilder_ == null) {
           repDataF10GbfhGbjgOutput_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00008000);
+          bitField1_ = (bitField1_ & ~0x00010000);
           onChanged();
         } else {
           repDataF10GbfhGbjgOutputBuilder_.clear();
@@ -24325,7 +25758,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhGbjgOutput RepDataF10GbfhGbjgOutput = 64;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:251,
+       *In file:dzhyun.f10.proto, row:250,
        * </pre>
        */
       public Builder removeRepDataF10GbfhGbjgOutput(int index) {
@@ -24342,7 +25775,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhGbjgOutput RepDataF10GbfhGbjgOutput = 64;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:251,
+       *In file:dzhyun.f10.proto, row:250,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GbfhGbjgOutput.Builder getRepDataF10GbfhGbjgOutputBuilder(
@@ -24353,7 +25786,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhGbjgOutput RepDataF10GbfhGbjgOutput = 64;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:251,
+       *In file:dzhyun.f10.proto, row:250,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GbfhGbjgOutputOrBuilder getRepDataF10GbfhGbjgOutputOrBuilder(
@@ -24367,7 +25800,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhGbjgOutput RepDataF10GbfhGbjgOutput = 64;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:251,
+       *In file:dzhyun.f10.proto, row:250,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhyunF10.F10GbfhGbjgOutputOrBuilder> 
@@ -24382,7 +25815,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhGbjgOutput RepDataF10GbfhGbjgOutput = 64;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:251,
+       *In file:dzhyun.f10.proto, row:250,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GbfhGbjgOutput.Builder addRepDataF10GbfhGbjgOutputBuilder() {
@@ -24393,7 +25826,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhGbjgOutput RepDataF10GbfhGbjgOutput = 64;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:251,
+       *In file:dzhyun.f10.proto, row:250,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunF10.F10GbfhGbjgOutput.Builder addRepDataF10GbfhGbjgOutputBuilder(
@@ -24405,7 +25838,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.F10GbfhGbjgOutput RepDataF10GbfhGbjgOutput = 64;</code>
        *
        * <pre>
-       *In file:dzhyun.f10.proto, row:251,
+       *In file:dzhyun.f10.proto, row:250,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunF10.F10GbfhGbjgOutput.Builder> 
@@ -24419,7 +25852,7 @@ public final class AutoMsg {
           repDataF10GbfhGbjgOutputBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhyunF10.F10GbfhGbjgOutput, com.dzhyun.proto.DzhyunF10.F10GbfhGbjgOutput.Builder, com.dzhyun.proto.DzhyunF10.F10GbfhGbjgOutputOrBuilder>(
                   repDataF10GbfhGbjgOutput_,
-                  ((bitField1_ & 0x00008000) == 0x00008000),
+                  ((bitField1_ & 0x00010000) == 0x00010000),
                   getParentForChildren(),
                   isClean());
           repDataF10GbfhGbjgOutput_ = null;
@@ -24430,9 +25863,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiOutput> repDataXinWenXinXiOutput_ =
         java.util.Collections.emptyList();
       private void ensureRepDataXinWenXinXiOutputIsMutable() {
-        if (!((bitField1_ & 0x00010000) == 0x00010000)) {
+        if (!((bitField1_ & 0x00020000) == 0x00020000)) {
           repDataXinWenXinXiOutput_ = new java.util.ArrayList<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiOutput>(repDataXinWenXinXiOutput_);
-          bitField1_ |= 0x00010000;
+          bitField1_ |= 0x00020000;
          }
       }
 
@@ -24443,7 +25876,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiOutput RepDataXinWenXinXiOutput = 65;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:13,
+       *In file:dzhNewsInfo.proto, row:12,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiOutput> getRepDataXinWenXinXiOutputList() {
@@ -24457,7 +25890,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiOutput RepDataXinWenXinXiOutput = 65;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:13,
+       *In file:dzhNewsInfo.proto, row:12,
        * </pre>
        */
       public int getRepDataXinWenXinXiOutputCount() {
@@ -24471,7 +25904,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiOutput RepDataXinWenXinXiOutput = 65;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:13,
+       *In file:dzhNewsInfo.proto, row:12,
        * </pre>
        */
       public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiOutput getRepDataXinWenXinXiOutput(int index) {
@@ -24485,7 +25918,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiOutput RepDataXinWenXinXiOutput = 65;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:13,
+       *In file:dzhNewsInfo.proto, row:12,
        * </pre>
        */
       public Builder setRepDataXinWenXinXiOutput(
@@ -24506,7 +25939,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiOutput RepDataXinWenXinXiOutput = 65;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:13,
+       *In file:dzhNewsInfo.proto, row:12,
        * </pre>
        */
       public Builder setRepDataXinWenXinXiOutput(
@@ -24524,7 +25957,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiOutput RepDataXinWenXinXiOutput = 65;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:13,
+       *In file:dzhNewsInfo.proto, row:12,
        * </pre>
        */
       public Builder addRepDataXinWenXinXiOutput(com.dzhyun.proto.DzhNewsInfo.XinWenXinXiOutput value) {
@@ -24544,7 +25977,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiOutput RepDataXinWenXinXiOutput = 65;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:13,
+       *In file:dzhNewsInfo.proto, row:12,
        * </pre>
        */
       public Builder addRepDataXinWenXinXiOutput(
@@ -24565,7 +25998,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiOutput RepDataXinWenXinXiOutput = 65;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:13,
+       *In file:dzhNewsInfo.proto, row:12,
        * </pre>
        */
       public Builder addRepDataXinWenXinXiOutput(
@@ -24583,7 +26016,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiOutput RepDataXinWenXinXiOutput = 65;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:13,
+       *In file:dzhNewsInfo.proto, row:12,
        * </pre>
        */
       public Builder addRepDataXinWenXinXiOutput(
@@ -24601,7 +26034,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiOutput RepDataXinWenXinXiOutput = 65;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:13,
+       *In file:dzhNewsInfo.proto, row:12,
        * </pre>
        */
       public Builder addAllRepDataXinWenXinXiOutput(
@@ -24620,13 +26053,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiOutput RepDataXinWenXinXiOutput = 65;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:13,
+       *In file:dzhNewsInfo.proto, row:12,
        * </pre>
        */
       public Builder clearRepDataXinWenXinXiOutput() {
         if (repDataXinWenXinXiOutputBuilder_ == null) {
           repDataXinWenXinXiOutput_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00010000);
+          bitField1_ = (bitField1_ & ~0x00020000);
           onChanged();
         } else {
           repDataXinWenXinXiOutputBuilder_.clear();
@@ -24637,7 +26070,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiOutput RepDataXinWenXinXiOutput = 65;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:13,
+       *In file:dzhNewsInfo.proto, row:12,
        * </pre>
        */
       public Builder removeRepDataXinWenXinXiOutput(int index) {
@@ -24654,7 +26087,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiOutput RepDataXinWenXinXiOutput = 65;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:13,
+       *In file:dzhNewsInfo.proto, row:12,
        * </pre>
        */
       public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiOutput.Builder getRepDataXinWenXinXiOutputBuilder(
@@ -24665,7 +26098,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiOutput RepDataXinWenXinXiOutput = 65;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:13,
+       *In file:dzhNewsInfo.proto, row:12,
        * </pre>
        */
       public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiOutputOrBuilder getRepDataXinWenXinXiOutputOrBuilder(
@@ -24679,7 +26112,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiOutput RepDataXinWenXinXiOutput = 65;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:13,
+       *In file:dzhNewsInfo.proto, row:12,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhNewsInfo.XinWenXinXiOutputOrBuilder> 
@@ -24694,7 +26127,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiOutput RepDataXinWenXinXiOutput = 65;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:13,
+       *In file:dzhNewsInfo.proto, row:12,
        * </pre>
        */
       public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiOutput.Builder addRepDataXinWenXinXiOutputBuilder() {
@@ -24705,7 +26138,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiOutput RepDataXinWenXinXiOutput = 65;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:13,
+       *In file:dzhNewsInfo.proto, row:12,
        * </pre>
        */
       public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiOutput.Builder addRepDataXinWenXinXiOutputBuilder(
@@ -24717,7 +26150,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiOutput RepDataXinWenXinXiOutput = 65;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:13,
+       *In file:dzhNewsInfo.proto, row:12,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiOutput.Builder> 
@@ -24731,7 +26164,7 @@ public final class AutoMsg {
           repDataXinWenXinXiOutputBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhNewsInfo.XinWenXinXiOutput, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiOutput.Builder, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiOutputOrBuilder>(
                   repDataXinWenXinXiOutput_,
-                  ((bitField1_ & 0x00010000) == 0x00010000),
+                  ((bitField1_ & 0x00020000) == 0x00020000),
                   getParentForChildren(),
                   isClean());
           repDataXinWenXinXiOutput_ = null;
@@ -24742,9 +26175,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput> repDataXinWenXinXiZhongXinOutput_ =
         java.util.Collections.emptyList();
       private void ensureRepDataXinWenXinXiZhongXinOutputIsMutable() {
-        if (!((bitField1_ & 0x00020000) == 0x00020000)) {
+        if (!((bitField1_ & 0x00040000) == 0x00040000)) {
           repDataXinWenXinXiZhongXinOutput_ = new java.util.ArrayList<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput>(repDataXinWenXinXiZhongXinOutput_);
-          bitField1_ |= 0x00020000;
+          bitField1_ |= 0x00040000;
          }
       }
 
@@ -24755,7 +26188,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiZhongXinOutput RepDataXinWenXinXiZhongXinOutput = 66;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:22,
+       *In file:dzhNewsInfo.proto, row:21,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput> getRepDataXinWenXinXiZhongXinOutputList() {
@@ -24769,7 +26202,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiZhongXinOutput RepDataXinWenXinXiZhongXinOutput = 66;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:22,
+       *In file:dzhNewsInfo.proto, row:21,
        * </pre>
        */
       public int getRepDataXinWenXinXiZhongXinOutputCount() {
@@ -24783,7 +26216,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiZhongXinOutput RepDataXinWenXinXiZhongXinOutput = 66;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:22,
+       *In file:dzhNewsInfo.proto, row:21,
        * </pre>
        */
       public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput getRepDataXinWenXinXiZhongXinOutput(int index) {
@@ -24797,7 +26230,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiZhongXinOutput RepDataXinWenXinXiZhongXinOutput = 66;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:22,
+       *In file:dzhNewsInfo.proto, row:21,
        * </pre>
        */
       public Builder setRepDataXinWenXinXiZhongXinOutput(
@@ -24818,7 +26251,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiZhongXinOutput RepDataXinWenXinXiZhongXinOutput = 66;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:22,
+       *In file:dzhNewsInfo.proto, row:21,
        * </pre>
        */
       public Builder setRepDataXinWenXinXiZhongXinOutput(
@@ -24836,7 +26269,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiZhongXinOutput RepDataXinWenXinXiZhongXinOutput = 66;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:22,
+       *In file:dzhNewsInfo.proto, row:21,
        * </pre>
        */
       public Builder addRepDataXinWenXinXiZhongXinOutput(com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput value) {
@@ -24856,7 +26289,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiZhongXinOutput RepDataXinWenXinXiZhongXinOutput = 66;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:22,
+       *In file:dzhNewsInfo.proto, row:21,
        * </pre>
        */
       public Builder addRepDataXinWenXinXiZhongXinOutput(
@@ -24877,7 +26310,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiZhongXinOutput RepDataXinWenXinXiZhongXinOutput = 66;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:22,
+       *In file:dzhNewsInfo.proto, row:21,
        * </pre>
        */
       public Builder addRepDataXinWenXinXiZhongXinOutput(
@@ -24895,7 +26328,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiZhongXinOutput RepDataXinWenXinXiZhongXinOutput = 66;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:22,
+       *In file:dzhNewsInfo.proto, row:21,
        * </pre>
        */
       public Builder addRepDataXinWenXinXiZhongXinOutput(
@@ -24913,7 +26346,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiZhongXinOutput RepDataXinWenXinXiZhongXinOutput = 66;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:22,
+       *In file:dzhNewsInfo.proto, row:21,
        * </pre>
        */
       public Builder addAllRepDataXinWenXinXiZhongXinOutput(
@@ -24932,13 +26365,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiZhongXinOutput RepDataXinWenXinXiZhongXinOutput = 66;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:22,
+       *In file:dzhNewsInfo.proto, row:21,
        * </pre>
        */
       public Builder clearRepDataXinWenXinXiZhongXinOutput() {
         if (repDataXinWenXinXiZhongXinOutputBuilder_ == null) {
           repDataXinWenXinXiZhongXinOutput_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00020000);
+          bitField1_ = (bitField1_ & ~0x00040000);
           onChanged();
         } else {
           repDataXinWenXinXiZhongXinOutputBuilder_.clear();
@@ -24949,7 +26382,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiZhongXinOutput RepDataXinWenXinXiZhongXinOutput = 66;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:22,
+       *In file:dzhNewsInfo.proto, row:21,
        * </pre>
        */
       public Builder removeRepDataXinWenXinXiZhongXinOutput(int index) {
@@ -24966,7 +26399,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiZhongXinOutput RepDataXinWenXinXiZhongXinOutput = 66;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:22,
+       *In file:dzhNewsInfo.proto, row:21,
        * </pre>
        */
       public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput.Builder getRepDataXinWenXinXiZhongXinOutputBuilder(
@@ -24977,7 +26410,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiZhongXinOutput RepDataXinWenXinXiZhongXinOutput = 66;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:22,
+       *In file:dzhNewsInfo.proto, row:21,
        * </pre>
        */
       public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutputOrBuilder getRepDataXinWenXinXiZhongXinOutputOrBuilder(
@@ -24991,7 +26424,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiZhongXinOutput RepDataXinWenXinXiZhongXinOutput = 66;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:22,
+       *In file:dzhNewsInfo.proto, row:21,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutputOrBuilder> 
@@ -25006,7 +26439,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiZhongXinOutput RepDataXinWenXinXiZhongXinOutput = 66;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:22,
+       *In file:dzhNewsInfo.proto, row:21,
        * </pre>
        */
       public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput.Builder addRepDataXinWenXinXiZhongXinOutputBuilder() {
@@ -25017,7 +26450,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiZhongXinOutput RepDataXinWenXinXiZhongXinOutput = 66;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:22,
+       *In file:dzhNewsInfo.proto, row:21,
        * </pre>
        */
       public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput.Builder addRepDataXinWenXinXiZhongXinOutputBuilder(
@@ -25029,7 +26462,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.XinWenXinXiZhongXinOutput RepDataXinWenXinXiZhongXinOutput = 66;</code>
        *
        * <pre>
-       *In file:dzhNewsInfo.proto, row:22,
+       *In file:dzhNewsInfo.proto, row:21,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput.Builder> 
@@ -25043,7 +26476,7 @@ public final class AutoMsg {
           repDataXinWenXinXiZhongXinOutputBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput.Builder, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutputOrBuilder>(
                   repDataXinWenXinXiZhongXinOutput_,
-                  ((bitField1_ & 0x00020000) == 0x00020000),
+                  ((bitField1_ & 0x00040000) == 0x00040000),
                   getParentForChildren(),
                   isClean());
           repDataXinWenXinXiZhongXinOutput_ = null;
@@ -25054,9 +26487,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.DzhyunTopicinvest.TopicInvestInfo> repDataTopicInvestInfo_ =
         java.util.Collections.emptyList();
       private void ensureRepDataTopicInvestInfoIsMutable() {
-        if (!((bitField1_ & 0x00040000) == 0x00040000)) {
+        if (!((bitField1_ & 0x00080000) == 0x00080000)) {
           repDataTopicInvestInfo_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunTopicinvest.TopicInvestInfo>(repDataTopicInvestInfo_);
-          bitField1_ |= 0x00040000;
+          bitField1_ |= 0x00080000;
          }
       }
 
@@ -25067,7 +26500,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestInfo RepDataTopicInvestInfo = 67;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:50,
+       *In file:dzhyun.topicinvest.proto, row:53,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunTopicinvest.TopicInvestInfo> getRepDataTopicInvestInfoList() {
@@ -25081,7 +26514,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestInfo RepDataTopicInvestInfo = 67;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:50,
+       *In file:dzhyun.topicinvest.proto, row:53,
        * </pre>
        */
       public int getRepDataTopicInvestInfoCount() {
@@ -25095,7 +26528,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestInfo RepDataTopicInvestInfo = 67;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:50,
+       *In file:dzhyun.topicinvest.proto, row:53,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunTopicinvest.TopicInvestInfo getRepDataTopicInvestInfo(int index) {
@@ -25109,7 +26542,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestInfo RepDataTopicInvestInfo = 67;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:50,
+       *In file:dzhyun.topicinvest.proto, row:53,
        * </pre>
        */
       public Builder setRepDataTopicInvestInfo(
@@ -25130,7 +26563,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestInfo RepDataTopicInvestInfo = 67;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:50,
+       *In file:dzhyun.topicinvest.proto, row:53,
        * </pre>
        */
       public Builder setRepDataTopicInvestInfo(
@@ -25148,7 +26581,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestInfo RepDataTopicInvestInfo = 67;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:50,
+       *In file:dzhyun.topicinvest.proto, row:53,
        * </pre>
        */
       public Builder addRepDataTopicInvestInfo(com.dzhyun.proto.DzhyunTopicinvest.TopicInvestInfo value) {
@@ -25168,7 +26601,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestInfo RepDataTopicInvestInfo = 67;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:50,
+       *In file:dzhyun.topicinvest.proto, row:53,
        * </pre>
        */
       public Builder addRepDataTopicInvestInfo(
@@ -25189,7 +26622,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestInfo RepDataTopicInvestInfo = 67;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:50,
+       *In file:dzhyun.topicinvest.proto, row:53,
        * </pre>
        */
       public Builder addRepDataTopicInvestInfo(
@@ -25207,7 +26640,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestInfo RepDataTopicInvestInfo = 67;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:50,
+       *In file:dzhyun.topicinvest.proto, row:53,
        * </pre>
        */
       public Builder addRepDataTopicInvestInfo(
@@ -25225,7 +26658,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestInfo RepDataTopicInvestInfo = 67;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:50,
+       *In file:dzhyun.topicinvest.proto, row:53,
        * </pre>
        */
       public Builder addAllRepDataTopicInvestInfo(
@@ -25244,13 +26677,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestInfo RepDataTopicInvestInfo = 67;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:50,
+       *In file:dzhyun.topicinvest.proto, row:53,
        * </pre>
        */
       public Builder clearRepDataTopicInvestInfo() {
         if (repDataTopicInvestInfoBuilder_ == null) {
           repDataTopicInvestInfo_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00040000);
+          bitField1_ = (bitField1_ & ~0x00080000);
           onChanged();
         } else {
           repDataTopicInvestInfoBuilder_.clear();
@@ -25261,7 +26694,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestInfo RepDataTopicInvestInfo = 67;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:50,
+       *In file:dzhyun.topicinvest.proto, row:53,
        * </pre>
        */
       public Builder removeRepDataTopicInvestInfo(int index) {
@@ -25278,7 +26711,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestInfo RepDataTopicInvestInfo = 67;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:50,
+       *In file:dzhyun.topicinvest.proto, row:53,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunTopicinvest.TopicInvestInfo.Builder getRepDataTopicInvestInfoBuilder(
@@ -25289,7 +26722,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestInfo RepDataTopicInvestInfo = 67;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:50,
+       *In file:dzhyun.topicinvest.proto, row:53,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunTopicinvest.TopicInvestInfoOrBuilder getRepDataTopicInvestInfoOrBuilder(
@@ -25303,7 +26736,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestInfo RepDataTopicInvestInfo = 67;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:50,
+       *In file:dzhyun.topicinvest.proto, row:53,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.DzhyunTopicinvest.TopicInvestInfoOrBuilder> 
@@ -25318,7 +26751,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestInfo RepDataTopicInvestInfo = 67;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:50,
+       *In file:dzhyun.topicinvest.proto, row:53,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunTopicinvest.TopicInvestInfo.Builder addRepDataTopicInvestInfoBuilder() {
@@ -25329,7 +26762,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestInfo RepDataTopicInvestInfo = 67;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:50,
+       *In file:dzhyun.topicinvest.proto, row:53,
        * </pre>
        */
       public com.dzhyun.proto.DzhyunTopicinvest.TopicInvestInfo.Builder addRepDataTopicInvestInfoBuilder(
@@ -25341,7 +26774,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.TopicInvestInfo RepDataTopicInvestInfo = 67;</code>
        *
        * <pre>
-       *In file:dzhyun.topicinvest.proto, row:50,
+       *In file:dzhyun.topicinvest.proto, row:53,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.DzhyunTopicinvest.TopicInvestInfo.Builder> 
@@ -25355,7 +26788,7 @@ public final class AutoMsg {
           repDataTopicInvestInfoBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.DzhyunTopicinvest.TopicInvestInfo, com.dzhyun.proto.DzhyunTopicinvest.TopicInvestInfo.Builder, com.dzhyun.proto.DzhyunTopicinvest.TopicInvestInfoOrBuilder>(
                   repDataTopicInvestInfo_,
-                  ((bitField1_ & 0x00040000) == 0x00040000),
+                  ((bitField1_ & 0x00080000) == 0x00080000),
                   getParentForChildren(),
                   isClean());
           repDataTopicInvestInfo_ = null;
@@ -25366,9 +26799,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.CldForecastsShuJu.YiZhiXinYeJiYuCeOutPut> repDataYiZhiXinYeJiYuCeOutPut_ =
         java.util.Collections.emptyList();
       private void ensureRepDataYiZhiXinYeJiYuCeOutPutIsMutable() {
-        if (!((bitField1_ & 0x00080000) == 0x00080000)) {
+        if (!((bitField1_ & 0x00100000) == 0x00100000)) {
           repDataYiZhiXinYeJiYuCeOutPut_ = new java.util.ArrayList<com.dzhyun.proto.CldForecastsShuJu.YiZhiXinYeJiYuCeOutPut>(repDataYiZhiXinYeJiYuCeOutPut_);
-          bitField1_ |= 0x00080000;
+          bitField1_ |= 0x00100000;
          }
       }
 
@@ -25379,7 +26812,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinYeJiYuCeOutPut RepDataYiZhiXinYeJiYuCeOutPut = 68;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:11,
+       *In file:CldForecastsShuJu.proto, row:14,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.CldForecastsShuJu.YiZhiXinYeJiYuCeOutPut> getRepDataYiZhiXinYeJiYuCeOutPutList() {
@@ -25393,7 +26826,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinYeJiYuCeOutPut RepDataYiZhiXinYeJiYuCeOutPut = 68;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:11,
+       *In file:CldForecastsShuJu.proto, row:14,
        * </pre>
        */
       public int getRepDataYiZhiXinYeJiYuCeOutPutCount() {
@@ -25407,7 +26840,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinYeJiYuCeOutPut RepDataYiZhiXinYeJiYuCeOutPut = 68;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:11,
+       *In file:CldForecastsShuJu.proto, row:14,
        * </pre>
        */
       public com.dzhyun.proto.CldForecastsShuJu.YiZhiXinYeJiYuCeOutPut getRepDataYiZhiXinYeJiYuCeOutPut(int index) {
@@ -25421,7 +26854,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinYeJiYuCeOutPut RepDataYiZhiXinYeJiYuCeOutPut = 68;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:11,
+       *In file:CldForecastsShuJu.proto, row:14,
        * </pre>
        */
       public Builder setRepDataYiZhiXinYeJiYuCeOutPut(
@@ -25442,7 +26875,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinYeJiYuCeOutPut RepDataYiZhiXinYeJiYuCeOutPut = 68;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:11,
+       *In file:CldForecastsShuJu.proto, row:14,
        * </pre>
        */
       public Builder setRepDataYiZhiXinYeJiYuCeOutPut(
@@ -25460,7 +26893,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinYeJiYuCeOutPut RepDataYiZhiXinYeJiYuCeOutPut = 68;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:11,
+       *In file:CldForecastsShuJu.proto, row:14,
        * </pre>
        */
       public Builder addRepDataYiZhiXinYeJiYuCeOutPut(com.dzhyun.proto.CldForecastsShuJu.YiZhiXinYeJiYuCeOutPut value) {
@@ -25480,7 +26913,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinYeJiYuCeOutPut RepDataYiZhiXinYeJiYuCeOutPut = 68;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:11,
+       *In file:CldForecastsShuJu.proto, row:14,
        * </pre>
        */
       public Builder addRepDataYiZhiXinYeJiYuCeOutPut(
@@ -25501,7 +26934,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinYeJiYuCeOutPut RepDataYiZhiXinYeJiYuCeOutPut = 68;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:11,
+       *In file:CldForecastsShuJu.proto, row:14,
        * </pre>
        */
       public Builder addRepDataYiZhiXinYeJiYuCeOutPut(
@@ -25519,7 +26952,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinYeJiYuCeOutPut RepDataYiZhiXinYeJiYuCeOutPut = 68;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:11,
+       *In file:CldForecastsShuJu.proto, row:14,
        * </pre>
        */
       public Builder addRepDataYiZhiXinYeJiYuCeOutPut(
@@ -25537,7 +26970,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinYeJiYuCeOutPut RepDataYiZhiXinYeJiYuCeOutPut = 68;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:11,
+       *In file:CldForecastsShuJu.proto, row:14,
        * </pre>
        */
       public Builder addAllRepDataYiZhiXinYeJiYuCeOutPut(
@@ -25556,13 +26989,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinYeJiYuCeOutPut RepDataYiZhiXinYeJiYuCeOutPut = 68;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:11,
+       *In file:CldForecastsShuJu.proto, row:14,
        * </pre>
        */
       public Builder clearRepDataYiZhiXinYeJiYuCeOutPut() {
         if (repDataYiZhiXinYeJiYuCeOutPutBuilder_ == null) {
           repDataYiZhiXinYeJiYuCeOutPut_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00080000);
+          bitField1_ = (bitField1_ & ~0x00100000);
           onChanged();
         } else {
           repDataYiZhiXinYeJiYuCeOutPutBuilder_.clear();
@@ -25573,7 +27006,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinYeJiYuCeOutPut RepDataYiZhiXinYeJiYuCeOutPut = 68;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:11,
+       *In file:CldForecastsShuJu.proto, row:14,
        * </pre>
        */
       public Builder removeRepDataYiZhiXinYeJiYuCeOutPut(int index) {
@@ -25590,7 +27023,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinYeJiYuCeOutPut RepDataYiZhiXinYeJiYuCeOutPut = 68;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:11,
+       *In file:CldForecastsShuJu.proto, row:14,
        * </pre>
        */
       public com.dzhyun.proto.CldForecastsShuJu.YiZhiXinYeJiYuCeOutPut.Builder getRepDataYiZhiXinYeJiYuCeOutPutBuilder(
@@ -25601,7 +27034,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinYeJiYuCeOutPut RepDataYiZhiXinYeJiYuCeOutPut = 68;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:11,
+       *In file:CldForecastsShuJu.proto, row:14,
        * </pre>
        */
       public com.dzhyun.proto.CldForecastsShuJu.YiZhiXinYeJiYuCeOutPutOrBuilder getRepDataYiZhiXinYeJiYuCeOutPutOrBuilder(
@@ -25615,7 +27048,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinYeJiYuCeOutPut RepDataYiZhiXinYeJiYuCeOutPut = 68;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:11,
+       *In file:CldForecastsShuJu.proto, row:14,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.CldForecastsShuJu.YiZhiXinYeJiYuCeOutPutOrBuilder> 
@@ -25630,7 +27063,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinYeJiYuCeOutPut RepDataYiZhiXinYeJiYuCeOutPut = 68;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:11,
+       *In file:CldForecastsShuJu.proto, row:14,
        * </pre>
        */
       public com.dzhyun.proto.CldForecastsShuJu.YiZhiXinYeJiYuCeOutPut.Builder addRepDataYiZhiXinYeJiYuCeOutPutBuilder() {
@@ -25641,7 +27074,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinYeJiYuCeOutPut RepDataYiZhiXinYeJiYuCeOutPut = 68;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:11,
+       *In file:CldForecastsShuJu.proto, row:14,
        * </pre>
        */
       public com.dzhyun.proto.CldForecastsShuJu.YiZhiXinYeJiYuCeOutPut.Builder addRepDataYiZhiXinYeJiYuCeOutPutBuilder(
@@ -25653,7 +27086,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinYeJiYuCeOutPut RepDataYiZhiXinYeJiYuCeOutPut = 68;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:11,
+       *In file:CldForecastsShuJu.proto, row:14,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.CldForecastsShuJu.YiZhiXinYeJiYuCeOutPut.Builder> 
@@ -25667,7 +27100,7 @@ public final class AutoMsg {
           repDataYiZhiXinYeJiYuCeOutPutBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.CldForecastsShuJu.YiZhiXinYeJiYuCeOutPut, com.dzhyun.proto.CldForecastsShuJu.YiZhiXinYeJiYuCeOutPut.Builder, com.dzhyun.proto.CldForecastsShuJu.YiZhiXinYeJiYuCeOutPutOrBuilder>(
                   repDataYiZhiXinYeJiYuCeOutPut_,
-                  ((bitField1_ & 0x00080000) == 0x00080000),
+                  ((bitField1_ & 0x00100000) == 0x00100000),
                   getParentForChildren(),
                   isClean());
           repDataYiZhiXinYeJiYuCeOutPut_ = null;
@@ -25678,9 +27111,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.CldForecastsShuJu.YiZhiXinTouZiPinJiOutPut> repDataYiZhiXinTouZiPinJiOutPut_ =
         java.util.Collections.emptyList();
       private void ensureRepDataYiZhiXinTouZiPinJiOutPutIsMutable() {
-        if (!((bitField1_ & 0x00100000) == 0x00100000)) {
+        if (!((bitField1_ & 0x00200000) == 0x00200000)) {
           repDataYiZhiXinTouZiPinJiOutPut_ = new java.util.ArrayList<com.dzhyun.proto.CldForecastsShuJu.YiZhiXinTouZiPinJiOutPut>(repDataYiZhiXinTouZiPinJiOutPut_);
-          bitField1_ |= 0x00100000;
+          bitField1_ |= 0x00200000;
          }
       }
 
@@ -25691,7 +27124,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinTouZiPinJiOutPut RepDataYiZhiXinTouZiPinJiOutPut = 69;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:25,
+       *In file:CldForecastsShuJu.proto, row:28,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.CldForecastsShuJu.YiZhiXinTouZiPinJiOutPut> getRepDataYiZhiXinTouZiPinJiOutPutList() {
@@ -25705,7 +27138,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinTouZiPinJiOutPut RepDataYiZhiXinTouZiPinJiOutPut = 69;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:25,
+       *In file:CldForecastsShuJu.proto, row:28,
        * </pre>
        */
       public int getRepDataYiZhiXinTouZiPinJiOutPutCount() {
@@ -25719,7 +27152,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinTouZiPinJiOutPut RepDataYiZhiXinTouZiPinJiOutPut = 69;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:25,
+       *In file:CldForecastsShuJu.proto, row:28,
        * </pre>
        */
       public com.dzhyun.proto.CldForecastsShuJu.YiZhiXinTouZiPinJiOutPut getRepDataYiZhiXinTouZiPinJiOutPut(int index) {
@@ -25733,7 +27166,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinTouZiPinJiOutPut RepDataYiZhiXinTouZiPinJiOutPut = 69;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:25,
+       *In file:CldForecastsShuJu.proto, row:28,
        * </pre>
        */
       public Builder setRepDataYiZhiXinTouZiPinJiOutPut(
@@ -25754,7 +27187,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinTouZiPinJiOutPut RepDataYiZhiXinTouZiPinJiOutPut = 69;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:25,
+       *In file:CldForecastsShuJu.proto, row:28,
        * </pre>
        */
       public Builder setRepDataYiZhiXinTouZiPinJiOutPut(
@@ -25772,7 +27205,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinTouZiPinJiOutPut RepDataYiZhiXinTouZiPinJiOutPut = 69;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:25,
+       *In file:CldForecastsShuJu.proto, row:28,
        * </pre>
        */
       public Builder addRepDataYiZhiXinTouZiPinJiOutPut(com.dzhyun.proto.CldForecastsShuJu.YiZhiXinTouZiPinJiOutPut value) {
@@ -25792,7 +27225,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinTouZiPinJiOutPut RepDataYiZhiXinTouZiPinJiOutPut = 69;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:25,
+       *In file:CldForecastsShuJu.proto, row:28,
        * </pre>
        */
       public Builder addRepDataYiZhiXinTouZiPinJiOutPut(
@@ -25813,7 +27246,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinTouZiPinJiOutPut RepDataYiZhiXinTouZiPinJiOutPut = 69;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:25,
+       *In file:CldForecastsShuJu.proto, row:28,
        * </pre>
        */
       public Builder addRepDataYiZhiXinTouZiPinJiOutPut(
@@ -25831,7 +27264,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinTouZiPinJiOutPut RepDataYiZhiXinTouZiPinJiOutPut = 69;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:25,
+       *In file:CldForecastsShuJu.proto, row:28,
        * </pre>
        */
       public Builder addRepDataYiZhiXinTouZiPinJiOutPut(
@@ -25849,7 +27282,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinTouZiPinJiOutPut RepDataYiZhiXinTouZiPinJiOutPut = 69;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:25,
+       *In file:CldForecastsShuJu.proto, row:28,
        * </pre>
        */
       public Builder addAllRepDataYiZhiXinTouZiPinJiOutPut(
@@ -25868,13 +27301,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinTouZiPinJiOutPut RepDataYiZhiXinTouZiPinJiOutPut = 69;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:25,
+       *In file:CldForecastsShuJu.proto, row:28,
        * </pre>
        */
       public Builder clearRepDataYiZhiXinTouZiPinJiOutPut() {
         if (repDataYiZhiXinTouZiPinJiOutPutBuilder_ == null) {
           repDataYiZhiXinTouZiPinJiOutPut_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00100000);
+          bitField1_ = (bitField1_ & ~0x00200000);
           onChanged();
         } else {
           repDataYiZhiXinTouZiPinJiOutPutBuilder_.clear();
@@ -25885,7 +27318,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinTouZiPinJiOutPut RepDataYiZhiXinTouZiPinJiOutPut = 69;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:25,
+       *In file:CldForecastsShuJu.proto, row:28,
        * </pre>
        */
       public Builder removeRepDataYiZhiXinTouZiPinJiOutPut(int index) {
@@ -25902,7 +27335,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinTouZiPinJiOutPut RepDataYiZhiXinTouZiPinJiOutPut = 69;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:25,
+       *In file:CldForecastsShuJu.proto, row:28,
        * </pre>
        */
       public com.dzhyun.proto.CldForecastsShuJu.YiZhiXinTouZiPinJiOutPut.Builder getRepDataYiZhiXinTouZiPinJiOutPutBuilder(
@@ -25913,7 +27346,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinTouZiPinJiOutPut RepDataYiZhiXinTouZiPinJiOutPut = 69;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:25,
+       *In file:CldForecastsShuJu.proto, row:28,
        * </pre>
        */
       public com.dzhyun.proto.CldForecastsShuJu.YiZhiXinTouZiPinJiOutPutOrBuilder getRepDataYiZhiXinTouZiPinJiOutPutOrBuilder(
@@ -25927,7 +27360,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinTouZiPinJiOutPut RepDataYiZhiXinTouZiPinJiOutPut = 69;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:25,
+       *In file:CldForecastsShuJu.proto, row:28,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.CldForecastsShuJu.YiZhiXinTouZiPinJiOutPutOrBuilder> 
@@ -25942,7 +27375,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinTouZiPinJiOutPut RepDataYiZhiXinTouZiPinJiOutPut = 69;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:25,
+       *In file:CldForecastsShuJu.proto, row:28,
        * </pre>
        */
       public com.dzhyun.proto.CldForecastsShuJu.YiZhiXinTouZiPinJiOutPut.Builder addRepDataYiZhiXinTouZiPinJiOutPutBuilder() {
@@ -25953,7 +27386,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinTouZiPinJiOutPut RepDataYiZhiXinTouZiPinJiOutPut = 69;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:25,
+       *In file:CldForecastsShuJu.proto, row:28,
        * </pre>
        */
       public com.dzhyun.proto.CldForecastsShuJu.YiZhiXinTouZiPinJiOutPut.Builder addRepDataYiZhiXinTouZiPinJiOutPutBuilder(
@@ -25965,7 +27398,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.YiZhiXinTouZiPinJiOutPut RepDataYiZhiXinTouZiPinJiOutPut = 69;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:25,
+       *In file:CldForecastsShuJu.proto, row:28,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.CldForecastsShuJu.YiZhiXinTouZiPinJiOutPut.Builder> 
@@ -25979,7 +27412,7 @@ public final class AutoMsg {
           repDataYiZhiXinTouZiPinJiOutPutBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.CldForecastsShuJu.YiZhiXinTouZiPinJiOutPut, com.dzhyun.proto.CldForecastsShuJu.YiZhiXinTouZiPinJiOutPut.Builder, com.dzhyun.proto.CldForecastsShuJu.YiZhiXinTouZiPinJiOutPutOrBuilder>(
                   repDataYiZhiXinTouZiPinJiOutPut_,
-                  ((bitField1_ & 0x00100000) == 0x00100000),
+                  ((bitField1_ & 0x00200000) == 0x00200000),
                   getParentForChildren(),
                   isClean());
           repDataYiZhiXinTouZiPinJiOutPut_ = null;
@@ -25990,9 +27423,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.CldForecastsShuJu.GeGuYeJiYuCeOutPut> repDataGeGuYeJiYuCeOutPut_ =
         java.util.Collections.emptyList();
       private void ensureRepDataGeGuYeJiYuCeOutPutIsMutable() {
-        if (!((bitField1_ & 0x00200000) == 0x00200000)) {
+        if (!((bitField1_ & 0x00400000) == 0x00400000)) {
           repDataGeGuYeJiYuCeOutPut_ = new java.util.ArrayList<com.dzhyun.proto.CldForecastsShuJu.GeGuYeJiYuCeOutPut>(repDataGeGuYeJiYuCeOutPut_);
-          bitField1_ |= 0x00200000;
+          bitField1_ |= 0x00400000;
          }
       }
 
@@ -26003,7 +27436,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuYeJiYuCeOutPut RepDataGeGuYeJiYuCeOutPut = 70;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:45,
+       *In file:CldForecastsShuJu.proto, row:48,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.CldForecastsShuJu.GeGuYeJiYuCeOutPut> getRepDataGeGuYeJiYuCeOutPutList() {
@@ -26017,7 +27450,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuYeJiYuCeOutPut RepDataGeGuYeJiYuCeOutPut = 70;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:45,
+       *In file:CldForecastsShuJu.proto, row:48,
        * </pre>
        */
       public int getRepDataGeGuYeJiYuCeOutPutCount() {
@@ -26031,7 +27464,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuYeJiYuCeOutPut RepDataGeGuYeJiYuCeOutPut = 70;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:45,
+       *In file:CldForecastsShuJu.proto, row:48,
        * </pre>
        */
       public com.dzhyun.proto.CldForecastsShuJu.GeGuYeJiYuCeOutPut getRepDataGeGuYeJiYuCeOutPut(int index) {
@@ -26045,7 +27478,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuYeJiYuCeOutPut RepDataGeGuYeJiYuCeOutPut = 70;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:45,
+       *In file:CldForecastsShuJu.proto, row:48,
        * </pre>
        */
       public Builder setRepDataGeGuYeJiYuCeOutPut(
@@ -26066,7 +27499,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuYeJiYuCeOutPut RepDataGeGuYeJiYuCeOutPut = 70;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:45,
+       *In file:CldForecastsShuJu.proto, row:48,
        * </pre>
        */
       public Builder setRepDataGeGuYeJiYuCeOutPut(
@@ -26084,7 +27517,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuYeJiYuCeOutPut RepDataGeGuYeJiYuCeOutPut = 70;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:45,
+       *In file:CldForecastsShuJu.proto, row:48,
        * </pre>
        */
       public Builder addRepDataGeGuYeJiYuCeOutPut(com.dzhyun.proto.CldForecastsShuJu.GeGuYeJiYuCeOutPut value) {
@@ -26104,7 +27537,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuYeJiYuCeOutPut RepDataGeGuYeJiYuCeOutPut = 70;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:45,
+       *In file:CldForecastsShuJu.proto, row:48,
        * </pre>
        */
       public Builder addRepDataGeGuYeJiYuCeOutPut(
@@ -26125,7 +27558,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuYeJiYuCeOutPut RepDataGeGuYeJiYuCeOutPut = 70;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:45,
+       *In file:CldForecastsShuJu.proto, row:48,
        * </pre>
        */
       public Builder addRepDataGeGuYeJiYuCeOutPut(
@@ -26143,7 +27576,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuYeJiYuCeOutPut RepDataGeGuYeJiYuCeOutPut = 70;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:45,
+       *In file:CldForecastsShuJu.proto, row:48,
        * </pre>
        */
       public Builder addRepDataGeGuYeJiYuCeOutPut(
@@ -26161,7 +27594,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuYeJiYuCeOutPut RepDataGeGuYeJiYuCeOutPut = 70;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:45,
+       *In file:CldForecastsShuJu.proto, row:48,
        * </pre>
        */
       public Builder addAllRepDataGeGuYeJiYuCeOutPut(
@@ -26180,13 +27613,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuYeJiYuCeOutPut RepDataGeGuYeJiYuCeOutPut = 70;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:45,
+       *In file:CldForecastsShuJu.proto, row:48,
        * </pre>
        */
       public Builder clearRepDataGeGuYeJiYuCeOutPut() {
         if (repDataGeGuYeJiYuCeOutPutBuilder_ == null) {
           repDataGeGuYeJiYuCeOutPut_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00200000);
+          bitField1_ = (bitField1_ & ~0x00400000);
           onChanged();
         } else {
           repDataGeGuYeJiYuCeOutPutBuilder_.clear();
@@ -26197,7 +27630,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuYeJiYuCeOutPut RepDataGeGuYeJiYuCeOutPut = 70;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:45,
+       *In file:CldForecastsShuJu.proto, row:48,
        * </pre>
        */
       public Builder removeRepDataGeGuYeJiYuCeOutPut(int index) {
@@ -26214,7 +27647,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuYeJiYuCeOutPut RepDataGeGuYeJiYuCeOutPut = 70;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:45,
+       *In file:CldForecastsShuJu.proto, row:48,
        * </pre>
        */
       public com.dzhyun.proto.CldForecastsShuJu.GeGuYeJiYuCeOutPut.Builder getRepDataGeGuYeJiYuCeOutPutBuilder(
@@ -26225,7 +27658,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuYeJiYuCeOutPut RepDataGeGuYeJiYuCeOutPut = 70;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:45,
+       *In file:CldForecastsShuJu.proto, row:48,
        * </pre>
        */
       public com.dzhyun.proto.CldForecastsShuJu.GeGuYeJiYuCeOutPutOrBuilder getRepDataGeGuYeJiYuCeOutPutOrBuilder(
@@ -26239,7 +27672,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuYeJiYuCeOutPut RepDataGeGuYeJiYuCeOutPut = 70;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:45,
+       *In file:CldForecastsShuJu.proto, row:48,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.CldForecastsShuJu.GeGuYeJiYuCeOutPutOrBuilder> 
@@ -26254,7 +27687,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuYeJiYuCeOutPut RepDataGeGuYeJiYuCeOutPut = 70;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:45,
+       *In file:CldForecastsShuJu.proto, row:48,
        * </pre>
        */
       public com.dzhyun.proto.CldForecastsShuJu.GeGuYeJiYuCeOutPut.Builder addRepDataGeGuYeJiYuCeOutPutBuilder() {
@@ -26265,7 +27698,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuYeJiYuCeOutPut RepDataGeGuYeJiYuCeOutPut = 70;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:45,
+       *In file:CldForecastsShuJu.proto, row:48,
        * </pre>
        */
       public com.dzhyun.proto.CldForecastsShuJu.GeGuYeJiYuCeOutPut.Builder addRepDataGeGuYeJiYuCeOutPutBuilder(
@@ -26277,7 +27710,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuYeJiYuCeOutPut RepDataGeGuYeJiYuCeOutPut = 70;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:45,
+       *In file:CldForecastsShuJu.proto, row:48,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.CldForecastsShuJu.GeGuYeJiYuCeOutPut.Builder> 
@@ -26291,7 +27724,7 @@ public final class AutoMsg {
           repDataGeGuYeJiYuCeOutPutBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.CldForecastsShuJu.GeGuYeJiYuCeOutPut, com.dzhyun.proto.CldForecastsShuJu.GeGuYeJiYuCeOutPut.Builder, com.dzhyun.proto.CldForecastsShuJu.GeGuYeJiYuCeOutPutOrBuilder>(
                   repDataGeGuYeJiYuCeOutPut_,
-                  ((bitField1_ & 0x00200000) == 0x00200000),
+                  ((bitField1_ & 0x00400000) == 0x00400000),
                   getParentForChildren(),
                   isClean());
           repDataGeGuYeJiYuCeOutPut_ = null;
@@ -26302,9 +27735,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.CldForecastsShuJu.GeGuTouZiYanBaoOutPut> repDataGeGuTouZiYanBaoOutPut_ =
         java.util.Collections.emptyList();
       private void ensureRepDataGeGuTouZiYanBaoOutPutIsMutable() {
-        if (!((bitField1_ & 0x00400000) == 0x00400000)) {
+        if (!((bitField1_ & 0x00800000) == 0x00800000)) {
           repDataGeGuTouZiYanBaoOutPut_ = new java.util.ArrayList<com.dzhyun.proto.CldForecastsShuJu.GeGuTouZiYanBaoOutPut>(repDataGeGuTouZiYanBaoOutPut_);
-          bitField1_ |= 0x00400000;
+          bitField1_ |= 0x00800000;
          }
       }
 
@@ -26315,7 +27748,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuTouZiYanBaoOutPut RepDataGeGuTouZiYanBaoOutPut = 71;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:62,
+       *In file:CldForecastsShuJu.proto, row:65,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.CldForecastsShuJu.GeGuTouZiYanBaoOutPut> getRepDataGeGuTouZiYanBaoOutPutList() {
@@ -26329,7 +27762,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuTouZiYanBaoOutPut RepDataGeGuTouZiYanBaoOutPut = 71;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:62,
+       *In file:CldForecastsShuJu.proto, row:65,
        * </pre>
        */
       public int getRepDataGeGuTouZiYanBaoOutPutCount() {
@@ -26343,7 +27776,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuTouZiYanBaoOutPut RepDataGeGuTouZiYanBaoOutPut = 71;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:62,
+       *In file:CldForecastsShuJu.proto, row:65,
        * </pre>
        */
       public com.dzhyun.proto.CldForecastsShuJu.GeGuTouZiYanBaoOutPut getRepDataGeGuTouZiYanBaoOutPut(int index) {
@@ -26357,7 +27790,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuTouZiYanBaoOutPut RepDataGeGuTouZiYanBaoOutPut = 71;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:62,
+       *In file:CldForecastsShuJu.proto, row:65,
        * </pre>
        */
       public Builder setRepDataGeGuTouZiYanBaoOutPut(
@@ -26378,7 +27811,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuTouZiYanBaoOutPut RepDataGeGuTouZiYanBaoOutPut = 71;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:62,
+       *In file:CldForecastsShuJu.proto, row:65,
        * </pre>
        */
       public Builder setRepDataGeGuTouZiYanBaoOutPut(
@@ -26396,7 +27829,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuTouZiYanBaoOutPut RepDataGeGuTouZiYanBaoOutPut = 71;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:62,
+       *In file:CldForecastsShuJu.proto, row:65,
        * </pre>
        */
       public Builder addRepDataGeGuTouZiYanBaoOutPut(com.dzhyun.proto.CldForecastsShuJu.GeGuTouZiYanBaoOutPut value) {
@@ -26416,7 +27849,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuTouZiYanBaoOutPut RepDataGeGuTouZiYanBaoOutPut = 71;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:62,
+       *In file:CldForecastsShuJu.proto, row:65,
        * </pre>
        */
       public Builder addRepDataGeGuTouZiYanBaoOutPut(
@@ -26437,7 +27870,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuTouZiYanBaoOutPut RepDataGeGuTouZiYanBaoOutPut = 71;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:62,
+       *In file:CldForecastsShuJu.proto, row:65,
        * </pre>
        */
       public Builder addRepDataGeGuTouZiYanBaoOutPut(
@@ -26455,7 +27888,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuTouZiYanBaoOutPut RepDataGeGuTouZiYanBaoOutPut = 71;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:62,
+       *In file:CldForecastsShuJu.proto, row:65,
        * </pre>
        */
       public Builder addRepDataGeGuTouZiYanBaoOutPut(
@@ -26473,7 +27906,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuTouZiYanBaoOutPut RepDataGeGuTouZiYanBaoOutPut = 71;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:62,
+       *In file:CldForecastsShuJu.proto, row:65,
        * </pre>
        */
       public Builder addAllRepDataGeGuTouZiYanBaoOutPut(
@@ -26492,13 +27925,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuTouZiYanBaoOutPut RepDataGeGuTouZiYanBaoOutPut = 71;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:62,
+       *In file:CldForecastsShuJu.proto, row:65,
        * </pre>
        */
       public Builder clearRepDataGeGuTouZiYanBaoOutPut() {
         if (repDataGeGuTouZiYanBaoOutPutBuilder_ == null) {
           repDataGeGuTouZiYanBaoOutPut_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00400000);
+          bitField1_ = (bitField1_ & ~0x00800000);
           onChanged();
         } else {
           repDataGeGuTouZiYanBaoOutPutBuilder_.clear();
@@ -26509,7 +27942,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuTouZiYanBaoOutPut RepDataGeGuTouZiYanBaoOutPut = 71;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:62,
+       *In file:CldForecastsShuJu.proto, row:65,
        * </pre>
        */
       public Builder removeRepDataGeGuTouZiYanBaoOutPut(int index) {
@@ -26526,7 +27959,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuTouZiYanBaoOutPut RepDataGeGuTouZiYanBaoOutPut = 71;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:62,
+       *In file:CldForecastsShuJu.proto, row:65,
        * </pre>
        */
       public com.dzhyun.proto.CldForecastsShuJu.GeGuTouZiYanBaoOutPut.Builder getRepDataGeGuTouZiYanBaoOutPutBuilder(
@@ -26537,7 +27970,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuTouZiYanBaoOutPut RepDataGeGuTouZiYanBaoOutPut = 71;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:62,
+       *In file:CldForecastsShuJu.proto, row:65,
        * </pre>
        */
       public com.dzhyun.proto.CldForecastsShuJu.GeGuTouZiYanBaoOutPutOrBuilder getRepDataGeGuTouZiYanBaoOutPutOrBuilder(
@@ -26551,7 +27984,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuTouZiYanBaoOutPut RepDataGeGuTouZiYanBaoOutPut = 71;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:62,
+       *In file:CldForecastsShuJu.proto, row:65,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.CldForecastsShuJu.GeGuTouZiYanBaoOutPutOrBuilder> 
@@ -26566,7 +27999,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuTouZiYanBaoOutPut RepDataGeGuTouZiYanBaoOutPut = 71;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:62,
+       *In file:CldForecastsShuJu.proto, row:65,
        * </pre>
        */
       public com.dzhyun.proto.CldForecastsShuJu.GeGuTouZiYanBaoOutPut.Builder addRepDataGeGuTouZiYanBaoOutPutBuilder() {
@@ -26577,7 +28010,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuTouZiYanBaoOutPut RepDataGeGuTouZiYanBaoOutPut = 71;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:62,
+       *In file:CldForecastsShuJu.proto, row:65,
        * </pre>
        */
       public com.dzhyun.proto.CldForecastsShuJu.GeGuTouZiYanBaoOutPut.Builder addRepDataGeGuTouZiYanBaoOutPutBuilder(
@@ -26589,7 +28022,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.GeGuTouZiYanBaoOutPut RepDataGeGuTouZiYanBaoOutPut = 71;</code>
        *
        * <pre>
-       *In file:CldForecastsShuJu.proto, row:62,
+       *In file:CldForecastsShuJu.proto, row:65,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.CldForecastsShuJu.GeGuTouZiYanBaoOutPut.Builder> 
@@ -26603,7 +28036,7 @@ public final class AutoMsg {
           repDataGeGuTouZiYanBaoOutPutBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.CldForecastsShuJu.GeGuTouZiYanBaoOutPut, com.dzhyun.proto.CldForecastsShuJu.GeGuTouZiYanBaoOutPut.Builder, com.dzhyun.proto.CldForecastsShuJu.GeGuTouZiYanBaoOutPutOrBuilder>(
                   repDataGeGuTouZiYanBaoOutPut_,
-                  ((bitField1_ & 0x00400000) == 0x00400000),
+                  ((bitField1_ & 0x00800000) == 0x00800000),
                   getParentForChildren(),
                   isClean());
           repDataGeGuTouZiYanBaoOutPut_ = null;
@@ -26614,9 +28047,9 @@ public final class AutoMsg {
       private java.util.List<com.dzhyun.proto.Dzhdstoken.DSToken> repDataDSToken_ =
         java.util.Collections.emptyList();
       private void ensureRepDataDSTokenIsMutable() {
-        if (!((bitField1_ & 0x00800000) == 0x00800000)) {
+        if (!((bitField1_ & 0x01000000) == 0x01000000)) {
           repDataDSToken_ = new java.util.ArrayList<com.dzhyun.proto.Dzhdstoken.DSToken>(repDataDSToken_);
-          bitField1_ |= 0x00800000;
+          bitField1_ |= 0x01000000;
          }
       }
 
@@ -26627,7 +28060,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.DSToken RepDataDSToken = 72;</code>
        *
        * <pre>
-       *In file:dzhdstoken.proto, row:2,
+       *In file:dzhdstoken.proto, row:5,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhdstoken.DSToken> getRepDataDSTokenList() {
@@ -26641,7 +28074,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.DSToken RepDataDSToken = 72;</code>
        *
        * <pre>
-       *In file:dzhdstoken.proto, row:2,
+       *In file:dzhdstoken.proto, row:5,
        * </pre>
        */
       public int getRepDataDSTokenCount() {
@@ -26655,7 +28088,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.DSToken RepDataDSToken = 72;</code>
        *
        * <pre>
-       *In file:dzhdstoken.proto, row:2,
+       *In file:dzhdstoken.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.Dzhdstoken.DSToken getRepDataDSToken(int index) {
@@ -26669,7 +28102,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.DSToken RepDataDSToken = 72;</code>
        *
        * <pre>
-       *In file:dzhdstoken.proto, row:2,
+       *In file:dzhdstoken.proto, row:5,
        * </pre>
        */
       public Builder setRepDataDSToken(
@@ -26690,7 +28123,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.DSToken RepDataDSToken = 72;</code>
        *
        * <pre>
-       *In file:dzhdstoken.proto, row:2,
+       *In file:dzhdstoken.proto, row:5,
        * </pre>
        */
       public Builder setRepDataDSToken(
@@ -26708,7 +28141,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.DSToken RepDataDSToken = 72;</code>
        *
        * <pre>
-       *In file:dzhdstoken.proto, row:2,
+       *In file:dzhdstoken.proto, row:5,
        * </pre>
        */
       public Builder addRepDataDSToken(com.dzhyun.proto.Dzhdstoken.DSToken value) {
@@ -26728,7 +28161,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.DSToken RepDataDSToken = 72;</code>
        *
        * <pre>
-       *In file:dzhdstoken.proto, row:2,
+       *In file:dzhdstoken.proto, row:5,
        * </pre>
        */
       public Builder addRepDataDSToken(
@@ -26749,7 +28182,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.DSToken RepDataDSToken = 72;</code>
        *
        * <pre>
-       *In file:dzhdstoken.proto, row:2,
+       *In file:dzhdstoken.proto, row:5,
        * </pre>
        */
       public Builder addRepDataDSToken(
@@ -26767,7 +28200,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.DSToken RepDataDSToken = 72;</code>
        *
        * <pre>
-       *In file:dzhdstoken.proto, row:2,
+       *In file:dzhdstoken.proto, row:5,
        * </pre>
        */
       public Builder addRepDataDSToken(
@@ -26785,7 +28218,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.DSToken RepDataDSToken = 72;</code>
        *
        * <pre>
-       *In file:dzhdstoken.proto, row:2,
+       *In file:dzhdstoken.proto, row:5,
        * </pre>
        */
       public Builder addAllRepDataDSToken(
@@ -26804,13 +28237,13 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.DSToken RepDataDSToken = 72;</code>
        *
        * <pre>
-       *In file:dzhdstoken.proto, row:2,
+       *In file:dzhdstoken.proto, row:5,
        * </pre>
        */
       public Builder clearRepDataDSToken() {
         if (repDataDSTokenBuilder_ == null) {
           repDataDSToken_ = java.util.Collections.emptyList();
-          bitField1_ = (bitField1_ & ~0x00800000);
+          bitField1_ = (bitField1_ & ~0x01000000);
           onChanged();
         } else {
           repDataDSTokenBuilder_.clear();
@@ -26821,7 +28254,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.DSToken RepDataDSToken = 72;</code>
        *
        * <pre>
-       *In file:dzhdstoken.proto, row:2,
+       *In file:dzhdstoken.proto, row:5,
        * </pre>
        */
       public Builder removeRepDataDSToken(int index) {
@@ -26838,7 +28271,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.DSToken RepDataDSToken = 72;</code>
        *
        * <pre>
-       *In file:dzhdstoken.proto, row:2,
+       *In file:dzhdstoken.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.Dzhdstoken.DSToken.Builder getRepDataDSTokenBuilder(
@@ -26849,7 +28282,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.DSToken RepDataDSToken = 72;</code>
        *
        * <pre>
-       *In file:dzhdstoken.proto, row:2,
+       *In file:dzhdstoken.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.Dzhdstoken.DSTokenOrBuilder getRepDataDSTokenOrBuilder(
@@ -26863,7 +28296,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.DSToken RepDataDSToken = 72;</code>
        *
        * <pre>
-       *In file:dzhdstoken.proto, row:2,
+       *In file:dzhdstoken.proto, row:5,
        * </pre>
        */
       public java.util.List<? extends com.dzhyun.proto.Dzhdstoken.DSTokenOrBuilder> 
@@ -26878,7 +28311,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.DSToken RepDataDSToken = 72;</code>
        *
        * <pre>
-       *In file:dzhdstoken.proto, row:2,
+       *In file:dzhdstoken.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.Dzhdstoken.DSToken.Builder addRepDataDSTokenBuilder() {
@@ -26889,7 +28322,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.DSToken RepDataDSToken = 72;</code>
        *
        * <pre>
-       *In file:dzhdstoken.proto, row:2,
+       *In file:dzhdstoken.proto, row:5,
        * </pre>
        */
       public com.dzhyun.proto.Dzhdstoken.DSToken.Builder addRepDataDSTokenBuilder(
@@ -26901,7 +28334,7 @@ public final class AutoMsg {
        * <code>repeated .dzhyun.DSToken RepDataDSToken = 72;</code>
        *
        * <pre>
-       *In file:dzhdstoken.proto, row:2,
+       *In file:dzhdstoken.proto, row:5,
        * </pre>
        */
       public java.util.List<com.dzhyun.proto.Dzhdstoken.DSToken.Builder> 
@@ -26915,12 +28348,2196 @@ public final class AutoMsg {
           repDataDSTokenBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               com.dzhyun.proto.Dzhdstoken.DSToken, com.dzhyun.proto.Dzhdstoken.DSToken.Builder, com.dzhyun.proto.Dzhdstoken.DSTokenOrBuilder>(
                   repDataDSToken_,
-                  ((bitField1_ & 0x00800000) == 0x00800000),
+                  ((bitField1_ & 0x01000000) == 0x01000000),
                   getParentForChildren(),
                   isClean());
           repDataDSToken_ = null;
         }
         return repDataDSTokenBuilder_;
+      }
+
+      private java.util.List<com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp> repDataTongJiApp_ =
+        java.util.Collections.emptyList();
+      private void ensureRepDataTongJiAppIsMutable() {
+        if (!((bitField1_ & 0x02000000) == 0x02000000)) {
+          repDataTongJiApp_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp>(repDataTongJiApp_);
+          bitField1_ |= 0x02000000;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp, com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp.Builder, com.dzhyun.proto.DzhyunBlockstatistics.TongJiAppOrBuilder> repDataTongJiAppBuilder_;
+
+      /**
+       * <code>repeated .dzhyun.TongJiApp RepDataTongJiApp = 73;</code>
+       *
+       * <pre>
+       *In file:dzhyun.blockstatistics.proto, row:9,
+       * </pre>
+       */
+      public java.util.List<com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp> getRepDataTongJiAppList() {
+        if (repDataTongJiAppBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(repDataTongJiApp_);
+        } else {
+          return repDataTongJiAppBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.TongJiApp RepDataTongJiApp = 73;</code>
+       *
+       * <pre>
+       *In file:dzhyun.blockstatistics.proto, row:9,
+       * </pre>
+       */
+      public int getRepDataTongJiAppCount() {
+        if (repDataTongJiAppBuilder_ == null) {
+          return repDataTongJiApp_.size();
+        } else {
+          return repDataTongJiAppBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.TongJiApp RepDataTongJiApp = 73;</code>
+       *
+       * <pre>
+       *In file:dzhyun.blockstatistics.proto, row:9,
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp getRepDataTongJiApp(int index) {
+        if (repDataTongJiAppBuilder_ == null) {
+          return repDataTongJiApp_.get(index);
+        } else {
+          return repDataTongJiAppBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.TongJiApp RepDataTongJiApp = 73;</code>
+       *
+       * <pre>
+       *In file:dzhyun.blockstatistics.proto, row:9,
+       * </pre>
+       */
+      public Builder setRepDataTongJiApp(
+          int index, com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp value) {
+        if (repDataTongJiAppBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureRepDataTongJiAppIsMutable();
+          repDataTongJiApp_.set(index, value);
+          onChanged();
+        } else {
+          repDataTongJiAppBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.TongJiApp RepDataTongJiApp = 73;</code>
+       *
+       * <pre>
+       *In file:dzhyun.blockstatistics.proto, row:9,
+       * </pre>
+       */
+      public Builder setRepDataTongJiApp(
+          int index, com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp.Builder builderForValue) {
+        if (repDataTongJiAppBuilder_ == null) {
+          ensureRepDataTongJiAppIsMutable();
+          repDataTongJiApp_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          repDataTongJiAppBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.TongJiApp RepDataTongJiApp = 73;</code>
+       *
+       * <pre>
+       *In file:dzhyun.blockstatistics.proto, row:9,
+       * </pre>
+       */
+      public Builder addRepDataTongJiApp(com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp value) {
+        if (repDataTongJiAppBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureRepDataTongJiAppIsMutable();
+          repDataTongJiApp_.add(value);
+          onChanged();
+        } else {
+          repDataTongJiAppBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.TongJiApp RepDataTongJiApp = 73;</code>
+       *
+       * <pre>
+       *In file:dzhyun.blockstatistics.proto, row:9,
+       * </pre>
+       */
+      public Builder addRepDataTongJiApp(
+          int index, com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp value) {
+        if (repDataTongJiAppBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureRepDataTongJiAppIsMutable();
+          repDataTongJiApp_.add(index, value);
+          onChanged();
+        } else {
+          repDataTongJiAppBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.TongJiApp RepDataTongJiApp = 73;</code>
+       *
+       * <pre>
+       *In file:dzhyun.blockstatistics.proto, row:9,
+       * </pre>
+       */
+      public Builder addRepDataTongJiApp(
+          com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp.Builder builderForValue) {
+        if (repDataTongJiAppBuilder_ == null) {
+          ensureRepDataTongJiAppIsMutable();
+          repDataTongJiApp_.add(builderForValue.build());
+          onChanged();
+        } else {
+          repDataTongJiAppBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.TongJiApp RepDataTongJiApp = 73;</code>
+       *
+       * <pre>
+       *In file:dzhyun.blockstatistics.proto, row:9,
+       * </pre>
+       */
+      public Builder addRepDataTongJiApp(
+          int index, com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp.Builder builderForValue) {
+        if (repDataTongJiAppBuilder_ == null) {
+          ensureRepDataTongJiAppIsMutable();
+          repDataTongJiApp_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          repDataTongJiAppBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.TongJiApp RepDataTongJiApp = 73;</code>
+       *
+       * <pre>
+       *In file:dzhyun.blockstatistics.proto, row:9,
+       * </pre>
+       */
+      public Builder addAllRepDataTongJiApp(
+          java.lang.Iterable<? extends com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp> values) {
+        if (repDataTongJiAppBuilder_ == null) {
+          ensureRepDataTongJiAppIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, repDataTongJiApp_);
+          onChanged();
+        } else {
+          repDataTongJiAppBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.TongJiApp RepDataTongJiApp = 73;</code>
+       *
+       * <pre>
+       *In file:dzhyun.blockstatistics.proto, row:9,
+       * </pre>
+       */
+      public Builder clearRepDataTongJiApp() {
+        if (repDataTongJiAppBuilder_ == null) {
+          repDataTongJiApp_ = java.util.Collections.emptyList();
+          bitField1_ = (bitField1_ & ~0x02000000);
+          onChanged();
+        } else {
+          repDataTongJiAppBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.TongJiApp RepDataTongJiApp = 73;</code>
+       *
+       * <pre>
+       *In file:dzhyun.blockstatistics.proto, row:9,
+       * </pre>
+       */
+      public Builder removeRepDataTongJiApp(int index) {
+        if (repDataTongJiAppBuilder_ == null) {
+          ensureRepDataTongJiAppIsMutable();
+          repDataTongJiApp_.remove(index);
+          onChanged();
+        } else {
+          repDataTongJiAppBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.TongJiApp RepDataTongJiApp = 73;</code>
+       *
+       * <pre>
+       *In file:dzhyun.blockstatistics.proto, row:9,
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp.Builder getRepDataTongJiAppBuilder(
+          int index) {
+        return getRepDataTongJiAppFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .dzhyun.TongJiApp RepDataTongJiApp = 73;</code>
+       *
+       * <pre>
+       *In file:dzhyun.blockstatistics.proto, row:9,
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhyunBlockstatistics.TongJiAppOrBuilder getRepDataTongJiAppOrBuilder(
+          int index) {
+        if (repDataTongJiAppBuilder_ == null) {
+          return repDataTongJiApp_.get(index);  } else {
+          return repDataTongJiAppBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.TongJiApp RepDataTongJiApp = 73;</code>
+       *
+       * <pre>
+       *In file:dzhyun.blockstatistics.proto, row:9,
+       * </pre>
+       */
+      public java.util.List<? extends com.dzhyun.proto.DzhyunBlockstatistics.TongJiAppOrBuilder> 
+           getRepDataTongJiAppOrBuilderList() {
+        if (repDataTongJiAppBuilder_ != null) {
+          return repDataTongJiAppBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(repDataTongJiApp_);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.TongJiApp RepDataTongJiApp = 73;</code>
+       *
+       * <pre>
+       *In file:dzhyun.blockstatistics.proto, row:9,
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp.Builder addRepDataTongJiAppBuilder() {
+        return getRepDataTongJiAppFieldBuilder().addBuilder(
+            com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.TongJiApp RepDataTongJiApp = 73;</code>
+       *
+       * <pre>
+       *In file:dzhyun.blockstatistics.proto, row:9,
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp.Builder addRepDataTongJiAppBuilder(
+          int index) {
+        return getRepDataTongJiAppFieldBuilder().addBuilder(
+            index, com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.TongJiApp RepDataTongJiApp = 73;</code>
+       *
+       * <pre>
+       *In file:dzhyun.blockstatistics.proto, row:9,
+       * </pre>
+       */
+      public java.util.List<com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp.Builder> 
+           getRepDataTongJiAppBuilderList() {
+        return getRepDataTongJiAppFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp, com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp.Builder, com.dzhyun.proto.DzhyunBlockstatistics.TongJiAppOrBuilder> 
+          getRepDataTongJiAppFieldBuilder() {
+        if (repDataTongJiAppBuilder_ == null) {
+          repDataTongJiAppBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp, com.dzhyun.proto.DzhyunBlockstatistics.TongJiApp.Builder, com.dzhyun.proto.DzhyunBlockstatistics.TongJiAppOrBuilder>(
+                  repDataTongJiApp_,
+                  ((bitField1_ & 0x02000000) == 0x02000000),
+                  getParentForChildren(),
+                  isClean());
+          repDataTongJiApp_ = null;
+        }
+        return repDataTongJiAppBuilder_;
+      }
+
+      private java.util.List<com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype> repDataMessageChannelSubtype_ =
+        java.util.Collections.emptyList();
+      private void ensureRepDataMessageChannelSubtypeIsMutable() {
+        if (!((bitField1_ & 0x04000000) == 0x04000000)) {
+          repDataMessageChannelSubtype_ = new java.util.ArrayList<com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype>(repDataMessageChannelSubtype_);
+          bitField1_ |= 0x04000000;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype, com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype.Builder, com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtypeOrBuilder> repDataMessageChannelSubtypeBuilder_;
+
+      /**
+       * <code>repeated .dzhyun.MessageChannelSubtype RepDataMessageChannelSubtype = 74;</code>
+       *
+       * <pre>
+       *In file:dzh.message.ch.subtype.proto, row:4,
+       * </pre>
+       */
+      public java.util.List<com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype> getRepDataMessageChannelSubtypeList() {
+        if (repDataMessageChannelSubtypeBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(repDataMessageChannelSubtype_);
+        } else {
+          return repDataMessageChannelSubtypeBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.MessageChannelSubtype RepDataMessageChannelSubtype = 74;</code>
+       *
+       * <pre>
+       *In file:dzh.message.ch.subtype.proto, row:4,
+       * </pre>
+       */
+      public int getRepDataMessageChannelSubtypeCount() {
+        if (repDataMessageChannelSubtypeBuilder_ == null) {
+          return repDataMessageChannelSubtype_.size();
+        } else {
+          return repDataMessageChannelSubtypeBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.MessageChannelSubtype RepDataMessageChannelSubtype = 74;</code>
+       *
+       * <pre>
+       *In file:dzh.message.ch.subtype.proto, row:4,
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype getRepDataMessageChannelSubtype(int index) {
+        if (repDataMessageChannelSubtypeBuilder_ == null) {
+          return repDataMessageChannelSubtype_.get(index);
+        } else {
+          return repDataMessageChannelSubtypeBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.MessageChannelSubtype RepDataMessageChannelSubtype = 74;</code>
+       *
+       * <pre>
+       *In file:dzh.message.ch.subtype.proto, row:4,
+       * </pre>
+       */
+      public Builder setRepDataMessageChannelSubtype(
+          int index, com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype value) {
+        if (repDataMessageChannelSubtypeBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureRepDataMessageChannelSubtypeIsMutable();
+          repDataMessageChannelSubtype_.set(index, value);
+          onChanged();
+        } else {
+          repDataMessageChannelSubtypeBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.MessageChannelSubtype RepDataMessageChannelSubtype = 74;</code>
+       *
+       * <pre>
+       *In file:dzh.message.ch.subtype.proto, row:4,
+       * </pre>
+       */
+      public Builder setRepDataMessageChannelSubtype(
+          int index, com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype.Builder builderForValue) {
+        if (repDataMessageChannelSubtypeBuilder_ == null) {
+          ensureRepDataMessageChannelSubtypeIsMutable();
+          repDataMessageChannelSubtype_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          repDataMessageChannelSubtypeBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.MessageChannelSubtype RepDataMessageChannelSubtype = 74;</code>
+       *
+       * <pre>
+       *In file:dzh.message.ch.subtype.proto, row:4,
+       * </pre>
+       */
+      public Builder addRepDataMessageChannelSubtype(com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype value) {
+        if (repDataMessageChannelSubtypeBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureRepDataMessageChannelSubtypeIsMutable();
+          repDataMessageChannelSubtype_.add(value);
+          onChanged();
+        } else {
+          repDataMessageChannelSubtypeBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.MessageChannelSubtype RepDataMessageChannelSubtype = 74;</code>
+       *
+       * <pre>
+       *In file:dzh.message.ch.subtype.proto, row:4,
+       * </pre>
+       */
+      public Builder addRepDataMessageChannelSubtype(
+          int index, com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype value) {
+        if (repDataMessageChannelSubtypeBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureRepDataMessageChannelSubtypeIsMutable();
+          repDataMessageChannelSubtype_.add(index, value);
+          onChanged();
+        } else {
+          repDataMessageChannelSubtypeBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.MessageChannelSubtype RepDataMessageChannelSubtype = 74;</code>
+       *
+       * <pre>
+       *In file:dzh.message.ch.subtype.proto, row:4,
+       * </pre>
+       */
+      public Builder addRepDataMessageChannelSubtype(
+          com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype.Builder builderForValue) {
+        if (repDataMessageChannelSubtypeBuilder_ == null) {
+          ensureRepDataMessageChannelSubtypeIsMutable();
+          repDataMessageChannelSubtype_.add(builderForValue.build());
+          onChanged();
+        } else {
+          repDataMessageChannelSubtypeBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.MessageChannelSubtype RepDataMessageChannelSubtype = 74;</code>
+       *
+       * <pre>
+       *In file:dzh.message.ch.subtype.proto, row:4,
+       * </pre>
+       */
+      public Builder addRepDataMessageChannelSubtype(
+          int index, com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype.Builder builderForValue) {
+        if (repDataMessageChannelSubtypeBuilder_ == null) {
+          ensureRepDataMessageChannelSubtypeIsMutable();
+          repDataMessageChannelSubtype_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          repDataMessageChannelSubtypeBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.MessageChannelSubtype RepDataMessageChannelSubtype = 74;</code>
+       *
+       * <pre>
+       *In file:dzh.message.ch.subtype.proto, row:4,
+       * </pre>
+       */
+      public Builder addAllRepDataMessageChannelSubtype(
+          java.lang.Iterable<? extends com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype> values) {
+        if (repDataMessageChannelSubtypeBuilder_ == null) {
+          ensureRepDataMessageChannelSubtypeIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, repDataMessageChannelSubtype_);
+          onChanged();
+        } else {
+          repDataMessageChannelSubtypeBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.MessageChannelSubtype RepDataMessageChannelSubtype = 74;</code>
+       *
+       * <pre>
+       *In file:dzh.message.ch.subtype.proto, row:4,
+       * </pre>
+       */
+      public Builder clearRepDataMessageChannelSubtype() {
+        if (repDataMessageChannelSubtypeBuilder_ == null) {
+          repDataMessageChannelSubtype_ = java.util.Collections.emptyList();
+          bitField1_ = (bitField1_ & ~0x04000000);
+          onChanged();
+        } else {
+          repDataMessageChannelSubtypeBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.MessageChannelSubtype RepDataMessageChannelSubtype = 74;</code>
+       *
+       * <pre>
+       *In file:dzh.message.ch.subtype.proto, row:4,
+       * </pre>
+       */
+      public Builder removeRepDataMessageChannelSubtype(int index) {
+        if (repDataMessageChannelSubtypeBuilder_ == null) {
+          ensureRepDataMessageChannelSubtypeIsMutable();
+          repDataMessageChannelSubtype_.remove(index);
+          onChanged();
+        } else {
+          repDataMessageChannelSubtypeBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.MessageChannelSubtype RepDataMessageChannelSubtype = 74;</code>
+       *
+       * <pre>
+       *In file:dzh.message.ch.subtype.proto, row:4,
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype.Builder getRepDataMessageChannelSubtypeBuilder(
+          int index) {
+        return getRepDataMessageChannelSubtypeFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .dzhyun.MessageChannelSubtype RepDataMessageChannelSubtype = 74;</code>
+       *
+       * <pre>
+       *In file:dzh.message.ch.subtype.proto, row:4,
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtypeOrBuilder getRepDataMessageChannelSubtypeOrBuilder(
+          int index) {
+        if (repDataMessageChannelSubtypeBuilder_ == null) {
+          return repDataMessageChannelSubtype_.get(index);  } else {
+          return repDataMessageChannelSubtypeBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.MessageChannelSubtype RepDataMessageChannelSubtype = 74;</code>
+       *
+       * <pre>
+       *In file:dzh.message.ch.subtype.proto, row:4,
+       * </pre>
+       */
+      public java.util.List<? extends com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtypeOrBuilder> 
+           getRepDataMessageChannelSubtypeOrBuilderList() {
+        if (repDataMessageChannelSubtypeBuilder_ != null) {
+          return repDataMessageChannelSubtypeBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(repDataMessageChannelSubtype_);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.MessageChannelSubtype RepDataMessageChannelSubtype = 74;</code>
+       *
+       * <pre>
+       *In file:dzh.message.ch.subtype.proto, row:4,
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype.Builder addRepDataMessageChannelSubtypeBuilder() {
+        return getRepDataMessageChannelSubtypeFieldBuilder().addBuilder(
+            com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.MessageChannelSubtype RepDataMessageChannelSubtype = 74;</code>
+       *
+       * <pre>
+       *In file:dzh.message.ch.subtype.proto, row:4,
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype.Builder addRepDataMessageChannelSubtypeBuilder(
+          int index) {
+        return getRepDataMessageChannelSubtypeFieldBuilder().addBuilder(
+            index, com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.MessageChannelSubtype RepDataMessageChannelSubtype = 74;</code>
+       *
+       * <pre>
+       *In file:dzh.message.ch.subtype.proto, row:4,
+       * </pre>
+       */
+      public java.util.List<com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype.Builder> 
+           getRepDataMessageChannelSubtypeBuilderList() {
+        return getRepDataMessageChannelSubtypeFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype, com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype.Builder, com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtypeOrBuilder> 
+          getRepDataMessageChannelSubtypeFieldBuilder() {
+        if (repDataMessageChannelSubtypeBuilder_ == null) {
+          repDataMessageChannelSubtypeBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype, com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtype.Builder, com.dzhyun.proto.DzhMessageChSubtype.MessageChannelSubtypeOrBuilder>(
+                  repDataMessageChannelSubtype_,
+                  ((bitField1_ & 0x04000000) == 0x04000000),
+                  getParentForChildren(),
+                  isClean());
+          repDataMessageChannelSubtype_ = null;
+        }
+        return repDataMessageChannelSubtypeBuilder_;
+      }
+
+      private java.util.List<com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse> repDataUserGetPropResponse_ =
+        java.util.Collections.emptyList();
+      private void ensureRepDataUserGetPropResponseIsMutable() {
+        if (!((bitField1_ & 0x08000000) == 0x08000000)) {
+          repDataUserGetPropResponse_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse>(repDataUserGetPropResponse_);
+          bitField1_ |= 0x08000000;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse, com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse.Builder, com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponseOrBuilder> repDataUserGetPropResponseBuilder_;
+
+      /**
+       * <code>repeated .dzhyun.UserGetPropResponse RepDataUserGetPropResponse = 75;</code>
+       *
+       * <pre>
+       *In file:dzhyun.user.getprop.proto, row:11,
+       * </pre>
+       */
+      public java.util.List<com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse> getRepDataUserGetPropResponseList() {
+        if (repDataUserGetPropResponseBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(repDataUserGetPropResponse_);
+        } else {
+          return repDataUserGetPropResponseBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.UserGetPropResponse RepDataUserGetPropResponse = 75;</code>
+       *
+       * <pre>
+       *In file:dzhyun.user.getprop.proto, row:11,
+       * </pre>
+       */
+      public int getRepDataUserGetPropResponseCount() {
+        if (repDataUserGetPropResponseBuilder_ == null) {
+          return repDataUserGetPropResponse_.size();
+        } else {
+          return repDataUserGetPropResponseBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.UserGetPropResponse RepDataUserGetPropResponse = 75;</code>
+       *
+       * <pre>
+       *In file:dzhyun.user.getprop.proto, row:11,
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse getRepDataUserGetPropResponse(int index) {
+        if (repDataUserGetPropResponseBuilder_ == null) {
+          return repDataUserGetPropResponse_.get(index);
+        } else {
+          return repDataUserGetPropResponseBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.UserGetPropResponse RepDataUserGetPropResponse = 75;</code>
+       *
+       * <pre>
+       *In file:dzhyun.user.getprop.proto, row:11,
+       * </pre>
+       */
+      public Builder setRepDataUserGetPropResponse(
+          int index, com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse value) {
+        if (repDataUserGetPropResponseBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureRepDataUserGetPropResponseIsMutable();
+          repDataUserGetPropResponse_.set(index, value);
+          onChanged();
+        } else {
+          repDataUserGetPropResponseBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.UserGetPropResponse RepDataUserGetPropResponse = 75;</code>
+       *
+       * <pre>
+       *In file:dzhyun.user.getprop.proto, row:11,
+       * </pre>
+       */
+      public Builder setRepDataUserGetPropResponse(
+          int index, com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse.Builder builderForValue) {
+        if (repDataUserGetPropResponseBuilder_ == null) {
+          ensureRepDataUserGetPropResponseIsMutable();
+          repDataUserGetPropResponse_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          repDataUserGetPropResponseBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.UserGetPropResponse RepDataUserGetPropResponse = 75;</code>
+       *
+       * <pre>
+       *In file:dzhyun.user.getprop.proto, row:11,
+       * </pre>
+       */
+      public Builder addRepDataUserGetPropResponse(com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse value) {
+        if (repDataUserGetPropResponseBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureRepDataUserGetPropResponseIsMutable();
+          repDataUserGetPropResponse_.add(value);
+          onChanged();
+        } else {
+          repDataUserGetPropResponseBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.UserGetPropResponse RepDataUserGetPropResponse = 75;</code>
+       *
+       * <pre>
+       *In file:dzhyun.user.getprop.proto, row:11,
+       * </pre>
+       */
+      public Builder addRepDataUserGetPropResponse(
+          int index, com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse value) {
+        if (repDataUserGetPropResponseBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureRepDataUserGetPropResponseIsMutable();
+          repDataUserGetPropResponse_.add(index, value);
+          onChanged();
+        } else {
+          repDataUserGetPropResponseBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.UserGetPropResponse RepDataUserGetPropResponse = 75;</code>
+       *
+       * <pre>
+       *In file:dzhyun.user.getprop.proto, row:11,
+       * </pre>
+       */
+      public Builder addRepDataUserGetPropResponse(
+          com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse.Builder builderForValue) {
+        if (repDataUserGetPropResponseBuilder_ == null) {
+          ensureRepDataUserGetPropResponseIsMutable();
+          repDataUserGetPropResponse_.add(builderForValue.build());
+          onChanged();
+        } else {
+          repDataUserGetPropResponseBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.UserGetPropResponse RepDataUserGetPropResponse = 75;</code>
+       *
+       * <pre>
+       *In file:dzhyun.user.getprop.proto, row:11,
+       * </pre>
+       */
+      public Builder addRepDataUserGetPropResponse(
+          int index, com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse.Builder builderForValue) {
+        if (repDataUserGetPropResponseBuilder_ == null) {
+          ensureRepDataUserGetPropResponseIsMutable();
+          repDataUserGetPropResponse_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          repDataUserGetPropResponseBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.UserGetPropResponse RepDataUserGetPropResponse = 75;</code>
+       *
+       * <pre>
+       *In file:dzhyun.user.getprop.proto, row:11,
+       * </pre>
+       */
+      public Builder addAllRepDataUserGetPropResponse(
+          java.lang.Iterable<? extends com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse> values) {
+        if (repDataUserGetPropResponseBuilder_ == null) {
+          ensureRepDataUserGetPropResponseIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, repDataUserGetPropResponse_);
+          onChanged();
+        } else {
+          repDataUserGetPropResponseBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.UserGetPropResponse RepDataUserGetPropResponse = 75;</code>
+       *
+       * <pre>
+       *In file:dzhyun.user.getprop.proto, row:11,
+       * </pre>
+       */
+      public Builder clearRepDataUserGetPropResponse() {
+        if (repDataUserGetPropResponseBuilder_ == null) {
+          repDataUserGetPropResponse_ = java.util.Collections.emptyList();
+          bitField1_ = (bitField1_ & ~0x08000000);
+          onChanged();
+        } else {
+          repDataUserGetPropResponseBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.UserGetPropResponse RepDataUserGetPropResponse = 75;</code>
+       *
+       * <pre>
+       *In file:dzhyun.user.getprop.proto, row:11,
+       * </pre>
+       */
+      public Builder removeRepDataUserGetPropResponse(int index) {
+        if (repDataUserGetPropResponseBuilder_ == null) {
+          ensureRepDataUserGetPropResponseIsMutable();
+          repDataUserGetPropResponse_.remove(index);
+          onChanged();
+        } else {
+          repDataUserGetPropResponseBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.UserGetPropResponse RepDataUserGetPropResponse = 75;</code>
+       *
+       * <pre>
+       *In file:dzhyun.user.getprop.proto, row:11,
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse.Builder getRepDataUserGetPropResponseBuilder(
+          int index) {
+        return getRepDataUserGetPropResponseFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .dzhyun.UserGetPropResponse RepDataUserGetPropResponse = 75;</code>
+       *
+       * <pre>
+       *In file:dzhyun.user.getprop.proto, row:11,
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponseOrBuilder getRepDataUserGetPropResponseOrBuilder(
+          int index) {
+        if (repDataUserGetPropResponseBuilder_ == null) {
+          return repDataUserGetPropResponse_.get(index);  } else {
+          return repDataUserGetPropResponseBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.UserGetPropResponse RepDataUserGetPropResponse = 75;</code>
+       *
+       * <pre>
+       *In file:dzhyun.user.getprop.proto, row:11,
+       * </pre>
+       */
+      public java.util.List<? extends com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponseOrBuilder> 
+           getRepDataUserGetPropResponseOrBuilderList() {
+        if (repDataUserGetPropResponseBuilder_ != null) {
+          return repDataUserGetPropResponseBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(repDataUserGetPropResponse_);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.UserGetPropResponse RepDataUserGetPropResponse = 75;</code>
+       *
+       * <pre>
+       *In file:dzhyun.user.getprop.proto, row:11,
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse.Builder addRepDataUserGetPropResponseBuilder() {
+        return getRepDataUserGetPropResponseFieldBuilder().addBuilder(
+            com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.UserGetPropResponse RepDataUserGetPropResponse = 75;</code>
+       *
+       * <pre>
+       *In file:dzhyun.user.getprop.proto, row:11,
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse.Builder addRepDataUserGetPropResponseBuilder(
+          int index) {
+        return getRepDataUserGetPropResponseFieldBuilder().addBuilder(
+            index, com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.UserGetPropResponse RepDataUserGetPropResponse = 75;</code>
+       *
+       * <pre>
+       *In file:dzhyun.user.getprop.proto, row:11,
+       * </pre>
+       */
+      public java.util.List<com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse.Builder> 
+           getRepDataUserGetPropResponseBuilderList() {
+        return getRepDataUserGetPropResponseFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse, com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse.Builder, com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponseOrBuilder> 
+          getRepDataUserGetPropResponseFieldBuilder() {
+        if (repDataUserGetPropResponseBuilder_ == null) {
+          repDataUserGetPropResponseBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse, com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponse.Builder, com.dzhyun.proto.DzhyunUserGetprop.UserGetPropResponseOrBuilder>(
+                  repDataUserGetPropResponse_,
+                  ((bitField1_ & 0x08000000) == 0x08000000),
+                  getParentForChildren(),
+                  isClean());
+          repDataUserGetPropResponse_ = null;
+        }
+        return repDataUserGetPropResponseBuilder_;
+      }
+
+      private java.util.List<com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle> repDataQuoteBOrderSingle_ =
+        java.util.Collections.emptyList();
+      private void ensureRepDataQuoteBOrderSingleIsMutable() {
+        if (!((bitField1_ & 0x10000000) == 0x10000000)) {
+          repDataQuoteBOrderSingle_ = new java.util.ArrayList<com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle>(repDataQuoteBOrderSingle_);
+          bitField1_ |= 0x10000000;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle, com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.Builder, com.dzhyun.proto.Dzhoutput.QuoteBOrderSingleOrBuilder> repDataQuoteBOrderSingleBuilder_;
+
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle RepDataQuoteBOrderSingle = 76;</code>
+       *
+       * <pre>
+       *In file:dzhoutput.proto, row:130,
+       * </pre>
+       */
+      public java.util.List<com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle> getRepDataQuoteBOrderSingleList() {
+        if (repDataQuoteBOrderSingleBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(repDataQuoteBOrderSingle_);
+        } else {
+          return repDataQuoteBOrderSingleBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle RepDataQuoteBOrderSingle = 76;</code>
+       *
+       * <pre>
+       *In file:dzhoutput.proto, row:130,
+       * </pre>
+       */
+      public int getRepDataQuoteBOrderSingleCount() {
+        if (repDataQuoteBOrderSingleBuilder_ == null) {
+          return repDataQuoteBOrderSingle_.size();
+        } else {
+          return repDataQuoteBOrderSingleBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle RepDataQuoteBOrderSingle = 76;</code>
+       *
+       * <pre>
+       *In file:dzhoutput.proto, row:130,
+       * </pre>
+       */
+      public com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle getRepDataQuoteBOrderSingle(int index) {
+        if (repDataQuoteBOrderSingleBuilder_ == null) {
+          return repDataQuoteBOrderSingle_.get(index);
+        } else {
+          return repDataQuoteBOrderSingleBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle RepDataQuoteBOrderSingle = 76;</code>
+       *
+       * <pre>
+       *In file:dzhoutput.proto, row:130,
+       * </pre>
+       */
+      public Builder setRepDataQuoteBOrderSingle(
+          int index, com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle value) {
+        if (repDataQuoteBOrderSingleBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureRepDataQuoteBOrderSingleIsMutable();
+          repDataQuoteBOrderSingle_.set(index, value);
+          onChanged();
+        } else {
+          repDataQuoteBOrderSingleBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle RepDataQuoteBOrderSingle = 76;</code>
+       *
+       * <pre>
+       *In file:dzhoutput.proto, row:130,
+       * </pre>
+       */
+      public Builder setRepDataQuoteBOrderSingle(
+          int index, com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.Builder builderForValue) {
+        if (repDataQuoteBOrderSingleBuilder_ == null) {
+          ensureRepDataQuoteBOrderSingleIsMutable();
+          repDataQuoteBOrderSingle_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          repDataQuoteBOrderSingleBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle RepDataQuoteBOrderSingle = 76;</code>
+       *
+       * <pre>
+       *In file:dzhoutput.proto, row:130,
+       * </pre>
+       */
+      public Builder addRepDataQuoteBOrderSingle(com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle value) {
+        if (repDataQuoteBOrderSingleBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureRepDataQuoteBOrderSingleIsMutable();
+          repDataQuoteBOrderSingle_.add(value);
+          onChanged();
+        } else {
+          repDataQuoteBOrderSingleBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle RepDataQuoteBOrderSingle = 76;</code>
+       *
+       * <pre>
+       *In file:dzhoutput.proto, row:130,
+       * </pre>
+       */
+      public Builder addRepDataQuoteBOrderSingle(
+          int index, com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle value) {
+        if (repDataQuoteBOrderSingleBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureRepDataQuoteBOrderSingleIsMutable();
+          repDataQuoteBOrderSingle_.add(index, value);
+          onChanged();
+        } else {
+          repDataQuoteBOrderSingleBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle RepDataQuoteBOrderSingle = 76;</code>
+       *
+       * <pre>
+       *In file:dzhoutput.proto, row:130,
+       * </pre>
+       */
+      public Builder addRepDataQuoteBOrderSingle(
+          com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.Builder builderForValue) {
+        if (repDataQuoteBOrderSingleBuilder_ == null) {
+          ensureRepDataQuoteBOrderSingleIsMutable();
+          repDataQuoteBOrderSingle_.add(builderForValue.build());
+          onChanged();
+        } else {
+          repDataQuoteBOrderSingleBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle RepDataQuoteBOrderSingle = 76;</code>
+       *
+       * <pre>
+       *In file:dzhoutput.proto, row:130,
+       * </pre>
+       */
+      public Builder addRepDataQuoteBOrderSingle(
+          int index, com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.Builder builderForValue) {
+        if (repDataQuoteBOrderSingleBuilder_ == null) {
+          ensureRepDataQuoteBOrderSingleIsMutable();
+          repDataQuoteBOrderSingle_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          repDataQuoteBOrderSingleBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle RepDataQuoteBOrderSingle = 76;</code>
+       *
+       * <pre>
+       *In file:dzhoutput.proto, row:130,
+       * </pre>
+       */
+      public Builder addAllRepDataQuoteBOrderSingle(
+          java.lang.Iterable<? extends com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle> values) {
+        if (repDataQuoteBOrderSingleBuilder_ == null) {
+          ensureRepDataQuoteBOrderSingleIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, repDataQuoteBOrderSingle_);
+          onChanged();
+        } else {
+          repDataQuoteBOrderSingleBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle RepDataQuoteBOrderSingle = 76;</code>
+       *
+       * <pre>
+       *In file:dzhoutput.proto, row:130,
+       * </pre>
+       */
+      public Builder clearRepDataQuoteBOrderSingle() {
+        if (repDataQuoteBOrderSingleBuilder_ == null) {
+          repDataQuoteBOrderSingle_ = java.util.Collections.emptyList();
+          bitField1_ = (bitField1_ & ~0x10000000);
+          onChanged();
+        } else {
+          repDataQuoteBOrderSingleBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle RepDataQuoteBOrderSingle = 76;</code>
+       *
+       * <pre>
+       *In file:dzhoutput.proto, row:130,
+       * </pre>
+       */
+      public Builder removeRepDataQuoteBOrderSingle(int index) {
+        if (repDataQuoteBOrderSingleBuilder_ == null) {
+          ensureRepDataQuoteBOrderSingleIsMutable();
+          repDataQuoteBOrderSingle_.remove(index);
+          onChanged();
+        } else {
+          repDataQuoteBOrderSingleBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle RepDataQuoteBOrderSingle = 76;</code>
+       *
+       * <pre>
+       *In file:dzhoutput.proto, row:130,
+       * </pre>
+       */
+      public com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.Builder getRepDataQuoteBOrderSingleBuilder(
+          int index) {
+        return getRepDataQuoteBOrderSingleFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle RepDataQuoteBOrderSingle = 76;</code>
+       *
+       * <pre>
+       *In file:dzhoutput.proto, row:130,
+       * </pre>
+       */
+      public com.dzhyun.proto.Dzhoutput.QuoteBOrderSingleOrBuilder getRepDataQuoteBOrderSingleOrBuilder(
+          int index) {
+        if (repDataQuoteBOrderSingleBuilder_ == null) {
+          return repDataQuoteBOrderSingle_.get(index);  } else {
+          return repDataQuoteBOrderSingleBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle RepDataQuoteBOrderSingle = 76;</code>
+       *
+       * <pre>
+       *In file:dzhoutput.proto, row:130,
+       * </pre>
+       */
+      public java.util.List<? extends com.dzhyun.proto.Dzhoutput.QuoteBOrderSingleOrBuilder> 
+           getRepDataQuoteBOrderSingleOrBuilderList() {
+        if (repDataQuoteBOrderSingleBuilder_ != null) {
+          return repDataQuoteBOrderSingleBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(repDataQuoteBOrderSingle_);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle RepDataQuoteBOrderSingle = 76;</code>
+       *
+       * <pre>
+       *In file:dzhoutput.proto, row:130,
+       * </pre>
+       */
+      public com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.Builder addRepDataQuoteBOrderSingleBuilder() {
+        return getRepDataQuoteBOrderSingleFieldBuilder().addBuilder(
+            com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle RepDataQuoteBOrderSingle = 76;</code>
+       *
+       * <pre>
+       *In file:dzhoutput.proto, row:130,
+       * </pre>
+       */
+      public com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.Builder addRepDataQuoteBOrderSingleBuilder(
+          int index) {
+        return getRepDataQuoteBOrderSingleFieldBuilder().addBuilder(
+            index, com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.QuoteBOrderSingle RepDataQuoteBOrderSingle = 76;</code>
+       *
+       * <pre>
+       *In file:dzhoutput.proto, row:130,
+       * </pre>
+       */
+      public java.util.List<com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.Builder> 
+           getRepDataQuoteBOrderSingleBuilderList() {
+        return getRepDataQuoteBOrderSingleFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle, com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.Builder, com.dzhyun.proto.Dzhoutput.QuoteBOrderSingleOrBuilder> 
+          getRepDataQuoteBOrderSingleFieldBuilder() {
+        if (repDataQuoteBOrderSingleBuilder_ == null) {
+          repDataQuoteBOrderSingleBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle, com.dzhyun.proto.Dzhoutput.QuoteBOrderSingle.Builder, com.dzhyun.proto.Dzhoutput.QuoteBOrderSingleOrBuilder>(
+                  repDataQuoteBOrderSingle_,
+                  ((bitField1_ & 0x10000000) == 0x10000000),
+                  getParentForChildren(),
+                  isClean());
+          repDataQuoteBOrderSingle_ = null;
+        }
+        return repDataQuoteBOrderSingleBuilder_;
+      }
+
+      private java.util.List<com.dzhyun.proto.DzhyunDxspirit.DXSpirit> repDataDXSpirit_ =
+        java.util.Collections.emptyList();
+      private void ensureRepDataDXSpiritIsMutable() {
+        if (!((bitField1_ & 0x20000000) == 0x20000000)) {
+          repDataDXSpirit_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunDxspirit.DXSpirit>(repDataDXSpirit_);
+          bitField1_ |= 0x20000000;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.DzhyunDxspirit.DXSpirit, com.dzhyun.proto.DzhyunDxspirit.DXSpirit.Builder, com.dzhyun.proto.DzhyunDxspirit.DXSpiritOrBuilder> repDataDXSpiritBuilder_;
+
+      /**
+       * <code>repeated .dzhyun.DXSpirit RepDataDXSpirit = 77;</code>
+       *
+       * <pre>
+       *In file:dzhyun.dxspirit.proto, row:9,
+       * </pre>
+       */
+      public java.util.List<com.dzhyun.proto.DzhyunDxspirit.DXSpirit> getRepDataDXSpiritList() {
+        if (repDataDXSpiritBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(repDataDXSpirit_);
+        } else {
+          return repDataDXSpiritBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.DXSpirit RepDataDXSpirit = 77;</code>
+       *
+       * <pre>
+       *In file:dzhyun.dxspirit.proto, row:9,
+       * </pre>
+       */
+      public int getRepDataDXSpiritCount() {
+        if (repDataDXSpiritBuilder_ == null) {
+          return repDataDXSpirit_.size();
+        } else {
+          return repDataDXSpiritBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.DXSpirit RepDataDXSpirit = 77;</code>
+       *
+       * <pre>
+       *In file:dzhyun.dxspirit.proto, row:9,
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhyunDxspirit.DXSpirit getRepDataDXSpirit(int index) {
+        if (repDataDXSpiritBuilder_ == null) {
+          return repDataDXSpirit_.get(index);
+        } else {
+          return repDataDXSpiritBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.DXSpirit RepDataDXSpirit = 77;</code>
+       *
+       * <pre>
+       *In file:dzhyun.dxspirit.proto, row:9,
+       * </pre>
+       */
+      public Builder setRepDataDXSpirit(
+          int index, com.dzhyun.proto.DzhyunDxspirit.DXSpirit value) {
+        if (repDataDXSpiritBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureRepDataDXSpiritIsMutable();
+          repDataDXSpirit_.set(index, value);
+          onChanged();
+        } else {
+          repDataDXSpiritBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.DXSpirit RepDataDXSpirit = 77;</code>
+       *
+       * <pre>
+       *In file:dzhyun.dxspirit.proto, row:9,
+       * </pre>
+       */
+      public Builder setRepDataDXSpirit(
+          int index, com.dzhyun.proto.DzhyunDxspirit.DXSpirit.Builder builderForValue) {
+        if (repDataDXSpiritBuilder_ == null) {
+          ensureRepDataDXSpiritIsMutable();
+          repDataDXSpirit_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          repDataDXSpiritBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.DXSpirit RepDataDXSpirit = 77;</code>
+       *
+       * <pre>
+       *In file:dzhyun.dxspirit.proto, row:9,
+       * </pre>
+       */
+      public Builder addRepDataDXSpirit(com.dzhyun.proto.DzhyunDxspirit.DXSpirit value) {
+        if (repDataDXSpiritBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureRepDataDXSpiritIsMutable();
+          repDataDXSpirit_.add(value);
+          onChanged();
+        } else {
+          repDataDXSpiritBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.DXSpirit RepDataDXSpirit = 77;</code>
+       *
+       * <pre>
+       *In file:dzhyun.dxspirit.proto, row:9,
+       * </pre>
+       */
+      public Builder addRepDataDXSpirit(
+          int index, com.dzhyun.proto.DzhyunDxspirit.DXSpirit value) {
+        if (repDataDXSpiritBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureRepDataDXSpiritIsMutable();
+          repDataDXSpirit_.add(index, value);
+          onChanged();
+        } else {
+          repDataDXSpiritBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.DXSpirit RepDataDXSpirit = 77;</code>
+       *
+       * <pre>
+       *In file:dzhyun.dxspirit.proto, row:9,
+       * </pre>
+       */
+      public Builder addRepDataDXSpirit(
+          com.dzhyun.proto.DzhyunDxspirit.DXSpirit.Builder builderForValue) {
+        if (repDataDXSpiritBuilder_ == null) {
+          ensureRepDataDXSpiritIsMutable();
+          repDataDXSpirit_.add(builderForValue.build());
+          onChanged();
+        } else {
+          repDataDXSpiritBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.DXSpirit RepDataDXSpirit = 77;</code>
+       *
+       * <pre>
+       *In file:dzhyun.dxspirit.proto, row:9,
+       * </pre>
+       */
+      public Builder addRepDataDXSpirit(
+          int index, com.dzhyun.proto.DzhyunDxspirit.DXSpirit.Builder builderForValue) {
+        if (repDataDXSpiritBuilder_ == null) {
+          ensureRepDataDXSpiritIsMutable();
+          repDataDXSpirit_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          repDataDXSpiritBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.DXSpirit RepDataDXSpirit = 77;</code>
+       *
+       * <pre>
+       *In file:dzhyun.dxspirit.proto, row:9,
+       * </pre>
+       */
+      public Builder addAllRepDataDXSpirit(
+          java.lang.Iterable<? extends com.dzhyun.proto.DzhyunDxspirit.DXSpirit> values) {
+        if (repDataDXSpiritBuilder_ == null) {
+          ensureRepDataDXSpiritIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, repDataDXSpirit_);
+          onChanged();
+        } else {
+          repDataDXSpiritBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.DXSpirit RepDataDXSpirit = 77;</code>
+       *
+       * <pre>
+       *In file:dzhyun.dxspirit.proto, row:9,
+       * </pre>
+       */
+      public Builder clearRepDataDXSpirit() {
+        if (repDataDXSpiritBuilder_ == null) {
+          repDataDXSpirit_ = java.util.Collections.emptyList();
+          bitField1_ = (bitField1_ & ~0x20000000);
+          onChanged();
+        } else {
+          repDataDXSpiritBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.DXSpirit RepDataDXSpirit = 77;</code>
+       *
+       * <pre>
+       *In file:dzhyun.dxspirit.proto, row:9,
+       * </pre>
+       */
+      public Builder removeRepDataDXSpirit(int index) {
+        if (repDataDXSpiritBuilder_ == null) {
+          ensureRepDataDXSpiritIsMutable();
+          repDataDXSpirit_.remove(index);
+          onChanged();
+        } else {
+          repDataDXSpiritBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.DXSpirit RepDataDXSpirit = 77;</code>
+       *
+       * <pre>
+       *In file:dzhyun.dxspirit.proto, row:9,
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhyunDxspirit.DXSpirit.Builder getRepDataDXSpiritBuilder(
+          int index) {
+        return getRepDataDXSpiritFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .dzhyun.DXSpirit RepDataDXSpirit = 77;</code>
+       *
+       * <pre>
+       *In file:dzhyun.dxspirit.proto, row:9,
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhyunDxspirit.DXSpiritOrBuilder getRepDataDXSpiritOrBuilder(
+          int index) {
+        if (repDataDXSpiritBuilder_ == null) {
+          return repDataDXSpirit_.get(index);  } else {
+          return repDataDXSpiritBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.DXSpirit RepDataDXSpirit = 77;</code>
+       *
+       * <pre>
+       *In file:dzhyun.dxspirit.proto, row:9,
+       * </pre>
+       */
+      public java.util.List<? extends com.dzhyun.proto.DzhyunDxspirit.DXSpiritOrBuilder> 
+           getRepDataDXSpiritOrBuilderList() {
+        if (repDataDXSpiritBuilder_ != null) {
+          return repDataDXSpiritBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(repDataDXSpirit_);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.DXSpirit RepDataDXSpirit = 77;</code>
+       *
+       * <pre>
+       *In file:dzhyun.dxspirit.proto, row:9,
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhyunDxspirit.DXSpirit.Builder addRepDataDXSpiritBuilder() {
+        return getRepDataDXSpiritFieldBuilder().addBuilder(
+            com.dzhyun.proto.DzhyunDxspirit.DXSpirit.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.DXSpirit RepDataDXSpirit = 77;</code>
+       *
+       * <pre>
+       *In file:dzhyun.dxspirit.proto, row:9,
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhyunDxspirit.DXSpirit.Builder addRepDataDXSpiritBuilder(
+          int index) {
+        return getRepDataDXSpiritFieldBuilder().addBuilder(
+            index, com.dzhyun.proto.DzhyunDxspirit.DXSpirit.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.DXSpirit RepDataDXSpirit = 77;</code>
+       *
+       * <pre>
+       *In file:dzhyun.dxspirit.proto, row:9,
+       * </pre>
+       */
+      public java.util.List<com.dzhyun.proto.DzhyunDxspirit.DXSpirit.Builder> 
+           getRepDataDXSpiritBuilderList() {
+        return getRepDataDXSpiritFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.DzhyunDxspirit.DXSpirit, com.dzhyun.proto.DzhyunDxspirit.DXSpirit.Builder, com.dzhyun.proto.DzhyunDxspirit.DXSpiritOrBuilder> 
+          getRepDataDXSpiritFieldBuilder() {
+        if (repDataDXSpiritBuilder_ == null) {
+          repDataDXSpiritBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              com.dzhyun.proto.DzhyunDxspirit.DXSpirit, com.dzhyun.proto.DzhyunDxspirit.DXSpirit.Builder, com.dzhyun.proto.DzhyunDxspirit.DXSpiritOrBuilder>(
+                  repDataDXSpirit_,
+                  ((bitField1_ & 0x20000000) == 0x20000000),
+                  getParentForChildren(),
+                  isClean());
+          repDataDXSpirit_ = null;
+        }
+        return repDataDXSpiritBuilder_;
+      }
+
+      private java.util.List<com.dzhyun.proto.DzhyunStockpool.StkPoolOuput> repDataStkPoolOuput_ =
+        java.util.Collections.emptyList();
+      private void ensureRepDataStkPoolOuputIsMutable() {
+        if (!((bitField1_ & 0x40000000) == 0x40000000)) {
+          repDataStkPoolOuput_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunStockpool.StkPoolOuput>(repDataStkPoolOuput_);
+          bitField1_ |= 0x40000000;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.DzhyunStockpool.StkPoolOuput, com.dzhyun.proto.DzhyunStockpool.StkPoolOuput.Builder, com.dzhyun.proto.DzhyunStockpool.StkPoolOuputOrBuilder> repDataStkPoolOuputBuilder_;
+
+      /**
+       * <code>repeated .dzhyun.StkPoolOuput RepDataStkPoolOuput = 78;</code>
+       *
+       * <pre>
+       *In file:dzhyun.stockpool.proto, row:15,
+       * </pre>
+       */
+      public java.util.List<com.dzhyun.proto.DzhyunStockpool.StkPoolOuput> getRepDataStkPoolOuputList() {
+        if (repDataStkPoolOuputBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(repDataStkPoolOuput_);
+        } else {
+          return repDataStkPoolOuputBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.StkPoolOuput RepDataStkPoolOuput = 78;</code>
+       *
+       * <pre>
+       *In file:dzhyun.stockpool.proto, row:15,
+       * </pre>
+       */
+      public int getRepDataStkPoolOuputCount() {
+        if (repDataStkPoolOuputBuilder_ == null) {
+          return repDataStkPoolOuput_.size();
+        } else {
+          return repDataStkPoolOuputBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.StkPoolOuput RepDataStkPoolOuput = 78;</code>
+       *
+       * <pre>
+       *In file:dzhyun.stockpool.proto, row:15,
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhyunStockpool.StkPoolOuput getRepDataStkPoolOuput(int index) {
+        if (repDataStkPoolOuputBuilder_ == null) {
+          return repDataStkPoolOuput_.get(index);
+        } else {
+          return repDataStkPoolOuputBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.StkPoolOuput RepDataStkPoolOuput = 78;</code>
+       *
+       * <pre>
+       *In file:dzhyun.stockpool.proto, row:15,
+       * </pre>
+       */
+      public Builder setRepDataStkPoolOuput(
+          int index, com.dzhyun.proto.DzhyunStockpool.StkPoolOuput value) {
+        if (repDataStkPoolOuputBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureRepDataStkPoolOuputIsMutable();
+          repDataStkPoolOuput_.set(index, value);
+          onChanged();
+        } else {
+          repDataStkPoolOuputBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.StkPoolOuput RepDataStkPoolOuput = 78;</code>
+       *
+       * <pre>
+       *In file:dzhyun.stockpool.proto, row:15,
+       * </pre>
+       */
+      public Builder setRepDataStkPoolOuput(
+          int index, com.dzhyun.proto.DzhyunStockpool.StkPoolOuput.Builder builderForValue) {
+        if (repDataStkPoolOuputBuilder_ == null) {
+          ensureRepDataStkPoolOuputIsMutable();
+          repDataStkPoolOuput_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          repDataStkPoolOuputBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.StkPoolOuput RepDataStkPoolOuput = 78;</code>
+       *
+       * <pre>
+       *In file:dzhyun.stockpool.proto, row:15,
+       * </pre>
+       */
+      public Builder addRepDataStkPoolOuput(com.dzhyun.proto.DzhyunStockpool.StkPoolOuput value) {
+        if (repDataStkPoolOuputBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureRepDataStkPoolOuputIsMutable();
+          repDataStkPoolOuput_.add(value);
+          onChanged();
+        } else {
+          repDataStkPoolOuputBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.StkPoolOuput RepDataStkPoolOuput = 78;</code>
+       *
+       * <pre>
+       *In file:dzhyun.stockpool.proto, row:15,
+       * </pre>
+       */
+      public Builder addRepDataStkPoolOuput(
+          int index, com.dzhyun.proto.DzhyunStockpool.StkPoolOuput value) {
+        if (repDataStkPoolOuputBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureRepDataStkPoolOuputIsMutable();
+          repDataStkPoolOuput_.add(index, value);
+          onChanged();
+        } else {
+          repDataStkPoolOuputBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.StkPoolOuput RepDataStkPoolOuput = 78;</code>
+       *
+       * <pre>
+       *In file:dzhyun.stockpool.proto, row:15,
+       * </pre>
+       */
+      public Builder addRepDataStkPoolOuput(
+          com.dzhyun.proto.DzhyunStockpool.StkPoolOuput.Builder builderForValue) {
+        if (repDataStkPoolOuputBuilder_ == null) {
+          ensureRepDataStkPoolOuputIsMutable();
+          repDataStkPoolOuput_.add(builderForValue.build());
+          onChanged();
+        } else {
+          repDataStkPoolOuputBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.StkPoolOuput RepDataStkPoolOuput = 78;</code>
+       *
+       * <pre>
+       *In file:dzhyun.stockpool.proto, row:15,
+       * </pre>
+       */
+      public Builder addRepDataStkPoolOuput(
+          int index, com.dzhyun.proto.DzhyunStockpool.StkPoolOuput.Builder builderForValue) {
+        if (repDataStkPoolOuputBuilder_ == null) {
+          ensureRepDataStkPoolOuputIsMutable();
+          repDataStkPoolOuput_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          repDataStkPoolOuputBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.StkPoolOuput RepDataStkPoolOuput = 78;</code>
+       *
+       * <pre>
+       *In file:dzhyun.stockpool.proto, row:15,
+       * </pre>
+       */
+      public Builder addAllRepDataStkPoolOuput(
+          java.lang.Iterable<? extends com.dzhyun.proto.DzhyunStockpool.StkPoolOuput> values) {
+        if (repDataStkPoolOuputBuilder_ == null) {
+          ensureRepDataStkPoolOuputIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, repDataStkPoolOuput_);
+          onChanged();
+        } else {
+          repDataStkPoolOuputBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.StkPoolOuput RepDataStkPoolOuput = 78;</code>
+       *
+       * <pre>
+       *In file:dzhyun.stockpool.proto, row:15,
+       * </pre>
+       */
+      public Builder clearRepDataStkPoolOuput() {
+        if (repDataStkPoolOuputBuilder_ == null) {
+          repDataStkPoolOuput_ = java.util.Collections.emptyList();
+          bitField1_ = (bitField1_ & ~0x40000000);
+          onChanged();
+        } else {
+          repDataStkPoolOuputBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.StkPoolOuput RepDataStkPoolOuput = 78;</code>
+       *
+       * <pre>
+       *In file:dzhyun.stockpool.proto, row:15,
+       * </pre>
+       */
+      public Builder removeRepDataStkPoolOuput(int index) {
+        if (repDataStkPoolOuputBuilder_ == null) {
+          ensureRepDataStkPoolOuputIsMutable();
+          repDataStkPoolOuput_.remove(index);
+          onChanged();
+        } else {
+          repDataStkPoolOuputBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.StkPoolOuput RepDataStkPoolOuput = 78;</code>
+       *
+       * <pre>
+       *In file:dzhyun.stockpool.proto, row:15,
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhyunStockpool.StkPoolOuput.Builder getRepDataStkPoolOuputBuilder(
+          int index) {
+        return getRepDataStkPoolOuputFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .dzhyun.StkPoolOuput RepDataStkPoolOuput = 78;</code>
+       *
+       * <pre>
+       *In file:dzhyun.stockpool.proto, row:15,
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhyunStockpool.StkPoolOuputOrBuilder getRepDataStkPoolOuputOrBuilder(
+          int index) {
+        if (repDataStkPoolOuputBuilder_ == null) {
+          return repDataStkPoolOuput_.get(index);  } else {
+          return repDataStkPoolOuputBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.StkPoolOuput RepDataStkPoolOuput = 78;</code>
+       *
+       * <pre>
+       *In file:dzhyun.stockpool.proto, row:15,
+       * </pre>
+       */
+      public java.util.List<? extends com.dzhyun.proto.DzhyunStockpool.StkPoolOuputOrBuilder> 
+           getRepDataStkPoolOuputOrBuilderList() {
+        if (repDataStkPoolOuputBuilder_ != null) {
+          return repDataStkPoolOuputBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(repDataStkPoolOuput_);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.StkPoolOuput RepDataStkPoolOuput = 78;</code>
+       *
+       * <pre>
+       *In file:dzhyun.stockpool.proto, row:15,
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhyunStockpool.StkPoolOuput.Builder addRepDataStkPoolOuputBuilder() {
+        return getRepDataStkPoolOuputFieldBuilder().addBuilder(
+            com.dzhyun.proto.DzhyunStockpool.StkPoolOuput.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.StkPoolOuput RepDataStkPoolOuput = 78;</code>
+       *
+       * <pre>
+       *In file:dzhyun.stockpool.proto, row:15,
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhyunStockpool.StkPoolOuput.Builder addRepDataStkPoolOuputBuilder(
+          int index) {
+        return getRepDataStkPoolOuputFieldBuilder().addBuilder(
+            index, com.dzhyun.proto.DzhyunStockpool.StkPoolOuput.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.StkPoolOuput RepDataStkPoolOuput = 78;</code>
+       *
+       * <pre>
+       *In file:dzhyun.stockpool.proto, row:15,
+       * </pre>
+       */
+      public java.util.List<com.dzhyun.proto.DzhyunStockpool.StkPoolOuput.Builder> 
+           getRepDataStkPoolOuputBuilderList() {
+        return getRepDataStkPoolOuputFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.DzhyunStockpool.StkPoolOuput, com.dzhyun.proto.DzhyunStockpool.StkPoolOuput.Builder, com.dzhyun.proto.DzhyunStockpool.StkPoolOuputOrBuilder> 
+          getRepDataStkPoolOuputFieldBuilder() {
+        if (repDataStkPoolOuputBuilder_ == null) {
+          repDataStkPoolOuputBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              com.dzhyun.proto.DzhyunStockpool.StkPoolOuput, com.dzhyun.proto.DzhyunStockpool.StkPoolOuput.Builder, com.dzhyun.proto.DzhyunStockpool.StkPoolOuputOrBuilder>(
+                  repDataStkPoolOuput_,
+                  ((bitField1_ & 0x40000000) == 0x40000000),
+                  getParentForChildren(),
+                  isClean());
+          repDataStkPoolOuput_ = null;
+        }
+        return repDataStkPoolOuputBuilder_;
+      }
+
+      private java.util.List<dzhyun.CldEventNewsShuJu.EventNews> repDataEventNews_ =
+        java.util.Collections.emptyList();
+      private void ensureRepDataEventNewsIsMutable() {
+        if (!((bitField1_ & 0x80000000) == 0x80000000)) {
+          repDataEventNews_ = new java.util.ArrayList<dzhyun.CldEventNewsShuJu.EventNews>(repDataEventNews_);
+          bitField1_ |= 0x80000000;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilder<
+          dzhyun.CldEventNewsShuJu.EventNews, dzhyun.CldEventNewsShuJu.EventNews.Builder, dzhyun.CldEventNewsShuJu.EventNewsOrBuilder> repDataEventNewsBuilder_;
+
+      /**
+       * <code>repeated .dzhyun.EventNews RepDataEventNews = 79;</code>
+       *
+       * <pre>
+       *In file:CldEventNewsShuJu.proto, row:3,
+       * </pre>
+       */
+      public java.util.List<dzhyun.CldEventNewsShuJu.EventNews> getRepDataEventNewsList() {
+        if (repDataEventNewsBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(repDataEventNews_);
+        } else {
+          return repDataEventNewsBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.EventNews RepDataEventNews = 79;</code>
+       *
+       * <pre>
+       *In file:CldEventNewsShuJu.proto, row:3,
+       * </pre>
+       */
+      public int getRepDataEventNewsCount() {
+        if (repDataEventNewsBuilder_ == null) {
+          return repDataEventNews_.size();
+        } else {
+          return repDataEventNewsBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.EventNews RepDataEventNews = 79;</code>
+       *
+       * <pre>
+       *In file:CldEventNewsShuJu.proto, row:3,
+       * </pre>
+       */
+      public dzhyun.CldEventNewsShuJu.EventNews getRepDataEventNews(int index) {
+        if (repDataEventNewsBuilder_ == null) {
+          return repDataEventNews_.get(index);
+        } else {
+          return repDataEventNewsBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.EventNews RepDataEventNews = 79;</code>
+       *
+       * <pre>
+       *In file:CldEventNewsShuJu.proto, row:3,
+       * </pre>
+       */
+      public Builder setRepDataEventNews(
+          int index, dzhyun.CldEventNewsShuJu.EventNews value) {
+        if (repDataEventNewsBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureRepDataEventNewsIsMutable();
+          repDataEventNews_.set(index, value);
+          onChanged();
+        } else {
+          repDataEventNewsBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.EventNews RepDataEventNews = 79;</code>
+       *
+       * <pre>
+       *In file:CldEventNewsShuJu.proto, row:3,
+       * </pre>
+       */
+      public Builder setRepDataEventNews(
+          int index, dzhyun.CldEventNewsShuJu.EventNews.Builder builderForValue) {
+        if (repDataEventNewsBuilder_ == null) {
+          ensureRepDataEventNewsIsMutable();
+          repDataEventNews_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          repDataEventNewsBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.EventNews RepDataEventNews = 79;</code>
+       *
+       * <pre>
+       *In file:CldEventNewsShuJu.proto, row:3,
+       * </pre>
+       */
+      public Builder addRepDataEventNews(dzhyun.CldEventNewsShuJu.EventNews value) {
+        if (repDataEventNewsBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureRepDataEventNewsIsMutable();
+          repDataEventNews_.add(value);
+          onChanged();
+        } else {
+          repDataEventNewsBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.EventNews RepDataEventNews = 79;</code>
+       *
+       * <pre>
+       *In file:CldEventNewsShuJu.proto, row:3,
+       * </pre>
+       */
+      public Builder addRepDataEventNews(
+          int index, dzhyun.CldEventNewsShuJu.EventNews value) {
+        if (repDataEventNewsBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureRepDataEventNewsIsMutable();
+          repDataEventNews_.add(index, value);
+          onChanged();
+        } else {
+          repDataEventNewsBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.EventNews RepDataEventNews = 79;</code>
+       *
+       * <pre>
+       *In file:CldEventNewsShuJu.proto, row:3,
+       * </pre>
+       */
+      public Builder addRepDataEventNews(
+          dzhyun.CldEventNewsShuJu.EventNews.Builder builderForValue) {
+        if (repDataEventNewsBuilder_ == null) {
+          ensureRepDataEventNewsIsMutable();
+          repDataEventNews_.add(builderForValue.build());
+          onChanged();
+        } else {
+          repDataEventNewsBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.EventNews RepDataEventNews = 79;</code>
+       *
+       * <pre>
+       *In file:CldEventNewsShuJu.proto, row:3,
+       * </pre>
+       */
+      public Builder addRepDataEventNews(
+          int index, dzhyun.CldEventNewsShuJu.EventNews.Builder builderForValue) {
+        if (repDataEventNewsBuilder_ == null) {
+          ensureRepDataEventNewsIsMutable();
+          repDataEventNews_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          repDataEventNewsBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.EventNews RepDataEventNews = 79;</code>
+       *
+       * <pre>
+       *In file:CldEventNewsShuJu.proto, row:3,
+       * </pre>
+       */
+      public Builder addAllRepDataEventNews(
+          java.lang.Iterable<? extends dzhyun.CldEventNewsShuJu.EventNews> values) {
+        if (repDataEventNewsBuilder_ == null) {
+          ensureRepDataEventNewsIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, repDataEventNews_);
+          onChanged();
+        } else {
+          repDataEventNewsBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.EventNews RepDataEventNews = 79;</code>
+       *
+       * <pre>
+       *In file:CldEventNewsShuJu.proto, row:3,
+       * </pre>
+       */
+      public Builder clearRepDataEventNews() {
+        if (repDataEventNewsBuilder_ == null) {
+          repDataEventNews_ = java.util.Collections.emptyList();
+          bitField1_ = (bitField1_ & ~0x80000000);
+          onChanged();
+        } else {
+          repDataEventNewsBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.EventNews RepDataEventNews = 79;</code>
+       *
+       * <pre>
+       *In file:CldEventNewsShuJu.proto, row:3,
+       * </pre>
+       */
+      public Builder removeRepDataEventNews(int index) {
+        if (repDataEventNewsBuilder_ == null) {
+          ensureRepDataEventNewsIsMutable();
+          repDataEventNews_.remove(index);
+          onChanged();
+        } else {
+          repDataEventNewsBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.EventNews RepDataEventNews = 79;</code>
+       *
+       * <pre>
+       *In file:CldEventNewsShuJu.proto, row:3,
+       * </pre>
+       */
+      public dzhyun.CldEventNewsShuJu.EventNews.Builder getRepDataEventNewsBuilder(
+          int index) {
+        return getRepDataEventNewsFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .dzhyun.EventNews RepDataEventNews = 79;</code>
+       *
+       * <pre>
+       *In file:CldEventNewsShuJu.proto, row:3,
+       * </pre>
+       */
+      public dzhyun.CldEventNewsShuJu.EventNewsOrBuilder getRepDataEventNewsOrBuilder(
+          int index) {
+        if (repDataEventNewsBuilder_ == null) {
+          return repDataEventNews_.get(index);  } else {
+          return repDataEventNewsBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.EventNews RepDataEventNews = 79;</code>
+       *
+       * <pre>
+       *In file:CldEventNewsShuJu.proto, row:3,
+       * </pre>
+       */
+      public java.util.List<? extends dzhyun.CldEventNewsShuJu.EventNewsOrBuilder> 
+           getRepDataEventNewsOrBuilderList() {
+        if (repDataEventNewsBuilder_ != null) {
+          return repDataEventNewsBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(repDataEventNews_);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.EventNews RepDataEventNews = 79;</code>
+       *
+       * <pre>
+       *In file:CldEventNewsShuJu.proto, row:3,
+       * </pre>
+       */
+      public dzhyun.CldEventNewsShuJu.EventNews.Builder addRepDataEventNewsBuilder() {
+        return getRepDataEventNewsFieldBuilder().addBuilder(
+            dzhyun.CldEventNewsShuJu.EventNews.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.EventNews RepDataEventNews = 79;</code>
+       *
+       * <pre>
+       *In file:CldEventNewsShuJu.proto, row:3,
+       * </pre>
+       */
+      public dzhyun.CldEventNewsShuJu.EventNews.Builder addRepDataEventNewsBuilder(
+          int index) {
+        return getRepDataEventNewsFieldBuilder().addBuilder(
+            index, dzhyun.CldEventNewsShuJu.EventNews.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.EventNews RepDataEventNews = 79;</code>
+       *
+       * <pre>
+       *In file:CldEventNewsShuJu.proto, row:3,
+       * </pre>
+       */
+      public java.util.List<dzhyun.CldEventNewsShuJu.EventNews.Builder> 
+           getRepDataEventNewsBuilderList() {
+        return getRepDataEventNewsFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          dzhyun.CldEventNewsShuJu.EventNews, dzhyun.CldEventNewsShuJu.EventNews.Builder, dzhyun.CldEventNewsShuJu.EventNewsOrBuilder> 
+          getRepDataEventNewsFieldBuilder() {
+        if (repDataEventNewsBuilder_ == null) {
+          repDataEventNewsBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              dzhyun.CldEventNewsShuJu.EventNews, dzhyun.CldEventNewsShuJu.EventNews.Builder, dzhyun.CldEventNewsShuJu.EventNewsOrBuilder>(
+                  repDataEventNews_,
+                  ((bitField1_ & 0x80000000) == 0x80000000),
+                  getParentForChildren(),
+                  isClean());
+          repDataEventNews_ = null;
+        }
+        return repDataEventNewsBuilder_;
       }
 
       // @@protoc_insertion_point(builder_scope:dzhyun.MSG)
@@ -26948,124 +30565,142 @@ public final class AutoMsg {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\tMSG.proto\022\006dzhyun\032\020dzhpbtable.proto\032\017d" +
-      "zhoutput.proto\032\021dzhNewsInfo.proto\032\032dzhyu" +
-      "n.zhibiaojisuan.proto\032\024dzhyun.zhibiao.pr" +
-      "oto\032\024dzhyun.stkdata.proto\032\022dzhyun.paixu." +
-      "proto\032\027dzhyun.jianpanbao.proto\032\027dzhyun.f" +
-      "enjijijin.proto\032\014dzhmsg.proto\032\017dzh.block" +
-      ".proto\032\022dzhselfstock.proto\032\014dzhapp.proto" +
-      "\032\016dzhtoken.proto\032\rdzhpriv.proto\032\022dzhyun." +
-      "alarm.proto\032\023dzhyun.advert.proto\032\027dzhyun" +
-      ".user.group.proto\032\026dzhyun.user.prop.prot",
-      "o\032\030dzhyun.topicinvest.proto\032\020dzhyun.f10." +
-      "proto\032\027CldForecastsShuJu.proto\032\020dzhdstok" +
-      "en.proto\"\243\027\n\003MSG\022\n\n\002Id\030\001 \002(\005\022\013\n\003Obj\030\002 \001(" +
-      "\t\022\032\n\003Tbl\030\003 \001(\0132\r.dzhyun.Table\0227\n\026RepData" +
-      "QuoteDynaSingle\030\024 \003(\0132\027.dzhyun.QuoteDyna" +
-      "Single\0229\n\027RepDataQuoteKlineSingle\030\025 \003(\0132" +
-      "\030.dzhyun.QuoteKlineSingle\0227\n\026RepDataQuot" +
-      "eTickSingle\030\026 \003(\0132\027.dzhyun.QuoteTickSing" +
-      "le\0225\n\025RepDataQuoteMinSingle\030\027 \003(\0132\026.dzhy" +
-      "un.QuoteMinSingle\0223\n\024RepDataNewsInfoValu",
-      "e\030\030 \003(\0132\025.dzhyun.NewsInfoValue\0223\n\024RepDat" +
-      "aZhiBiaoShuChu\030\031 \003(\0132\025.dzhyun.ZhiBiaoShu" +
-      "Chu\022\'\n\016RepDataZhiBiao\030\032 \003(\0132\017.dzhyun.Zhi" +
-      "Biao\022\'\n\016RepDataStkData\030\033 \003(\0132\017.dzhyun.St" +
-      "kData\022#\n\014RepDataPaiXu\030\034 \003(\0132\r.dzhyun.Pai" +
-      "Xu\0229\n\027RepDataJianPanBaoShuChu\030\035 \003(\0132\030.dz" +
-      "hyun.JianPanBaoShuChu\022-\n\021RepDataFenJiJiJ" +
-      "in\030\036 \003(\0132\022.dzhyun.FenJiJiJin\0221\n\023RepDataM" +
-      "sgGetOutput\030\037 \003(\0132\024.dzhyun.MsgGetOutput\022" +
-      "1\n\023RepDataMsgPutOutput\030  \003(\0132\024.dzhyun.Ms",
-      "gPutOutput\0225\n\025RepDataBlockObjOutput\030! \003(" +
-      "\0132\026.dzhyun.BlockObjOutput\0227\n\026RepDataBloc" +
-      "kPropOutput\030\" \003(\0132\027.dzhyun.BlockPropOutp" +
-      "ut\022=\n\031RepDataSelfStockGetOutput\030# \003(\0132\032." +
-      "dzhyun.SelfStockGetOutput\022=\n\031RepDataSelf" +
-      "StockPutOutput\030$ \003(\0132\032.dzhyun.SelfStockP" +
-      "utOutput\022%\n\rRepDataAppKey\030% \003(\0132\016.dzhyun" +
-      ".AppKey\022\'\n\016RepDataAppInfo\030& \003(\0132\017.dzhyun" +
-      ".AppInfo\022)\n\017RepDataAppValue\030\' \003(\0132\020.dzhy" +
-      "un.AppValue\022/\n\022RepDataServiceAuth\030( \003(\0132",
-      "\023.dzhyun.ServiceAuth\0225\n\025RepDataAppServic" +
-      "eAuth\030) \003(\0132\026.dzhyun.AppServiceAuth\022+\n\020R" +
-      "epDataTokenAuth\030* \003(\0132\021.dzhyun.TokenAuth" +
-      "\0223\n\024RepDataAccOpResponse\030+ \003(\0132\025.dzhyun." +
-      "AccOpResponse\022#\n\014RepDataToken\030, \003(\0132\r.dz" +
-      "hyun.Token\022+\n\020RepDataPrivilege\030- \003(\0132\021.d" +
-      "zhyun.Privilege\022-\n\021RepDataAlarmEvent\030. \003" +
-      "(\0132\022.dzhyun.AlarmEvent\022+\n\020RepDataAlarmTa" +
-      "sk\030/ \003(\0132\021.dzhyun.AlarmTask\0223\n\024RepDataAD" +
-      "PutResponse\0300 \003(\0132\025.dzhyun.ADPutResponse",
-      "\0223\n\024RepDataADGetResponse\0301 \003(\0132\025.dzhyun." +
-      "ADGetResponse\022+\n\020RepDataUserGroup\0302 \003(\0132" +
-      "\021.dzhyun.UserGroup\022;\n\030RepDataUserGroupRe" +
-      "sponse\0303 \003(\0132\031.dzhyun.UserGroupResponse\022" +
-      "9\n\027RepDataUserPropsMessage\0304 \003(\0132\030.dzhyu" +
-      "n.UserPropsMessage\022/\n\022RepDataTopicInvest" +
-      "\0305 \003(\0132\023.dzhyun.TopicInvest\022=\n\031RepDataTo" +
-      "picInvestHistory\0306 \003(\0132\032.dzhyun.TopicInv" +
-      "estHistory\0223\n\024RepDataF10GsgkOutput\0307 \003(\013" +
-      "2\025.dzhyun.F10GsgkOutput\022?\n\032RepDataF10Cwt",
-      "sZycwzbOutput\0308 \003(\0132\033.dzhyun.F10CwtsZycw" +
-      "zbOutput\022A\n\033RepDataF10CwtsXjllbzyOutput\030" +
-      "9 \003(\0132\034.dzhyun.F10CwtsXjllbzyOutput\022A\n\033R" +
-      "epDataF10ZxjbDjdcwzbOutput\030: \003(\0132\034.dzhyu" +
-      "n.F10ZxjbDjdcwzbOutput\022?\n\032RepDataF10Zxjb" +
-      "djdlebOutput\030; \003(\0132\033.dzhyun.F10Zxjbdjdle" +
-      "bOutput\022;\n\030RepDataF10GdjcGdhsOutput\030< \003(" +
-      "\0132\031.dzhyun.F10GdjcGdhsOutput\022;\n\030RepDataF" +
-      "10GdjcSdgdOutput\030= \003(\0132\031.dzhyun.F10GdjcS" +
-      "dgdOutput\022?\n\032RepDataF10GdjcSdltgdOutput\030",
-      "> \003(\0132\033.dzhyun.F10GdjcSdltgdOutput\022;\n\030Re" +
-      "pDataF10GbfhFhkgOutput\030? \003(\0132\031.dzhyun.F1" +
-      "0GbfhFhkgOutput\022;\n\030RepDataF10GbfhGbjgOut" +
-      "put\030@ \003(\0132\031.dzhyun.F10GbfhGbjgOutput\022;\n\030" +
-      "RepDataXinWenXinXiOutput\030A \003(\0132\031.dzhyun." +
-      "XinWenXinXiOutput\022K\n RepDataXinWenXinXiZ" +
-      "hongXinOutput\030B \003(\0132!.dzhyun.XinWenXinXi" +
-      "ZhongXinOutput\0227\n\026RepDataTopicInvestInfo" +
-      "\030C \003(\0132\027.dzhyun.TopicInvestInfo\022E\n\035RepDa" +
-      "taYiZhiXinYeJiYuCeOutPut\030D \003(\0132\036.dzhyun.",
-      "YiZhiXinYeJiYuCeOutPut\022I\n\037RepDataYiZhiXi" +
-      "nTouZiPinJiOutPut\030E \003(\0132 .dzhyun.YiZhiXi" +
-      "nTouZiPinJiOutPut\022=\n\031RepDataGeGuYeJiYuCe" +
-      "OutPut\030F \003(\0132\032.dzhyun.GeGuYeJiYuCeOutPut" +
-      "\022C\n\034RepDataGeGuTouZiYanBaoOutPut\030G \003(\0132\035" +
-      ".dzhyun.GeGuTouZiYanBaoOutPut\022\'\n\016RepData" +
-      "DSToken\030H \003(\0132\017.dzhyun.DSToken*\271\t\n\006EnumI" +
-      "D\022\010\n\004IDId\020\001\022\t\n\005IDObj\020\002\022\t\n\005IDTbl\020\003\022\025\n\021IDQ" +
-      "uoteDynaSingle\020\024\022\026\n\022IDQuoteKlineSingle\020\025" +
-      "\022\025\n\021IDQuoteTickSingle\020\026\022\024\n\020IDQuoteMinSin",
-      "gle\020\027\022\023\n\017IDNewsInfoValue\020\030\022\023\n\017IDZhiBiaoS" +
-      "huChu\020\031\022\r\n\tIDZhiBiao\020\032\022\r\n\tIDStkData\020\033\022\013\n" +
-      "\007IDPaiXu\020\034\022\026\n\022IDJianPanBaoShuChu\020\035\022\020\n\014ID" +
-      "FenJiJiJin\020\036\022\022\n\016IDMsgGetOutput\020\037\022\022\n\016IDMs" +
-      "gPutOutput\020 \022\024\n\020IDBlockObjOutput\020!\022\025\n\021ID" +
-      "BlockPropOutput\020\"\022\030\n\024IDSelfStockGetOutpu" +
-      "t\020#\022\030\n\024IDSelfStockPutOutput\020$\022\014\n\010IDAppKe" +
-      "y\020%\022\r\n\tIDAppInfo\020&\022\016\n\nIDAppValue\020\'\022\021\n\rID" +
-      "ServiceAuth\020(\022\024\n\020IDAppServiceAuth\020)\022\017\n\013I" +
-      "DTokenAuth\020*\022\023\n\017IDAccOpResponse\020+\022\013\n\007IDT",
-      "oken\020,\022\017\n\013IDPrivilege\020-\022\020\n\014IDAlarmEvent\020" +
-      ".\022\017\n\013IDAlarmTask\020/\022\023\n\017IDADPutResponse\0200\022" +
-      "\023\n\017IDADGetResponse\0201\022\017\n\013IDUserGroup\0202\022\027\n" +
-      "\023IDUserGroupResponse\0203\022\026\n\022IDUserPropsMes" +
-      "sage\0204\022\021\n\rIDTopicInvest\0205\022\030\n\024IDTopicInve" +
-      "stHistory\0206\022\023\n\017IDF10GsgkOutput\0207\022\031\n\025IDF1" +
-      "0CwtsZycwzbOutput\0208\022\032\n\026IDF10CwtsXjllbzyO" +
-      "utput\0209\022\032\n\026IDF10ZxjbDjdcwzbOutput\020:\022\031\n\025I" +
-      "DF10ZxjbdjdlebOutput\020;\022\027\n\023IDF10GdjcGdhsO" +
-      "utput\020<\022\027\n\023IDF10GdjcSdgdOutput\020=\022\031\n\025IDF1",
-      "0GdjcSdltgdOutput\020>\022\027\n\023IDF10GbfhFhkgOutp" +
-      "ut\020?\022\027\n\023IDF10GbfhGbjgOutput\020@\022\027\n\023IDXinWe" +
-      "nXinXiOutput\020A\022\037\n\033IDXinWenXinXiZhongXinO" +
-      "utput\020B\022\025\n\021IDTopicInvestInfo\020C\022\034\n\030IDYiZh" +
-      "iXinYeJiYuCeOutPut\020D\022\036\n\032IDYiZhiXinTouZiP" +
-      "inJiOutPut\020E\022\030\n\024IDGeGuYeJiYuCeOutPut\020F\022\033" +
-      "\n\027IDGeGuTouZiYanBaoOutPut\020G\022\r\n\tIDDSToken" +
-      "\020HB\033\n\020com.dzhyun.protoB\007AutoMsg"
+      "\n\tMSG.proto\022\006dzhyun\032\020dzhpbtable.proto\032\026d" +
+      "zhyun.user.prop.proto\032\032dzhyun.zhibiaojis" +
+      "uan.proto\032\020dzhdstoken.proto\032\024dzhyun.stkd" +
+      "ata.proto\032\020dzhyun.f10.proto\032\024dzhyun.zhib" +
+      "iao.proto\032\022dzhyun.alarm.proto\032\017dzh.block" +
+      ".proto\032\017dzhoutput.proto\032\027dzhyun.jianpanb" +
+      "ao.proto\032\023dzhyun.advert.proto\032\030dzhyun.to" +
+      "picinvest.proto\032\034dzh.message.ch.subtype." +
+      "proto\032\027dzhyun.fenjijijin.proto\032\016dzhtoken" +
+      ".proto\032\022dzhyun.paixu.proto\032\021dzhNewsInfo.",
+      "proto\032\022dzhselfstock.proto\032\014dzhapp.proto\032" +
+      "\014dzhmsg.proto\032\027dzhyun.user.group.proto\032\r" +
+      "dzhpriv.proto\032\027CldForecastsShuJu.proto\032\034" +
+      "dzhyun.blockstatistics.proto\032\031dzhyun.use" +
+      "r.getprop.proto\032\025dzhyun.dxspirit.proto\032\026" +
+      "dzhyun.stockpool.proto\032\027CldEventNewsShuJ" +
+      "u.proto\"\257\032\n\003MSG\022\n\n\002Id\030\001 \002(\005\022\013\n\003Obj\030\002 \001(\t" +
+      "\022\032\n\003Tbl\030\003 \001(\0132\r.dzhyun.Table\022\017\n\007JsonTbl\030" +
+      "\004 \001(\t\0227\n\026RepDataQuoteDynaSingle\030\024 \003(\0132\027." +
+      "dzhyun.QuoteDynaSingle\0229\n\027RepDataQuoteKl",
+      "ineSingle\030\025 \003(\0132\030.dzhyun.QuoteKlineSingl" +
+      "e\0227\n\026RepDataQuoteTickSingle\030\026 \003(\0132\027.dzhy" +
+      "un.QuoteTickSingle\0225\n\025RepDataQuoteMinSin" +
+      "gle\030\027 \003(\0132\026.dzhyun.QuoteMinSingle\0223\n\024Rep" +
+      "DataNewsInfoValue\030\030 \003(\0132\025.dzhyun.NewsInf" +
+      "oValue\0223\n\024RepDataZhiBiaoShuChu\030\031 \003(\0132\025.d" +
+      "zhyun.ZhiBiaoShuChu\022\'\n\016RepDataZhiBiao\030\032 " +
+      "\003(\0132\017.dzhyun.ZhiBiao\022\'\n\016RepDataStkData\030\033" +
+      " \003(\0132\017.dzhyun.StkData\022#\n\014RepDataPaiXu\030\034 " +
+      "\003(\0132\r.dzhyun.PaiXu\0229\n\027RepDataJianPanBaoS",
+      "huChu\030\035 \003(\0132\030.dzhyun.JianPanBaoShuChu\022-\n" +
+      "\021RepDataFenJiJiJin\030\036 \003(\0132\022.dzhyun.FenJiJ" +
+      "iJin\0221\n\023RepDataMsgGetOutput\030\037 \003(\0132\024.dzhy" +
+      "un.MsgGetOutput\0221\n\023RepDataMsgPutOutput\030 " +
+      " \003(\0132\024.dzhyun.MsgPutOutput\0225\n\025RepDataBlo" +
+      "ckObjOutput\030! \003(\0132\026.dzhyun.BlockObjOutpu" +
+      "t\0227\n\026RepDataBlockPropOutput\030\" \003(\0132\027.dzhy" +
+      "un.BlockPropOutput\022=\n\031RepDataSelfStockGe" +
+      "tOutput\030# \003(\0132\032.dzhyun.SelfStockGetOutpu" +
+      "t\022=\n\031RepDataSelfStockPutOutput\030$ \003(\0132\032.d",
+      "zhyun.SelfStockPutOutput\022%\n\rRepDataAppKe" +
+      "y\030% \003(\0132\016.dzhyun.AppKey\022\'\n\016RepDataAppInf" +
+      "o\030& \003(\0132\017.dzhyun.AppInfo\022)\n\017RepDataAppVa" +
+      "lue\030\' \003(\0132\020.dzhyun.AppValue\022/\n\022RepDataSe" +
+      "rviceAuth\030( \003(\0132\023.dzhyun.ServiceAuth\0225\n\025" +
+      "RepDataAppServiceAuth\030) \003(\0132\026.dzhyun.App" +
+      "ServiceAuth\022+\n\020RepDataTokenAuth\030* \003(\0132\021." +
+      "dzhyun.TokenAuth\0223\n\024RepDataAccOpResponse" +
+      "\030+ \003(\0132\025.dzhyun.AccOpResponse\022#\n\014RepData" +
+      "Token\030, \003(\0132\r.dzhyun.Token\022+\n\020RepDataPri",
+      "vilege\030- \003(\0132\021.dzhyun.Privilege\022-\n\021RepDa" +
+      "taAlarmEvent\030. \003(\0132\022.dzhyun.AlarmEvent\022+" +
+      "\n\020RepDataAlarmTask\030/ \003(\0132\021.dzhyun.AlarmT" +
+      "ask\0223\n\024RepDataADPutResponse\0300 \003(\0132\025.dzhy" +
+      "un.ADPutResponse\0223\n\024RepDataADGetResponse" +
+      "\0301 \003(\0132\025.dzhyun.ADGetResponse\022+\n\020RepData" +
+      "UserGroup\0302 \003(\0132\021.dzhyun.UserGroup\022;\n\030Re" +
+      "pDataUserGroupResponse\0303 \003(\0132\031.dzhyun.Us" +
+      "erGroupResponse\0229\n\027RepDataUserPropsMessa" +
+      "ge\0304 \003(\0132\030.dzhyun.UserPropsMessage\022/\n\022Re",
+      "pDataTopicInvest\0305 \003(\0132\023.dzhyun.TopicInv" +
+      "est\022=\n\031RepDataTopicInvestHistory\0306 \003(\0132\032" +
+      ".dzhyun.TopicInvestHistory\0223\n\024RepDataF10" +
+      "GsgkOutput\0307 \003(\0132\025.dzhyun.F10GsgkOutput\022" +
+      "?\n\032RepDataF10CwtsZycwzbOutput\0308 \003(\0132\033.dz" +
+      "hyun.F10CwtsZycwzbOutput\022A\n\033RepDataF10Cw" +
+      "tsXjllbzyOutput\0309 \003(\0132\034.dzhyun.F10CwtsXj" +
+      "llbzyOutput\022A\n\033RepDataF10ZxjbDjdcwzbOutp" +
+      "ut\030: \003(\0132\034.dzhyun.F10ZxjbDjdcwzbOutput\022?" +
+      "\n\032RepDataF10ZxjbdjdlebOutput\030; \003(\0132\033.dzh",
+      "yun.F10ZxjbdjdlebOutput\022;\n\030RepDataF10Gdj" +
+      "cGdhsOutput\030< \003(\0132\031.dzhyun.F10GdjcGdhsOu" +
+      "tput\022;\n\030RepDataF10GdjcSdgdOutput\030= \003(\0132\031" +
+      ".dzhyun.F10GdjcSdgdOutput\022?\n\032RepDataF10G" +
+      "djcSdltgdOutput\030> \003(\0132\033.dzhyun.F10GdjcSd" +
+      "ltgdOutput\022;\n\030RepDataF10GbfhFhkgOutput\030?" +
+      " \003(\0132\031.dzhyun.F10GbfhFhkgOutput\022;\n\030RepDa" +
+      "taF10GbfhGbjgOutput\030@ \003(\0132\031.dzhyun.F10Gb" +
+      "fhGbjgOutput\022;\n\030RepDataXinWenXinXiOutput" +
+      "\030A \003(\0132\031.dzhyun.XinWenXinXiOutput\022K\n Rep",
+      "DataXinWenXinXiZhongXinOutput\030B \003(\0132!.dz" +
+      "hyun.XinWenXinXiZhongXinOutput\0227\n\026RepDat" +
+      "aTopicInvestInfo\030C \003(\0132\027.dzhyun.TopicInv" +
+      "estInfo\022E\n\035RepDataYiZhiXinYeJiYuCeOutPut" +
+      "\030D \003(\0132\036.dzhyun.YiZhiXinYeJiYuCeOutPut\022I" +
+      "\n\037RepDataYiZhiXinTouZiPinJiOutPut\030E \003(\0132" +
+      " .dzhyun.YiZhiXinTouZiPinJiOutPut\022=\n\031Rep" +
+      "DataGeGuYeJiYuCeOutPut\030F \003(\0132\032.dzhyun.Ge" +
+      "GuYeJiYuCeOutPut\022C\n\034RepDataGeGuTouZiYanB" +
+      "aoOutPut\030G \003(\0132\035.dzhyun.GeGuTouZiYanBaoO",
+      "utPut\022\'\n\016RepDataDSToken\030H \003(\0132\017.dzhyun.D" +
+      "SToken\022+\n\020RepDataTongJiApp\030I \003(\0132\021.dzhyu" +
+      "n.TongJiApp\022C\n\034RepDataMessageChannelSubt" +
+      "ype\030J \003(\0132\035.dzhyun.MessageChannelSubtype" +
+      "\022?\n\032RepDataUserGetPropResponse\030K \003(\0132\033.d" +
+      "zhyun.UserGetPropResponse\022;\n\030RepDataQuot" +
+      "eBOrderSingle\030L \003(\0132\031.dzhyun.QuoteBOrder" +
+      "Single\022)\n\017RepDataDXSpirit\030M \003(\0132\020.dzhyun" +
+      ".DXSpirit\0221\n\023RepDataStkPoolOuput\030N \003(\0132\024" +
+      ".dzhyun.StkPoolOuput\022+\n\020RepDataEventNews",
+      "\030O \003(\0132\021.dzhyun.EventNews*\337\n\n\006EnumID\022\010\n\004" +
+      "IDId\020\001\022\t\n\005IDObj\020\002\022\t\n\005IDTbl\020\003\022\r\n\tIDJsonTb" +
+      "l\020\004\022\025\n\021IDQuoteDynaSingle\020\024\022\026\n\022IDQuoteKli" +
+      "neSingle\020\025\022\025\n\021IDQuoteTickSingle\020\026\022\024\n\020IDQ" +
+      "uoteMinSingle\020\027\022\023\n\017IDNewsInfoValue\020\030\022\023\n\017" +
+      "IDZhiBiaoShuChu\020\031\022\r\n\tIDZhiBiao\020\032\022\r\n\tIDSt" +
+      "kData\020\033\022\013\n\007IDPaiXu\020\034\022\026\n\022IDJianPanBaoShuC" +
+      "hu\020\035\022\020\n\014IDFenJiJiJin\020\036\022\022\n\016IDMsgGetOutput" +
+      "\020\037\022\022\n\016IDMsgPutOutput\020 \022\024\n\020IDBlockObjOutp" +
+      "ut\020!\022\025\n\021IDBlockPropOutput\020\"\022\030\n\024IDSelfSto",
+      "ckGetOutput\020#\022\030\n\024IDSelfStockPutOutput\020$\022" +
+      "\014\n\010IDAppKey\020%\022\r\n\tIDAppInfo\020&\022\016\n\nIDAppVal" +
+      "ue\020\'\022\021\n\rIDServiceAuth\020(\022\024\n\020IDAppServiceA" +
+      "uth\020)\022\017\n\013IDTokenAuth\020*\022\023\n\017IDAccOpRespons" +
+      "e\020+\022\013\n\007IDToken\020,\022\017\n\013IDPrivilege\020-\022\020\n\014IDA" +
+      "larmEvent\020.\022\017\n\013IDAlarmTask\020/\022\023\n\017IDADPutR" +
+      "esponse\0200\022\023\n\017IDADGetResponse\0201\022\017\n\013IDUser" +
+      "Group\0202\022\027\n\023IDUserGroupResponse\0203\022\026\n\022IDUs" +
+      "erPropsMessage\0204\022\021\n\rIDTopicInvest\0205\022\030\n\024I" +
+      "DTopicInvestHistory\0206\022\023\n\017IDF10GsgkOutput",
+      "\0207\022\031\n\025IDF10CwtsZycwzbOutput\0208\022\032\n\026IDF10Cw" +
+      "tsXjllbzyOutput\0209\022\032\n\026IDF10ZxjbDjdcwzbOut" +
+      "put\020:\022\031\n\025IDF10ZxjbdjdlebOutput\020;\022\027\n\023IDF1" +
+      "0GdjcGdhsOutput\020<\022\027\n\023IDF10GdjcSdgdOutput" +
+      "\020=\022\031\n\025IDF10GdjcSdltgdOutput\020>\022\027\n\023IDF10Gb" +
+      "fhFhkgOutput\020?\022\027\n\023IDF10GbfhGbjgOutput\020@\022" +
+      "\027\n\023IDXinWenXinXiOutput\020A\022\037\n\033IDXinWenXinX" +
+      "iZhongXinOutput\020B\022\025\n\021IDTopicInvestInfo\020C" +
+      "\022\034\n\030IDYiZhiXinYeJiYuCeOutPut\020D\022\036\n\032IDYiZh" +
+      "iXinTouZiPinJiOutPut\020E\022\030\n\024IDGeGuYeJiYuCe",
+      "OutPut\020F\022\033\n\027IDGeGuTouZiYanBaoOutPut\020G\022\r\n" +
+      "\tIDDSToken\020H\022\017\n\013IDTongJiApp\020I\022\033\n\027IDMessa" +
+      "geChannelSubtype\020J\022\031\n\025IDUserGetPropRespo" +
+      "nse\020K\022\027\n\023IDQuoteBOrderSingle\020L\022\016\n\nIDDXSp" +
+      "irit\020M\022\022\n\016IDStkPoolOuput\020N\022\017\n\013IDEventNew" +
+      "s\020OB\033\n\020com.dzhyun.protoB\007AutoMsg"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -27079,58 +30714,70 @@ public final class AutoMsg {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           com.dzhyun.proto.Dzhpbtable.getDescriptor(),
-          com.dzhyun.proto.Dzhoutput.getDescriptor(),
-          com.dzhyun.proto.DzhNewsInfo.getDescriptor(),
+          com.dzhyun.proto.DzhyunUserProp.getDescriptor(),
           com.dzhyun.proto.DzhyunZhibiaojisuan.getDescriptor(),
-          com.dzhyun.proto.DzhyunZhibiao.getDescriptor(),
+          com.dzhyun.proto.Dzhdstoken.getDescriptor(),
           com.dzhyun.proto.DzhyunStkdata.getDescriptor(),
-          com.dzhyun.proto.DzhyunPaixu.getDescriptor(),
-          com.dzhyun.proto.DzhyunJianpanbao.getDescriptor(),
-          com.dzhyun.proto.DzhyunFenjijijin.getDescriptor(),
-          com.dzhyun.proto.Dzhmsg.getDescriptor(),
+          com.dzhyun.proto.DzhyunF10.getDescriptor(),
+          com.dzhyun.proto.DzhyunZhibiao.getDescriptor(),
+          com.dzhyun.proto.DzhyunAlarm.getDescriptor(),
           com.dzhyun.proto.DzhBlock.getDescriptor(),
+          com.dzhyun.proto.Dzhoutput.getDescriptor(),
+          com.dzhyun.proto.DzhyunJianpanbao.getDescriptor(),
+          com.dzhyun.proto.DzhyunAdvert.getDescriptor(),
+          com.dzhyun.proto.DzhyunTopicinvest.getDescriptor(),
+          com.dzhyun.proto.DzhMessageChSubtype.getDescriptor(),
+          com.dzhyun.proto.DzhyunFenjijijin.getDescriptor(),
+          com.dzhyun.proto.Dzhtoken.getDescriptor(),
+          com.dzhyun.proto.DzhyunPaixu.getDescriptor(),
+          com.dzhyun.proto.DzhNewsInfo.getDescriptor(),
           com.dzhyun.proto.Dzhselfstock.getDescriptor(),
           com.dzhyun.proto.Dzhapp.getDescriptor(),
-          com.dzhyun.proto.Dzhtoken.getDescriptor(),
-          com.dzhyun.proto.Dzhpriv.getDescriptor(),
-          com.dzhyun.proto.DzhyunAlarm.getDescriptor(),
-          com.dzhyun.proto.DzhyunAdvert.getDescriptor(),
+          com.dzhyun.proto.Dzhmsg.getDescriptor(),
           com.dzhyun.proto.DzhyunUserGroup.getDescriptor(),
-          com.dzhyun.proto.DzhyunUserProp.getDescriptor(),
-          com.dzhyun.proto.DzhyunTopicinvest.getDescriptor(),
-          com.dzhyun.proto.DzhyunF10.getDescriptor(),
+          com.dzhyun.proto.Dzhpriv.getDescriptor(),
           com.dzhyun.proto.CldForecastsShuJu.getDescriptor(),
-          com.dzhyun.proto.Dzhdstoken.getDescriptor(),
+          com.dzhyun.proto.DzhyunBlockstatistics.getDescriptor(),
+          com.dzhyun.proto.DzhyunUserGetprop.getDescriptor(),
+          com.dzhyun.proto.DzhyunDxspirit.getDescriptor(),
+          com.dzhyun.proto.DzhyunStockpool.getDescriptor(),
+          dzhyun.CldEventNewsShuJu.getDescriptor(),
         }, assigner);
     internal_static_dzhyun_MSG_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dzhyun_MSG_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dzhyun_MSG_descriptor,
-        new java.lang.String[] { "Id", "Obj", "Tbl", "RepDataQuoteDynaSingle", "RepDataQuoteKlineSingle", "RepDataQuoteTickSingle", "RepDataQuoteMinSingle", "RepDataNewsInfoValue", "RepDataZhiBiaoShuChu", "RepDataZhiBiao", "RepDataStkData", "RepDataPaiXu", "RepDataJianPanBaoShuChu", "RepDataFenJiJiJin", "RepDataMsgGetOutput", "RepDataMsgPutOutput", "RepDataBlockObjOutput", "RepDataBlockPropOutput", "RepDataSelfStockGetOutput", "RepDataSelfStockPutOutput", "RepDataAppKey", "RepDataAppInfo", "RepDataAppValue", "RepDataServiceAuth", "RepDataAppServiceAuth", "RepDataTokenAuth", "RepDataAccOpResponse", "RepDataToken", "RepDataPrivilege", "RepDataAlarmEvent", "RepDataAlarmTask", "RepDataADPutResponse", "RepDataADGetResponse", "RepDataUserGroup", "RepDataUserGroupResponse", "RepDataUserPropsMessage", "RepDataTopicInvest", "RepDataTopicInvestHistory", "RepDataF10GsgkOutput", "RepDataF10CwtsZycwzbOutput", "RepDataF10CwtsXjllbzyOutput", "RepDataF10ZxjbDjdcwzbOutput", "RepDataF10ZxjbdjdlebOutput", "RepDataF10GdjcGdhsOutput", "RepDataF10GdjcSdgdOutput", "RepDataF10GdjcSdltgdOutput", "RepDataF10GbfhFhkgOutput", "RepDataF10GbfhGbjgOutput", "RepDataXinWenXinXiOutput", "RepDataXinWenXinXiZhongXinOutput", "RepDataTopicInvestInfo", "RepDataYiZhiXinYeJiYuCeOutPut", "RepDataYiZhiXinTouZiPinJiOutPut", "RepDataGeGuYeJiYuCeOutPut", "RepDataGeGuTouZiYanBaoOutPut", "RepDataDSToken", });
+        new java.lang.String[] { "Id", "Obj", "Tbl", "JsonTbl", "RepDataQuoteDynaSingle", "RepDataQuoteKlineSingle", "RepDataQuoteTickSingle", "RepDataQuoteMinSingle", "RepDataNewsInfoValue", "RepDataZhiBiaoShuChu", "RepDataZhiBiao", "RepDataStkData", "RepDataPaiXu", "RepDataJianPanBaoShuChu", "RepDataFenJiJiJin", "RepDataMsgGetOutput", "RepDataMsgPutOutput", "RepDataBlockObjOutput", "RepDataBlockPropOutput", "RepDataSelfStockGetOutput", "RepDataSelfStockPutOutput", "RepDataAppKey", "RepDataAppInfo", "RepDataAppValue", "RepDataServiceAuth", "RepDataAppServiceAuth", "RepDataTokenAuth", "RepDataAccOpResponse", "RepDataToken", "RepDataPrivilege", "RepDataAlarmEvent", "RepDataAlarmTask", "RepDataADPutResponse", "RepDataADGetResponse", "RepDataUserGroup", "RepDataUserGroupResponse", "RepDataUserPropsMessage", "RepDataTopicInvest", "RepDataTopicInvestHistory", "RepDataF10GsgkOutput", "RepDataF10CwtsZycwzbOutput", "RepDataF10CwtsXjllbzyOutput", "RepDataF10ZxjbDjdcwzbOutput", "RepDataF10ZxjbdjdlebOutput", "RepDataF10GdjcGdhsOutput", "RepDataF10GdjcSdgdOutput", "RepDataF10GdjcSdltgdOutput", "RepDataF10GbfhFhkgOutput", "RepDataF10GbfhGbjgOutput", "RepDataXinWenXinXiOutput", "RepDataXinWenXinXiZhongXinOutput", "RepDataTopicInvestInfo", "RepDataYiZhiXinYeJiYuCeOutPut", "RepDataYiZhiXinTouZiPinJiOutPut", "RepDataGeGuYeJiYuCeOutPut", "RepDataGeGuTouZiYanBaoOutPut", "RepDataDSToken", "RepDataTongJiApp", "RepDataMessageChannelSubtype", "RepDataUserGetPropResponse", "RepDataQuoteBOrderSingle", "RepDataDXSpirit", "RepDataStkPoolOuput", "RepDataEventNews", });
     com.dzhyun.proto.Dzhpbtable.getDescriptor();
-    com.dzhyun.proto.Dzhoutput.getDescriptor();
-    com.dzhyun.proto.DzhNewsInfo.getDescriptor();
+    com.dzhyun.proto.DzhyunUserProp.getDescriptor();
     com.dzhyun.proto.DzhyunZhibiaojisuan.getDescriptor();
-    com.dzhyun.proto.DzhyunZhibiao.getDescriptor();
+    com.dzhyun.proto.Dzhdstoken.getDescriptor();
     com.dzhyun.proto.DzhyunStkdata.getDescriptor();
-    com.dzhyun.proto.DzhyunPaixu.getDescriptor();
-    com.dzhyun.proto.DzhyunJianpanbao.getDescriptor();
-    com.dzhyun.proto.DzhyunFenjijijin.getDescriptor();
-    com.dzhyun.proto.Dzhmsg.getDescriptor();
+    com.dzhyun.proto.DzhyunF10.getDescriptor();
+    com.dzhyun.proto.DzhyunZhibiao.getDescriptor();
+    com.dzhyun.proto.DzhyunAlarm.getDescriptor();
     com.dzhyun.proto.DzhBlock.getDescriptor();
+    com.dzhyun.proto.Dzhoutput.getDescriptor();
+    com.dzhyun.proto.DzhyunJianpanbao.getDescriptor();
+    com.dzhyun.proto.DzhyunAdvert.getDescriptor();
+    com.dzhyun.proto.DzhyunTopicinvest.getDescriptor();
+    com.dzhyun.proto.DzhMessageChSubtype.getDescriptor();
+    com.dzhyun.proto.DzhyunFenjijijin.getDescriptor();
+    com.dzhyun.proto.Dzhtoken.getDescriptor();
+    com.dzhyun.proto.DzhyunPaixu.getDescriptor();
+    com.dzhyun.proto.DzhNewsInfo.getDescriptor();
     com.dzhyun.proto.Dzhselfstock.getDescriptor();
     com.dzhyun.proto.Dzhapp.getDescriptor();
-    com.dzhyun.proto.Dzhtoken.getDescriptor();
-    com.dzhyun.proto.Dzhpriv.getDescriptor();
-    com.dzhyun.proto.DzhyunAlarm.getDescriptor();
-    com.dzhyun.proto.DzhyunAdvert.getDescriptor();
+    com.dzhyun.proto.Dzhmsg.getDescriptor();
     com.dzhyun.proto.DzhyunUserGroup.getDescriptor();
-    com.dzhyun.proto.DzhyunUserProp.getDescriptor();
-    com.dzhyun.proto.DzhyunTopicinvest.getDescriptor();
-    com.dzhyun.proto.DzhyunF10.getDescriptor();
+    com.dzhyun.proto.Dzhpriv.getDescriptor();
     com.dzhyun.proto.CldForecastsShuJu.getDescriptor();
-    com.dzhyun.proto.Dzhdstoken.getDescriptor();
+    com.dzhyun.proto.DzhyunBlockstatistics.getDescriptor();
+    com.dzhyun.proto.DzhyunUserGetprop.getDescriptor();
+    com.dzhyun.proto.DzhyunDxspirit.getDescriptor();
+    com.dzhyun.proto.DzhyunStockpool.getDescriptor();
+    dzhyun.CldEventNewsShuJu.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

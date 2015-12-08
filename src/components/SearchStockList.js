@@ -12,7 +12,7 @@ export default class SearchStockList extends BaseComponent {
 
   _renderListItem(itemData) {
     return (
-      <TouchableHighlight key={itemData.Obj} onPress={() => this.props.onItemPress && this.props.onItemPress(itemData)} underlayColor={baseStyle.DEFAULT_BACKGROUND_COLOR}>
+      <TouchableHighlight key={itemData.Obj} onPress={() => this.props.onItemPress && this.props.onItemPress(itemData)} underlayColor={baseStyle.HIGH_LIGHT_COLOR}>
         <View style={{paddingLeft: 10, paddingRight: 10, flexDirection: 'row', alignItems: 'center', height: 36, borderBottomColor: baseStyle.DEFAULT_BORDER_COLOR, borderBottomWidth: 1}}>
           <Text style={{color: baseStyle.DEFAULT_TEXT_COLOR, fontSize: 15, flex: 1}}>{itemData.Obj}</Text>
           <Text style={{color: baseStyle.DEFAULT_TEXT_COLOR, fontSize: 15, flex: 1}}>{itemData.ZhongWenJianCheng}</Text>
@@ -27,7 +27,7 @@ export default class SearchStockList extends BaseComponent {
         <View style={{height: 32, paddingLeft: 10, backgroundColor: baseStyle.DARK_GRAY, flexDirection: 'row', alignItems: "center"}}>
           <Text style={{fontSize: 13, color: baseStyle.WHITE}}>{this.props.title}</Text>
         </View>
-        <ScrollView>{
+        <ScrollView keyboardShouldPersistTaps={true}>{
           this.props.data && this.props.data.map((itemData) => this._renderListItem(itemData))
         }</ScrollView>
       </View>

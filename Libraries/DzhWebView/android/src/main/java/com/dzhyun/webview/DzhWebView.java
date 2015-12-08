@@ -1,22 +1,28 @@
 package com.dzhyun.webview;
 
-import android.os.SystemClock;
-import android.util.Log;
-import android.content.Context;
+import android.app.DownloadManager;
+import android.content.Intent;
 import android.graphics.Bitmap;
+import android.net.Uri;
 import android.os.Build;
+import android.os.Environment;
+import android.os.SystemClock;
+import android.webkit.DownloadListener;
 import android.webkit.GeolocationPermissions;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.ReactContext;
-import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.uimanager.UIManagerModule;
 import com.facebook.react.uimanager.events.EventDispatcher;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.net.URL;
 
 class DzhWebView extends WebView {
@@ -55,13 +61,12 @@ class DzhWebView extends WebView {
                     new NavigationStateChangeEvent(getId(), SystemClock.uptimeMillis(), true, url, view.canGoBack(), view.canGoForward()));
         }
 
-        public boolean shouldOverrideUrlLoading (WebView view, String url){
+        public boolean shouldOverrideUrlLoading (WebView view, final String url){
             if (url.startsWith("dzh://")){
                 mEventDispatcher.dispatchEvent(new ActionEvent(getId(), SystemClock.uptimeMillis(), url.substring(6)));
                 return true;
             }
             return false;
-
         }
     }
 
@@ -91,6 +96,19 @@ class DzhWebView extends WebView {
 
         this.setWebViewClient(mWebViewClient);
         this.setWebChromeClient(new WebChromeClient());
+
+        this.setDownloadListener(new DownloadListener() {
+            public void onDownloadStart(String url, String userAgent,
+                                        String contentDisposition, String mimetype,
+                                        long contentLength) {
+                DownloadManager.Request request = new DownloadManager.Request(Uri.parse(url));
+                request.allowScanningByMediaScanner();
+                request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+                request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, "download");
+                DownloadManager dm = (DownloadManager) getContext().getSystemService(getContext().DOWNLOAD_SERVICE);
+                dm.enqueue(request);
+            }
+        });
     }
 
     public void setCharset(String charset) {

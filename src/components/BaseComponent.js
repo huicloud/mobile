@@ -23,17 +23,18 @@ export default class BaseComponent extends Component {
   styleSheet = {
   };
 
-  getStyles(name) {
+  getStyles(name, otherStyle) {
     if (Array.isArray(name)) return Array.prototype.concat.apply([], name.map(eachName => this.getStyles(eachName)));
     return [
       this.styleSheet && this.styleSheet[name],
       this.props.theme && this.props.theme[this.constructor.name] && this.props.theme[this.constructor.name][name],
-      this.props.style && this.props.style[name]
+      this.props.style && this.props.style[name],
+      otherStyle
     ];
   }
 
-  getUpDownStyle(name, value) {
-    let styles = [this.getStyles(name)];
+  getUpDownStyle(name, value, otherStyle) {
+    let styles = [this.getStyles(name, otherStyle)];
     if (value > 0) styles.push(this.getStyles(name + 'Up'));
     else if (value < 0) styles.push(this.getStyles(name + 'Down'));
     return styles;

@@ -29,7 +29,7 @@ void ComDzhyunProtoAutoMsg_registerAllExtensionsWithComGoogleProtobufExtensionRe
 
 J2OBJC_INITIALIZED_DEFN(ComDzhyunProtoAutoMsg_EnumIDEnum)
 
-ComDzhyunProtoAutoMsg_EnumIDEnum *ComDzhyunProtoAutoMsg_EnumIDEnum_values_[56];
+ComDzhyunProtoAutoMsg_EnumIDEnum *ComDzhyunProtoAutoMsg_EnumIDEnum_values_[64];
 
 static ComGoogleProtobufDescriptors_EnumDescriptor *ComDzhyunProtoAutoMsg_EnumIDEnum_descriptor = nil;
 
@@ -47,60 +47,68 @@ static ComGoogleProtobufDescriptors_EnumDescriptor *ComDzhyunProtoAutoMsg_EnumID
     ComDzhyunProtoAutoMsg_EnumIDEnum_IDId = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDId" withIndex:0 withValue:1];
     ComDzhyunProtoAutoMsg_EnumIDEnum_IDObj = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDObj" withIndex:1 withValue:2];
     ComDzhyunProtoAutoMsg_EnumIDEnum_IDTbl = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDTbl" withIndex:2 withValue:3];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDQuoteDynaSingle = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDQuoteDynaSingle" withIndex:3 withValue:20];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDQuoteKlineSingle = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDQuoteKlineSingle" withIndex:4 withValue:21];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDQuoteTickSingle = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDQuoteTickSingle" withIndex:5 withValue:22];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDQuoteMinSingle = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDQuoteMinSingle" withIndex:6 withValue:23];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDNewsInfoValue = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDNewsInfoValue" withIndex:7 withValue:24];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDZhiBiaoShuChu = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDZhiBiaoShuChu" withIndex:8 withValue:25];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDZhiBiao = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDZhiBiao" withIndex:9 withValue:26];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDStkData = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDStkData" withIndex:10 withValue:27];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDPaiXu = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDPaiXu" withIndex:11 withValue:28];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDJianPanBaoShuChu = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDJianPanBaoShuChu" withIndex:12 withValue:29];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDFenJiJiJin = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDFenJiJiJin" withIndex:13 withValue:30];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDMsgGetOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDMsgGetOutput" withIndex:14 withValue:31];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDMsgPutOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDMsgPutOutput" withIndex:15 withValue:32];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDBlockObjOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDBlockObjOutput" withIndex:16 withValue:33];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDBlockPropOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDBlockPropOutput" withIndex:17 withValue:34];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDSelfStockGetOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDSelfStockGetOutput" withIndex:18 withValue:35];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDSelfStockPutOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDSelfStockPutOutput" withIndex:19 withValue:36];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDAppKey = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDAppKey" withIndex:20 withValue:37];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDAppInfo = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDAppInfo" withIndex:21 withValue:38];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDAppValue = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDAppValue" withIndex:22 withValue:39];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDServiceAuth = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDServiceAuth" withIndex:23 withValue:40];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDAppServiceAuth = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDAppServiceAuth" withIndex:24 withValue:41];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDTokenAuth = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDTokenAuth" withIndex:25 withValue:42];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDAccOpResponse = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDAccOpResponse" withIndex:26 withValue:43];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDToken = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDToken" withIndex:27 withValue:44];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDPrivilege = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDPrivilege" withIndex:28 withValue:45];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDAlarmEvent = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDAlarmEvent" withIndex:29 withValue:46];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDAlarmTask = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDAlarmTask" withIndex:30 withValue:47];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDADPutResponse = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDADPutResponse" withIndex:31 withValue:48];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDADGetResponse = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDADGetResponse" withIndex:32 withValue:49];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDUserGroup = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDUserGroup" withIndex:33 withValue:50];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDUserGroupResponse = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDUserGroupResponse" withIndex:34 withValue:51];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDUserPropsMessage = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDUserPropsMessage" withIndex:35 withValue:52];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDTopicInvest = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDTopicInvest" withIndex:36 withValue:53];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDTopicInvestHistory = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDTopicInvestHistory" withIndex:37 withValue:54];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10GsgkOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10GsgkOutput" withIndex:38 withValue:55];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10CwtsZycwzbOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10CwtsZycwzbOutput" withIndex:39 withValue:56];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10CwtsXjllbzyOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10CwtsXjllbzyOutput" withIndex:40 withValue:57];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10ZxjbDjdcwzbOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10ZxjbDjdcwzbOutput" withIndex:41 withValue:58];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10ZxjbdjdlebOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10ZxjbdjdlebOutput" withIndex:42 withValue:59];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10GdjcGdhsOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10GdjcGdhsOutput" withIndex:43 withValue:60];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10GdjcSdgdOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10GdjcSdgdOutput" withIndex:44 withValue:61];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10GdjcSdltgdOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10GdjcSdltgdOutput" withIndex:45 withValue:62];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10GbfhFhkgOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10GbfhFhkgOutput" withIndex:46 withValue:63];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10GbfhGbjgOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10GbfhGbjgOutput" withIndex:47 withValue:64];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDXinWenXinXiOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDXinWenXinXiOutput" withIndex:48 withValue:65];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDXinWenXinXiZhongXinOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDXinWenXinXiZhongXinOutput" withIndex:49 withValue:66];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDTopicInvestInfo = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDTopicInvestInfo" withIndex:50 withValue:67];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDYiZhiXinYeJiYuCeOutPut = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDYiZhiXinYeJiYuCeOutPut" withIndex:51 withValue:68];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDYiZhiXinTouZiPinJiOutPut = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDYiZhiXinTouZiPinJiOutPut" withIndex:52 withValue:69];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDGeGuYeJiYuCeOutPut = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDGeGuYeJiYuCeOutPut" withIndex:53 withValue:70];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDGeGuTouZiYanBaoOutPut = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDGeGuTouZiYanBaoOutPut" withIndex:54 withValue:71];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_IDDSToken = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDDSToken" withIndex:55 withValue:72];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_descriptor = CGPNewEnumDescriptor(self, 56, ComDzhyunProtoAutoMsg_EnumIDEnum_values_);
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDJsonTbl = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDJsonTbl" withIndex:3 withValue:4];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDQuoteDynaSingle = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDQuoteDynaSingle" withIndex:4 withValue:20];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDQuoteKlineSingle = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDQuoteKlineSingle" withIndex:5 withValue:21];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDQuoteTickSingle = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDQuoteTickSingle" withIndex:6 withValue:22];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDQuoteMinSingle = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDQuoteMinSingle" withIndex:7 withValue:23];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDNewsInfoValue = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDNewsInfoValue" withIndex:8 withValue:24];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDZhiBiaoShuChu = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDZhiBiaoShuChu" withIndex:9 withValue:25];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDZhiBiao = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDZhiBiao" withIndex:10 withValue:26];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDStkData = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDStkData" withIndex:11 withValue:27];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDPaiXu = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDPaiXu" withIndex:12 withValue:28];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDJianPanBaoShuChu = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDJianPanBaoShuChu" withIndex:13 withValue:29];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDFenJiJiJin = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDFenJiJiJin" withIndex:14 withValue:30];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDMsgGetOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDMsgGetOutput" withIndex:15 withValue:31];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDMsgPutOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDMsgPutOutput" withIndex:16 withValue:32];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDBlockObjOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDBlockObjOutput" withIndex:17 withValue:33];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDBlockPropOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDBlockPropOutput" withIndex:18 withValue:34];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDSelfStockGetOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDSelfStockGetOutput" withIndex:19 withValue:35];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDSelfStockPutOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDSelfStockPutOutput" withIndex:20 withValue:36];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDAppKey = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDAppKey" withIndex:21 withValue:37];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDAppInfo = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDAppInfo" withIndex:22 withValue:38];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDAppValue = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDAppValue" withIndex:23 withValue:39];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDServiceAuth = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDServiceAuth" withIndex:24 withValue:40];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDAppServiceAuth = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDAppServiceAuth" withIndex:25 withValue:41];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDTokenAuth = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDTokenAuth" withIndex:26 withValue:42];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDAccOpResponse = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDAccOpResponse" withIndex:27 withValue:43];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDToken = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDToken" withIndex:28 withValue:44];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDPrivilege = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDPrivilege" withIndex:29 withValue:45];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDAlarmEvent = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDAlarmEvent" withIndex:30 withValue:46];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDAlarmTask = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDAlarmTask" withIndex:31 withValue:47];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDADPutResponse = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDADPutResponse" withIndex:32 withValue:48];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDADGetResponse = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDADGetResponse" withIndex:33 withValue:49];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDUserGroup = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDUserGroup" withIndex:34 withValue:50];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDUserGroupResponse = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDUserGroupResponse" withIndex:35 withValue:51];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDUserPropsMessage = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDUserPropsMessage" withIndex:36 withValue:52];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDTopicInvest = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDTopicInvest" withIndex:37 withValue:53];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDTopicInvestHistory = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDTopicInvestHistory" withIndex:38 withValue:54];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10GsgkOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10GsgkOutput" withIndex:39 withValue:55];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10CwtsZycwzbOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10CwtsZycwzbOutput" withIndex:40 withValue:56];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10CwtsXjllbzyOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10CwtsXjllbzyOutput" withIndex:41 withValue:57];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10ZxjbDjdcwzbOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10ZxjbDjdcwzbOutput" withIndex:42 withValue:58];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10ZxjbdjdlebOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10ZxjbdjdlebOutput" withIndex:43 withValue:59];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10GdjcGdhsOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10GdjcGdhsOutput" withIndex:44 withValue:60];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10GdjcSdgdOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10GdjcSdgdOutput" withIndex:45 withValue:61];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10GdjcSdltgdOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10GdjcSdltgdOutput" withIndex:46 withValue:62];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10GbfhFhkgOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10GbfhFhkgOutput" withIndex:47 withValue:63];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10GbfhGbjgOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10GbfhGbjgOutput" withIndex:48 withValue:64];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDXinWenXinXiOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDXinWenXinXiOutput" withIndex:49 withValue:65];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDXinWenXinXiZhongXinOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDXinWenXinXiZhongXinOutput" withIndex:50 withValue:66];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDTopicInvestInfo = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDTopicInvestInfo" withIndex:51 withValue:67];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDYiZhiXinYeJiYuCeOutPut = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDYiZhiXinYeJiYuCeOutPut" withIndex:52 withValue:68];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDYiZhiXinTouZiPinJiOutPut = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDYiZhiXinTouZiPinJiOutPut" withIndex:53 withValue:69];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDGeGuYeJiYuCeOutPut = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDGeGuYeJiYuCeOutPut" withIndex:54 withValue:70];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDGeGuTouZiYanBaoOutPut = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDGeGuTouZiYanBaoOutPut" withIndex:55 withValue:71];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDDSToken = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDDSToken" withIndex:56 withValue:72];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDTongJiApp = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDTongJiApp" withIndex:57 withValue:73];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDMessageChannelSubtype = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDMessageChannelSubtype" withIndex:58 withValue:74];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDUserGetPropResponse = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDUserGetPropResponse" withIndex:59 withValue:75];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDQuoteBOrderSingle = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDQuoteBOrderSingle" withIndex:60 withValue:76];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDDXSpirit = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDDXSpirit" withIndex:61 withValue:77];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDStkPoolOuput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDStkPoolOuput" withIndex:62 withValue:78];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDEventNews = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDEventNews" withIndex:63 withValue:79];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_descriptor = CGPNewEnumDescriptor(self, 64, ComDzhyunProtoAutoMsg_EnumIDEnum_values_);
     J2OBJC_SET_INITIALIZED(ComDzhyunProtoAutoMsg_EnumIDEnum)
   }
 }
@@ -133,11 +141,11 @@ static ComGoogleProtobufDescriptors_EnumDescriptor *ComDzhyunProtoAutoMsg_EnumID
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(ComDzhyunProtoAutoMsg_EnumIDEnum)
 
 IOSObjectArray *ComDzhyunProtoAutoMsg_EnumIDEnum_values() {
-  ComDzhyunProtoAutoMsg_EnumIDEnum_initialize();  return [IOSObjectArray arrayWithObjects:ComDzhyunProtoAutoMsg_EnumIDEnum_values_ count:56 type:ComDzhyunProtoAutoMsg_EnumIDEnum_class_()];
+  ComDzhyunProtoAutoMsg_EnumIDEnum_initialize();  return [IOSObjectArray arrayWithObjects:ComDzhyunProtoAutoMsg_EnumIDEnum_values_ count:64 type:ComDzhyunProtoAutoMsg_EnumIDEnum_class_()];
 }
 
 ComDzhyunProtoAutoMsg_EnumIDEnum *ComDzhyunProtoAutoMsg_EnumIDEnum_valueOfWithNSString_(NSString *name) {
-  ComDzhyunProtoAutoMsg_EnumIDEnum_initialize();  for (jint i = 0; i < 56; i++) {
+  ComDzhyunProtoAutoMsg_EnumIDEnum_initialize();  for (jint i = 0; i < 64; i++) {
     ComDzhyunProtoAutoMsg_EnumIDEnum *e = ComDzhyunProtoAutoMsg_EnumIDEnum_values_[i];
     if ([name isEqual:[e name]]) {
       return e;
@@ -147,7 +155,7 @@ ComDzhyunProtoAutoMsg_EnumIDEnum *ComDzhyunProtoAutoMsg_EnumIDEnum_valueOfWithNS
 }
 
 ComDzhyunProtoAutoMsg_EnumIDEnum *ComDzhyunProtoAutoMsg_EnumIDEnum_valueOfWithInt_(jint value) {
-  ComDzhyunProtoAutoMsg_EnumIDEnum_initialize();  for (jint i = 0; i < 56; i++) {
+  ComDzhyunProtoAutoMsg_EnumIDEnum_initialize();  for (jint i = 0; i < 64; i++) {
     ComDzhyunProtoAutoMsg_EnumIDEnum *e = ComDzhyunProtoAutoMsg_EnumIDEnum_values_[i];
     if (value == [e getNumber]) {
       return e;
@@ -169,6 +177,7 @@ typedef struct ComDzhyunProtoAutoMsg_MSG_Storage {
   int id_;
   NSString *obj_;
   ComDzhyunProtoDzhpbtable_Table *tbl_;
+  NSString *jsonTbl_;
   CGPRepeatedField repDataQuoteDynaSingle_;
   CGPRepeatedField repDataQuoteKlineSingle_;
   CGPRepeatedField repDataQuoteTickSingle_;
@@ -222,6 +231,13 @@ typedef struct ComDzhyunProtoAutoMsg_MSG_Storage {
   CGPRepeatedField repDataGeGuYeJiYuCeOutPut_;
   CGPRepeatedField repDataGeGuTouZiYanBaoOutPut_;
   CGPRepeatedField repDataDSToken_;
+  CGPRepeatedField repDataTongJiApp_;
+  CGPRepeatedField repDataMessageChannelSubtype_;
+  CGPRepeatedField repDataUserGetPropResponse_;
+  CGPRepeatedField repDataQuoteBOrderSingle_;
+  CGPRepeatedField repDataDXSpirit_;
+  CGPRepeatedField repDataStkPoolOuput_;
+  CGPRepeatedField repDataEventNews_;
 } ComDzhyunProtoAutoMsg_MSG_Storage;
 
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor {
@@ -267,6 +283,19 @@ typedef struct ComDzhyunProtoAutoMsg_MSG_Storage {
         .hasBitIndex = 2,
         .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, tbl_),
         .className = "ComDzhyunProtoDzhpbtable_Table",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "JsonTbl",
+        .javaName = "JsonTbl",
+        .number = 4,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
+        .defaultValue.valueId = @"",
+        .hasBitIndex = 3,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, jsonTbl_),
+        .className = NULL,
         .containingType = "ComDzhyunProtoAutoMsg_MSG",
         .optionsData = NULL,
       },
@@ -959,8 +988,99 @@ typedef struct ComDzhyunProtoAutoMsg_MSG_Storage {
         .containingType = "ComDzhyunProtoAutoMsg_MSG",
         .optionsData = NULL,
       },
+      {
+        .name = "RepDataTongJiApp",
+        .javaName = "RepDataTongJiApp",
+        .number = 73,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataTongJiApp_),
+        .className = "ComDzhyunProtoDzhyunBlockstatistics_TongJiApp",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataMessageChannelSubtype",
+        .javaName = "RepDataMessageChannelSubtype",
+        .number = 74,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataMessageChannelSubtype_),
+        .className = "ComDzhyunProtoDzhMessageChSubtype_MessageChannelSubtype",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataUserGetPropResponse",
+        .javaName = "RepDataUserGetPropResponse",
+        .number = 75,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataUserGetPropResponse_),
+        .className = "ComDzhyunProtoDzhyunUserGetprop_UserGetPropResponse",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataQuoteBOrderSingle",
+        .javaName = "RepDataQuoteBOrderSingle",
+        .number = 76,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataQuoteBOrderSingle_),
+        .className = "ComDzhyunProtoDzhoutput_QuoteBOrderSingle",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataDXSpirit",
+        .javaName = "RepDataDXSpirit",
+        .number = 77,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataDXSpirit_),
+        .className = "ComDzhyunProtoDzhyunDxspirit_DXSpirit",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataStkPoolOuput",
+        .javaName = "RepDataStkPoolOuput",
+        .number = 78,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataStkPoolOuput_),
+        .className = "ComDzhyunProtoDzhyunStockpool_StkPoolOuput",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataEventNews",
+        .javaName = "RepDataEventNews",
+        .number = 79,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataEventNews_),
+        .className = "DzhyunCldEventNewsShuJu_EventNews",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
     };
-    CGPInitDescriptor(&ComDzhyunProtoAutoMsg_MSG_descriptor_, self, [ComDzhyunProtoAutoMsg_MSG_Builder class], 0, sizeof(ComDzhyunProtoAutoMsg_MSG_Storage), 56, fields);
+    CGPInitDescriptor(&ComDzhyunProtoAutoMsg_MSG_descriptor_, self, [ComDzhyunProtoAutoMsg_MSG_Builder class], 0, sizeof(ComDzhyunProtoAutoMsg_MSG_Storage), 64, fields);
     J2OBJC_SET_INITIALIZED(ComDzhyunProtoAutoMsg_MSG)
   }
 }

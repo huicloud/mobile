@@ -18,8 +18,9 @@ export default class Loading extends BaseComponent {
       flex: 1,
       height: 30,
       flexDirection: 'row',
-      alignItems: 'center',
-      justifyContent: 'center'
+      alignItems: 'flex-start',
+      justifyContent: 'center',
+      paddingTop: 20
     },
     loadingIcon: {
       width: 24,

@@ -24,6 +24,8 @@ export default class DynaComponent extends BaseComponent {
   styleSheet = StyleSheet.create(Object.assign({
       container: {
         //flex: 1
+        borderBottomWidth: 1,
+        borderBottomColor: baseStyle.DEFAULT_BORDER_COLOR
       },
       priceContainer: {
         flexDirection: 'row',
@@ -91,7 +93,7 @@ export default class DynaComponent extends BaseComponent {
           <StockFormatText style={this.getUpDownStyle('price', this.props.dynaData.ZhangFu)}>{this.props.dynaData.ZuiXinJia}</StockFormatText>
           <View>
             <StockFormatText style={this.getUpDownStyle('updn', this.props.dynaData.ZhangFu)} sign={true}>{this.props.dynaData.ZhangDie}</StockFormatText>
-            <StockFormatText style={this.getUpDownStyle('updnRatio', this.props.dynaData.ZhangFu)} unit="%" sign={true}>{this.props.dynaData.ZhangFu}</StockFormatText>
+            <StockFormatText style={this.getUpDownStyle('updnRatio', this.props.dynaData.ZhangFu)} unit="%" sign={true}>{this.props.dynaData.ZhangFu / 100}</StockFormatText>
           </View>
         </View>
         <DateFormatText style={this.getStyles('time')} format="YYYY-MM-DD HH:mm:ss">{this.props.dynaData.ShiJian}</DateFormatText>
@@ -120,13 +122,13 @@ export class DZHYunDynaComponent extends DZHYunComponent {
     serviceUrl: '/stkdata'
   };
 
+  defaultParams = {
+    sub: 1,
+    field: ['ZuiXinJia', 'ZhangDie', 'ZhangFu', 'ShiJian', 'KaiPanJia', 'ZuoShou', 'ZuiGaoJia', 'ZuiDiJia', 'ChengJiaoLiang', 'HuanShou', 'ShiYingLv', 'ZongShiZhi', 'LeiXing']
+  };
+
   constructor(props) {
     super(props);
-
-    this.defaultParams = {
-      sub: 1,
-      field: ['ZuiXinJia', 'ZhangDie', 'ZhangFu', 'ShiJian', 'KaiPanJia', 'ZuoShou', 'ZuiGaoJia', 'ZuiDiJia', 'ChengJiaoLiang', 'HuanShou', 'ShiYingLv', 'ZongShiZhi']
-    };
 
     this.state = {
       data: props.dynaData

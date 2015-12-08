@@ -18,7 +18,8 @@ export default class BuySellComponent extends BaseComponent {
   styleSheet = StyleSheet.create({
     container: {
       flex: 1,
-      flexDirection: 'column'
+      flexDirection: 'column',
+      marginLeft: 5
     },
     row: {
       flex: 1,
@@ -37,6 +38,9 @@ export default class BuySellComponent extends BaseComponent {
     priceDown: {
       color: baseStyle.DOWN_COLOR
     },
+    volume: {
+      textAlign: 'right'
+    },
     split: {
       borderBottomColor: baseStyle.DEFAULT_BORDER_COLOR,
       borderBottomWidth: 1
@@ -49,7 +53,7 @@ export default class BuySellComponent extends BaseComponent {
       <View key={title} style={this.getStyles('row')}>
         <Text style={this.getStyles('cell')}>{title}</Text>
         <StockFormatText style={[this.getStyles('cell'), this.getUpDownStyle('price', up)]}>{price}</StockFormatText>
-        <StockFormatText style={this.getStyles(['cell', 'volume'])} unit={100} precision={0}>{volumn}</StockFormatText>
+        <StockFormatText style={this.getStyles(['cell', 'volume'])} unit="K/M" precision={0}>{volumn && volumn / 100}</StockFormatText>
       </View>
     );
   }

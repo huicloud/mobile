@@ -31,7 +31,7 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunAdvert)
 @protocol ComDzhyunProtoDzhyunAdvert_ADPutResponseOrBuilder < ComGoogleProtobufMessageOrBuilder >
 
 - (BOOL)hasErrCode;
-- (NSString *)getErrCode;
+- (int)getErrCode;
 
 @end
 
@@ -93,8 +93,8 @@ FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunA
 - (ComDzhyunProtoDzhyunAdvert_ADPutResponse *)buildPartial;
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
 
-- (ComDzhyunProtoDzhyunAdvert_ADPutResponse_Builder *)setErrCodeWithNSString:
-    (NSString *)value;
+- (ComDzhyunProtoDzhyunAdvert_ADPutResponse_Builder *)setErrCodeWithInt:
+    (int)value;
 - (ComDzhyunProtoDzhyunAdvert_ADPutResponse_Builder *)clearErrCode;
 
 @end
@@ -114,7 +114,7 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunAdvert_ADPutResponse_Builder)
 - (NSString *)getData;
 
 - (BOOL)hasVersion;
-- (NSString *)getVersion;
+- (long long int)getVersion;
 
 @end
 
@@ -186,8 +186,8 @@ FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunA
     (NSString *)value;
 - (ComDzhyunProtoDzhyunAdvert_ADInfo_Builder *)clearData;
 
-- (ComDzhyunProtoDzhyunAdvert_ADInfo_Builder *)setVersionWithNSString:
-    (NSString *)value;
+- (ComDzhyunProtoDzhyunAdvert_ADInfo_Builder *)setVersionWithLong:
+    (long long int)value;
 - (ComDzhyunProtoDzhyunAdvert_ADInfo_Builder *)clearVersion;
 
 @end

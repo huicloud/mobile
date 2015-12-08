@@ -114,7 +114,7 @@ public class DzhChart extends View {
                     double high = o.getDouble("ZuiGaoJia");
                     double low = o.getDouble("ZuiDiJia");
                     double close = o.getDouble("ShouPanJia");
-                    double qty = o.getInt("ChengJiaoLiang");
+                    double qty = o.getLong("ChengJiaoLiang");
                     datas.addRow(new Row(date, open, high, low, close));
 
                     boolean zhangDie = close > open ? true: false;

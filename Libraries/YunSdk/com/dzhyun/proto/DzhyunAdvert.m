@@ -35,7 +35,7 @@ ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunAdvert_ADPutRespons
 
 typedef struct ComDzhyunProtoDzhyunAdvert_ADPutResponse_Storage {
   uint32_t hasBits[1];
-  NSString *errCode_;
+  int errCode_;
 } ComDzhyunProtoDzhyunAdvert_ADPutResponse_Storage;
 
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor {
@@ -50,8 +50,8 @@ typedef struct ComDzhyunProtoDzhyunAdvert_ADPutResponse_Storage {
         .javaName = "ErrCode",
         .number = 1,
         .flags = CGPFieldFlagRequired,
-        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
-        .defaultValue.valueId = @"",
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT32,
+        .defaultValue.valueInt = 0,
         .hasBitIndex = 0,
         .offset = offsetof(ComDzhyunProtoDzhyunAdvert_ADPutResponse_Storage, errCode_),
         .className = NULL,
@@ -128,7 +128,7 @@ typedef struct ComDzhyunProtoDzhyunAdvert_ADInfo_Storage {
   uint32_t hasBits[1];
   NSString *slot_;
   NSString *data_;
-  NSString *version_;
+  long long int version_;
 } ComDzhyunProtoDzhyunAdvert_ADInfo_Storage;
 
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor {
@@ -169,8 +169,8 @@ typedef struct ComDzhyunProtoDzhyunAdvert_ADInfo_Storage {
         .javaName = "Version",
         .number = 3,
         .flags = CGPFieldFlagRequired,
-        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
-        .defaultValue.valueId = @"",
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
         .hasBitIndex = 2,
         .offset = offsetof(ComDzhyunProtoDzhyunAdvert_ADInfo_Storage, version_),
         .className = NULL,

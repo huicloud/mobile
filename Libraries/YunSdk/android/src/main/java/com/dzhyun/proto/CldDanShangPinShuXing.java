@@ -39,30 +39,30 @@ public final class CldDanShangPinShuXing {
         getObjBytes();
 
     /**
-     * <code>required string jiaoYiDaiMa = 2;</code>
+     * <code>optional string shangShiShiJian = 2;</code>
      *
      * <pre>
-     * 交易代码 Symbol
+     * 上市时间 C1
      * </pre>
      */
-    boolean hasJiaoYiDaiMa();
+    boolean hasShangShiShiJian();
     /**
-     * <code>required string jiaoYiDaiMa = 2;</code>
+     * <code>optional string shangShiShiJian = 2;</code>
      *
      * <pre>
-     * 交易代码 Symbol
+     * 上市时间 C1
      * </pre>
      */
-    java.lang.String getJiaoYiDaiMa();
+    java.lang.String getShangShiShiJian();
     /**
-     * <code>required string jiaoYiDaiMa = 2;</code>
+     * <code>optional string shangShiShiJian = 2;</code>
      *
      * <pre>
-     * 交易代码 Symbol
+     * 上市时间 C1
      * </pre>
      */
     com.google.protobuf.ByteString
-        getJiaoYiDaiMaBytes();
+        getShangShiShiJianBytes();
 
     /**
      * <code>optional string zhongWenJianCheng = 3;</code>
@@ -117,7 +117,41 @@ public final class CldDanShangPinShuXing {
         getYingWenQuanChengBytes();
 
     /**
-     * <code>optional string jiaoYiBiZhong = 5;</code>
+     * <code>optional int32 xiaoShuDianWeiShu = 5;</code>
+     *
+     * <pre>
+     * 小数据位数 C8
+     * </pre>
+     */
+    boolean hasXiaoShuDianWeiShu();
+    /**
+     * <code>optional int32 xiaoShuDianWeiShu = 5;</code>
+     *
+     * <pre>
+     * 小数据位数 C8
+     * </pre>
+     */
+    int getXiaoShuDianWeiShu();
+
+    /**
+     * <code>optional int32 jiaoYiShiJianLeiXin = 6;</code>
+     *
+     * <pre>
+     * 交易时间类型 C9
+     * </pre>
+     */
+    boolean hasJiaoYiShiJianLeiXin();
+    /**
+     * <code>optional int32 jiaoYiShiJianLeiXin = 6;</code>
+     *
+     * <pre>
+     * 交易时间类型 C9
+     * </pre>
+     */
+    int getJiaoYiShiJianLeiXin();
+
+    /**
+     * <code>optional string jiaoYiBiZhong = 7;</code>
      *
      * <pre>
      * 交易币种 C10
@@ -125,7 +159,7 @@ public final class CldDanShangPinShuXing {
      */
     boolean hasJiaoYiBiZhong();
     /**
-     * <code>optional string jiaoYiBiZhong = 5;</code>
+     * <code>optional string jiaoYiBiZhong = 7;</code>
      *
      * <pre>
      * 交易币种 C10
@@ -133,7 +167,7 @@ public final class CldDanShangPinShuXing {
      */
     java.lang.String getJiaoYiBiZhong();
     /**
-     * <code>optional string jiaoYiBiZhong = 5;</code>
+     * <code>optional string jiaoYiBiZhong = 7;</code>
      *
      * <pre>
      * 交易币种 C10
@@ -141,58 +175,6 @@ public final class CldDanShangPinShuXing {
      */
     com.google.protobuf.ByteString
         getJiaoYiBiZhongBytes();
-
-    /**
-     * <code>optional string zhengQuanLeiBie = 6;</code>
-     *
-     * <pre>
-     * 证券类别 C37 
-     * </pre>
-     */
-    boolean hasZhengQuanLeiBie();
-    /**
-     * <code>optional string zhengQuanLeiBie = 6;</code>
-     *
-     * <pre>
-     * 证券类别 C37 
-     * </pre>
-     */
-    java.lang.String getZhengQuanLeiBie();
-    /**
-     * <code>optional string zhengQuanLeiBie = 6;</code>
-     *
-     * <pre>
-     * 证券类别 C37 
-     * </pre>
-     */
-    com.google.protobuf.ByteString
-        getZhengQuanLeiBieBytes();
-
-    /**
-     * <code>optional string shangShiShiJian = 7;</code>
-     *
-     * <pre>
-     * 上市时间 C1
-     * </pre>
-     */
-    boolean hasShangShiShiJian();
-    /**
-     * <code>optional string shangShiShiJian = 7;</code>
-     *
-     * <pre>
-     * 上市时间 C1
-     * </pre>
-     */
-    java.lang.String getShangShiShiJian();
-    /**
-     * <code>optional string shangShiShiJian = 7;</code>
-     *
-     * <pre>
-     * 上市时间 C1
-     * </pre>
-     */
-    com.google.protobuf.ByteString
-        getShangShiShiJianBytes();
 
     /**
      * <code>optional string tuiShiShiJian = 8;</code>
@@ -221,47 +203,64 @@ public final class CldDanShangPinShuXing {
         getTuiShiShiJianBytes();
 
     /**
-     * <code>optional .dzhyun.DanShangPinShuXing.EUM_ShangShiZhuangTai shangShiZhuangTai = 9 [default = ShangShiZhuangTai_ShangShi];</code>
+     * <code>optional int32 shangShiZhuangTai = 9;</code>
      *
      * <pre>
-     * 上市状态 C30
+     * 上市状态 C30 (0:上市,1:未上市,2:暂停上市)
      * </pre>
      */
     boolean hasShangShiZhuangTai();
     /**
-     * <code>optional .dzhyun.DanShangPinShuXing.EUM_ShangShiZhuangTai shangShiZhuangTai = 9 [default = ShangShiZhuangTai_ShangShi];</code>
+     * <code>optional int32 shangShiZhuangTai = 9;</code>
      *
      * <pre>
-     * 上市状态 C30
+     * 上市状态 C30 (0:上市,1:未上市,2:暂停上市)
      * </pre>
      */
-    com.dzhyun.proto.CldDanShangPinShuXing.DanShangPinShuXing.EUM_ShangShiZhuangTai getShangShiZhuangTai();
+    int getShangShiZhuangTai();
 
     /**
-     * <code>required string updateTime = 10;</code>
+     * <code>optional string zhengQuanLeiBie = 10;</code>
      *
      * <pre>
-     * 更新时间 ETIME
+     * 证券类别 C37 
      * </pre>
      */
-    boolean hasUpdateTime();
+    boolean hasZhengQuanLeiBie();
     /**
-     * <code>required string updateTime = 10;</code>
+     * <code>optional string zhengQuanLeiBie = 10;</code>
      *
      * <pre>
-     * 更新时间 ETIME
+     * 证券类别 C37 
      * </pre>
      */
-    java.lang.String getUpdateTime();
+    java.lang.String getZhengQuanLeiBie();
     /**
-     * <code>required string updateTime = 10;</code>
+     * <code>optional string zhengQuanLeiBie = 10;</code>
      *
      * <pre>
-     * 更新时间 ETIME
+     * 证券类别 C37 
      * </pre>
      */
     com.google.protobuf.ByteString
-        getUpdateTimeBytes();
+        getZhengQuanLeiBieBytes();
+
+    /**
+     * <code>optional int32 tingPai = 11;</code>
+     *
+     * <pre>
+     * 停牌 dzh_stock.tEQ9112.C5 
+     * </pre>
+     */
+    boolean hasTingPai();
+    /**
+     * <code>optional int32 tingPai = 11;</code>
+     *
+     * <pre>
+     * 停牌 dzh_stock.tEQ9112.C5 
+     * </pre>
+     */
+    int getTingPai();
   }
   /**
    * Protobuf type {@code dzhyun.DanShangPinShuXing}
@@ -328,7 +327,7 @@ public final class CldDanShangPinShuXing {
             case 18: {
               com.google.protobuf.ByteString bs = input.readBytes();
               bitField0_ |= 0x00000002;
-              jiaoYiDaiMa_ = bs;
+              shangShiShiJian_ = bs;
               break;
             }
             case 26: {
@@ -343,22 +342,20 @@ public final class CldDanShangPinShuXing {
               yingWenQuanCheng_ = bs;
               break;
             }
-            case 42: {
-              com.google.protobuf.ByteString bs = input.readBytes();
+            case 40: {
               bitField0_ |= 0x00000010;
-              jiaoYiBiZhong_ = bs;
+              xiaoShuDianWeiShu_ = input.readInt32();
               break;
             }
-            case 50: {
-              com.google.protobuf.ByteString bs = input.readBytes();
+            case 48: {
               bitField0_ |= 0x00000020;
-              zhengQuanLeiBie_ = bs;
+              jiaoYiShiJianLeiXin_ = input.readInt32();
               break;
             }
             case 58: {
               com.google.protobuf.ByteString bs = input.readBytes();
               bitField0_ |= 0x00000040;
-              shangShiShiJian_ = bs;
+              jiaoYiBiZhong_ = bs;
               break;
             }
             case 66: {
@@ -368,20 +365,19 @@ public final class CldDanShangPinShuXing {
               break;
             }
             case 72: {
-              int rawValue = input.readEnum();
-              com.dzhyun.proto.CldDanShangPinShuXing.DanShangPinShuXing.EUM_ShangShiZhuangTai value = com.dzhyun.proto.CldDanShangPinShuXing.DanShangPinShuXing.EUM_ShangShiZhuangTai.valueOf(rawValue);
-              if (value == null) {
-                unknownFields.mergeVarintField(9, rawValue);
-              } else {
-                bitField0_ |= 0x00000100;
-                shangShiZhuangTai_ = value;
-              }
+              bitField0_ |= 0x00000100;
+              shangShiZhuangTai_ = input.readInt32();
               break;
             }
             case 82: {
               com.google.protobuf.ByteString bs = input.readBytes();
               bitField0_ |= 0x00000200;
-              updateTime_ = bs;
+              zhengQuanLeiBie_ = bs;
+              break;
+            }
+            case 88: {
+              bitField0_ |= 0x00000400;
+              tingPai_ = input.readInt32();
               break;
             }
           }
@@ -421,125 +417,6 @@ public final class CldDanShangPinShuXing {
     @java.lang.Override
     public com.google.protobuf.Parser<DanShangPinShuXing> getParserForType() {
       return PARSER;
-    }
-
-    /**
-     * Protobuf enum {@code dzhyun.DanShangPinShuXing.EUM_ShangShiZhuangTai}
-     *
-     * <pre>
-     * 枚举类型-上市状态
-     * </pre>
-     */
-    public enum EUM_ShangShiZhuangTai
-        implements com.google.protobuf.ProtocolMessageEnum {
-      /**
-       * <code>ShangShiZhuangTai_ShangShi = 0;</code>
-       *
-       * <pre>
-       * 上市
-       * </pre>
-       */
-      ShangShiZhuangTai_ShangShi(0, 0),
-      /**
-       * <code>ShangShiZhuangTai_WeiShangShi = 1;</code>
-       *
-       * <pre>
-       * 未上市
-       * </pre>
-       */
-      ShangShiZhuangTai_WeiShangShi(1, 1),
-      /**
-       * <code>ShangShiZhuangTai_ZhanTingShangShi = 2;</code>
-       *
-       * <pre>
-       * 暂停上市
-       * </pre>
-       */
-      ShangShiZhuangTai_ZhanTingShangShi(2, 2),
-      ;
-
-      /**
-       * <code>ShangShiZhuangTai_ShangShi = 0;</code>
-       *
-       * <pre>
-       * 上市
-       * </pre>
-       */
-      public static final int ShangShiZhuangTai_ShangShi_VALUE = 0;
-      /**
-       * <code>ShangShiZhuangTai_WeiShangShi = 1;</code>
-       *
-       * <pre>
-       * 未上市
-       * </pre>
-       */
-      public static final int ShangShiZhuangTai_WeiShangShi_VALUE = 1;
-      /**
-       * <code>ShangShiZhuangTai_ZhanTingShangShi = 2;</code>
-       *
-       * <pre>
-       * 暂停上市
-       * </pre>
-       */
-      public static final int ShangShiZhuangTai_ZhanTingShangShi_VALUE = 2;
-
-
-      public final int getNumber() { return value; }
-
-      public static EUM_ShangShiZhuangTai valueOf(int value) {
-        switch (value) {
-          case 0: return ShangShiZhuangTai_ShangShi;
-          case 1: return ShangShiZhuangTai_WeiShangShi;
-          case 2: return ShangShiZhuangTai_ZhanTingShangShi;
-          default: return null;
-        }
-      }
-
-      public static com.google.protobuf.Internal.EnumLiteMap<EUM_ShangShiZhuangTai>
-          internalGetValueMap() {
-        return internalValueMap;
-      }
-      private static com.google.protobuf.Internal.EnumLiteMap<EUM_ShangShiZhuangTai>
-          internalValueMap =
-            new com.google.protobuf.Internal.EnumLiteMap<EUM_ShangShiZhuangTai>() {
-              public EUM_ShangShiZhuangTai findValueByNumber(int number) {
-                return EUM_ShangShiZhuangTai.valueOf(number);
-              }
-            };
-
-      public final com.google.protobuf.Descriptors.EnumValueDescriptor
-          getValueDescriptor() {
-        return getDescriptor().getValues().get(index);
-      }
-      public final com.google.protobuf.Descriptors.EnumDescriptor
-          getDescriptorForType() {
-        return getDescriptor();
-      }
-      public static final com.google.protobuf.Descriptors.EnumDescriptor
-          getDescriptor() {
-        return com.dzhyun.proto.CldDanShangPinShuXing.DanShangPinShuXing.getDescriptor().getEnumTypes().get(0);
-      }
-
-      private static final EUM_ShangShiZhuangTai[] VALUES = values();
-
-      public static EUM_ShangShiZhuangTai valueOf(
-          com.google.protobuf.Descriptors.EnumValueDescriptor desc) {
-        if (desc.getType() != getDescriptor()) {
-          throw new java.lang.IllegalArgumentException(
-            "EnumValueDescriptor is not for this type.");
-        }
-        return VALUES[desc.getIndex()];
-      }
-
-      private final int index;
-      private final int value;
-
-      private EUM_ShangShiZhuangTai(int index, int value) {
-        this.index = index;
-        this.value = value;
-      }
-
-      // @@protoc_insertion_point(enum_scope:dzhyun.DanShangPinShuXing.EUM_ShangShiZhuangTai)
     }
 
     private int bitField0_;
@@ -597,27 +474,27 @@ public final class CldDanShangPinShuXing {
       }
     }
 
-    public static final int JIAOYIDAIMA_FIELD_NUMBER = 2;
-    private java.lang.Object jiaoYiDaiMa_;
+    public static final int SHANGSHISHIJIAN_FIELD_NUMBER = 2;
+    private java.lang.Object shangShiShiJian_;
     /**
-     * <code>required string jiaoYiDaiMa = 2;</code>
+     * <code>optional string shangShiShiJian = 2;</code>
      *
      * <pre>
-     * 交易代码 Symbol
+     * 上市时间 C1
      * </pre>
      */
-    public boolean hasJiaoYiDaiMa() {
+    public boolean hasShangShiShiJian() {
       return ((bitField0_ & 0x00000002) == 0x00000002);
     }
     /**
-     * <code>required string jiaoYiDaiMa = 2;</code>
+     * <code>optional string shangShiShiJian = 2;</code>
      *
      * <pre>
-     * 交易代码 Symbol
+     * 上市时间 C1
      * </pre>
      */
-    public java.lang.String getJiaoYiDaiMa() {
-      java.lang.Object ref = jiaoYiDaiMa_;
+    public java.lang.String getShangShiShiJian() {
+      java.lang.Object ref = shangShiShiJian_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
@@ -625,26 +502,26 @@ public final class CldDanShangPinShuXing {
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         if (bs.isValidUtf8()) {
-          jiaoYiDaiMa_ = s;
+          shangShiShiJian_ = s;
         }
         return s;
       }
     }
     /**
-     * <code>required string jiaoYiDaiMa = 2;</code>
+     * <code>optional string shangShiShiJian = 2;</code>
      *
      * <pre>
-     * 交易代码 Symbol
+     * 上市时间 C1
      * </pre>
      */
     public com.google.protobuf.ByteString
-        getJiaoYiDaiMaBytes() {
-      java.lang.Object ref = jiaoYiDaiMa_;
+        getShangShiShiJianBytes() {
+      java.lang.Object ref = shangShiShiJian_;
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        jiaoYiDaiMa_ = b;
+        shangShiShiJian_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
@@ -759,20 +636,66 @@ public final class CldDanShangPinShuXing {
       }
     }
 
-    public static final int JIAOYIBIZHONG_FIELD_NUMBER = 5;
+    public static final int XIAOSHUDIANWEISHU_FIELD_NUMBER = 5;
+    private int xiaoShuDianWeiShu_;
+    /**
+     * <code>optional int32 xiaoShuDianWeiShu = 5;</code>
+     *
+     * <pre>
+     * 小数据位数 C8
+     * </pre>
+     */
+    public boolean hasXiaoShuDianWeiShu() {
+      return ((bitField0_ & 0x00000010) == 0x00000010);
+    }
+    /**
+     * <code>optional int32 xiaoShuDianWeiShu = 5;</code>
+     *
+     * <pre>
+     * 小数据位数 C8
+     * </pre>
+     */
+    public int getXiaoShuDianWeiShu() {
+      return xiaoShuDianWeiShu_;
+    }
+
+    public static final int JIAOYISHIJIANLEIXIN_FIELD_NUMBER = 6;
+    private int jiaoYiShiJianLeiXin_;
+    /**
+     * <code>optional int32 jiaoYiShiJianLeiXin = 6;</code>
+     *
+     * <pre>
+     * 交易时间类型 C9
+     * </pre>
+     */
+    public boolean hasJiaoYiShiJianLeiXin() {
+      return ((bitField0_ & 0x00000020) == 0x00000020);
+    }
+    /**
+     * <code>optional int32 jiaoYiShiJianLeiXin = 6;</code>
+     *
+     * <pre>
+     * 交易时间类型 C9
+     * </pre>
+     */
+    public int getJiaoYiShiJianLeiXin() {
+      return jiaoYiShiJianLeiXin_;
+    }
+
+    public static final int JIAOYIBIZHONG_FIELD_NUMBER = 7;
     private java.lang.Object jiaoYiBiZhong_;
     /**
-     * <code>optional string jiaoYiBiZhong = 5;</code>
+     * <code>optional string jiaoYiBiZhong = 7;</code>
      *
      * <pre>
      * 交易币种 C10
      * </pre>
      */
     public boolean hasJiaoYiBiZhong() {
-      return ((bitField0_ & 0x00000010) == 0x00000010);
+      return ((bitField0_ & 0x00000040) == 0x00000040);
     }
     /**
-     * <code>optional string jiaoYiBiZhong = 5;</code>
+     * <code>optional string jiaoYiBiZhong = 7;</code>
      *
      * <pre>
      * 交易币种 C10
@@ -793,7 +716,7 @@ public final class CldDanShangPinShuXing {
       }
     }
     /**
-     * <code>optional string jiaoYiBiZhong = 5;</code>
+     * <code>optional string jiaoYiBiZhong = 7;</code>
      *
      * <pre>
      * 交易币种 C10
@@ -807,114 +730,6 @@ public final class CldDanShangPinShuXing {
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         jiaoYiBiZhong_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-
-    public static final int ZHENGQUANLEIBIE_FIELD_NUMBER = 6;
-    private java.lang.Object zhengQuanLeiBie_;
-    /**
-     * <code>optional string zhengQuanLeiBie = 6;</code>
-     *
-     * <pre>
-     * 证券类别 C37 
-     * </pre>
-     */
-    public boolean hasZhengQuanLeiBie() {
-      return ((bitField0_ & 0x00000020) == 0x00000020);
-    }
-    /**
-     * <code>optional string zhengQuanLeiBie = 6;</code>
-     *
-     * <pre>
-     * 证券类别 C37 
-     * </pre>
-     */
-    public java.lang.String getZhengQuanLeiBie() {
-      java.lang.Object ref = zhengQuanLeiBie_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          zhengQuanLeiBie_ = s;
-        }
-        return s;
-      }
-    }
-    /**
-     * <code>optional string zhengQuanLeiBie = 6;</code>
-     *
-     * <pre>
-     * 证券类别 C37 
-     * </pre>
-     */
-    public com.google.protobuf.ByteString
-        getZhengQuanLeiBieBytes() {
-      java.lang.Object ref = zhengQuanLeiBie_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        zhengQuanLeiBie_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-
-    public static final int SHANGSHISHIJIAN_FIELD_NUMBER = 7;
-    private java.lang.Object shangShiShiJian_;
-    /**
-     * <code>optional string shangShiShiJian = 7;</code>
-     *
-     * <pre>
-     * 上市时间 C1
-     * </pre>
-     */
-    public boolean hasShangShiShiJian() {
-      return ((bitField0_ & 0x00000040) == 0x00000040);
-    }
-    /**
-     * <code>optional string shangShiShiJian = 7;</code>
-     *
-     * <pre>
-     * 上市时间 C1
-     * </pre>
-     */
-    public java.lang.String getShangShiShiJian() {
-      java.lang.Object ref = shangShiShiJian_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          shangShiShiJian_ = s;
-        }
-        return s;
-      }
-    }
-    /**
-     * <code>optional string shangShiShiJian = 7;</code>
-     *
-     * <pre>
-     * 上市时间 C1
-     * </pre>
-     */
-    public com.google.protobuf.ByteString
-        getShangShiShiJianBytes() {
-      java.lang.Object ref = shangShiShiJian_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        shangShiShiJian_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
@@ -976,49 +791,49 @@ public final class CldDanShangPinShuXing {
     }
 
     public static final int SHANGSHIZHUANGTAI_FIELD_NUMBER = 9;
-    private com.dzhyun.proto.CldDanShangPinShuXing.DanShangPinShuXing.EUM_ShangShiZhuangTai shangShiZhuangTai_;
+    private int shangShiZhuangTai_;
     /**
-     * <code>optional .dzhyun.DanShangPinShuXing.EUM_ShangShiZhuangTai shangShiZhuangTai = 9 [default = ShangShiZhuangTai_ShangShi];</code>
+     * <code>optional int32 shangShiZhuangTai = 9;</code>
      *
      * <pre>
-     * 上市状态 C30
+     * 上市状态 C30 (0:上市,1:未上市,2:暂停上市)
      * </pre>
      */
     public boolean hasShangShiZhuangTai() {
       return ((bitField0_ & 0x00000100) == 0x00000100);
     }
     /**
-     * <code>optional .dzhyun.DanShangPinShuXing.EUM_ShangShiZhuangTai shangShiZhuangTai = 9 [default = ShangShiZhuangTai_ShangShi];</code>
+     * <code>optional int32 shangShiZhuangTai = 9;</code>
      *
      * <pre>
-     * 上市状态 C30
+     * 上市状态 C30 (0:上市,1:未上市,2:暂停上市)
      * </pre>
      */
-    public com.dzhyun.proto.CldDanShangPinShuXing.DanShangPinShuXing.EUM_ShangShiZhuangTai getShangShiZhuangTai() {
+    public int getShangShiZhuangTai() {
       return shangShiZhuangTai_;
     }
 
-    public static final int UPDATETIME_FIELD_NUMBER = 10;
-    private java.lang.Object updateTime_;
+    public static final int ZHENGQUANLEIBIE_FIELD_NUMBER = 10;
+    private java.lang.Object zhengQuanLeiBie_;
     /**
-     * <code>required string updateTime = 10;</code>
+     * <code>optional string zhengQuanLeiBie = 10;</code>
      *
      * <pre>
-     * 更新时间 ETIME
+     * 证券类别 C37 
      * </pre>
      */
-    public boolean hasUpdateTime() {
+    public boolean hasZhengQuanLeiBie() {
       return ((bitField0_ & 0x00000200) == 0x00000200);
     }
     /**
-     * <code>required string updateTime = 10;</code>
+     * <code>optional string zhengQuanLeiBie = 10;</code>
      *
      * <pre>
-     * 更新时间 ETIME
+     * 证券类别 C37 
      * </pre>
      */
-    public java.lang.String getUpdateTime() {
-      java.lang.Object ref = updateTime_;
+    public java.lang.String getZhengQuanLeiBie() {
+      java.lang.Object ref = zhengQuanLeiBie_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
@@ -1026,43 +841,67 @@ public final class CldDanShangPinShuXing {
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         if (bs.isValidUtf8()) {
-          updateTime_ = s;
+          zhengQuanLeiBie_ = s;
         }
         return s;
       }
     }
     /**
-     * <code>required string updateTime = 10;</code>
+     * <code>optional string zhengQuanLeiBie = 10;</code>
      *
      * <pre>
-     * 更新时间 ETIME
+     * 证券类别 C37 
      * </pre>
      */
     public com.google.protobuf.ByteString
-        getUpdateTimeBytes() {
-      java.lang.Object ref = updateTime_;
+        getZhengQuanLeiBieBytes() {
+      java.lang.Object ref = zhengQuanLeiBie_;
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        updateTime_ = b;
+        zhengQuanLeiBie_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
       }
     }
 
+    public static final int TINGPAI_FIELD_NUMBER = 11;
+    private int tingPai_;
+    /**
+     * <code>optional int32 tingPai = 11;</code>
+     *
+     * <pre>
+     * 停牌 dzh_stock.tEQ9112.C5 
+     * </pre>
+     */
+    public boolean hasTingPai() {
+      return ((bitField0_ & 0x00000400) == 0x00000400);
+    }
+    /**
+     * <code>optional int32 tingPai = 11;</code>
+     *
+     * <pre>
+     * 停牌 dzh_stock.tEQ9112.C5 
+     * </pre>
+     */
+    public int getTingPai() {
+      return tingPai_;
+    }
+
     private void initFields() {
       obj_ = "";
-      jiaoYiDaiMa_ = "";
+      shangShiShiJian_ = "";
       zhongWenJianCheng_ = "";
       yingWenQuanCheng_ = "";
+      xiaoShuDianWeiShu_ = 0;
+      jiaoYiShiJianLeiXin_ = 0;
       jiaoYiBiZhong_ = "";
-      zhengQuanLeiBie_ = "";
-      shangShiShiJian_ = "";
       tuiShiShiJian_ = "";
-      shangShiZhuangTai_ = com.dzhyun.proto.CldDanShangPinShuXing.DanShangPinShuXing.EUM_ShangShiZhuangTai.ShangShiZhuangTai_ShangShi;
-      updateTime_ = "";
+      shangShiZhuangTai_ = 0;
+      zhengQuanLeiBie_ = "";
+      tingPai_ = 0;
     }
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
@@ -1071,14 +910,6 @@ public final class CldDanShangPinShuXing {
       if (isInitialized == 0) return false;
 
       if (!hasObj()) {
-        memoizedIsInitialized = 0;
-        return false;
-      }
-      if (!hasJiaoYiDaiMa()) {
-        memoizedIsInitialized = 0;
-        return false;
-      }
-      if (!hasUpdateTime()) {
         memoizedIsInitialized = 0;
         return false;
       }
@@ -1093,7 +924,7 @@ public final class CldDanShangPinShuXing {
         output.writeBytes(1, getObjBytes());
       }
       if (((bitField0_ & 0x00000002) == 0x00000002)) {
-        output.writeBytes(2, getJiaoYiDaiMaBytes());
+        output.writeBytes(2, getShangShiShiJianBytes());
       }
       if (((bitField0_ & 0x00000004) == 0x00000004)) {
         output.writeBytes(3, getZhongWenJianChengBytes());
@@ -1102,22 +933,25 @@ public final class CldDanShangPinShuXing {
         output.writeBytes(4, getYingWenQuanChengBytes());
       }
       if (((bitField0_ & 0x00000010) == 0x00000010)) {
-        output.writeBytes(5, getJiaoYiBiZhongBytes());
+        output.writeInt32(5, xiaoShuDianWeiShu_);
       }
       if (((bitField0_ & 0x00000020) == 0x00000020)) {
-        output.writeBytes(6, getZhengQuanLeiBieBytes());
+        output.writeInt32(6, jiaoYiShiJianLeiXin_);
       }
       if (((bitField0_ & 0x00000040) == 0x00000040)) {
-        output.writeBytes(7, getShangShiShiJianBytes());
+        output.writeBytes(7, getJiaoYiBiZhongBytes());
       }
       if (((bitField0_ & 0x00000080) == 0x00000080)) {
         output.writeBytes(8, getTuiShiShiJianBytes());
       }
       if (((bitField0_ & 0x00000100) == 0x00000100)) {
-        output.writeEnum(9, shangShiZhuangTai_.getNumber());
+        output.writeInt32(9, shangShiZhuangTai_);
       }
       if (((bitField0_ & 0x00000200) == 0x00000200)) {
-        output.writeBytes(10, getUpdateTimeBytes());
+        output.writeBytes(10, getZhengQuanLeiBieBytes());
+      }
+      if (((bitField0_ & 0x00000400) == 0x00000400)) {
+        output.writeInt32(11, tingPai_);
       }
       getUnknownFields().writeTo(output);
     }
@@ -1134,7 +968,7 @@ public final class CldDanShangPinShuXing {
       }
       if (((bitField0_ & 0x00000002) == 0x00000002)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(2, getJiaoYiDaiMaBytes());
+          .computeBytesSize(2, getShangShiShiJianBytes());
       }
       if (((bitField0_ & 0x00000004) == 0x00000004)) {
         size += com.google.protobuf.CodedOutputStream
@@ -1146,15 +980,15 @@ public final class CldDanShangPinShuXing {
       }
       if (((bitField0_ & 0x00000010) == 0x00000010)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(5, getJiaoYiBiZhongBytes());
+          .computeInt32Size(5, xiaoShuDianWeiShu_);
       }
       if (((bitField0_ & 0x00000020) == 0x00000020)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(6, getZhengQuanLeiBieBytes());
+          .computeInt32Size(6, jiaoYiShiJianLeiXin_);
       }
       if (((bitField0_ & 0x00000040) == 0x00000040)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(7, getShangShiShiJianBytes());
+          .computeBytesSize(7, getJiaoYiBiZhongBytes());
       }
       if (((bitField0_ & 0x00000080) == 0x00000080)) {
         size += com.google.protobuf.CodedOutputStream
@@ -1162,11 +996,15 @@ public final class CldDanShangPinShuXing {
       }
       if (((bitField0_ & 0x00000100) == 0x00000100)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(9, shangShiZhuangTai_.getNumber());
+          .computeInt32Size(9, shangShiZhuangTai_);
       }
       if (((bitField0_ & 0x00000200) == 0x00000200)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(10, getUpdateTimeBytes());
+          .computeBytesSize(10, getZhengQuanLeiBieBytes());
+      }
+      if (((bitField0_ & 0x00000400) == 0x00000400)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt32Size(11, tingPai_);
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
@@ -1291,24 +1129,26 @@ public final class CldDanShangPinShuXing {
         super.clear();
         obj_ = "";
         bitField0_ = (bitField0_ & ~0x00000001);
-        jiaoYiDaiMa_ = "";
+        shangShiShiJian_ = "";
         bitField0_ = (bitField0_ & ~0x00000002);
         zhongWenJianCheng_ = "";
         bitField0_ = (bitField0_ & ~0x00000004);
         yingWenQuanCheng_ = "";
         bitField0_ = (bitField0_ & ~0x00000008);
-        jiaoYiBiZhong_ = "";
+        xiaoShuDianWeiShu_ = 0;
         bitField0_ = (bitField0_ & ~0x00000010);
-        zhengQuanLeiBie_ = "";
+        jiaoYiShiJianLeiXin_ = 0;
         bitField0_ = (bitField0_ & ~0x00000020);
-        shangShiShiJian_ = "";
+        jiaoYiBiZhong_ = "";
         bitField0_ = (bitField0_ & ~0x00000040);
         tuiShiShiJian_ = "";
         bitField0_ = (bitField0_ & ~0x00000080);
-        shangShiZhuangTai_ = com.dzhyun.proto.CldDanShangPinShuXing.DanShangPinShuXing.EUM_ShangShiZhuangTai.ShangShiZhuangTai_ShangShi;
+        shangShiZhuangTai_ = 0;
         bitField0_ = (bitField0_ & ~0x00000100);
-        updateTime_ = "";
+        zhengQuanLeiBie_ = "";
         bitField0_ = (bitField0_ & ~0x00000200);
+        tingPai_ = 0;
+        bitField0_ = (bitField0_ & ~0x00000400);
         return this;
       }
 
@@ -1344,7 +1184,7 @@ public final class CldDanShangPinShuXing {
         if (((from_bitField0_ & 0x00000002) == 0x00000002)) {
           to_bitField0_ |= 0x00000002;
         }
-        result.jiaoYiDaiMa_ = jiaoYiDaiMa_;
+        result.shangShiShiJian_ = shangShiShiJian_;
         if (((from_bitField0_ & 0x00000004) == 0x00000004)) {
           to_bitField0_ |= 0x00000004;
         }
@@ -1356,15 +1196,15 @@ public final class CldDanShangPinShuXing {
         if (((from_bitField0_ & 0x00000010) == 0x00000010)) {
           to_bitField0_ |= 0x00000010;
         }
-        result.jiaoYiBiZhong_ = jiaoYiBiZhong_;
+        result.xiaoShuDianWeiShu_ = xiaoShuDianWeiShu_;
         if (((from_bitField0_ & 0x00000020) == 0x00000020)) {
           to_bitField0_ |= 0x00000020;
         }
-        result.zhengQuanLeiBie_ = zhengQuanLeiBie_;
+        result.jiaoYiShiJianLeiXin_ = jiaoYiShiJianLeiXin_;
         if (((from_bitField0_ & 0x00000040) == 0x00000040)) {
           to_bitField0_ |= 0x00000040;
         }
-        result.shangShiShiJian_ = shangShiShiJian_;
+        result.jiaoYiBiZhong_ = jiaoYiBiZhong_;
         if (((from_bitField0_ & 0x00000080) == 0x00000080)) {
           to_bitField0_ |= 0x00000080;
         }
@@ -1376,7 +1216,11 @@ public final class CldDanShangPinShuXing {
         if (((from_bitField0_ & 0x00000200) == 0x00000200)) {
           to_bitField0_ |= 0x00000200;
         }
-        result.updateTime_ = updateTime_;
+        result.zhengQuanLeiBie_ = zhengQuanLeiBie_;
+        if (((from_bitField0_ & 0x00000400) == 0x00000400)) {
+          to_bitField0_ |= 0x00000400;
+        }
+        result.tingPai_ = tingPai_;
         result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
@@ -1398,9 +1242,9 @@ public final class CldDanShangPinShuXing {
           obj_ = other.obj_;
           onChanged();
         }
-        if (other.hasJiaoYiDaiMa()) {
+        if (other.hasShangShiShiJian()) {
           bitField0_ |= 0x00000002;
-          jiaoYiDaiMa_ = other.jiaoYiDaiMa_;
+          shangShiShiJian_ = other.shangShiShiJian_;
           onChanged();
         }
         if (other.hasZhongWenJianCheng()) {
@@ -1413,19 +1257,15 @@ public final class CldDanShangPinShuXing {
           yingWenQuanCheng_ = other.yingWenQuanCheng_;
           onChanged();
         }
+        if (other.hasXiaoShuDianWeiShu()) {
+          setXiaoShuDianWeiShu(other.getXiaoShuDianWeiShu());
+        }
+        if (other.hasJiaoYiShiJianLeiXin()) {
+          setJiaoYiShiJianLeiXin(other.getJiaoYiShiJianLeiXin());
+        }
         if (other.hasJiaoYiBiZhong()) {
-          bitField0_ |= 0x00000010;
-          jiaoYiBiZhong_ = other.jiaoYiBiZhong_;
-          onChanged();
-        }
-        if (other.hasZhengQuanLeiBie()) {
-          bitField0_ |= 0x00000020;
-          zhengQuanLeiBie_ = other.zhengQuanLeiBie_;
-          onChanged();
-        }
-        if (other.hasShangShiShiJian()) {
           bitField0_ |= 0x00000040;
-          shangShiShiJian_ = other.shangShiShiJian_;
+          jiaoYiBiZhong_ = other.jiaoYiBiZhong_;
           onChanged();
         }
         if (other.hasTuiShiShiJian()) {
@@ -1436,10 +1276,13 @@ public final class CldDanShangPinShuXing {
         if (other.hasShangShiZhuangTai()) {
           setShangShiZhuangTai(other.getShangShiZhuangTai());
         }
-        if (other.hasUpdateTime()) {
+        if (other.hasZhengQuanLeiBie()) {
           bitField0_ |= 0x00000200;
-          updateTime_ = other.updateTime_;
+          zhengQuanLeiBie_ = other.zhengQuanLeiBie_;
           onChanged();
+        }
+        if (other.hasTingPai()) {
+          setTingPai(other.getTingPai());
         }
         this.mergeUnknownFields(other.getUnknownFields());
         return this;
@@ -1447,14 +1290,6 @@ public final class CldDanShangPinShuXing {
 
       public final boolean isInitialized() {
         if (!hasObj()) {
-          
-          return false;
-        }
-        if (!hasJiaoYiDaiMa()) {
-          
-          return false;
-        }
-        if (!hasUpdateTime()) {
           
           return false;
         }
@@ -1580,32 +1415,32 @@ public final class CldDanShangPinShuXing {
         return this;
       }
 
-      private java.lang.Object jiaoYiDaiMa_ = "";
+      private java.lang.Object shangShiShiJian_ = "";
       /**
-       * <code>required string jiaoYiDaiMa = 2;</code>
+       * <code>optional string shangShiShiJian = 2;</code>
        *
        * <pre>
-       * 交易代码 Symbol
+       * 上市时间 C1
        * </pre>
        */
-      public boolean hasJiaoYiDaiMa() {
+      public boolean hasShangShiShiJian() {
         return ((bitField0_ & 0x00000002) == 0x00000002);
       }
       /**
-       * <code>required string jiaoYiDaiMa = 2;</code>
+       * <code>optional string shangShiShiJian = 2;</code>
        *
        * <pre>
-       * 交易代码 Symbol
+       * 上市时间 C1
        * </pre>
        */
-      public java.lang.String getJiaoYiDaiMa() {
-        java.lang.Object ref = jiaoYiDaiMa_;
+      public java.lang.String getShangShiShiJian() {
+        java.lang.Object ref = shangShiShiJian_;
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
           if (bs.isValidUtf8()) {
-            jiaoYiDaiMa_ = s;
+            shangShiShiJian_ = s;
           }
           return s;
         } else {
@@ -1613,69 +1448,69 @@ public final class CldDanShangPinShuXing {
         }
       }
       /**
-       * <code>required string jiaoYiDaiMa = 2;</code>
+       * <code>optional string shangShiShiJian = 2;</code>
        *
        * <pre>
-       * 交易代码 Symbol
+       * 上市时间 C1
        * </pre>
        */
       public com.google.protobuf.ByteString
-          getJiaoYiDaiMaBytes() {
-        java.lang.Object ref = jiaoYiDaiMa_;
+          getShangShiShiJianBytes() {
+        java.lang.Object ref = shangShiShiJian_;
         if (ref instanceof String) {
           com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          jiaoYiDaiMa_ = b;
+          shangShiShiJian_ = b;
           return b;
         } else {
           return (com.google.protobuf.ByteString) ref;
         }
       }
       /**
-       * <code>required string jiaoYiDaiMa = 2;</code>
+       * <code>optional string shangShiShiJian = 2;</code>
        *
        * <pre>
-       * 交易代码 Symbol
+       * 上市时间 C1
        * </pre>
        */
-      public Builder setJiaoYiDaiMa(
+      public Builder setShangShiShiJian(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
   bitField0_ |= 0x00000002;
-        jiaoYiDaiMa_ = value;
+        shangShiShiJian_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>required string jiaoYiDaiMa = 2;</code>
+       * <code>optional string shangShiShiJian = 2;</code>
        *
        * <pre>
-       * 交易代码 Symbol
+       * 上市时间 C1
        * </pre>
        */
-      public Builder clearJiaoYiDaiMa() {
+      public Builder clearShangShiShiJian() {
         bitField0_ = (bitField0_ & ~0x00000002);
-        jiaoYiDaiMa_ = getDefaultInstance().getJiaoYiDaiMa();
+        shangShiShiJian_ = getDefaultInstance().getShangShiShiJian();
         onChanged();
         return this;
       }
       /**
-       * <code>required string jiaoYiDaiMa = 2;</code>
+       * <code>optional string shangShiShiJian = 2;</code>
        *
        * <pre>
-       * 交易代码 Symbol
+       * 上市时间 C1
        * </pre>
        */
-      public Builder setJiaoYiDaiMaBytes(
+      public Builder setShangShiShiJianBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   bitField0_ |= 0x00000002;
-        jiaoYiDaiMa_ = value;
+        shangShiShiJian_ = value;
         onChanged();
         return this;
       }
@@ -1880,19 +1715,115 @@ public final class CldDanShangPinShuXing {
         return this;
       }
 
+      private int xiaoShuDianWeiShu_ ;
+      /**
+       * <code>optional int32 xiaoShuDianWeiShu = 5;</code>
+       *
+       * <pre>
+       * 小数据位数 C8
+       * </pre>
+       */
+      public boolean hasXiaoShuDianWeiShu() {
+        return ((bitField0_ & 0x00000010) == 0x00000010);
+      }
+      /**
+       * <code>optional int32 xiaoShuDianWeiShu = 5;</code>
+       *
+       * <pre>
+       * 小数据位数 C8
+       * </pre>
+       */
+      public int getXiaoShuDianWeiShu() {
+        return xiaoShuDianWeiShu_;
+      }
+      /**
+       * <code>optional int32 xiaoShuDianWeiShu = 5;</code>
+       *
+       * <pre>
+       * 小数据位数 C8
+       * </pre>
+       */
+      public Builder setXiaoShuDianWeiShu(int value) {
+        bitField0_ |= 0x00000010;
+        xiaoShuDianWeiShu_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int32 xiaoShuDianWeiShu = 5;</code>
+       *
+       * <pre>
+       * 小数据位数 C8
+       * </pre>
+       */
+      public Builder clearXiaoShuDianWeiShu() {
+        bitField0_ = (bitField0_ & ~0x00000010);
+        xiaoShuDianWeiShu_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int jiaoYiShiJianLeiXin_ ;
+      /**
+       * <code>optional int32 jiaoYiShiJianLeiXin = 6;</code>
+       *
+       * <pre>
+       * 交易时间类型 C9
+       * </pre>
+       */
+      public boolean hasJiaoYiShiJianLeiXin() {
+        return ((bitField0_ & 0x00000020) == 0x00000020);
+      }
+      /**
+       * <code>optional int32 jiaoYiShiJianLeiXin = 6;</code>
+       *
+       * <pre>
+       * 交易时间类型 C9
+       * </pre>
+       */
+      public int getJiaoYiShiJianLeiXin() {
+        return jiaoYiShiJianLeiXin_;
+      }
+      /**
+       * <code>optional int32 jiaoYiShiJianLeiXin = 6;</code>
+       *
+       * <pre>
+       * 交易时间类型 C9
+       * </pre>
+       */
+      public Builder setJiaoYiShiJianLeiXin(int value) {
+        bitField0_ |= 0x00000020;
+        jiaoYiShiJianLeiXin_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int32 jiaoYiShiJianLeiXin = 6;</code>
+       *
+       * <pre>
+       * 交易时间类型 C9
+       * </pre>
+       */
+      public Builder clearJiaoYiShiJianLeiXin() {
+        bitField0_ = (bitField0_ & ~0x00000020);
+        jiaoYiShiJianLeiXin_ = 0;
+        onChanged();
+        return this;
+      }
+
       private java.lang.Object jiaoYiBiZhong_ = "";
       /**
-       * <code>optional string jiaoYiBiZhong = 5;</code>
+       * <code>optional string jiaoYiBiZhong = 7;</code>
        *
        * <pre>
        * 交易币种 C10
        * </pre>
        */
       public boolean hasJiaoYiBiZhong() {
-        return ((bitField0_ & 0x00000010) == 0x00000010);
+        return ((bitField0_ & 0x00000040) == 0x00000040);
       }
       /**
-       * <code>optional string jiaoYiBiZhong = 5;</code>
+       * <code>optional string jiaoYiBiZhong = 7;</code>
        *
        * <pre>
        * 交易币种 C10
@@ -1913,7 +1844,7 @@ public final class CldDanShangPinShuXing {
         }
       }
       /**
-       * <code>optional string jiaoYiBiZhong = 5;</code>
+       * <code>optional string jiaoYiBiZhong = 7;</code>
        *
        * <pre>
        * 交易币种 C10
@@ -1933,7 +1864,7 @@ public final class CldDanShangPinShuXing {
         }
       }
       /**
-       * <code>optional string jiaoYiBiZhong = 5;</code>
+       * <code>optional string jiaoYiBiZhong = 7;</code>
        *
        * <pre>
        * 交易币种 C10
@@ -1944,26 +1875,26 @@ public final class CldDanShangPinShuXing {
         if (value == null) {
     throw new NullPointerException();
   }
-  bitField0_ |= 0x00000010;
+  bitField0_ |= 0x00000040;
         jiaoYiBiZhong_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>optional string jiaoYiBiZhong = 5;</code>
+       * <code>optional string jiaoYiBiZhong = 7;</code>
        *
        * <pre>
        * 交易币种 C10
        * </pre>
        */
       public Builder clearJiaoYiBiZhong() {
-        bitField0_ = (bitField0_ & ~0x00000010);
+        bitField0_ = (bitField0_ & ~0x00000040);
         jiaoYiBiZhong_ = getDefaultInstance().getJiaoYiBiZhong();
         onChanged();
         return this;
       }
       /**
-       * <code>optional string jiaoYiBiZhong = 5;</code>
+       * <code>optional string jiaoYiBiZhong = 7;</code>
        *
        * <pre>
        * 交易币种 C10
@@ -1974,208 +1905,8 @@ public final class CldDanShangPinShuXing {
         if (value == null) {
     throw new NullPointerException();
   }
-  bitField0_ |= 0x00000010;
+  bitField0_ |= 0x00000040;
         jiaoYiBiZhong_ = value;
-        onChanged();
-        return this;
-      }
-
-      private java.lang.Object zhengQuanLeiBie_ = "";
-      /**
-       * <code>optional string zhengQuanLeiBie = 6;</code>
-       *
-       * <pre>
-       * 证券类别 C37 
-       * </pre>
-       */
-      public boolean hasZhengQuanLeiBie() {
-        return ((bitField0_ & 0x00000020) == 0x00000020);
-      }
-      /**
-       * <code>optional string zhengQuanLeiBie = 6;</code>
-       *
-       * <pre>
-       * 证券类别 C37 
-       * </pre>
-       */
-      public java.lang.String getZhengQuanLeiBie() {
-        java.lang.Object ref = zhengQuanLeiBie_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            zhengQuanLeiBie_ = s;
-          }
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
-      }
-      /**
-       * <code>optional string zhengQuanLeiBie = 6;</code>
-       *
-       * <pre>
-       * 证券类别 C37 
-       * </pre>
-       */
-      public com.google.protobuf.ByteString
-          getZhengQuanLeiBieBytes() {
-        java.lang.Object ref = zhengQuanLeiBie_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          zhengQuanLeiBie_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>optional string zhengQuanLeiBie = 6;</code>
-       *
-       * <pre>
-       * 证券类别 C37 
-       * </pre>
-       */
-      public Builder setZhengQuanLeiBie(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000020;
-        zhengQuanLeiBie_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string zhengQuanLeiBie = 6;</code>
-       *
-       * <pre>
-       * 证券类别 C37 
-       * </pre>
-       */
-      public Builder clearZhengQuanLeiBie() {
-        bitField0_ = (bitField0_ & ~0x00000020);
-        zhengQuanLeiBie_ = getDefaultInstance().getZhengQuanLeiBie();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string zhengQuanLeiBie = 6;</code>
-       *
-       * <pre>
-       * 证券类别 C37 
-       * </pre>
-       */
-      public Builder setZhengQuanLeiBieBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000020;
-        zhengQuanLeiBie_ = value;
-        onChanged();
-        return this;
-      }
-
-      private java.lang.Object shangShiShiJian_ = "";
-      /**
-       * <code>optional string shangShiShiJian = 7;</code>
-       *
-       * <pre>
-       * 上市时间 C1
-       * </pre>
-       */
-      public boolean hasShangShiShiJian() {
-        return ((bitField0_ & 0x00000040) == 0x00000040);
-      }
-      /**
-       * <code>optional string shangShiShiJian = 7;</code>
-       *
-       * <pre>
-       * 上市时间 C1
-       * </pre>
-       */
-      public java.lang.String getShangShiShiJian() {
-        java.lang.Object ref = shangShiShiJian_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            shangShiShiJian_ = s;
-          }
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
-      }
-      /**
-       * <code>optional string shangShiShiJian = 7;</code>
-       *
-       * <pre>
-       * 上市时间 C1
-       * </pre>
-       */
-      public com.google.protobuf.ByteString
-          getShangShiShiJianBytes() {
-        java.lang.Object ref = shangShiShiJian_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          shangShiShiJian_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>optional string shangShiShiJian = 7;</code>
-       *
-       * <pre>
-       * 上市时间 C1
-       * </pre>
-       */
-      public Builder setShangShiShiJian(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000040;
-        shangShiShiJian_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string shangShiShiJian = 7;</code>
-       *
-       * <pre>
-       * 上市时间 C1
-       * </pre>
-       */
-      public Builder clearShangShiShiJian() {
-        bitField0_ = (bitField0_ & ~0x00000040);
-        shangShiShiJian_ = getDefaultInstance().getShangShiShiJian();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string shangShiShiJian = 7;</code>
-       *
-       * <pre>
-       * 上市时间 C1
-       * </pre>
-       */
-      public Builder setShangShiShiJianBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000040;
-        shangShiShiJian_ = value;
         onChanged();
         return this;
       }
@@ -2280,83 +2011,80 @@ public final class CldDanShangPinShuXing {
         return this;
       }
 
-      private com.dzhyun.proto.CldDanShangPinShuXing.DanShangPinShuXing.EUM_ShangShiZhuangTai shangShiZhuangTai_ = com.dzhyun.proto.CldDanShangPinShuXing.DanShangPinShuXing.EUM_ShangShiZhuangTai.ShangShiZhuangTai_ShangShi;
+      private int shangShiZhuangTai_ ;
       /**
-       * <code>optional .dzhyun.DanShangPinShuXing.EUM_ShangShiZhuangTai shangShiZhuangTai = 9 [default = ShangShiZhuangTai_ShangShi];</code>
+       * <code>optional int32 shangShiZhuangTai = 9;</code>
        *
        * <pre>
-       * 上市状态 C30
+       * 上市状态 C30 (0:上市,1:未上市,2:暂停上市)
        * </pre>
        */
       public boolean hasShangShiZhuangTai() {
         return ((bitField0_ & 0x00000100) == 0x00000100);
       }
       /**
-       * <code>optional .dzhyun.DanShangPinShuXing.EUM_ShangShiZhuangTai shangShiZhuangTai = 9 [default = ShangShiZhuangTai_ShangShi];</code>
+       * <code>optional int32 shangShiZhuangTai = 9;</code>
        *
        * <pre>
-       * 上市状态 C30
+       * 上市状态 C30 (0:上市,1:未上市,2:暂停上市)
        * </pre>
        */
-      public com.dzhyun.proto.CldDanShangPinShuXing.DanShangPinShuXing.EUM_ShangShiZhuangTai getShangShiZhuangTai() {
+      public int getShangShiZhuangTai() {
         return shangShiZhuangTai_;
       }
       /**
-       * <code>optional .dzhyun.DanShangPinShuXing.EUM_ShangShiZhuangTai shangShiZhuangTai = 9 [default = ShangShiZhuangTai_ShangShi];</code>
+       * <code>optional int32 shangShiZhuangTai = 9;</code>
        *
        * <pre>
-       * 上市状态 C30
+       * 上市状态 C30 (0:上市,1:未上市,2:暂停上市)
        * </pre>
        */
-      public Builder setShangShiZhuangTai(com.dzhyun.proto.CldDanShangPinShuXing.DanShangPinShuXing.EUM_ShangShiZhuangTai value) {
-        if (value == null) {
-          throw new NullPointerException();
-        }
+      public Builder setShangShiZhuangTai(int value) {
         bitField0_ |= 0x00000100;
         shangShiZhuangTai_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>optional .dzhyun.DanShangPinShuXing.EUM_ShangShiZhuangTai shangShiZhuangTai = 9 [default = ShangShiZhuangTai_ShangShi];</code>
+       * <code>optional int32 shangShiZhuangTai = 9;</code>
        *
        * <pre>
-       * 上市状态 C30
+       * 上市状态 C30 (0:上市,1:未上市,2:暂停上市)
        * </pre>
        */
       public Builder clearShangShiZhuangTai() {
         bitField0_ = (bitField0_ & ~0x00000100);
-        shangShiZhuangTai_ = com.dzhyun.proto.CldDanShangPinShuXing.DanShangPinShuXing.EUM_ShangShiZhuangTai.ShangShiZhuangTai_ShangShi;
+        shangShiZhuangTai_ = 0;
         onChanged();
         return this;
       }
 
-      private java.lang.Object updateTime_ = "";
+      private java.lang.Object zhengQuanLeiBie_ = "";
       /**
-       * <code>required string updateTime = 10;</code>
+       * <code>optional string zhengQuanLeiBie = 10;</code>
        *
        * <pre>
-       * 更新时间 ETIME
+       * 证券类别 C37 
        * </pre>
        */
-      public boolean hasUpdateTime() {
+      public boolean hasZhengQuanLeiBie() {
         return ((bitField0_ & 0x00000200) == 0x00000200);
       }
       /**
-       * <code>required string updateTime = 10;</code>
+       * <code>optional string zhengQuanLeiBie = 10;</code>
        *
        * <pre>
-       * 更新时间 ETIME
+       * 证券类别 C37 
        * </pre>
        */
-      public java.lang.String getUpdateTime() {
-        java.lang.Object ref = updateTime_;
+      public java.lang.String getZhengQuanLeiBie() {
+        java.lang.Object ref = zhengQuanLeiBie_;
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
           if (bs.isValidUtf8()) {
-            updateTime_ = s;
+            zhengQuanLeiBie_ = s;
           }
           return s;
         } else {
@@ -2364,69 +2092,117 @@ public final class CldDanShangPinShuXing {
         }
       }
       /**
-       * <code>required string updateTime = 10;</code>
+       * <code>optional string zhengQuanLeiBie = 10;</code>
        *
        * <pre>
-       * 更新时间 ETIME
+       * 证券类别 C37 
        * </pre>
        */
       public com.google.protobuf.ByteString
-          getUpdateTimeBytes() {
-        java.lang.Object ref = updateTime_;
+          getZhengQuanLeiBieBytes() {
+        java.lang.Object ref = zhengQuanLeiBie_;
         if (ref instanceof String) {
           com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          updateTime_ = b;
+          zhengQuanLeiBie_ = b;
           return b;
         } else {
           return (com.google.protobuf.ByteString) ref;
         }
       }
       /**
-       * <code>required string updateTime = 10;</code>
+       * <code>optional string zhengQuanLeiBie = 10;</code>
        *
        * <pre>
-       * 更新时间 ETIME
+       * 证券类别 C37 
        * </pre>
        */
-      public Builder setUpdateTime(
+      public Builder setZhengQuanLeiBie(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
   bitField0_ |= 0x00000200;
-        updateTime_ = value;
+        zhengQuanLeiBie_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>required string updateTime = 10;</code>
+       * <code>optional string zhengQuanLeiBie = 10;</code>
        *
        * <pre>
-       * 更新时间 ETIME
+       * 证券类别 C37 
        * </pre>
        */
-      public Builder clearUpdateTime() {
+      public Builder clearZhengQuanLeiBie() {
         bitField0_ = (bitField0_ & ~0x00000200);
-        updateTime_ = getDefaultInstance().getUpdateTime();
+        zhengQuanLeiBie_ = getDefaultInstance().getZhengQuanLeiBie();
         onChanged();
         return this;
       }
       /**
-       * <code>required string updateTime = 10;</code>
+       * <code>optional string zhengQuanLeiBie = 10;</code>
        *
        * <pre>
-       * 更新时间 ETIME
+       * 证券类别 C37 
        * </pre>
        */
-      public Builder setUpdateTimeBytes(
+      public Builder setZhengQuanLeiBieBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   bitField0_ |= 0x00000200;
-        updateTime_ = value;
+        zhengQuanLeiBie_ = value;
+        onChanged();
+        return this;
+      }
+
+      private int tingPai_ ;
+      /**
+       * <code>optional int32 tingPai = 11;</code>
+       *
+       * <pre>
+       * 停牌 dzh_stock.tEQ9112.C5 
+       * </pre>
+       */
+      public boolean hasTingPai() {
+        return ((bitField0_ & 0x00000400) == 0x00000400);
+      }
+      /**
+       * <code>optional int32 tingPai = 11;</code>
+       *
+       * <pre>
+       * 停牌 dzh_stock.tEQ9112.C5 
+       * </pre>
+       */
+      public int getTingPai() {
+        return tingPai_;
+      }
+      /**
+       * <code>optional int32 tingPai = 11;</code>
+       *
+       * <pre>
+       * 停牌 dzh_stock.tEQ9112.C5 
+       * </pre>
+       */
+      public Builder setTingPai(int value) {
+        bitField0_ |= 0x00000400;
+        tingPai_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int32 tingPai = 11;</code>
+       *
+       * <pre>
+       * 停牌 dzh_stock.tEQ9112.C5 
+       * </pre>
+       */
+      public Builder clearTingPai() {
+        bitField0_ = (bitField0_ & ~0x00000400);
+        tingPai_ = 0;
         onChanged();
         return this;
       }
@@ -2456,20 +2232,15 @@ public final class CldDanShangPinShuXing {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033CldDanShangPinShuXing.proto\022\006dzhyun\"\315\003" +
-      "\n\022DanShangPinShuXing\022\013\n\003obj\030\001 \002(\t\022\023\n\013jia" +
-      "oYiDaiMa\030\002 \002(\t\022\031\n\021zhongWenJianCheng\030\003 \001(" +
-      "\t\022\030\n\020yingWenQuanCheng\030\004 \001(\t\022\025\n\rjiaoYiBiZ" +
-      "hong\030\005 \001(\t\022\027\n\017zhengQuanLeiBie\030\006 \001(\t\022\027\n\017s" +
-      "hangShiShiJian\030\007 \001(\t\022\025\n\rtuiShiShiJian\030\010 " +
-      "\001(\t\022g\n\021shangShiZhuangTai\030\t \001(\01620.dzhyun." +
-      "DanShangPinShuXing.EUM_ShangShiZhuangTai" +
-      ":\032ShangShiZhuangTai_ShangShi\022\022\n\nupdateTi" +
-      "me\030\n \002(\t\"\202\001\n\025EUM_ShangShiZhuangTai\022\036\n\032Sh",
-      "angShiZhuangTai_ShangShi\020\000\022!\n\035ShangShiZh" +
-      "uangTai_WeiShangShi\020\001\022&\n\"ShangShiZhuangT" +
-      "ai_ZhanTingShangShi\020\002B\022\n\020com.dzhyun.prot" +
-      "o"
+      "\n\033CldDanShangPinShuXing.proto\022\006dzhyun\"\232\002" +
+      "\n\022DanShangPinShuXing\022\013\n\003obj\030\001 \002(\t\022\027\n\017sha" +
+      "ngShiShiJian\030\002 \001(\t\022\031\n\021zhongWenJianCheng\030" +
+      "\003 \001(\t\022\030\n\020yingWenQuanCheng\030\004 \001(\t\022\031\n\021xiaoS" +
+      "huDianWeiShu\030\005 \001(\005\022\033\n\023jiaoYiShiJianLeiXi" +
+      "n\030\006 \001(\005\022\025\n\rjiaoYiBiZhong\030\007 \001(\t\022\025\n\rtuiShi" +
+      "ShiJian\030\010 \001(\t\022\031\n\021shangShiZhuangTai\030\t \001(\005" +
+      "\022\027\n\017zhengQuanLeiBie\030\n \001(\t\022\017\n\007tingPai\030\013 \001" +
+      "(\005B\022\n\020com.dzhyun.proto"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -2488,7 +2259,7 @@ public final class CldDanShangPinShuXing {
     internal_static_dzhyun_DanShangPinShuXing_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dzhyun_DanShangPinShuXing_descriptor,
-        new java.lang.String[] { "Obj", "JiaoYiDaiMa", "ZhongWenJianCheng", "YingWenQuanCheng", "JiaoYiBiZhong", "ZhengQuanLeiBie", "ShangShiShiJian", "TuiShiShiJian", "ShangShiZhuangTai", "UpdateTime", });
+        new java.lang.String[] { "Obj", "ShangShiShiJian", "ZhongWenJianCheng", "YingWenQuanCheng", "XiaoShuDianWeiShu", "JiaoYiShiJianLeiXin", "JiaoYiBiZhong", "TuiShiShiJian", "ShangShiZhuangTai", "ZhengQuanLeiBie", "TingPai", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -58,6 +58,13 @@
 		2A9449C01BE9ACA900815140 /* Sysbus.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9449921BE9ACA900815140 /* Sysbus.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2A9449C51BE9ACBE00815140 /* Pb2Json.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9449C21BE9ACBE00815140 /* Pb2Json.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2A9449C61BE9ACBE00815140 /* YFloat.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9449C41BE9ACBE00815140 /* YFloat.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9041A57A1C0FE08F0058400A /* DzhMessageChSubtype.m in Sources */ = {isa = PBXBuildFile; fileRef = 9041A5701C0FE08F0058400A /* DzhMessageChSubtype.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9041A57B1C0FE08F0058400A /* DzhyunBlockstatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 9041A5721C0FE08F0058400A /* DzhyunBlockstatistics.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9041A57C1C0FE08F0058400A /* DzhyunDxspirit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9041A5741C0FE08F0058400A /* DzhyunDxspirit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9041A57D1C0FE08F0058400A /* DzhyunStockpool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9041A5761C0FE08F0058400A /* DzhyunStockpool.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9041A57E1C0FE08F0058400A /* DzhyunUserGetprop.m in Sources */ = {isa = PBXBuildFile; fileRef = 9041A5781C0FE08F0058400A /* DzhyunUserGetprop.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9041A5891C0FE0C90058400A /* CldEventNewsShuJu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9041A5801C0FE0C90058400A /* CldEventNewsShuJu.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9041A58A1C0FE0C90058400A /* CldTradeRequiteShuJu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9041A5821C0FE0C90058400A /* CldTradeRequiteShuJu.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		90B860871BFB2FA50028CA3B /* RdFileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B860861BFB2FA50028CA3B /* RdFileReader.m */; };
 		90B8608A1BFB2FB30028CA3B /* ZLibUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B860891BFB2FB30028CA3B /* ZLibUtils.m */; };
 /* End PBXBuildFile section */
@@ -178,6 +185,20 @@
 		2A9449C21BE9ACBE00815140 /* Pb2Json.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pb2Json.m; path = com/dzhyun/sdk/Pb2Json.m; sourceTree = "<group>"; };
 		2A9449C31BE9ACBE00815140 /* YFloat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YFloat.h; path = com/dzhyun/sdk/YFloat.h; sourceTree = "<group>"; };
 		2A9449C41BE9ACBE00815140 /* YFloat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YFloat.m; path = com/dzhyun/sdk/YFloat.m; sourceTree = "<group>"; };
+		9041A56F1C0FE08F0058400A /* DzhMessageChSubtype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DzhMessageChSubtype.h; path = com/dzhyun/proto/DzhMessageChSubtype.h; sourceTree = "<group>"; };
+		9041A5701C0FE08F0058400A /* DzhMessageChSubtype.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DzhMessageChSubtype.m; path = com/dzhyun/proto/DzhMessageChSubtype.m; sourceTree = "<group>"; };
+		9041A5711C0FE08F0058400A /* DzhyunBlockstatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DzhyunBlockstatistics.h; path = com/dzhyun/proto/DzhyunBlockstatistics.h; sourceTree = "<group>"; };
+		9041A5721C0FE08F0058400A /* DzhyunBlockstatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DzhyunBlockstatistics.m; path = com/dzhyun/proto/DzhyunBlockstatistics.m; sourceTree = "<group>"; };
+		9041A5731C0FE08F0058400A /* DzhyunDxspirit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DzhyunDxspirit.h; path = com/dzhyun/proto/DzhyunDxspirit.h; sourceTree = "<group>"; };
+		9041A5741C0FE08F0058400A /* DzhyunDxspirit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DzhyunDxspirit.m; path = com/dzhyun/proto/DzhyunDxspirit.m; sourceTree = "<group>"; };
+		9041A5751C0FE08F0058400A /* DzhyunStockpool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DzhyunStockpool.h; path = com/dzhyun/proto/DzhyunStockpool.h; sourceTree = "<group>"; };
+		9041A5761C0FE08F0058400A /* DzhyunStockpool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DzhyunStockpool.m; path = com/dzhyun/proto/DzhyunStockpool.m; sourceTree = "<group>"; };
+		9041A5771C0FE08F0058400A /* DzhyunUserGetprop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DzhyunUserGetprop.h; path = com/dzhyun/proto/DzhyunUserGetprop.h; sourceTree = "<group>"; };
+		9041A5781C0FE08F0058400A /* DzhyunUserGetprop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DzhyunUserGetprop.m; path = com/dzhyun/proto/DzhyunUserGetprop.m; sourceTree = "<group>"; };
+		9041A57F1C0FE0C90058400A /* CldEventNewsShuJu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CldEventNewsShuJu.h; path = dzhyun/CldEventNewsShuJu.h; sourceTree = "<group>"; };
+		9041A5801C0FE0C90058400A /* CldEventNewsShuJu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CldEventNewsShuJu.m; path = dzhyun/CldEventNewsShuJu.m; sourceTree = "<group>"; };
+		9041A5811C0FE0C90058400A /* CldTradeRequiteShuJu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CldTradeRequiteShuJu.h; path = dzhyun/CldTradeRequiteShuJu.h; sourceTree = "<group>"; };
+		9041A5821C0FE0C90058400A /* CldTradeRequiteShuJu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CldTradeRequiteShuJu.m; path = dzhyun/CldTradeRequiteShuJu.m; sourceTree = "<group>"; };
 		90B860851BFB2FA50028CA3B /* RdFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RdFileReader.h; sourceTree = "<group>"; };
 		90B860861BFB2FA50028CA3B /* RdFileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RdFileReader.m; sourceTree = "<group>"; };
 		90B860881BFB2FB30028CA3B /* ZLibUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZLibUtils.h; path = com/dzhyun/sdk/ZLibUtils.h; sourceTree = "<group>"; };
@@ -206,6 +227,20 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				9041A57F1C0FE0C90058400A /* CldEventNewsShuJu.h */,
+				9041A5801C0FE0C90058400A /* CldEventNewsShuJu.m */,
+				9041A5811C0FE0C90058400A /* CldTradeRequiteShuJu.h */,
+				9041A5821C0FE0C90058400A /* CldTradeRequiteShuJu.m */,
+				9041A56F1C0FE08F0058400A /* DzhMessageChSubtype.h */,
+				9041A5701C0FE08F0058400A /* DzhMessageChSubtype.m */,
+				9041A5711C0FE08F0058400A /* DzhyunBlockstatistics.h */,
+				9041A5721C0FE08F0058400A /* DzhyunBlockstatistics.m */,
+				9041A5731C0FE08F0058400A /* DzhyunDxspirit.h */,
+				9041A5741C0FE08F0058400A /* DzhyunDxspirit.m */,
+				9041A5751C0FE08F0058400A /* DzhyunStockpool.h */,
+				9041A5761C0FE08F0058400A /* DzhyunStockpool.m */,
+				9041A5771C0FE08F0058400A /* DzhyunUserGetprop.h */,
+				9041A5781C0FE08F0058400A /* DzhyunUserGetprop.m */,
 				90B860881BFB2FB30028CA3B /* ZLibUtils.h */,
 				90B860891BFB2FB30028CA3B /* ZLibUtils.m */,
 				90B860851BFB2FA50028CA3B /* RdFileReader.h */,
@@ -372,12 +407,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9041A58A1C0FE0C90058400A /* CldTradeRequiteShuJu.m in Sources */,
 				2A9449C51BE9ACBE00815140 /* Pb2Json.m in Sources */,
 				2A9449BC1BE9ACA900815140 /* DzhyunUserpushlist.m in Sources */,
 				2A9449BB1BE9ACA900815140 /* DzhyunUserProp.m in Sources */,
 				2A9449A31BE9ACA900815140 /* Dzhoutput.m in Sources */,
 				2A9449341BE9A63800815140 /* RCTSRDzhChannel.m in Sources */,
+				9041A57A1C0FE08F0058400A /* DzhMessageChSubtype.m in Sources */,
+				9041A57C1C0FE08F0058400A /* DzhyunDxspirit.m in Sources */,
 				2A9449A51BE9ACA900815140 /* Dzhpriv.m in Sources */,
+				9041A57E1C0FE08F0058400A /* DzhyunUserGetprop.m in Sources */,
 				90B8608A1BFB2FB30028CA3B /* ZLibUtils.m in Sources */,
 				2A9449931BE9ACA900815140 /* AutoMsg.m in Sources */,
 				2A9449361BE9A63800815140 /* RCTDzhChannelModule.m in Sources */,
@@ -417,14 +456,17 @@
 				2A9449B61BE9ACA900815140 /* DzhyunStkdata.m in Sources */,
 				90B860871BFB2FA50028CA3B /* RdFileReader.m in Sources */,
 				2A94499F1BE9ACA900815140 /* Dzhdstoken.m in Sources */,
+				9041A57D1C0FE08F0058400A /* DzhyunStockpool.m in Sources */,
 				2A9449A11BE9ACA900815140 /* Dzhmsg.m in Sources */,
 				2A9449A41BE9ACA900815140 /* Dzhpbtable.m in Sources */,
 				2A9449B11BE9ACA900815140 /* DzhyunGupiaoqiepian.m in Sources */,
+				9041A57B1C0FE08F0058400A /* DzhyunBlockstatistics.m in Sources */,
 				2A9449B71BE9ACA900815140 /* DzhyunTongji.m in Sources */,
 				2A9449B21BE9ACA900815140 /* DzhyunJianpanbao.m in Sources */,
 				2A9449B51BE9ACA900815140 /* DzhyunStatic.m in Sources */,
 				2A9449C01BE9ACA900815140 /* Sysbus.m in Sources */,
 				2A9449A81BE9ACA900815140 /* Dzhstorageproxy.m in Sources */,
+				9041A5891C0FE0C90058400A /* CldEventNewsShuJu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,6 +579,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../React/**",
+					"$(SRCROOT)/../../node_modules/react-native/React/**",
 					"$(J2OBJC_HOME)/include",
 					"$(SRCROOT)",
 				);

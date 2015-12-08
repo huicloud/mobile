@@ -10,6 +10,7 @@
 @class ComDzhyunProtoDzhyunGupiaoqiepian_FenBiChengJiao_Builder;
 @class ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder;
 @class ComDzhyunProtoDzhyunGupiaoqiepian_KuoZhanMaiMaiPan_Builder;
+@class ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder;
 @class ComDzhyunProtoDzhyunGupiaoqiepian_MaiMaiPan_Builder;
 @class ComDzhyunProtoDzhyunGupiaoqiepian_QuanMaiMaiPan_Builder;
 @class ComDzhyunProtoDzhyunGupiaoqiepian_QuanMaiMaiPan_MaiMaiBiao;
@@ -254,6 +255,144 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunGupiaoqiepian_FenBiChengJiao_Buil
 - (BOOL)hasFenZhongZhangFu5;
 - (long long int)getFenZhongZhangFu5;
 
+- (BOOL)hasWeiTuoMaiRuJia1;
+- (long long int)getWeiTuoMaiRuJia1;
+
+- (BOOL)hasWeiTuoMaiRuLiang1;
+- (long long int)getWeiTuoMaiRuLiang1;
+
+- (BOOL)hasWeiTuoMaiRuJia2;
+- (long long int)getWeiTuoMaiRuJia2;
+
+- (BOOL)hasWeiTuoMaiRuLiang2;
+- (long long int)getWeiTuoMaiRuLiang2;
+
+- (BOOL)hasWeiTuoMaiRuJia3;
+- (long long int)getWeiTuoMaiRuJia3;
+
+- (BOOL)hasWeiTuoMaiRuLiang3;
+- (long long int)getWeiTuoMaiRuLiang3;
+
+- (BOOL)hasWeiTuoMaiRuJia4;
+- (long long int)getWeiTuoMaiRuJia4;
+
+- (BOOL)hasWeiTuoMaiRuLiang4;
+- (long long int)getWeiTuoMaiRuLiang4;
+
+- (BOOL)hasWeiTuoMaiRuJia5;
+- (long long int)getWeiTuoMaiRuJia5;
+
+- (BOOL)hasWeiTuoMaiRuLiang5;
+- (long long int)getWeiTuoMaiRuLiang5;
+
+- (BOOL)hasWeiTuoMaiChuJia1;
+- (long long int)getWeiTuoMaiChuJia1;
+
+- (BOOL)hasWeiTuoMaiChuLiang1;
+- (long long int)getWeiTuoMaiChuLiang1;
+
+- (BOOL)hasWeiTuoMaiChuJia2;
+- (long long int)getWeiTuoMaiChuJia2;
+
+- (BOOL)hasWeiTuoMaiChuLiang2;
+- (long long int)getWeiTuoMaiChuLiang2;
+
+- (BOOL)hasWeiTuoMaiChuJia3;
+- (long long int)getWeiTuoMaiChuJia3;
+
+- (BOOL)hasWeiTuoMaiChuLiang3;
+- (long long int)getWeiTuoMaiChuLiang3;
+
+- (BOOL)hasWeiTuoMaiChuJia4;
+- (long long int)getWeiTuoMaiChuJia4;
+
+- (BOOL)hasWeiTuoMaiChuLiang4;
+- (long long int)getWeiTuoMaiChuLiang4;
+
+- (BOOL)hasWeiTuoMaiChuJia5;
+- (long long int)getWeiTuoMaiChuJia5;
+
+- (BOOL)hasWeiTuoMaiChuLiang5;
+- (long long int)getWeiTuoMaiChuLiang5;
+
+- (BOOL)hasWeiBi;
+- (long long int)getWeiBi;
+
+- (BOOL)hasWeiCha;
+- (long long int)getWeiCha;
+
+- (BOOL)hasJiaQuanPingJunWeiTuoMaiRuJia;
+- (long long int)getJiaQuanPingJunWeiTuoMaiRuJia;
+
+- (BOOL)hasWeiTuoMaiRuZongLiang;
+- (long long int)getWeiTuoMaiRuZongLiang;
+
+- (BOOL)hasJiaQuanPingJunWeiTuoMaiChuJia;
+- (long long int)getJiaQuanPingJunWeiTuoMaiChuJia;
+
+- (BOOL)hasWeiTuoMaiChuZongLiang;
+- (long long int)getWeiTuoMaiChuZongLiang;
+
+- (BOOL)hasKuoZhanMaiRuJia1;
+- (long long int)getKuoZhanMaiRuJia1;
+
+- (BOOL)hasKuoZhanMaiRuJia2;
+- (long long int)getKuoZhanMaiRuJia2;
+
+- (BOOL)hasKuoZhanMaiRuJia3;
+- (long long int)getKuoZhanMaiRuJia3;
+
+- (BOOL)hasKuoZhanMaiRuJia4;
+- (long long int)getKuoZhanMaiRuJia4;
+
+- (BOOL)hasKuoZhanMaiRuJia5;
+- (long long int)getKuoZhanMaiRuJia5;
+
+- (BOOL)hasKuoZhanMaiRuLiang1;
+- (long long int)getKuoZhanMaiRuLiang1;
+
+- (BOOL)hasKuoZhanMaiRuLiang2;
+- (long long int)getKuoZhanMaiRuLiang2;
+
+- (BOOL)hasKuoZhanMaiRuLiang3;
+- (long long int)getKuoZhanMaiRuLiang3;
+
+- (BOOL)hasKuoZhanMaiRuLiang4;
+- (long long int)getKuoZhanMaiRuLiang4;
+
+- (BOOL)hasKuoZhanMaiRuLiang5;
+- (long long int)getKuoZhanMaiRuLiang5;
+
+- (BOOL)hasKuoZhanMaiChuJia1;
+- (long long int)getKuoZhanMaiChuJia1;
+
+- (BOOL)hasKuoZhanMaiChuJia2;
+- (long long int)getKuoZhanMaiChuJia2;
+
+- (BOOL)hasKuoZhanMaiChuJia3;
+- (long long int)getKuoZhanMaiChuJia3;
+
+- (BOOL)hasKuoZhanMaiChuJia4;
+- (long long int)getKuoZhanMaiChuJia4;
+
+- (BOOL)hasKuoZhanMaiChuJia5;
+- (long long int)getKuoZhanMaiChuJia5;
+
+- (BOOL)hasKuoZhanMaiChuLiang1;
+- (long long int)getKuoZhanMaiChuLiang1;
+
+- (BOOL)hasKuoZhanMaiChuLiang2;
+- (long long int)getKuoZhanMaiChuLiang2;
+
+- (BOOL)hasKuoZhanMaiChuLiang3;
+- (long long int)getKuoZhanMaiChuLiang3;
+
+- (BOOL)hasKuoZhanMaiChuLiang4;
+- (long long int)getKuoZhanMaiChuLiang4;
+
+- (BOOL)hasKuoZhanMaiChuLiang5;
+- (long long int)getKuoZhanMaiChuLiang5;
+
 @end
 
 J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTaiOrBuilder)
@@ -309,6 +448,52 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTaiOrBuilde
 #define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_FENZHONGZHANGFU3_FIELD_NUMBER 29
 #define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_FENZHONGZHANGFU4_FIELD_NUMBER 30
 #define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_FENZHONGZHANGFU5_FIELD_NUMBER 31
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_WEITUOMAIRUJIA1_FIELD_NUMBER 32
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_WEITUOMAIRULIANG1_FIELD_NUMBER 33
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_WEITUOMAIRUJIA2_FIELD_NUMBER 34
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_WEITUOMAIRULIANG2_FIELD_NUMBER 35
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_WEITUOMAIRUJIA3_FIELD_NUMBER 36
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_WEITUOMAIRULIANG3_FIELD_NUMBER 37
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_WEITUOMAIRUJIA4_FIELD_NUMBER 38
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_WEITUOMAIRULIANG4_FIELD_NUMBER 39
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_WEITUOMAIRUJIA5_FIELD_NUMBER 40
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_WEITUOMAIRULIANG5_FIELD_NUMBER 41
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_WEITUOMAICHUJIA1_FIELD_NUMBER 42
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_WEITUOMAICHULIANG1_FIELD_NUMBER 43
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_WEITUOMAICHUJIA2_FIELD_NUMBER 44
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_WEITUOMAICHULIANG2_FIELD_NUMBER 45
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_WEITUOMAICHUJIA3_FIELD_NUMBER 46
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_WEITUOMAICHULIANG3_FIELD_NUMBER 47
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_WEITUOMAICHUJIA4_FIELD_NUMBER 48
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_WEITUOMAICHULIANG4_FIELD_NUMBER 49
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_WEITUOMAICHUJIA5_FIELD_NUMBER 50
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_WEITUOMAICHULIANG5_FIELD_NUMBER 51
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_WEIBI_FIELD_NUMBER 52
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_WEICHA_FIELD_NUMBER 53
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_JIAQUANPINGJUNWEITUOMAIRUJIA_FIELD_NUMBER 54
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_WEITUOMAIRUZONGLIANG_FIELD_NUMBER 55
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_JIAQUANPINGJUNWEITUOMAICHUJIA_FIELD_NUMBER 56
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_WEITUOMAICHUZONGLIANG_FIELD_NUMBER 57
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_KUOZHANMAIRUJIA1_FIELD_NUMBER 58
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_KUOZHANMAIRUJIA2_FIELD_NUMBER 59
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_KUOZHANMAIRUJIA3_FIELD_NUMBER 60
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_KUOZHANMAIRUJIA4_FIELD_NUMBER 61
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_KUOZHANMAIRUJIA5_FIELD_NUMBER 62
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_KUOZHANMAIRULIANG1_FIELD_NUMBER 63
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_KUOZHANMAIRULIANG2_FIELD_NUMBER 64
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_KUOZHANMAIRULIANG3_FIELD_NUMBER 65
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_KUOZHANMAIRULIANG4_FIELD_NUMBER 66
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_KUOZHANMAIRULIANG5_FIELD_NUMBER 67
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_KUOZHANMAICHUJIA1_FIELD_NUMBER 68
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_KUOZHANMAICHUJIA2_FIELD_NUMBER 69
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_KUOZHANMAICHUJIA3_FIELD_NUMBER 70
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_KUOZHANMAICHUJIA4_FIELD_NUMBER 71
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_KUOZHANMAICHUJIA5_FIELD_NUMBER 72
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_KUOZHANMAICHULIANG1_FIELD_NUMBER 73
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_KUOZHANMAICHULIANG2_FIELD_NUMBER 74
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_KUOZHANMAICHULIANG3_FIELD_NUMBER 75
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_KUOZHANMAICHULIANG4_FIELD_NUMBER 76
+#define ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_KUOZHANMAICHULIANG5_FIELD_NUMBER 77
 
 @end
 
@@ -467,6 +652,190 @@ FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunG
 - (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setFenZhongZhangFu5WithLong:
     (long long int)value;
 - (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearFenZhongZhangFu5;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setWeiTuoMaiRuJia1WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearWeiTuoMaiRuJia1;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setWeiTuoMaiRuLiang1WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearWeiTuoMaiRuLiang1;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setWeiTuoMaiRuJia2WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearWeiTuoMaiRuJia2;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setWeiTuoMaiRuLiang2WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearWeiTuoMaiRuLiang2;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setWeiTuoMaiRuJia3WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearWeiTuoMaiRuJia3;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setWeiTuoMaiRuLiang3WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearWeiTuoMaiRuLiang3;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setWeiTuoMaiRuJia4WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearWeiTuoMaiRuJia4;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setWeiTuoMaiRuLiang4WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearWeiTuoMaiRuLiang4;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setWeiTuoMaiRuJia5WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearWeiTuoMaiRuJia5;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setWeiTuoMaiRuLiang5WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearWeiTuoMaiRuLiang5;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setWeiTuoMaiChuJia1WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearWeiTuoMaiChuJia1;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setWeiTuoMaiChuLiang1WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearWeiTuoMaiChuLiang1;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setWeiTuoMaiChuJia2WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearWeiTuoMaiChuJia2;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setWeiTuoMaiChuLiang2WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearWeiTuoMaiChuLiang2;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setWeiTuoMaiChuJia3WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearWeiTuoMaiChuJia3;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setWeiTuoMaiChuLiang3WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearWeiTuoMaiChuLiang3;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setWeiTuoMaiChuJia4WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearWeiTuoMaiChuJia4;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setWeiTuoMaiChuLiang4WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearWeiTuoMaiChuLiang4;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setWeiTuoMaiChuJia5WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearWeiTuoMaiChuJia5;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setWeiTuoMaiChuLiang5WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearWeiTuoMaiChuLiang5;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setWeiBiWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearWeiBi;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setWeiChaWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearWeiCha;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setJiaQuanPingJunWeiTuoMaiRuJiaWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearJiaQuanPingJunWeiTuoMaiRuJia;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setWeiTuoMaiRuZongLiangWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearWeiTuoMaiRuZongLiang;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setJiaQuanPingJunWeiTuoMaiChuJiaWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearJiaQuanPingJunWeiTuoMaiChuJia;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setWeiTuoMaiChuZongLiangWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearWeiTuoMaiChuZongLiang;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setKuoZhanMaiRuJia1WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearKuoZhanMaiRuJia1;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setKuoZhanMaiRuJia2WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearKuoZhanMaiRuJia2;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setKuoZhanMaiRuJia3WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearKuoZhanMaiRuJia3;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setKuoZhanMaiRuJia4WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearKuoZhanMaiRuJia4;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setKuoZhanMaiRuJia5WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearKuoZhanMaiRuJia5;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setKuoZhanMaiRuLiang1WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearKuoZhanMaiRuLiang1;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setKuoZhanMaiRuLiang2WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearKuoZhanMaiRuLiang2;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setKuoZhanMaiRuLiang3WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearKuoZhanMaiRuLiang3;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setKuoZhanMaiRuLiang4WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearKuoZhanMaiRuLiang4;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setKuoZhanMaiRuLiang5WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearKuoZhanMaiRuLiang5;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setKuoZhanMaiChuJia1WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearKuoZhanMaiChuJia1;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setKuoZhanMaiChuJia2WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearKuoZhanMaiChuJia2;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setKuoZhanMaiChuJia3WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearKuoZhanMaiChuJia3;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setKuoZhanMaiChuJia4WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearKuoZhanMaiChuJia4;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setKuoZhanMaiChuJia5WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearKuoZhanMaiChuJia5;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setKuoZhanMaiChuLiang1WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearKuoZhanMaiChuLiang1;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setKuoZhanMaiChuLiang2WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearKuoZhanMaiChuLiang2;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setKuoZhanMaiChuLiang3WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearKuoZhanMaiChuLiang3;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setKuoZhanMaiChuLiang4WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearKuoZhanMaiChuLiang4;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)setKuoZhanMaiChuLiang5WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_GeGuDongTai_Builder *)clearKuoZhanMaiChuLiang5;
 
 @end
 
@@ -1441,3 +1810,184 @@ FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunG
 J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhyunGupiaoqiepian_WeiTuoDuiLie_Builder)
 
 J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunGupiaoqiepian_WeiTuoDuiLie_Builder)
+
+@protocol ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJiOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasId;
+- (long long int)getId;
+
+- (BOOL)hasShiJian;
+- (long long int)getShiJian;
+
+- (BOOL)hasWeiTuoMaiRu;
+- (long long int)getWeiTuoMaiRu;
+
+- (BOOL)hasWeiTuoMaiChu;
+- (long long int)getWeiTuoMaiChu;
+
+- (BOOL)hasMaiRuZhongDanBiLi;
+- (long long int)getMaiRuZhongDanBiLi;
+
+- (BOOL)hasMaiRuDaDanBiLi;
+- (long long int)getMaiRuDaDanBiLi;
+
+- (BOOL)hasMaiRuTeDaDanBiLi;
+- (long long int)getMaiRuTeDaDanBiLi;
+
+- (BOOL)hasMaiChuZhongDanBiLi;
+- (long long int)getMaiChuZhongDanBiLi;
+
+- (BOOL)hasMaiChuDaDanBiLi;
+- (long long int)getMaiChuDaDanBiLi;
+
+- (BOOL)hasMaiChuTeDaDanBiLi;
+- (long long int)getMaiChuTeDaDanBiLi;
+
+- (BOOL)hasDuanXianMaiRu;
+- (long long int)getDuanXianMaiRu;
+
+- (BOOL)hasDuanXianMaiChu;
+- (long long int)getDuanXianMaiChu;
+
+- (BOOL)hasDuanXianChiHuo;
+- (long long int)getDuanXianChiHuo;
+
+- (BOOL)hasDuanXianTuHuo;
+- (long long int)getDuanXianTuHuo;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJiOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJiOrBuilder)
+
+@interface ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJiOrBuilder>
+
++ (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *)getDefaultInstance;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *)getDefaultInstanceForType;
++ (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)toBuilder;
++ (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)newBuilderWithComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi:(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_ID_FIELD_NUMBER 1
+#define ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_SHIJIAN_FIELD_NUMBER 2
+#define ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_WEITUOMAIRU_FIELD_NUMBER 3
+#define ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_WEITUOMAICHU_FIELD_NUMBER 4
+#define ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_MAIRUZHONGDANBILI_FIELD_NUMBER 5
+#define ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_MAIRUDADANBILI_FIELD_NUMBER 6
+#define ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_MAIRUTEDADANBILI_FIELD_NUMBER 7
+#define ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_MAICHUZHONGDANBILI_FIELD_NUMBER 8
+#define ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_MAICHUDADANBILI_FIELD_NUMBER 9
+#define ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_MAICHUTEDADANBILI_FIELD_NUMBER 10
+#define ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_DUANXIANMAIRU_FIELD_NUMBER 11
+#define ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_DUANXIANMAICHU_FIELD_NUMBER 12
+#define ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_DUANXIANCHIHUO_FIELD_NUMBER 13
+#define ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_DUANXIANTUHUO_FIELD_NUMBER 14
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_newBuilderWithComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_descriptor_;
+
+@interface ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJiOrBuilder>
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *)getDefaultInstanceForType;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)mergeFromWithComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi:(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *)message;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *)build;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)setIdWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)clearId;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)setShiJianWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)clearShiJian;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)setWeiTuoMaiRuWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)clearWeiTuoMaiRu;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)setWeiTuoMaiChuWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)clearWeiTuoMaiChu;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)setMaiRuZhongDanBiLiWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)clearMaiRuZhongDanBiLi;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)setMaiRuDaDanBiLiWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)clearMaiRuDaDanBiLi;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)setMaiRuTeDaDanBiLiWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)clearMaiRuTeDaDanBiLi;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)setMaiChuZhongDanBiLiWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)clearMaiChuZhongDanBiLi;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)setMaiChuDaDanBiLiWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)clearMaiChuDaDanBiLi;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)setMaiChuTeDaDanBiLiWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)clearMaiChuTeDaDanBiLi;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)setDuanXianMaiRuWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)clearDuanXianMaiRu;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)setDuanXianMaiChuWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)clearDuanXianMaiChu;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)setDuanXianChiHuoWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)clearDuanXianChiHuo;
+
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)setDuanXianTuHuoWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder *)clearDuanXianTuHuo;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunGupiaoqiepian_Level2TongJi_Builder)

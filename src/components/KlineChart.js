@@ -46,21 +46,22 @@ export class DZHKlineChart extends DZHYunComponent {
 
     this.defaultParams = {
       period: '1day',
+      split: 1,
       start: -80
     };
-
-    this.state = {
-      loading: true
-    }
   }
 
   adapt(data) {
-    this.setState({loading: false});
     return data[0].Data;
   }
 
+  _query(props) {
+    super._query(props);
+    this.setState({data: null});
+  }
+
   render() {
-    if (this.state.loading === true) {
+    if (!this.state.data) {
       return <Loading></Loading>;
     } else {
       return <KlineChart style={this.props.style} chartData={this.state.data} stkInfo={{Obj: this.props.params.obj, MingCheng: this.props.name || ''}}></KlineChart>;

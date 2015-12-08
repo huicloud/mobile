@@ -4,8 +4,10 @@ import BasePage from './pages/BasePage.js';
 import HomePage from './pages/HomePage.js';
 import DealPage from './pages/DealPage.js';
 import SearchPage from './pages/SearchPage.js';
-import DetailPage from './pages/DetailPage.js';
+import StockQuotationPage from './pages/StockQuotationPage.js';
 import NewsDetailPage from './pages/NewsDetailPage.js';
+import StockInformationPage from './pages/StockInformationPage.js';
+import BlockDetailPage from './pages/BlockDetailPage.js'
 
 import * as baseStyle from './components/baseStyle.js';
 
@@ -15,8 +17,10 @@ export default class PageNavigator extends Component {
     HomePage,
     DealPage,
     SearchPage,
-    DetailPage,
-    NewsDetailPage
+    StockQuotationPage,
+    StockInformationPage,
+    NewsDetailPage,
+    BlockDetailPage
   };
 
   _renderScene(route, navigator) {
@@ -67,7 +71,6 @@ export default class PageNavigator extends Component {
   render() {
     return (
       <Navigator
-        style={[Platform.OS === 'ios' && {paddingTop: 20}]}
         ref={(navigator) => this._navigator = navigator}
         initialRoute={{component: HomePage}}
         renderScene={this._renderScene.bind(this)}

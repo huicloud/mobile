@@ -41,7 +41,7 @@ export default class NewsList extends BaseComponent {
     },
     listItemTitle: {
       fontSize: 16,
-      fontWeight: '200',
+      //fontWeight: '200',
       marginBottom: 10,
       color: baseStyle.DEFAULT_TEXT_COLOR
     },
@@ -62,13 +62,12 @@ export default class NewsList extends BaseComponent {
 
     // 初始状态
     this.state = {
-      dataSource: new ListView.DataSource(this)
     }
   }
 
   componentWillReceiveProps(nextProp) {
     nextProp.data && this.setState({
-      dataSource: this.state.dataSource.cloneWithRows(nextProp.data)
+      dataSource: (this.state.dataSource || new ListView.DataSource(this)).cloneWithRows(nextProp.data)
     });
   }
 
@@ -85,7 +84,7 @@ export default class NewsList extends BaseComponent {
     return (
       <TouchableHighlight
         onPress={this.props.onPressItem && this.props.onPressItem.bind(this, rowData)}
-        underlayColor={baseStyle.LIGHTEN_GRAY}>
+        underlayColor={baseStyle.HIGH_LIGHT_COLOR}>
         <View style={this.getStyles('listItem')}>
           <Text style={this.getStyles('listItemTitle')}>{rowData.title}</Text>
           {/*<Text style={this.getStyles('listItemContext')}>{rowData.context}</Text>*/}
@@ -102,11 +101,14 @@ export default class NewsList extends BaseComponent {
 
     // 如果loading为true则在底部显示加载中样式
     return (this.props.loading === true) && (
-      <Loading></Loading>
+      <Loading style={{loading: {height: 1500}}}></Loading>
     );
   }
 
   render() {
+    if (!this.state.dataSource) {
+      return this._renderFooter();
+    }
     return (
       <ListView
         style={this.getStyles('container')}
@@ -123,14 +125,13 @@ export default class NewsList extends BaseComponent {
 export class DZHYunNewsList extends DZHYunComponent {
 
   static defaultProps = {
-    serviceUrl: '/news'
+    serviceUrl: '/news/stock'
   };
 
   constructor(props) {
     super(props);
 
     this.defaultParams = {
-      type: 1,
       sort: 'DESC',
       start: -10
     };
@@ -144,14 +145,14 @@ export class DZHYunNewsList extends DZHYunComponent {
   }
 
   adapt(data) {
-    let result = data && data[0];
+    let result = data && data[0] && data[0].Data;
 
     // 如果数据长度小于请求的count则表示没有更多数据了
     this._hasMore = !(result.length < this.defaultParams.count);
 
     this.setState({loading: false});
 
-    return (this.state.data || []).concat(data);
+    return (this.state.data || []).concat(result);
   }
 
   _onEndReached(event) {
@@ -178,10 +179,12 @@ export class DZHYunNewsList extends DZHYunComponent {
 }
 
 export class DZHYunAnnouncementList extends DZHYunNewsList {
+  static defaultProps = {
+    serviceUrl: '/announcemt/stock'
+  };
   constructor(props) {
     super(props);
     this.defaultParams = {
-      type: 3,
       sort: 'DESC',
       start: -10
     };

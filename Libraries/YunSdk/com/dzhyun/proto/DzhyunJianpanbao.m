@@ -29,7 +29,7 @@ void ComDzhyunProtoDzhyunJianpanbao_registerAllExtensionsWithComGoogleProtobufEx
 
 J2OBJC_INITIALIZED_DEFN(ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum)
 
-ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum *ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_values_[3];
+ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum *ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_values_[4];
 
 static ComGoogleProtobufDescriptors_EnumDescriptor *ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_descriptor = nil;
 
@@ -47,7 +47,8 @@ static ComGoogleProtobufDescriptors_EnumDescriptor *ComDzhyunProtoDzhyunJianpanb
     ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_TYPE_OBJ = [[ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum alloc] initWithName:@"TYPE_OBJ" withIndex:0 withValue:0];
     ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_TYPE_INDI = [[ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum alloc] initWithName:@"TYPE_INDI" withIndex:1 withValue:1];
     ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_TYPE_TOPIC = [[ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum alloc] initWithName:@"TYPE_TOPIC" withIndex:2 withValue:2];
-    ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_descriptor = CGPNewEnumDescriptor(self, 3, ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_values_);
+    ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_TYPE_LHB = [[ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum alloc] initWithName:@"TYPE_LHB" withIndex:3 withValue:3];
+    ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_descriptor = CGPNewEnumDescriptor(self, 4, ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_values_);
     J2OBJC_SET_INITIALIZED(ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum)
   }
 }
@@ -80,11 +81,11 @@ static ComGoogleProtobufDescriptors_EnumDescriptor *ComDzhyunProtoDzhyunJianpanb
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum)
 
 IOSObjectArray *ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_values() {
-  ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_initialize();  return [IOSObjectArray arrayWithObjects:ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_values_ count:3 type:ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_class_()];
+  ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_initialize();  return [IOSObjectArray arrayWithObjects:ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_values_ count:4 type:ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_class_()];
 }
 
 ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum *ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_valueOfWithNSString_(NSString *name) {
-  ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_initialize();  for (jint i = 0; i < 3; i++) {
+  ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_initialize();  for (jint i = 0; i < 4; i++) {
     ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum *e = ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_values_[i];
     if ([name isEqual:[e name]]) {
       return e;
@@ -94,7 +95,7 @@ ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum *ComDzhyunProtoDzhyunJianpanbao_JP
 }
 
 ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum *ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_valueOfWithInt_(jint value) {
-  ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_initialize();  for (jint i = 0; i < 3; i++) {
+  ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_initialize();  for (jint i = 0; i < 4; i++) {
     ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum *e = ComDzhyunProtoDzhyunJianpanbao_JPBLeiXingEnum_values_[i];
     if (value == [e getNumber]) {
       return e;
