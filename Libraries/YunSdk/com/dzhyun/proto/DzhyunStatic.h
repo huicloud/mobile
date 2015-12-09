@@ -10,6 +10,8 @@
 @class ComDzhyunProtoDzhyunStatic_Static;
 @class ComDzhyunProtoDzhyunStatic_StaticTable_Builder;
 @class ComDzhyunProtoDzhyunStatic_Static_Builder;
+@class ComDzhyunProtoDzhyunStatic_TradeTime;
+@class ComDzhyunProtoDzhyunStatic_TradeTime_Builder;
 @class ComGoogleProtobufDescriptors_Descriptor;
 @class ComGoogleProtobufExtensionRegistry;
 @protocol JavaLangIterable;
@@ -26,6 +28,91 @@ FOUNDATION_EXPORT void ComDzhyunProtoDzhyunStatic_registerAllExtensionsWithComGo
 J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhyunStatic)
 
 J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunStatic)
+
+@protocol ComDzhyunProtoDzhyunStatic_TradeTimeOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasStartTime;
+- (long long int)getStartTime;
+
+- (BOOL)hasEndTime;
+- (long long int)getEndTime;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhyunStatic_TradeTimeOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunStatic_TradeTimeOrBuilder)
+
+@interface ComDzhyunProtoDzhyunStatic_TradeTime : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoDzhyunStatic_TradeTimeOrBuilder>
+
++ (ComDzhyunProtoDzhyunStatic_TradeTime *)getDefaultInstance;
+- (ComDzhyunProtoDzhyunStatic_TradeTime *)getDefaultInstanceForType;
++ (ComDzhyunProtoDzhyunStatic_TradeTime_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoDzhyunStatic_TradeTime_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoDzhyunStatic_TradeTime_Builder *)toBuilder;
++ (ComDzhyunProtoDzhyunStatic_TradeTime_Builder *)newBuilderWithComDzhyunProtoDzhyunStatic_TradeTime:(ComDzhyunProtoDzhyunStatic_TradeTime *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoDzhyunStatic_TradeTime *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoDzhyunStatic_TradeTime *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhyunStatic_TradeTime *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoDzhyunStatic_TradeTime *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhyunStatic_TradeTime *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoDzhyunStatic_TradeTime *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhyunStatic_TradeTime *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoDzhyunStatic_TradeTime *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoDzhyunStatic_TradeTime_STARTTIME_FIELD_NUMBER 1
+#define ComDzhyunProtoDzhyunStatic_TradeTime_ENDTIME_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunStatic_TradeTime *ComDzhyunProtoDzhyunStatic_TradeTime_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunStatic_TradeTime_Builder *ComDzhyunProtoDzhyunStatic_TradeTime_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunStatic_TradeTime_Builder *ComDzhyunProtoDzhyunStatic_TradeTime_newBuilderWithComDzhyunProtoDzhyunStatic_TradeTime_(ComDzhyunProtoDzhyunStatic_TradeTime *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunStatic_TradeTime_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunStatic_TradeTime *ComDzhyunProtoDzhyunStatic_TradeTime_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhyunStatic_TradeTime *ComDzhyunProtoDzhyunStatic_TradeTime_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoDzhyunStatic_TradeTime_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunStatic_TradeTime *ComDzhyunProtoDzhyunStatic_TradeTime_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhyunStatic_TradeTime *ComDzhyunProtoDzhyunStatic_TradeTime_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoDzhyunStatic_TradeTime_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunStatic_TradeTime *ComDzhyunProtoDzhyunStatic_TradeTime_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhyunStatic_TradeTime *ComDzhyunProtoDzhyunStatic_TradeTime_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoDzhyunStatic_TradeTime_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoDzhyunStatic_TradeTime)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunStatic_TradeTime)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunStatic_TradeTime_descriptor_;
+
+@interface ComDzhyunProtoDzhyunStatic_TradeTime_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoDzhyunStatic_TradeTimeOrBuilder>
+
+- (ComDzhyunProtoDzhyunStatic_TradeTime *)getDefaultInstanceForType;
+- (ComDzhyunProtoDzhyunStatic_TradeTime_Builder *)mergeFromWithComDzhyunProtoDzhyunStatic_TradeTime:(ComDzhyunProtoDzhyunStatic_TradeTime *)message;
+- (ComDzhyunProtoDzhyunStatic_TradeTime_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoDzhyunStatic_TradeTime *)build;
+- (ComDzhyunProtoDzhyunStatic_TradeTime *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoDzhyunStatic_TradeTime_Builder *)setStartTimeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunStatic_TradeTime_Builder *)clearStartTime;
+
+- (ComDzhyunProtoDzhyunStatic_TradeTime_Builder *)setEndTimeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunStatic_TradeTime_Builder *)clearEndTime;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunStatic_TradeTime_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhyunStatic_TradeTime_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunStatic_TradeTime_Builder)
 
 @protocol ComDzhyunProtoDzhyunStatic_StaticOrBuilder < ComGoogleProtobufMessageOrBuilder >
 
@@ -62,6 +149,13 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunStatic)
 - (BOOL)hasDieTing;
 - (long long int)getDieTing;
 
+- (BOOL)hasTradeTimeNum;
+- (long long int)getTradeTimeNum;
+
+- (int)getTradeTimesCount;
+- (id<JavaUtilList>)getTradeTimesList;
+- (ComDzhyunProtoDzhyunStatic_TradeTime *)getTradeTimesWithInt:(int)index;
+
 @end
 
 J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhyunStatic_StaticOrBuilder)
@@ -97,6 +191,8 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunStatic_StaticOrBuilder)
 #define ComDzhyunProtoDzhyunStatic_Static_ZUOSHOU_FIELD_NUMBER 9
 #define ComDzhyunProtoDzhyunStatic_Static_ZHANGTING_FIELD_NUMBER 10
 #define ComDzhyunProtoDzhyunStatic_Static_DIETING_FIELD_NUMBER 11
+#define ComDzhyunProtoDzhyunStatic_Static_TRADETIMENUM_FIELD_NUMBER 12
+#define ComDzhyunProtoDzhyunStatic_Static_TRADETIMES_FIELD_NUMBER 13
 
 @end
 
@@ -175,6 +271,20 @@ FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunS
 - (ComDzhyunProtoDzhyunStatic_Static_Builder *)setDieTingWithLong:
     (long long int)value;
 - (ComDzhyunProtoDzhyunStatic_Static_Builder *)clearDieTing;
+
+- (ComDzhyunProtoDzhyunStatic_Static_Builder *)setTradeTimeNumWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunStatic_Static_Builder *)clearTradeTimeNum;
+- (ComDzhyunProtoDzhyunStatic_Static_Builder*)setTradeTimesWithInt:(int)index
+    withComDzhyunProtoDzhyunStatic_TradeTime:(ComDzhyunProtoDzhyunStatic_TradeTime *)value;
+- (ComDzhyunProtoDzhyunStatic_Static_Builder*)addTradeTimesWithComDzhyunProtoDzhyunStatic_TradeTime:
+    (ComDzhyunProtoDzhyunStatic_TradeTime *)value;
+- (ComDzhyunProtoDzhyunStatic_Static_Builder*)addAllTradeTimesWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoDzhyunStatic_Static_Builder*)clearTradeTimes;
+- (ComDzhyunProtoDzhyunStatic_Static_Builder*)
+    addTradeTimesWithComDzhyunProtoDzhyunStatic_TradeTime_Builder:
+    (ComDzhyunProtoDzhyunStatic_TradeTime_Builder *)value;
 
 @end
 

@@ -7,6 +7,7 @@
 #import "com/google/protobuf/ProtocolMessageEnum.h"
 #import "java/lang/Enum.h"
 
+@class ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder;
 @class ComDzhyunProtoDzhyunDxspirit_DXSpirit_Builder;
 @class ComGoogleProtobufDescriptors_Descriptor;
 @class ComGoogleProtobufExtensionRegistry;
@@ -123,3 +124,288 @@ FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunD
 J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhyunDxspirit_DXSpirit_Builder)
 
 J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunDxspirit_DXSpirit_Builder)
+
+@protocol ComDzhyunProtoDzhyunDxspirit_DXSpiritStatOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (BOOL)hasHjfsTotal;
+- (long long int)getHjfsTotal;
+
+- (BOOL)hasKsftTotal;
+- (long long int)getKsftTotal;
+
+- (BOOL)hasGttsTotal;
+- (long long int)getGttsTotal;
+
+- (BOOL)hasJsxdTotal;
+- (long long int)getJsxdTotal;
+
+- (BOOL)hasDbmrTotal;
+- (long long int)getDbmrTotal;
+
+- (BOOL)hasDbmrStatistics;
+- (long long int)getDbmrStatistics;
+
+- (BOOL)hasDbmcTotal;
+- (long long int)getDbmcTotal;
+
+- (BOOL)hasDbmcStatistics;
+- (long long int)getDbmcStatistics;
+
+- (BOOL)hasFztbTotal;
+- (long long int)getFztbTotal;
+
+- (BOOL)hasFdtbTotal;
+- (long long int)getFdtbTotal;
+
+- (BOOL)hasDkztTotal;
+- (long long int)getDkztTotal;
+
+- (BOOL)hasDkdtTotal;
+- (long long int)getDkdtTotal;
+
+- (BOOL)hasYdmcPTotal;
+- (long long int)getYdmcPTotal;
+
+- (BOOL)hasYdmrPTotal;
+- (long long int)getYdmrPTotal;
+
+- (BOOL)hasLszsTotal;
+- (long long int)getLszsTotal;
+
+- (BOOL)hasDyzsTotal;
+- (long long int)getDyzsTotal;
+
+- (BOOL)hasJgmrgdTotal;
+- (long long int)getJgmrgdTotal;
+
+- (BOOL)hasJgmcgdTotal;
+- (long long int)getJgmcgdTotal;
+
+- (BOOL)hasDcjmrdTotal;
+- (long long int)getDcjmrdTotal;
+
+- (BOOL)hasDcjmcdTotal;
+- (long long int)getDcjmcdTotal;
+
+- (BOOL)hasFdmrgdTotal;
+- (long long int)getFdmrgdTotal;
+
+- (BOOL)hasFdmcgdTotal;
+- (long long int)getFdmcgdTotal;
+
+- (BOOL)hasMrcdTotal;
+- (long long int)getMrcdTotal;
+
+- (BOOL)hasMccdTotal;
+- (long long int)getMccdTotal;
+
+- (BOOL)hasMrxdTotal;
+- (long long int)getMrxdTotal;
+
+- (BOOL)hasMcxdTotal;
+- (long long int)getMcxdTotal;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhyunDxspirit_DXSpiritStatOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunDxspirit_DXSpiritStatOrBuilder)
+
+@interface ComDzhyunProtoDzhyunDxspirit_DXSpiritStat : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoDzhyunDxspirit_DXSpiritStatOrBuilder>
+
++ (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *)getDefaultInstance;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *)getDefaultInstanceForType;
++ (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)toBuilder;
++ (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)newBuilderWithComDzhyunProtoDzhyunDxspirit_DXSpiritStat:(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_HJFSTOTAL_FIELD_NUMBER 2
+#define ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_KSFTTOTAL_FIELD_NUMBER 3
+#define ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_GTTSTOTAL_FIELD_NUMBER 4
+#define ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_JSXDTOTAL_FIELD_NUMBER 5
+#define ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_DBMRTOTAL_FIELD_NUMBER 6
+#define ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_DBMRSTATISTICS_FIELD_NUMBER 7
+#define ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_DBMCTOTAL_FIELD_NUMBER 8
+#define ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_DBMCSTATISTICS_FIELD_NUMBER 9
+#define ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_FZTBTOTAL_FIELD_NUMBER 10
+#define ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_FDTBTOTAL_FIELD_NUMBER 11
+#define ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_DKZTTOTAL_FIELD_NUMBER 12
+#define ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_DKDTTOTAL_FIELD_NUMBER 13
+#define ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_YDMCPTOTAL_FIELD_NUMBER 14
+#define ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_YDMRPTOTAL_FIELD_NUMBER 15
+#define ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_LSZSTOTAL_FIELD_NUMBER 16
+#define ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_DYZSTOTAL_FIELD_NUMBER 17
+#define ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_JGMRGDTOTAL_FIELD_NUMBER 18
+#define ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_JGMCGDTOTAL_FIELD_NUMBER 19
+#define ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_DCJMRDTOTAL_FIELD_NUMBER 20
+#define ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_DCJMCDTOTAL_FIELD_NUMBER 21
+#define ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_FDMRGDTOTAL_FIELD_NUMBER 22
+#define ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_FDMCGDTOTAL_FIELD_NUMBER 23
+#define ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_MRCDTOTAL_FIELD_NUMBER 24
+#define ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_MCCDTOTAL_FIELD_NUMBER 25
+#define ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_MRXDTOTAL_FIELD_NUMBER 26
+#define ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_MCXDTOTAL_FIELD_NUMBER 27
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_newBuilderWithComDzhyunProtoDzhyunDxspirit_DXSpiritStat_(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_descriptor_;
+
+@interface ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoDzhyunDxspirit_DXSpiritStatOrBuilder>
+
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *)getDefaultInstanceForType;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)mergeFromWithComDzhyunProtoDzhyunDxspirit_DXSpiritStat:(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *)message;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *)build;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)clearObj;
+
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)setHjfsTotalWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)clearHjfsTotal;
+
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)setKsftTotalWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)clearKsftTotal;
+
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)setGttsTotalWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)clearGttsTotal;
+
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)setJsxdTotalWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)clearJsxdTotal;
+
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)setDbmrTotalWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)clearDbmrTotal;
+
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)setDbmrStatisticsWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)clearDbmrStatistics;
+
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)setDbmcTotalWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)clearDbmcTotal;
+
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)setDbmcStatisticsWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)clearDbmcStatistics;
+
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)setFztbTotalWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)clearFztbTotal;
+
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)setFdtbTotalWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)clearFdtbTotal;
+
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)setDkztTotalWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)clearDkztTotal;
+
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)setDkdtTotalWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)clearDkdtTotal;
+
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)setYdmcPTotalWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)clearYdmcPTotal;
+
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)setYdmrPTotalWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)clearYdmrPTotal;
+
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)setLszsTotalWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)clearLszsTotal;
+
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)setDyzsTotalWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)clearDyzsTotal;
+
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)setJgmrgdTotalWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)clearJgmrgdTotal;
+
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)setJgmcgdTotalWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)clearJgmcgdTotal;
+
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)setDcjmrdTotalWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)clearDcjmrdTotal;
+
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)setDcjmcdTotalWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)clearDcjmcdTotal;
+
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)setFdmrgdTotalWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)clearFdmrgdTotal;
+
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)setFdmcgdTotalWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)clearFdmcgdTotal;
+
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)setMrcdTotalWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)clearMrcdTotal;
+
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)setMccdTotalWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)clearMccdTotal;
+
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)setMrxdTotalWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)clearMrxdTotal;
+
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)setMcxdTotalWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)clearMcxdTotal;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder)

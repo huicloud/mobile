@@ -7,7 +7,9 @@
 #import "com/google/protobuf/ProtocolMessageEnum.h"
 #import "java/lang/Enum.h"
 
+@class ComDzhyunProtoDzhyunStockpool_StkPool;
 @class ComDzhyunProtoDzhyunStockpool_StkPoolOuput_Builder;
+@class ComDzhyunProtoDzhyunStockpool_StkPool_Builder;
 @class ComDzhyunProtoDzhyunStockpool_Stock;
 @class ComDzhyunProtoDzhyunStockpool_Stock_Builder;
 @class ComGoogleProtobufDescriptors_Descriptor;
@@ -120,7 +122,7 @@ J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhyunStockpool_Stock_Builder)
 
 J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunStockpool_Stock_Builder)
 
-@protocol ComDzhyunProtoDzhyunStockpool_StkPoolOuputOrBuilder < ComGoogleProtobufMessageOrBuilder >
+@protocol ComDzhyunProtoDzhyunStockpool_StkPoolOrBuilder < ComGoogleProtobufMessageOrBuilder >
 
 - (BOOL)hasText;
 - (NSString *)getText;
@@ -128,6 +130,98 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunStockpool_Stock_Builder)
 - (int)getStkCount;
 - (id<JavaUtilList>)getStkList;
 - (ComDzhyunProtoDzhyunStockpool_Stock *)getStkWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhyunStockpool_StkPoolOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunStockpool_StkPoolOrBuilder)
+
+@interface ComDzhyunProtoDzhyunStockpool_StkPool : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoDzhyunStockpool_StkPoolOrBuilder>
+
++ (ComDzhyunProtoDzhyunStockpool_StkPool *)getDefaultInstance;
+- (ComDzhyunProtoDzhyunStockpool_StkPool *)getDefaultInstanceForType;
++ (ComDzhyunProtoDzhyunStockpool_StkPool_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoDzhyunStockpool_StkPool_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoDzhyunStockpool_StkPool_Builder *)toBuilder;
++ (ComDzhyunProtoDzhyunStockpool_StkPool_Builder *)newBuilderWithComDzhyunProtoDzhyunStockpool_StkPool:(ComDzhyunProtoDzhyunStockpool_StkPool *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoDzhyunStockpool_StkPool *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoDzhyunStockpool_StkPool *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhyunStockpool_StkPool *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoDzhyunStockpool_StkPool *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhyunStockpool_StkPool *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoDzhyunStockpool_StkPool *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhyunStockpool_StkPool *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoDzhyunStockpool_StkPool *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoDzhyunStockpool_StkPool_TEXT_FIELD_NUMBER 1
+#define ComDzhyunProtoDzhyunStockpool_StkPool_STK_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunStockpool_StkPool *ComDzhyunProtoDzhyunStockpool_StkPool_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunStockpool_StkPool_Builder *ComDzhyunProtoDzhyunStockpool_StkPool_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunStockpool_StkPool_Builder *ComDzhyunProtoDzhyunStockpool_StkPool_newBuilderWithComDzhyunProtoDzhyunStockpool_StkPool_(ComDzhyunProtoDzhyunStockpool_StkPool *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunStockpool_StkPool_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunStockpool_StkPool *ComDzhyunProtoDzhyunStockpool_StkPool_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhyunStockpool_StkPool *ComDzhyunProtoDzhyunStockpool_StkPool_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoDzhyunStockpool_StkPool_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunStockpool_StkPool *ComDzhyunProtoDzhyunStockpool_StkPool_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhyunStockpool_StkPool *ComDzhyunProtoDzhyunStockpool_StkPool_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoDzhyunStockpool_StkPool_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunStockpool_StkPool *ComDzhyunProtoDzhyunStockpool_StkPool_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhyunStockpool_StkPool *ComDzhyunProtoDzhyunStockpool_StkPool_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoDzhyunStockpool_StkPool_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoDzhyunStockpool_StkPool)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunStockpool_StkPool)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunStockpool_StkPool_descriptor_;
+
+@interface ComDzhyunProtoDzhyunStockpool_StkPool_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoDzhyunStockpool_StkPoolOrBuilder>
+
+- (ComDzhyunProtoDzhyunStockpool_StkPool *)getDefaultInstanceForType;
+- (ComDzhyunProtoDzhyunStockpool_StkPool_Builder *)mergeFromWithComDzhyunProtoDzhyunStockpool_StkPool:(ComDzhyunProtoDzhyunStockpool_StkPool *)message;
+- (ComDzhyunProtoDzhyunStockpool_StkPool_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoDzhyunStockpool_StkPool *)build;
+- (ComDzhyunProtoDzhyunStockpool_StkPool *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoDzhyunStockpool_StkPool_Builder *)setTextWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoDzhyunStockpool_StkPool_Builder *)clearText;
+- (ComDzhyunProtoDzhyunStockpool_StkPool_Builder*)setStkWithInt:(int)index
+    withComDzhyunProtoDzhyunStockpool_Stock:(ComDzhyunProtoDzhyunStockpool_Stock *)value;
+- (ComDzhyunProtoDzhyunStockpool_StkPool_Builder*)addStkWithComDzhyunProtoDzhyunStockpool_Stock:
+    (ComDzhyunProtoDzhyunStockpool_Stock *)value;
+- (ComDzhyunProtoDzhyunStockpool_StkPool_Builder*)addAllStkWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoDzhyunStockpool_StkPool_Builder*)clearStk;
+- (ComDzhyunProtoDzhyunStockpool_StkPool_Builder*)
+    addStkWithComDzhyunProtoDzhyunStockpool_Stock_Builder:
+    (ComDzhyunProtoDzhyunStockpool_Stock_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunStockpool_StkPool_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhyunStockpool_StkPool_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunStockpool_StkPool_Builder)
+
+@protocol ComDzhyunProtoDzhyunStockpool_StkPoolOuputOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasCeWenShiJian;
+- (NSString *)getCeWenShiJian;
+
+- (int)getPooldataCount;
+- (id<JavaUtilList>)getPooldataList;
+- (ComDzhyunProtoDzhyunStockpool_StkPool *)getPooldataWithInt:(int)index;
 
 @end
 
@@ -153,8 +247,8 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunStockpool_StkPoolOuputOrBuilder)
 + (ComDzhyunProtoDzhyunStockpool_StkPoolOuput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
 + (ComDzhyunProtoDzhyunStockpool_StkPoolOuput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
 
-#define ComDzhyunProtoDzhyunStockpool_StkPoolOuput_TEXT_FIELD_NUMBER 1
-#define ComDzhyunProtoDzhyunStockpool_StkPoolOuput_STK_FIELD_NUMBER 2
+#define ComDzhyunProtoDzhyunStockpool_StkPoolOuput_CEWENSHIJIAN_FIELD_NUMBER 1
+#define ComDzhyunProtoDzhyunStockpool_StkPoolOuput_POOLDATA_FIELD_NUMBER 2
 
 @end
 
@@ -190,19 +284,19 @@ FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunS
 - (ComDzhyunProtoDzhyunStockpool_StkPoolOuput *)buildPartial;
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
 
-- (ComDzhyunProtoDzhyunStockpool_StkPoolOuput_Builder *)setTextWithNSString:
+- (ComDzhyunProtoDzhyunStockpool_StkPoolOuput_Builder *)setCeWenShiJianWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoDzhyunStockpool_StkPoolOuput_Builder *)clearText;
-- (ComDzhyunProtoDzhyunStockpool_StkPoolOuput_Builder*)setStkWithInt:(int)index
-    withComDzhyunProtoDzhyunStockpool_Stock:(ComDzhyunProtoDzhyunStockpool_Stock *)value;
-- (ComDzhyunProtoDzhyunStockpool_StkPoolOuput_Builder*)addStkWithComDzhyunProtoDzhyunStockpool_Stock:
-    (ComDzhyunProtoDzhyunStockpool_Stock *)value;
-- (ComDzhyunProtoDzhyunStockpool_StkPoolOuput_Builder*)addAllStkWithJavaLangIterable:
+- (ComDzhyunProtoDzhyunStockpool_StkPoolOuput_Builder *)clearCeWenShiJian;
+- (ComDzhyunProtoDzhyunStockpool_StkPoolOuput_Builder*)setPooldataWithInt:(int)index
+    withComDzhyunProtoDzhyunStockpool_StkPool:(ComDzhyunProtoDzhyunStockpool_StkPool *)value;
+- (ComDzhyunProtoDzhyunStockpool_StkPoolOuput_Builder*)addPooldataWithComDzhyunProtoDzhyunStockpool_StkPool:
+    (ComDzhyunProtoDzhyunStockpool_StkPool *)value;
+- (ComDzhyunProtoDzhyunStockpool_StkPoolOuput_Builder*)addAllPooldataWithJavaLangIterable:
     (id<JavaLangIterable>)values;
-- (ComDzhyunProtoDzhyunStockpool_StkPoolOuput_Builder*)clearStk;
+- (ComDzhyunProtoDzhyunStockpool_StkPoolOuput_Builder*)clearPooldata;
 - (ComDzhyunProtoDzhyunStockpool_StkPoolOuput_Builder*)
-    addStkWithComDzhyunProtoDzhyunStockpool_Stock_Builder:
-    (ComDzhyunProtoDzhyunStockpool_Stock_Builder *)value;
+    addPooldataWithComDzhyunProtoDzhyunStockpool_StkPool_Builder:
+    (ComDzhyunProtoDzhyunStockpool_StkPool_Builder *)value;
 
 @end
 

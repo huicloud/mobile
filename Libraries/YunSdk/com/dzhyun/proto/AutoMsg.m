@@ -29,7 +29,7 @@ void ComDzhyunProtoAutoMsg_registerAllExtensionsWithComGoogleProtobufExtensionRe
 
 J2OBJC_INITIALIZED_DEFN(ComDzhyunProtoAutoMsg_EnumIDEnum)
 
-ComDzhyunProtoAutoMsg_EnumIDEnum *ComDzhyunProtoAutoMsg_EnumIDEnum_values_[64];
+ComDzhyunProtoAutoMsg_EnumIDEnum *ComDzhyunProtoAutoMsg_EnumIDEnum_values_[100];
 
 static ComGoogleProtobufDescriptors_EnumDescriptor *ComDzhyunProtoAutoMsg_EnumIDEnum_descriptor = nil;
 
@@ -108,7 +108,43 @@ static ComGoogleProtobufDescriptors_EnumDescriptor *ComDzhyunProtoAutoMsg_EnumID
     ComDzhyunProtoAutoMsg_EnumIDEnum_IDDXSpirit = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDDXSpirit" withIndex:61 withValue:77];
     ComDzhyunProtoAutoMsg_EnumIDEnum_IDStkPoolOuput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDStkPoolOuput" withIndex:62 withValue:78];
     ComDzhyunProtoAutoMsg_EnumIDEnum_IDEventNews = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDEventNews" withIndex:63 withValue:79];
-    ComDzhyunProtoAutoMsg_EnumIDEnum_descriptor = CGPNewEnumDescriptor(self, 64, ComDzhyunProtoAutoMsg_EnumIDEnum_values_);
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDGongGaoXinXiOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDGongGaoXinXiOutput" withIndex:64 withValue:80];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDGongGaoXinXiZhongXinOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDGongGaoXinXiZhongXinOutput" withIndex:65 withValue:81];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10CpbdZxzbOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10CpbdZxzbOutput" withIndex:66 withValue:82];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10CpbdKpqkOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10CpbdKpqkOutput" withIndex:67 withValue:83];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10CpbdCjhbOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10CpbdCjhbOutput" withIndex:68 withValue:84];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10CwtsLrfpbzyOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10CwtsLrfpbzyOutput" withIndex:69 withValue:85];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10CwtsZcfzbzyOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10CwtsZcfzbzyOutput" withIndex:70 withValue:86];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10ZygcOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10ZygcOutput" withIndex:71 withValue:87];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10DstxJjltOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10DstxJjltOutput" withIndex:72 withValue:88];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10DstxRzrqOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10DstxRzrqOutput" withIndex:73 withValue:89];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10DstxJgccOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10DstxJgccOutput" withIndex:74 withValue:90];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10DstxGdzjcOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10DstxGdzjcOutput" withIndex:75 withValue:91];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10DstxDzjyOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10DstxDzjyOutput" withIndex:76 withValue:92];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10DstxCgbdqkOutput = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10DstxCgbdqkOutput" withIndex:77 withValue:93];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10GlcOutPut = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10GlcOutPut" withIndex:78 withValue:94];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10GlcNdbcqkOutPut = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10GlcNdbcqkOutPut" withIndex:79 withValue:95];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10ZxjbDjdxjllbOutPut = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10ZxjbDjdxjllbOutPut" withIndex:80 withValue:96];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10GdjcKggdOutPut = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10GdjcKggdOutPut" withIndex:81 withValue:97];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10GdjcSjkzrOutPut = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10GdjcSjkzrOutPut" withIndex:82 withValue:98];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10GbfhGbbdOutPut = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10GbfhGbbdOutPut" withIndex:83 withValue:99];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10ZbyzCyqtsszqOutPut = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10ZbyzCyqtsszqOutPut" withIndex:84 withValue:100];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10ZbyzCyfssgqOutPut = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10ZbyzCyfssgqOutPut" withIndex:85 withValue:101];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10zbyzRzqkzfyssOutPut = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10zbyzRzqkzfyssOutPut" withIndex:86 withValue:102];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10ZbyzXmtzMjzjqkOutPut = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10ZbyzXmtzMjzjqkOutPut" withIndex:87 withValue:103];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10ZbyzXmtzMjzjcnxmOutPut = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10ZbyzXmtzMjzjcnxmOutPut" withIndex:88 withValue:104];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10ZbyzXmtzMjzjbgxmOutPut = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10ZbyzXmtzMjzjbgxmOutPut" withIndex:89 withValue:105];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10ZbyzXmtzFmjzjxmOutPut = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10ZbyzXmtzFmjzjxmOutPut" withIndex:90 withValue:106];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10HydwOutPut = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10HydwOutPut" withIndex:91 withValue:107];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10RsrProForecastOutPut = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10RsrProForecastOutPut" withIndex:92 withValue:108];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10RsrInvestRatingOutPut = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10RsrInvestRatingOutPut" withIndex:93 withValue:109];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10RsrEarnPSForeOutPut = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10RsrEarnPSForeOutPut" withIndex:94 withValue:110];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10RsrResReportOutPut = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDF10RsrResReportOutPut" withIndex:95 withValue:111];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDServiceAuthConsts = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDServiceAuthConsts" withIndex:96 withValue:112];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDDXSpiritStat = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDDXSpiritStat" withIndex:97 withValue:113];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDFluxValue = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDFluxValue" withIndex:98 withValue:114];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_IDPaiMing = [[ComDzhyunProtoAutoMsg_EnumIDEnum alloc] initWithName:@"IDPaiMing" withIndex:99 withValue:115];
+    ComDzhyunProtoAutoMsg_EnumIDEnum_descriptor = CGPNewEnumDescriptor(self, 100, ComDzhyunProtoAutoMsg_EnumIDEnum_values_);
     J2OBJC_SET_INITIALIZED(ComDzhyunProtoAutoMsg_EnumIDEnum)
   }
 }
@@ -141,11 +177,11 @@ static ComGoogleProtobufDescriptors_EnumDescriptor *ComDzhyunProtoAutoMsg_EnumID
 J2OBJC_CLASS_TYPE_LITERAL_SOURCE(ComDzhyunProtoAutoMsg_EnumIDEnum)
 
 IOSObjectArray *ComDzhyunProtoAutoMsg_EnumIDEnum_values() {
-  ComDzhyunProtoAutoMsg_EnumIDEnum_initialize();  return [IOSObjectArray arrayWithObjects:ComDzhyunProtoAutoMsg_EnumIDEnum_values_ count:64 type:ComDzhyunProtoAutoMsg_EnumIDEnum_class_()];
+  ComDzhyunProtoAutoMsg_EnumIDEnum_initialize();  return [IOSObjectArray arrayWithObjects:ComDzhyunProtoAutoMsg_EnumIDEnum_values_ count:100 type:ComDzhyunProtoAutoMsg_EnumIDEnum_class_()];
 }
 
 ComDzhyunProtoAutoMsg_EnumIDEnum *ComDzhyunProtoAutoMsg_EnumIDEnum_valueOfWithNSString_(NSString *name) {
-  ComDzhyunProtoAutoMsg_EnumIDEnum_initialize();  for (jint i = 0; i < 64; i++) {
+  ComDzhyunProtoAutoMsg_EnumIDEnum_initialize();  for (jint i = 0; i < 100; i++) {
     ComDzhyunProtoAutoMsg_EnumIDEnum *e = ComDzhyunProtoAutoMsg_EnumIDEnum_values_[i];
     if ([name isEqual:[e name]]) {
       return e;
@@ -155,7 +191,7 @@ ComDzhyunProtoAutoMsg_EnumIDEnum *ComDzhyunProtoAutoMsg_EnumIDEnum_valueOfWithNS
 }
 
 ComDzhyunProtoAutoMsg_EnumIDEnum *ComDzhyunProtoAutoMsg_EnumIDEnum_valueOfWithInt_(jint value) {
-  ComDzhyunProtoAutoMsg_EnumIDEnum_initialize();  for (jint i = 0; i < 64; i++) {
+  ComDzhyunProtoAutoMsg_EnumIDEnum_initialize();  for (jint i = 0; i < 100; i++) {
     ComDzhyunProtoAutoMsg_EnumIDEnum *e = ComDzhyunProtoAutoMsg_EnumIDEnum_values_[i];
     if (value == [e getNumber]) {
       return e;
@@ -238,6 +274,42 @@ typedef struct ComDzhyunProtoAutoMsg_MSG_Storage {
   CGPRepeatedField repDataDXSpirit_;
   CGPRepeatedField repDataStkPoolOuput_;
   CGPRepeatedField repDataEventNews_;
+  CGPRepeatedField repDataGongGaoXinXiOutput_;
+  CGPRepeatedField repDataGongGaoXinXiZhongXinOutput_;
+  CGPRepeatedField repDataF10CpbdZxzbOutput_;
+  CGPRepeatedField repDataF10CpbdKpqkOutput_;
+  CGPRepeatedField repDataF10CpbdCjhbOutput_;
+  CGPRepeatedField repDataF10CwtsLrfpbzyOutput_;
+  CGPRepeatedField repDataF10CwtsZcfzbzyOutput_;
+  CGPRepeatedField repDataF10ZygcOutput_;
+  CGPRepeatedField repDataF10DstxJjltOutput_;
+  CGPRepeatedField repDataF10DstxRzrqOutput_;
+  CGPRepeatedField repDataF10DstxJgccOutput_;
+  CGPRepeatedField repDataF10DstxGdzjcOutput_;
+  CGPRepeatedField repDataF10DstxDzjyOutput_;
+  CGPRepeatedField repDataF10DstxCgbdqkOutput_;
+  CGPRepeatedField repDataF10GlcOutPut_;
+  CGPRepeatedField repDataF10GlcNdbcqkOutPut_;
+  CGPRepeatedField repDataF10ZxjbDjdxjllbOutPut_;
+  CGPRepeatedField repDataF10GdjcKggdOutPut_;
+  CGPRepeatedField repDataF10GdjcSjkzrOutPut_;
+  CGPRepeatedField repDataF10GbfhGbbdOutPut_;
+  CGPRepeatedField repDataF10ZbyzCyqtsszqOutPut_;
+  CGPRepeatedField repDataF10ZbyzCyfssgqOutPut_;
+  CGPRepeatedField repDataF10ZbyzRzqkzfyssOutPut_;
+  CGPRepeatedField repDataF10ZbyzXmtzMjzjqkOutPut_;
+  CGPRepeatedField repDataF10ZbyzXmtzMjzjcnxmOutPut_;
+  CGPRepeatedField repDataF10ZbyzXmtzMjzjbgxmOutPut_;
+  CGPRepeatedField repDataF10ZbyzXmtzFmjzjxmOutPut_;
+  CGPRepeatedField repDataF10HydwOutPut_;
+  CGPRepeatedField repDataF10RsrProForecastOutPut_;
+  CGPRepeatedField repDataF10RsrInvestRatingOutPut_;
+  CGPRepeatedField repDataF10RsrEarnPSForeOutPut_;
+  CGPRepeatedField repDataF10RsrResReportOutPut_;
+  CGPRepeatedField repDataServiceAuthConsts_;
+  CGPRepeatedField repDataDXSpiritStat_;
+  CGPRepeatedField repDataFluxValue_;
+  CGPRepeatedField repDataPaiMing_;
 } ComDzhyunProtoAutoMsg_MSG_Storage;
 
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor {
@@ -529,7 +601,7 @@ typedef struct ComDzhyunProtoAutoMsg_MSG_Storage {
         .defaultValue.valueId = nil,
         .hasBitIndex = 0,
         .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataAppKey_),
-        .className = "ComDzhyunProtoDzhapp_AppKey",
+        .className = "DzhyunDzhapp_AppKey",
         .containingType = "ComDzhyunProtoAutoMsg_MSG",
         .optionsData = NULL,
       },
@@ -542,7 +614,7 @@ typedef struct ComDzhyunProtoAutoMsg_MSG_Storage {
         .defaultValue.valueId = nil,
         .hasBitIndex = 0,
         .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataAppInfo_),
-        .className = "ComDzhyunProtoDzhapp_AppInfo",
+        .className = "DzhyunDzhapp_AppInfo",
         .containingType = "ComDzhyunProtoAutoMsg_MSG",
         .optionsData = NULL,
       },
@@ -555,7 +627,7 @@ typedef struct ComDzhyunProtoAutoMsg_MSG_Storage {
         .defaultValue.valueId = nil,
         .hasBitIndex = 0,
         .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataAppValue_),
-        .className = "ComDzhyunProtoDzhapp_AppValue",
+        .className = "DzhyunDzhapp_AppValue",
         .containingType = "ComDzhyunProtoAutoMsg_MSG",
         .optionsData = NULL,
       },
@@ -568,7 +640,7 @@ typedef struct ComDzhyunProtoAutoMsg_MSG_Storage {
         .defaultValue.valueId = nil,
         .hasBitIndex = 0,
         .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataServiceAuth_),
-        .className = "ComDzhyunProtoDzhapp_ServiceAuth",
+        .className = "DzhyunDzhapp_ServiceAuth",
         .containingType = "ComDzhyunProtoAutoMsg_MSG",
         .optionsData = NULL,
       },
@@ -581,7 +653,7 @@ typedef struct ComDzhyunProtoAutoMsg_MSG_Storage {
         .defaultValue.valueId = nil,
         .hasBitIndex = 0,
         .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataAppServiceAuth_),
-        .className = "ComDzhyunProtoDzhapp_AppServiceAuth",
+        .className = "DzhyunDzhapp_AppServiceAuth",
         .containingType = "ComDzhyunProtoAutoMsg_MSG",
         .optionsData = NULL,
       },
@@ -594,7 +666,7 @@ typedef struct ComDzhyunProtoAutoMsg_MSG_Storage {
         .defaultValue.valueId = nil,
         .hasBitIndex = 0,
         .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataTokenAuth_),
-        .className = "ComDzhyunProtoDzhapp_TokenAuth",
+        .className = "DzhyunDzhapp_TokenAuth",
         .containingType = "ComDzhyunProtoAutoMsg_MSG",
         .optionsData = NULL,
       },
@@ -607,7 +679,7 @@ typedef struct ComDzhyunProtoAutoMsg_MSG_Storage {
         .defaultValue.valueId = nil,
         .hasBitIndex = 0,
         .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataAccOpResponse_),
-        .className = "ComDzhyunProtoDzhapp_AccOpResponse",
+        .className = "DzhyunDzhapp_AccOpResponse",
         .containingType = "ComDzhyunProtoAutoMsg_MSG",
         .optionsData = NULL,
       },
@@ -633,7 +705,7 @@ typedef struct ComDzhyunProtoAutoMsg_MSG_Storage {
         .defaultValue.valueId = nil,
         .hasBitIndex = 0,
         .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataPrivilege_),
-        .className = "ComDzhyunProtoDzhpriv_Privilege",
+        .className = "DzhyunDzhpriv_Privilege",
         .containingType = "ComDzhyunProtoAutoMsg_MSG",
         .optionsData = NULL,
       },
@@ -763,7 +835,7 @@ typedef struct ComDzhyunProtoAutoMsg_MSG_Storage {
         .defaultValue.valueId = nil,
         .hasBitIndex = 0,
         .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10GsgkOutput_),
-        .className = "ComDzhyunProtoDzhyunF10_F10GsgkOutput",
+        .className = "ComDzhyunProtoCldF10ShuJu_F10GsgkOutput",
         .containingType = "ComDzhyunProtoAutoMsg_MSG",
         .optionsData = NULL,
       },
@@ -776,7 +848,7 @@ typedef struct ComDzhyunProtoAutoMsg_MSG_Storage {
         .defaultValue.valueId = nil,
         .hasBitIndex = 0,
         .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10CwtsZycwzbOutput_),
-        .className = "ComDzhyunProtoDzhyunF10_F10CwtsZycwzbOutput",
+        .className = "ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput",
         .containingType = "ComDzhyunProtoAutoMsg_MSG",
         .optionsData = NULL,
       },
@@ -789,7 +861,7 @@ typedef struct ComDzhyunProtoAutoMsg_MSG_Storage {
         .defaultValue.valueId = nil,
         .hasBitIndex = 0,
         .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10CwtsXjllbzyOutput_),
-        .className = "ComDzhyunProtoDzhyunF10_F10CwtsXjllbzyOutput",
+        .className = "ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput",
         .containingType = "ComDzhyunProtoAutoMsg_MSG",
         .optionsData = NULL,
       },
@@ -802,7 +874,7 @@ typedef struct ComDzhyunProtoAutoMsg_MSG_Storage {
         .defaultValue.valueId = nil,
         .hasBitIndex = 0,
         .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10ZxjbDjdcwzbOutput_),
-        .className = "ComDzhyunProtoDzhyunF10_F10ZxjbDjdcwzbOutput",
+        .className = "ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput",
         .containingType = "ComDzhyunProtoAutoMsg_MSG",
         .optionsData = NULL,
       },
@@ -815,7 +887,7 @@ typedef struct ComDzhyunProtoAutoMsg_MSG_Storage {
         .defaultValue.valueId = nil,
         .hasBitIndex = 0,
         .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10ZxjbdjdlebOutput_),
-        .className = "ComDzhyunProtoDzhyunF10_F10ZxjbdjdlebOutput",
+        .className = "ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput",
         .containingType = "ComDzhyunProtoAutoMsg_MSG",
         .optionsData = NULL,
       },
@@ -828,7 +900,7 @@ typedef struct ComDzhyunProtoAutoMsg_MSG_Storage {
         .defaultValue.valueId = nil,
         .hasBitIndex = 0,
         .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10GdjcGdhsOutput_),
-        .className = "ComDzhyunProtoDzhyunF10_F10GdjcGdhsOutput",
+        .className = "ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput",
         .containingType = "ComDzhyunProtoAutoMsg_MSG",
         .optionsData = NULL,
       },
@@ -841,7 +913,7 @@ typedef struct ComDzhyunProtoAutoMsg_MSG_Storage {
         .defaultValue.valueId = nil,
         .hasBitIndex = 0,
         .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10GdjcSdgdOutput_),
-        .className = "ComDzhyunProtoDzhyunF10_F10GdjcSdgdOutput",
+        .className = "ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput",
         .containingType = "ComDzhyunProtoAutoMsg_MSG",
         .optionsData = NULL,
       },
@@ -854,7 +926,7 @@ typedef struct ComDzhyunProtoAutoMsg_MSG_Storage {
         .defaultValue.valueId = nil,
         .hasBitIndex = 0,
         .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10GdjcSdltgdOutput_),
-        .className = "ComDzhyunProtoDzhyunF10_F10GdjcSdltgdOutput",
+        .className = "ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput",
         .containingType = "ComDzhyunProtoAutoMsg_MSG",
         .optionsData = NULL,
       },
@@ -867,7 +939,7 @@ typedef struct ComDzhyunProtoAutoMsg_MSG_Storage {
         .defaultValue.valueId = nil,
         .hasBitIndex = 0,
         .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10GbfhFhkgOutput_),
-        .className = "ComDzhyunProtoDzhyunF10_F10GbfhFhkgOutput",
+        .className = "ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput",
         .containingType = "ComDzhyunProtoAutoMsg_MSG",
         .optionsData = NULL,
       },
@@ -880,7 +952,7 @@ typedef struct ComDzhyunProtoAutoMsg_MSG_Storage {
         .defaultValue.valueId = nil,
         .hasBitIndex = 0,
         .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10GbfhGbjgOutput_),
-        .className = "ComDzhyunProtoDzhyunF10_F10GbfhGbjgOutput",
+        .className = "ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput",
         .containingType = "ComDzhyunProtoAutoMsg_MSG",
         .optionsData = NULL,
       },
@@ -1079,8 +1151,476 @@ typedef struct ComDzhyunProtoAutoMsg_MSG_Storage {
         .containingType = "ComDzhyunProtoAutoMsg_MSG",
         .optionsData = NULL,
       },
+      {
+        .name = "RepDataGongGaoXinXiOutput",
+        .javaName = "RepDataGongGaoXinXiOutput",
+        .number = 80,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataGongGaoXinXiOutput_),
+        .className = "ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataGongGaoXinXiZhongXinOutput",
+        .javaName = "RepDataGongGaoXinXiZhongXinOutput",
+        .number = 81,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataGongGaoXinXiZhongXinOutput_),
+        .className = "ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10CpbdZxzbOutput",
+        .javaName = "RepDataF10CpbdZxzbOutput",
+        .number = 82,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10CpbdZxzbOutput_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10CpbdKpqkOutput",
+        .javaName = "RepDataF10CpbdKpqkOutput",
+        .number = 83,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10CpbdKpqkOutput_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10CpbdCjhbOutput",
+        .javaName = "RepDataF10CpbdCjhbOutput",
+        .number = 84,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10CpbdCjhbOutput_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10CwtsLrfpbzyOutput",
+        .javaName = "RepDataF10CwtsLrfpbzyOutput",
+        .number = 85,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10CwtsLrfpbzyOutput_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10CwtsZcfzbzyOutput",
+        .javaName = "RepDataF10CwtsZcfzbzyOutput",
+        .number = 86,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10CwtsZcfzbzyOutput_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10ZygcOutput",
+        .javaName = "RepDataF10ZygcOutput",
+        .number = 87,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10ZygcOutput_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10ZygcOutput",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10DstxJjltOutput",
+        .javaName = "RepDataF10DstxJjltOutput",
+        .number = 88,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10DstxJjltOutput_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10DstxRzrqOutput",
+        .javaName = "RepDataF10DstxRzrqOutput",
+        .number = 89,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10DstxRzrqOutput_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10DstxJgccOutput",
+        .javaName = "RepDataF10DstxJgccOutput",
+        .number = 90,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10DstxJgccOutput_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10DstxGdzjcOutput",
+        .javaName = "RepDataF10DstxGdzjcOutput",
+        .number = 91,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10DstxGdzjcOutput_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10DstxDzjyOutput",
+        .javaName = "RepDataF10DstxDzjyOutput",
+        .number = 92,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10DstxDzjyOutput_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10DstxCgbdqkOutput",
+        .javaName = "RepDataF10DstxCgbdqkOutput",
+        .number = 93,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10DstxCgbdqkOutput_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10GlcOutPut",
+        .javaName = "RepDataF10GlcOutPut",
+        .number = 94,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10GlcOutPut_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10GlcOutPut",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10GlcNdbcqkOutPut",
+        .javaName = "RepDataF10GlcNdbcqkOutPut",
+        .number = 95,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10GlcNdbcqkOutPut_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10ZxjbDjdxjllbOutPut",
+        .javaName = "RepDataF10ZxjbDjdxjllbOutPut",
+        .number = 96,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10ZxjbDjdxjllbOutPut_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10GdjcKggdOutPut",
+        .javaName = "RepDataF10GdjcKggdOutPut",
+        .number = 97,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10GdjcKggdOutPut_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10GdjcSjkzrOutPut",
+        .javaName = "RepDataF10GdjcSjkzrOutPut",
+        .number = 98,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10GdjcSjkzrOutPut_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10GbfhGbbdOutPut",
+        .javaName = "RepDataF10GbfhGbbdOutPut",
+        .number = 99,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10GbfhGbbdOutPut_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10ZbyzCyqtsszqOutPut",
+        .javaName = "RepDataF10ZbyzCyqtsszqOutPut",
+        .number = 100,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10ZbyzCyqtsszqOutPut_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10ZbyzCyfssgqOutPut",
+        .javaName = "RepDataF10ZbyzCyfssgqOutPut",
+        .number = 101,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10ZbyzCyfssgqOutPut_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10zbyzRzqkzfyssOutPut",
+        .javaName = "RepDataF10ZbyzRzqkzfyssOutPut",
+        .number = 102,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10ZbyzRzqkzfyssOutPut_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10ZbyzXmtzMjzjqkOutPut",
+        .javaName = "RepDataF10ZbyzXmtzMjzjqkOutPut",
+        .number = 103,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10ZbyzXmtzMjzjqkOutPut_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10ZbyzXmtzMjzjcnxmOutPut",
+        .javaName = "RepDataF10ZbyzXmtzMjzjcnxmOutPut",
+        .number = 104,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10ZbyzXmtzMjzjcnxmOutPut_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10ZbyzXmtzMjzjbgxmOutPut",
+        .javaName = "RepDataF10ZbyzXmtzMjzjbgxmOutPut",
+        .number = 105,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10ZbyzXmtzMjzjbgxmOutPut_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10ZbyzXmtzFmjzjxmOutPut",
+        .javaName = "RepDataF10ZbyzXmtzFmjzjxmOutPut",
+        .number = 106,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10ZbyzXmtzFmjzjxmOutPut_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10HydwOutPut",
+        .javaName = "RepDataF10HydwOutPut",
+        .number = 107,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10HydwOutPut_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10HydwOutPut",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10RsrProForecastOutPut",
+        .javaName = "RepDataF10RsrProForecastOutPut",
+        .number = 108,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10RsrProForecastOutPut_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10RsrInvestRatingOutPut",
+        .javaName = "RepDataF10RsrInvestRatingOutPut",
+        .number = 109,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10RsrInvestRatingOutPut_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10RsrEarnPSForeOutPut",
+        .javaName = "RepDataF10RsrEarnPSForeOutPut",
+        .number = 110,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10RsrEarnPSForeOutPut_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataF10RsrResReportOutPut",
+        .javaName = "RepDataF10RsrResReportOutPut",
+        .number = 111,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataF10RsrResReportOutPut_),
+        .className = "ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataServiceAuthConsts",
+        .javaName = "RepDataServiceAuthConsts",
+        .number = 112,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataServiceAuthConsts_),
+        .className = "DzhyunDzhyunAuthTable_ServiceAuthConsts",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataDXSpiritStat",
+        .javaName = "RepDataDXSpiritStat",
+        .number = 113,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataDXSpiritStat_),
+        .className = "ComDzhyunProtoDzhyunDxspirit_DXSpiritStat",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataFluxValue",
+        .javaName = "RepDataFluxValue",
+        .number = 114,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataFluxValue_),
+        .className = "ComDzhyunProtoDzhflux_FluxValue",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RepDataPaiMing",
+        .javaName = "RepDataPaiMing",
+        .number = 115,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoAutoMsg_MSG_Storage, repDataPaiMing_),
+        .className = "ComDzhyunProtoDzhyunPaixu_PaiMing",
+        .containingType = "ComDzhyunProtoAutoMsg_MSG",
+        .optionsData = NULL,
+      },
     };
-    CGPInitDescriptor(&ComDzhyunProtoAutoMsg_MSG_descriptor_, self, [ComDzhyunProtoAutoMsg_MSG_Builder class], 0, sizeof(ComDzhyunProtoAutoMsg_MSG_Storage), 64, fields);
+    CGPInitDescriptor(&ComDzhyunProtoAutoMsg_MSG_descriptor_, self, [ComDzhyunProtoAutoMsg_MSG_Builder class], 0, sizeof(ComDzhyunProtoAutoMsg_MSG_Storage), 100, fields);
     J2OBJC_SET_INITIALIZED(ComDzhyunProtoAutoMsg_MSG)
   }
 }

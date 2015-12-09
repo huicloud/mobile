@@ -178,6 +178,11 @@ typedef struct ComDzhyunProtoDzhyunTopicinvest_TopicInvest_Storage {
   long long int pingPanJiaShu_;
   long long int xiaDieJiaShu_;
   ComDzhyunProtoDzhyunTopicinvest_LingZhangGuShuJu *lingZhangGu_;
+  long long int shiFouReMenZhuTi_;
+  long long int riPingJunZhangFuPaiMing14_;
+  long long int riPingJunZhangFuPaiMing30_;
+  long long int riReDuZhi14_;
+  long long int riReDuZhi30_;
 } ComDzhyunProtoDzhyunTopicinvest_TopicInvest_Storage;
 
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor {
@@ -317,8 +322,73 @@ typedef struct ComDzhyunProtoDzhyunTopicinvest_TopicInvest_Storage {
         .containingType = "ComDzhyunProtoDzhyunTopicinvest_TopicInvest",
         .optionsData = NULL,
       },
+      {
+        .name = "ShiFouReMenZhuTi",
+        .javaName = "ShiFouReMenZhuTi",
+        .number = 11,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 10,
+        .offset = offsetof(ComDzhyunProtoDzhyunTopicinvest_TopicInvest_Storage, shiFouReMenZhuTi_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunTopicinvest_TopicInvest",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RiPingJunZhangFuPaiMing14",
+        .javaName = "RiPingJunZhangFuPaiMing14",
+        .number = 12,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 11,
+        .offset = offsetof(ComDzhyunProtoDzhyunTopicinvest_TopicInvest_Storage, riPingJunZhangFuPaiMing14_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunTopicinvest_TopicInvest",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RiPingJunZhangFuPaiMing30",
+        .javaName = "RiPingJunZhangFuPaiMing30",
+        .number = 13,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 12,
+        .offset = offsetof(ComDzhyunProtoDzhyunTopicinvest_TopicInvest_Storage, riPingJunZhangFuPaiMing30_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunTopicinvest_TopicInvest",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RiReDuZhi14",
+        .javaName = "RiReDuZhi14",
+        .number = 14,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 13,
+        .offset = offsetof(ComDzhyunProtoDzhyunTopicinvest_TopicInvest_Storage, riReDuZhi14_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunTopicinvest_TopicInvest",
+        .optionsData = NULL,
+      },
+      {
+        .name = "RiReDuZhi30",
+        .javaName = "RiReDuZhi30",
+        .number = 15,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 14,
+        .offset = offsetof(ComDzhyunProtoDzhyunTopicinvest_TopicInvest_Storage, riReDuZhi30_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunTopicinvest_TopicInvest",
+        .optionsData = NULL,
+      },
     };
-    CGPInitDescriptor(&ComDzhyunProtoDzhyunTopicinvest_TopicInvest_descriptor_, self, [ComDzhyunProtoDzhyunTopicinvest_TopicInvest_Builder class], 0, sizeof(ComDzhyunProtoDzhyunTopicinvest_TopicInvest_Storage), 10, fields);
+    CGPInitDescriptor(&ComDzhyunProtoDzhyunTopicinvest_TopicInvest_descriptor_, self, [ComDzhyunProtoDzhyunTopicinvest_TopicInvest_Builder class], 0, sizeof(ComDzhyunProtoDzhyunTopicinvest_TopicInvest_Storage), 15, fields);
     J2OBJC_SET_INITIALIZED(ComDzhyunProtoDzhyunTopicinvest_TopicInvest)
   }
 }

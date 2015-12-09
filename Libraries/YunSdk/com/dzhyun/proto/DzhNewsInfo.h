@@ -7,11 +7,23 @@
 #import "com/google/protobuf/ProtocolMessageEnum.h"
 #import "java/lang/Enum.h"
 
+@class ComDzhyunProtoDzhNewsInfo_GongGaoXinXi;
+@class ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_Builder;
+@class ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin;
+@class ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_Builder;
+@class ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_Builder;
+@class ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_Builder;
 @class ComDzhyunProtoDzhNewsInfo_NewsInfoValue_Builder;
+@class ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx;
+@class ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_Builder;
 @class ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput_Builder;
+@class ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin;
 @class ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput_Builder;
+@class ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_Builder;
 @class ComGoogleProtobufDescriptors_Descriptor;
 @class ComGoogleProtobufExtensionRegistry;
+@protocol JavaLangIterable;
+@protocol JavaUtilList;
 
 @interface ComDzhyunProtoDzhNewsInfo : NSObject
 
@@ -126,10 +138,10 @@ J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhNewsInfo_NewsInfoValue_Builder)
 
 J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhNewsInfo_NewsInfoValue_Builder)
 
-@protocol ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutputOrBuilder < ComGoogleProtobufMessageOrBuilder >
+@protocol ComDzhyunProtoDzhNewsInfo_XinWenXinXiExOrBuilder < ComGoogleProtobufMessageOrBuilder >
 
-- (BOOL)hasObj;
-- (NSString *)getObj;
+- (BOOL)hasSource;
+- (NSString *)getSource;
 
 - (BOOL)hasDate;
 - (NSString *)getDate;
@@ -140,8 +152,104 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhNewsInfo_NewsInfoValue_Builder)
 - (BOOL)hasContext;
 - (NSString *)getContext;
 
-- (BOOL)hasSource;
-- (NSString *)getSource;
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhNewsInfo_XinWenXinXiExOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhNewsInfo_XinWenXinXiExOrBuilder)
+
+@interface ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoDzhNewsInfo_XinWenXinXiExOrBuilder>
+
++ (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx *)getDefaultInstance;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx *)getDefaultInstanceForType;
++ (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_Builder *)toBuilder;
++ (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_Builder *)newBuilderWithComDzhyunProtoDzhNewsInfo_XinWenXinXiEx:(ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_SOURCE_FIELD_NUMBER 1
+#define ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_DATE_FIELD_NUMBER 2
+#define ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_TITLE_FIELD_NUMBER 3
+#define ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_CONTEXT_FIELD_NUMBER 4
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx *ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_Builder *ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_Builder *ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_newBuilderWithComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_(ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx *ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx *ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx *ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx *ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx *ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx *ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_descriptor_;
+
+@interface ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoDzhNewsInfo_XinWenXinXiExOrBuilder>
+
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx *)getDefaultInstanceForType;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_Builder *)mergeFromWithComDzhyunProtoDzhNewsInfo_XinWenXinXiEx:(ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx *)message;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx *)build;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_Builder *)setSourceWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_Builder *)clearSource;
+
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_Builder *)clearDate;
+
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_Builder *)setTitleWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_Builder *)clearTitle;
+
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_Builder *)setContextWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_Builder *)clearContext;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_Builder)
+
+@protocol ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutputOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (BOOL)hasTotalCount;
+- (long long int)getTotalCount;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx *)getDataWithInt:(int)index;
 
 @end
 
@@ -168,10 +276,8 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutputOrBuilder)
 + (ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
 
 #define ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput_OBJ_FIELD_NUMBER 1
-#define ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput_DATE_FIELD_NUMBER 2
-#define ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput_TITLE_FIELD_NUMBER 3
-#define ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput_CONTEXT_FIELD_NUMBER 4
-#define ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput_SOURCE_FIELD_NUMBER 5
+#define ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput_TOTALCOUNT_FIELD_NUMBER 2
+#define ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput_DATA_FIELD_NUMBER 3
 
 @end
 
@@ -211,21 +317,19 @@ FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhNews
     (NSString *)value;
 - (ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput_Builder *)clearObj;
 
-- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput_Builder *)setDateWithNSString:
-    (NSString *)value;
-- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput_Builder *)clearDate;
-
-- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput_Builder *)setTitleWithNSString:
-    (NSString *)value;
-- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput_Builder *)clearTitle;
-
-- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput_Builder *)setContextWithNSString:
-    (NSString *)value;
-- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput_Builder *)clearContext;
-
-- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput_Builder *)setSourceWithNSString:
-    (NSString *)value;
-- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput_Builder *)clearSource;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput_Builder *)setTotalCountWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput_Builder *)clearTotalCount;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoDzhNewsInfo_XinWenXinXiEx:(ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx *)value;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput_Builder*)addDataWithComDzhyunProtoDzhNewsInfo_XinWenXinXiEx:
+    (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx *)value;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput_Builder*)clearData;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput_Builder*)
+    addDataWithComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_Builder:
+    (ComDzhyunProtoDzhNewsInfo_XinWenXinXiEx_Builder *)value;
 
 @end
 
@@ -235,7 +339,7 @@ J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput_Builder)
 
 J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput_Builder)
 
-@protocol ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutputOrBuilder < ComGoogleProtobufMessageOrBuilder >
+@protocol ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOrBuilder < ComGoogleProtobufMessageOrBuilder >
 
 - (BOOL)hasDate;
 - (NSString *)getDate;
@@ -248,6 +352,102 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput_Builder)
 
 - (BOOL)hasSource;
 - (NSString *)getSource;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOrBuilder)
+
+@interface ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOrBuilder>
+
++ (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin *)getDefaultInstance;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin *)getDefaultInstanceForType;
++ (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_Builder *)toBuilder;
++ (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_Builder *)newBuilderWithComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin:(ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_DATE_FIELD_NUMBER 1
+#define ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_TITLE_FIELD_NUMBER 2
+#define ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_CONTEXT_FIELD_NUMBER 3
+#define ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_SOURCE_FIELD_NUMBER 4
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin *ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_Builder *ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_Builder *ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_newBuilderWithComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_(ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin *ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin *ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin *ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin *ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin *ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin *ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_descriptor_;
+
+@interface ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOrBuilder>
+
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin *)getDefaultInstanceForType;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_Builder *)mergeFromWithComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin:(ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin *)message;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin *)build;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_Builder *)clearDate;
+
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_Builder *)setTitleWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_Builder *)clearTitle;
+
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_Builder *)setContextWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_Builder *)clearContext;
+
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_Builder *)setSourceWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_Builder *)clearSource;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_Builder)
+
+@protocol ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutputOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasTotalCount;
+- (long long int)getTotalCount;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin *)getDataWithInt:(int)index;
 
 @end
 
@@ -273,10 +473,8 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutputOr
 + (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
 + (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
 
-#define ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput_DATE_FIELD_NUMBER 1
-#define ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput_TITLE_FIELD_NUMBER 2
-#define ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput_CONTEXT_FIELD_NUMBER 3
-#define ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput_SOURCE_FIELD_NUMBER 4
+#define ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput_TOTALCOUNT_FIELD_NUMBER 1
+#define ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput_DATA_FIELD_NUMBER 2
 
 @end
 
@@ -312,21 +510,19 @@ FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhNews
 - (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput *)buildPartial;
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
 
-- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput_Builder *)setDateWithNSString:
-    (NSString *)value;
-- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput_Builder *)clearDate;
-
-- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput_Builder *)setTitleWithNSString:
-    (NSString *)value;
-- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput_Builder *)clearTitle;
-
-- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput_Builder *)setContextWithNSString:
-    (NSString *)value;
-- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput_Builder *)clearContext;
-
-- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput_Builder *)setSourceWithNSString:
-    (NSString *)value;
-- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput_Builder *)clearSource;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput_Builder *)setTotalCountWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput_Builder *)clearTotalCount;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin:(ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin *)value;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput_Builder*)addDataWithComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin:
+    (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin *)value;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput_Builder*)clearData;
+- (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput_Builder*)
+    addDataWithComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_Builder:
+    (ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXin_Builder *)value;
 
 @end
 
@@ -335,3 +531,397 @@ FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhNews
 J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput_Builder)
 
 J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput_Builder)
+
+@protocol ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasSource;
+- (NSString *)getSource;
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (BOOL)hasTitle;
+- (NSString *)getTitle;
+
+- (BOOL)hasContext;
+- (NSString *)getContext;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOrBuilder)
+
+@interface ComDzhyunProtoDzhNewsInfo_GongGaoXinXi : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOrBuilder>
+
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi *)getDefaultInstance;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi *)getDefaultInstanceForType;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_Builder *)toBuilder;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_Builder *)newBuilderWithComDzhyunProtoDzhNewsInfo_GongGaoXinXi:(ComDzhyunProtoDzhNewsInfo_GongGaoXinXi *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_SOURCE_FIELD_NUMBER 1
+#define ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_DATE_FIELD_NUMBER 2
+#define ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_TITLE_FIELD_NUMBER 3
+#define ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_CONTEXT_FIELD_NUMBER 4
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_GongGaoXinXi *ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_Builder *ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_Builder *ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_newBuilderWithComDzhyunProtoDzhNewsInfo_GongGaoXinXi_(ComDzhyunProtoDzhNewsInfo_GongGaoXinXi *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_GongGaoXinXi *ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhNewsInfo_GongGaoXinXi *ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_GongGaoXinXi *ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhNewsInfo_GongGaoXinXi *ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_GongGaoXinXi *ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhNewsInfo_GongGaoXinXi *ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoDzhNewsInfo_GongGaoXinXi)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhNewsInfo_GongGaoXinXi)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_descriptor_;
+
+@interface ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOrBuilder>
+
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi *)getDefaultInstanceForType;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_Builder *)mergeFromWithComDzhyunProtoDzhNewsInfo_GongGaoXinXi:(ComDzhyunProtoDzhNewsInfo_GongGaoXinXi *)message;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi *)build;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_Builder *)setSourceWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_Builder *)clearSource;
+
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_Builder *)clearDate;
+
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_Builder *)setTitleWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_Builder *)clearTitle;
+
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_Builder *)setContextWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_Builder *)clearContext;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_Builder)
+
+@protocol ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutputOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (BOOL)hasTotalCount;
+- (long long int)getTotalCount;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutputOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutputOrBuilder)
+
+@interface ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutputOrBuilder>
+
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput *)getDefaultInstance;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput *)getDefaultInstanceForType;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_Builder *)toBuilder;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_Builder *)newBuilderWithComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput:(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_TOTALCOUNT_FIELD_NUMBER 2
+#define ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_DATA_FIELD_NUMBER 3
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_Builder *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_Builder *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_newBuilderWithComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_descriptor_;
+
+@interface ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutputOrBuilder>
+
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput *)getDefaultInstanceForType;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_Builder *)mergeFromWithComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput:(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput *)message;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput *)build;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_Builder *)clearObj;
+
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_Builder *)setTotalCountWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_Builder *)clearTotalCount;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoDzhNewsInfo_GongGaoXinXi:(ComDzhyunProtoDzhNewsInfo_GongGaoXinXi *)value;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_Builder*)addDataWithComDzhyunProtoDzhNewsInfo_GongGaoXinXi:
+    (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi *)value;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_Builder*)clearData;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_Builder*)
+    addDataWithComDzhyunProtoDzhNewsInfo_GongGaoXinXi_Builder:
+    (ComDzhyunProtoDzhNewsInfo_GongGaoXinXi_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_Builder)
+
+@protocol ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (BOOL)hasTitle;
+- (NSString *)getTitle;
+
+- (BOOL)hasContext;
+- (NSString *)getContext;
+
+- (BOOL)hasSource;
+- (NSString *)getSource;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOrBuilder)
+
+@interface ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOrBuilder>
+
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin *)getDefaultInstance;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin *)getDefaultInstanceForType;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_Builder *)toBuilder;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_Builder *)newBuilderWithComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin:(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_DATE_FIELD_NUMBER 1
+#define ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_TITLE_FIELD_NUMBER 2
+#define ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_CONTEXT_FIELD_NUMBER 3
+#define ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_SOURCE_FIELD_NUMBER 4
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_Builder *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_Builder *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_newBuilderWithComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_descriptor_;
+
+@interface ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOrBuilder>
+
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin *)getDefaultInstanceForType;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_Builder *)mergeFromWithComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin:(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin *)message;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin *)build;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_Builder *)clearDate;
+
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_Builder *)setTitleWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_Builder *)clearTitle;
+
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_Builder *)setContextWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_Builder *)clearContext;
+
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_Builder *)setSourceWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_Builder *)clearSource;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_Builder)
+
+@protocol ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutputOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasTotalCount;
+- (long long int)getTotalCount;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutputOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutputOrBuilder)
+
+@interface ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutputOrBuilder>
+
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput *)getDefaultInstance;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput *)getDefaultInstanceForType;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_Builder *)toBuilder;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_Builder *)newBuilderWithComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput:(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_TOTALCOUNT_FIELD_NUMBER 1
+#define ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_Builder *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_Builder *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_newBuilderWithComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_descriptor_;
+
+@interface ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutputOrBuilder>
+
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput *)getDefaultInstanceForType;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_Builder *)mergeFromWithComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput:(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput *)message;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput *)build;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_Builder *)setTotalCountWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_Builder *)clearTotalCount;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin:(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin *)value;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_Builder*)addDataWithComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin:
+    (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin *)value;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_Builder*)clearData;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_Builder*)
+    addDataWithComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_Builder:
+    (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXin_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_Builder)

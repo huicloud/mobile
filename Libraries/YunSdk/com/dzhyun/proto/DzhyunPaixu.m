@@ -145,3 +145,136 @@ ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunPaixu_PaiXu_Builder
   ComDzhyunProtoDzhyunPaixu_PaiXu_initialize();
   return ComDzhyunProtoDzhyunPaixu_PaiXu_descriptor_;
 }
+
+J2OBJC_INITIALIZED_DEFN(ComDzhyunProtoDzhyunPaixu_PaiMing);
+
+ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunPaixu_PaiMing_descriptor_;
+
+@implementation ComDzhyunProtoDzhyunPaixu_PaiMing
+
+typedef struct ComDzhyunProtoDzhyunPaixu_PaiMing_Storage {
+  uint32_t hasBits[1];
+  NSString *obj_;
+  long long int value_;
+  NSString *text_;
+  long long int mingCi_;
+} ComDzhyunProtoDzhyunPaixu_PaiMing_Storage;
+
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor {
+  return ComDzhyunProtoDzhyunPaixu_PaiMing_descriptor_;
+}
+
++ (void)initialize {
+  if (self == [ComDzhyunProtoDzhyunPaixu_PaiMing class]) {
+    static CGPFieldData fields[] = {
+      {
+        .name = "Obj",
+        .javaName = "Obj",
+        .number = 1,
+        .flags = CGPFieldFlagRequired,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
+        .defaultValue.valueId = @"",
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoDzhyunPaixu_PaiMing_Storage, obj_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunPaixu_PaiMing",
+        .optionsData = NULL,
+      },
+      {
+        .name = "Value",
+        .javaName = "Value",
+        .number = 2,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 1,
+        .offset = offsetof(ComDzhyunProtoDzhyunPaixu_PaiMing_Storage, value_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunPaixu_PaiMing",
+        .optionsData = NULL,
+      },
+      {
+        .name = "Text",
+        .javaName = "Text",
+        .number = 3,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
+        .defaultValue.valueId = @"",
+        .hasBitIndex = 2,
+        .offset = offsetof(ComDzhyunProtoDzhyunPaixu_PaiMing_Storage, text_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunPaixu_PaiMing",
+        .optionsData = NULL,
+      },
+      {
+        .name = "MingCi",
+        .javaName = "MingCi",
+        .number = 4,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 3,
+        .offset = offsetof(ComDzhyunProtoDzhyunPaixu_PaiMing_Storage, mingCi_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunPaixu_PaiMing",
+        .optionsData = NULL,
+      },
+    };
+    CGPInitDescriptor(&ComDzhyunProtoDzhyunPaixu_PaiMing_descriptor_, self, [ComDzhyunProtoDzhyunPaixu_PaiMing_Builder class], 0, sizeof(ComDzhyunProtoDzhyunPaixu_PaiMing_Storage), 4, fields);
+    J2OBJC_SET_INITIALIZED(ComDzhyunProtoDzhyunPaixu_PaiMing)
+  }
+}
+
+@end
+
+J2OBJC_CLASS_TYPE_LITERAL_SOURCE(ComDzhyunProtoDzhyunPaixu_PaiMing)
+
+ComDzhyunProtoDzhyunPaixu_PaiMing *ComDzhyunProtoDzhyunPaixu_PaiMing_getDefaultInstance() {
+  ComDzhyunProtoDzhyunPaixu_PaiMing_initialize();
+  return (ComDzhyunProtoDzhyunPaixu_PaiMing *)[CGPNewMessage(ComDzhyunProtoDzhyunPaixu_PaiMing_descriptor_) autorelease];
+}
+
+ComDzhyunProtoDzhyunPaixu_PaiMing_Builder *ComDzhyunProtoDzhyunPaixu_PaiMing_newBuilder() {
+  ComDzhyunProtoDzhyunPaixu_PaiMing_initialize();
+  return (ComDzhyunProtoDzhyunPaixu_PaiMing_Builder *)[CGPNewBuilder(ComDzhyunProtoDzhyunPaixu_PaiMing_descriptor_) autorelease];
+}
+
+ComDzhyunProtoDzhyunPaixu_PaiMing_Builder *ComDzhyunProtoDzhyunPaixu_PaiMing_newBuilderWithComDzhyunProtoDzhyunPaixu_PaiMing_(ComDzhyunProtoDzhyunPaixu_PaiMing *message) {
+  ComDzhyunProtoDzhyunPaixu_PaiMing_initialize();
+  return (ComDzhyunProtoDzhyunPaixu_PaiMing_Builder *)CGPBuilderFromPrototype(ComDzhyunProtoDzhyunPaixu_PaiMing_descriptor_, message);
+}
+
+ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunPaixu_PaiMing_getDescriptor() {
+  ComDzhyunProtoDzhyunPaixu_PaiMing_initialize();
+  return ComDzhyunProtoDzhyunPaixu_PaiMing_descriptor_;
+}
+
+ComDzhyunProtoDzhyunPaixu_PaiMing *ComDzhyunProtoDzhyunPaixu_PaiMing_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry) {
+  ComDzhyunProtoDzhyunPaixu_PaiMing_initialize();
+  return (ComDzhyunProtoDzhyunPaixu_PaiMing *)CGPParseFromByteArray(ComDzhyunProtoDzhyunPaixu_PaiMing_descriptor_, bytes, registry);
+}
+
+ComDzhyunProtoDzhyunPaixu_PaiMing *ComDzhyunProtoDzhyunPaixu_PaiMing_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry) {
+  ComDzhyunProtoDzhyunPaixu_PaiMing_initialize();
+  return (ComDzhyunProtoDzhyunPaixu_PaiMing *)CGPParseFromInputStream(ComDzhyunProtoDzhyunPaixu_PaiMing_descriptor_, input, registry);
+}
+ComDzhyunProtoDzhyunPaixu_PaiMing *ComDzhyunProtoDzhyunPaixu_PaiMing_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry) {
+  ComDzhyunProtoDzhyunPaixu_PaiMing_initialize();
+  return (ComDzhyunProtoDzhyunPaixu_PaiMing *)CGPParseDelimitedFromInputStream(ComDzhyunProtoDzhyunPaixu_PaiMing_descriptor_, input, registry);
+}
+
+@implementation ComDzhyunProtoDzhyunPaixu_PaiMing_Builder
+
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor {
+  return [ComDzhyunProtoDzhyunPaixu_PaiMing getDescriptor];
+}
+
+@end
+
+J2OBJC_CLASS_TYPE_LITERAL_SOURCE(ComDzhyunProtoDzhyunPaixu_PaiMing_Builder)
+J2OBJC_INTERFACE_TYPE_LITERAL_SOURCE(ComDzhyunProtoDzhyunPaixu_PaiMingOrBuilder)
+
+ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunPaixu_PaiMing_Builder_getDescriptor() {
+  ComDzhyunProtoDzhyunPaixu_PaiMing_initialize();
+  return ComDzhyunProtoDzhyunPaixu_PaiMing_descriptor_;
+}

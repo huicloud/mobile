@@ -168,6 +168,21 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunTopicinvest_LingZhangGuShuJu_Buil
 - (BOOL)hasLingZhangGu;
 - (ComDzhyunProtoDzhyunTopicinvest_LingZhangGuShuJu *)getLingZhangGu;
 
+- (BOOL)hasShiFouReMenZhuTi;
+- (long long int)getShiFouReMenZhuTi;
+
+- (BOOL)hasRiPingJunZhangFuPaiMing14;
+- (long long int)getRiPingJunZhangFuPaiMing14;
+
+- (BOOL)hasRiPingJunZhangFuPaiMing30;
+- (long long int)getRiPingJunZhangFuPaiMing30;
+
+- (BOOL)hasRiReDuZhi14;
+- (long long int)getRiReDuZhi14;
+
+- (BOOL)hasRiReDuZhi30;
+- (long long int)getRiReDuZhi30;
+
 @end
 
 J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhyunTopicinvest_TopicInvestOrBuilder)
@@ -202,6 +217,11 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunTopicinvest_TopicInvestOrBuilder)
 #define ComDzhyunProtoDzhyunTopicinvest_TopicInvest_PINGPANJIASHU_FIELD_NUMBER 8
 #define ComDzhyunProtoDzhyunTopicinvest_TopicInvest_XIADIEJIASHU_FIELD_NUMBER 9
 #define ComDzhyunProtoDzhyunTopicinvest_TopicInvest_LINGZHANGGU_FIELD_NUMBER 10
+#define ComDzhyunProtoDzhyunTopicinvest_TopicInvest_SHIFOUREMENZHUTI_FIELD_NUMBER 11
+#define ComDzhyunProtoDzhyunTopicinvest_TopicInvest_RIPINGJUNZHANGFUPAIMING14_FIELD_NUMBER 12
+#define ComDzhyunProtoDzhyunTopicinvest_TopicInvest_RIPINGJUNZHANGFUPAIMING30_FIELD_NUMBER 13
+#define ComDzhyunProtoDzhyunTopicinvest_TopicInvest_RIREDUZHI14_FIELD_NUMBER 14
+#define ComDzhyunProtoDzhyunTopicinvest_TopicInvest_RIREDUZHI30_FIELD_NUMBER 15
 
 @end
 
@@ -279,6 +299,26 @@ FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunT
 - (ComDzhyunProtoDzhyunTopicinvest_TopicInvest_Builder*)
     setLingZhangGuWithComDzhyunProtoDzhyunTopicinvest_LingZhangGuShuJu_Builder:
     (ComDzhyunProtoDzhyunTopicinvest_LingZhangGuShuJu_Builder *)value;
+
+- (ComDzhyunProtoDzhyunTopicinvest_TopicInvest_Builder *)setShiFouReMenZhuTiWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunTopicinvest_TopicInvest_Builder *)clearShiFouReMenZhuTi;
+
+- (ComDzhyunProtoDzhyunTopicinvest_TopicInvest_Builder *)setRiPingJunZhangFuPaiMing14WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunTopicinvest_TopicInvest_Builder *)clearRiPingJunZhangFuPaiMing14;
+
+- (ComDzhyunProtoDzhyunTopicinvest_TopicInvest_Builder *)setRiPingJunZhangFuPaiMing30WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunTopicinvest_TopicInvest_Builder *)clearRiPingJunZhangFuPaiMing30;
+
+- (ComDzhyunProtoDzhyunTopicinvest_TopicInvest_Builder *)setRiReDuZhi14WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunTopicinvest_TopicInvest_Builder *)clearRiReDuZhi14;
+
+- (ComDzhyunProtoDzhyunTopicinvest_TopicInvest_Builder *)setRiReDuZhi30WithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunTopicinvest_TopicInvest_Builder *)clearRiReDuZhi30;
 
 @end
 

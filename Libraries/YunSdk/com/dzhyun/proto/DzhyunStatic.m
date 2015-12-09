@@ -27,6 +27,111 @@ J2OBJC_CLASS_TYPE_LITERAL_SOURCE(ComDzhyunProtoDzhyunStatic)
 void ComDzhyunProtoDzhyunStatic_registerAllExtensionsWithComGoogleProtobufExtensionRegistry_(ComGoogleProtobufExtensionRegistry *extensionRegistry) {
 }
 
+J2OBJC_INITIALIZED_DEFN(ComDzhyunProtoDzhyunStatic_TradeTime);
+
+ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunStatic_TradeTime_descriptor_;
+
+@implementation ComDzhyunProtoDzhyunStatic_TradeTime
+
+typedef struct ComDzhyunProtoDzhyunStatic_TradeTime_Storage {
+  uint32_t hasBits[1];
+  long long int startTime_;
+  long long int endTime_;
+} ComDzhyunProtoDzhyunStatic_TradeTime_Storage;
+
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor {
+  return ComDzhyunProtoDzhyunStatic_TradeTime_descriptor_;
+}
+
++ (void)initialize {
+  if (self == [ComDzhyunProtoDzhyunStatic_TradeTime class]) {
+    static CGPFieldData fields[] = {
+      {
+        .name = "StartTime",
+        .javaName = "StartTime",
+        .number = 1,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoDzhyunStatic_TradeTime_Storage, startTime_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunStatic_TradeTime",
+        .optionsData = NULL,
+      },
+      {
+        .name = "EndTime",
+        .javaName = "EndTime",
+        .number = 2,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 1,
+        .offset = offsetof(ComDzhyunProtoDzhyunStatic_TradeTime_Storage, endTime_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunStatic_TradeTime",
+        .optionsData = NULL,
+      },
+    };
+    CGPInitDescriptor(&ComDzhyunProtoDzhyunStatic_TradeTime_descriptor_, self, [ComDzhyunProtoDzhyunStatic_TradeTime_Builder class], 0, sizeof(ComDzhyunProtoDzhyunStatic_TradeTime_Storage), 2, fields);
+    J2OBJC_SET_INITIALIZED(ComDzhyunProtoDzhyunStatic_TradeTime)
+  }
+}
+
+@end
+
+J2OBJC_CLASS_TYPE_LITERAL_SOURCE(ComDzhyunProtoDzhyunStatic_TradeTime)
+
+ComDzhyunProtoDzhyunStatic_TradeTime *ComDzhyunProtoDzhyunStatic_TradeTime_getDefaultInstance() {
+  ComDzhyunProtoDzhyunStatic_TradeTime_initialize();
+  return (ComDzhyunProtoDzhyunStatic_TradeTime *)[CGPNewMessage(ComDzhyunProtoDzhyunStatic_TradeTime_descriptor_) autorelease];
+}
+
+ComDzhyunProtoDzhyunStatic_TradeTime_Builder *ComDzhyunProtoDzhyunStatic_TradeTime_newBuilder() {
+  ComDzhyunProtoDzhyunStatic_TradeTime_initialize();
+  return (ComDzhyunProtoDzhyunStatic_TradeTime_Builder *)[CGPNewBuilder(ComDzhyunProtoDzhyunStatic_TradeTime_descriptor_) autorelease];
+}
+
+ComDzhyunProtoDzhyunStatic_TradeTime_Builder *ComDzhyunProtoDzhyunStatic_TradeTime_newBuilderWithComDzhyunProtoDzhyunStatic_TradeTime_(ComDzhyunProtoDzhyunStatic_TradeTime *message) {
+  ComDzhyunProtoDzhyunStatic_TradeTime_initialize();
+  return (ComDzhyunProtoDzhyunStatic_TradeTime_Builder *)CGPBuilderFromPrototype(ComDzhyunProtoDzhyunStatic_TradeTime_descriptor_, message);
+}
+
+ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunStatic_TradeTime_getDescriptor() {
+  ComDzhyunProtoDzhyunStatic_TradeTime_initialize();
+  return ComDzhyunProtoDzhyunStatic_TradeTime_descriptor_;
+}
+
+ComDzhyunProtoDzhyunStatic_TradeTime *ComDzhyunProtoDzhyunStatic_TradeTime_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry) {
+  ComDzhyunProtoDzhyunStatic_TradeTime_initialize();
+  return (ComDzhyunProtoDzhyunStatic_TradeTime *)CGPParseFromByteArray(ComDzhyunProtoDzhyunStatic_TradeTime_descriptor_, bytes, registry);
+}
+
+ComDzhyunProtoDzhyunStatic_TradeTime *ComDzhyunProtoDzhyunStatic_TradeTime_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry) {
+  ComDzhyunProtoDzhyunStatic_TradeTime_initialize();
+  return (ComDzhyunProtoDzhyunStatic_TradeTime *)CGPParseFromInputStream(ComDzhyunProtoDzhyunStatic_TradeTime_descriptor_, input, registry);
+}
+ComDzhyunProtoDzhyunStatic_TradeTime *ComDzhyunProtoDzhyunStatic_TradeTime_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry) {
+  ComDzhyunProtoDzhyunStatic_TradeTime_initialize();
+  return (ComDzhyunProtoDzhyunStatic_TradeTime *)CGPParseDelimitedFromInputStream(ComDzhyunProtoDzhyunStatic_TradeTime_descriptor_, input, registry);
+}
+
+@implementation ComDzhyunProtoDzhyunStatic_TradeTime_Builder
+
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor {
+  return [ComDzhyunProtoDzhyunStatic_TradeTime getDescriptor];
+}
+
+@end
+
+J2OBJC_CLASS_TYPE_LITERAL_SOURCE(ComDzhyunProtoDzhyunStatic_TradeTime_Builder)
+J2OBJC_INTERFACE_TYPE_LITERAL_SOURCE(ComDzhyunProtoDzhyunStatic_TradeTimeOrBuilder)
+
+ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunStatic_TradeTime_Builder_getDescriptor() {
+  ComDzhyunProtoDzhyunStatic_TradeTime_initialize();
+  return ComDzhyunProtoDzhyunStatic_TradeTime_descriptor_;
+}
+
 J2OBJC_INITIALIZED_DEFN(ComDzhyunProtoDzhyunStatic_Static);
 
 ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunStatic_Static_descriptor_;
@@ -46,6 +151,8 @@ typedef struct ComDzhyunProtoDzhyunStatic_Static_Storage {
   long long int zuoShou_;
   long long int zhangTing_;
   long long int dieTing_;
+  long long int tradeTimeNum_;
+  CGPRepeatedField tradeTimes_;
 } ComDzhyunProtoDzhyunStatic_Static_Storage;
 
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor {
@@ -198,8 +305,34 @@ typedef struct ComDzhyunProtoDzhyunStatic_Static_Storage {
         .containingType = "ComDzhyunProtoDzhyunStatic_Static",
         .optionsData = NULL,
       },
+      {
+        .name = "TradeTimeNum",
+        .javaName = "TradeTimeNum",
+        .number = 12,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 11,
+        .offset = offsetof(ComDzhyunProtoDzhyunStatic_Static_Storage, tradeTimeNum_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunStatic_Static",
+        .optionsData = NULL,
+      },
+      {
+        .name = "TradeTimes",
+        .javaName = "TradeTimes",
+        .number = 13,
+        .flags = CGPFieldFlagRepeated,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
+        .defaultValue.valueId = nil,
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoDzhyunStatic_Static_Storage, tradeTimes_),
+        .className = "ComDzhyunProtoDzhyunStatic_TradeTime",
+        .containingType = "ComDzhyunProtoDzhyunStatic_Static",
+        .optionsData = NULL,
+      },
     };
-    CGPInitDescriptor(&ComDzhyunProtoDzhyunStatic_Static_descriptor_, self, [ComDzhyunProtoDzhyunStatic_Static_Builder class], 0, sizeof(ComDzhyunProtoDzhyunStatic_Static_Storage), 11, fields);
+    CGPInitDescriptor(&ComDzhyunProtoDzhyunStatic_Static_descriptor_, self, [ComDzhyunProtoDzhyunStatic_Static_Builder class], 0, sizeof(ComDzhyunProtoDzhyunStatic_Static_Storage), 13, fields);
     J2OBJC_SET_INITIALIZED(ComDzhyunProtoDzhyunStatic_Static)
   }
 }

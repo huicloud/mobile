@@ -159,3 +159,458 @@ ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunDxspirit_DXSpirit_B
   ComDzhyunProtoDzhyunDxspirit_DXSpirit_initialize();
   return ComDzhyunProtoDzhyunDxspirit_DXSpirit_descriptor_;
 }
+
+J2OBJC_INITIALIZED_DEFN(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat);
+
+ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_descriptor_;
+
+@implementation ComDzhyunProtoDzhyunDxspirit_DXSpiritStat
+
+typedef struct ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage {
+  uint32_t hasBits[1];
+  NSString *obj_;
+  long long int hjfsTotal_;
+  long long int ksftTotal_;
+  long long int gttsTotal_;
+  long long int jsxdTotal_;
+  long long int dbmrTotal_;
+  long long int dbmrStatistics_;
+  long long int dbmcTotal_;
+  long long int dbmcStatistics_;
+  long long int fztbTotal_;
+  long long int fdtbTotal_;
+  long long int dkztTotal_;
+  long long int dkdtTotal_;
+  long long int ydmcPTotal_;
+  long long int ydmrPTotal_;
+  long long int lszsTotal_;
+  long long int dyzsTotal_;
+  long long int jgmrgdTotal_;
+  long long int jgmcgdTotal_;
+  long long int dcjmrdTotal_;
+  long long int dcjmcdTotal_;
+  long long int fdmrgdTotal_;
+  long long int fdmcgdTotal_;
+  long long int mrcdTotal_;
+  long long int mccdTotal_;
+  long long int mrxdTotal_;
+  long long int mcxdTotal_;
+} ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage;
+
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor {
+  return ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_descriptor_;
+}
+
++ (void)initialize {
+  if (self == [ComDzhyunProtoDzhyunDxspirit_DXSpiritStat class]) {
+    static CGPFieldData fields[] = {
+      {
+        .name = "Obj",
+        .javaName = "Obj",
+        .number = 1,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
+        .defaultValue.valueId = @"",
+        .hasBitIndex = 0,
+        .offset = offsetof(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage, obj_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunDxspirit_DXSpiritStat",
+        .optionsData = NULL,
+      },
+      {
+        .name = "HjfsTotal",
+        .javaName = "HjfsTotal",
+        .number = 2,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 1,
+        .offset = offsetof(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage, hjfsTotal_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunDxspirit_DXSpiritStat",
+        .optionsData = NULL,
+      },
+      {
+        .name = "KsftTotal",
+        .javaName = "KsftTotal",
+        .number = 3,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 2,
+        .offset = offsetof(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage, ksftTotal_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunDxspirit_DXSpiritStat",
+        .optionsData = NULL,
+      },
+      {
+        .name = "GttsTotal",
+        .javaName = "GttsTotal",
+        .number = 4,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 3,
+        .offset = offsetof(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage, gttsTotal_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunDxspirit_DXSpiritStat",
+        .optionsData = NULL,
+      },
+      {
+        .name = "JsxdTotal",
+        .javaName = "JsxdTotal",
+        .number = 5,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 4,
+        .offset = offsetof(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage, jsxdTotal_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunDxspirit_DXSpiritStat",
+        .optionsData = NULL,
+      },
+      {
+        .name = "DbmrTotal",
+        .javaName = "DbmrTotal",
+        .number = 6,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 5,
+        .offset = offsetof(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage, dbmrTotal_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunDxspirit_DXSpiritStat",
+        .optionsData = NULL,
+      },
+      {
+        .name = "DbmrStatistics",
+        .javaName = "DbmrStatistics",
+        .number = 7,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 6,
+        .offset = offsetof(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage, dbmrStatistics_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunDxspirit_DXSpiritStat",
+        .optionsData = NULL,
+      },
+      {
+        .name = "DbmcTotal",
+        .javaName = "DbmcTotal",
+        .number = 8,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 7,
+        .offset = offsetof(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage, dbmcTotal_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunDxspirit_DXSpiritStat",
+        .optionsData = NULL,
+      },
+      {
+        .name = "DbmcStatistics",
+        .javaName = "DbmcStatistics",
+        .number = 9,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 8,
+        .offset = offsetof(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage, dbmcStatistics_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunDxspirit_DXSpiritStat",
+        .optionsData = NULL,
+      },
+      {
+        .name = "FztbTotal",
+        .javaName = "FztbTotal",
+        .number = 10,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 9,
+        .offset = offsetof(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage, fztbTotal_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunDxspirit_DXSpiritStat",
+        .optionsData = NULL,
+      },
+      {
+        .name = "FdtbTotal",
+        .javaName = "FdtbTotal",
+        .number = 11,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 10,
+        .offset = offsetof(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage, fdtbTotal_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunDxspirit_DXSpiritStat",
+        .optionsData = NULL,
+      },
+      {
+        .name = "DkztTotal",
+        .javaName = "DkztTotal",
+        .number = 12,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 11,
+        .offset = offsetof(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage, dkztTotal_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunDxspirit_DXSpiritStat",
+        .optionsData = NULL,
+      },
+      {
+        .name = "DkdtTotal",
+        .javaName = "DkdtTotal",
+        .number = 13,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 12,
+        .offset = offsetof(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage, dkdtTotal_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunDxspirit_DXSpiritStat",
+        .optionsData = NULL,
+      },
+      {
+        .name = "YdmcPTotal",
+        .javaName = "YdmcPTotal",
+        .number = 14,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 13,
+        .offset = offsetof(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage, ydmcPTotal_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunDxspirit_DXSpiritStat",
+        .optionsData = NULL,
+      },
+      {
+        .name = "YdmrPTotal",
+        .javaName = "YdmrPTotal",
+        .number = 15,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 14,
+        .offset = offsetof(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage, ydmrPTotal_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunDxspirit_DXSpiritStat",
+        .optionsData = NULL,
+      },
+      {
+        .name = "LszsTotal",
+        .javaName = "LszsTotal",
+        .number = 16,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 15,
+        .offset = offsetof(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage, lszsTotal_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunDxspirit_DXSpiritStat",
+        .optionsData = NULL,
+      },
+      {
+        .name = "DyzsTotal",
+        .javaName = "DyzsTotal",
+        .number = 17,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 16,
+        .offset = offsetof(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage, dyzsTotal_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunDxspirit_DXSpiritStat",
+        .optionsData = NULL,
+      },
+      {
+        .name = "JgmrgdTotal",
+        .javaName = "JgmrgdTotal",
+        .number = 18,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 17,
+        .offset = offsetof(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage, jgmrgdTotal_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunDxspirit_DXSpiritStat",
+        .optionsData = NULL,
+      },
+      {
+        .name = "JgmcgdTotal",
+        .javaName = "JgmcgdTotal",
+        .number = 19,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 18,
+        .offset = offsetof(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage, jgmcgdTotal_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunDxspirit_DXSpiritStat",
+        .optionsData = NULL,
+      },
+      {
+        .name = "DcjmrdTotal",
+        .javaName = "DcjmrdTotal",
+        .number = 20,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 19,
+        .offset = offsetof(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage, dcjmrdTotal_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunDxspirit_DXSpiritStat",
+        .optionsData = NULL,
+      },
+      {
+        .name = "DcjmcdTotal",
+        .javaName = "DcjmcdTotal",
+        .number = 21,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 20,
+        .offset = offsetof(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage, dcjmcdTotal_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunDxspirit_DXSpiritStat",
+        .optionsData = NULL,
+      },
+      {
+        .name = "FdmrgdTotal",
+        .javaName = "FdmrgdTotal",
+        .number = 22,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 21,
+        .offset = offsetof(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage, fdmrgdTotal_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunDxspirit_DXSpiritStat",
+        .optionsData = NULL,
+      },
+      {
+        .name = "FdmcgdTotal",
+        .javaName = "FdmcgdTotal",
+        .number = 23,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 22,
+        .offset = offsetof(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage, fdmcgdTotal_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunDxspirit_DXSpiritStat",
+        .optionsData = NULL,
+      },
+      {
+        .name = "MrcdTotal",
+        .javaName = "MrcdTotal",
+        .number = 24,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 23,
+        .offset = offsetof(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage, mrcdTotal_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunDxspirit_DXSpiritStat",
+        .optionsData = NULL,
+      },
+      {
+        .name = "MccdTotal",
+        .javaName = "MccdTotal",
+        .number = 25,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 24,
+        .offset = offsetof(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage, mccdTotal_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunDxspirit_DXSpiritStat",
+        .optionsData = NULL,
+      },
+      {
+        .name = "MrxdTotal",
+        .javaName = "MrxdTotal",
+        .number = 26,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 25,
+        .offset = offsetof(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage, mrxdTotal_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunDxspirit_DXSpiritStat",
+        .optionsData = NULL,
+      },
+      {
+        .name = "McxdTotal",
+        .javaName = "McxdTotal",
+        .number = 27,
+        .flags = 0,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_INT64,
+        .defaultValue.valueLong = 0LL,
+        .hasBitIndex = 26,
+        .offset = offsetof(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage, mcxdTotal_),
+        .className = NULL,
+        .containingType = "ComDzhyunProtoDzhyunDxspirit_DXSpiritStat",
+        .optionsData = NULL,
+      },
+    };
+    CGPInitDescriptor(&ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_descriptor_, self, [ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder class], 0, sizeof(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Storage), 27, fields);
+    J2OBJC_SET_INITIALIZED(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat)
+  }
+}
+
+@end
+
+J2OBJC_CLASS_TYPE_LITERAL_SOURCE(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat)
+
+ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_getDefaultInstance() {
+  ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_initialize();
+  return (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *)[CGPNewMessage(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_descriptor_) autorelease];
+}
+
+ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_newBuilder() {
+  ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_initialize();
+  return (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)[CGPNewBuilder(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_descriptor_) autorelease];
+}
+
+ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_newBuilderWithComDzhyunProtoDzhyunDxspirit_DXSpiritStat_(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *message) {
+  ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_initialize();
+  return (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)CGPBuilderFromPrototype(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_descriptor_, message);
+}
+
+ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_getDescriptor() {
+  ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_initialize();
+  return ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_descriptor_;
+}
+
+ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry) {
+  ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_initialize();
+  return (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *)CGPParseFromByteArray(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_descriptor_, bytes, registry);
+}
+
+ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry) {
+  ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_initialize();
+  return (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *)CGPParseFromInputStream(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_descriptor_, input, registry);
+}
+ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry) {
+  ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_initialize();
+  return (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *)CGPParseDelimitedFromInputStream(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_descriptor_, input, registry);
+}
+
+@implementation ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder
+
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor {
+  return [ComDzhyunProtoDzhyunDxspirit_DXSpiritStat getDescriptor];
+}
+
+@end
+
+J2OBJC_CLASS_TYPE_LITERAL_SOURCE(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder)
+J2OBJC_INTERFACE_TYPE_LITERAL_SOURCE(ComDzhyunProtoDzhyunDxspirit_DXSpiritStatOrBuilder)
+
+ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder_getDescriptor() {
+  ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_initialize();
+  return ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_descriptor_;
+}

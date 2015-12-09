@@ -65,6 +65,10 @@
 		9041A57E1C0FE08F0058400A /* DzhyunUserGetprop.m in Sources */ = {isa = PBXBuildFile; fileRef = 9041A5781C0FE08F0058400A /* DzhyunUserGetprop.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9041A5891C0FE0C90058400A /* CldEventNewsShuJu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9041A5801C0FE0C90058400A /* CldEventNewsShuJu.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9041A58A1C0FE0C90058400A /* CldTradeRequiteShuJu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9041A5821C0FE0C90058400A /* CldTradeRequiteShuJu.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		904A48EA1C16A1EA0008F56F /* Dzhapp.m in Sources */ = {isa = PBXBuildFile; fileRef = 904A48E51C16A1EA0008F56F /* Dzhapp.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		904A48EB1C16A1EA0008F56F /* Dzhpriv.m in Sources */ = {isa = PBXBuildFile; fileRef = 904A48E71C16A1EA0008F56F /* Dzhpriv.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		904A48EC1C16A1EA0008F56F /* DzhyunAuthTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 904A48E91C16A1EA0008F56F /* DzhyunAuthTable.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		904A48EF1C16A1FC0008F56F /* Dzhflux.m in Sources */ = {isa = PBXBuildFile; fileRef = 904A48EE1C16A1FC0008F56F /* Dzhflux.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		90B860871BFB2FA50028CA3B /* RdFileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B860861BFB2FA50028CA3B /* RdFileReader.m */; };
 		90B8608A1BFB2FB30028CA3B /* ZLibUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B860891BFB2FB30028CA3B /* ZLibUtils.m */; };
 /* End PBXBuildFile section */
@@ -199,6 +203,14 @@
 		9041A5801C0FE0C90058400A /* CldEventNewsShuJu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CldEventNewsShuJu.m; path = dzhyun/CldEventNewsShuJu.m; sourceTree = "<group>"; };
 		9041A5811C0FE0C90058400A /* CldTradeRequiteShuJu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CldTradeRequiteShuJu.h; path = dzhyun/CldTradeRequiteShuJu.h; sourceTree = "<group>"; };
 		9041A5821C0FE0C90058400A /* CldTradeRequiteShuJu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CldTradeRequiteShuJu.m; path = dzhyun/CldTradeRequiteShuJu.m; sourceTree = "<group>"; };
+		904A48E41C16A1EA0008F56F /* Dzhapp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Dzhapp.h; path = dzhyun/Dzhapp.h; sourceTree = "<group>"; };
+		904A48E51C16A1EA0008F56F /* Dzhapp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Dzhapp.m; path = dzhyun/Dzhapp.m; sourceTree = "<group>"; };
+		904A48E61C16A1EA0008F56F /* Dzhpriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Dzhpriv.h; path = dzhyun/Dzhpriv.h; sourceTree = "<group>"; };
+		904A48E71C16A1EA0008F56F /* Dzhpriv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Dzhpriv.m; path = dzhyun/Dzhpriv.m; sourceTree = "<group>"; };
+		904A48E81C16A1EA0008F56F /* DzhyunAuthTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DzhyunAuthTable.h; path = dzhyun/DzhyunAuthTable.h; sourceTree = "<group>"; };
+		904A48E91C16A1EA0008F56F /* DzhyunAuthTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DzhyunAuthTable.m; path = dzhyun/DzhyunAuthTable.m; sourceTree = "<group>"; };
+		904A48ED1C16A1FC0008F56F /* Dzhflux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Dzhflux.h; path = com/dzhyun/proto/Dzhflux.h; sourceTree = "<group>"; };
+		904A48EE1C16A1FC0008F56F /* Dzhflux.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Dzhflux.m; path = com/dzhyun/proto/Dzhflux.m; sourceTree = "<group>"; };
 		90B860851BFB2FA50028CA3B /* RdFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RdFileReader.h; sourceTree = "<group>"; };
 		90B860861BFB2FA50028CA3B /* RdFileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RdFileReader.m; sourceTree = "<group>"; };
 		90B860881BFB2FB30028CA3B /* ZLibUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZLibUtils.h; path = com/dzhyun/sdk/ZLibUtils.h; sourceTree = "<group>"; };
@@ -227,6 +239,14 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				904A48ED1C16A1FC0008F56F /* Dzhflux.h */,
+				904A48EE1C16A1FC0008F56F /* Dzhflux.m */,
+				904A48E41C16A1EA0008F56F /* Dzhapp.h */,
+				904A48E51C16A1EA0008F56F /* Dzhapp.m */,
+				904A48E61C16A1EA0008F56F /* Dzhpriv.h */,
+				904A48E71C16A1EA0008F56F /* Dzhpriv.m */,
+				904A48E81C16A1EA0008F56F /* DzhyunAuthTable.h */,
+				904A48E91C16A1EA0008F56F /* DzhyunAuthTable.m */,
 				9041A57F1C0FE0C90058400A /* CldEventNewsShuJu.h */,
 				9041A5801C0FE0C90058400A /* CldEventNewsShuJu.m */,
 				9041A5811C0FE0C90058400A /* CldTradeRequiteShuJu.h */,
@@ -416,12 +436,14 @@
 				9041A57A1C0FE08F0058400A /* DzhMessageChSubtype.m in Sources */,
 				9041A57C1C0FE08F0058400A /* DzhyunDxspirit.m in Sources */,
 				2A9449A51BE9ACA900815140 /* Dzhpriv.m in Sources */,
+				904A48EF1C16A1FC0008F56F /* Dzhflux.m in Sources */,
 				9041A57E1C0FE08F0058400A /* DzhyunUserGetprop.m in Sources */,
 				90B8608A1BFB2FB30028CA3B /* ZLibUtils.m in Sources */,
 				2A9449931BE9ACA900815140 /* AutoMsg.m in Sources */,
 				2A9449361BE9A63800815140 /* RCTDzhChannelModule.m in Sources */,
 				2A9449AC1BE9ACA900815140 /* DzhyunAdvert.m in Sources */,
 				2A9449BA1BE9ACA900815140 /* DzhyunUserGroup.m in Sources */,
+				904A48EC1C16A1EA0008F56F /* DzhyunAuthTable.m in Sources */,
 				2A9449AF1BE9ACA900815140 /* DzhyunFenjijijin.m in Sources */,
 				2A9449B01BE9ACA900815140 /* DzhyunGupiaolianxu.m in Sources */,
 				2A9449971BE9ACA900815140 /* CldF10ShuJu.m in Sources */,
@@ -448,6 +470,7 @@
 				2A9449C61BE9ACBE00815140 /* YFloat.m in Sources */,
 				2A9449961BE9ACA900815140 /* CldDanShangPinShuXing.m in Sources */,
 				2A9449BF1BE9ACA900815140 /* Indicalc.m in Sources */,
+				904A48EB1C16A1EA0008F56F /* Dzhpriv.m in Sources */,
 				2A9449BE1BE9ACA900815140 /* DzhyunZhibiaojisuan.m in Sources */,
 				2A9449A21BE9ACA900815140 /* DzhNewsInfo.m in Sources */,
 				2A9449AB1BE9ACA900815140 /* Dzhyun.m in Sources */,
@@ -459,6 +482,7 @@
 				9041A57D1C0FE08F0058400A /* DzhyunStockpool.m in Sources */,
 				2A9449A11BE9ACA900815140 /* Dzhmsg.m in Sources */,
 				2A9449A41BE9ACA900815140 /* Dzhpbtable.m in Sources */,
+				904A48EA1C16A1EA0008F56F /* Dzhapp.m in Sources */,
 				2A9449B11BE9ACA900815140 /* DzhyunGupiaoqiepian.m in Sources */,
 				9041A57B1C0FE08F0058400A /* DzhyunBlockstatistics.m in Sources */,
 				2A9449B71BE9ACA900815140 /* DzhyunTongji.m in Sources */,

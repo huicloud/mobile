@@ -583,21 +583,782 @@ public final class CldTradeRequiteShuJu {
     // @@protoc_insertion_point(class_scope:dzhyun.TradeObj)
   }
 
+  public interface SeatInfoOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:dzhyun.SeatInfo)
+      com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>required string seatName = 1;</code>
+     *
+     * <pre>
+     *席位名
+     * </pre>
+     */
+    boolean hasSeatName();
+    /**
+     * <code>required string seatName = 1;</code>
+     *
+     * <pre>
+     *席位名
+     * </pre>
+     */
+    java.lang.String getSeatName();
+    /**
+     * <code>required string seatName = 1;</code>
+     *
+     * <pre>
+     *席位名
+     * </pre>
+     */
+    com.google.protobuf.ByteString
+        getSeatNameBytes();
+
+    /**
+     * <code>required string seatId = 2;</code>
+     *
+     * <pre>
+     *席位Id
+     * </pre>
+     */
+    boolean hasSeatId();
+    /**
+     * <code>required string seatId = 2;</code>
+     *
+     * <pre>
+     *席位Id
+     * </pre>
+     */
+    java.lang.String getSeatId();
+    /**
+     * <code>required string seatId = 2;</code>
+     *
+     * <pre>
+     *席位Id
+     * </pre>
+     */
+    com.google.protobuf.ByteString
+        getSeatIdBytes();
+  }
+  /**
+   * Protobuf type {@code dzhyun.SeatInfo}
+   *
+   * <pre>
+   *席位数据
+   * </pre>
+   */
+  public static final class SeatInfo extends
+      com.google.protobuf.GeneratedMessage implements
+      // @@protoc_insertion_point(message_implements:dzhyun.SeatInfo)
+      SeatInfoOrBuilder {
+    // Use SeatInfo.newBuilder() to construct.
+    private SeatInfo(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      super(builder);
+      this.unknownFields = builder.getUnknownFields();
+    }
+    private SeatInfo(boolean noInit) { this.unknownFields = com.google.protobuf.UnknownFieldSet.getDefaultInstance(); }
+
+    private static final SeatInfo defaultInstance;
+    public static SeatInfo getDefaultInstance() {
+      return defaultInstance;
+    }
+
+    public SeatInfo getDefaultInstanceForType() {
+      return defaultInstance;
+    }
+
+    private final com.google.protobuf.UnknownFieldSet unknownFields;
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+        getUnknownFields() {
+      return this.unknownFields;
+    }
+    private SeatInfo(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      initFields();
+      int mutable_bitField0_ = 0;
+      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+          com.google.protobuf.UnknownFieldSet.newBuilder();
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!parseUnknownField(input, unknownFields,
+                                     extensionRegistry, tag)) {
+                done = true;
+              }
+              break;
+            }
+            case 10: {
+              com.google.protobuf.ByteString bs = input.readBytes();
+              bitField0_ |= 0x00000001;
+              seatName_ = bs;
+              break;
+            }
+            case 18: {
+              com.google.protobuf.ByteString bs = input.readBytes();
+              bitField0_ |= 0x00000002;
+              seatId_ = bs;
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e.getMessage()).setUnfinishedMessage(this);
+      } finally {
+        this.unknownFields = unknownFields.build();
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return dzhyun.CldTradeRequiteShuJu.internal_static_dzhyun_SeatInfo_descriptor;
+    }
+
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return dzhyun.CldTradeRequiteShuJu.internal_static_dzhyun_SeatInfo_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              dzhyun.CldTradeRequiteShuJu.SeatInfo.class, dzhyun.CldTradeRequiteShuJu.SeatInfo.Builder.class);
+    }
+
+    public static com.google.protobuf.Parser<SeatInfo> PARSER =
+        new com.google.protobuf.AbstractParser<SeatInfo>() {
+      public SeatInfo parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return new SeatInfo(input, extensionRegistry);
+      }
+    };
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<SeatInfo> getParserForType() {
+      return PARSER;
+    }
+
+    private int bitField0_;
+    public static final int SEATNAME_FIELD_NUMBER = 1;
+    private java.lang.Object seatName_;
+    /**
+     * <code>required string seatName = 1;</code>
+     *
+     * <pre>
+     *席位名
+     * </pre>
+     */
+    public boolean hasSeatName() {
+      return ((bitField0_ & 0x00000001) == 0x00000001);
+    }
+    /**
+     * <code>required string seatName = 1;</code>
+     *
+     * <pre>
+     *席位名
+     * </pre>
+     */
+    public java.lang.String getSeatName() {
+      java.lang.Object ref = seatName_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          seatName_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>required string seatName = 1;</code>
+     *
+     * <pre>
+     *席位名
+     * </pre>
+     */
+    public com.google.protobuf.ByteString
+        getSeatNameBytes() {
+      java.lang.Object ref = seatName_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        seatName_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    public static final int SEATID_FIELD_NUMBER = 2;
+    private java.lang.Object seatId_;
+    /**
+     * <code>required string seatId = 2;</code>
+     *
+     * <pre>
+     *席位Id
+     * </pre>
+     */
+    public boolean hasSeatId() {
+      return ((bitField0_ & 0x00000002) == 0x00000002);
+    }
+    /**
+     * <code>required string seatId = 2;</code>
+     *
+     * <pre>
+     *席位Id
+     * </pre>
+     */
+    public java.lang.String getSeatId() {
+      java.lang.Object ref = seatId_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          seatId_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>required string seatId = 2;</code>
+     *
+     * <pre>
+     *席位Id
+     * </pre>
+     */
+    public com.google.protobuf.ByteString
+        getSeatIdBytes() {
+      java.lang.Object ref = seatId_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        seatId_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    private void initFields() {
+      seatName_ = "";
+      seatId_ = "";
+    }
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      if (!hasSeatName()) {
+        memoizedIsInitialized = 0;
+        return false;
+      }
+      if (!hasSeatId()) {
+        memoizedIsInitialized = 0;
+        return false;
+      }
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      getSerializedSize();
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        output.writeBytes(1, getSeatNameBytes());
+      }
+      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+        output.writeBytes(2, getSeatIdBytes());
+      }
+      getUnknownFields().writeTo(output);
+    }
+
+    private int memoizedSerializedSize = -1;
+    public int getSerializedSize() {
+      int size = memoizedSerializedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(1, getSeatNameBytes());
+      }
+      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(2, getSeatIdBytes());
+      }
+      size += getUnknownFields().getSerializedSize();
+      memoizedSerializedSize = size;
+      return size;
+    }
+
+    private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    protected java.lang.Object writeReplace()
+        throws java.io.ObjectStreamException {
+      return super.writeReplace();
+    }
+
+    public static dzhyun.CldTradeRequiteShuJu.SeatInfo parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static dzhyun.CldTradeRequiteShuJu.SeatInfo parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static dzhyun.CldTradeRequiteShuJu.SeatInfo parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static dzhyun.CldTradeRequiteShuJu.SeatInfo parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static dzhyun.CldTradeRequiteShuJu.SeatInfo parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static dzhyun.CldTradeRequiteShuJu.SeatInfo parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+    public static dzhyun.CldTradeRequiteShuJu.SeatInfo parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input);
+    }
+    public static dzhyun.CldTradeRequiteShuJu.SeatInfo parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+    }
+    public static dzhyun.CldTradeRequiteShuJu.SeatInfo parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static dzhyun.CldTradeRequiteShuJu.SeatInfo parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+
+    public static Builder newBuilder() { return Builder.create(); }
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder(dzhyun.CldTradeRequiteShuJu.SeatInfo prototype) {
+      return newBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() { return newBuilder(this); }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code dzhyun.SeatInfo}
+     *
+     * <pre>
+     *席位数据
+     * </pre>
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:dzhyun.SeatInfo)
+        dzhyun.CldTradeRequiteShuJu.SeatInfoOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return dzhyun.CldTradeRequiteShuJu.internal_static_dzhyun_SeatInfo_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return dzhyun.CldTradeRequiteShuJu.internal_static_dzhyun_SeatInfo_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                dzhyun.CldTradeRequiteShuJu.SeatInfo.class, dzhyun.CldTradeRequiteShuJu.SeatInfo.Builder.class);
+      }
+
+      // Construct using dzhyun.CldTradeRequiteShuJu.SeatInfo.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        }
+      }
+      private static Builder create() {
+        return new Builder();
+      }
+
+      public Builder clear() {
+        super.clear();
+        seatName_ = "";
+        bitField0_ = (bitField0_ & ~0x00000001);
+        seatId_ = "";
+        bitField0_ = (bitField0_ & ~0x00000002);
+        return this;
+      }
+
+      public Builder clone() {
+        return create().mergeFrom(buildPartial());
+      }
+
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return dzhyun.CldTradeRequiteShuJu.internal_static_dzhyun_SeatInfo_descriptor;
+      }
+
+      public dzhyun.CldTradeRequiteShuJu.SeatInfo getDefaultInstanceForType() {
+        return dzhyun.CldTradeRequiteShuJu.SeatInfo.getDefaultInstance();
+      }
+
+      public dzhyun.CldTradeRequiteShuJu.SeatInfo build() {
+        dzhyun.CldTradeRequiteShuJu.SeatInfo result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      public dzhyun.CldTradeRequiteShuJu.SeatInfo buildPartial() {
+        dzhyun.CldTradeRequiteShuJu.SeatInfo result = new dzhyun.CldTradeRequiteShuJu.SeatInfo(this);
+        int from_bitField0_ = bitField0_;
+        int to_bitField0_ = 0;
+        if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
+          to_bitField0_ |= 0x00000001;
+        }
+        result.seatName_ = seatName_;
+        if (((from_bitField0_ & 0x00000002) == 0x00000002)) {
+          to_bitField0_ |= 0x00000002;
+        }
+        result.seatId_ = seatId_;
+        result.bitField0_ = to_bitField0_;
+        onBuilt();
+        return result;
+      }
+
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof dzhyun.CldTradeRequiteShuJu.SeatInfo) {
+          return mergeFrom((dzhyun.CldTradeRequiteShuJu.SeatInfo)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(dzhyun.CldTradeRequiteShuJu.SeatInfo other) {
+        if (other == dzhyun.CldTradeRequiteShuJu.SeatInfo.getDefaultInstance()) return this;
+        if (other.hasSeatName()) {
+          bitField0_ |= 0x00000001;
+          seatName_ = other.seatName_;
+          onChanged();
+        }
+        if (other.hasSeatId()) {
+          bitField0_ |= 0x00000002;
+          seatId_ = other.seatId_;
+          onChanged();
+        }
+        this.mergeUnknownFields(other.getUnknownFields());
+        return this;
+      }
+
+      public final boolean isInitialized() {
+        if (!hasSeatName()) {
+          
+          return false;
+        }
+        if (!hasSeatId()) {
+          
+          return false;
+        }
+        return true;
+      }
+
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        dzhyun.CldTradeRequiteShuJu.SeatInfo parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (dzhyun.CldTradeRequiteShuJu.SeatInfo) e.getUnfinishedMessage();
+          throw e;
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+      private int bitField0_;
+
+      private java.lang.Object seatName_ = "";
+      /**
+       * <code>required string seatName = 1;</code>
+       *
+       * <pre>
+       *席位名
+       * </pre>
+       */
+      public boolean hasSeatName() {
+        return ((bitField0_ & 0x00000001) == 0x00000001);
+      }
+      /**
+       * <code>required string seatName = 1;</code>
+       *
+       * <pre>
+       *席位名
+       * </pre>
+       */
+      public java.lang.String getSeatName() {
+        java.lang.Object ref = seatName_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          if (bs.isValidUtf8()) {
+            seatName_ = s;
+          }
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>required string seatName = 1;</code>
+       *
+       * <pre>
+       *席位名
+       * </pre>
+       */
+      public com.google.protobuf.ByteString
+          getSeatNameBytes() {
+        java.lang.Object ref = seatName_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          seatName_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>required string seatName = 1;</code>
+       *
+       * <pre>
+       *席位名
+       * </pre>
+       */
+      public Builder setSeatName(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000001;
+        seatName_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string seatName = 1;</code>
+       *
+       * <pre>
+       *席位名
+       * </pre>
+       */
+      public Builder clearSeatName() {
+        bitField0_ = (bitField0_ & ~0x00000001);
+        seatName_ = getDefaultInstance().getSeatName();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string seatName = 1;</code>
+       *
+       * <pre>
+       *席位名
+       * </pre>
+       */
+      public Builder setSeatNameBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000001;
+        seatName_ = value;
+        onChanged();
+        return this;
+      }
+
+      private java.lang.Object seatId_ = "";
+      /**
+       * <code>required string seatId = 2;</code>
+       *
+       * <pre>
+       *席位Id
+       * </pre>
+       */
+      public boolean hasSeatId() {
+        return ((bitField0_ & 0x00000002) == 0x00000002);
+      }
+      /**
+       * <code>required string seatId = 2;</code>
+       *
+       * <pre>
+       *席位Id
+       * </pre>
+       */
+      public java.lang.String getSeatId() {
+        java.lang.Object ref = seatId_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          if (bs.isValidUtf8()) {
+            seatId_ = s;
+          }
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>required string seatId = 2;</code>
+       *
+       * <pre>
+       *席位Id
+       * </pre>
+       */
+      public com.google.protobuf.ByteString
+          getSeatIdBytes() {
+        java.lang.Object ref = seatId_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          seatId_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>required string seatId = 2;</code>
+       *
+       * <pre>
+       *席位Id
+       * </pre>
+       */
+      public Builder setSeatId(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000002;
+        seatId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string seatId = 2;</code>
+       *
+       * <pre>
+       *席位Id
+       * </pre>
+       */
+      public Builder clearSeatId() {
+        bitField0_ = (bitField0_ & ~0x00000002);
+        seatId_ = getDefaultInstance().getSeatId();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string seatId = 2;</code>
+       *
+       * <pre>
+       *席位Id
+       * </pre>
+       */
+      public Builder setSeatIdBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000002;
+        seatId_ = value;
+        onChanged();
+        return this;
+      }
+
+      // @@protoc_insertion_point(builder_scope:dzhyun.SeatInfo)
+    }
+
+    static {
+      defaultInstance = new SeatInfo(true);
+      defaultInstance.initFields();
+    }
+
+    // @@protoc_insertion_point(class_scope:dzhyun.SeatInfo)
+  }
+
   public interface TradeSeatOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dzhyun.TradeSeat)
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated string seats = 1;</code>
+     * <code>repeated .dzhyun.SeatInfo seats = 1;</code>
      *
      * <pre>
      * 机构席位
      * </pre>
      */
-    com.google.protobuf.ProtocolStringList
+    java.util.List<dzhyun.CldTradeRequiteShuJu.SeatInfo> 
         getSeatsList();
     /**
-     * <code>repeated string seats = 1;</code>
+     * <code>repeated .dzhyun.SeatInfo seats = 1;</code>
+     *
+     * <pre>
+     * 机构席位
+     * </pre>
+     */
+    dzhyun.CldTradeRequiteShuJu.SeatInfo getSeats(int index);
+    /**
+     * <code>repeated .dzhyun.SeatInfo seats = 1;</code>
      *
      * <pre>
      * 机构席位
@@ -605,22 +1366,23 @@ public final class CldTradeRequiteShuJu {
      */
     int getSeatsCount();
     /**
-     * <code>repeated string seats = 1;</code>
+     * <code>repeated .dzhyun.SeatInfo seats = 1;</code>
      *
      * <pre>
      * 机构席位
      * </pre>
      */
-    java.lang.String getSeats(int index);
+    java.util.List<? extends dzhyun.CldTradeRequiteShuJu.SeatInfoOrBuilder> 
+        getSeatsOrBuilderList();
     /**
-     * <code>repeated string seats = 1;</code>
+     * <code>repeated .dzhyun.SeatInfo seats = 1;</code>
      *
      * <pre>
      * 机构席位
      * </pre>
      */
-    com.google.protobuf.ByteString
-        getSeatsBytes(int index);
+    dzhyun.CldTradeRequiteShuJu.SeatInfoOrBuilder getSeatsOrBuilder(
+        int index);
   }
   /**
    * Protobuf type {@code dzhyun.TradeSeat}
@@ -679,12 +1441,11 @@ public final class CldTradeRequiteShuJu {
               break;
             }
             case 10: {
-              com.google.protobuf.ByteString bs = input.readBytes();
               if (!((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
-                seats_ = new com.google.protobuf.LazyStringArrayList();
+                seats_ = new java.util.ArrayList<dzhyun.CldTradeRequiteShuJu.SeatInfo>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              seats_.add(bs);
+              seats_.add(input.readMessage(dzhyun.CldTradeRequiteShuJu.SeatInfo.PARSER, extensionRegistry));
               break;
             }
           }
@@ -696,7 +1457,7 @@ public final class CldTradeRequiteShuJu {
             e.getMessage()).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
-          seats_ = seats_.getUnmodifiableView();
+          seats_ = java.util.Collections.unmodifiableList(seats_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -730,20 +1491,30 @@ public final class CldTradeRequiteShuJu {
     }
 
     public static final int SEATS_FIELD_NUMBER = 1;
-    private com.google.protobuf.LazyStringList seats_;
+    private java.util.List<dzhyun.CldTradeRequiteShuJu.SeatInfo> seats_;
     /**
-     * <code>repeated string seats = 1;</code>
+     * <code>repeated .dzhyun.SeatInfo seats = 1;</code>
      *
      * <pre>
      * 机构席位
      * </pre>
      */
-    public com.google.protobuf.ProtocolStringList
-        getSeatsList() {
+    public java.util.List<dzhyun.CldTradeRequiteShuJu.SeatInfo> getSeatsList() {
       return seats_;
     }
     /**
-     * <code>repeated string seats = 1;</code>
+     * <code>repeated .dzhyun.SeatInfo seats = 1;</code>
+     *
+     * <pre>
+     * 机构席位
+     * </pre>
+     */
+    public java.util.List<? extends dzhyun.CldTradeRequiteShuJu.SeatInfoOrBuilder> 
+        getSeatsOrBuilderList() {
+      return seats_;
+    }
+    /**
+     * <code>repeated .dzhyun.SeatInfo seats = 1;</code>
      *
      * <pre>
      * 机构席位
@@ -753,29 +1524,29 @@ public final class CldTradeRequiteShuJu {
       return seats_.size();
     }
     /**
-     * <code>repeated string seats = 1;</code>
+     * <code>repeated .dzhyun.SeatInfo seats = 1;</code>
      *
      * <pre>
      * 机构席位
      * </pre>
      */
-    public java.lang.String getSeats(int index) {
+    public dzhyun.CldTradeRequiteShuJu.SeatInfo getSeats(int index) {
       return seats_.get(index);
     }
     /**
-     * <code>repeated string seats = 1;</code>
+     * <code>repeated .dzhyun.SeatInfo seats = 1;</code>
      *
      * <pre>
      * 机构席位
      * </pre>
      */
-    public com.google.protobuf.ByteString
-        getSeatsBytes(int index) {
-      return seats_.getByteString(index);
+    public dzhyun.CldTradeRequiteShuJu.SeatInfoOrBuilder getSeatsOrBuilder(
+        int index) {
+      return seats_.get(index);
     }
 
     private void initFields() {
-      seats_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+      seats_ = java.util.Collections.emptyList();
     }
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
@@ -783,6 +1554,12 @@ public final class CldTradeRequiteShuJu {
       if (isInitialized == 1) return true;
       if (isInitialized == 0) return false;
 
+      for (int i = 0; i < getSeatsCount(); i++) {
+        if (!getSeats(i).isInitialized()) {
+          memoizedIsInitialized = 0;
+          return false;
+        }
+      }
       memoizedIsInitialized = 1;
       return true;
     }
@@ -791,7 +1568,7 @@ public final class CldTradeRequiteShuJu {
                         throws java.io.IOException {
       getSerializedSize();
       for (int i = 0; i < seats_.size(); i++) {
-        output.writeBytes(1, seats_.getByteString(i));
+        output.writeMessage(1, seats_.get(i));
       }
       getUnknownFields().writeTo(output);
     }
@@ -802,14 +1579,9 @@ public final class CldTradeRequiteShuJu {
       if (size != -1) return size;
 
       size = 0;
-      {
-        int dataSize = 0;
-        for (int i = 0; i < seats_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeBytesSizeNoTag(seats_.getByteString(i));
-        }
-        size += dataSize;
-        size += 1 * getSeatsList().size();
+      for (int i = 0; i < seats_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(1, seats_.get(i));
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
@@ -924,6 +1696,7 @@ public final class CldTradeRequiteShuJu {
       }
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          getSeatsFieldBuilder();
         }
       }
       private static Builder create() {
@@ -932,8 +1705,12 @@ public final class CldTradeRequiteShuJu {
 
       public Builder clear() {
         super.clear();
-        seats_ = com.google.protobuf.LazyStringArrayList.EMPTY;
-        bitField0_ = (bitField0_ & ~0x00000001);
+        if (seatsBuilder_ == null) {
+          seats_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
+        } else {
+          seatsBuilder_.clear();
+        }
         return this;
       }
 
@@ -961,11 +1738,15 @@ public final class CldTradeRequiteShuJu {
       public dzhyun.CldTradeRequiteShuJu.TradeSeat buildPartial() {
         dzhyun.CldTradeRequiteShuJu.TradeSeat result = new dzhyun.CldTradeRequiteShuJu.TradeSeat(this);
         int from_bitField0_ = bitField0_;
-        if (((bitField0_ & 0x00000001) == 0x00000001)) {
-          seats_ = seats_.getUnmodifiableView();
-          bitField0_ = (bitField0_ & ~0x00000001);
+        if (seatsBuilder_ == null) {
+          if (((bitField0_ & 0x00000001) == 0x00000001)) {
+            seats_ = java.util.Collections.unmodifiableList(seats_);
+            bitField0_ = (bitField0_ & ~0x00000001);
+          }
+          result.seats_ = seats_;
+        } else {
+          result.seats_ = seatsBuilder_.build();
         }
-        result.seats_ = seats_;
         onBuilt();
         return result;
       }
@@ -981,21 +1762,43 @@ public final class CldTradeRequiteShuJu {
 
       public Builder mergeFrom(dzhyun.CldTradeRequiteShuJu.TradeSeat other) {
         if (other == dzhyun.CldTradeRequiteShuJu.TradeSeat.getDefaultInstance()) return this;
-        if (!other.seats_.isEmpty()) {
-          if (seats_.isEmpty()) {
-            seats_ = other.seats_;
-            bitField0_ = (bitField0_ & ~0x00000001);
-          } else {
-            ensureSeatsIsMutable();
-            seats_.addAll(other.seats_);
+        if (seatsBuilder_ == null) {
+          if (!other.seats_.isEmpty()) {
+            if (seats_.isEmpty()) {
+              seats_ = other.seats_;
+              bitField0_ = (bitField0_ & ~0x00000001);
+            } else {
+              ensureSeatsIsMutable();
+              seats_.addAll(other.seats_);
+            }
+            onChanged();
           }
-          onChanged();
+        } else {
+          if (!other.seats_.isEmpty()) {
+            if (seatsBuilder_.isEmpty()) {
+              seatsBuilder_.dispose();
+              seatsBuilder_ = null;
+              seats_ = other.seats_;
+              bitField0_ = (bitField0_ & ~0x00000001);
+              seatsBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getSeatsFieldBuilder() : null;
+            } else {
+              seatsBuilder_.addAllMessages(other.seats_);
+            }
+          }
         }
         this.mergeUnknownFields(other.getUnknownFields());
         return this;
       }
 
       public final boolean isInitialized() {
+        for (int i = 0; i < getSeatsCount(); i++) {
+          if (!getSeats(i).isInitialized()) {
+            
+            return false;
+          }
+        }
         return true;
       }
 
@@ -1018,133 +1821,316 @@ public final class CldTradeRequiteShuJu {
       }
       private int bitField0_;
 
-      private com.google.protobuf.LazyStringList seats_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+      private java.util.List<dzhyun.CldTradeRequiteShuJu.SeatInfo> seats_ =
+        java.util.Collections.emptyList();
       private void ensureSeatsIsMutable() {
         if (!((bitField0_ & 0x00000001) == 0x00000001)) {
-          seats_ = new com.google.protobuf.LazyStringArrayList(seats_);
+          seats_ = new java.util.ArrayList<dzhyun.CldTradeRequiteShuJu.SeatInfo>(seats_);
           bitField0_ |= 0x00000001;
          }
       }
+
+      private com.google.protobuf.RepeatedFieldBuilder<
+          dzhyun.CldTradeRequiteShuJu.SeatInfo, dzhyun.CldTradeRequiteShuJu.SeatInfo.Builder, dzhyun.CldTradeRequiteShuJu.SeatInfoOrBuilder> seatsBuilder_;
+
       /**
-       * <code>repeated string seats = 1;</code>
+       * <code>repeated .dzhyun.SeatInfo seats = 1;</code>
        *
        * <pre>
        * 机构席位
        * </pre>
        */
-      public com.google.protobuf.ProtocolStringList
-          getSeatsList() {
-        return seats_.getUnmodifiableView();
+      public java.util.List<dzhyun.CldTradeRequiteShuJu.SeatInfo> getSeatsList() {
+        if (seatsBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(seats_);
+        } else {
+          return seatsBuilder_.getMessageList();
+        }
       }
       /**
-       * <code>repeated string seats = 1;</code>
+       * <code>repeated .dzhyun.SeatInfo seats = 1;</code>
        *
        * <pre>
        * 机构席位
        * </pre>
        */
       public int getSeatsCount() {
-        return seats_.size();
+        if (seatsBuilder_ == null) {
+          return seats_.size();
+        } else {
+          return seatsBuilder_.getCount();
+        }
       }
       /**
-       * <code>repeated string seats = 1;</code>
+       * <code>repeated .dzhyun.SeatInfo seats = 1;</code>
        *
        * <pre>
        * 机构席位
        * </pre>
        */
-      public java.lang.String getSeats(int index) {
-        return seats_.get(index);
+      public dzhyun.CldTradeRequiteShuJu.SeatInfo getSeats(int index) {
+        if (seatsBuilder_ == null) {
+          return seats_.get(index);
+        } else {
+          return seatsBuilder_.getMessage(index);
+        }
       }
       /**
-       * <code>repeated string seats = 1;</code>
-       *
-       * <pre>
-       * 机构席位
-       * </pre>
-       */
-      public com.google.protobuf.ByteString
-          getSeatsBytes(int index) {
-        return seats_.getByteString(index);
-      }
-      /**
-       * <code>repeated string seats = 1;</code>
+       * <code>repeated .dzhyun.SeatInfo seats = 1;</code>
        *
        * <pre>
        * 机构席位
        * </pre>
        */
       public Builder setSeats(
-          int index, java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  ensureSeatsIsMutable();
-        seats_.set(index, value);
-        onChanged();
+          int index, dzhyun.CldTradeRequiteShuJu.SeatInfo value) {
+        if (seatsBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureSeatsIsMutable();
+          seats_.set(index, value);
+          onChanged();
+        } else {
+          seatsBuilder_.setMessage(index, value);
+        }
         return this;
       }
       /**
-       * <code>repeated string seats = 1;</code>
+       * <code>repeated .dzhyun.SeatInfo seats = 1;</code>
+       *
+       * <pre>
+       * 机构席位
+       * </pre>
+       */
+      public Builder setSeats(
+          int index, dzhyun.CldTradeRequiteShuJu.SeatInfo.Builder builderForValue) {
+        if (seatsBuilder_ == null) {
+          ensureSeatsIsMutable();
+          seats_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          seatsBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.SeatInfo seats = 1;</code>
+       *
+       * <pre>
+       * 机构席位
+       * </pre>
+       */
+      public Builder addSeats(dzhyun.CldTradeRequiteShuJu.SeatInfo value) {
+        if (seatsBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureSeatsIsMutable();
+          seats_.add(value);
+          onChanged();
+        } else {
+          seatsBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.SeatInfo seats = 1;</code>
        *
        * <pre>
        * 机构席位
        * </pre>
        */
       public Builder addSeats(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  ensureSeatsIsMutable();
-        seats_.add(value);
-        onChanged();
+          int index, dzhyun.CldTradeRequiteShuJu.SeatInfo value) {
+        if (seatsBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureSeatsIsMutable();
+          seats_.add(index, value);
+          onChanged();
+        } else {
+          seatsBuilder_.addMessage(index, value);
+        }
         return this;
       }
       /**
-       * <code>repeated string seats = 1;</code>
+       * <code>repeated .dzhyun.SeatInfo seats = 1;</code>
+       *
+       * <pre>
+       * 机构席位
+       * </pre>
+       */
+      public Builder addSeats(
+          dzhyun.CldTradeRequiteShuJu.SeatInfo.Builder builderForValue) {
+        if (seatsBuilder_ == null) {
+          ensureSeatsIsMutable();
+          seats_.add(builderForValue.build());
+          onChanged();
+        } else {
+          seatsBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.SeatInfo seats = 1;</code>
+       *
+       * <pre>
+       * 机构席位
+       * </pre>
+       */
+      public Builder addSeats(
+          int index, dzhyun.CldTradeRequiteShuJu.SeatInfo.Builder builderForValue) {
+        if (seatsBuilder_ == null) {
+          ensureSeatsIsMutable();
+          seats_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          seatsBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.SeatInfo seats = 1;</code>
        *
        * <pre>
        * 机构席位
        * </pre>
        */
       public Builder addAllSeats(
-          java.lang.Iterable<java.lang.String> values) {
-        ensureSeatsIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, seats_);
-        onChanged();
+          java.lang.Iterable<? extends dzhyun.CldTradeRequiteShuJu.SeatInfo> values) {
+        if (seatsBuilder_ == null) {
+          ensureSeatsIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, seats_);
+          onChanged();
+        } else {
+          seatsBuilder_.addAllMessages(values);
+        }
         return this;
       }
       /**
-       * <code>repeated string seats = 1;</code>
+       * <code>repeated .dzhyun.SeatInfo seats = 1;</code>
        *
        * <pre>
        * 机构席位
        * </pre>
        */
       public Builder clearSeats() {
-        seats_ = com.google.protobuf.LazyStringArrayList.EMPTY;
-        bitField0_ = (bitField0_ & ~0x00000001);
-        onChanged();
+        if (seatsBuilder_ == null) {
+          seats_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
+          onChanged();
+        } else {
+          seatsBuilder_.clear();
+        }
         return this;
       }
       /**
-       * <code>repeated string seats = 1;</code>
+       * <code>repeated .dzhyun.SeatInfo seats = 1;</code>
        *
        * <pre>
        * 机构席位
        * </pre>
        */
-      public Builder addSeatsBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  ensureSeatsIsMutable();
-        seats_.add(value);
-        onChanged();
+      public Builder removeSeats(int index) {
+        if (seatsBuilder_ == null) {
+          ensureSeatsIsMutable();
+          seats_.remove(index);
+          onChanged();
+        } else {
+          seatsBuilder_.remove(index);
+        }
         return this;
+      }
+      /**
+       * <code>repeated .dzhyun.SeatInfo seats = 1;</code>
+       *
+       * <pre>
+       * 机构席位
+       * </pre>
+       */
+      public dzhyun.CldTradeRequiteShuJu.SeatInfo.Builder getSeatsBuilder(
+          int index) {
+        return getSeatsFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .dzhyun.SeatInfo seats = 1;</code>
+       *
+       * <pre>
+       * 机构席位
+       * </pre>
+       */
+      public dzhyun.CldTradeRequiteShuJu.SeatInfoOrBuilder getSeatsOrBuilder(
+          int index) {
+        if (seatsBuilder_ == null) {
+          return seats_.get(index);  } else {
+          return seatsBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.SeatInfo seats = 1;</code>
+       *
+       * <pre>
+       * 机构席位
+       * </pre>
+       */
+      public java.util.List<? extends dzhyun.CldTradeRequiteShuJu.SeatInfoOrBuilder> 
+           getSeatsOrBuilderList() {
+        if (seatsBuilder_ != null) {
+          return seatsBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(seats_);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.SeatInfo seats = 1;</code>
+       *
+       * <pre>
+       * 机构席位
+       * </pre>
+       */
+      public dzhyun.CldTradeRequiteShuJu.SeatInfo.Builder addSeatsBuilder() {
+        return getSeatsFieldBuilder().addBuilder(
+            dzhyun.CldTradeRequiteShuJu.SeatInfo.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.SeatInfo seats = 1;</code>
+       *
+       * <pre>
+       * 机构席位
+       * </pre>
+       */
+      public dzhyun.CldTradeRequiteShuJu.SeatInfo.Builder addSeatsBuilder(
+          int index) {
+        return getSeatsFieldBuilder().addBuilder(
+            index, dzhyun.CldTradeRequiteShuJu.SeatInfo.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.SeatInfo seats = 1;</code>
+       *
+       * <pre>
+       * 机构席位
+       * </pre>
+       */
+      public java.util.List<dzhyun.CldTradeRequiteShuJu.SeatInfo.Builder> 
+           getSeatsBuilderList() {
+        return getSeatsFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          dzhyun.CldTradeRequiteShuJu.SeatInfo, dzhyun.CldTradeRequiteShuJu.SeatInfo.Builder, dzhyun.CldTradeRequiteShuJu.SeatInfoOrBuilder> 
+          getSeatsFieldBuilder() {
+        if (seatsBuilder_ == null) {
+          seatsBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              dzhyun.CldTradeRequiteShuJu.SeatInfo, dzhyun.CldTradeRequiteShuJu.SeatInfo.Builder, dzhyun.CldTradeRequiteShuJu.SeatInfoOrBuilder>(
+                  seats_,
+                  ((bitField0_ & 0x00000001) == 0x00000001),
+                  getParentForChildren(),
+                  isClean());
+          seats_ = null;
+        }
+        return seatsBuilder_;
       }
 
       // @@protoc_insertion_point(builder_scope:dzhyun.TradeSeat)
@@ -1164,6 +2150,11 @@ public final class CldTradeRequiteShuJu {
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dzhyun_TradeObj_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_dzhyun_SeatInfo_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_dzhyun_SeatInfo_fieldAccessorTable;
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dzhyun_TradeSeat_descriptor;
   private static
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
@@ -1178,8 +2169,9 @@ public final class CldTradeRequiteShuJu {
   static {
     java.lang.String[] descriptorData = {
       "\n\032CldTradeRequiteShuJu.proto\022\006dzhyun\"\030\n\010" +
-      "TradeObj\022\014\n\004objs\030\001 \003(\t\"\032\n\tTradeSeat\022\r\n\005s" +
-      "eats\030\001 \003(\t"
+      "TradeObj\022\014\n\004objs\030\001 \003(\t\",\n\010SeatInfo\022\020\n\010se" +
+      "atName\030\001 \002(\t\022\016\n\006seatId\030\002 \002(\t\",\n\tTradeSea" +
+      "t\022\037\n\005seats\030\001 \003(\0132\020.dzhyun.SeatInfo"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -1199,8 +2191,14 @@ public final class CldTradeRequiteShuJu {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dzhyun_TradeObj_descriptor,
         new java.lang.String[] { "Objs", });
-    internal_static_dzhyun_TradeSeat_descriptor =
+    internal_static_dzhyun_SeatInfo_descriptor =
       getDescriptor().getMessageTypes().get(1);
+    internal_static_dzhyun_SeatInfo_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_dzhyun_SeatInfo_descriptor,
+        new java.lang.String[] { "SeatName", "SeatId", });
+    internal_static_dzhyun_TradeSeat_descriptor =
+      getDescriptor().getMessageTypes().get(2);
     internal_static_dzhyun_TradeSeat_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dzhyun_TradeSeat_descriptor,

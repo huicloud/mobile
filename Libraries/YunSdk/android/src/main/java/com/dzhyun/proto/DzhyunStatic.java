@@ -8,6 +8,545 @@ public final class DzhyunStatic {
   public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
   }
+  public interface TradeTimeOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:dzhyun.TradeTime)
+      com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>optional int64 StartTime = 1;</code>
+     *
+     * <pre>
+     * starttime
+     * </pre>
+     */
+    boolean hasStartTime();
+    /**
+     * <code>optional int64 StartTime = 1;</code>
+     *
+     * <pre>
+     * starttime
+     * </pre>
+     */
+    long getStartTime();
+
+    /**
+     * <code>optional int64 EndTime = 2;</code>
+     *
+     * <pre>
+     * endtime
+     * </pre>
+     */
+    boolean hasEndTime();
+    /**
+     * <code>optional int64 EndTime = 2;</code>
+     *
+     * <pre>
+     * endtime
+     * </pre>
+     */
+    long getEndTime();
+  }
+  /**
+   * Protobuf type {@code dzhyun.TradeTime}
+   */
+  public static final class TradeTime extends
+      com.google.protobuf.GeneratedMessage implements
+      // @@protoc_insertion_point(message_implements:dzhyun.TradeTime)
+      TradeTimeOrBuilder {
+    // Use TradeTime.newBuilder() to construct.
+    private TradeTime(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      super(builder);
+      this.unknownFields = builder.getUnknownFields();
+    }
+    private TradeTime(boolean noInit) { this.unknownFields = com.google.protobuf.UnknownFieldSet.getDefaultInstance(); }
+
+    private static final TradeTime defaultInstance;
+    public static TradeTime getDefaultInstance() {
+      return defaultInstance;
+    }
+
+    public TradeTime getDefaultInstanceForType() {
+      return defaultInstance;
+    }
+
+    private final com.google.protobuf.UnknownFieldSet unknownFields;
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+        getUnknownFields() {
+      return this.unknownFields;
+    }
+    private TradeTime(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      initFields();
+      int mutable_bitField0_ = 0;
+      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+          com.google.protobuf.UnknownFieldSet.newBuilder();
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!parseUnknownField(input, unknownFields,
+                                     extensionRegistry, tag)) {
+                done = true;
+              }
+              break;
+            }
+            case 8: {
+              bitField0_ |= 0x00000001;
+              startTime_ = input.readInt64();
+              break;
+            }
+            case 16: {
+              bitField0_ |= 0x00000002;
+              endTime_ = input.readInt64();
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e.getMessage()).setUnfinishedMessage(this);
+      } finally {
+        this.unknownFields = unknownFields.build();
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return com.dzhyun.proto.DzhyunStatic.internal_static_dzhyun_TradeTime_descriptor;
+    }
+
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return com.dzhyun.proto.DzhyunStatic.internal_static_dzhyun_TradeTime_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              com.dzhyun.proto.DzhyunStatic.TradeTime.class, com.dzhyun.proto.DzhyunStatic.TradeTime.Builder.class);
+    }
+
+    public static com.google.protobuf.Parser<TradeTime> PARSER =
+        new com.google.protobuf.AbstractParser<TradeTime>() {
+      public TradeTime parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return new TradeTime(input, extensionRegistry);
+      }
+    };
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<TradeTime> getParserForType() {
+      return PARSER;
+    }
+
+    private int bitField0_;
+    public static final int STARTTIME_FIELD_NUMBER = 1;
+    private long startTime_;
+    /**
+     * <code>optional int64 StartTime = 1;</code>
+     *
+     * <pre>
+     * starttime
+     * </pre>
+     */
+    public boolean hasStartTime() {
+      return ((bitField0_ & 0x00000001) == 0x00000001);
+    }
+    /**
+     * <code>optional int64 StartTime = 1;</code>
+     *
+     * <pre>
+     * starttime
+     * </pre>
+     */
+    public long getStartTime() {
+      return startTime_;
+    }
+
+    public static final int ENDTIME_FIELD_NUMBER = 2;
+    private long endTime_;
+    /**
+     * <code>optional int64 EndTime = 2;</code>
+     *
+     * <pre>
+     * endtime
+     * </pre>
+     */
+    public boolean hasEndTime() {
+      return ((bitField0_ & 0x00000002) == 0x00000002);
+    }
+    /**
+     * <code>optional int64 EndTime = 2;</code>
+     *
+     * <pre>
+     * endtime
+     * </pre>
+     */
+    public long getEndTime() {
+      return endTime_;
+    }
+
+    private void initFields() {
+      startTime_ = 0L;
+      endTime_ = 0L;
+    }
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      getSerializedSize();
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        output.writeInt64(1, startTime_);
+      }
+      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+        output.writeInt64(2, endTime_);
+      }
+      getUnknownFields().writeTo(output);
+    }
+
+    private int memoizedSerializedSize = -1;
+    public int getSerializedSize() {
+      int size = memoizedSerializedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(1, startTime_);
+      }
+      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(2, endTime_);
+      }
+      size += getUnknownFields().getSerializedSize();
+      memoizedSerializedSize = size;
+      return size;
+    }
+
+    private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    protected java.lang.Object writeReplace()
+        throws java.io.ObjectStreamException {
+      return super.writeReplace();
+    }
+
+    public static com.dzhyun.proto.DzhyunStatic.TradeTime parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.dzhyun.proto.DzhyunStatic.TradeTime parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhyunStatic.TradeTime parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.dzhyun.proto.DzhyunStatic.TradeTime parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhyunStatic.TradeTime parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.dzhyun.proto.DzhyunStatic.TradeTime parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhyunStatic.TradeTime parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input);
+    }
+    public static com.dzhyun.proto.DzhyunStatic.TradeTime parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhyunStatic.TradeTime parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.dzhyun.proto.DzhyunStatic.TradeTime parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+
+    public static Builder newBuilder() { return Builder.create(); }
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder(com.dzhyun.proto.DzhyunStatic.TradeTime prototype) {
+      return newBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() { return newBuilder(this); }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code dzhyun.TradeTime}
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:dzhyun.TradeTime)
+        com.dzhyun.proto.DzhyunStatic.TradeTimeOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return com.dzhyun.proto.DzhyunStatic.internal_static_dzhyun_TradeTime_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return com.dzhyun.proto.DzhyunStatic.internal_static_dzhyun_TradeTime_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                com.dzhyun.proto.DzhyunStatic.TradeTime.class, com.dzhyun.proto.DzhyunStatic.TradeTime.Builder.class);
+      }
+
+      // Construct using com.dzhyun.proto.DzhyunStatic.TradeTime.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        }
+      }
+      private static Builder create() {
+        return new Builder();
+      }
+
+      public Builder clear() {
+        super.clear();
+        startTime_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000001);
+        endTime_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000002);
+        return this;
+      }
+
+      public Builder clone() {
+        return create().mergeFrom(buildPartial());
+      }
+
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return com.dzhyun.proto.DzhyunStatic.internal_static_dzhyun_TradeTime_descriptor;
+      }
+
+      public com.dzhyun.proto.DzhyunStatic.TradeTime getDefaultInstanceForType() {
+        return com.dzhyun.proto.DzhyunStatic.TradeTime.getDefaultInstance();
+      }
+
+      public com.dzhyun.proto.DzhyunStatic.TradeTime build() {
+        com.dzhyun.proto.DzhyunStatic.TradeTime result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      public com.dzhyun.proto.DzhyunStatic.TradeTime buildPartial() {
+        com.dzhyun.proto.DzhyunStatic.TradeTime result = new com.dzhyun.proto.DzhyunStatic.TradeTime(this);
+        int from_bitField0_ = bitField0_;
+        int to_bitField0_ = 0;
+        if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
+          to_bitField0_ |= 0x00000001;
+        }
+        result.startTime_ = startTime_;
+        if (((from_bitField0_ & 0x00000002) == 0x00000002)) {
+          to_bitField0_ |= 0x00000002;
+        }
+        result.endTime_ = endTime_;
+        result.bitField0_ = to_bitField0_;
+        onBuilt();
+        return result;
+      }
+
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof com.dzhyun.proto.DzhyunStatic.TradeTime) {
+          return mergeFrom((com.dzhyun.proto.DzhyunStatic.TradeTime)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(com.dzhyun.proto.DzhyunStatic.TradeTime other) {
+        if (other == com.dzhyun.proto.DzhyunStatic.TradeTime.getDefaultInstance()) return this;
+        if (other.hasStartTime()) {
+          setStartTime(other.getStartTime());
+        }
+        if (other.hasEndTime()) {
+          setEndTime(other.getEndTime());
+        }
+        this.mergeUnknownFields(other.getUnknownFields());
+        return this;
+      }
+
+      public final boolean isInitialized() {
+        return true;
+      }
+
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.dzhyun.proto.DzhyunStatic.TradeTime parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (com.dzhyun.proto.DzhyunStatic.TradeTime) e.getUnfinishedMessage();
+          throw e;
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+      private int bitField0_;
+
+      private long startTime_ ;
+      /**
+       * <code>optional int64 StartTime = 1;</code>
+       *
+       * <pre>
+       * starttime
+       * </pre>
+       */
+      public boolean hasStartTime() {
+        return ((bitField0_ & 0x00000001) == 0x00000001);
+      }
+      /**
+       * <code>optional int64 StartTime = 1;</code>
+       *
+       * <pre>
+       * starttime
+       * </pre>
+       */
+      public long getStartTime() {
+        return startTime_;
+      }
+      /**
+       * <code>optional int64 StartTime = 1;</code>
+       *
+       * <pre>
+       * starttime
+       * </pre>
+       */
+      public Builder setStartTime(long value) {
+        bitField0_ |= 0x00000001;
+        startTime_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 StartTime = 1;</code>
+       *
+       * <pre>
+       * starttime
+       * </pre>
+       */
+      public Builder clearStartTime() {
+        bitField0_ = (bitField0_ & ~0x00000001);
+        startTime_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long endTime_ ;
+      /**
+       * <code>optional int64 EndTime = 2;</code>
+       *
+       * <pre>
+       * endtime
+       * </pre>
+       */
+      public boolean hasEndTime() {
+        return ((bitField0_ & 0x00000002) == 0x00000002);
+      }
+      /**
+       * <code>optional int64 EndTime = 2;</code>
+       *
+       * <pre>
+       * endtime
+       * </pre>
+       */
+      public long getEndTime() {
+        return endTime_;
+      }
+      /**
+       * <code>optional int64 EndTime = 2;</code>
+       *
+       * <pre>
+       * endtime
+       * </pre>
+       */
+      public Builder setEndTime(long value) {
+        bitField0_ |= 0x00000002;
+        endTime_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 EndTime = 2;</code>
+       *
+       * <pre>
+       * endtime
+       * </pre>
+       */
+      public Builder clearEndTime() {
+        bitField0_ = (bitField0_ & ~0x00000002);
+        endTime_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      // @@protoc_insertion_point(builder_scope:dzhyun.TradeTime)
+    }
+
+    static {
+      defaultInstance = new TradeTime(true);
+      defaultInstance.initFields();
+    }
+
+    // @@protoc_insertion_point(class_scope:dzhyun.TradeTime)
+  }
+
   public interface StaticOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dzhyun.Static)
       com.google.protobuf.MessageOrBuilder {
@@ -204,6 +743,67 @@ public final class DzhyunStatic {
      * </pre>
      */
     long getDieTing();
+
+    /**
+     * <code>optional int64 TradeTimeNum = 12;</code>
+     *
+     * <pre>
+     * tradetimenum
+     * </pre>
+     */
+    boolean hasTradeTimeNum();
+    /**
+     * <code>optional int64 TradeTimeNum = 12;</code>
+     *
+     * <pre>
+     * tradetimenum
+     * </pre>
+     */
+    long getTradeTimeNum();
+
+    /**
+     * <code>repeated .dzhyun.TradeTime TradeTimes = 13;</code>
+     *
+     * <pre>
+     * TradeTime
+     * </pre>
+     */
+    java.util.List<com.dzhyun.proto.DzhyunStatic.TradeTime> 
+        getTradeTimesList();
+    /**
+     * <code>repeated .dzhyun.TradeTime TradeTimes = 13;</code>
+     *
+     * <pre>
+     * TradeTime
+     * </pre>
+     */
+    com.dzhyun.proto.DzhyunStatic.TradeTime getTradeTimes(int index);
+    /**
+     * <code>repeated .dzhyun.TradeTime TradeTimes = 13;</code>
+     *
+     * <pre>
+     * TradeTime
+     * </pre>
+     */
+    int getTradeTimesCount();
+    /**
+     * <code>repeated .dzhyun.TradeTime TradeTimes = 13;</code>
+     *
+     * <pre>
+     * TradeTime
+     * </pre>
+     */
+    java.util.List<? extends com.dzhyun.proto.DzhyunStatic.TradeTimeOrBuilder> 
+        getTradeTimesOrBuilderList();
+    /**
+     * <code>repeated .dzhyun.TradeTime TradeTimes = 13;</code>
+     *
+     * <pre>
+     * TradeTime
+     * </pre>
+     */
+    com.dzhyun.proto.DzhyunStatic.TradeTimeOrBuilder getTradeTimesOrBuilder(
+        int index);
   }
   /**
    * Protobuf type {@code dzhyun.Static}
@@ -314,6 +914,19 @@ public final class DzhyunStatic {
               dieTing_ = input.readInt64();
               break;
             }
+            case 96: {
+              bitField0_ |= 0x00000800;
+              tradeTimeNum_ = input.readInt64();
+              break;
+            }
+            case 106: {
+              if (!((mutable_bitField0_ & 0x00001000) == 0x00001000)) {
+                tradeTimes_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunStatic.TradeTime>();
+                mutable_bitField0_ |= 0x00001000;
+              }
+              tradeTimes_.add(input.readMessage(com.dzhyun.proto.DzhyunStatic.TradeTime.PARSER, extensionRegistry));
+              break;
+            }
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
@@ -322,6 +935,9 @@ public final class DzhyunStatic {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e.getMessage()).setUnfinishedMessage(this);
       } finally {
+        if (((mutable_bitField0_ & 0x00001000) == 0x00001000)) {
+          tradeTimes_ = java.util.Collections.unmodifiableList(tradeTimes_);
+        }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
       }
@@ -657,6 +1273,84 @@ public final class DzhyunStatic {
       return dieTing_;
     }
 
+    public static final int TRADETIMENUM_FIELD_NUMBER = 12;
+    private long tradeTimeNum_;
+    /**
+     * <code>optional int64 TradeTimeNum = 12;</code>
+     *
+     * <pre>
+     * tradetimenum
+     * </pre>
+     */
+    public boolean hasTradeTimeNum() {
+      return ((bitField0_ & 0x00000800) == 0x00000800);
+    }
+    /**
+     * <code>optional int64 TradeTimeNum = 12;</code>
+     *
+     * <pre>
+     * tradetimenum
+     * </pre>
+     */
+    public long getTradeTimeNum() {
+      return tradeTimeNum_;
+    }
+
+    public static final int TRADETIMES_FIELD_NUMBER = 13;
+    private java.util.List<com.dzhyun.proto.DzhyunStatic.TradeTime> tradeTimes_;
+    /**
+     * <code>repeated .dzhyun.TradeTime TradeTimes = 13;</code>
+     *
+     * <pre>
+     * TradeTime
+     * </pre>
+     */
+    public java.util.List<com.dzhyun.proto.DzhyunStatic.TradeTime> getTradeTimesList() {
+      return tradeTimes_;
+    }
+    /**
+     * <code>repeated .dzhyun.TradeTime TradeTimes = 13;</code>
+     *
+     * <pre>
+     * TradeTime
+     * </pre>
+     */
+    public java.util.List<? extends com.dzhyun.proto.DzhyunStatic.TradeTimeOrBuilder> 
+        getTradeTimesOrBuilderList() {
+      return tradeTimes_;
+    }
+    /**
+     * <code>repeated .dzhyun.TradeTime TradeTimes = 13;</code>
+     *
+     * <pre>
+     * TradeTime
+     * </pre>
+     */
+    public int getTradeTimesCount() {
+      return tradeTimes_.size();
+    }
+    /**
+     * <code>repeated .dzhyun.TradeTime TradeTimes = 13;</code>
+     *
+     * <pre>
+     * TradeTime
+     * </pre>
+     */
+    public com.dzhyun.proto.DzhyunStatic.TradeTime getTradeTimes(int index) {
+      return tradeTimes_.get(index);
+    }
+    /**
+     * <code>repeated .dzhyun.TradeTime TradeTimes = 13;</code>
+     *
+     * <pre>
+     * TradeTime
+     * </pre>
+     */
+    public com.dzhyun.proto.DzhyunStatic.TradeTimeOrBuilder getTradeTimesOrBuilder(
+        int index) {
+      return tradeTimes_.get(index);
+    }
+
     private void initFields() {
       obj_ = "";
       zhongWenJianCheng_ = "";
@@ -669,6 +1363,8 @@ public final class DzhyunStatic {
       zuoShou_ = 0L;
       zhangTing_ = 0L;
       dieTing_ = 0L;
+      tradeTimeNum_ = 0L;
+      tradeTimes_ = java.util.Collections.emptyList();
     }
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
@@ -719,6 +1415,12 @@ public final class DzhyunStatic {
       }
       if (((bitField0_ & 0x00000400) == 0x00000400)) {
         output.writeInt64(11, dieTing_);
+      }
+      if (((bitField0_ & 0x00000800) == 0x00000800)) {
+        output.writeInt64(12, tradeTimeNum_);
+      }
+      for (int i = 0; i < tradeTimes_.size(); i++) {
+        output.writeMessage(13, tradeTimes_.get(i));
       }
       getUnknownFields().writeTo(output);
     }
@@ -772,6 +1474,14 @@ public final class DzhyunStatic {
       if (((bitField0_ & 0x00000400) == 0x00000400)) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(11, dieTing_);
+      }
+      if (((bitField0_ & 0x00000800) == 0x00000800)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(12, tradeTimeNum_);
+      }
+      for (int i = 0; i < tradeTimes_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(13, tradeTimes_.get(i));
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
@@ -882,6 +1592,7 @@ public final class DzhyunStatic {
       }
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          getTradeTimesFieldBuilder();
         }
       }
       private static Builder create() {
@@ -912,6 +1623,14 @@ public final class DzhyunStatic {
         bitField0_ = (bitField0_ & ~0x00000200);
         dieTing_ = 0L;
         bitField0_ = (bitField0_ & ~0x00000400);
+        tradeTimeNum_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000800);
+        if (tradeTimesBuilder_ == null) {
+          tradeTimes_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00001000);
+        } else {
+          tradeTimesBuilder_.clear();
+        }
         return this;
       }
 
@@ -984,6 +1703,19 @@ public final class DzhyunStatic {
           to_bitField0_ |= 0x00000400;
         }
         result.dieTing_ = dieTing_;
+        if (((from_bitField0_ & 0x00000800) == 0x00000800)) {
+          to_bitField0_ |= 0x00000800;
+        }
+        result.tradeTimeNum_ = tradeTimeNum_;
+        if (tradeTimesBuilder_ == null) {
+          if (((bitField0_ & 0x00001000) == 0x00001000)) {
+            tradeTimes_ = java.util.Collections.unmodifiableList(tradeTimes_);
+            bitField0_ = (bitField0_ & ~0x00001000);
+          }
+          result.tradeTimes_ = tradeTimes_;
+        } else {
+          result.tradeTimes_ = tradeTimesBuilder_.build();
+        }
         result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
@@ -1036,6 +1768,35 @@ public final class DzhyunStatic {
         }
         if (other.hasDieTing()) {
           setDieTing(other.getDieTing());
+        }
+        if (other.hasTradeTimeNum()) {
+          setTradeTimeNum(other.getTradeTimeNum());
+        }
+        if (tradeTimesBuilder_ == null) {
+          if (!other.tradeTimes_.isEmpty()) {
+            if (tradeTimes_.isEmpty()) {
+              tradeTimes_ = other.tradeTimes_;
+              bitField0_ = (bitField0_ & ~0x00001000);
+            } else {
+              ensureTradeTimesIsMutable();
+              tradeTimes_.addAll(other.tradeTimes_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.tradeTimes_.isEmpty()) {
+            if (tradeTimesBuilder_.isEmpty()) {
+              tradeTimesBuilder_.dispose();
+              tradeTimesBuilder_ = null;
+              tradeTimes_ = other.tradeTimes_;
+              bitField0_ = (bitField0_ & ~0x00001000);
+              tradeTimesBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getTradeTimesFieldBuilder() : null;
+            } else {
+              tradeTimesBuilder_.addAllMessages(other.tradeTimes_);
+            }
+          }
         }
         this.mergeUnknownFields(other.getUnknownFields());
         return this;
@@ -1674,6 +2435,366 @@ public final class DzhyunStatic {
         dieTing_ = 0L;
         onChanged();
         return this;
+      }
+
+      private long tradeTimeNum_ ;
+      /**
+       * <code>optional int64 TradeTimeNum = 12;</code>
+       *
+       * <pre>
+       * tradetimenum
+       * </pre>
+       */
+      public boolean hasTradeTimeNum() {
+        return ((bitField0_ & 0x00000800) == 0x00000800);
+      }
+      /**
+       * <code>optional int64 TradeTimeNum = 12;</code>
+       *
+       * <pre>
+       * tradetimenum
+       * </pre>
+       */
+      public long getTradeTimeNum() {
+        return tradeTimeNum_;
+      }
+      /**
+       * <code>optional int64 TradeTimeNum = 12;</code>
+       *
+       * <pre>
+       * tradetimenum
+       * </pre>
+       */
+      public Builder setTradeTimeNum(long value) {
+        bitField0_ |= 0x00000800;
+        tradeTimeNum_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 TradeTimeNum = 12;</code>
+       *
+       * <pre>
+       * tradetimenum
+       * </pre>
+       */
+      public Builder clearTradeTimeNum() {
+        bitField0_ = (bitField0_ & ~0x00000800);
+        tradeTimeNum_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private java.util.List<com.dzhyun.proto.DzhyunStatic.TradeTime> tradeTimes_ =
+        java.util.Collections.emptyList();
+      private void ensureTradeTimesIsMutable() {
+        if (!((bitField0_ & 0x00001000) == 0x00001000)) {
+          tradeTimes_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunStatic.TradeTime>(tradeTimes_);
+          bitField0_ |= 0x00001000;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.DzhyunStatic.TradeTime, com.dzhyun.proto.DzhyunStatic.TradeTime.Builder, com.dzhyun.proto.DzhyunStatic.TradeTimeOrBuilder> tradeTimesBuilder_;
+
+      /**
+       * <code>repeated .dzhyun.TradeTime TradeTimes = 13;</code>
+       *
+       * <pre>
+       * TradeTime
+       * </pre>
+       */
+      public java.util.List<com.dzhyun.proto.DzhyunStatic.TradeTime> getTradeTimesList() {
+        if (tradeTimesBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(tradeTimes_);
+        } else {
+          return tradeTimesBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.TradeTime TradeTimes = 13;</code>
+       *
+       * <pre>
+       * TradeTime
+       * </pre>
+       */
+      public int getTradeTimesCount() {
+        if (tradeTimesBuilder_ == null) {
+          return tradeTimes_.size();
+        } else {
+          return tradeTimesBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.TradeTime TradeTimes = 13;</code>
+       *
+       * <pre>
+       * TradeTime
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhyunStatic.TradeTime getTradeTimes(int index) {
+        if (tradeTimesBuilder_ == null) {
+          return tradeTimes_.get(index);
+        } else {
+          return tradeTimesBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.TradeTime TradeTimes = 13;</code>
+       *
+       * <pre>
+       * TradeTime
+       * </pre>
+       */
+      public Builder setTradeTimes(
+          int index, com.dzhyun.proto.DzhyunStatic.TradeTime value) {
+        if (tradeTimesBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureTradeTimesIsMutable();
+          tradeTimes_.set(index, value);
+          onChanged();
+        } else {
+          tradeTimesBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.TradeTime TradeTimes = 13;</code>
+       *
+       * <pre>
+       * TradeTime
+       * </pre>
+       */
+      public Builder setTradeTimes(
+          int index, com.dzhyun.proto.DzhyunStatic.TradeTime.Builder builderForValue) {
+        if (tradeTimesBuilder_ == null) {
+          ensureTradeTimesIsMutable();
+          tradeTimes_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          tradeTimesBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.TradeTime TradeTimes = 13;</code>
+       *
+       * <pre>
+       * TradeTime
+       * </pre>
+       */
+      public Builder addTradeTimes(com.dzhyun.proto.DzhyunStatic.TradeTime value) {
+        if (tradeTimesBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureTradeTimesIsMutable();
+          tradeTimes_.add(value);
+          onChanged();
+        } else {
+          tradeTimesBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.TradeTime TradeTimes = 13;</code>
+       *
+       * <pre>
+       * TradeTime
+       * </pre>
+       */
+      public Builder addTradeTimes(
+          int index, com.dzhyun.proto.DzhyunStatic.TradeTime value) {
+        if (tradeTimesBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureTradeTimesIsMutable();
+          tradeTimes_.add(index, value);
+          onChanged();
+        } else {
+          tradeTimesBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.TradeTime TradeTimes = 13;</code>
+       *
+       * <pre>
+       * TradeTime
+       * </pre>
+       */
+      public Builder addTradeTimes(
+          com.dzhyun.proto.DzhyunStatic.TradeTime.Builder builderForValue) {
+        if (tradeTimesBuilder_ == null) {
+          ensureTradeTimesIsMutable();
+          tradeTimes_.add(builderForValue.build());
+          onChanged();
+        } else {
+          tradeTimesBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.TradeTime TradeTimes = 13;</code>
+       *
+       * <pre>
+       * TradeTime
+       * </pre>
+       */
+      public Builder addTradeTimes(
+          int index, com.dzhyun.proto.DzhyunStatic.TradeTime.Builder builderForValue) {
+        if (tradeTimesBuilder_ == null) {
+          ensureTradeTimesIsMutable();
+          tradeTimes_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          tradeTimesBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.TradeTime TradeTimes = 13;</code>
+       *
+       * <pre>
+       * TradeTime
+       * </pre>
+       */
+      public Builder addAllTradeTimes(
+          java.lang.Iterable<? extends com.dzhyun.proto.DzhyunStatic.TradeTime> values) {
+        if (tradeTimesBuilder_ == null) {
+          ensureTradeTimesIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, tradeTimes_);
+          onChanged();
+        } else {
+          tradeTimesBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.TradeTime TradeTimes = 13;</code>
+       *
+       * <pre>
+       * TradeTime
+       * </pre>
+       */
+      public Builder clearTradeTimes() {
+        if (tradeTimesBuilder_ == null) {
+          tradeTimes_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00001000);
+          onChanged();
+        } else {
+          tradeTimesBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.TradeTime TradeTimes = 13;</code>
+       *
+       * <pre>
+       * TradeTime
+       * </pre>
+       */
+      public Builder removeTradeTimes(int index) {
+        if (tradeTimesBuilder_ == null) {
+          ensureTradeTimesIsMutable();
+          tradeTimes_.remove(index);
+          onChanged();
+        } else {
+          tradeTimesBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.TradeTime TradeTimes = 13;</code>
+       *
+       * <pre>
+       * TradeTime
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhyunStatic.TradeTime.Builder getTradeTimesBuilder(
+          int index) {
+        return getTradeTimesFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .dzhyun.TradeTime TradeTimes = 13;</code>
+       *
+       * <pre>
+       * TradeTime
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhyunStatic.TradeTimeOrBuilder getTradeTimesOrBuilder(
+          int index) {
+        if (tradeTimesBuilder_ == null) {
+          return tradeTimes_.get(index);  } else {
+          return tradeTimesBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.TradeTime TradeTimes = 13;</code>
+       *
+       * <pre>
+       * TradeTime
+       * </pre>
+       */
+      public java.util.List<? extends com.dzhyun.proto.DzhyunStatic.TradeTimeOrBuilder> 
+           getTradeTimesOrBuilderList() {
+        if (tradeTimesBuilder_ != null) {
+          return tradeTimesBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(tradeTimes_);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.TradeTime TradeTimes = 13;</code>
+       *
+       * <pre>
+       * TradeTime
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhyunStatic.TradeTime.Builder addTradeTimesBuilder() {
+        return getTradeTimesFieldBuilder().addBuilder(
+            com.dzhyun.proto.DzhyunStatic.TradeTime.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.TradeTime TradeTimes = 13;</code>
+       *
+       * <pre>
+       * TradeTime
+       * </pre>
+       */
+      public com.dzhyun.proto.DzhyunStatic.TradeTime.Builder addTradeTimesBuilder(
+          int index) {
+        return getTradeTimesFieldBuilder().addBuilder(
+            index, com.dzhyun.proto.DzhyunStatic.TradeTime.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.TradeTime TradeTimes = 13;</code>
+       *
+       * <pre>
+       * TradeTime
+       * </pre>
+       */
+      public java.util.List<com.dzhyun.proto.DzhyunStatic.TradeTime.Builder> 
+           getTradeTimesBuilderList() {
+        return getTradeTimesFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.DzhyunStatic.TradeTime, com.dzhyun.proto.DzhyunStatic.TradeTime.Builder, com.dzhyun.proto.DzhyunStatic.TradeTimeOrBuilder> 
+          getTradeTimesFieldBuilder() {
+        if (tradeTimesBuilder_ == null) {
+          tradeTimesBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              com.dzhyun.proto.DzhyunStatic.TradeTime, com.dzhyun.proto.DzhyunStatic.TradeTime.Builder, com.dzhyun.proto.DzhyunStatic.TradeTimeOrBuilder>(
+                  tradeTimes_,
+                  ((bitField0_ & 0x00001000) == 0x00001000),
+                  getParentForChildren(),
+                  isClean());
+          tradeTimes_ = null;
+        }
+        return tradeTimesBuilder_;
       }
 
       // @@protoc_insertion_point(builder_scope:dzhyun.Static)
@@ -2376,6 +3497,11 @@ public final class DzhyunStatic {
   }
 
   private static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_dzhyun_TradeTime_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_dzhyun_TradeTime_fieldAccessorTable;
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dzhyun_Static_descriptor;
   private static
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
@@ -2394,14 +3520,17 @@ public final class DzhyunStatic {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\023dzhyun.static.proto\022\006dzhyun\"\334\001\n\006Static" +
-      "\022\013\n\003Obj\030\001 \002(\t\022\031\n\021ZhongWenJianCheng\030\002 \001(\t" +
-      "\022\017\n\007LeiXing\030\003 \001(\003\022\021\n\tZiLeiXing\030\004 \001(\003\022\022\n\n" +
-      "XiaoShuWei\030\005 \001(\003\022\024\n\014MeiShouGuShu\030\006 \001(\003\022\024" +
-      "\n\014LiuTongGuBen\030\007 \001(\003\022\021\n\tZongGuBen\030\010 \001(\003\022" +
-      "\017\n\007ZuoShou\030\t \001(\003\022\021\n\tZhangTing\030\n \001(\003\022\017\n\007D" +
-      "ieTing\030\013 \001(\003\"+\n\013StaticTable\022\034\n\004Rows\030\001 \003(" +
-      "\0132\016.dzhyun.StaticB\022\n\020com.dzhyun.proto"
+      "\n\023dzhyun.static.proto\022\006dzhyun\"/\n\tTradeTi" +
+      "me\022\021\n\tStartTime\030\001 \001(\003\022\017\n\007EndTime\030\002 \001(\003\"\231" +
+      "\002\n\006Static\022\013\n\003Obj\030\001 \002(\t\022\031\n\021ZhongWenJianCh" +
+      "eng\030\002 \001(\t\022\017\n\007LeiXing\030\003 \001(\003\022\021\n\tZiLeiXing\030" +
+      "\004 \001(\003\022\022\n\nXiaoShuWei\030\005 \001(\003\022\024\n\014MeiShouGuSh" +
+      "u\030\006 \001(\003\022\024\n\014LiuTongGuBen\030\007 \001(\003\022\021\n\tZongGuB" +
+      "en\030\010 \001(\003\022\017\n\007ZuoShou\030\t \001(\003\022\021\n\tZhangTing\030\n" +
+      " \001(\003\022\017\n\007DieTing\030\013 \001(\003\022\024\n\014TradeTimeNum\030\014 " +
+      "\001(\003\022%\n\nTradeTimes\030\r \003(\0132\021.dzhyun.TradeTi" +
+      "me\"+\n\013StaticTable\022\034\n\004Rows\030\001 \003(\0132\016.dzhyun",
+      ".StaticB\022\n\020com.dzhyun.proto"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -2415,14 +3544,20 @@ public final class DzhyunStatic {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
         }, assigner);
-    internal_static_dzhyun_Static_descriptor =
+    internal_static_dzhyun_TradeTime_descriptor =
       getDescriptor().getMessageTypes().get(0);
+    internal_static_dzhyun_TradeTime_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_dzhyun_TradeTime_descriptor,
+        new java.lang.String[] { "StartTime", "EndTime", });
+    internal_static_dzhyun_Static_descriptor =
+      getDescriptor().getMessageTypes().get(1);
     internal_static_dzhyun_Static_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dzhyun_Static_descriptor,
-        new java.lang.String[] { "Obj", "ZhongWenJianCheng", "LeiXing", "ZiLeiXing", "XiaoShuWei", "MeiShouGuShu", "LiuTongGuBen", "ZongGuBen", "ZuoShou", "ZhangTing", "DieTing", });
+        new java.lang.String[] { "Obj", "ZhongWenJianCheng", "LeiXing", "ZiLeiXing", "XiaoShuWei", "MeiShouGuShu", "LiuTongGuBen", "ZongGuBen", "ZuoShou", "ZhangTing", "DieTing", "TradeTimeNum", "TradeTimes", });
     internal_static_dzhyun_StaticTable_descriptor =
-      getDescriptor().getMessageTypes().get(1);
+      getDescriptor().getMessageTypes().get(2);
     internal_static_dzhyun_StaticTable_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dzhyun_StaticTable_descriptor,

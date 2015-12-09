@@ -743,8 +743,8 @@ public final class DzhyunStockpool {
     // @@protoc_insertion_point(class_scope:dzhyun.Stock)
   }
 
-  public interface StkPoolOuputOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:dzhyun.StkPoolOuput)
+  public interface StkPoolOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:dzhyun.StkPool)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -786,25 +786,25 @@ public final class DzhyunStockpool {
         int index);
   }
   /**
-   * Protobuf type {@code dzhyun.StkPoolOuput}
+   * Protobuf type {@code dzhyun.StkPool}
    */
-  public static final class StkPoolOuput extends
+  public static final class StkPool extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:dzhyun.StkPoolOuput)
-      StkPoolOuputOrBuilder {
-    // Use StkPoolOuput.newBuilder() to construct.
-    private StkPoolOuput(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      // @@protoc_insertion_point(message_implements:dzhyun.StkPool)
+      StkPoolOrBuilder {
+    // Use StkPool.newBuilder() to construct.
+    private StkPool(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
       this.unknownFields = builder.getUnknownFields();
     }
-    private StkPoolOuput(boolean noInit) { this.unknownFields = com.google.protobuf.UnknownFieldSet.getDefaultInstance(); }
+    private StkPool(boolean noInit) { this.unknownFields = com.google.protobuf.UnknownFieldSet.getDefaultInstance(); }
 
-    private static final StkPoolOuput defaultInstance;
-    public static StkPoolOuput getDefaultInstance() {
+    private static final StkPool defaultInstance;
+    public static StkPool getDefaultInstance() {
       return defaultInstance;
     }
 
-    public StkPoolOuput getDefaultInstanceForType() {
+    public StkPool getDefaultInstanceForType() {
       return defaultInstance;
     }
 
@@ -814,7 +814,7 @@ public final class DzhyunStockpool {
         getUnknownFields() {
       return this.unknownFields;
     }
-    private StkPoolOuput(
+    private StkPool(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -868,28 +868,28 @@ public final class DzhyunStockpool {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.dzhyun.proto.DzhyunStockpool.internal_static_dzhyun_StkPoolOuput_descriptor;
+      return com.dzhyun.proto.DzhyunStockpool.internal_static_dzhyun_StkPool_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.dzhyun.proto.DzhyunStockpool.internal_static_dzhyun_StkPoolOuput_fieldAccessorTable
+      return com.dzhyun.proto.DzhyunStockpool.internal_static_dzhyun_StkPool_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              com.dzhyun.proto.DzhyunStockpool.StkPoolOuput.class, com.dzhyun.proto.DzhyunStockpool.StkPoolOuput.Builder.class);
+              com.dzhyun.proto.DzhyunStockpool.StkPool.class, com.dzhyun.proto.DzhyunStockpool.StkPool.Builder.class);
     }
 
-    public static com.google.protobuf.Parser<StkPoolOuput> PARSER =
-        new com.google.protobuf.AbstractParser<StkPoolOuput>() {
-      public StkPoolOuput parsePartialFrom(
+    public static com.google.protobuf.Parser<StkPool> PARSER =
+        new com.google.protobuf.AbstractParser<StkPool>() {
+      public StkPool parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        return new StkPoolOuput(input, extensionRegistry);
+        return new StkPool(input, extensionRegistry);
       }
     };
 
     @java.lang.Override
-    public com.google.protobuf.Parser<StkPoolOuput> getParserForType() {
+    public com.google.protobuf.Parser<StkPool> getParserForType() {
       return PARSER;
     }
 
@@ -1033,53 +1033,53 @@ public final class DzhyunStockpool {
       return super.writeReplace();
     }
 
-    public static com.dzhyun.proto.DzhyunStockpool.StkPoolOuput parseFrom(
+    public static com.dzhyun.proto.DzhyunStockpool.StkPool parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.dzhyun.proto.DzhyunStockpool.StkPoolOuput parseFrom(
+    public static com.dzhyun.proto.DzhyunStockpool.StkPool parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.dzhyun.proto.DzhyunStockpool.StkPoolOuput parseFrom(byte[] data)
+    public static com.dzhyun.proto.DzhyunStockpool.StkPool parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.dzhyun.proto.DzhyunStockpool.StkPoolOuput parseFrom(
+    public static com.dzhyun.proto.DzhyunStockpool.StkPool parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.dzhyun.proto.DzhyunStockpool.StkPoolOuput parseFrom(java.io.InputStream input)
+    public static com.dzhyun.proto.DzhyunStockpool.StkPool parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return PARSER.parseFrom(input);
     }
-    public static com.dzhyun.proto.DzhyunStockpool.StkPoolOuput parseFrom(
+    public static com.dzhyun.proto.DzhyunStockpool.StkPool parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return PARSER.parseFrom(input, extensionRegistry);
     }
-    public static com.dzhyun.proto.DzhyunStockpool.StkPoolOuput parseDelimitedFrom(java.io.InputStream input)
+    public static com.dzhyun.proto.DzhyunStockpool.StkPool parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return PARSER.parseDelimitedFrom(input);
     }
-    public static com.dzhyun.proto.DzhyunStockpool.StkPoolOuput parseDelimitedFrom(
+    public static com.dzhyun.proto.DzhyunStockpool.StkPool parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return PARSER.parseDelimitedFrom(input, extensionRegistry);
     }
-    public static com.dzhyun.proto.DzhyunStockpool.StkPoolOuput parseFrom(
+    public static com.dzhyun.proto.DzhyunStockpool.StkPool parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return PARSER.parseFrom(input);
     }
-    public static com.dzhyun.proto.DzhyunStockpool.StkPoolOuput parseFrom(
+    public static com.dzhyun.proto.DzhyunStockpool.StkPool parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -1088,7 +1088,7 @@ public final class DzhyunStockpool {
 
     public static Builder newBuilder() { return Builder.create(); }
     public Builder newBuilderForType() { return newBuilder(); }
-    public static Builder newBuilder(com.dzhyun.proto.DzhyunStockpool.StkPoolOuput prototype) {
+    public static Builder newBuilder(com.dzhyun.proto.DzhyunStockpool.StkPool prototype) {
       return newBuilder().mergeFrom(prototype);
     }
     public Builder toBuilder() { return newBuilder(this); }
@@ -1100,25 +1100,25 @@ public final class DzhyunStockpool {
       return builder;
     }
     /**
-     * Protobuf type {@code dzhyun.StkPoolOuput}
+     * Protobuf type {@code dzhyun.StkPool}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:dzhyun.StkPoolOuput)
-        com.dzhyun.proto.DzhyunStockpool.StkPoolOuputOrBuilder {
+        // @@protoc_insertion_point(builder_implements:dzhyun.StkPool)
+        com.dzhyun.proto.DzhyunStockpool.StkPoolOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.dzhyun.proto.DzhyunStockpool.internal_static_dzhyun_StkPoolOuput_descriptor;
+        return com.dzhyun.proto.DzhyunStockpool.internal_static_dzhyun_StkPool_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.dzhyun.proto.DzhyunStockpool.internal_static_dzhyun_StkPoolOuput_fieldAccessorTable
+        return com.dzhyun.proto.DzhyunStockpool.internal_static_dzhyun_StkPool_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                com.dzhyun.proto.DzhyunStockpool.StkPoolOuput.class, com.dzhyun.proto.DzhyunStockpool.StkPoolOuput.Builder.class);
+                com.dzhyun.proto.DzhyunStockpool.StkPool.class, com.dzhyun.proto.DzhyunStockpool.StkPool.Builder.class);
       }
 
-      // Construct using com.dzhyun.proto.DzhyunStockpool.StkPoolOuput.newBuilder()
+      // Construct using com.dzhyun.proto.DzhyunStockpool.StkPool.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -1156,23 +1156,23 @@ public final class DzhyunStockpool {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.dzhyun.proto.DzhyunStockpool.internal_static_dzhyun_StkPoolOuput_descriptor;
+        return com.dzhyun.proto.DzhyunStockpool.internal_static_dzhyun_StkPool_descriptor;
       }
 
-      public com.dzhyun.proto.DzhyunStockpool.StkPoolOuput getDefaultInstanceForType() {
-        return com.dzhyun.proto.DzhyunStockpool.StkPoolOuput.getDefaultInstance();
+      public com.dzhyun.proto.DzhyunStockpool.StkPool getDefaultInstanceForType() {
+        return com.dzhyun.proto.DzhyunStockpool.StkPool.getDefaultInstance();
       }
 
-      public com.dzhyun.proto.DzhyunStockpool.StkPoolOuput build() {
-        com.dzhyun.proto.DzhyunStockpool.StkPoolOuput result = buildPartial();
+      public com.dzhyun.proto.DzhyunStockpool.StkPool build() {
+        com.dzhyun.proto.DzhyunStockpool.StkPool result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
         return result;
       }
 
-      public com.dzhyun.proto.DzhyunStockpool.StkPoolOuput buildPartial() {
-        com.dzhyun.proto.DzhyunStockpool.StkPoolOuput result = new com.dzhyun.proto.DzhyunStockpool.StkPoolOuput(this);
+      public com.dzhyun.proto.DzhyunStockpool.StkPool buildPartial() {
+        com.dzhyun.proto.DzhyunStockpool.StkPool result = new com.dzhyun.proto.DzhyunStockpool.StkPool(this);
         int from_bitField0_ = bitField0_;
         int to_bitField0_ = 0;
         if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
@@ -1194,16 +1194,16 @@ public final class DzhyunStockpool {
       }
 
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof com.dzhyun.proto.DzhyunStockpool.StkPoolOuput) {
-          return mergeFrom((com.dzhyun.proto.DzhyunStockpool.StkPoolOuput)other);
+        if (other instanceof com.dzhyun.proto.DzhyunStockpool.StkPool) {
+          return mergeFrom((com.dzhyun.proto.DzhyunStockpool.StkPool)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(com.dzhyun.proto.DzhyunStockpool.StkPoolOuput other) {
-        if (other == com.dzhyun.proto.DzhyunStockpool.StkPoolOuput.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.dzhyun.proto.DzhyunStockpool.StkPool other) {
+        if (other == com.dzhyun.proto.DzhyunStockpool.StkPool.getDefaultInstance()) return this;
         if (other.hasText()) {
           bitField0_ |= 0x00000001;
           text_ = other.text_;
@@ -1257,11 +1257,11 @@ public final class DzhyunStockpool {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        com.dzhyun.proto.DzhyunStockpool.StkPoolOuput parsedMessage = null;
+        com.dzhyun.proto.DzhyunStockpool.StkPool parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (com.dzhyun.proto.DzhyunStockpool.StkPoolOuput) e.getUnfinishedMessage();
+          parsedMessage = (com.dzhyun.proto.DzhyunStockpool.StkPool) e.getUnfinishedMessage();
           throw e;
         } finally {
           if (parsedMessage != null) {
@@ -1588,6 +1588,862 @@ public final class DzhyunStockpool {
         return stkBuilder_;
       }
 
+      // @@protoc_insertion_point(builder_scope:dzhyun.StkPool)
+    }
+
+    static {
+      defaultInstance = new StkPool(true);
+      defaultInstance.initFields();
+    }
+
+    // @@protoc_insertion_point(class_scope:dzhyun.StkPool)
+  }
+
+  public interface StkPoolOuputOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:dzhyun.StkPoolOuput)
+      com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>required string CeWenShiJian = 1;</code>
+     */
+    boolean hasCeWenShiJian();
+    /**
+     * <code>required string CeWenShiJian = 1;</code>
+     */
+    java.lang.String getCeWenShiJian();
+    /**
+     * <code>required string CeWenShiJian = 1;</code>
+     */
+    com.google.protobuf.ByteString
+        getCeWenShiJianBytes();
+
+    /**
+     * <code>repeated .dzhyun.StkPool Pooldata = 2;</code>
+     */
+    java.util.List<com.dzhyun.proto.DzhyunStockpool.StkPool> 
+        getPooldataList();
+    /**
+     * <code>repeated .dzhyun.StkPool Pooldata = 2;</code>
+     */
+    com.dzhyun.proto.DzhyunStockpool.StkPool getPooldata(int index);
+    /**
+     * <code>repeated .dzhyun.StkPool Pooldata = 2;</code>
+     */
+    int getPooldataCount();
+    /**
+     * <code>repeated .dzhyun.StkPool Pooldata = 2;</code>
+     */
+    java.util.List<? extends com.dzhyun.proto.DzhyunStockpool.StkPoolOrBuilder> 
+        getPooldataOrBuilderList();
+    /**
+     * <code>repeated .dzhyun.StkPool Pooldata = 2;</code>
+     */
+    com.dzhyun.proto.DzhyunStockpool.StkPoolOrBuilder getPooldataOrBuilder(
+        int index);
+  }
+  /**
+   * Protobuf type {@code dzhyun.StkPoolOuput}
+   */
+  public static final class StkPoolOuput extends
+      com.google.protobuf.GeneratedMessage implements
+      // @@protoc_insertion_point(message_implements:dzhyun.StkPoolOuput)
+      StkPoolOuputOrBuilder {
+    // Use StkPoolOuput.newBuilder() to construct.
+    private StkPoolOuput(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      super(builder);
+      this.unknownFields = builder.getUnknownFields();
+    }
+    private StkPoolOuput(boolean noInit) { this.unknownFields = com.google.protobuf.UnknownFieldSet.getDefaultInstance(); }
+
+    private static final StkPoolOuput defaultInstance;
+    public static StkPoolOuput getDefaultInstance() {
+      return defaultInstance;
+    }
+
+    public StkPoolOuput getDefaultInstanceForType() {
+      return defaultInstance;
+    }
+
+    private final com.google.protobuf.UnknownFieldSet unknownFields;
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+        getUnknownFields() {
+      return this.unknownFields;
+    }
+    private StkPoolOuput(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      initFields();
+      int mutable_bitField0_ = 0;
+      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+          com.google.protobuf.UnknownFieldSet.newBuilder();
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!parseUnknownField(input, unknownFields,
+                                     extensionRegistry, tag)) {
+                done = true;
+              }
+              break;
+            }
+            case 10: {
+              com.google.protobuf.ByteString bs = input.readBytes();
+              bitField0_ |= 0x00000001;
+              ceWenShiJian_ = bs;
+              break;
+            }
+            case 18: {
+              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+                pooldata_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunStockpool.StkPool>();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              pooldata_.add(input.readMessage(com.dzhyun.proto.DzhyunStockpool.StkPool.PARSER, extensionRegistry));
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e.getMessage()).setUnfinishedMessage(this);
+      } finally {
+        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+          pooldata_ = java.util.Collections.unmodifiableList(pooldata_);
+        }
+        this.unknownFields = unknownFields.build();
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return com.dzhyun.proto.DzhyunStockpool.internal_static_dzhyun_StkPoolOuput_descriptor;
+    }
+
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return com.dzhyun.proto.DzhyunStockpool.internal_static_dzhyun_StkPoolOuput_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              com.dzhyun.proto.DzhyunStockpool.StkPoolOuput.class, com.dzhyun.proto.DzhyunStockpool.StkPoolOuput.Builder.class);
+    }
+
+    public static com.google.protobuf.Parser<StkPoolOuput> PARSER =
+        new com.google.protobuf.AbstractParser<StkPoolOuput>() {
+      public StkPoolOuput parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return new StkPoolOuput(input, extensionRegistry);
+      }
+    };
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<StkPoolOuput> getParserForType() {
+      return PARSER;
+    }
+
+    private int bitField0_;
+    public static final int CEWENSHIJIAN_FIELD_NUMBER = 1;
+    private java.lang.Object ceWenShiJian_;
+    /**
+     * <code>required string CeWenShiJian = 1;</code>
+     */
+    public boolean hasCeWenShiJian() {
+      return ((bitField0_ & 0x00000001) == 0x00000001);
+    }
+    /**
+     * <code>required string CeWenShiJian = 1;</code>
+     */
+    public java.lang.String getCeWenShiJian() {
+      java.lang.Object ref = ceWenShiJian_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          ceWenShiJian_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>required string CeWenShiJian = 1;</code>
+     */
+    public com.google.protobuf.ByteString
+        getCeWenShiJianBytes() {
+      java.lang.Object ref = ceWenShiJian_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        ceWenShiJian_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    public static final int POOLDATA_FIELD_NUMBER = 2;
+    private java.util.List<com.dzhyun.proto.DzhyunStockpool.StkPool> pooldata_;
+    /**
+     * <code>repeated .dzhyun.StkPool Pooldata = 2;</code>
+     */
+    public java.util.List<com.dzhyun.proto.DzhyunStockpool.StkPool> getPooldataList() {
+      return pooldata_;
+    }
+    /**
+     * <code>repeated .dzhyun.StkPool Pooldata = 2;</code>
+     */
+    public java.util.List<? extends com.dzhyun.proto.DzhyunStockpool.StkPoolOrBuilder> 
+        getPooldataOrBuilderList() {
+      return pooldata_;
+    }
+    /**
+     * <code>repeated .dzhyun.StkPool Pooldata = 2;</code>
+     */
+    public int getPooldataCount() {
+      return pooldata_.size();
+    }
+    /**
+     * <code>repeated .dzhyun.StkPool Pooldata = 2;</code>
+     */
+    public com.dzhyun.proto.DzhyunStockpool.StkPool getPooldata(int index) {
+      return pooldata_.get(index);
+    }
+    /**
+     * <code>repeated .dzhyun.StkPool Pooldata = 2;</code>
+     */
+    public com.dzhyun.proto.DzhyunStockpool.StkPoolOrBuilder getPooldataOrBuilder(
+        int index) {
+      return pooldata_.get(index);
+    }
+
+    private void initFields() {
+      ceWenShiJian_ = "";
+      pooldata_ = java.util.Collections.emptyList();
+    }
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      if (!hasCeWenShiJian()) {
+        memoizedIsInitialized = 0;
+        return false;
+      }
+      for (int i = 0; i < getPooldataCount(); i++) {
+        if (!getPooldata(i).isInitialized()) {
+          memoizedIsInitialized = 0;
+          return false;
+        }
+      }
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      getSerializedSize();
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        output.writeBytes(1, getCeWenShiJianBytes());
+      }
+      for (int i = 0; i < pooldata_.size(); i++) {
+        output.writeMessage(2, pooldata_.get(i));
+      }
+      getUnknownFields().writeTo(output);
+    }
+
+    private int memoizedSerializedSize = -1;
+    public int getSerializedSize() {
+      int size = memoizedSerializedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(1, getCeWenShiJianBytes());
+      }
+      for (int i = 0; i < pooldata_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(2, pooldata_.get(i));
+      }
+      size += getUnknownFields().getSerializedSize();
+      memoizedSerializedSize = size;
+      return size;
+    }
+
+    private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    protected java.lang.Object writeReplace()
+        throws java.io.ObjectStreamException {
+      return super.writeReplace();
+    }
+
+    public static com.dzhyun.proto.DzhyunStockpool.StkPoolOuput parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.dzhyun.proto.DzhyunStockpool.StkPoolOuput parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhyunStockpool.StkPoolOuput parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.dzhyun.proto.DzhyunStockpool.StkPoolOuput parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhyunStockpool.StkPoolOuput parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.dzhyun.proto.DzhyunStockpool.StkPoolOuput parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhyunStockpool.StkPoolOuput parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input);
+    }
+    public static com.dzhyun.proto.DzhyunStockpool.StkPoolOuput parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhyunStockpool.StkPoolOuput parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.dzhyun.proto.DzhyunStockpool.StkPoolOuput parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+
+    public static Builder newBuilder() { return Builder.create(); }
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder(com.dzhyun.proto.DzhyunStockpool.StkPoolOuput prototype) {
+      return newBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() { return newBuilder(this); }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code dzhyun.StkPoolOuput}
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:dzhyun.StkPoolOuput)
+        com.dzhyun.proto.DzhyunStockpool.StkPoolOuputOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return com.dzhyun.proto.DzhyunStockpool.internal_static_dzhyun_StkPoolOuput_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return com.dzhyun.proto.DzhyunStockpool.internal_static_dzhyun_StkPoolOuput_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                com.dzhyun.proto.DzhyunStockpool.StkPoolOuput.class, com.dzhyun.proto.DzhyunStockpool.StkPoolOuput.Builder.class);
+      }
+
+      // Construct using com.dzhyun.proto.DzhyunStockpool.StkPoolOuput.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          getPooldataFieldBuilder();
+        }
+      }
+      private static Builder create() {
+        return new Builder();
+      }
+
+      public Builder clear() {
+        super.clear();
+        ceWenShiJian_ = "";
+        bitField0_ = (bitField0_ & ~0x00000001);
+        if (pooldataBuilder_ == null) {
+          pooldata_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000002);
+        } else {
+          pooldataBuilder_.clear();
+        }
+        return this;
+      }
+
+      public Builder clone() {
+        return create().mergeFrom(buildPartial());
+      }
+
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return com.dzhyun.proto.DzhyunStockpool.internal_static_dzhyun_StkPoolOuput_descriptor;
+      }
+
+      public com.dzhyun.proto.DzhyunStockpool.StkPoolOuput getDefaultInstanceForType() {
+        return com.dzhyun.proto.DzhyunStockpool.StkPoolOuput.getDefaultInstance();
+      }
+
+      public com.dzhyun.proto.DzhyunStockpool.StkPoolOuput build() {
+        com.dzhyun.proto.DzhyunStockpool.StkPoolOuput result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      public com.dzhyun.proto.DzhyunStockpool.StkPoolOuput buildPartial() {
+        com.dzhyun.proto.DzhyunStockpool.StkPoolOuput result = new com.dzhyun.proto.DzhyunStockpool.StkPoolOuput(this);
+        int from_bitField0_ = bitField0_;
+        int to_bitField0_ = 0;
+        if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
+          to_bitField0_ |= 0x00000001;
+        }
+        result.ceWenShiJian_ = ceWenShiJian_;
+        if (pooldataBuilder_ == null) {
+          if (((bitField0_ & 0x00000002) == 0x00000002)) {
+            pooldata_ = java.util.Collections.unmodifiableList(pooldata_);
+            bitField0_ = (bitField0_ & ~0x00000002);
+          }
+          result.pooldata_ = pooldata_;
+        } else {
+          result.pooldata_ = pooldataBuilder_.build();
+        }
+        result.bitField0_ = to_bitField0_;
+        onBuilt();
+        return result;
+      }
+
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof com.dzhyun.proto.DzhyunStockpool.StkPoolOuput) {
+          return mergeFrom((com.dzhyun.proto.DzhyunStockpool.StkPoolOuput)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(com.dzhyun.proto.DzhyunStockpool.StkPoolOuput other) {
+        if (other == com.dzhyun.proto.DzhyunStockpool.StkPoolOuput.getDefaultInstance()) return this;
+        if (other.hasCeWenShiJian()) {
+          bitField0_ |= 0x00000001;
+          ceWenShiJian_ = other.ceWenShiJian_;
+          onChanged();
+        }
+        if (pooldataBuilder_ == null) {
+          if (!other.pooldata_.isEmpty()) {
+            if (pooldata_.isEmpty()) {
+              pooldata_ = other.pooldata_;
+              bitField0_ = (bitField0_ & ~0x00000002);
+            } else {
+              ensurePooldataIsMutable();
+              pooldata_.addAll(other.pooldata_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.pooldata_.isEmpty()) {
+            if (pooldataBuilder_.isEmpty()) {
+              pooldataBuilder_.dispose();
+              pooldataBuilder_ = null;
+              pooldata_ = other.pooldata_;
+              bitField0_ = (bitField0_ & ~0x00000002);
+              pooldataBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getPooldataFieldBuilder() : null;
+            } else {
+              pooldataBuilder_.addAllMessages(other.pooldata_);
+            }
+          }
+        }
+        this.mergeUnknownFields(other.getUnknownFields());
+        return this;
+      }
+
+      public final boolean isInitialized() {
+        if (!hasCeWenShiJian()) {
+          
+          return false;
+        }
+        for (int i = 0; i < getPooldataCount(); i++) {
+          if (!getPooldata(i).isInitialized()) {
+            
+            return false;
+          }
+        }
+        return true;
+      }
+
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.dzhyun.proto.DzhyunStockpool.StkPoolOuput parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (com.dzhyun.proto.DzhyunStockpool.StkPoolOuput) e.getUnfinishedMessage();
+          throw e;
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+      private int bitField0_;
+
+      private java.lang.Object ceWenShiJian_ = "";
+      /**
+       * <code>required string CeWenShiJian = 1;</code>
+       */
+      public boolean hasCeWenShiJian() {
+        return ((bitField0_ & 0x00000001) == 0x00000001);
+      }
+      /**
+       * <code>required string CeWenShiJian = 1;</code>
+       */
+      public java.lang.String getCeWenShiJian() {
+        java.lang.Object ref = ceWenShiJian_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          if (bs.isValidUtf8()) {
+            ceWenShiJian_ = s;
+          }
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>required string CeWenShiJian = 1;</code>
+       */
+      public com.google.protobuf.ByteString
+          getCeWenShiJianBytes() {
+        java.lang.Object ref = ceWenShiJian_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          ceWenShiJian_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>required string CeWenShiJian = 1;</code>
+       */
+      public Builder setCeWenShiJian(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000001;
+        ceWenShiJian_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string CeWenShiJian = 1;</code>
+       */
+      public Builder clearCeWenShiJian() {
+        bitField0_ = (bitField0_ & ~0x00000001);
+        ceWenShiJian_ = getDefaultInstance().getCeWenShiJian();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string CeWenShiJian = 1;</code>
+       */
+      public Builder setCeWenShiJianBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000001;
+        ceWenShiJian_ = value;
+        onChanged();
+        return this;
+      }
+
+      private java.util.List<com.dzhyun.proto.DzhyunStockpool.StkPool> pooldata_ =
+        java.util.Collections.emptyList();
+      private void ensurePooldataIsMutable() {
+        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
+          pooldata_ = new java.util.ArrayList<com.dzhyun.proto.DzhyunStockpool.StkPool>(pooldata_);
+          bitField0_ |= 0x00000002;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.DzhyunStockpool.StkPool, com.dzhyun.proto.DzhyunStockpool.StkPool.Builder, com.dzhyun.proto.DzhyunStockpool.StkPoolOrBuilder> pooldataBuilder_;
+
+      /**
+       * <code>repeated .dzhyun.StkPool Pooldata = 2;</code>
+       */
+      public java.util.List<com.dzhyun.proto.DzhyunStockpool.StkPool> getPooldataList() {
+        if (pooldataBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(pooldata_);
+        } else {
+          return pooldataBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.StkPool Pooldata = 2;</code>
+       */
+      public int getPooldataCount() {
+        if (pooldataBuilder_ == null) {
+          return pooldata_.size();
+        } else {
+          return pooldataBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.StkPool Pooldata = 2;</code>
+       */
+      public com.dzhyun.proto.DzhyunStockpool.StkPool getPooldata(int index) {
+        if (pooldataBuilder_ == null) {
+          return pooldata_.get(index);
+        } else {
+          return pooldataBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.StkPool Pooldata = 2;</code>
+       */
+      public Builder setPooldata(
+          int index, com.dzhyun.proto.DzhyunStockpool.StkPool value) {
+        if (pooldataBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensurePooldataIsMutable();
+          pooldata_.set(index, value);
+          onChanged();
+        } else {
+          pooldataBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.StkPool Pooldata = 2;</code>
+       */
+      public Builder setPooldata(
+          int index, com.dzhyun.proto.DzhyunStockpool.StkPool.Builder builderForValue) {
+        if (pooldataBuilder_ == null) {
+          ensurePooldataIsMutable();
+          pooldata_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          pooldataBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.StkPool Pooldata = 2;</code>
+       */
+      public Builder addPooldata(com.dzhyun.proto.DzhyunStockpool.StkPool value) {
+        if (pooldataBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensurePooldataIsMutable();
+          pooldata_.add(value);
+          onChanged();
+        } else {
+          pooldataBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.StkPool Pooldata = 2;</code>
+       */
+      public Builder addPooldata(
+          int index, com.dzhyun.proto.DzhyunStockpool.StkPool value) {
+        if (pooldataBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensurePooldataIsMutable();
+          pooldata_.add(index, value);
+          onChanged();
+        } else {
+          pooldataBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.StkPool Pooldata = 2;</code>
+       */
+      public Builder addPooldata(
+          com.dzhyun.proto.DzhyunStockpool.StkPool.Builder builderForValue) {
+        if (pooldataBuilder_ == null) {
+          ensurePooldataIsMutable();
+          pooldata_.add(builderForValue.build());
+          onChanged();
+        } else {
+          pooldataBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.StkPool Pooldata = 2;</code>
+       */
+      public Builder addPooldata(
+          int index, com.dzhyun.proto.DzhyunStockpool.StkPool.Builder builderForValue) {
+        if (pooldataBuilder_ == null) {
+          ensurePooldataIsMutable();
+          pooldata_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          pooldataBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.StkPool Pooldata = 2;</code>
+       */
+      public Builder addAllPooldata(
+          java.lang.Iterable<? extends com.dzhyun.proto.DzhyunStockpool.StkPool> values) {
+        if (pooldataBuilder_ == null) {
+          ensurePooldataIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, pooldata_);
+          onChanged();
+        } else {
+          pooldataBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.StkPool Pooldata = 2;</code>
+       */
+      public Builder clearPooldata() {
+        if (pooldataBuilder_ == null) {
+          pooldata_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000002);
+          onChanged();
+        } else {
+          pooldataBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.StkPool Pooldata = 2;</code>
+       */
+      public Builder removePooldata(int index) {
+        if (pooldataBuilder_ == null) {
+          ensurePooldataIsMutable();
+          pooldata_.remove(index);
+          onChanged();
+        } else {
+          pooldataBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.StkPool Pooldata = 2;</code>
+       */
+      public com.dzhyun.proto.DzhyunStockpool.StkPool.Builder getPooldataBuilder(
+          int index) {
+        return getPooldataFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .dzhyun.StkPool Pooldata = 2;</code>
+       */
+      public com.dzhyun.proto.DzhyunStockpool.StkPoolOrBuilder getPooldataOrBuilder(
+          int index) {
+        if (pooldataBuilder_ == null) {
+          return pooldata_.get(index);  } else {
+          return pooldataBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.StkPool Pooldata = 2;</code>
+       */
+      public java.util.List<? extends com.dzhyun.proto.DzhyunStockpool.StkPoolOrBuilder> 
+           getPooldataOrBuilderList() {
+        if (pooldataBuilder_ != null) {
+          return pooldataBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(pooldata_);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.StkPool Pooldata = 2;</code>
+       */
+      public com.dzhyun.proto.DzhyunStockpool.StkPool.Builder addPooldataBuilder() {
+        return getPooldataFieldBuilder().addBuilder(
+            com.dzhyun.proto.DzhyunStockpool.StkPool.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.StkPool Pooldata = 2;</code>
+       */
+      public com.dzhyun.proto.DzhyunStockpool.StkPool.Builder addPooldataBuilder(
+          int index) {
+        return getPooldataFieldBuilder().addBuilder(
+            index, com.dzhyun.proto.DzhyunStockpool.StkPool.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.StkPool Pooldata = 2;</code>
+       */
+      public java.util.List<com.dzhyun.proto.DzhyunStockpool.StkPool.Builder> 
+           getPooldataBuilderList() {
+        return getPooldataFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.DzhyunStockpool.StkPool, com.dzhyun.proto.DzhyunStockpool.StkPool.Builder, com.dzhyun.proto.DzhyunStockpool.StkPoolOrBuilder> 
+          getPooldataFieldBuilder() {
+        if (pooldataBuilder_ == null) {
+          pooldataBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              com.dzhyun.proto.DzhyunStockpool.StkPool, com.dzhyun.proto.DzhyunStockpool.StkPool.Builder, com.dzhyun.proto.DzhyunStockpool.StkPoolOrBuilder>(
+                  pooldata_,
+                  ((bitField0_ & 0x00000002) == 0x00000002),
+                  getParentForChildren(),
+                  isClean());
+          pooldata_ = null;
+        }
+        return pooldataBuilder_;
+      }
+
       // @@protoc_insertion_point(builder_scope:dzhyun.StkPoolOuput)
     }
 
@@ -1605,6 +2461,11 @@ public final class DzhyunStockpool {
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dzhyun_Stock_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_dzhyun_StkPool_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_dzhyun_StkPool_fieldAccessorTable;
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dzhyun_StkPoolOuput_descriptor;
   private static
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
@@ -1620,9 +2481,10 @@ public final class DzhyunStockpool {
     java.lang.String[] descriptorData = {
       "\n\026dzhyun.stockpool.proto\022\006dzhyun\"1\n\005Stoc" +
       "k\022\r\n\005Price\030\001 \002(\003\022\014\n\004Time\030\002 \002(\t\022\013\n\003Obj\030\003 " +
-      "\002(\t\"8\n\014StkPoolOuput\022\014\n\004Text\030\001 \002(\t\022\032\n\003Stk" +
-      "\030\002 \003(\0132\r.dzhyun.StockB\022\n\020com.dzhyun.prot" +
-      "o"
+      "\002(\t\"3\n\007StkPool\022\014\n\004Text\030\001 \002(\t\022\032\n\003Stk\030\002 \003(" +
+      "\0132\r.dzhyun.Stock\"G\n\014StkPoolOuput\022\024\n\014CeWe" +
+      "nShiJian\030\001 \002(\t\022!\n\010Pooldata\030\002 \003(\0132\017.dzhyu" +
+      "n.StkPoolB\022\n\020com.dzhyun.proto"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -1642,12 +2504,18 @@ public final class DzhyunStockpool {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dzhyun_Stock_descriptor,
         new java.lang.String[] { "Price", "Time", "Obj", });
-    internal_static_dzhyun_StkPoolOuput_descriptor =
+    internal_static_dzhyun_StkPool_descriptor =
       getDescriptor().getMessageTypes().get(1);
+    internal_static_dzhyun_StkPool_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_dzhyun_StkPool_descriptor,
+        new java.lang.String[] { "Text", "Stk", });
+    internal_static_dzhyun_StkPoolOuput_descriptor =
+      getDescriptor().getMessageTypes().get(2);
     internal_static_dzhyun_StkPoolOuput_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dzhyun_StkPoolOuput_descriptor,
-        new java.lang.String[] { "Text", "Stk", });
+        new java.lang.String[] { "CeWenShiJian", "Pooldata", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

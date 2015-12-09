@@ -973,11 +973,3400 @@ public final class DzhyunDxspirit {
     // @@protoc_insertion_point(class_scope:dzhyun.DXSpirit)
   }
 
+  public interface DXSpiritStatOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:dzhyun.DXSpiritStat)
+      com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>optional string Obj = 1;</code>
+     *
+     * <pre>
+     * 
+     * </pre>
+     */
+    boolean hasObj();
+    /**
+     * <code>optional string Obj = 1;</code>
+     *
+     * <pre>
+     * 
+     * </pre>
+     */
+    java.lang.String getObj();
+    /**
+     * <code>optional string Obj = 1;</code>
+     *
+     * <pre>
+     * 
+     * </pre>
+     */
+    com.google.protobuf.ByteString
+        getObjBytes();
+
+    /**
+     * <code>optional int64 HjfsTotal = 2;</code>
+     *
+     * <pre>
+     *火箭发射数量
+     * </pre>
+     */
+    boolean hasHjfsTotal();
+    /**
+     * <code>optional int64 HjfsTotal = 2;</code>
+     *
+     * <pre>
+     *火箭发射数量
+     * </pre>
+     */
+    long getHjfsTotal();
+
+    /**
+     * <code>optional int64 KsftTotal = 3;</code>
+     *
+     * <pre>
+     *快速反弹数量
+     * </pre>
+     */
+    boolean hasKsftTotal();
+    /**
+     * <code>optional int64 KsftTotal = 3;</code>
+     *
+     * <pre>
+     *快速反弹数量
+     * </pre>
+     */
+    long getKsftTotal();
+
+    /**
+     * <code>optional int64 GttsTotal = 4;</code>
+     *
+     * <pre>
+     *高台跳水数量
+     * </pre>
+     */
+    boolean hasGttsTotal();
+    /**
+     * <code>optional int64 GttsTotal = 4;</code>
+     *
+     * <pre>
+     *高台跳水数量
+     * </pre>
+     */
+    long getGttsTotal();
+
+    /**
+     * <code>optional int64 JsxdTotal = 5;</code>
+     *
+     * <pre>
+     *加速下跌数量
+     * </pre>
+     */
+    boolean hasJsxdTotal();
+    /**
+     * <code>optional int64 JsxdTotal = 5;</code>
+     *
+     * <pre>
+     *加速下跌数量
+     * </pre>
+     */
+    long getJsxdTotal();
+
+    /**
+     * <code>optional int64 DbmrTotal = 6;</code>
+     *
+     * <pre>
+     *大笔买入数量
+     * </pre>
+     */
+    boolean hasDbmrTotal();
+    /**
+     * <code>optional int64 DbmrTotal = 6;</code>
+     *
+     * <pre>
+     *大笔买入数量
+     * </pre>
+     */
+    long getDbmrTotal();
+
+    /**
+     * <code>optional int64 DbmrStatistics = 7;</code>
+     *
+     * <pre>
+     *大笔买入手数
+     * </pre>
+     */
+    boolean hasDbmrStatistics();
+    /**
+     * <code>optional int64 DbmrStatistics = 7;</code>
+     *
+     * <pre>
+     *大笔买入手数
+     * </pre>
+     */
+    long getDbmrStatistics();
+
+    /**
+     * <code>optional int64 DbmcTotal = 8;</code>
+     *
+     * <pre>
+     *大笔卖出数量
+     * </pre>
+     */
+    boolean hasDbmcTotal();
+    /**
+     * <code>optional int64 DbmcTotal = 8;</code>
+     *
+     * <pre>
+     *大笔卖出数量
+     * </pre>
+     */
+    long getDbmcTotal();
+
+    /**
+     * <code>optional int64 DbmcStatistics = 9;</code>
+     *
+     * <pre>
+     *大笔卖出手数
+     * </pre>
+     */
+    boolean hasDbmcStatistics();
+    /**
+     * <code>optional int64 DbmcStatistics = 9;</code>
+     *
+     * <pre>
+     *大笔卖出手数
+     * </pre>
+     */
+    long getDbmcStatistics();
+
+    /**
+     * <code>optional int64 FztbTotal = 10;</code>
+     *
+     * <pre>
+     *封涨停板数量
+     * </pre>
+     */
+    boolean hasFztbTotal();
+    /**
+     * <code>optional int64 FztbTotal = 10;</code>
+     *
+     * <pre>
+     *封涨停板数量
+     * </pre>
+     */
+    long getFztbTotal();
+
+    /**
+     * <code>optional int64 FdtbTotal = 11;</code>
+     *
+     * <pre>
+     *封跌停板数量
+     * </pre>
+     */
+    boolean hasFdtbTotal();
+    /**
+     * <code>optional int64 FdtbTotal = 11;</code>
+     *
+     * <pre>
+     *封跌停板数量
+     * </pre>
+     */
+    long getFdtbTotal();
+
+    /**
+     * <code>optional int64 DkztTotal = 12;</code>
+     *
+     * <pre>
+     *打开涨停数量
+     * </pre>
+     */
+    boolean hasDkztTotal();
+    /**
+     * <code>optional int64 DkztTotal = 12;</code>
+     *
+     * <pre>
+     *打开涨停数量
+     * </pre>
+     */
+    long getDkztTotal();
+
+    /**
+     * <code>optional int64 DkdtTotal = 13;</code>
+     *
+     * <pre>
+     *打开跌停数量
+     * </pre>
+     */
+    boolean hasDkdtTotal();
+    /**
+     * <code>optional int64 DkdtTotal = 13;</code>
+     *
+     * <pre>
+     *打开跌停数量
+     * </pre>
+     */
+    long getDkdtTotal();
+
+    /**
+     * <code>optional int64 YdmcPTotal = 14;</code>
+     *
+     * <pre>
+     *有大卖盘数量
+     * </pre>
+     */
+    boolean hasYdmcPTotal();
+    /**
+     * <code>optional int64 YdmcPTotal = 14;</code>
+     *
+     * <pre>
+     *有大卖盘数量
+     * </pre>
+     */
+    long getYdmcPTotal();
+
+    /**
+     * <code>optional int64 YdmrPTotal = 15;</code>
+     *
+     * <pre>
+     *有大买盘数量
+     * </pre>
+     */
+    boolean hasYdmrPTotal();
+    /**
+     * <code>optional int64 YdmrPTotal = 15;</code>
+     *
+     * <pre>
+     *有大买盘数量
+     * </pre>
+     */
+    long getYdmrPTotal();
+
+    /**
+     * <code>optional int64 LszsTotal = 16;</code>
+     *
+     * <pre>
+     *拉升指数数量
+     * </pre>
+     */
+    boolean hasLszsTotal();
+    /**
+     * <code>optional int64 LszsTotal = 16;</code>
+     *
+     * <pre>
+     *拉升指数数量
+     * </pre>
+     */
+    long getLszsTotal();
+
+    /**
+     * <code>optional int64 DyzsTotal = 17;</code>
+     *
+     * <pre>
+     *打压指数数量
+     * </pre>
+     */
+    boolean hasDyzsTotal();
+    /**
+     * <code>optional int64 DyzsTotal = 17;</code>
+     *
+     * <pre>
+     *打压指数数量
+     * </pre>
+     */
+    long getDyzsTotal();
+
+    /**
+     * <code>optional int64 JgmrgdTotal = 18;</code>
+     *
+     * <pre>
+     *机构买入挂单数量
+     * </pre>
+     */
+    boolean hasJgmrgdTotal();
+    /**
+     * <code>optional int64 JgmrgdTotal = 18;</code>
+     *
+     * <pre>
+     *机构买入挂单数量
+     * </pre>
+     */
+    long getJgmrgdTotal();
+
+    /**
+     * <code>optional int64 JgmcgdTotal = 19;</code>
+     *
+     * <pre>
+     *机构卖出挂单数量
+     * </pre>
+     */
+    boolean hasJgmcgdTotal();
+    /**
+     * <code>optional int64 JgmcgdTotal = 19;</code>
+     *
+     * <pre>
+     *机构卖出挂单数量
+     * </pre>
+     */
+    long getJgmcgdTotal();
+
+    /**
+     * <code>optional int64 DcjmrdTotal = 20;</code>
+     *
+     * <pre>
+     *大成交买入单数量
+     * </pre>
+     */
+    boolean hasDcjmrdTotal();
+    /**
+     * <code>optional int64 DcjmrdTotal = 20;</code>
+     *
+     * <pre>
+     *大成交买入单数量
+     * </pre>
+     */
+    long getDcjmrdTotal();
+
+    /**
+     * <code>optional int64 DcjmcdTotal = 21;</code>
+     *
+     * <pre>
+     *大成交卖出单数量
+     * </pre>
+     */
+    boolean hasDcjmcdTotal();
+    /**
+     * <code>optional int64 DcjmcdTotal = 21;</code>
+     *
+     * <pre>
+     *大成交卖出单数量
+     * </pre>
+     */
+    long getDcjmcdTotal();
+
+    /**
+     * <code>optional int64 FdmrgdTotal = 22;</code>
+     *
+     * <pre>
+     *分单买入挂单数量
+     * </pre>
+     */
+    boolean hasFdmrgdTotal();
+    /**
+     * <code>optional int64 FdmrgdTotal = 22;</code>
+     *
+     * <pre>
+     *分单买入挂单数量
+     * </pre>
+     */
+    long getFdmrgdTotal();
+
+    /**
+     * <code>optional int64 FdmcgdTotal = 23;</code>
+     *
+     * <pre>
+     *分单卖出挂单数量
+     * </pre>
+     */
+    boolean hasFdmcgdTotal();
+    /**
+     * <code>optional int64 FdmcgdTotal = 23;</code>
+     *
+     * <pre>
+     *分单卖出挂单数量
+     * </pre>
+     */
+    long getFdmcgdTotal();
+
+    /**
+     * <code>optional int64 MrcdTotal = 24;</code>
+     *
+     * <pre>
+     *买入撤单数量
+     * </pre>
+     */
+    boolean hasMrcdTotal();
+    /**
+     * <code>optional int64 MrcdTotal = 24;</code>
+     *
+     * <pre>
+     *买入撤单数量
+     * </pre>
+     */
+    long getMrcdTotal();
+
+    /**
+     * <code>optional int64 MccdTotal = 25;</code>
+     *
+     * <pre>
+     *卖出撤单数量
+     * </pre>
+     */
+    boolean hasMccdTotal();
+    /**
+     * <code>optional int64 MccdTotal = 25;</code>
+     *
+     * <pre>
+     *卖出撤单数量
+     * </pre>
+     */
+    long getMccdTotal();
+
+    /**
+     * <code>optional int64 MrxdTotal = 26;</code>
+     *
+     * <pre>
+     *买入新单数量
+     * </pre>
+     */
+    boolean hasMrxdTotal();
+    /**
+     * <code>optional int64 MrxdTotal = 26;</code>
+     *
+     * <pre>
+     *买入新单数量
+     * </pre>
+     */
+    long getMrxdTotal();
+
+    /**
+     * <code>optional int64 McxdTotal = 27;</code>
+     *
+     * <pre>
+     *卖出新单数量
+     * </pre>
+     */
+    boolean hasMcxdTotal();
+    /**
+     * <code>optional int64 McxdTotal = 27;</code>
+     *
+     * <pre>
+     *卖出新单数量
+     * </pre>
+     */
+    long getMcxdTotal();
+  }
+  /**
+   * Protobuf type {@code dzhyun.DXSpiritStat}
+   */
+  public static final class DXSpiritStat extends
+      com.google.protobuf.GeneratedMessage implements
+      // @@protoc_insertion_point(message_implements:dzhyun.DXSpiritStat)
+      DXSpiritStatOrBuilder {
+    // Use DXSpiritStat.newBuilder() to construct.
+    private DXSpiritStat(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      super(builder);
+      this.unknownFields = builder.getUnknownFields();
+    }
+    private DXSpiritStat(boolean noInit) { this.unknownFields = com.google.protobuf.UnknownFieldSet.getDefaultInstance(); }
+
+    private static final DXSpiritStat defaultInstance;
+    public static DXSpiritStat getDefaultInstance() {
+      return defaultInstance;
+    }
+
+    public DXSpiritStat getDefaultInstanceForType() {
+      return defaultInstance;
+    }
+
+    private final com.google.protobuf.UnknownFieldSet unknownFields;
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+        getUnknownFields() {
+      return this.unknownFields;
+    }
+    private DXSpiritStat(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      initFields();
+      int mutable_bitField0_ = 0;
+      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+          com.google.protobuf.UnknownFieldSet.newBuilder();
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!parseUnknownField(input, unknownFields,
+                                     extensionRegistry, tag)) {
+                done = true;
+              }
+              break;
+            }
+            case 10: {
+              com.google.protobuf.ByteString bs = input.readBytes();
+              bitField0_ |= 0x00000001;
+              obj_ = bs;
+              break;
+            }
+            case 16: {
+              bitField0_ |= 0x00000002;
+              hjfsTotal_ = input.readInt64();
+              break;
+            }
+            case 24: {
+              bitField0_ |= 0x00000004;
+              ksftTotal_ = input.readInt64();
+              break;
+            }
+            case 32: {
+              bitField0_ |= 0x00000008;
+              gttsTotal_ = input.readInt64();
+              break;
+            }
+            case 40: {
+              bitField0_ |= 0x00000010;
+              jsxdTotal_ = input.readInt64();
+              break;
+            }
+            case 48: {
+              bitField0_ |= 0x00000020;
+              dbmrTotal_ = input.readInt64();
+              break;
+            }
+            case 56: {
+              bitField0_ |= 0x00000040;
+              dbmrStatistics_ = input.readInt64();
+              break;
+            }
+            case 64: {
+              bitField0_ |= 0x00000080;
+              dbmcTotal_ = input.readInt64();
+              break;
+            }
+            case 72: {
+              bitField0_ |= 0x00000100;
+              dbmcStatistics_ = input.readInt64();
+              break;
+            }
+            case 80: {
+              bitField0_ |= 0x00000200;
+              fztbTotal_ = input.readInt64();
+              break;
+            }
+            case 88: {
+              bitField0_ |= 0x00000400;
+              fdtbTotal_ = input.readInt64();
+              break;
+            }
+            case 96: {
+              bitField0_ |= 0x00000800;
+              dkztTotal_ = input.readInt64();
+              break;
+            }
+            case 104: {
+              bitField0_ |= 0x00001000;
+              dkdtTotal_ = input.readInt64();
+              break;
+            }
+            case 112: {
+              bitField0_ |= 0x00002000;
+              ydmcPTotal_ = input.readInt64();
+              break;
+            }
+            case 120: {
+              bitField0_ |= 0x00004000;
+              ydmrPTotal_ = input.readInt64();
+              break;
+            }
+            case 128: {
+              bitField0_ |= 0x00008000;
+              lszsTotal_ = input.readInt64();
+              break;
+            }
+            case 136: {
+              bitField0_ |= 0x00010000;
+              dyzsTotal_ = input.readInt64();
+              break;
+            }
+            case 144: {
+              bitField0_ |= 0x00020000;
+              jgmrgdTotal_ = input.readInt64();
+              break;
+            }
+            case 152: {
+              bitField0_ |= 0x00040000;
+              jgmcgdTotal_ = input.readInt64();
+              break;
+            }
+            case 160: {
+              bitField0_ |= 0x00080000;
+              dcjmrdTotal_ = input.readInt64();
+              break;
+            }
+            case 168: {
+              bitField0_ |= 0x00100000;
+              dcjmcdTotal_ = input.readInt64();
+              break;
+            }
+            case 176: {
+              bitField0_ |= 0x00200000;
+              fdmrgdTotal_ = input.readInt64();
+              break;
+            }
+            case 184: {
+              bitField0_ |= 0x00400000;
+              fdmcgdTotal_ = input.readInt64();
+              break;
+            }
+            case 192: {
+              bitField0_ |= 0x00800000;
+              mrcdTotal_ = input.readInt64();
+              break;
+            }
+            case 200: {
+              bitField0_ |= 0x01000000;
+              mccdTotal_ = input.readInt64();
+              break;
+            }
+            case 208: {
+              bitField0_ |= 0x02000000;
+              mrxdTotal_ = input.readInt64();
+              break;
+            }
+            case 216: {
+              bitField0_ |= 0x04000000;
+              mcxdTotal_ = input.readInt64();
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e.getMessage()).setUnfinishedMessage(this);
+      } finally {
+        this.unknownFields = unknownFields.build();
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return com.dzhyun.proto.DzhyunDxspirit.internal_static_dzhyun_DXSpiritStat_descriptor;
+    }
+
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return com.dzhyun.proto.DzhyunDxspirit.internal_static_dzhyun_DXSpiritStat_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat.class, com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat.Builder.class);
+    }
+
+    public static com.google.protobuf.Parser<DXSpiritStat> PARSER =
+        new com.google.protobuf.AbstractParser<DXSpiritStat>() {
+      public DXSpiritStat parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return new DXSpiritStat(input, extensionRegistry);
+      }
+    };
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<DXSpiritStat> getParserForType() {
+      return PARSER;
+    }
+
+    private int bitField0_;
+    public static final int OBJ_FIELD_NUMBER = 1;
+    private java.lang.Object obj_;
+    /**
+     * <code>optional string Obj = 1;</code>
+     *
+     * <pre>
+     * 
+     * </pre>
+     */
+    public boolean hasObj() {
+      return ((bitField0_ & 0x00000001) == 0x00000001);
+    }
+    /**
+     * <code>optional string Obj = 1;</code>
+     *
+     * <pre>
+     * 
+     * </pre>
+     */
+    public java.lang.String getObj() {
+      java.lang.Object ref = obj_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          obj_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>optional string Obj = 1;</code>
+     *
+     * <pre>
+     * 
+     * </pre>
+     */
+    public com.google.protobuf.ByteString
+        getObjBytes() {
+      java.lang.Object ref = obj_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        obj_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    public static final int HJFSTOTAL_FIELD_NUMBER = 2;
+    private long hjfsTotal_;
+    /**
+     * <code>optional int64 HjfsTotal = 2;</code>
+     *
+     * <pre>
+     *火箭发射数量
+     * </pre>
+     */
+    public boolean hasHjfsTotal() {
+      return ((bitField0_ & 0x00000002) == 0x00000002);
+    }
+    /**
+     * <code>optional int64 HjfsTotal = 2;</code>
+     *
+     * <pre>
+     *火箭发射数量
+     * </pre>
+     */
+    public long getHjfsTotal() {
+      return hjfsTotal_;
+    }
+
+    public static final int KSFTTOTAL_FIELD_NUMBER = 3;
+    private long ksftTotal_;
+    /**
+     * <code>optional int64 KsftTotal = 3;</code>
+     *
+     * <pre>
+     *快速反弹数量
+     * </pre>
+     */
+    public boolean hasKsftTotal() {
+      return ((bitField0_ & 0x00000004) == 0x00000004);
+    }
+    /**
+     * <code>optional int64 KsftTotal = 3;</code>
+     *
+     * <pre>
+     *快速反弹数量
+     * </pre>
+     */
+    public long getKsftTotal() {
+      return ksftTotal_;
+    }
+
+    public static final int GTTSTOTAL_FIELD_NUMBER = 4;
+    private long gttsTotal_;
+    /**
+     * <code>optional int64 GttsTotal = 4;</code>
+     *
+     * <pre>
+     *高台跳水数量
+     * </pre>
+     */
+    public boolean hasGttsTotal() {
+      return ((bitField0_ & 0x00000008) == 0x00000008);
+    }
+    /**
+     * <code>optional int64 GttsTotal = 4;</code>
+     *
+     * <pre>
+     *高台跳水数量
+     * </pre>
+     */
+    public long getGttsTotal() {
+      return gttsTotal_;
+    }
+
+    public static final int JSXDTOTAL_FIELD_NUMBER = 5;
+    private long jsxdTotal_;
+    /**
+     * <code>optional int64 JsxdTotal = 5;</code>
+     *
+     * <pre>
+     *加速下跌数量
+     * </pre>
+     */
+    public boolean hasJsxdTotal() {
+      return ((bitField0_ & 0x00000010) == 0x00000010);
+    }
+    /**
+     * <code>optional int64 JsxdTotal = 5;</code>
+     *
+     * <pre>
+     *加速下跌数量
+     * </pre>
+     */
+    public long getJsxdTotal() {
+      return jsxdTotal_;
+    }
+
+    public static final int DBMRTOTAL_FIELD_NUMBER = 6;
+    private long dbmrTotal_;
+    /**
+     * <code>optional int64 DbmrTotal = 6;</code>
+     *
+     * <pre>
+     *大笔买入数量
+     * </pre>
+     */
+    public boolean hasDbmrTotal() {
+      return ((bitField0_ & 0x00000020) == 0x00000020);
+    }
+    /**
+     * <code>optional int64 DbmrTotal = 6;</code>
+     *
+     * <pre>
+     *大笔买入数量
+     * </pre>
+     */
+    public long getDbmrTotal() {
+      return dbmrTotal_;
+    }
+
+    public static final int DBMRSTATISTICS_FIELD_NUMBER = 7;
+    private long dbmrStatistics_;
+    /**
+     * <code>optional int64 DbmrStatistics = 7;</code>
+     *
+     * <pre>
+     *大笔买入手数
+     * </pre>
+     */
+    public boolean hasDbmrStatistics() {
+      return ((bitField0_ & 0x00000040) == 0x00000040);
+    }
+    /**
+     * <code>optional int64 DbmrStatistics = 7;</code>
+     *
+     * <pre>
+     *大笔买入手数
+     * </pre>
+     */
+    public long getDbmrStatistics() {
+      return dbmrStatistics_;
+    }
+
+    public static final int DBMCTOTAL_FIELD_NUMBER = 8;
+    private long dbmcTotal_;
+    /**
+     * <code>optional int64 DbmcTotal = 8;</code>
+     *
+     * <pre>
+     *大笔卖出数量
+     * </pre>
+     */
+    public boolean hasDbmcTotal() {
+      return ((bitField0_ & 0x00000080) == 0x00000080);
+    }
+    /**
+     * <code>optional int64 DbmcTotal = 8;</code>
+     *
+     * <pre>
+     *大笔卖出数量
+     * </pre>
+     */
+    public long getDbmcTotal() {
+      return dbmcTotal_;
+    }
+
+    public static final int DBMCSTATISTICS_FIELD_NUMBER = 9;
+    private long dbmcStatistics_;
+    /**
+     * <code>optional int64 DbmcStatistics = 9;</code>
+     *
+     * <pre>
+     *大笔卖出手数
+     * </pre>
+     */
+    public boolean hasDbmcStatistics() {
+      return ((bitField0_ & 0x00000100) == 0x00000100);
+    }
+    /**
+     * <code>optional int64 DbmcStatistics = 9;</code>
+     *
+     * <pre>
+     *大笔卖出手数
+     * </pre>
+     */
+    public long getDbmcStatistics() {
+      return dbmcStatistics_;
+    }
+
+    public static final int FZTBTOTAL_FIELD_NUMBER = 10;
+    private long fztbTotal_;
+    /**
+     * <code>optional int64 FztbTotal = 10;</code>
+     *
+     * <pre>
+     *封涨停板数量
+     * </pre>
+     */
+    public boolean hasFztbTotal() {
+      return ((bitField0_ & 0x00000200) == 0x00000200);
+    }
+    /**
+     * <code>optional int64 FztbTotal = 10;</code>
+     *
+     * <pre>
+     *封涨停板数量
+     * </pre>
+     */
+    public long getFztbTotal() {
+      return fztbTotal_;
+    }
+
+    public static final int FDTBTOTAL_FIELD_NUMBER = 11;
+    private long fdtbTotal_;
+    /**
+     * <code>optional int64 FdtbTotal = 11;</code>
+     *
+     * <pre>
+     *封跌停板数量
+     * </pre>
+     */
+    public boolean hasFdtbTotal() {
+      return ((bitField0_ & 0x00000400) == 0x00000400);
+    }
+    /**
+     * <code>optional int64 FdtbTotal = 11;</code>
+     *
+     * <pre>
+     *封跌停板数量
+     * </pre>
+     */
+    public long getFdtbTotal() {
+      return fdtbTotal_;
+    }
+
+    public static final int DKZTTOTAL_FIELD_NUMBER = 12;
+    private long dkztTotal_;
+    /**
+     * <code>optional int64 DkztTotal = 12;</code>
+     *
+     * <pre>
+     *打开涨停数量
+     * </pre>
+     */
+    public boolean hasDkztTotal() {
+      return ((bitField0_ & 0x00000800) == 0x00000800);
+    }
+    /**
+     * <code>optional int64 DkztTotal = 12;</code>
+     *
+     * <pre>
+     *打开涨停数量
+     * </pre>
+     */
+    public long getDkztTotal() {
+      return dkztTotal_;
+    }
+
+    public static final int DKDTTOTAL_FIELD_NUMBER = 13;
+    private long dkdtTotal_;
+    /**
+     * <code>optional int64 DkdtTotal = 13;</code>
+     *
+     * <pre>
+     *打开跌停数量
+     * </pre>
+     */
+    public boolean hasDkdtTotal() {
+      return ((bitField0_ & 0x00001000) == 0x00001000);
+    }
+    /**
+     * <code>optional int64 DkdtTotal = 13;</code>
+     *
+     * <pre>
+     *打开跌停数量
+     * </pre>
+     */
+    public long getDkdtTotal() {
+      return dkdtTotal_;
+    }
+
+    public static final int YDMCPTOTAL_FIELD_NUMBER = 14;
+    private long ydmcPTotal_;
+    /**
+     * <code>optional int64 YdmcPTotal = 14;</code>
+     *
+     * <pre>
+     *有大卖盘数量
+     * </pre>
+     */
+    public boolean hasYdmcPTotal() {
+      return ((bitField0_ & 0x00002000) == 0x00002000);
+    }
+    /**
+     * <code>optional int64 YdmcPTotal = 14;</code>
+     *
+     * <pre>
+     *有大卖盘数量
+     * </pre>
+     */
+    public long getYdmcPTotal() {
+      return ydmcPTotal_;
+    }
+
+    public static final int YDMRPTOTAL_FIELD_NUMBER = 15;
+    private long ydmrPTotal_;
+    /**
+     * <code>optional int64 YdmrPTotal = 15;</code>
+     *
+     * <pre>
+     *有大买盘数量
+     * </pre>
+     */
+    public boolean hasYdmrPTotal() {
+      return ((bitField0_ & 0x00004000) == 0x00004000);
+    }
+    /**
+     * <code>optional int64 YdmrPTotal = 15;</code>
+     *
+     * <pre>
+     *有大买盘数量
+     * </pre>
+     */
+    public long getYdmrPTotal() {
+      return ydmrPTotal_;
+    }
+
+    public static final int LSZSTOTAL_FIELD_NUMBER = 16;
+    private long lszsTotal_;
+    /**
+     * <code>optional int64 LszsTotal = 16;</code>
+     *
+     * <pre>
+     *拉升指数数量
+     * </pre>
+     */
+    public boolean hasLszsTotal() {
+      return ((bitField0_ & 0x00008000) == 0x00008000);
+    }
+    /**
+     * <code>optional int64 LszsTotal = 16;</code>
+     *
+     * <pre>
+     *拉升指数数量
+     * </pre>
+     */
+    public long getLszsTotal() {
+      return lszsTotal_;
+    }
+
+    public static final int DYZSTOTAL_FIELD_NUMBER = 17;
+    private long dyzsTotal_;
+    /**
+     * <code>optional int64 DyzsTotal = 17;</code>
+     *
+     * <pre>
+     *打压指数数量
+     * </pre>
+     */
+    public boolean hasDyzsTotal() {
+      return ((bitField0_ & 0x00010000) == 0x00010000);
+    }
+    /**
+     * <code>optional int64 DyzsTotal = 17;</code>
+     *
+     * <pre>
+     *打压指数数量
+     * </pre>
+     */
+    public long getDyzsTotal() {
+      return dyzsTotal_;
+    }
+
+    public static final int JGMRGDTOTAL_FIELD_NUMBER = 18;
+    private long jgmrgdTotal_;
+    /**
+     * <code>optional int64 JgmrgdTotal = 18;</code>
+     *
+     * <pre>
+     *机构买入挂单数量
+     * </pre>
+     */
+    public boolean hasJgmrgdTotal() {
+      return ((bitField0_ & 0x00020000) == 0x00020000);
+    }
+    /**
+     * <code>optional int64 JgmrgdTotal = 18;</code>
+     *
+     * <pre>
+     *机构买入挂单数量
+     * </pre>
+     */
+    public long getJgmrgdTotal() {
+      return jgmrgdTotal_;
+    }
+
+    public static final int JGMCGDTOTAL_FIELD_NUMBER = 19;
+    private long jgmcgdTotal_;
+    /**
+     * <code>optional int64 JgmcgdTotal = 19;</code>
+     *
+     * <pre>
+     *机构卖出挂单数量
+     * </pre>
+     */
+    public boolean hasJgmcgdTotal() {
+      return ((bitField0_ & 0x00040000) == 0x00040000);
+    }
+    /**
+     * <code>optional int64 JgmcgdTotal = 19;</code>
+     *
+     * <pre>
+     *机构卖出挂单数量
+     * </pre>
+     */
+    public long getJgmcgdTotal() {
+      return jgmcgdTotal_;
+    }
+
+    public static final int DCJMRDTOTAL_FIELD_NUMBER = 20;
+    private long dcjmrdTotal_;
+    /**
+     * <code>optional int64 DcjmrdTotal = 20;</code>
+     *
+     * <pre>
+     *大成交买入单数量
+     * </pre>
+     */
+    public boolean hasDcjmrdTotal() {
+      return ((bitField0_ & 0x00080000) == 0x00080000);
+    }
+    /**
+     * <code>optional int64 DcjmrdTotal = 20;</code>
+     *
+     * <pre>
+     *大成交买入单数量
+     * </pre>
+     */
+    public long getDcjmrdTotal() {
+      return dcjmrdTotal_;
+    }
+
+    public static final int DCJMCDTOTAL_FIELD_NUMBER = 21;
+    private long dcjmcdTotal_;
+    /**
+     * <code>optional int64 DcjmcdTotal = 21;</code>
+     *
+     * <pre>
+     *大成交卖出单数量
+     * </pre>
+     */
+    public boolean hasDcjmcdTotal() {
+      return ((bitField0_ & 0x00100000) == 0x00100000);
+    }
+    /**
+     * <code>optional int64 DcjmcdTotal = 21;</code>
+     *
+     * <pre>
+     *大成交卖出单数量
+     * </pre>
+     */
+    public long getDcjmcdTotal() {
+      return dcjmcdTotal_;
+    }
+
+    public static final int FDMRGDTOTAL_FIELD_NUMBER = 22;
+    private long fdmrgdTotal_;
+    /**
+     * <code>optional int64 FdmrgdTotal = 22;</code>
+     *
+     * <pre>
+     *分单买入挂单数量
+     * </pre>
+     */
+    public boolean hasFdmrgdTotal() {
+      return ((bitField0_ & 0x00200000) == 0x00200000);
+    }
+    /**
+     * <code>optional int64 FdmrgdTotal = 22;</code>
+     *
+     * <pre>
+     *分单买入挂单数量
+     * </pre>
+     */
+    public long getFdmrgdTotal() {
+      return fdmrgdTotal_;
+    }
+
+    public static final int FDMCGDTOTAL_FIELD_NUMBER = 23;
+    private long fdmcgdTotal_;
+    /**
+     * <code>optional int64 FdmcgdTotal = 23;</code>
+     *
+     * <pre>
+     *分单卖出挂单数量
+     * </pre>
+     */
+    public boolean hasFdmcgdTotal() {
+      return ((bitField0_ & 0x00400000) == 0x00400000);
+    }
+    /**
+     * <code>optional int64 FdmcgdTotal = 23;</code>
+     *
+     * <pre>
+     *分单卖出挂单数量
+     * </pre>
+     */
+    public long getFdmcgdTotal() {
+      return fdmcgdTotal_;
+    }
+
+    public static final int MRCDTOTAL_FIELD_NUMBER = 24;
+    private long mrcdTotal_;
+    /**
+     * <code>optional int64 MrcdTotal = 24;</code>
+     *
+     * <pre>
+     *买入撤单数量
+     * </pre>
+     */
+    public boolean hasMrcdTotal() {
+      return ((bitField0_ & 0x00800000) == 0x00800000);
+    }
+    /**
+     * <code>optional int64 MrcdTotal = 24;</code>
+     *
+     * <pre>
+     *买入撤单数量
+     * </pre>
+     */
+    public long getMrcdTotal() {
+      return mrcdTotal_;
+    }
+
+    public static final int MCCDTOTAL_FIELD_NUMBER = 25;
+    private long mccdTotal_;
+    /**
+     * <code>optional int64 MccdTotal = 25;</code>
+     *
+     * <pre>
+     *卖出撤单数量
+     * </pre>
+     */
+    public boolean hasMccdTotal() {
+      return ((bitField0_ & 0x01000000) == 0x01000000);
+    }
+    /**
+     * <code>optional int64 MccdTotal = 25;</code>
+     *
+     * <pre>
+     *卖出撤单数量
+     * </pre>
+     */
+    public long getMccdTotal() {
+      return mccdTotal_;
+    }
+
+    public static final int MRXDTOTAL_FIELD_NUMBER = 26;
+    private long mrxdTotal_;
+    /**
+     * <code>optional int64 MrxdTotal = 26;</code>
+     *
+     * <pre>
+     *买入新单数量
+     * </pre>
+     */
+    public boolean hasMrxdTotal() {
+      return ((bitField0_ & 0x02000000) == 0x02000000);
+    }
+    /**
+     * <code>optional int64 MrxdTotal = 26;</code>
+     *
+     * <pre>
+     *买入新单数量
+     * </pre>
+     */
+    public long getMrxdTotal() {
+      return mrxdTotal_;
+    }
+
+    public static final int MCXDTOTAL_FIELD_NUMBER = 27;
+    private long mcxdTotal_;
+    /**
+     * <code>optional int64 McxdTotal = 27;</code>
+     *
+     * <pre>
+     *卖出新单数量
+     * </pre>
+     */
+    public boolean hasMcxdTotal() {
+      return ((bitField0_ & 0x04000000) == 0x04000000);
+    }
+    /**
+     * <code>optional int64 McxdTotal = 27;</code>
+     *
+     * <pre>
+     *卖出新单数量
+     * </pre>
+     */
+    public long getMcxdTotal() {
+      return mcxdTotal_;
+    }
+
+    private void initFields() {
+      obj_ = "";
+      hjfsTotal_ = 0L;
+      ksftTotal_ = 0L;
+      gttsTotal_ = 0L;
+      jsxdTotal_ = 0L;
+      dbmrTotal_ = 0L;
+      dbmrStatistics_ = 0L;
+      dbmcTotal_ = 0L;
+      dbmcStatistics_ = 0L;
+      fztbTotal_ = 0L;
+      fdtbTotal_ = 0L;
+      dkztTotal_ = 0L;
+      dkdtTotal_ = 0L;
+      ydmcPTotal_ = 0L;
+      ydmrPTotal_ = 0L;
+      lszsTotal_ = 0L;
+      dyzsTotal_ = 0L;
+      jgmrgdTotal_ = 0L;
+      jgmcgdTotal_ = 0L;
+      dcjmrdTotal_ = 0L;
+      dcjmcdTotal_ = 0L;
+      fdmrgdTotal_ = 0L;
+      fdmcgdTotal_ = 0L;
+      mrcdTotal_ = 0L;
+      mccdTotal_ = 0L;
+      mrxdTotal_ = 0L;
+      mcxdTotal_ = 0L;
+    }
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      getSerializedSize();
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        output.writeBytes(1, getObjBytes());
+      }
+      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+        output.writeInt64(2, hjfsTotal_);
+      }
+      if (((bitField0_ & 0x00000004) == 0x00000004)) {
+        output.writeInt64(3, ksftTotal_);
+      }
+      if (((bitField0_ & 0x00000008) == 0x00000008)) {
+        output.writeInt64(4, gttsTotal_);
+      }
+      if (((bitField0_ & 0x00000010) == 0x00000010)) {
+        output.writeInt64(5, jsxdTotal_);
+      }
+      if (((bitField0_ & 0x00000020) == 0x00000020)) {
+        output.writeInt64(6, dbmrTotal_);
+      }
+      if (((bitField0_ & 0x00000040) == 0x00000040)) {
+        output.writeInt64(7, dbmrStatistics_);
+      }
+      if (((bitField0_ & 0x00000080) == 0x00000080)) {
+        output.writeInt64(8, dbmcTotal_);
+      }
+      if (((bitField0_ & 0x00000100) == 0x00000100)) {
+        output.writeInt64(9, dbmcStatistics_);
+      }
+      if (((bitField0_ & 0x00000200) == 0x00000200)) {
+        output.writeInt64(10, fztbTotal_);
+      }
+      if (((bitField0_ & 0x00000400) == 0x00000400)) {
+        output.writeInt64(11, fdtbTotal_);
+      }
+      if (((bitField0_ & 0x00000800) == 0x00000800)) {
+        output.writeInt64(12, dkztTotal_);
+      }
+      if (((bitField0_ & 0x00001000) == 0x00001000)) {
+        output.writeInt64(13, dkdtTotal_);
+      }
+      if (((bitField0_ & 0x00002000) == 0x00002000)) {
+        output.writeInt64(14, ydmcPTotal_);
+      }
+      if (((bitField0_ & 0x00004000) == 0x00004000)) {
+        output.writeInt64(15, ydmrPTotal_);
+      }
+      if (((bitField0_ & 0x00008000) == 0x00008000)) {
+        output.writeInt64(16, lszsTotal_);
+      }
+      if (((bitField0_ & 0x00010000) == 0x00010000)) {
+        output.writeInt64(17, dyzsTotal_);
+      }
+      if (((bitField0_ & 0x00020000) == 0x00020000)) {
+        output.writeInt64(18, jgmrgdTotal_);
+      }
+      if (((bitField0_ & 0x00040000) == 0x00040000)) {
+        output.writeInt64(19, jgmcgdTotal_);
+      }
+      if (((bitField0_ & 0x00080000) == 0x00080000)) {
+        output.writeInt64(20, dcjmrdTotal_);
+      }
+      if (((bitField0_ & 0x00100000) == 0x00100000)) {
+        output.writeInt64(21, dcjmcdTotal_);
+      }
+      if (((bitField0_ & 0x00200000) == 0x00200000)) {
+        output.writeInt64(22, fdmrgdTotal_);
+      }
+      if (((bitField0_ & 0x00400000) == 0x00400000)) {
+        output.writeInt64(23, fdmcgdTotal_);
+      }
+      if (((bitField0_ & 0x00800000) == 0x00800000)) {
+        output.writeInt64(24, mrcdTotal_);
+      }
+      if (((bitField0_ & 0x01000000) == 0x01000000)) {
+        output.writeInt64(25, mccdTotal_);
+      }
+      if (((bitField0_ & 0x02000000) == 0x02000000)) {
+        output.writeInt64(26, mrxdTotal_);
+      }
+      if (((bitField0_ & 0x04000000) == 0x04000000)) {
+        output.writeInt64(27, mcxdTotal_);
+      }
+      getUnknownFields().writeTo(output);
+    }
+
+    private int memoizedSerializedSize = -1;
+    public int getSerializedSize() {
+      int size = memoizedSerializedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(1, getObjBytes());
+      }
+      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(2, hjfsTotal_);
+      }
+      if (((bitField0_ & 0x00000004) == 0x00000004)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(3, ksftTotal_);
+      }
+      if (((bitField0_ & 0x00000008) == 0x00000008)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(4, gttsTotal_);
+      }
+      if (((bitField0_ & 0x00000010) == 0x00000010)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(5, jsxdTotal_);
+      }
+      if (((bitField0_ & 0x00000020) == 0x00000020)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(6, dbmrTotal_);
+      }
+      if (((bitField0_ & 0x00000040) == 0x00000040)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(7, dbmrStatistics_);
+      }
+      if (((bitField0_ & 0x00000080) == 0x00000080)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(8, dbmcTotal_);
+      }
+      if (((bitField0_ & 0x00000100) == 0x00000100)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(9, dbmcStatistics_);
+      }
+      if (((bitField0_ & 0x00000200) == 0x00000200)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(10, fztbTotal_);
+      }
+      if (((bitField0_ & 0x00000400) == 0x00000400)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(11, fdtbTotal_);
+      }
+      if (((bitField0_ & 0x00000800) == 0x00000800)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(12, dkztTotal_);
+      }
+      if (((bitField0_ & 0x00001000) == 0x00001000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(13, dkdtTotal_);
+      }
+      if (((bitField0_ & 0x00002000) == 0x00002000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(14, ydmcPTotal_);
+      }
+      if (((bitField0_ & 0x00004000) == 0x00004000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(15, ydmrPTotal_);
+      }
+      if (((bitField0_ & 0x00008000) == 0x00008000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(16, lszsTotal_);
+      }
+      if (((bitField0_ & 0x00010000) == 0x00010000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(17, dyzsTotal_);
+      }
+      if (((bitField0_ & 0x00020000) == 0x00020000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(18, jgmrgdTotal_);
+      }
+      if (((bitField0_ & 0x00040000) == 0x00040000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(19, jgmcgdTotal_);
+      }
+      if (((bitField0_ & 0x00080000) == 0x00080000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(20, dcjmrdTotal_);
+      }
+      if (((bitField0_ & 0x00100000) == 0x00100000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(21, dcjmcdTotal_);
+      }
+      if (((bitField0_ & 0x00200000) == 0x00200000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(22, fdmrgdTotal_);
+      }
+      if (((bitField0_ & 0x00400000) == 0x00400000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(23, fdmcgdTotal_);
+      }
+      if (((bitField0_ & 0x00800000) == 0x00800000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(24, mrcdTotal_);
+      }
+      if (((bitField0_ & 0x01000000) == 0x01000000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(25, mccdTotal_);
+      }
+      if (((bitField0_ & 0x02000000) == 0x02000000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(26, mrxdTotal_);
+      }
+      if (((bitField0_ & 0x04000000) == 0x04000000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(27, mcxdTotal_);
+      }
+      size += getUnknownFields().getSerializedSize();
+      memoizedSerializedSize = size;
+      return size;
+    }
+
+    private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    protected java.lang.Object writeReplace()
+        throws java.io.ObjectStreamException {
+      return super.writeReplace();
+    }
+
+    public static com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input);
+    }
+    public static com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+
+    public static Builder newBuilder() { return Builder.create(); }
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder(com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat prototype) {
+      return newBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() { return newBuilder(this); }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code dzhyun.DXSpiritStat}
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:dzhyun.DXSpiritStat)
+        com.dzhyun.proto.DzhyunDxspirit.DXSpiritStatOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return com.dzhyun.proto.DzhyunDxspirit.internal_static_dzhyun_DXSpiritStat_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return com.dzhyun.proto.DzhyunDxspirit.internal_static_dzhyun_DXSpiritStat_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat.class, com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat.Builder.class);
+      }
+
+      // Construct using com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        }
+      }
+      private static Builder create() {
+        return new Builder();
+      }
+
+      public Builder clear() {
+        super.clear();
+        obj_ = "";
+        bitField0_ = (bitField0_ & ~0x00000001);
+        hjfsTotal_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000002);
+        ksftTotal_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000004);
+        gttsTotal_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000008);
+        jsxdTotal_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000010);
+        dbmrTotal_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000020);
+        dbmrStatistics_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000040);
+        dbmcTotal_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000080);
+        dbmcStatistics_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000100);
+        fztbTotal_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000200);
+        fdtbTotal_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000400);
+        dkztTotal_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000800);
+        dkdtTotal_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00001000);
+        ydmcPTotal_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00002000);
+        ydmrPTotal_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00004000);
+        lszsTotal_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00008000);
+        dyzsTotal_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00010000);
+        jgmrgdTotal_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00020000);
+        jgmcgdTotal_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00040000);
+        dcjmrdTotal_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00080000);
+        dcjmcdTotal_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00100000);
+        fdmrgdTotal_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00200000);
+        fdmcgdTotal_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00400000);
+        mrcdTotal_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00800000);
+        mccdTotal_ = 0L;
+        bitField0_ = (bitField0_ & ~0x01000000);
+        mrxdTotal_ = 0L;
+        bitField0_ = (bitField0_ & ~0x02000000);
+        mcxdTotal_ = 0L;
+        bitField0_ = (bitField0_ & ~0x04000000);
+        return this;
+      }
+
+      public Builder clone() {
+        return create().mergeFrom(buildPartial());
+      }
+
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return com.dzhyun.proto.DzhyunDxspirit.internal_static_dzhyun_DXSpiritStat_descriptor;
+      }
+
+      public com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat getDefaultInstanceForType() {
+        return com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat.getDefaultInstance();
+      }
+
+      public com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat build() {
+        com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      public com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat buildPartial() {
+        com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat result = new com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat(this);
+        int from_bitField0_ = bitField0_;
+        int to_bitField0_ = 0;
+        if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
+          to_bitField0_ |= 0x00000001;
+        }
+        result.obj_ = obj_;
+        if (((from_bitField0_ & 0x00000002) == 0x00000002)) {
+          to_bitField0_ |= 0x00000002;
+        }
+        result.hjfsTotal_ = hjfsTotal_;
+        if (((from_bitField0_ & 0x00000004) == 0x00000004)) {
+          to_bitField0_ |= 0x00000004;
+        }
+        result.ksftTotal_ = ksftTotal_;
+        if (((from_bitField0_ & 0x00000008) == 0x00000008)) {
+          to_bitField0_ |= 0x00000008;
+        }
+        result.gttsTotal_ = gttsTotal_;
+        if (((from_bitField0_ & 0x00000010) == 0x00000010)) {
+          to_bitField0_ |= 0x00000010;
+        }
+        result.jsxdTotal_ = jsxdTotal_;
+        if (((from_bitField0_ & 0x00000020) == 0x00000020)) {
+          to_bitField0_ |= 0x00000020;
+        }
+        result.dbmrTotal_ = dbmrTotal_;
+        if (((from_bitField0_ & 0x00000040) == 0x00000040)) {
+          to_bitField0_ |= 0x00000040;
+        }
+        result.dbmrStatistics_ = dbmrStatistics_;
+        if (((from_bitField0_ & 0x00000080) == 0x00000080)) {
+          to_bitField0_ |= 0x00000080;
+        }
+        result.dbmcTotal_ = dbmcTotal_;
+        if (((from_bitField0_ & 0x00000100) == 0x00000100)) {
+          to_bitField0_ |= 0x00000100;
+        }
+        result.dbmcStatistics_ = dbmcStatistics_;
+        if (((from_bitField0_ & 0x00000200) == 0x00000200)) {
+          to_bitField0_ |= 0x00000200;
+        }
+        result.fztbTotal_ = fztbTotal_;
+        if (((from_bitField0_ & 0x00000400) == 0x00000400)) {
+          to_bitField0_ |= 0x00000400;
+        }
+        result.fdtbTotal_ = fdtbTotal_;
+        if (((from_bitField0_ & 0x00000800) == 0x00000800)) {
+          to_bitField0_ |= 0x00000800;
+        }
+        result.dkztTotal_ = dkztTotal_;
+        if (((from_bitField0_ & 0x00001000) == 0x00001000)) {
+          to_bitField0_ |= 0x00001000;
+        }
+        result.dkdtTotal_ = dkdtTotal_;
+        if (((from_bitField0_ & 0x00002000) == 0x00002000)) {
+          to_bitField0_ |= 0x00002000;
+        }
+        result.ydmcPTotal_ = ydmcPTotal_;
+        if (((from_bitField0_ & 0x00004000) == 0x00004000)) {
+          to_bitField0_ |= 0x00004000;
+        }
+        result.ydmrPTotal_ = ydmrPTotal_;
+        if (((from_bitField0_ & 0x00008000) == 0x00008000)) {
+          to_bitField0_ |= 0x00008000;
+        }
+        result.lszsTotal_ = lszsTotal_;
+        if (((from_bitField0_ & 0x00010000) == 0x00010000)) {
+          to_bitField0_ |= 0x00010000;
+        }
+        result.dyzsTotal_ = dyzsTotal_;
+        if (((from_bitField0_ & 0x00020000) == 0x00020000)) {
+          to_bitField0_ |= 0x00020000;
+        }
+        result.jgmrgdTotal_ = jgmrgdTotal_;
+        if (((from_bitField0_ & 0x00040000) == 0x00040000)) {
+          to_bitField0_ |= 0x00040000;
+        }
+        result.jgmcgdTotal_ = jgmcgdTotal_;
+        if (((from_bitField0_ & 0x00080000) == 0x00080000)) {
+          to_bitField0_ |= 0x00080000;
+        }
+        result.dcjmrdTotal_ = dcjmrdTotal_;
+        if (((from_bitField0_ & 0x00100000) == 0x00100000)) {
+          to_bitField0_ |= 0x00100000;
+        }
+        result.dcjmcdTotal_ = dcjmcdTotal_;
+        if (((from_bitField0_ & 0x00200000) == 0x00200000)) {
+          to_bitField0_ |= 0x00200000;
+        }
+        result.fdmrgdTotal_ = fdmrgdTotal_;
+        if (((from_bitField0_ & 0x00400000) == 0x00400000)) {
+          to_bitField0_ |= 0x00400000;
+        }
+        result.fdmcgdTotal_ = fdmcgdTotal_;
+        if (((from_bitField0_ & 0x00800000) == 0x00800000)) {
+          to_bitField0_ |= 0x00800000;
+        }
+        result.mrcdTotal_ = mrcdTotal_;
+        if (((from_bitField0_ & 0x01000000) == 0x01000000)) {
+          to_bitField0_ |= 0x01000000;
+        }
+        result.mccdTotal_ = mccdTotal_;
+        if (((from_bitField0_ & 0x02000000) == 0x02000000)) {
+          to_bitField0_ |= 0x02000000;
+        }
+        result.mrxdTotal_ = mrxdTotal_;
+        if (((from_bitField0_ & 0x04000000) == 0x04000000)) {
+          to_bitField0_ |= 0x04000000;
+        }
+        result.mcxdTotal_ = mcxdTotal_;
+        result.bitField0_ = to_bitField0_;
+        onBuilt();
+        return result;
+      }
+
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat) {
+          return mergeFrom((com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat other) {
+        if (other == com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat.getDefaultInstance()) return this;
+        if (other.hasObj()) {
+          bitField0_ |= 0x00000001;
+          obj_ = other.obj_;
+          onChanged();
+        }
+        if (other.hasHjfsTotal()) {
+          setHjfsTotal(other.getHjfsTotal());
+        }
+        if (other.hasKsftTotal()) {
+          setKsftTotal(other.getKsftTotal());
+        }
+        if (other.hasGttsTotal()) {
+          setGttsTotal(other.getGttsTotal());
+        }
+        if (other.hasJsxdTotal()) {
+          setJsxdTotal(other.getJsxdTotal());
+        }
+        if (other.hasDbmrTotal()) {
+          setDbmrTotal(other.getDbmrTotal());
+        }
+        if (other.hasDbmrStatistics()) {
+          setDbmrStatistics(other.getDbmrStatistics());
+        }
+        if (other.hasDbmcTotal()) {
+          setDbmcTotal(other.getDbmcTotal());
+        }
+        if (other.hasDbmcStatistics()) {
+          setDbmcStatistics(other.getDbmcStatistics());
+        }
+        if (other.hasFztbTotal()) {
+          setFztbTotal(other.getFztbTotal());
+        }
+        if (other.hasFdtbTotal()) {
+          setFdtbTotal(other.getFdtbTotal());
+        }
+        if (other.hasDkztTotal()) {
+          setDkztTotal(other.getDkztTotal());
+        }
+        if (other.hasDkdtTotal()) {
+          setDkdtTotal(other.getDkdtTotal());
+        }
+        if (other.hasYdmcPTotal()) {
+          setYdmcPTotal(other.getYdmcPTotal());
+        }
+        if (other.hasYdmrPTotal()) {
+          setYdmrPTotal(other.getYdmrPTotal());
+        }
+        if (other.hasLszsTotal()) {
+          setLszsTotal(other.getLszsTotal());
+        }
+        if (other.hasDyzsTotal()) {
+          setDyzsTotal(other.getDyzsTotal());
+        }
+        if (other.hasJgmrgdTotal()) {
+          setJgmrgdTotal(other.getJgmrgdTotal());
+        }
+        if (other.hasJgmcgdTotal()) {
+          setJgmcgdTotal(other.getJgmcgdTotal());
+        }
+        if (other.hasDcjmrdTotal()) {
+          setDcjmrdTotal(other.getDcjmrdTotal());
+        }
+        if (other.hasDcjmcdTotal()) {
+          setDcjmcdTotal(other.getDcjmcdTotal());
+        }
+        if (other.hasFdmrgdTotal()) {
+          setFdmrgdTotal(other.getFdmrgdTotal());
+        }
+        if (other.hasFdmcgdTotal()) {
+          setFdmcgdTotal(other.getFdmcgdTotal());
+        }
+        if (other.hasMrcdTotal()) {
+          setMrcdTotal(other.getMrcdTotal());
+        }
+        if (other.hasMccdTotal()) {
+          setMccdTotal(other.getMccdTotal());
+        }
+        if (other.hasMrxdTotal()) {
+          setMrxdTotal(other.getMrxdTotal());
+        }
+        if (other.hasMcxdTotal()) {
+          setMcxdTotal(other.getMcxdTotal());
+        }
+        this.mergeUnknownFields(other.getUnknownFields());
+        return this;
+      }
+
+      public final boolean isInitialized() {
+        return true;
+      }
+
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (com.dzhyun.proto.DzhyunDxspirit.DXSpiritStat) e.getUnfinishedMessage();
+          throw e;
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+      private int bitField0_;
+
+      private java.lang.Object obj_ = "";
+      /**
+       * <code>optional string Obj = 1;</code>
+       *
+       * <pre>
+       * 
+       * </pre>
+       */
+      public boolean hasObj() {
+        return ((bitField0_ & 0x00000001) == 0x00000001);
+      }
+      /**
+       * <code>optional string Obj = 1;</code>
+       *
+       * <pre>
+       * 
+       * </pre>
+       */
+      public java.lang.String getObj() {
+        java.lang.Object ref = obj_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          if (bs.isValidUtf8()) {
+            obj_ = s;
+          }
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string Obj = 1;</code>
+       *
+       * <pre>
+       * 
+       * </pre>
+       */
+      public com.google.protobuf.ByteString
+          getObjBytes() {
+        java.lang.Object ref = obj_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          obj_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string Obj = 1;</code>
+       *
+       * <pre>
+       * 
+       * </pre>
+       */
+      public Builder setObj(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000001;
+        obj_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string Obj = 1;</code>
+       *
+       * <pre>
+       * 
+       * </pre>
+       */
+      public Builder clearObj() {
+        bitField0_ = (bitField0_ & ~0x00000001);
+        obj_ = getDefaultInstance().getObj();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string Obj = 1;</code>
+       *
+       * <pre>
+       * 
+       * </pre>
+       */
+      public Builder setObjBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000001;
+        obj_ = value;
+        onChanged();
+        return this;
+      }
+
+      private long hjfsTotal_ ;
+      /**
+       * <code>optional int64 HjfsTotal = 2;</code>
+       *
+       * <pre>
+       *火箭发射数量
+       * </pre>
+       */
+      public boolean hasHjfsTotal() {
+        return ((bitField0_ & 0x00000002) == 0x00000002);
+      }
+      /**
+       * <code>optional int64 HjfsTotal = 2;</code>
+       *
+       * <pre>
+       *火箭发射数量
+       * </pre>
+       */
+      public long getHjfsTotal() {
+        return hjfsTotal_;
+      }
+      /**
+       * <code>optional int64 HjfsTotal = 2;</code>
+       *
+       * <pre>
+       *火箭发射数量
+       * </pre>
+       */
+      public Builder setHjfsTotal(long value) {
+        bitField0_ |= 0x00000002;
+        hjfsTotal_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 HjfsTotal = 2;</code>
+       *
+       * <pre>
+       *火箭发射数量
+       * </pre>
+       */
+      public Builder clearHjfsTotal() {
+        bitField0_ = (bitField0_ & ~0x00000002);
+        hjfsTotal_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long ksftTotal_ ;
+      /**
+       * <code>optional int64 KsftTotal = 3;</code>
+       *
+       * <pre>
+       *快速反弹数量
+       * </pre>
+       */
+      public boolean hasKsftTotal() {
+        return ((bitField0_ & 0x00000004) == 0x00000004);
+      }
+      /**
+       * <code>optional int64 KsftTotal = 3;</code>
+       *
+       * <pre>
+       *快速反弹数量
+       * </pre>
+       */
+      public long getKsftTotal() {
+        return ksftTotal_;
+      }
+      /**
+       * <code>optional int64 KsftTotal = 3;</code>
+       *
+       * <pre>
+       *快速反弹数量
+       * </pre>
+       */
+      public Builder setKsftTotal(long value) {
+        bitField0_ |= 0x00000004;
+        ksftTotal_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 KsftTotal = 3;</code>
+       *
+       * <pre>
+       *快速反弹数量
+       * </pre>
+       */
+      public Builder clearKsftTotal() {
+        bitField0_ = (bitField0_ & ~0x00000004);
+        ksftTotal_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long gttsTotal_ ;
+      /**
+       * <code>optional int64 GttsTotal = 4;</code>
+       *
+       * <pre>
+       *高台跳水数量
+       * </pre>
+       */
+      public boolean hasGttsTotal() {
+        return ((bitField0_ & 0x00000008) == 0x00000008);
+      }
+      /**
+       * <code>optional int64 GttsTotal = 4;</code>
+       *
+       * <pre>
+       *高台跳水数量
+       * </pre>
+       */
+      public long getGttsTotal() {
+        return gttsTotal_;
+      }
+      /**
+       * <code>optional int64 GttsTotal = 4;</code>
+       *
+       * <pre>
+       *高台跳水数量
+       * </pre>
+       */
+      public Builder setGttsTotal(long value) {
+        bitField0_ |= 0x00000008;
+        gttsTotal_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 GttsTotal = 4;</code>
+       *
+       * <pre>
+       *高台跳水数量
+       * </pre>
+       */
+      public Builder clearGttsTotal() {
+        bitField0_ = (bitField0_ & ~0x00000008);
+        gttsTotal_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long jsxdTotal_ ;
+      /**
+       * <code>optional int64 JsxdTotal = 5;</code>
+       *
+       * <pre>
+       *加速下跌数量
+       * </pre>
+       */
+      public boolean hasJsxdTotal() {
+        return ((bitField0_ & 0x00000010) == 0x00000010);
+      }
+      /**
+       * <code>optional int64 JsxdTotal = 5;</code>
+       *
+       * <pre>
+       *加速下跌数量
+       * </pre>
+       */
+      public long getJsxdTotal() {
+        return jsxdTotal_;
+      }
+      /**
+       * <code>optional int64 JsxdTotal = 5;</code>
+       *
+       * <pre>
+       *加速下跌数量
+       * </pre>
+       */
+      public Builder setJsxdTotal(long value) {
+        bitField0_ |= 0x00000010;
+        jsxdTotal_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 JsxdTotal = 5;</code>
+       *
+       * <pre>
+       *加速下跌数量
+       * </pre>
+       */
+      public Builder clearJsxdTotal() {
+        bitField0_ = (bitField0_ & ~0x00000010);
+        jsxdTotal_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long dbmrTotal_ ;
+      /**
+       * <code>optional int64 DbmrTotal = 6;</code>
+       *
+       * <pre>
+       *大笔买入数量
+       * </pre>
+       */
+      public boolean hasDbmrTotal() {
+        return ((bitField0_ & 0x00000020) == 0x00000020);
+      }
+      /**
+       * <code>optional int64 DbmrTotal = 6;</code>
+       *
+       * <pre>
+       *大笔买入数量
+       * </pre>
+       */
+      public long getDbmrTotal() {
+        return dbmrTotal_;
+      }
+      /**
+       * <code>optional int64 DbmrTotal = 6;</code>
+       *
+       * <pre>
+       *大笔买入数量
+       * </pre>
+       */
+      public Builder setDbmrTotal(long value) {
+        bitField0_ |= 0x00000020;
+        dbmrTotal_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 DbmrTotal = 6;</code>
+       *
+       * <pre>
+       *大笔买入数量
+       * </pre>
+       */
+      public Builder clearDbmrTotal() {
+        bitField0_ = (bitField0_ & ~0x00000020);
+        dbmrTotal_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long dbmrStatistics_ ;
+      /**
+       * <code>optional int64 DbmrStatistics = 7;</code>
+       *
+       * <pre>
+       *大笔买入手数
+       * </pre>
+       */
+      public boolean hasDbmrStatistics() {
+        return ((bitField0_ & 0x00000040) == 0x00000040);
+      }
+      /**
+       * <code>optional int64 DbmrStatistics = 7;</code>
+       *
+       * <pre>
+       *大笔买入手数
+       * </pre>
+       */
+      public long getDbmrStatistics() {
+        return dbmrStatistics_;
+      }
+      /**
+       * <code>optional int64 DbmrStatistics = 7;</code>
+       *
+       * <pre>
+       *大笔买入手数
+       * </pre>
+       */
+      public Builder setDbmrStatistics(long value) {
+        bitField0_ |= 0x00000040;
+        dbmrStatistics_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 DbmrStatistics = 7;</code>
+       *
+       * <pre>
+       *大笔买入手数
+       * </pre>
+       */
+      public Builder clearDbmrStatistics() {
+        bitField0_ = (bitField0_ & ~0x00000040);
+        dbmrStatistics_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long dbmcTotal_ ;
+      /**
+       * <code>optional int64 DbmcTotal = 8;</code>
+       *
+       * <pre>
+       *大笔卖出数量
+       * </pre>
+       */
+      public boolean hasDbmcTotal() {
+        return ((bitField0_ & 0x00000080) == 0x00000080);
+      }
+      /**
+       * <code>optional int64 DbmcTotal = 8;</code>
+       *
+       * <pre>
+       *大笔卖出数量
+       * </pre>
+       */
+      public long getDbmcTotal() {
+        return dbmcTotal_;
+      }
+      /**
+       * <code>optional int64 DbmcTotal = 8;</code>
+       *
+       * <pre>
+       *大笔卖出数量
+       * </pre>
+       */
+      public Builder setDbmcTotal(long value) {
+        bitField0_ |= 0x00000080;
+        dbmcTotal_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 DbmcTotal = 8;</code>
+       *
+       * <pre>
+       *大笔卖出数量
+       * </pre>
+       */
+      public Builder clearDbmcTotal() {
+        bitField0_ = (bitField0_ & ~0x00000080);
+        dbmcTotal_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long dbmcStatistics_ ;
+      /**
+       * <code>optional int64 DbmcStatistics = 9;</code>
+       *
+       * <pre>
+       *大笔卖出手数
+       * </pre>
+       */
+      public boolean hasDbmcStatistics() {
+        return ((bitField0_ & 0x00000100) == 0x00000100);
+      }
+      /**
+       * <code>optional int64 DbmcStatistics = 9;</code>
+       *
+       * <pre>
+       *大笔卖出手数
+       * </pre>
+       */
+      public long getDbmcStatistics() {
+        return dbmcStatistics_;
+      }
+      /**
+       * <code>optional int64 DbmcStatistics = 9;</code>
+       *
+       * <pre>
+       *大笔卖出手数
+       * </pre>
+       */
+      public Builder setDbmcStatistics(long value) {
+        bitField0_ |= 0x00000100;
+        dbmcStatistics_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 DbmcStatistics = 9;</code>
+       *
+       * <pre>
+       *大笔卖出手数
+       * </pre>
+       */
+      public Builder clearDbmcStatistics() {
+        bitField0_ = (bitField0_ & ~0x00000100);
+        dbmcStatistics_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long fztbTotal_ ;
+      /**
+       * <code>optional int64 FztbTotal = 10;</code>
+       *
+       * <pre>
+       *封涨停板数量
+       * </pre>
+       */
+      public boolean hasFztbTotal() {
+        return ((bitField0_ & 0x00000200) == 0x00000200);
+      }
+      /**
+       * <code>optional int64 FztbTotal = 10;</code>
+       *
+       * <pre>
+       *封涨停板数量
+       * </pre>
+       */
+      public long getFztbTotal() {
+        return fztbTotal_;
+      }
+      /**
+       * <code>optional int64 FztbTotal = 10;</code>
+       *
+       * <pre>
+       *封涨停板数量
+       * </pre>
+       */
+      public Builder setFztbTotal(long value) {
+        bitField0_ |= 0x00000200;
+        fztbTotal_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 FztbTotal = 10;</code>
+       *
+       * <pre>
+       *封涨停板数量
+       * </pre>
+       */
+      public Builder clearFztbTotal() {
+        bitField0_ = (bitField0_ & ~0x00000200);
+        fztbTotal_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long fdtbTotal_ ;
+      /**
+       * <code>optional int64 FdtbTotal = 11;</code>
+       *
+       * <pre>
+       *封跌停板数量
+       * </pre>
+       */
+      public boolean hasFdtbTotal() {
+        return ((bitField0_ & 0x00000400) == 0x00000400);
+      }
+      /**
+       * <code>optional int64 FdtbTotal = 11;</code>
+       *
+       * <pre>
+       *封跌停板数量
+       * </pre>
+       */
+      public long getFdtbTotal() {
+        return fdtbTotal_;
+      }
+      /**
+       * <code>optional int64 FdtbTotal = 11;</code>
+       *
+       * <pre>
+       *封跌停板数量
+       * </pre>
+       */
+      public Builder setFdtbTotal(long value) {
+        bitField0_ |= 0x00000400;
+        fdtbTotal_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 FdtbTotal = 11;</code>
+       *
+       * <pre>
+       *封跌停板数量
+       * </pre>
+       */
+      public Builder clearFdtbTotal() {
+        bitField0_ = (bitField0_ & ~0x00000400);
+        fdtbTotal_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long dkztTotal_ ;
+      /**
+       * <code>optional int64 DkztTotal = 12;</code>
+       *
+       * <pre>
+       *打开涨停数量
+       * </pre>
+       */
+      public boolean hasDkztTotal() {
+        return ((bitField0_ & 0x00000800) == 0x00000800);
+      }
+      /**
+       * <code>optional int64 DkztTotal = 12;</code>
+       *
+       * <pre>
+       *打开涨停数量
+       * </pre>
+       */
+      public long getDkztTotal() {
+        return dkztTotal_;
+      }
+      /**
+       * <code>optional int64 DkztTotal = 12;</code>
+       *
+       * <pre>
+       *打开涨停数量
+       * </pre>
+       */
+      public Builder setDkztTotal(long value) {
+        bitField0_ |= 0x00000800;
+        dkztTotal_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 DkztTotal = 12;</code>
+       *
+       * <pre>
+       *打开涨停数量
+       * </pre>
+       */
+      public Builder clearDkztTotal() {
+        bitField0_ = (bitField0_ & ~0x00000800);
+        dkztTotal_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long dkdtTotal_ ;
+      /**
+       * <code>optional int64 DkdtTotal = 13;</code>
+       *
+       * <pre>
+       *打开跌停数量
+       * </pre>
+       */
+      public boolean hasDkdtTotal() {
+        return ((bitField0_ & 0x00001000) == 0x00001000);
+      }
+      /**
+       * <code>optional int64 DkdtTotal = 13;</code>
+       *
+       * <pre>
+       *打开跌停数量
+       * </pre>
+       */
+      public long getDkdtTotal() {
+        return dkdtTotal_;
+      }
+      /**
+       * <code>optional int64 DkdtTotal = 13;</code>
+       *
+       * <pre>
+       *打开跌停数量
+       * </pre>
+       */
+      public Builder setDkdtTotal(long value) {
+        bitField0_ |= 0x00001000;
+        dkdtTotal_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 DkdtTotal = 13;</code>
+       *
+       * <pre>
+       *打开跌停数量
+       * </pre>
+       */
+      public Builder clearDkdtTotal() {
+        bitField0_ = (bitField0_ & ~0x00001000);
+        dkdtTotal_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long ydmcPTotal_ ;
+      /**
+       * <code>optional int64 YdmcPTotal = 14;</code>
+       *
+       * <pre>
+       *有大卖盘数量
+       * </pre>
+       */
+      public boolean hasYdmcPTotal() {
+        return ((bitField0_ & 0x00002000) == 0x00002000);
+      }
+      /**
+       * <code>optional int64 YdmcPTotal = 14;</code>
+       *
+       * <pre>
+       *有大卖盘数量
+       * </pre>
+       */
+      public long getYdmcPTotal() {
+        return ydmcPTotal_;
+      }
+      /**
+       * <code>optional int64 YdmcPTotal = 14;</code>
+       *
+       * <pre>
+       *有大卖盘数量
+       * </pre>
+       */
+      public Builder setYdmcPTotal(long value) {
+        bitField0_ |= 0x00002000;
+        ydmcPTotal_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 YdmcPTotal = 14;</code>
+       *
+       * <pre>
+       *有大卖盘数量
+       * </pre>
+       */
+      public Builder clearYdmcPTotal() {
+        bitField0_ = (bitField0_ & ~0x00002000);
+        ydmcPTotal_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long ydmrPTotal_ ;
+      /**
+       * <code>optional int64 YdmrPTotal = 15;</code>
+       *
+       * <pre>
+       *有大买盘数量
+       * </pre>
+       */
+      public boolean hasYdmrPTotal() {
+        return ((bitField0_ & 0x00004000) == 0x00004000);
+      }
+      /**
+       * <code>optional int64 YdmrPTotal = 15;</code>
+       *
+       * <pre>
+       *有大买盘数量
+       * </pre>
+       */
+      public long getYdmrPTotal() {
+        return ydmrPTotal_;
+      }
+      /**
+       * <code>optional int64 YdmrPTotal = 15;</code>
+       *
+       * <pre>
+       *有大买盘数量
+       * </pre>
+       */
+      public Builder setYdmrPTotal(long value) {
+        bitField0_ |= 0x00004000;
+        ydmrPTotal_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 YdmrPTotal = 15;</code>
+       *
+       * <pre>
+       *有大买盘数量
+       * </pre>
+       */
+      public Builder clearYdmrPTotal() {
+        bitField0_ = (bitField0_ & ~0x00004000);
+        ydmrPTotal_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long lszsTotal_ ;
+      /**
+       * <code>optional int64 LszsTotal = 16;</code>
+       *
+       * <pre>
+       *拉升指数数量
+       * </pre>
+       */
+      public boolean hasLszsTotal() {
+        return ((bitField0_ & 0x00008000) == 0x00008000);
+      }
+      /**
+       * <code>optional int64 LszsTotal = 16;</code>
+       *
+       * <pre>
+       *拉升指数数量
+       * </pre>
+       */
+      public long getLszsTotal() {
+        return lszsTotal_;
+      }
+      /**
+       * <code>optional int64 LszsTotal = 16;</code>
+       *
+       * <pre>
+       *拉升指数数量
+       * </pre>
+       */
+      public Builder setLszsTotal(long value) {
+        bitField0_ |= 0x00008000;
+        lszsTotal_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 LszsTotal = 16;</code>
+       *
+       * <pre>
+       *拉升指数数量
+       * </pre>
+       */
+      public Builder clearLszsTotal() {
+        bitField0_ = (bitField0_ & ~0x00008000);
+        lszsTotal_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long dyzsTotal_ ;
+      /**
+       * <code>optional int64 DyzsTotal = 17;</code>
+       *
+       * <pre>
+       *打压指数数量
+       * </pre>
+       */
+      public boolean hasDyzsTotal() {
+        return ((bitField0_ & 0x00010000) == 0x00010000);
+      }
+      /**
+       * <code>optional int64 DyzsTotal = 17;</code>
+       *
+       * <pre>
+       *打压指数数量
+       * </pre>
+       */
+      public long getDyzsTotal() {
+        return dyzsTotal_;
+      }
+      /**
+       * <code>optional int64 DyzsTotal = 17;</code>
+       *
+       * <pre>
+       *打压指数数量
+       * </pre>
+       */
+      public Builder setDyzsTotal(long value) {
+        bitField0_ |= 0x00010000;
+        dyzsTotal_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 DyzsTotal = 17;</code>
+       *
+       * <pre>
+       *打压指数数量
+       * </pre>
+       */
+      public Builder clearDyzsTotal() {
+        bitField0_ = (bitField0_ & ~0x00010000);
+        dyzsTotal_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long jgmrgdTotal_ ;
+      /**
+       * <code>optional int64 JgmrgdTotal = 18;</code>
+       *
+       * <pre>
+       *机构买入挂单数量
+       * </pre>
+       */
+      public boolean hasJgmrgdTotal() {
+        return ((bitField0_ & 0x00020000) == 0x00020000);
+      }
+      /**
+       * <code>optional int64 JgmrgdTotal = 18;</code>
+       *
+       * <pre>
+       *机构买入挂单数量
+       * </pre>
+       */
+      public long getJgmrgdTotal() {
+        return jgmrgdTotal_;
+      }
+      /**
+       * <code>optional int64 JgmrgdTotal = 18;</code>
+       *
+       * <pre>
+       *机构买入挂单数量
+       * </pre>
+       */
+      public Builder setJgmrgdTotal(long value) {
+        bitField0_ |= 0x00020000;
+        jgmrgdTotal_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 JgmrgdTotal = 18;</code>
+       *
+       * <pre>
+       *机构买入挂单数量
+       * </pre>
+       */
+      public Builder clearJgmrgdTotal() {
+        bitField0_ = (bitField0_ & ~0x00020000);
+        jgmrgdTotal_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long jgmcgdTotal_ ;
+      /**
+       * <code>optional int64 JgmcgdTotal = 19;</code>
+       *
+       * <pre>
+       *机构卖出挂单数量
+       * </pre>
+       */
+      public boolean hasJgmcgdTotal() {
+        return ((bitField0_ & 0x00040000) == 0x00040000);
+      }
+      /**
+       * <code>optional int64 JgmcgdTotal = 19;</code>
+       *
+       * <pre>
+       *机构卖出挂单数量
+       * </pre>
+       */
+      public long getJgmcgdTotal() {
+        return jgmcgdTotal_;
+      }
+      /**
+       * <code>optional int64 JgmcgdTotal = 19;</code>
+       *
+       * <pre>
+       *机构卖出挂单数量
+       * </pre>
+       */
+      public Builder setJgmcgdTotal(long value) {
+        bitField0_ |= 0x00040000;
+        jgmcgdTotal_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 JgmcgdTotal = 19;</code>
+       *
+       * <pre>
+       *机构卖出挂单数量
+       * </pre>
+       */
+      public Builder clearJgmcgdTotal() {
+        bitField0_ = (bitField0_ & ~0x00040000);
+        jgmcgdTotal_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long dcjmrdTotal_ ;
+      /**
+       * <code>optional int64 DcjmrdTotal = 20;</code>
+       *
+       * <pre>
+       *大成交买入单数量
+       * </pre>
+       */
+      public boolean hasDcjmrdTotal() {
+        return ((bitField0_ & 0x00080000) == 0x00080000);
+      }
+      /**
+       * <code>optional int64 DcjmrdTotal = 20;</code>
+       *
+       * <pre>
+       *大成交买入单数量
+       * </pre>
+       */
+      public long getDcjmrdTotal() {
+        return dcjmrdTotal_;
+      }
+      /**
+       * <code>optional int64 DcjmrdTotal = 20;</code>
+       *
+       * <pre>
+       *大成交买入单数量
+       * </pre>
+       */
+      public Builder setDcjmrdTotal(long value) {
+        bitField0_ |= 0x00080000;
+        dcjmrdTotal_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 DcjmrdTotal = 20;</code>
+       *
+       * <pre>
+       *大成交买入单数量
+       * </pre>
+       */
+      public Builder clearDcjmrdTotal() {
+        bitField0_ = (bitField0_ & ~0x00080000);
+        dcjmrdTotal_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long dcjmcdTotal_ ;
+      /**
+       * <code>optional int64 DcjmcdTotal = 21;</code>
+       *
+       * <pre>
+       *大成交卖出单数量
+       * </pre>
+       */
+      public boolean hasDcjmcdTotal() {
+        return ((bitField0_ & 0x00100000) == 0x00100000);
+      }
+      /**
+       * <code>optional int64 DcjmcdTotal = 21;</code>
+       *
+       * <pre>
+       *大成交卖出单数量
+       * </pre>
+       */
+      public long getDcjmcdTotal() {
+        return dcjmcdTotal_;
+      }
+      /**
+       * <code>optional int64 DcjmcdTotal = 21;</code>
+       *
+       * <pre>
+       *大成交卖出单数量
+       * </pre>
+       */
+      public Builder setDcjmcdTotal(long value) {
+        bitField0_ |= 0x00100000;
+        dcjmcdTotal_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 DcjmcdTotal = 21;</code>
+       *
+       * <pre>
+       *大成交卖出单数量
+       * </pre>
+       */
+      public Builder clearDcjmcdTotal() {
+        bitField0_ = (bitField0_ & ~0x00100000);
+        dcjmcdTotal_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long fdmrgdTotal_ ;
+      /**
+       * <code>optional int64 FdmrgdTotal = 22;</code>
+       *
+       * <pre>
+       *分单买入挂单数量
+       * </pre>
+       */
+      public boolean hasFdmrgdTotal() {
+        return ((bitField0_ & 0x00200000) == 0x00200000);
+      }
+      /**
+       * <code>optional int64 FdmrgdTotal = 22;</code>
+       *
+       * <pre>
+       *分单买入挂单数量
+       * </pre>
+       */
+      public long getFdmrgdTotal() {
+        return fdmrgdTotal_;
+      }
+      /**
+       * <code>optional int64 FdmrgdTotal = 22;</code>
+       *
+       * <pre>
+       *分单买入挂单数量
+       * </pre>
+       */
+      public Builder setFdmrgdTotal(long value) {
+        bitField0_ |= 0x00200000;
+        fdmrgdTotal_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 FdmrgdTotal = 22;</code>
+       *
+       * <pre>
+       *分单买入挂单数量
+       * </pre>
+       */
+      public Builder clearFdmrgdTotal() {
+        bitField0_ = (bitField0_ & ~0x00200000);
+        fdmrgdTotal_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long fdmcgdTotal_ ;
+      /**
+       * <code>optional int64 FdmcgdTotal = 23;</code>
+       *
+       * <pre>
+       *分单卖出挂单数量
+       * </pre>
+       */
+      public boolean hasFdmcgdTotal() {
+        return ((bitField0_ & 0x00400000) == 0x00400000);
+      }
+      /**
+       * <code>optional int64 FdmcgdTotal = 23;</code>
+       *
+       * <pre>
+       *分单卖出挂单数量
+       * </pre>
+       */
+      public long getFdmcgdTotal() {
+        return fdmcgdTotal_;
+      }
+      /**
+       * <code>optional int64 FdmcgdTotal = 23;</code>
+       *
+       * <pre>
+       *分单卖出挂单数量
+       * </pre>
+       */
+      public Builder setFdmcgdTotal(long value) {
+        bitField0_ |= 0x00400000;
+        fdmcgdTotal_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 FdmcgdTotal = 23;</code>
+       *
+       * <pre>
+       *分单卖出挂单数量
+       * </pre>
+       */
+      public Builder clearFdmcgdTotal() {
+        bitField0_ = (bitField0_ & ~0x00400000);
+        fdmcgdTotal_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long mrcdTotal_ ;
+      /**
+       * <code>optional int64 MrcdTotal = 24;</code>
+       *
+       * <pre>
+       *买入撤单数量
+       * </pre>
+       */
+      public boolean hasMrcdTotal() {
+        return ((bitField0_ & 0x00800000) == 0x00800000);
+      }
+      /**
+       * <code>optional int64 MrcdTotal = 24;</code>
+       *
+       * <pre>
+       *买入撤单数量
+       * </pre>
+       */
+      public long getMrcdTotal() {
+        return mrcdTotal_;
+      }
+      /**
+       * <code>optional int64 MrcdTotal = 24;</code>
+       *
+       * <pre>
+       *买入撤单数量
+       * </pre>
+       */
+      public Builder setMrcdTotal(long value) {
+        bitField0_ |= 0x00800000;
+        mrcdTotal_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 MrcdTotal = 24;</code>
+       *
+       * <pre>
+       *买入撤单数量
+       * </pre>
+       */
+      public Builder clearMrcdTotal() {
+        bitField0_ = (bitField0_ & ~0x00800000);
+        mrcdTotal_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long mccdTotal_ ;
+      /**
+       * <code>optional int64 MccdTotal = 25;</code>
+       *
+       * <pre>
+       *卖出撤单数量
+       * </pre>
+       */
+      public boolean hasMccdTotal() {
+        return ((bitField0_ & 0x01000000) == 0x01000000);
+      }
+      /**
+       * <code>optional int64 MccdTotal = 25;</code>
+       *
+       * <pre>
+       *卖出撤单数量
+       * </pre>
+       */
+      public long getMccdTotal() {
+        return mccdTotal_;
+      }
+      /**
+       * <code>optional int64 MccdTotal = 25;</code>
+       *
+       * <pre>
+       *卖出撤单数量
+       * </pre>
+       */
+      public Builder setMccdTotal(long value) {
+        bitField0_ |= 0x01000000;
+        mccdTotal_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 MccdTotal = 25;</code>
+       *
+       * <pre>
+       *卖出撤单数量
+       * </pre>
+       */
+      public Builder clearMccdTotal() {
+        bitField0_ = (bitField0_ & ~0x01000000);
+        mccdTotal_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long mrxdTotal_ ;
+      /**
+       * <code>optional int64 MrxdTotal = 26;</code>
+       *
+       * <pre>
+       *买入新单数量
+       * </pre>
+       */
+      public boolean hasMrxdTotal() {
+        return ((bitField0_ & 0x02000000) == 0x02000000);
+      }
+      /**
+       * <code>optional int64 MrxdTotal = 26;</code>
+       *
+       * <pre>
+       *买入新单数量
+       * </pre>
+       */
+      public long getMrxdTotal() {
+        return mrxdTotal_;
+      }
+      /**
+       * <code>optional int64 MrxdTotal = 26;</code>
+       *
+       * <pre>
+       *买入新单数量
+       * </pre>
+       */
+      public Builder setMrxdTotal(long value) {
+        bitField0_ |= 0x02000000;
+        mrxdTotal_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 MrxdTotal = 26;</code>
+       *
+       * <pre>
+       *买入新单数量
+       * </pre>
+       */
+      public Builder clearMrxdTotal() {
+        bitField0_ = (bitField0_ & ~0x02000000);
+        mrxdTotal_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long mcxdTotal_ ;
+      /**
+       * <code>optional int64 McxdTotal = 27;</code>
+       *
+       * <pre>
+       *卖出新单数量
+       * </pre>
+       */
+      public boolean hasMcxdTotal() {
+        return ((bitField0_ & 0x04000000) == 0x04000000);
+      }
+      /**
+       * <code>optional int64 McxdTotal = 27;</code>
+       *
+       * <pre>
+       *卖出新单数量
+       * </pre>
+       */
+      public long getMcxdTotal() {
+        return mcxdTotal_;
+      }
+      /**
+       * <code>optional int64 McxdTotal = 27;</code>
+       *
+       * <pre>
+       *卖出新单数量
+       * </pre>
+       */
+      public Builder setMcxdTotal(long value) {
+        bitField0_ |= 0x04000000;
+        mcxdTotal_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 McxdTotal = 27;</code>
+       *
+       * <pre>
+       *卖出新单数量
+       * </pre>
+       */
+      public Builder clearMcxdTotal() {
+        bitField0_ = (bitField0_ & ~0x04000000);
+        mcxdTotal_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      // @@protoc_insertion_point(builder_scope:dzhyun.DXSpiritStat)
+    }
+
+    static {
+      defaultInstance = new DXSpiritStat(true);
+      defaultInstance.initFields();
+    }
+
+    // @@protoc_insertion_point(class_scope:dzhyun.DXSpiritStat)
+  }
+
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dzhyun_DXSpirit_descriptor;
   private static
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dzhyun_DXSpirit_fieldAccessorTable;
+  private static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_dzhyun_DXSpiritStat_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_dzhyun_DXSpiritStat_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -989,8 +4378,21 @@ public final class DzhyunDxspirit {
     java.lang.String[] descriptorData = {
       "\n\025dzhyun.dxspirit.proto\022\006dzhyun\"H\n\010DXSpi" +
       "rit\022\017\n\007ShiJian\030\001 \002(\003\022\013\n\003Obj\030\002 \001(\t\022\017\n\007Ton" +
-      "gZhi\030\003 \001(\t\022\r\n\005ShuJu\030\004 \001(\003B\022\n\020com.dzhyun." +
-      "proto"
+      "gZhi\030\003 \001(\t\022\r\n\005ShuJu\030\004 \001(\003\"\241\004\n\014DXSpiritSt" +
+      "at\022\013\n\003Obj\030\001 \001(\t\022\021\n\tHjfsTotal\030\002 \001(\003\022\021\n\tKs" +
+      "ftTotal\030\003 \001(\003\022\021\n\tGttsTotal\030\004 \001(\003\022\021\n\tJsxd" +
+      "Total\030\005 \001(\003\022\021\n\tDbmrTotal\030\006 \001(\003\022\026\n\016DbmrSt" +
+      "atistics\030\007 \001(\003\022\021\n\tDbmcTotal\030\010 \001(\003\022\026\n\016Dbm" +
+      "cStatistics\030\t \001(\003\022\021\n\tFztbTotal\030\n \001(\003\022\021\n\t" +
+      "FdtbTotal\030\013 \001(\003\022\021\n\tDkztTotal\030\014 \001(\003\022\021\n\tDk" +
+      "dtTotal\030\r \001(\003\022\022\n\nYdmcPTotal\030\016 \001(\003\022\022\n\nYdm",
+      "rPTotal\030\017 \001(\003\022\021\n\tLszsTotal\030\020 \001(\003\022\021\n\tDyzs" +
+      "Total\030\021 \001(\003\022\023\n\013JgmrgdTotal\030\022 \001(\003\022\023\n\013Jgmc" +
+      "gdTotal\030\023 \001(\003\022\023\n\013DcjmrdTotal\030\024 \001(\003\022\023\n\013Dc" +
+      "jmcdTotal\030\025 \001(\003\022\023\n\013FdmrgdTotal\030\026 \001(\003\022\023\n\013" +
+      "FdmcgdTotal\030\027 \001(\003\022\021\n\tMrcdTotal\030\030 \001(\003\022\021\n\t" +
+      "MccdTotal\030\031 \001(\003\022\021\n\tMrxdTotal\030\032 \001(\003\022\021\n\tMc" +
+      "xdTotal\030\033 \001(\003B\022\n\020com.dzhyun.proto"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -1010,6 +4412,12 @@ public final class DzhyunDxspirit {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dzhyun_DXSpirit_descriptor,
         new java.lang.String[] { "ShiJian", "Obj", "TongZhi", "ShuJu", });
+    internal_static_dzhyun_DXSpiritStat_descriptor =
+      getDescriptor().getMessageTypes().get(1);
+    internal_static_dzhyun_DXSpiritStat_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_dzhyun_DXSpiritStat_descriptor,
+        new java.lang.String[] { "Obj", "HjfsTotal", "KsftTotal", "GttsTotal", "JsxdTotal", "DbmrTotal", "DbmrStatistics", "DbmcTotal", "DbmcStatistics", "FztbTotal", "FdtbTotal", "DkztTotal", "DkdtTotal", "YdmcPTotal", "YdmrPTotal", "LszsTotal", "DyzsTotal", "JgmrgdTotal", "JgmcgdTotal", "DcjmrdTotal", "DcjmcdTotal", "FdmrgdTotal", "FdmcgdTotal", "MrcdTotal", "MccdTotal", "MrxdTotal", "McxdTotal", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

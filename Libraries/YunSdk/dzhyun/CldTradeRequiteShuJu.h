@@ -10,10 +10,13 @@
 
 @class ComGoogleProtobufDescriptors_Descriptor;
 @class ComGoogleProtobufExtensionRegistry;
+@class DzhyunCldTradeRequiteShuJu_SeatInfo;
+@class DzhyunCldTradeRequiteShuJu_SeatInfo_Builder;
 @class DzhyunCldTradeRequiteShuJu_TradeObj_Builder;
 @class DzhyunCldTradeRequiteShuJu_TradeSeat_Builder;
 @protocol ComGoogleProtobufProtocolStringList;
 @protocol JavaLangIterable;
+@protocol JavaUtilList;
 
 @interface DzhyunCldTradeRequiteShuJu : NSObject
 
@@ -108,11 +111,96 @@ J2OBJC_EMPTY_STATIC_INIT(DzhyunCldTradeRequiteShuJu_TradeObj_Builder)
 
 J2OBJC_TYPE_LITERAL_HEADER(DzhyunCldTradeRequiteShuJu_TradeObj_Builder)
 
+@protocol DzhyunCldTradeRequiteShuJu_SeatInfoOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasSeatName;
+- (NSString *)getSeatName;
+
+- (BOOL)hasSeatId;
+- (NSString *)getSeatId;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(DzhyunCldTradeRequiteShuJu_SeatInfoOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(DzhyunCldTradeRequiteShuJu_SeatInfoOrBuilder)
+
+@interface DzhyunCldTradeRequiteShuJu_SeatInfo : ComGoogleProtobufGeneratedMessage<DzhyunCldTradeRequiteShuJu_SeatInfoOrBuilder>
+
++ (DzhyunCldTradeRequiteShuJu_SeatInfo *)getDefaultInstance;
+- (DzhyunCldTradeRequiteShuJu_SeatInfo *)getDefaultInstanceForType;
++ (DzhyunCldTradeRequiteShuJu_SeatInfo_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (DzhyunCldTradeRequiteShuJu_SeatInfo_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (DzhyunCldTradeRequiteShuJu_SeatInfo_Builder *)toBuilder;
++ (DzhyunCldTradeRequiteShuJu_SeatInfo_Builder *)newBuilderWithDzhyunCldTradeRequiteShuJu_SeatInfo:(DzhyunCldTradeRequiteShuJu_SeatInfo *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (DzhyunCldTradeRequiteShuJu_SeatInfo *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (DzhyunCldTradeRequiteShuJu_SeatInfo *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (DzhyunCldTradeRequiteShuJu_SeatInfo *)parseFromNSData:(NSData *)data;
++ (DzhyunCldTradeRequiteShuJu_SeatInfo *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (DzhyunCldTradeRequiteShuJu_SeatInfo *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (DzhyunCldTradeRequiteShuJu_SeatInfo *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (DzhyunCldTradeRequiteShuJu_SeatInfo *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (DzhyunCldTradeRequiteShuJu_SeatInfo *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define DzhyunCldTradeRequiteShuJu_SeatInfo_SEATNAME_FIELD_NUMBER 1
+#define DzhyunCldTradeRequiteShuJu_SeatInfo_SEATID_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT DzhyunCldTradeRequiteShuJu_SeatInfo *DzhyunCldTradeRequiteShuJu_SeatInfo_getDefaultInstance();
+FOUNDATION_EXPORT DzhyunCldTradeRequiteShuJu_SeatInfo_Builder *DzhyunCldTradeRequiteShuJu_SeatInfo_newBuilder();
+FOUNDATION_EXPORT DzhyunCldTradeRequiteShuJu_SeatInfo_Builder *DzhyunCldTradeRequiteShuJu_SeatInfo_newBuilderWithDzhyunCldTradeRequiteShuJu_SeatInfo_(DzhyunCldTradeRequiteShuJu_SeatInfo *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *DzhyunCldTradeRequiteShuJu_SeatInfo_getDescriptor();
+FOUNDATION_EXPORT DzhyunCldTradeRequiteShuJu_SeatInfo *DzhyunCldTradeRequiteShuJu_SeatInfo_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline DzhyunCldTradeRequiteShuJu_SeatInfo *DzhyunCldTradeRequiteShuJu_SeatInfo_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return DzhyunCldTradeRequiteShuJu_SeatInfo_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT DzhyunCldTradeRequiteShuJu_SeatInfo *DzhyunCldTradeRequiteShuJu_SeatInfo_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline DzhyunCldTradeRequiteShuJu_SeatInfo *DzhyunCldTradeRequiteShuJu_SeatInfo_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return DzhyunCldTradeRequiteShuJu_SeatInfo_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT DzhyunCldTradeRequiteShuJu_SeatInfo *DzhyunCldTradeRequiteShuJu_SeatInfo_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline DzhyunCldTradeRequiteShuJu_SeatInfo *DzhyunCldTradeRequiteShuJu_SeatInfo_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return DzhyunCldTradeRequiteShuJu_SeatInfo_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(DzhyunCldTradeRequiteShuJu_SeatInfo)
+
+J2OBJC_TYPE_LITERAL_HEADER(DzhyunCldTradeRequiteShuJu_SeatInfo)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *DzhyunCldTradeRequiteShuJu_SeatInfo_descriptor_;
+
+@interface DzhyunCldTradeRequiteShuJu_SeatInfo_Builder : ComGoogleProtobufGeneratedMessage_Builder<DzhyunCldTradeRequiteShuJu_SeatInfoOrBuilder>
+
+- (DzhyunCldTradeRequiteShuJu_SeatInfo *)getDefaultInstanceForType;
+- (DzhyunCldTradeRequiteShuJu_SeatInfo_Builder *)mergeFromWithDzhyunCldTradeRequiteShuJu_SeatInfo:(DzhyunCldTradeRequiteShuJu_SeatInfo *)message;
+- (DzhyunCldTradeRequiteShuJu_SeatInfo_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (DzhyunCldTradeRequiteShuJu_SeatInfo *)build;
+- (DzhyunCldTradeRequiteShuJu_SeatInfo *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (DzhyunCldTradeRequiteShuJu_SeatInfo_Builder *)setSeatNameWithNSString:
+    (NSString *)value;
+- (DzhyunCldTradeRequiteShuJu_SeatInfo_Builder *)clearSeatName;
+
+- (DzhyunCldTradeRequiteShuJu_SeatInfo_Builder *)setSeatIdWithNSString:
+    (NSString *)value;
+- (DzhyunCldTradeRequiteShuJu_SeatInfo_Builder *)clearSeatId;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *DzhyunCldTradeRequiteShuJu_SeatInfo_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(DzhyunCldTradeRequiteShuJu_SeatInfo_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(DzhyunCldTradeRequiteShuJu_SeatInfo_Builder)
+
 @protocol DzhyunCldTradeRequiteShuJu_TradeSeatOrBuilder < ComGoogleProtobufMessageOrBuilder >
 
 - (int)getSeatsCount;
-- (id<ComGoogleProtobufProtocolStringList>)getSeatsList;
-- (NSString *)getSeatsWithInt:(int)index;
+- (id<JavaUtilList>)getSeatsList;
+- (DzhyunCldTradeRequiteShuJu_SeatInfo *)getSeatsWithInt:(int)index;
 
 @end
 
@@ -174,12 +262,15 @@ FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *DzhyunCldTradeRequite
 - (DzhyunCldTradeRequiteShuJu_TradeSeat *)buildPartial;
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
 - (DzhyunCldTradeRequiteShuJu_TradeSeat_Builder*)setSeatsWithInt:(int)index
-    withNSString:(NSString *)value;
-- (DzhyunCldTradeRequiteShuJu_TradeSeat_Builder*)addSeatsWithNSString:
-    (NSString *)value;
+    withDzhyunCldTradeRequiteShuJu_SeatInfo:(DzhyunCldTradeRequiteShuJu_SeatInfo *)value;
+- (DzhyunCldTradeRequiteShuJu_TradeSeat_Builder*)addSeatsWithDzhyunCldTradeRequiteShuJu_SeatInfo:
+    (DzhyunCldTradeRequiteShuJu_SeatInfo *)value;
 - (DzhyunCldTradeRequiteShuJu_TradeSeat_Builder*)addAllSeatsWithJavaLangIterable:
     (id<JavaLangIterable>)values;
 - (DzhyunCldTradeRequiteShuJu_TradeSeat_Builder*)clearSeats;
+- (DzhyunCldTradeRequiteShuJu_TradeSeat_Builder*)
+    addSeatsWithDzhyunCldTradeRequiteShuJu_SeatInfo_Builder:
+    (DzhyunCldTradeRequiteShuJu_SeatInfo_Builder *)value;
 
 @end
 

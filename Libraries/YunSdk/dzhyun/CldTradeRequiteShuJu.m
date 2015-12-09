@@ -118,6 +118,111 @@ ComGoogleProtobufDescriptors_Descriptor *DzhyunCldTradeRequiteShuJu_TradeObj_Bui
   return DzhyunCldTradeRequiteShuJu_TradeObj_descriptor_;
 }
 
+J2OBJC_INITIALIZED_DEFN(DzhyunCldTradeRequiteShuJu_SeatInfo);
+
+ComGoogleProtobufDescriptors_Descriptor *DzhyunCldTradeRequiteShuJu_SeatInfo_descriptor_;
+
+@implementation DzhyunCldTradeRequiteShuJu_SeatInfo
+
+typedef struct DzhyunCldTradeRequiteShuJu_SeatInfo_Storage {
+  uint32_t hasBits[1];
+  NSString *seatName_;
+  NSString *seatId_;
+} DzhyunCldTradeRequiteShuJu_SeatInfo_Storage;
+
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor {
+  return DzhyunCldTradeRequiteShuJu_SeatInfo_descriptor_;
+}
+
++ (void)initialize {
+  if (self == [DzhyunCldTradeRequiteShuJu_SeatInfo class]) {
+    static CGPFieldData fields[] = {
+      {
+        .name = "seatName",
+        .javaName = "SeatName",
+        .number = 1,
+        .flags = CGPFieldFlagRequired,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
+        .defaultValue.valueId = @"",
+        .hasBitIndex = 0,
+        .offset = offsetof(DzhyunCldTradeRequiteShuJu_SeatInfo_Storage, seatName_),
+        .className = NULL,
+        .containingType = "DzhyunCldTradeRequiteShuJu_SeatInfo",
+        .optionsData = NULL,
+      },
+      {
+        .name = "seatId",
+        .javaName = "SeatId",
+        .number = 2,
+        .flags = CGPFieldFlagRequired,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
+        .defaultValue.valueId = @"",
+        .hasBitIndex = 1,
+        .offset = offsetof(DzhyunCldTradeRequiteShuJu_SeatInfo_Storage, seatId_),
+        .className = NULL,
+        .containingType = "DzhyunCldTradeRequiteShuJu_SeatInfo",
+        .optionsData = NULL,
+      },
+    };
+    CGPInitDescriptor(&DzhyunCldTradeRequiteShuJu_SeatInfo_descriptor_, self, [DzhyunCldTradeRequiteShuJu_SeatInfo_Builder class], 0, sizeof(DzhyunCldTradeRequiteShuJu_SeatInfo_Storage), 2, fields);
+    J2OBJC_SET_INITIALIZED(DzhyunCldTradeRequiteShuJu_SeatInfo)
+  }
+}
+
+@end
+
+J2OBJC_CLASS_TYPE_LITERAL_SOURCE(DzhyunCldTradeRequiteShuJu_SeatInfo)
+
+DzhyunCldTradeRequiteShuJu_SeatInfo *DzhyunCldTradeRequiteShuJu_SeatInfo_getDefaultInstance() {
+  DzhyunCldTradeRequiteShuJu_SeatInfo_initialize();
+  return (DzhyunCldTradeRequiteShuJu_SeatInfo *)[CGPNewMessage(DzhyunCldTradeRequiteShuJu_SeatInfo_descriptor_) autorelease];
+}
+
+DzhyunCldTradeRequiteShuJu_SeatInfo_Builder *DzhyunCldTradeRequiteShuJu_SeatInfo_newBuilder() {
+  DzhyunCldTradeRequiteShuJu_SeatInfo_initialize();
+  return (DzhyunCldTradeRequiteShuJu_SeatInfo_Builder *)[CGPNewBuilder(DzhyunCldTradeRequiteShuJu_SeatInfo_descriptor_) autorelease];
+}
+
+DzhyunCldTradeRequiteShuJu_SeatInfo_Builder *DzhyunCldTradeRequiteShuJu_SeatInfo_newBuilderWithDzhyunCldTradeRequiteShuJu_SeatInfo_(DzhyunCldTradeRequiteShuJu_SeatInfo *message) {
+  DzhyunCldTradeRequiteShuJu_SeatInfo_initialize();
+  return (DzhyunCldTradeRequiteShuJu_SeatInfo_Builder *)CGPBuilderFromPrototype(DzhyunCldTradeRequiteShuJu_SeatInfo_descriptor_, message);
+}
+
+ComGoogleProtobufDescriptors_Descriptor *DzhyunCldTradeRequiteShuJu_SeatInfo_getDescriptor() {
+  DzhyunCldTradeRequiteShuJu_SeatInfo_initialize();
+  return DzhyunCldTradeRequiteShuJu_SeatInfo_descriptor_;
+}
+
+DzhyunCldTradeRequiteShuJu_SeatInfo *DzhyunCldTradeRequiteShuJu_SeatInfo_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry) {
+  DzhyunCldTradeRequiteShuJu_SeatInfo_initialize();
+  return (DzhyunCldTradeRequiteShuJu_SeatInfo *)CGPParseFromByteArray(DzhyunCldTradeRequiteShuJu_SeatInfo_descriptor_, bytes, registry);
+}
+
+DzhyunCldTradeRequiteShuJu_SeatInfo *DzhyunCldTradeRequiteShuJu_SeatInfo_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry) {
+  DzhyunCldTradeRequiteShuJu_SeatInfo_initialize();
+  return (DzhyunCldTradeRequiteShuJu_SeatInfo *)CGPParseFromInputStream(DzhyunCldTradeRequiteShuJu_SeatInfo_descriptor_, input, registry);
+}
+DzhyunCldTradeRequiteShuJu_SeatInfo *DzhyunCldTradeRequiteShuJu_SeatInfo_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry) {
+  DzhyunCldTradeRequiteShuJu_SeatInfo_initialize();
+  return (DzhyunCldTradeRequiteShuJu_SeatInfo *)CGPParseDelimitedFromInputStream(DzhyunCldTradeRequiteShuJu_SeatInfo_descriptor_, input, registry);
+}
+
+@implementation DzhyunCldTradeRequiteShuJu_SeatInfo_Builder
+
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor {
+  return [DzhyunCldTradeRequiteShuJu_SeatInfo getDescriptor];
+}
+
+@end
+
+J2OBJC_CLASS_TYPE_LITERAL_SOURCE(DzhyunCldTradeRequiteShuJu_SeatInfo_Builder)
+J2OBJC_INTERFACE_TYPE_LITERAL_SOURCE(DzhyunCldTradeRequiteShuJu_SeatInfoOrBuilder)
+
+ComGoogleProtobufDescriptors_Descriptor *DzhyunCldTradeRequiteShuJu_SeatInfo_Builder_getDescriptor() {
+  DzhyunCldTradeRequiteShuJu_SeatInfo_initialize();
+  return DzhyunCldTradeRequiteShuJu_SeatInfo_descriptor_;
+}
+
 J2OBJC_INITIALIZED_DEFN(DzhyunCldTradeRequiteShuJu_TradeSeat);
 
 ComGoogleProtobufDescriptors_Descriptor *DzhyunCldTradeRequiteShuJu_TradeSeat_descriptor_;
@@ -141,11 +246,11 @@ typedef struct DzhyunCldTradeRequiteShuJu_TradeSeat_Storage {
         .javaName = "Seats",
         .number = 1,
         .flags = CGPFieldFlagRepeated,
-        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_STRING,
+        .type = ComGoogleProtobufDescriptors_FieldDescriptor_Type_MESSAGE,
         .defaultValue.valueId = nil,
         .hasBitIndex = 0,
         .offset = offsetof(DzhyunCldTradeRequiteShuJu_TradeSeat_Storage, seats_),
-        .className = NULL,
+        .className = "DzhyunCldTradeRequiteShuJu_SeatInfo",
         .containingType = "DzhyunCldTradeRequiteShuJu_TradeSeat",
         .optionsData = NULL,
       },

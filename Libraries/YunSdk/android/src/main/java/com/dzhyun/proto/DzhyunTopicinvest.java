@@ -1151,6 +1151,91 @@ public final class DzhyunTopicinvest {
      * <code>optional .dzhyun.LingZhangGuShuJu LingZhangGu = 10;</code>
      */
     com.dzhyun.proto.DzhyunTopicinvest.LingZhangGuShuJuOrBuilder getLingZhangGuOrBuilder();
+
+    /**
+     * <code>optional int64 ShiFouReMenZhuTi = 11;</code>
+     *
+     * <pre>
+     *热门主题（0：代表否，1：代表是）
+     * </pre>
+     */
+    boolean hasShiFouReMenZhuTi();
+    /**
+     * <code>optional int64 ShiFouReMenZhuTi = 11;</code>
+     *
+     * <pre>
+     *热门主题（0：代表否，1：代表是）
+     * </pre>
+     */
+    long getShiFouReMenZhuTi();
+
+    /**
+     * <code>optional int64 RiPingJunZhangFuPaiMing14 = 12;</code>
+     *
+     * <pre>
+     *主题14日平均涨幅排名
+     * </pre>
+     */
+    boolean hasRiPingJunZhangFuPaiMing14();
+    /**
+     * <code>optional int64 RiPingJunZhangFuPaiMing14 = 12;</code>
+     *
+     * <pre>
+     *主题14日平均涨幅排名
+     * </pre>
+     */
+    long getRiPingJunZhangFuPaiMing14();
+
+    /**
+     * <code>optional int64 RiPingJunZhangFuPaiMing30 = 13;</code>
+     *
+     * <pre>
+     *主题30日平均涨幅排名
+     * </pre>
+     */
+    boolean hasRiPingJunZhangFuPaiMing30();
+    /**
+     * <code>optional int64 RiPingJunZhangFuPaiMing30 = 13;</code>
+     *
+     * <pre>
+     *主题30日平均涨幅排名
+     * </pre>
+     */
+    long getRiPingJunZhangFuPaiMing30();
+
+    /**
+     * <code>optional int64 RiReDuZhi14 = 14;</code>
+     *
+     * <pre>
+     *统计14日主题热度值
+     * </pre>
+     */
+    boolean hasRiReDuZhi14();
+    /**
+     * <code>optional int64 RiReDuZhi14 = 14;</code>
+     *
+     * <pre>
+     *统计14日主题热度值
+     * </pre>
+     */
+    long getRiReDuZhi14();
+
+    /**
+     * <code>optional int64 RiReDuZhi30 = 15;</code>
+     *
+     * <pre>
+     *统计30日主题热度值
+     * </pre>
+     */
+    boolean hasRiReDuZhi30();
+    /**
+     * <code>optional int64 RiReDuZhi30 = 15;</code>
+     *
+     * <pre>
+     *统计30日主题热度值
+     * </pre>
+     */
+    long getRiReDuZhi30();
   }
   /**
    * Protobuf type {@code dzhyun.TopicInvest}
@@ -1265,6 +1350,31 @@ public final class DzhyunTopicinvest {
                 lingZhangGu_ = subBuilder.buildPartial();
               }
               bitField0_ |= 0x00000200;
+              break;
+            }
+            case 88: {
+              bitField0_ |= 0x00000400;
+              shiFouReMenZhuTi_ = input.readInt64();
+              break;
+            }
+            case 96: {
+              bitField0_ |= 0x00000800;
+              riPingJunZhangFuPaiMing14_ = input.readInt64();
+              break;
+            }
+            case 104: {
+              bitField0_ |= 0x00001000;
+              riPingJunZhangFuPaiMing30_ = input.readInt64();
+              break;
+            }
+            case 112: {
+              bitField0_ |= 0x00002000;
+              riReDuZhi14_ = input.readInt64();
+              break;
+            }
+            case 120: {
+              bitField0_ |= 0x00004000;
+              riReDuZhi30_ = input.readInt64();
               break;
             }
           }
@@ -1566,6 +1676,121 @@ public final class DzhyunTopicinvest {
       return lingZhangGu_;
     }
 
+    public static final int SHIFOUREMENZHUTI_FIELD_NUMBER = 11;
+    private long shiFouReMenZhuTi_;
+    /**
+     * <code>optional int64 ShiFouReMenZhuTi = 11;</code>
+     *
+     * <pre>
+     *热门主题（0：代表否，1：代表是）
+     * </pre>
+     */
+    public boolean hasShiFouReMenZhuTi() {
+      return ((bitField0_ & 0x00000400) == 0x00000400);
+    }
+    /**
+     * <code>optional int64 ShiFouReMenZhuTi = 11;</code>
+     *
+     * <pre>
+     *热门主题（0：代表否，1：代表是）
+     * </pre>
+     */
+    public long getShiFouReMenZhuTi() {
+      return shiFouReMenZhuTi_;
+    }
+
+    public static final int RIPINGJUNZHANGFUPAIMING14_FIELD_NUMBER = 12;
+    private long riPingJunZhangFuPaiMing14_;
+    /**
+     * <code>optional int64 RiPingJunZhangFuPaiMing14 = 12;</code>
+     *
+     * <pre>
+     *主题14日平均涨幅排名
+     * </pre>
+     */
+    public boolean hasRiPingJunZhangFuPaiMing14() {
+      return ((bitField0_ & 0x00000800) == 0x00000800);
+    }
+    /**
+     * <code>optional int64 RiPingJunZhangFuPaiMing14 = 12;</code>
+     *
+     * <pre>
+     *主题14日平均涨幅排名
+     * </pre>
+     */
+    public long getRiPingJunZhangFuPaiMing14() {
+      return riPingJunZhangFuPaiMing14_;
+    }
+
+    public static final int RIPINGJUNZHANGFUPAIMING30_FIELD_NUMBER = 13;
+    private long riPingJunZhangFuPaiMing30_;
+    /**
+     * <code>optional int64 RiPingJunZhangFuPaiMing30 = 13;</code>
+     *
+     * <pre>
+     *主题30日平均涨幅排名
+     * </pre>
+     */
+    public boolean hasRiPingJunZhangFuPaiMing30() {
+      return ((bitField0_ & 0x00001000) == 0x00001000);
+    }
+    /**
+     * <code>optional int64 RiPingJunZhangFuPaiMing30 = 13;</code>
+     *
+     * <pre>
+     *主题30日平均涨幅排名
+     * </pre>
+     */
+    public long getRiPingJunZhangFuPaiMing30() {
+      return riPingJunZhangFuPaiMing30_;
+    }
+
+    public static final int RIREDUZHI14_FIELD_NUMBER = 14;
+    private long riReDuZhi14_;
+    /**
+     * <code>optional int64 RiReDuZhi14 = 14;</code>
+     *
+     * <pre>
+     *统计14日主题热度值
+     * </pre>
+     */
+    public boolean hasRiReDuZhi14() {
+      return ((bitField0_ & 0x00002000) == 0x00002000);
+    }
+    /**
+     * <code>optional int64 RiReDuZhi14 = 14;</code>
+     *
+     * <pre>
+     *统计14日主题热度值
+     * </pre>
+     */
+    public long getRiReDuZhi14() {
+      return riReDuZhi14_;
+    }
+
+    public static final int RIREDUZHI30_FIELD_NUMBER = 15;
+    private long riReDuZhi30_;
+    /**
+     * <code>optional int64 RiReDuZhi30 = 15;</code>
+     *
+     * <pre>
+     *统计30日主题热度值
+     * </pre>
+     */
+    public boolean hasRiReDuZhi30() {
+      return ((bitField0_ & 0x00004000) == 0x00004000);
+    }
+    /**
+     * <code>optional int64 RiReDuZhi30 = 15;</code>
+     *
+     * <pre>
+     *统计30日主题热度值
+     * </pre>
+     */
+    public long getRiReDuZhi30() {
+      return riReDuZhi30_;
+    }
+
     private void initFields() {
       bianHao_ = 0L;
       mingCheng_ = "";
@@ -1577,6 +1802,11 @@ public final class DzhyunTopicinvest {
       pingPanJiaShu_ = 0L;
       xiaDieJiaShu_ = 0L;
       lingZhangGu_ = com.dzhyun.proto.DzhyunTopicinvest.LingZhangGuShuJu.getDefaultInstance();
+      shiFouReMenZhuTi_ = 0L;
+      riPingJunZhangFuPaiMing14_ = 0L;
+      riPingJunZhangFuPaiMing30_ = 0L;
+      riReDuZhi14_ = 0L;
+      riReDuZhi30_ = 0L;
     }
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
@@ -1631,6 +1861,21 @@ public final class DzhyunTopicinvest {
       if (((bitField0_ & 0x00000200) == 0x00000200)) {
         output.writeMessage(10, lingZhangGu_);
       }
+      if (((bitField0_ & 0x00000400) == 0x00000400)) {
+        output.writeInt64(11, shiFouReMenZhuTi_);
+      }
+      if (((bitField0_ & 0x00000800) == 0x00000800)) {
+        output.writeInt64(12, riPingJunZhangFuPaiMing14_);
+      }
+      if (((bitField0_ & 0x00001000) == 0x00001000)) {
+        output.writeInt64(13, riPingJunZhangFuPaiMing30_);
+      }
+      if (((bitField0_ & 0x00002000) == 0x00002000)) {
+        output.writeInt64(14, riReDuZhi14_);
+      }
+      if (((bitField0_ & 0x00004000) == 0x00004000)) {
+        output.writeInt64(15, riReDuZhi30_);
+      }
       getUnknownFields().writeTo(output);
     }
 
@@ -1679,6 +1924,26 @@ public final class DzhyunTopicinvest {
       if (((bitField0_ & 0x00000200) == 0x00000200)) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(10, lingZhangGu_);
+      }
+      if (((bitField0_ & 0x00000400) == 0x00000400)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(11, shiFouReMenZhuTi_);
+      }
+      if (((bitField0_ & 0x00000800) == 0x00000800)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(12, riPingJunZhangFuPaiMing14_);
+      }
+      if (((bitField0_ & 0x00001000) == 0x00001000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(13, riPingJunZhangFuPaiMing30_);
+      }
+      if (((bitField0_ & 0x00002000) == 0x00002000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(14, riReDuZhi14_);
+      }
+      if (((bitField0_ & 0x00004000) == 0x00004000)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(15, riReDuZhi30_);
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
@@ -1826,6 +2091,16 @@ public final class DzhyunTopicinvest {
           lingZhangGuBuilder_.clear();
         }
         bitField0_ = (bitField0_ & ~0x00000200);
+        shiFouReMenZhuTi_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000400);
+        riPingJunZhangFuPaiMing14_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000800);
+        riPingJunZhangFuPaiMing30_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00001000);
+        riReDuZhi14_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00002000);
+        riReDuZhi30_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00004000);
         return this;
       }
 
@@ -1898,6 +2173,26 @@ public final class DzhyunTopicinvest {
         } else {
           result.lingZhangGu_ = lingZhangGuBuilder_.build();
         }
+        if (((from_bitField0_ & 0x00000400) == 0x00000400)) {
+          to_bitField0_ |= 0x00000400;
+        }
+        result.shiFouReMenZhuTi_ = shiFouReMenZhuTi_;
+        if (((from_bitField0_ & 0x00000800) == 0x00000800)) {
+          to_bitField0_ |= 0x00000800;
+        }
+        result.riPingJunZhangFuPaiMing14_ = riPingJunZhangFuPaiMing14_;
+        if (((from_bitField0_ & 0x00001000) == 0x00001000)) {
+          to_bitField0_ |= 0x00001000;
+        }
+        result.riPingJunZhangFuPaiMing30_ = riPingJunZhangFuPaiMing30_;
+        if (((from_bitField0_ & 0x00002000) == 0x00002000)) {
+          to_bitField0_ |= 0x00002000;
+        }
+        result.riReDuZhi14_ = riReDuZhi14_;
+        if (((from_bitField0_ & 0x00004000) == 0x00004000)) {
+          to_bitField0_ |= 0x00004000;
+        }
+        result.riReDuZhi30_ = riReDuZhi30_;
         result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
@@ -1945,6 +2240,21 @@ public final class DzhyunTopicinvest {
         }
         if (other.hasLingZhangGu()) {
           mergeLingZhangGu(other.getLingZhangGu());
+        }
+        if (other.hasShiFouReMenZhuTi()) {
+          setShiFouReMenZhuTi(other.getShiFouReMenZhuTi());
+        }
+        if (other.hasRiPingJunZhangFuPaiMing14()) {
+          setRiPingJunZhangFuPaiMing14(other.getRiPingJunZhangFuPaiMing14());
+        }
+        if (other.hasRiPingJunZhangFuPaiMing30()) {
+          setRiPingJunZhangFuPaiMing30(other.getRiPingJunZhangFuPaiMing30());
+        }
+        if (other.hasRiReDuZhi14()) {
+          setRiReDuZhi14(other.getRiReDuZhi14());
+        }
+        if (other.hasRiReDuZhi30()) {
+          setRiReDuZhi30(other.getRiReDuZhi30());
         }
         this.mergeUnknownFields(other.getUnknownFields());
         return this;
@@ -2581,6 +2891,246 @@ public final class DzhyunTopicinvest {
           lingZhangGu_ = null;
         }
         return lingZhangGuBuilder_;
+      }
+
+      private long shiFouReMenZhuTi_ ;
+      /**
+       * <code>optional int64 ShiFouReMenZhuTi = 11;</code>
+       *
+       * <pre>
+       *热门主题（0：代表否，1：代表是）
+       * </pre>
+       */
+      public boolean hasShiFouReMenZhuTi() {
+        return ((bitField0_ & 0x00000400) == 0x00000400);
+      }
+      /**
+       * <code>optional int64 ShiFouReMenZhuTi = 11;</code>
+       *
+       * <pre>
+       *热门主题（0：代表否，1：代表是）
+       * </pre>
+       */
+      public long getShiFouReMenZhuTi() {
+        return shiFouReMenZhuTi_;
+      }
+      /**
+       * <code>optional int64 ShiFouReMenZhuTi = 11;</code>
+       *
+       * <pre>
+       *热门主题（0：代表否，1：代表是）
+       * </pre>
+       */
+      public Builder setShiFouReMenZhuTi(long value) {
+        bitField0_ |= 0x00000400;
+        shiFouReMenZhuTi_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 ShiFouReMenZhuTi = 11;</code>
+       *
+       * <pre>
+       *热门主题（0：代表否，1：代表是）
+       * </pre>
+       */
+      public Builder clearShiFouReMenZhuTi() {
+        bitField0_ = (bitField0_ & ~0x00000400);
+        shiFouReMenZhuTi_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long riPingJunZhangFuPaiMing14_ ;
+      /**
+       * <code>optional int64 RiPingJunZhangFuPaiMing14 = 12;</code>
+       *
+       * <pre>
+       *主题14日平均涨幅排名
+       * </pre>
+       */
+      public boolean hasRiPingJunZhangFuPaiMing14() {
+        return ((bitField0_ & 0x00000800) == 0x00000800);
+      }
+      /**
+       * <code>optional int64 RiPingJunZhangFuPaiMing14 = 12;</code>
+       *
+       * <pre>
+       *主题14日平均涨幅排名
+       * </pre>
+       */
+      public long getRiPingJunZhangFuPaiMing14() {
+        return riPingJunZhangFuPaiMing14_;
+      }
+      /**
+       * <code>optional int64 RiPingJunZhangFuPaiMing14 = 12;</code>
+       *
+       * <pre>
+       *主题14日平均涨幅排名
+       * </pre>
+       */
+      public Builder setRiPingJunZhangFuPaiMing14(long value) {
+        bitField0_ |= 0x00000800;
+        riPingJunZhangFuPaiMing14_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 RiPingJunZhangFuPaiMing14 = 12;</code>
+       *
+       * <pre>
+       *主题14日平均涨幅排名
+       * </pre>
+       */
+      public Builder clearRiPingJunZhangFuPaiMing14() {
+        bitField0_ = (bitField0_ & ~0x00000800);
+        riPingJunZhangFuPaiMing14_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long riPingJunZhangFuPaiMing30_ ;
+      /**
+       * <code>optional int64 RiPingJunZhangFuPaiMing30 = 13;</code>
+       *
+       * <pre>
+       *主题30日平均涨幅排名
+       * </pre>
+       */
+      public boolean hasRiPingJunZhangFuPaiMing30() {
+        return ((bitField0_ & 0x00001000) == 0x00001000);
+      }
+      /**
+       * <code>optional int64 RiPingJunZhangFuPaiMing30 = 13;</code>
+       *
+       * <pre>
+       *主题30日平均涨幅排名
+       * </pre>
+       */
+      public long getRiPingJunZhangFuPaiMing30() {
+        return riPingJunZhangFuPaiMing30_;
+      }
+      /**
+       * <code>optional int64 RiPingJunZhangFuPaiMing30 = 13;</code>
+       *
+       * <pre>
+       *主题30日平均涨幅排名
+       * </pre>
+       */
+      public Builder setRiPingJunZhangFuPaiMing30(long value) {
+        bitField0_ |= 0x00001000;
+        riPingJunZhangFuPaiMing30_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 RiPingJunZhangFuPaiMing30 = 13;</code>
+       *
+       * <pre>
+       *主题30日平均涨幅排名
+       * </pre>
+       */
+      public Builder clearRiPingJunZhangFuPaiMing30() {
+        bitField0_ = (bitField0_ & ~0x00001000);
+        riPingJunZhangFuPaiMing30_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long riReDuZhi14_ ;
+      /**
+       * <code>optional int64 RiReDuZhi14 = 14;</code>
+       *
+       * <pre>
+       *统计14日主题热度值
+       * </pre>
+       */
+      public boolean hasRiReDuZhi14() {
+        return ((bitField0_ & 0x00002000) == 0x00002000);
+      }
+      /**
+       * <code>optional int64 RiReDuZhi14 = 14;</code>
+       *
+       * <pre>
+       *统计14日主题热度值
+       * </pre>
+       */
+      public long getRiReDuZhi14() {
+        return riReDuZhi14_;
+      }
+      /**
+       * <code>optional int64 RiReDuZhi14 = 14;</code>
+       *
+       * <pre>
+       *统计14日主题热度值
+       * </pre>
+       */
+      public Builder setRiReDuZhi14(long value) {
+        bitField0_ |= 0x00002000;
+        riReDuZhi14_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 RiReDuZhi14 = 14;</code>
+       *
+       * <pre>
+       *统计14日主题热度值
+       * </pre>
+       */
+      public Builder clearRiReDuZhi14() {
+        bitField0_ = (bitField0_ & ~0x00002000);
+        riReDuZhi14_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long riReDuZhi30_ ;
+      /**
+       * <code>optional int64 RiReDuZhi30 = 15;</code>
+       *
+       * <pre>
+       *统计30日主题热度值
+       * </pre>
+       */
+      public boolean hasRiReDuZhi30() {
+        return ((bitField0_ & 0x00004000) == 0x00004000);
+      }
+      /**
+       * <code>optional int64 RiReDuZhi30 = 15;</code>
+       *
+       * <pre>
+       *统计30日主题热度值
+       * </pre>
+       */
+      public long getRiReDuZhi30() {
+        return riReDuZhi30_;
+      }
+      /**
+       * <code>optional int64 RiReDuZhi30 = 15;</code>
+       *
+       * <pre>
+       *统计30日主题热度值
+       * </pre>
+       */
+      public Builder setRiReDuZhi30(long value) {
+        bitField0_ |= 0x00004000;
+        riReDuZhi30_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 RiReDuZhi30 = 15;</code>
+       *
+       * <pre>
+       *统计30日主题热度值
+       * </pre>
+       */
+      public Builder clearRiReDuZhi30() {
+        bitField0_ = (bitField0_ & ~0x00004000);
+        riReDuZhi30_ = 0L;
+        onChanged();
+        return this;
       }
 
       // @@protoc_insertion_point(builder_scope:dzhyun.TopicInvest)
@@ -5873,21 +6423,24 @@ public final class DzhyunTopicinvest {
       "\n\030dzhyun.topicinvest.proto\022\006dzhyun\"^\n\020Li" +
       "ngZhangGuShuJu\022\013\n\003Obj\030\001 \002(\t\022\031\n\021ZhongWenJ" +
       "ianCheng\030\002 \001(\t\022\021\n\tZuiXinJia\030\003 \001(\003\022\017\n\007Zha" +
-      "ngFu\030\004 \001(\003\"\354\001\n\013TopicInvest\022\017\n\007BianHao\030\001 " +
+      "ngFu\030\004 \001(\003\"\366\002\n\013TopicInvest\022\017\n\007BianHao\030\001 " +
       "\002(\003\022\021\n\tMingCheng\030\002 \001(\t\022\017\n\007ShiJian\030\003 \001(\003\022" +
       "\017\n\007ZhangFu\030\004 \001(\003\022\017\n\007LiangBi\030\005 \001(\003\022\020\n\010Hua" +
       "nShou\030\006 \001(\003\022\030\n\020ShangZhangJiaShu\030\007 \001(\003\022\025\n" +
       "\rPingPanJiaShu\030\010 \001(\003\022\024\n\014XiaDieJiaShu\030\t \001" +
       "(\003\022-\n\013LingZhangGu\030\n \001(\0132\030.dzhyun.LingZha" +
-      "ngGuShuJu\"1\n\rLiShiHangQing\022\017\n\007ShiJian\030\001 ",
-      "\002(\003\022\017\n\007ZhangFu\030\002 \002(\003\"6\n\013LiShiZouShi\022\'\n\010H" +
-      "angQing\030\001 \003(\0132\025.dzhyun.LiShiHangQing\"m\n\022" +
-      "TopicInvestHistory\022\017\n\007BianHao\030\001 \002(\003\022\021\n\tM" +
-      "ingCheng\030\002 \001(\t\022\017\n\007ShiJian\030\003 \001(\003\022\"\n\005LiShi" +
-      "\030\004 \001(\0132\023.dzhyun.LiShiZouShi\"I\n\017TopicInve" +
-      "stInfo\022\017\n\007BianHao\030\001 \002(\003\022\021\n\tMingCheng\030\002 \002" +
-      "(\t\022\022\n\nChengFenGu\030\003 \003(\tB\022\n\020com.dzhyun.pro" +
-      "to"
+      "ngGuShuJu\022\030\n\020ShiFouReMenZhuTi\030\013 \001(\003\022!\n\031R",
+      "iPingJunZhangFuPaiMing14\030\014 \001(\003\022!\n\031RiPing" +
+      "JunZhangFuPaiMing30\030\r \001(\003\022\023\n\013RiReDuZhi14" +
+      "\030\016 \001(\003\022\023\n\013RiReDuZhi30\030\017 \001(\003\"1\n\rLiShiHang" +
+      "Qing\022\017\n\007ShiJian\030\001 \002(\003\022\017\n\007ZhangFu\030\002 \002(\003\"6" +
+      "\n\013LiShiZouShi\022\'\n\010HangQing\030\001 \003(\0132\025.dzhyun" +
+      ".LiShiHangQing\"m\n\022TopicInvestHistory\022\017\n\007" +
+      "BianHao\030\001 \002(\003\022\021\n\tMingCheng\030\002 \001(\t\022\017\n\007ShiJ" +
+      "ian\030\003 \001(\003\022\"\n\005LiShi\030\004 \001(\0132\023.dzhyun.LiShiZ" +
+      "ouShi\"I\n\017TopicInvestInfo\022\017\n\007BianHao\030\001 \002(" +
+      "\003\022\021\n\tMingCheng\030\002 \002(\t\022\022\n\nChengFenGu\030\003 \003(\t",
+      "B\022\n\020com.dzhyun.proto"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -5912,7 +6465,7 @@ public final class DzhyunTopicinvest {
     internal_static_dzhyun_TopicInvest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dzhyun_TopicInvest_descriptor,
-        new java.lang.String[] { "BianHao", "MingCheng", "ShiJian", "ZhangFu", "LiangBi", "HuanShou", "ShangZhangJiaShu", "PingPanJiaShu", "XiaDieJiaShu", "LingZhangGu", });
+        new java.lang.String[] { "BianHao", "MingCheng", "ShiJian", "ZhangFu", "LiangBi", "HuanShou", "ShangZhangJiaShu", "PingPanJiaShu", "XiaDieJiaShu", "LingZhangGu", "ShiFouReMenZhuTi", "RiPingJunZhangFuPaiMing14", "RiPingJunZhangFuPaiMing30", "RiReDuZhi14", "RiReDuZhi30", });
     internal_static_dzhyun_LiShiHangQing_descriptor =
       getDescriptor().getMessageTypes().get(2);
     internal_static_dzhyun_LiShiHangQing_fieldAccessorTable = new

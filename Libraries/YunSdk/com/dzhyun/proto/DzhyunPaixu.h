@@ -7,6 +7,7 @@
 #import "com/google/protobuf/ProtocolMessageEnum.h"
 #import "java/lang/Enum.h"
 
+@class ComDzhyunProtoDzhyunPaixu_PaiMing_Builder;
 @class ComDzhyunProtoDzhyunPaixu_PaiXu_Builder;
 @class ComGoogleProtobufDescriptors_Descriptor;
 @class ComGoogleProtobufExtensionRegistry;
@@ -115,3 +116,104 @@ FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunP
 J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhyunPaixu_PaiXu_Builder)
 
 J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunPaixu_PaiXu_Builder)
+
+@protocol ComDzhyunProtoDzhyunPaixu_PaiMingOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (BOOL)hasValue;
+- (long long int)getValue;
+
+- (BOOL)hasText;
+- (NSString *)getText;
+
+- (BOOL)hasMingCi;
+- (long long int)getMingCi;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhyunPaixu_PaiMingOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunPaixu_PaiMingOrBuilder)
+
+@interface ComDzhyunProtoDzhyunPaixu_PaiMing : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoDzhyunPaixu_PaiMingOrBuilder>
+
++ (ComDzhyunProtoDzhyunPaixu_PaiMing *)getDefaultInstance;
+- (ComDzhyunProtoDzhyunPaixu_PaiMing *)getDefaultInstanceForType;
++ (ComDzhyunProtoDzhyunPaixu_PaiMing_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoDzhyunPaixu_PaiMing_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoDzhyunPaixu_PaiMing_Builder *)toBuilder;
++ (ComDzhyunProtoDzhyunPaixu_PaiMing_Builder *)newBuilderWithComDzhyunProtoDzhyunPaixu_PaiMing:(ComDzhyunProtoDzhyunPaixu_PaiMing *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoDzhyunPaixu_PaiMing *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoDzhyunPaixu_PaiMing *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhyunPaixu_PaiMing *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoDzhyunPaixu_PaiMing *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhyunPaixu_PaiMing *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoDzhyunPaixu_PaiMing *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoDzhyunPaixu_PaiMing *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoDzhyunPaixu_PaiMing *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoDzhyunPaixu_PaiMing_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoDzhyunPaixu_PaiMing_VALUE_FIELD_NUMBER 2
+#define ComDzhyunProtoDzhyunPaixu_PaiMing_TEXT_FIELD_NUMBER 3
+#define ComDzhyunProtoDzhyunPaixu_PaiMing_MINGCI_FIELD_NUMBER 4
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunPaixu_PaiMing *ComDzhyunProtoDzhyunPaixu_PaiMing_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunPaixu_PaiMing_Builder *ComDzhyunProtoDzhyunPaixu_PaiMing_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunPaixu_PaiMing_Builder *ComDzhyunProtoDzhyunPaixu_PaiMing_newBuilderWithComDzhyunProtoDzhyunPaixu_PaiMing_(ComDzhyunProtoDzhyunPaixu_PaiMing *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunPaixu_PaiMing_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunPaixu_PaiMing *ComDzhyunProtoDzhyunPaixu_PaiMing_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhyunPaixu_PaiMing *ComDzhyunProtoDzhyunPaixu_PaiMing_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoDzhyunPaixu_PaiMing_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunPaixu_PaiMing *ComDzhyunProtoDzhyunPaixu_PaiMing_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhyunPaixu_PaiMing *ComDzhyunProtoDzhyunPaixu_PaiMing_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoDzhyunPaixu_PaiMing_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoDzhyunPaixu_PaiMing *ComDzhyunProtoDzhyunPaixu_PaiMing_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoDzhyunPaixu_PaiMing *ComDzhyunProtoDzhyunPaixu_PaiMing_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoDzhyunPaixu_PaiMing_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoDzhyunPaixu_PaiMing)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunPaixu_PaiMing)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunPaixu_PaiMing_descriptor_;
+
+@interface ComDzhyunProtoDzhyunPaixu_PaiMing_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoDzhyunPaixu_PaiMingOrBuilder>
+
+- (ComDzhyunProtoDzhyunPaixu_PaiMing *)getDefaultInstanceForType;
+- (ComDzhyunProtoDzhyunPaixu_PaiMing_Builder *)mergeFromWithComDzhyunProtoDzhyunPaixu_PaiMing:(ComDzhyunProtoDzhyunPaixu_PaiMing *)message;
+- (ComDzhyunProtoDzhyunPaixu_PaiMing_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoDzhyunPaixu_PaiMing *)build;
+- (ComDzhyunProtoDzhyunPaixu_PaiMing *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoDzhyunPaixu_PaiMing_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoDzhyunPaixu_PaiMing_Builder *)clearObj;
+
+- (ComDzhyunProtoDzhyunPaixu_PaiMing_Builder *)setValueWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunPaixu_PaiMing_Builder *)clearValue;
+
+- (ComDzhyunProtoDzhyunPaixu_PaiMing_Builder *)setTextWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoDzhyunPaixu_PaiMing_Builder *)clearText;
+
+- (ComDzhyunProtoDzhyunPaixu_PaiMing_Builder *)setMingCiWithLong:
+    (long long int)value;
+- (ComDzhyunProtoDzhyunPaixu_PaiMing_Builder *)clearMingCi;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoDzhyunPaixu_PaiMing_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoDzhyunPaixu_PaiMing_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoDzhyunPaixu_PaiMing_Builder)

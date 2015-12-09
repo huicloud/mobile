@@ -829,41 +829,41 @@ public final class DzhNewsInfo {
     // @@protoc_insertion_point(class_scope:dzhyun.NewsInfoValue)
   }
 
-  public interface XinWenXinXiOutputOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:dzhyun.XinWenXinXiOutput)
+  public interface XinWenXinXiExOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:dzhyun.XinWenXinXiEx)
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>required string Obj = 1;</code>
+     * <code>optional string source = 1;</code>
      *
      * <pre>
-     * 个股新闻公告:股票代码; 新闻公告中心:空
+     * 新闻:来源		
      * </pre>
      */
-    boolean hasObj();
+    boolean hasSource();
     /**
-     * <code>required string Obj = 1;</code>
+     * <code>optional string source = 1;</code>
      *
      * <pre>
-     * 个股新闻公告:股票代码; 新闻公告中心:空
+     * 新闻:来源		
      * </pre>
      */
-    java.lang.String getObj();
+    java.lang.String getSource();
     /**
-     * <code>required string Obj = 1;</code>
+     * <code>optional string source = 1;</code>
      *
      * <pre>
-     * 个股新闻公告:股票代码; 新闻公告中心:空
+     * 新闻:来源		
      * </pre>
      */
     com.google.protobuf.ByteString
-        getObjBytes();
+        getSourceBytes();
 
     /**
      * <code>optional string date = 2;</code>
      *
      * <pre>
-     * 新闻公告日期
+     * 新闻日期
      * </pre>
      */
     boolean hasDate();
@@ -871,7 +871,7 @@ public final class DzhNewsInfo {
      * <code>optional string date = 2;</code>
      *
      * <pre>
-     * 新闻公告日期
+     * 新闻日期
      * </pre>
      */
     java.lang.String getDate();
@@ -879,7 +879,7 @@ public final class DzhNewsInfo {
      * <code>optional string date = 2;</code>
      *
      * <pre>
-     * 新闻公告日期
+     * 新闻日期
      * </pre>
      */
     com.google.protobuf.ByteString
@@ -889,7 +889,7 @@ public final class DzhNewsInfo {
      * <code>optional string title = 3;</code>
      *
      * <pre>
-     * 新闻公告标题
+     * 新闻标题
      * </pre>
      */
     boolean hasTitle();
@@ -897,7 +897,7 @@ public final class DzhNewsInfo {
      * <code>optional string title = 3;</code>
      *
      * <pre>
-     * 新闻公告标题
+     * 新闻标题
      * </pre>
      */
     java.lang.String getTitle();
@@ -905,7 +905,7 @@ public final class DzhNewsInfo {
      * <code>optional string title = 3;</code>
      *
      * <pre>
-     * 新闻公告标题
+     * 新闻标题
      * </pre>
      */
     com.google.protobuf.ByteString
@@ -915,7 +915,7 @@ public final class DzhNewsInfo {
      * <code>optional string context = 4;</code>
      *
      * <pre>
-     * 新闻:内容压缩文件下载url; 公告:pdf文件下载url 
+     * 新闻:内容压缩文件下载url
      * </pre>
      */
     boolean hasContext();
@@ -923,7 +923,7 @@ public final class DzhNewsInfo {
      * <code>optional string context = 4;</code>
      *
      * <pre>
-     * 新闻:内容压缩文件下载url; 公告:pdf文件下载url 
+     * 新闻:内容压缩文件下载url
      * </pre>
      */
     java.lang.String getContext();
@@ -931,43 +931,1119 @@ public final class DzhNewsInfo {
      * <code>optional string context = 4;</code>
      *
      * <pre>
-     * 新闻:内容压缩文件下载url; 公告:pdf文件下载url 
+     * 新闻:内容压缩文件下载url
      * </pre>
      */
     com.google.protobuf.ByteString
         getContextBytes();
+  }
+  /**
+   * Protobuf type {@code dzhyun.XinWenXinXiEx}
+   */
+  public static final class XinWenXinXiEx extends
+      com.google.protobuf.GeneratedMessage implements
+      // @@protoc_insertion_point(message_implements:dzhyun.XinWenXinXiEx)
+      XinWenXinXiExOrBuilder {
+    // Use XinWenXinXiEx.newBuilder() to construct.
+    private XinWenXinXiEx(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      super(builder);
+      this.unknownFields = builder.getUnknownFields();
+    }
+    private XinWenXinXiEx(boolean noInit) { this.unknownFields = com.google.protobuf.UnknownFieldSet.getDefaultInstance(); }
+
+    private static final XinWenXinXiEx defaultInstance;
+    public static XinWenXinXiEx getDefaultInstance() {
+      return defaultInstance;
+    }
+
+    public XinWenXinXiEx getDefaultInstanceForType() {
+      return defaultInstance;
+    }
+
+    private final com.google.protobuf.UnknownFieldSet unknownFields;
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+        getUnknownFields() {
+      return this.unknownFields;
+    }
+    private XinWenXinXiEx(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      initFields();
+      int mutable_bitField0_ = 0;
+      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+          com.google.protobuf.UnknownFieldSet.newBuilder();
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!parseUnknownField(input, unknownFields,
+                                     extensionRegistry, tag)) {
+                done = true;
+              }
+              break;
+            }
+            case 10: {
+              com.google.protobuf.ByteString bs = input.readBytes();
+              bitField0_ |= 0x00000001;
+              source_ = bs;
+              break;
+            }
+            case 18: {
+              com.google.protobuf.ByteString bs = input.readBytes();
+              bitField0_ |= 0x00000002;
+              date_ = bs;
+              break;
+            }
+            case 26: {
+              com.google.protobuf.ByteString bs = input.readBytes();
+              bitField0_ |= 0x00000004;
+              title_ = bs;
+              break;
+            }
+            case 34: {
+              com.google.protobuf.ByteString bs = input.readBytes();
+              bitField0_ |= 0x00000008;
+              context_ = bs;
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e.getMessage()).setUnfinishedMessage(this);
+      } finally {
+        this.unknownFields = unknownFields.build();
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_XinWenXinXiEx_descriptor;
+    }
+
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_XinWenXinXiEx_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx.class, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx.Builder.class);
+    }
+
+    public static com.google.protobuf.Parser<XinWenXinXiEx> PARSER =
+        new com.google.protobuf.AbstractParser<XinWenXinXiEx>() {
+      public XinWenXinXiEx parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return new XinWenXinXiEx(input, extensionRegistry);
+      }
+    };
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<XinWenXinXiEx> getParserForType() {
+      return PARSER;
+    }
+
+    private int bitField0_;
+    public static final int SOURCE_FIELD_NUMBER = 1;
+    private java.lang.Object source_;
+    /**
+     * <code>optional string source = 1;</code>
+     *
+     * <pre>
+     * 新闻:来源		
+     * </pre>
+     */
+    public boolean hasSource() {
+      return ((bitField0_ & 0x00000001) == 0x00000001);
+    }
+    /**
+     * <code>optional string source = 1;</code>
+     *
+     * <pre>
+     * 新闻:来源		
+     * </pre>
+     */
+    public java.lang.String getSource() {
+      java.lang.Object ref = source_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          source_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>optional string source = 1;</code>
+     *
+     * <pre>
+     * 新闻:来源		
+     * </pre>
+     */
+    public com.google.protobuf.ByteString
+        getSourceBytes() {
+      java.lang.Object ref = source_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        source_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    public static final int DATE_FIELD_NUMBER = 2;
+    private java.lang.Object date_;
+    /**
+     * <code>optional string date = 2;</code>
+     *
+     * <pre>
+     * 新闻日期
+     * </pre>
+     */
+    public boolean hasDate() {
+      return ((bitField0_ & 0x00000002) == 0x00000002);
+    }
+    /**
+     * <code>optional string date = 2;</code>
+     *
+     * <pre>
+     * 新闻日期
+     * </pre>
+     */
+    public java.lang.String getDate() {
+      java.lang.Object ref = date_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          date_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>optional string date = 2;</code>
+     *
+     * <pre>
+     * 新闻日期
+     * </pre>
+     */
+    public com.google.protobuf.ByteString
+        getDateBytes() {
+      java.lang.Object ref = date_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        date_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    public static final int TITLE_FIELD_NUMBER = 3;
+    private java.lang.Object title_;
+    /**
+     * <code>optional string title = 3;</code>
+     *
+     * <pre>
+     * 新闻标题
+     * </pre>
+     */
+    public boolean hasTitle() {
+      return ((bitField0_ & 0x00000004) == 0x00000004);
+    }
+    /**
+     * <code>optional string title = 3;</code>
+     *
+     * <pre>
+     * 新闻标题
+     * </pre>
+     */
+    public java.lang.String getTitle() {
+      java.lang.Object ref = title_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          title_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>optional string title = 3;</code>
+     *
+     * <pre>
+     * 新闻标题
+     * </pre>
+     */
+    public com.google.protobuf.ByteString
+        getTitleBytes() {
+      java.lang.Object ref = title_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        title_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    public static final int CONTEXT_FIELD_NUMBER = 4;
+    private java.lang.Object context_;
+    /**
+     * <code>optional string context = 4;</code>
+     *
+     * <pre>
+     * 新闻:内容压缩文件下载url
+     * </pre>
+     */
+    public boolean hasContext() {
+      return ((bitField0_ & 0x00000008) == 0x00000008);
+    }
+    /**
+     * <code>optional string context = 4;</code>
+     *
+     * <pre>
+     * 新闻:内容压缩文件下载url
+     * </pre>
+     */
+    public java.lang.String getContext() {
+      java.lang.Object ref = context_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          context_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>optional string context = 4;</code>
+     *
+     * <pre>
+     * 新闻:内容压缩文件下载url
+     * </pre>
+     */
+    public com.google.protobuf.ByteString
+        getContextBytes() {
+      java.lang.Object ref = context_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        context_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    private void initFields() {
+      source_ = "";
+      date_ = "";
+      title_ = "";
+      context_ = "";
+    }
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      getSerializedSize();
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        output.writeBytes(1, getSourceBytes());
+      }
+      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+        output.writeBytes(2, getDateBytes());
+      }
+      if (((bitField0_ & 0x00000004) == 0x00000004)) {
+        output.writeBytes(3, getTitleBytes());
+      }
+      if (((bitField0_ & 0x00000008) == 0x00000008)) {
+        output.writeBytes(4, getContextBytes());
+      }
+      getUnknownFields().writeTo(output);
+    }
+
+    private int memoizedSerializedSize = -1;
+    public int getSerializedSize() {
+      int size = memoizedSerializedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(1, getSourceBytes());
+      }
+      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(2, getDateBytes());
+      }
+      if (((bitField0_ & 0x00000004) == 0x00000004)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(3, getTitleBytes());
+      }
+      if (((bitField0_ & 0x00000008) == 0x00000008)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(4, getContextBytes());
+      }
+      size += getUnknownFields().getSerializedSize();
+      memoizedSerializedSize = size;
+      return size;
+    }
+
+    private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    protected java.lang.Object writeReplace()
+        throws java.io.ObjectStreamException {
+      return super.writeReplace();
+    }
+
+    public static com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+
+    public static Builder newBuilder() { return Builder.create(); }
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder(com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx prototype) {
+      return newBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() { return newBuilder(this); }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code dzhyun.XinWenXinXiEx}
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:dzhyun.XinWenXinXiEx)
+        com.dzhyun.proto.DzhNewsInfo.XinWenXinXiExOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_XinWenXinXiEx_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_XinWenXinXiEx_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx.class, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx.Builder.class);
+      }
+
+      // Construct using com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        }
+      }
+      private static Builder create() {
+        return new Builder();
+      }
+
+      public Builder clear() {
+        super.clear();
+        source_ = "";
+        bitField0_ = (bitField0_ & ~0x00000001);
+        date_ = "";
+        bitField0_ = (bitField0_ & ~0x00000002);
+        title_ = "";
+        bitField0_ = (bitField0_ & ~0x00000004);
+        context_ = "";
+        bitField0_ = (bitField0_ & ~0x00000008);
+        return this;
+      }
+
+      public Builder clone() {
+        return create().mergeFrom(buildPartial());
+      }
+
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_XinWenXinXiEx_descriptor;
+      }
+
+      public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx getDefaultInstanceForType() {
+        return com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx.getDefaultInstance();
+      }
+
+      public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx build() {
+        com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx buildPartial() {
+        com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx result = new com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx(this);
+        int from_bitField0_ = bitField0_;
+        int to_bitField0_ = 0;
+        if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
+          to_bitField0_ |= 0x00000001;
+        }
+        result.source_ = source_;
+        if (((from_bitField0_ & 0x00000002) == 0x00000002)) {
+          to_bitField0_ |= 0x00000002;
+        }
+        result.date_ = date_;
+        if (((from_bitField0_ & 0x00000004) == 0x00000004)) {
+          to_bitField0_ |= 0x00000004;
+        }
+        result.title_ = title_;
+        if (((from_bitField0_ & 0x00000008) == 0x00000008)) {
+          to_bitField0_ |= 0x00000008;
+        }
+        result.context_ = context_;
+        result.bitField0_ = to_bitField0_;
+        onBuilt();
+        return result;
+      }
+
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx) {
+          return mergeFrom((com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx other) {
+        if (other == com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx.getDefaultInstance()) return this;
+        if (other.hasSource()) {
+          bitField0_ |= 0x00000001;
+          source_ = other.source_;
+          onChanged();
+        }
+        if (other.hasDate()) {
+          bitField0_ |= 0x00000002;
+          date_ = other.date_;
+          onChanged();
+        }
+        if (other.hasTitle()) {
+          bitField0_ |= 0x00000004;
+          title_ = other.title_;
+          onChanged();
+        }
+        if (other.hasContext()) {
+          bitField0_ |= 0x00000008;
+          context_ = other.context_;
+          onChanged();
+        }
+        this.mergeUnknownFields(other.getUnknownFields());
+        return this;
+      }
+
+      public final boolean isInitialized() {
+        return true;
+      }
+
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx) e.getUnfinishedMessage();
+          throw e;
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+      private int bitField0_;
+
+      private java.lang.Object source_ = "";
+      /**
+       * <code>optional string source = 1;</code>
+       *
+       * <pre>
+       * 新闻:来源		
+       * </pre>
+       */
+      public boolean hasSource() {
+        return ((bitField0_ & 0x00000001) == 0x00000001);
+      }
+      /**
+       * <code>optional string source = 1;</code>
+       *
+       * <pre>
+       * 新闻:来源		
+       * </pre>
+       */
+      public java.lang.String getSource() {
+        java.lang.Object ref = source_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          if (bs.isValidUtf8()) {
+            source_ = s;
+          }
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string source = 1;</code>
+       *
+       * <pre>
+       * 新闻:来源		
+       * </pre>
+       */
+      public com.google.protobuf.ByteString
+          getSourceBytes() {
+        java.lang.Object ref = source_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          source_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string source = 1;</code>
+       *
+       * <pre>
+       * 新闻:来源		
+       * </pre>
+       */
+      public Builder setSource(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000001;
+        source_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string source = 1;</code>
+       *
+       * <pre>
+       * 新闻:来源		
+       * </pre>
+       */
+      public Builder clearSource() {
+        bitField0_ = (bitField0_ & ~0x00000001);
+        source_ = getDefaultInstance().getSource();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string source = 1;</code>
+       *
+       * <pre>
+       * 新闻:来源		
+       * </pre>
+       */
+      public Builder setSourceBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000001;
+        source_ = value;
+        onChanged();
+        return this;
+      }
+
+      private java.lang.Object date_ = "";
+      /**
+       * <code>optional string date = 2;</code>
+       *
+       * <pre>
+       * 新闻日期
+       * </pre>
+       */
+      public boolean hasDate() {
+        return ((bitField0_ & 0x00000002) == 0x00000002);
+      }
+      /**
+       * <code>optional string date = 2;</code>
+       *
+       * <pre>
+       * 新闻日期
+       * </pre>
+       */
+      public java.lang.String getDate() {
+        java.lang.Object ref = date_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          if (bs.isValidUtf8()) {
+            date_ = s;
+          }
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string date = 2;</code>
+       *
+       * <pre>
+       * 新闻日期
+       * </pre>
+       */
+      public com.google.protobuf.ByteString
+          getDateBytes() {
+        java.lang.Object ref = date_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          date_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string date = 2;</code>
+       *
+       * <pre>
+       * 新闻日期
+       * </pre>
+       */
+      public Builder setDate(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000002;
+        date_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string date = 2;</code>
+       *
+       * <pre>
+       * 新闻日期
+       * </pre>
+       */
+      public Builder clearDate() {
+        bitField0_ = (bitField0_ & ~0x00000002);
+        date_ = getDefaultInstance().getDate();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string date = 2;</code>
+       *
+       * <pre>
+       * 新闻日期
+       * </pre>
+       */
+      public Builder setDateBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000002;
+        date_ = value;
+        onChanged();
+        return this;
+      }
+
+      private java.lang.Object title_ = "";
+      /**
+       * <code>optional string title = 3;</code>
+       *
+       * <pre>
+       * 新闻标题
+       * </pre>
+       */
+      public boolean hasTitle() {
+        return ((bitField0_ & 0x00000004) == 0x00000004);
+      }
+      /**
+       * <code>optional string title = 3;</code>
+       *
+       * <pre>
+       * 新闻标题
+       * </pre>
+       */
+      public java.lang.String getTitle() {
+        java.lang.Object ref = title_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          if (bs.isValidUtf8()) {
+            title_ = s;
+          }
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string title = 3;</code>
+       *
+       * <pre>
+       * 新闻标题
+       * </pre>
+       */
+      public com.google.protobuf.ByteString
+          getTitleBytes() {
+        java.lang.Object ref = title_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          title_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string title = 3;</code>
+       *
+       * <pre>
+       * 新闻标题
+       * </pre>
+       */
+      public Builder setTitle(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000004;
+        title_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string title = 3;</code>
+       *
+       * <pre>
+       * 新闻标题
+       * </pre>
+       */
+      public Builder clearTitle() {
+        bitField0_ = (bitField0_ & ~0x00000004);
+        title_ = getDefaultInstance().getTitle();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string title = 3;</code>
+       *
+       * <pre>
+       * 新闻标题
+       * </pre>
+       */
+      public Builder setTitleBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000004;
+        title_ = value;
+        onChanged();
+        return this;
+      }
+
+      private java.lang.Object context_ = "";
+      /**
+       * <code>optional string context = 4;</code>
+       *
+       * <pre>
+       * 新闻:内容压缩文件下载url
+       * </pre>
+       */
+      public boolean hasContext() {
+        return ((bitField0_ & 0x00000008) == 0x00000008);
+      }
+      /**
+       * <code>optional string context = 4;</code>
+       *
+       * <pre>
+       * 新闻:内容压缩文件下载url
+       * </pre>
+       */
+      public java.lang.String getContext() {
+        java.lang.Object ref = context_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          if (bs.isValidUtf8()) {
+            context_ = s;
+          }
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string context = 4;</code>
+       *
+       * <pre>
+       * 新闻:内容压缩文件下载url
+       * </pre>
+       */
+      public com.google.protobuf.ByteString
+          getContextBytes() {
+        java.lang.Object ref = context_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          context_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string context = 4;</code>
+       *
+       * <pre>
+       * 新闻:内容压缩文件下载url
+       * </pre>
+       */
+      public Builder setContext(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000008;
+        context_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string context = 4;</code>
+       *
+       * <pre>
+       * 新闻:内容压缩文件下载url
+       * </pre>
+       */
+      public Builder clearContext() {
+        bitField0_ = (bitField0_ & ~0x00000008);
+        context_ = getDefaultInstance().getContext();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string context = 4;</code>
+       *
+       * <pre>
+       * 新闻:内容压缩文件下载url
+       * </pre>
+       */
+      public Builder setContextBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000008;
+        context_ = value;
+        onChanged();
+        return this;
+      }
+
+      // @@protoc_insertion_point(builder_scope:dzhyun.XinWenXinXiEx)
+    }
+
+    static {
+      defaultInstance = new XinWenXinXiEx(true);
+      defaultInstance.initFields();
+    }
+
+    // @@protoc_insertion_point(class_scope:dzhyun.XinWenXinXiEx)
+  }
+
+  public interface XinWenXinXiOutputOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:dzhyun.XinWenXinXiOutput)
+      com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional string source = 5;</code>
+     * <code>required string Obj = 1;</code>
      *
      * <pre>
-     * 新闻:来源; 公告:类型		
+     * 个股新闻:股票代码	
      * </pre>
      */
-    boolean hasSource();
+    boolean hasObj();
     /**
-     * <code>optional string source = 5;</code>
+     * <code>required string Obj = 1;</code>
      *
      * <pre>
-     * 新闻:来源; 公告:类型		
+     * 个股新闻:股票代码	
      * </pre>
      */
-    java.lang.String getSource();
+    java.lang.String getObj();
     /**
-     * <code>optional string source = 5;</code>
+     * <code>required string Obj = 1;</code>
      *
      * <pre>
-     * 新闻:来源; 公告:类型		
+     * 个股新闻:股票代码	
      * </pre>
      */
     com.google.protobuf.ByteString
-        getSourceBytes();
+        getObjBytes();
+
+    /**
+     * <code>required int64 TotalCount = 2;</code>
+     *
+     * <pre>
+     * 服务端缓存总条目数量
+     * </pre>
+     */
+    boolean hasTotalCount();
+    /**
+     * <code>required int64 TotalCount = 2;</code>
+     *
+     * <pre>
+     * 服务端缓存总条目数量
+     * </pre>
+     */
+    long getTotalCount();
+
+    /**
+     * <code>repeated .dzhyun.XinWenXinXiEx Data = 3;</code>
+     */
+    java.util.List<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx> 
+        getDataList();
+    /**
+     * <code>repeated .dzhyun.XinWenXinXiEx Data = 3;</code>
+     */
+    com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx getData(int index);
+    /**
+     * <code>repeated .dzhyun.XinWenXinXiEx Data = 3;</code>
+     */
+    int getDataCount();
+    /**
+     * <code>repeated .dzhyun.XinWenXinXiEx Data = 3;</code>
+     */
+    java.util.List<? extends com.dzhyun.proto.DzhNewsInfo.XinWenXinXiExOrBuilder> 
+        getDataOrBuilderList();
+    /**
+     * <code>repeated .dzhyun.XinWenXinXiEx Data = 3;</code>
+     */
+    com.dzhyun.proto.DzhNewsInfo.XinWenXinXiExOrBuilder getDataOrBuilder(
+        int index);
   }
   /**
    * Protobuf type {@code dzhyun.XinWenXinXiOutput}
    *
    * <pre>
-   * 新闻公告数据 
+   * 个股新闻数据 
    * </pre>
    */
   public static final class XinWenXinXiOutput extends
@@ -1025,28 +2101,17 @@ public final class DzhNewsInfo {
               obj_ = bs;
               break;
             }
-            case 18: {
-              com.google.protobuf.ByteString bs = input.readBytes();
+            case 16: {
               bitField0_ |= 0x00000002;
-              date_ = bs;
+              totalCount_ = input.readInt64();
               break;
             }
             case 26: {
-              com.google.protobuf.ByteString bs = input.readBytes();
-              bitField0_ |= 0x00000004;
-              title_ = bs;
-              break;
-            }
-            case 34: {
-              com.google.protobuf.ByteString bs = input.readBytes();
-              bitField0_ |= 0x00000008;
-              context_ = bs;
-              break;
-            }
-            case 42: {
-              com.google.protobuf.ByteString bs = input.readBytes();
-              bitField0_ |= 0x00000010;
-              source_ = bs;
+              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+                data_ = new java.util.ArrayList<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx>();
+                mutable_bitField0_ |= 0x00000004;
+              }
+              data_.add(input.readMessage(com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx.PARSER, extensionRegistry));
               break;
             }
           }
@@ -1057,6 +2122,9 @@ public final class DzhNewsInfo {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e.getMessage()).setUnfinishedMessage(this);
       } finally {
+        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+          data_ = java.util.Collections.unmodifiableList(data_);
+        }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
       }
@@ -1095,7 +2163,7 @@ public final class DzhNewsInfo {
      * <code>required string Obj = 1;</code>
      *
      * <pre>
-     * 个股新闻公告:股票代码; 新闻公告中心:空
+     * 个股新闻:股票代码	
      * </pre>
      */
     public boolean hasObj() {
@@ -1105,7 +2173,7 @@ public final class DzhNewsInfo {
      * <code>required string Obj = 1;</code>
      *
      * <pre>
-     * 个股新闻公告:股票代码; 新闻公告中心:空
+     * 个股新闻:股票代码	
      * </pre>
      */
     public java.lang.String getObj() {
@@ -1126,7 +2194,7 @@ public final class DzhNewsInfo {
      * <code>required string Obj = 1;</code>
      *
      * <pre>
-     * 个股新闻公告:股票代码; 新闻公告中心:空
+     * 个股新闻:股票代码	
      * </pre>
      */
     public com.google.protobuf.ByteString
@@ -1143,228 +2211,68 @@ public final class DzhNewsInfo {
       }
     }
 
-    public static final int DATE_FIELD_NUMBER = 2;
-    private java.lang.Object date_;
+    public static final int TOTALCOUNT_FIELD_NUMBER = 2;
+    private long totalCount_;
     /**
-     * <code>optional string date = 2;</code>
+     * <code>required int64 TotalCount = 2;</code>
      *
      * <pre>
-     * 新闻公告日期
+     * 服务端缓存总条目数量
      * </pre>
      */
-    public boolean hasDate() {
+    public boolean hasTotalCount() {
       return ((bitField0_ & 0x00000002) == 0x00000002);
     }
     /**
-     * <code>optional string date = 2;</code>
+     * <code>required int64 TotalCount = 2;</code>
      *
      * <pre>
-     * 新闻公告日期
+     * 服务端缓存总条目数量
      * </pre>
      */
-    public java.lang.String getDate() {
-      java.lang.Object ref = date_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          date_ = s;
-        }
-        return s;
-      }
-    }
-    /**
-     * <code>optional string date = 2;</code>
-     *
-     * <pre>
-     * 新闻公告日期
-     * </pre>
-     */
-    public com.google.protobuf.ByteString
-        getDateBytes() {
-      java.lang.Object ref = date_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        date_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
+    public long getTotalCount() {
+      return totalCount_;
     }
 
-    public static final int TITLE_FIELD_NUMBER = 3;
-    private java.lang.Object title_;
+    public static final int DATA_FIELD_NUMBER = 3;
+    private java.util.List<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx> data_;
     /**
-     * <code>optional string title = 3;</code>
-     *
-     * <pre>
-     * 新闻公告标题
-     * </pre>
+     * <code>repeated .dzhyun.XinWenXinXiEx Data = 3;</code>
      */
-    public boolean hasTitle() {
-      return ((bitField0_ & 0x00000004) == 0x00000004);
+    public java.util.List<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx> getDataList() {
+      return data_;
     }
     /**
-     * <code>optional string title = 3;</code>
-     *
-     * <pre>
-     * 新闻公告标题
-     * </pre>
+     * <code>repeated .dzhyun.XinWenXinXiEx Data = 3;</code>
      */
-    public java.lang.String getTitle() {
-      java.lang.Object ref = title_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          title_ = s;
-        }
-        return s;
-      }
+    public java.util.List<? extends com.dzhyun.proto.DzhNewsInfo.XinWenXinXiExOrBuilder> 
+        getDataOrBuilderList() {
+      return data_;
     }
     /**
-     * <code>optional string title = 3;</code>
-     *
-     * <pre>
-     * 新闻公告标题
-     * </pre>
+     * <code>repeated .dzhyun.XinWenXinXiEx Data = 3;</code>
      */
-    public com.google.protobuf.ByteString
-        getTitleBytes() {
-      java.lang.Object ref = title_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        title_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-
-    public static final int CONTEXT_FIELD_NUMBER = 4;
-    private java.lang.Object context_;
-    /**
-     * <code>optional string context = 4;</code>
-     *
-     * <pre>
-     * 新闻:内容压缩文件下载url; 公告:pdf文件下载url 
-     * </pre>
-     */
-    public boolean hasContext() {
-      return ((bitField0_ & 0x00000008) == 0x00000008);
+    public int getDataCount() {
+      return data_.size();
     }
     /**
-     * <code>optional string context = 4;</code>
-     *
-     * <pre>
-     * 新闻:内容压缩文件下载url; 公告:pdf文件下载url 
-     * </pre>
+     * <code>repeated .dzhyun.XinWenXinXiEx Data = 3;</code>
      */
-    public java.lang.String getContext() {
-      java.lang.Object ref = context_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          context_ = s;
-        }
-        return s;
-      }
+    public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx getData(int index) {
+      return data_.get(index);
     }
     /**
-     * <code>optional string context = 4;</code>
-     *
-     * <pre>
-     * 新闻:内容压缩文件下载url; 公告:pdf文件下载url 
-     * </pre>
+     * <code>repeated .dzhyun.XinWenXinXiEx Data = 3;</code>
      */
-    public com.google.protobuf.ByteString
-        getContextBytes() {
-      java.lang.Object ref = context_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        context_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-
-    public static final int SOURCE_FIELD_NUMBER = 5;
-    private java.lang.Object source_;
-    /**
-     * <code>optional string source = 5;</code>
-     *
-     * <pre>
-     * 新闻:来源; 公告:类型		
-     * </pre>
-     */
-    public boolean hasSource() {
-      return ((bitField0_ & 0x00000010) == 0x00000010);
-    }
-    /**
-     * <code>optional string source = 5;</code>
-     *
-     * <pre>
-     * 新闻:来源; 公告:类型		
-     * </pre>
-     */
-    public java.lang.String getSource() {
-      java.lang.Object ref = source_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          source_ = s;
-        }
-        return s;
-      }
-    }
-    /**
-     * <code>optional string source = 5;</code>
-     *
-     * <pre>
-     * 新闻:来源; 公告:类型		
-     * </pre>
-     */
-    public com.google.protobuf.ByteString
-        getSourceBytes() {
-      java.lang.Object ref = source_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        source_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
+    public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiExOrBuilder getDataOrBuilder(
+        int index) {
+      return data_.get(index);
     }
 
     private void initFields() {
       obj_ = "";
-      date_ = "";
-      title_ = "";
-      context_ = "";
-      source_ = "";
+      totalCount_ = 0L;
+      data_ = java.util.Collections.emptyList();
     }
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
@@ -1373,6 +2281,10 @@ public final class DzhNewsInfo {
       if (isInitialized == 0) return false;
 
       if (!hasObj()) {
+        memoizedIsInitialized = 0;
+        return false;
+      }
+      if (!hasTotalCount()) {
         memoizedIsInitialized = 0;
         return false;
       }
@@ -1387,16 +2299,10 @@ public final class DzhNewsInfo {
         output.writeBytes(1, getObjBytes());
       }
       if (((bitField0_ & 0x00000002) == 0x00000002)) {
-        output.writeBytes(2, getDateBytes());
+        output.writeInt64(2, totalCount_);
       }
-      if (((bitField0_ & 0x00000004) == 0x00000004)) {
-        output.writeBytes(3, getTitleBytes());
-      }
-      if (((bitField0_ & 0x00000008) == 0x00000008)) {
-        output.writeBytes(4, getContextBytes());
-      }
-      if (((bitField0_ & 0x00000010) == 0x00000010)) {
-        output.writeBytes(5, getSourceBytes());
+      for (int i = 0; i < data_.size(); i++) {
+        output.writeMessage(3, data_.get(i));
       }
       getUnknownFields().writeTo(output);
     }
@@ -1413,19 +2319,11 @@ public final class DzhNewsInfo {
       }
       if (((bitField0_ & 0x00000002) == 0x00000002)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(2, getDateBytes());
+          .computeInt64Size(2, totalCount_);
       }
-      if (((bitField0_ & 0x00000004) == 0x00000004)) {
+      for (int i = 0; i < data_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(3, getTitleBytes());
-      }
-      if (((bitField0_ & 0x00000008) == 0x00000008)) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(4, getContextBytes());
-      }
-      if (((bitField0_ & 0x00000010) == 0x00000010)) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(5, getSourceBytes());
+          .computeMessageSize(3, data_.get(i));
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
@@ -1509,7 +2407,7 @@ public final class DzhNewsInfo {
      * Protobuf type {@code dzhyun.XinWenXinXiOutput}
      *
      * <pre>
-     * 新闻公告数据 
+     * 个股新闻数据 
      * </pre>
      */
     public static final class Builder extends
@@ -1540,6 +2438,7 @@ public final class DzhNewsInfo {
       }
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          getDataFieldBuilder();
         }
       }
       private static Builder create() {
@@ -1550,14 +2449,14 @@ public final class DzhNewsInfo {
         super.clear();
         obj_ = "";
         bitField0_ = (bitField0_ & ~0x00000001);
-        date_ = "";
+        totalCount_ = 0L;
         bitField0_ = (bitField0_ & ~0x00000002);
-        title_ = "";
-        bitField0_ = (bitField0_ & ~0x00000004);
-        context_ = "";
-        bitField0_ = (bitField0_ & ~0x00000008);
-        source_ = "";
-        bitField0_ = (bitField0_ & ~0x00000010);
+        if (dataBuilder_ == null) {
+          data_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000004);
+        } else {
+          dataBuilder_.clear();
+        }
         return this;
       }
 
@@ -1593,19 +2492,16 @@ public final class DzhNewsInfo {
         if (((from_bitField0_ & 0x00000002) == 0x00000002)) {
           to_bitField0_ |= 0x00000002;
         }
-        result.date_ = date_;
-        if (((from_bitField0_ & 0x00000004) == 0x00000004)) {
-          to_bitField0_ |= 0x00000004;
+        result.totalCount_ = totalCount_;
+        if (dataBuilder_ == null) {
+          if (((bitField0_ & 0x00000004) == 0x00000004)) {
+            data_ = java.util.Collections.unmodifiableList(data_);
+            bitField0_ = (bitField0_ & ~0x00000004);
+          }
+          result.data_ = data_;
+        } else {
+          result.data_ = dataBuilder_.build();
         }
-        result.title_ = title_;
-        if (((from_bitField0_ & 0x00000008) == 0x00000008)) {
-          to_bitField0_ |= 0x00000008;
-        }
-        result.context_ = context_;
-        if (((from_bitField0_ & 0x00000010) == 0x00000010)) {
-          to_bitField0_ |= 0x00000010;
-        }
-        result.source_ = source_;
         result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
@@ -1627,25 +2523,34 @@ public final class DzhNewsInfo {
           obj_ = other.obj_;
           onChanged();
         }
-        if (other.hasDate()) {
-          bitField0_ |= 0x00000002;
-          date_ = other.date_;
-          onChanged();
+        if (other.hasTotalCount()) {
+          setTotalCount(other.getTotalCount());
         }
-        if (other.hasTitle()) {
-          bitField0_ |= 0x00000004;
-          title_ = other.title_;
-          onChanged();
-        }
-        if (other.hasContext()) {
-          bitField0_ |= 0x00000008;
-          context_ = other.context_;
-          onChanged();
-        }
-        if (other.hasSource()) {
-          bitField0_ |= 0x00000010;
-          source_ = other.source_;
-          onChanged();
+        if (dataBuilder_ == null) {
+          if (!other.data_.isEmpty()) {
+            if (data_.isEmpty()) {
+              data_ = other.data_;
+              bitField0_ = (bitField0_ & ~0x00000004);
+            } else {
+              ensureDataIsMutable();
+              data_.addAll(other.data_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.data_.isEmpty()) {
+            if (dataBuilder_.isEmpty()) {
+              dataBuilder_.dispose();
+              dataBuilder_ = null;
+              data_ = other.data_;
+              bitField0_ = (bitField0_ & ~0x00000004);
+              dataBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getDataFieldBuilder() : null;
+            } else {
+              dataBuilder_.addAllMessages(other.data_);
+            }
+          }
         }
         this.mergeUnknownFields(other.getUnknownFields());
         return this;
@@ -1653,6 +2558,10 @@ public final class DzhNewsInfo {
 
       public final boolean isInitialized() {
         if (!hasObj()) {
+          
+          return false;
+        }
+        if (!hasTotalCount()) {
           
           return false;
         }
@@ -1683,7 +2592,7 @@ public final class DzhNewsInfo {
        * <code>required string Obj = 1;</code>
        *
        * <pre>
-       * 个股新闻公告:股票代码; 新闻公告中心:空
+       * 个股新闻:股票代码	
        * </pre>
        */
       public boolean hasObj() {
@@ -1693,7 +2602,7 @@ public final class DzhNewsInfo {
        * <code>required string Obj = 1;</code>
        *
        * <pre>
-       * 个股新闻公告:股票代码; 新闻公告中心:空
+       * 个股新闻:股票代码	
        * </pre>
        */
       public java.lang.String getObj() {
@@ -1714,7 +2623,7 @@ public final class DzhNewsInfo {
        * <code>required string Obj = 1;</code>
        *
        * <pre>
-       * 个股新闻公告:股票代码; 新闻公告中心:空
+       * 个股新闻:股票代码	
        * </pre>
        */
       public com.google.protobuf.ByteString
@@ -1734,7 +2643,7 @@ public final class DzhNewsInfo {
        * <code>required string Obj = 1;</code>
        *
        * <pre>
-       * 个股新闻公告:股票代码; 新闻公告中心:空
+       * 个股新闻:股票代码	
        * </pre>
        */
       public Builder setObj(
@@ -1751,7 +2660,7 @@ public final class DzhNewsInfo {
        * <code>required string Obj = 1;</code>
        *
        * <pre>
-       * 个股新闻公告:股票代码; 新闻公告中心:空
+       * 个股新闻:股票代码	
        * </pre>
        */
       public Builder clearObj() {
@@ -1764,7 +2673,7 @@ public final class DzhNewsInfo {
        * <code>required string Obj = 1;</code>
        *
        * <pre>
-       * 个股新闻公告:股票代码; 新闻公告中心:空
+       * 个股新闻:股票代码	
        * </pre>
        */
       public Builder setObjBytes(
@@ -1778,404 +2687,292 @@ public final class DzhNewsInfo {
         return this;
       }
 
-      private java.lang.Object date_ = "";
+      private long totalCount_ ;
       /**
-       * <code>optional string date = 2;</code>
+       * <code>required int64 TotalCount = 2;</code>
        *
        * <pre>
-       * 新闻公告日期
+       * 服务端缓存总条目数量
        * </pre>
        */
-      public boolean hasDate() {
+      public boolean hasTotalCount() {
         return ((bitField0_ & 0x00000002) == 0x00000002);
       }
       /**
-       * <code>optional string date = 2;</code>
+       * <code>required int64 TotalCount = 2;</code>
        *
        * <pre>
-       * 新闻公告日期
+       * 服务端缓存总条目数量
        * </pre>
        */
-      public java.lang.String getDate() {
-        java.lang.Object ref = date_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            date_ = s;
-          }
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
+      public long getTotalCount() {
+        return totalCount_;
       }
       /**
-       * <code>optional string date = 2;</code>
+       * <code>required int64 TotalCount = 2;</code>
        *
        * <pre>
-       * 新闻公告日期
+       * 服务端缓存总条目数量
        * </pre>
        */
-      public com.google.protobuf.ByteString
-          getDateBytes() {
-        java.lang.Object ref = date_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          date_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>optional string date = 2;</code>
-       *
-       * <pre>
-       * 新闻公告日期
-       * </pre>
-       */
-      public Builder setDate(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000002;
-        date_ = value;
+      public Builder setTotalCount(long value) {
+        bitField0_ |= 0x00000002;
+        totalCount_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>optional string date = 2;</code>
+       * <code>required int64 TotalCount = 2;</code>
        *
        * <pre>
-       * 新闻公告日期
+       * 服务端缓存总条目数量
        * </pre>
        */
-      public Builder clearDate() {
+      public Builder clearTotalCount() {
         bitField0_ = (bitField0_ & ~0x00000002);
-        date_ = getDefaultInstance().getDate();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string date = 2;</code>
-       *
-       * <pre>
-       * 新闻公告日期
-       * </pre>
-       */
-      public Builder setDateBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000002;
-        date_ = value;
+        totalCount_ = 0L;
         onChanged();
         return this;
       }
 
-      private java.lang.Object title_ = "";
-      /**
-       * <code>optional string title = 3;</code>
-       *
-       * <pre>
-       * 新闻公告标题
-       * </pre>
-       */
-      public boolean hasTitle() {
-        return ((bitField0_ & 0x00000004) == 0x00000004);
-      }
-      /**
-       * <code>optional string title = 3;</code>
-       *
-       * <pre>
-       * 新闻公告标题
-       * </pre>
-       */
-      public java.lang.String getTitle() {
-        java.lang.Object ref = title_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            title_ = s;
-          }
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
-      }
-      /**
-       * <code>optional string title = 3;</code>
-       *
-       * <pre>
-       * 新闻公告标题
-       * </pre>
-       */
-      public com.google.protobuf.ByteString
-          getTitleBytes() {
-        java.lang.Object ref = title_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          title_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>optional string title = 3;</code>
-       *
-       * <pre>
-       * 新闻公告标题
-       * </pre>
-       */
-      public Builder setTitle(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000004;
-        title_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string title = 3;</code>
-       *
-       * <pre>
-       * 新闻公告标题
-       * </pre>
-       */
-      public Builder clearTitle() {
-        bitField0_ = (bitField0_ & ~0x00000004);
-        title_ = getDefaultInstance().getTitle();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string title = 3;</code>
-       *
-       * <pre>
-       * 新闻公告标题
-       * </pre>
-       */
-      public Builder setTitleBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000004;
-        title_ = value;
-        onChanged();
-        return this;
+      private java.util.List<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx> data_ =
+        java.util.Collections.emptyList();
+      private void ensureDataIsMutable() {
+        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
+          data_ = new java.util.ArrayList<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx>(data_);
+          bitField0_ |= 0x00000004;
+         }
       }
 
-      private java.lang.Object context_ = "";
-      /**
-       * <code>optional string context = 4;</code>
-       *
-       * <pre>
-       * 新闻:内容压缩文件下载url; 公告:pdf文件下载url 
-       * </pre>
-       */
-      public boolean hasContext() {
-        return ((bitField0_ & 0x00000008) == 0x00000008);
-      }
-      /**
-       * <code>optional string context = 4;</code>
-       *
-       * <pre>
-       * 新闻:内容压缩文件下载url; 公告:pdf文件下载url 
-       * </pre>
-       */
-      public java.lang.String getContext() {
-        java.lang.Object ref = context_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            context_ = s;
-          }
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
-      }
-      /**
-       * <code>optional string context = 4;</code>
-       *
-       * <pre>
-       * 新闻:内容压缩文件下载url; 公告:pdf文件下载url 
-       * </pre>
-       */
-      public com.google.protobuf.ByteString
-          getContextBytes() {
-        java.lang.Object ref = context_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          context_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>optional string context = 4;</code>
-       *
-       * <pre>
-       * 新闻:内容压缩文件下载url; 公告:pdf文件下载url 
-       * </pre>
-       */
-      public Builder setContext(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000008;
-        context_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string context = 4;</code>
-       *
-       * <pre>
-       * 新闻:内容压缩文件下载url; 公告:pdf文件下载url 
-       * </pre>
-       */
-      public Builder clearContext() {
-        bitField0_ = (bitField0_ & ~0x00000008);
-        context_ = getDefaultInstance().getContext();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string context = 4;</code>
-       *
-       * <pre>
-       * 新闻:内容压缩文件下载url; 公告:pdf文件下载url 
-       * </pre>
-       */
-      public Builder setContextBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000008;
-        context_ = value;
-        onChanged();
-        return this;
-      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx.Builder, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiExOrBuilder> dataBuilder_;
 
-      private java.lang.Object source_ = "";
       /**
-       * <code>optional string source = 5;</code>
-       *
-       * <pre>
-       * 新闻:来源; 公告:类型		
-       * </pre>
+       * <code>repeated .dzhyun.XinWenXinXiEx Data = 3;</code>
        */
-      public boolean hasSource() {
-        return ((bitField0_ & 0x00000010) == 0x00000010);
+      public java.util.List<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx> getDataList() {
+        if (dataBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(data_);
+        } else {
+          return dataBuilder_.getMessageList();
+        }
       }
       /**
-       * <code>optional string source = 5;</code>
-       *
-       * <pre>
-       * 新闻:来源; 公告:类型		
-       * </pre>
+       * <code>repeated .dzhyun.XinWenXinXiEx Data = 3;</code>
        */
-      public java.lang.String getSource() {
-        java.lang.Object ref = source_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            source_ = s;
+      public int getDataCount() {
+        if (dataBuilder_ == null) {
+          return data_.size();
+        } else {
+          return dataBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiEx Data = 3;</code>
+       */
+      public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx getData(int index) {
+        if (dataBuilder_ == null) {
+          return data_.get(index);
+        } else {
+          return dataBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiEx Data = 3;</code>
+       */
+      public Builder setData(
+          int index, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx value) {
+        if (dataBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
           }
-          return s;
+          ensureDataIsMutable();
+          data_.set(index, value);
+          onChanged();
         } else {
-          return (java.lang.String) ref;
+          dataBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiEx Data = 3;</code>
+       */
+      public Builder setData(
+          int index, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx.Builder builderForValue) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          data_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          dataBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiEx Data = 3;</code>
+       */
+      public Builder addData(com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx value) {
+        if (dataBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureDataIsMutable();
+          data_.add(value);
+          onChanged();
+        } else {
+          dataBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiEx Data = 3;</code>
+       */
+      public Builder addData(
+          int index, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx value) {
+        if (dataBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureDataIsMutable();
+          data_.add(index, value);
+          onChanged();
+        } else {
+          dataBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiEx Data = 3;</code>
+       */
+      public Builder addData(
+          com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx.Builder builderForValue) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          data_.add(builderForValue.build());
+          onChanged();
+        } else {
+          dataBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiEx Data = 3;</code>
+       */
+      public Builder addData(
+          int index, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx.Builder builderForValue) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          data_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          dataBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiEx Data = 3;</code>
+       */
+      public Builder addAllData(
+          java.lang.Iterable<? extends com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx> values) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, data_);
+          onChanged();
+        } else {
+          dataBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiEx Data = 3;</code>
+       */
+      public Builder clearData() {
+        if (dataBuilder_ == null) {
+          data_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000004);
+          onChanged();
+        } else {
+          dataBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiEx Data = 3;</code>
+       */
+      public Builder removeData(int index) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          data_.remove(index);
+          onChanged();
+        } else {
+          dataBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiEx Data = 3;</code>
+       */
+      public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx.Builder getDataBuilder(
+          int index) {
+        return getDataFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiEx Data = 3;</code>
+       */
+      public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiExOrBuilder getDataOrBuilder(
+          int index) {
+        if (dataBuilder_ == null) {
+          return data_.get(index);  } else {
+          return dataBuilder_.getMessageOrBuilder(index);
         }
       }
       /**
-       * <code>optional string source = 5;</code>
-       *
-       * <pre>
-       * 新闻:来源; 公告:类型		
-       * </pre>
+       * <code>repeated .dzhyun.XinWenXinXiEx Data = 3;</code>
        */
-      public com.google.protobuf.ByteString
-          getSourceBytes() {
-        java.lang.Object ref = source_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          source_ = b;
-          return b;
+      public java.util.List<? extends com.dzhyun.proto.DzhNewsInfo.XinWenXinXiExOrBuilder> 
+           getDataOrBuilderList() {
+        if (dataBuilder_ != null) {
+          return dataBuilder_.getMessageOrBuilderList();
         } else {
-          return (com.google.protobuf.ByteString) ref;
+          return java.util.Collections.unmodifiableList(data_);
         }
       }
       /**
-       * <code>optional string source = 5;</code>
-       *
-       * <pre>
-       * 新闻:来源; 公告:类型		
-       * </pre>
+       * <code>repeated .dzhyun.XinWenXinXiEx Data = 3;</code>
        */
-      public Builder setSource(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000010;
-        source_ = value;
-        onChanged();
-        return this;
+      public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx.Builder addDataBuilder() {
+        return getDataFieldBuilder().addBuilder(
+            com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx.getDefaultInstance());
       }
       /**
-       * <code>optional string source = 5;</code>
-       *
-       * <pre>
-       * 新闻:来源; 公告:类型		
-       * </pre>
+       * <code>repeated .dzhyun.XinWenXinXiEx Data = 3;</code>
        */
-      public Builder clearSource() {
-        bitField0_ = (bitField0_ & ~0x00000010);
-        source_ = getDefaultInstance().getSource();
-        onChanged();
-        return this;
+      public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx.Builder addDataBuilder(
+          int index) {
+        return getDataFieldBuilder().addBuilder(
+            index, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx.getDefaultInstance());
       }
       /**
-       * <code>optional string source = 5;</code>
-       *
-       * <pre>
-       * 新闻:来源; 公告:类型		
-       * </pre>
+       * <code>repeated .dzhyun.XinWenXinXiEx Data = 3;</code>
        */
-      public Builder setSourceBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000010;
-        source_ = value;
-        onChanged();
-        return this;
+      public java.util.List<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx.Builder> 
+           getDataBuilderList() {
+        return getDataFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx.Builder, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiExOrBuilder> 
+          getDataFieldBuilder() {
+        if (dataBuilder_ == null) {
+          dataBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiEx.Builder, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiExOrBuilder>(
+                  data_,
+                  ((bitField0_ & 0x00000004) == 0x00000004),
+                  getParentForChildren(),
+                  isClean());
+          data_ = null;
+        }
+        return dataBuilder_;
       }
 
       // @@protoc_insertion_point(builder_scope:dzhyun.XinWenXinXiOutput)
@@ -2189,15 +2986,15 @@ public final class DzhNewsInfo {
     // @@protoc_insertion_point(class_scope:dzhyun.XinWenXinXiOutput)
   }
 
-  public interface XinWenXinXiZhongXinOutputOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:dzhyun.XinWenXinXiZhongXinOutput)
+  public interface XinWenXinXiZhongXinOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:dzhyun.XinWenXinXiZhongXin)
       com.google.protobuf.MessageOrBuilder {
 
     /**
      * <code>optional string date = 1;</code>
      *
      * <pre>
-     * 新闻公告日期
+     * 新闻日期
      * </pre>
      */
     boolean hasDate();
@@ -2205,7 +3002,7 @@ public final class DzhNewsInfo {
      * <code>optional string date = 1;</code>
      *
      * <pre>
-     * 新闻公告日期
+     * 新闻日期
      * </pre>
      */
     java.lang.String getDate();
@@ -2213,7 +3010,7 @@ public final class DzhNewsInfo {
      * <code>optional string date = 1;</code>
      *
      * <pre>
-     * 新闻公告日期
+     * 新闻日期
      * </pre>
      */
     com.google.protobuf.ByteString
@@ -2223,7 +3020,7 @@ public final class DzhNewsInfo {
      * <code>optional string title = 2;</code>
      *
      * <pre>
-     * 新闻公告标题
+     * 新闻标题
      * </pre>
      */
     boolean hasTitle();
@@ -2231,7 +3028,7 @@ public final class DzhNewsInfo {
      * <code>optional string title = 2;</code>
      *
      * <pre>
-     * 新闻公告标题
+     * 新闻标题
      * </pre>
      */
     java.lang.String getTitle();
@@ -2239,7 +3036,7 @@ public final class DzhNewsInfo {
      * <code>optional string title = 2;</code>
      *
      * <pre>
-     * 新闻公告标题
+     * 新闻标题
      * </pre>
      */
     com.google.protobuf.ByteString
@@ -2249,7 +3046,7 @@ public final class DzhNewsInfo {
      * <code>optional string context = 3;</code>
      *
      * <pre>
-     * 新闻:内容压缩文件下载url; 公告:pdf文件下载url 
+     * 新闻:内容压缩文件下载url 
      * </pre>
      */
     boolean hasContext();
@@ -2257,7 +3054,7 @@ public final class DzhNewsInfo {
      * <code>optional string context = 3;</code>
      *
      * <pre>
-     * 新闻:内容压缩文件下载url; 公告:pdf文件下载url 
+     * 新闻:内容压缩文件下载url 
      * </pre>
      */
     java.lang.String getContext();
@@ -2265,7 +3062,7 @@ public final class DzhNewsInfo {
      * <code>optional string context = 3;</code>
      *
      * <pre>
-     * 新闻:内容压缩文件下载url; 公告:pdf文件下载url 
+     * 新闻:内容压缩文件下载url 
      * </pre>
      */
     com.google.protobuf.ByteString
@@ -2275,7 +3072,7 @@ public final class DzhNewsInfo {
      * <code>optional string source = 4;</code>
      *
      * <pre>
-     * 新闻:来源; 公告:类型		
+     * 新闻:来源	
      * </pre>
      */
     boolean hasSource();
@@ -2283,7 +3080,7 @@ public final class DzhNewsInfo {
      * <code>optional string source = 4;</code>
      *
      * <pre>
-     * 新闻:来源; 公告:类型		
+     * 新闻:来源	
      * </pre>
      */
     java.lang.String getSource();
@@ -2291,36 +3088,32 @@ public final class DzhNewsInfo {
      * <code>optional string source = 4;</code>
      *
      * <pre>
-     * 新闻:来源; 公告:类型		
+     * 新闻:来源	
      * </pre>
      */
     com.google.protobuf.ByteString
         getSourceBytes();
   }
   /**
-   * Protobuf type {@code dzhyun.XinWenXinXiZhongXinOutput}
-   *
-   * <pre>
-   * 新闻公告中心数据 
-   * </pre>
+   * Protobuf type {@code dzhyun.XinWenXinXiZhongXin}
    */
-  public static final class XinWenXinXiZhongXinOutput extends
+  public static final class XinWenXinXiZhongXin extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:dzhyun.XinWenXinXiZhongXinOutput)
-      XinWenXinXiZhongXinOutputOrBuilder {
-    // Use XinWenXinXiZhongXinOutput.newBuilder() to construct.
-    private XinWenXinXiZhongXinOutput(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      // @@protoc_insertion_point(message_implements:dzhyun.XinWenXinXiZhongXin)
+      XinWenXinXiZhongXinOrBuilder {
+    // Use XinWenXinXiZhongXin.newBuilder() to construct.
+    private XinWenXinXiZhongXin(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
       this.unknownFields = builder.getUnknownFields();
     }
-    private XinWenXinXiZhongXinOutput(boolean noInit) { this.unknownFields = com.google.protobuf.UnknownFieldSet.getDefaultInstance(); }
+    private XinWenXinXiZhongXin(boolean noInit) { this.unknownFields = com.google.protobuf.UnknownFieldSet.getDefaultInstance(); }
 
-    private static final XinWenXinXiZhongXinOutput defaultInstance;
-    public static XinWenXinXiZhongXinOutput getDefaultInstance() {
+    private static final XinWenXinXiZhongXin defaultInstance;
+    public static XinWenXinXiZhongXin getDefaultInstance() {
       return defaultInstance;
     }
 
-    public XinWenXinXiZhongXinOutput getDefaultInstanceForType() {
+    public XinWenXinXiZhongXin getDefaultInstanceForType() {
       return defaultInstance;
     }
 
@@ -2330,7 +3123,7 @@ public final class DzhNewsInfo {
         getUnknownFields() {
       return this.unknownFields;
     }
-    private XinWenXinXiZhongXinOutput(
+    private XinWenXinXiZhongXin(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2391,28 +3184,28 @@ public final class DzhNewsInfo {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_XinWenXinXiZhongXinOutput_descriptor;
+      return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_XinWenXinXiZhongXin_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_XinWenXinXiZhongXinOutput_fieldAccessorTable
+      return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_XinWenXinXiZhongXin_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput.class, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput.Builder.class);
+              com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin.class, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin.Builder.class);
     }
 
-    public static com.google.protobuf.Parser<XinWenXinXiZhongXinOutput> PARSER =
-        new com.google.protobuf.AbstractParser<XinWenXinXiZhongXinOutput>() {
-      public XinWenXinXiZhongXinOutput parsePartialFrom(
+    public static com.google.protobuf.Parser<XinWenXinXiZhongXin> PARSER =
+        new com.google.protobuf.AbstractParser<XinWenXinXiZhongXin>() {
+      public XinWenXinXiZhongXin parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        return new XinWenXinXiZhongXinOutput(input, extensionRegistry);
+        return new XinWenXinXiZhongXin(input, extensionRegistry);
       }
     };
 
     @java.lang.Override
-    public com.google.protobuf.Parser<XinWenXinXiZhongXinOutput> getParserForType() {
+    public com.google.protobuf.Parser<XinWenXinXiZhongXin> getParserForType() {
       return PARSER;
     }
 
@@ -2423,7 +3216,7 @@ public final class DzhNewsInfo {
      * <code>optional string date = 1;</code>
      *
      * <pre>
-     * 新闻公告日期
+     * 新闻日期
      * </pre>
      */
     public boolean hasDate() {
@@ -2433,7 +3226,7 @@ public final class DzhNewsInfo {
      * <code>optional string date = 1;</code>
      *
      * <pre>
-     * 新闻公告日期
+     * 新闻日期
      * </pre>
      */
     public java.lang.String getDate() {
@@ -2454,7 +3247,7 @@ public final class DzhNewsInfo {
      * <code>optional string date = 1;</code>
      *
      * <pre>
-     * 新闻公告日期
+     * 新闻日期
      * </pre>
      */
     public com.google.protobuf.ByteString
@@ -2477,7 +3270,7 @@ public final class DzhNewsInfo {
      * <code>optional string title = 2;</code>
      *
      * <pre>
-     * 新闻公告标题
+     * 新闻标题
      * </pre>
      */
     public boolean hasTitle() {
@@ -2487,7 +3280,7 @@ public final class DzhNewsInfo {
      * <code>optional string title = 2;</code>
      *
      * <pre>
-     * 新闻公告标题
+     * 新闻标题
      * </pre>
      */
     public java.lang.String getTitle() {
@@ -2508,7 +3301,7 @@ public final class DzhNewsInfo {
      * <code>optional string title = 2;</code>
      *
      * <pre>
-     * 新闻公告标题
+     * 新闻标题
      * </pre>
      */
     public com.google.protobuf.ByteString
@@ -2531,7 +3324,7 @@ public final class DzhNewsInfo {
      * <code>optional string context = 3;</code>
      *
      * <pre>
-     * 新闻:内容压缩文件下载url; 公告:pdf文件下载url 
+     * 新闻:内容压缩文件下载url 
      * </pre>
      */
     public boolean hasContext() {
@@ -2541,7 +3334,7 @@ public final class DzhNewsInfo {
      * <code>optional string context = 3;</code>
      *
      * <pre>
-     * 新闻:内容压缩文件下载url; 公告:pdf文件下载url 
+     * 新闻:内容压缩文件下载url 
      * </pre>
      */
     public java.lang.String getContext() {
@@ -2562,7 +3355,7 @@ public final class DzhNewsInfo {
      * <code>optional string context = 3;</code>
      *
      * <pre>
-     * 新闻:内容压缩文件下载url; 公告:pdf文件下载url 
+     * 新闻:内容压缩文件下载url 
      * </pre>
      */
     public com.google.protobuf.ByteString
@@ -2585,7 +3378,7 @@ public final class DzhNewsInfo {
      * <code>optional string source = 4;</code>
      *
      * <pre>
-     * 新闻:来源; 公告:类型		
+     * 新闻:来源	
      * </pre>
      */
     public boolean hasSource() {
@@ -2595,7 +3388,7 @@ public final class DzhNewsInfo {
      * <code>optional string source = 4;</code>
      *
      * <pre>
-     * 新闻:来源; 公告:类型		
+     * 新闻:来源	
      * </pre>
      */
     public java.lang.String getSource() {
@@ -2616,7 +3409,7 @@ public final class DzhNewsInfo {
      * <code>optional string source = 4;</code>
      *
      * <pre>
-     * 新闻:来源; 公告:类型		
+     * 新闻:来源	
      * </pre>
      */
     public com.google.protobuf.ByteString
@@ -2701,6 +3494,908 @@ public final class DzhNewsInfo {
       return super.writeReplace();
     }
 
+    public static com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+
+    public static Builder newBuilder() { return Builder.create(); }
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder(com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin prototype) {
+      return newBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() { return newBuilder(this); }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code dzhyun.XinWenXinXiZhongXin}
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:dzhyun.XinWenXinXiZhongXin)
+        com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_XinWenXinXiZhongXin_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_XinWenXinXiZhongXin_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin.class, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin.Builder.class);
+      }
+
+      // Construct using com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        }
+      }
+      private static Builder create() {
+        return new Builder();
+      }
+
+      public Builder clear() {
+        super.clear();
+        date_ = "";
+        bitField0_ = (bitField0_ & ~0x00000001);
+        title_ = "";
+        bitField0_ = (bitField0_ & ~0x00000002);
+        context_ = "";
+        bitField0_ = (bitField0_ & ~0x00000004);
+        source_ = "";
+        bitField0_ = (bitField0_ & ~0x00000008);
+        return this;
+      }
+
+      public Builder clone() {
+        return create().mergeFrom(buildPartial());
+      }
+
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_XinWenXinXiZhongXin_descriptor;
+      }
+
+      public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin getDefaultInstanceForType() {
+        return com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin.getDefaultInstance();
+      }
+
+      public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin build() {
+        com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin buildPartial() {
+        com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin result = new com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin(this);
+        int from_bitField0_ = bitField0_;
+        int to_bitField0_ = 0;
+        if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
+          to_bitField0_ |= 0x00000001;
+        }
+        result.date_ = date_;
+        if (((from_bitField0_ & 0x00000002) == 0x00000002)) {
+          to_bitField0_ |= 0x00000002;
+        }
+        result.title_ = title_;
+        if (((from_bitField0_ & 0x00000004) == 0x00000004)) {
+          to_bitField0_ |= 0x00000004;
+        }
+        result.context_ = context_;
+        if (((from_bitField0_ & 0x00000008) == 0x00000008)) {
+          to_bitField0_ |= 0x00000008;
+        }
+        result.source_ = source_;
+        result.bitField0_ = to_bitField0_;
+        onBuilt();
+        return result;
+      }
+
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin) {
+          return mergeFrom((com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin other) {
+        if (other == com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin.getDefaultInstance()) return this;
+        if (other.hasDate()) {
+          bitField0_ |= 0x00000001;
+          date_ = other.date_;
+          onChanged();
+        }
+        if (other.hasTitle()) {
+          bitField0_ |= 0x00000002;
+          title_ = other.title_;
+          onChanged();
+        }
+        if (other.hasContext()) {
+          bitField0_ |= 0x00000004;
+          context_ = other.context_;
+          onChanged();
+        }
+        if (other.hasSource()) {
+          bitField0_ |= 0x00000008;
+          source_ = other.source_;
+          onChanged();
+        }
+        this.mergeUnknownFields(other.getUnknownFields());
+        return this;
+      }
+
+      public final boolean isInitialized() {
+        return true;
+      }
+
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin) e.getUnfinishedMessage();
+          throw e;
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+      private int bitField0_;
+
+      private java.lang.Object date_ = "";
+      /**
+       * <code>optional string date = 1;</code>
+       *
+       * <pre>
+       * 新闻日期
+       * </pre>
+       */
+      public boolean hasDate() {
+        return ((bitField0_ & 0x00000001) == 0x00000001);
+      }
+      /**
+       * <code>optional string date = 1;</code>
+       *
+       * <pre>
+       * 新闻日期
+       * </pre>
+       */
+      public java.lang.String getDate() {
+        java.lang.Object ref = date_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          if (bs.isValidUtf8()) {
+            date_ = s;
+          }
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string date = 1;</code>
+       *
+       * <pre>
+       * 新闻日期
+       * </pre>
+       */
+      public com.google.protobuf.ByteString
+          getDateBytes() {
+        java.lang.Object ref = date_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          date_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string date = 1;</code>
+       *
+       * <pre>
+       * 新闻日期
+       * </pre>
+       */
+      public Builder setDate(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000001;
+        date_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string date = 1;</code>
+       *
+       * <pre>
+       * 新闻日期
+       * </pre>
+       */
+      public Builder clearDate() {
+        bitField0_ = (bitField0_ & ~0x00000001);
+        date_ = getDefaultInstance().getDate();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string date = 1;</code>
+       *
+       * <pre>
+       * 新闻日期
+       * </pre>
+       */
+      public Builder setDateBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000001;
+        date_ = value;
+        onChanged();
+        return this;
+      }
+
+      private java.lang.Object title_ = "";
+      /**
+       * <code>optional string title = 2;</code>
+       *
+       * <pre>
+       * 新闻标题
+       * </pre>
+       */
+      public boolean hasTitle() {
+        return ((bitField0_ & 0x00000002) == 0x00000002);
+      }
+      /**
+       * <code>optional string title = 2;</code>
+       *
+       * <pre>
+       * 新闻标题
+       * </pre>
+       */
+      public java.lang.String getTitle() {
+        java.lang.Object ref = title_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          if (bs.isValidUtf8()) {
+            title_ = s;
+          }
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string title = 2;</code>
+       *
+       * <pre>
+       * 新闻标题
+       * </pre>
+       */
+      public com.google.protobuf.ByteString
+          getTitleBytes() {
+        java.lang.Object ref = title_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          title_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string title = 2;</code>
+       *
+       * <pre>
+       * 新闻标题
+       * </pre>
+       */
+      public Builder setTitle(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000002;
+        title_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string title = 2;</code>
+       *
+       * <pre>
+       * 新闻标题
+       * </pre>
+       */
+      public Builder clearTitle() {
+        bitField0_ = (bitField0_ & ~0x00000002);
+        title_ = getDefaultInstance().getTitle();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string title = 2;</code>
+       *
+       * <pre>
+       * 新闻标题
+       * </pre>
+       */
+      public Builder setTitleBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000002;
+        title_ = value;
+        onChanged();
+        return this;
+      }
+
+      private java.lang.Object context_ = "";
+      /**
+       * <code>optional string context = 3;</code>
+       *
+       * <pre>
+       * 新闻:内容压缩文件下载url 
+       * </pre>
+       */
+      public boolean hasContext() {
+        return ((bitField0_ & 0x00000004) == 0x00000004);
+      }
+      /**
+       * <code>optional string context = 3;</code>
+       *
+       * <pre>
+       * 新闻:内容压缩文件下载url 
+       * </pre>
+       */
+      public java.lang.String getContext() {
+        java.lang.Object ref = context_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          if (bs.isValidUtf8()) {
+            context_ = s;
+          }
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string context = 3;</code>
+       *
+       * <pre>
+       * 新闻:内容压缩文件下载url 
+       * </pre>
+       */
+      public com.google.protobuf.ByteString
+          getContextBytes() {
+        java.lang.Object ref = context_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          context_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string context = 3;</code>
+       *
+       * <pre>
+       * 新闻:内容压缩文件下载url 
+       * </pre>
+       */
+      public Builder setContext(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000004;
+        context_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string context = 3;</code>
+       *
+       * <pre>
+       * 新闻:内容压缩文件下载url 
+       * </pre>
+       */
+      public Builder clearContext() {
+        bitField0_ = (bitField0_ & ~0x00000004);
+        context_ = getDefaultInstance().getContext();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string context = 3;</code>
+       *
+       * <pre>
+       * 新闻:内容压缩文件下载url 
+       * </pre>
+       */
+      public Builder setContextBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000004;
+        context_ = value;
+        onChanged();
+        return this;
+      }
+
+      private java.lang.Object source_ = "";
+      /**
+       * <code>optional string source = 4;</code>
+       *
+       * <pre>
+       * 新闻:来源	
+       * </pre>
+       */
+      public boolean hasSource() {
+        return ((bitField0_ & 0x00000008) == 0x00000008);
+      }
+      /**
+       * <code>optional string source = 4;</code>
+       *
+       * <pre>
+       * 新闻:来源	
+       * </pre>
+       */
+      public java.lang.String getSource() {
+        java.lang.Object ref = source_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          if (bs.isValidUtf8()) {
+            source_ = s;
+          }
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string source = 4;</code>
+       *
+       * <pre>
+       * 新闻:来源	
+       * </pre>
+       */
+      public com.google.protobuf.ByteString
+          getSourceBytes() {
+        java.lang.Object ref = source_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          source_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string source = 4;</code>
+       *
+       * <pre>
+       * 新闻:来源	
+       * </pre>
+       */
+      public Builder setSource(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000008;
+        source_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string source = 4;</code>
+       *
+       * <pre>
+       * 新闻:来源	
+       * </pre>
+       */
+      public Builder clearSource() {
+        bitField0_ = (bitField0_ & ~0x00000008);
+        source_ = getDefaultInstance().getSource();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string source = 4;</code>
+       *
+       * <pre>
+       * 新闻:来源	
+       * </pre>
+       */
+      public Builder setSourceBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000008;
+        source_ = value;
+        onChanged();
+        return this;
+      }
+
+      // @@protoc_insertion_point(builder_scope:dzhyun.XinWenXinXiZhongXin)
+    }
+
+    static {
+      defaultInstance = new XinWenXinXiZhongXin(true);
+      defaultInstance.initFields();
+    }
+
+    // @@protoc_insertion_point(class_scope:dzhyun.XinWenXinXiZhongXin)
+  }
+
+  public interface XinWenXinXiZhongXinOutputOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:dzhyun.XinWenXinXiZhongXinOutput)
+      com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>required int64 TotalCount = 1;</code>
+     *
+     * <pre>
+     * 服务端缓存总条目数量
+     * </pre>
+     */
+    boolean hasTotalCount();
+    /**
+     * <code>required int64 TotalCount = 1;</code>
+     *
+     * <pre>
+     * 服务端缓存总条目数量
+     * </pre>
+     */
+    long getTotalCount();
+
+    /**
+     * <code>repeated .dzhyun.XinWenXinXiZhongXin data = 2;</code>
+     */
+    java.util.List<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin> 
+        getDataList();
+    /**
+     * <code>repeated .dzhyun.XinWenXinXiZhongXin data = 2;</code>
+     */
+    com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin getData(int index);
+    /**
+     * <code>repeated .dzhyun.XinWenXinXiZhongXin data = 2;</code>
+     */
+    int getDataCount();
+    /**
+     * <code>repeated .dzhyun.XinWenXinXiZhongXin data = 2;</code>
+     */
+    java.util.List<? extends com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOrBuilder> 
+        getDataOrBuilderList();
+    /**
+     * <code>repeated .dzhyun.XinWenXinXiZhongXin data = 2;</code>
+     */
+    com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOrBuilder getDataOrBuilder(
+        int index);
+  }
+  /**
+   * Protobuf type {@code dzhyun.XinWenXinXiZhongXinOutput}
+   *
+   * <pre>
+   * 新闻中心数据 
+   * </pre>
+   */
+  public static final class XinWenXinXiZhongXinOutput extends
+      com.google.protobuf.GeneratedMessage implements
+      // @@protoc_insertion_point(message_implements:dzhyun.XinWenXinXiZhongXinOutput)
+      XinWenXinXiZhongXinOutputOrBuilder {
+    // Use XinWenXinXiZhongXinOutput.newBuilder() to construct.
+    private XinWenXinXiZhongXinOutput(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      super(builder);
+      this.unknownFields = builder.getUnknownFields();
+    }
+    private XinWenXinXiZhongXinOutput(boolean noInit) { this.unknownFields = com.google.protobuf.UnknownFieldSet.getDefaultInstance(); }
+
+    private static final XinWenXinXiZhongXinOutput defaultInstance;
+    public static XinWenXinXiZhongXinOutput getDefaultInstance() {
+      return defaultInstance;
+    }
+
+    public XinWenXinXiZhongXinOutput getDefaultInstanceForType() {
+      return defaultInstance;
+    }
+
+    private final com.google.protobuf.UnknownFieldSet unknownFields;
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+        getUnknownFields() {
+      return this.unknownFields;
+    }
+    private XinWenXinXiZhongXinOutput(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      initFields();
+      int mutable_bitField0_ = 0;
+      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+          com.google.protobuf.UnknownFieldSet.newBuilder();
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!parseUnknownField(input, unknownFields,
+                                     extensionRegistry, tag)) {
+                done = true;
+              }
+              break;
+            }
+            case 8: {
+              bitField0_ |= 0x00000001;
+              totalCount_ = input.readInt64();
+              break;
+            }
+            case 18: {
+              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+                data_ = new java.util.ArrayList<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin>();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              data_.add(input.readMessage(com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin.PARSER, extensionRegistry));
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e.getMessage()).setUnfinishedMessage(this);
+      } finally {
+        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+          data_ = java.util.Collections.unmodifiableList(data_);
+        }
+        this.unknownFields = unknownFields.build();
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_XinWenXinXiZhongXinOutput_descriptor;
+    }
+
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_XinWenXinXiZhongXinOutput_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput.class, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput.Builder.class);
+    }
+
+    public static com.google.protobuf.Parser<XinWenXinXiZhongXinOutput> PARSER =
+        new com.google.protobuf.AbstractParser<XinWenXinXiZhongXinOutput>() {
+      public XinWenXinXiZhongXinOutput parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return new XinWenXinXiZhongXinOutput(input, extensionRegistry);
+      }
+    };
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<XinWenXinXiZhongXinOutput> getParserForType() {
+      return PARSER;
+    }
+
+    private int bitField0_;
+    public static final int TOTALCOUNT_FIELD_NUMBER = 1;
+    private long totalCount_;
+    /**
+     * <code>required int64 TotalCount = 1;</code>
+     *
+     * <pre>
+     * 服务端缓存总条目数量
+     * </pre>
+     */
+    public boolean hasTotalCount() {
+      return ((bitField0_ & 0x00000001) == 0x00000001);
+    }
+    /**
+     * <code>required int64 TotalCount = 1;</code>
+     *
+     * <pre>
+     * 服务端缓存总条目数量
+     * </pre>
+     */
+    public long getTotalCount() {
+      return totalCount_;
+    }
+
+    public static final int DATA_FIELD_NUMBER = 2;
+    private java.util.List<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin> data_;
+    /**
+     * <code>repeated .dzhyun.XinWenXinXiZhongXin data = 2;</code>
+     */
+    public java.util.List<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin> getDataList() {
+      return data_;
+    }
+    /**
+     * <code>repeated .dzhyun.XinWenXinXiZhongXin data = 2;</code>
+     */
+    public java.util.List<? extends com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOrBuilder> 
+        getDataOrBuilderList() {
+      return data_;
+    }
+    /**
+     * <code>repeated .dzhyun.XinWenXinXiZhongXin data = 2;</code>
+     */
+    public int getDataCount() {
+      return data_.size();
+    }
+    /**
+     * <code>repeated .dzhyun.XinWenXinXiZhongXin data = 2;</code>
+     */
+    public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin getData(int index) {
+      return data_.get(index);
+    }
+    /**
+     * <code>repeated .dzhyun.XinWenXinXiZhongXin data = 2;</code>
+     */
+    public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOrBuilder getDataOrBuilder(
+        int index) {
+      return data_.get(index);
+    }
+
+    private void initFields() {
+      totalCount_ = 0L;
+      data_ = java.util.Collections.emptyList();
+    }
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      if (!hasTotalCount()) {
+        memoizedIsInitialized = 0;
+        return false;
+      }
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      getSerializedSize();
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        output.writeInt64(1, totalCount_);
+      }
+      for (int i = 0; i < data_.size(); i++) {
+        output.writeMessage(2, data_.get(i));
+      }
+      getUnknownFields().writeTo(output);
+    }
+
+    private int memoizedSerializedSize = -1;
+    public int getSerializedSize() {
+      int size = memoizedSerializedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(1, totalCount_);
+      }
+      for (int i = 0; i < data_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(2, data_.get(i));
+      }
+      size += getUnknownFields().getSerializedSize();
+      memoizedSerializedSize = size;
+      return size;
+    }
+
+    private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    protected java.lang.Object writeReplace()
+        throws java.io.ObjectStreamException {
+      return super.writeReplace();
+    }
+
     public static com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2771,7 +4466,7 @@ public final class DzhNewsInfo {
      * Protobuf type {@code dzhyun.XinWenXinXiZhongXinOutput}
      *
      * <pre>
-     * 新闻公告中心数据 
+     * 新闻中心数据 
      * </pre>
      */
     public static final class Builder extends
@@ -2791,6 +4486,3201 @@ public final class DzhNewsInfo {
       }
 
       // Construct using com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          getDataFieldBuilder();
+        }
+      }
+      private static Builder create() {
+        return new Builder();
+      }
+
+      public Builder clear() {
+        super.clear();
+        totalCount_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000001);
+        if (dataBuilder_ == null) {
+          data_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000002);
+        } else {
+          dataBuilder_.clear();
+        }
+        return this;
+      }
+
+      public Builder clone() {
+        return create().mergeFrom(buildPartial());
+      }
+
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_XinWenXinXiZhongXinOutput_descriptor;
+      }
+
+      public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput getDefaultInstanceForType() {
+        return com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput.getDefaultInstance();
+      }
+
+      public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput build() {
+        com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput buildPartial() {
+        com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput result = new com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput(this);
+        int from_bitField0_ = bitField0_;
+        int to_bitField0_ = 0;
+        if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
+          to_bitField0_ |= 0x00000001;
+        }
+        result.totalCount_ = totalCount_;
+        if (dataBuilder_ == null) {
+          if (((bitField0_ & 0x00000002) == 0x00000002)) {
+            data_ = java.util.Collections.unmodifiableList(data_);
+            bitField0_ = (bitField0_ & ~0x00000002);
+          }
+          result.data_ = data_;
+        } else {
+          result.data_ = dataBuilder_.build();
+        }
+        result.bitField0_ = to_bitField0_;
+        onBuilt();
+        return result;
+      }
+
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput) {
+          return mergeFrom((com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput other) {
+        if (other == com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput.getDefaultInstance()) return this;
+        if (other.hasTotalCount()) {
+          setTotalCount(other.getTotalCount());
+        }
+        if (dataBuilder_ == null) {
+          if (!other.data_.isEmpty()) {
+            if (data_.isEmpty()) {
+              data_ = other.data_;
+              bitField0_ = (bitField0_ & ~0x00000002);
+            } else {
+              ensureDataIsMutable();
+              data_.addAll(other.data_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.data_.isEmpty()) {
+            if (dataBuilder_.isEmpty()) {
+              dataBuilder_.dispose();
+              dataBuilder_ = null;
+              data_ = other.data_;
+              bitField0_ = (bitField0_ & ~0x00000002);
+              dataBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getDataFieldBuilder() : null;
+            } else {
+              dataBuilder_.addAllMessages(other.data_);
+            }
+          }
+        }
+        this.mergeUnknownFields(other.getUnknownFields());
+        return this;
+      }
+
+      public final boolean isInitialized() {
+        if (!hasTotalCount()) {
+          
+          return false;
+        }
+        return true;
+      }
+
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput) e.getUnfinishedMessage();
+          throw e;
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+      private int bitField0_;
+
+      private long totalCount_ ;
+      /**
+       * <code>required int64 TotalCount = 1;</code>
+       *
+       * <pre>
+       * 服务端缓存总条目数量
+       * </pre>
+       */
+      public boolean hasTotalCount() {
+        return ((bitField0_ & 0x00000001) == 0x00000001);
+      }
+      /**
+       * <code>required int64 TotalCount = 1;</code>
+       *
+       * <pre>
+       * 服务端缓存总条目数量
+       * </pre>
+       */
+      public long getTotalCount() {
+        return totalCount_;
+      }
+      /**
+       * <code>required int64 TotalCount = 1;</code>
+       *
+       * <pre>
+       * 服务端缓存总条目数量
+       * </pre>
+       */
+      public Builder setTotalCount(long value) {
+        bitField0_ |= 0x00000001;
+        totalCount_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required int64 TotalCount = 1;</code>
+       *
+       * <pre>
+       * 服务端缓存总条目数量
+       * </pre>
+       */
+      public Builder clearTotalCount() {
+        bitField0_ = (bitField0_ & ~0x00000001);
+        totalCount_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private java.util.List<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin> data_ =
+        java.util.Collections.emptyList();
+      private void ensureDataIsMutable() {
+        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
+          data_ = new java.util.ArrayList<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin>(data_);
+          bitField0_ |= 0x00000002;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin.Builder, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOrBuilder> dataBuilder_;
+
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiZhongXin data = 2;</code>
+       */
+      public java.util.List<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin> getDataList() {
+        if (dataBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(data_);
+        } else {
+          return dataBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiZhongXin data = 2;</code>
+       */
+      public int getDataCount() {
+        if (dataBuilder_ == null) {
+          return data_.size();
+        } else {
+          return dataBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiZhongXin data = 2;</code>
+       */
+      public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin getData(int index) {
+        if (dataBuilder_ == null) {
+          return data_.get(index);
+        } else {
+          return dataBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiZhongXin data = 2;</code>
+       */
+      public Builder setData(
+          int index, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin value) {
+        if (dataBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureDataIsMutable();
+          data_.set(index, value);
+          onChanged();
+        } else {
+          dataBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiZhongXin data = 2;</code>
+       */
+      public Builder setData(
+          int index, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin.Builder builderForValue) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          data_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          dataBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiZhongXin data = 2;</code>
+       */
+      public Builder addData(com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin value) {
+        if (dataBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureDataIsMutable();
+          data_.add(value);
+          onChanged();
+        } else {
+          dataBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiZhongXin data = 2;</code>
+       */
+      public Builder addData(
+          int index, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin value) {
+        if (dataBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureDataIsMutable();
+          data_.add(index, value);
+          onChanged();
+        } else {
+          dataBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiZhongXin data = 2;</code>
+       */
+      public Builder addData(
+          com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin.Builder builderForValue) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          data_.add(builderForValue.build());
+          onChanged();
+        } else {
+          dataBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiZhongXin data = 2;</code>
+       */
+      public Builder addData(
+          int index, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin.Builder builderForValue) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          data_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          dataBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiZhongXin data = 2;</code>
+       */
+      public Builder addAllData(
+          java.lang.Iterable<? extends com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin> values) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, data_);
+          onChanged();
+        } else {
+          dataBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiZhongXin data = 2;</code>
+       */
+      public Builder clearData() {
+        if (dataBuilder_ == null) {
+          data_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000002);
+          onChanged();
+        } else {
+          dataBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiZhongXin data = 2;</code>
+       */
+      public Builder removeData(int index) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          data_.remove(index);
+          onChanged();
+        } else {
+          dataBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiZhongXin data = 2;</code>
+       */
+      public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin.Builder getDataBuilder(
+          int index) {
+        return getDataFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiZhongXin data = 2;</code>
+       */
+      public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOrBuilder getDataOrBuilder(
+          int index) {
+        if (dataBuilder_ == null) {
+          return data_.get(index);  } else {
+          return dataBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiZhongXin data = 2;</code>
+       */
+      public java.util.List<? extends com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOrBuilder> 
+           getDataOrBuilderList() {
+        if (dataBuilder_ != null) {
+          return dataBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(data_);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiZhongXin data = 2;</code>
+       */
+      public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin.Builder addDataBuilder() {
+        return getDataFieldBuilder().addBuilder(
+            com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiZhongXin data = 2;</code>
+       */
+      public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin.Builder addDataBuilder(
+          int index) {
+        return getDataFieldBuilder().addBuilder(
+            index, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.XinWenXinXiZhongXin data = 2;</code>
+       */
+      public java.util.List<com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin.Builder> 
+           getDataBuilderList() {
+        return getDataFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin.Builder, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOrBuilder> 
+          getDataFieldBuilder() {
+        if (dataBuilder_ == null) {
+          dataBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXin.Builder, com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOrBuilder>(
+                  data_,
+                  ((bitField0_ & 0x00000002) == 0x00000002),
+                  getParentForChildren(),
+                  isClean());
+          data_ = null;
+        }
+        return dataBuilder_;
+      }
+
+      // @@protoc_insertion_point(builder_scope:dzhyun.XinWenXinXiZhongXinOutput)
+    }
+
+    static {
+      defaultInstance = new XinWenXinXiZhongXinOutput(true);
+      defaultInstance.initFields();
+    }
+
+    // @@protoc_insertion_point(class_scope:dzhyun.XinWenXinXiZhongXinOutput)
+  }
+
+  public interface GongGaoXinXiOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:dzhyun.GongGaoXinXi)
+      com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>optional string source = 1;</code>
+     *
+     * <pre>
+     * 公告:类型		
+     * </pre>
+     */
+    boolean hasSource();
+    /**
+     * <code>optional string source = 1;</code>
+     *
+     * <pre>
+     * 公告:类型		
+     * </pre>
+     */
+    java.lang.String getSource();
+    /**
+     * <code>optional string source = 1;</code>
+     *
+     * <pre>
+     * 公告:类型		
+     * </pre>
+     */
+    com.google.protobuf.ByteString
+        getSourceBytes();
+
+    /**
+     * <code>optional string date = 2;</code>
+     *
+     * <pre>
+     * 公告日期
+     * </pre>
+     */
+    boolean hasDate();
+    /**
+     * <code>optional string date = 2;</code>
+     *
+     * <pre>
+     * 公告日期
+     * </pre>
+     */
+    java.lang.String getDate();
+    /**
+     * <code>optional string date = 2;</code>
+     *
+     * <pre>
+     * 公告日期
+     * </pre>
+     */
+    com.google.protobuf.ByteString
+        getDateBytes();
+
+    /**
+     * <code>optional string title = 3;</code>
+     *
+     * <pre>
+     * 公告标题
+     * </pre>
+     */
+    boolean hasTitle();
+    /**
+     * <code>optional string title = 3;</code>
+     *
+     * <pre>
+     * 公告标题
+     * </pre>
+     */
+    java.lang.String getTitle();
+    /**
+     * <code>optional string title = 3;</code>
+     *
+     * <pre>
+     * 公告标题
+     * </pre>
+     */
+    com.google.protobuf.ByteString
+        getTitleBytes();
+
+    /**
+     * <code>optional string context = 4;</code>
+     *
+     * <pre>
+     * 公告:pdf文件下载url 
+     * </pre>
+     */
+    boolean hasContext();
+    /**
+     * <code>optional string context = 4;</code>
+     *
+     * <pre>
+     * 公告:pdf文件下载url 
+     * </pre>
+     */
+    java.lang.String getContext();
+    /**
+     * <code>optional string context = 4;</code>
+     *
+     * <pre>
+     * 公告:pdf文件下载url 
+     * </pre>
+     */
+    com.google.protobuf.ByteString
+        getContextBytes();
+  }
+  /**
+   * Protobuf type {@code dzhyun.GongGaoXinXi}
+   */
+  public static final class GongGaoXinXi extends
+      com.google.protobuf.GeneratedMessage implements
+      // @@protoc_insertion_point(message_implements:dzhyun.GongGaoXinXi)
+      GongGaoXinXiOrBuilder {
+    // Use GongGaoXinXi.newBuilder() to construct.
+    private GongGaoXinXi(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      super(builder);
+      this.unknownFields = builder.getUnknownFields();
+    }
+    private GongGaoXinXi(boolean noInit) { this.unknownFields = com.google.protobuf.UnknownFieldSet.getDefaultInstance(); }
+
+    private static final GongGaoXinXi defaultInstance;
+    public static GongGaoXinXi getDefaultInstance() {
+      return defaultInstance;
+    }
+
+    public GongGaoXinXi getDefaultInstanceForType() {
+      return defaultInstance;
+    }
+
+    private final com.google.protobuf.UnknownFieldSet unknownFields;
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+        getUnknownFields() {
+      return this.unknownFields;
+    }
+    private GongGaoXinXi(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      initFields();
+      int mutable_bitField0_ = 0;
+      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+          com.google.protobuf.UnknownFieldSet.newBuilder();
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!parseUnknownField(input, unknownFields,
+                                     extensionRegistry, tag)) {
+                done = true;
+              }
+              break;
+            }
+            case 10: {
+              com.google.protobuf.ByteString bs = input.readBytes();
+              bitField0_ |= 0x00000001;
+              source_ = bs;
+              break;
+            }
+            case 18: {
+              com.google.protobuf.ByteString bs = input.readBytes();
+              bitField0_ |= 0x00000002;
+              date_ = bs;
+              break;
+            }
+            case 26: {
+              com.google.protobuf.ByteString bs = input.readBytes();
+              bitField0_ |= 0x00000004;
+              title_ = bs;
+              break;
+            }
+            case 34: {
+              com.google.protobuf.ByteString bs = input.readBytes();
+              bitField0_ |= 0x00000008;
+              context_ = bs;
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e.getMessage()).setUnfinishedMessage(this);
+      } finally {
+        this.unknownFields = unknownFields.build();
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_GongGaoXinXi_descriptor;
+    }
+
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_GongGaoXinXi_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi.class, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi.Builder.class);
+    }
+
+    public static com.google.protobuf.Parser<GongGaoXinXi> PARSER =
+        new com.google.protobuf.AbstractParser<GongGaoXinXi>() {
+      public GongGaoXinXi parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return new GongGaoXinXi(input, extensionRegistry);
+      }
+    };
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<GongGaoXinXi> getParserForType() {
+      return PARSER;
+    }
+
+    private int bitField0_;
+    public static final int SOURCE_FIELD_NUMBER = 1;
+    private java.lang.Object source_;
+    /**
+     * <code>optional string source = 1;</code>
+     *
+     * <pre>
+     * 公告:类型		
+     * </pre>
+     */
+    public boolean hasSource() {
+      return ((bitField0_ & 0x00000001) == 0x00000001);
+    }
+    /**
+     * <code>optional string source = 1;</code>
+     *
+     * <pre>
+     * 公告:类型		
+     * </pre>
+     */
+    public java.lang.String getSource() {
+      java.lang.Object ref = source_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          source_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>optional string source = 1;</code>
+     *
+     * <pre>
+     * 公告:类型		
+     * </pre>
+     */
+    public com.google.protobuf.ByteString
+        getSourceBytes() {
+      java.lang.Object ref = source_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        source_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    public static final int DATE_FIELD_NUMBER = 2;
+    private java.lang.Object date_;
+    /**
+     * <code>optional string date = 2;</code>
+     *
+     * <pre>
+     * 公告日期
+     * </pre>
+     */
+    public boolean hasDate() {
+      return ((bitField0_ & 0x00000002) == 0x00000002);
+    }
+    /**
+     * <code>optional string date = 2;</code>
+     *
+     * <pre>
+     * 公告日期
+     * </pre>
+     */
+    public java.lang.String getDate() {
+      java.lang.Object ref = date_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          date_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>optional string date = 2;</code>
+     *
+     * <pre>
+     * 公告日期
+     * </pre>
+     */
+    public com.google.protobuf.ByteString
+        getDateBytes() {
+      java.lang.Object ref = date_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        date_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    public static final int TITLE_FIELD_NUMBER = 3;
+    private java.lang.Object title_;
+    /**
+     * <code>optional string title = 3;</code>
+     *
+     * <pre>
+     * 公告标题
+     * </pre>
+     */
+    public boolean hasTitle() {
+      return ((bitField0_ & 0x00000004) == 0x00000004);
+    }
+    /**
+     * <code>optional string title = 3;</code>
+     *
+     * <pre>
+     * 公告标题
+     * </pre>
+     */
+    public java.lang.String getTitle() {
+      java.lang.Object ref = title_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          title_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>optional string title = 3;</code>
+     *
+     * <pre>
+     * 公告标题
+     * </pre>
+     */
+    public com.google.protobuf.ByteString
+        getTitleBytes() {
+      java.lang.Object ref = title_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        title_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    public static final int CONTEXT_FIELD_NUMBER = 4;
+    private java.lang.Object context_;
+    /**
+     * <code>optional string context = 4;</code>
+     *
+     * <pre>
+     * 公告:pdf文件下载url 
+     * </pre>
+     */
+    public boolean hasContext() {
+      return ((bitField0_ & 0x00000008) == 0x00000008);
+    }
+    /**
+     * <code>optional string context = 4;</code>
+     *
+     * <pre>
+     * 公告:pdf文件下载url 
+     * </pre>
+     */
+    public java.lang.String getContext() {
+      java.lang.Object ref = context_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          context_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>optional string context = 4;</code>
+     *
+     * <pre>
+     * 公告:pdf文件下载url 
+     * </pre>
+     */
+    public com.google.protobuf.ByteString
+        getContextBytes() {
+      java.lang.Object ref = context_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        context_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    private void initFields() {
+      source_ = "";
+      date_ = "";
+      title_ = "";
+      context_ = "";
+    }
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      getSerializedSize();
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        output.writeBytes(1, getSourceBytes());
+      }
+      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+        output.writeBytes(2, getDateBytes());
+      }
+      if (((bitField0_ & 0x00000004) == 0x00000004)) {
+        output.writeBytes(3, getTitleBytes());
+      }
+      if (((bitField0_ & 0x00000008) == 0x00000008)) {
+        output.writeBytes(4, getContextBytes());
+      }
+      getUnknownFields().writeTo(output);
+    }
+
+    private int memoizedSerializedSize = -1;
+    public int getSerializedSize() {
+      int size = memoizedSerializedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(1, getSourceBytes());
+      }
+      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(2, getDateBytes());
+      }
+      if (((bitField0_ & 0x00000004) == 0x00000004)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(3, getTitleBytes());
+      }
+      if (((bitField0_ & 0x00000008) == 0x00000008)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(4, getContextBytes());
+      }
+      size += getUnknownFields().getSerializedSize();
+      memoizedSerializedSize = size;
+      return size;
+    }
+
+    private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    protected java.lang.Object writeReplace()
+        throws java.io.ObjectStreamException {
+      return super.writeReplace();
+    }
+
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+
+    public static Builder newBuilder() { return Builder.create(); }
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder(com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi prototype) {
+      return newBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() { return newBuilder(this); }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code dzhyun.GongGaoXinXi}
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:dzhyun.GongGaoXinXi)
+        com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_GongGaoXinXi_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_GongGaoXinXi_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi.class, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi.Builder.class);
+      }
+
+      // Construct using com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        }
+      }
+      private static Builder create() {
+        return new Builder();
+      }
+
+      public Builder clear() {
+        super.clear();
+        source_ = "";
+        bitField0_ = (bitField0_ & ~0x00000001);
+        date_ = "";
+        bitField0_ = (bitField0_ & ~0x00000002);
+        title_ = "";
+        bitField0_ = (bitField0_ & ~0x00000004);
+        context_ = "";
+        bitField0_ = (bitField0_ & ~0x00000008);
+        return this;
+      }
+
+      public Builder clone() {
+        return create().mergeFrom(buildPartial());
+      }
+
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_GongGaoXinXi_descriptor;
+      }
+
+      public com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi getDefaultInstanceForType() {
+        return com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi.getDefaultInstance();
+      }
+
+      public com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi build() {
+        com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      public com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi buildPartial() {
+        com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi result = new com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi(this);
+        int from_bitField0_ = bitField0_;
+        int to_bitField0_ = 0;
+        if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
+          to_bitField0_ |= 0x00000001;
+        }
+        result.source_ = source_;
+        if (((from_bitField0_ & 0x00000002) == 0x00000002)) {
+          to_bitField0_ |= 0x00000002;
+        }
+        result.date_ = date_;
+        if (((from_bitField0_ & 0x00000004) == 0x00000004)) {
+          to_bitField0_ |= 0x00000004;
+        }
+        result.title_ = title_;
+        if (((from_bitField0_ & 0x00000008) == 0x00000008)) {
+          to_bitField0_ |= 0x00000008;
+        }
+        result.context_ = context_;
+        result.bitField0_ = to_bitField0_;
+        onBuilt();
+        return result;
+      }
+
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi) {
+          return mergeFrom((com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi other) {
+        if (other == com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi.getDefaultInstance()) return this;
+        if (other.hasSource()) {
+          bitField0_ |= 0x00000001;
+          source_ = other.source_;
+          onChanged();
+        }
+        if (other.hasDate()) {
+          bitField0_ |= 0x00000002;
+          date_ = other.date_;
+          onChanged();
+        }
+        if (other.hasTitle()) {
+          bitField0_ |= 0x00000004;
+          title_ = other.title_;
+          onChanged();
+        }
+        if (other.hasContext()) {
+          bitField0_ |= 0x00000008;
+          context_ = other.context_;
+          onChanged();
+        }
+        this.mergeUnknownFields(other.getUnknownFields());
+        return this;
+      }
+
+      public final boolean isInitialized() {
+        return true;
+      }
+
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi) e.getUnfinishedMessage();
+          throw e;
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+      private int bitField0_;
+
+      private java.lang.Object source_ = "";
+      /**
+       * <code>optional string source = 1;</code>
+       *
+       * <pre>
+       * 公告:类型		
+       * </pre>
+       */
+      public boolean hasSource() {
+        return ((bitField0_ & 0x00000001) == 0x00000001);
+      }
+      /**
+       * <code>optional string source = 1;</code>
+       *
+       * <pre>
+       * 公告:类型		
+       * </pre>
+       */
+      public java.lang.String getSource() {
+        java.lang.Object ref = source_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          if (bs.isValidUtf8()) {
+            source_ = s;
+          }
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string source = 1;</code>
+       *
+       * <pre>
+       * 公告:类型		
+       * </pre>
+       */
+      public com.google.protobuf.ByteString
+          getSourceBytes() {
+        java.lang.Object ref = source_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          source_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string source = 1;</code>
+       *
+       * <pre>
+       * 公告:类型		
+       * </pre>
+       */
+      public Builder setSource(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000001;
+        source_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string source = 1;</code>
+       *
+       * <pre>
+       * 公告:类型		
+       * </pre>
+       */
+      public Builder clearSource() {
+        bitField0_ = (bitField0_ & ~0x00000001);
+        source_ = getDefaultInstance().getSource();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string source = 1;</code>
+       *
+       * <pre>
+       * 公告:类型		
+       * </pre>
+       */
+      public Builder setSourceBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000001;
+        source_ = value;
+        onChanged();
+        return this;
+      }
+
+      private java.lang.Object date_ = "";
+      /**
+       * <code>optional string date = 2;</code>
+       *
+       * <pre>
+       * 公告日期
+       * </pre>
+       */
+      public boolean hasDate() {
+        return ((bitField0_ & 0x00000002) == 0x00000002);
+      }
+      /**
+       * <code>optional string date = 2;</code>
+       *
+       * <pre>
+       * 公告日期
+       * </pre>
+       */
+      public java.lang.String getDate() {
+        java.lang.Object ref = date_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          if (bs.isValidUtf8()) {
+            date_ = s;
+          }
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string date = 2;</code>
+       *
+       * <pre>
+       * 公告日期
+       * </pre>
+       */
+      public com.google.protobuf.ByteString
+          getDateBytes() {
+        java.lang.Object ref = date_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          date_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string date = 2;</code>
+       *
+       * <pre>
+       * 公告日期
+       * </pre>
+       */
+      public Builder setDate(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000002;
+        date_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string date = 2;</code>
+       *
+       * <pre>
+       * 公告日期
+       * </pre>
+       */
+      public Builder clearDate() {
+        bitField0_ = (bitField0_ & ~0x00000002);
+        date_ = getDefaultInstance().getDate();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string date = 2;</code>
+       *
+       * <pre>
+       * 公告日期
+       * </pre>
+       */
+      public Builder setDateBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000002;
+        date_ = value;
+        onChanged();
+        return this;
+      }
+
+      private java.lang.Object title_ = "";
+      /**
+       * <code>optional string title = 3;</code>
+       *
+       * <pre>
+       * 公告标题
+       * </pre>
+       */
+      public boolean hasTitle() {
+        return ((bitField0_ & 0x00000004) == 0x00000004);
+      }
+      /**
+       * <code>optional string title = 3;</code>
+       *
+       * <pre>
+       * 公告标题
+       * </pre>
+       */
+      public java.lang.String getTitle() {
+        java.lang.Object ref = title_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          if (bs.isValidUtf8()) {
+            title_ = s;
+          }
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string title = 3;</code>
+       *
+       * <pre>
+       * 公告标题
+       * </pre>
+       */
+      public com.google.protobuf.ByteString
+          getTitleBytes() {
+        java.lang.Object ref = title_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          title_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string title = 3;</code>
+       *
+       * <pre>
+       * 公告标题
+       * </pre>
+       */
+      public Builder setTitle(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000004;
+        title_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string title = 3;</code>
+       *
+       * <pre>
+       * 公告标题
+       * </pre>
+       */
+      public Builder clearTitle() {
+        bitField0_ = (bitField0_ & ~0x00000004);
+        title_ = getDefaultInstance().getTitle();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string title = 3;</code>
+       *
+       * <pre>
+       * 公告标题
+       * </pre>
+       */
+      public Builder setTitleBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000004;
+        title_ = value;
+        onChanged();
+        return this;
+      }
+
+      private java.lang.Object context_ = "";
+      /**
+       * <code>optional string context = 4;</code>
+       *
+       * <pre>
+       * 公告:pdf文件下载url 
+       * </pre>
+       */
+      public boolean hasContext() {
+        return ((bitField0_ & 0x00000008) == 0x00000008);
+      }
+      /**
+       * <code>optional string context = 4;</code>
+       *
+       * <pre>
+       * 公告:pdf文件下载url 
+       * </pre>
+       */
+      public java.lang.String getContext() {
+        java.lang.Object ref = context_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          if (bs.isValidUtf8()) {
+            context_ = s;
+          }
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string context = 4;</code>
+       *
+       * <pre>
+       * 公告:pdf文件下载url 
+       * </pre>
+       */
+      public com.google.protobuf.ByteString
+          getContextBytes() {
+        java.lang.Object ref = context_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          context_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string context = 4;</code>
+       *
+       * <pre>
+       * 公告:pdf文件下载url 
+       * </pre>
+       */
+      public Builder setContext(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000008;
+        context_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string context = 4;</code>
+       *
+       * <pre>
+       * 公告:pdf文件下载url 
+       * </pre>
+       */
+      public Builder clearContext() {
+        bitField0_ = (bitField0_ & ~0x00000008);
+        context_ = getDefaultInstance().getContext();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string context = 4;</code>
+       *
+       * <pre>
+       * 公告:pdf文件下载url 
+       * </pre>
+       */
+      public Builder setContextBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000008;
+        context_ = value;
+        onChanged();
+        return this;
+      }
+
+      // @@protoc_insertion_point(builder_scope:dzhyun.GongGaoXinXi)
+    }
+
+    static {
+      defaultInstance = new GongGaoXinXi(true);
+      defaultInstance.initFields();
+    }
+
+    // @@protoc_insertion_point(class_scope:dzhyun.GongGaoXinXi)
+  }
+
+  public interface GongGaoXinXiOutputOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:dzhyun.GongGaoXinXiOutput)
+      com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>required string Obj = 1;</code>
+     *
+     * <pre>
+     * 个股公告:股票代码
+     * </pre>
+     */
+    boolean hasObj();
+    /**
+     * <code>required string Obj = 1;</code>
+     *
+     * <pre>
+     * 个股公告:股票代码
+     * </pre>
+     */
+    java.lang.String getObj();
+    /**
+     * <code>required string Obj = 1;</code>
+     *
+     * <pre>
+     * 个股公告:股票代码
+     * </pre>
+     */
+    com.google.protobuf.ByteString
+        getObjBytes();
+
+    /**
+     * <code>required int64 TotalCount = 2;</code>
+     *
+     * <pre>
+     *服务器缓存总数量
+     * </pre>
+     */
+    boolean hasTotalCount();
+    /**
+     * <code>required int64 TotalCount = 2;</code>
+     *
+     * <pre>
+     *服务器缓存总数量
+     * </pre>
+     */
+    long getTotalCount();
+
+    /**
+     * <code>repeated .dzhyun.GongGaoXinXi Data = 3;</code>
+     */
+    java.util.List<com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi> 
+        getDataList();
+    /**
+     * <code>repeated .dzhyun.GongGaoXinXi Data = 3;</code>
+     */
+    com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi getData(int index);
+    /**
+     * <code>repeated .dzhyun.GongGaoXinXi Data = 3;</code>
+     */
+    int getDataCount();
+    /**
+     * <code>repeated .dzhyun.GongGaoXinXi Data = 3;</code>
+     */
+    java.util.List<? extends com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOrBuilder> 
+        getDataOrBuilderList();
+    /**
+     * <code>repeated .dzhyun.GongGaoXinXi Data = 3;</code>
+     */
+    com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOrBuilder getDataOrBuilder(
+        int index);
+  }
+  /**
+   * Protobuf type {@code dzhyun.GongGaoXinXiOutput}
+   *
+   * <pre>
+   * 个股公告数据 
+   * </pre>
+   */
+  public static final class GongGaoXinXiOutput extends
+      com.google.protobuf.GeneratedMessage implements
+      // @@protoc_insertion_point(message_implements:dzhyun.GongGaoXinXiOutput)
+      GongGaoXinXiOutputOrBuilder {
+    // Use GongGaoXinXiOutput.newBuilder() to construct.
+    private GongGaoXinXiOutput(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      super(builder);
+      this.unknownFields = builder.getUnknownFields();
+    }
+    private GongGaoXinXiOutput(boolean noInit) { this.unknownFields = com.google.protobuf.UnknownFieldSet.getDefaultInstance(); }
+
+    private static final GongGaoXinXiOutput defaultInstance;
+    public static GongGaoXinXiOutput getDefaultInstance() {
+      return defaultInstance;
+    }
+
+    public GongGaoXinXiOutput getDefaultInstanceForType() {
+      return defaultInstance;
+    }
+
+    private final com.google.protobuf.UnknownFieldSet unknownFields;
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+        getUnknownFields() {
+      return this.unknownFields;
+    }
+    private GongGaoXinXiOutput(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      initFields();
+      int mutable_bitField0_ = 0;
+      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+          com.google.protobuf.UnknownFieldSet.newBuilder();
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!parseUnknownField(input, unknownFields,
+                                     extensionRegistry, tag)) {
+                done = true;
+              }
+              break;
+            }
+            case 10: {
+              com.google.protobuf.ByteString bs = input.readBytes();
+              bitField0_ |= 0x00000001;
+              obj_ = bs;
+              break;
+            }
+            case 16: {
+              bitField0_ |= 0x00000002;
+              totalCount_ = input.readInt64();
+              break;
+            }
+            case 26: {
+              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+                data_ = new java.util.ArrayList<com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi>();
+                mutable_bitField0_ |= 0x00000004;
+              }
+              data_.add(input.readMessage(com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi.PARSER, extensionRegistry));
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e.getMessage()).setUnfinishedMessage(this);
+      } finally {
+        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+          data_ = java.util.Collections.unmodifiableList(data_);
+        }
+        this.unknownFields = unknownFields.build();
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_GongGaoXinXiOutput_descriptor;
+    }
+
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_GongGaoXinXiOutput_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput.class, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput.Builder.class);
+    }
+
+    public static com.google.protobuf.Parser<GongGaoXinXiOutput> PARSER =
+        new com.google.protobuf.AbstractParser<GongGaoXinXiOutput>() {
+      public GongGaoXinXiOutput parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return new GongGaoXinXiOutput(input, extensionRegistry);
+      }
+    };
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<GongGaoXinXiOutput> getParserForType() {
+      return PARSER;
+    }
+
+    private int bitField0_;
+    public static final int OBJ_FIELD_NUMBER = 1;
+    private java.lang.Object obj_;
+    /**
+     * <code>required string Obj = 1;</code>
+     *
+     * <pre>
+     * 个股公告:股票代码
+     * </pre>
+     */
+    public boolean hasObj() {
+      return ((bitField0_ & 0x00000001) == 0x00000001);
+    }
+    /**
+     * <code>required string Obj = 1;</code>
+     *
+     * <pre>
+     * 个股公告:股票代码
+     * </pre>
+     */
+    public java.lang.String getObj() {
+      java.lang.Object ref = obj_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          obj_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>required string Obj = 1;</code>
+     *
+     * <pre>
+     * 个股公告:股票代码
+     * </pre>
+     */
+    public com.google.protobuf.ByteString
+        getObjBytes() {
+      java.lang.Object ref = obj_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        obj_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    public static final int TOTALCOUNT_FIELD_NUMBER = 2;
+    private long totalCount_;
+    /**
+     * <code>required int64 TotalCount = 2;</code>
+     *
+     * <pre>
+     *服务器缓存总数量
+     * </pre>
+     */
+    public boolean hasTotalCount() {
+      return ((bitField0_ & 0x00000002) == 0x00000002);
+    }
+    /**
+     * <code>required int64 TotalCount = 2;</code>
+     *
+     * <pre>
+     *服务器缓存总数量
+     * </pre>
+     */
+    public long getTotalCount() {
+      return totalCount_;
+    }
+
+    public static final int DATA_FIELD_NUMBER = 3;
+    private java.util.List<com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi> data_;
+    /**
+     * <code>repeated .dzhyun.GongGaoXinXi Data = 3;</code>
+     */
+    public java.util.List<com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi> getDataList() {
+      return data_;
+    }
+    /**
+     * <code>repeated .dzhyun.GongGaoXinXi Data = 3;</code>
+     */
+    public java.util.List<? extends com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOrBuilder> 
+        getDataOrBuilderList() {
+      return data_;
+    }
+    /**
+     * <code>repeated .dzhyun.GongGaoXinXi Data = 3;</code>
+     */
+    public int getDataCount() {
+      return data_.size();
+    }
+    /**
+     * <code>repeated .dzhyun.GongGaoXinXi Data = 3;</code>
+     */
+    public com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi getData(int index) {
+      return data_.get(index);
+    }
+    /**
+     * <code>repeated .dzhyun.GongGaoXinXi Data = 3;</code>
+     */
+    public com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOrBuilder getDataOrBuilder(
+        int index) {
+      return data_.get(index);
+    }
+
+    private void initFields() {
+      obj_ = "";
+      totalCount_ = 0L;
+      data_ = java.util.Collections.emptyList();
+    }
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      if (!hasObj()) {
+        memoizedIsInitialized = 0;
+        return false;
+      }
+      if (!hasTotalCount()) {
+        memoizedIsInitialized = 0;
+        return false;
+      }
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      getSerializedSize();
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        output.writeBytes(1, getObjBytes());
+      }
+      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+        output.writeInt64(2, totalCount_);
+      }
+      for (int i = 0; i < data_.size(); i++) {
+        output.writeMessage(3, data_.get(i));
+      }
+      getUnknownFields().writeTo(output);
+    }
+
+    private int memoizedSerializedSize = -1;
+    public int getSerializedSize() {
+      int size = memoizedSerializedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(1, getObjBytes());
+      }
+      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(2, totalCount_);
+      }
+      for (int i = 0; i < data_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(3, data_.get(i));
+      }
+      size += getUnknownFields().getSerializedSize();
+      memoizedSerializedSize = size;
+      return size;
+    }
+
+    private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    protected java.lang.Object writeReplace()
+        throws java.io.ObjectStreamException {
+      return super.writeReplace();
+    }
+
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+
+    public static Builder newBuilder() { return Builder.create(); }
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder(com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput prototype) {
+      return newBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() { return newBuilder(this); }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code dzhyun.GongGaoXinXiOutput}
+     *
+     * <pre>
+     * 个股公告数据 
+     * </pre>
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:dzhyun.GongGaoXinXiOutput)
+        com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutputOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_GongGaoXinXiOutput_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_GongGaoXinXiOutput_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput.class, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput.Builder.class);
+      }
+
+      // Construct using com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          getDataFieldBuilder();
+        }
+      }
+      private static Builder create() {
+        return new Builder();
+      }
+
+      public Builder clear() {
+        super.clear();
+        obj_ = "";
+        bitField0_ = (bitField0_ & ~0x00000001);
+        totalCount_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000002);
+        if (dataBuilder_ == null) {
+          data_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000004);
+        } else {
+          dataBuilder_.clear();
+        }
+        return this;
+      }
+
+      public Builder clone() {
+        return create().mergeFrom(buildPartial());
+      }
+
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_GongGaoXinXiOutput_descriptor;
+      }
+
+      public com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput getDefaultInstanceForType() {
+        return com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput.getDefaultInstance();
+      }
+
+      public com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput build() {
+        com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      public com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput buildPartial() {
+        com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput result = new com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput(this);
+        int from_bitField0_ = bitField0_;
+        int to_bitField0_ = 0;
+        if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
+          to_bitField0_ |= 0x00000001;
+        }
+        result.obj_ = obj_;
+        if (((from_bitField0_ & 0x00000002) == 0x00000002)) {
+          to_bitField0_ |= 0x00000002;
+        }
+        result.totalCount_ = totalCount_;
+        if (dataBuilder_ == null) {
+          if (((bitField0_ & 0x00000004) == 0x00000004)) {
+            data_ = java.util.Collections.unmodifiableList(data_);
+            bitField0_ = (bitField0_ & ~0x00000004);
+          }
+          result.data_ = data_;
+        } else {
+          result.data_ = dataBuilder_.build();
+        }
+        result.bitField0_ = to_bitField0_;
+        onBuilt();
+        return result;
+      }
+
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput) {
+          return mergeFrom((com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput other) {
+        if (other == com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput.getDefaultInstance()) return this;
+        if (other.hasObj()) {
+          bitField0_ |= 0x00000001;
+          obj_ = other.obj_;
+          onChanged();
+        }
+        if (other.hasTotalCount()) {
+          setTotalCount(other.getTotalCount());
+        }
+        if (dataBuilder_ == null) {
+          if (!other.data_.isEmpty()) {
+            if (data_.isEmpty()) {
+              data_ = other.data_;
+              bitField0_ = (bitField0_ & ~0x00000004);
+            } else {
+              ensureDataIsMutable();
+              data_.addAll(other.data_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.data_.isEmpty()) {
+            if (dataBuilder_.isEmpty()) {
+              dataBuilder_.dispose();
+              dataBuilder_ = null;
+              data_ = other.data_;
+              bitField0_ = (bitField0_ & ~0x00000004);
+              dataBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getDataFieldBuilder() : null;
+            } else {
+              dataBuilder_.addAllMessages(other.data_);
+            }
+          }
+        }
+        this.mergeUnknownFields(other.getUnknownFields());
+        return this;
+      }
+
+      public final boolean isInitialized() {
+        if (!hasObj()) {
+          
+          return false;
+        }
+        if (!hasTotalCount()) {
+          
+          return false;
+        }
+        return true;
+      }
+
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOutput) e.getUnfinishedMessage();
+          throw e;
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+      private int bitField0_;
+
+      private java.lang.Object obj_ = "";
+      /**
+       * <code>required string Obj = 1;</code>
+       *
+       * <pre>
+       * 个股公告:股票代码
+       * </pre>
+       */
+      public boolean hasObj() {
+        return ((bitField0_ & 0x00000001) == 0x00000001);
+      }
+      /**
+       * <code>required string Obj = 1;</code>
+       *
+       * <pre>
+       * 个股公告:股票代码
+       * </pre>
+       */
+      public java.lang.String getObj() {
+        java.lang.Object ref = obj_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          if (bs.isValidUtf8()) {
+            obj_ = s;
+          }
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>required string Obj = 1;</code>
+       *
+       * <pre>
+       * 个股公告:股票代码
+       * </pre>
+       */
+      public com.google.protobuf.ByteString
+          getObjBytes() {
+        java.lang.Object ref = obj_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          obj_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>required string Obj = 1;</code>
+       *
+       * <pre>
+       * 个股公告:股票代码
+       * </pre>
+       */
+      public Builder setObj(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000001;
+        obj_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string Obj = 1;</code>
+       *
+       * <pre>
+       * 个股公告:股票代码
+       * </pre>
+       */
+      public Builder clearObj() {
+        bitField0_ = (bitField0_ & ~0x00000001);
+        obj_ = getDefaultInstance().getObj();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string Obj = 1;</code>
+       *
+       * <pre>
+       * 个股公告:股票代码
+       * </pre>
+       */
+      public Builder setObjBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000001;
+        obj_ = value;
+        onChanged();
+        return this;
+      }
+
+      private long totalCount_ ;
+      /**
+       * <code>required int64 TotalCount = 2;</code>
+       *
+       * <pre>
+       *服务器缓存总数量
+       * </pre>
+       */
+      public boolean hasTotalCount() {
+        return ((bitField0_ & 0x00000002) == 0x00000002);
+      }
+      /**
+       * <code>required int64 TotalCount = 2;</code>
+       *
+       * <pre>
+       *服务器缓存总数量
+       * </pre>
+       */
+      public long getTotalCount() {
+        return totalCount_;
+      }
+      /**
+       * <code>required int64 TotalCount = 2;</code>
+       *
+       * <pre>
+       *服务器缓存总数量
+       * </pre>
+       */
+      public Builder setTotalCount(long value) {
+        bitField0_ |= 0x00000002;
+        totalCount_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required int64 TotalCount = 2;</code>
+       *
+       * <pre>
+       *服务器缓存总数量
+       * </pre>
+       */
+      public Builder clearTotalCount() {
+        bitField0_ = (bitField0_ & ~0x00000002);
+        totalCount_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private java.util.List<com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi> data_ =
+        java.util.Collections.emptyList();
+      private void ensureDataIsMutable() {
+        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
+          data_ = new java.util.ArrayList<com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi>(data_);
+          bitField0_ |= 0x00000004;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi.Builder, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOrBuilder> dataBuilder_;
+
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXi Data = 3;</code>
+       */
+      public java.util.List<com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi> getDataList() {
+        if (dataBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(data_);
+        } else {
+          return dataBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXi Data = 3;</code>
+       */
+      public int getDataCount() {
+        if (dataBuilder_ == null) {
+          return data_.size();
+        } else {
+          return dataBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXi Data = 3;</code>
+       */
+      public com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi getData(int index) {
+        if (dataBuilder_ == null) {
+          return data_.get(index);
+        } else {
+          return dataBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXi Data = 3;</code>
+       */
+      public Builder setData(
+          int index, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi value) {
+        if (dataBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureDataIsMutable();
+          data_.set(index, value);
+          onChanged();
+        } else {
+          dataBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXi Data = 3;</code>
+       */
+      public Builder setData(
+          int index, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi.Builder builderForValue) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          data_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          dataBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXi Data = 3;</code>
+       */
+      public Builder addData(com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi value) {
+        if (dataBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureDataIsMutable();
+          data_.add(value);
+          onChanged();
+        } else {
+          dataBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXi Data = 3;</code>
+       */
+      public Builder addData(
+          int index, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi value) {
+        if (dataBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureDataIsMutable();
+          data_.add(index, value);
+          onChanged();
+        } else {
+          dataBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXi Data = 3;</code>
+       */
+      public Builder addData(
+          com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi.Builder builderForValue) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          data_.add(builderForValue.build());
+          onChanged();
+        } else {
+          dataBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXi Data = 3;</code>
+       */
+      public Builder addData(
+          int index, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi.Builder builderForValue) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          data_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          dataBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXi Data = 3;</code>
+       */
+      public Builder addAllData(
+          java.lang.Iterable<? extends com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi> values) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, data_);
+          onChanged();
+        } else {
+          dataBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXi Data = 3;</code>
+       */
+      public Builder clearData() {
+        if (dataBuilder_ == null) {
+          data_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000004);
+          onChanged();
+        } else {
+          dataBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXi Data = 3;</code>
+       */
+      public Builder removeData(int index) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          data_.remove(index);
+          onChanged();
+        } else {
+          dataBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXi Data = 3;</code>
+       */
+      public com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi.Builder getDataBuilder(
+          int index) {
+        return getDataFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXi Data = 3;</code>
+       */
+      public com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOrBuilder getDataOrBuilder(
+          int index) {
+        if (dataBuilder_ == null) {
+          return data_.get(index);  } else {
+          return dataBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXi Data = 3;</code>
+       */
+      public java.util.List<? extends com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOrBuilder> 
+           getDataOrBuilderList() {
+        if (dataBuilder_ != null) {
+          return dataBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(data_);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXi Data = 3;</code>
+       */
+      public com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi.Builder addDataBuilder() {
+        return getDataFieldBuilder().addBuilder(
+            com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXi Data = 3;</code>
+       */
+      public com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi.Builder addDataBuilder(
+          int index) {
+        return getDataFieldBuilder().addBuilder(
+            index, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXi Data = 3;</code>
+       */
+      public java.util.List<com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi.Builder> 
+           getDataBuilderList() {
+        return getDataFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi.Builder, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOrBuilder> 
+          getDataFieldBuilder() {
+        if (dataBuilder_ == null) {
+          dataBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXi.Builder, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiOrBuilder>(
+                  data_,
+                  ((bitField0_ & 0x00000004) == 0x00000004),
+                  getParentForChildren(),
+                  isClean());
+          data_ = null;
+        }
+        return dataBuilder_;
+      }
+
+      // @@protoc_insertion_point(builder_scope:dzhyun.GongGaoXinXiOutput)
+    }
+
+    static {
+      defaultInstance = new GongGaoXinXiOutput(true);
+      defaultInstance.initFields();
+    }
+
+    // @@protoc_insertion_point(class_scope:dzhyun.GongGaoXinXiOutput)
+  }
+
+  public interface GongGaoXinXiZhongXinOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:dzhyun.GongGaoXinXiZhongXin)
+      com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>optional string date = 1;</code>
+     *
+     * <pre>
+     * 公告日期
+     * </pre>
+     */
+    boolean hasDate();
+    /**
+     * <code>optional string date = 1;</code>
+     *
+     * <pre>
+     * 公告日期
+     * </pre>
+     */
+    java.lang.String getDate();
+    /**
+     * <code>optional string date = 1;</code>
+     *
+     * <pre>
+     * 公告日期
+     * </pre>
+     */
+    com.google.protobuf.ByteString
+        getDateBytes();
+
+    /**
+     * <code>optional string title = 2;</code>
+     *
+     * <pre>
+     * 公告标题
+     * </pre>
+     */
+    boolean hasTitle();
+    /**
+     * <code>optional string title = 2;</code>
+     *
+     * <pre>
+     * 公告标题
+     * </pre>
+     */
+    java.lang.String getTitle();
+    /**
+     * <code>optional string title = 2;</code>
+     *
+     * <pre>
+     * 公告标题
+     * </pre>
+     */
+    com.google.protobuf.ByteString
+        getTitleBytes();
+
+    /**
+     * <code>optional string context = 3;</code>
+     *
+     * <pre>
+     * 公告:pdf文件下载url 
+     * </pre>
+     */
+    boolean hasContext();
+    /**
+     * <code>optional string context = 3;</code>
+     *
+     * <pre>
+     * 公告:pdf文件下载url 
+     * </pre>
+     */
+    java.lang.String getContext();
+    /**
+     * <code>optional string context = 3;</code>
+     *
+     * <pre>
+     * 公告:pdf文件下载url 
+     * </pre>
+     */
+    com.google.protobuf.ByteString
+        getContextBytes();
+
+    /**
+     * <code>optional string source = 4;</code>
+     *
+     * <pre>
+     * 公告:类型		
+     * </pre>
+     */
+    boolean hasSource();
+    /**
+     * <code>optional string source = 4;</code>
+     *
+     * <pre>
+     * 公告:类型		
+     * </pre>
+     */
+    java.lang.String getSource();
+    /**
+     * <code>optional string source = 4;</code>
+     *
+     * <pre>
+     * 公告:类型		
+     * </pre>
+     */
+    com.google.protobuf.ByteString
+        getSourceBytes();
+  }
+  /**
+   * Protobuf type {@code dzhyun.GongGaoXinXiZhongXin}
+   */
+  public static final class GongGaoXinXiZhongXin extends
+      com.google.protobuf.GeneratedMessage implements
+      // @@protoc_insertion_point(message_implements:dzhyun.GongGaoXinXiZhongXin)
+      GongGaoXinXiZhongXinOrBuilder {
+    // Use GongGaoXinXiZhongXin.newBuilder() to construct.
+    private GongGaoXinXiZhongXin(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      super(builder);
+      this.unknownFields = builder.getUnknownFields();
+    }
+    private GongGaoXinXiZhongXin(boolean noInit) { this.unknownFields = com.google.protobuf.UnknownFieldSet.getDefaultInstance(); }
+
+    private static final GongGaoXinXiZhongXin defaultInstance;
+    public static GongGaoXinXiZhongXin getDefaultInstance() {
+      return defaultInstance;
+    }
+
+    public GongGaoXinXiZhongXin getDefaultInstanceForType() {
+      return defaultInstance;
+    }
+
+    private final com.google.protobuf.UnknownFieldSet unknownFields;
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+        getUnknownFields() {
+      return this.unknownFields;
+    }
+    private GongGaoXinXiZhongXin(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      initFields();
+      int mutable_bitField0_ = 0;
+      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+          com.google.protobuf.UnknownFieldSet.newBuilder();
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!parseUnknownField(input, unknownFields,
+                                     extensionRegistry, tag)) {
+                done = true;
+              }
+              break;
+            }
+            case 10: {
+              com.google.protobuf.ByteString bs = input.readBytes();
+              bitField0_ |= 0x00000001;
+              date_ = bs;
+              break;
+            }
+            case 18: {
+              com.google.protobuf.ByteString bs = input.readBytes();
+              bitField0_ |= 0x00000002;
+              title_ = bs;
+              break;
+            }
+            case 26: {
+              com.google.protobuf.ByteString bs = input.readBytes();
+              bitField0_ |= 0x00000004;
+              context_ = bs;
+              break;
+            }
+            case 34: {
+              com.google.protobuf.ByteString bs = input.readBytes();
+              bitField0_ |= 0x00000008;
+              source_ = bs;
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e.getMessage()).setUnfinishedMessage(this);
+      } finally {
+        this.unknownFields = unknownFields.build();
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_GongGaoXinXiZhongXin_descriptor;
+    }
+
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_GongGaoXinXiZhongXin_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin.class, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin.Builder.class);
+    }
+
+    public static com.google.protobuf.Parser<GongGaoXinXiZhongXin> PARSER =
+        new com.google.protobuf.AbstractParser<GongGaoXinXiZhongXin>() {
+      public GongGaoXinXiZhongXin parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return new GongGaoXinXiZhongXin(input, extensionRegistry);
+      }
+    };
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<GongGaoXinXiZhongXin> getParserForType() {
+      return PARSER;
+    }
+
+    private int bitField0_;
+    public static final int DATE_FIELD_NUMBER = 1;
+    private java.lang.Object date_;
+    /**
+     * <code>optional string date = 1;</code>
+     *
+     * <pre>
+     * 公告日期
+     * </pre>
+     */
+    public boolean hasDate() {
+      return ((bitField0_ & 0x00000001) == 0x00000001);
+    }
+    /**
+     * <code>optional string date = 1;</code>
+     *
+     * <pre>
+     * 公告日期
+     * </pre>
+     */
+    public java.lang.String getDate() {
+      java.lang.Object ref = date_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          date_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>optional string date = 1;</code>
+     *
+     * <pre>
+     * 公告日期
+     * </pre>
+     */
+    public com.google.protobuf.ByteString
+        getDateBytes() {
+      java.lang.Object ref = date_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        date_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    public static final int TITLE_FIELD_NUMBER = 2;
+    private java.lang.Object title_;
+    /**
+     * <code>optional string title = 2;</code>
+     *
+     * <pre>
+     * 公告标题
+     * </pre>
+     */
+    public boolean hasTitle() {
+      return ((bitField0_ & 0x00000002) == 0x00000002);
+    }
+    /**
+     * <code>optional string title = 2;</code>
+     *
+     * <pre>
+     * 公告标题
+     * </pre>
+     */
+    public java.lang.String getTitle() {
+      java.lang.Object ref = title_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          title_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>optional string title = 2;</code>
+     *
+     * <pre>
+     * 公告标题
+     * </pre>
+     */
+    public com.google.protobuf.ByteString
+        getTitleBytes() {
+      java.lang.Object ref = title_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        title_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    public static final int CONTEXT_FIELD_NUMBER = 3;
+    private java.lang.Object context_;
+    /**
+     * <code>optional string context = 3;</code>
+     *
+     * <pre>
+     * 公告:pdf文件下载url 
+     * </pre>
+     */
+    public boolean hasContext() {
+      return ((bitField0_ & 0x00000004) == 0x00000004);
+    }
+    /**
+     * <code>optional string context = 3;</code>
+     *
+     * <pre>
+     * 公告:pdf文件下载url 
+     * </pre>
+     */
+    public java.lang.String getContext() {
+      java.lang.Object ref = context_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          context_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>optional string context = 3;</code>
+     *
+     * <pre>
+     * 公告:pdf文件下载url 
+     * </pre>
+     */
+    public com.google.protobuf.ByteString
+        getContextBytes() {
+      java.lang.Object ref = context_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        context_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    public static final int SOURCE_FIELD_NUMBER = 4;
+    private java.lang.Object source_;
+    /**
+     * <code>optional string source = 4;</code>
+     *
+     * <pre>
+     * 公告:类型		
+     * </pre>
+     */
+    public boolean hasSource() {
+      return ((bitField0_ & 0x00000008) == 0x00000008);
+    }
+    /**
+     * <code>optional string source = 4;</code>
+     *
+     * <pre>
+     * 公告:类型		
+     * </pre>
+     */
+    public java.lang.String getSource() {
+      java.lang.Object ref = source_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          source_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>optional string source = 4;</code>
+     *
+     * <pre>
+     * 公告:类型		
+     * </pre>
+     */
+    public com.google.protobuf.ByteString
+        getSourceBytes() {
+      java.lang.Object ref = source_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        source_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    private void initFields() {
+      date_ = "";
+      title_ = "";
+      context_ = "";
+      source_ = "";
+    }
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      getSerializedSize();
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        output.writeBytes(1, getDateBytes());
+      }
+      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+        output.writeBytes(2, getTitleBytes());
+      }
+      if (((bitField0_ & 0x00000004) == 0x00000004)) {
+        output.writeBytes(3, getContextBytes());
+      }
+      if (((bitField0_ & 0x00000008) == 0x00000008)) {
+        output.writeBytes(4, getSourceBytes());
+      }
+      getUnknownFields().writeTo(output);
+    }
+
+    private int memoizedSerializedSize = -1;
+    public int getSerializedSize() {
+      int size = memoizedSerializedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(1, getDateBytes());
+      }
+      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(2, getTitleBytes());
+      }
+      if (((bitField0_ & 0x00000004) == 0x00000004)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(3, getContextBytes());
+      }
+      if (((bitField0_ & 0x00000008) == 0x00000008)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(4, getSourceBytes());
+      }
+      size += getUnknownFields().getSerializedSize();
+      memoizedSerializedSize = size;
+      return size;
+    }
+
+    private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    protected java.lang.Object writeReplace()
+        throws java.io.ObjectStreamException {
+      return super.writeReplace();
+    }
+
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+
+    public static Builder newBuilder() { return Builder.create(); }
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder(com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin prototype) {
+      return newBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() { return newBuilder(this); }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code dzhyun.GongGaoXinXiZhongXin}
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:dzhyun.GongGaoXinXiZhongXin)
+        com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_GongGaoXinXiZhongXin_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_GongGaoXinXiZhongXin_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin.class, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin.Builder.class);
+      }
+
+      // Construct using com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -2827,23 +7717,23 @@ public final class DzhNewsInfo {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_XinWenXinXiZhongXinOutput_descriptor;
+        return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_GongGaoXinXiZhongXin_descriptor;
       }
 
-      public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput getDefaultInstanceForType() {
-        return com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput.getDefaultInstance();
+      public com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin getDefaultInstanceForType() {
+        return com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin.getDefaultInstance();
       }
 
-      public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput build() {
-        com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput result = buildPartial();
+      public com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin build() {
+        com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
         return result;
       }
 
-      public com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput buildPartial() {
-        com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput result = new com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput(this);
+      public com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin buildPartial() {
+        com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin result = new com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin(this);
         int from_bitField0_ = bitField0_;
         int to_bitField0_ = 0;
         if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
@@ -2868,16 +7758,16 @@ public final class DzhNewsInfo {
       }
 
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput) {
-          return mergeFrom((com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput)other);
+        if (other instanceof com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin) {
+          return mergeFrom((com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput other) {
-        if (other == com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin other) {
+        if (other == com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin.getDefaultInstance()) return this;
         if (other.hasDate()) {
           bitField0_ |= 0x00000001;
           date_ = other.date_;
@@ -2910,11 +7800,11 @@ public final class DzhNewsInfo {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput parsedMessage = null;
+        com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (com.dzhyun.proto.DzhNewsInfo.XinWenXinXiZhongXinOutput) e.getUnfinishedMessage();
+          parsedMessage = (com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin) e.getUnfinishedMessage();
           throw e;
         } finally {
           if (parsedMessage != null) {
@@ -2930,7 +7820,7 @@ public final class DzhNewsInfo {
        * <code>optional string date = 1;</code>
        *
        * <pre>
-       * 新闻公告日期
+       * 公告日期
        * </pre>
        */
       public boolean hasDate() {
@@ -2940,7 +7830,7 @@ public final class DzhNewsInfo {
        * <code>optional string date = 1;</code>
        *
        * <pre>
-       * 新闻公告日期
+       * 公告日期
        * </pre>
        */
       public java.lang.String getDate() {
@@ -2961,7 +7851,7 @@ public final class DzhNewsInfo {
        * <code>optional string date = 1;</code>
        *
        * <pre>
-       * 新闻公告日期
+       * 公告日期
        * </pre>
        */
       public com.google.protobuf.ByteString
@@ -2981,7 +7871,7 @@ public final class DzhNewsInfo {
        * <code>optional string date = 1;</code>
        *
        * <pre>
-       * 新闻公告日期
+       * 公告日期
        * </pre>
        */
       public Builder setDate(
@@ -2998,7 +7888,7 @@ public final class DzhNewsInfo {
        * <code>optional string date = 1;</code>
        *
        * <pre>
-       * 新闻公告日期
+       * 公告日期
        * </pre>
        */
       public Builder clearDate() {
@@ -3011,7 +7901,7 @@ public final class DzhNewsInfo {
        * <code>optional string date = 1;</code>
        *
        * <pre>
-       * 新闻公告日期
+       * 公告日期
        * </pre>
        */
       public Builder setDateBytes(
@@ -3030,7 +7920,7 @@ public final class DzhNewsInfo {
        * <code>optional string title = 2;</code>
        *
        * <pre>
-       * 新闻公告标题
+       * 公告标题
        * </pre>
        */
       public boolean hasTitle() {
@@ -3040,7 +7930,7 @@ public final class DzhNewsInfo {
        * <code>optional string title = 2;</code>
        *
        * <pre>
-       * 新闻公告标题
+       * 公告标题
        * </pre>
        */
       public java.lang.String getTitle() {
@@ -3061,7 +7951,7 @@ public final class DzhNewsInfo {
        * <code>optional string title = 2;</code>
        *
        * <pre>
-       * 新闻公告标题
+       * 公告标题
        * </pre>
        */
       public com.google.protobuf.ByteString
@@ -3081,7 +7971,7 @@ public final class DzhNewsInfo {
        * <code>optional string title = 2;</code>
        *
        * <pre>
-       * 新闻公告标题
+       * 公告标题
        * </pre>
        */
       public Builder setTitle(
@@ -3098,7 +7988,7 @@ public final class DzhNewsInfo {
        * <code>optional string title = 2;</code>
        *
        * <pre>
-       * 新闻公告标题
+       * 公告标题
        * </pre>
        */
       public Builder clearTitle() {
@@ -3111,7 +8001,7 @@ public final class DzhNewsInfo {
        * <code>optional string title = 2;</code>
        *
        * <pre>
-       * 新闻公告标题
+       * 公告标题
        * </pre>
        */
       public Builder setTitleBytes(
@@ -3130,7 +8020,7 @@ public final class DzhNewsInfo {
        * <code>optional string context = 3;</code>
        *
        * <pre>
-       * 新闻:内容压缩文件下载url; 公告:pdf文件下载url 
+       * 公告:pdf文件下载url 
        * </pre>
        */
       public boolean hasContext() {
@@ -3140,7 +8030,7 @@ public final class DzhNewsInfo {
        * <code>optional string context = 3;</code>
        *
        * <pre>
-       * 新闻:内容压缩文件下载url; 公告:pdf文件下载url 
+       * 公告:pdf文件下载url 
        * </pre>
        */
       public java.lang.String getContext() {
@@ -3161,7 +8051,7 @@ public final class DzhNewsInfo {
        * <code>optional string context = 3;</code>
        *
        * <pre>
-       * 新闻:内容压缩文件下载url; 公告:pdf文件下载url 
+       * 公告:pdf文件下载url 
        * </pre>
        */
       public com.google.protobuf.ByteString
@@ -3181,7 +8071,7 @@ public final class DzhNewsInfo {
        * <code>optional string context = 3;</code>
        *
        * <pre>
-       * 新闻:内容压缩文件下载url; 公告:pdf文件下载url 
+       * 公告:pdf文件下载url 
        * </pre>
        */
       public Builder setContext(
@@ -3198,7 +8088,7 @@ public final class DzhNewsInfo {
        * <code>optional string context = 3;</code>
        *
        * <pre>
-       * 新闻:内容压缩文件下载url; 公告:pdf文件下载url 
+       * 公告:pdf文件下载url 
        * </pre>
        */
       public Builder clearContext() {
@@ -3211,7 +8101,7 @@ public final class DzhNewsInfo {
        * <code>optional string context = 3;</code>
        *
        * <pre>
-       * 新闻:内容压缩文件下载url; 公告:pdf文件下载url 
+       * 公告:pdf文件下载url 
        * </pre>
        */
       public Builder setContextBytes(
@@ -3230,7 +8120,7 @@ public final class DzhNewsInfo {
        * <code>optional string source = 4;</code>
        *
        * <pre>
-       * 新闻:来源; 公告:类型		
+       * 公告:类型		
        * </pre>
        */
       public boolean hasSource() {
@@ -3240,7 +8130,7 @@ public final class DzhNewsInfo {
        * <code>optional string source = 4;</code>
        *
        * <pre>
-       * 新闻:来源; 公告:类型		
+       * 公告:类型		
        * </pre>
        */
       public java.lang.String getSource() {
@@ -3261,7 +8151,7 @@ public final class DzhNewsInfo {
        * <code>optional string source = 4;</code>
        *
        * <pre>
-       * 新闻:来源; 公告:类型		
+       * 公告:类型		
        * </pre>
        */
       public com.google.protobuf.ByteString
@@ -3281,7 +8171,7 @@ public final class DzhNewsInfo {
        * <code>optional string source = 4;</code>
        *
        * <pre>
-       * 新闻:来源; 公告:类型		
+       * 公告:类型		
        * </pre>
        */
       public Builder setSource(
@@ -3298,7 +8188,7 @@ public final class DzhNewsInfo {
        * <code>optional string source = 4;</code>
        *
        * <pre>
-       * 新闻:来源; 公告:类型		
+       * 公告:类型		
        * </pre>
        */
       public Builder clearSource() {
@@ -3311,7 +8201,7 @@ public final class DzhNewsInfo {
        * <code>optional string source = 4;</code>
        *
        * <pre>
-       * 新闻:来源; 公告:类型		
+       * 公告:类型		
        * </pre>
        */
       public Builder setSourceBytes(
@@ -3325,15 +8215,820 @@ public final class DzhNewsInfo {
         return this;
       }
 
-      // @@protoc_insertion_point(builder_scope:dzhyun.XinWenXinXiZhongXinOutput)
+      // @@protoc_insertion_point(builder_scope:dzhyun.GongGaoXinXiZhongXin)
     }
 
     static {
-      defaultInstance = new XinWenXinXiZhongXinOutput(true);
+      defaultInstance = new GongGaoXinXiZhongXin(true);
       defaultInstance.initFields();
     }
 
-    // @@protoc_insertion_point(class_scope:dzhyun.XinWenXinXiZhongXinOutput)
+    // @@protoc_insertion_point(class_scope:dzhyun.GongGaoXinXiZhongXin)
+  }
+
+  public interface GongGaoXinXiZhongXinOutputOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:dzhyun.GongGaoXinXiZhongXinOutput)
+      com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>required int64 TotalCount = 1;</code>
+     *
+     * <pre>
+     * 服务器缓存总数量
+     * </pre>
+     */
+    boolean hasTotalCount();
+    /**
+     * <code>required int64 TotalCount = 1;</code>
+     *
+     * <pre>
+     * 服务器缓存总数量
+     * </pre>
+     */
+    long getTotalCount();
+
+    /**
+     * <code>repeated .dzhyun.GongGaoXinXiZhongXin data = 2;</code>
+     */
+    java.util.List<com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin> 
+        getDataList();
+    /**
+     * <code>repeated .dzhyun.GongGaoXinXiZhongXin data = 2;</code>
+     */
+    com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin getData(int index);
+    /**
+     * <code>repeated .dzhyun.GongGaoXinXiZhongXin data = 2;</code>
+     */
+    int getDataCount();
+    /**
+     * <code>repeated .dzhyun.GongGaoXinXiZhongXin data = 2;</code>
+     */
+    java.util.List<? extends com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOrBuilder> 
+        getDataOrBuilderList();
+    /**
+     * <code>repeated .dzhyun.GongGaoXinXiZhongXin data = 2;</code>
+     */
+    com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOrBuilder getDataOrBuilder(
+        int index);
+  }
+  /**
+   * Protobuf type {@code dzhyun.GongGaoXinXiZhongXinOutput}
+   *
+   * <pre>
+   * 公告中心数据 
+   * </pre>
+   */
+  public static final class GongGaoXinXiZhongXinOutput extends
+      com.google.protobuf.GeneratedMessage implements
+      // @@protoc_insertion_point(message_implements:dzhyun.GongGaoXinXiZhongXinOutput)
+      GongGaoXinXiZhongXinOutputOrBuilder {
+    // Use GongGaoXinXiZhongXinOutput.newBuilder() to construct.
+    private GongGaoXinXiZhongXinOutput(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      super(builder);
+      this.unknownFields = builder.getUnknownFields();
+    }
+    private GongGaoXinXiZhongXinOutput(boolean noInit) { this.unknownFields = com.google.protobuf.UnknownFieldSet.getDefaultInstance(); }
+
+    private static final GongGaoXinXiZhongXinOutput defaultInstance;
+    public static GongGaoXinXiZhongXinOutput getDefaultInstance() {
+      return defaultInstance;
+    }
+
+    public GongGaoXinXiZhongXinOutput getDefaultInstanceForType() {
+      return defaultInstance;
+    }
+
+    private final com.google.protobuf.UnknownFieldSet unknownFields;
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+        getUnknownFields() {
+      return this.unknownFields;
+    }
+    private GongGaoXinXiZhongXinOutput(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      initFields();
+      int mutable_bitField0_ = 0;
+      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+          com.google.protobuf.UnknownFieldSet.newBuilder();
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!parseUnknownField(input, unknownFields,
+                                     extensionRegistry, tag)) {
+                done = true;
+              }
+              break;
+            }
+            case 8: {
+              bitField0_ |= 0x00000001;
+              totalCount_ = input.readInt64();
+              break;
+            }
+            case 18: {
+              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+                data_ = new java.util.ArrayList<com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin>();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              data_.add(input.readMessage(com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin.PARSER, extensionRegistry));
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e.getMessage()).setUnfinishedMessage(this);
+      } finally {
+        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+          data_ = java.util.Collections.unmodifiableList(data_);
+        }
+        this.unknownFields = unknownFields.build();
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_GongGaoXinXiZhongXinOutput_descriptor;
+    }
+
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_GongGaoXinXiZhongXinOutput_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput.class, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput.Builder.class);
+    }
+
+    public static com.google.protobuf.Parser<GongGaoXinXiZhongXinOutput> PARSER =
+        new com.google.protobuf.AbstractParser<GongGaoXinXiZhongXinOutput>() {
+      public GongGaoXinXiZhongXinOutput parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return new GongGaoXinXiZhongXinOutput(input, extensionRegistry);
+      }
+    };
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<GongGaoXinXiZhongXinOutput> getParserForType() {
+      return PARSER;
+    }
+
+    private int bitField0_;
+    public static final int TOTALCOUNT_FIELD_NUMBER = 1;
+    private long totalCount_;
+    /**
+     * <code>required int64 TotalCount = 1;</code>
+     *
+     * <pre>
+     * 服务器缓存总数量
+     * </pre>
+     */
+    public boolean hasTotalCount() {
+      return ((bitField0_ & 0x00000001) == 0x00000001);
+    }
+    /**
+     * <code>required int64 TotalCount = 1;</code>
+     *
+     * <pre>
+     * 服务器缓存总数量
+     * </pre>
+     */
+    public long getTotalCount() {
+      return totalCount_;
+    }
+
+    public static final int DATA_FIELD_NUMBER = 2;
+    private java.util.List<com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin> data_;
+    /**
+     * <code>repeated .dzhyun.GongGaoXinXiZhongXin data = 2;</code>
+     */
+    public java.util.List<com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin> getDataList() {
+      return data_;
+    }
+    /**
+     * <code>repeated .dzhyun.GongGaoXinXiZhongXin data = 2;</code>
+     */
+    public java.util.List<? extends com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOrBuilder> 
+        getDataOrBuilderList() {
+      return data_;
+    }
+    /**
+     * <code>repeated .dzhyun.GongGaoXinXiZhongXin data = 2;</code>
+     */
+    public int getDataCount() {
+      return data_.size();
+    }
+    /**
+     * <code>repeated .dzhyun.GongGaoXinXiZhongXin data = 2;</code>
+     */
+    public com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin getData(int index) {
+      return data_.get(index);
+    }
+    /**
+     * <code>repeated .dzhyun.GongGaoXinXiZhongXin data = 2;</code>
+     */
+    public com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOrBuilder getDataOrBuilder(
+        int index) {
+      return data_.get(index);
+    }
+
+    private void initFields() {
+      totalCount_ = 0L;
+      data_ = java.util.Collections.emptyList();
+    }
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      if (!hasTotalCount()) {
+        memoizedIsInitialized = 0;
+        return false;
+      }
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      getSerializedSize();
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        output.writeInt64(1, totalCount_);
+      }
+      for (int i = 0; i < data_.size(); i++) {
+        output.writeMessage(2, data_.get(i));
+      }
+      getUnknownFields().writeTo(output);
+    }
+
+    private int memoizedSerializedSize = -1;
+    public int getSerializedSize() {
+      int size = memoizedSerializedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(1, totalCount_);
+      }
+      for (int i = 0; i < data_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(2, data_.get(i));
+      }
+      size += getUnknownFields().getSerializedSize();
+      memoizedSerializedSize = size;
+      return size;
+    }
+
+    private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    protected java.lang.Object writeReplace()
+        throws java.io.ObjectStreamException {
+      return super.writeReplace();
+    }
+
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+
+    public static Builder newBuilder() { return Builder.create(); }
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder(com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput prototype) {
+      return newBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() { return newBuilder(this); }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code dzhyun.GongGaoXinXiZhongXinOutput}
+     *
+     * <pre>
+     * 公告中心数据 
+     * </pre>
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:dzhyun.GongGaoXinXiZhongXinOutput)
+        com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutputOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_GongGaoXinXiZhongXinOutput_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_GongGaoXinXiZhongXinOutput_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput.class, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput.Builder.class);
+      }
+
+      // Construct using com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          getDataFieldBuilder();
+        }
+      }
+      private static Builder create() {
+        return new Builder();
+      }
+
+      public Builder clear() {
+        super.clear();
+        totalCount_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000001);
+        if (dataBuilder_ == null) {
+          data_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000002);
+        } else {
+          dataBuilder_.clear();
+        }
+        return this;
+      }
+
+      public Builder clone() {
+        return create().mergeFrom(buildPartial());
+      }
+
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return com.dzhyun.proto.DzhNewsInfo.internal_static_dzhyun_GongGaoXinXiZhongXinOutput_descriptor;
+      }
+
+      public com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput getDefaultInstanceForType() {
+        return com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput.getDefaultInstance();
+      }
+
+      public com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput build() {
+        com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      public com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput buildPartial() {
+        com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput result = new com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput(this);
+        int from_bitField0_ = bitField0_;
+        int to_bitField0_ = 0;
+        if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
+          to_bitField0_ |= 0x00000001;
+        }
+        result.totalCount_ = totalCount_;
+        if (dataBuilder_ == null) {
+          if (((bitField0_ & 0x00000002) == 0x00000002)) {
+            data_ = java.util.Collections.unmodifiableList(data_);
+            bitField0_ = (bitField0_ & ~0x00000002);
+          }
+          result.data_ = data_;
+        } else {
+          result.data_ = dataBuilder_.build();
+        }
+        result.bitField0_ = to_bitField0_;
+        onBuilt();
+        return result;
+      }
+
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput) {
+          return mergeFrom((com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput other) {
+        if (other == com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput.getDefaultInstance()) return this;
+        if (other.hasTotalCount()) {
+          setTotalCount(other.getTotalCount());
+        }
+        if (dataBuilder_ == null) {
+          if (!other.data_.isEmpty()) {
+            if (data_.isEmpty()) {
+              data_ = other.data_;
+              bitField0_ = (bitField0_ & ~0x00000002);
+            } else {
+              ensureDataIsMutable();
+              data_.addAll(other.data_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.data_.isEmpty()) {
+            if (dataBuilder_.isEmpty()) {
+              dataBuilder_.dispose();
+              dataBuilder_ = null;
+              data_ = other.data_;
+              bitField0_ = (bitField0_ & ~0x00000002);
+              dataBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getDataFieldBuilder() : null;
+            } else {
+              dataBuilder_.addAllMessages(other.data_);
+            }
+          }
+        }
+        this.mergeUnknownFields(other.getUnknownFields());
+        return this;
+      }
+
+      public final boolean isInitialized() {
+        if (!hasTotalCount()) {
+          
+          return false;
+        }
+        return true;
+      }
+
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOutput) e.getUnfinishedMessage();
+          throw e;
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+      private int bitField0_;
+
+      private long totalCount_ ;
+      /**
+       * <code>required int64 TotalCount = 1;</code>
+       *
+       * <pre>
+       * 服务器缓存总数量
+       * </pre>
+       */
+      public boolean hasTotalCount() {
+        return ((bitField0_ & 0x00000001) == 0x00000001);
+      }
+      /**
+       * <code>required int64 TotalCount = 1;</code>
+       *
+       * <pre>
+       * 服务器缓存总数量
+       * </pre>
+       */
+      public long getTotalCount() {
+        return totalCount_;
+      }
+      /**
+       * <code>required int64 TotalCount = 1;</code>
+       *
+       * <pre>
+       * 服务器缓存总数量
+       * </pre>
+       */
+      public Builder setTotalCount(long value) {
+        bitField0_ |= 0x00000001;
+        totalCount_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required int64 TotalCount = 1;</code>
+       *
+       * <pre>
+       * 服务器缓存总数量
+       * </pre>
+       */
+      public Builder clearTotalCount() {
+        bitField0_ = (bitField0_ & ~0x00000001);
+        totalCount_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private java.util.List<com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin> data_ =
+        java.util.Collections.emptyList();
+      private void ensureDataIsMutable() {
+        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
+          data_ = new java.util.ArrayList<com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin>(data_);
+          bitField0_ |= 0x00000002;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin.Builder, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOrBuilder> dataBuilder_;
+
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXiZhongXin data = 2;</code>
+       */
+      public java.util.List<com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin> getDataList() {
+        if (dataBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(data_);
+        } else {
+          return dataBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXiZhongXin data = 2;</code>
+       */
+      public int getDataCount() {
+        if (dataBuilder_ == null) {
+          return data_.size();
+        } else {
+          return dataBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXiZhongXin data = 2;</code>
+       */
+      public com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin getData(int index) {
+        if (dataBuilder_ == null) {
+          return data_.get(index);
+        } else {
+          return dataBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXiZhongXin data = 2;</code>
+       */
+      public Builder setData(
+          int index, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin value) {
+        if (dataBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureDataIsMutable();
+          data_.set(index, value);
+          onChanged();
+        } else {
+          dataBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXiZhongXin data = 2;</code>
+       */
+      public Builder setData(
+          int index, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin.Builder builderForValue) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          data_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          dataBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXiZhongXin data = 2;</code>
+       */
+      public Builder addData(com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin value) {
+        if (dataBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureDataIsMutable();
+          data_.add(value);
+          onChanged();
+        } else {
+          dataBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXiZhongXin data = 2;</code>
+       */
+      public Builder addData(
+          int index, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin value) {
+        if (dataBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureDataIsMutable();
+          data_.add(index, value);
+          onChanged();
+        } else {
+          dataBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXiZhongXin data = 2;</code>
+       */
+      public Builder addData(
+          com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin.Builder builderForValue) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          data_.add(builderForValue.build());
+          onChanged();
+        } else {
+          dataBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXiZhongXin data = 2;</code>
+       */
+      public Builder addData(
+          int index, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin.Builder builderForValue) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          data_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          dataBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXiZhongXin data = 2;</code>
+       */
+      public Builder addAllData(
+          java.lang.Iterable<? extends com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin> values) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, data_);
+          onChanged();
+        } else {
+          dataBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXiZhongXin data = 2;</code>
+       */
+      public Builder clearData() {
+        if (dataBuilder_ == null) {
+          data_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000002);
+          onChanged();
+        } else {
+          dataBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXiZhongXin data = 2;</code>
+       */
+      public Builder removeData(int index) {
+        if (dataBuilder_ == null) {
+          ensureDataIsMutable();
+          data_.remove(index);
+          onChanged();
+        } else {
+          dataBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXiZhongXin data = 2;</code>
+       */
+      public com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin.Builder getDataBuilder(
+          int index) {
+        return getDataFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXiZhongXin data = 2;</code>
+       */
+      public com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOrBuilder getDataOrBuilder(
+          int index) {
+        if (dataBuilder_ == null) {
+          return data_.get(index);  } else {
+          return dataBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXiZhongXin data = 2;</code>
+       */
+      public java.util.List<? extends com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOrBuilder> 
+           getDataOrBuilderList() {
+        if (dataBuilder_ != null) {
+          return dataBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(data_);
+        }
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXiZhongXin data = 2;</code>
+       */
+      public com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin.Builder addDataBuilder() {
+        return getDataFieldBuilder().addBuilder(
+            com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXiZhongXin data = 2;</code>
+       */
+      public com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin.Builder addDataBuilder(
+          int index) {
+        return getDataFieldBuilder().addBuilder(
+            index, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dzhyun.GongGaoXinXiZhongXin data = 2;</code>
+       */
+      public java.util.List<com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin.Builder> 
+           getDataBuilderList() {
+        return getDataFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin.Builder, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOrBuilder> 
+          getDataFieldBuilder() {
+        if (dataBuilder_ == null) {
+          dataBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXin.Builder, com.dzhyun.proto.DzhNewsInfo.GongGaoXinXiZhongXinOrBuilder>(
+                  data_,
+                  ((bitField0_ & 0x00000002) == 0x00000002),
+                  getParentForChildren(),
+                  isClean());
+          data_ = null;
+        }
+        return dataBuilder_;
+      }
+
+      // @@protoc_insertion_point(builder_scope:dzhyun.GongGaoXinXiZhongXinOutput)
+    }
+
+    static {
+      defaultInstance = new GongGaoXinXiZhongXinOutput(true);
+      defaultInstance.initFields();
+    }
+
+    // @@protoc_insertion_point(class_scope:dzhyun.GongGaoXinXiZhongXinOutput)
   }
 
   private static final com.google.protobuf.Descriptors.Descriptor
@@ -3342,15 +9037,45 @@ public final class DzhNewsInfo {
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dzhyun_NewsInfoValue_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_dzhyun_XinWenXinXiEx_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_dzhyun_XinWenXinXiEx_fieldAccessorTable;
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dzhyun_XinWenXinXiOutput_descriptor;
   private static
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dzhyun_XinWenXinXiOutput_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_dzhyun_XinWenXinXiZhongXin_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_dzhyun_XinWenXinXiZhongXin_fieldAccessorTable;
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dzhyun_XinWenXinXiZhongXinOutput_descriptor;
   private static
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dzhyun_XinWenXinXiZhongXinOutput_fieldAccessorTable;
+  private static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_dzhyun_GongGaoXinXi_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_dzhyun_GongGaoXinXi_fieldAccessorTable;
+  private static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_dzhyun_GongGaoXinXiOutput_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_dzhyun_GongGaoXinXiOutput_fieldAccessorTable;
+  private static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_dzhyun_GongGaoXinXiZhongXin_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_dzhyun_GongGaoXinXiZhongXin_fieldAccessorTable;
+  private static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_dzhyun_GongGaoXinXiZhongXinOutput_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_dzhyun_GongGaoXinXiZhongXinOutput_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -3362,12 +9087,25 @@ public final class DzhNewsInfo {
     java.lang.String[] descriptorData = {
       "\n\021dzhNewsInfo.proto\022\006dzhyun\"L\n\rNewsInfoV" +
       "alue\022\013\n\003ver\030\001 \002(\t\022\013\n\003act\030\002 \002(\r\022\016\n\006newsID" +
-      "\030\003 \002(\004\022\021\n\tnewsTitle\030\004 \001(\t\"^\n\021XinWenXinXi" +
-      "Output\022\013\n\003Obj\030\001 \002(\t\022\014\n\004date\030\002 \001(\t\022\r\n\005tit" +
-      "le\030\003 \001(\t\022\017\n\007context\030\004 \001(\t\022\016\n\006source\030\005 \001(" +
-      "\t\"Y\n\031XinWenXinXiZhongXinOutput\022\014\n\004date\030\001" +
-      " \001(\t\022\r\n\005title\030\002 \001(\t\022\017\n\007context\030\003 \001(\t\022\016\n\006" +
-      "source\030\004 \001(\tB\022\n\020com.dzhyun.proto"
+      "\030\003 \002(\004\022\021\n\tnewsTitle\030\004 \001(\t\"M\n\rXinWenXinXi" +
+      "Ex\022\016\n\006source\030\001 \001(\t\022\014\n\004date\030\002 \001(\t\022\r\n\005titl" +
+      "e\030\003 \001(\t\022\017\n\007context\030\004 \001(\t\"Y\n\021XinWenXinXiO" +
+      "utput\022\013\n\003Obj\030\001 \002(\t\022\022\n\nTotalCount\030\002 \002(\003\022#" +
+      "\n\004Data\030\003 \003(\0132\025.dzhyun.XinWenXinXiEx\"S\n\023X" +
+      "inWenXinXiZhongXin\022\014\n\004date\030\001 \001(\t\022\r\n\005titl" +
+      "e\030\002 \001(\t\022\017\n\007context\030\003 \001(\t\022\016\n\006source\030\004 \001(\t" +
+      "\"Z\n\031XinWenXinXiZhongXinOutput\022\022\n\nTotalCo",
+      "unt\030\001 \002(\003\022)\n\004data\030\002 \003(\0132\033.dzhyun.XinWenX" +
+      "inXiZhongXin\"L\n\014GongGaoXinXi\022\016\n\006source\030\001" +
+      " \001(\t\022\014\n\004date\030\002 \001(\t\022\r\n\005title\030\003 \001(\t\022\017\n\007con" +
+      "text\030\004 \001(\t\"Y\n\022GongGaoXinXiOutput\022\013\n\003Obj\030" +
+      "\001 \002(\t\022\022\n\nTotalCount\030\002 \002(\003\022\"\n\004Data\030\003 \003(\0132" +
+      "\024.dzhyun.GongGaoXinXi\"T\n\024GongGaoXinXiZho" +
+      "ngXin\022\014\n\004date\030\001 \001(\t\022\r\n\005title\030\002 \001(\t\022\017\n\007co" +
+      "ntext\030\003 \001(\t\022\016\n\006source\030\004 \001(\t\"\\\n\032GongGaoXi" +
+      "nXiZhongXinOutput\022\022\n\nTotalCount\030\001 \002(\003\022*\n" +
+      "\004data\030\002 \003(\0132\034.dzhyun.GongGaoXinXiZhongXi",
+      "nB\022\n\020com.dzhyun.proto"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3387,18 +9125,54 @@ public final class DzhNewsInfo {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dzhyun_NewsInfoValue_descriptor,
         new java.lang.String[] { "Ver", "Act", "NewsID", "NewsTitle", });
-    internal_static_dzhyun_XinWenXinXiOutput_descriptor =
+    internal_static_dzhyun_XinWenXinXiEx_descriptor =
       getDescriptor().getMessageTypes().get(1);
+    internal_static_dzhyun_XinWenXinXiEx_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_dzhyun_XinWenXinXiEx_descriptor,
+        new java.lang.String[] { "Source", "Date", "Title", "Context", });
+    internal_static_dzhyun_XinWenXinXiOutput_descriptor =
+      getDescriptor().getMessageTypes().get(2);
     internal_static_dzhyun_XinWenXinXiOutput_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dzhyun_XinWenXinXiOutput_descriptor,
-        new java.lang.String[] { "Obj", "Date", "Title", "Context", "Source", });
+        new java.lang.String[] { "Obj", "TotalCount", "Data", });
+    internal_static_dzhyun_XinWenXinXiZhongXin_descriptor =
+      getDescriptor().getMessageTypes().get(3);
+    internal_static_dzhyun_XinWenXinXiZhongXin_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_dzhyun_XinWenXinXiZhongXin_descriptor,
+        new java.lang.String[] { "Date", "Title", "Context", "Source", });
     internal_static_dzhyun_XinWenXinXiZhongXinOutput_descriptor =
-      getDescriptor().getMessageTypes().get(2);
+      getDescriptor().getMessageTypes().get(4);
     internal_static_dzhyun_XinWenXinXiZhongXinOutput_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dzhyun_XinWenXinXiZhongXinOutput_descriptor,
+        new java.lang.String[] { "TotalCount", "Data", });
+    internal_static_dzhyun_GongGaoXinXi_descriptor =
+      getDescriptor().getMessageTypes().get(5);
+    internal_static_dzhyun_GongGaoXinXi_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_dzhyun_GongGaoXinXi_descriptor,
+        new java.lang.String[] { "Source", "Date", "Title", "Context", });
+    internal_static_dzhyun_GongGaoXinXiOutput_descriptor =
+      getDescriptor().getMessageTypes().get(6);
+    internal_static_dzhyun_GongGaoXinXiOutput_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_dzhyun_GongGaoXinXiOutput_descriptor,
+        new java.lang.String[] { "Obj", "TotalCount", "Data", });
+    internal_static_dzhyun_GongGaoXinXiZhongXin_descriptor =
+      getDescriptor().getMessageTypes().get(7);
+    internal_static_dzhyun_GongGaoXinXiZhongXin_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_dzhyun_GongGaoXinXiZhongXin_descriptor,
         new java.lang.String[] { "Date", "Title", "Context", "Source", });
+    internal_static_dzhyun_GongGaoXinXiZhongXinOutput_descriptor =
+      getDescriptor().getMessageTypes().get(8);
+    internal_static_dzhyun_GongGaoXinXiZhongXinOutput_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_dzhyun_GongGaoXinXiZhongXinOutput_descriptor,
+        new java.lang.String[] { "TotalCount", "Data", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

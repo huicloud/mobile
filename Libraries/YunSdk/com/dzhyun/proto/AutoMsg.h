@@ -8,6 +8,86 @@
 #import "java/lang/Enum.h"
 
 @class ComDzhyunProtoAutoMsg_MSG_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput;
+@class ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput;
+@class ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput;
+@class ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput;
+@class ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput;
+@class ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput;
+@class ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput;
+@class ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput;
+@class ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut;
+@class ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput;
+@class ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput;
+@class ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut;
+@class ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput;
+@class ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput;
+@class ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut;
+@class ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut;
+@class ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GlcOutPut;
+@class ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GsgkOutput;
+@class ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10HydwOutPut;
+@class ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut;
+@class ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut;
+@class ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut;
+@class ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut;
+@class ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput;
+@class ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut;
+@class ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput;
+@class ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10ZygcOutput;
+@class ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut;
+@class ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_Builder;
 @class ComDzhyunProtoCldForecastsShuJu_GeGuTouZiYanBaoOutPut;
 @class ComDzhyunProtoCldForecastsShuJu_GeGuTouZiYanBaoOutPut_Builder;
 @class ComDzhyunProtoCldForecastsShuJu_GeGuYeJiYuCeOutPut;
@@ -22,28 +102,20 @@
 @class ComDzhyunProtoDzhBlock_BlockPropOutput_Builder;
 @class ComDzhyunProtoDzhMessageChSubtype_MessageChannelSubtype;
 @class ComDzhyunProtoDzhMessageChSubtype_MessageChannelSubtype_Builder;
+@class ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput;
+@class ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_Builder;
+@class ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput;
+@class ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_Builder;
 @class ComDzhyunProtoDzhNewsInfo_NewsInfoValue;
 @class ComDzhyunProtoDzhNewsInfo_NewsInfoValue_Builder;
 @class ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput;
 @class ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput_Builder;
 @class ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput;
 @class ComDzhyunProtoDzhNewsInfo_XinWenXinXiZhongXinOutput_Builder;
-@class ComDzhyunProtoDzhapp_AccOpResponse;
-@class ComDzhyunProtoDzhapp_AccOpResponse_Builder;
-@class ComDzhyunProtoDzhapp_AppInfo;
-@class ComDzhyunProtoDzhapp_AppInfo_Builder;
-@class ComDzhyunProtoDzhapp_AppKey;
-@class ComDzhyunProtoDzhapp_AppKey_Builder;
-@class ComDzhyunProtoDzhapp_AppServiceAuth;
-@class ComDzhyunProtoDzhapp_AppServiceAuth_Builder;
-@class ComDzhyunProtoDzhapp_AppValue;
-@class ComDzhyunProtoDzhapp_AppValue_Builder;
-@class ComDzhyunProtoDzhapp_ServiceAuth;
-@class ComDzhyunProtoDzhapp_ServiceAuth_Builder;
-@class ComDzhyunProtoDzhapp_TokenAuth;
-@class ComDzhyunProtoDzhapp_TokenAuth_Builder;
 @class ComDzhyunProtoDzhdstoken_DSToken;
 @class ComDzhyunProtoDzhdstoken_DSToken_Builder;
+@class ComDzhyunProtoDzhflux_FluxValue;
+@class ComDzhyunProtoDzhflux_FluxValue_Builder;
 @class ComDzhyunProtoDzhmsg_MsgGetOutput;
 @class ComDzhyunProtoDzhmsg_MsgGetOutput_Builder;
 @class ComDzhyunProtoDzhmsg_MsgPutOutput;
@@ -60,8 +132,6 @@
 @class ComDzhyunProtoDzhoutput_QuoteTickSingle_Builder;
 @class ComDzhyunProtoDzhpbtable_Table;
 @class ComDzhyunProtoDzhpbtable_Table_Builder;
-@class ComDzhyunProtoDzhpriv_Privilege;
-@class ComDzhyunProtoDzhpriv_Privilege_Builder;
 @class ComDzhyunProtoDzhselfstock_SelfStockGetOutput;
 @class ComDzhyunProtoDzhselfstock_SelfStockGetOutput_Builder;
 @class ComDzhyunProtoDzhselfstock_SelfStockPutOutput;
@@ -79,31 +149,15 @@
 @class ComDzhyunProtoDzhyunBlockstatistics_TongJiApp;
 @class ComDzhyunProtoDzhyunBlockstatistics_TongJiApp_Builder;
 @class ComDzhyunProtoDzhyunDxspirit_DXSpirit;
+@class ComDzhyunProtoDzhyunDxspirit_DXSpiritStat;
+@class ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder;
 @class ComDzhyunProtoDzhyunDxspirit_DXSpirit_Builder;
-@class ComDzhyunProtoDzhyunF10_F10CwtsXjllbzyOutput;
-@class ComDzhyunProtoDzhyunF10_F10CwtsXjllbzyOutput_Builder;
-@class ComDzhyunProtoDzhyunF10_F10CwtsZycwzbOutput;
-@class ComDzhyunProtoDzhyunF10_F10CwtsZycwzbOutput_Builder;
-@class ComDzhyunProtoDzhyunF10_F10GbfhFhkgOutput;
-@class ComDzhyunProtoDzhyunF10_F10GbfhFhkgOutput_Builder;
-@class ComDzhyunProtoDzhyunF10_F10GbfhGbjgOutput;
-@class ComDzhyunProtoDzhyunF10_F10GbfhGbjgOutput_Builder;
-@class ComDzhyunProtoDzhyunF10_F10GdjcGdhsOutput;
-@class ComDzhyunProtoDzhyunF10_F10GdjcGdhsOutput_Builder;
-@class ComDzhyunProtoDzhyunF10_F10GdjcSdgdOutput;
-@class ComDzhyunProtoDzhyunF10_F10GdjcSdgdOutput_Builder;
-@class ComDzhyunProtoDzhyunF10_F10GdjcSdltgdOutput;
-@class ComDzhyunProtoDzhyunF10_F10GdjcSdltgdOutput_Builder;
-@class ComDzhyunProtoDzhyunF10_F10GsgkOutput;
-@class ComDzhyunProtoDzhyunF10_F10GsgkOutput_Builder;
-@class ComDzhyunProtoDzhyunF10_F10ZxjbDjdcwzbOutput;
-@class ComDzhyunProtoDzhyunF10_F10ZxjbDjdcwzbOutput_Builder;
-@class ComDzhyunProtoDzhyunF10_F10ZxjbdjdlebOutput;
-@class ComDzhyunProtoDzhyunF10_F10ZxjbdjdlebOutput_Builder;
 @class ComDzhyunProtoDzhyunFenjijijin_FenJiJiJin;
 @class ComDzhyunProtoDzhyunFenjijijin_FenJiJiJin_Builder;
 @class ComDzhyunProtoDzhyunJianpanbao_JianPanBaoShuChu;
 @class ComDzhyunProtoDzhyunJianpanbao_JianPanBaoShuChu_Builder;
+@class ComDzhyunProtoDzhyunPaixu_PaiMing;
+@class ComDzhyunProtoDzhyunPaixu_PaiMing_Builder;
 @class ComDzhyunProtoDzhyunPaixu_PaiXu;
 @class ComDzhyunProtoDzhyunPaixu_PaiXu_Builder;
 @class ComDzhyunProtoDzhyunStkdata_StkData;
@@ -132,6 +186,24 @@
 @class ComGoogleProtobufExtensionRegistry;
 @class DzhyunCldEventNewsShuJu_EventNews;
 @class DzhyunCldEventNewsShuJu_EventNews_Builder;
+@class DzhyunDzhapp_AccOpResponse;
+@class DzhyunDzhapp_AccOpResponse_Builder;
+@class DzhyunDzhapp_AppInfo;
+@class DzhyunDzhapp_AppInfo_Builder;
+@class DzhyunDzhapp_AppKey;
+@class DzhyunDzhapp_AppKey_Builder;
+@class DzhyunDzhapp_AppServiceAuth;
+@class DzhyunDzhapp_AppServiceAuth_Builder;
+@class DzhyunDzhapp_AppValue;
+@class DzhyunDzhapp_AppValue_Builder;
+@class DzhyunDzhapp_ServiceAuth;
+@class DzhyunDzhapp_ServiceAuth_Builder;
+@class DzhyunDzhapp_TokenAuth;
+@class DzhyunDzhapp_TokenAuth_Builder;
+@class DzhyunDzhpriv_Privilege;
+@class DzhyunDzhpriv_Privilege_Builder;
+@class DzhyunDzhyunAuthTable_ServiceAuthConsts;
+@class DzhyunDzhyunAuthTable_ServiceAuthConsts_Builder;
 @protocol JavaLangIterable;
 @protocol JavaUtilList;
 
@@ -200,6 +272,42 @@ typedef NS_ENUM(NSUInteger, ComDzhyunProtoAutoMsg_EnumID) {
   ComDzhyunProtoAutoMsg_EnumID_IDDXSpirit = 61,
   ComDzhyunProtoAutoMsg_EnumID_IDStkPoolOuput = 62,
   ComDzhyunProtoAutoMsg_EnumID_IDEventNews = 63,
+  ComDzhyunProtoAutoMsg_EnumID_IDGongGaoXinXiOutput = 64,
+  ComDzhyunProtoAutoMsg_EnumID_IDGongGaoXinXiZhongXinOutput = 65,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10CpbdZxzbOutput = 66,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10CpbdKpqkOutput = 67,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10CpbdCjhbOutput = 68,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10CwtsLrfpbzyOutput = 69,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10CwtsZcfzbzyOutput = 70,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10ZygcOutput = 71,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10DstxJjltOutput = 72,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10DstxRzrqOutput = 73,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10DstxJgccOutput = 74,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10DstxGdzjcOutput = 75,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10DstxDzjyOutput = 76,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10DstxCgbdqkOutput = 77,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10GlcOutPut = 78,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10GlcNdbcqkOutPut = 79,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10ZxjbDjdxjllbOutPut = 80,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10GdjcKggdOutPut = 81,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10GdjcSjkzrOutPut = 82,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10GbfhGbbdOutPut = 83,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10ZbyzCyqtsszqOutPut = 84,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10ZbyzCyfssgqOutPut = 85,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10zbyzRzqkzfyssOutPut = 86,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10ZbyzXmtzMjzjqkOutPut = 87,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10ZbyzXmtzMjzjcnxmOutPut = 88,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10ZbyzXmtzMjzjbgxmOutPut = 89,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10ZbyzXmtzFmjzjxmOutPut = 90,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10HydwOutPut = 91,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10RsrProForecastOutPut = 92,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10RsrInvestRatingOutPut = 93,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10RsrEarnPSForeOutPut = 94,
+  ComDzhyunProtoAutoMsg_EnumID_IDF10RsrResReportOutPut = 95,
+  ComDzhyunProtoAutoMsg_EnumID_IDServiceAuthConsts = 96,
+  ComDzhyunProtoAutoMsg_EnumID_IDDXSpiritStat = 97,
+  ComDzhyunProtoAutoMsg_EnumID_IDFluxValue = 98,
+  ComDzhyunProtoAutoMsg_EnumID_IDPaiMing = 99,
 };
 
 #define ComDzhyunProtoAutoMsg_EnumIDEnum_IDId_VALUE 1
@@ -266,6 +374,42 @@ typedef NS_ENUM(NSUInteger, ComDzhyunProtoAutoMsg_EnumID) {
 #define ComDzhyunProtoAutoMsg_EnumIDEnum_IDDXSpirit_VALUE 77
 #define ComDzhyunProtoAutoMsg_EnumIDEnum_IDStkPoolOuput_VALUE 78
 #define ComDzhyunProtoAutoMsg_EnumIDEnum_IDEventNews_VALUE 79
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDGongGaoXinXiOutput_VALUE 80
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDGongGaoXinXiZhongXinOutput_VALUE 81
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10CpbdZxzbOutput_VALUE 82
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10CpbdKpqkOutput_VALUE 83
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10CpbdCjhbOutput_VALUE 84
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10CwtsLrfpbzyOutput_VALUE 85
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10CwtsZcfzbzyOutput_VALUE 86
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10ZygcOutput_VALUE 87
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10DstxJjltOutput_VALUE 88
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10DstxRzrqOutput_VALUE 89
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10DstxJgccOutput_VALUE 90
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10DstxGdzjcOutput_VALUE 91
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10DstxDzjyOutput_VALUE 92
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10DstxCgbdqkOutput_VALUE 93
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10GlcOutPut_VALUE 94
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10GlcNdbcqkOutPut_VALUE 95
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10ZxjbDjdxjllbOutPut_VALUE 96
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10GdjcKggdOutPut_VALUE 97
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10GdjcSjkzrOutPut_VALUE 98
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10GbfhGbbdOutPut_VALUE 99
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10ZbyzCyqtsszqOutPut_VALUE 100
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10ZbyzCyfssgqOutPut_VALUE 101
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10zbyzRzqkzfyssOutPut_VALUE 102
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10ZbyzXmtzMjzjqkOutPut_VALUE 103
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10ZbyzXmtzMjzjcnxmOutPut_VALUE 104
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10ZbyzXmtzMjzjbgxmOutPut_VALUE 105
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10ZbyzXmtzFmjzjxmOutPut_VALUE 106
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10HydwOutPut_VALUE 107
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10RsrProForecastOutPut_VALUE 108
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10RsrInvestRatingOutPut_VALUE 109
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10RsrEarnPSForeOutPut_VALUE 110
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10RsrResReportOutPut_VALUE 111
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDServiceAuthConsts_VALUE 112
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDDXSpiritStat_VALUE 113
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDFluxValue_VALUE 114
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDPaiMing_VALUE 115
 
 @interface ComDzhyunProtoAutoMsg_EnumIDEnum : JavaLangEnum<ComGoogleProtobufProtocolMessageEnum> {
  @private
@@ -417,6 +561,78 @@ J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDDXSpirit)
 J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDStkPoolOuput)
 #define ComDzhyunProtoAutoMsg_EnumIDEnum_IDEventNews ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDEventNews]
 J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDEventNews)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDGongGaoXinXiOutput ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDGongGaoXinXiOutput]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDGongGaoXinXiOutput)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDGongGaoXinXiZhongXinOutput ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDGongGaoXinXiZhongXinOutput]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDGongGaoXinXiZhongXinOutput)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10CpbdZxzbOutput ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10CpbdZxzbOutput]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10CpbdZxzbOutput)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10CpbdKpqkOutput ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10CpbdKpqkOutput]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10CpbdKpqkOutput)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10CpbdCjhbOutput ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10CpbdCjhbOutput]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10CpbdCjhbOutput)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10CwtsLrfpbzyOutput ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10CwtsLrfpbzyOutput]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10CwtsLrfpbzyOutput)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10CwtsZcfzbzyOutput ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10CwtsZcfzbzyOutput]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10CwtsZcfzbzyOutput)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10ZygcOutput ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10ZygcOutput]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10ZygcOutput)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10DstxJjltOutput ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10DstxJjltOutput]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10DstxJjltOutput)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10DstxRzrqOutput ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10DstxRzrqOutput]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10DstxRzrqOutput)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10DstxJgccOutput ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10DstxJgccOutput]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10DstxJgccOutput)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10DstxGdzjcOutput ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10DstxGdzjcOutput]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10DstxGdzjcOutput)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10DstxDzjyOutput ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10DstxDzjyOutput]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10DstxDzjyOutput)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10DstxCgbdqkOutput ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10DstxCgbdqkOutput]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10DstxCgbdqkOutput)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10GlcOutPut ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10GlcOutPut]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10GlcOutPut)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10GlcNdbcqkOutPut ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10GlcNdbcqkOutPut]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10GlcNdbcqkOutPut)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10ZxjbDjdxjllbOutPut ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10ZxjbDjdxjllbOutPut]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10ZxjbDjdxjllbOutPut)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10GdjcKggdOutPut ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10GdjcKggdOutPut]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10GdjcKggdOutPut)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10GdjcSjkzrOutPut ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10GdjcSjkzrOutPut]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10GdjcSjkzrOutPut)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10GbfhGbbdOutPut ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10GbfhGbbdOutPut]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10GbfhGbbdOutPut)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10ZbyzCyqtsszqOutPut ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10ZbyzCyqtsszqOutPut]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10ZbyzCyqtsszqOutPut)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10ZbyzCyfssgqOutPut ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10ZbyzCyfssgqOutPut]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10ZbyzCyfssgqOutPut)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10zbyzRzqkzfyssOutPut ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10zbyzRzqkzfyssOutPut]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10zbyzRzqkzfyssOutPut)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10ZbyzXmtzMjzjqkOutPut ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10ZbyzXmtzMjzjqkOutPut]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10ZbyzXmtzMjzjqkOutPut)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10ZbyzXmtzMjzjcnxmOutPut ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10ZbyzXmtzMjzjcnxmOutPut]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10ZbyzXmtzMjzjcnxmOutPut)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10ZbyzXmtzMjzjbgxmOutPut ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10ZbyzXmtzMjzjbgxmOutPut]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10ZbyzXmtzMjzjbgxmOutPut)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10ZbyzXmtzFmjzjxmOutPut ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10ZbyzXmtzFmjzjxmOutPut]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10ZbyzXmtzFmjzjxmOutPut)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10HydwOutPut ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10HydwOutPut]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10HydwOutPut)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10RsrProForecastOutPut ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10RsrProForecastOutPut]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10RsrProForecastOutPut)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10RsrInvestRatingOutPut ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10RsrInvestRatingOutPut]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10RsrInvestRatingOutPut)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10RsrEarnPSForeOutPut ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10RsrEarnPSForeOutPut]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10RsrEarnPSForeOutPut)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDF10RsrResReportOutPut ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDF10RsrResReportOutPut]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDF10RsrResReportOutPut)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDServiceAuthConsts ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDServiceAuthConsts]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDServiceAuthConsts)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDDXSpiritStat ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDDXSpiritStat]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDDXSpiritStat)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDFluxValue ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDFluxValue]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDFluxValue)
+#define ComDzhyunProtoAutoMsg_EnumIDEnum_IDPaiMing ComDzhyunProtoAutoMsg_EnumIDEnum_values_[ComDzhyunProtoAutoMsg_EnumID_IDPaiMing]
+J2OBJC_ENUM_CONSTANT_GETTER(ComDzhyunProtoAutoMsg_EnumIDEnum, IDPaiMing)
 
 @interface ComDzhyunProtoAutoMsg : NSObject
 
@@ -514,31 +730,31 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoAutoMsg)
 
 - (int)getRepDataAppKeyCount;
 - (id<JavaUtilList>)getRepDataAppKeyList;
-- (ComDzhyunProtoDzhapp_AppKey *)getRepDataAppKeyWithInt:(int)index;
+- (DzhyunDzhapp_AppKey *)getRepDataAppKeyWithInt:(int)index;
 
 - (int)getRepDataAppInfoCount;
 - (id<JavaUtilList>)getRepDataAppInfoList;
-- (ComDzhyunProtoDzhapp_AppInfo *)getRepDataAppInfoWithInt:(int)index;
+- (DzhyunDzhapp_AppInfo *)getRepDataAppInfoWithInt:(int)index;
 
 - (int)getRepDataAppValueCount;
 - (id<JavaUtilList>)getRepDataAppValueList;
-- (ComDzhyunProtoDzhapp_AppValue *)getRepDataAppValueWithInt:(int)index;
+- (DzhyunDzhapp_AppValue *)getRepDataAppValueWithInt:(int)index;
 
 - (int)getRepDataServiceAuthCount;
 - (id<JavaUtilList>)getRepDataServiceAuthList;
-- (ComDzhyunProtoDzhapp_ServiceAuth *)getRepDataServiceAuthWithInt:(int)index;
+- (DzhyunDzhapp_ServiceAuth *)getRepDataServiceAuthWithInt:(int)index;
 
 - (int)getRepDataAppServiceAuthCount;
 - (id<JavaUtilList>)getRepDataAppServiceAuthList;
-- (ComDzhyunProtoDzhapp_AppServiceAuth *)getRepDataAppServiceAuthWithInt:(int)index;
+- (DzhyunDzhapp_AppServiceAuth *)getRepDataAppServiceAuthWithInt:(int)index;
 
 - (int)getRepDataTokenAuthCount;
 - (id<JavaUtilList>)getRepDataTokenAuthList;
-- (ComDzhyunProtoDzhapp_TokenAuth *)getRepDataTokenAuthWithInt:(int)index;
+- (DzhyunDzhapp_TokenAuth *)getRepDataTokenAuthWithInt:(int)index;
 
 - (int)getRepDataAccOpResponseCount;
 - (id<JavaUtilList>)getRepDataAccOpResponseList;
-- (ComDzhyunProtoDzhapp_AccOpResponse *)getRepDataAccOpResponseWithInt:(int)index;
+- (DzhyunDzhapp_AccOpResponse *)getRepDataAccOpResponseWithInt:(int)index;
 
 - (int)getRepDataTokenCount;
 - (id<JavaUtilList>)getRepDataTokenList;
@@ -546,7 +762,7 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoAutoMsg)
 
 - (int)getRepDataPrivilegeCount;
 - (id<JavaUtilList>)getRepDataPrivilegeList;
-- (ComDzhyunProtoDzhpriv_Privilege *)getRepDataPrivilegeWithInt:(int)index;
+- (DzhyunDzhpriv_Privilege *)getRepDataPrivilegeWithInt:(int)index;
 
 - (int)getRepDataAlarmEventCount;
 - (id<JavaUtilList>)getRepDataAlarmEventList;
@@ -586,43 +802,43 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoAutoMsg)
 
 - (int)getRepDataF10GsgkOutputCount;
 - (id<JavaUtilList>)getRepDataF10GsgkOutputList;
-- (ComDzhyunProtoDzhyunF10_F10GsgkOutput *)getRepDataF10GsgkOutputWithInt:(int)index;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput *)getRepDataF10GsgkOutputWithInt:(int)index;
 
 - (int)getRepDataF10CwtsZycwzbOutputCount;
 - (id<JavaUtilList>)getRepDataF10CwtsZycwzbOutputList;
-- (ComDzhyunProtoDzhyunF10_F10CwtsZycwzbOutput *)getRepDataF10CwtsZycwzbOutputWithInt:(int)index;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput *)getRepDataF10CwtsZycwzbOutputWithInt:(int)index;
 
 - (int)getRepDataF10CwtsXjllbzyOutputCount;
 - (id<JavaUtilList>)getRepDataF10CwtsXjllbzyOutputList;
-- (ComDzhyunProtoDzhyunF10_F10CwtsXjllbzyOutput *)getRepDataF10CwtsXjllbzyOutputWithInt:(int)index;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput *)getRepDataF10CwtsXjllbzyOutputWithInt:(int)index;
 
 - (int)getRepDataF10ZxjbDjdcwzbOutputCount;
 - (id<JavaUtilList>)getRepDataF10ZxjbDjdcwzbOutputList;
-- (ComDzhyunProtoDzhyunF10_F10ZxjbDjdcwzbOutput *)getRepDataF10ZxjbDjdcwzbOutputWithInt:(int)index;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput *)getRepDataF10ZxjbDjdcwzbOutputWithInt:(int)index;
 
 - (int)getRepDataF10ZxjbdjdlebOutputCount;
 - (id<JavaUtilList>)getRepDataF10ZxjbdjdlebOutputList;
-- (ComDzhyunProtoDzhyunF10_F10ZxjbdjdlebOutput *)getRepDataF10ZxjbdjdlebOutputWithInt:(int)index;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput *)getRepDataF10ZxjbdjdlebOutputWithInt:(int)index;
 
 - (int)getRepDataF10GdjcGdhsOutputCount;
 - (id<JavaUtilList>)getRepDataF10GdjcGdhsOutputList;
-- (ComDzhyunProtoDzhyunF10_F10GdjcGdhsOutput *)getRepDataF10GdjcGdhsOutputWithInt:(int)index;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput *)getRepDataF10GdjcGdhsOutputWithInt:(int)index;
 
 - (int)getRepDataF10GdjcSdgdOutputCount;
 - (id<JavaUtilList>)getRepDataF10GdjcSdgdOutputList;
-- (ComDzhyunProtoDzhyunF10_F10GdjcSdgdOutput *)getRepDataF10GdjcSdgdOutputWithInt:(int)index;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput *)getRepDataF10GdjcSdgdOutputWithInt:(int)index;
 
 - (int)getRepDataF10GdjcSdltgdOutputCount;
 - (id<JavaUtilList>)getRepDataF10GdjcSdltgdOutputList;
-- (ComDzhyunProtoDzhyunF10_F10GdjcSdltgdOutput *)getRepDataF10GdjcSdltgdOutputWithInt:(int)index;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput *)getRepDataF10GdjcSdltgdOutputWithInt:(int)index;
 
 - (int)getRepDataF10GbfhFhkgOutputCount;
 - (id<JavaUtilList>)getRepDataF10GbfhFhkgOutputList;
-- (ComDzhyunProtoDzhyunF10_F10GbfhFhkgOutput *)getRepDataF10GbfhFhkgOutputWithInt:(int)index;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput *)getRepDataF10GbfhFhkgOutputWithInt:(int)index;
 
 - (int)getRepDataF10GbfhGbjgOutputCount;
 - (id<JavaUtilList>)getRepDataF10GbfhGbjgOutputList;
-- (ComDzhyunProtoDzhyunF10_F10GbfhGbjgOutput *)getRepDataF10GbfhGbjgOutputWithInt:(int)index;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput *)getRepDataF10GbfhGbjgOutputWithInt:(int)index;
 
 - (int)getRepDataXinWenXinXiOutputCount;
 - (id<JavaUtilList>)getRepDataXinWenXinXiOutputList;
@@ -683,6 +899,150 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoAutoMsg)
 - (int)getRepDataEventNewsCount;
 - (id<JavaUtilList>)getRepDataEventNewsList;
 - (DzhyunCldEventNewsShuJu_EventNews *)getRepDataEventNewsWithInt:(int)index;
+
+- (int)getRepDataGongGaoXinXiOutputCount;
+- (id<JavaUtilList>)getRepDataGongGaoXinXiOutputList;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput *)getRepDataGongGaoXinXiOutputWithInt:(int)index;
+
+- (int)getRepDataGongGaoXinXiZhongXinOutputCount;
+- (id<JavaUtilList>)getRepDataGongGaoXinXiZhongXinOutputList;
+- (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput *)getRepDataGongGaoXinXiZhongXinOutputWithInt:(int)index;
+
+- (int)getRepDataF10CpbdZxzbOutputCount;
+- (id<JavaUtilList>)getRepDataF10CpbdZxzbOutputList;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput *)getRepDataF10CpbdZxzbOutputWithInt:(int)index;
+
+- (int)getRepDataF10CpbdKpqkOutputCount;
+- (id<JavaUtilList>)getRepDataF10CpbdKpqkOutputList;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput *)getRepDataF10CpbdKpqkOutputWithInt:(int)index;
+
+- (int)getRepDataF10CpbdCjhbOutputCount;
+- (id<JavaUtilList>)getRepDataF10CpbdCjhbOutputList;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput *)getRepDataF10CpbdCjhbOutputWithInt:(int)index;
+
+- (int)getRepDataF10CwtsLrfpbzyOutputCount;
+- (id<JavaUtilList>)getRepDataF10CwtsLrfpbzyOutputList;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput *)getRepDataF10CwtsLrfpbzyOutputWithInt:(int)index;
+
+- (int)getRepDataF10CwtsZcfzbzyOutputCount;
+- (id<JavaUtilList>)getRepDataF10CwtsZcfzbzyOutputList;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput *)getRepDataF10CwtsZcfzbzyOutputWithInt:(int)index;
+
+- (int)getRepDataF10ZygcOutputCount;
+- (id<JavaUtilList>)getRepDataF10ZygcOutputList;
+- (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput *)getRepDataF10ZygcOutputWithInt:(int)index;
+
+- (int)getRepDataF10DstxJjltOutputCount;
+- (id<JavaUtilList>)getRepDataF10DstxJjltOutputList;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput *)getRepDataF10DstxJjltOutputWithInt:(int)index;
+
+- (int)getRepDataF10DstxRzrqOutputCount;
+- (id<JavaUtilList>)getRepDataF10DstxRzrqOutputList;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput *)getRepDataF10DstxRzrqOutputWithInt:(int)index;
+
+- (int)getRepDataF10DstxJgccOutputCount;
+- (id<JavaUtilList>)getRepDataF10DstxJgccOutputList;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput *)getRepDataF10DstxJgccOutputWithInt:(int)index;
+
+- (int)getRepDataF10DstxGdzjcOutputCount;
+- (id<JavaUtilList>)getRepDataF10DstxGdzjcOutputList;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput *)getRepDataF10DstxGdzjcOutputWithInt:(int)index;
+
+- (int)getRepDataF10DstxDzjyOutputCount;
+- (id<JavaUtilList>)getRepDataF10DstxDzjyOutputList;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput *)getRepDataF10DstxDzjyOutputWithInt:(int)index;
+
+- (int)getRepDataF10DstxCgbdqkOutputCount;
+- (id<JavaUtilList>)getRepDataF10DstxCgbdqkOutputList;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput *)getRepDataF10DstxCgbdqkOutputWithInt:(int)index;
+
+- (int)getRepDataF10GlcOutPutCount;
+- (id<JavaUtilList>)getRepDataF10GlcOutPutList;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut *)getRepDataF10GlcOutPutWithInt:(int)index;
+
+- (int)getRepDataF10GlcNdbcqkOutPutCount;
+- (id<JavaUtilList>)getRepDataF10GlcNdbcqkOutPutList;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut *)getRepDataF10GlcNdbcqkOutPutWithInt:(int)index;
+
+- (int)getRepDataF10ZxjbDjdxjllbOutPutCount;
+- (id<JavaUtilList>)getRepDataF10ZxjbDjdxjllbOutPutList;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut *)getRepDataF10ZxjbDjdxjllbOutPutWithInt:(int)index;
+
+- (int)getRepDataF10GdjcKggdOutPutCount;
+- (id<JavaUtilList>)getRepDataF10GdjcKggdOutPutList;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut *)getRepDataF10GdjcKggdOutPutWithInt:(int)index;
+
+- (int)getRepDataF10GdjcSjkzrOutPutCount;
+- (id<JavaUtilList>)getRepDataF10GdjcSjkzrOutPutList;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut *)getRepDataF10GdjcSjkzrOutPutWithInt:(int)index;
+
+- (int)getRepDataF10GbfhGbbdOutPutCount;
+- (id<JavaUtilList>)getRepDataF10GbfhGbbdOutPutList;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut *)getRepDataF10GbfhGbbdOutPutWithInt:(int)index;
+
+- (int)getRepDataF10ZbyzCyqtsszqOutPutCount;
+- (id<JavaUtilList>)getRepDataF10ZbyzCyqtsszqOutPutList;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut *)getRepDataF10ZbyzCyqtsszqOutPutWithInt:(int)index;
+
+- (int)getRepDataF10ZbyzCyfssgqOutPutCount;
+- (id<JavaUtilList>)getRepDataF10ZbyzCyfssgqOutPutList;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut *)getRepDataF10ZbyzCyfssgqOutPutWithInt:(int)index;
+
+- (int)getRepDataF10ZbyzRzqkzfyssOutPutCount;
+- (id<JavaUtilList>)getRepDataF10ZbyzRzqkzfyssOutPutList;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut *)getRepDataF10ZbyzRzqkzfyssOutPutWithInt:(int)index;
+
+- (int)getRepDataF10ZbyzXmtzMjzjqkOutPutCount;
+- (id<JavaUtilList>)getRepDataF10ZbyzXmtzMjzjqkOutPutList;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut *)getRepDataF10ZbyzXmtzMjzjqkOutPutWithInt:(int)index;
+
+- (int)getRepDataF10ZbyzXmtzMjzjcnxmOutPutCount;
+- (id<JavaUtilList>)getRepDataF10ZbyzXmtzMjzjcnxmOutPutList;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut *)getRepDataF10ZbyzXmtzMjzjcnxmOutPutWithInt:(int)index;
+
+- (int)getRepDataF10ZbyzXmtzMjzjbgxmOutPutCount;
+- (id<JavaUtilList>)getRepDataF10ZbyzXmtzMjzjbgxmOutPutList;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut *)getRepDataF10ZbyzXmtzMjzjbgxmOutPutWithInt:(int)index;
+
+- (int)getRepDataF10ZbyzXmtzFmjzjxmOutPutCount;
+- (id<JavaUtilList>)getRepDataF10ZbyzXmtzFmjzjxmOutPutList;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut *)getRepDataF10ZbyzXmtzFmjzjxmOutPutWithInt:(int)index;
+
+- (int)getRepDataF10HydwOutPutCount;
+- (id<JavaUtilList>)getRepDataF10HydwOutPutList;
+- (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut *)getRepDataF10HydwOutPutWithInt:(int)index;
+
+- (int)getRepDataF10RsrProForecastOutPutCount;
+- (id<JavaUtilList>)getRepDataF10RsrProForecastOutPutList;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut *)getRepDataF10RsrProForecastOutPutWithInt:(int)index;
+
+- (int)getRepDataF10RsrInvestRatingOutPutCount;
+- (id<JavaUtilList>)getRepDataF10RsrInvestRatingOutPutList;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut *)getRepDataF10RsrInvestRatingOutPutWithInt:(int)index;
+
+- (int)getRepDataF10RsrEarnPSForeOutPutCount;
+- (id<JavaUtilList>)getRepDataF10RsrEarnPSForeOutPutList;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut *)getRepDataF10RsrEarnPSForeOutPutWithInt:(int)index;
+
+- (int)getRepDataF10RsrResReportOutPutCount;
+- (id<JavaUtilList>)getRepDataF10RsrResReportOutPutList;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut *)getRepDataF10RsrResReportOutPutWithInt:(int)index;
+
+- (int)getRepDataServiceAuthConstsCount;
+- (id<JavaUtilList>)getRepDataServiceAuthConstsList;
+- (DzhyunDzhyunAuthTable_ServiceAuthConsts *)getRepDataServiceAuthConstsWithInt:(int)index;
+
+- (int)getRepDataDXSpiritStatCount;
+- (id<JavaUtilList>)getRepDataDXSpiritStatList;
+- (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *)getRepDataDXSpiritStatWithInt:(int)index;
+
+- (int)getRepDataFluxValueCount;
+- (id<JavaUtilList>)getRepDataFluxValueList;
+- (ComDzhyunProtoDzhflux_FluxValue *)getRepDataFluxValueWithInt:(int)index;
+
+- (int)getRepDataPaiMingCount;
+- (id<JavaUtilList>)getRepDataPaiMingList;
+- (ComDzhyunProtoDzhyunPaixu_PaiMing *)getRepDataPaiMingWithInt:(int)index;
 
 @end
 
@@ -772,6 +1132,42 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoAutoMsg_MSGOrBuilder)
 #define ComDzhyunProtoAutoMsg_MSG_REPDATADXSPIRIT_FIELD_NUMBER 77
 #define ComDzhyunProtoAutoMsg_MSG_REPDATASTKPOOLOUPUT_FIELD_NUMBER 78
 #define ComDzhyunProtoAutoMsg_MSG_REPDATAEVENTNEWS_FIELD_NUMBER 79
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAGONGGAOXINXIOUTPUT_FIELD_NUMBER 80
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAGONGGAOXINXIZHONGXINOUTPUT_FIELD_NUMBER 81
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10CPBDZXZBOUTPUT_FIELD_NUMBER 82
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10CPBDKPQKOUTPUT_FIELD_NUMBER 83
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10CPBDCJHBOUTPUT_FIELD_NUMBER 84
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10CWTSLRFPBZYOUTPUT_FIELD_NUMBER 85
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10CWTSZCFZBZYOUTPUT_FIELD_NUMBER 86
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10ZYGCOUTPUT_FIELD_NUMBER 87
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10DSTXJJLTOUTPUT_FIELD_NUMBER 88
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10DSTXRZRQOUTPUT_FIELD_NUMBER 89
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10DSTXJGCCOUTPUT_FIELD_NUMBER 90
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10DSTXGDZJCOUTPUT_FIELD_NUMBER 91
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10DSTXDZJYOUTPUT_FIELD_NUMBER 92
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10DSTXCGBDQKOUTPUT_FIELD_NUMBER 93
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10GLCOUTPUT_FIELD_NUMBER 94
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10GLCNDBCQKOUTPUT_FIELD_NUMBER 95
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10ZXJBDJDXJLLBOUTPUT_FIELD_NUMBER 96
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10GDJCKGGDOUTPUT_FIELD_NUMBER 97
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10GDJCSJKZROUTPUT_FIELD_NUMBER 98
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10GBFHGBBDOUTPUT_FIELD_NUMBER 99
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10ZBYZCYQTSSZQOUTPUT_FIELD_NUMBER 100
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10ZBYZCYFSSGQOUTPUT_FIELD_NUMBER 101
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10ZBYZRZQKZFYSSOUTPUT_FIELD_NUMBER 102
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10ZBYZXMTZMJZJQKOUTPUT_FIELD_NUMBER 103
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10ZBYZXMTZMJZJCNXMOUTPUT_FIELD_NUMBER 104
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10ZBYZXMTZMJZJBGXMOUTPUT_FIELD_NUMBER 105
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10ZBYZXMTZFMJZJXMOUTPUT_FIELD_NUMBER 106
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10HYDWOUTPUT_FIELD_NUMBER 107
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10RSRPROFORECASTOUTPUT_FIELD_NUMBER 108
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10RSRINVESTRATINGOUTPUT_FIELD_NUMBER 109
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10RSREARNPSFOREOUTPUT_FIELD_NUMBER 110
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAF10RSRRESREPORTOUTPUT_FIELD_NUMBER 111
+#define ComDzhyunProtoAutoMsg_MSG_REPDATASERVICEAUTHCONSTS_FIELD_NUMBER 112
+#define ComDzhyunProtoAutoMsg_MSG_REPDATADXSPIRITSTAT_FIELD_NUMBER 113
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAFLUXVALUE_FIELD_NUMBER 114
+#define ComDzhyunProtoAutoMsg_MSG_REPDATAPAIMING_FIELD_NUMBER 115
 
 @end
 
@@ -996,75 +1392,75 @@ FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoAutoMsg
     addRepDataSelfStockPutOutputWithComDzhyunProtoDzhselfstock_SelfStockPutOutput_Builder:
     (ComDzhyunProtoDzhselfstock_SelfStockPutOutput_Builder *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataAppKeyWithInt:(int)index
-    withComDzhyunProtoDzhapp_AppKey:(ComDzhyunProtoDzhapp_AppKey *)value;
-- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataAppKeyWithComDzhyunProtoDzhapp_AppKey:
-    (ComDzhyunProtoDzhapp_AppKey *)value;
+    withDzhyunDzhapp_AppKey:(DzhyunDzhapp_AppKey *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataAppKeyWithDzhyunDzhapp_AppKey:
+    (DzhyunDzhapp_AppKey *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataAppKeyWithJavaLangIterable:
     (id<JavaLangIterable>)values;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataAppKey;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)
-    addRepDataAppKeyWithComDzhyunProtoDzhapp_AppKey_Builder:
-    (ComDzhyunProtoDzhapp_AppKey_Builder *)value;
+    addRepDataAppKeyWithDzhyunDzhapp_AppKey_Builder:
+    (DzhyunDzhapp_AppKey_Builder *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataAppInfoWithInt:(int)index
-    withComDzhyunProtoDzhapp_AppInfo:(ComDzhyunProtoDzhapp_AppInfo *)value;
-- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataAppInfoWithComDzhyunProtoDzhapp_AppInfo:
-    (ComDzhyunProtoDzhapp_AppInfo *)value;
+    withDzhyunDzhapp_AppInfo:(DzhyunDzhapp_AppInfo *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataAppInfoWithDzhyunDzhapp_AppInfo:
+    (DzhyunDzhapp_AppInfo *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataAppInfoWithJavaLangIterable:
     (id<JavaLangIterable>)values;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataAppInfo;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)
-    addRepDataAppInfoWithComDzhyunProtoDzhapp_AppInfo_Builder:
-    (ComDzhyunProtoDzhapp_AppInfo_Builder *)value;
+    addRepDataAppInfoWithDzhyunDzhapp_AppInfo_Builder:
+    (DzhyunDzhapp_AppInfo_Builder *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataAppValueWithInt:(int)index
-    withComDzhyunProtoDzhapp_AppValue:(ComDzhyunProtoDzhapp_AppValue *)value;
-- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataAppValueWithComDzhyunProtoDzhapp_AppValue:
-    (ComDzhyunProtoDzhapp_AppValue *)value;
+    withDzhyunDzhapp_AppValue:(DzhyunDzhapp_AppValue *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataAppValueWithDzhyunDzhapp_AppValue:
+    (DzhyunDzhapp_AppValue *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataAppValueWithJavaLangIterable:
     (id<JavaLangIterable>)values;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataAppValue;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)
-    addRepDataAppValueWithComDzhyunProtoDzhapp_AppValue_Builder:
-    (ComDzhyunProtoDzhapp_AppValue_Builder *)value;
+    addRepDataAppValueWithDzhyunDzhapp_AppValue_Builder:
+    (DzhyunDzhapp_AppValue_Builder *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataServiceAuthWithInt:(int)index
-    withComDzhyunProtoDzhapp_ServiceAuth:(ComDzhyunProtoDzhapp_ServiceAuth *)value;
-- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataServiceAuthWithComDzhyunProtoDzhapp_ServiceAuth:
-    (ComDzhyunProtoDzhapp_ServiceAuth *)value;
+    withDzhyunDzhapp_ServiceAuth:(DzhyunDzhapp_ServiceAuth *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataServiceAuthWithDzhyunDzhapp_ServiceAuth:
+    (DzhyunDzhapp_ServiceAuth *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataServiceAuthWithJavaLangIterable:
     (id<JavaLangIterable>)values;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataServiceAuth;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)
-    addRepDataServiceAuthWithComDzhyunProtoDzhapp_ServiceAuth_Builder:
-    (ComDzhyunProtoDzhapp_ServiceAuth_Builder *)value;
+    addRepDataServiceAuthWithDzhyunDzhapp_ServiceAuth_Builder:
+    (DzhyunDzhapp_ServiceAuth_Builder *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataAppServiceAuthWithInt:(int)index
-    withComDzhyunProtoDzhapp_AppServiceAuth:(ComDzhyunProtoDzhapp_AppServiceAuth *)value;
-- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataAppServiceAuthWithComDzhyunProtoDzhapp_AppServiceAuth:
-    (ComDzhyunProtoDzhapp_AppServiceAuth *)value;
+    withDzhyunDzhapp_AppServiceAuth:(DzhyunDzhapp_AppServiceAuth *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataAppServiceAuthWithDzhyunDzhapp_AppServiceAuth:
+    (DzhyunDzhapp_AppServiceAuth *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataAppServiceAuthWithJavaLangIterable:
     (id<JavaLangIterable>)values;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataAppServiceAuth;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)
-    addRepDataAppServiceAuthWithComDzhyunProtoDzhapp_AppServiceAuth_Builder:
-    (ComDzhyunProtoDzhapp_AppServiceAuth_Builder *)value;
+    addRepDataAppServiceAuthWithDzhyunDzhapp_AppServiceAuth_Builder:
+    (DzhyunDzhapp_AppServiceAuth_Builder *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataTokenAuthWithInt:(int)index
-    withComDzhyunProtoDzhapp_TokenAuth:(ComDzhyunProtoDzhapp_TokenAuth *)value;
-- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataTokenAuthWithComDzhyunProtoDzhapp_TokenAuth:
-    (ComDzhyunProtoDzhapp_TokenAuth *)value;
+    withDzhyunDzhapp_TokenAuth:(DzhyunDzhapp_TokenAuth *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataTokenAuthWithDzhyunDzhapp_TokenAuth:
+    (DzhyunDzhapp_TokenAuth *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataTokenAuthWithJavaLangIterable:
     (id<JavaLangIterable>)values;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataTokenAuth;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)
-    addRepDataTokenAuthWithComDzhyunProtoDzhapp_TokenAuth_Builder:
-    (ComDzhyunProtoDzhapp_TokenAuth_Builder *)value;
+    addRepDataTokenAuthWithDzhyunDzhapp_TokenAuth_Builder:
+    (DzhyunDzhapp_TokenAuth_Builder *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataAccOpResponseWithInt:(int)index
-    withComDzhyunProtoDzhapp_AccOpResponse:(ComDzhyunProtoDzhapp_AccOpResponse *)value;
-- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataAccOpResponseWithComDzhyunProtoDzhapp_AccOpResponse:
-    (ComDzhyunProtoDzhapp_AccOpResponse *)value;
+    withDzhyunDzhapp_AccOpResponse:(DzhyunDzhapp_AccOpResponse *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataAccOpResponseWithDzhyunDzhapp_AccOpResponse:
+    (DzhyunDzhapp_AccOpResponse *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataAccOpResponseWithJavaLangIterable:
     (id<JavaLangIterable>)values;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataAccOpResponse;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)
-    addRepDataAccOpResponseWithComDzhyunProtoDzhapp_AccOpResponse_Builder:
-    (ComDzhyunProtoDzhapp_AccOpResponse_Builder *)value;
+    addRepDataAccOpResponseWithDzhyunDzhapp_AccOpResponse_Builder:
+    (DzhyunDzhapp_AccOpResponse_Builder *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataTokenWithInt:(int)index
     withComDzhyunProtoDzhtoken_Token:(ComDzhyunProtoDzhtoken_Token *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataTokenWithComDzhyunProtoDzhtoken_Token:
@@ -1076,15 +1472,15 @@ FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoAutoMsg
     addRepDataTokenWithComDzhyunProtoDzhtoken_Token_Builder:
     (ComDzhyunProtoDzhtoken_Token_Builder *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataPrivilegeWithInt:(int)index
-    withComDzhyunProtoDzhpriv_Privilege:(ComDzhyunProtoDzhpriv_Privilege *)value;
-- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataPrivilegeWithComDzhyunProtoDzhpriv_Privilege:
-    (ComDzhyunProtoDzhpriv_Privilege *)value;
+    withDzhyunDzhpriv_Privilege:(DzhyunDzhpriv_Privilege *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataPrivilegeWithDzhyunDzhpriv_Privilege:
+    (DzhyunDzhpriv_Privilege *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataPrivilegeWithJavaLangIterable:
     (id<JavaLangIterable>)values;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataPrivilege;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)
-    addRepDataPrivilegeWithComDzhyunProtoDzhpriv_Privilege_Builder:
-    (ComDzhyunProtoDzhpriv_Privilege_Builder *)value;
+    addRepDataPrivilegeWithDzhyunDzhpriv_Privilege_Builder:
+    (DzhyunDzhpriv_Privilege_Builder *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataAlarmEventWithInt:(int)index
     withComDzhyunProtoDzhyunAlarm_AlarmEvent:(ComDzhyunProtoDzhyunAlarm_AlarmEvent *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataAlarmEventWithComDzhyunProtoDzhyunAlarm_AlarmEvent:
@@ -1176,105 +1572,105 @@ FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoAutoMsg
     addRepDataTopicInvestHistoryWithComDzhyunProtoDzhyunTopicinvest_TopicInvestHistory_Builder:
     (ComDzhyunProtoDzhyunTopicinvest_TopicInvestHistory_Builder *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10GsgkOutputWithInt:(int)index
-    withComDzhyunProtoDzhyunF10_F10GsgkOutput:(ComDzhyunProtoDzhyunF10_F10GsgkOutput *)value;
-- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10GsgkOutputWithComDzhyunProtoDzhyunF10_F10GsgkOutput:
-    (ComDzhyunProtoDzhyunF10_F10GsgkOutput *)value;
+    withComDzhyunProtoCldF10ShuJu_F10GsgkOutput:(ComDzhyunProtoCldF10ShuJu_F10GsgkOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10GsgkOutputWithComDzhyunProtoCldF10ShuJu_F10GsgkOutput:
+    (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10GsgkOutputWithJavaLangIterable:
     (id<JavaLangIterable>)values;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10GsgkOutput;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)
-    addRepDataF10GsgkOutputWithComDzhyunProtoDzhyunF10_F10GsgkOutput_Builder:
-    (ComDzhyunProtoDzhyunF10_F10GsgkOutput_Builder *)value;
+    addRepDataF10GsgkOutputWithComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10CwtsZycwzbOutputWithInt:(int)index
-    withComDzhyunProtoDzhyunF10_F10CwtsZycwzbOutput:(ComDzhyunProtoDzhyunF10_F10CwtsZycwzbOutput *)value;
-- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10CwtsZycwzbOutputWithComDzhyunProtoDzhyunF10_F10CwtsZycwzbOutput:
-    (ComDzhyunProtoDzhyunF10_F10CwtsZycwzbOutput *)value;
+    withComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput:(ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10CwtsZycwzbOutputWithComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput:
+    (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10CwtsZycwzbOutputWithJavaLangIterable:
     (id<JavaLangIterable>)values;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10CwtsZycwzbOutput;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)
-    addRepDataF10CwtsZycwzbOutputWithComDzhyunProtoDzhyunF10_F10CwtsZycwzbOutput_Builder:
-    (ComDzhyunProtoDzhyunF10_F10CwtsZycwzbOutput_Builder *)value;
+    addRepDataF10CwtsZycwzbOutputWithComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_Builder *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10CwtsXjllbzyOutputWithInt:(int)index
-    withComDzhyunProtoDzhyunF10_F10CwtsXjllbzyOutput:(ComDzhyunProtoDzhyunF10_F10CwtsXjllbzyOutput *)value;
-- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10CwtsXjllbzyOutputWithComDzhyunProtoDzhyunF10_F10CwtsXjllbzyOutput:
-    (ComDzhyunProtoDzhyunF10_F10CwtsXjllbzyOutput *)value;
+    withComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput:(ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10CwtsXjllbzyOutputWithComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput:
+    (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10CwtsXjllbzyOutputWithJavaLangIterable:
     (id<JavaLangIterable>)values;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10CwtsXjllbzyOutput;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)
-    addRepDataF10CwtsXjllbzyOutputWithComDzhyunProtoDzhyunF10_F10CwtsXjllbzyOutput_Builder:
-    (ComDzhyunProtoDzhyunF10_F10CwtsXjllbzyOutput_Builder *)value;
+    addRepDataF10CwtsXjllbzyOutputWithComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_Builder *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10ZxjbDjdcwzbOutputWithInt:(int)index
-    withComDzhyunProtoDzhyunF10_F10ZxjbDjdcwzbOutput:(ComDzhyunProtoDzhyunF10_F10ZxjbDjdcwzbOutput *)value;
-- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10ZxjbDjdcwzbOutputWithComDzhyunProtoDzhyunF10_F10ZxjbDjdcwzbOutput:
-    (ComDzhyunProtoDzhyunF10_F10ZxjbDjdcwzbOutput *)value;
+    withComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput:(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10ZxjbDjdcwzbOutputWithComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput:
+    (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10ZxjbDjdcwzbOutputWithJavaLangIterable:
     (id<JavaLangIterable>)values;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10ZxjbDjdcwzbOutput;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)
-    addRepDataF10ZxjbDjdcwzbOutputWithComDzhyunProtoDzhyunF10_F10ZxjbDjdcwzbOutput_Builder:
-    (ComDzhyunProtoDzhyunF10_F10ZxjbDjdcwzbOutput_Builder *)value;
+    addRepDataF10ZxjbDjdcwzbOutputWithComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_Builder *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10ZxjbdjdlebOutputWithInt:(int)index
-    withComDzhyunProtoDzhyunF10_F10ZxjbdjdlebOutput:(ComDzhyunProtoDzhyunF10_F10ZxjbdjdlebOutput *)value;
-- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10ZxjbdjdlebOutputWithComDzhyunProtoDzhyunF10_F10ZxjbdjdlebOutput:
-    (ComDzhyunProtoDzhyunF10_F10ZxjbdjdlebOutput *)value;
+    withComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput:(ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10ZxjbdjdlebOutputWithComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput:
+    (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10ZxjbdjdlebOutputWithJavaLangIterable:
     (id<JavaLangIterable>)values;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10ZxjbdjdlebOutput;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)
-    addRepDataF10ZxjbdjdlebOutputWithComDzhyunProtoDzhyunF10_F10ZxjbdjdlebOutput_Builder:
-    (ComDzhyunProtoDzhyunF10_F10ZxjbdjdlebOutput_Builder *)value;
+    addRepDataF10ZxjbdjdlebOutputWithComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_Builder *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10GdjcGdhsOutputWithInt:(int)index
-    withComDzhyunProtoDzhyunF10_F10GdjcGdhsOutput:(ComDzhyunProtoDzhyunF10_F10GdjcGdhsOutput *)value;
-- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10GdjcGdhsOutputWithComDzhyunProtoDzhyunF10_F10GdjcGdhsOutput:
-    (ComDzhyunProtoDzhyunF10_F10GdjcGdhsOutput *)value;
+    withComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput:(ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10GdjcGdhsOutputWithComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput:
+    (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10GdjcGdhsOutputWithJavaLangIterable:
     (id<JavaLangIterable>)values;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10GdjcGdhsOutput;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)
-    addRepDataF10GdjcGdhsOutputWithComDzhyunProtoDzhyunF10_F10GdjcGdhsOutput_Builder:
-    (ComDzhyunProtoDzhyunF10_F10GdjcGdhsOutput_Builder *)value;
+    addRepDataF10GdjcGdhsOutputWithComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_Builder *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10GdjcSdgdOutputWithInt:(int)index
-    withComDzhyunProtoDzhyunF10_F10GdjcSdgdOutput:(ComDzhyunProtoDzhyunF10_F10GdjcSdgdOutput *)value;
-- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10GdjcSdgdOutputWithComDzhyunProtoDzhyunF10_F10GdjcSdgdOutput:
-    (ComDzhyunProtoDzhyunF10_F10GdjcSdgdOutput *)value;
+    withComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput:(ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10GdjcSdgdOutputWithComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput:
+    (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10GdjcSdgdOutputWithJavaLangIterable:
     (id<JavaLangIterable>)values;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10GdjcSdgdOutput;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)
-    addRepDataF10GdjcSdgdOutputWithComDzhyunProtoDzhyunF10_F10GdjcSdgdOutput_Builder:
-    (ComDzhyunProtoDzhyunF10_F10GdjcSdgdOutput_Builder *)value;
+    addRepDataF10GdjcSdgdOutputWithComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_Builder *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10GdjcSdltgdOutputWithInt:(int)index
-    withComDzhyunProtoDzhyunF10_F10GdjcSdltgdOutput:(ComDzhyunProtoDzhyunF10_F10GdjcSdltgdOutput *)value;
-- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10GdjcSdltgdOutputWithComDzhyunProtoDzhyunF10_F10GdjcSdltgdOutput:
-    (ComDzhyunProtoDzhyunF10_F10GdjcSdltgdOutput *)value;
+    withComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput:(ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10GdjcSdltgdOutputWithComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput:
+    (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10GdjcSdltgdOutputWithJavaLangIterable:
     (id<JavaLangIterable>)values;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10GdjcSdltgdOutput;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)
-    addRepDataF10GdjcSdltgdOutputWithComDzhyunProtoDzhyunF10_F10GdjcSdltgdOutput_Builder:
-    (ComDzhyunProtoDzhyunF10_F10GdjcSdltgdOutput_Builder *)value;
+    addRepDataF10GdjcSdltgdOutputWithComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_Builder *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10GbfhFhkgOutputWithInt:(int)index
-    withComDzhyunProtoDzhyunF10_F10GbfhFhkgOutput:(ComDzhyunProtoDzhyunF10_F10GbfhFhkgOutput *)value;
-- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10GbfhFhkgOutputWithComDzhyunProtoDzhyunF10_F10GbfhFhkgOutput:
-    (ComDzhyunProtoDzhyunF10_F10GbfhFhkgOutput *)value;
+    withComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput:(ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10GbfhFhkgOutputWithComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput:
+    (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10GbfhFhkgOutputWithJavaLangIterable:
     (id<JavaLangIterable>)values;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10GbfhFhkgOutput;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)
-    addRepDataF10GbfhFhkgOutputWithComDzhyunProtoDzhyunF10_F10GbfhFhkgOutput_Builder:
-    (ComDzhyunProtoDzhyunF10_F10GbfhFhkgOutput_Builder *)value;
+    addRepDataF10GbfhFhkgOutputWithComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_Builder *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10GbfhGbjgOutputWithInt:(int)index
-    withComDzhyunProtoDzhyunF10_F10GbfhGbjgOutput:(ComDzhyunProtoDzhyunF10_F10GbfhGbjgOutput *)value;
-- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10GbfhGbjgOutputWithComDzhyunProtoDzhyunF10_F10GbfhGbjgOutput:
-    (ComDzhyunProtoDzhyunF10_F10GbfhGbjgOutput *)value;
+    withComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput:(ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10GbfhGbjgOutputWithComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput:
+    (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10GbfhGbjgOutputWithJavaLangIterable:
     (id<JavaLangIterable>)values;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10GbfhGbjgOutput;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)
-    addRepDataF10GbfhGbjgOutputWithComDzhyunProtoDzhyunF10_F10GbfhGbjgOutput_Builder:
-    (ComDzhyunProtoDzhyunF10_F10GbfhGbjgOutput_Builder *)value;
+    addRepDataF10GbfhGbjgOutputWithComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_Builder *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataXinWenXinXiOutputWithInt:(int)index
     withComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput:(ComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput *)value;
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataXinWenXinXiOutputWithComDzhyunProtoDzhNewsInfo_XinWenXinXiOutput:
@@ -1425,6 +1821,366 @@ FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoAutoMsg
 - (ComDzhyunProtoAutoMsg_MSG_Builder*)
     addRepDataEventNewsWithDzhyunCldEventNewsShuJu_EventNews_Builder:
     (DzhyunCldEventNewsShuJu_EventNews_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataGongGaoXinXiOutputWithInt:(int)index
+    withComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput:(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataGongGaoXinXiOutputWithComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput:
+    (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataGongGaoXinXiOutputWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataGongGaoXinXiOutput;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataGongGaoXinXiOutputWithComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_Builder:
+    (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiOutput_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataGongGaoXinXiZhongXinOutputWithInt:(int)index
+    withComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput:(ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataGongGaoXinXiZhongXinOutputWithComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput:
+    (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataGongGaoXinXiZhongXinOutputWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataGongGaoXinXiZhongXinOutput;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataGongGaoXinXiZhongXinOutputWithComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_Builder:
+    (ComDzhyunProtoDzhNewsInfo_GongGaoXinXiZhongXinOutput_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10CpbdZxzbOutputWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput:(ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10CpbdZxzbOutputWithComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput:
+    (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10CpbdZxzbOutputWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10CpbdZxzbOutput;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10CpbdZxzbOutputWithComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10CpbdKpqkOutputWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput:(ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10CpbdKpqkOutputWithComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput:
+    (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10CpbdKpqkOutputWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10CpbdKpqkOutput;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10CpbdKpqkOutputWithComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10CpbdCjhbOutputWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput:(ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10CpbdCjhbOutputWithComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput:
+    (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10CpbdCjhbOutputWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10CpbdCjhbOutput;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10CpbdCjhbOutputWithComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10CwtsLrfpbzyOutputWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput:(ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10CwtsLrfpbzyOutputWithComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput:
+    (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10CwtsLrfpbzyOutputWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10CwtsLrfpbzyOutput;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10CwtsLrfpbzyOutputWithComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10CwtsZcfzbzyOutputWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput:(ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10CwtsZcfzbzyOutputWithComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput:
+    (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10CwtsZcfzbzyOutputWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10CwtsZcfzbzyOutput;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10CwtsZcfzbzyOutputWithComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10ZygcOutputWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10ZygcOutput:(ComDzhyunProtoCldF10ShuJu_F10ZygcOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10ZygcOutputWithComDzhyunProtoCldF10ShuJu_F10ZygcOutput:
+    (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10ZygcOutputWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10ZygcOutput;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10ZygcOutputWithComDzhyunProtoCldF10ShuJu_F10ZygcOutput_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10DstxJjltOutputWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput:(ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10DstxJjltOutputWithComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput:
+    (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10DstxJjltOutputWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10DstxJjltOutput;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10DstxJjltOutputWithComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10DstxRzrqOutputWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput:(ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10DstxRzrqOutputWithComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput:
+    (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10DstxRzrqOutputWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10DstxRzrqOutput;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10DstxRzrqOutputWithComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10DstxJgccOutputWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput:(ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10DstxJgccOutputWithComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput:
+    (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10DstxJgccOutputWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10DstxJgccOutput;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10DstxJgccOutputWithComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10DstxGdzjcOutputWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput:(ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10DstxGdzjcOutputWithComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput:
+    (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10DstxGdzjcOutputWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10DstxGdzjcOutput;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10DstxGdzjcOutputWithComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10DstxDzjyOutputWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput:(ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10DstxDzjyOutputWithComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput:
+    (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10DstxDzjyOutputWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10DstxDzjyOutput;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10DstxDzjyOutputWithComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10DstxCgbdqkOutputWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput:(ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10DstxCgbdqkOutputWithComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput:
+    (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10DstxCgbdqkOutputWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10DstxCgbdqkOutput;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10DstxCgbdqkOutputWithComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10GlcOutPutWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10GlcOutPut:(ComDzhyunProtoCldF10ShuJu_F10GlcOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10GlcOutPutWithComDzhyunProtoCldF10ShuJu_F10GlcOutPut:
+    (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10GlcOutPutWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10GlcOutPut;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10GlcOutPutWithComDzhyunProtoCldF10ShuJu_F10GlcOutPut_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10GlcNdbcqkOutPutWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut:(ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10GlcNdbcqkOutPutWithComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut:
+    (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10GlcNdbcqkOutPutWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10GlcNdbcqkOutPut;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10GlcNdbcqkOutPutWithComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10ZxjbDjdxjllbOutPutWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut:(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10ZxjbDjdxjllbOutPutWithComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut:
+    (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10ZxjbDjdxjllbOutPutWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10ZxjbDjdxjllbOutPut;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10ZxjbDjdxjllbOutPutWithComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10GdjcKggdOutPutWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut:(ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10GdjcKggdOutPutWithComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut:
+    (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10GdjcKggdOutPutWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10GdjcKggdOutPut;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10GdjcKggdOutPutWithComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10GdjcSjkzrOutPutWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut:(ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10GdjcSjkzrOutPutWithComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut:
+    (ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10GdjcSjkzrOutPutWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10GdjcSjkzrOutPut;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10GdjcSjkzrOutPutWithComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10GbfhGbbdOutPutWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut:(ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10GbfhGbbdOutPutWithComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut:
+    (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10GbfhGbbdOutPutWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10GbfhGbbdOutPut;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10GbfhGbbdOutPutWithComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10ZbyzCyqtsszqOutPutWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut:(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10ZbyzCyqtsszqOutPutWithComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut:
+    (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10ZbyzCyqtsszqOutPutWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10ZbyzCyqtsszqOutPut;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10ZbyzCyqtsszqOutPutWithComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10ZbyzCyfssgqOutPutWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut:(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10ZbyzCyfssgqOutPutWithComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut:
+    (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10ZbyzCyfssgqOutPutWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10ZbyzCyfssgqOutPut;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10ZbyzCyfssgqOutPutWithComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10ZbyzRzqkzfyssOutPutWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut:(ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10ZbyzRzqkzfyssOutPutWithComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut:
+    (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10ZbyzRzqkzfyssOutPutWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10ZbyzRzqkzfyssOutPut;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10ZbyzRzqkzfyssOutPutWithComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10ZbyzXmtzMjzjqkOutPutWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut:(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10ZbyzXmtzMjzjqkOutPutWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut:
+    (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10ZbyzXmtzMjzjqkOutPutWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10ZbyzXmtzMjzjqkOutPut;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10ZbyzXmtzMjzjqkOutPutWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10ZbyzXmtzMjzjcnxmOutPutWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut:(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10ZbyzXmtzMjzjcnxmOutPutWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut:
+    (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10ZbyzXmtzMjzjcnxmOutPutWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10ZbyzXmtzMjzjcnxmOutPut;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10ZbyzXmtzMjzjcnxmOutPutWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10ZbyzXmtzMjzjbgxmOutPutWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut:(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10ZbyzXmtzMjzjbgxmOutPutWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut:
+    (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10ZbyzXmtzMjzjbgxmOutPutWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10ZbyzXmtzMjzjbgxmOutPut;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10ZbyzXmtzMjzjbgxmOutPutWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10ZbyzXmtzFmjzjxmOutPutWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut:(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10ZbyzXmtzFmjzjxmOutPutWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut:
+    (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10ZbyzXmtzFmjzjxmOutPutWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10ZbyzXmtzFmjzjxmOutPut;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10ZbyzXmtzFmjzjxmOutPutWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10HydwOutPutWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10HydwOutPut:(ComDzhyunProtoCldF10ShuJu_F10HydwOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10HydwOutPutWithComDzhyunProtoCldF10ShuJu_F10HydwOutPut:
+    (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10HydwOutPutWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10HydwOutPut;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10HydwOutPutWithComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10RsrProForecastOutPutWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut:(ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10RsrProForecastOutPutWithComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut:
+    (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10RsrProForecastOutPutWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10RsrProForecastOutPut;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10RsrProForecastOutPutWithComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10RsrInvestRatingOutPutWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut:(ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10RsrInvestRatingOutPutWithComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut:
+    (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10RsrInvestRatingOutPutWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10RsrInvestRatingOutPut;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10RsrInvestRatingOutPutWithComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10RsrEarnPSForeOutPutWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut:(ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10RsrEarnPSForeOutPutWithComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut:
+    (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10RsrEarnPSForeOutPutWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10RsrEarnPSForeOutPut;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10RsrEarnPSForeOutPutWithComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataF10RsrResReportOutPutWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut:(ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataF10RsrResReportOutPutWithComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut:
+    (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataF10RsrResReportOutPutWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataF10RsrResReportOutPut;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataF10RsrResReportOutPutWithComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataServiceAuthConstsWithInt:(int)index
+    withDzhyunDzhyunAuthTable_ServiceAuthConsts:(DzhyunDzhyunAuthTable_ServiceAuthConsts *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataServiceAuthConstsWithDzhyunDzhyunAuthTable_ServiceAuthConsts:
+    (DzhyunDzhyunAuthTable_ServiceAuthConsts *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataServiceAuthConstsWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataServiceAuthConsts;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataServiceAuthConstsWithDzhyunDzhyunAuthTable_ServiceAuthConsts_Builder:
+    (DzhyunDzhyunAuthTable_ServiceAuthConsts_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataDXSpiritStatWithInt:(int)index
+    withComDzhyunProtoDzhyunDxspirit_DXSpiritStat:(ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataDXSpiritStatWithComDzhyunProtoDzhyunDxspirit_DXSpiritStat:
+    (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataDXSpiritStatWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataDXSpiritStat;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataDXSpiritStatWithComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder:
+    (ComDzhyunProtoDzhyunDxspirit_DXSpiritStat_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataFluxValueWithInt:(int)index
+    withComDzhyunProtoDzhflux_FluxValue:(ComDzhyunProtoDzhflux_FluxValue *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataFluxValueWithComDzhyunProtoDzhflux_FluxValue:
+    (ComDzhyunProtoDzhflux_FluxValue *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataFluxValueWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataFluxValue;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataFluxValueWithComDzhyunProtoDzhflux_FluxValue_Builder:
+    (ComDzhyunProtoDzhflux_FluxValue_Builder *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)setRepDataPaiMingWithInt:(int)index
+    withComDzhyunProtoDzhyunPaixu_PaiMing:(ComDzhyunProtoDzhyunPaixu_PaiMing *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addRepDataPaiMingWithComDzhyunProtoDzhyunPaixu_PaiMing:
+    (ComDzhyunProtoDzhyunPaixu_PaiMing *)value;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)addAllRepDataPaiMingWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)clearRepDataPaiMing;
+- (ComDzhyunProtoAutoMsg_MSG_Builder*)
+    addRepDataPaiMingWithComDzhyunProtoDzhyunPaixu_PaiMing_Builder:
+    (ComDzhyunProtoDzhyunPaixu_PaiMing_Builder *)value;
 
 @end
 

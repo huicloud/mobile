@@ -7,18 +7,138 @@
 #import "com/google/protobuf/ProtocolMessageEnum.h"
 #import "java/lang/Enum.h"
 
-@class ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder;
-@class ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder;
-@class ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder;
-@class ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder;
-@class ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD;
-@class ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder;
-@class ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder;
-@class ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Builder;
-@class ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Builder;
-@class ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder;
-@class ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder;
-@class ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder;
+@class ComDzhyunProtoCldF10ShuJu_CpbdCjhbData;
+@class ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder;
+@class ComDzhyunProtoCldF10ShuJu_DstxJgccData;
+@class ComDzhyunProtoCldF10ShuJu_DstxJgccData_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb;
+@class ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk;
+@class ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy;
+@class ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy;
+@class ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy;
+@class ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb;
+@class ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxDzjy;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxJgcc;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxJjlt;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxRzrq;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg;
+@class ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd;
+@class ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg;
+@class ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GdjcGd;
+@class ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs;
+@class ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd;
+@class ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd;
+@class ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk;
+@class ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore;
+@class ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10RsrResReport;
+@class ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10RsrResReport_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb;
+@class ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb;
+@class ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb;
+@class ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10Zygc;
+@class ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10Zygc_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss;
+@class ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_Builder;
+@class ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder;
+@class ComDzhyunProtoCldF10ShuJu_GlcData;
+@class ComDzhyunProtoCldF10ShuJu_GlcData_Builder;
+@class ComDzhyunProtoCldF10ShuJu_HydwData;
+@class ComDzhyunProtoCldF10ShuJu_HydwData_Builder;
+@class ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData;
+@class ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_Builder;
+@class ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData;
+@class ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder;
+@class ComDzhyunProtoCldF10ShuJu_RsrProForecastData;
+@class ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder;
+@class ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData;
+@class ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_Builder;
+@class ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData;
+@class ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_Builder;
+@class ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData;
+@class ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_Builder;
+@class ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData;
+@class ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder;
+@class ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData;
+@class ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder;
+@class ComDzhyunProtoCldF10ShuJu_ZygcData;
+@class ComDzhyunProtoCldF10ShuJu_ZygcData_Builder;
 @class ComGoogleProtobufDescriptors_Descriptor;
 @class ComGoogleProtobufExtensionRegistry;
 @protocol JavaLangIterable;
@@ -36,7 +156,5233 @@ J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu)
 
 J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu)
 
-@protocol ComDzhyunProtoCldF10ShuJu_F10_GSGKOrBuilder < ComGoogleProtobufMessageOrBuilder >
+@protocol ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutputOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (BOOL)hasShiq;
+- (NSString *)getShiq;
+
+- (BOOL)hasMgsy;
+- (long long int)getMgsy;
+
+- (BOOL)hasMgjzc;
+- (long long int)getMgjzc;
+
+- (BOOL)hasZgb;
+- (long long int)getZgb;
+
+- (BOOL)hasLtag;
+- (long long int)getLtag;
+
+- (BOOL)hasJzcsyl;
+- (long long int)getJzcsyl;
+
+- (BOOL)hasMgxjl;
+- (long long int)getMgxjl;
+
+- (BOOL)hasMggjj;
+- (long long int)getMggjj;
+
+- (BOOL)hasMgwfplr;
+- (long long int)getMgwfplr;
+
+- (BOOL)hasZylrtbzz;
+- (long long int)getZylrtbzz;
+
+- (BOOL)hasJlrtbzz;
+- (long long int)getJlrtbzz;
+
+- (BOOL)hasFpyan;
+- (NSString *)getFpyan;
+
+- (BOOL)hasCq;
+- (NSString *)getCq;
+
+- (BOOL)hasCym;
+- (NSString *)getCym;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutputOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutputOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutputOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput:(ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_DATE_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_SHIQ_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_MGSY_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_MGJZC_FIELD_NUMBER 5
+#define ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_ZGB_FIELD_NUMBER 6
+#define ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_LTAG_FIELD_NUMBER 7
+#define ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_JZCSYL_FIELD_NUMBER 8
+#define ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_MGXJL_FIELD_NUMBER 9
+#define ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_MGGJJ_FIELD_NUMBER 10
+#define ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_MGWFPLR_FIELD_NUMBER 11
+#define ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_ZYLRTBZZ_FIELD_NUMBER 12
+#define ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_JLRTBZZ_FIELD_NUMBER 13
+#define ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_FPYAN_FIELD_NUMBER 14
+#define ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_CQ_FIELD_NUMBER 15
+#define ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_CYM_FIELD_NUMBER 16
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput *ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_newBuilderWithComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_(ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput *ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput *ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput *ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput *ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput *ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput *ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutputOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput:(ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)clearObj;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)clearDate;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)setShiqWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)clearShiq;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)setMgsyWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)clearMgsy;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)setMgjzcWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)clearMgjzc;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)setZgbWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)clearZgb;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)setLtagWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)clearLtag;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)setJzcsylWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)clearJzcsyl;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)setMgxjlWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)clearMgxjl;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)setMggjjWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)clearMggjj;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)setMgwfplrWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)clearMgwfplr;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)setZylrtbzzWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)clearZylrtbzz;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)setJlrtbzzWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)clearJlrtbzz;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)setFpyanWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)clearFpyan;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)setCqWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)clearCq;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)setCymWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder *)clearCym;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CpbdZxzbOutput_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (BOOL)hasGdhs;
+- (long long int)getGdhs;
+
+- (BOOL)hasRjcltg;
+- (long long int)getRjcltg;
+
+- (BOOL)hasTcsdrjcltg;
+- (long long int)getTcsdrjcltg;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10CpbdKpqk:(ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_DATE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_GDHS_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_RJCLTG_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_TCSDRJCLTG_FIELD_NUMBER 4
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk *ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_Builder *ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_Builder *ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_newBuilderWithComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_(ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk *ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk *ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk *ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk *ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk *ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk *ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10CpbdKpqk:(ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_Builder *)clearDate;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_Builder *)setGdhsWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_Builder *)clearGdhs;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_Builder *)setRjcltgWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_Builder *)clearRjcltg;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_Builder *)setTcsdrjcltgWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_Builder *)clearTcsdrjcltg;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_CpbdCjhbDataOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasCjl;
+- (long long int)getCjl;
+
+- (BOOL)hasCjje;
+- (long long int)getCjje;
+
+- (BOOL)hasZdlx;
+- (NSString *)getZdlx;
+
+- (BOOL)hasZdz;
+- (long long int)getZdz;
+
+- (BOOL)hasYybmc;
+- (NSString *)getYybmc;
+
+- (BOOL)hasMlje;
+- (long long int)getMlje;
+
+- (BOOL)hasMcje;
+- (long long int)getMcje;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_CpbdCjhbDataOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_CpbdCjhbDataOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_CpbdCjhbData : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_CpbdCjhbDataOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_CpbdCjhbData:(ComDzhyunProtoCldF10ShuJu_CpbdCjhbData *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_CJL_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_CJJE_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_ZDLX_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_ZDZ_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_YYBMC_FIELD_NUMBER 5
+#define ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_MLJE_FIELD_NUMBER 6
+#define ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_MCJE_FIELD_NUMBER 7
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_CpbdCjhbData *ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder *ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder *ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_newBuilderWithComDzhyunProtoCldF10ShuJu_CpbdCjhbData_(ComDzhyunProtoCldF10ShuJu_CpbdCjhbData *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_CpbdCjhbData *ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_CpbdCjhbData *ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_CpbdCjhbData *ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_CpbdCjhbData *ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_CpbdCjhbData *ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_CpbdCjhbData *ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_CpbdCjhbData)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_CpbdCjhbData)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_CpbdCjhbDataOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_CpbdCjhbData:(ComDzhyunProtoCldF10ShuJu_CpbdCjhbData *)message;
+- (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData *)build;
+- (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder *)setCjlWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder *)clearCjl;
+
+- (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder *)setCjjeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder *)clearCjje;
+
+- (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder *)setZdlxWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder *)clearZdlx;
+
+- (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder *)setZdzWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder *)clearZdz;
+
+- (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder *)setYybmcWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder *)clearYybmc;
+
+- (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder *)setMljeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder *)clearMlje;
+
+- (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder *)setMcjeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder *)clearMcje;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10CpbdCjhb:(ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_DATE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb *ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_Builder *ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_Builder *ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_newBuilderWithComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_(ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb *ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb *ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb *ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb *ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb *ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb *ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10CpbdCjhb:(ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_Builder *)clearDate;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_CpbdCjhbData:(ComDzhyunProtoCldF10ShuJu_CpbdCjhbData *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_CpbdCjhbData:
+    (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder:
+    (ComDzhyunProtoCldF10ShuJu_CpbdCjhbData_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (BOOL)hasDw;
+- (NSString *)getDw;
+
+- (BOOL)hasYysr;
+- (long long int)getYysr;
+
+- (BOOL)hasYycb;
+- (long long int)getYycb;
+
+- (BOOL)hasGlfy;
+- (long long int)getGlfy;
+
+- (BOOL)hasYyfy;
+- (long long int)getYyfy;
+
+- (BOOL)hasCwfy;
+- (long long int)getCwfy;
+
+- (BOOL)hasYylr;
+- (long long int)getYylr;
+
+- (BOOL)hasTzsy;
+- (long long int)getTzsy;
+
+- (BOOL)hasYywszje;
+- (long long int)getYywszje;
+
+- (BOOL)hasLrze;
+- (long long int)getLrze;
+
+- (BOOL)hasJlr;
+- (long long int)getJlr;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy:(ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_DATE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_DW_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_YYSR_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_YYCB_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_GLFY_FIELD_NUMBER 5
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_YYFY_FIELD_NUMBER 6
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_CWFY_FIELD_NUMBER 7
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_YYLR_FIELD_NUMBER 8
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_TZSY_FIELD_NUMBER 9
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_YYWSZJE_FIELD_NUMBER 10
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_LRZE_FIELD_NUMBER 11
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_JLR_FIELD_NUMBER 12
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy *ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_newBuilderWithComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_(ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy *ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy *ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy *ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy *ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy *ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy *ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy:(ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)clearDate;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)setDwWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)clearDw;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)setYysrWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)clearYysr;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)setYycbWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)clearYycb;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)setGlfyWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)clearGlfy;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)setYyfyWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)clearYyfy;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)setCwfyWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)clearCwfy;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)setYylrWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)clearYylr;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)setTzsyWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)clearTzsy;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)setYywszjeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)clearYywszje;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)setLrzeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)clearLrze;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)setJlrWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)clearJlr;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (BOOL)hasDw;
+- (NSString *)getDw;
+
+- (BOOL)hasZzc;
+- (long long int)getZzc;
+
+- (BOOL)hasLdzc;
+- (long long int)getLdzc;
+
+- (BOOL)hasHbzj;
+- (long long int)getHbzj;
+
+- (BOOL)hasJyxjrzc;
+- (long long int)getJyxjrzc;
+
+- (BOOL)hasCh;
+- (long long int)getCh;
+
+- (BOOL)hasYszkze;
+- (long long int)getYszkze;
+
+- (BOOL)hasQtysk;
+- (long long int)getQtysk;
+
+- (BOOL)hasGdzcje;
+- (long long int)getGdzcje;
+
+- (BOOL)hasKgcsjrzc;
+- (long long int)getKgcsjrzc;
+
+- (BOOL)hasWxzc;
+- (long long int)getWxzc;
+
+- (BOOL)hasDqjk;
+- (long long int)getDqjk;
+
+- (BOOL)hasYszk;
+- (long long int)getYszk;
+
+- (BOOL)hasYfzk;
+- (long long int)getYfzk;
+
+- (BOOL)hasLdfz;
+- (long long int)getLdfz;
+
+- (BOOL)hasCqfz;
+- (long long int)getCqfz;
+
+- (BOOL)hasZfz;
+- (long long int)getZfz;
+
+- (BOOL)hasGdqy;
+- (long long int)getGdqy;
+
+- (BOOL)hasZbgjj;
+- (long long int)getZbgjj;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy:(ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_DATE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_DW_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_ZZC_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_LDZC_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_HBZJ_FIELD_NUMBER 5
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_JYXJRZC_FIELD_NUMBER 6
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_CH_FIELD_NUMBER 7
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_YSZKZE_FIELD_NUMBER 8
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_QTYSK_FIELD_NUMBER 9
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_GDZCJE_FIELD_NUMBER 10
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_KGCSJRZC_FIELD_NUMBER 11
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_WXZC_FIELD_NUMBER 12
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_DQJK_FIELD_NUMBER 13
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_YSZK_FIELD_NUMBER 14
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_YFZK_FIELD_NUMBER 15
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_LDFZ_FIELD_NUMBER 16
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_CQFZ_FIELD_NUMBER 17
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_ZFZ_FIELD_NUMBER 18
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_GDQY_FIELD_NUMBER 19
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_ZBGJJ_FIELD_NUMBER 20
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy *ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_newBuilderWithComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_(ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy *ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy *ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy *ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy *ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy *ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy *ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy:(ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)clearDate;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)setDwWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)clearDw;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)setZzcWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)clearZzc;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)setLdzcWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)clearLdzc;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)setHbzjWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)clearHbzj;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)setJyxjrzcWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)clearJyxjrzc;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)setChWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)clearCh;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)setYszkzeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)clearYszkze;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)setQtyskWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)clearQtysk;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)setGdzcjeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)clearGdzcje;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)setKgcsjrzcWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)clearKgcsjrzc;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)setWxzcWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)clearWxzc;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)setDqjkWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)clearDqjk;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)setYszkWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)clearYszk;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)setYfzkWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)clearYfzk;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)setLdfzWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)clearLdfz;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)setCqfzWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)clearCqfz;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)setZfzWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)clearZfz;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)setGdqyWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)clearGdqy;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)setZbgjjWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)clearZbgjj;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_ZygcDataOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasLb;
+- (NSString *)getLb;
+
+- (BOOL)hasHy;
+- (NSString *)getHy;
+
+- (BOOL)hasZysr;
+- (long long int)getZysr;
+
+- (BOOL)hasZysrzb;
+- (long long int)getZysrzb;
+
+- (BOOL)hasZysrtbbh;
+- (long long int)getZysrtbbh;
+
+- (BOOL)hasZycb;
+- (long long int)getZycb;
+
+- (BOOL)hasZycbtbbh;
+- (long long int)getZycbtbbh;
+
+- (BOOL)hasZylr;
+- (long long int)getZylr;
+
+- (BOOL)hasMll;
+- (long long int)getMll;
+
+- (BOOL)hasMlltbbh;
+- (long long int)getMlltbbh;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_ZygcDataOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_ZygcDataOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_ZygcData : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_ZygcDataOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_ZygcData *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_ZygcData *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_ZygcData:(ComDzhyunProtoCldF10ShuJu_ZygcData *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_ZygcData *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_ZygcData *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_ZygcData *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_ZygcData *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_ZygcData *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_ZygcData *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_ZygcData *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_ZygcData *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_ZygcData_LB_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_ZygcData_HY_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_ZygcData_ZYSR_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_ZygcData_ZYSRZB_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_ZygcData_ZYSRTBBH_FIELD_NUMBER 5
+#define ComDzhyunProtoCldF10ShuJu_ZygcData_ZYCB_FIELD_NUMBER 6
+#define ComDzhyunProtoCldF10ShuJu_ZygcData_ZYCBTBBH_FIELD_NUMBER 7
+#define ComDzhyunProtoCldF10ShuJu_ZygcData_ZYLR_FIELD_NUMBER 8
+#define ComDzhyunProtoCldF10ShuJu_ZygcData_MLL_FIELD_NUMBER 9
+#define ComDzhyunProtoCldF10ShuJu_ZygcData_MLLTBBH_FIELD_NUMBER 10
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZygcData *ComDzhyunProtoCldF10ShuJu_ZygcData_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *ComDzhyunProtoCldF10ShuJu_ZygcData_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *ComDzhyunProtoCldF10ShuJu_ZygcData_newBuilderWithComDzhyunProtoCldF10ShuJu_ZygcData_(ComDzhyunProtoCldF10ShuJu_ZygcData *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_ZygcData_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZygcData *ComDzhyunProtoCldF10ShuJu_ZygcData_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_ZygcData *ComDzhyunProtoCldF10ShuJu_ZygcData_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_ZygcData_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZygcData *ComDzhyunProtoCldF10ShuJu_ZygcData_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_ZygcData *ComDzhyunProtoCldF10ShuJu_ZygcData_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_ZygcData_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZygcData *ComDzhyunProtoCldF10ShuJu_ZygcData_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_ZygcData *ComDzhyunProtoCldF10ShuJu_ZygcData_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_ZygcData_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_ZygcData)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_ZygcData)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_ZygcData_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_ZygcData_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_ZygcDataOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_ZygcData *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_ZygcData:(ComDzhyunProtoCldF10ShuJu_ZygcData *)message;
+- (ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_ZygcData *)build;
+- (ComDzhyunProtoCldF10ShuJu_ZygcData *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *)setLbWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *)clearLb;
+
+- (ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *)setHyWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *)clearHy;
+
+- (ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *)setZysrWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *)clearZysr;
+
+- (ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *)setZysrzbWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *)clearZysrzb;
+
+- (ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *)setZysrtbbhWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *)clearZysrtbbh;
+
+- (ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *)setZycbWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *)clearZycb;
+
+- (ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *)setZycbtbbhWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *)clearZycbtbbh;
+
+- (ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *)setZylrWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *)clearZylr;
+
+- (ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *)setMllWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *)clearMll;
+
+- (ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *)setMlltbbhWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *)clearMlltbbh;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_ZygcData_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_ZygcData_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_ZygcData_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10ZygcOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_ZygcData *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZygcOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZygcOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10Zygc : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10ZygcOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10Zygc *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10Zygc *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10Zygc_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10Zygc_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10Zygc_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10Zygc_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10Zygc:(ComDzhyunProtoCldF10ShuJu_F10Zygc *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10Zygc *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10Zygc *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10Zygc *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10Zygc *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10Zygc *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10Zygc *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10Zygc *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10Zygc *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10Zygc_DATE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10Zygc_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10Zygc *ComDzhyunProtoCldF10ShuJu_F10Zygc_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10Zygc_Builder *ComDzhyunProtoCldF10ShuJu_F10Zygc_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10Zygc_Builder *ComDzhyunProtoCldF10ShuJu_F10Zygc_newBuilderWithComDzhyunProtoCldF10ShuJu_F10Zygc_(ComDzhyunProtoCldF10ShuJu_F10Zygc *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10Zygc_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10Zygc *ComDzhyunProtoCldF10ShuJu_F10Zygc_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10Zygc *ComDzhyunProtoCldF10ShuJu_F10Zygc_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10Zygc_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10Zygc *ComDzhyunProtoCldF10ShuJu_F10Zygc_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10Zygc *ComDzhyunProtoCldF10ShuJu_F10Zygc_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10Zygc_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10Zygc *ComDzhyunProtoCldF10ShuJu_F10Zygc_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10Zygc *ComDzhyunProtoCldF10ShuJu_F10Zygc_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10Zygc_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10Zygc)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10Zygc)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10Zygc_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10Zygc_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10ZygcOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10Zygc *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10Zygc_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10Zygc:(ComDzhyunProtoCldF10ShuJu_F10Zygc *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10Zygc_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10Zygc *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10Zygc *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10Zygc_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10Zygc_Builder *)clearDate;
+- (ComDzhyunProtoCldF10ShuJu_F10Zygc_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_ZygcData:(ComDzhyunProtoCldF10ShuJu_ZygcData *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10Zygc_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_ZygcData:
+    (ComDzhyunProtoCldF10ShuJu_ZygcData *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10Zygc_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10Zygc_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10Zygc_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_ZygcData_Builder:
+    (ComDzhyunProtoCldF10ShuJu_ZygcData_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10Zygc_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10Zygc_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10Zygc_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10DstxJjltOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (BOOL)hasJjgf;
+- (long long int)getJjgf;
+
+- (BOOL)hasZzgf;
+- (long long int)getZzgf;
+
+- (BOOL)hasGflx;
+- (NSString *)getGflx;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxJjltOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxJjltOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10DstxJjlt : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10DstxJjltOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10DstxJjlt:(ComDzhyunProtoCldF10ShuJu_F10DstxJjlt *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_DATE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_JJGF_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_ZZGF_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_GFLX_FIELD_NUMBER 4
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxJjlt *ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_Builder *ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_Builder *ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_newBuilderWithComDzhyunProtoCldF10ShuJu_F10DstxJjlt_(ComDzhyunProtoCldF10ShuJu_F10DstxJjlt *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxJjlt *ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxJjlt *ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxJjlt *ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxJjlt *ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxJjlt *ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxJjlt *ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxJjlt)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxJjlt)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10DstxJjltOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10DstxJjlt:(ComDzhyunProtoCldF10ShuJu_F10DstxJjlt *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_Builder *)clearDate;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_Builder *)setJjgfWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_Builder *)clearJjgf;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_Builder *)setZzgfWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_Builder *)clearZzgf;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_Builder *)setGflxWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_Builder *)clearGflx;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (BOOL)hasRzje;
+- (long long int)getRzje;
+
+- (BOOL)hasRzmre;
+- (long long int)getRzmre;
+
+- (BOOL)hasRqyl;
+- (long long int)getRqyl;
+
+- (BOOL)hasRqye;
+- (long long int)getRqye;
+
+- (BOOL)hasRqmcl;
+- (long long int)getRqmcl;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10DstxRzrq : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10DstxRzrq:(ComDzhyunProtoCldF10ShuJu_F10DstxRzrq *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_DATE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_RZJE_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_RZMRE_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_RQYL_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_RQYE_FIELD_NUMBER 5
+#define ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_RQMCL_FIELD_NUMBER 6
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxRzrq *ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_Builder *ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_Builder *ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_newBuilderWithComDzhyunProtoCldF10ShuJu_F10DstxRzrq_(ComDzhyunProtoCldF10ShuJu_F10DstxRzrq *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxRzrq *ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxRzrq *ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxRzrq *ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxRzrq *ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxRzrq *ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxRzrq *ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxRzrq)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxRzrq)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10DstxRzrq:(ComDzhyunProtoCldF10ShuJu_F10DstxRzrq *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_Builder *)clearDate;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_Builder *)setRzjeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_Builder *)clearRzje;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_Builder *)setRzmreWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_Builder *)clearRzmre;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_Builder *)setRqylWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_Builder *)clearRqyl;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_Builder *)setRqyeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_Builder *)clearRqye;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_Builder *)setRqmclWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_Builder *)clearRqmcl;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_DstxJgccDataOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasCgjs;
+- (long long int)getCgjs;
+
+- (BOOL)hasCgs;
+- (long long int)getCgs;
+
+- (BOOL)hasZltgbl;
+- (long long int)getZltgbl;
+
+- (BOOL)hasType;
+- (long long int)getType;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_DstxJgccDataOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_DstxJgccDataOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_DstxJgccData : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_DstxJgccDataOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_DstxJgccData *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_DstxJgccData *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_DstxJgccData_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_DstxJgccData_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_DstxJgccData_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_DstxJgccData_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_DstxJgccData:(ComDzhyunProtoCldF10ShuJu_DstxJgccData *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_DstxJgccData *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_DstxJgccData *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_DstxJgccData *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_DstxJgccData *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_DstxJgccData *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_DstxJgccData *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_DstxJgccData *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_DstxJgccData *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_DstxJgccData_CGJS_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_DstxJgccData_CGS_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_DstxJgccData_ZLTGBL_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_DstxJgccData_TYPE_FIELD_NUMBER 5
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_DstxJgccData *ComDzhyunProtoCldF10ShuJu_DstxJgccData_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_DstxJgccData_Builder *ComDzhyunProtoCldF10ShuJu_DstxJgccData_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_DstxJgccData_Builder *ComDzhyunProtoCldF10ShuJu_DstxJgccData_newBuilderWithComDzhyunProtoCldF10ShuJu_DstxJgccData_(ComDzhyunProtoCldF10ShuJu_DstxJgccData *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_DstxJgccData_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_DstxJgccData *ComDzhyunProtoCldF10ShuJu_DstxJgccData_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_DstxJgccData *ComDzhyunProtoCldF10ShuJu_DstxJgccData_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_DstxJgccData_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_DstxJgccData *ComDzhyunProtoCldF10ShuJu_DstxJgccData_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_DstxJgccData *ComDzhyunProtoCldF10ShuJu_DstxJgccData_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_DstxJgccData_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_DstxJgccData *ComDzhyunProtoCldF10ShuJu_DstxJgccData_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_DstxJgccData *ComDzhyunProtoCldF10ShuJu_DstxJgccData_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_DstxJgccData_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_DstxJgccData)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_DstxJgccData)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_DstxJgccData_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_DstxJgccData_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_DstxJgccDataOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_DstxJgccData *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_DstxJgccData_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_DstxJgccData:(ComDzhyunProtoCldF10ShuJu_DstxJgccData *)message;
+- (ComDzhyunProtoCldF10ShuJu_DstxJgccData_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_DstxJgccData *)build;
+- (ComDzhyunProtoCldF10ShuJu_DstxJgccData *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_DstxJgccData_Builder *)setCgjsWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_DstxJgccData_Builder *)clearCgjs;
+
+- (ComDzhyunProtoCldF10ShuJu_DstxJgccData_Builder *)setCgsWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_DstxJgccData_Builder *)clearCgs;
+
+- (ComDzhyunProtoCldF10ShuJu_DstxJgccData_Builder *)setZltgblWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_DstxJgccData_Builder *)clearZltgbl;
+
+- (ComDzhyunProtoCldF10ShuJu_DstxJgccData_Builder *)setTypeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_DstxJgccData_Builder *)clearType;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_DstxJgccData_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_DstxJgccData_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_DstxJgccData_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10DstxJgccOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_DstxJgccData *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxJgccOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxJgccOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10DstxJgcc : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10DstxJgccOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10DstxJgcc:(ComDzhyunProtoCldF10ShuJu_F10DstxJgcc *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_DATE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxJgcc *ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_Builder *ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_Builder *ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_newBuilderWithComDzhyunProtoCldF10ShuJu_F10DstxJgcc_(ComDzhyunProtoCldF10ShuJu_F10DstxJgcc *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxJgcc *ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxJgcc *ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxJgcc *ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxJgcc *ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxJgcc *ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxJgcc *ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxJgcc)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxJgcc)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10DstxJgccOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10DstxJgcc:(ComDzhyunProtoCldF10ShuJu_F10DstxJgcc *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_Builder *)clearDate;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_DstxJgccData:(ComDzhyunProtoCldF10ShuJu_DstxJgccData *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_DstxJgccData:
+    (ComDzhyunProtoCldF10ShuJu_DstxJgccData *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_DstxJgccData_Builder:
+    (ComDzhyunProtoCldF10ShuJu_DstxJgccData_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (BOOL)hasGdmc;
+- (NSString *)getGdmc;
+
+- (BOOL)hasBdfx;
+- (NSString *)getBdfx;
+
+- (BOOL)hasGdlx;
+- (NSString *)getGdlx;
+
+- (BOOL)hasBdsl;
+- (long long int)getBdsl;
+
+- (BOOL)hasZzgb;
+- (long long int)getZzgb;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10DstxGdzjc:(ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_DATE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_GDMC_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_BDFX_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_GDLX_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_BDSL_FIELD_NUMBER 5
+#define ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_ZZGB_FIELD_NUMBER 6
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc *ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_Builder *ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_Builder *ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_newBuilderWithComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_(ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc *ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc *ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc *ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc *ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc *ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc *ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10DstxGdzjc:(ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_Builder *)clearDate;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_Builder *)setGdmcWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_Builder *)clearGdmc;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_Builder *)setBdfxWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_Builder *)clearBdfx;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_Builder *)setGdlxWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_Builder *)clearGdlx;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_Builder *)setBdslWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_Builder *)clearBdsl;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_Builder *)setZzgbWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_Builder *)clearZzgb;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (BOOL)hasJg;
+- (long long int)getJg;
+
+- (BOOL)hasDrspj;
+- (long long int)getDrspj;
+
+- (BOOL)hasZjl;
+- (NSString *)getZjl;
+
+- (BOOL)hasCjl;
+- (long long int)getCjl;
+
+- (BOOL)hasCjje;
+- (NSString *)getCjje;
+
+- (BOOL)hasMf;
+- (NSString *)getMf;
+
+- (BOOL)hasMf2;
+- (NSString *)getMf2;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10DstxDzjy : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10DstxDzjy:(ComDzhyunProtoCldF10ShuJu_F10DstxDzjy *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_DATE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_JG_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_DRSPJ_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_ZJL_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_CJL_FIELD_NUMBER 5
+#define ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_CJJE_FIELD_NUMBER 6
+#define ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_MF_FIELD_NUMBER 7
+#define ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_MF2_FIELD_NUMBER 8
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxDzjy *ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder *ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder *ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_newBuilderWithComDzhyunProtoCldF10ShuJu_F10DstxDzjy_(ComDzhyunProtoCldF10ShuJu_F10DstxDzjy *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxDzjy *ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxDzjy *ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxDzjy *ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxDzjy *ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxDzjy *ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxDzjy *ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxDzjy)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxDzjy)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10DstxDzjy:(ComDzhyunProtoCldF10ShuJu_F10DstxDzjy *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder *)clearDate;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder *)setJgWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder *)clearJg;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder *)setDrspjWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder *)clearDrspj;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder *)setZjlWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder *)clearZjl;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder *)setCjlWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder *)clearCjl;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder *)setCjjeWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder *)clearCjje;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder *)setMfWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder *)clearMf;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder *)setMf2WithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder *)clearMf2;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (BOOL)hasBdr;
+- (NSString *)getBdr;
+
+- (BOOL)hasBdsl;
+- (long long int)getBdsl;
+
+- (BOOL)hasJj;
+- (long long int)getJj;
+
+- (BOOL)hasJcgs;
+- (long long int)getJcgs;
+
+- (BOOL)hasDjg;
+- (NSString *)getDjg;
+
+- (BOOL)hasBdyy;
+- (NSString *)getBdyy;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk:(ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_DATE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_BDR_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_BDSL_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_JJ_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_JCGS_FIELD_NUMBER 5
+#define ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_DJG_FIELD_NUMBER 6
+#define ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_BDYY_FIELD_NUMBER 7
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk *ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder *ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder *ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_newBuilderWithComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_(ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk *ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk *ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk *ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk *ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk *ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk *ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk:(ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder *)clearDate;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder *)setBdrWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder *)clearBdr;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder *)setBdslWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder *)clearBdsl;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder *)setJjWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder *)clearJj;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder *)setJcgsWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder *)clearJcgs;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder *)setDjgWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder *)clearDjg;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder *)setBdyyWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder *)clearBdyy;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_GlcDataOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasXm;
+- (NSString *)getXm;
+
+- (BOOL)hasZw;
+- (NSString *)getZw;
+
+- (BOOL)hasLb;
+- (NSString *)getLb;
+
+- (BOOL)hasRzsj;
+- (NSString *)getRzsj;
+
+- (BOOL)hasXl;
+- (NSString *)getXl;
+
+- (BOOL)hasQmcgs;
+- (long long int)getQmcgs;
+
+- (BOOL)hasXcjzrq;
+- (NSString *)getXcjzrq;
+
+- (BOOL)hasXc;
+- (long long int)getXc;
+
+- (BOOL)hasXb;
+- (NSString *)getXb;
+
+- (BOOL)hasCsrq;
+- (NSString *)getCsrq;
+
+- (BOOL)hasJl;
+- (NSString *)getJl;
+
+- (BOOL)hasPx;
+- (long long int)getPx;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_GlcDataOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_GlcDataOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_GlcData : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_GlcDataOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_GlcData *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_GlcData *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_GlcData:(ComDzhyunProtoCldF10ShuJu_GlcData *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_GlcData *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_GlcData *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_GlcData *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_GlcData *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_GlcData *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_GlcData *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_GlcData *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_GlcData *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_GlcData_XM_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_GlcData_ZW_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_GlcData_LB_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_GlcData_RZSJ_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_GlcData_XL_FIELD_NUMBER 5
+#define ComDzhyunProtoCldF10ShuJu_GlcData_QMCGS_FIELD_NUMBER 6
+#define ComDzhyunProtoCldF10ShuJu_GlcData_XCJZRQ_FIELD_NUMBER 7
+#define ComDzhyunProtoCldF10ShuJu_GlcData_XC_FIELD_NUMBER 8
+#define ComDzhyunProtoCldF10ShuJu_GlcData_XB_FIELD_NUMBER 9
+#define ComDzhyunProtoCldF10ShuJu_GlcData_CSRQ_FIELD_NUMBER 10
+#define ComDzhyunProtoCldF10ShuJu_GlcData_JL_FIELD_NUMBER 11
+#define ComDzhyunProtoCldF10ShuJu_GlcData_PX_FIELD_NUMBER 12
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_GlcData *ComDzhyunProtoCldF10ShuJu_GlcData_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_GlcData_Builder *ComDzhyunProtoCldF10ShuJu_GlcData_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_GlcData_Builder *ComDzhyunProtoCldF10ShuJu_GlcData_newBuilderWithComDzhyunProtoCldF10ShuJu_GlcData_(ComDzhyunProtoCldF10ShuJu_GlcData *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_GlcData_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_GlcData *ComDzhyunProtoCldF10ShuJu_GlcData_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_GlcData *ComDzhyunProtoCldF10ShuJu_GlcData_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_GlcData_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_GlcData *ComDzhyunProtoCldF10ShuJu_GlcData_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_GlcData *ComDzhyunProtoCldF10ShuJu_GlcData_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_GlcData_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_GlcData *ComDzhyunProtoCldF10ShuJu_GlcData_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_GlcData *ComDzhyunProtoCldF10ShuJu_GlcData_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_GlcData_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_GlcData)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_GlcData)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_GlcData_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_GlcData_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_GlcDataOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_GlcData *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_GlcData:(ComDzhyunProtoCldF10ShuJu_GlcData *)message;
+- (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_GlcData *)build;
+- (ComDzhyunProtoCldF10ShuJu_GlcData *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)setXmWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)clearXm;
+
+- (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)setZwWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)clearZw;
+
+- (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)setLbWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)clearLb;
+
+- (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)setRzsjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)clearRzsj;
+
+- (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)setXlWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)clearXl;
+
+- (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)setQmcgsWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)clearQmcgs;
+
+- (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)setXcjzrqWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)clearXcjzrq;
+
+- (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)setXcWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)clearXc;
+
+- (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)setXbWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)clearXb;
+
+- (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)setCsrqWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)clearCsrq;
+
+- (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)setJlWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)clearJl;
+
+- (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)setPxWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)clearPx;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_GlcData_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_GlcData_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_GlcData_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10GlcOutPutOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_GlcData *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GlcOutPutOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GlcOutPutOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10GlcOutPut : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10GlcOutPutOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10GlcOutPut:(ComDzhyunProtoCldF10ShuJu_F10GlcOutPut *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GlcOutPut *ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_newBuilderWithComDzhyunProtoCldF10ShuJu_F10GlcOutPut_(ComDzhyunProtoCldF10ShuJu_F10GlcOutPut *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GlcOutPut *ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GlcOutPut *ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GlcOutPut *ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GlcOutPut *ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GlcOutPut *ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GlcOutPut *ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GlcOutPut)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GlcOutPut)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10GlcOutPutOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10GlcOutPut:(ComDzhyunProtoCldF10ShuJu_F10GlcOutPut *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_GlcData:(ComDzhyunProtoCldF10ShuJu_GlcData *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_GlcData:
+    (ComDzhyunProtoCldF10ShuJu_GlcData *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_GlcData_Builder:
+    (ComDzhyunProtoCldF10ShuJu_GlcData_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GlcOutPut_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (BOOL)hasNdbcze;
+- (long long int)getNdbcze;
+
+- (BOOL)hasZgqswdsbcze;
+- (long long int)getZgqswdsbcze;
+
+- (BOOL)hasZgqswgjglrybcze;
+- (long long int)getZgqswgjglrybcze;
+
+- (BOOL)hasDldsjt;
+- (long long int)getDldsjt;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk:(ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_DATE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_NDBCZE_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_ZGQSWDSBCZE_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_ZGQSWGJGLRYBCZE_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_DLDSJT_FIELD_NUMBER 5
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk *ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_Builder *ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_Builder *ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_newBuilderWithComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_(ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk *ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk *ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk *ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk *ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk *ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk *ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk:(ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_Builder *)clearDate;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_Builder *)setNdbczeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_Builder *)clearNdbcze;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_Builder *)setZgqswdsbczeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_Builder *)clearZgqswdsbcze;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_Builder *)setZgqswgjglrybczeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_Builder *)clearZgqswgjglrybcze;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_Builder *)setDldsjtWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_Builder *)clearDldsjt;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (BOOL)hasJyxjlr;
+- (long long int)getJyxjlr;
+
+- (BOOL)hasJyxjlc;
+- (long long int)getJyxjlc;
+
+- (BOOL)hasJyxjje;
+- (long long int)getJyxjje;
+
+- (BOOL)hasTzxjlr;
+- (long long int)getTzxjlr;
+
+- (BOOL)hasTzxjlc;
+- (long long int)getTzxjlc;
+
+- (BOOL)hasTzxjje;
+- (long long int)getTzxjje;
+
+- (BOOL)hasCzxjlr;
+- (long long int)getCzxjlr;
+
+- (BOOL)hasCzxjlc;
+- (long long int)getCzxjlc;
+
+- (BOOL)hasCzxjje;
+- (long long int)getCzxjje;
+
+- (BOOL)hasXjjzje;
+- (long long int)getXjjzje;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb:(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_DATE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_JYXJLR_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_JYXJLC_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_JYXJJE_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_TZXJLR_FIELD_NUMBER 5
+#define ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_TZXJLC_FIELD_NUMBER 6
+#define ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_TZXJJE_FIELD_NUMBER 7
+#define ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_CZXJLR_FIELD_NUMBER 8
+#define ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_CZXJLC_FIELD_NUMBER 9
+#define ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_CZXJJE_FIELD_NUMBER 10
+#define ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_XJJZJE_FIELD_NUMBER 11
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb:(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)clearDate;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)setJyxjlrWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)clearJyxjlr;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)setJyxjlcWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)clearJyxjlc;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)setJyxjjeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)clearJyxjje;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)setTzxjlrWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)clearTzxjlr;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)setTzxjlcWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)clearTzxjlc;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)setTzxjjeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)clearTzxjje;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)setCzxjlrWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)clearCzxjlr;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)setCzxjlcWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)clearCzxjlc;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)setCzxjjeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)clearCzxjje;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)setXjjzjeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)clearXjjzje;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPutOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (BOOL)hasMc;
+- (NSString *)getMc;
+
+- (BOOL)hasFrdb;
+- (NSString *)getFrdb;
+
+- (BOOL)hasZczb;
+- (long long int)getZczb;
+
+- (BOOL)hasClrq;
+- (NSString *)getClrq;
+
+- (BOOL)hasJyyw;
+- (NSString *)getJyyw;
+
+- (BOOL)hasQylx;
+- (NSString *)getQylx;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPutOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPutOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPutOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut:(ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_MC_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_FRDB_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_ZCZB_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_CLRQ_FIELD_NUMBER 5
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_JYYW_FIELD_NUMBER 6
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_QYLX_FIELD_NUMBER 7
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut *ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_newBuilderWithComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_(ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut *ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut *ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut *ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut *ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut *ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut *ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPutOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut:(ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder *)clearObj;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder *)setMcWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder *)clearMc;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder *)setFrdbWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder *)clearFrdb;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder *)setZczbWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder *)clearZczb;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder *)setClrqWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder *)clearClrq;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder *)setJyywWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder *)clearJyyw;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder *)setQylxWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder *)clearQylx;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GdjcKggdOutPut_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPutOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (BOOL)hasMc;
+- (NSString *)getMc;
+
+- (BOOL)hasSm;
+- (NSString *)getSm;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPutOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPutOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPutOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut:(ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_MC_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_SM_FIELD_NUMBER 3
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut *ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_newBuilderWithComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_(ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut *ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut *ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut *ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut *ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut *ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut *ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPutOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut:(ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_Builder *)clearObj;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_Builder *)setMcWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_Builder *)clearMc;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_Builder *)setSmWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_Builder *)clearSm;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GdjcSjkzrOutPut_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (BOOL)hasZgb;
+- (long long int)getZgb;
+
+- (BOOL)hasYltag;
+- (long long int)getYltag;
+
+- (BOOL)hasYltbg;
+- (long long int)getYltbg;
+
+- (BOOL)hasBdrqgbsm;
+- (NSString *)getBdrqgbsm;
+
+- (BOOL)hasZxjg;
+- (long long int)getZxjg;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10GbfhGbbd:(ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_DATE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_ZGB_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_YLTAG_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_YLTBG_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_BDRQGBSM_FIELD_NUMBER 5
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_ZXJG_FIELD_NUMBER 6
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd *ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_Builder *ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_Builder *ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_newBuilderWithComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_(ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd *ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd *ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd *ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd *ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd *ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd *ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10GbfhGbbd:(ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_Builder *)clearDate;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_Builder *)setZgbWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_Builder *)clearZgb;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_Builder *)setYltagWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_Builder *)clearYltag;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_Builder *)setYltbgWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_Builder *)clearYltbg;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_Builder *)setBdrqgbsmWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_Builder *)clearBdrqgbsm;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_Builder *)setZxjgWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_Builder *)clearZxjg;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqDataOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasBtzzqdm;
+- (NSString *)getBtzzqdm;
+
+- (BOOL)hasBtzzqjc;
+- (NSString *)getBtzzqjc;
+
+- (BOOL)hasCgsl;
+- (long long int)getCgsl;
+
+- (BOOL)hasZbl;
+- (long long int)getZbl;
+
+- (BOOL)hasCstzje;
+- (long long int)getCstzje;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqDataOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqDataOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqDataOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData:(ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_BTZZQDM_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_BTZZQJC_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_CGSL_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_ZBL_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_CSTZJE_FIELD_NUMBER 5
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData *ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_Builder *ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_Builder *ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_newBuilderWithComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_(ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData *ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData *ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData *ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData *ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData *ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData *ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqDataOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData:(ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData *)message;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData *)build;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_Builder *)setBtzzqdmWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_Builder *)clearBtzzqdm;
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_Builder *)setBtzzqjcWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_Builder *)clearBtzzqjc;
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_Builder *)setCgslWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_Builder *)clearCgsl;
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_Builder *)setZblWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_Builder *)clearZbl;
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_Builder *)setCstzjeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_Builder *)clearCstzje;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq:(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_DATE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_Builder *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_Builder *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq:(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_Builder *)clearDate;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData:(ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData:
+    (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_Builder:
+    (ComDzhyunProtoCldF10ShuJu_ZbyzCyqtsszqData_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqDataOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasScdxmc;
+- (NSString *)getScdxmc;
+
+- (BOOL)hasCstzje;
+- (long long int)getCstzje;
+
+- (BOOL)hasCgsl;
+- (long long int)getCgsl;
+
+- (BOOL)hasZbl;
+- (long long int)getZbl;
+
+- (BOOL)hasQmzmjz;
+- (long long int)getQmzmjz;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqDataOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqDataOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqDataOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData:(ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_SCDXMC_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_CSTZJE_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_CGSL_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_ZBL_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_QMZMJZ_FIELD_NUMBER 5
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData *ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_Builder *ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_Builder *ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_newBuilderWithComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_(ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData *ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData *ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData *ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData *ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData *ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData *ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqDataOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData:(ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData *)message;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData *)build;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_Builder *)setScdxmcWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_Builder *)clearScdxmc;
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_Builder *)setCstzjeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_Builder *)clearCstzje;
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_Builder *)setCgslWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_Builder *)clearCgsl;
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_Builder *)setZblWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_Builder *)clearZbl;
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_Builder *)setQmzmjzWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_Builder *)clearQmzmjz;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq:(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_DATE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_Builder *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_Builder *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq:(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_Builder *)clearDate;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData:(ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData:
+    (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_Builder:
+    (ComDzhyunProtoCldF10ShuJu_ZbyzCyfssgqData_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasRzlb;
+- (NSString *)getRzlb;
+
+- (BOOL)hasYarq;
+- (NSString *)getYarq;
+
+- (BOOL)hasGddh;
+- (NSString *)getGddh;
+
+- (BOOL)hasZgyxspl;
+- (NSString *)getZgyxspl;
+
+- (BOOL)hasLgdgqdjr;
+- (NSString *)getLgdgqdjr;
+
+- (BOOL)hasSgr;
+- (NSString *)getSgr;
+
+- (BOOL)hasFajc;
+- (NSString *)getFajc;
+
+- (BOOL)hasFxfs;
+- (NSString *)getFxfs;
+
+- (BOOL)hasFxgplx;
+- (NSString *)getFxgplx;
+
+- (BOOL)hasZzfx;
+- (long long int)getZzfx;
+
+- (BOOL)hasFxjg;
+- (long long int)getFxjg;
+
+- (BOOL)hasZcxs;
+- (NSString *)getZcxs;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss:(ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_RZLB_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_YARQ_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_GDDH_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_ZGYXSPL_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_LGDGQDJR_FIELD_NUMBER 5
+#define ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_SGR_FIELD_NUMBER 6
+#define ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_FAJC_FIELD_NUMBER 7
+#define ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_FXFS_FIELD_NUMBER 8
+#define ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_FXGPLX_FIELD_NUMBER 9
+#define ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_ZZFX_FIELD_NUMBER 10
+#define ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_FXJG_FIELD_NUMBER 11
+#define ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_ZCXS_FIELD_NUMBER 12
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss *ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_newBuilderWithComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_(ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss *ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss *ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss *ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss *ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss *ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss *ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss:(ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)setRzlbWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)clearRzlb;
+
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)setYarqWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)clearYarq;
+
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)setGddhWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)clearGddh;
+
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)setZgyxsplWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)clearZgyxspl;
+
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)setLgdgqdjrWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)clearLgdgqdjr;
+
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)setSgrWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)clearSgr;
+
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)setFajcWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)clearFajc;
+
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)setFxfsWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)clearFxfs;
+
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)setFxgplxWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)clearFxgplx;
+
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)setZzfxWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)clearZzfx;
+
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)setFxjgWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)clearFxjg;
+
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)setZcxsWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)clearZcxs;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (BOOL)hasMjzjze;
+- (long long int)getMjzjze;
+
+- (BOOL)hasBqsyje;
+- (long long int)getBqsyje;
+
+- (BOOL)hasJlsyje;
+- (long long int)getJlsyje;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk:(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_DATE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_MJZJZE_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_BQSYJE_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_JLSYJE_FIELD_NUMBER 4
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_Builder *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_Builder *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk:(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_Builder *)clearDate;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_Builder *)setMjzjzeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_Builder *)clearMjzjze;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_Builder *)setBqsyjeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_Builder *)clearBqsyje;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_Builder *)setJlsyjeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_Builder *)clearJlsyje;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmDataOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasCnxmmc;
+- (NSString *)getCnxmmc;
+
+- (BOOL)hasNtrje;
+- (long long int)getNtrje;
+
+- (BOOL)hasSfbgxm;
+- (NSString *)getSfbgxm;
+
+- (BOOL)hasSjtrje;
+- (long long int)getSjtrje;
+
+- (BOOL)hasSjsy;
+- (long long int)getSjsy;
+
+- (BOOL)hasSffhjd;
+- (NSString *)getSffhjd;
+
+- (BOOL)hasBgyycxsm;
+- (NSString *)getBgyycxsm;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmDataOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmDataOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmDataOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData:(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_CNXMMC_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_NTRJE_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_SFBGXM_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_SJTRJE_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_SJSY_FIELD_NUMBER 5
+#define ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_SFFHJD_FIELD_NUMBER 6
+#define ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_BGYYCXSM_FIELD_NUMBER 7
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_newBuilderWithComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmDataOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData:(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData *)message;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData *)build;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder *)setCnxmmcWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder *)clearCnxmmc;
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder *)setNtrjeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder *)clearNtrje;
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder *)setSfbgxmWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder *)clearSfbgxm;
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder *)setSjtrjeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder *)clearSjtrje;
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder *)setSjsyWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder *)clearSjsy;
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder *)setSffhjdWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder *)clearSffhjd;
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder *)setBgyycxsmWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder *)clearBgyycxsm;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm:(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_DATE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_Builder *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_Builder *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm:(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_Builder *)clearDate;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData:(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData:
+    (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder:
+    (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjcnxmData_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmDataOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasBghxmmc;
+- (NSString *)getBghxmmc;
+
+- (BOOL)hasYcnxmmc;
+- (NSString *)getYcnxmmc;
+
+- (BOOL)hasNtrje;
+- (long long int)getNtrje;
+
+- (BOOL)hasSjtrje;
+- (long long int)getSjtrje;
+
+- (BOOL)hasSjsy;
+- (long long int)getSjsy;
+
+- (BOOL)hasXmjd;
+- (NSString *)getXmjd;
+
+- (BOOL)hasBgxmqksm;
+- (NSString *)getBgxmqksm;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmDataOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmDataOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmDataOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData:(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_BGHXMMC_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_YCNXMMC_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_NTRJE_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_SJTRJE_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_SJSY_FIELD_NUMBER 5
+#define ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_XMJD_FIELD_NUMBER 6
+#define ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_BGXMQKSM_FIELD_NUMBER 7
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_newBuilderWithComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmDataOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData:(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData *)message;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData *)build;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder *)setBghxmmcWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder *)clearBghxmmc;
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder *)setYcnxmmcWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder *)clearYcnxmmc;
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder *)setNtrjeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder *)clearNtrje;
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder *)setSjtrjeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder *)clearSjtrje;
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder *)setSjsyWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder *)clearSjsy;
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder *)setXmjdWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder *)clearXmjd;
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder *)setBgxmqksmWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder *)clearBgxmqksm;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm:(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_DATE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_Builder *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_Builder *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm:(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_Builder *)clearDate;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData:(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData:
+    (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder:
+    (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzMjzjbgxmData_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmDataOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasXmmc;
+- (NSString *)getXmmc;
+
+- (BOOL)hasXmje;
+- (long long int)getXmje;
+
+- (BOOL)hasXmjd;
+- (NSString *)getXmjd;
+
+- (BOOL)hasXmsyqk;
+- (NSString *)getXmsyqk;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmDataOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmDataOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmDataOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData:(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_XMMC_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_XMJE_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_XMJD_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_XMSYQK_FIELD_NUMBER 4
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_Builder *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_Builder *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_newBuilderWithComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmDataOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData:(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData *)message;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData *)build;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_Builder *)setXmmcWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_Builder *)clearXmmc;
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_Builder *)setXmjeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_Builder *)clearXmje;
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_Builder *)setXmjdWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_Builder *)clearXmjd;
+
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_Builder *)setXmsyqkWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_Builder *)clearXmsyqk;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm:(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_DATE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_Builder *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_Builder *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm:(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_Builder *)clearDate;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData:(ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData:
+    (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_Builder:
+    (ComDzhyunProtoCldF10ShuJu_ZbyzXmtzFmjzjxmData_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_HydwDataOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (BOOL)hasGpmc;
+- (NSString *)getGpmc;
+
+- (BOOL)hasLtg;
+- (long long int)getLtg;
+
+- (BOOL)hasPm1;
+- (long long int)getPm1;
+
+- (BOOL)hasZzc;
+- (long long int)getZzc;
+
+- (BOOL)hasPm2;
+- (long long int)getPm2;
+
+- (BOOL)hasZysr;
+- (long long int)getZysr;
+
+- (BOOL)hasPm3;
+- (long long int)getPm3;
+
+- (BOOL)hasMgsy;
+- (long long int)getMgsy;
+
+- (BOOL)hasPm4;
+- (long long int)getPm4;
+
+- (BOOL)hasZgb;
+- (long long int)getZgb;
+
+- (BOOL)hasPm5;
+- (long long int)getPm5;
+
+- (BOOL)hasJzc;
+- (long long int)getJzc;
+
+- (BOOL)hasPm6;
+- (long long int)getPm6;
+
+- (BOOL)hasJlr;
+- (long long int)getJlr;
+
+- (BOOL)hasPm7;
+- (long long int)getPm7;
+
+- (BOOL)hasJzcsyl;
+- (long long int)getJzcsyl;
+
+- (BOOL)hasPm8;
+- (long long int)getPm8;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_HydwDataOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_HydwDataOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_HydwData : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_HydwDataOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_HydwData *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_HydwData *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_HydwData:(ComDzhyunProtoCldF10ShuJu_HydwData *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_HydwData *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_HydwData *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_HydwData *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_HydwData *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_HydwData *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_HydwData *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_HydwData *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_HydwData *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_HydwData_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_HydwData_GPMC_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_HydwData_LTG_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_HydwData_PM1_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_HydwData_ZZC_FIELD_NUMBER 5
+#define ComDzhyunProtoCldF10ShuJu_HydwData_PM2_FIELD_NUMBER 6
+#define ComDzhyunProtoCldF10ShuJu_HydwData_ZYSR_FIELD_NUMBER 7
+#define ComDzhyunProtoCldF10ShuJu_HydwData_PM3_FIELD_NUMBER 8
+#define ComDzhyunProtoCldF10ShuJu_HydwData_MGSY_FIELD_NUMBER 9
+#define ComDzhyunProtoCldF10ShuJu_HydwData_PM4_FIELD_NUMBER 10
+#define ComDzhyunProtoCldF10ShuJu_HydwData_ZGB_FIELD_NUMBER 11
+#define ComDzhyunProtoCldF10ShuJu_HydwData_PM5_FIELD_NUMBER 12
+#define ComDzhyunProtoCldF10ShuJu_HydwData_JZC_FIELD_NUMBER 13
+#define ComDzhyunProtoCldF10ShuJu_HydwData_PM6_FIELD_NUMBER 14
+#define ComDzhyunProtoCldF10ShuJu_HydwData_JLR_FIELD_NUMBER 15
+#define ComDzhyunProtoCldF10ShuJu_HydwData_PM7_FIELD_NUMBER 16
+#define ComDzhyunProtoCldF10ShuJu_HydwData_JZCSYL_FIELD_NUMBER 17
+#define ComDzhyunProtoCldF10ShuJu_HydwData_PM8_FIELD_NUMBER 18
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_HydwData *ComDzhyunProtoCldF10ShuJu_HydwData_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_HydwData_Builder *ComDzhyunProtoCldF10ShuJu_HydwData_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_HydwData_Builder *ComDzhyunProtoCldF10ShuJu_HydwData_newBuilderWithComDzhyunProtoCldF10ShuJu_HydwData_(ComDzhyunProtoCldF10ShuJu_HydwData *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_HydwData_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_HydwData *ComDzhyunProtoCldF10ShuJu_HydwData_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_HydwData *ComDzhyunProtoCldF10ShuJu_HydwData_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_HydwData_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_HydwData *ComDzhyunProtoCldF10ShuJu_HydwData_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_HydwData *ComDzhyunProtoCldF10ShuJu_HydwData_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_HydwData_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_HydwData *ComDzhyunProtoCldF10ShuJu_HydwData_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_HydwData *ComDzhyunProtoCldF10ShuJu_HydwData_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_HydwData_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_HydwData)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_HydwData)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_HydwData_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_HydwData_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_HydwDataOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_HydwData *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_HydwData:(ComDzhyunProtoCldF10ShuJu_HydwData *)message;
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_HydwData *)build;
+- (ComDzhyunProtoCldF10ShuJu_HydwData *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)clearObj;
+
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)setGpmcWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)clearGpmc;
+
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)setLtgWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)clearLtg;
+
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)setPm1WithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)clearPm1;
+
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)setZzcWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)clearZzc;
+
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)setPm2WithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)clearPm2;
+
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)setZysrWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)clearZysr;
+
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)setPm3WithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)clearPm3;
+
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)setMgsyWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)clearMgsy;
+
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)setPm4WithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)clearPm4;
+
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)setZgbWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)clearZgb;
+
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)setPm5WithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)clearPm5;
+
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)setJzcWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)clearJzc;
+
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)setPm6WithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)clearPm6;
+
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)setJlrWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)clearJlr;
+
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)setPm7WithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)clearPm7;
+
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)setJzcsylWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)clearJzcsyl;
+
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)setPm8WithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)clearPm8;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_HydwData_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_HydwData_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_HydwData_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10HydwOutPutOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (BOOL)hasSshy;
+- (NSString *)getSshy;
+
+- (BOOL)hasZjhhy;
+- (NSString *)getZjhhy;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_HydwData *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10HydwOutPutOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10HydwOutPutOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10HydwOutPut : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10HydwOutPutOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10HydwOutPut:(ComDzhyunProtoCldF10ShuJu_F10HydwOutPut *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_DATE_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_SSHY_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_ZJHHY_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_DATA_FIELD_NUMBER 5
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10HydwOutPut *ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_newBuilderWithComDzhyunProtoCldF10ShuJu_F10HydwOutPut_(ComDzhyunProtoCldF10ShuJu_F10HydwOutPut *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10HydwOutPut *ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10HydwOutPut *ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10HydwOutPut *ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10HydwOutPut *ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10HydwOutPut *ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10HydwOutPut *ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10HydwOutPut)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10HydwOutPut)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10HydwOutPutOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10HydwOutPut:(ComDzhyunProtoCldF10ShuJu_F10HydwOutPut *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder *)clearObj;
+
+- (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder *)clearDate;
+
+- (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder *)setSshyWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder *)clearSshy;
+
+- (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder *)setZjhhyWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder *)clearZjhhy;
+- (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_HydwData:(ComDzhyunProtoCldF10ShuJu_HydwData *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_HydwData:
+    (ComDzhyunProtoCldF10ShuJu_HydwData *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_HydwData_Builder:
+    (ComDzhyunProtoCldF10ShuJu_HydwData_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10HydwOutPut_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_RsrProForecastDataOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasEnddate;
+- (NSString *)getEnddate;
+
+- (BOOL)hasMgsy;
+- (long long int)getMgsy;
+
+- (BOOL)hasJlr;
+- (long long int)getJlr;
+
+- (BOOL)hasJlrtb;
+- (long long int)getJlrtb;
+
+- (BOOL)hasZysr;
+- (long long int)getZysr;
+
+- (BOOL)hasZysrtb;
+- (long long int)getZysrtb;
+
+- (BOOL)hasYyyqbhl;
+- (long long int)getYyyqbhl;
+
+- (BOOL)hasItnum;
+- (long long int)getItnum;
+
+- (BOOL)hasMgjzc;
+- (long long int)getMgjzc;
+
+- (BOOL)hasLnzz;
+- (long long int)getLnzz;
+
+- (BOOL)hasSyl;
+- (long long int)getSyl;
+
+- (BOOL)hasSjl;
+- (long long int)getSjl;
+
+- (BOOL)hasPeg2;
+- (long long int)getPeg2;
+
+- (BOOL)hasSxl;
+- (long long int)getSxl;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_RsrProForecastDataOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_RsrProForecastDataOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_RsrProForecastData : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_RsrProForecastDataOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_RsrProForecastData *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_RsrProForecastData:(ComDzhyunProtoCldF10ShuJu_RsrProForecastData *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_RsrProForecastData *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_RsrProForecastData *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_RsrProForecastData *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_RsrProForecastData *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_RsrProForecastData *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_RsrProForecastData *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_RsrProForecastData *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_RsrProForecastData *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_RsrProForecastData_ENDDATE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_RsrProForecastData_MGSY_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_RsrProForecastData_JLR_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_RsrProForecastData_JLRTB_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_RsrProForecastData_ZYSR_FIELD_NUMBER 5
+#define ComDzhyunProtoCldF10ShuJu_RsrProForecastData_ZYSRTB_FIELD_NUMBER 6
+#define ComDzhyunProtoCldF10ShuJu_RsrProForecastData_YYYQBHL_FIELD_NUMBER 7
+#define ComDzhyunProtoCldF10ShuJu_RsrProForecastData_ITNUM_FIELD_NUMBER 8
+#define ComDzhyunProtoCldF10ShuJu_RsrProForecastData_MGJZC_FIELD_NUMBER 9
+#define ComDzhyunProtoCldF10ShuJu_RsrProForecastData_LNZZ_FIELD_NUMBER 10
+#define ComDzhyunProtoCldF10ShuJu_RsrProForecastData_SYL_FIELD_NUMBER 11
+#define ComDzhyunProtoCldF10ShuJu_RsrProForecastData_SJL_FIELD_NUMBER 12
+#define ComDzhyunProtoCldF10ShuJu_RsrProForecastData_PEG2_FIELD_NUMBER 13
+#define ComDzhyunProtoCldF10ShuJu_RsrProForecastData_SXL_FIELD_NUMBER 14
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_RsrProForecastData *ComDzhyunProtoCldF10ShuJu_RsrProForecastData_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *ComDzhyunProtoCldF10ShuJu_RsrProForecastData_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *ComDzhyunProtoCldF10ShuJu_RsrProForecastData_newBuilderWithComDzhyunProtoCldF10ShuJu_RsrProForecastData_(ComDzhyunProtoCldF10ShuJu_RsrProForecastData *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_RsrProForecastData_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_RsrProForecastData *ComDzhyunProtoCldF10ShuJu_RsrProForecastData_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_RsrProForecastData *ComDzhyunProtoCldF10ShuJu_RsrProForecastData_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_RsrProForecastData_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_RsrProForecastData *ComDzhyunProtoCldF10ShuJu_RsrProForecastData_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_RsrProForecastData *ComDzhyunProtoCldF10ShuJu_RsrProForecastData_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_RsrProForecastData_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_RsrProForecastData *ComDzhyunProtoCldF10ShuJu_RsrProForecastData_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_RsrProForecastData *ComDzhyunProtoCldF10ShuJu_RsrProForecastData_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_RsrProForecastData_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_RsrProForecastData)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_RsrProForecastData)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_RsrProForecastData_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_RsrProForecastDataOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_RsrProForecastData:(ComDzhyunProtoCldF10ShuJu_RsrProForecastData *)message;
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData *)build;
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)setEnddateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)clearEnddate;
+
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)setMgsyWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)clearMgsy;
+
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)setJlrWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)clearJlr;
+
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)setJlrtbWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)clearJlrtb;
+
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)setZysrWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)clearZysr;
+
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)setZysrtbWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)clearZysrtb;
+
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)setYyyqbhlWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)clearYyyqbhl;
+
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)setItnumWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)clearItnum;
+
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)setMgjzcWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)clearMgjzc;
+
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)setLnzzWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)clearLnzz;
+
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)setSylWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)clearSyl;
+
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)setSjlWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)clearSjl;
+
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)setPeg2WithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)clearPeg2;
+
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)setSxlWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)clearSxl;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPutOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_RsrProForecastData *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPutOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPutOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPutOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut:(ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_DATE_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_DATA_FIELD_NUMBER 3
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut *ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_newBuilderWithComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_(ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut *ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut *ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut *ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut *ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut *ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut *ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPutOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut:(ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_Builder *)clearObj;
+
+- (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_Builder *)clearDate;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_RsrProForecastData:(ComDzhyunProtoCldF10ShuJu_RsrProForecastData *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_RsrProForecastData:
+    (ComDzhyunProtoCldF10ShuJu_RsrProForecastData *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder:
+    (ComDzhyunProtoCldF10ShuJu_RsrProForecastData_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10RsrProForecastOutPut_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_RsrInvestRatingDataOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasSjdValue;
+- (NSString *)getSjdValue;
+
+- (BOOL)hasMr;
+- (long long int)getMr;
+
+- (BOOL)hasZc;
+- (long long int)getZc;
+
+- (BOOL)hasZx;
+- (long long int)getZx;
+
+- (BOOL)hasJc;
+- (long long int)getJc;
+
+- (BOOL)hasMc;
+- (long long int)getMc;
+
+- (BOOL)hasJgzs;
+- (long long int)getJgzs;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_RsrInvestRatingDataOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_RsrInvestRatingDataOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_RsrInvestRatingDataOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_RsrInvestRatingData:(ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_SJDVALUE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_MR_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_ZC_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_ZX_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_JC_FIELD_NUMBER 5
+#define ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_MC_FIELD_NUMBER 6
+#define ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_JGZS_FIELD_NUMBER 7
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData *ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder *ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder *ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_newBuilderWithComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_(ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData *ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData *ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData *ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData *ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData *ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData *ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_RsrInvestRatingDataOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_RsrInvestRatingData:(ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData *)message;
+- (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData *)build;
+- (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder *)setSjdValueWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder *)clearSjdValue;
+
+- (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder *)setMrWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder *)clearMr;
+
+- (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder *)setZcWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder *)clearZc;
+
+- (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder *)setZxWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder *)clearZx;
+
+- (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder *)setJcWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder *)clearJc;
+
+- (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder *)setMcWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder *)clearMc;
+
+- (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder *)setJgzsWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder *)clearJgzs;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPutOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPutOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPutOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPutOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut:(ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_DATE_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_DATA_FIELD_NUMBER 3
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut *ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_newBuilderWithComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_(ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut *ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut *ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut *ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut *ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut *ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut *ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPutOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut:(ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_Builder *)clearObj;
+
+- (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_Builder *)clearDate;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_RsrInvestRatingData:(ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_RsrInvestRatingData:
+    (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder:
+    (ComDzhyunProtoCldF10ShuJu_RsrInvestRatingData_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10RsrInvestRatingOutPut_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeDataOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasEndDate;
+- (NSString *)getEndDate;
+
+- (BOOL)hasPj;
+- (NSString *)getPj;
+
+- (BOOL)hasValue;
+- (long long int)getValue;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeDataOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeDataOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeDataOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData:(ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_ENDDATE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_PJ_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_VALUE_FIELD_NUMBER 3
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData *ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_Builder *ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_Builder *ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_newBuilderWithComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_(ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData *ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData *ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData *ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData *ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData *ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData *ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeDataOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData:(ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData *)message;
+- (ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData *)build;
+- (ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_Builder *)setEndDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_Builder *)clearEndDate;
+
+- (ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_Builder *)setPjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_Builder *)clearPj;
+
+- (ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_Builder *)setValueWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_Builder *)clearValue;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasCompanyName;
+- (NSString *)getCompanyName;
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore:(ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_COMPANYNAME_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_DATE_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_DATA_FIELD_NUMBER 3
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore *ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_Builder *ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_Builder *ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_newBuilderWithComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_(ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore *ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore *ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore *ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore *ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore *ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore *ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore:(ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_Builder *)setCompanyNameWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_Builder *)clearCompanyName;
+
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_Builder *)clearDate;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData:(ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData:
+    (ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_Builder:
+    (ComDzhyunProtoCldF10ShuJu_RsrEarnPSForeData_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10RsrResReportOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (BOOL)hasCompanyName;
+- (NSString *)getCompanyName;
+
+- (BOOL)hasTitles;
+- (NSString *)getTitles;
+
+- (BOOL)hasInvestAdvice;
+- (NSString *)getInvestAdvice;
+
+- (BOOL)hasPsName;
+- (NSString *)getPsName;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10RsrResReportOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10RsrResReportOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10RsrResReport : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10RsrResReportOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10RsrResReport *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReport *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrResReport_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReport_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReport_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrResReport_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10RsrResReport:(ComDzhyunProtoCldF10ShuJu_F10RsrResReport *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrResReport *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrResReport *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrResReport *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrResReport *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrResReport *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrResReport *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrResReport *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrResReport *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10RsrResReport_DATE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10RsrResReport_COMPANYNAME_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10RsrResReport_TITLES_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_F10RsrResReport_INVESTADVICE_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_F10RsrResReport_PSNAME_FIELD_NUMBER 5
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrResReport *ComDzhyunProtoCldF10ShuJu_F10RsrResReport_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrResReport_Builder *ComDzhyunProtoCldF10ShuJu_F10RsrResReport_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrResReport_Builder *ComDzhyunProtoCldF10ShuJu_F10RsrResReport_newBuilderWithComDzhyunProtoCldF10ShuJu_F10RsrResReport_(ComDzhyunProtoCldF10ShuJu_F10RsrResReport *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10RsrResReport_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrResReport *ComDzhyunProtoCldF10ShuJu_F10RsrResReport_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10RsrResReport *ComDzhyunProtoCldF10ShuJu_F10RsrResReport_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10RsrResReport_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrResReport *ComDzhyunProtoCldF10ShuJu_F10RsrResReport_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10RsrResReport *ComDzhyunProtoCldF10ShuJu_F10RsrResReport_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10RsrResReport_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrResReport *ComDzhyunProtoCldF10ShuJu_F10RsrResReport_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10RsrResReport *ComDzhyunProtoCldF10ShuJu_F10RsrResReport_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10RsrResReport_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10RsrResReport)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10RsrResReport)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10RsrResReport_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10RsrResReport_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10RsrResReportOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReport *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReport_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10RsrResReport:(ComDzhyunProtoCldF10ShuJu_F10RsrResReport *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReport_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReport *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReport *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReport_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReport_Builder *)clearDate;
+
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReport_Builder *)setCompanyNameWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReport_Builder *)clearCompanyName;
+
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReport_Builder *)setTitlesWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReport_Builder *)clearTitles;
+
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReport_Builder *)setInvestAdviceWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReport_Builder *)clearInvestAdvice;
+
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReport_Builder *)setPsNameWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReport_Builder *)clearPsName;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10RsrResReport_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10RsrResReport_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10RsrResReport_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10GsgkOutputOrBuilder < ComGoogleProtobufMessageOrBuilder >
 
 - (BOOL)hasObj;
 - (NSString *)getObj;
@@ -78,13 +5424,13 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu)
 - (NSString *)getZgrq;
 
 - (BOOL)hasFxl;
-- (double)getFxl;
+- (long long int)getFxl;
 
 - (BOOL)hasFxj;
-- (double)getFxj;
+- (long long int)getFxj;
 
 - (BOOL)hasSrkpj;
-- (double)getSrkpj;
+- (long long int)getSrkpj;
 
 - (BOOL)hasSstjr;
 - (NSString *)getSstjr;
@@ -139,461 +5485,545 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu)
 
 @end
 
-J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_GSGKOrBuilder)
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GsgkOutputOrBuilder)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_GSGKOrBuilder)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GsgkOutputOrBuilder)
 
-@interface ComDzhyunProtoCldF10ShuJu_F10_GSGK : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10_GSGKOrBuilder>
+@interface ComDzhyunProtoCldF10ShuJu_F10GsgkOutput : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10GsgkOutputOrBuilder>
 
-+ (ComDzhyunProtoCldF10ShuJu_F10_GSGK *)getDefaultInstance;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK *)getDefaultInstanceForType;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)toBuilder;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10_GSGK:(ComDzhyunProtoCldF10ShuJu_F10_GSGK *)message OBJC_METHOD_FAMILY_NONE;
++ (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10GsgkOutput:(ComDzhyunProtoCldF10ShuJu_F10GsgkOutput *)message OBJC_METHOD_FAMILY_NONE;
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GSGK *)parseFromWithByteArray:(IOSByteArray *)bytes;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GSGK *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GSGK *)parseFromNSData:(NSData *)data;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GSGK *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GSGK *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GSGK *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GSGK *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GSGK *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
 
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_OBJ_FIELD_NUMBER 1
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_ZQLX_FIELD_NUMBER 2
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_GSDM_FIELD_NUMBER 3
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_GSMC_FIELD_NUMBER 4
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_YWQC_FIELD_NUMBER 5
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_ZCDZ_FIELD_NUMBER 6
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_BGDZ_FIELD_NUMBER 7
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_SSQY_FIELD_NUMBER 8
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_SSHY_FIELD_NUMBER 9
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_GSWZ_FIELD_NUMBER 10
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_DZXX_FIELD_NUMBER 11
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_SSRQ_FIELD_NUMBER 12
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_ZGRQ_FIELD_NUMBER 13
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_FXL_FIELD_NUMBER 14
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_FXJ_FIELD_NUMBER 15
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_SRKPJ_FIELD_NUMBER 16
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_SSTJR_FIELD_NUMBER 17
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_ZCXS_FIELD_NUMBER 18
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_FRDB_FIELD_NUMBER 19
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_DSZ_FIELD_NUMBER 20
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_ZJL_FIELD_NUMBER 21
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_DM_FIELD_NUMBER 22
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_ZQDB_FIELD_NUMBER 23
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_DH_FIELD_NUMBER 24
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_CZ_FIELD_NUMBER 25
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_YB_FIELD_NUMBER 26
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_KJSWS_FIELD_NUMBER 27
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_ZYFW_FIELD_NUMBER 28
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_GSJS_FIELD_NUMBER 29
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_DMDH_FIELD_NUMBER 30
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_DMCZ_FIELD_NUMBER 31
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_DMDZYX_FIELD_NUMBER 32
-#define ComDzhyunProtoCldF10ShuJu_F10_GSGK_REGIONNAME_FIELD_NUMBER 33
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_ZQLX_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_GSDM_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_GSMC_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_YWQC_FIELD_NUMBER 5
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_ZCDZ_FIELD_NUMBER 6
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_BGDZ_FIELD_NUMBER 7
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_SSQY_FIELD_NUMBER 8
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_SSHY_FIELD_NUMBER 9
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_GSWZ_FIELD_NUMBER 10
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_DZXX_FIELD_NUMBER 11
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_SSRQ_FIELD_NUMBER 12
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_ZGRQ_FIELD_NUMBER 13
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_FXL_FIELD_NUMBER 14
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_FXJ_FIELD_NUMBER 15
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_SRKPJ_FIELD_NUMBER 16
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_SSTJR_FIELD_NUMBER 17
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_ZCXS_FIELD_NUMBER 18
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_FRDB_FIELD_NUMBER 19
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_DSZ_FIELD_NUMBER 20
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_ZJL_FIELD_NUMBER 21
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_DM_FIELD_NUMBER 22
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_ZQDB_FIELD_NUMBER 23
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_DH_FIELD_NUMBER 24
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_CZ_FIELD_NUMBER 25
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_YB_FIELD_NUMBER 26
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_KJSWS_FIELD_NUMBER 27
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_ZYFW_FIELD_NUMBER 28
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_GSJS_FIELD_NUMBER 29
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_DMDH_FIELD_NUMBER 30
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_DMCZ_FIELD_NUMBER 31
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_DMDZYX_FIELD_NUMBER 32
+#define ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_REGIONNAME_FIELD_NUMBER 33
 
 @end
 
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GSGK *ComDzhyunProtoCldF10ShuJu_F10_GSGK_getDefaultInstance();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *ComDzhyunProtoCldF10ShuJu_F10_GSGK_newBuilder();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *ComDzhyunProtoCldF10ShuJu_F10_GSGK_newBuilderWithComDzhyunProtoCldF10ShuJu_F10_GSGK_(ComDzhyunProtoCldF10ShuJu_F10_GSGK *message);
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_GSGK_getDescriptor();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GSGK *ComDzhyunProtoCldF10ShuJu_F10_GSGK_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_GSGK *ComDzhyunProtoCldF10ShuJu_F10_GSGK_parseFromWithByteArray_(IOSByteArray *bytes) {
-  return ComDzhyunProtoCldF10ShuJu_F10_GSGK_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GsgkOutput *ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_newBuilderWithComDzhyunProtoCldF10ShuJu_F10GsgkOutput_(ComDzhyunProtoCldF10ShuJu_F10GsgkOutput *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GsgkOutput *ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GsgkOutput *ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
 }
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GSGK *ComDzhyunProtoCldF10ShuJu_F10_GSGK_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_GSGK *ComDzhyunProtoCldF10ShuJu_F10_GSGK_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
-  return ComDzhyunProtoCldF10ShuJu_F10_GSGK_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GsgkOutput *ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GsgkOutput *ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
 }
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GSGK *ComDzhyunProtoCldF10ShuJu_F10_GSGK_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_GSGK *ComDzhyunProtoCldF10ShuJu_F10_GSGK_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
-  return ComDzhyunProtoCldF10ShuJu_F10_GSGK_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GsgkOutput *ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GsgkOutput *ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
 }
 
-J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_GSGK)
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GsgkOutput)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_GSGK)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GsgkOutput)
 
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_GSGK_descriptor_;
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_descriptor_;
 
-@interface ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10_GSGKOrBuilder>
+@interface ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10GsgkOutputOrBuilder>
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK *)getDefaultInstanceForType;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10_GSGK:(ComDzhyunProtoCldF10ShuJu_F10_GSGK *)message;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK *)build;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK *)buildPartial;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10GsgkOutput:(ComDzhyunProtoCldF10ShuJu_F10GsgkOutput *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput *)buildPartial;
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setObjWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setObjWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearObj;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setZqlxWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setZqlxWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearZqlx;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearZqlx;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setGsdmWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setGsdmWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearGsdm;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearGsdm;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setGsmcWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setGsmcWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearGsmc;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearGsmc;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setYwqcWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setYwqcWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearYwqc;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearYwqc;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setZcdzWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setZcdzWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearZcdz;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearZcdz;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setBgdzWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setBgdzWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearBgdz;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearBgdz;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setSsqyWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setSsqyWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearSsqy;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearSsqy;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setSshyWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setSshyWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearSshy;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearSshy;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setGswzWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setGswzWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearGswz;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearGswz;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setDzxxWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setDzxxWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearDzxx;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearDzxx;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setSsrqWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setSsrqWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearSsrq;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearSsrq;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setZgrqWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setZgrqWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearZgrq;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearZgrq;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setFxlWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearFxl;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setFxlWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearFxl;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setFxjWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearFxj;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setFxjWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearFxj;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setSrkpjWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearSrkpj;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setSrkpjWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearSrkpj;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setSstjrWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setSstjrWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearSstjr;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearSstjr;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setZcxsWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setZcxsWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearZcxs;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearZcxs;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setFrdbWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setFrdbWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearFrdb;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearFrdb;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setDszWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setDszWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearDsz;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearDsz;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setZjlWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setZjlWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearZjl;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearZjl;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setDmWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setDmWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearDm;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearDm;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setZqdbWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setZqdbWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearZqdb;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearZqdb;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setDhWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setDhWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearDh;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearDh;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setCzWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setCzWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearCz;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearCz;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setYbWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setYbWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearYb;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearYb;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setKjswsWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setKjswsWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearKjsws;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearKjsws;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setZyfwWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setZyfwWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearZyfw;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearZyfw;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setGsjsWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setGsjsWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearGsjs;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearGsjs;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setDmdhWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setDmdhWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearDmdh;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearDmdh;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setDmczWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setDmczWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearDmcz;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearDmcz;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setDmdzyxWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setDmdzyxWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearDmdzyx;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearDmdzyx;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)setRegionNameWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)setRegionNameWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder *)clearRegionName;
+- (ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder *)clearRegionName;
 
 @end
 
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder_getDescriptor();
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder_getDescriptor();
 
-J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder)
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_GSGK_Builder)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GsgkOutput_Builder)
 
-@protocol ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZBOrBuilder < ComGoogleProtobufMessageOrBuilder >
+@protocol ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOrBuilder < ComGoogleProtobufMessageOrBuilder >
 
-- (BOOL)hasObj;
-- (NSString *)getObj;
+- (BOOL)hasKjssjyj;
+- (NSString *)getKjssjyj;
 
 - (BOOL)hasDate;
 - (NSString *)getDate;
 
 - (BOOL)hasJbmgsy;
-- (double)getJbmgsy;
+- (long long int)getJbmgsy;
 
 - (BOOL)hasKchjbmgsy;
-- (double)getKchjbmgsy;
+- (long long int)getKchjbmgsy;
 
 - (BOOL)hasTbmgsy;
-- (double)getTbmgsy;
+- (long long int)getTbmgsy;
 
 - (BOOL)hasMgjzc;
-- (double)getMgjzc;
+- (long long int)getMgjzc;
 
 - (BOOL)hasMgwfplr;
-- (double)getMgwfplr;
+- (long long int)getMgwfplr;
 
 - (BOOL)hasMggjj;
-- (double)getMggjj;
+- (long long int)getMggjj;
 
 - (BOOL)hasXsmll;
-- (double)getXsmll;
+- (long long int)getXsmll;
 
 - (BOOL)hasYylrl;
-- (double)getYylrl;
+- (long long int)getYylrl;
 
 - (BOOL)hasJlrl;
-- (double)getJlrl;
+- (long long int)getJlrl;
 
 - (BOOL)hasJqjzcsyl;
-- (double)getJqjzcsyl;
+- (long long int)getJqjzcsyl;
 
 - (BOOL)hasTbjzcsyl;
-- (double)getTbjzcsyl;
+- (long long int)getTbjzcsyl;
 
 - (BOOL)hasGdqy;
-- (double)getGdqy;
+- (long long int)getGdqy;
 
 - (BOOL)hasLdbl;
-- (double)getLdbl;
+- (long long int)getLdbl;
 
 - (BOOL)hasSdbl;
-- (double)getSdbl;
+- (long long int)getSdbl;
 
 - (BOOL)hasMgjyxjll;
-- (double)getMgjyxjll;
-
-- (BOOL)hasKjssjyj;
-- (NSString *)getKjssjyj;
+- (long long int)getMgjyxjll;
 
 - (BOOL)hasBbgbr;
 - (NSString *)getBbgbr;
 
 @end
 
-J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZBOrBuilder)
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOrBuilder)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZBOrBuilder)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOrBuilder)
 
-@interface ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZBOrBuilder>
+@interface ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOrBuilder>
 
-+ (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB *)getDefaultInstance;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB *)getDefaultInstanceForType;
-+ (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)toBuilder;
-+ (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB:(ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB *)message OBJC_METHOD_FAMILY_NONE;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb:(ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb *)message OBJC_METHOD_FAMILY_NONE;
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
-+ (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB *)parseFromWithByteArray:(IOSByteArray *)bytes;
-+ (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB *)parseFromNSData:(NSData *)data;
-+ (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
-+ (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
-+ (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
 
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_OBJ_FIELD_NUMBER 1
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_DATE_FIELD_NUMBER 2
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_JBMGSY_FIELD_NUMBER 3
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_KCHJBMGSY_FIELD_NUMBER 4
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_TBMGSY_FIELD_NUMBER 5
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_MGJZC_FIELD_NUMBER 6
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_MGWFPLR_FIELD_NUMBER 7
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_MGGJJ_FIELD_NUMBER 8
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_XSMLL_FIELD_NUMBER 9
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_YYLRL_FIELD_NUMBER 10
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_JLRL_FIELD_NUMBER 11
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_JQJZCSYL_FIELD_NUMBER 12
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_TBJZCSYL_FIELD_NUMBER 13
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_GDQY_FIELD_NUMBER 14
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_LDBL_FIELD_NUMBER 15
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_SDBL_FIELD_NUMBER 16
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_MGJYXJLL_FIELD_NUMBER 17
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_KJSSJYJ_FIELD_NUMBER 18
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_BBGBR_FIELD_NUMBER 19
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_KJSSJYJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_DATE_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_JBMGSY_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_KCHJBMGSY_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_TBMGSY_FIELD_NUMBER 5
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_MGJZC_FIELD_NUMBER 6
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_MGWFPLR_FIELD_NUMBER 7
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_MGGJJ_FIELD_NUMBER 8
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_XSMLL_FIELD_NUMBER 9
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_YYLRL_FIELD_NUMBER 10
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_JLRL_FIELD_NUMBER 11
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_JQJZCSYL_FIELD_NUMBER 12
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_TBJZCSYL_FIELD_NUMBER 13
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_GDQY_FIELD_NUMBER 14
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_LDBL_FIELD_NUMBER 15
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_SDBL_FIELD_NUMBER 16
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_MGJYXJLL_FIELD_NUMBER 17
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_BBGBR_FIELD_NUMBER 18
 
 @end
 
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB *ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_getDefaultInstance();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_newBuilder();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_newBuilderWithComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_(ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB *message);
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_getDescriptor();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB *ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB *ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_parseFromWithByteArray_(IOSByteArray *bytes) {
-  return ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb *ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_newBuilderWithComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_(ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb *ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb *ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
 }
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB *ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB *ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
-  return ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb *ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb *ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
 }
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB *ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB *ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
-  return ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb *ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb *ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
 }
 
-J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB)
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb)
 
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_descriptor_;
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_descriptor_;
 
-@interface ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZBOrBuilder>
+@interface ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOrBuilder>
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB *)getDefaultInstanceForType;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB:(ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB *)message;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB *)build;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB *)buildPartial;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb:(ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb *)buildPartial;
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)setObjWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)setKjssjyjWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)clearKjssjyj;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)setDateWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)setDateWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)clearDate;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)clearDate;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)setJbmgsyWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)clearJbmgsy;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)setJbmgsyWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)clearJbmgsy;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)setKchjbmgsyWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)clearKchjbmgsy;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)setKchjbmgsyWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)clearKchjbmgsy;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)setTbmgsyWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)clearTbmgsy;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)setTbmgsyWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)clearTbmgsy;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)setMgjzcWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)clearMgjzc;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)setMgjzcWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)clearMgjzc;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)setMgwfplrWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)clearMgwfplr;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)setMgwfplrWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)clearMgwfplr;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)setMggjjWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)clearMggjj;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)setMggjjWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)clearMggjj;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)setXsmllWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)clearXsmll;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)setXsmllWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)clearXsmll;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)setYylrlWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)clearYylrl;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)setYylrlWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)clearYylrl;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)setJlrlWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)clearJlrl;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)setJlrlWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)clearJlrl;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)setJqjzcsylWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)clearJqjzcsyl;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)setJqjzcsylWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)clearJqjzcsyl;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)setTbjzcsylWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)clearTbjzcsyl;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)setTbjzcsylWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)clearTbjzcsyl;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)setGdqyWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)clearGdqy;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)setGdqyWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)clearGdqy;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)setLdblWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)clearLdbl;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)setLdblWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)clearLdbl;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)setSdblWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)clearSdbl;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)setSdblWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)clearSdbl;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)setMgjyxjllWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)clearMgjyxjll;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)setMgjyxjllWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)clearMgjyxjll;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)setKjssjyjWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)setBbgbrWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)clearKjssjyj;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)setBbgbrWithNSString:
-    (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder *)clearBbgbr;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)clearBbgbr;
 
 @end
 
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder_getDescriptor();
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder_getDescriptor();
 
-J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder)
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder)
 
-@protocol ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZYOrBuilder < ComGoogleProtobufMessageOrBuilder >
+@protocol ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutputOrBuilder < ComGoogleProtobufMessageOrBuilder >
 
 - (BOOL)hasObj;
 - (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutputOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutputOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutputOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput:(ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput *ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_newBuilderWithComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_(ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput *ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput *ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput *ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput *ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput *ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput *ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutputOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput:(ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb:(ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb:
+    (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzb_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CwtsZycwzbOutput_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasXjjzje;
+- (long long int)getXjjzje;
 
 - (BOOL)hasDate;
 - (NSString *)getDate;
@@ -602,537 +6032,786 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_CWTS_ZYCWZB_Builder)
 - (NSString *)getDw;
 
 - (BOOL)hasJyxjlr;
-- (double)getJyxjlr;
+- (long long int)getJyxjlr;
 
 - (BOOL)hasJyxjlc;
-- (double)getJyxjlc;
+- (long long int)getJyxjlc;
 
 - (BOOL)hasJyxjje;
-- (double)getJyxjje;
+- (long long int)getJyxjje;
 
 - (BOOL)hasTzxjlr;
-- (double)getTzxjlr;
+- (long long int)getTzxjlr;
 
 - (BOOL)hasTzxjlc;
-- (double)getTzxjlc;
+- (long long int)getTzxjlc;
 
 - (BOOL)hasTzxjje;
-- (double)getTzxjje;
+- (long long int)getTzxjje;
 
 - (BOOL)hasCzxjlr;
-- (double)getCzxjlr;
+- (long long int)getCzxjlr;
 
 - (BOOL)hasCzxjlc;
-- (double)getCzxjlc;
+- (long long int)getCzxjlc;
 
 - (BOOL)hasCzxjje;
-- (double)getCzxjje;
-
-- (BOOL)hasXjjzje;
-- (double)getXjjzje;
+- (long long int)getCzxjje;
 
 @end
 
-J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZYOrBuilder)
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOrBuilder)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZYOrBuilder)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOrBuilder)
 
-@interface ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZYOrBuilder>
+@interface ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOrBuilder>
 
-+ (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY *)getDefaultInstance;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY *)getDefaultInstanceForType;
-+ (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)toBuilder;
-+ (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY:(ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY *)message OBJC_METHOD_FAMILY_NONE;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy:(ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy *)message OBJC_METHOD_FAMILY_NONE;
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
-+ (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY *)parseFromWithByteArray:(IOSByteArray *)bytes;
-+ (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY *)parseFromNSData:(NSData *)data;
-+ (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
-+ (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
-+ (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
 
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_OBJ_FIELD_NUMBER 1
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_DATE_FIELD_NUMBER 2
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_DW_FIELD_NUMBER 3
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_JYXJLR_FIELD_NUMBER 4
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_JYXJLC_FIELD_NUMBER 5
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_JYXJJE_FIELD_NUMBER 6
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_TZXJLR_FIELD_NUMBER 7
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_TZXJLC_FIELD_NUMBER 8
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_TZXJJE_FIELD_NUMBER 9
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_CZXJLR_FIELD_NUMBER 10
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_CZXJLC_FIELD_NUMBER 11
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_CZXJJE_FIELD_NUMBER 12
-#define ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_XJJZJE_FIELD_NUMBER 13
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_XJJZJE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_DATE_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_DW_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_JYXJLR_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_JYXJLC_FIELD_NUMBER 5
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_JYXJJE_FIELD_NUMBER 6
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_TZXJLR_FIELD_NUMBER 7
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_TZXJLC_FIELD_NUMBER 8
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_TZXJJE_FIELD_NUMBER 9
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_CZXJLR_FIELD_NUMBER 10
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_CZXJLC_FIELD_NUMBER 11
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_CZXJJE_FIELD_NUMBER 12
 
 @end
 
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY *ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_getDefaultInstance();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_newBuilder();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_newBuilderWithComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_(ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY *message);
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_getDescriptor();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY *ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY *ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_parseFromWithByteArray_(IOSByteArray *bytes) {
-  return ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy *ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_newBuilderWithComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_(ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy *ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy *ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
 }
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY *ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY *ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
-  return ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy *ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy *ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
 }
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY *ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY *ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
-  return ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy *ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy *ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
 }
 
-J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY)
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy)
 
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_descriptor_;
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_descriptor_;
 
-@interface ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZYOrBuilder>
+@interface ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOrBuilder>
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY *)getDefaultInstanceForType;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY:(ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY *)message;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY *)build;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY *)buildPartial;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy:(ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy *)buildPartial;
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)setObjWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)setXjjzjeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)clearXjjzje;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)setDateWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)clearDate;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)setDateWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)setDwWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)clearDate;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)clearDw;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)setDwWithNSString:
-    (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)clearDw;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)setJyxjlrWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)clearJyxjlr;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)setJyxjlrWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)clearJyxjlr;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)setJyxjlcWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)clearJyxjlc;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)setJyxjlcWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)clearJyxjlc;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)setJyxjjeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)clearJyxjje;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)setJyxjjeWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)clearJyxjje;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)setTzxjlrWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)clearTzxjlr;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)setTzxjlrWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)clearTzxjlr;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)setTzxjlcWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)clearTzxjlc;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)setTzxjlcWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)clearTzxjlc;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)setTzxjjeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)clearTzxjje;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)setTzxjjeWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)clearTzxjje;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)setCzxjlrWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)clearCzxjlr;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)setCzxjlrWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)clearCzxjlr;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)setCzxjlcWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)clearCzxjlc;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)setCzxjlcWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)clearCzxjlc;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)setCzxjjeWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)clearCzxjje;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)setXjjzjeWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder *)clearXjjzje;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)setCzxjjeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)clearCzxjje;
 
 @end
 
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder_getDescriptor();
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder_getDescriptor();
 
-J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder)
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_CWTS_XJLLBZY_Builder)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder)
 
-@protocol ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZBOrBuilder < ComGoogleProtobufMessageOrBuilder >
+@protocol ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutputOrBuilder < ComGoogleProtobufMessageOrBuilder >
 
 - (BOOL)hasObj;
 - (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutputOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutputOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutputOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput:(ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput *ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_newBuilderWithComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_(ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput *ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput *ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput *ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput *ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput *ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput *ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutputOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput:(ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy:(ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy:
+    (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzy_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CwtsXjllbzyOutput_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasJlrhb;
+- (long long int)getJlrhb;
 
 - (BOOL)hasDate;
 - (NSString *)getDate;
 
 - (BOOL)hasMgsy;
-- (double)getMgsy;
+- (long long int)getMgsy;
 
 - (BOOL)hasXsjll;
-- (double)getXsjll;
+- (long long int)getXsjll;
 
 - (BOOL)hasJzcsyl;
-- (double)getJzcsyl;
+- (long long int)getJzcsyl;
 
 - (BOOL)hasMgjyxjll;
-- (double)getMgjyxjll;
+- (long long int)getMgjyxjll;
 
 - (BOOL)hasZysrtb;
-- (double)getZysrtb;
+- (long long int)getZysrtb;
 
 - (BOOL)hasJlrtb;
-- (double)getJlrtb;
+- (long long int)getJlrtb;
 
 - (BOOL)hasZysrhb;
-- (double)getZysrhb;
-
-- (BOOL)hasJlrhb;
-- (double)getJlrhb;
+- (long long int)getZysrhb;
 
 @end
 
-J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZBOrBuilder)
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOrBuilder)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZBOrBuilder)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOrBuilder)
 
-@interface ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZBOrBuilder>
+@interface ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOrBuilder>
 
-+ (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB *)getDefaultInstance;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB *)getDefaultInstanceForType;
-+ (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder *)toBuilder;
-+ (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB:(ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB *)message OBJC_METHOD_FAMILY_NONE;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb:(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb *)message OBJC_METHOD_FAMILY_NONE;
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
-+ (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB *)parseFromWithByteArray:(IOSByteArray *)bytes;
-+ (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB *)parseFromNSData:(NSData *)data;
-+ (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
-+ (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
-+ (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
 
-#define ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_OBJ_FIELD_NUMBER 1
-#define ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_DATE_FIELD_NUMBER 2
-#define ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_MGSY_FIELD_NUMBER 3
-#define ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_XSJLL_FIELD_NUMBER 4
-#define ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_JZCSYL_FIELD_NUMBER 5
-#define ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_MGJYXJLL_FIELD_NUMBER 6
-#define ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_ZYSRTB_FIELD_NUMBER 7
-#define ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_JLRTB_FIELD_NUMBER 8
-#define ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_ZYSRHB_FIELD_NUMBER 9
-#define ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_JLRHB_FIELD_NUMBER 10
+#define ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_JLRHB_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_DATE_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_MGSY_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_XSJLL_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_JZCSYL_FIELD_NUMBER 5
+#define ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_MGJYXJLL_FIELD_NUMBER 6
+#define ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_ZYSRTB_FIELD_NUMBER 7
+#define ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_JLRTB_FIELD_NUMBER 8
+#define ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_ZYSRHB_FIELD_NUMBER 9
 
 @end
 
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB *ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_getDefaultInstance();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder *ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_newBuilder();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder *ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_newBuilderWithComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_(ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB *message);
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_getDescriptor();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB *ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB *ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_parseFromWithByteArray_(IOSByteArray *bytes) {
-  return ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
 }
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB *ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB *ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
-  return ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
 }
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB *ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB *ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
-  return ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
 }
 
-J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB)
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb)
 
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_descriptor_;
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_descriptor_;
 
-@interface ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZBOrBuilder>
+@interface ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOrBuilder>
 
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB *)getDefaultInstanceForType;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB:(ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB *)message;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB *)build;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB *)buildPartial;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb:(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb *)buildPartial;
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder *)setObjWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder *)setJlrhbWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder *)clearJlrhb;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder *)setDateWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder *)clearDate;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder *)setDateWithNSString:
-    (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder *)clearDate;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder *)setMgsyWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder *)clearMgsy;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder *)setMgsyWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder *)clearMgsy;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder *)setXsjllWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder *)clearXsjll;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder *)setXsjllWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder *)clearXsjll;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder *)setJzcsylWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder *)clearJzcsyl;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder *)setJzcsylWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder *)clearJzcsyl;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder *)setMgjyxjllWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder *)clearMgjyxjll;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder *)setMgjyxjllWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder *)clearMgjyxjll;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder *)setZysrtbWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder *)clearZysrtb;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder *)setZysrtbWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder *)clearZysrtb;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder *)setJlrtbWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder *)clearJlrtb;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder *)setJlrtbWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder *)clearJlrtb;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder *)setZysrhbWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder *)clearZysrhb;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder *)setJlrhbWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder *)clearJlrhb;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder *)setZysrhbWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder *)clearZysrhb;
 
 @end
 
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder_getDescriptor();
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder_getDescriptor();
 
-J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder)
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDCWZB_Builder)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder)
 
-@protocol ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEBOrBuilder < ComGoogleProtobufMessageOrBuilder >
+@protocol ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutputOrBuilder < ComGoogleProtobufMessageOrBuilder >
 
 - (BOOL)hasObj;
 - (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutputOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutputOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutputOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput:(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutputOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput:(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb:(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb:
+    (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzb_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdcwzbOutput_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasSsgdsy;
+- (long long int)getSsgdsy;
 
 - (BOOL)hasDate;
 - (NSString *)getDate;
 
 - (BOOL)hasYysr;
-- (double)getYysr;
+- (long long int)getYysr;
 
 - (BOOL)hasYycb;
-- (double)getYycb;
+- (long long int)getYycb;
 
 - (BOOL)hasYysjjfj;
-- (double)getYysjjfj;
+- (long long int)getYysjjfj;
 
 - (BOOL)hasXsfy;
-- (double)getXsfy;
+- (long long int)getXsfy;
 
 - (BOOL)hasGlfy;
-- (double)getGlfy;
+- (long long int)getGlfy;
 
 - (BOOL)hasCwfy;
-- (double)getCwfy;
+- (long long int)getCwfy;
 
 - (BOOL)hasTzsy;
-- (double)getTzsy;
+- (long long int)getTzsy;
 
 - (BOOL)hasYylr;
-- (double)getYylr;
+- (long long int)getYylr;
 
 - (BOOL)hasYywsr;
-- (double)getYywsr;
+- (long long int)getYywsr;
 
 - (BOOL)hasYywzc;
-- (double)getYywzc;
+- (long long int)getYywzc;
 
 - (BOOL)hasLrze;
-- (double)getLrze;
+- (long long int)getLrze;
 
 - (BOOL)hasSdsfy;
-- (double)getSdsfy;
+- (long long int)getSdsfy;
 
 - (BOOL)hasJlr;
-- (double)getJlr;
+- (long long int)getJlr;
 
 - (BOOL)hasMgzjlr;
-- (double)getMgzjlr;
-
-- (BOOL)hasSsgdsy;
-- (double)getSsgdsy;
+- (long long int)getMgzjlr;
 
 @end
 
-J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEBOrBuilder)
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOrBuilder)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEBOrBuilder)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOrBuilder)
 
-@interface ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEBOrBuilder>
+@interface ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOrBuilder>
 
-+ (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB *)getDefaultInstance;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB *)getDefaultInstanceForType;
-+ (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)toBuilder;
-+ (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB:(ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB *)message OBJC_METHOD_FAMILY_NONE;
++ (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb:(ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb *)message OBJC_METHOD_FAMILY_NONE;
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
-+ (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB *)parseFromWithByteArray:(IOSByteArray *)bytes;
-+ (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB *)parseFromNSData:(NSData *)data;
-+ (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
-+ (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
-+ (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
 
-#define ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_OBJ_FIELD_NUMBER 1
-#define ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_DATE_FIELD_NUMBER 2
-#define ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_YYSR_FIELD_NUMBER 3
-#define ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_YYCB_FIELD_NUMBER 4
-#define ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_YYSJJFJ_FIELD_NUMBER 5
-#define ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_XSFY_FIELD_NUMBER 6
-#define ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_GLFY_FIELD_NUMBER 7
-#define ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_CWFY_FIELD_NUMBER 8
-#define ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_TZSY_FIELD_NUMBER 9
-#define ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_YYLR_FIELD_NUMBER 10
-#define ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_YYWSR_FIELD_NUMBER 11
-#define ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_YYWZC_FIELD_NUMBER 12
-#define ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_LRZE_FIELD_NUMBER 13
-#define ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_SDSFY_FIELD_NUMBER 14
-#define ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_JLR_FIELD_NUMBER 15
-#define ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_MGZJLR_FIELD_NUMBER 16
-#define ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_SSGDSY_FIELD_NUMBER 17
+#define ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_SSGDSY_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_DATE_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_YYSR_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_YYCB_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_YYSJJFJ_FIELD_NUMBER 5
+#define ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_XSFY_FIELD_NUMBER 6
+#define ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_GLFY_FIELD_NUMBER 7
+#define ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_CWFY_FIELD_NUMBER 8
+#define ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_TZSY_FIELD_NUMBER 9
+#define ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_YYLR_FIELD_NUMBER 10
+#define ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_YYWSR_FIELD_NUMBER 11
+#define ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_YYWZC_FIELD_NUMBER 12
+#define ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_LRZE_FIELD_NUMBER 13
+#define ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_SDSFY_FIELD_NUMBER 14
+#define ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_JLR_FIELD_NUMBER 15
+#define ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_MGZJLR_FIELD_NUMBER 16
 
 @end
 
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB *ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_getDefaultInstance();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_newBuilder();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_newBuilderWithComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_(ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB *message);
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_getDescriptor();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB *ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB *ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_parseFromWithByteArray_(IOSByteArray *bytes) {
-  return ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb *ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_newBuilderWithComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_(ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb *ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb *ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
 }
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB *ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB *ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
-  return ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb *ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb *ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
 }
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB *ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB *ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
-  return ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb *ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb *ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
 }
 
-J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB)
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb)
 
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_descriptor_;
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_descriptor_;
 
-@interface ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEBOrBuilder>
+@interface ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOrBuilder>
 
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB *)getDefaultInstanceForType;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB:(ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB *)message;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB *)build;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB *)buildPartial;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb:(ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb *)buildPartial;
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)setObjWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)setSsgdsyWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)clearSsgdsy;
+
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)setDateWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)clearDate;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)setDateWithNSString:
-    (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)clearDate;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)setYysrWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)clearYysr;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)setYysrWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)clearYysr;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)setYycbWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)clearYycb;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)setYycbWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)clearYycb;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)setYysjjfjWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)clearYysjjfj;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)setYysjjfjWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)clearYysjjfj;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)setXsfyWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)clearXsfy;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)setXsfyWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)clearXsfy;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)setGlfyWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)clearGlfy;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)setGlfyWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)clearGlfy;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)setCwfyWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)clearCwfy;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)setCwfyWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)clearCwfy;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)setTzsyWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)clearTzsy;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)setTzsyWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)clearTzsy;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)setYylrWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)clearYylr;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)setYylrWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)clearYylr;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)setYywsrWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)clearYywsr;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)setYywsrWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)clearYywsr;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)setYywzcWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)clearYywzc;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)setYywzcWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)clearYywzc;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)setLrzeWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)clearLrze;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)setLrzeWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)clearLrze;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)setSdsfyWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)clearSdsfy;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)setSdsfyWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)clearSdsfy;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)setJlrWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)clearJlr;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)setJlrWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)clearJlr;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)setMgzjlrWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)clearMgzjlr;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)setSsgdsyWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder *)clearSsgdsy;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)setMgzjlrWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)clearMgzjlr;
 
 @end
 
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder_getDescriptor();
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder_getDescriptor();
 
-J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder)
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder)
 
-@protocol ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHSOrBuilder < ComGoogleProtobufMessageOrBuilder >
+@protocol ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutputOrBuilder < ComGoogleProtobufMessageOrBuilder >
 
 - (BOOL)hasObj;
 - (NSString *)getObj;
 
-- (BOOL)hasDate;
-- (NSString *)getDate;
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutputOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutputOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutputOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput:(ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput *ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_(ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput *ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput *ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput *ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput *ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput *ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput *ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutputOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput:(ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb:(ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb:
+    (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10Zxjbdjdleb_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZxjbdjdlebOutput_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOrBuilder < ComGoogleProtobufMessageOrBuilder >
 
 - (BOOL)hasGdzhs;
 - (long long int)getGdzhs;
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
 
 - (BOOL)hasHbzj;
 - (long long int)getHbzj;
 
 - (BOOL)hasHbbh;
-- (double)getHbbh;
+- (long long int)getHbbh;
 
 - (BOOL)hasRjcg;
 - (long long int)getRjcg;
@@ -1142,107 +6821,194 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_ZXJB_DJDLEB_Builder)
 
 @end
 
-J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHSOrBuilder)
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOrBuilder)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHSOrBuilder)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOrBuilder)
 
-@interface ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHSOrBuilder>
+@interface ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOrBuilder>
 
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS *)getDefaultInstance;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS *)getDefaultInstanceForType;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder *)toBuilder;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS:(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS *)message OBJC_METHOD_FAMILY_NONE;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10GdjcGdhs:(ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs *)message OBJC_METHOD_FAMILY_NONE;
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS *)parseFromWithByteArray:(IOSByteArray *)bytes;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS *)parseFromNSData:(NSData *)data;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
 
-#define ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_OBJ_FIELD_NUMBER 1
-#define ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_DATE_FIELD_NUMBER 2
-#define ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_GDZHS_FIELD_NUMBER 3
-#define ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_HBZJ_FIELD_NUMBER 4
-#define ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_HBBH_FIELD_NUMBER 5
-#define ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_RJCG_FIELD_NUMBER 6
-#define ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_LTGDHS_FIELD_NUMBER 7
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_GDZHS_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_DATE_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_HBZJ_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_HBBH_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_RJCG_FIELD_NUMBER 5
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_LTGDHS_FIELD_NUMBER 6
 
 @end
 
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_getDefaultInstance();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_newBuilder();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_newBuilderWithComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS *message);
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_getDescriptor();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_parseFromWithByteArray_(IOSByteArray *bytes) {
-  return ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs *ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_Builder *ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_Builder *ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_newBuilderWithComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_(ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs *ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs *ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
 }
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
-  return ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs *ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs *ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
 }
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
-  return ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs *ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs *ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
 }
 
-J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS)
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs)
 
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_descriptor_;
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_descriptor_;
 
-@interface ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHSOrBuilder>
+@interface ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOrBuilder>
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS *)getDefaultInstanceForType;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS:(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS *)message;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS *)build;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS *)buildPartial;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10GdjcGdhs:(ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs *)buildPartial;
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder *)setObjWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_Builder *)setGdzhsWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_Builder *)clearGdzhs;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_Builder *)setDateWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_Builder *)clearDate;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder *)setDateWithNSString:
-    (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder *)clearDate;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder *)setGdzhsWithLong:
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_Builder *)setHbzjWithLong:
     (long long int)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder *)clearGdzhs;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_Builder *)clearHbzj;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder *)setHbzjWithLong:
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_Builder *)setHbbhWithLong:
     (long long int)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder *)clearHbzj;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_Builder *)clearHbbh;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder *)setHbbhWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder *)clearHbbh;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder *)setRjcgWithLong:
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_Builder *)setRjcgWithLong:
     (long long int)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder *)clearRjcg;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_Builder *)clearRjcg;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder *)setLtgdhsWithLong:
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_Builder *)setLtgdhsWithLong:
     (long long int)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder *)clearLtgdhs;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_Builder *)clearLtgdhs;
 
 @end
 
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder_getDescriptor();
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_Builder_getDescriptor();
 
-J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder)
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_Builder)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_Builder)
 
-@protocol ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDOrBuilder < ComGoogleProtobufMessageOrBuilder >
+@protocol ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutputOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutputOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutputOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutputOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput:(ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput *ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_newBuilderWithComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_(ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput *ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput *ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput *ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput *ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput *ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput *ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutputOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput:(ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10GdjcGdhs:(ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10GdjcGdhs:
+    (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10GdjcGdhs_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GdjcGdhsOutput_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10GdjcGdOrBuilder < ComGoogleProtobufMessageOrBuilder >
 
 - (BOOL)hasGdrs;
 - (long long int)getGdrs;
@@ -1254,10 +7020,10 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder)
 - (NSString *)getGdmc;
 
 - (BOOL)hasCgs;
-- (double)getCgs;
+- (long long int)getCgs;
 
 - (BOOL)hasZzgs;
-- (double)getZzgs;
+- (long long int)getZzgs;
 
 - (BOOL)hasZjqk;
 - (NSString *)getZjqk;
@@ -1270,632 +7036,504 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDHS_Builder)
 
 @end
 
-J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDOrBuilder)
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GdjcGdOrBuilder)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDOrBuilder)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GdjcGdOrBuilder)
 
-@interface ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDOrBuilder>
+@interface ComDzhyunProtoCldF10ShuJu_F10GdjcGd : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10GdjcGdOrBuilder>
 
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *)getDefaultInstance;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *)getDefaultInstanceForType;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *)toBuilder;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10_GDJC_GD:(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *)message OBJC_METHOD_FAMILY_NONE;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGd *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGd *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10GdjcGd:(ComDzhyunProtoCldF10ShuJu_F10GdjcGd *)message OBJC_METHOD_FAMILY_NONE;
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *)parseFromWithByteArray:(IOSByteArray *)bytes;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *)parseFromNSData:(NSData *)data;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGd *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGd *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGd *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGd *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGd *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGd *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGd *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcGd *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
 
-#define ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_GDRS_FIELD_NUMBER 1
-#define ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_XH_FIELD_NUMBER 2
-#define ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_GDMC_FIELD_NUMBER 3
-#define ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_CGS_FIELD_NUMBER 4
-#define ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_ZZGS_FIELD_NUMBER 5
-#define ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_ZJQK_FIELD_NUMBER 6
-#define ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_GBXZ_FIELD_NUMBER 7
-#define ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_GSDM_FIELD_NUMBER 8
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcGd_GDRS_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcGd_XH_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcGd_GDMC_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcGd_CGS_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcGd_ZZGS_FIELD_NUMBER 5
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcGd_ZJQK_FIELD_NUMBER 6
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcGd_GBXZ_FIELD_NUMBER 7
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcGd_GSDM_FIELD_NUMBER 8
 
 @end
 
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_getDefaultInstance();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_newBuilder();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_newBuilderWithComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *message);
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_getDescriptor();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_parseFromWithByteArray_(IOSByteArray *bytes) {
-  return ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcGd *ComDzhyunProtoCldF10ShuJu_F10GdjcGd_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder *ComDzhyunProtoCldF10ShuJu_F10GdjcGd_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder *ComDzhyunProtoCldF10ShuJu_F10GdjcGd_newBuilderWithComDzhyunProtoCldF10ShuJu_F10GdjcGd_(ComDzhyunProtoCldF10ShuJu_F10GdjcGd *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GdjcGd_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcGd *ComDzhyunProtoCldF10ShuJu_F10GdjcGd_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GdjcGd *ComDzhyunProtoCldF10ShuJu_F10GdjcGd_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10GdjcGd_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
 }
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
-  return ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcGd *ComDzhyunProtoCldF10ShuJu_F10GdjcGd_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GdjcGd *ComDzhyunProtoCldF10ShuJu_F10GdjcGd_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GdjcGd_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
 }
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
-  return ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcGd *ComDzhyunProtoCldF10ShuJu_F10GdjcGd_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GdjcGd *ComDzhyunProtoCldF10ShuJu_F10GdjcGd_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GdjcGd_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
 }
 
-J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD)
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GdjcGd)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GdjcGd)
 
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_descriptor_;
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GdjcGd_descriptor_;
 
-@interface ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10_GDJC_GDOrBuilder>
+@interface ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10GdjcGdOrBuilder>
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *)getDefaultInstanceForType;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10_GDJC_GD:(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *)message;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *)build;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *)buildPartial;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGd *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10GdjcGd:(ComDzhyunProtoCldF10ShuJu_F10GdjcGd *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGd *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGd *)buildPartial;
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *)setGdrsWithLong:
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder *)setGdrsWithLong:
     (long long int)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *)clearGdrs;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder *)clearGdrs;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *)setXhWithLong:
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder *)setXhWithLong:
     (long long int)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *)clearXh;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder *)clearXh;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *)setGdmcWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder *)setGdmcWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *)clearGdmc;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder *)clearGdmc;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *)setCgsWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *)clearCgs;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder *)setCgsWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder *)clearCgs;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *)setZzgsWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *)clearZzgs;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder *)setZzgsWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder *)clearZzgs;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *)setZjqkWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder *)setZjqkWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *)clearZjqk;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder *)clearZjqk;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *)setGbxzWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder *)setGbxzWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *)clearGbxz;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder *)clearGbxz;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *)setGsdmWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder *)setGsdmWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *)clearGsdm;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder *)clearGsdm;
 
 @end
 
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder_getDescriptor();
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder_getDescriptor();
 
-J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder)
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder)
 
-@protocol ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGDOrBuilder < ComGoogleProtobufMessageOrBuilder >
-
-- (BOOL)hasObj;
-- (NSString *)getObj;
+@protocol ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOrBuilder < ComGoogleProtobufMessageOrBuilder >
 
 - (BOOL)hasDate;
 - (NSString *)getDate;
 
 - (int)getDataCount;
 - (id<JavaUtilList>)getDataList;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *)getDataWithInt:(int)index;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGd *)getDataWithInt:(int)index;
 
 @end
 
-J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGDOrBuilder)
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOrBuilder)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGDOrBuilder)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOrBuilder)
 
-@interface ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGDOrBuilder>
+@interface ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOrBuilder>
 
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD *)getDefaultInstance;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD *)getDefaultInstanceForType;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Builder *)toBuilder;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD:(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD *)message OBJC_METHOD_FAMILY_NONE;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10GdjcSdgd:(ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd *)message OBJC_METHOD_FAMILY_NONE;
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD *)parseFromWithByteArray:(IOSByteArray *)bytes;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD *)parseFromNSData:(NSData *)data;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
 
-#define ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_OBJ_FIELD_NUMBER 1
-#define ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_DATE_FIELD_NUMBER 2
-#define ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_DATA_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_DATE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_DATA_FIELD_NUMBER 2
 
 @end
 
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD *ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_getDefaultInstance();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Builder *ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_newBuilder();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Builder *ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_newBuilderWithComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD *message);
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_getDescriptor();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD *ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD *ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_parseFromWithByteArray_(IOSByteArray *bytes) {
-  return ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd *ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_Builder *ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_Builder *ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_newBuilderWithComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_(ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd *ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd *ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
 }
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD *ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD *ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
-  return ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd *ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd *ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
 }
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD *ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD *ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
-  return ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd *ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd *ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
 }
 
-J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD)
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd)
 
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_descriptor_;
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_descriptor_;
 
-@interface ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGDOrBuilder>
+@interface ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOrBuilder>
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD *)getDefaultInstanceForType;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD:(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD *)message;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD *)build;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD *)buildPartial;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10GdjcSdgd:(ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd *)buildPartial;
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Builder *)setObjWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_Builder *)setDateWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Builder *)clearObj;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Builder *)setDateWithNSString:
-    (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Builder *)clearDate;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Builder*)setDataWithInt:(int)index
-    withComDzhyunProtoCldF10ShuJu_F10_GDJC_GD:(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10_GDJC_GD:
-    (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Builder*)addAllDataWithJavaLangIterable:
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_Builder *)clearDate;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10GdjcGd:(ComDzhyunProtoCldF10ShuJu_F10GdjcGd *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10GdjcGd:
+    (ComDzhyunProtoCldF10ShuJu_F10GdjcGd *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_Builder*)addAllDataWithJavaLangIterable:
     (id<JavaLangIterable>)values;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Builder*)clearData;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Builder*)
-    addDataWithComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder:
-    (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder *)value;
 
 @end
 
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Builder_getDescriptor();
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_Builder_getDescriptor();
 
-J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Builder)
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_Builder)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDGD_Builder)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_Builder)
 
-@protocol ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGDOrBuilder < ComGoogleProtobufMessageOrBuilder >
+@protocol ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutputOrBuilder < ComGoogleProtobufMessageOrBuilder >
 
 - (BOOL)hasObj;
 - (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutputOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutputOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutputOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput:(ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput *ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_newBuilderWithComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_(ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput *ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput *ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput *ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput *ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput *ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput *ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutputOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput:(ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10GdjcSdgd:(ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10GdjcSdgd:
+    (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10GdjcSdgd_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GdjcSdgdOutput_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOrBuilder < ComGoogleProtobufMessageOrBuilder >
 
 - (BOOL)hasDate;
 - (NSString *)getDate;
 
 - (int)getDataCount;
 - (id<JavaUtilList>)getDataList;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *)getDataWithInt:(int)index;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcGd *)getDataWithInt:(int)index;
 
 @end
 
-J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGDOrBuilder)
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOrBuilder)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGDOrBuilder)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOrBuilder)
 
-@interface ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGDOrBuilder>
+@interface ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOrBuilder>
 
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD *)getDefaultInstance;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD *)getDefaultInstanceForType;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Builder *)toBuilder;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD:(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD *)message OBJC_METHOD_FAMILY_NONE;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd:(ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd *)message OBJC_METHOD_FAMILY_NONE;
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD *)parseFromWithByteArray:(IOSByteArray *)bytes;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD *)parseFromNSData:(NSData *)data;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
 
-#define ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_OBJ_FIELD_NUMBER 1
-#define ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_DATE_FIELD_NUMBER 2
-#define ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_DATA_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_DATE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_DATA_FIELD_NUMBER 2
 
 @end
 
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD *ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_getDefaultInstance();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Builder *ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_newBuilder();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Builder *ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_newBuilderWithComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD *message);
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_getDescriptor();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD *ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD *ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_parseFromWithByteArray_(IOSByteArray *bytes) {
-  return ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd *ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_Builder *ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_Builder *ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_newBuilderWithComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_(ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd *ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd *ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
 }
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD *ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD *ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
-  return ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd *ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd *ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
 }
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD *ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD *ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
-  return ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd *ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd *ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
 }
 
-J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD)
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd)
 
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_descriptor_;
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_descriptor_;
 
-@interface ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGDOrBuilder>
+@interface ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOrBuilder>
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD *)getDefaultInstanceForType;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD:(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD *)message;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD *)build;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD *)buildPartial;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd:(ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd *)buildPartial;
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Builder *)setObjWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_Builder *)setDateWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Builder *)clearObj;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Builder *)setDateWithNSString:
-    (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Builder *)clearDate;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Builder*)setDataWithInt:(int)index
-    withComDzhyunProtoCldF10ShuJu_F10_GDJC_GD:(ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10_GDJC_GD:
-    (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Builder*)addAllDataWithJavaLangIterable:
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_Builder *)clearDate;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10GdjcGd:(ComDzhyunProtoCldF10ShuJu_F10GdjcGd *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10GdjcGd:
+    (ComDzhyunProtoCldF10ShuJu_F10GdjcGd *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_Builder*)addAllDataWithJavaLangIterable:
     (id<JavaLangIterable>)values;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Builder*)clearData;
-- (ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Builder*)
-    addDataWithComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder:
-    (ComDzhyunProtoCldF10ShuJu_F10_GDJC_GD_Builder *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10GdjcGd_Builder *)value;
 
 @end
 
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Builder_getDescriptor();
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_Builder_getDescriptor();
 
-J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Builder)
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_Builder)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_GDJC_SDLTGD_Builder)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_Builder)
 
-@protocol ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJGOrBuilder < ComGoogleProtobufMessageOrBuilder >
+@protocol ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutputOrBuilder < ComGoogleProtobufMessageOrBuilder >
 
 - (BOOL)hasObj;
 - (NSString *)getObj;
 
-- (BOOL)hasDate;
-- (NSString *)getDate;
-
-- (BOOL)hasZgb;
-- (double)getZgb;
-
-- (BOOL)hasLtgf;
-- (double)getLtgf;
-
-- (BOOL)hasLtag;
-- (double)getLtag;
-
-- (BOOL)hasLtbg;
-- (double)getLtbg;
-
-- (BOOL)hasLthg;
-- (double)getLthg;
-
-- (BOOL)hasQtltgf;
-- (double)getQtltgf;
-
-- (BOOL)hasXsltg;
-- (double)getXsltg;
-
-- (BOOL)hasXsltag;
-- (double)getXsltag;
-
-- (BOOL)hasXsltbg;
-- (double)getXsltbg;
-
-- (BOOL)hasXslthg;
-- (double)getXslthg;
-
-- (BOOL)hasXsgjcg;
-- (double)getXsgjcg;
-
-- (BOOL)hasXsgyfrcg;
-- (double)getXsgyfrcg;
-
-- (BOOL)hasXsjnfrcg;
-- (double)getXsjnfrcg;
-
-- (BOOL)hasXsjnzrrcg;
-- (double)getXsjnzrrcg;
-
-- (BOOL)hasXsggcg;
-- (double)getXsggcg;
-
-- (BOOL)hasXsjwfrcg;
-- (double)getXsjwfrcg;
-
-- (BOOL)hasXsjwzrrcg;
-- (double)getXsjwzrrcg;
-
-- (BOOL)hasWltg;
-- (double)getWltg;
-
-- (BOOL)hasGjg;
-- (double)getGjg;
-
-- (BOOL)hasGyfrg;
-- (double)getGyfrg;
-
-- (BOOL)hasJnfgyfr;
-- (double)getJnfgyfr;
-
-- (BOOL)hasZpg;
-- (double)getZpg;
-
-- (BOOL)hasNbzgg;
-- (double)getNbzgg;
-
-- (BOOL)hasYxg;
-- (double)getYxg;
-
-- (BOOL)hasJwfrg;
-- (double)getJwfrg;
-
-- (BOOL)hasQtwltgf;
-- (double)getQtwltgf;
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd *)getDataWithInt:(int)index;
 
 @end
 
-J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJGOrBuilder)
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutputOrBuilder)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJGOrBuilder)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutputOrBuilder)
 
-@interface ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJGOrBuilder>
+@interface ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutputOrBuilder>
 
-+ (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG *)getDefaultInstance;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG *)getDefaultInstanceForType;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)toBuilder;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG:(ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG *)message OBJC_METHOD_FAMILY_NONE;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput:(ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput *)message OBJC_METHOD_FAMILY_NONE;
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG *)parseFromWithByteArray:(IOSByteArray *)bytes;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG *)parseFromNSData:(NSData *)data;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
 
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_OBJ_FIELD_NUMBER 1
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_DATE_FIELD_NUMBER 2
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_ZGB_FIELD_NUMBER 3
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_LTGF_FIELD_NUMBER 4
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_LTAG_FIELD_NUMBER 5
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_LTBG_FIELD_NUMBER 6
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_LTHG_FIELD_NUMBER 7
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_QTLTGF_FIELD_NUMBER 8
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_XSLTG_FIELD_NUMBER 9
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_XSLTAG_FIELD_NUMBER 10
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_XSLTBG_FIELD_NUMBER 11
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_XSLTHG_FIELD_NUMBER 12
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_XSGJCG_FIELD_NUMBER 13
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_XSGYFRCG_FIELD_NUMBER 14
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_XSJNFRCG_FIELD_NUMBER 15
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_XSJNZRRCG_FIELD_NUMBER 16
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_XSGGCG_FIELD_NUMBER 17
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_XSJWFRCG_FIELD_NUMBER 18
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_XSJWZRRCG_FIELD_NUMBER 19
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_WLTG_FIELD_NUMBER 20
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_GJG_FIELD_NUMBER 21
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_GYFRG_FIELD_NUMBER 22
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_JNFGYFR_FIELD_NUMBER 23
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_ZPG_FIELD_NUMBER 24
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_NBZGG_FIELD_NUMBER 25
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_YXG_FIELD_NUMBER 26
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_JWFRG_FIELD_NUMBER 27
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_QTWLTGF_FIELD_NUMBER 28
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_DATA_FIELD_NUMBER 2
 
 @end
 
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG *ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_getDefaultInstance();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_newBuilder();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_newBuilderWithComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_(ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG *message);
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_getDescriptor();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG *ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG *ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_parseFromWithByteArray_(IOSByteArray *bytes) {
-  return ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput *ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_newBuilderWithComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_(ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput *ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput *ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
 }
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG *ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG *ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
-  return ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput *ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput *ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
 }
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG *ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG *ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
-  return ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput *ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput *ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
 }
 
-J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG)
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput)
 
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_descriptor_;
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_descriptor_;
 
-@interface ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJGOrBuilder>
+@interface ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutputOrBuilder>
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG *)getDefaultInstanceForType;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG:(ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG *)message;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG *)build;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG *)buildPartial;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput:(ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput *)buildPartial;
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)setObjWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_Builder *)setObjWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)clearObj;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)setDateWithNSString:
-    (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)clearDate;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)setZgbWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)clearZgb;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)setLtgfWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)clearLtgf;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)setLtagWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)clearLtag;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)setLtbgWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)clearLtbg;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)setLthgWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)clearLthg;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)setQtltgfWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)clearQtltgf;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)setXsltgWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)clearXsltg;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)setXsltagWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)clearXsltag;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)setXsltbgWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)clearXsltbg;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)setXslthgWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)clearXslthg;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)setXsgjcgWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)clearXsgjcg;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)setXsgyfrcgWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)clearXsgyfrcg;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)setXsjnfrcgWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)clearXsjnfrcg;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)setXsjnzrrcgWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)clearXsjnzrrcg;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)setXsggcgWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)clearXsggcg;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)setXsjwfrcgWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)clearXsjwfrcg;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)setXsjwzrrcgWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)clearXsjwzrrcg;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)setWltgWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)clearWltg;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)setGjgWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)clearGjg;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)setGyfrgWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)clearGyfrg;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)setJnfgyfrWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)clearJnfgyfr;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)setZpgWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)clearZpg;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)setNbzggWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)clearNbzgg;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)setYxgWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)clearYxg;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)setJwfrgWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)clearJwfrg;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)setQtwltgfWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder *)clearQtwltgf;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd:(ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd:
+    (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgd_Builder *)value;
 
 @end
 
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder_getDescriptor();
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_Builder_getDescriptor();
 
-J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder)
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_Builder)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GdjcSdltgdOutput_Builder)
 
-@protocol ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKGOrBuilder < ComGoogleProtobufMessageOrBuilder >
-
-- (BOOL)hasObj;
-- (NSString *)getObj;
+@protocol ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOrBuilder < ComGoogleProtobufMessageOrBuilder >
 
 - (BOOL)hasDate;
 - (NSString *)getDate;
 
 - (BOOL)hasMgsg;
-- (double)getMgsg;
+- (long long int)getMgsg;
 
 - (BOOL)hasMgzz;
-- (double)getMgzz;
+- (long long int)getMgzz;
 
 - (BOOL)hasMgfh;
-- (double)getMgfh;
+- (long long int)getMgfh;
 
 - (BOOL)hasMgp;
-- (double)getMgp;
+- (long long int)getMgp;
 
 - (BOOL)hasPgjg;
-- (double)getPgjg;
+- (long long int)getPgjg;
 
 - (BOOL)hasZfgfsl;
-- (double)getZfgfsl;
+- (long long int)getZfgfsl;
 
 - (BOOL)hasZfjg;
-- (double)getZfjg;
+- (long long int)getZfjg;
 
 - (BOOL)hasGqdjr;
 - (NSString *)getGqdjr;
@@ -1908,127 +7546,2707 @@ J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_GBFH_GBJG_Builder)
 
 @end
 
-J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKGOrBuilder)
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOrBuilder)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKGOrBuilder)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOrBuilder)
 
-@interface ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKGOrBuilder>
+@interface ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOrBuilder>
 
-+ (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG *)getDefaultInstance;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG *)getDefaultInstanceForType;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)toBuilder;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG:(ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG *)message OBJC_METHOD_FAMILY_NONE;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10GbfhFhkg:(ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg *)message OBJC_METHOD_FAMILY_NONE;
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG *)parseFromWithByteArray:(IOSByteArray *)bytes;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG *)parseFromNSData:(NSData *)data;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
-+ (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
 
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_OBJ_FIELD_NUMBER 1
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_DATE_FIELD_NUMBER 2
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_MGSG_FIELD_NUMBER 3
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_MGZZ_FIELD_NUMBER 4
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_MGFH_FIELD_NUMBER 5
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_MGP_FIELD_NUMBER 6
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_PGJG_FIELD_NUMBER 7
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_ZFGFSL_FIELD_NUMBER 8
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_ZFJG_FIELD_NUMBER 9
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_GQDJR_FIELD_NUMBER 10
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_CQCXR_FIELD_NUMBER 11
-#define ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_ZHJYR_FIELD_NUMBER 12
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_DATE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_MGSG_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_MGZZ_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_MGFH_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_MGP_FIELD_NUMBER 5
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_PGJG_FIELD_NUMBER 6
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_ZFGFSL_FIELD_NUMBER 7
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_ZFJG_FIELD_NUMBER 8
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_GQDJR_FIELD_NUMBER 9
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_CQCXR_FIELD_NUMBER 10
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_ZHJYR_FIELD_NUMBER 11
 
 @end
 
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG *ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_getDefaultInstance();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_newBuilder();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_newBuilderWithComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_(ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG *message);
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_getDescriptor();
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG *ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG *ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_parseFromWithByteArray_(IOSByteArray *bytes) {
-  return ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg *ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_newBuilderWithComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_(ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg *ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg *ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
 }
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG *ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG *ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
-  return ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg *ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg *ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
 }
-FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG *ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
-CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG *ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
-  return ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg *ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg *ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
 }
 
-J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG)
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg)
 
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_descriptor_;
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_descriptor_;
 
-@interface ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKGOrBuilder>
+@interface ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOrBuilder>
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG *)getDefaultInstanceForType;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG:(ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG *)message;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG *)build;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG *)buildPartial;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10GbfhFhkg:(ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg *)buildPartial;
 + (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)setObjWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)setDateWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)clearDate;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)setDateWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)setMgsgWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)clearMgsg;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)setMgzzWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)clearMgzz;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)setMgfhWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)clearMgfh;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)setMgpWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)clearMgp;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)setPgjgWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)clearPgjg;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)setZfgfslWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)clearZfgfsl;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)setZfjgWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)clearZfjg;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)setGqdjrWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)clearDate;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)clearGqdjr;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)setMgsgWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)clearMgsg;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)setMgzzWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)clearMgzz;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)setMgfhWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)clearMgfh;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)setMgpWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)clearMgp;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)setPgjgWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)clearPgjg;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)setZfgfslWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)clearZfgfsl;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)setZfjgWithDouble:
-    (double)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)clearZfjg;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)setGqdjrWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)setCqcxrWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)clearGqdjr;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)clearCqcxr;
 
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)setCqcxrWithNSString:
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)setZhjyrWithNSString:
     (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)clearCqcxr;
-
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)setZhjyrWithNSString:
-    (NSString *)value;
-- (ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder *)clearZhjyr;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)clearZhjyr;
 
 @end
 
-FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder_getDescriptor();
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder_getDescriptor();
 
-J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder)
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder)
 
-J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10_GBFH_FHKG_Builder)
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutputOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutputOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutputOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutputOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput:(ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput *ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_newBuilderWithComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_(ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput *ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput *ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput *ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput *ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput *ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput *ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutputOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput:(ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10GbfhFhkg:(ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10GbfhFhkg:
+    (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10GbfhFhkg_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GbfhFhkgOutput_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasDate;
+- (NSString *)getDate;
+
+- (BOOL)hasZgb;
+- (long long int)getZgb;
+
+- (BOOL)hasLtgf;
+- (long long int)getLtgf;
+
+- (BOOL)hasLtag;
+- (long long int)getLtag;
+
+- (BOOL)hasLtbg;
+- (long long int)getLtbg;
+
+- (BOOL)hasLthg;
+- (long long int)getLthg;
+
+- (BOOL)hasQtltgf;
+- (long long int)getQtltgf;
+
+- (BOOL)hasXsltg;
+- (long long int)getXsltg;
+
+- (BOOL)hasXsltag;
+- (long long int)getXsltag;
+
+- (BOOL)hasXsltbg;
+- (long long int)getXsltbg;
+
+- (BOOL)hasXslthg;
+- (long long int)getXslthg;
+
+- (BOOL)hasXsgjcg;
+- (long long int)getXsgjcg;
+
+- (BOOL)hasXsgyfrcg;
+- (long long int)getXsgyfrcg;
+
+- (BOOL)hasXsjnfrcg;
+- (long long int)getXsjnfrcg;
+
+- (BOOL)hasXsjnzrrcg;
+- (long long int)getXsjnzrrcg;
+
+- (BOOL)hasXsggcg;
+- (long long int)getXsggcg;
+
+- (BOOL)hasXsjwfrcg;
+- (long long int)getXsjwfrcg;
+
+- (BOOL)hasXsjwzrrcg;
+- (long long int)getXsjwzrrcg;
+
+- (BOOL)hasWltg;
+- (long long int)getWltg;
+
+- (BOOL)hasGjg;
+- (long long int)getGjg;
+
+- (BOOL)hasGyfrg;
+- (long long int)getGyfrg;
+
+- (BOOL)hasJnfgyfr;
+- (long long int)getJnfgyfr;
+
+- (BOOL)hasZpg;
+- (long long int)getZpg;
+
+- (BOOL)hasNbzgg;
+- (long long int)getNbzgg;
+
+- (BOOL)hasYxg;
+- (long long int)getYxg;
+
+- (BOOL)hasJwfrg;
+- (long long int)getJwfrg;
+
+- (BOOL)hasQtwltgf;
+- (long long int)getQtwltgf;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10GbfhGbjg:(ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_DATE_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_ZGB_FIELD_NUMBER 2
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_LTGF_FIELD_NUMBER 3
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_LTAG_FIELD_NUMBER 4
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_LTBG_FIELD_NUMBER 5
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_LTHG_FIELD_NUMBER 6
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_QTLTGF_FIELD_NUMBER 7
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_XSLTG_FIELD_NUMBER 8
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_XSLTAG_FIELD_NUMBER 9
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_XSLTBG_FIELD_NUMBER 10
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_XSLTHG_FIELD_NUMBER 11
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_XSGJCG_FIELD_NUMBER 12
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_XSGYFRCG_FIELD_NUMBER 13
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_XSJNFRCG_FIELD_NUMBER 14
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_XSJNZRRCG_FIELD_NUMBER 15
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_XSGGCG_FIELD_NUMBER 16
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_XSJWFRCG_FIELD_NUMBER 17
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_XSJWZRRCG_FIELD_NUMBER 18
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_WLTG_FIELD_NUMBER 19
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_GJG_FIELD_NUMBER 20
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_GYFRG_FIELD_NUMBER 21
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_JNFGYFR_FIELD_NUMBER 22
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_ZPG_FIELD_NUMBER 23
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_NBZGG_FIELD_NUMBER 24
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_YXG_FIELD_NUMBER 25
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_JWFRG_FIELD_NUMBER 26
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_QTWLTGF_FIELD_NUMBER 27
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg *ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_newBuilderWithComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_(ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg *ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg *ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg *ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg *ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg *ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg *ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10GbfhGbjg:(ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)setDateWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)clearDate;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)setZgbWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)clearZgb;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)setLtgfWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)clearLtgf;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)setLtagWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)clearLtag;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)setLtbgWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)clearLtbg;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)setLthgWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)clearLthg;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)setQtltgfWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)clearQtltgf;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)setXsltgWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)clearXsltg;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)setXsltagWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)clearXsltag;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)setXsltbgWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)clearXsltbg;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)setXslthgWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)clearXslthg;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)setXsgjcgWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)clearXsgjcg;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)setXsgyfrcgWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)clearXsgyfrcg;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)setXsjnfrcgWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)clearXsjnfrcg;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)setXsjnzrrcgWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)clearXsjnzrrcg;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)setXsggcgWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)clearXsggcg;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)setXsjwfrcgWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)clearXsjwfrcg;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)setXsjwzrrcgWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)clearXsjwzrrcg;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)setWltgWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)clearWltg;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)setGjgWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)clearGjg;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)setGyfrgWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)clearGyfrg;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)setJnfgyfrWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)clearJnfgyfr;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)setZpgWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)clearZpg;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)setNbzggWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)clearNbzgg;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)setYxgWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)clearYxg;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)setJwfrgWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)clearJwfrg;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)setQtwltgfWithLong:
+    (long long int)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)clearQtwltgf;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutputOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutputOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutputOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutputOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput:(ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput *ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_newBuilderWithComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_(ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput *ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput *ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput *ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput *ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput *ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput *ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutputOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput:(ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10GbfhGbjg:(ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10GbfhGbjg:
+    (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10GbfhGbjg_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GbfhGbjgOutput_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutputOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutputOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutputOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutputOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput:(ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput *ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_newBuilderWithComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_(ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput *ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput *ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput *ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput *ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput *ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput *ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutputOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput:(ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10CpbdKpqk:(ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10CpbdKpqk:
+    (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10CpbdKpqk_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CpbdKpqkOutput_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutputOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutputOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutputOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutputOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput:(ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput *ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_newBuilderWithComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_(ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput *ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput *ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput *ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput *ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput *ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput *ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutputOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput:(ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10CpbdCjhb:(ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10CpbdCjhb:
+    (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10CpbdCjhb_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CpbdCjhbOutput_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutputOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutputOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutputOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutputOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput:(ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput *ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_newBuilderWithComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_(ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput *ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput *ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput *ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput *ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput *ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput *ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutputOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput:(ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy:(ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy:
+    (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzy_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CwtsLrfpbzyOutput_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutputOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutputOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutputOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutputOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput:(ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput *ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_newBuilderWithComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_(ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput *ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput *ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput *ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput *ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput *ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput *ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutputOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput:(ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy:(ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy:
+    (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzy_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10CwtsZcfzbzyOutput_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10ZygcOutputOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10Zygc *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZygcOutputOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZygcOutputOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZygcOutput : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10ZygcOutputOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZygcOutput:(ComDzhyunProtoCldF10ShuJu_F10ZygcOutput *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZygcOutput *ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZygcOutput_(ComDzhyunProtoCldF10ShuJu_F10ZygcOutput *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZygcOutput *ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZygcOutput *ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZygcOutput *ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZygcOutput *ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZygcOutput *ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZygcOutput *ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZygcOutput)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZygcOutput)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10ZygcOutputOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10ZygcOutput:(ComDzhyunProtoCldF10ShuJu_F10ZygcOutput *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10Zygc:(ComDzhyunProtoCldF10ShuJu_F10Zygc *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10Zygc:
+    (ComDzhyunProtoCldF10ShuJu_F10Zygc *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10Zygc_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10Zygc_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZygcOutput_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutputOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutputOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutputOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutputOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput:(ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput *ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_newBuilderWithComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_(ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput *ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput *ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput *ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput *ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput *ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput *ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutputOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput:(ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10DstxJjlt:(ComDzhyunProtoCldF10ShuJu_F10DstxJjlt *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10DstxJjlt:
+    (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10DstxJjlt_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10DstxJjlt_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxJjltOutput_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutputOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutputOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutputOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutputOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput:(ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput *ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_newBuilderWithComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_(ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput *ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput *ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput *ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput *ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput *ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput *ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutputOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput:(ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10DstxRzrq:(ComDzhyunProtoCldF10ShuJu_F10DstxRzrq *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10DstxRzrq:
+    (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10DstxRzrq_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10DstxRzrq_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxRzrqOutput_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutputOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutputOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutputOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutputOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput:(ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput *ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_newBuilderWithComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_(ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput *ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput *ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput *ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput *ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput *ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput *ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutputOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput:(ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10DstxJgcc:(ComDzhyunProtoCldF10ShuJu_F10DstxJgcc *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10DstxJgcc:
+    (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10DstxJgcc_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10DstxJgcc_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxJgccOutput_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutputOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutputOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutputOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutputOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput:(ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput *ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_newBuilderWithComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_(ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput *ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput *ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput *ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput *ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput *ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput *ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutputOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput:(ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10DstxGdzjc:(ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10DstxGdzjc:
+    (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10DstxGdzjc_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxGdzjcOutput_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutputOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutputOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutputOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutputOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput:(ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput *ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_newBuilderWithComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_(ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput *ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput *ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput *ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput *ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput *ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput *ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutputOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput:(ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10DstxDzjy:(ComDzhyunProtoCldF10ShuJu_F10DstxDzjy *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10DstxDzjy:
+    (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10DstxDzjy_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxDzjyOutput_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutputOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutputOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutputOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutputOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput:(ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput *ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_Builder *ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_newBuilderWithComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_(ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput *ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput *ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput *ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput *ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput *ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput *ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutputOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput:(ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk:(ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk:
+    (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqk_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10DstxCgbdqkOutput_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPutOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPutOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPutOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPutOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut:(ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut *ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_newBuilderWithComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_(ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut *ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut *ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut *ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut *ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut *ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut *ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPutOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut:(ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk:(ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk:
+    (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqk_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GlcNdbcqkOutPut_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPutOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPutOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPutOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPutOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut:(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPutOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut:(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb:(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb:
+    (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllb_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZxjbDjdxjllbOutPut_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPutOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPutOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPutOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPutOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut:(ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut *ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_newBuilderWithComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_(ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut *ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut *ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut *ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut *ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut *ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut *ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPutOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut:(ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10GbfhGbbd:(ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10GbfhGbbd:
+    (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10GbfhGbbd_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10GbfhGbbdOutPut_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPutOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPutOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPutOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPutOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut:(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPutOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut:(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq:(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq:
+    (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszq_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyqtsszqOutPut_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPutOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPutOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPutOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPutOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut:(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPutOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut:(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq:(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq:
+    (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgq_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzCyfssgqOutPut_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPutOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPutOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPutOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPutOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut:(ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut *ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_newBuilderWithComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_(ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut *ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut *ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut *ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut *ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut *ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut *ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPutOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut:(ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss:(ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss:
+    (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyss_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10zbyzRzqkzfyssOutPut_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPutOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPutOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPutOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPutOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut:(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPutOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut:(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk:(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk:
+    (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqk_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjqkOutPut_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPutOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPutOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPutOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPutOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut:(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPutOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut:(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm:(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm:
+    (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxm_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjcnxmOutPut_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPutOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPutOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPutOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPutOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut:(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPutOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut:(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm:(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm:
+    (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxm_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzMjzjbgxmOutPut_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPutOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPutOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPutOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPutOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut:(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_newBuilderWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPutOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut:(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm:(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm:
+    (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxm_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10ZbyzXmtzFmjzjxmOutPut_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPutOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPutOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPutOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPutOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut:(ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut *ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_newBuilderWithComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_(ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut *ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut *ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut *ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut *ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut *ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut *ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPutOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut:(ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore:(ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore:
+    (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSFore_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10RsrEarnPSForeOutPut_Builder)
+
+@protocol ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPutOrBuilder < ComGoogleProtobufMessageOrBuilder >
+
+- (BOOL)hasObj;
+- (NSString *)getObj;
+
+- (int)getDataCount;
+- (id<JavaUtilList>)getDataList;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReport *)getDataWithInt:(int)index;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPutOrBuilder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPutOrBuilder)
+
+@interface ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut : ComGoogleProtobufGeneratedMessage<ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPutOrBuilder>
+
++ (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut *)getDefaultInstance;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut *)getDefaultInstanceForType;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_Builder *)newBuilder OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_Builder *)newBuilderForType OBJC_METHOD_FAMILY_NONE;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_Builder *)toBuilder;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_Builder *)newBuilderWithComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut:(ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut *)message OBJC_METHOD_FAMILY_NONE;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut *)parseFromWithByteArray:(IOSByteArray *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut *)parseFromNSData:(NSData *)data;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut *)parseFromNSData:(NSData *)data registry:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut *)parseFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)input;
++ (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut *)parseDelimitedFromWithJavaIoInputStream:(JavaIoInputStream *)bytes withComGoogleProtobufExtensionRegistryLite:(ComGoogleProtobufExtensionRegistryLite *)registry;
+
+#define ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_OBJ_FIELD_NUMBER 1
+#define ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_DATA_FIELD_NUMBER 2
+
+@end
+
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut *ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_getDefaultInstance();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_newBuilder();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_Builder *ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_newBuilderWithComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_(ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut *message);
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_getDescriptor();
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut *ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(IOSByteArray *bytes, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut *ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_parseFromWithByteArray_(IOSByteArray *bytes) {
+  return ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_parseFromWithByteArray_withComGoogleProtobufExtensionRegistryLite_(bytes, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut *ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut *ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_parseFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_parseFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+FOUNDATION_EXPORT ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut *ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(JavaIoInputStream *input, ComGoogleProtobufExtensionRegistryLite *registry);
+CGP_ALWAYS_INLINE inline ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut *ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_parseDelimitedFromWithJavaIoInputStream_(JavaIoInputStream *input) {
+  return ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_parseDelimitedFromWithJavaIoInputStream_withComGoogleProtobufExtensionRegistryLite_(input, nil);
+}
+
+J2OBJC_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut)
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_descriptor_;
+
+@interface ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_Builder : ComGoogleProtobufGeneratedMessage_Builder<ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPutOrBuilder>
+
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut *)getDefaultInstanceForType;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_Builder *)mergeFromWithComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut:(ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut *)message;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_Builder *)mergeFromWithComGoogleProtobufMessage:(id<ComGoogleProtobufMessage>)message;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut *)build;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut *)buildPartial;
++ (ComGoogleProtobufDescriptors_Descriptor *)getDescriptor;
+
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_Builder *)setObjWithNSString:
+    (NSString *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_Builder *)clearObj;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_Builder*)setDataWithInt:(int)index
+    withComDzhyunProtoCldF10ShuJu_F10RsrResReport:(ComDzhyunProtoCldF10ShuJu_F10RsrResReport *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_Builder*)addDataWithComDzhyunProtoCldF10ShuJu_F10RsrResReport:
+    (ComDzhyunProtoCldF10ShuJu_F10RsrResReport *)value;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_Builder*)addAllDataWithJavaLangIterable:
+    (id<JavaLangIterable>)values;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_Builder*)clearData;
+- (ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_Builder*)
+    addDataWithComDzhyunProtoCldF10ShuJu_F10RsrResReport_Builder:
+    (ComDzhyunProtoCldF10ShuJu_F10RsrResReport_Builder *)value;
+
+@end
+
+FOUNDATION_EXPORT ComGoogleProtobufDescriptors_Descriptor *ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_Builder_getDescriptor();
+
+J2OBJC_EMPTY_STATIC_INIT(ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_Builder)
+
+J2OBJC_TYPE_LITERAL_HEADER(ComDzhyunProtoCldF10ShuJu_F10RsrResReportOutPut_Builder)
