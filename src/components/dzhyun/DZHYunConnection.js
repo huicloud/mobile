@@ -51,7 +51,9 @@ export default class DZHYunConnection {
 
   _onopen() {
 
-    console.log('connection open');
+    console.debug(Date.now() + ' connection open');
+
+    this._reconnectionCount = 0;
 
     // 连接open后将请求队列中的请求统一请求一次
     Object.keys(this.requestQueue).forEach(qid => this._send(this.requestQueue[qid]));
@@ -59,7 +61,7 @@ export default class DZHYunConnection {
 
   _onerror() {
 
-    console.log('error');
+    console.debug(Date.now() + ' error');
 
     // 连接错误则关闭当前连接后1秒后重连接，重试三次
     this._onclose();
@@ -74,7 +76,7 @@ export default class DZHYunConnection {
 
   _onmessage(event) {
     try {
-      console.log(new Date().getTime() + 'rec:' + event.data);
+      console.debug(Date.now() + ' rec:' + event.data);
       let data = JSON.parse(event.data) || {},
         qid = data.Qid,
         request = this.requestQueue[qid];
@@ -101,7 +103,7 @@ export default class DZHYunConnection {
       delete this._channel.onerror;
 
       // android调用close会报错
-      // this._channel.close();
+      //this._channel.close();
 
       this._channel = null;
       this._openPromise = null;
@@ -165,33 +167,14 @@ export default class DZHYunConnection {
   }
 
   _send(request) {
+    console.debug(Date.now() + ' send:' + this._getRequestUrl(request.service, request.data, request.qid));
     this._channel.send(this._getRequestUrl(request.service, request.data, request.qid));
   }
-
-  //request(service, data, options) {
-  //  let qid = this._generateQid(), defer,
-  //    promise = new Promise((resolve, reject) => {
-  //      defer = {resolve, reject};
-  //
-  //      this.open().then(channel => {
-  //        //console.log(new Date().getTime() + 'send:' + this._getRequestUrl(service, data, qid));
-  //        channel.send(this._getRequestUrl(service, data, qid));
-  //      }).catch(() => {
-  //
-  //        // TODO 创建连接失败
-  //      });
-  //    });
-  //
-  //  this.requestQueue[qid] = {defer, service, data, subscribe: data.sub === 1, options};
-  //  promise.qid = qid;
-  //  promise.cancel = this.cancel.bind(this, qid);
-  //  return promise;
-  //}
 
   subscribe(service, data, callback) {
     data = data || [];
     data.sub = 1;
-    return this.request(service, data, {callback});
+    return this.request(service, data, callback);
   }
 
   _cancelRequest(qid) {
