@@ -52,6 +52,8 @@ export default class DZHYunConnection {
   _onopen() {
     console.debug(Date.now() + ' connection open');
 
+    this._reconnectionCount = 0;
+
     // 连接open后将请求队列中的请求统一请求一次
     Object.keys(this.requestQueue).forEach(qid => {
       let request = this.requestQueue[qid];
@@ -103,7 +105,7 @@ export default class DZHYunConnection {
       delete this._channel.onerror;
 
       // android调用close会报错
-      // this._channel.close();
+      //this._channel.close();
 
       this._channel = null;
       this._openPromise = null;
@@ -181,7 +183,6 @@ export default class DZHYunConnection {
         delete this.requestQueue[request.qid];
       }
     }, 10 * 1000);
-
   }
 
   subscribe(service, data, callback) {

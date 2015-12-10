@@ -30,7 +30,7 @@ class DzhChannel extends DzhChannelBase {
   _subs: any;
 
   connectToSocketImpl(url: string): void {
-    this._socketId = DzhChannelId++;
+    this._socketId = DzhChannelId;
 
     RCTDzhChannelModule.connect(url, this._socketId);
 
