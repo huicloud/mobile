@@ -23,8 +23,8 @@ export default class InformationTab extends BaseTab {
   renderContent() {
     return (
       <TabBar style={{container: {backgroundColor: baseStyle.DEFAULT_BACKGROUND_COLOR}}}>
-        <TabBarItem title="新闻"><DZHYunNewsList params={{start: -20}} onPressItem={this.openNewsPage.bind(this, '新闻')}></DZHYunNewsList></TabBarItem>
-        <TabBarItem title="公告"><DZHYunAnnouncementList params={{start: -20}} onPressItem={this.openNewsPage.bind(this, '公告')}></DZHYunAnnouncementList></TabBarItem>
+        <TabBarItem title="新闻"><DZHYunNewsList serviceUrl="/news/center" params={{start: -20}} onPressItem={this.openNewsPage.bind(this, '新闻')}></DZHYunNewsList></TabBarItem>
+        <TabBarItem title="公告"><DZHYunAnnouncementList serviceUrl="/announcemt/center" params={{start: -20}} onPressItem={this.openNewsPage.bind(this, '公告')}></DZHYunAnnouncementList></TabBarItem>
       </TabBar>
     );
   }

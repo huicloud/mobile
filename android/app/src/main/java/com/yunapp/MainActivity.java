@@ -41,6 +41,8 @@ public class MainActivity extends Activity implements DefaultHardwareBackBtnHand
                 .addPackage(new DzhChartPackage())
                 .addPackage(new DzhWebViewPackage())
 
+                .addPackage(new AppPackage())
+
                 .setUseDeveloperSupport(BuildConfig.DEBUG)
                 .setInitialLifecycleState(LifecycleState.RESUMED)
                 .build();

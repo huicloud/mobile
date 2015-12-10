@@ -97,7 +97,7 @@ export default class DetailPage extends BasePage {
   openNewsPage(title, news) {
 
     // 判断是android版时直接下载pdf后打开
-    Platform.OS === 'android' && news.context.substr(-4).toLowerCase() === '.pdf' ? PDFModule.open(news.context) :this.props.navigator.push({component: 'NewsDetailPage', news, title})
+    Platform.OS === 'android' && news.context.substr(-4).toLowerCase() === '.pdf' ? PDFModule.open(news.context) :this.props.navigator.push({component: 'NewsDetailPage', news, title: news.title})
   }
 
   buy() {

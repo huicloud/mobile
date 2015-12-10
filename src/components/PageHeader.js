@@ -59,7 +59,7 @@ export default class PageHeader extends BaseComponent {
     } else if (typeof this.props.title === 'function') {
       return this.props.title();
     } else if (typeof this.props.title === 'string') {
-      return <Text style={this.getStyles('title')}>{this.props.title}</Text>;
+      return <Text style={this.getStyles('title')}>{this.props.title.length > 15 ? this.props.title.substring(0, 15) + '...': this.props.title}</Text>;
     }
   }
 
@@ -73,7 +73,10 @@ export default class PageHeader extends BaseComponent {
 
   render() {
     return (
-      <View style={[{backgroundColor: baseStyle.HEADER_BACKGROUND_COLOR, height: 40}, Platform.OS === 'ios' && {paddingTop: 20, height: 60}]}>
+      <View style={[
+      {backgroundColor: baseStyle.HEADER_BACKGROUND_COLOR, height: 40},
+      (Platform.OS === 'ios' || Platform.OS === 'android' && Platform.Version >= 19) && {paddingTop: 20, height: 60},
+      ]}>
         <View style={this.getStyles('container')}>
           <View style={{flex: 1, flexDirection: 'column', alignItems: 'stretch'}}>
             {this._renderTitle()}
@@ -100,7 +103,11 @@ export class HeaderTabBar extends BaseComponent {
           }}
           onChangeTab={(index) => {
             this.props.onChangeTab && this.props.onChangeTab(index);
-            this.props.refTabBar && this.props.refTabBar.selectTab(index);
+            let refTabBar = this.props.refTabBar;
+            if (typeof refTabBar === 'function') {
+              refTabBar = refTabBar();
+            }
+            refTabBar && refTabBar.selectTab(index);
           }}>
           {this.props.tabItems.map((itemTitle, index) => <StaticTabBarItem key={index} title={itemTitle}></StaticTabBarItem>)}
         </TabBar>

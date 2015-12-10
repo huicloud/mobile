@@ -1,7 +1,7 @@
 import React, {ScrollView, View, Text, Component, TouchableHighlight, StyleSheet, ListView, Image} from 'react-native';
 import BaseTab from './BaseTab.js';
 
-import TabBar, {TabBarItem, StaticTabBarItem} from '../../components/TabBar.js';
+import TabBar, {TabBarItem, StaticTabBarItem, ScrollableTabBar} from '../../components/TabBar.js';
 import Button from '../../components/Button.js';
 import StockList from '../../components/StockList.js';
 import StockListItem from '../../components/StockListItem.js';
@@ -31,7 +31,7 @@ export default class QuotationTab extends BaseTab {
       <HeaderTabBar
         style={{marginRight: 40}}
         tabItems={['自选', '沪深', '板块', '沪港通', '全球', '全部']}
-        refTabBar={this.state.tabBar}>
+        refTabBar={() => this.tabBar}>
       </HeaderTabBar>
     );
   }
@@ -39,7 +39,7 @@ export default class QuotationTab extends BaseTab {
   renderContent() {
     return (
       <View style={{flex: 1}}>
-        <TabBar tabBarHidden={true} style={{container: {backgroundColor: baseStyle.DEFAULT_BACKGROUND_COLOR}}} ref={(ref) => ref && !this.state.tabBar && (this.setState({tabBar: ref}))}>
+        <TabBar tabBarHidden={true} style={{container: {backgroundColor: baseStyle.DEFAULT_BACKGROUND_COLOR}}} ref={(ref) => ref && !this.tabBar && (this.tabBar = ref)}>
           <StaticTabBarItem title="自选">
             <ScrollView>
               <PersonalStocksTab navigator={this.props.navigator}></PersonalStocksTab>
@@ -53,6 +53,12 @@ export default class QuotationTab extends BaseTab {
         </TabBar>
       </View>
     );
+
+    //return <View style={{height: 400}}><ScrollableTabBar style={{height: 400}} onChangeTab={(event) => console.log(event)}>
+    //  <View tabLabel="test1" style={{width: 414}}><Text>test1</Text></View>
+    //  <View tabLabel="test2" style={{width: 414}}><Text>test2</Text></View>
+    //  <View tabLabel="test3" style={{width: 414}}><Text>test3</Text></View>
+    //</ScrollableTabBar></View>
   }
 }
 
@@ -81,7 +87,7 @@ class PersonalStocksTab extends DZHYunComponent {
 
     // 订阅查询到的股票数据，转换后更新缓存
     let stocks = data.map(eachData => {
-      let stock = eachData.Data;
+      let stock = eachData.Data || {};
       stock.Obj = eachData.Obj;
       return stock;
     });
@@ -416,6 +422,10 @@ class BlockTab extends DZHYunComponent {
 
     // 初始请求
     this._query(this.state.desc);
+  }
+
+  componentWillUnmount() {
+    this.timeoutId && clearTimeout(this.timeoutId);
   }
 
   rowHasChanged(r1, r2) {

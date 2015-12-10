@@ -40,7 +40,7 @@ export default class NewsList extends BaseComponent {
       borderBottomColor: baseStyle.DEFAULT_BORDER_COLOR
     },
     listItemTitle: {
-      fontSize: 16,
+      fontSize: 20,
       //fontWeight: '200',
       marginBottom: 10,
       color: baseStyle.DEFAULT_TEXT_COLOR
@@ -90,7 +90,7 @@ export default class NewsList extends BaseComponent {
           {/*<Text style={this.getStyles('listItemContext')}>{rowData.context}</Text>*/}
           <View style={this.getStyles('listItemFooter')}>
             <Text style={this.getStyles('listItemSource')}>{rowData.source}</Text>
-            <DateFormatText style={this.getStyles('listItemTime')} format="YYYY-MM-DD">{rowData.date}</DateFormatText>
+            <DateFormatText style={this.getStyles('listItemTime')} format="MM-DD HH:mm">{rowData.date}</DateFormatText>
           </View>
         </View>
       </TouchableHighlight>

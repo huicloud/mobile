@@ -19,8 +19,8 @@ export default class DZHYunConnection {
     this.requestQueue = {};
   }
 
-  _createRequest(qid, service, data, subscribe, callback) {
-    return Object.assign({qid, service, data, subscribe, callback}, {
+  _createRequest(qid, service, data, subscribe, callback, pauseable) {
+    return Object.assign({qid, service, data, subscribe, callback, pauseable}, {
       cancel: this.cancel.bind(this, qid)
     });
   }
@@ -50,11 +50,13 @@ export default class DZHYunConnection {
   }
 
   _onopen() {
-
     console.debug(Date.now() + ' connection open');
 
     // 连接open后将请求队列中的请求统一请求一次
-    Object.keys(this.requestQueue).forEach(qid => this._send(this.requestQueue[qid]));
+    Object.keys(this.requestQueue).forEach(qid => {
+      let request = this.requestQueue[qid];
+      request.isPause !== true && this._send(this.requestQueue[qid]);
+    });
   }
 
   _onerror() {
@@ -78,7 +80,7 @@ export default class DZHYunConnection {
       let data = JSON.parse(event.data) || {},
         qid = data.Qid,
         request = this.requestQueue[qid];
-      if (request) {
+      if (request && request.isPause !== true) {
         let callback = request.callback;
         if (typeof callback === 'function') {
           callback(data.Data);
@@ -144,13 +146,16 @@ export default class DZHYunConnection {
   }
 
   isOpened() {
-    const state = this.getReadyState();
-    return state === DZHYunConnection.OPEN;
+    return this.getReadyState() === DZHYunConnection.OPEN;
   }
 
-  request(service, data, callback) {
+  isPause() {
+    return this._pause === true;
+  }
+
+  request(service, data, callback, pauseable) {
     let qid = this._generateQid(),
-      request = this._createRequest(qid, service, data, data.sub === 1, callback);
+      request = this._createRequest(qid, service, data, data.sub === 1, callback, pauseable);
 
     // 创建连接
     this.getChannel();
@@ -167,6 +172,16 @@ export default class DZHYunConnection {
   _send(request) {
     console.debug(Date.now() + ' send:' + this._getRequestUrl(request.service, request.data, request.qid));
     this._channel.send(this._getRequestUrl(request.service, request.data, request.qid));
+
+    // 处理请求超时,如果10秒内未响应请求,则判断为超时,将请求从队列中移除
+    request.subscribe !== true && setTimeout(() => {
+      let timeoutRequest = this.requestQueue[request.qid];
+      if (timeoutRequest && timeoutRequest.isPause !== true) {
+        timeoutRequest.callback(new Error('request timeout'));
+        delete this.requestQueue[request.qid];
+      }
+    }, 10 * 1000);
+
   }
 
   subscribe(service, data, callback) {
@@ -175,9 +190,12 @@ export default class DZHYunConnection {
     return this.request(service, data, callback);
   }
 
-  _cancelRequest(qid) {
-    this.isOpened() && this._channel.send('/cancel?qid=' + qid);
-    delete this.requestQueue[qid];
+  _cancelRequest(qid, keep) {
+    if (this.isOpened()) {
+      console.debug(Date.now() + ` cancel request[qid=${qid}]`);
+      this._channel.send('/cancel?qid=' + qid);
+    }
+    keep !== true ? delete this.requestQueue[qid] : void(0);
   }
 
   cancel(qid) {
@@ -196,6 +214,43 @@ export default class DZHYunConnection {
     this.cancel();
 
     this._channel && this._channel.close();
+  }
+
+  // 暂停所有请求推送
+  // @param {boolean=} keepSubscribe 保持订阅的请求,仅仅不再推送调用订阅的回调方法(慎用),默认false
+  pause(keepSubscribe = false) {
+
+    // 取消当前所有的请求,并且设置状态为暂停状态
+    Object.keys(this.requestQueue).forEach(qid => {
+      let request = this.requestQueue[qid];
+
+      // 如果请求能够暂停则取消请求
+      if (request.pauseable !== false) {
+        keepSubscribe === false && this._cancelRequest(qid, true);
+        request.isPause = true;
+      }
+    });
+
+    this._pause = true;
+  }
+
+  // 恢复暂停的请求推送
+  resume() {
+    this._pause = false;
+
+    // 连接打开状态则直接将中断的订阅请求重新发送,否则等待重新连接
+    if (this.isOpened()) {
+      Object.keys(this.requestQueue).forEach(qid => {
+        let request = this.requestQueue[qid];
+        if (request.isPause === true) {
+          request.isPause = false;
+          this._send(request);
+        }
+      });
+    } else {
+      Object.keys(this.requestQueue).forEach(qid => this.requestQueue[qid].isPause = false);
+      this.getChannel();
+    }
   }
 }
 
