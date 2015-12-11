@@ -1,4 +1,4 @@
-import React, {ScrollView, View, Text, Component, TouchableHighlight, StyleSheet, ListView, Image} from 'react-native';
+import React, {ScrollView, View, Text, Component, TouchableHighlight, StyleSheet, ListView, Image, } from 'react-native';
 import BaseTab from './BaseTab.js';
 
 import TabBar, {TabBarItem, StaticTabBarItem, ScrollableTabBar} from '../../components/TabBar.js';
@@ -159,7 +159,7 @@ class PersonalStocksTab extends DZHYunComponent {
       <TouchableHighlight key={rowData.Obj} onPress={() => this._onItemPress(rowData)}
                           underlayColor={baseStyle.HIGH_LIGHT_COLOR}>
         <View style={{borderBottomWidth: 1, borderBottomColor: baseStyle.DEFAULT_BORDER_COLOR}}>
-          <StockListItem {...rowData} style={{container: {borderBottomWidth: 0}, ratioContainer: {width: 75}, rise: {width: 60}}}></StockListItem>
+          <StockListItem {...rowData} style={{container: {borderBottomWidth: 0}}}></StockListItem>
           <View style={{flexDirection: 'row', paddingHorizontal: 10, paddingBottom: 5}}>
             {this._renderKeepItem('持仓:', rowData.ChiYouLiang, {precision: 0})}
             {this._renderKeepItem('市值:', dealModule.getMarketValue(rowData), {precision: 0})}
@@ -178,12 +178,7 @@ class PersonalStocksTab extends DZHYunComponent {
     )
   }
 
-  _renderRow(rowData) {
-    return (
-      <StockListItem key={rowData.Obj} {...rowData} style={{ratioContainer: {width: 75}, rise: {width: 60}}} onPress={() => this._onItemPress(rowData)}></StockListItem>
-    )
-  }
-  _renderStockList(title, data, renderRow = this._renderRow.bind(this)) {
+  _renderStockList(title, data, renderRow) {
     return data && data.length > 0 && (
         <View>
           <View

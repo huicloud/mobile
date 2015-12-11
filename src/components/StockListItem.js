@@ -2,10 +2,12 @@
  * 股票列表项
  * Created by jiagang on 15/11/2.
  */
-import React, {StyleSheet, View, TouchableHighlight, Animated} from 'react-native';
+import React, {StyleSheet, View, TouchableHighlight, Animated, Dimensions} from 'react-native';
 import BaseComponent from './BaseComponent.js';
 import StockFormatText from './StockFormatText.js';
 import * as baseStyle from './baseStyle.js';
+
+var deviceWidth = Dimensions.get('window').width;
 
 export default class StockListItem extends BaseComponent {
 
@@ -65,9 +67,9 @@ export default class StockListItem extends BaseComponent {
     },
     ratioContainer: {
       backgroundColor: baseStyle.GRAY,
-      paddingHorizontal: 10,
+      paddingHorizontal: 2,
       paddingVertical: 5,
-      width: 100,
+      width: deviceWidth < 350 ? 75 : 100,
       marginLeft: 20
     },
     ratioContainerUp: {
@@ -85,7 +87,7 @@ export default class StockListItem extends BaseComponent {
       fontSize: 16,
       color: '#777',
       textAlign: 'right',
-      width: 80
+      width: deviceWidth < 350 ? 60 : 80,
     },
     riseUp: {
       color: baseStyle.UP_COLOR
