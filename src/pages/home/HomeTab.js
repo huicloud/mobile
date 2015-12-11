@@ -71,9 +71,9 @@ export default class HomeTab extends BaseTab {
         </View>
         <View style={{backgroundColor: baseStyle.WHITE}}>
           <View style={{flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between'}}>
-            {this._renderItem('慧问', icon3, 'http://htg.yundzh.com?DZHSPECIAL=40')}
+            {this._renderItem('慧问', icon3, 'http://htg.yundzh.com/?DZHSPECIAL=40')}
             {this._renderItem('路演直播', icon2, 'http://htg.yundzh.com/ttch?DZHSPECIAL=40')}
-            {this._renderItem('微视频', icon6, 'http://shipin.yundzh.com?DZHSPECIAL=40')}
+            {this._renderItem('微视频', icon6, 'http://shipin.yundzh.com/?DZHSPECIAL=40')}
             {this._renderItem('新股申购', icon5, 'http://mnews.gw.com.cn/wap/news/xgfx/ns/ns_sg.html')}
           </View>
           <View style={{flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingBottom: 10}}>
