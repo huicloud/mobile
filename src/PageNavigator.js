@@ -7,7 +7,8 @@ import SearchPage from './pages/SearchPage.js';
 import StockQuotationPage from './pages/StockQuotationPage.js';
 import NewsDetailPage from './pages/NewsDetailPage.js';
 import StockInformationPage from './pages/StockInformationPage.js';
-import BlockDetailPage from './pages/BlockDetailPage.js'
+import BlockDetailPage from './pages/BlockDetailPage.js';
+import ExternalWebViewPage from './pages/ExternalWebViewPage.js';
 
 import * as baseStyle from './components/baseStyle.js';
 
@@ -20,7 +21,8 @@ export default class PageNavigator extends Component {
     StockQuotationPage,
     StockInformationPage,
     NewsDetailPage,
-    BlockDetailPage
+    BlockDetailPage,
+    ExternalWebViewPage
   };
 
   _renderScene(route, navigator) {
@@ -79,11 +81,11 @@ export default class PageNavigator extends Component {
             return route.sceneConfig;
           }
           let anmi = Navigator.SceneConfigs.HorizontalSwipeJump;
-          if (Platform.OS !== 'ios') {
+          //if (Platform.OS !== 'ios') {
             anmi.springFriction = 0;
             anmi.gestures = {};
             anmi.defaultTransitionVelocity = 10;
-          }
+          //}
           return anmi;
         }}>
       </Navigator>
