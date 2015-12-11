@@ -9,6 +9,7 @@ import {connection} from '../../components/dzhyun/DZHYunConnection';
 import DateFormatText from '../../components/DateFormatText.js';
 import StockStorageManager from '../../modules/StockStorageManager';
 import StockFormatText from '../../components/StockFormatText.js';
+import {PDFModule} from 'NativeModules';
 
 import newsImage1 from '../../images/news1.png';
 import newsImage2 from '../../images/news2.png';
@@ -92,7 +93,7 @@ class NewsList extends DZHYunComponent {
     top ? this._data.unshift(...data) : this._data.push(...data);
 
     let dataSource = this.state.dataSource || new ListView.DataSource(this);
-    this.setState({dataSource: dataSource.cloneWithRows(this._data)});
+    this.setState({dataSource: dataSource.cloneWithRows(Object.assign([], this._data))});
   }
 
   _getImageSource(news, rowNum) {
@@ -115,12 +116,11 @@ class NewsList extends DZHYunComponent {
     return (
       <TouchableHighlight
         onPress={this.openNewsPage.bind(this, rowData)}
-        underlayColor={baseStyle.HIGH_LIGHT_COLOR}
-        style={{borderBottomColor: baseStyle.LIGHT_GRAY, borderBottomWidth: 1}}>
-        <View style={{padding: 10, borderBottomWidth: 1, borderBottomColor: baseStyle.DEFAULT_BORDER_COLOR, flexDirection: 'row', alignItems: 'stretch'}}>
+        underlayColor={baseStyle.HIGH_LIGHT_COLOR}>
+        <View style={{padding: 10, borderBottomWidth: 1, borderBottomColor: baseStyle.LIGHTEN_GRAY, flexDirection: 'row', alignItems: 'stretch'}}>
           <StaticImage imageSource={this._getImageSource(rowData, rowID)} style={{flex: 1}}></StaticImage>
           <View style={{flex: 3, flexDirection: 'column', marginLeft: 10, justifyContent: 'space-between'}}>
-            <Text style={{flex: 1, fontSize: 20, marginBottom: 10, color: baseStyle.DEFAULT_TEXT_COLOR}}>{rowData.title}</Text>
+            <Text style={{flex: 1, fontSize: 18, marginBottom: 10, color: baseStyle.DEFAULT_TEXT_COLOR}}>{rowData.title}</Text>
             <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
               <Text style={{fontSize: 12, color: baseStyle.GRAY}}>{rowData.source}</Text>
               <DateFormatText style={{fontSize: 12, color: baseStyle.GRAY}} format="MM-DD HH:mm">{rowData.date}</DateFormatText>
@@ -136,7 +136,9 @@ class NewsList extends DZHYunComponent {
   }
 
   _hasMore() {
-    return !this._total || this._total > this._data.length;
+
+    // 避免数据过多,最多加载200条数据
+    return this._data.length < 200 && (!this._total || this._total > this._data.length);
   }
 
   _onEndReached() {
@@ -148,9 +150,15 @@ class NewsList extends DZHYunComponent {
   }
 
   _loadMoreData() {
-    let start = Math.max(this._total - this._data.length - 20, 0),
-      count = Math.min(this._total - this._data.length, 20);
-    connection.request(this.props.serviceUrl, {start, count, sort: 'DESC'}, (data) => this.adapt(data, false));
+    if (!this._loading) {
+      this._loading = true;
+      let start = Math.max(this._total - this._data.length - 20, 0),
+        count = Math.min(this._total - this._data.length, 20);
+      connection.request(this.props.serviceUrl, {start, count, sort: 'DESC'}, (data) => {
+        this.adapt(data, false);
+        this._loading = false;
+      });
+    }
   }
 
   shouldComponentUpdate(nextProps, nextState) {
@@ -184,6 +192,7 @@ class PersonStockNewsList extends Component {
     super(props);
 
     this._data = null;
+    this._requests = [];
 
     this.state = {
       message: '加载中...'
@@ -192,7 +201,7 @@ class PersonStockNewsList extends Component {
 
   _requestData(serviceUrl, objs) {
     return new Promise((resolve, reject) => {
-      connection.request(serviceUrl, {sub: 1, start: -10, obj: objs, sort: 'DESC'}, (data) => {
+      this._requests.push(connection.request(serviceUrl, {sub: 1, start: -10, obj: objs, sort: 'DESC'}, (data) => {
         if (data && !(data instanceof Error)) {
 
           if (this._data) {
@@ -213,7 +222,7 @@ class PersonStockNewsList extends Component {
         } else {
           resolve();
         }
-      })
+      }));
     })
   }
 
@@ -229,7 +238,11 @@ class PersonStockNewsList extends Component {
 
       this._stockMap = stockMap;
       if (objSet.size > 0) {
-        let objs = Array.from(objSet);
+
+        // https://github.com/facebook/react-native/issues/4385
+        // let objs = Array.from(objSet);
+        let objs = [];
+        objSet.forEach(obj => objs.push(obj));
 
         Promise.all([this._requestData('/news/stock', objs), this._requestData('/announcemt/stock', objs)]).then(([news, announcement]) => {
 
@@ -242,6 +255,22 @@ class PersonStockNewsList extends Component {
         this.setState({message: '没有自选股新闻和公告'});
       }
     });
+
+    this._updateListener = StockStorageManager.addUpdateListener((data) => {
+
+      // 更新股票信息
+      data.forEach((eachStock) => {
+        let stock = this._stockMap[eachStock.Obj];
+        stock && Object.assign(stock, eachStock);
+      });
+
+      this.forceUpdate();
+    });
+  }
+
+  componentWillUnmount() {
+    this._requests.forEach(request => request.cancel());
+    this._updateListener && this._updateListener.remove();
   }
 
   addData(data, top) {
@@ -265,9 +294,8 @@ class PersonStockNewsList extends Component {
     return (
       <TouchableHighlight
         onPress={this.openNewsPage.bind(this, rowData)}
-        underlayColor={baseStyle.HIGH_LIGHT_COLOR}
-        style={{borderBottomColor: baseStyle.LIGHT_GRAY, borderBottomWidth: 1}}>
-        <View>
+        underlayColor={baseStyle.HIGH_LIGHT_COLOR}>
+        <View style={{borderBottomColor: baseStyle.LIGHTEN_GRAY, borderBottomWidth: 1}}>
           <View style={{padding: 10, flexDirection: 'row', justifyContent: 'flex-start'}}>
             <Text style={{color: baseStyle.GRAY}}>{stock.ZhongWenJianCheng}</Text>
             <Text style={{color, marginLeft: 20}}>{stock.ZuiXinJia}</Text>
@@ -275,7 +303,7 @@ class PersonStockNewsList extends Component {
           </View>
           <View style={{padding: 10, borderBottomWidth: 1, borderBottomColor: baseStyle.DEFAULT_BORDER_COLOR, flexDirection: 'row', alignItems: 'stretch'}}>
             <View style={{flex: 3, flexDirection: 'column', justifyContent: 'space-between'}}>
-              <Text style={{flex: 1, fontSize: 20, marginBottom: 10, color: baseStyle.DEFAULT_TEXT_COLOR}}>{rowData.title}</Text>
+              <Text style={{flex: 1, fontSize: 18, marginBottom: 10, color: baseStyle.DEFAULT_TEXT_COLOR}}>{rowData.title}</Text>
               <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
                 <Text style={{fontSize: 12, color: baseStyle.GRAY}}>{rowData.source}</Text>
                 <DateFormatText style={{fontSize: 12, color: baseStyle.GRAY}} format="MM-DD HH:mm">{rowData.date}</DateFormatText>

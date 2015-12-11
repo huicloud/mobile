@@ -40,7 +40,7 @@ export default class NewsList extends BaseComponent {
       borderBottomColor: baseStyle.DEFAULT_BORDER_COLOR
     },
     listItemTitle: {
-      fontSize: 20,
+      fontSize: 18,
       //fontWeight: '200',
       marginBottom: 10,
       color: baseStyle.DEFAULT_TEXT_COLOR
