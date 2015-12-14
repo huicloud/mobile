@@ -589,9 +589,18 @@
 					"$(inherited)",
 					"$(J2OBJC_HOME)/lib",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-lprotobuf",
+					"-lc++",
+					"-licucore",
+					"-lprotobuf_runtime",
+					"-ljre_emul",
+				);
 				PRODUCT_NAME = YunSdk;
 				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -612,9 +621,18 @@
 					"$(inherited)",
 					"$(J2OBJC_HOME)/lib",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-lprotobuf",
+					"-lc++",
+					"-licucore",
+					"-lprotobuf_runtime",
+					"-ljre_emul",
+				);
 				PRODUCT_NAME = YunSdk;
 				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
 			};
 			name = Release;
 		};

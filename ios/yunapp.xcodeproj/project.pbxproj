@@ -23,6 +23,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		9023B5C21C1E8E3100629F86 /* libYunSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D789681BEA0BB200E279FE /* libYunSdk.a */; };
 		903F60041C02F1AC00A97430 /* libDzhChart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 903F5FF71C02F19C00A97430 /* libDzhChart.a */; };
 		90B8607A1BF9E7610028CA3B /* libDzhWebView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B8606E1BF9E7540028CA3B /* libDzhWebView.a */; };
 		90D789461BE6FE7F00E279FE /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90D7893E1BE6FE7F00E279FE /* Entypo.ttf */; };
@@ -33,13 +34,6 @@
 		90D7894B1BE6FE7F00E279FE /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90D789431BE6FE7F00E279FE /* MaterialIcons.ttf */; };
 		90D7894C1BE6FE7F00E279FE /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90D789441BE6FE7F00E279FE /* Octicons.ttf */; };
 		90D7894D1BE6FE7F00E279FE /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90D789451BE6FE7F00E279FE /* Zocial.ttf */; };
-		90D789861BEA172F00E279FE /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D789851BEA172F00E279FE /* libicucore.tbd */; };
-		90D7898A1BEA174E00E279FE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D789891BEA174E00E279FE /* libz.tbd */; };
-		90D7898C1BEA175A00E279FE /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D7898B1BEA175A00E279FE /* libc++.tbd */; };
-		90D7898D1BEA17F400E279FE /* libYunSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D789681BEA0BB200E279FE /* libYunSdk.a */; };
-		90D789AA1BEA1AEF00E279FE /* libjre_emul.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D789A81BEA1AEF00E279FE /* libjre_emul.a */; };
-		90D789AB1BEA1AEF00E279FE /* libprotobuf_runtime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D789A91BEA1AEF00E279FE /* libprotobuf_runtime.a */; };
-		90D789DA1BEC79C100E279FE /* res in Resources */ = {isa = PBXBuildFile; fileRef = 90D789D91BEC79C000E279FE /* res */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -176,13 +170,6 @@
 		90D789441BE6FE7F00E279FE /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
 		90D789451BE6FE7F00E279FE /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
 		90D789631BEA0BB200E279FE /* YunSdk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = YunSdk.xcodeproj; path = ../Libraries/YunSdk/YunSdk.xcodeproj; sourceTree = "<group>"; };
-		90D789851BEA172F00E279FE /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
-		90D789871BEA173E00E279FE /* libprotobuf.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libprotobuf.tbd; path = usr/lib/libprotobuf.tbd; sourceTree = SDKROOT; };
-		90D789891BEA174E00E279FE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		90D7898B1BEA175A00E279FE /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		90D789A81BEA1AEF00E279FE /* libjre_emul.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjre_emul.a; path = ../../../Library/J2Objc/lib/libjre_emul.a; sourceTree = "<group>"; };
-		90D789A91BEA1AEF00E279FE /* libprotobuf_runtime.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprotobuf_runtime.a; path = ../../../Library/J2Objc/lib/libprotobuf_runtime.a; sourceTree = "<group>"; };
-		90D789D91BEC79C000E279FE /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; name = res; path = ../android/app/src/main/res; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,14 +184,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9023B5C21C1E8E3100629F86 /* libYunSdk.a in Frameworks */,
 				903F60041C02F1AC00A97430 /* libDzhChart.a in Frameworks */,
 				90B8607A1BF9E7610028CA3B /* libDzhWebView.a in Frameworks */,
-				90D789AA1BEA1AEF00E279FE /* libjre_emul.a in Frameworks */,
-				90D789AB1BEA1AEF00E279FE /* libprotobuf_runtime.a in Frameworks */,
-				90D789861BEA172F00E279FE /* libicucore.tbd in Frameworks */,
-				90D7898A1BEA174E00E279FE /* libz.tbd in Frameworks */,
-				90D7898C1BEA175A00E279FE /* libc++.tbd in Frameworks */,
-				90D7898D1BEA17F400E279FE /* libYunSdk.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
@@ -355,13 +337,6 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				90D789D91BEC79C000E279FE /* res */,
-				90D789A81BEA1AEF00E279FE /* libjre_emul.a */,
-				90D789A91BEA1AEF00E279FE /* libprotobuf_runtime.a */,
-				90D7898B1BEA175A00E279FE /* libc++.tbd */,
-				90D789891BEA174E00E279FE /* libz.tbd */,
-				90D789871BEA173E00E279FE /* libprotobuf.tbd */,
-				90D789851BEA172F00E279FE /* libicucore.tbd */,
 				90D7893D1BE6FE7F00E279FE /* Fonts */,
 				13B07FAE1A68108700A75B9A /* yunapp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
@@ -663,7 +638,6 @@
 				90D7894D1BE6FE7F00E279FE /* Zocial.ttf in Resources */,
 				90D7894B1BE6FE7F00E279FE /* MaterialIcons.ttf in Resources */,
 				90D789471BE6FE7F00E279FE /* EvilIcons.ttf in Resources */,
-				90D789DA1BEC79C100E279FE /* res in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				90D789481BE6FE7F00E279FE /* FontAwesome.ttf in Resources */,
 			);
@@ -777,12 +751,21 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(J2OBJC_HOME)/include",
 				);
 				INFOPLIST_FILE = yunapp/Info.plist;
 				J2OBJC_HOME = "$(USER_LIBRARY_DIR)/J2Objc";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(J2OBJC_HOME)/lib";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-lprotobuf",
+					"-lc++",
+					"-licucore",
+					"-lprotobuf_runtime",
+					"-ljre_emul",
+				);
 				PRODUCT_NAME = yunapp;
 			};
 			name = Debug;
@@ -797,12 +780,21 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(J2OBJC_HOME)/include",
 				);
 				INFOPLIST_FILE = yunapp/Info.plist;
 				J2OBJC_HOME = "$(USER_LIBRARY_DIR)/J2Objc";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(J2OBJC_HOME)/lib";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-lprotobuf",
+					"-lc++",
+					"-licucore",
+					"-lprotobuf_runtime",
+					"-ljre_emul",
+				);
 				PRODUCT_NAME = yunapp;
 			};
 			name = Release;
